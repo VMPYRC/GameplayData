@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSplinterChance value="0.5">
+      <!--Range:  0 - 1  Description:  The chance that the Sim will get a Splinter after WooHoo-->
+    </kSplinterChance>
+    <kSplinterChanceTraitsIncrease value="Unlucky, Clumsy">
+      <!--Range:  TraitNames[]  Description:  Traits that increase your chance of getting a splinter-->
+    </kSplinterChanceTraitsIncrease>
+    <kSplinterChanceTraitsDecrease value="Lucky">
+      <!--Range:  TraitNames[]  Description:  Traits that decrease your chance of getting a splinter-->
+    </kSplinterChanceTraitsDecrease>
+    <kSplinterChanceMultiplierIncrease value="1.75">
+      <!--Range:  0+  Description:  The multiplier for the increased chance due to traits-->
+    </kSplinterChanceMultiplierIncrease>
+    <kSplinterChanceMultiplierDecrease value="0.5">
+      <!--Range:  0+  Description:  The multiplier for the decreased chance due to traits-->
+    </kSplinterChanceMultiplierDecrease>
+  </Current_Tuning>
+</base>

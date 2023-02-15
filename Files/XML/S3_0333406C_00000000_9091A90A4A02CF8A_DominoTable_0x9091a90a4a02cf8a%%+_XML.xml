@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinutesToMove value="8">
+      <!--Minutes before a sim makes a move. A random number is chosen between +-2 of this value. Positive float. Units: Sim Minutes. Constraint: Atleast 2. Initial GPE Default: 12.0f-->
+    </kMinutesToMove>
+    <kMeditativeFocusScoreBump value="2">
+      <!--Added to the score of winning if the Sim has Mediative Focus buff. This increases chance of winning. Positive int. Initial GPE Default: 2-->
+    </kMeditativeFocusScoreBump>
+    <kGeniusTraitScoreBump value="10">
+      <!--Added to the score of winning if the Sim has Genius Trait. This increases chance of winning. Positive int. Initial GPE Default: 2-->
+    </kGeniusTraitScoreBump>
+    <kAbsentMindedTraitScoreBump value="5">
+      <!--Subtracted to the score of winning if they have the Absent Minded Trait. This decreases chance of winning. Positive int. Initial GPE Default: 2-->
+    </kAbsentMindedTraitScoreBump>
+    <kLuckScoreBump value="5">
+      <!--Added or Subtracted to the chance of winning score, based on if the Sim has Lucky or Unlucky (respectively) This increases/decreases chance of winning. Positive int. Initial GPE Default: 2-->
+    </kLuckScoreBump>
+    <kScoreSkillMultiplier value="10">
+      <!--This is a multiplier on how much logic/chess skill matters to winning the game.  Increase this value to make Sims wit higher skill to win more often. Default: 10-->
+    </kScoreSkillMultiplier>
+    <kFeelingLuckyScoreBump value="2">
+      <!--Added or Subtracted to the chance of winning score, based on if the Sim has the Feeling Lucky or Feeling Unlucky buff (respectively) This increases/decreases chance of winning. Positive int. Initial GPE Default: 2-->
+    </kFeelingLuckyScoreBump>
+    <kChanceToReact value="0.25">
+      <!--Chance that a sim reacts to the current board position. Positive float. Range [0, 1]. Initial GPE Default: 0.25f-->
+    </kChanceToReact>
+    <kBaseScore value="10">
+      <!--Base score. Every sim has this to given complete idiots with no buffs and bad traits some chance of winning. Positive int. Initial GPE Default: 10-->
+    </kBaseScore>
+    <kDistanceToWatch value="1.5">
+      <!--Distance To watch other sims playing dominoes. Positive float. Initial GPE deafult: 1.5f-->
+    </kDistanceToWatch>
+    <kWaitTimeoutForDominoes value="20">
+      <!--Range:  Sim minutes  Description:  This tunable decides how long Sims must wait for other Sims at the Dominoes table before carrying on with their game (GPE Default: 20 minutes)-->
+    </kWaitTimeoutForDominoes>
+    <kMinDominoTableRetreatDistance value="3">
+      <!--Distance (minimum) that Sims will walk away from Dominoes table if a game is starting to which they are not invited.-->
+    </kMinDominoTableRetreatDistance>
+    <kMaxDominoTableRetreatDistance value="5">
+      <!--Distance (maximum) that Sims will walk away from Dominoes table if a game is starting to which they are not invited.-->
+    </kMaxDominoTableRetreatDistance>
+    <kChanceToChangePose value="0.05">
+      <!--Chance that a sim changes pose. Positive float. Range [0, 1]. Initial GPE Default: 0.05f-->
+    </kChanceToChangePose>
+  </Current_Tuning>
+</base>

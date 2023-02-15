@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxDistance value="4">
+      <!--Description:  Maximum distance the sim will go away from the bar when tending it-->
+    </kMaxDistance>
+    <kMinRadiusDistance value="0.5">
+      <!--Description:  When the sim Routes back to the bar they won't get any closer than this-->
+    </kMinRadiusDistance>
+    <kMaxRadiusDistance value="3">
+      <!--Description:  When the sim Routes back to the bar they will route at least this close-->
+    </kMaxRadiusDistance>
+    <kMinWanderDistance value="3">
+      <!--Description:  When the sim wanders they will walk at least this far-->
+    </kMinWanderDistance>
+    <kMaxWanderDistance value="4">
+      <!--Description:  Maximum distance the sim will walk when they wander-->
+    </kMaxWanderDistance>
+    <kWanderChance value="50">
+      <!--Description:  Chance sim will wander after an animation loop-->
+    </kWanderChance>
+    <kLookAtSimChance value="40">
+      <!--Range:  0 - 100  Description:  Chance sim will look at a nearby sim, or if none turn-->
+    </kLookAtSimChance>
+    <kMaxTurnToDistance value="6">
+      <!--Description:  A sim needs to be this close in order to consider facing them-->
+    </kMaxTurnToDistance>
+    <kChanceToStandBehindBar value="50">
+      <!--Range: 1-100 Description:  This is the chance sim will stand behind bar-->
+    </kChanceToStandBehindBar>
+    <kSimMinBehindBar value="30">
+      <!--Range:  1-x  Description:  Time in Sim minutes sim will stand behind counter playing random idle loop-->
+    </kSimMinBehindBar>
+  </Current_Tuning>
+</base>

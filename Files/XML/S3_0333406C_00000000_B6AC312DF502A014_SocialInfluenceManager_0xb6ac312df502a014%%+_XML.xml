@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinSimsForGroup value="0">
+      <!--The minimum number of Sims required for a group.-->
+    </kMinSimsForGroup>
+    <kMaxSimsForGroup value="0">
+      <!--The maximum number of Sims required for a group.-->
+    </kMaxSimsForGroup>
+    <kMakeAGroupChance value="0,0,0">
+      <!--Range 0-100 (NOT 0.0-1.0) : The chances that a group will occur when an alarm triggers. Nerds - Rebels - Socialites-->
+    </kMakeAGroupChance>
+    <kSameLotGrouping value="False">
+      <!--For Testing Only : This is a switch so that we only find sims on the same lot as the actor.-->
+    </kSameLotGrouping>
+    <kAutonomyPreGroupHour value="0">
+      <!--The number of hours before a group would form to start bringing Sims to the lot.-->
+    </kAutonomyPreGroupHour>
+    <kChatScoringModifier value="0">
+      <!--The multiplier for the scoring function to perform the influential chats. 2 is pretty large already.-->
+    </kChatScoringModifier>
+    <kAddTraitsToSims value="False">
+      <!--For Testing Only : This is a switch so that we will add all influence traits to all sims.-->
+    </kAddTraitsToSims>
+  </Current_Tuning>
+</base>

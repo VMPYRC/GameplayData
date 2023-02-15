@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kServiceTuning>
+      <kMaxNumNPCsInPool value="1">
+        <!--Max num NPCs at once in service-->
+      </kMaxNumNPCsInPool>
+      <kCost value="50">
+        <!--Cost of service-->
+      </kCost>
+      <kIsEmergencyService value="False">
+        <!--If true this service charges kCost only if falsely called, otherwise free.-->
+      </kIsEmergencyService>
+      <kIsRecurrent value="False">
+        <!--Whether the service is recurrent (true) or one-off (false).  Recurrent services are the only type which can be cancelled through the phone dialog.-->
+      </kIsRecurrent>
+      <kAlwaysTryToSendSameSim value="True">
+        <!--Whether or not the service always tries to send the same NPC to a specific household-->
+      </kAlwaysTryToSendSameSim>
+    </kServiceTuning>
+    <kGraveyardShiftStart value="1">
+      <!--Range:  Less than kDayShiftStart  Description:  The military time sim hour that the Graveyard shift starts-->
+    </kGraveyardShiftStart>
+    <kDayShiftStart value="9">
+      <!--Range: between kGraveyardShiftStart and kNightShiftStart  Description:  The military time sim hour that the Day shift starts-->
+    </kDayShiftStart>
+    <kNightShiftStart value="17">
+      <!--Range:  higher than kDayShiftStart and kGraveyardShiftStart  Description:  Day change MUST occur during the night shift. The military time sim hour that the Night shift starts-->
+    </kNightShiftStart>
+    <kOutfitTuning>
+      <kAdultMaleUniformNames value="amEP10ResortWorkerBeachFrontDesk01,amEP10ResortWorkerSpanishFrontDesk01,amEP10ResortWorkerModernFrontDesk01,amEP10ResortWorkerSwimsuitFrontDesk01,amEP10ResortWorkerFormalFrontDesk01">
+        <!--Adult male Resort uniform package names.  Verify outfits work before checking in additions.-->
+      </kAdultMaleUniformNames>
+      <kAdultFemaleUniformNames value="afEP10ResortWorkerBeachFrontDesk01,afEP10ResortWorkerSpanishFrontDesk01,afEP10ResortWorkerModernFrontDesk01,afEP10ResortWorkerSwimsuitFrontDesk01,afEP10ResortWorkerFormalFrontDesk01">
+        <!--Adult female Resort uniform package names.  Verify outfits work before checking in additions.-->
+      </kAdultFemaleUniformNames>
+      <kElderMaleUniformNames value="emEP10ResortWorkerBeachFrontDesk01,emEP10ResortWorkerSpanishFrontDesk01,emEP10ResortWorkerModernFrontDesk01,emEP10ResortWorkerSwimsuitFrontDesk01,emEP10ResortWorkerFormalFrontDesk01">
+        <!--Elder male Resort uniform package names.  Verify outfits work before checking in additions.-->
+      </kElderMaleUniformNames>
+      <kElderFemaleUniformNames value="efEP10ResortWorkerBeachFrontDesk01,efEP10ResortWorkerSpanishFrontDesk01,efEP10ResortWorkerModernFrontDesk01,efEP10ResortWorkerSwimsuitFrontDesk01,efEP10ResortWorkerFormalFrontDesk01">
+        <!--Elder female Resort uniform package names.  Verify outfits work before checking in additions.-->
+      </kElderFemaleUniformNames>
+    </kOutfitTuning>
+    <kOutfitStyleNames value="Style1, Style2, Style3, Style5, Style6">
+      <!--String Keys that match each outfit style you put in OutfitTuning.  All keys should live here Gameplay/ResortOutfits/CustomOutfitStyle.  number of entries must match number of entries in tunable kAdultMaleUniformNames-->
+    </kOutfitStyleNames>
+  </Current_Tuning>
+</base>

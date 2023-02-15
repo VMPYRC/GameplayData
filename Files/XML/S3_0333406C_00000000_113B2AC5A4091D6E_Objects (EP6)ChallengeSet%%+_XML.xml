@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Objects (EP6)</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>16</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>517</CompletionConditionId>
+      <InputNumber>10000</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform From Tips on Pool Table and Make $n Simoleans</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>EarnNSimoleansFromTipsPerformingTrickShotsFeedback</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotTips</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>17</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/00715cb7-3e8a-4935-9fa9-9792e1cbd199:Name</NameKey>
+    <Name>Pool Performer</Name>
+    <SetName>Objects (EP6)</SetName>
+    <ChallengeGuid>00715cb7-3e8a-4935-9fa9-9792e1cbd199</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>16</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/00715cb7-3e8a-4935-9fa9-9792e1cbd199:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\pool_090.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_platinum_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>75</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>417</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>10</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Put out $n Snack Bowls</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CountFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPutOutSnackBowl</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>76</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/0dcf772b-81e5-4df1-98e2-0745c4f3b8bf:Name</NameKey>
+    <Name>Snick Snaker</Name>
+    <SetName>Objects (EP6)</SetName>
+    <ChallengeGuid>0dcf772b-81e5-4df1-98e2-0745c4f3b8bf</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>75</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/0dcf772b-81e5-4df1-98e2-0745c4f3b8bf:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\other_085.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>79</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>374</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Play A Four Player Game Of Pool</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPlayAFourPlayerGameOfPool</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>80</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/0ea9d963-4b37-43d1-85e1-c45553c45b03:Name</NameKey>
+    <Name>Two on Two</Name>
+    <SetName>Objects (EP6)</SetName>
+    <ChallengeGuid>0ea9d963-4b37-43d1-85e1-c45553c45b03</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>79</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/0ea9d963-4b37-43d1-85e1-c45553c45b03:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\pool_091.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>648</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>513</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>5</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Play 4 Player Domonio</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPlayDomino4P</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>649</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/6abdcc89-4bfd-4742-887c-e10924a4aa5b:Name</NameKey>
+    <Name>Oh Oh Domino!</Name>
+    <SetName>Objects (EP6)</SetName>
+    <ChallengeGuid>6abdcc89-4bfd-4742-887c-e10924a4aa5b</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>648</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/6abdcc89-4bfd-4742-887c-e10924a4aa5b:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\dominoes_75.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>789</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>398</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Play Some Golf at $Category</DisplayName>
+      <KeyValue>DrivingRangeGolfTee</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ObjectMatchesCategoryFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGolfPlaySomeGolf</TriggerEvent>
+      <SubjectType>ObjectCategory</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>791</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>792</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/86360b6f-a406-4eaf-b427-889a403056a0:Name</NameKey>
+    <Name>Iron Swing</Name>
+    <SetName>Objects (EP6)</SetName>
+    <ChallengeGuid>86360b6f-a406-4eaf-b427-889a403056a0</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>789</LogicString>
+    <FailureString>(791OrOP792)</FailureString>
+    <DescriptionKey>Gameplay/Challenges/86360b6f-a406-4eaf-b427-889a403056a0:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\golf_79.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>928</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>433</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Ride the Electro Dance Shpere</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRideEDS</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>929</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <StringEnumValue>SingedElectricity</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>930</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>13271263770231523456</EnumValue>
+      <StringEnumValue>Nauseous</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/a1ad30e1-7a67-4815-81b3-ac22f2612f93:Name</NameKey>
+    <Name>Shocking Dismount</Name>
+    <SetName>Objects (EP6)</SetName>
+    <ChallengeGuid>a1ad30e1-7a67-4815-81b3-ac22f2612f93</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(928AndOP929)</LogicString>
+    <FailureString>930</FailureString>
+    <DescriptionKey>Gameplay/Challenges/a1ad30e1-7a67-4815-81b3-ac22f2612f93:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\electrodancesphere_078.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1009</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>437</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>10</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchSimStartFunction</StartFunctionName>
+      <DisplayName>Take Photo in photobooth with $Sim</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SimMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kTakenPhotoInPhotoBooth</TriggerEvent>
+      <SubjectType>Sim</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1010</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/b0f9d825-bfbf-4875-9cf8-0f3d8954894f:Name</NameKey>
+    <Name>Silly Shots</Name>
+    <SetName>Objects (EP6)</SetName>
+    <ChallengeGuid>b0f9d825-bfbf-4875-9cf8-0f3d8954894f</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>1009</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/b0f9d825-bfbf-4875-9cf8-0f3d8954894f:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\photobooth_089.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1013</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>377</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>5</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchSimStartFunction</StartFunctionName>
+      <DisplayName>Sing Karaoke With $Sim</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SimMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSingKaraokeWith</TriggerEvent>
+      <SubjectType>Sim</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1014</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/b4c5b5a8-7063-49c6-afbe-d0b474cc8a31:Name</NameKey>
+    <Name>Dynamic Duo</Name>
+    <SetName>Objects (EP6)</SetName>
+    <ChallengeGuid>b4c5b5a8-7063-49c6-afbe-d0b474cc8a31</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>1013</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/b4c5b5a8-7063-49c6-afbe-d0b474cc8a31:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\karaoke_081.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1371</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>438</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>10</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Woohoo in photobooth</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kWoohooInPhotoBooth</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1372</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/e26aa877-56b8-40ba-a24b-0f32345c6b46:Name</NameKey>
+    <Name>Picture a Kiss</Name>
+    <SetName>Objects (EP6)</SetName>
+    <ChallengeGuid>e26aa877-56b8-40ba-a24b-0f32345c6b46</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>1371</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/e26aa877-56b8-40ba-a24b-0f32345c6b46:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\photobooth_088.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1427</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>16389562289088301633</EnumValue>
+      <StringEnumValue>FeelingElvish</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1428</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/ecef8168-6845-42ab-8bb5-b065e5eb2ef6:Name</NameKey>
+    <Name>Singing Mischief</Name>
+    <SetName>Objects (EP6)</SetName>
+    <ChallengeGuid>ecef8168-6845-42ab-8bb5-b065e5eb2ef6</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>1427</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/ecef8168-6845-42ab-8bb5-b065e5eb2ef6:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\other_086.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1468</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>376</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>20</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Sing at a Karaoke Machine</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSingKaraoke</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1469</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/f5f61ed1-407f-4c96-90cb-30fd575e6ec5:Name</NameKey>
+    <Name>Center of Attention</Name>
+    <SetName>Objects (EP6)</SetName>
+    <ChallengeGuid>f5f61ed1-407f-4c96-90cb-30fd575e6ec5</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>1468</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/f5f61ed1-407f-4c96-90cb-30fd575e6ec5:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\karaoke_080.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

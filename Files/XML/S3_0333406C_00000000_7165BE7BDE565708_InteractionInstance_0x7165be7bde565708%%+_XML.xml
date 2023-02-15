@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumMinToWaitOnSync value="5">
+      <!--The Number Of Minutes a Sim will wait on the Wait for sync complete which is called before exiting the Run Function when it is a linked interaction .  This needs to be at least as long as the longest sequence of animations they might have to wait on, like the WooHoo sequence which isn't interruptible.-->
+    </kNumMinToWaitOnSync>
+    <kNumMinToWaitOnPreSync value="30">
+      <!--The Number Of Minutes a Sim will wait for another sim to begin the interaction that we are linked to.-->
+    </kNumMinToWaitOnPreSync>
+    <kNumMinToWaitOnSyncStart value="45">
+      <!--The Number Of Minutes a Sim will waits for the target Sim to be in the desiredSynchLevel during the run function of a linked interaction.-->
+    </kNumMinToWaitOnSyncStart>
+  </Current_Tuning>
+</base>

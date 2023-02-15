@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumNPCMeramidsOnDiveLot value="1">
+      <!--Desired Number of NPC Mermaids on a Dive Lot when the do appear-->
+    </kNumNPCMeramidsOnDiveLot>
+    <kPercentChanceOfMermaidOnDiveLot value="20">
+      <!--Percent Chance 0-100 for an NPC Mermaid to be brought to a Dive Lot-->
+    </kPercentChanceOfMermaidOnDiveLot>
+    <kMermaidHouseholdValidAges value="YoungAdult, Adult, Elder">
+      <!--List of valid ages for members of the Special NPC Mermaid Household-->
+    </kMermaidHouseholdValidAges>
+    <kTimeOfDayToRefreshMermaidHousehold value="17">
+      <!--The time of day when the Special NPC Mermaid Household gets refreshed and create and add new NPC mermaids to the household-->
+    </kTimeOfDayToRefreshMermaidHousehold>
+    <kNPCMermaidDiveSocialDelta value="-50">
+      <!--The social motive delta applied to NPC Mermaids when the Dive underwater. A float value less than 0 will promote more socials-->
+    </kNPCMermaidDiveSocialDelta>
+    <kMermaidHouseholdMembers value="4, 1">
+      <!--Number of NPC Mermaids in the Special NPC Mermaid Household. 0th index: EP10 world. 1st index: every other world.-->
+    </kMermaidHouseholdMembers>
+  </Current_Tuning>
+</base>

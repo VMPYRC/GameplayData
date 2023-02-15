@@ -1,0 +1,1071 @@
+<?xml version="1.0"?>
+<DemographicsChina>
+<Actions>
+  <Name></Name>
+  <Multiplier>1</Multiplier>
+  <Category>0</Category>
+  <Delay_Min>0</Delay_Min>
+  <Delay_Max>-1</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>Create Household</Name>
+  <Multiplier>0.9</Multiplier>
+  <Category>1</Category>
+  <Delay_Min>0.5</Delay_Min>
+  <Delay_Max>1.5</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>Create and Move In</Name>
+  <Multiplier>2</Multiplier>
+  <Category>1</Category>
+ </Actions>
+<Actions>
+  <Name>Emigrate Household</Name>
+  <Multiplier>1</Multiplier>
+  <Category>1</Category>
+ </Actions>
+<Actions>
+  <Name>Have Baby</Name>
+  <Multiplier>1.8</Multiplier>
+  <Category>2</Category>
+  <Delay_Min>0.5</Delay_Min>
+  <Delay_Max>1</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>Add Sim</Name>
+  <Multiplier>0</Multiplier>
+  <Category>2</Category>
+  <Delay_Min>0.5</Delay_Min>
+  <Delay_Max>1</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>Kill Sim</Name>
+  <Multiplier>1</Multiplier>
+  <Category>2</Category>
+ </Actions>
+<Actions>
+  <Name>Increase Vampire Population</Name>
+  <Multiplier>0</Multiplier>
+  <Category>15</Category>
+ </Actions>
+<Actions>
+  <Name>Move Out Household</Name>
+  <Multiplier>1</Multiplier>
+  <Category>3</Category>
+  <Delay_Min>0.5</Delay_Min>
+  <Delay_Max>1.5</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>Move In Household</Name>
+  <Multiplier>1.5</Multiplier>
+  <Category>3</Category>
+ </Actions>
+<Actions>
+  <Name>Move In Household (new)</Name>
+  <Multiplier>1.5</Multiplier>
+  <Category>3</Category>
+ </Actions>
+<Actions>
+  <Name>Merge Households</Name>
+  <Multiplier>1.5</Multiplier>
+  <Category>3</Category>
+ </Actions>
+<Actions>
+  <Name>Split Household</Name>
+  <Multiplier>1</Multiplier>
+  <Category>3</Category>
+ </Actions>
+<Actions>
+  <Name>Exercise</Name>
+  <Multiplier>1.5</Multiplier>
+  <Category>4</Category>
+  <Delay_Max>0.5</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>Slack Off</Name>
+  <Multiplier>1.5</Multiplier>
+  <Category>4</Category>
+ </Actions>
+<Actions>
+  <Name>Diet</Name>
+  <Multiplier>1.5</Multiplier>
+  <Category>4</Category>
+ </Actions>
+<Actions>
+  <Name>Pig Out</Name>
+  <Multiplier>1.5</Multiplier>
+  <Category>4</Category>
+ </Actions>
+<Actions>
+  <Name>Get Job (Teen)</Name>
+  <Multiplier>0</Multiplier>
+  <Category>5</Category>
+  <Delay_Max>0.75</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>Quit Job (Teen)</Name>
+  <Multiplier>0</Multiplier>
+  <Category>5</Category>
+ </Actions>
+<Actions>
+  <Name>Get Fired (Teen)</Name>
+  <Multiplier>0</Multiplier>
+  <Category>5</Category>
+ </Actions>
+<Actions>
+  <Name>Get Job (Adult)</Name>
+  <Multiplier>0</Multiplier>
+  <Category>5</Category>
+ </Actions>
+<Actions>
+  <Name>Quit Job (Adult)</Name>
+  <Multiplier>0</Multiplier>
+  <Category>5</Category>
+ </Actions>
+<Actions>
+  <Name>Get Fired (Adult)</Name>
+  <Multiplier>0</Multiplier>
+  <Category>5</Category>
+ </Actions>
+<Actions>
+  <Name>Get Job (Elder)</Name>
+  <Multiplier>0</Multiplier>
+  <Category>5</Category>
+ </Actions>
+<Actions>
+  <Name>Quit Job (Elder)</Name>
+  <Multiplier>0</Multiplier>
+  <Category>5</Category>
+ </Actions>
+<Actions>
+  <Name>Get Fired (Elder)</Name>
+  <Multiplier>0</Multiplier>
+  <Category>5</Category>
+ </Actions>
+<Actions>
+  <Name>Retire (Elder)</Name>
+  <Multiplier>0</Multiplier>
+  <Category>5</Category>
+ </Actions>
+<Actions>
+  <Name>Promote</Name>
+  <Multiplier>0</Multiplier>
+  <Category>6</Category>
+  <Delay_Max>0.5</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>Demote</Name>
+  <Multiplier>0</Multiplier>
+  <Category>6</Category>
+ </Actions>
+<Actions>
+  <Name>Befriend</Name>
+  <Multiplier>2</Multiplier>
+  <Category>7</Category>
+  <Delay_Max>2</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>Antagonize</Name>
+  <Multiplier>1</Multiplier>
+  <Category>7</Category>
+ </Actions>
+<Actions>
+  <Name>Romance</Name>
+  <Multiplier>3</Multiplier>
+  <Category>8</Category>
+  <Delay_Min>0.5</Delay_Min>
+  <Delay_Max>1.5</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>Throw House Party</Name>
+  <Multiplier>0</Multiplier>
+  <Category>4</Category>
+  <Delay_Min>9</Delay_Min>
+  <Delay_Max>100</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>Move to Smaller House</Name>
+  <Multiplier>1.5</Multiplier>
+  <Category>9</Category>
+  <Delay_Min>0.5</Delay_Min>
+  <Delay_Max>1.5</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>Move to Larger House</Name>
+  <Multiplier>3</Multiplier>
+  <Category>9</Category>
+  <Delay_Min>0.5</Delay_Min>
+  <Delay_Max>1.5</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>BefriendExisting</Name>
+  <Multiplier>4</Multiplier>
+  <Category>10</Category>
+  <Delay_Max>0.5</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>AntagonizeExisting</Name>
+  <Multiplier>2</Multiplier>
+  <Category>10</Category>
+ </Actions>
+<Actions>
+  <Name>RomanceExisting</Name>
+  <Multiplier>5</Multiplier>
+  <Category>11</Category>
+  <Delay_Min>0.5</Delay_Min>
+  <Delay_Max>0.9</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>Move in with Partner</Name>
+  <Multiplier>5</Multiplier>
+  <Category>12</Category>
+  <Delay_Min>0.5</Delay_Min>
+  <Delay_Max>1.5</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>CelebrityLevelUp</Name>
+  <Multiplier>0</Multiplier>
+  <Category>13</Category>
+ </Actions>
+<Actions>
+  <Name>CelebrityLevelDown</Name>
+  <Multiplier>0</Multiplier>
+  <Category>13</Category>
+ </Actions>
+<Actions>
+  <Name>Add Pet</Name>
+  <Multiplier>0</Multiplier>
+  <Category>16</Category>
+ </Actions>
+<Actions>
+  <Name>Remove Pet</Name>
+  <Multiplier>0</Multiplier>
+  <Category>16</Category>
+ </Actions>
+<Actions>
+  <Name>Add Horse</Name>
+  <Multiplier>0</Multiplier>
+  <Category>16</Category>
+ </Actions>
+<Actions>
+  <Name>Remove Horse</Name>
+  <Multiplier>0</Multiplier>
+  <Category>16</Category>
+ </Actions>
+<Actions>
+  <Name>Decrease Vampire Population</Name>
+  <Multiplier>0</Multiplier>
+  <Category>15</Category>
+ </Actions>
+<Actions>
+  <Name>Increase Fairy Population</Name>
+  <Multiplier>0</Multiplier>
+  <Category>15</Category>
+ </Actions>
+<Actions>
+  <Name>Decrease Fairy Population</Name>
+  <Multiplier>0</Multiplier>
+  <Category>15</Category>
+ </Actions>
+<Actions>
+  <Name>Increase Witch Population</Name>
+  <Multiplier>0</Multiplier>
+  <Category>15</Category>
+ </Actions>
+<Actions>
+  <Name>Decrease Witch Population</Name>
+  <Multiplier>0</Multiplier>
+  <Category>15</Category>
+ </Actions>
+<Actions>
+  <Name>Increase Werewolf Population</Name>
+  <Multiplier>0</Multiplier>
+  <Category>15</Category>
+ </Actions>
+<Actions>
+  <Name>Decrease Werewolf Population</Name>
+  <Multiplier>0</Multiplier>
+  <Category>15</Category>
+ </Actions>
+<Actions>
+  <Name>EnrollAcademics</Name>
+  <Multiplier>0</Multiplier>
+  <Category>21</Category>
+ </Actions>
+<Actions>
+  <Name>DropOutAcademics</Name>
+  <Multiplier>0</Multiplier>
+  <Category>21</Category>
+ </Actions>
+<Actions>
+  <Name>Join Nerds</Name>
+  <Multiplier>2</Multiplier>
+  <Category>22</Category>
+ </Actions>
+<Actions>
+  <Name>Join Rebels</Name>
+  <Multiplier>2</Multiplier>
+  <Category>23</Category>
+ </Actions>
+<Actions>
+  <Name>Join Socialites</Name>
+  <Multiplier>2</Multiplier>
+  <Category>24</Category>
+ </Actions>
+<Actions>
+  <Name>AddAcademicsDegree</Name>
+  <Multiplier>1.5</Multiplier>
+  <Category>25</Category>
+ </Actions>
+<Actions>
+  <Name>Increase Nerd Influence</Name>
+  <Multiplier>2.5</Multiplier>
+  <Category>26</Category>
+ </Actions>
+<Actions>
+  <Name>Decrease Nerd Influence</Name>
+  <Multiplier>2.5</Multiplier>
+  <Category>26</Category>
+ </Actions>
+<Actions>
+  <Name>Increase Rebel Influence</Name>
+  <Multiplier>2.5</Multiplier>
+  <Category>27</Category>
+ </Actions>
+<Actions>
+  <Name>Decrease Rebel Influence</Name>
+  <Multiplier>2.5</Multiplier>
+  <Category>27</Category>
+ </Actions>
+<Actions>
+  <Name>Increase Socialite Influence</Name>
+  <Multiplier>2.5</Multiplier>
+  <Category>28</Category>
+ </Actions>
+<Actions>
+  <Name>Decrease Socialite Influence</Name>
+  <Multiplier>2.5</Multiplier>
+  <Category>28</Category>
+ </Actions>
+<Actions>
+  <Name>AddRoommate</Name>
+  <Multiplier>2</Multiplier>
+  <Category>29</Category>
+ </Actions>
+<Actions>
+  <Name>RemoveRoommate</Name>
+  <Multiplier>1</Multiplier>
+  <Category>29</Category>
+ </Actions>
+<Actions>
+  <Name>KillRoommate</Name>
+  <Multiplier>0.5</Multiplier>
+  <Category>29</Category>
+ </Actions>
+<Actions>
+  <Name>Increase Mermaid Population</Name>
+  <Multiplier>1.5</Multiplier>
+  <Category>15</Category>
+  <Delay_Min>0.5</Delay_Min>
+  <Delay_Max>1.5</Delay_Max>
+ </Actions>
+<Actions>
+  <Name>Decrease Mermaid Population</Name>
+  <Multiplier>0.5</Multiplier>
+  <Category>15</Category>
+  <Delay_Min>0.5</Delay_Min>
+  <Delay_Max>1.5</Delay_Max>
+ </Actions>
+<Lot_Density>
+  <Density></Density>
+  <Utility>-1</Utility>
+  <Importance></Importance>
+  <Increase></Increase>
+  <Decrease></Decrease>
+ </Lot_Density>
+<Lot_Density>
+  <Density>0</Density>
+  <Utility>0</Utility>
+  <Importance>2</Importance>
+  <Increase>Create and Move In</Increase>
+  <Decrease>Emigrate Household</Decrease>
+ </Lot_Density>
+<Lot_Density>
+  <Density>0.1</Density>
+  <Utility>0.1</Utility>
+  <Increase>Move In Household</Increase>
+  <Decrease>Move Out Household</Decrease>
+ </Lot_Density>
+<Lot_Density>
+  <Density>0.2</Density>
+  <Utility>0.2</Utility>
+  <Increase>Split Household</Increase>
+  <Decrease>Merge Households</Decrease>
+ </Lot_Density>
+<Lot_Density>
+  <Density>0.3</Density>
+  <Utility>0.4</Utility>
+ </Lot_Density>
+<Lot_Density>
+  <Density>0.4</Density>
+  <Utility>0.6</Utility>
+ </Lot_Density>
+<Lot_Density>
+  <Density>0.5</Density>
+  <Utility>0.8</Utility>
+ </Lot_Density>
+<Lot_Density>
+  <Density>0.65</Density>
+  <Utility>1</Utility>
+ </Lot_Density>
+<Lot_Density>
+  <Density>0.75</Density>
+  <Utility>0.9</Utility>
+ </Lot_Density>
+<Lot_Density>
+  <Density>0.85</Density>
+  <Utility>0.75</Utility>
+ </Lot_Density>
+<Lot_Density>
+  <Density>0.95</Density>
+  <Utility>0.55</Utility>
+ </Lot_Density>
+<Lot_Density>
+  <Density>1</Density>
+  <Utility>0</Utility>
+ </Lot_Density>
+<Population_Density>
+  <Density></Density>
+  <Utility>-1</Utility>
+  <Importance></Importance>
+  <Increase></Increase>
+  <Decrease></Decrease>
+ </Population_Density>
+<Population_Density>
+  <Density>0</Density>
+  <Utility>0</Utility>
+  <Importance>2</Importance>
+  <Increase>Create and Move In</Increase>
+  <Decrease>Emigrate Household</Decrease>
+ </Population_Density>
+<Population_Density>
+  <Density>0.2</Density>
+  <Utility>0.05</Utility>
+  <Increase>Create Household</Increase>
+  <Decrease>Kill Sim</Decrease>
+ </Population_Density>
+<Population_Density>
+  <Density>0.6</Density>
+  <Utility>0.2</Utility>
+  <Increase>Have Baby</Increase>
+ </Population_Density>
+<Population_Density>
+  <Density>1</Density>
+  <Utility>0.5</Utility>
+ </Population_Density>
+<Population_Density>
+  <Density>1.15</Density>
+  <Utility>0.8</Utility>
+ </Population_Density>
+<Population_Density>
+  <Density>1.35</Density>
+  <Utility>0.95</Utility>
+ </Population_Density>
+<Population_Density>
+  <Density>1.5</Density>
+  <Utility>1</Utility>
+ </Population_Density>
+<Population_Density>
+  <Density>1.75</Density>
+  <Utility>0.95</Utility>
+ </Population_Density>
+<Population_Density>
+  <Density>2</Density>
+  <Utility>0.85</Utility>
+ </Population_Density>
+<Population_Density>
+  <Density>2.5</Density>
+  <Utility>0.7</Utility>
+ </Population_Density>
+<Population_Density>
+  <Density>5</Density>
+  <Utility>0.3</Utility>
+ </Population_Density>
+<Population_Density>
+  <Density>7.5</Density>
+  <Utility>0.1</Utility>
+ </Population_Density>
+<Population_Density>
+  <Density>10</Density>
+  <Utility>0</Utility>
+ </Population_Density>
+<Family_Size>
+  <Members_Min></Members_Min>
+  <Members_Max></Members_Max>
+  <Utility>-1</Utility>
+  <Importance></Importance>
+  <Increase></Increase>
+  <Decrease></Decrease>
+ </Family_Size>
+<Family_Size>
+  <Members_Min>1</Members_Min>
+  <Members_Max>2</Members_Max>
+  <Utility>0.4</Utility>
+  <Importance>1.5</Importance>
+  <Increase>Create Household</Increase>
+  <Decrease>Create Household</Decrease>
+ </Family_Size>
+<Family_Size>
+  <Members_Min>2</Members_Min>
+  <Members_Max>3</Members_Max>
+  <Utility>0.55</Utility>
+  <Increase>Create and Move In</Increase>
+  <Decrease>Create and Move In</Decrease>
+ </Family_Size>
+<Family_Size>
+  <Members_Min>3</Members_Min>
+  <Members_Max>4</Members_Max>
+  <Utility>0.7</Utility>
+  <Increase>Emigrate Household</Increase>
+  <Decrease>Emigrate Household</Decrease>
+ </Family_Size>
+<Family_Size>
+  <Members_Min>4</Members_Min>
+  <Members_Max>5</Members_Max>
+  <Utility>0.45</Utility>
+  <Increase>Have Baby</Increase>
+  <Decrease>Kill Sim</Decrease>
+ </Family_Size>
+<Family_Size>
+  <Members_Min>5</Members_Min>
+  <Members_Max>6</Members_Max>
+  <Utility>0.2</Utility>
+  <Increase>Merge Households</Increase>
+  <Decrease>Split Household</Decrease>
+ </Family_Size>
+<Family_Size>
+  <Members_Min>6</Members_Min>
+  <Members_Max>7</Members_Max>
+  <Utility>0.08</Utility>
+  <Increase>Move in with Partner</Increase>
+  <Decrease>Move in with Partner</Decrease>
+ </Family_Size>
+<Family_Size>
+  <Members_Min>7</Members_Min>
+  <Members_Max>8</Members_Max>
+  <Utility>0.05</Utility>
+ </Family_Size>
+<Family_Size>
+  <Members_Min>8</Members_Min>
+  <Members_Max>9</Members_Max>
+  <Utility>0</Utility>
+ </Family_Size>
+<Gender_Balance>
+  <Gender></Gender>
+  <Utility>-1</Utility>
+  <Importance></Importance>
+  <Increase></Increase>
+  <Decrease></Decrease>
+ </Gender_Balance>
+<Gender_Balance>
+  <Gender>0</Gender>
+  <Utility>0</Utility>
+  <Importance>0.3</Importance>
+  <Increase>Create Household</Increase>
+  <Decrease>Create Household</Decrease>
+ </Gender_Balance>
+<Gender_Balance>
+  <Gender>0.1</Gender>
+  <Utility>0.36</Utility>
+  <Increase>Create and Move In</Increase>
+  <Decrease>Create and Move In</Decrease>
+ </Gender_Balance>
+<Gender_Balance>
+  <Gender>0.2</Gender>
+  <Utility>0.64</Utility>
+  <Increase>Emigrate Household</Increase>
+  <Decrease>Emigrate Household</Decrease>
+ </Gender_Balance>
+<Gender_Balance>
+  <Gender>0.3</Gender>
+  <Utility>0.84</Utility>
+  <Increase>Have Baby</Increase>
+  <Decrease>Have Baby</Decrease>
+ </Gender_Balance>
+<Gender_Balance>
+  <Gender>0.4</Gender>
+  <Utility>0.96</Utility>
+  <Increase>Kill Sim</Increase>
+  <Decrease>Kill Sim</Decrease>
+ </Gender_Balance>
+<Gender_Balance>
+  <Gender>0.5</Gender>
+  <Utility>1</Utility>
+ </Gender_Balance>
+<Gender_Balance>
+  <Gender>0.6</Gender>
+  <Utility>0.96</Utility>
+ </Gender_Balance>
+<Gender_Balance>
+  <Gender>0.7</Gender>
+  <Utility>0.84</Utility>
+ </Gender_Balance>
+<Gender_Balance>
+  <Gender>0.8</Gender>
+  <Utility>0.64</Utility>
+ </Gender_Balance>
+<Gender_Balance>
+  <Gender>0.9</Gender>
+  <Utility>0.36</Utility>
+ </Gender_Balance>
+<Gender_Balance>
+  <Gender>1</Gender>
+  <Utility>0</Utility>
+ </Gender_Balance>
+<Fitness>
+  <Fitness_Min></Fitness_Min>
+  <Fitness_Max>-1</Fitness_Max>
+  <Utility></Utility>
+  <Importance></Importance>
+  <Increase></Increase>
+  <Decrease></Decrease>
+ </Fitness>
+<Fitness>
+  <Fitness_Min>0</Fitness_Min>
+  <Fitness_Max>0.2</Fitness_Max>
+  <Utility>0.1</Utility>
+  <Importance>0.3</Importance>
+  <Increase>Exercise</Increase>
+  <Decrease>Slack Off</Decrease>
+ </Fitness>
+<Fitness>
+  <Fitness_Min>0.2</Fitness_Min>
+  <Fitness_Max>0.4</Fitness_Max>
+  <Utility>0.2</Utility>
+ </Fitness>
+<Fitness>
+  <Fitness_Min>0.4</Fitness_Min>
+  <Fitness_Max>0.6</Fitness_Max>
+  <Utility>0.35</Utility>
+ </Fitness>
+<Fitness>
+  <Fitness_Min>0.6</Fitness_Min>
+  <Fitness_Max>0.8</Fitness_Max>
+  <Utility>0.5</Utility>
+ </Fitness>
+<Fitness>
+  <Fitness_Min>0.8</Fitness_Min>
+  <Fitness_Max>1</Fitness_Max>
+  <Utility>0.4</Utility>
+ </Fitness>
+<Weight>
+  <Weight_Min></Weight_Min>
+  <Weight_Max>-1</Weight_Max>
+  <Utility></Utility>
+  <Importance></Importance>
+  <Increase></Increase>
+  <Decrease></Decrease>
+ </Weight>
+<Weight>
+  <Weight_Min>-1</Weight_Min>
+  <Weight_Max>-0.6</Weight_Max>
+  <Utility>0.25</Utility>
+  <Importance>0.2</Importance>
+  <Increase>Diet</Increase>
+  <Decrease>Pig Out</Decrease>
+ </Weight>
+<Weight>
+  <Weight_Min>-0.6</Weight_Min>
+  <Weight_Max>-0.2</Weight_Max>
+  <Utility>0.4</Utility>
+ </Weight>
+<Weight>
+  <Weight_Min>-0.2</Weight_Min>
+  <Weight_Max>0.2</Weight_Max>
+  <Utility>0.35</Utility>
+ </Weight>
+<Weight>
+  <Weight_Min>0.2</Weight_Min>
+  <Weight_Max>0.6</Weight_Max>
+  <Utility>0.2</Utility>
+ </Weight>
+<Weight>
+  <Weight_Min>0.6</Weight_Min>
+  <Weight_Max>1</Weight_Max>
+  <Utility>0.1</Utility>
+ </Weight>
+<Household_Too_Big>
+  <ExtraSims></ExtraSims>
+  <Utility>-1</Utility>
+  <Importance></Importance>
+  <Increase></Increase>
+  <Decrease></Decrease>
+ </Household_Too_Big>
+<Household_Too_Big>
+  <ExtraSims>0</ExtraSims>
+  <Utility>1</Utility>
+  <Importance>2</Importance>
+  <Increase>Move in with Partner</Increase>
+  <Decrease>Move to Larger House</Decrease>
+ </Household_Too_Big>
+<Household_Too_Big>
+  <ExtraSims>1</ExtraSims>
+  <Utility>0.9</Utility>
+  <Decrease>Move in with Partner</Decrease>
+ </Household_Too_Big>
+<Household_Too_Big>
+  <ExtraSims>2</ExtraSims>
+  <Utility>0.78</Utility>
+ </Household_Too_Big>
+<Household_Too_Big>
+  <ExtraSims>3</ExtraSims>
+  <Utility>0.64</Utility>
+ </Household_Too_Big>
+<Household_Too_Big>
+  <ExtraSims>4</ExtraSims>
+  <Utility>0.48</Utility>
+ </Household_Too_Big>
+<Household_Too_Big>
+  <ExtraSims>5</ExtraSims>
+  <Utility>0.3</Utility>
+ </Household_Too_Big>
+<Household_Too_Big>
+  <ExtraSims>6</ExtraSims>
+  <Utility>0.1</Utility>
+ </Household_Too_Big>
+<Household_Too_Big>
+  <ExtraSims>7</ExtraSims>
+  <Utility>0.1</Utility>
+ </Household_Too_Big>
+<Household_Too_Big>
+  <ExtraSims>8</ExtraSims>
+  <Utility>0.1</Utility>
+ </Household_Too_Big>
+<Household_Too_Small>
+  <ExtraSims></ExtraSims>
+  <Utility>-1</Utility>
+  <Importance></Importance>
+  <Increase></Increase>
+  <Decrease></Decrease>
+ </Household_Too_Small>
+<Household_Too_Small>
+  <ExtraSims>0</ExtraSims>
+  <Utility>1</Utility>
+  <Importance>0.5</Importance>
+  <Increase>Move in with Partner</Increase>
+  <Decrease>Move to Smaller House</Decrease>
+ </Household_Too_Small>
+<Household_Too_Small>
+  <ExtraSims>1</ExtraSims>
+  <Utility>0.95</Utility>
+  <Decrease>Move in with Partner</Decrease>
+ </Household_Too_Small>
+<Household_Too_Small>
+  <ExtraSims>2</ExtraSims>
+  <Utility>0.88</Utility>
+ </Household_Too_Small>
+<Household_Too_Small>
+  <ExtraSims>3</ExtraSims>
+  <Utility>0.79</Utility>
+ </Household_Too_Small>
+<Household_Too_Small>
+  <ExtraSims>4</ExtraSims>
+  <Utility>0.65</Utility>
+ </Household_Too_Small>
+<Household_Too_Small>
+  <ExtraSims>5</ExtraSims>
+  <Utility>0.5</Utility>
+ </Household_Too_Small>
+<Household_Too_Small>
+  <ExtraSims>6</ExtraSims>
+  <Utility>0.35</Utility>
+ </Household_Too_Small>
+<Household_Too_Small>
+  <ExtraSims>7</ExtraSims>
+  <Utility>0.2</Utility>
+ </Household_Too_Small>
+<Household_Too_Small>
+  <ExtraSims>8</ExtraSims>
+  <Utility>0.05</Utility>
+ </Household_Too_Small>
+<Friends>
+  <Friends_Min></Friends_Min>
+  <Friends_Max>-1</Friends_Max>
+  <Utility></Utility>
+  <Importance></Importance>
+  <Increase></Increase>
+  <Decrease></Decrease>
+ </Friends>
+<Friends>
+  <Friends_Min>1</Friends_Min>
+  <Friends_Max>2</Friends_Max>
+  <Utility>0.3</Utility>
+  <Importance>0.01</Importance>
+  <Increase>Befriend</Increase>
+  <Decrease>Antagonize</Decrease>
+ </Friends>
+<Friends>
+  <Friends_Min>2</Friends_Min>
+  <Friends_Max>3</Friends_Max>
+  <Utility>0.4</Utility>
+  <Increase>BefriendExisting</Increase>
+  <Decrease>AntagonizeExisting</Decrease>
+ </Friends>
+<Friends>
+  <Friends_Min>3</Friends_Min>
+  <Friends_Max>4</Friends_Max>
+  <Utility>0.5</Utility>
+ </Friends>
+<Friends>
+  <Friends_Min>4</Friends_Min>
+  <Friends_Max>5</Friends_Max>
+  <Utility>0.6</Utility>
+ </Friends>
+<Friends>
+  <Friends_Min>5</Friends_Min>
+  <Friends_Max>6</Friends_Max>
+  <Utility>0.7</Utility>
+ </Friends>
+<Friends>
+  <Friends_Min>6</Friends_Min>
+  <Friends_Max>7</Friends_Max>
+  <Utility>0.55</Utility>
+ </Friends>
+<Friends>
+  <Friends_Min>7</Friends_Min>
+  <Friends_Max>8</Friends_Max>
+  <Utility>0.4</Utility>
+ </Friends>
+<Friends>
+  <Friends_Min>8</Friends_Min>
+  <Friends_Max>9</Friends_Max>
+  <Utility>0.3</Utility>
+ </Friends>
+<Friends>
+  <Friends_Min>9</Friends_Min>
+  <Friends_Max>10</Friends_Max>
+  <Utility>0.2</Utility>
+ </Friends>
+<Friends>
+  <Friends_Min>10</Friends_Min>
+  <Friends_Max>11</Friends_Max>
+  <Utility>0.1</Utility>
+ </Friends>
+<BestFriends>
+  <BestFriends_Min></BestFriends_Min>
+  <BestFriends_Max>-1</BestFriends_Max>
+  <Utility></Utility>
+  <Importance></Importance>
+  <Increase></Increase>
+  <Decrease></Decrease>
+ </BestFriends>
+<BestFriends>
+  <BestFriends_Min>1</BestFriends_Min>
+  <BestFriends_Max>2</BestFriends_Max>
+  <Utility>0.5</Utility>
+  <Importance>0.01</Importance>
+  <Increase>Befriend</Increase>
+  <Decrease>Antagonize</Decrease>
+ </BestFriends>
+<BestFriends>
+  <BestFriends_Min>2</BestFriends_Min>
+  <BestFriends_Max>3</BestFriends_Max>
+  <Utility>0.6</Utility>
+  <Increase>BefriendExisting</Increase>
+  <Decrease>AntagonizeExisting</Decrease>
+ </BestFriends>
+<BestFriends>
+  <BestFriends_Min>3</BestFriends_Min>
+  <BestFriends_Max>4</BestFriends_Max>
+  <Utility>0.5</Utility>
+ </BestFriends>
+<BestFriends>
+  <BestFriends_Min>4</BestFriends_Min>
+  <BestFriends_Max>5</BestFriends_Max>
+  <Utility>0.4</Utility>
+ </BestFriends>
+<BestFriends>
+  <BestFriends_Min>5</BestFriends_Min>
+  <BestFriends_Max>6</BestFriends_Max>
+  <Utility>0.3</Utility>
+ </BestFriends>
+<BestFriends>
+  <BestFriends_Min>6</BestFriends_Min>
+  <BestFriends_Max>7</BestFriends_Max>
+  <Utility>0.2</Utility>
+ </BestFriends>
+<BestFriends>
+  <BestFriends_Min>7</BestFriends_Min>
+  <BestFriends_Max>8</BestFriends_Max>
+  <Utility>0.15</Utility>
+ </BestFriends>
+<BestFriends>
+  <BestFriends_Min>8</BestFriends_Min>
+  <BestFriends_Max>9</BestFriends_Max>
+  <Utility>0.1</Utility>
+ </BestFriends>
+<BestFriends>
+  <BestFriends_Min>9</BestFriends_Min>
+  <BestFriends_Max>10</BestFriends_Max>
+  <Utility>0.05</Utility>
+ </BestFriends>
+<BestFriends>
+  <BestFriends_Min>10</BestFriends_Min>
+  <BestFriends_Max>11</BestFriends_Max>
+  <Utility>0.01</Utility>
+ </BestFriends>
+<Enemies>
+  <Enemies_Min></Enemies_Min>
+  <Enemies_Max>-1</Enemies_Max>
+  <Utility></Utility>
+  <Importance></Importance>
+  <Increase></Increase>
+  <Decrease></Decrease>
+ </Enemies>
+<Enemies>
+  <Enemies_Min>1</Enemies_Min>
+  <Enemies_Max>2</Enemies_Max>
+  <Utility>0.5</Utility>
+  <Importance>0.01</Importance>
+  <Increase>Antagonize</Increase>
+  <Decrease>Befriend</Decrease>
+ </Enemies>
+<Enemies>
+  <Enemies_Min>2</Enemies_Min>
+  <Enemies_Max>3</Enemies_Max>
+  <Utility>0.6</Utility>
+  <Increase>AntagonizeExisting</Increase>
+  <Decrease>BefriendExisting</Decrease>
+ </Enemies>
+<Enemies>
+  <Enemies_Min>3</Enemies_Min>
+  <Enemies_Max>4</Enemies_Max>
+  <Utility>0.5</Utility>
+ </Enemies>
+<Enemies>
+  <Enemies_Min>4</Enemies_Min>
+  <Enemies_Max>5</Enemies_Max>
+  <Utility>0.4</Utility>
+ </Enemies>
+<Enemies>
+  <Enemies_Min>5</Enemies_Min>
+  <Enemies_Max>6</Enemies_Max>
+  <Utility>0.3</Utility>
+ </Enemies>
+<Enemies>
+  <Enemies_Min>6</Enemies_Min>
+  <Enemies_Max>7</Enemies_Max>
+  <Utility>0.2</Utility>
+ </Enemies>
+<Enemies>
+  <Enemies_Min>7</Enemies_Min>
+  <Enemies_Max>8</Enemies_Max>
+  <Utility>0.15</Utility>
+ </Enemies>
+<Enemies>
+  <Enemies_Min>8</Enemies_Min>
+  <Enemies_Max>9</Enemies_Max>
+  <Utility>0.1</Utility>
+ </Enemies>
+<Enemies>
+  <Enemies_Min>9</Enemies_Min>
+  <Enemies_Max>10</Enemies_Max>
+  <Utility>0.05</Utility>
+ </Enemies>
+<Enemies>
+  <Enemies_Min>10</Enemies_Min>
+  <Enemies_Max>11</Enemies_Max>
+  <Utility>0.01</Utility>
+ </Enemies>
+<Romance>
+  <RomanceState_Min></RomanceState_Min>
+  <RomanceState_Max>-1</RomanceState_Max>
+  <Utility></Utility>
+  <Importance></Importance>
+  <Increase></Increase>
+  <Decrease></Decrease>
+ </Romance>
+<Romance>
+  <RomanceState_Min>1</RomanceState_Min>
+  <RomanceState_Max>2</RomanceState_Max>
+  <Utility>0.3</Utility>
+  <Importance>0.01</Importance>
+  <Increase>Romance</Increase>
+ </Romance>
+<Romance>
+  <RomanceState_Min>2</RomanceState_Min>
+  <RomanceState_Max>3</RomanceState_Max>
+  <Utility>0.4</Utility>
+  <Increase>RomanceExisting</Increase>
+ </Romance>
+<Romance>
+  <RomanceState_Min>3</RomanceState_Min>
+  <RomanceState_Max>4</RomanceState_Max>
+  <Utility>0.5</Utility>
+ </Romance>
+<Romance>
+  <RomanceState_Min>4</RomanceState_Min>
+  <RomanceState_Max>5</RomanceState_Max>
+  <Utility>0.1</Utility>
+ </Romance>
+<Romance>
+  <RomanceState_Min>5</RomanceState_Min>
+  <RomanceState_Max>6</RomanceState_Max>
+  <Utility>0.7</Utility>
+ </Romance>
+<Roommate_Population_Density>
+  <Density></Density>
+  <Utility>-1</Utility>
+  <Importance></Importance>
+  <Increase></Increase>
+  <Decrease></Decrease>
+ </Roommate_Population_Density>
+<Roommate_Population_Density>
+  <Density>0</Density>
+  <Utility>0</Utility>
+  <Importance>3</Importance>
+  <Increase>AddRoommate</Increase>
+  <Decrease>RemoveRoommate</Decrease>
+ </Roommate_Population_Density>
+<Roommate_Population_Density>
+  <Density>1</Density>
+  <Utility>0.2</Utility>
+  <Decrease>KillRoommate</Decrease>
+ </Roommate_Population_Density>
+<Roommate_Population_Density>
+  <Density>2</Density>
+  <Utility>0.4</Utility>
+ </Roommate_Population_Density>
+<Roommate_Population_Density>
+  <Density>3</Density>
+  <Utility>0.7</Utility>
+ </Roommate_Population_Density>
+<Roommate_Population_Density>
+  <Density>4</Density>
+  <Utility>0.95</Utility>
+ </Roommate_Population_Density>
+<Roommate_Population_Density>
+  <Density>5</Density>
+  <Utility>1</Utility>
+ </Roommate_Population_Density>
+<Roommate_Population_Density>
+  <Density>6</Density>
+  <Utility>0.95</Utility>
+ </Roommate_Population_Density>
+<Roommate_Population_Density>
+  <Density>7</Density>
+  <Utility>0.8</Utility>
+ </Roommate_Population_Density>
+<Roommate_Population_Density>
+  <Density>8</Density>
+  <Utility>0.3</Utility>
+ </Roommate_Population_Density>
+<Roommate_Population_Density>
+  <Density>9</Density>
+  <Utility>0.1</Utility>
+ </Roommate_Population_Density>
+<Roommate_Population_Density>
+  <Density>10</Density>
+  <Utility>0</Utility>
+ </Roommate_Population_Density>
+</DemographicsChina>

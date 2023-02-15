@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinPassToAllowSwitchingLots value="45">
+      <!--Range:  float  Description:  Time before allow hobo sim to try to change lot - PAB-->
+    </kMinPassToAllowSwitchingLots>
+    <kTimeToGoBackToBaseCamp value="20">
+      <!--Range:  float  Description:  time to go back to base camp - PAB-->
+    </kTimeToGoBackToBaseCamp>
+    <kTimeToReleaseFromBaseCamp value="9">
+      <!--Range:  float  Description:  time to go back to base camp - PAB-->
+    </kTimeToReleaseFromBaseCamp>
+    <kChanceToGoToWasteland value="0.5">
+      <!--Range:  0-1  Description:  Chance go to the wasteland - PAB-->
+    </kChanceToGoToWasteland>
+  </Current_Tuning>
+</base>

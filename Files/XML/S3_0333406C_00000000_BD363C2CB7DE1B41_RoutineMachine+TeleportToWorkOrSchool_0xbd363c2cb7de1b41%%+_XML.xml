@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEarlyNoticeDelayInMinutes value="45">
+      <!--Minutes before TNS award for being early to work.  GPE default: 45-->
+    </kEarlyNoticeDelayInMinutes>
+    <kEarlyBonusIfNotNoticed value="2.5">
+      <!--Career bonus per hour if you teleport early but are not noticed.  GPE default: 2.5-->
+    </kEarlyBonusIfNotNoticed>
+    <kEarlyBonusIfNoticed value="15">
+      <!--Career bonus per hour if you teleport early and are noticed.  GPE default: 15-->
+    </kEarlyBonusIfNoticed>
+    <kEarlyBonusChanceToBeNoticed value="75">
+      <!--Chance that coworkers will notice if you teleport early.  GPE default: 75-->
+    </kEarlyBonusChanceToBeNoticed>
+    <kEarlyBonusHoursEarlyToGetBonus value="0.75">
+      <!--How early to be so the boss will potentially notice.  GPE Default: .75-->
+    </kEarlyBonusHoursEarlyToGetBonus>
+  </Current_Tuning>
+</base>

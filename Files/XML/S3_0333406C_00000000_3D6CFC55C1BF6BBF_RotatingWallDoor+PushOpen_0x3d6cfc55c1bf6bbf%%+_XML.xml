@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAthleticSkillDeltaForMediumSpeed value="3">
+      <!--Range:  0+  Description:  The delta from the min skill level after which the medium speed is used-->
+    </kAthleticSkillDeltaForMediumSpeed>
+    <kAverageOpeningTime value="10, 5, 2">
+      <!--Range:  0+  Description:  How long it normally takes for Sims athletic>min, athletic>min+deltamedium, athletic>recommended to open the door, in Sim minutes-->
+    </kAverageOpeningTime>
+    <kAverageOpeningTimeSkew value="0.25">
+      <!--Range:  0 - 1.0  Description:  The percentage by which the average opening time can skew-->
+    </kAverageOpeningTimeSkew>
+    <kChanceOfEpicFailure value="0.5">
+      <!--Range:  0 - 1.0  Description:  Given a failure, the chance that it will be epic-->
+    </kChanceOfEpicFailure>
+    <kSandsOfUnderstandingOpenTimeMultiplier value="0.5">
+      <!--Multiplier (float value) to reduce time to push open the rotating wall door when glowing from Sands of Understanding.  Set to 1 to have no effect, 0.5 to speed up by 50%, etc.-->
+    </kSandsOfUnderstandingOpenTimeMultiplier>
+    <kChanceOfFailure value="0.3">
+      <!--Range:  0 - 1.0  Description:  The chance of a failure, provided the athletic skill level is below the recommended level-->
+    </kChanceOfFailure>
+    <kChanceOfFunnyFailure value="0.15">
+      <!--Range:  0 - 1.0  Description:  The chance of a very funny failure-->
+    </kChanceOfFunnyFailure>
+    <kAthleticSkillGainRate value="2">
+      <!--Range:  0+  Description:  The Athletic gain per Sim minute-->
+    </kAthleticSkillGainRate>
+    <kIsSkillMeterVisible value="False">
+      <!--Range:  true/false  Description:  True, to show the skill meter, false otherwise-->
+    </kIsSkillMeterVisible>
+    <kOpeningTimeFirstLoopRatio value="0.9">
+      <!--Range:  0 - 1.0  Description:  This percentage of the time necessary to open the door will be in the first loop-->
+    </kOpeningTimeFirstLoopRatio>
+  </Current_Tuning>
+</base>

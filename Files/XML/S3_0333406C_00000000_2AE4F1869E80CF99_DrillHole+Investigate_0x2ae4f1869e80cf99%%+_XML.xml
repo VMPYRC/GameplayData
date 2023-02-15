@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTotalInvestigateTimeMinMax value="90,240">
+      <!--Minimum and maximum time in sim minutes it takes to investigate a drill hole.-->
+    </kTotalInvestigateTimeMinMax>
+    <kMidAdventureTNSTimeMinMax value="30,90">
+      <!--Minimum and maximum time in sim minutes between mid adventure TNSes appearing.-->
+    </kMidAdventureTNSTimeMinMax>
+    <kMidAdventureNumberOfTNSes value="20">
+      <!--Number of mid adventure TNSes.-->
+    </kMidAdventureNumberOfTNSes>
+    <kFinalOutcomeBuffsGood value="AwesomeParty,Buzzed,Delighted,Fascinated,GreatAdventure,IAmTheGreatest,Inspired,OddlyPowerful,TheLifeOfTheParty,Winner">
+      <!--List of buffs to randomly choose from if outcome was good.-->
+    </kFinalOutcomeBuffsGood>
+    <kFinalOutcomeBuffsOK value="Warmed,Tranquil,Pumped,LetOffSteam,Impressed,Intrigued,Comforted">
+      <!--List of buffs to randomly choose from if outcome was okay.-->
+    </kFinalOutcomeBuffsOK>
+    <kFinalOutcomeBuffsBad value="Backache,Disgusted,Embarrassed,Horrified,Singed,Sore">
+      <!--List of buffs to randomly choose from if outcome was bad.-->
+    </kFinalOutcomeBuffsBad>
+    <kFinalOutcomeWeightTableGood value="70,25,5,25,20,25,10,15,15,10,25,5">
+      <!--Good outcome weighting table.  Order is: {nothing, buff, lp gem, mp gem, hp gem, metal, rock, seed, fish, random gnome, singed skin, caveman skin}-->
+    </kFinalOutcomeWeightTableGood>
+    <kFinalOutcomeWeightTableOK value="105,45,40,15,5,25,25,10,25,5,45,2">
+      <!--Okay outcome weighting table.  Order is: {nothing, buff, lp gem, mp gem, hp gem, metal, rock, seed, fish, random gnome, singed skin, caveman skin}-->
+    </kFinalOutcomeWeightTableOK>
+    <kFinalOutcomeWeightTableBad value="80,65,1,0,0,1,1,0,10,0,60,0">
+      <!--Bad outcome weighting table.  Order is: {nothing, buff, lp gem, mp gem, hp gem, metal, rock, seed, fish, random gnome, singed skin, caveman skin}-->
+    </kFinalOutcomeWeightTableBad>
+    <kFinalOutcomeNumberOfTNSes value="5, 5, 5">
+      <!--Number of final outcome TNS strings for Good, OK, and Bad outcomes {good, ok, bad}-->
+    </kFinalOutcomeNumberOfTNSes>
+    <kFinalOutcomeMaximumRolls value="7, 4, 2">
+      <!--Maximum number of rolls for Good, OK, and Bad outcome rewards {good, ok, bad}-->
+    </kFinalOutcomeMaximumRolls>
+    <kFinalOutcomeMinimumRolls value="3, 2, 1">
+      <!--Minimum number of rolls for Good, OK, and Bad outcome rewards {good, ok, bad}-->
+    </kFinalOutcomeMinimumRolls>
+    <kFinalOutcomeWeightRollWeight value="0.41,0.22,0.22,0.15">
+      <!--Outcome weighting {random weight, mood, athletic skill, logic skill}.  Note that these values should add up to 1.0f-->
+    </kFinalOutcomeWeightRollWeight>
+    <kFinalOutcomeThresholds value="0.4,0.7">
+      <!--OK and Good outcome thresholds.  Note that these values should be between 0.0f and 1.0f-->
+    </kFinalOutcomeThresholds>
+    <kSeedRarityWeights value="10,8,6,2">
+      <!--Seed weights for grabbing a seed. {Common, Uncommon, Rare, Special}-->
+    </kSeedRarityWeights>
+    <kSeedQualityRange value="Bad, Outstanding">
+      <!--Range of quality for selecting a seed.-->
+    </kSeedQualityRange>
+    <kFishMinimumLevel value="3">
+      <!--Will choose a random fish above this level.-->
+    </kFishMinimumLevel>
+    <kMetalList value="Silver,Gold,Palladium,Plutonium,Mercury,Platinum,Copper,Mummitomium,Titanium,Iridium">
+      <!--List of metals to select.-->
+    </kMetalList>
+    <kMetalProductVersionList value="BaseGame,BaseGame,BaseGame,BaseGame,EP1,EP1,EP1,EP1,EP1,EP1,EP1">
+      <!--List of expansion packs to pull from.  Note that there has to be some entries from base game.-->
+    </kMetalProductVersionList>
+    <kMetalWeights value="60,40,30,5,20,20,30,5,5,5">
+      <!--Corresponding weights to how often a metal gets selected.-->
+    </kMetalWeights>
+    <kGemPriceThreshold value="40,180">
+      <!--Thresholds to determine gem type.  Low priced gems are between 0 and the first value.  Medium priced gems are between the first and second values.  High priced gems are higher than the second value.-->
+    </kGemPriceThreshold>
+    <kGnomeList value="GardenGnome, MagicGnome, MagicGnomeEypt, MagicGnomeChina, MagicGnomeFrance, MagicGnomeInventor, MagicGnomeSculptor">
+      <!--List of gnomes to randomly select from.-->
+    </kGnomeList>
+    <kGnomeProductVersions value="BaseGame, BaseGame, EP1, EP1, EP1, EP2, EP2">
+      <!--List of product versions of those gnomes.-->
+    </kGnomeProductVersions>
+  </Current_Tuning>
+</base>

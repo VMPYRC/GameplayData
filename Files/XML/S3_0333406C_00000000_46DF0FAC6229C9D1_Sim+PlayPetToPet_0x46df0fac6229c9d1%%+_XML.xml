@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPlayTimeMinMax value="3, 5">
+      <!--Min/Max amount of time in sim mins pets should play before moving to another location. Actual time will be randomly picked between min/max-->
+    </kPlayTimeMinMax>
+    <kSocialTuningScoreWeight value="1">
+      <!--Weighting of Social tuning when autonomously choosing to do this interaction-->
+    </kSocialTuningScoreWeight>
+    <kInteractionTuningScoreWeight value="1">
+      <!--Weighting of Interaction tuning tool tuning when autonomously choosing to do this interaction-->
+    </kInteractionTuningScoreWeight>
+    <kNumChasesMinMax value="2, 5">
+      <!--Min/Max number of times pets will chase between face off anims.  actual number will be randomly picked between these 2.-->
+    </kNumChasesMinMax>
+    <kMinMaxChaseDist value="10, 15">
+      <!--Min,Max distance to try to run each chase.-->
+    </kMinMaxChaseDist>
+  </Current_Tuning>
+</base>

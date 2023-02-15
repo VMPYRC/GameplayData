@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinMaxTimeToReplyToMessage value="6, 12">
+      <!--The min/max time, in sim hours, before someone should respond to your message.-->
+    </kMinMaxTimeToReplyToMessage>
+    <kChanceToGetRandomMessage value="0.5">
+      <!--The chance of getting a random message from someone every kFrequencyToTryForMessage. 0.0 - 1.0-->
+    </kChanceToGetRandomMessage>
+    <kMinMaxPossibleMatches value="20, 25">
+      <!--The min/max number of possible matches that should show up when a Sim is browsing.-->
+    </kMinMaxPossibleMatches>
+    <kFrequencyToTryForMessage value="6">
+      <!--The frequency, in sim hours, to roll for a message from a random sim. 0.0+-->
+    </kFrequencyToTryForMessage>
+    <kMaxRandomMessagesPerTry value="15">
+      <!--The maximum number of random messages to generate at one time.  This is to avoid a ridiculous number of messages if the player doesn't use online dating for a long time. 0+-->
+    </kMaxRandomMessagesPerTry>
+  </Current_Tuning>
+</base>

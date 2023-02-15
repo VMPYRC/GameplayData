@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kTuningCanvas>
+      <MoneyPerNthPainting value="6">
+        <!--Number of simoleons to multiply N by to get experience contributer to value of painting where N is the Nth painting the sim has made-->
+      </MoneyPerNthPainting>
+      <AppreciationAtSkillLevelPerDay value="1">
+        <!--Number of Simoleons to multiply with the skill level of the painter at the time the made it, to add to paintings value every 48hours-->
+      </AppreciationAtSkillLevelPerDay>
+      <ValuePerSkillLevel value="30, 50, 80, 110, 150, 220, 300, 425, 600, 750, 1000">
+        <!--Description: The starting value of a painting at each skill level.-->
+      </ValuePerSkillLevel>
+      <RandomValueMultiplierMin value=".75">
+        <!--Min random multipler applied to value at end of calculation-->
+      </RandomValueMultiplierMin>
+      <RandomValueMultiplierMax value="1.25">
+        <!--Max random multipler applied to value at end of calculation-->
+      </RandomValueMultiplierMax>
+      <ThresholdForMinEnviornmentScore value="50">
+        <!--Smallest price to get Min enviornment score-->
+      </ThresholdForMinEnviornmentScore>
+      <ThresholdForMaxEnviornmentScore value="700">
+        <!--Smallest price to get Max enviornment score-->
+      </ThresholdForMaxEnviornmentScore>
+      <MinEnviornmentValue value="2">
+        <!--Minimum Enviornment Score-->
+      </MinEnviornmentValue>
+      <MaxEnviornmentValue value="40">
+        <!--Maximum Enviornment Score-->
+      </MaxEnviornmentValue>
+    </kTuningCanvas>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

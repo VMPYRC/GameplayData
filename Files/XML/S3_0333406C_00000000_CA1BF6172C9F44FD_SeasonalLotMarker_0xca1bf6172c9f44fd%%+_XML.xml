@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCommonTransparancy value="0.31">
+      <!--Transparency for common objects when set to a season. If <=0.3f won't be able to pick-->
+    </kCommonTransparancy>
+    <kTimeForFestivalTNS value="8">
+      <!--Time of day (in hours) to display festival TNS-->
+    </kTimeForFestivalTNS>
+    <kTimeToTurnOnSearchLights value="8">
+      <!--Time of day (in hours) to turn on searchlights-->
+    </kTimeToTurnOnSearchLights>
+    <kTimeToTurnOffSearchLights value="23">
+      <!--Time of day (in hours) to turn off searchlights-->
+    </kTimeToTurnOffSearchLights>
+    <kUseVenueTuningForLights value="True">
+      <!--Whether or not to use venue tuning hours of operation to turn on/off searches-->
+    </kUseVenueTuningForLights>
+  </Current_Tuning>
+</base>

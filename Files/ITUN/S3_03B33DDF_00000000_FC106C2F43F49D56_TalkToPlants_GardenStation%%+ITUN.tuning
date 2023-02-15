@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<base>
+	<Interaction name="Sims3.Store.Objects.GardenStation+TalkToPlants+Definition" />
+	<Object name="Sims3.Store.Objects.GardenStation" />
+	<CodeVersion name="Store" considerCodeVersion="True" />
+	<Current_Tuning>
+		<Disallow DisallowAutonomous="False" DisallowUserDirected="False" DisallowPlayerSim="False" />
+		<BaseAvailability>
+			<AgeSpeciesAvail AgeSpeciesValue="C,T,Y,A,E" />
+			<MotiveThreshold MotiveThresholdType="None" MotiveThresholdValue="0" MotiveBelowCheck="False" />
+			<MoodThreshold MoodThresholdType="None" MoodThresholdValue="0" />
+			<SkillThreshold SkillThresholdType="None" SkillThresholdValue="0" />
+			<Occult OccultRestrictionType="Ignore" OccultTypes="0x0" OccultTypesHumanAllowed="True" />
+			<CareerThreshold CareerThresholdType="Undefined" CareerThresholdValue="0" IncludePastCareers="False" />
+			<Lot AllowNonGreetedSimsIfObjectOutside="False" AllowNonGreetedSimsIfObjectOutsideUserDirected="True" AllowGreetedSims="True" AllowOnCommunityLots="True" AllowOnAllLots="False" />
+			<World RestrictionType="None" Types="" Names="" />
+			<Room AllowInTombRoomAutonomous="False" AllowEvenIfNotAllowedInRoomAutonomous="False" />
+			<Misc DisallowedIfPregnant="False" DisallowedFromInventory="False" />
+		</BaseAvailability>
+		<Check type="All" value="0" />
+		<Tradeoff name="TalkToPlants">
+			<Localization autoGenerate="False" />
+			<Time value="1" addRoute="True" />
+			<Exit funExit="False" stressExit="True" interruptible="True" />
+			<RouteLeadIn allowed="False" />
+			<AskJoinInteraction joinable="False" />
+			<AllowAutonomousReinforcement allowPraise="False" allowScold="False" />
+			<ScoringFunction alwaysChooseBest="False" name="" specificCommodity="None" />
+			<ActionTopic name="" ActionTopicUnavailableAfterActionFinishes="False" />
+			<Output>
+				<Change type="Social" advertised="10" locked="False" actual="100" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="SkillGardening" advertised="50" locked="False" actual="700" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="TraitGreenThumb" advertised="25" locked="False" actual="0" updateType="ImmediateDelta" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="SkillChildGardening" advertised="50" locked="False" actual="700" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+			</Output>
+		</Tradeoff>
+	<Notes Notes="" DesignerNotes="Store (EP11) - Assumed Tuned - Loel" LastChange="5/7/2013 4:55:01 PM" />
+	</Current_Tuning>
+</base>

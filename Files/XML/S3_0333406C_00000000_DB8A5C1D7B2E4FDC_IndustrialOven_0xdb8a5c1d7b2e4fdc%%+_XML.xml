@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChefSkillLineCook value="4">
+      <!--Cooking skill level equivalent for line cook chefs-->
+    </kChefSkillLineCook>
+    <kChefSkillSousChef value="6">
+      <!--Cooking skill level equivalent for the sous chefs-->
+    </kChefSkillSousChef>
+    <kChefSkillExecutiveChef value="99">
+      <!--Cooking skill level equivalent for the executive chefs-->
+    </kChefSkillExecutiveChef>
+    <kChefCostLineCook value="10">
+      <!--Cost of this cook per day-->
+    </kChefCostLineCook>
+    <kChefCostSousChef value="20">
+      <!--Cost of this cook per day-->
+    </kChefCostSousChef>
+    <kChefCostExecutiveChef value="40">
+      <!--Cost of this cook per day-->
+    </kChefCostExecutiveChef>
+    <kChefDistanceFromSimToTakeOrder value="2">
+      <!--Distance of the chef from the menu when taking the orders-->
+    </kChefDistanceFromSimToTakeOrder>
+    <kTimeToWaitPerSimOrderingFood value="1">
+      <!--Minimum time to spend playing the loop, per sim getting their order taken.  More sims at the table take this many extra sim minutes.-->
+    </kTimeToWaitPerSimOrderingFood>
+    <kMarkupVeryLow value="0.5">
+      <!--Markup for very low qualify food, default 0.5 (50%)-->
+    </kMarkupVeryLow>
+    <kMarkupLow value="0.75">
+      <!--Markup for low qualify food, default 0.75 (75%)-->
+    </kMarkupLow>
+    <kMarkupRegular value="1">
+      <!--Markup for medium qualify food, default 1.0 (100%)-->
+    </kMarkupRegular>
+    <kMarkupHigh value="1.25">
+      <!--Markup for high qualify food, default 1.25 (125%)-->
+    </kMarkupHigh>
+    <kMarkupVeryHigh value="1.5">
+      <!--Markup for very high qualify food, default 1.5 (150%)-->
+    </kMarkupVeryHigh>
+    <kChefHoursBeforeWorkToHeadToWork value="1">
+      <!--Hours before the venue hours to send the chef to work-->
+    </kChefHoursBeforeWorkToHeadToWork>
+    <kWorkHourStart value="8, 11, 15">
+      <!--Hours in the day a shift can start-->
+    </kWorkHourStart>
+    <kWorkHourDuration value="10">
+      <!--Number of hours to work in a shift, if not a venue-->
+    </kWorkHourDuration>
+    <kQualityLineCook value="Neutral, Nice, VeryNice">
+      <!--Quality of food range for this level of chef-->
+    </kQualityLineCook>
+    <kQualitySousChef value="VeryNice, Great, Excellent">
+      <!--Quality of food range for this level of chef-->
+    </kQualitySousChef>
+    <kQualityExecutiveChef value="Excellent, Outstanding, Perfect">
+      <!--Quality of food range for this level of chef-->
+    </kQualityExecutiveChef>
+    <kQualityQuickMeal value="Great, Excellent, Outstanding">
+      <!--Quality of food you cook on the quick meal-->
+    </kQualityQuickMeal>
+    <kQuitChanceDailyBump value="2">
+      <!--Additional daily chance a chef will quit if they don't get a raise.  This accumulates daily.-->
+    </kQuitChanceDailyBump>
+    <kQuitChanceAfterPayDecreaseBump value="5">
+      <!--Additional chance a chef will quit if their pay is cut.-->
+    </kQuitChanceAfterPayDecreaseBump>
+    <kChefAlarmContinuousSummonFrequncy value="15">
+      <!--Keep verifying that the chef is actually doing chef things this many minutes.  Probably shouldn't be modified.-->
+    </kChefAlarmContinuousSummonFrequncy>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTestDay value="Friday">
+      <!--This day of the week is always test day-->
+    </kTestDay>
+    <kTestScoreRandomness value="0.1">
+      <!--Up to this amount will be randomly added or subtracted from test score.  Range is 0 to 1.-->
+    </kTestScoreRandomness>
+    <kTestPassingThreshold value="0.5">
+      <!--Mood and Academic Performance are averaged together into a value between 0 and 1.  If that value is higher than this, the Sim passes the test.-->
+    </kTestPassingThreshold>
+    <kCourseToneMultipliers value="1, 2, 1.75, 0.5, -0.5, -2, 1.75, 3, -1">
+      <!--Academic Performance gains while attending class are multiplied by these numbers based on Tone.  Order is: Normal, Work Hard, Suck Up, Take It Easy, Socialize, Sleep, DoLateHomework, Cheat, Text-->
+    </kCourseToneMultipliers>
+    <kDayOffBaseGetCaughtChance value="80">
+      <!--Base chance of getting caught when you ask another Sim to take a test (or attend class) for you.  Range: 0-100 (percent)-->
+    </kDayOffBaseGetCaughtChance>
+    <kDayOffGettingCaughtLTRMultiplier value="-1">
+      <!--LTR with the Sim who is attending for you gets multiplied by this number and then added to the Base Chance of getting caught-->
+    </kDayOffGettingCaughtLTRMultiplier>
+    <kDayOffAdjustingTraits value="Disciplined, Unlucky, Good, Coward, Evil, Daredevil, Genius, Lucky, ProfessionalSlacker, InfluenceRebel">
+      <!--Traits that adjust your chance of getting caught when Taking The Day Off-->
+    </kDayOffAdjustingTraits>
+    <kDayOffTraitValues value="5, 10, 10, 5, -10, -5, -5, -15, -15, -5">
+      <!--Adjustments associated with kCheatAdjustingTraits.  Can be positive or negative-->
+    </kDayOffTraitValues>
+    <kDayOffBasePassChance value="5">
+      <!--Base chance of passing the test when you ask another Sim to take a test for you.  Range: 0-100 (percent)-->
+    </kDayOffBasePassChance>
+    <kDayOffPassingPerformanceMultiplier value="0.7">
+      <!--Academic Performance of the Sim who is attending for you gets multiplied by this number and then added to the Base Chance of passing the test-->
+    </kDayOffPassingPerformanceMultiplier>
+    <kDayOffPassingLTRMultiplier value="0.4">
+      <!--LTR with the Sim who is attending for you gets multiplied by this number and then added to the Base Chance of passing the test-->
+    </kDayOffPassingLTRMultiplier>
+    <kAcademicPerformanceBoostForPassingTest value="15">
+      <!--Range:  AcademicPerformance MotiveMin to MotiveMax  Description:  The amount of Academic Performance granted to a Sim if he passes a test.  This value is not effected by tone tunables.  It is effected by term & course load tunables.-->
+    </kAcademicPerformanceBoostForPassingTest>
+    <kAcademicPerformanceBoostForFailingTest value="-10">
+      <!--Range:  AcademicPerformance MotiveMin to MotiveMax  Description:  The amount of Academic Performance granted to a Sim if he fails a test.  This value is not effected by tone tunables.  It is effected by term  & course load tunables.-->
+    </kAcademicPerformanceBoostForFailingTest>
+    <kCourseLoadMultipliersToAcademicPerformance value="2.333, 1.1665, 0.7777, 0.5835">
+      <!--Academic Performance gains while attending class are multiplied by these numbers based on Course Load.  Order is: One Course per Day, Two Courses per Day, Three Courses per Day, Four Courses per Day-->
+    </kCourseLoadMultipliersToAcademicPerformance>
+    <kTermLengthMultipliersToAcademicPerformance value="1, 1">
+      <!--Academic Performance gains while attending class are multiplied by these numbers based on Term Length.  Order is: One Week Term, Two Week Term-->
+    </kTermLengthMultipliersToAcademicPerformance>
+    <kSkippingClassMultiplier value="2">
+      <!--When a Sim goes to class for you, you get Academic Performance as if you were in class for this many hours.  Should be greater than 1, because decay doesn't stop like it does when you attend personally, and because you typically attend for about an hour and a half.-->
+    </kSkippingClassMultiplier>
+    <kGraduationGnomeLoops value="24">
+      <!--Description:  Every 'x' number of loops, it will check to see if we will add a graduation gnome.-->
+    </kGraduationGnomeLoops>
+    <kInventoryStudyMultiplier value="0.25">
+      <!--Study increase for a graduation gnome in your inventory-->
+    </kInventoryStudyMultiplier>
+    <kNearbyStudyMultiplier value="0.5">
+      <!--Study increase for a graduation gnome nearby-->
+    </kNearbyStudyMultiplier>
+    <kMaxGnomeDistance value="8">
+      <!--Max distance for a gnome nearby to have an effect on the sim-->
+    </kMaxGnomeDistance>
+    <kChanceGnomeAppearsInInventory value="2">
+      <!--Chance of a gnome appearing in the inventory after using hard study tone-->
+    </kChanceGnomeAppearsInInventory>
+    <kWorkHardToneFunMult value="-2.5">
+      <!--fun multiplier for Work Hard tone-->
+    </kWorkHardToneFunMult>
+    <kTakeItEasyToneFunMult value="1">
+      <!--fun multiplier for Take it Easy tone-->
+    </kTakeItEasyToneFunMult>
+  </Current_Tuning>
+</base>

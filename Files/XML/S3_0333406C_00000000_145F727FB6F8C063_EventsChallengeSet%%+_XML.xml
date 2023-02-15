@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Events</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>212</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>344525470628757888</EnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>213</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/1ba646cd-3a79-4403-9d00-892c968690f9:Name</NameKey>
+    <Name>Be Calmed Down after getting angry</Name>
+    <SetName>Events</SetName>
+    <ChallengeGuid>1ba646cd-3a79-4403-9d00-892c968690f9</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>212</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/1ba646cd-3a79-4403-9d00-892c968690f9:Description</DescriptionKey>
+    <ThemeKey>Social</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>zh_TW</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>279</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>10086937383331885984</EnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>280</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/1ffa9e89-a17d-449e-b162-1ac3968b1950:Name</NameKey>
+    <Name>Throw a Lame Party</Name>
+    <SetName>Events</SetName>
+    <ChallengeGuid>1ffa9e89-a17d-449e-b162-1ac3968b1950</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>279</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/1ffa9e89-a17d-449e-b162-1ac3968b1950:Description</DescriptionKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>zh_TW</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>359</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>344525470628757856</EnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>360</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/2b26dfac-5e07-463f-9db4-6558cf12e137:Name</NameKey>
+    <Name>Throw an Awesome Party</Name>
+    <SetName>Events</SetName>
+    <ChallengeGuid>2b26dfac-5e07-463f-9db4-6558cf12e137</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>359</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/2b26dfac-5e07-463f-9db4-6558cf12e137:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>774</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>10086937382061335568</EnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>775</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/6d585738-57a1-4ea4-83c4-682efd61344e:Name</NameKey>
+    <Name>Get Stressed out</Name>
+    <SetName>Events</SetName>
+    <ChallengeGuid>6d585738-57a1-4ea4-83c4-682efd61344e</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>774</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/6d585738-57a1-4ea4-83c4-682efd61344e:Description</DescriptionKey>
+    <ThemeKey>Social</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>6</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>957</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>8118019941275607936</EnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>958</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/8d84a3ef-148f-4406-bc0e-634dbd21ea0a:Name</NameKey>
+    <Name>Experience a SimLife Goggles Victory</Name>
+    <SetName>Events</SetName>
+    <ChallengeGuid>8d84a3ef-148f-4406-bc0e-634dbd21ea0a</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>957</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/8d84a3ef-148f-4406-bc0e-634dbd21ea0a:Description</DescriptionKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1162</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>344525470628758192</EnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1163</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/9e1501f0-2173-4f0e-8bbb-459d7eeb14f5:Name</NameKey>
+    <Name>Have something stolen or repossed</Name>
+    <SetName>Events</SetName>
+    <ChallengeGuid>9e1501f0-2173-4f0e-8bbb-459d7eeb14f5</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>1162</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/9e1501f0-2173-4f0e-8bbb-459d7eeb14f5:Description</DescriptionKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1231</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>48</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Go to sleep</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSimFellAsleep</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1232</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>13271263770231523728</EnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1233</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>13271263770231523808</EnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/a88041c8-5330-4d07-ae94-0e978027e1ed:Name</NameKey>
+    <Name>Go to sleep while starving</Name>
+    <SetName>Events</SetName>
+    <ChallengeGuid>a88041c8-5330-4d07-ae94-0e978027e1ed</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(1231AndOP1232)</LogicString>
+    <FailureString>1233</FailureString>
+    <DescriptionKey>Gameplay/Challenges/a88041c8-5330-4d07-ae94-0e978027e1ed:Description</DescriptionKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1515</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>18247741396075807296</EnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1516</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/d0c09253-30e3-42ef-9d8a-497f914fbc10:Name</NameKey>
+    <Name>Try a Day Spa Package</Name>
+    <SetName>Events</SetName>
+    <ChallengeGuid>d0c09253-30e3-42ef-9d8a-497f914fbc10</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>1515</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/d0c09253-30e3-42ef-9d8a-497f914fbc10:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1624</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>10086937393521271696</EnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1625</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/e63678de-02e6-4c08-980d-3cd9dc8a101a:Name</NameKey>
+    <Name>Make a New Friend</Name>
+    <SetName>Events</SetName>
+    <ChallengeGuid>e63678de-02e6-4c08-980d-3cd9dc8a101a</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>1624</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/e63678de-02e6-4c08-980d-3cd9dc8a101a:Description</DescriptionKey>
+    <ThemeKey>Social</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+</ChallengeSetData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumLoops value="3">
+      <!--Number of times to chase again.-->
+    </kNumLoops>
+    <kChanceOfSwitchingChaser value="25">
+      <!--Chance of switching who is chasing who each time sims face off again.-->
+    </kChanceOfSwitchingChaser>
+    <kSocialTuningScoreWeight value="1">
+      <!--Weighting of Social tuning when autonomously choosing to do this interaction-->
+    </kSocialTuningScoreWeight>
+    <kInteractionTuningScoreWeight value="1">
+      <!--Weighting of Interaction tuning tool tuning when autonomously choosing to do this interaction-->
+    </kInteractionTuningScoreWeight>
+    <kNumLoopsWhackedOut value="1">
+      <!--Number of times to chase again if either pet has 'whacked out' buff.-->
+    </kNumLoopsWhackedOut>
+  </Current_Tuning>
+</base>

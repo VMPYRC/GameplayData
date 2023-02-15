@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kStrikesCountWithoutWitnesses value="False">
+      <!--When a Sim is on a Job but no one is home, do strikes still count against them?-->
+    </kStrikesCountWithoutWitnesses>
+    <kNumberOfStrikesBeforeAngryResponse value="1">
+      <!--When a Sim is on a Job, every this many strikes they will get a warning from a responsible Sim on the client's Lot.-->
+    </kNumberOfStrikesBeforeAngryResponse>
+    <kNumberOfStrikesBeforeSimIsFired value="2">
+      <!--When a Sim is on a Job, after this many strikes they will be fired.-->
+    </kNumberOfStrikesBeforeSimIsFired>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeToExtinguishSim value="10">
+      <!--Range: Positive floats.  Description:  Number of Sim minutes it takes a normal Sim to extinguish another Sim.-->
+    </kTimeToExtinguishSim>
+    <kBraveSimExtinguishMultiplier value=".5">
+      <!--Range: Positive floats less than 1.0f.  Description:  Multiplier on the amount of time it takes a Brave Sim to extinguish another Sim.  If set to 0.5f, a Brave Sim extinguishes twice as fast.-->
+    </kBraveSimExtinguishMultiplier>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

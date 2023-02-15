@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kUpgradeDoorbellSoundTuning>
+      <UpgradeTime value="160">
+        <!--The amount of time it takes to do the upgrade in minutes-->
+      </UpgradeTime>
+      <SkillGainRate value="1760">
+        <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+      </SkillGainRate>
+      <BadFailureChance value="100">
+        <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+      </BadFailureChance>
+      <ShouldShockInPuddle value="False">
+        <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+      </ShouldShockInPuddle>
+    </kUpgradeDoorbellSoundTuning>
+    <kDefaultPortalCost value="1">
+      <!--The default cost of traversing the portal to the path planner.-->
+    </kDefaultPortalCost>
+    <kPrivacyPortalCost value="100000">
+      <!--The cost during privacy of traversing the portal to the path planner.  To disable doors completely during privacy, set to > 1,000,000.0f.-->
+    </kPrivacyPortalCost>
+    <kMinimumTimeBeforeClosingDoor value="2">
+      <!--The minimum time before a door closes, after being opened (in sim minutes).-->
+    </kMinimumTimeBeforeClosingDoor>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <UpgradeComplexity value="1">
+      <!--The initial level a Sim can perform an upgrade.  Also the level when he has the max chance of failure-->
+      <!--deprecated on: 1/7/2008 7:08:57 PM-->
+    </UpgradeComplexity>
+  </Deprecated_Tuning>
+</base>

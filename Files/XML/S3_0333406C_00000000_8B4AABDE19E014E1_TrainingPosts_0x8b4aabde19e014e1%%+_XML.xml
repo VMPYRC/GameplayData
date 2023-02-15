@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumberOfPostsToRunBeforeResting value="12">
+      <!--Int. The minimum number of posts to run before stopping, this is used to compute number of loops by dividing this number by posts used-->
+    </kNumberOfPostsToRunBeforeResting>
+    <kMaxPostCount value="12">
+      <!--Int. The maximum number of training posts used when training-->
+    </kMaxPostCount>
+    <kMinWatchDistance value="4">
+      <!--Float. Min distance away from training posts to stand when watching.-->
+    </kMinWatchDistance>
+    <kMaxWatchDistance value="6">
+      <!--Float. Max distance away from training posts to stand when watching.-->
+    </kMaxWatchDistance>
+    <kHorseLookAtPriority value="150">
+      <!--Int. Priority of look at of horse for a Sim that is watching it train.-->
+    </kHorseLookAtPriority>
+    <kJockeyToneTuning>
+      <kRacingSkillLevelAvailability value="2">
+        <!--Int. Racing skill availability.-->
+      </kRacingSkillLevelAvailability>
+      <kRacingSkillGainMultiplier value="0.6">
+        <!--Float. Racing skill gain multiplier on horse.-->
+      </kRacingSkillGainMultiplier>
+      <kRidingSkillGainMultiplier value="1.5">
+        <!--Float. Riding skill gain multiplier on rider, if there is one.-->
+      </kRidingSkillGainMultiplier>
+      <kFatigueMotiveMultiplier value="1">
+        <!--Float. Fatigue gain rate multiplier on the horse.-->
+      </kFatigueMotiveMultiplier>
+      <kThirstMotiveMultiplier value="1">
+        <!--Float. Thirst loss rate multiplier on the horse.-->
+      </kThirstMotiveMultiplier>
+      <kUseTrot value="False">
+        <!--Bool. Use Trot instead of Gallop.-->
+      </kUseTrot>
+      <kRequiresRider value="True">
+        <!--Bool. Requires a rider.-->
+      </kRequiresRider>
+    </kJockeyToneTuning>
+    <kEnduranceToneTuning>
+      <kRacingSkillLevelAvailability value="4">
+        <!--Int. Racing skill availability.-->
+      </kRacingSkillLevelAvailability>
+      <kRacingSkillGainMultiplier value="0.6">
+        <!--Float. Racing skill gain multiplier on horse.-->
+      </kRacingSkillGainMultiplier>
+      <kRidingSkillGainMultiplier value="1">
+        <!--Float. Riding skill gain multiplier on rider, if there is one.-->
+      </kRidingSkillGainMultiplier>
+      <kFatigueMotiveMultiplier value="0.5">
+        <!--Float. Fatigue gain rate multiplier on the horse.-->
+      </kFatigueMotiveMultiplier>
+      <kThirstMotiveMultiplier value="0.5">
+        <!--Float. Thirst loss rate multiplier on the horse.-->
+      </kThirstMotiveMultiplier>
+      <kUseTrot value="True">
+        <!--Bool. Use Trot instead of Gallop.-->
+      </kUseTrot>
+      <kRequiresRider value="False">
+        <!--Bool. Requires a rider.-->
+      </kRequiresRider>
+    </kEnduranceToneTuning>
+    <kHardGallopToneTuning>
+      <kRacingSkillLevelAvailability value="6">
+        <!--Int. Racing skill availability.-->
+      </kRacingSkillLevelAvailability>
+      <kRacingSkillGainMultiplier value="2.25">
+        <!--Float. Racing skill gain multiplier on horse.-->
+      </kRacingSkillGainMultiplier>
+      <kRidingSkillGainMultiplier value="1.5">
+        <!--Float. Riding skill gain multiplier on rider, if there is one.-->
+      </kRidingSkillGainMultiplier>
+      <kFatigueMotiveMultiplier value="2">
+        <!--Float. Fatigue gain rate multiplier on the horse.-->
+      </kFatigueMotiveMultiplier>
+      <kThirstMotiveMultiplier value="2">
+        <!--Float. Thirst loss rate multiplier on the horse.-->
+      </kThirstMotiveMultiplier>
+      <kUseTrot value="False">
+        <!--Bool. Use Trot instead of Gallop.-->
+      </kUseTrot>
+      <kRequiresRider value="False">
+        <!--Bool. Requires a rider.-->
+      </kRequiresRider>
+    </kHardGallopToneTuning>
+    <kPerfectPaceToneTuning>
+      <kRacingSkillLevelAvailability value="8">
+        <!--Int. Racing skill availability.-->
+      </kRacingSkillLevelAvailability>
+      <kRacingSkillGainMultiplier value="1.75">
+        <!--Float. Racing skill gain multiplier on horse.-->
+      </kRacingSkillGainMultiplier>
+      <kRidingSkillGainMultiplier value="1.25">
+        <!--Float. Riding skill gain multiplier on rider, if there is one.-->
+      </kRidingSkillGainMultiplier>
+      <kFatigueMotiveMultiplier value="1.15">
+        <!--Float. Fatigue gain rate multiplier on the horse.-->
+      </kFatigueMotiveMultiplier>
+      <kThirstMotiveMultiplier value="1">
+        <!--Float. Thirst loss rate multiplier on the horse.-->
+      </kThirstMotiveMultiplier>
+      <kUseTrot value="False">
+        <!--Bool. Use Trot instead of Gallop.-->
+      </kUseTrot>
+      <kRequiresRider value="False">
+        <!--Bool. Requires a rider.-->
+      </kRequiresRider>
+    </kPerfectPaceToneTuning>
+  </Current_Tuning>
+</base>

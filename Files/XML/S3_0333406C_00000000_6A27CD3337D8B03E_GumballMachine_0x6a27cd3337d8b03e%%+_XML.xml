@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRepairableTuning>
+      <HoursUnbreakable value="48">
+        <!--How long until the object is allowed to check for breakage after being fixed or purchased.-->
+      </HoursUnbreakable>
+      <StartPercentChanceBreak value="5">
+        <!--Starting chance of object breaking when its used.-->
+      </StartPercentChanceBreak>
+      <PercentChanceBreakIncrease value="2">
+        <!--How much the chance of breakage increases each time the object is used (int, 1 to 100).-->
+      </PercentChanceBreakIncrease>
+      <PercentWhenReplaceAvailable value="15">
+        <!--What percent breakage chance the Replace interaction becomes available-->
+      </PercentWhenReplaceAvailable>
+      <RepairComplexity value="6">
+        <!--The level at which repair time reaches its minimum-->
+      </RepairComplexity>
+      <MinRepairTime value="25">
+        <!--Minimum amount of time in sim minutes that it takes to repair this object.  This time when skill level at or above RepairComplexity-->
+      </MinRepairTime>
+      <MaxRepairTime value="120">
+        <!--Maximum amount of time in sim minutes that it takes to repair this object.  Occurs at skill level 0.-->
+      </MaxRepairTime>
+      <RepairSkillGain value="1200">
+        <!--Rate of skill gain while repairing object in points per sim minute-->
+      </RepairSkillGain>
+      <UpgradeUnbreakable>
+        <UpgradeTime value="240">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="3600">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="20">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="True">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeUnbreakable>
+      <MinChanceOfElectrocution value="0">
+        <!--Minimum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs when skill level > = RepairComplexity-->
+      </MinChanceOfElectrocution>
+      <MaxChanceOfElectrocution value="7">
+        <!--Maximum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs at skill level 0.-->
+      </MaxChanceOfElectrocution>
+    </kRepairableTuning>
+    <kChanceOfBreakingGumballByKick value="30">
+      <!--Probability of sim breaking the machine when kicking it-->
+    </kChanceOfBreakingGumballByKick>
+    <kBonusChanceOfBreakingMachine value="5">
+      <!--Bonus probability for unlucky sims to break the gumball machine when kicking it-->
+    </kBonusChanceOfBreakingMachine>
+    <kGetMultipleGumballProbabilty value="20">
+      <!--Probability of getting two gumballs-->
+    </kGetMultipleGumballProbabilty>
+    <kNumGumballs value="30">
+      <!--The number of gumballs in the machine. Positive int. Initial GPE value: 30.-->
+    </kNumGumballs>
+    <kNumGumballsHalfGone value="20">
+      <!--The number of gumbals left when the machine is half gone. Positive int. Initial GPE value: 20.-->
+    </kNumGumballsHalfGone>
+    <kChanceOfGettingSick value="30">
+      <!--Chance of getting nauseus after eating too many gumballs. Positive float. Initial GPE value: 30.-->
+    </kChanceOfGettingSick>
+    <kRefillCost value="100">
+      <!--Range: int. Funds removed when refills the gumballmachine.-->
+    </kRefillCost>
+    <kGumballCost value="1">
+      <!--Range: int. Cost of 1 gumball.-->
+    </kGumballCost>
+  </Current_Tuning>
+</base>

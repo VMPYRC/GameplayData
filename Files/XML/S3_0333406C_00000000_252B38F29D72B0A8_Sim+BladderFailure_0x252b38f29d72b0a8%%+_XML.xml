@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPublicFailureStressMultiplier value="1.5">
+      <!--Range: Float multipliers.  Description:  Multiplier on stress when bladder failing within range of other Sims.-->
+    </kPublicFailureStressMultiplier>
+    <kDistanceToReact value="10">
+      <!--Range:  Distance.  Description:  Distance at which Sims react to another Sim passing out.-->
+    </kDistanceToReact>
+    <kInteractionTime value="3">
+      <!--Range:  Sim minutes.  Description:  Minutes for a Sim to bladder fail.-->
+    </kInteractionTime>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

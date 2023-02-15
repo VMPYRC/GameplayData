@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceOfSale value="25">
+      <!--Range: 0-100.  Description: Chance that a sale will happen today.-->
+    </kChanceOfSale>
+    <kSaleStartHour value="120">
+      <!--Range: Sim Minutes.  Description: Time between which the pedestal checks to start a sale may begin.-->
+    </kSaleStartHour>
+    <kDurationOfSale value="8">
+      <!--Range: Positive Int.  Description: Hours that the sale will be active.-->
+    </kDurationOfSale>
+    <kPriceDiscountPercentage value="30">
+      <!--Range: 0-100.  Description: Price discount as a percentage while the sale is active.-->
+    </kPriceDiscountPercentage>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToFail value="50">
+      <!--Range: 0.0 - 100.0f  Description: Chance for the weather machine to fail when sim attempts to use it with no charges left.-->
+    </kChanceToFail>
+    <kWeatherLength value="6">
+      <!--Range: 0.0 - Inf  Description: Length of chosen weather in sim hours. After this, the weather system takes back over as normal.-->
+    </kWeatherLength>
+    <kTimeBetweenUses value="0">
+      <!--Range: 0.0 - Inf  Description: Time in sim hours between uses. Should be longer than kWeatherLength.-->
+    </kTimeBetweenUses>
+    <kTimeBetweenChargeUps value="12">
+      <!--Range: 0.0 - Inf  Description: Time in sim hours between charge ups.-->
+    </kTimeBetweenChargeUps>
+    <kCreateStormMinMaxRainTemp value="60, 80">
+      <!--[Min,Max] Temperature override for rain. A random temp will be picked from these numbers.-->
+    </kCreateStormMinMaxRainTemp>
+    <kCreateStormMinMaxSnowTemp value="0, 30">
+      <!--[Min,Max] Temperature override for snow. A random temp will be picked from these numbers.-->
+    </kCreateStormMinMaxSnowTemp>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinSkillToCreateNanite value="0">
+      <!--Range: 0-10; BotBuildingSkill skill level at which CreateNanites becomes available-->
+    </kMinSkillToCreateNanite>
+    <kMinSkillToCreateTraitChip value="1">
+      <!--Range: 0-10; BotBuildingSkill skill level at which CreateTraitChip becomes available-->
+    </kMinSkillToCreateTraitChip>
+    <kMinSkillToCreateServoBot value="0">
+      <!--Range: 0-10; BotBuildingSkill skill level at which CreateServoBot becomes available-->
+    </kMinSkillToCreateServoBot>
+    <kCreateNaniteChanceOfSuccess value="0.65, 0.7, 0.75, 0.8, 0.8, 0.85, 0.85, 0.9, 0.9, 0.95, 0.99">
+      <!--Range: 0.0-1.0f; Percent chance of successfully creating nanites at each BotBuildingSkill skill level 0 - 10, Implies chance of failure.-->
+    </kCreateNaniteChanceOfSuccess>
+    <kPercentOfWorthNanitesCostToBuild value="0.75">
+      <!--Range: 0.0-1.0f; This number is multiplied with the worth of a nanite to determine what it costs to make the nanite with the station-->
+    </kPercentOfWorthNanitesCostToBuild>
+    <kCostToBuildServoBot value="250">
+      <!--Cost in Simoleans to construct a new bot-->
+    </kCostToBuildServoBot>
+    <kCreateTraitChipChanceOfSuccess value="0.75, 0.75, 0.8, 0.8, 0.85, 0.85, 0.9, 0.9, 0.95, 0.95, 0.99">
+      <!--Range: 0.0-1.0f; Percent chance of successfully creating a trait chip at each BotBuildingSkill skill level 0 - 10, Implies chance of failure.-->
+    </kCreateTraitChipChanceOfSuccess>
+    <kCostToCustomizeServoBot value="100">
+      <!--Cost in Simoleans to customize an existing bot-->
+    </kCostToCustomizeServoBot>
+    <kDesignSchematicsOutcomes value="15, 100">
+      <!--Range: 0-100; Table ranges to epic fail or learn something.  0-[0] - epic fail; [0]-[1] - learn something; [1]-100 - fail to learn-->
+    </kDesignSchematicsOutcomes>
+    <kDesignSchematicsLoopTime value="30">
+      <!--Time to loop in minutes doing research into schematics-->
+    </kDesignSchematicsLoopTime>
+    <kDesignSchematicsBonusForSuccessfulResearch value="200">
+      <!--skill XP bonus when a new nanite or chip has been discovered-->
+    </kDesignSchematicsBonusForSuccessfulResearch>
+    <kCreateNanitesLoopTime value="30">
+      <!--Time to loop in minutes creating nanites-->
+    </kCreateNanitesLoopTime>
+    <kCreateTraitChipLoopTime value="30">
+      <!--Time to loop in minutes creating trait chips-->
+    </kCreateTraitChipLoopTime>
+    <kBotFanIncreasedSuccess value="10">
+      <!--Range: 0-100; How much should be removed from the outcome chance when a BotFan does Research.-->
+    </kBotFanIncreasedSuccess>
+    <kNaniteChipCreateChance value="80">
+      <!--Chance for learning common vs uncommon nanite recipes-->
+    </kNaniteChipCreateChance>
+    <kTraitChipCreateChance value="100">
+      <!--Chance for learning traitchip recipes-->
+    </kTraitChipCreateChance>
+  </Current_Tuning>
+</base>

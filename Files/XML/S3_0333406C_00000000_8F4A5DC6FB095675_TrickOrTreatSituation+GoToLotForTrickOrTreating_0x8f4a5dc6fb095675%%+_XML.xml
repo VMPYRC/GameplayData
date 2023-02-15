@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinDistanceGroup value="3">
+      <!--The min distance from the front door for a group of two.-->
+    </kMinDistanceGroup>
+    <kDistanceBufferPerAdditionalSim value="1">
+      <!--For each Sim beyond the second, this amount will be added to the min distance.-->
+    </kDistanceBufferPerAdditionalSim>
+    <kBufferCap value="4">
+      <!--The max amount of buffer for the group.-->
+    </kBufferCap>
+    <kMaxDistance value="15">
+      <!--The max routing distance from the front door for any size group.-->
+    </kMaxDistance>
+  </Current_Tuning>
+</base>

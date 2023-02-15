@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeGraduateStance1">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeGraduateStance2">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeGraduateStance3, magicGnomeGraduateStance4, magicGnomeGraduateStance5">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeGraduateStance2">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeGraduateStance2">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="magicGnomeGraduateStance2">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="3">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kGnomeTuning>
+    <kChanceGnomeAppearsInInventory value="1">
+      <!--Chance of a gnome appearing in the inventory after using hard study tone-->
+    </kChanceGnomeAppearsInInventory>
+    <kInventoryStudyMultiplier value="3">
+      <!--Study increase for a graduation gnome in your inventory-->
+    </kInventoryStudyMultiplier>
+    <kNearbyStudyMultiplier value="3">
+      <!--Study increase for a graduation gnome nearby-->
+    </kNearbyStudyMultiplier>
+    <kMaxGnomeDistance value="8">
+      <!--Max distance for a gnome nearby to have an effect on the sim-->
+    </kMaxGnomeDistance>
+    <kGraduationGnomeMovesToScienceStationMultiplier value="20">
+      <!--OBJECT DESIRABILITY: score multiplier for science station objects.-->
+    </kGraduationGnomeMovesToScienceStationMultiplier>
+    <kGraduationGnomeMovesToDeskMultiplier value="20">
+      <!--OBJECT DESIRABILITY: score multiplier for desk objects.-->
+    </kGraduationGnomeMovesToDeskMultiplier>
+    <kGraduationGnomeMovesToLaptopMultiplier value="20">
+      <!--OBJECT DESIRABILITY: score multiplier for laptop objects.-->
+    </kGraduationGnomeMovesToLaptopMultiplier>
+  </Current_Tuning>
+</base>

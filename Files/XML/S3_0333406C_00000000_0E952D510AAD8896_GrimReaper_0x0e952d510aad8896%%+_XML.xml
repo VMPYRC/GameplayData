@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDelayBeforeArriving value="0.075">
+      <!--Length of time (in hours) that GrimReaper waits before routing to lot-->
+    </kDelayBeforeArriving>
+    <kDelayBeforeLeaving value="1.0">
+      <!--Length of time (in hours) that GrimReaper waits before leaving the lot, after his work is done-->
+    </kDelayBeforeLeaving>
+    <kCheckTime value="5">
+      <!--Length of time (in minutes) between checks that the Reaper should leave while hanging out.-->
+    </kCheckTime>
+    <kHangOutBaseChance value="20">
+      <!--The base percent chance the Reaper will hang out on the lot when his work is done.-->
+    </kHangOutBaseChance>
+    <kHangOutMaxChance value="75">
+      <!--The max percent chance the Reaper will hang out on the lot when his work is done.-->
+    </kHangOutMaxChance>
+    <kHangOutIncreasePerDeath value="5">
+      <!--The percent chance increase per a death on the lot that the Reaper will hang out.-->
+    </kHangOutIncreasePerDeath>
+    <kMinLogicSkill value="3">
+      <!--Min Logic Skil-->
+    </kMinLogicSkill>
+    <kMaxLogicSkill value="6">
+      <!--Max Logic Skil-->
+    </kMaxLogicSkill>
+    <kMinChessSkill value="3">
+      <!--Min Chess Skil-->
+    </kMinChessSkill>
+    <kMaxChessSkill value="6">
+      <!--Max Chess Skil-->
+    </kMaxChessSkill>
+    <kServiceTuning>
+      <kMaxNumNPCsInPool value="1">
+        <!--Max num NPCs at once in service-->
+      </kMaxNumNPCsInPool>
+      <kCost value="0">
+        <!--Cost of service-->
+      </kCost>
+      <kIsEmergencyService value="False">
+        <!--If true this service charges kCost only if falsely called, otherwise free.-->
+      </kIsEmergencyService>
+      <kIsRecurrent value="False">
+        <!--Whether the service is recurrent (true) or one-off (false).  Recurrent services are the only type which can be cancelled through the phone dialog.-->
+      </kIsRecurrent>
+      <kAlwaysTryToSendSameSim value="True">
+        <!--Whether or not the service always tries to send the same NPC to a specific household-->
+      </kAlwaysTryToSendSameSim>
+    </kServiceTuning>
+    <kFavoriteFoods value="PeanutButterAndJelly, TriTipSteak, HotDog">
+      <!--The Grim Reapers favorite food will randobly be chosen from these options.-->
+    </kFavoriteFoods>
+    <kFavoriteMusic value="Classical">
+      <!--The Grim Reapers favorite music will randobly be chosen from these options.-->
+    </kFavoriteMusic>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kHangOutLossPerSim value="5">
+      <!--The percent chance loss per a Sim that the Reaper will hang out on the lot.-->
+      <!--deprecated on: 4/1/2008 4:27:30 PM-->
+    </kHangOutLossPerSim>
+  </Deprecated_Tuning>
+</base>

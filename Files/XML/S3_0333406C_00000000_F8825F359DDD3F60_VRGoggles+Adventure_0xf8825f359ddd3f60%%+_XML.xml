@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAdventuringMinLength value="60">
+      <!--The minimum time in sim minutes adventuring will last.-->
+    </kAdventuringMinLength>
+    <kAdventuringMaxLength value="240">
+      <!--The maximum time in sim minutes adventuring will last.-->
+    </kAdventuringMaxLength>
+    <kEventMinTime value="20">
+      <!--The minimum time in sim minutes between events (e.g. a tns, a dialog, mauling by bears).-->
+    </kEventMinTime>
+    <kEventMaxTime value="45">
+      <!--The maximum time in sim minutes between events (e.g. a tns, a dialog, mauling by bears).-->
+    </kEventMaxTime>
+    <kTNSWeight value="60">
+      <!--The chance of getting a TNS.-->
+    </kTNSWeight>
+    <kChoiceWeight value="35">
+      <!--The chance of getting a choice dialog.-->
+    </kChoiceWeight>
+    <kMaulingWeight value="5">
+      <!--The chance of getting mauled by a bear.-->
+    </kMaulingWeight>
+    <kWinBuffs value="GreatAdventure, Fascinated, LetOffSteam, VREmpowered, VRVictory">
+      <!--The buffs you can get if you win.-->
+    </kWinBuffs>
+    <kLoseBuffs value="FailedAtVR, Horrified, VRNausea, FrightenedByVR, Sore">
+      <!--The buffs you can get if you lose.-->
+    </kLoseBuffs>
+  </Current_Tuning>
+</base>

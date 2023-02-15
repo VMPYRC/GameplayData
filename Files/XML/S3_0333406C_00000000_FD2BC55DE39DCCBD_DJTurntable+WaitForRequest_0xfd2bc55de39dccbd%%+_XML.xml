@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinRequestWaitTime value="20">
+      <!--Description:  min wait time for the change to be made, in Sim Minutes-->
+    </kMinRequestWaitTime>
+    <kMaxRequestWaitTime value="30">
+      <!--Description:  max wait time for the change to be made, in Sim Minutes-->
+    </kMaxRequestWaitTime>
+    <kDJSkillIncreaseOnSuccess value="15">
+      <!--Positive number that will be added to DJSkill for a request and a successful change genre-->
+    </kDJSkillIncreaseOnSuccess>
+  </Current_Tuning>
+</base>

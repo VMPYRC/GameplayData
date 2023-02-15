@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinutesUntilBurning value="20">
+      <!--The number of minutes food has to be overcooked to burn.-->
+    </kMinutesUntilBurning>
+    <kNumStirMinutes value="6">
+      <!--How long the sim should stir the mixing bowl.-->
+    </kNumStirMinutes>
+    <kBurnChance value="0.25, 0.2, 0.1, 0.05">
+      <!--The chance of random burning based on hidden child cooking skill level [0,3].-->
+    </kBurnChance>
+    <kNaturalCookBurnReductionChance value="0.0">
+      <!--Chance of burning multiplier applied if the sim is a natural cook.-->
+    </kNaturalCookBurnReductionChance>
+    <kFoodPointsPerLevel value="0, 5, 18, 25">
+      <!--The number of food points this food will have depending on the skill level of the preparer [0,3].-->
+    </kFoodPointsPerLevel>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCostPerServing value="250">
+      <!--The cost to serve food on the buffet table-->
+    </kCostPerServing>
+    <kMinumumCookingSkillLevelForPersonalizedFoods value="4">
+      <!--The minumum cooking skill level the server needs to have for foods to be picked from its own recipe book-->
+    </kMinumumCookingSkillLevelForPersonalizedFoods>
+    <kBaseTimeToNextFoodSpoilageStage value="20">
+      <!--The base time for how long food takes to spoil, in hours.-->
+    </kBaseTimeToNextFoodSpoilageStage>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kEnvironmentScoreMultiplier value="1">
+      <!--The amount by which the sum of the plates' environment score is multiplied to determine the table's environment score-->
+    </kEnvironmentScoreMultiplier>
+    <kChanceOfDefaultFoodOnPersonalize value="0.2">
+      <!--The probability that the default food will be picked when a personalized one is to be picked instead-->
+    </kChanceOfDefaultFoodOnPersonalize>
+  </Current_Tuning>
+</base>

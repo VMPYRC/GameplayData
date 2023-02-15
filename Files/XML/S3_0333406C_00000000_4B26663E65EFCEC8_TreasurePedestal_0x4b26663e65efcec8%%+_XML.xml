@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSpawnInterval value="1">
+      <!--Spawn interval for the Treasure Pedestal (Sim Hours)-->
+    </kSpawnInterval>
+    <kSpawnChance value="0.25, 0.25, 0.15, 0.15, 0.1, 0.1">
+      <!--Chances to get different objects : Voltron Gnome Parts, Money Bag, HoloDisc, Books, DreamPod Program, VideoWall Programs (Total adds up to 1.0)-->
+    </kSpawnChance>
+    <kBookTitles value="EP11WrittenInternetBook1, EP11WrittenInternetBook2, EP11WrittenInternetBook3, EP11WrittenInternetBook4, EP11WrittenInternetBook5, EP11WrittenInternetBook6, EP11WrittenInternetBook7, EP11WrittenInternetBook8">
+      <!--Array for general book titles-->
+    </kBookTitles>
+    <kMoneyBagMinimum value="500">
+      <!--Minimum amount the money bag.-->
+    </kMoneyBagMinimum>
+    <kMoneyBagMaximum value="3000">
+      <!--Maximum amount the money bag.-->
+    </kMoneyBagMaximum>
+  </Current_Tuning>
+</base>

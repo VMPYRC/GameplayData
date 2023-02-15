@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPositiveReactions value="Cheer, LaughAt, Excited">
+      <!--Range:  ReactionTypes[]  Description:  Positive Reactions to child playing pretend-->
+    </kPositiveReactions>
+    <kNegativeReactions value="Boo, PointLaugh, Yawn">
+      <!--Range:  ReactionTypes[]  Description:  Negative Reactions to child playing pretend-->
+    </kNegativeReactions>
+    <kLTRForPositiveReaction value="0">
+      <!--Min Relationship level for a sim to react positive to a child playing pretend-->
+    </kLTRForPositiveReaction>
+    <kTraitsForBadReaction value="DislikesChildren, NoSenseOfHumor, MeanSpirited">
+      <!--Traits that always cause negative reaction-->
+    </kTraitsForBadReaction>
+  </Current_Tuning>
+</base>

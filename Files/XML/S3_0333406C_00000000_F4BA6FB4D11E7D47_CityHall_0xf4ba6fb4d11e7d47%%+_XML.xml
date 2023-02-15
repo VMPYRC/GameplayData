@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kProtestDuration value="8">
+      <!--How long in Sim hours the protest will last-->
+    </kProtestDuration>
+    <kProtesterLimit value="7">
+      <!--Max number of sims that can protest-->
+    </kProtesterLimit>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="0" />
+      <MapTagFilterType value="Work">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-35">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="100">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kInvestCost value="0">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="0">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="0">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="0">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="0">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="0">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kCanInvestHere value="False">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kNpcExitFreq value="10">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kNighttimeLightSunsetDelta value="1">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kPreventLotPurchase value="True">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="True">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+    <kChanceOfProtest value="15">
+      <!--Range 0 - 100: Percent chance a protest will be started.-->
+    </kChanceOfProtest>
+    <kTimeForProtestCheck value="10">
+      <!--The hour of day you want to try triggering a protest broadcast-->
+    </kTimeForProtestCheck>
+    <kMinProtestRadius value="0.5">
+      <!--DONT CHANGE UNLESS YOU KNOW WHAT YOU ARE DOING.  Units: meters/tiles Minimum Radius for routing to city hall for protest-->
+    </kMinProtestRadius>
+    <kMaxProtestRadius value="6.0">
+      <!--DONT CHANGE UNLESS YOU KNOW WHAT YOU ARE DOING.  Units: meters/tiles Max Radius for routing to city hall for protest-->
+    </kMaxProtestRadius>
+    <kProtestRouteConeAngle value="180">
+      <!--Units: degrees. Protest Routing Cone Angle-->
+    </kProtestRouteConeAngle>
+    <kProtestBroadcastParams>
+      <PulseRadius value="200">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <PulseRepeatTime value="10">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="Three">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kProtestBroadcastParams>
+    <kProtestReactionBroadcastParams>
+      <PulseRadius value="15">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <PulseRepeatTime value="1">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="True">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="Boo, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kProtestReactionBroadcastParams>
+    <kClassCharismaCost value="400">
+      <!--How much a Charisma class costs, in Simoleons-->
+    </kClassCharismaCost>
+    <kClassCharismaDuration value="60">
+      <!--How much a Charisma class lasts, in Sim minutes-->
+    </kClassCharismaDuration>
+    <kVisitRabbitHoleTuning>
+      <VisitLength value="60">
+        <!--Visit length in minutes.-->
+      </VisitLength>
+      <VisitBoredomChanceChild value="20">
+        <!--Visit chance for boredom child.-->
+      </VisitBoredomChanceChild>
+      <VisitBoredomChanceTeen value="35">
+        <!--Visit chance for boredom teen.-->
+      </VisitBoredomChanceTeen>
+      <VisitBoredomChanceAdult value="20">
+        <!--Visit chance for boredom adult/edler.-->
+      </VisitBoredomChanceAdult>
+      <VisitWooHooLength value="25">
+        <!--Visit woohoo length in minutes.-->
+      </VisitWooHooLength>
+      <VisitWooHooCheckForCaught value="5">
+        <!--Visit woohoo check for being caught every X minutes.-->
+      </VisitWooHooCheckForCaught>
+      <VisitWooHooChanceForCaught value="2">
+        <!--Visit woohoo chance of being caught when 'VisitWooHooCheckForCaught' is hit.-->
+      </VisitWooHooChanceForCaught>
+      <VisitTryForBabySuccessRate value="50">
+        <!--Visit try for baby chance of success.-->
+      </VisitTryForBabySuccessRate>
+      <VisitTourGroupLTRGain value="2">
+        <!--Amount of LTR gain between people on a tour group every X minutes-->
+      </VisitTourGroupLTRGain>
+      <VisitTourGroupMinutesLTR value="20">
+        <!--Frequency of LTR gain while on a tour group-->
+      </VisitTourGroupMinutesLTR>
+      <WooHooingSTCIncrement value="100">
+        <!--The STC increment after WooHooing.-->
+      </WooHooingSTCIncrement>
+      <WooHooingLTRIncrement value="5">
+        <!--The LTR increment after WooHooing.-->
+      </WooHooingLTRIncrement>
+      <WooHooingFunDelta value="80">
+        <!--The Fun delta while WooHooing.-->
+      </WooHooingFunDelta>
+      <WooHooingSocialDelta value="125">
+        <!--The Social delta while WooHooing.-->
+      </WooHooingSocialDelta>
+      <WooHooingCommodity value="Amorous">
+        <!--Social STC after WooHooing.-->
+      </WooHooingCommodity>
+    </kVisitRabbitHoleTuning>
+    <kDaysCanProtest value="Sunday, Saturday">
+      <!--Range:  Days of the week.  Description:  Days of the week a protest can happen.-->
+    </kDaysCanProtest>
+    <kCelebrationOfGreatSuccessTuning>
+      <InteractionNameLocalizationKey value="Gameplay/Excel/Idles/Reactions:CheerInteractionName" />
+      <AllowAutonomous value="True" />
+      <Priority value="High" />
+      <CancellableByPlayer value="True" />
+      <Hidden value="False" />
+      <CelebrateAnimations value="Idle, Clap, Cheer, ThrowConfetti, HoldSign, HoldBalloon" />
+      <CelebrateAnimationWeights value="1, 4, 2, 2, 0.5, 1" />
+      <CelebrateAnimationTimes value="1, 2, 2, 2, 5, 4" />
+      <Reactions value="" />
+      <ReactionWeights value="" />
+      <SignImages value="SignPicketYeti" />
+      <RouteToTarget value="False" />
+    </kCelebrationOfGreatSuccessTuning>
+    <kPreCelebrationTime value="60">
+      <!--Time in sim minutes before the 'Attend Award Ceremony' interaction is available.  Used to gather sims at city hall.-->
+    </kPreCelebrationTime>
+    <kMaxCelebrationTime value="180">
+      <!--Time in sim minutes after the 'Attend Award Ceremony' interaction is available that the crowd should be dispersed.-->
+    </kMaxCelebrationTime>
+    <kCelebrationBroadcastParams>
+      <PulseRadius value="200">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <PulseRepeatTime value="10">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="Three">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human, Horse, Cat, Dog, LittleDog">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="True">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="Cheer, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kCelebrationBroadcastParams>
+    <kCelebrationReactionChance value="0.5">
+      <!--Celebration reaction chance - value between 0 - 1 if a sim should do a reaction.  Sims with a given trait will do the corresponding reaction, otherwise a reaction will be chosen from kCelebrationDefaultReactions.-->
+    </kCelebrationReactionChance>
+    <kCelebrationReactionTraits value="Unlucky, CouchPotato, Attractive, Workaholic, AbsentMinded">
+      <!--Celebration reaction traits.  Array of traits that should correspond with the reactions of kCelebrationTraitReactions.-->
+    </kCelebrationReactionTraits>
+    <kCelebrationTraitReactions value="ThrowUp, TraitCouchPotato, Mwah, JoyousCrying, Shrug">
+      <!--Celebration trait reactions.  Array of reactions that should correspond with the traits of kCelebrationReactionTraits.-->
+    </kCelebrationTraitReactions>
+    <kCelebrationDefaultReactions value="Cheer, PumpFist, FacialHappy, Smile">
+      <!--Celebration default reactions.  Array of reactions that are randomly played if the player does not have any specific reaction traits from kCelebrationReactionTraits.-->
+    </kCelebrationDefaultReactions>
+    <kProtestPetReactionBroadcastParams>
+      <PulseRadius value="15">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <PulseRepeatTime value="1">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Horse,Dog,LittleDog,Cat">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kProtestPetReactionBroadcastParams>
+    <kCelebrationPetBroadcastParams>
+      <PulseRadius value="200">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="10">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Horse,Dog,LittleDog,Cat">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kCelebrationPetBroadcastParams>
+    <kCheckForDivingWorkTuning>
+      <AvailableOpportunities value="EP10_SkillUnderwaterDiving_Seashells3, EP10_SkillUnderwaterDiving_MessageBottles1, EP10_SkillUnderwaterDiving_MessageBottles2">
+        <!--Which EP10 SCUBA Diving Opportunities are available at the rabbit hole.-->
+      </AvailableOpportunities>
+    </kCheckForDivingWorkTuning>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kEnvironmentMotiveScore>
+      <EnvironmentMotiveScore value="0" />
+      <!--deprecated on: 9/7/2007 3:07:16 PM-->
+    </kEnvironmentMotiveScore>
+    <kProtestRadius value="10000">
+      <!--How far away from city hall the protest interaction is advertised to people-->
+      <!--deprecated on: 2/1/2008 5:09:24 PM-->
+    </kProtestRadius>
+    <kMinutesBetweenProtestReactionBroadcast value="5">
+      <!--Num Sim Minutes between broadcasts of reacting to protesters-->
+      <!--deprecated on: 2/1/2008 5:40:36 PM-->
+    </kMinutesBetweenProtestReactionBroadcast>
+    <PulseStartRadius value="0">
+      <!--deprecated on: 2/4/2008 11:26:15 AM-->
+    </PulseStartRadius>
+    <PulseEndRadius value="10000">
+      <!--deprecated on: 2/4/2008 11:26:15 AM-->
+    </PulseEndRadius>
+    <NumSimMinutesPerPulse value="5">
+      <!--deprecated on: 2/4/2008 11:26:15 AM-->
+    </NumSimMinutesPerPulse>
+    <Exclusive value="False">
+      <!--deprecated on: 2/4/2008 11:26:15 AM-->
+    </Exclusive>
+    <RequiresScoring value="False">
+      <!--Whether or not the broadcast interactions are scored by autonomy (TO BE DELETED BY REVANS)-->
+      <!--deprecated on: 2/7/2008 3:04:26 PM-->
+    </RequiresScoring>
+    <kMinsBetweenChecksForMoreProtesters value="30">
+      <!--While a protest is going on, Num Sim Minutes between checks to add more protesters-->
+      <!--deprecated on: 2/15/2008 6:47:23 PM-->
+    </kMinsBetweenChecksForMoreProtesters>
+    <IsLifeThreatening value="False">
+      <!--Whether the reaction is responding to a life-threatening event (e.g. responding to fire)-->
+      <!--deprecated on: 3/13/2008 4:22:15 PM-->
+    </IsLifeThreatening>
+    <IsLifeThreatening value="False">
+      <!--Whether the reaction is responding to a life-threatening event (e.g. responding to fire)-->
+      <!--deprecated on: 3/13/2008 4:22:15 PM-->
+    </IsLifeThreatening>
+  </Deprecated_Tuning>
+</base>

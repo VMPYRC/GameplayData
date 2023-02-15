@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMotiveDrain value="30">
+      <!--Amount that this spell drains from motives.  Range: 0-200-->
+    </kMotiveDrain>
+    <kRoutingDistance value="2">
+      <!--The radius to route to before casting the spell. 0.0+-->
+    </kRoutingDistance>
+    <kExtraChanceOfEP7Item value="20">
+      <!--Range 0-100.  This percent of the time, we will force an EP7 item.  Otherwise you have an equal chance of getting any Seed, Ingredient (includes Fish), Rock, Gem, or Metal-->
+    </kExtraChanceOfEP7Item>
+    <kMaxConversionValue value="0, 100, 150, 200, 300, 400, 500, 600, 800, 1000, 2147483647">
+      <!--Max Value of a converted object that can be created per level {0-10}.-->
+    </kMaxConversionValue>
+  </Current_Tuning>
+</base>

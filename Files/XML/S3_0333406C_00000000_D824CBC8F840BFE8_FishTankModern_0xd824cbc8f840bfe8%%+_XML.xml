@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCleanableTuning>
+      <PristineCleanValue value="30">
+        <!--The value given when cleaning is completed by a neat Sim.  Should be greater than 0 which is what otehr sims clean to.-->
+      </PristineCleanValue>
+      <ChangeToDirtyState value="-30">
+        <!--Dirty level (Dirty Level range is -100 to 0)that will turn on the model's dirty state.-->
+      </ChangeToDirtyState>
+      <ChangeToVeryDirtyState value="-60">
+        <!--Dirty level that will turn on the model's very dirty state.-->
+      </ChangeToVeryDirtyState>
+      <DirtyIncPerUse value="6">
+        <!--The amount that get's subtracted from the dirty level each time the object is used.-->
+      </DirtyIncPerUse>
+      <DirtyThreshold value="-25">
+        <!--Dirty level of the object when Clean becomes available.-->
+      </DirtyThreshold>
+      <CleanDirtyDecPerMinute value="4">
+        <!--The amount that gets added to the dirty level every minute while cleaning.-->
+      </CleanDirtyDecPerMinute>
+      <UpgradeSelfCleaning>
+        <UpgradeTime value="240">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="2640">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="30">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="False">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeSelfCleaning>
+    </kCleanableTuning>
+    <kFishTankTuning>
+      <kChanceForWoohooSuccess value="0.3">
+        <!--Range:  0.0 - 1.0  Description:  The chance that a new fish will be spawned when two fish Woohoo-->
+      </kChanceForWoohooSuccess>
+      <kChanceForAdditionalDirtinessIncrease value="0.2">
+        <!--Range:  0.0 - 1.0  Description:  For every fish in the tank, the chance of an additional increase in dirtiness, at the specified interval-->
+      </kChanceForAdditionalDirtinessIncrease>
+      <kEnvironmentScoreValueMultiplier value="0.075">
+        <!--Range:  0+  Description:  Environment score multiplier per Simoleon of fish's worth-->
+      </kEnvironmentScoreValueMultiplier>
+      <kEnvironmentScoreMaximum value="40">
+        <!--Range:  0+  Description:  The maximum environment score-->
+      </kEnvironmentScoreMaximum>
+      <kEnvironmentScoreMinimum value="-100">
+        <!--Range:  0-  Description:  The minimum environment score-->
+      </kEnvironmentScoreMinimum>
+      <kEnvironmentScoreDeadFishModifier value="-20">
+        <!--Range:  0-  Description:  Environment score modifier for every dead fish-->
+      </kEnvironmentScoreDeadFishModifier>
+      <kEnvironmentScoreDirtinessMultiplier value="-0.25">
+        <!--Range:  0.0-  Description:  Environment score multiplier for dirtiness-->
+      </kEnvironmentScoreDirtinessMultiplier>
+      <kFunMinimumValueMultiplier value="0.0005">
+        <!--Range:  0+  Description:  The minimum fun multiplier, based on the value of all the fish in the tank-->
+      </kFunMinimumValueMultiplier>
+      <kFunMaximumValueMultiplier value="0.002">
+        <!--Range:  0+  Description:  The maximum fun multiplier, based on the value of all the fish in the tank-->
+      </kFunMaximumValueMultiplier>
+      <kIntervalToKillHungryFish value="4400">
+        <!--Range:  0+  Description:  Interval, in Sim minutes, at which a random hungry fish will die-->
+      </kIntervalToKillHungryFish>
+      <kIntervalToKillFishWhenFilthy value="5600">
+        <!--Range:  0+  Description:  Interval, in Sim minutes, at which a random fish will die if the tank is filthy-->
+      </kIntervalToKillFishWhenFilthy>
+      <kIntervalToIncreaseDirtiness value="1440">
+        <!--Range:  0+  Description:  Interval, in Sim minutes, at which we increase the dirty state, provided there are fish in the tank. Specify the dirtiness increase in the Cleanable tuning.-->
+      </kIntervalToIncreaseDirtiness>
+      <kMaximumNumberOfFish value="6">
+        <!--Range:  0+  Description:  The maximum number of fish that this tank can hold-->
+      </kMaximumNumberOfFish>
+      <kTimeForFishToBecomeUnfed value="1440">
+        <!--Range:  0+  Description:  The amount of time, in Sim minutes, for a fish to grow hungry-->
+      </kTimeForFishToBecomeUnfed>
+      <kTimeForFishToWoohoo value="2880">
+        <!--Range:  0+  Description:  The amount of time, in Sim minutes, after which a fish will try to Woohoo with another fish-->
+      </kTimeForFishToWoohoo>
+      <kTimeForFishToPrey value="480">
+        <!--Range:  0+  Description:  The amount of time, in Sim minutes, after which a fish will try to prey on its bait-->
+      </kTimeForFishToPrey>
+      <kTimeSkewFactor value="0.2">
+        <!--Range:  0.0+  Description:  The percentage by which tunable times can randomly skew-->
+      </kTimeSkewFactor>
+      <kRoutingDistance value="2">
+        <!--Range:  0+  Description:  For interactions that don't require slots, the routing distance from the fish tank-->
+      </kRoutingDistance>
+    </kFishTankTuning>
+  </Current_Tuning>
+</base>

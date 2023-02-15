@@ -1,0 +1,716 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDefaultWakeupTime value="6">
+      <!--Range: 0.0f to 24.0f.  Description:  If a Sim does not have a career, this tunable dictates the default wakeup time of the Sim.  This variable is not currently used in the code, by design.-->
+    </kDefaultWakeupTime>
+    <kDistanceForSocials value="5">
+      <!--Unit: metres.  Description:  How near a Sim must get to talk to him-->
+    </kDistanceForSocials>
+    <kMaxDistanceForSocials value="20">
+      <!--Unit: metres.  Description:  Max distance between Sims for one to autonomously greet another-->
+    </kMaxDistanceForSocials>
+    <kMinDistanceFromDoorWhenGoingIntoYard value="2">
+      <!--Minimum distance from door to route towards when going out into yard-->
+    </kMinDistanceFromDoorWhenGoingIntoYard>
+    <kMaxDistanceFromDoorWhenGoingIntoYard value="5">
+      <!--Maximum distance from door to route towards when going out into yard-->
+    </kMaxDistanceFromDoorWhenGoingIntoYard>
+    <kMinDistanceFromDoorWhenVisiting value="1.5">
+      <!--Minimum distance from door to route when visiting (when ringing on doorbell)-->
+    </kMinDistanceFromDoorWhenVisiting>
+    <kMaxDistanceFromDoorWhenVisiting value="3">
+      <!--Maximum distance from door to route when visiting (when ringing on doorbell)-->
+    </kMaxDistanceFromDoorWhenVisiting>
+    <kLookAtPriorityForSmellySim value="30">
+      <!--Range: 0 to 100.  Description: How important to look at a smelly Sim-->
+    </kLookAtPriorityForSmellySim>
+    <kLookAtPriorityForSocializingSim value="80">
+      <!--Range: 0 to 100.  Description: How important to look at the Sim you are socializing with-->
+    </kLookAtPriorityForSocializingSim>
+    <kLookAtInterestingnessForStaticSim value="20">
+      <!--Range: 0 to 100.  Description: How interesting is a static Sim to look at-->
+    </kLookAtInterestingnessForStaticSim>
+    <kLookAtInterestingnessForMovingSim value="50">
+      <!--Range: 0 to 100.  Description: How interesting is a moving Sim to look at-->
+    </kLookAtInterestingnessForMovingSim>
+    <kHowLongSinceArrivedInRoomInMinutesToCountAsNew value="5">
+      <!--Description: If the Sim arrived in the lot less than this many minutes ago, he counts as extra interesting to look at-->
+    </kHowLongSinceArrivedInRoomInMinutesToCountAsNew>
+    <kLookAtInterestingnessForNewSim value="100">
+      <!--Range: 0 to 100.  Description: How interesting is a newly-arrived Sim to look at-->
+    </kLookAtInterestingnessForNewSim>
+    <kNapAvailabilityHoursBeforeWakeupTime value="14">
+      <!--Range: 0.0f to 24.0f.  Description:  This tunable determines the minimum number of hours between the current time and the Sim's wakeup time for the Nap interaction to be selectable on the chair.  This uses the Sim's current job's wakeup time (or the default wakeup time, if the Sim has no job).-->
+    </kNapAvailabilityHoursBeforeWakeupTime>
+    <kNapLengthInMinutes value="120">
+      <!--Range: 60 to 180 integer value.  Description: This tunable is how long the nap interaction will last - please consult Eric Weidler and the sleep design before tuning to avoid unexpected sleep schedule drift.-->
+    </kNapLengthInMinutes>
+    <kRomanceUseLikingGate value="-19">
+      <!--Range: -100 to 100.  Description: If the relationship value between two Sims is higher than this tunable, they will agree to relax or sleep in the same bed.-->
+    </kRomanceUseLikingGate>
+    <kWooHooUseLikingGate value="40">
+      <!--Range: -100 to 100.  Description: If the relationship value between two Sims is higher than this tunable, they will agree to relax or sleep in the same bed.-->
+    </kWooHooUseLikingGate>
+    <kMotiveTuningScoreForAge value="2">
+      <!--How high the motive tuning scores when Age is specified-->
+    </kMotiveTuningScoreForAge>
+    <kMotiveTuningScoreForTrait value="1">
+      <!--How high the motive tuning scores when Trait is specified-->
+    </kMotiveTuningScoreForTrait>
+    <kMinMoodGhostReactionPositive value="0">
+      <!--Minimum value the Sim's mood must be to do a positive ghost reaction.-->
+    </kMinMoodGhostReactionPositive>
+    <kBaseChanceGhostReactionPanic value="10">
+      <!--The base chance a Sim will panic when reacting negatively to a ghost.-->
+    </kBaseChanceGhostReactionPanic>
+    <kChanceIncreaseGhostReactionPanicPerTrait value="10">
+      <!--How much each 'negative' trait increases the chance a Sim will panic when reacting negatively to a ghost.-->
+    </kChanceIncreaseGhostReactionPanicPerTrait>
+    <kChildStartCurfewHour value="22">
+      <!--Hour of day when child curfew starts (this must be greater than child curfew end).-->
+    </kChildStartCurfewHour>
+    <kChildEndCurfewHour value="6">
+      <!--Hour of day when child curfew ends (this must be less than child curfew start).-->
+    </kChildEndCurfewHour>
+    <kChildCurfewDistanceFromAdult value="25">
+      <!--Max distance a child can be from an adult past curfew.-->
+    </kChildCurfewDistanceFromAdult>
+    <kChildFunMotiveMultiplier value="1.2">
+      <!--Multiplier on fun motive gain for a Child.-->
+    </kChildFunMotiveMultiplier>
+    <kMaxDistanceFromDoorWhenGoingInside value="4">
+      <!--Maximum distance from door to route when going inside-->
+    </kMaxDistanceFromDoorWhenGoingInside>
+    <kToddlerWalkFallChance value="40">
+      <!--Percent chance that a toddler will fall on any given route of sufficient length.-->
+    </kToddlerWalkFallChance>
+    <kToddlerWalkFallCryConsiderTime value="3">
+      <!--Number of Sim minutes a toddler will consider what to do before either crying or continuing their route.-->
+    </kToddlerWalkFallCryConsiderTime>
+    <kToddlerWalkFallCryChance value="50">
+      <!--Percent chance that a toddler will cry instead of completing their route after falling.-->
+    </kToddlerWalkFallCryChance>
+    <kToddlerWalkFallMinRouteLength value="5">
+      <!--Min distance a toddler's route needs to be before they might fall.  This must be at least twice as long as kToddlerWalkFallMinDistanceToEnd.-->
+    </kToddlerWalkFallMinRouteLength>
+    <kToddlerWalkFallMinDistanceToEnd value="2">
+      <!--How close to the beginning or end of the route a toddler can be and still fall.-->
+    </kToddlerWalkFallMinDistanceToEnd>
+    <kToddlerWalkFallCryMinutes value="15">
+      <!--Number of Sim minutes a toddler will cry after falling.-->
+    </kToddlerWalkFallCryMinutes>
+    <kTeenStartCurfewHour value="23">
+      <!--Hour of day when teen curfew starts (this must be greater than teen curfew end).-->
+    </kTeenStartCurfewHour>
+    <kTeenEndCurfewHour value="6">
+      <!--Hour of day when teen curfew ends (this must be less than teen curfew start).-->
+    </kTeenEndCurfewHour>
+    <kDistanceTeenIsSupervisedOnWorldLot value="25">
+      <!--The max distance a teen has to be from an adult sim on the world lot to be considered not breaking curfew.-->
+    </kDistanceTeenIsSupervisedOnWorldLot>
+    <sLookAtTuning>
+      <SlotNameHashToLookAt value="ContainmentSlot_Glasses">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="20">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <!--deprecated on: 4/4/2008 11:33:50 AM-->
+      <DefaultInteractionLookAtThreshold value="-1">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </sLookAtTuning>
+    <kMaxDistanceForGroupTalk value="6">
+      <!--Unit: metres.  Description:  Max distance between Sims for group-talk-->
+    </kMaxDistanceForGroupTalk>
+    <kGroupTalkSocialThreshold value="101">
+      <!--Unit: commodity (-100 to 100).  Description:  Value of Social motive below which Sims will group-talk-->
+    </kGroupTalkSocialThreshold>
+    <kMinGroupTalkLookAtSpeakerTime value="2">
+      <!--Unit: Sim minutes.  Description:  Min time a listener looks at the speaker during group talk-->
+    </kMinGroupTalkLookAtSpeakerTime>
+    <kMaxGroupTalkLookAtSpeakerTime value="3">
+      <!--Unit: Sim minutes.  Description:  Max time a listener looks at the speaker during group talk-->
+    </kMaxGroupTalkLookAtSpeakerTime>
+    <kGroupTalkProportionOfTimeListenerIgnoresSpeaker value="0">
+      <!--Unit: Percentage (0-100).  Description:  Proportion of time that the listener ignores the speaker during a group talk-->
+    </kGroupTalkProportionOfTimeListenerIgnoresSpeaker>
+    <kGroupTalkProportionOfTimeListenerPlaysAnimation value="35">
+      <!--Unit: Percentage (0-100).  Description:  Proportion of time that the listener plays a responding animation (should be quite low, or he will appear too hectic)-->
+    </kGroupTalkProportionOfTimeListenerPlaysAnimation>
+    <kGroupTalkProportionOfTimeSpeakerTalks value="65">
+      <!--Unit: Percentage (0-100).  Description:  Proportion of time that the speaker talks during the conversation-->
+    </kGroupTalkProportionOfTimeSpeakerTalks>
+    <kGroupTalkLTRDecreaseInNegativeContext value="-0.5">
+      <!--Unit: LTR Liking (-100 to 100).  Description:  Amount that LTR Liking changes during one social in GroupTalk when in a negative context-->
+    </kGroupTalkLTRDecreaseInNegativeContext>
+    <kGroupTalkLTRIncreaseInPositiveContext value="1">
+      <!--Unit: commodity (-100 to 100).  Description:  Amount that LTR Liking changes during one social in GroupTalk when in a positive context-->
+    </kGroupTalkLTRIncreaseInPositiveContext>
+    <kGroupTalkSocialIncreaseFromGroupChat value="30">
+      <!--Unit: commodity (-100 to 100).  Description:  How much social motive increases after a GroupTalk conversation -->
+    </kGroupTalkSocialIncreaseFromGroupChat>
+    <kGroupTalkMaxResponseTime value="4">
+      <!--Unit: Sim minutes(0-60).  Description:  Max time period between beginning of group talk and response-->
+    </kGroupTalkMaxResponseTime>
+    <kGroupTalkPercentageChanceOfResponseFlip value="1">
+      <!--Unit: Percentage (0 to 100).  Description:  Percentage chance that the group talk will get an unexpected response-->
+    </kGroupTalkPercentageChanceOfResponseFlip>
+    <kGroupTalkNumRandomBalloons value="2">
+      <!--Unit: Integer (0 - 10).  Description:  The number of random speech balloons to intersperse with contextual speech balloons in GroupTalk-->
+    </kGroupTalkNumRandomBalloons>
+    <kGroupTalkMinResponseTime value="2">
+      <!--Unit: Sim minutes(0-60).  Description:  Min time period between beginning of group talk and response (so we can prevent listeners responding while speakers are still talking)-->
+    </kGroupTalkMinResponseTime>
+    <kGroupTalkMinWaitBeforeTalkTime value="6">
+      <!--Unit: Sim minutes(0-60).  Description:  Min time period between response and new group talk (so we can prevent speakers speaking while listeners are still responding )-->
+    </kGroupTalkMinWaitBeforeTalkTime>
+    <kDefaultSleepTime value="8">
+      <!--Unit: Sim hours.  Description:  how many hours a Sim will sleep. (Used when calculating if it is bed-time (how many hours before WakeupTime to constitute Bed-time)-->
+    </kDefaultSleepTime>
+    <kMinSitWaitTime value="15">
+      <!--Unit: Sim minutes. Description:  Min number of minutes a Sim sits down when sitting autonomously -->
+    </kMinSitWaitTime>
+    <kMaxSitWaitTime value="45">
+      <!--Unit: Sim Minutes. Description:  Max number of Minutes a Sim sits down when sitting autonomously -->
+    </kMaxSitWaitTime>
+    <kCryingBabyPulseTime value="20">
+      <!--Range: Sim minutes.  Description:  Sim minutes for pulse of crying baby.-->
+    </kCryingBabyPulseTime>
+    <sDotProductThresholdForGroupTalk value="-0.26">
+      <!--Range: -1 to 1.  Description:  Min dot-product for Sims to be able to group-talk with each other. Make this more negative to make it more lenient, more positive to make it more restrictive.-->
+    </sDotProductThresholdForGroupTalk>
+    <kChanceOfReadingBookRatherThanNewsaperWhenReadingOutdoors value="10">
+      <!--Unit: percentage (0 to 100).  Description:  Chance of reading a book (rather than reading a newspaper) when NPC is reading something outdoors -->
+    </kChanceOfReadingBookRatherThanNewsaperWhenReadingOutdoors>
+    <kInitialLikingValueForRoomies value="20">
+      <!--Range: -100 to 100.  Description:  Initial Liking value for Sims in the same household when created from CAS.-->
+    </kInitialLikingValueForRoomies>
+    <kClothingChangeHoursPlayerChoiceIsSticky value="0">
+      <!--How many hours a player-directed clothing change overrides low-priority autonomous clothing changes.-->
+    </kClothingChangeHoursPlayerChoiceIsSticky>
+    <kClothingChangeHoursBeforeSleep value="-50">
+      <!--Leaving a bed or bath, if it is this many hours or fewer before bedtime, a Sim will change into Sleepwear.-->
+    </kClothingChangeHoursBeforeSleep>
+    <kClothingChangeHoursBeforeWork value="3">
+      <!--Leaving a bed or bath, if it is this many hours or fewer before work, a Sim will change into career outfit.-->
+    </kClothingChangeHoursBeforeWork>
+    <kClothingChangeHoursBeforeParty value="3">
+      <!--Leaving a bed or bath, if it is this many hours or fewer before a party, a Sim will change into partywear.-->
+    </kClothingChangeHoursBeforeParty>
+    <kClothingChangeNighttimeStarts value="24">
+      <!--Going outside, a Sim won't change out of sleepwear if it is after this hour.-->
+    </kClothingChangeNighttimeStarts>
+    <kClothingChangeNighttimeEnds value="9">
+      <!--Going outside, a Sim won't change out of sleepwear if it is before this hour.-->
+    </kClothingChangeNighttimeEnds>
+    <kReactToInappropriateClothingBroadcasterTuning>
+      <PulseRadius value="5">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <PulseRepeatTime value="20">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="True">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="True">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="Annoyed, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kReactToInappropriateClothingBroadcasterTuning>
+    <kVisionCone value="160">
+      <!--Angle in degrees of a Sim's vision cone.-->
+    </kVisionCone>
+    <kTeenBreakCurfewHour value="23.5">
+      <!--Hour of the day when a teen is considered breaking curfew (should be between curfew start and end-->
+    </kTeenBreakCurfewHour>
+    <kMinRelationshipToRestoreGhost value="50">
+      <!--The minimum relationship you must have with a dead sim to restore their ghost.-->
+    </kMinRelationshipToRestoreGhost>
+    <kMaxNumNPCBooks value="2">
+      <!--The max number of books an NPC will have seeded in his inventory.-->
+    </kMaxNumNPCBooks>
+    <kLookAtInterestingnessForBabyOrToddler value="50">
+      <!--Range: 0 to 100.  Description: How interesting is a baby or toddler look at-->
+    </kLookAtInterestingnessForBabyOrToddler>
+    <kToddlerBeScaredCryMinutes value="15">
+      <!--Number of Sim minutes a toddler will cry after being scared.-->
+    </kToddlerBeScaredCryMinutes>
+    <kWaitForExitReasonDefaultTime value="1">
+      <!--Range [1.0, Inf]: Default time in minutes that a Sim will sleep when waiting for an exit reason-->
+    </kWaitForExitReasonDefaultTime>
+    <kLookAtInterestingnessForSimInConversation value="60">
+      <!--Range: 0 to 100.  Description: How interesting is a Sim in the same conversation as me to look at-->
+    </kLookAtInterestingnessForSimInConversation>
+    <kLookAtInterestingnessForSimStandingNextToMe value="25">
+      <!--Range: 0 to 100.  Description: How interesting is a Sim standing right next to me-->
+    </kLookAtInterestingnessForSimStandingNextToMe>
+    <kNearlyHomeDistanceMeaningUnavailableForSocials value="20">
+      <!--If target is going home, and target is less thatn this many meters away from his home, you cannot socialize with him-->
+    </kNearlyHomeDistanceMeaningUnavailableForSocials>
+    <kAutonomyThoughtBalloonPercentageChance value="35">
+      <!--Unit: Percentage (0-100).  Description:  What proportion of the time he shows a thought-balloon showing what he is going to do next-->
+    </kAutonomyThoughtBalloonPercentageChance>
+    <kMinStandBackFromDoorDistance value="2">
+      <!--Minimum distance from door to stand-back after ringing on doorbell-->
+    </kMinStandBackFromDoorDistance>
+    <kMaxStandBackFromDoorDistance value="4">
+      <!--Maximum distance from door to stand-back after ringing on doorbell-->
+    </kMaxStandBackFromDoorDistance>
+    <kChanceOfDisplayingTargetForRemoteChat value="0.25">
+      <!--Range: [0, 1] Chance of displaying the image of the target when chatting remotely-->
+    </kChanceOfDisplayingTargetForRemoteChat>
+    <kBabyToddlerLikingThresholdToAllowInteractionsWithStrangers value="30">
+      <!--Minimum LTR liking an actor must have with a member of a baby's or toddler's household to be allowed to perform common socials with the child.  This should be less than whatever LTR triggers the Friendly LTR.-->
+    </kBabyToddlerLikingThresholdToAllowInteractionsWithStrangers>
+    <kReactionTimeout value="60">
+      <!--How long reactions will wait before timeout by default-->
+    </kReactionTimeout>
+    <kPortalIntersectRadius value="0.25">
+      <!--Distance to check for portals in Idle logic checks.-->
+    </kPortalIntersectRadius>
+    <kPortalPushMinDistance value="0.25">
+      <!--Min Distance to walk away when pushed from portals or other sims.-->
+    </kPortalPushMinDistance>
+    <kPortalPushMaxDistance value="4">
+      <!--Max Distance to walk away when pushed from portals or other sims.-->
+    </kPortalPushMaxDistance>
+    <kMournPercentChance value="0.1">
+      <!--Percent chance (between 0 and 1) of the sim mourning while they have the heart broken or mourning buff.-->
+    </kMournPercentChance>
+    <ToddlerMotiveDistressMinutes value="7">
+      <!--Range: Sim mintues.  Description:  Number of Sim minutes a toddler will cry in first level of motive distress (Tired, Very Hungry, Lonely, etc.)-->
+    </ToddlerMotiveDistressMinutes>
+    <kIdleTimeAmount value="5">
+      <!--Time, in minutes, to wait before perfoming idle checks after an interaction has finished.-->
+    </kIdleTimeAmount>
+    <kUnflirtyTraitRomanceUseLikingGate value="40">
+      <!--Range:  -100 to 100.  Description:  This tunable is used as a higher liking gate for Unflirty Sims to perform romantic socials on other Sims.  It is not symmetric - Flirty Sims don't use this value when considering romance on Unflirty Sims.-->
+    </kUnflirtyTraitRomanceUseLikingGate>
+    <kLookAtInterestingnessOfTargetWhenRunningTransition value="20">
+      <!--Range: 0 to 100.  Description: How important to look at the target when running a posture transition-->
+    </kLookAtInterestingnessOfTargetWhenRunningTransition>
+    <sOutfitAgeRulesAthletic value="HumanChild, HumanTeen, HumanYoungAdult, HumanAdult, HumanElder">
+      <!--Valid Ages that can wear Athletic Clothing-->
+    </sOutfitAgeRulesAthletic>
+    <sOutfitAgeRulesCareer value="HumanChild, HumanTeen, HumanYoungAdult, HumanAdult, HumanElder">
+      <!--Valid Ages that can wear Career Clothing-->
+    </sOutfitAgeRulesCareer>
+    <sOutfitAgeRulesEveryday value="HumanAgeMask, AllAnimalsMask">
+      <!--Valid Ages that can wear Everyday Clothing-->
+    </sOutfitAgeRulesEveryday>
+    <sOutfitAgeRulesFormal value="HumanToddler, HumanChild, HumanTeen, HumanYoungAdult, HumanAdult, HumanElder">
+      <!--Valid Ages that can wear Formal Clothing-->
+    </sOutfitAgeRulesFormal>
+    <sOutfitAgeRulesNaked value="HumanAgeMask, AllAnimalsMask">
+      <!--Valid Ages that can wear Naked Clothing-->
+    </sOutfitAgeRulesNaked>
+    <sOutfitAgeRulesSinged value="HumanChild, HumanTeen, HumanYoungAdult, HumanAdult, HumanElder">
+      <!--Valid Ages that can wear Singed Clothing-->
+    </sOutfitAgeRulesSinged>
+    <sOutfitAgeRulesSleepwear value="HumanToddler, HumanChild, HumanTeen, HumanYoungAdult, HumanAdult, HumanElder">
+      <!--Valid Ages that can wear Sleepwear-->
+    </sOutfitAgeRulesSleepwear>
+    <sOutfitAgeRulesSwimwear value="HumanChild, HumanTeen, HumanYoungAdult, HumanAdult, HumanElder">
+      <!--Valid Ages that can wear Swimwear-->
+    </sOutfitAgeRulesSwimwear>
+    <kLookAtInterestingnessForFlirtySims value="55">
+      <!--Range: 0 to 100.  Description: How much a flirty sim wants to check out sims of the right gender/age-->
+    </kLookAtInterestingnessForFlirtySims>
+    <kMinutesbetweenNumGardeningsimsUpdates value="30">
+      <!--Description:  If you try to get NumSimsInGarden and it's been more than this many mminutes since its last update it will re-update-->
+    </kMinutesbetweenNumGardeningsimsUpdates>
+    <kMinDistanceFromDoorWhenGoingInside value="1.5">
+      <!--Minimum distance from door to route when going inside-->
+    </kMinDistanceFromDoorWhenGoingInside>
+    <kInappropriateTraitRomanceLikingGate value="-80">
+      <!--Range:  -100 to 100.  Description:  This tunable is used as a lower liking gate for Inappropriate/Insane Sims so they can perform romantic socials even when their relationship is really bad-->
+    </kInappropriateTraitRomanceLikingGate>
+    <kSimLoopSleepTicksWhenNotInQueue value="2">
+      <!--The number of ticks that we delay in the main Sim loop.-->
+    </kSimLoopSleepTicksWhenNotInQueue>
+    <kSimLoopSleepTicksWhenInAutonomyQueue value="10">
+      <!--The number of ticks that we delay in the main Sim loop.-->
+    </kSimLoopSleepTicksWhenInAutonomyQueue>
+    <kSimLoopSleepTicksWhenAutonomyDisabled value="20">
+      <!--The number of ticks that we delay in the main Sim loop.-->
+    </kSimLoopSleepTicksWhenAutonomyDisabled>
+    <kTypicalNumHoursToSleep value="8">
+      <!--Range:  0-24  Description:  Number of hours before wakeuptime at which Sims will start to consider it time to go to bed-->
+    </kTypicalNumHoursToSleep>
+    <kLTRMinWhenBeingMerged value="30">
+      <!--Minimum LTR liking value for members of a household after a merge-->
+    </kLTRMinWhenBeingMerged>
+    <sOutfitAgeRulesMartialArts value="HumanTeen, HumanYoungAdult, HumanAdult, HumanElder">
+      <!--Valid Ages that can wear MartialArts-->
+    </sOutfitAgeRulesMartialArts>
+    <kMotiveTuningScoreForWorld value="10">
+      <!--How high the motive tuning scores when World is specified-->
+    </kMotiveTuningScoreForWorld>
+    <sOutfitAgeRulesFirefighting value="HumanYoungAdult, HumanAdult, HumanElder">
+      <!--Valid Ages that can wear Fire fighting-->
+    </sOutfitAgeRulesFirefighting>
+    <sOutfitAgeRulesMakeover value="HumanChild, HumanTeen, HumanYoungAdult, HumanAdult, HumanElder">
+      <!--Valid Ages that can wear Makeover-->
+    </sOutfitAgeRulesMakeover>
+    <sOutfitAgeRulesSkinnyDipTowel value="HumanTeen,HumanYoungAdult, HumanAdult, HumanElder">
+      <!--Valid Ages that can wear Skinny Dipping Towel-->
+    </sOutfitAgeRulesSkinnyDipTowel>
+    <kMinCelebrityLevelForLimo value="4">
+      <!--The min celebrity level that will always give the sim a limo when need a car.-->
+    </kMinCelebrityLevelForLimo>
+    <kGoToVirtualHomeAfterSocialInteractionScore value="15">
+      <!--Score for autonomously going to virtual home if you are in the same lot and have socialized with someone.-->
+    </kGoToVirtualHomeAfterSocialInteractionScore>
+    <kMotiveTuningScoreForSpecies value="5">
+      <!--How high the motive tuning scores when Species is specified-->
+    </kMotiveTuningScoreForSpecies>
+    <kLifeTimeRewardInheritanceMin value="30000">
+      <!--The minimum amount of money a Sim will receive when they purchase the Inheritance Life Time Reward.-->
+    </kLifeTimeRewardInheritanceMin>
+    <kLifeTimeRewardInheritanceMax value="35000">
+      <!--The max amount of money a Sim will receive when they purchase the Inheritance Life Time Reward.-->
+    </kLifeTimeRewardInheritanceMax>
+    <kTimeForHairToGrowBack value="3">
+      <!--Range:  0+  Description:  The time, in Sim days, it takes for body hair to grow back-->
+    </kTimeForHairToGrowBack>
+    <kBoardingSchoolLTRIncreaseInPositiveContext value="1.7">
+      <!--Unit: commodity (-100 to 100).  Description:  This value is used instead of kGroupTalkLTRIncreaseInPositiveContext if one of the Sims is in boarding school-->
+    </kBoardingSchoolLTRIncreaseInPositiveContext>
+    <kBoardingSchoolAlmaMaterPercentChance value="0.4">
+      <!--Range: 0.0 - 1.0.  If a Sim needs to have an alma mater assigned, this is the percent chance we will try to assign a boarding school alma mater based off of the Sim's traits.-->
+    </kBoardingSchoolAlmaMaterPercentChance>
+    <sOutfitAgeRulesBridle value="AllHorsesMask">
+      <!--ValidAges for horse bridle outfit-->
+    </sOutfitAgeRulesBridle>
+    <sOutfitAgeRulesJumping value="HorseAdult, HorseElder">
+      <!--ValidAges for horse jumping outfit-->
+    </sOutfitAgeRulesJumping>
+    <sOutfitAgeRulesRacing value="HorseAdult, HorseElder">
+      <!--ValidAges for horse racing outfit-->
+    </sOutfitAgeRulesRacing>
+    <kMournTragicClown value="0.3">
+      <!--Percent chance (between 0 and 1) of the sim crying about the tragic clown while they are in rage.-->
+    </kMournTragicClown>
+    <kPureEnlightenmentLevelIncrease value="2">
+      <!--Levels to grant to skill when Pure Enlightenment kicks off-->
+    </kPureEnlightenmentLevelIncrease>
+    <kContemplateMeaningTime value="120">
+      <!--Time in sim minutes a brooding sim will contemplate the meaning of meaning-->
+    </kContemplateMeaningTime>
+    <kConsiderHollownessTime value="180">
+      <!--Time in sim minutes a brooding sim will consider the hollowness of life-->
+    </kConsiderHollownessTime>
+    <kNeedToBroodRemovalTime value="60">
+      <!--Time in sim minutes a brooding sim needs to consider the hollowness of life in order to remove the Need to Brood buff-->
+    </kNeedToBroodRemovalTime>
+    <kMisunderstoodAdditionChance value="20">
+      <!--Percent chance a sim will receive the Misunderstood buff if they consider the hollowness of life for long enough.(1:100)-->
+    </kMisunderstoodAdditionChance>
+    <kMisunderstoodAdditionTime value="120">
+      <!--Time in sim minutes a brooding sim needs to consider the hollowness of life in order to have a chance of being misunderstood again.-->
+    </kMisunderstoodAdditionTime>
+    <kBroodingContemplateMeaningBalloons value="ep7_balloon_chickenegg, ep7_balloon_outerspace, balloon_moodlet_heartBroken, balloon_tree, ep7_balloon_hourglass">
+      <!--Thought balloon thumbnail keys used by ContemplateMeaningOfMeaning interaction (remember this is EP7)-->
+    </kBroodingContemplateMeaningBalloons>
+    <kBroodingHollownessBalloons value="ep7_balloon_raven, balloon_spaceship, balloon_moodlet_heartBroken, ep7_balloon_hourglass">
+      <!--Thought balloon thumbnail keys used by ConsiderHollownessOfLife interaction (remember this is EP7)-->
+    </kBroodingHollownessBalloons>
+    <kBroodingMinBalloonTime value="5">
+      <!--Minimum time in sim minutes a each balloon will be shown above the sim's head when brooding.-->
+    </kBroodingMinBalloonTime>
+    <kBroodingMaxBalloonTime value="15">
+      <!--Maximum time in sim minutes a each balloon will be shown above the sim's head when brooding.-->
+    </kBroodingMaxBalloonTime>
+    <kAskToBeProtectedTraits value="BookWorm, Clumsy, Coward, FamilyOriented, HopelessRomantic, Loser, OverEmotional">
+      <!--Traits which allow a sim to Ask to be Protected-->
+    </kAskToBeProtectedTraits>
+    <kMakePromiseToProtectTraits value="Brave, Daredevil, Good, FamilyOriented, HopelessRomantic, BroodingTrait">
+      <!--Traits which allow a sim to Make Promise to Protect-->
+    </kMakePromiseToProtectTraits>
+    <kConfessToWatchingWhileSleepingTraits value="Daredevil, FamilyOriented, HopelessRomantic, Inappropriate, Insane, Loser, BroodingTrait">
+      <!--Traits which allow a sim to Confess to Watchingh you while you sleep-->
+    </kConfessToWatchingWhileSleepingTraits>
+    <sOutfitAgeRulesSuperNatural value="HumanToddler, HumanChild, HumanTeen, HumanYoungAdult, HumanAdult, HumanElder">
+      <!--Valid Ages that can wear Supernatural-->
+    </sOutfitAgeRulesSuperNatural>
+    <sOutfitAgeRulesOuterwear value="HumanToddler, HumanChild, HumanTeen, HumanYoungAdult, HumanAdult, HumanElder">
+      <!--Valid Ages that can wear Outerwear-->
+    </sOutfitAgeRulesOuterwear>
+    <kTemperatureToSwitchToOuterwear value="32">
+      <!--Range:  0+  Description:  The world weather temperature below which sims will switch to outerwear-->
+    </kTemperatureToSwitchToOuterwear>
+    <kTemperatureToSwitchOutOfOuterwear value="50">
+      <!--Range:  0+  Description:  The world weather temperature above which sims will out of outerwear if they are wearing outerwear.-->
+    </kTemperatureToSwitchOutOfOuterwear>
+    <kChanceInsaneSimIgnoreOuterwearRules value="80">
+      <!--Range:  0+  Description:  Change 0-100 that when choosing to switch to outerwear, insane sims will ignore the change rules.-->
+    </kChanceInsaneSimIgnoreOuterwearRules>
+    <kChanceRandomGenOuterwearHasWinterGloves value="65">
+      <!--Range:  0+  Description:  Change 0-100 that when creating a random outerwear for a sim, the sim will get gloves appropriate for outerwear.-->
+    </kChanceRandomGenOuterwearHasWinterGloves>
+    <sRemoveOuterwearCannotChangeIntoCategories value="Outerwear, Naked">
+      <!--When we remove outerwear, if the previous outfit category is set to any of these categories, we will use everyday instead. Used to prevent sims from going from outerwear to naked or outerwear to outerwear. ALWAYS keep Outerwear in this list.-->
+    </sRemoveOuterwearCannotChangeIntoCategories>
+    <kNumberOfPlanAttemptsForStuckSim value="5">
+      <!--The number of attempts to try and plan a route for testing if a Sim is Stuck-->
+    </kNumberOfPlanAttemptsForStuckSim>
+    <kFutureSimHoverboardChance value="30">
+      <!--Percent chance a Future sim will have a Hoverboard(0:100)-->
+    </kFutureSimHoverboardChance>
+    <kFutureSimJetpackChance value="30">
+      <!--Percent chance a Future sim will have a Jetpack, if they don't have a Hoverboard.(0:100)-->
+    </kFutureSimJetpackChance>
+    <kChanceToRun value="0.4">
+      <!--Chances of a Servobot running froma human.-->
+    </kChanceToRun>
+    <kChanceToFaint value="0.3">
+      <!--Chances of a Servobot fainting from a human.-->
+    </kChanceToFaint>
+    <kChanceToTremble value="1.0">
+      <!--Chances of a Servobot trembling from a human.-->
+    </kChanceToTremble>
+    <kFutureSimHolodiscChance value="100">
+      <!--Percent chance a Future sim will have a Holo Disc.(0:100)-->
+    </kFutureSimHolodiscChance>
+    <kFutureSimHolocomputerChance value="70">
+      <!--Percent chance a Future sim will have a Holo Computer.(0:100)-->
+    </kFutureSimHolocomputerChance>
+    <kFutureSimLaserharpChance value="60">
+      <!--Percent chance a Future sim will have a Laser Harp.(0:100)-->
+    </kFutureSimLaserharpChance>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kUseAutonomy value="True" />
+    <kOneSimActive value="False" />
+    <kInventoryCapacity value="-1" />
+    <kDefaultCapacity value="-1">
+      <!-- deprecated on: 7/16/2007 10:44:19 AM-->
+    </kDefaultCapacity>
+    <kDefaultNumRows value="6">
+      <!-- deprecated on: 7/16/2007 10:44:19 AM-->
+    </kDefaultNumRows>
+    <kDefaultNumColumns value="3">
+      <!-- deprecated on: 7/16/2007 10:44:19 AM-->
+    </kDefaultNumColumns>
+    <kDefaultInventoryCapacity value="-1">
+      <!-- deprecated on: 7/16/2007 10:44:19 AM-->
+    </kDefaultInventoryCapacity>
+    <kPushSimsAwayDistance value="1.10">
+      <!--Description: The distance away to which pushed sims will route.  The distance is in meters.-->
+      <!--deprecated on: 10/8/2007 8:03:16 AM-->
+    </kPushSimsAwayDistance>
+    <kChanceToUseTraitIdle value="0.5">
+      <!--Range: 0.0f to 1.0f.  Description: Percentage chance that the Sim will use one of the idles for a trait it possesses instead of the default standing idle.-->
+      <!--deprecated on: 12/14/2007 11:38:40 AM-->
+    </kChanceToUseTraitIdle>
+    <kLookAtPriorityTOLookOutOfWindow value="30">
+      <!--Range: 0 to 100. Description: How important to look at a Window when performing the autonomous interaction 'Look out of window'-->
+      <!--deprecated on: 12/18/2007 4:25:58 PM-->
+    </kLookAtPriorityTOLookOutOfWindow>
+    <kLookAtPriorityForTVWhichIsOn value="30">
+      <!--Range: 0 to 100.  Description: How important to look at a TV when it is on-->
+      <!--deprecated on: 1/9/2008 3:04:06 PM-->
+    </kLookAtPriorityForTVWhichIsOn>
+    <kLookAtPriorityToLookOutOfWindow value="30">
+      <!--Range: 0 to 100. Description: How important to look at a Window when performing the autonomous interaction 'Look out of window'-->
+      <!--deprecated on: 1/12/2008 9:16:19 PM-->
+    </kLookAtPriorityToLookOutOfWindow>
+    <kLookAtPriorityForViewObjectInteraction value="30">
+      <!--Range: 0 to 100. Description: How important to when performing the View interaction on fountains, paintings, sculptures etc.-->
+      <!--deprecated on: 1/12/2008 9:16:19 PM-->
+    </kLookAtPriorityForViewObjectInteraction>
+    <kInitialTimeOfDay value="8">
+      <!--deprecated on: 2/4/2008 6:15:05 PM-->
+    </kInitialTimeOfDay>
+    <kInitialDay value="Monday">
+      <!--deprecated on: 2/4/2008 6:15:05 PM-->
+    </kInitialDay>
+    <RequiresScoring value="True">
+      <!--Whether or not the broadcast interactions are scored by autonomy (TO BE DELETED BY REVANS)-->
+      <!--deprecated on: 2/7/2008 3:04:18 PM-->
+    </RequiresScoring>
+    <kEasilyBoredTraitSimLTRMultiplierForRepetition value="2">
+      <!--Range: Float values above 1.0f.  Description:  If a 'Easily Bored' trait Sim is the target of a social that is repetitive, the boring context effect is multiplied by this tunable value.-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kEasilyBoredTraitSimLTRMultiplierForRepetition>
+    <kHumorTraitSimLTRMultiplierForJokes value="2">
+      <!--Range: Float values above 1.0f.  Description:  If a 'Good Sense of Humor' trait Sim is involved in a joke, the positive outcome of the joke will have a greater effect on the LTR between the two sims (increase the liking value more).-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kHumorTraitSimLTRMultiplierForJokes>
+    <kConversationalistTraitSimLTRMultiplierForTalk value="2">
+      <!--Range: Float values above 1.0f.  Description:  If a 'Conversationalist' trait Sim is involved in a talk social, the positive outcome of the talk-related social will have a greater effect on the LTR between the two sims (increase the liking value more).-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kConversationalistTraitSimLTRMultiplierForTalk>
+    <kFirstRomanceBuffMultiplierForRomance value="2">
+      <!--Range: Float values above 1.0f.  Description:  If either Sim in a conversation has the 'First Romance' buff, the positive outcome of the flirty or romantic social will have a greater effect on the LTR between the two sims (increases the liking value more).-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kFirstRomanceBuffMultiplierForRomance>
+    <kDisgustedBuffRange value="5">
+      <!--Range: Positive integers.  Description:  Distance at which Sims next to other Sims with the Smelly buff get the Disgusted buff.-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kDisgustedBuffRange>
+    <kCharismaticTraitSimSkillMultiplier value="1.5">
+      <!--Range: Float values above 1.0f.  Description:  If a 'Charismatic' trait Sim is learning Charisma, they get this extra skill gain multiplier.-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kCharismaticTraitSimSkillMultiplier>
+    <kAthleticTraitSimSkillMultiplier value="1.5">
+      <!--Range: Float values above 1.0f.  Description:  If a 'Athletic' trait Sim is learning Athletic Skill, they get this extra skill gain multiplier.-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kAthleticTraitSimSkillMultiplier>
+    <kAthleticTraitSimFatigueMultiplier value="0.7">
+      <!--Range: Float values below 1.0f.  Description:  If a 'Athletic' trait Sim is working out, they get this fatigue multiplier which slows down fatigue gain.-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kAthleticTraitSimFatigueMultiplier>
+    <kGardeningTraitSimSkillMultiplier value="1.5">
+      <!--Range: Float values above 1.0f.  Description:  If a 'Green Thumb' trait Sim is learning Gardening Skill, they get this extra skill gain multiplier.-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kGardeningTraitSimSkillMultiplier>
+    <kExcitableTraitSimChanceOfBuff value="0.5">
+      <!--Range: Float values below 1.0f.  Description:  'Excitable' trait Sims routing towards another Sim in the Romantic or Friendly LTR state with a positive STC will have a chance of adding the excited buff.  This tunable is that percentage chance.-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kExcitableTraitSimChanceOfBuff>
+    <kArtisticTraitSimPaintingSkillMultiplier value="1.5">
+      <!--Range: Float values above 1.0f.  Description:  If an 'Artistic' trait Sim is learning Painting Skill, they get this extra skill gain multiplier.-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kArtisticTraitSimPaintingSkillMultiplier>
+    <kArtisticTraitSimGuitarSkillMultiplier value="1.5">
+      <!--Range: Float values above 1.0f.  Description:  If an 'Artistic' trait Sim is learning Guitar Skill, they get this extra skill gain multiplier.-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kArtisticTraitSimGuitarSkillMultiplier>
+    <kArtisticTraitSimWritingSkillMultiplier value="1.5">
+      <!--Range: Float values above 1.0f.  Description:  If an 'Artistic' trait Sim is learning Writing Skill, they get this extra skill gain multiplier.-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kArtisticTraitSimWritingSkillMultiplier>
+    <kAbsentMindedTraitSimIdleFrequencyStart value="10">
+      <!--Range: Sim minutes.  Description:  How frequently an 'AbsentMinded' trait Sim will pause and do a 'think hard' idle.  The time is randomly chosen from a range beginning with this tunable and ending with the 'frequencyEnd' tunable.-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kAbsentMindedTraitSimIdleFrequencyStart>
+    <kAbsentMindedTraitSimIdleFrequencyEnd value="30">
+      <!--Range: Sim minutes.  Description:  How frequently an 'AbsentMinded' trait Sim will pause and do a 'think hard' idle.-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kAbsentMindedTraitSimIdleFrequencyEnd>
+    <kNewlyEngagedBuffMultiplierForRomance value="2">
+      <!--Range: Float values above 1.0f.  Description:  If either Sim in a conversation has the 'Newly Engaged' buff, the positive outcome of the flirty or romantic social will have a greater effect on the LTR between the two sims (increases the liking value more).-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kNewlyEngagedBuffMultiplierForRomance>
+    <kBoringTraitSimLTRMultiplierForInterestingSocials value="0.5">
+      <!--Range: Float values below 1.0f.  Description:  If a 'Boring' Sim is trying to increase 'impressive' social context, the relationship change will be multiplied by this tunable, making it harder.-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kBoringTraitSimLTRMultiplierForInterestingSocials>
+    <kCrybabyTraitSimChanceForCryingAfterRouteFailure value="0.5">
+      <!--Range: Float values below 1.0f.  Description:  A 'Crybaby' Sim has a perentage chance of crying after a route failure defined by this tunable.-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kCrybabyTraitSimChanceForCryingAfterRouteFailure>
+    <kAbsentMindedTraitSimChanceToIdleWhileCooking value="0.9">
+      <!--Range: Float values below 1.0f.  Description:  The percentage change an 'AbsentMinded' trait Sim will pause and do a 'think hard' idle while cooking.-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kAbsentMindedTraitSimChanceToIdleWhileCooking>
+    <kJustMarriedBuffMultiplierForRomance value="2">
+      <!--Range: Float values above 1.0f.  Description:  If either Sim in a conversation has the 'Just Married' buff, the positive outcome of the flirty or romantic social will have a greater effect on the LTR between the two sims (increases the liking value more).-->
+      <!--deprecated on: 2/7/2008 7:46:09 PM-->
+    </kJustMarriedBuffMultiplierForRomance>
+    <kDeathReactionBroadcasterParams>
+      <PulseRadius value="20">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <PulseRepeatTime value="-1">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <!--deprecated on: 2/19/2008 2:20:32 PM-->
+    </kDeathReactionBroadcasterParams>
+    <kMaxWalkDistance value="20">
+      <!--deprecated on: 2/19/2008 5:04:29 PM-->
+    </kMaxWalkDistance>
+    <kPushSimsCheckDistance value="8">
+      <!--Description: The routing distance at which Sims will attempt to push Sims away from the route destination.  The distance is in meters (along the route, not straight line distance).-->
+      <!--deprecated on: 3/5/2008 3:18:36 PM-->
+    </kPushSimsCheckDistance>
+    <kPushSimsAwayDistanceMin value="1.25">
+      <!--Description: The min distance away to which pushed sims will route.  The distance is in meters.-->
+      <!--deprecated on: 3/5/2008 3:18:36 PM-->
+    </kPushSimsAwayDistanceMin>
+    <kPushSimsAwayDistanceMax value="2.5">
+      <!--Description: The max distance away to which pushed sims will route.  The distance is in meters.-->
+      <!--deprecated on: 3/5/2008 3:18:36 PM-->
+    </kPushSimsAwayDistanceMax>
+    <kWalkStyleAdultDistanceThresholds value="15, -1, 999999999">
+      <!--Description: The maximum distance in meters for Adults to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Walk, (2) FastWalk, (3) Jog, (4) Fast Jog, (5) Run.  Note that only four values are specified; no value is specified for Run since it is used for any route farther than a Fast Jog.  The max distances can be debug drawn using the cheat command 'showwalkdist' (Black = Walk, Blue = FastWalk, Green = Jog, Cyan = Fast Jog.-->
+      <!--deprecated on: 3/5/2008 3:18:36 PM-->
+    </kWalkStyleAdultDistanceThresholds>
+    <kWalkStyleChildDistanceThresholds value="5, -1, 9999999999">
+      <!--Description: The maximum distance in meters for Children to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Walk, (2) FastWalk, (3) Jog, (4) Fast Jog, (5) Run.  Note that only four values are specified; no value is specified for Run since it is used for any route farther than a Fast Jog.  The max distances can be debug drawn using the cheat command 'showwalkdist' (Black = Walk, Blue = FastWalk, Green = Jog, Cyan = Fast Jog.-->
+      <!--deprecated on: 3/5/2008 3:18:36 PM-->
+    </kWalkStyleChildDistanceThresholds>
+    <kWalkStyleElderDistanceThresholds value="25, -1, 999999999">
+      <!--Description: The maximum distance in meters for Elders to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Walk, (2) FastWalk, (3) Jog, (4) Fast Jog, (5) Run.  Note that only four values are specified; no value is specified for Run since it is used for any route farther than a Fast Jog.  The max distances can be debug drawn using the cheat command 'showwalkdist' (Black = Walk, Blue = FastWalk, Green = Jog, Cyan = Fast Jog.-->
+      <!--deprecated on: 3/5/2008 3:18:36 PM-->
+    </kWalkStyleElderDistanceThresholds>
+    <IsLifeThreatening value="False">
+      <!--Whether the reaction is responding to a life-threatening event (e.g. responding to fire)-->
+      <!--deprecated on: 3/13/2008 4:21:59 PM-->
+    </IsLifeThreatening>
+    <kToddlerWalkFallMinDistance value="5">
+      <!--Min distance a toddler's route needs to be before they might fall.-->
+      <!--deprecated on: 3/13/2008 1:41:53 PM-->
+      <!--deprecated on: 3/14/2008 1:23:56 PM-->
+    </kToddlerWalkFallMinDistance>
+    <kGroupTalkSocialIncreaseInNegativeContext value="30">
+      <!--Unit: commodity (-100 to 100).  Description:  How much social motive increases each time they chat with each other in a GroupTalk when in a negative context-->
+      <!--deprecated on: 4/28/2008 1:41:13 PM-->
+    </kGroupTalkSocialIncreaseInNegativeContext>
+    <kGroupTalkSocialIncreaseInPositiveContext value="10">
+      <!--Unit: commodity (-100 to 100).  Description:  How much social motive increases each time they chat with each other in a GroupTalk when in a positive context-->
+      <!--deprecated on: 4/28/2008 1:41:13 PM-->
+    </kGroupTalkSocialIncreaseInPositiveContext>
+  </Deprecated_Tuning>
+</base>

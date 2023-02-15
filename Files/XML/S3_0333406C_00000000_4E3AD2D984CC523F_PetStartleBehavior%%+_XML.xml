@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<PetStartleBehavior>
+<StartleTypes>
+  <StartleType></StartleType>
+  <Origin></Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <Distance>5</Distance>
+  <ChanceToStartle>50</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>BurglarAlarm</StartleType>
+  <Origin>FromBurglarAlarmStartle</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <ChanceToStartle>50</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>DishwasherOn</StartleType>
+  <Origin>FromDishwasherOn</Origin>
+  <SpeciesToStartle>AllDogs, Cats</SpeciesToStartle>
+  <ChanceToStartle>25</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>DogBarkAt</StartleType>
+  <Origin>FromDogBarkAt</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <ChanceToStartle>50</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>DogChaseMailMan</StartleType>
+  <Origin>FromDogChaseMailMan</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <ChanceToStartle>50</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>DryerOn</StartleType>
+  <Origin>FromDryerOn</Origin>
+  <SpeciesToStartle>AllDogs, Cats</SpeciesToStartle>
+  <ChanceToStartle>25</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>Electrocution</StartleType>
+  <Origin>FromElectrocution</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <ChanceToStartle>50</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>Fight</StartleType>
+  <Origin>FromFight</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <ChanceToStartle>50</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>Fire</StartleType>
+  <Origin>FromFireStartle</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <ChanceToStartle>75</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>FireworksExplode</StartleType>
+  <Origin>FromFireworksExplode</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <ChanceToStartle>75</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>GhostHaunting</StartleType>
+  <Origin>FromGhostHaunting</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <ChanceToStartle>25</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>GrimReaperAppear</StartleType>
+  <Origin>FromGrimReaperAppear</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <ChanceToStartle>50</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>Meteor</StartleType>
+  <Origin>FromMeteorStartle</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <ChanceToStartle>75</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>PotionFailExplosion</StartleType>
+  <Origin>FromPotionFailExplosion</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <ChanceToStartle>25</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>ShowerOn</StartleType>
+  <Origin>FromShowerOn</Origin>
+  <SpeciesToStartle>AllDogs, Cats</SpeciesToStartle>
+  <ChanceToStartle>25</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>SprinklersTurnOn</StartleType>
+  <Origin>FromSprinklersTurnOn</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <ChanceToStartle>25</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>StereoOn</StartleType>
+  <Origin>FromStereoOn</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses</SpeciesToStartle>
+  <ChanceToStartle>25</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>TheMinerOn</StartleType>
+  <Origin>FromTheMinerOn</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <ChanceToStartle>50</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>ToiletFlush</StartleType>
+  <Origin>FromToiletFlush</Origin>
+  <SpeciesToStartle>AllDogs, Cats</SpeciesToStartle>
+  <ChanceToStartle>25</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>TubOn</StartleType>
+  <Origin>FromTubOn</Origin>
+  <SpeciesToStartle>AllDogs, Cats</SpeciesToStartle>
+  <ChanceToStartle>25</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>TVOn</StartleType>
+  <Origin>FromTVOn</Origin>
+  <SpeciesToStartle>AllDogs, Cats</SpeciesToStartle>
+  <ChanceToStartle>25</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>UberLitterBoxOnClean</StartleType>
+  <Origin>FromUberLitterBoxOnClean</Origin>
+  <SpeciesToStartle>AllDogs, Cats</SpeciesToStartle>
+  <ChanceToStartle>25</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>VRGogglesOn</StartleType>
+  <Origin>FromVRGogglesOn</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <ChanceToStartle>25</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>WashingMachineOn</StartleType>
+  <Origin>FromWashingMachineOn</Origin>
+  <SpeciesToStartle>AllDogs, Cats</SpeciesToStartle>
+  <ChanceToStartle>25</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>Scarecrow</StartleType>
+  <Origin>FromScarecrow</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <ChanceToStartle>100</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>UFO</StartleType>
+  <Origin>FromUFOInvasion</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <Distance>100</Distance>
+  <ChanceToStartle>100</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>Lightning</StartleType>
+  <Origin>FromLightning</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <Distance>0</Distance>
+  <ChanceToStartle>100</ChanceToStartle>
+ </StartleTypes>
+<StartleTypes>
+  <StartleType>DistantLightning</StartleType>
+  <Origin>FromLightning</Origin>
+  <SpeciesToStartle>AllDogs, Cats, Horses,AB</SpeciesToStartle>
+  <Distance>0</Distance>
+  <ChanceToStartle>10</ChanceToStartle>
+ </StartleTypes>
+</PetStartleBehavior>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteLength value="0.5, 1.5">
+      <!--The distance range the Sim will use when routing to the terrarium.-->
+    </kRouteLength>
+    <kMournLength value="5, 15">
+      <!--The range of time a Sim will mourn a pet.-->
+    </kMournLength>
+    <kHighMournLTRLikingThreshold value="0">
+      <!--Float in range -100 to 100.  The minimum LTR liking required for the Human to mourn the bird instead of cheering its death.-->
+    </kHighMournLTRLikingThreshold>
+  </Current_Tuning>
+</base>

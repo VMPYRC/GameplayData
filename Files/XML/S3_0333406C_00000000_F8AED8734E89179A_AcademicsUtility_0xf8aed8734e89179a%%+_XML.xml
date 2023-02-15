@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGradeMaxValue value="100">
+      <!--Maximum value a grade represents.  Used in calculating the average of multiple grades.-->
+    </kGradeMaxValue>
+    <kGradeAPercent value="92">
+      <!--Minimum percent of GoalXP at which a sim will get an A-->
+    </kGradeAPercent>
+    <kGradeBPercent value="70">
+      <!--Minimum percent of GoalXP at which a sim will get an B-->
+    </kGradeBPercent>
+    <kGradeCPercent value="30">
+      <!--Minimum percent of GoalXP at which a sim will get an C-->
+    </kGradeCPercent>
+    <kGradeDPercent value="15">
+      <!--Minimum percent of GoalXP at which a sim will get an D. Anything below this will be an F-->
+    </kGradeDPercent>
+    <kUniversityName value="Ui/Caption/Global/WorldName/EP09:University">
+      <!--The Localization Key for the University Name.-->
+    </kUniversityName>
+  </Current_Tuning>
+</base>

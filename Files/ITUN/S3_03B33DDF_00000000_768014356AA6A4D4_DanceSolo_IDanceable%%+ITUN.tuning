@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<base>
+	<Interaction name="Sims3.Gameplay.Objects.PerformanceObjects.DJTurntable+DanceSolo+Definition" />
+	<Object name="Sims3.Gameplay.Interfaces.IDanceable" />
+	<CodeVersion name="EP6" considerCodeVersion="True" />
+	<Current_Tuning>
+		<Disallow DisallowAutonomous="False" DisallowUserDirected="False" DisallowPlayerSim="False" />
+		<BaseAvailability>
+			<AgeSpeciesAvail AgeSpeciesValue="C,T,Y,A,E" />
+			<MotiveThreshold MotiveThresholdType="None" MotiveThresholdValue="0" MotiveBelowCheck="False" />
+			<MoodThreshold MoodThresholdType="None" MoodThresholdValue="0" />
+			<SkillThreshold SkillThresholdType="None" SkillThresholdValue="0" />
+			<Occult OccultRestrictionType="Ignore" OccultTypes="0x0" OccultTypesHumanAllowed="True" />
+			<CareerThreshold CareerThresholdType="Undefined" CareerThresholdValue="0" IncludePastCareers="False" />
+			<Lot AllowNonGreetedSimsIfObjectOutside="False" AllowNonGreetedSimsIfObjectOutsideUserDirected="False" AllowGreetedSims="False" AllowOnCommunityLots="False" AllowOnAllLots="False" />
+			<World RestrictionType="None" Types="" Names="" />
+			<Room AllowInTombRoomAutonomous="False" AllowEvenIfNotAllowedInRoomAutonomous="False" />
+			<Misc DisallowedIfPregnant="False" DisallowedFromInventory="False" />
+		</BaseAvailability>
+		<Check type="All" value="0" />
+		<Tradeoff name="DanceSolo">
+			<Localization autoGenerate="False" />
+			<Time value="1" addRoute="True" />
+			<Exit funExit="False" stressExit="False" interruptible="False" />
+			<RouteLeadIn allowed="False" />
+			<AskJoinInteraction joinable="False" />
+			<AllowAutonomousReinforcement allowPraise="False" allowScold="False" />
+			<ScoringFunction alwaysChooseBest="False" name="" specificCommodity="None" />
+			<ActionTopic name="" ActionTopicUnavailableAfterActionFinishes="False" />
+			<Output>
+				<Change type="Fun" advertised="50" locked="False" actual="40" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="AdultEnjoyParty" advertised="10" locked="True" actual="10" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="TeenEnjoyParty" advertised="150" locked="False" actual="0" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="BeMummy" advertised="100" locked="True" actual="100" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="BeInDiveBar" advertised="20" locked="True" actual="20" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="BeInDanceClub" advertised="20" locked="True" actual="20" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="BeInCocktailLounge" advertised="15" locked="True" actual="15" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="TraitPartyAnimal" advertised="200" locked="True" actual="200" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="BeAtBachelorParty" advertised="125" locked="True" actual="125" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="BeUninhibited" advertised="200" locked="False" actual="50" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="RoleCafeteriaWaiter" advertised="-200" locked="True" actual="-200" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="RoleLocationMerchant" advertised="-200" locked="True" actual="-200" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+			</Output>
+		</Tradeoff>
+	<Notes Notes="" DesignerNotes="EP6 - Assumed Tuned - Loel" LastChange="12/22/2011 6:43:26 PM" />
+	</Current_Tuning>
+</base>

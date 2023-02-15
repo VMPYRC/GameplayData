@@ -1,0 +1,1012 @@
+<?xml version="1.0"?>
+<BuffTransform>
+<General>
+  <BuffEnum></BuffEnum>
+  <WalkCycle></WalkCycle>
+  <RunCycle></RunCycle>
+  <Motive></Motive>
+  <LockMotives></LockMotives>
+  <UniformID></UniformID>
+  <UniformAge></UniformAge>
+  <UniformSex></UniformSex>
+  <UniformDataVersion></UniformDataVersion>
+  <BlockExistingInteractions></BlockExistingInteractions>
+  <InteractionName></InteractionName>
+  <Priority></Priority>
+  <CanChangeUniform>True</CanChangeUniform>
+  <OverwriteSinged>False</OverwriteSinged>
+  <OnAdditionCallback></OnAdditionCallback>
+  <OnRemovalCallback></OnRemovalCallback>
+ </General>
+<General>
+  <BuffEnum>ToadSim</BuffEnum>
+  <Motive>BeAToad</Motive>
+  <LockMotives>False</LockMotives>
+  <UniformID>amTransformation_Toadified_1</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <InteractionName>EatFlies</InteractionName>
+  <Priority>1</Priority>
+  <OverwriteSinged>True</OverwriteSinged>
+  <OnAdditionCallback>OnAdditionOfToadified</OnAdditionCallback>
+  <OnRemovalCallback>OnRemovalOfToadified</OnRemovalCallback>
+ </General>
+<General>
+  <UniformID>amTransformation_Toadified_2</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <InteractionName>KissTheToad</InteractionName>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>amTransformation_Toadified_3</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>tmTransformation_Toadified_1</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>tmTransformation_Toadified_2</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>tmTransformation_Toadified_3</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>emTransformation_Toadified_1</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>emTransformation_Toadified_2</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>emTransformation_Toadified_3</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>afTransformation_Toadified_1</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>afTransformation_Toadified_2</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>afTransformation_Toadified_3</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>tfTransformation_Toadified_1</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>tfTransformation_Toadified_2</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>tfTransformation_Toadified_3</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>efTransformation_Toadified_1</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>efTransformation_Toadified_2</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>efTransformation_Toadified_3</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <BuffEnum>Zombie</BuffEnum>
+  <WalkCycle>ZombieWalk</WalkCycle>
+  <RunCycle>ZombieFastWalk</RunCycle>
+  <Motive>BeAZombie</Motive>
+  <LockMotives>False</LockMotives>
+  <UniformID>amTransformation_Zombified_1</UniformID>
+  <UniformAge>T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>True</BlockExistingInteractions>
+  <InteractionName>Argh</InteractionName>
+  <Priority>2</Priority>
+  <OnAdditionCallback>OnAdditionOfZombification</OnAdditionCallback>
+  <OnRemovalCallback>OnRemovalOfZombification</OnRemovalCallback>
+ </General>
+<General>
+  <UniformID>afTransformation_Zombified_1</UniformID>
+  <UniformAge>T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <InteractionName>Brains</InteractionName>
+ </General>
+<General>
+  <BuffEnum>PermaZombie</BuffEnum>
+  <WalkCycle>ZombieWalk</WalkCycle>
+  <RunCycle>ZombieFastWalk</RunCycle>
+  <Motive>BeAZombie</Motive>
+  <LockMotives>False</LockMotives>
+  <UniformID>amTransformation_Zombified_1</UniformID>
+  <UniformAge>T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>True</BlockExistingInteractions>
+  <InteractionName>Argh</InteractionName>
+  <Priority>2</Priority>
+  <OnAdditionCallback>OnAdditionOfZombification</OnAdditionCallback>
+  <OnRemovalCallback>OnRemovalOfZombification</OnRemovalCallback>
+ </General>
+<General>
+  <UniformID>afTransformation_Zombified_1</UniformID>
+  <UniformAge>T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <InteractionName>Brains</InteractionName>
+ </General>
+<General>
+  <BuffEnum>Werewolf</BuffEnum>
+  <WalkCycle>WerewolfWalk</WalkCycle>
+  <RunCycle>WerewolfRun</RunCycle>
+  <Motive>TraitLycanthropyWerewolf</Motive>
+  <LockMotives>False</LockMotives>
+  <UniformID>amwerewolf</UniformID>
+  <UniformAge>T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>1</Priority>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <UniformID>amwerewolf</UniformID>
+  <UniformAge>T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <OverwriteSinged>True</OverwriteSinged>
+ </General>
+<General>
+  <BuffEnum>TragicClown</BuffEnum>
+  <WalkCycle>WalkTrip</WalkCycle>
+  <RunCycle>OnFire</RunCycle>
+  <Motive>BeSuspicious</Motive>
+  <UniformID>pmTransformation_TragicClown_1</UniformID>
+  <UniformAge>P</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <Priority>1</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+  <OnAdditionCallback>PlayGenericCloudVfx</OnAdditionCallback>
+  <OnRemovalCallback>PlayGenericCloudVfx</OnRemovalCallback>
+ </General>
+<General>
+  <UniformID>cmTransformation_TragicClown_1</UniformID>
+  <UniformAge>C</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>tmTransformation_TragicClown_1</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>amTransformation_TragicClown_1</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>emTransformation_TragicClown_1</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>pfTransformation_TragicClown_1</UniformID>
+  <UniformAge>P</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>cfTransformation_TragicClown_1</UniformID>
+  <UniformAge>C</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>tfTransformation_TragicClown_1</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>afTransformation_TragicClown_1</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>efTransformation_TragicClown_1</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <BuffEnum>FlightOfFelicity</BuffEnum>
+  <WalkCycle>Walk</WalkCycle>
+  <RunCycle>FairyRun</RunCycle>
+  <LockMotives>False</LockMotives>
+  <UniformAge>T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <InteractionName>ICanFly</InteractionName>
+  <Priority>2</Priority>
+  <OnAdditionCallback>PlayFeelingPinkVfx</OnAdditionCallback>
+  <OnRemovalCallback>PlayFeelingPinkVfx</OnRemovalCallback>
+ </General>
+<General>
+  <UniformAge>T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+ </General>
+<General>
+  <BuffEnum>GlowyOnTheOutside</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uuTransformation_AllGlowyOnTheOutside_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>4</Priority>
+  <OnAdditionCallback>PlayFeelingYellowVfx</OnAdditionCallback>
+  <OnRemovalCallback>PlayFeelingYellowVfx</OnRemovalCallback>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>uuTransformation_AllGlowyOnTheOutside_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>4</Priority>
+ </General>
+<General>
+  <BuffEnum>FeelingBlueish</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uuTransformation_FeelingBlueish_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>7</Priority>
+  <OnAdditionCallback>PlayFeelingBlueVfx</OnAdditionCallback>
+  <OnRemovalCallback>PlayFeelingBlueVfx</OnRemovalCallback>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>uuTransformation_FeelingBlueish_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>7</Priority>
+ </General>
+<General>
+  <BuffEnum>InnerBeauty</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>tmTransformation_InnerBeauty_1</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>tmTransformation_InnerBeauty_2</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>tmTransformation_InnerBeauty_3</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>tmTransformation_InnerBeauty_4</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>amTransformation_InnerBeauty_1</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>amTransformation_InnerBeauty_2</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>amTransformation_InnerBeauty_3</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>amTransformation_InnerBeauty_4</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>emTransformation_InnerBeauty_1</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>emTransformation_InnerBeauty_2</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>emTransformation_InnerBeauty_3</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>emTransformation_InnerBeauty_4</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>tfTransformation_InnerBeauty_1</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>tfTransformation_InnerBeauty_2</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>tfTransformation_InnerBeauty_3</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>tfTransformation_InnerBeauty_4</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>afTransformation_InnerBeauty_1</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>afTransformation_InnerBeauty_2</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>afTransformation_InnerBeauty_3</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>afTransformation_InnerBeauty_4</UniformID>
+  <UniformAge>Y,A</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>efTransformation_InnerBeauty_1</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>efTransformation_InnerBeauty_2</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>efTransformation_InnerBeauty_3</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <LockMotives>False</LockMotives>
+  <UniformID>efTransformation_InnerBeauty_4</UniformID>
+  <UniformAge>E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>2</Priority>
+ </General>
+<General>
+  <BuffEnum>FeelingBlue</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uuTransformation_FeelingBlue_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>7</Priority>
+  <OnAdditionCallback>PlayFeelingBlueVfx</OnAdditionCallback>
+  <OnRemovalCallback>PlayFeelingBlueVfx</OnRemovalCallback>
+ </General>
+<General>
+  <UniformID>uuTransformation_FeelingBlue_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+ </General>
+<General>
+  <BuffEnum>FeelingGreen</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uuTransformation_FeelingGreen_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>7</Priority>
+  <OnAdditionCallback>PlayFeelingGreenVfx</OnAdditionCallback>
+  <OnRemovalCallback>PlayFeelingGreenVfx</OnRemovalCallback>
+ </General>
+<General>
+  <UniformID>uuTransformation_FeelingGreen_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+ </General>
+<General>
+  <BuffEnum>FeelingPink</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uuTransformation_FeelingPink_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>7</Priority>
+  <OnAdditionCallback>PlayFeelingPinkVfx</OnAdditionCallback>
+  <OnRemovalCallback>PlayFeelingPinkVfx</OnRemovalCallback>
+ </General>
+<General>
+  <UniformID>uuTransformation_FeelingPink_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+ </General>
+<General>
+  <BuffEnum>FeelingPurple</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uuTransformation_FeelingPurple_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>7</Priority>
+  <OnAdditionCallback>PlayFeelingPurpleVfx</OnAdditionCallback>
+  <OnRemovalCallback>PlayFeelingPurpleVfx</OnRemovalCallback>
+ </General>
+<General>
+  <UniformID>uuTransformation_FeelingPurple_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+ </General>
+<General>
+  <BuffEnum>FeelingRed</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uuTransformation_FeelingRed_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>7</Priority>
+  <OnAdditionCallback>PlayFeelingRedVfx</OnAdditionCallback>
+  <OnRemovalCallback>PlayFeelingRedVfx</OnRemovalCallback>
+ </General>
+<General>
+  <UniformID>uuTransformation_FeelingRed_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+ </General>
+<General>
+  <BuffEnum>FeelingYellow</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uuTransformation_FeelingYellow_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>7</Priority>
+  <OnAdditionCallback>PlayFeelingYellowVfx</OnAdditionCallback>
+  <OnRemovalCallback>PlayFeelingYellowVfx</OnRemovalCallback>
+ </General>
+<General>
+  <UniformID>uuTransformation_FeelingYellow_1</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP7</UniformDataVersion>
+ </General>
+<General>
+  <BuffEnum>Poisoned</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uuTransformationPoisoned</UniformID>
+  <UniformAge>T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP9</UniformDataVersion>
+  <BlockExistingInteractions>False</BlockExistingInteractions>
+  <Priority>4</Priority>
+  <OnAdditionCallback>PlayFeelingGreenVfx</OnAdditionCallback>
+  <OnRemovalCallback>PlayFeelingGreenVfx</OnRemovalCallback>
+ </General>
+<General>
+  <UniformID>uuTransformationPoisoned</UniformID>
+  <UniformAge>T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP9</UniformDataVersion>
+ </General>
+<General>
+  <BuffEnum>RobotForm</BuffEnum>
+  <WalkCycle>RobotBipedWalk</WalkCycle>
+  <RunCycle>RobotBipedRun</RunCycle>
+  <LockMotives>False</LockMotives>
+  <UniformID>amTransformation_RobotFan_1</UniformID>
+  <UniformAge>Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>afTransformation_RobotFan_1</UniformID>
+  <UniformAge>Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>amTransformation_RobotFan_2</UniformID>
+  <UniformAge>Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>afTransformation_RobotFan_2</UniformID>
+  <UniformAge>Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>amTransformation_RobotFan_3</UniformID>
+  <UniformAge>Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>afTransformation_RobotFan_3</UniformID>
+  <UniformAge>Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>amTransformation_RobotFan_4</UniformID>
+  <UniformAge>Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>afTransformation_RobotFan_4</UniformID>
+  <UniformAge>Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>amTransformation_RobotFan_5</UniformID>
+  <UniformAge>Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>afTransformation_RobotFan_5</UniformID>
+  <UniformAge>Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>cmTransformation_RobotFan_1</UniformID>
+  <UniformAge>C</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>cfTransformation_RobotFan_1</UniformID>
+  <UniformAge>C</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>tmTransformation_RobotFan_1</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>tfTransformation_RobotFan_1</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>tmTransformation_RobotFan_2</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>tfTransformation_RobotFan_2</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>tmTransformation_RobotFan_3</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>tfTransformation_RobotFan_3</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>tmTransformation_RobotFan_4</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>tfTransformation_RobotFan_4</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>tmTransformation_RobotFan_5</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <UniformID>tfTransformation_RobotFan_5</UniformID>
+  <UniformAge>T</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+  <CanChangeUniform>False</CanChangeUniform>
+ </General>
+<General>
+  <BuffEnum>Pinkified</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uu_dewpink</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+<General>
+  <UniformID>uu_dewpink</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+<General>
+  <BuffEnum>Redified</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uu_dewred</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+<General>
+  <UniformID>uu_dewred</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+<General>
+  <BuffEnum>Orangified</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uu_deworange</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+<General>
+  <UniformID>uu_deworange</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+<General>
+  <BuffEnum>Yellified</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uu_dewyellow</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+<General>
+  <UniformID>uu_dewyellow</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+<General>
+  <BuffEnum>Greenified</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uu_dewgreen</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+<General>
+  <UniformID>uu_dewgreen</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+<General>
+  <BuffEnum>Blueified</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uu_dewblue</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+<General>
+  <UniformID>uu_dewblue</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+<General>
+  <BuffEnum>Purplified</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uu_dewpurple</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+<General>
+  <UniformID>uu_dewpurple</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+<General>
+  <BuffEnum>LightBlueified</BuffEnum>
+  <LockMotives>False</LockMotives>
+  <UniformID>uu_dewlightblue</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>m</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+<General>
+  <UniformID>uu_dewlightblue</UniformID>
+  <UniformAge>C,T,Y,A,E</UniformAge>
+  <UniformSex>f</UniformSex>
+  <UniformDataVersion>EP11</UniformDataVersion>
+  <Priority>5</Priority>
+ </General>
+</BuffTransform>

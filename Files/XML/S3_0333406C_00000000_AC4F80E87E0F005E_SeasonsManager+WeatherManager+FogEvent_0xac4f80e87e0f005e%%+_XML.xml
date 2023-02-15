@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFogStrengthToIntensityMapping value="1.5, 1.55, 1.65, 1.75">
+      <!--Positive float arrays (length 4). fog strength based on intensity. index 0 = Intensity None (default), index 1 = Light, Index 2 = Medium, Index 3 = Heavy-->
+    </kFogStrengthToIntensityMapping>
+    <kFogEventTransitionTime value="1.5">
+      <!--Range: positive floats in sim hours. The amount of time it takes to go from no fog to thick fog. Also amount of time it takes to go from thick fog to no fog-->
+    </kFogEventTransitionTime>
+  </Current_Tuning>
+</base>

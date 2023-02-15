@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChancePathRoaming value="50">
+      <!--The chance (0 - 100) that a pet will choose a roaming path when running around (i.e. a path that winds up away from the start of the path).-->
+    </kChancePathRoaming>
+    <kChancePathCircular value="50">
+      <!--The chance (0 - 100) that a pet will choose a circular path when running around (i.e. a path that winds up where the path started).-->
+    </kChancePathCircular>
+    <kChancePathRoamingClueless value="25">
+      <!--The chance (0 - 100) that a pet with the clueless trait will choose a roaming path when running around (i.e. a path that winds up away from the start of the path).-->
+    </kChancePathRoamingClueless>
+    <kChancePathCircularClueless value="75">
+      <!--The chance (0 - 100) that a pet with the clueless trait will choose a circular path when running around (i.e. a path that winds up where the path started).-->
+    </kChancePathCircularClueless>
+    <kChancePathRoamingGenius value="90">
+      <!--The chance (0 - 100) that a pet with the genius trait will choose a roaming path when running around (i.e. a path that winds up away from the start of the path).-->
+    </kChancePathRoamingGenius>
+    <kChancePathCircularGenius value="10">
+      <!--The chance (0 - 100) that a pet with the genius trait will choose a circular path when running around (i.e. a path that winds up where the path started).-->
+    </kChancePathCircularGenius>
+    <kPathCircularPauseTimeMinutesMin value="3">
+      <!--The min pause time in minutes between circular route laps when a pet chooses to pause.-->
+    </kPathCircularPauseTimeMinutesMin>
+    <kPathCircularPauseTimeMinutesMax value="10">
+      <!--The min pause time in minutes between circular route laps when a pet chooses to pause.-->
+    </kPathCircularPauseTimeMinutesMax>
+    <kPathCircularLoopsMin value="3">
+      <!--The minimum number of loops before a pet will stop to pause when doing a circular route.-->
+    </kPathCircularLoopsMin>
+    <kPathCircularLoopsMax value="5">
+      <!--The maximum number of loops before a pet will stop to pause when doing a circular route.-->
+    </kPathCircularLoopsMax>
+    <kPathLengthTuningRoaming>
+      <fTotalLengthTarget value="15">
+        <!--The target total length of the run around path in meters.-->
+      </fTotalLengthTarget>
+      <fSubPathLengthMin value="3">
+        <!--The minimum length of a sub path in meters.-->
+      </fSubPathLengthMin>
+      <fSubPathLengthMax value="5">
+        <!--The maximum length of a sub path in meters.-->
+      </fSubPathLengthMax>
+      <fSubPathDirectionChangeConeAngleDegrees value="120">
+        <!--The maximum angle deviation of a sub path in degrees.-->
+      </fSubPathDirectionChangeConeAngleDegrees>
+    </kPathLengthTuningRoaming>
+    <kChancePathRoamingWhackedOut value="25">
+      <!--The chance (0 - 100) that a pet with the whacked out buff will choose a roaming path when running around (i.e. a path that winds up away from the start of the path).-->
+    </kChancePathRoamingWhackedOut>
+    <kChancePathCircularWhackedOut value="75">
+      <!--The chance (0 - 100) that a pet with the whacked out buff will choose a circular path when running around (i.e. a path that winds up where the path started).-->
+    </kChancePathCircularWhackedOut>
+    <kPathCircularLoopsWhackedOutMinMax value="4, 8">
+      <!--The [min,max] number of loops before a pet with whacked out buff will stop to pause when doing a circular route.-->
+    </kPathCircularLoopsWhackedOutMinMax>
+    <kPathLengthTuningCircularDog>
+      <fTotalLengthTarget value="7">
+        <!--The target total length of the run around path in meters.-->
+      </fTotalLengthTarget>
+      <fSubPathLengthMin value="4">
+        <!--The minimum length of a sub path in meters.-->
+      </fSubPathLengthMin>
+      <fSubPathLengthMax value="5">
+        <!--The maximum length of a sub path in meters.-->
+      </fSubPathLengthMax>
+      <fSubPathDirectionChangeConeAngleDegrees value="120">
+        <!--The maximum angle deviation of a sub path in degrees.-->
+      </fSubPathDirectionChangeConeAngleDegrees>
+    </kPathLengthTuningCircularDog>
+    <kPathLengthTuningCircularLittleDog>
+      <fTotalLengthTarget value="5">
+        <!--The target total length of the run around path in meters.-->
+      </fTotalLengthTarget>
+      <fSubPathLengthMin value="2">
+        <!--The minimum length of a sub path in meters.-->
+      </fSubPathLengthMin>
+      <fSubPathLengthMax value="3">
+        <!--The maximum length of a sub path in meters.-->
+      </fSubPathLengthMax>
+      <fSubPathDirectionChangeConeAngleDegrees value="90">
+        <!--The maximum angle deviation of a sub path in degrees.-->
+      </fSubPathDirectionChangeConeAngleDegrees>
+    </kPathLengthTuningCircularLittleDog>
+    <kPathLengthTuningCircularCat>
+      <fTotalLengthTarget value="6">
+        <!--The target total length of the run around path in meters.-->
+      </fTotalLengthTarget>
+      <fSubPathLengthMin value="3">
+        <!--The minimum length of a sub path in meters.-->
+      </fSubPathLengthMin>
+      <fSubPathLengthMax value="4">
+        <!--The maximum length of a sub path in meters.-->
+      </fSubPathLengthMax>
+      <fSubPathDirectionChangeConeAngleDegrees value="95">
+        <!--The maximum angle deviation of a sub path in degrees.-->
+      </fSubPathDirectionChangeConeAngleDegrees>
+    </kPathLengthTuningCircularCat>
+  </Current_Tuning>
+</base>

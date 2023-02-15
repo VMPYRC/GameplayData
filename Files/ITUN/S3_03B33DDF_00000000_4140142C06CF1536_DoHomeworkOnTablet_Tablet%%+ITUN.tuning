@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<base>
+	<Interaction name="Sims3.Store.Objects.Tablet+DoHomeworkOnTablet+Definition" />
+	<Object name="Sims3.Store.Objects.Tablet" />
+	<CodeVersion name="Store" considerCodeVersion="False" />
+	<Current_Tuning>
+		<Disallow DisallowAutonomous="False" DisallowUserDirected="False" DisallowPlayerSim="False" />
+		<BaseAvailability>
+			<AgeSpeciesAvail AgeSpeciesValue="C,T" />
+			<MotiveThreshold MotiveThresholdType="None" MotiveThresholdValue="0" MotiveBelowCheck="False" />
+			<MoodThreshold MoodThresholdType="None" MoodThresholdValue="0" />
+			<SkillThreshold SkillThresholdType="None" SkillThresholdValue="0" />
+			<Occult OccultRestrictionType="Ignore" OccultTypes="0x0" OccultTypesHumanAllowed="True" />
+			<CareerThreshold CareerThresholdType="Undefined" CareerThresholdValue="0" IncludePastCareers="False" />
+			<Lot AllowNonGreetedSimsIfObjectOutside="False" AllowNonGreetedSimsIfObjectOutsideUserDirected="True" AllowGreetedSims="True" AllowOnCommunityLots="True" AllowOnAllLots="False" />
+			<World RestrictionType="None" Types="" Names="" />
+			<Room AllowInTombRoomAutonomous="False" AllowEvenIfNotAllowedInRoomAutonomous="False" />
+			<Misc DisallowedIfPregnant="False" DisallowedFromInventory="False" />
+		</BaseAvailability>
+		<PosturePrecondition name="Sitting" value="1">
+			<Check name="ChairNotScootedIntoSurface" />
+		</PosturePrecondition>
+		<PosturePrecondition name="Standing" value="0.5">
+		</PosturePrecondition>
+		<Check type="SelfRegarding" value="2" />
+		<Check type="All" value="0" />
+		<Tradeoff name="DoHomeworkOnTablet">
+			<Localization autoGenerate="False" />
+			<Time value="1" addRoute="True" />
+			<Exit funExit="True" stressExit="True" interruptible="False" />
+			<RouteLeadIn allowed="True" />
+			<AskJoinInteraction joinable="False" />
+			<AllowAutonomousReinforcement allowPraise="False" allowScold="False" />
+			<ScoringFunction alwaysChooseBest="False" name="" specificCommodity="None" />
+			<ActionTopic name="Action Homework" ActionTopicUnavailableAfterActionFinishes="False" />
+			<Output>
+				<Change type="Fun" advertised="50" locked="False" actual="125" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="Work" advertised="220" locked="True" actual="220" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="TraitWorkaholic" advertised="220" locked="False" actual="220" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="BeAtSlumberParty" advertised="-600" locked="False" actual="0" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="HavingMoodSwing" advertised="-1000" locked="False" actual="0" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="BeAtTeenParty" advertised="-600" locked="False" actual="0" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="BeDaycareProblemChild" advertised="-600" locked="False" actual="0" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+			</Output>
+		</Tradeoff>
+	<Notes Notes="Get homework deals with actually doing homework autonomously" DesignerNotes="Store/EP7 - Assumed Tuned - Loel" LastChange="6/24/2012 6:19:29 PM" />
+	</Current_Tuning>
+</base>

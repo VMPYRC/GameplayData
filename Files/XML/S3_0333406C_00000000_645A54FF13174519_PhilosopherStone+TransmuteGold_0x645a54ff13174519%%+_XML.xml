@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToFail value="65, 8">
+      <!--2 Chances of Failure.  The first is for any object.  The second is is the object is worth morth then kObjectValueForDecreasedFailChance-->
+    </kChanceToFail>
+    <kObjectValueForDecreasedFailChance value="35">
+      <!--Object Value to decrease the fail chance to the second value of kChanceToFail-->
+    </kObjectValueForDecreasedFailChance>
+    <kChanceToEpicFail value="12">
+      <!--Chance to Epic fail if the regular chance to fail fires-->
+    </kChanceToEpicFail>
+    <kStatueValue value="50000">
+      <!--Statue Value-->
+    </kStatueValue>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTuning>
+      <kRepairableComponentTuning>
+        <HoursUnbreakable value="120">
+          <!--How long until the object is allowed to check for breakage after being fixed or purchased.-->
+        </HoursUnbreakable>
+        <StartPercentChanceBreak value="3">
+          <!--Starting chance of object breaking when its used.-->
+        </StartPercentChanceBreak>
+        <PercentChanceBreakIncrease value="3">
+          <!--How much the chance of breakage increases each time the object is used (int, 1 to 100).-->
+        </PercentChanceBreakIncrease>
+        <PercentWhenReplaceAvailable value="15">
+          <!--What percent breakage chance the Replace interaction becomes available-->
+        </PercentWhenReplaceAvailable>
+        <RepairComplexity value="5">
+          <!--The level at which repair time reaches its minimum-->
+        </RepairComplexity>
+        <MinRepairTime value="15">
+          <!--Minimum amount of time in sim minutes that it takes to repair this object.  This time when skill level at or above RepairComplexity-->
+        </MinRepairTime>
+        <MaxRepairTime value="90">
+          <!--Maximum amount of time in sim minutes that it takes to repair this object.  Occurs at skill level 0.-->
+        </MaxRepairTime>
+        <RepairSkillGain value="1700">
+          <!--Rate of skill gain while repairing object in points per sim minute-->
+        </RepairSkillGain>
+        <UpgradeUnbreakable>
+          <UpgradeTime value="240">
+            <!--The amount of time it takes to do the upgrade in minutes-->
+          </UpgradeTime>
+          <SkillGainRate value="4560">
+            <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+          </SkillGainRate>
+          <BadFailureChance value="30">
+            <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+          </BadFailureChance>
+          <ShouldShockInPuddle value="True">
+            <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+          </ShouldShockInPuddle>
+        </UpgradeUnbreakable>
+        <MinChanceOfElectrocution value="0">
+          <!--Minimum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs when skill level > = RepairComplexity-->
+        </MinChanceOfElectrocution>
+        <MaxChanceOfElectrocution value="20">
+          <!--Maximum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs at skill level 0.-->
+        </MaxChanceOfElectrocution>
+      </kRepairableComponentTuning>
+      <kUpgradePolymerInjectionTuning>
+        <UpgradeTime value="300">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="4560">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="30">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="True">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </kUpgradePolymerInjectionTuning>
+      <kUpgradeUnbreakableTuning>
+        <UpgradeTime value="240">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="4560">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="30">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="True">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </kUpgradeUnbreakableTuning>
+      <kTimeToWashNormal value="30">
+        <!--The time it takes, in Sim minutes, to complete the normal wash cycle-->
+      </kTimeToWashNormal>
+      <kTimeToWashDelicates value="55">
+        <!--The time it takes, in Sim minutes, to complete the delicate wash cycle-->
+      </kTimeToWashDelicates>
+      <kBuffTimeoutLength value="10080">
+        <!--How long it will take, in Sim minutes, for the Fresh Clothing buff to time out-->
+      </kBuffTimeoutLength>
+      <kRudeAwakeningEnabled value="False">
+        <!--Whether or not operation of the machine wakes up Sims-->
+      </kRudeAwakeningEnabled>
+      <kRudeAwakeningParameters>
+        <PulseRadius value="12">
+          <!--The effect range of the broadcaster in meters.-->
+        </PulseRadius>
+        <AffectBroadcasterRoomOnly value="True">
+          <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+        </AffectBroadcasterRoomOnly>
+        <ReactorLineOfSight value="False">
+          <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+        </ReactorLineOfSight>
+        <PulseRepeatTime value="20">
+          <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+        </PulseRepeatTime>
+        <TimeToFullPulseExpansion value="0">
+          <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+        </TimeToFullPulseExpansion>
+        <TimeDuration value="-1">
+          <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+        </TimeDuration>
+        <InteractionProhibitsOverlay value="True">
+          <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+        </InteractionProhibitsOverlay>
+        <AutonomyLevelToReact value="One">
+          <!--The AutonomyLevel at which this reaction fires-->
+        </AutonomyLevelToReact>
+        <MaxSimsToProcessPerTick value="10">
+          <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+        </MaxSimsToProcessPerTick>
+        <ReactOnRepeatedEntry value="True">
+          <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+        </ReactOnRepeatedEntry>
+        <ReactToMultiplePulses value="True">
+          <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+        </ReactToMultiplePulses>
+        <SpeciesToEffect value="Human">
+          <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+        </SpeciesToEffect>
+        <ReactorCouldSeeCheck value="False">
+          <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+        </ReactorCouldSeeCheck>
+        <MountedSimsDoNonMountedBehavior value="False">
+          <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+        </MountedSimsDoNonMountedBehavior>
+        <MountedReactToMultiplePulses value="False">
+          <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+        </MountedReactToMultiplePulses>
+        <MountedReactionTypes value="None, None">
+          <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+        </MountedReactionTypes>
+      </kRudeAwakeningParameters>
+      <kPuddlesChance value="0.0">
+        <!--The chance that the machine will produce puddles when used-->
+      </kPuddlesChance>
+      <kPuddlesTime value="0.4">
+        <!--The time, relative to the total time, after which puddles may show up-->
+      </kPuddlesTime>
+      <kPuddlesTuning>
+        <MaxNumPuddles value="1" />
+        <SpawnSpeedInMinutes value="15">
+          <!--Speed of puddle spawn in Sim Minutes.-->
+        </SpawnSpeedInMinutes>
+      </kPuddlesTuning>
+      <kViolentOperationChance value="0.0">
+        <!--The chance that the machine will operate violently-->
+      </kViolentOperationChance>
+      <kViolentOperationTime value="0.2">
+        <!--The time, relative to the total time, after which the machine may operate violently-->
+      </kViolentOperationTime>
+      <kRouteDistance value="2">
+        <!--How close the Sims will route to the washer when being rudely awakened-->
+      </kRouteDistance>
+      <kTakeClothesExitWeights value="30, 3, 1">
+        <!--Range: 0 - 1, Normal, Struggle, Wet, Description: Weighted List of probabilities for exit type when taking clothes out of washer-->
+      </kTakeClothesExitWeights>
+      <kEnvironmentallyConsciousSimBuffName value="SavingWater">
+        <!--Buff added when an Environmentally Conscious Sim uses this object.-->
+      </kEnvironmentallyConsciousSimBuffName>
+      <kEnvironmentallyConsciousSimBuffOrigin value="FromWashingMachineExpensive">
+        <!--Buff origin used when an Environmentally Conscious Sim uses this object.-->
+      </kEnvironmentallyConsciousSimBuffOrigin>
+      <kFreshClothingBuffDelicateCycleMoodMultiplier value="1.3">
+        <!--Range:  0+  Description:  The mood multiplier that the Delicate cycle contributes to the Fresh Clothing buff-->
+      </kFreshClothingBuffDelicateCycleMoodMultiplier>
+      <kFreshClothingBuffPolymerSystemUpgradeTimeoutMultiplier value="1.6">
+        <!--Range:  0+  Description:  The timeout multiplier that the Cleaning Polymer Injection System upgrade contributes to the Fresh Clothing buff-->
+      </kFreshClothingBuffPolymerSystemUpgradeTimeoutMultiplier>
+      <kFreshClothingBuffIsVeryFresh value="True">
+        <!--Range:  True/False  Description:  True, if this washer contributes to generating a Very Fresh Clothing buff. False otherwise.-->
+      </kFreshClothingBuffIsVeryFresh>
+      <kAttemptToSubdueSuccessChanceMinimum value="0.8">
+        <!--Range:  0 - 1  Description:  The chance that a Sim will subdue the washer at Fitness level -1-->
+      </kAttemptToSubdueSuccessChanceMinimum>
+      <kAttemptToSubdueSuccessChanceMaximum value="0.8">
+        <!--Range:  0 - 1  Description:  The chance that a Sim will subdue the washer at Fitness level 1-->
+      </kAttemptToSubdueSuccessChanceMaximum>
+      <kAttemptToSubdueSuccessChanceAthleticMultiplier value="1.5">
+        <!--Range:  0+  Description:  The success chance multiplier for Athletic Sims-->
+      </kAttemptToSubdueSuccessChanceAthleticMultiplier>
+      <kAttemptToSubdueSuccessChanceClumsyMultiplier value="0.2">
+        <!--Range:  0+  Description:  The success chance multiplier for Clumsy Sims-->
+      </kAttemptToSubdueSuccessChanceClumsyMultiplier>
+      <kAttemptToSubdueSuccessChanceLoserMultiplier value="0.5">
+        <!--Range:  0+  Description:  The success chance multiplier for Loser Sims-->
+      </kAttemptToSubdueSuccessChanceLoserMultiplier>
+      <kAttemptToSubdueCowardRefusalChance value="1">
+        <!--Range:  0 - 1  Description:  The probability Coward Sims will refuse to attempt to subdue the washing machine-->
+      </kAttemptToSubdueCowardRefusalChance>
+      <kCostToOperate value="60">
+        <!--Range:  0+  Description:  The cost, in Simoleons, to operate this machine on community lots-->
+      </kCostToOperate>
+      <kLaundryApplianceTuning>
+        <kMultiplierWealthy value="1.0">
+          <!--Scoring multiplier for Wealthy Sims-->
+        </kMultiplierWealthy>
+        <kMultiplierFrugal value="0.75">
+          <!--Scoring multiplier for Frugal Sims-->
+        </kMultiplierFrugal>
+        <kMultiplierSnob value="1.0">
+          <!--Scoring multiplier for Snob Sims-->
+        </kMultiplierSnob>
+        <kMultiplierLovesTheOutdoors value="1.1">
+          <!--Scoring multiplier for Loves the Outdoors Sims-->
+        </kMultiplierLovesTheOutdoors>
+        <kMultiplierNeat value="1.1">
+          <!--Scoring multiplier for Neat Sims-->
+        </kMultiplierNeat>
+        <kMultiplierSlob value=".5">
+          <!--Scoring multiplier for Slob Sims-->
+        </kMultiplierSlob>
+      </kLaundryApplianceTuning>
+      <kChanceOfDelicateCycle value="0.4">
+        <!--Range:  0+  Description:  The chance of using the delicate cycle when done autonomously, by an NPC-->
+      </kChanceOfDelicateCycle>
+    </kTuning>
+  </Current_Tuning>
+</base>

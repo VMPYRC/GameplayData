@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<base>
+	<Interaction name="Sims3.Gameplay.Objects.Counters.BarAdvanced+Tend+Definition" />
+	<Object name="Sims3.Gameplay.Objects.Counters.BarAdvanced" />
+	<CodeVersion name="EP3,EP10" considerCodeVersion="True" />
+	<Current_Tuning>
+		<Disallow DisallowAutonomous="False" DisallowUserDirected="False" DisallowPlayerSim="False" />
+		<BaseAvailability>
+			<AgeSpeciesAvail AgeSpeciesValue="Y,A,E" />
+			<MotiveThreshold MotiveThresholdType="None" MotiveThresholdValue="0" MotiveBelowCheck="False" />
+			<MoodThreshold MoodThresholdType="None" MoodThresholdValue="0" />
+			<SkillThreshold SkillThresholdType="Bartending" SkillThresholdValue="2" />
+			<Occult OccultRestrictionType="Ignore" OccultTypes="0x0" OccultTypesHumanAllowed="True" />
+			<CareerThreshold CareerThresholdType="Undefined" CareerThresholdValue="0" IncludePastCareers="False" />
+			<Lot AllowNonGreetedSimsIfObjectOutside="False" AllowNonGreetedSimsIfObjectOutsideUserDirected="True" AllowGreetedSims="True" AllowOnCommunityLots="True" AllowOnAllLots="False" />
+			<World RestrictionType="None" Types="" Names="" />
+			<Room AllowInTombRoomAutonomous="False" AllowEvenIfNotAllowedInRoomAutonomous="True" />
+			<Misc DisallowedIfPregnant="False" DisallowedFromInventory="False" />
+		</BaseAvailability>
+		<Check type="All" value="0" />
+		<Tradeoff name="Tend">
+			<Localization autoGenerate="False" />
+			<Time value="1" addRoute="True" />
+			<Exit funExit="False" stressExit="True" interruptible="False" />
+			<RouteLeadIn allowed="False" />
+			<AskJoinInteraction joinable="False" />
+			<AllowAutonomousReinforcement allowPraise="False" allowScold="False" />
+			<ScoringFunction alwaysChooseBest="False" name="" specificCommodity="None" />
+			<ActionTopic name="" ActionTopicUnavailableAfterActionFinishes="False" />
+			<Output>
+				<Change type="RoleBartender" advertised="500" locked="True" actual="500" updateType="ImmediateDelta" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="BeBartender" advertised="500" locked="True" actual="500" updateType="ImmediateDelta" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+				<Change type="RolePerformObjectService" advertised="200" locked="True" actual="200" updateType="ContinuousFlow" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+			</Output>
+		</Tradeoff>
+	<Notes Notes="" DesignerNotes="Assumed Tuned per Juan" LastChange="4/18/2011 2:30:46 PM" />
+	</Current_Tuning>
+</base>

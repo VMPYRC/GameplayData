@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPercentOfValue value="1.15, 1.35">
+      <!--If the object's value is less than its max value, a successful transmute will result in its value increasing by a random amount within this range.-->
+    </kPercentOfValue>
+    <kMaxTransmutes value="5">
+      <!--The number of times an object can be transmuted.-->
+    </kMaxTransmutes>
+    <kRequiredBrainPower value="-60">
+      <!--The minimum amount of Brain Power required for interaction availability.-->
+    </kRequiredBrainPower>
+    <kValueLowEnd value="100">
+      <!--An objects whose value is <= to this will be considered low-end.-->
+    </kValueLowEnd>
+    <kValueHighEnd value="500">
+      <!--An objects whose value is >= to this will be considered high-end.-->
+    </kValueHighEnd>
+    <kValueFailureChance value="0.05, 0.15, 0.3">
+      <!--Transmute failure chance given the object's value.  First value is for low-end, second for average and third high-end.-->
+    </kValueFailureChance>
+    <kMoodFailureChance value="0.5, 1">
+      <!--Range: 0.0 - 1.0.  Will linear interpolate a value based off of the Sim's current mood value.  First number represents the chance at -100 mood, second at +100 mood.-->
+    </kMoodFailureChance>
+    <kInteractionLength value="10, 15, 20">
+      <!--Transmute base interaction length given the object's value.  First value is for low-end, second for average and third high-end.-->
+    </kInteractionLength>
+    <kUpgradeCostMod value="1.15">
+      <!--If an object upgraded (ie Iron -> Copper) and the original object's value is more than the upgrade's, the upgrade's value will become this percentage of the original's.-->
+    </kUpgradeCostMod>
+  </Current_Tuning>
+</base>

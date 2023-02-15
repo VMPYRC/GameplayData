@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnergyRateMultiplier value="1.25">
+      <!--Range:  1 - 2  Description:  This value will be multiplied by the energy regeneration rate while sleeping if the sim has the NoMonsters buff.-->
+    </kEnergyRateMultiplier>
+    <kMinHoursSleptForQuickRemoval value="2">
+      <!--Range:  0 - 100  Description:  Hours that a sim must sleep in order for this buff to be removed faster.-->
+    </kMinHoursSleptForQuickRemoval>
+    <kHoursSubtractedForQuickRemoval value="2">
+      <!--Range:  0 - 100  Description:  The number of hours that will be subtracted from the buff's remaining time once kMinHoursSleptForQuickRemoval has been reached.-->
+    </kHoursSubtractedForQuickRemoval>
+  </Current_Tuning>
+</base>

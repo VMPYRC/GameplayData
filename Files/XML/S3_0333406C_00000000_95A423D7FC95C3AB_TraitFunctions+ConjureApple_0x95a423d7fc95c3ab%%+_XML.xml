@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToFailConjuring value="0.55, 0.5, 0.45, 0.4, 0.35, 0.3, 0.25, 0.2, 0.15, 0.1, 0.05">
+      <!--Chance to fail at conjuring an apple based on level 0 - 10-->
+    </kChanceToFailConjuring>
+    <kChanceToCriticalFailConjuring value="0.33, 0.1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1">
+      <!--If failed this is the chance to critically fail at conjuring an apple based on level 0 - 10-->
+    </kChanceToCriticalFailConjuring>
+    <kCasterSkillIncrease value="2">
+      <!--Positive number that will be added to Spellcasting skill while conjure apple interaction is active-->
+    </kCasterSkillIncrease>
+    <kAppleQuality value="200, 99, 96, 88, 76, 60, 30, 15, 7, 3, 1">
+      <!--Description:  Weight for conjuring a particular quality Apple {Horrifying, Putrid, Foul, Bad, Neutral, Nice, VeryNice, Great, Excellent, Outstanding, Perfect}. Does not have to equal 100 percent.-->
+    </kAppleQuality>
+    <kQualitySuccessRange value="4, 10">
+      <!--Description:  Quality Range for conjuring success - 0 Based for kAppleQuality above (inclusive)-->
+    </kQualitySuccessRange>
+    <kQualityFailRange value="0, 3">
+      <!--Description:  Quality Range for conjuring failure - 0 Based for kAppleQuality above (inclusive)-->
+    </kQualityFailRange>
+    <kAppleModifiers value="0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3">
+      <!--Description:  Quality modifiers for conjuring a particular quality Apple based on level 0 - 10-->
+    </kAppleModifiers>
+  </Current_Tuning>
+</base>

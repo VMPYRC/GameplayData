@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDaySoundsDelta value="3">
+      <!--delta( in hours) from sunrise for triggering day sounds-->
+    </kDaySoundsDelta>
+    <kNightSoundsDelta value="1">
+      <!--delta( in hours) from sunset for triggering night sounds-->
+    </kNightSoundsDelta>
+    <kSoundChangeDelayDelta value="2">
+      <!--delay between stopping one set of sounds, and starting the next.  Used to(hopefully) prevent overlap-->
+    </kSoundChangeDelayDelta>
+  </Current_Tuning>
+</base>

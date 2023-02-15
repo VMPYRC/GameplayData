@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTanningLength value="15">
+      <!--How long it takes to receive a tan in Sim minutes.-->
+    </kTanningLength>
+    <kTanningCost value="175">
+      <!--How much it costs to receive a tan.-->
+    </kTanningCost>
+    <kTanResultWeights value="0.91, 0.03, 0.03, 0.03">
+      <!--Range: 0.0 - 1.0. Description: Weighted List of probabilities for the spray tan type. Values represent Good, Bad, Uneven and Discolored.-->
+    </kTanResultWeights>
+    <kBadTanRefund value="75">
+      <!--If a Sim receives a bad tan, this is the refund amount..-->
+    </kBadTanRefund>
+  </Current_Tuning>
+</base>

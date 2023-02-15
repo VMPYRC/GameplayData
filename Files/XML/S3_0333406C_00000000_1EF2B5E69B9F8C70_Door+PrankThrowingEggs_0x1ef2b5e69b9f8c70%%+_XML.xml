@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kConeAngleInFrontOfDoor value="1.178097">
+      <!--The arc/cone's angle for finding a suitable spot for a Sim that will throw eggs. Units: Radians. Valid range [0, Pi]. Initial GPE Default: 3(Pi)/8.-->
+    </kConeAngleInFrontOfDoor>
+    <kMinThrowDistance value="3">
+      <!--The closest distance to the front door a Sim will throw eggs.-->
+    </kMinThrowDistance>
+    <kMaxThrowDistance value="8">
+      <!--The furthest distance to the front door a Sim will throw eggs.-->
+    </kMaxThrowDistance>
+    <kTimeLimit value="15">
+      <!--The max number of minutes a Sim will throw eggs if they don't get caught.-->
+    </kTimeLimit>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kClassInventCost value="500">
+      <!--How much the Inventing class costs, in Simoleons-->
+    </kClassInventCost>
+    <kClassInventDuration value="180">
+      <!--How much the Inventing class lasts, in Sim minutes-->
+    </kClassInventDuration>
+    <kNumWidgetsForWidgetWonder value="250">
+      <!--How many widgets a Sim must make to achieve Widget Wonder lifetime opp-->
+    </kNumWidgetsForWidgetWonder>
+    <kNumDetonationsForDiabolicalDetonator value="150">
+      <!--How many objects a sim must detonate to achieve Diabolical Detonator lifetime opp-->
+    </kNumDetonationsForDiabolicalDetonator>
+    <kNumScrapForTheScrapper value="1000">
+      <!--How many units of scrap a Sim must to achieve The scrapper lifetime opp-->
+    </kNumScrapForTheScrapper>
+    <kNumInventionsForMasterInventor value="100">
+      <!--How many specialty inventions a Sim must make to achieve Master Inventor lifetime opp-->
+    </kNumInventionsForMasterInventor>
+    <kSkillLevelRequiredForDetonate value="6">
+      <!--Skill level at which Detonate Interaction is Unlocked-->
+    </kSkillLevelRequiredForDetonate>
+    <kChanceDetonateFailureAtMinLevel value="0.25">
+      <!--Range: 0-1 Description: Chance of detonation failure at min skill level-->
+    </kChanceDetonateFailureAtMinLevel>
+    <kChanceDetonateFailureAtMaxLevel value="0.02">
+      <!--Range: 0-1 Description: Chance of detonation failure at max skill level-->
+    </kChanceDetonateFailureAtMaxLevel>
+    <kChanceNearbyObjCatchingFire value="0.5">
+      <!--Range: 0-1 Description: Chance of nearby object catching on fire when current object explodes-->
+    </kChanceNearbyObjCatchingFire>
+    <kTimeBetweenChainExplosions value="20">
+      <!--Range: 0 - N Description: Time delay between chain reaction explosion depths in Sim seconds-->
+    </kTimeBetweenChainExplosions>
+    <kMinimumDetonateRoutingRadius value="1.5">
+      <!--Range: 0 - N Description: The minimum radius a sim will route to detonate an object.-->
+    </kMinimumDetonateRoutingRadius>
+    <kMinimumReactRoutingRadius value="5">
+      <!--Range: 0 - N Description: The minimum radius a sim will route away after throwing the detonator on an object.-->
+    </kMinimumReactRoutingRadius>
+    <kNumFrankensimIngredients_Palladium value="1">
+      <!--How many bars of palladium are needed to make Frankensim-->
+    </kNumFrankensimIngredients_Palladium>
+    <kNumFrankensimIngredients_Diamonds value="1">
+      <!--How many pink heart cut diamonds are needed to make Frankensim-->
+    </kNumFrankensimIngredients_Diamonds>
+    <kNumFrankensimIngredients_LifeFruit value="10">
+      <!--How many life fruits are needed to make Frankensim-->
+    </kNumFrankensimIngredients_LifeFruit>
+    <kNumFrankensimIngredients_Scrap value="100">
+      <!--How many units of scrap are needed to make Frankensim-->
+    </kNumFrankensimIngredients_Scrap>
+    <kTheScraperScrapMultiplier value="1.25">
+      <!--Multiplier for giving sim extra scrap for all interactions if they have gotten 'The Scrapper' lifetime opportunity-->
+    </kTheScraperScrapMultiplier>
+    <kScrapCostMultiplyerIfCheapToy value="-0.5">
+      <!--Additive multiplier for how much scrap is needed to make an invention if its a cheap toy.-->
+    </kScrapCostMultiplyerIfCheapToy>
+    <kReactToSingedByDetonateIdleTime value="1">
+      <!--[Singing Sims near blast] Amount of time in sim Minutes to idle before playing reaction animations.-->
+    </kReactToSingedByDetonateIdleTime>
+    <kDaysOnNotice value="7">
+      <!--Num Days on Notice for Community Detonate Damage. How many days since the last detonation on community property at which point you go back to getting a warning.-->
+    </kDaysOnNotice>
+    <kCommunityDamageAmountLow value="50">
+      <!--Community Detonate damage amount at which to start giving Low Fine.-->
+    </kCommunityDamageAmountLow>
+    <kCommunityDamageAmountMedium value="600">
+      <!--Community Detonate damage amount at which to start giving Medium Fine.-->
+    </kCommunityDamageAmountMedium>
+    <kCommunityDamageAmountHigh value="1500">
+      <!--Community Detonate damage amount at which to start giving High Fine.-->
+    </kCommunityDamageAmountHigh>
+    <kCommunityDamageFineMultiplier value="0.9">
+      <!--Multiplier for how much to fine the player for detonating on a community lot. Fine = [amount damage done * Multiplier]-->
+    </kCommunityDamageFineMultiplier>
+    <kChanceNotCaughtAndFined value="0.4">
+      <!--Range: 0-1 Description: Additive chance of a sim with diabolical detonator not getting caught for detonating on a community lot-->
+    </kChanceNotCaughtAndFined>
+    <kChanceNotCaughtAndFinedLucky value="0.3">
+      <!--Range: 0-1 Description: Additive chance of a sim with lucky trait not getting caught for detonating on a community lot-->
+    </kChanceNotCaughtAndFinedLucky>
+  </Current_Tuning>
+</base>

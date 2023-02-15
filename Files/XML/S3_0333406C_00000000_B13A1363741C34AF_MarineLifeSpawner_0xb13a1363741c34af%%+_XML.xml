@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSpawnDiameter value="10">
+      <!--The diameter (in tiles) around marine life spawners within which we'll try to place marine life.  Marine life might be placed outside this depending on the footprints of nearby objects.-->
+    </kSpawnDiameter>
+    <kInvalidSpawnDiameter value="12">
+      <!--The diameter (in tiles, disregarding elevation difference) around marine life spawners outside of which we'll consider a spawned minor pet placement invalid.  Each time we try to spawn marine life we'll try to find a good location for it several times but if each find good location attempt ends up placing it outside this range then we will eventually fail (in which case we'll delete the spawned object and pop up a debug warning dialog saying that the worldbuilder crew should change the location of this spawner to a more route-friendly location). NOTE: This should be tuned with consideration of what the 'kSpawnDiameter' tuning var is set to (this var should not be set any lower than 'kSpawnDiameter' but can be greater than 'kSpawnDiameter' if desired).-->
+    </kInvalidSpawnDiameter>
+    <kMaximumMarineLifeCountOnLot value="1, 2, 2">
+      <!--Maximum number of marine life spawned using spawners on a given lot. Positive Integer Array. The values are chosen based on machine spec. 0th index: Low, 1st index: Mid, 2nd index: High/Uber.-->
+    </kMaximumMarineLifeCountOnLot>
+    <kMaximumMarineLifeCountInWorld value="2, 4, 8">
+      <!--Maximum number of marine life spawned in the world. Positive Integer Array. The values are chosen based on machine spec. 0th index: Low, 1st index: Mid, 2nd index: High/Uber.-->
+    </kMaximumMarineLifeCountInWorld>
+  </Current_Tuning>
+</base>

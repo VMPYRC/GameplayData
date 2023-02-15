@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHungerLevelUnderWhichPetIsConsideredHungry value="-35">
+      <!--Float in range -100 to 100.  The Hunger level under which the pet will be considered hungry.-->
+    </kHungerLevelUnderWhichPetIsConsideredHungry>
+    <kSocialTuningScoreWeight value="1">
+      <!--Weighting of Social tuning when autonomously choosing to do this interaction-->
+    </kSocialTuningScoreWeight>
+    <kInteractionTuningScoreWeight value="1">
+      <!--Weighting of Interaction tuning tool tuning when autonomously choosing to do this interaction-->
+    </kInteractionTuningScoreWeight>
+  </Current_Tuning>
+</base>

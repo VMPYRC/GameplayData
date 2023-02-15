@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEstimatedTimeToCatchOneFish value="30" />
+    <kTimeToShowFishingTns value="30">
+      <!--Time in Sim Minutes before we show a TNS about come back to fish here later.-->
+    </kTimeToShowFishingTns>
+    <kChanceOfPlayingLostFishAnim value="0.25">
+      <!--Chance your Sim will play the reel in animation and catch nothing.-->
+    </kChanceOfPlayingLostFishAnim>
+    <kChanceOfPlayingLostFishAnimIfClumsy value="0.6">
+      <!--Design intent wwas to make this more often than for normal sims.  Please tune relative.-->
+    </kChanceOfPlayingLostFishAnimIfClumsy>
+    <kTimeToCatchPostTns value="30">
+      <!--Time after the No Fish TNS shows before it is possible a fish can be caught.-->
+    </kTimeToCatchPostTns>
+    <kAnglerFunPerHour value="10" />
+    <kPercentChanceBaitLost value="33">
+      <!--Chance your bait is lost when you catch a fish with it.-->
+    </kPercentChanceBaitLost>
+    <kNumberOfFishToCatchInMediumStage value="5">
+      <!--Range:  Positive intergers  Description:  The amount of fish to catch in the medium stage-->
+    </kNumberOfFishToCatchInMediumStage>
+    <kNoBaitUsedLesson value="5">
+      <!--Level in which no bait used lesson will be triggered.-->
+    </kNoBaitUsedLesson>
+    <kDistanceThreshold value="50000">
+      <!--Threshold for distance checking, (Note: It's square distance.)-->
+    </kDistanceThreshold>
+    <kMaxDistanceFromHouseboat value="10">
+      <!--Maximum distance you will effectively fish from houseboat (Note: Not a squared distance)-->
+    </kMaxDistanceFromHouseboat>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

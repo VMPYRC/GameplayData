@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kState0Duration value="30, 50">
+      <!--Time (in Sim minutes) that Sim entering 'MedicalEmergency' will stay before vomiting in Format: (MinTime, MaxTime).  A random number (gaussian) in this range is chosen for each new 'Ask for Vaccination' interaction.-->
+    </kState0Duration>
+    <kTimerToShowBalloonAgain value="14">
+      <!--Sim minutes between when each thought balloon of asking for a medical assistance appears.-->
+    </kTimerToShowBalloonAgain>
+  </Current_Tuning>
+</base>

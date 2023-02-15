@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumHoursForBothGoToLotToWaitBeforeGivingUp value="2">
+      <!--Num Sim hours to wait for BothGoToLot before giving up on InviteToLotSituation-->
+    </kNumHoursForBothGoToLotToWaitBeforeGivingUp>
+    <kNumHoursForMeetUpToWaitBeforeGivingUp value="1">
+      <!--Num Sim hours to wait for MeetUp before giving up on InviteToLotSituation-->
+    </kNumHoursForMeetUpToWaitBeforeGivingUp>
+    <kNumHoursForHangingOutToWaitBeforeExiting value="2">
+      <!--Num Sim hours to hang out at lot before situation exits-->
+    </kNumHoursForHangingOutToWaitBeforeExiting>
+    <kDesireToSocialize value="150">
+      <!--Desire intensity (range 0 - 1000) to socialize with Sim when at the lot with him-->
+    </kDesireToSocialize>
+    <kMaxNumMeetUpFails value="3">
+      <!--Num socials to push during meetup before giving up-->
+    </kMaxNumMeetUpFails>
+    <kMaxNumGotoFailsForNPCs value="4">
+      <!--Num gotos to push before giving up (for NPCs)-->
+    </kMaxNumGotoFailsForNPCs>
+    <kMaxNumGotoFailsForSelectableSims value="3">
+      <!--Num gotos to push before giving up (for selectable Sims)-->
+    </kMaxNumGotoFailsForSelectableSims>
+    <kPulseMinutes value="10">
+      <!--Num Sim minutes between pulses-->
+    </kPulseMinutes>
+    <kNumHoursForBothGoToLotToWaitBeforeGivingUpInDownTown value="4">
+      <!--Num Sim hours to wait for BothGoToLot before giving up on InviteToLotSituation in Downtown world-->
+    </kNumHoursForBothGoToLotToWaitBeforeGivingUpInDownTown>
+  </Current_Tuning>
+</base>

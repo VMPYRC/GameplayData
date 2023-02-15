@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Town (EP7)</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>63</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>604</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Succeed at $Interaction</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Interaction</SubjectType>
+        <KeyValue>Sims3.Gameplay.Objects.RabbitHoles.GypsyCaravan+HaveFortuneTold+Definition</KeyValue>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SucceedAtInteractionFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kInteractionSuccess</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>64</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/0a550f10-abd5-4d08-93b5-16df128fa34c:Name</NameKey>
+    <Name>You've Been Told</Name>
+    <SetName>Town (EP7)</SetName>
+    <ChallengeGuid>0a550f10-abd5-4d08-93b5-16df128fa34c</ChallengeGuid>
+    <ExportVersion>2</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>63</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/0a550f10-abd5-4d08-93b5-16df128fa34c:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\town_14 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>461</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>604</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>5</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Succeed at $Interaction</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Interaction</SubjectType>
+        <KeyValue>Sims3.Gameplay.Objects.RabbitHoles.VaultOfAntiquity+ResearchTheSupernatural+Definition</KeyValue>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SucceedAtInteractionFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kInteractionSuccess</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>462</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/3a9a2254-3aa5-4063-b72b-6e86592c0400:Name</NameKey>
+    <Name>Curiouser and Curiouser</Name>
+    <SetName>Town (EP7)</SetName>
+    <ChallengeGuid>3a9a2254-3aa5-4063-b72b-6e86592c0400</ChallengeGuid>
+    <ExportVersion>2</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>461</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/3a9a2254-3aa5-4063-b72b-6e86592c0400:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\town_17 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_silver_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>924</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>604</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Succeed at $Interaction</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Interaction</SubjectType>
+        <KeyValue>Sims3.Gameplay.Objects.RabbitHoles.GypsyCaravan+WooHooCaravanA+Definition</KeyValue>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SucceedAtInteractionFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kInteractionSuccess</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>925</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>554</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Is $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Witch</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>SimIsOccultCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>CheckFunctionAutoSatisfiesFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>926</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/72cd2ff2-bc80-46fe-8753-573a1304ea4c:Name</NameKey>
+    <Name>Makin' Magic</Name>
+    <SetName>Town (EP7)</SetName>
+    <ChallengeGuid>72cd2ff2-bc80-46fe-8753-573a1304ea4c</ChallengeGuid>
+    <ExportVersion>5</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(924AndOP925)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/72cd2ff2-bc80-46fe-8753-573a1304ea4c:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\town_18 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1309</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>550</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Visit $Lot</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Lot</SubjectType>
+        <EnumName>PotionShopConsignmentStore</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>VenueTypeExistsInWorldCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>VisitALotTypeFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventSimMovedToLot</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1310</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/a872ea22-f26c-4e2f-a533-9ed28321b80e:Name</NameKey>
+    <Name>Potent Possibilities</Name>
+    <SetName>Town (EP7)</SetName>
+    <ChallengeGuid>a872ea22-f26c-4e2f-a533-9ed28321b80e</ChallengeGuid>
+    <ExportVersion>2</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>1309</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/a872ea22-f26c-4e2f-a533-9ed28321b80e:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\town_16.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1358</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>550</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Visit $Lot</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Lot</SubjectType>
+        <EnumName>WerewolfBar</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>VenueTypeExistsInWorldCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>VisitALotTypeFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventSimMovedToLot</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1359</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/b09e38fd-26e8-4779-83b0-0259c8d2baf7:Name</NameKey>
+    <Name>Where Wolves Hangout</Name>
+    <SetName>Town (EP7)</SetName>
+    <ChallengeGuid>b09e38fd-26e8-4779-83b0-0259c8d2baf7</ChallengeGuid>
+    <ExportVersion>2</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>1358</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/b09e38fd-26e8-4779-83b0-0259c8d2baf7:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\town_15 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

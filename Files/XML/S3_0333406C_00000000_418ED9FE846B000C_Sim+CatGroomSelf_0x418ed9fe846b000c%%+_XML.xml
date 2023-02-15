@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGroomTime value="30">
+      <!--Amount of time interaction lasts in Sim Minutes-->
+    </kGroomTime>
+    <kMinGroomTime value="5">
+      <!--Min amount of time interaction should last if cat gets hairball buff midway through-->
+    </kMinGroomTime>
+    <kMinsPerHairballInc value="10">
+      <!--Num Sim Mins per hairball increment-->
+    </kMinsPerHairballInc>
+    <kShortGroomTime value="1">
+      <!--Amount of time interaction lasts in Sim Minutes when we're doing a short groom. If this is tuned < kMinGroomTime, no hairball will result. (Note this interaction is lower bounded by the animaton loop length)-->
+    </kShortGroomTime>
+  </Current_Tuning>
+</base>

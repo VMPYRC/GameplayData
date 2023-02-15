@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kToolTip_Use_ToolTipManager_Defaults value="False">
+      <!--Set to false if Buy Controller is going to use these tunable values.-->
+    </kToolTip_Use_ToolTipManager_Defaults>
+    <kToolTip_BuyController_StartTime value="1.5">
+      <!--Time before tooltip show up.-->
+    </kToolTip_BuyController_StartTime>
+    <kToolTip_BuyController_TimeoutTime value="-1">
+      <!--Timeout time, when tooltip will go away. Set to -1 if tooltip should always display when on-->
+    </kToolTip_BuyController_TimeoutTime>
+    <kToolTip_BuyController_TransitionTime value="-1">
+      <!--Transition Time when to use start time after rolling off another tooltip item. Set to -1 if transition time will use Tooltip Manager Default-->
+    </kToolTip_BuyController_TransitionTime>
+    <kZoomIncrement value="10">
+      <!--Zoom Tick amount.-->
+    </kZoomIncrement>
+    <kPitchIncrement value="10">
+      <!--Pitch Tick amount.-->
+    </kPitchIncrement>
+    <kYawIncrement value="45">
+      <!--Yaw Tick amount.-->
+    </kYawIncrement>
+    <kClickTime value="0.3">
+      <!--Time to determine a click (in seconds).-->
+    </kClickTime>
+    <kLerpTime value="0.5">
+      <!--Camera Lerp time on click (in seconds)-->
+    </kLerpTime>
+  </Current_Tuning>
+</base>

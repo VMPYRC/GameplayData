@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kIncreasedMoodScore value="10">
+      <!--The broadcasters for Stereo and other sound producing objects will increment this amount of mood gain (over and above the stereo's mood score) when they are upgraded etc. Positive int. Initial GPE value 10.-->
+    </kIncreasedMoodScore>
+    <kFavoriteMusicMoodScore value="10">
+      <!--The broadcasters for Stereo and other sound producing objects will increment this amount of mood gain (over and above the stereo's mood score) when they are playing the sim's favourite music. Positive int. Initial GPE value 12.-->
+    </kFavoriteMusicMoodScore>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kDefaultMoodScore value="5">
+      <!--The broadcasters for Stereo and other suond producing obejcts will use this default mood update. Positive int. Initial GPE value 5.-->
+      <!--deprecated on: 2/18/2008 3:45:28 PM-->
+    </kDefaultMoodScore>
+  </Deprecated_Tuning>
+</base>

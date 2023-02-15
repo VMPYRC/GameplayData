@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDaycareChildChanceBadMotive value="15">
+      <!--The chance from 0 - 100.0f of one bad (low) motive chosen at random when a toddler starts daycare-->
+    </kDaycareChildChanceBadMotive>
+    <kDaycareAfterschoolChildChanceBadMotive value="10">
+      <!--The chance from 0 - 100.0f of one bad (low) motive chosen at random when an afterschool child starts daycare-->
+    </kDaycareAfterschoolChildChanceBadMotive>
+    <kDaycareLostCustomerCooldownDays value="2">
+      <!--The number of days until a daycare customer is replaced if the child is lost due to bad care scores-->
+    </kDaycareLostCustomerCooldownDays>
+    <kParentDropOffGiveupTimeMinutes value="120">
+      <!--The number of minutes until a daycare customer gives up on a dropoff and leaves angrily-->
+    </kParentDropOffGiveupTimeMinutes>
+    <kChildNeglectTimeMinutes value="1440">
+      <!--The number of minutes without interaction until a daycare child is considered neglected and is withdrawn from the daycare-->
+    </kChildNeglectTimeMinutes>
+    <kChildNeglectRadiusMeters value="12">
+      <!--The number of meters outside of which a daycare child is considered neglected (if any adult sim in the daycare household is in this radius then the child is considered cared for)-->
+    </kChildNeglectRadiusMeters>
+    <kMotiveAccidentEvaluationFrequencyMinutes value="60">
+      <!--How often the motive accident chance (kMotiveAccidentChance) is evaluated in minutes.-->
+    </kMotiveAccidentEvaluationFrequencyMinutes>
+    <kMotiveAccidentChance value="10">
+      <!--The probability that a motive accident will occur (from 0 - 100.0).-->
+    </kMotiveAccidentChance>
+    <kSuperNannyLikingMultipler value="1.2">
+      <!--Lifetime reward trait Super Nanny - Gains LTR faster with all nonAdult Age Groups. Positive float > 1. Initial GPE default 1.1.-->
+    </kSuperNannyLikingMultipler>
+    <kSuperNannyFixingProblemChildMultipler value="1.5">
+      <!--Lifetime reward trait Super Nanny - While computing the progress of fixing the problem child, we apply this multipler to the positive score updates. Positive float > 1. Initial GPE default 1.1.-->
+    </kSuperNannyFixingProblemChildMultipler>
+    <kTellTaleHangOutTimeBeforeStoryStarts value="15">
+      <!--Once the story teller has called all the kids, the sim waits for this duration before starting the story telling animations. Positive float. Units: Sim Minutes. Initial GPE default 30.-->
+    </kTellTaleHangOutTimeBeforeStoryStarts>
+    <kTellTaleFriendlyCommodityIncrease value="50">
+      <!--How much the friendly commodity increases one time at the end of a tell tale.-->
+    </kTellTaleFriendlyCommodityIncrease>
+    <kConeAngleInFrontStoryTellerToStandOrSitOnFloor value="2.094">
+      <!--Angle in front of story teller (where the kids prefer to sit). Positive float. Units: Radians. Initial GPE default 2.094 (i.e. 120 degrees).-->
+    </kConeAngleInFrontStoryTellerToStandOrSitOnFloor>
+    <kTellTaleDuration value="50,120">
+      <!--We pick a random number between this bound of time to tell tale. Positive floats. Index 0: Minimum. Index 1: Maximum. Units: Sim Minutes.-->
+    </kTellTaleDuration>
+    <kAdmonishedBuffTimeoutForProblemChild value="60">
+      <!--Admonished buff timeout for Problem Child. This is a number smaller than the usual timeout for Admonished buff timeout. Positive float. Units: Sim Minutes. Initial GPE default 60.-->
+    </kAdmonishedBuffTimeoutForProblemChild>
+    <kMaxSuspensionsUntilLicenseRevoked value="3">
+      <!--The number of times a sim's daycare license can be suspended before it is revoked and the sim becomes unemployed.-->
+    </kMaxSuspensionsUntilLicenseRevoked>
+    <kLicenseRevokedCooldownDays value="4">
+      <!--The number of days after a sim's daycare license is revoked that they can take the daycare career again.-->
+    </kLicenseRevokedCooldownDays>
+    <kPenaltyClassCostSimoleans value="1000">
+      <!--The cost in Simoleans of attending a penalty class at city hall to remove a day care suspension.-->
+    </kPenaltyClassCostSimoleans>
+    <kPenaltyClassTimeMinutes value="240">
+      <!--The length in minutes of a penalty class at city hall to remove a day care suspension.-->
+    </kPenaltyClassTimeMinutes>
+    <kCareerLevelForWeekendDaycare value="3">
+      <!--The level after which the daycare starts having weekend daycare calls.-->
+    </kCareerLevelForWeekendDaycare>
+    <kWeekendDaycareChance value="40">
+      <!--The chance from 0.0 - 100.0f that a particular daycare customer will offer a weekend daycare chance for Saturday or Sunday for a given week.  The number of total customers that can do this is capped by a value in the daycare tuning spreadsheet per each career level (MaxWeekendDaycareChildren in LevelData).-->
+    </kWeekendDaycareChance>
+    <kWeekendDaycareCallCutoffHour value="21">
+      <!--The cutoff hour that a daycare customer will call about a weekend daycare chance.  The calls will come in between the finish work hour for daycare and this tunable value on the night before the weekend day on which the customer will bring in their child.-->
+    </kWeekendDaycareCallCutoffHour>
+    <kCareerLevelForAfterschoolChildren value="4">
+      <!--The level after which the daycare can take care of afterschool children in addition to toddlers.-->
+    </kCareerLevelForAfterschoolChildren>
+    <kChanceOfDecidingToReproduceOrAdoptAKid value="0.5">
+      <!--If Joys of children social succeeds, this is the chance (after succesful social) that the sim will either start pregnancy with partner or adopt a kid. Positive float. Range: [0, 1]. Initial GPE default 0.80f-->
+    </kChanceOfDecidingToReproduceOrAdoptAKid>
+    <kDaycareCareerLevelToUnlockInteraction value="3, 3, 4, 5, 5, 5">
+      <!--Minimum Daycare career level requirement to unlock an interaction. Index 0: Tell Tale. Index 1: Receive Gifts. Index 2: Go Play With Others. Index 3: Joys of Children. Index 4: Admonish Child. Index 5: Talk About Problems-->
+    </kDaycareCareerLevelToUnlockInteraction>
+    <kBonusForFinishingAfterschoolHomework value="2">
+      <!--The bonus score for an afterschool child having finished his homework at your daycare.-->
+    </kBonusForFinishingAfterschoolHomework>
+    <kChildAgeUpRelationshipGreatLevel value="50">
+      <!--The relationship level over which the daycare owner is considered having a great relationship with the child for the purposes of flavor text displayed when a child ages up and leaves the daycare.-->
+    </kChildAgeUpRelationshipGreatLevel>
+    <kChanceToGiveGiftToDaycareSpecialist value="0.35">
+      <!--The chance to give the day care sim a gift (from the parents). This chance is used only if the kid was treated very well i.e. the rating was Great. Positive float. Range [0, 1]. Initial GPE default 0.40f-->
+    </kChanceToGiveGiftToDaycareSpecialist>
+    <kMinimumTimeIntervalBetweenSendingGifts value="2">
+      <!--Minimum number of days between two gifts being sent by a parent to the daycare sim for his great work. Positive float. Units: Sim days. Initial GPE default 2f-->
+    </kMinimumTimeIntervalBetweenSendingGifts>
+    <kWeekendDaycareExperienceMultiplier value="1.25">
+      <!--The experience bonus multiplier for a weekend daycare.-->
+    </kWeekendDaycareExperienceMultiplier>
+    <kDaycareChildChanceLateParent value="10">
+      <!--The chance from 0.0 - 100.0f per daycare child of a late parent at end of day pickups.-->
+    </kDaycareChildChanceLateParent>
+    <kDaycareChildLateParentTimeMinHours value="1">
+      <!--The minimum number of hours that a late parent will be late for end of day pickup of their child.-->
+    </kDaycareChildLateParentTimeMinHours>
+    <kDaycareChildLateParentTimeMaxHours value="2">
+      <!--The maximum number of hours that a late parent will be late for end of day pickup of their child.-->
+    </kDaycareChildLateParentTimeMaxHours>
+    <kLateParentExperienceMultiplier value="1.4">
+      <!--The experience bonus multiplier for a toddler with a late parent pickup.-->
+    </kLateParentExperienceMultiplier>
+    <kNumMotiveAccidentsMax value="6">
+      <!--The max number of motive accidents that can occur in one daycare day.-->
+    </kNumMotiveAccidentsMax>
+    <kDaycareAfterschoolChildChance value="40">
+      <!--The chance that a new customer will be an afterschool child instead of a toddler after kCareerLevelForAfterschoolChildren has been reached.-->
+    </kDaycareAfterschoolChildChance>
+    <kCareerLevelForProblemChild value="5">
+      <!--The level after which the daycare starts getting a problem child.-->
+    </kCareerLevelForProblemChild>
+    <kExtraFunMotiveDecayPerHourForProblemChild value="-10">
+      <!--The extra fun motive decay for problem child per hour.-->
+    </kExtraFunMotiveDecayPerHourForProblemChild>
+    <kHoursBeforeEndOfDayToddlerMotiveAccidentCanOccur value="2">
+      <!--Number of hours before the end of the daycare day when a toddler is allowed to have a motive accident.-->
+    </kHoursBeforeEndOfDayToddlerMotiveAccidentCanOccur>
+    <kTalkAboutProblemsScoreForProblemChildMin value="10">
+      <!--The min number of points you get after doing 'talk about problems' interaction with problem child (random value awarded between min an max).-->
+    </kTalkAboutProblemsScoreForProblemChildMin>
+    <kTalkAboutProblemsScoreForProblemChildMax value="15">
+      <!--The max number of points you get after doing 'talk about problems' interaction with problem child (random value awarded between min an max).-->
+    </kTalkAboutProblemsScoreForProblemChildMax>
+    <kGoodRatingProblemChildScore value="15">
+      <!--The min number of points you get after doing 'talk about problems' interaction with problem child (random value awarded between min an max).-->
+    </kGoodRatingProblemChildScore>
+    <kGreatRatingProblemChildScore value="25">
+      <!--The min number of points you get after doing 'talk about problems' interaction with problem child (random value awarded between min an max).-->
+    </kGreatRatingProblemChildScore>
+    <kProblemChildVictoryBonusSimoleans value="1000">
+      <!--The amount of simoleans the daycare owner gets for rehabilitating a problem child (granted when he arrives the next day).-->
+    </kProblemChildVictoryBonusSimoleans>
+    <kTooltipMotiveDisplayRatingAtOrBelow value="Good">
+      <!--The rating level at or below which we display the motive in the lowest motive tooltip.  If no motives are at or below this then the tooltip displays a 'doing great' message.  The ratings colors are in the daycare tuning spreadsheet.-->
+    </kTooltipMotiveDisplayRatingAtOrBelow>
+    <kNumScoringRecordsHistory value="5">
+      <!--The number of days that we track daily scores for a child, used to calculate parent withdrawing child if there are too many bad ratings (tuned by kNumBadRatingsToFail).-->
+    </kNumScoringRecordsHistory>
+    <kNumBadRatingsToFail value="2">
+      <!--The number of bad ratings until a parent withdraws their child in a timeframe of (kNumScoringRecordsHistory days).  When the child is withdrawn their slot goes on cooldown of kDaycareLostCustomerCooldownDays before they are replaced.  If all children are lost the daycare is suspended.-->
+    </kNumBadRatingsToFail>
+    <kStingVictory value="sting_daycare_victory">
+      <!--Description:  sting for victory TNS (problem child)-->
+    </kStingVictory>
+    <kStingSuspended value="sting_daycare_badb">
+      <!--Description:  sting for suspended TNS-->
+    </kStingSuspended>
+    <kStingParentWithdrewChild value="sting_daycare_bada">
+      <!--Description:  sting for parent withdrawing child due to too many bad ratings TNS-->
+    </kStingParentWithdrewChild>
+    <kLateParentRewardSimoleansMin value="25">
+      <!--The minimum simolean reward for a toddler with a late parent pickup.-->
+    </kLateParentRewardSimoleansMin>
+    <kLateParentRewardSimoleansMax value="150">
+      <!--The maximum simolean reward for a toddler with a late parent pickup.-->
+    </kLateParentRewardSimoleansMax>
+    <kHomeworkStartingPercentageNormal value="60">
+      <!--The starting completion percentage complete for homework for children in a daycare.-->
+    </kHomeworkStartingPercentageNormal>
+    <kHomeworkStartingPercentageProblemChild value="40">
+      <!--The starting completion percentage complete for a problem child in a daycare.-->
+    </kHomeworkStartingPercentageProblemChild>
+    <kNumMissedAppointmentsRecordsHistory value="5">
+      <!--The number of days that we track missed appointments scores, used to calculate parent withdrawing child if there are too many missed appointments in these many days (tuned by kNumBadRatingsToFail).-->
+    </kNumMissedAppointmentsRecordsHistory>
+    <kNumMissedAppointmentsToFail value="6">
+      <!--The number of missed appointments until the daycare is suspended in a timeframe of (kNumMissedAppointmentsRecordsHistory days).-->
+    </kNumMissedAppointmentsToFail>
+    <kSuperNannyTeachToTalkSkillGainMultiplier value="1.5">
+      <!--Lifetime reward trait Super Nanny - While performing this social, the skill gain rate is modified by this multipler. Positive float > 1. Initial GPE default 1.1.-->
+    </kSuperNannyTeachToTalkSkillGainMultiplier>
+    <kSuperNannyTeachToWalkSkillGainMultiplier value="1.5">
+      <!--Lifetime reward trait Super Nanny - While performing this social, the skill gain rate is modified by this multipler. Positive float > 1. Initial GPE default 1.1.-->
+    </kSuperNannyTeachToWalkSkillGainMultiplier>
+    <kSuperNannyTeachToPottySkillGainMultiplier value="1.5">
+      <!--Lifetime reward trait Super Nanny - While performing this social, the skill gain rate is modified by this multipler. Positive float > 1. Initial GPE default 1.1.-->
+    </kSuperNannyTeachToPottySkillGainMultiplier>
+    <kLtrGainFromWeekendOpportunityAccept value="10">
+      <!--The ltr delta with a child's parent from accepting a weekend daycare opportunity.-->
+    </kLtrGainFromWeekendOpportunityAccept>
+    <kLtrGainFromWeekendOpportunityReject value="-3">
+      <!--The ltr delta with a child's parent from rejecting a weekend daycare opportunity.-->
+    </kLtrGainFromWeekendOpportunityReject>
+    <kWeekendPayMultiplier value="1.3">
+      <!--The pay multiplier for a weekend daycare.-->
+    </kWeekendPayMultiplier>
+    <kDaycareHungerMotiveDistressForSocialWorker value="-80">
+      <!--Range: Negative floats.  Description:  Once a daycare child or below sim reaches this threshold for hunger, social worker will be requested.-->
+    </kDaycareHungerMotiveDistressForSocialWorker>
+    <kDaycareSocialMotiveDistressForSocialWorker value="-90">
+      <!--Range: Negative floats.  Description:  Once a daycare child or below sim reaches this threshold for social, social worker will be requested.-->
+    </kDaycareSocialMotiveDistressForSocialWorker>
+    <kDaycareHoursToCheckForSocialWorkerTrigger value="2">
+      <!--Range: positive floats.  Description:  During daycare hours, once the social worker decides he/she needs to watch the house, he/she waits for this number of hours to check again on all children again and deciding whether to show up at the house.-->
+    </kDaycareHoursToCheckForSocialWorkerTrigger>
+    <kMaxStartingAgeInSimDays value="2.0">
+      <!--The max starting age in sim days for a toddler or child created by the daycare.  A random value is chosen between zero and this number.  For example, if a toddler ages up in 5 days and you set this to 2 days then they will age up in 3 to 5 days.-->
+    </kMaxStartingAgeInSimDays>
+    <kDaycareToddlerDropoffMinimumTimeOffset value="5">
+      <!--Range: positive floats.  Description:  Toddler drop off times are staggered with minimum of this many number of minutes in between.-->
+    </kDaycareToddlerDropoffMinimumTimeOffset>
+    <kDaycareToddlerDropoffMaximumTimeOffset value="10">
+      <!--Range: positive floats larger than kDaycareToddlerDropoffMinimumTimeOffset.  Description:  Toddler drop off times are staggered with maximum of this many number of minutes in between.-->
+    </kDaycareToddlerDropoffMaximumTimeOffset>
+    <kDaycareToddlerPickupMinimumTimeOffset value="5">
+      <!--Range: positive floats.  Description:  Toddler pickup times are staggered with minimum of this many number of minutes in between.-->
+    </kDaycareToddlerPickupMinimumTimeOffset>
+    <kDaycareToddlerPickupMaximumTimeOffset value="10">
+      <!--Range: positive floats larger than kDaycareToddlerDropoffMinimumTimeOffset.  Description:  Toddler pickup times are staggered with maximum of this many number of minutes in between.-->
+    </kDaycareToddlerPickupMaximumTimeOffset>
+    <kTimeBeforeRegularWorkDayStartHours value="0.5">
+      <!--The time before the regular work day start hour that parent's are triggered to start routing to the daycare with their kids (only applies to toddlers).-->
+    </kTimeBeforeRegularWorkDayStartHours>
+    <kTimeBeforeRegularWorkDayEndHours value="0.5">
+      <!--The time before the regular work day end hour that parent's are triggered to start routing to the daycare to pick up kids and also the time children will leave.-->
+    </kTimeBeforeRegularWorkDayEndHours>
+    <kInitialLtrToddler value="5">
+      <!--The initial ltr when first meeting the daycare toddler.  If the owner already knew the toddler prior to daycare and had a higher relationship than this value then we keep that instead.  But if it was lower we use this.-->
+    </kInitialLtrToddler>
+    <kInitialLtrChild value="5">
+      <!--The initial ltr when first meeting the daycare child.  If the owner already knew the child prior to daycare and had a higher relationship than this value then we keep that instead.  But if it was lower we use this.-->
+    </kInitialLtrChild>
+    <kDaycareTemperatureTooColdMotiveDistressForSocialWorker value="-80">
+      <!--Range: Negative floats.  Description:  Once a daycare child or below sim reaches this threshold for temperature, social worker will be requested.-->
+    </kDaycareTemperatureTooColdMotiveDistressForSocialWorker>
+    <kDaycareTemperatureTooHotMotiveDistressForSocialWorker value="80">
+      <!--Range: positive floats.  Description:  Once a daycare child or below sim goes above this threshold for temperature, social worker will be requested.-->
+    </kDaycareTemperatureTooHotMotiveDistressForSocialWorker>
+  </Current_Tuning>
+</base>

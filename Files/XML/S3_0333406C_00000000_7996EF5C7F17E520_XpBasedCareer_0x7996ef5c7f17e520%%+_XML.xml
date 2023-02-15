@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kOvermaxXpRequiredToLevelUpInitialMultiplier value="1.17">
+      <!--Basic multiplier applied to the final level XP requirement to arrive at the base overmax XP requirement.-->
+    </kOvermaxXpRequiredToLevelUpInitialMultiplier>
+    <kOvermaxXpRequiredToLevelUpAdditionalLevelMultiplier value="1.17">
+      <!--Additional multiplier per additional overmax level to apply to the overmax XP requirement.-->
+    </kOvermaxXpRequiredToLevelUpAdditionalLevelMultiplier>
+    <kJobCompletionXPGainScale value="0.2, 0.4, 0.6, 0.8">
+      <!--Job Completion XP Gain Scale: This uses the values in Job_XP_Low_End and Job_XP_High_End to determine how many stars to show above a Sim's head after job completion.-->
+    </kJobCompletionXPGainScale>
+    <kApplyXpBonusFromSkillLevelToXpEarnedFromSkillGain value="False">
+      <!--If true, bonuses to XP gain from skill level will apply even if the XP gain itself is from gaining skill points.-->
+    </kApplyXpBonusFromSkillLevelToXpEarnedFromSkillGain>
+    <kApplyXpBonusToXpLoss value="False">
+      <!--If true, when losing XP, the Sim's loss will be increased by the same factor applied to gains.-->
+    </kApplyXpBonusToXpLoss>
+    <kPercentLevelRehired value="0.5">
+      <!--The percent of your old level that you get rehired at if you quit then join an XP Based Career again (rounded up in code).-->
+    </kPercentLevelRehired>
+    <kJobtasticMultiple value="2.5">
+      <!--If the sim has Jobtastic as its buff list, multiply all xp gains by this amount.-->
+    </kJobtasticMultiple>
+  </Current_Tuning>
+</base>

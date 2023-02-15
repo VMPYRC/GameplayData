@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kColorRunTime value="2">
+      <!--Range:  0 - infinity  Description:  This tunable sets the amount of time that a color is going to be before changing if its in randomizing mode-->
+    </kColorRunTime>
+    <kDelayArray value="0.2, 0.4, 0.6, 1.5">
+      <!--Array:  Delay options in seconds for strobe delay.  Start from 0.2f-->
+    </kDelayArray>
+    <kIntensityMultiplier value="0.01">
+      <!--Range:  1 - infinity  Description:  This tunable sets the intensity multiplier of the strobe light. This will affect the contrast and the color over the room while strobing-->
+    </kIntensityMultiplier>
+    <kMaxDelay value="60">
+      <!--Float: Max possible delay for clamping values in specific strobe delay dialog-->
+    </kMaxDelay>
+    <kDefaultDelay value="0.5">
+      <!--Float: Default possible delay for clamping values in specific strobe delay dialog-->
+    </kDefaultDelay>
+  </Current_Tuning>
+</base>

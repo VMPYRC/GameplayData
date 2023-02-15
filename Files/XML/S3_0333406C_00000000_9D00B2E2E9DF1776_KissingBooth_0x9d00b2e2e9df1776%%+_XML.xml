@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaximumNumberOfSimsInLine value="6">
+      <!--Range: Positive integers.  Description:  Maximum number of Sims that can wait in line at a time for a particular booth.-->
+    </kMaximumNumberOfSimsInLine>
+    <kTimeToWaitInLine value="30">
+      <!--Range: Positive floats.  Description: Amount of Sim minutes a Sim will wait in line to be kissed before timing out and exiting.-->
+    </kTimeToWaitInLine>
+    <kCostPerKiss value="5">
+      <!--Range: Positive ints.  Description: Amount of simoleans it costs per kiss.-->
+    </kCostPerKiss>
+    <kChanceNeutralStandIdle value="50">
+      <!--Range: Positive floats (0-100).  Description: Chance that a kissing booth attendant will decide to do standing idles instead of tending idles. (tending idles are idles are the special kissing both idles).-->
+    </kChanceNeutralStandIdle>
+    <kSelectableSimExtraCost value="0, 10">
+      <!--Range: Positive ints.  Description: Extra amount selectable sims get per kiss while attending the booth. [min,max]-->
+    </kSelectableSimExtraCost>
+    <kBeFlirtyTime value="20">
+      <!--Range: Positive floats.  Description: Number of sim minutes the sim will run the Be Flirty interaction.-->
+    </kBeFlirtyTime>
+    <kAttractiveScoringMultiplier value="1.3">
+      <!--Range: Positive floats.  Description: Scoring multiplier for when Attractive sims are in the booth (vampires, sims with the attractive, great kisser and hopeless romantic traits)-->
+    </kAttractiveScoringMultiplier>
+    <kBeFlirtyScoringMultiplier value="4">
+      <!--Range: Positive floats.  Description: Scoring multiplier for autonomy when the Be Flirty interaction is running.-->
+    </kBeFlirtyScoringMultiplier>
+    <kSelectableSimHoursKissingBooth value="8, 21">
+      <!--Range: Float, hours  Description: Hours between which selectable sims can man the kissing booth [start,end]-->
+    </kSelectableSimHoursKissingBooth>
+  </Current_Tuning>
+</base>

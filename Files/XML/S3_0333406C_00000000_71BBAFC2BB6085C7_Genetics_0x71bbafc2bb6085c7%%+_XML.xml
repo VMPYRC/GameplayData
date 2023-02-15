@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSkinColorMaxPercentTravel value="50">
+      <!--When choosing skin color, max pct change in parent skin tone.  Valid range [0, 100].-->
+    </kSkinColorMaxPercentTravel>
+    <kMoodLevelNegative value="-25">
+      <!--Pregnancy mood level tuning.  Valid range [-100, 100].-->
+    </kMoodLevelNegative>
+    <kMoodLevelNeutral value="0">
+      <!--Pregnancy mood level tuning.  Valid range [-100, 100].-->
+    </kMoodLevelNeutral>
+    <kMoodLevelPositive value="70">
+      <!--Pregnancy mood level tuning.  Valid range [-100, 100].-->
+    </kMoodLevelPositive>
+    <kMoodLevelVeryPositive value="120">
+      <!--Pregnancy mood level tuning.  Valid range [-100, 100].-->
+    </kMoodLevelVeryPositive>
+    <kInheritGrandparentTrait value="25">
+      <!--Chance to inherit traits from grandparent.  Valid range [0, 100].-->
+    </kInheritGrandparentTrait>
+    <kInheritParentTrait value="40">
+      <!--Chance to inherit traits from parent.  Valid range [0, 100].-->
+    </kInheritParentTrait>
+    <kInheritBodyShapeShiftAmount value="0.2">
+      <!--Max amount to shift around inherited bodyshape.  Valid range [0, 1].-->
+    </kInheritBodyShapeShiftAmount>
+    <kMutateHairColorChance value="20">
+      <!--Chance for mutation when inheriting hair color.  Valid range [0, 100].-->
+    </kMutateHairColorChance>
+    <kHairColorChooseGrandparentChance value="50">
+      <!--When choosing wing color, chance of selecting a grandparent.  Valid range [0, 100].-->
+    </kHairColorChooseGrandparentChance>
+    <kMutateEyeColorChance value="10">
+      <!--Chance for mutation when inheriting eye color.  Valid range [0, 100].-->
+    </kMutateEyeColorChance>
+    <kEyeColorChooseGrandparentChance value="50">
+      <!--When choosing eye color, chance of selecting a grandparent.  Valid range [0, 100].-->
+    </kEyeColorChooseGrandparentChance>
+    <kMutateHairStyleChance value="90">
+      <!--Chance for mutation when inheriting hair style.  Valid range [0, 100].-->
+    </kMutateHairStyleChance>
+    <kCelebrityLevelPercentage value="0.6,0.8">
+      <!--Range: Percentage of the Max Celebrity level of the parents applied to the children.  Valid range [0, 1].-->
+    </kCelebrityLevelPercentage>
+    <kHaveCelebrityKidChance value="0.5">
+      <!--Chance for getting celebrity level for two npc celebrity parents.  Valid range [0, 1].-->
+    </kHaveCelebrityKidChance>
+    <kInheritDadBodyHairStyleChance value="40">
+      <!--Chance of inheriting Dad's body hair.  Valid range [0, 100].-->
+    </kInheritDadBodyHairStyleChance>
+    <kInheritMomHiddenBodyHairStyleChance value="40">
+      <!--Chance of inheriting Mom's hidden body hair.  Valid range [0, 100].-->
+    </kInheritMomHiddenBodyHairStyleChance>
+    <kMutateWingChance value="10">
+      <!--Chance for mutation when inheriting wing color.  Valid range [0, 100].-->
+    </kMutateWingChance>
+    <kWingShapeChooseGrandparentChance value="25">
+      <!--When choosing hair color, chance of selecting a grandparent.  Valid range [0, 100].-->
+    </kWingShapeChooseGrandparentChance>
+    <kWingColorChooseGrandparentChance value="25">
+      <!--When choosing hair color, chance of selecting a grandparent.  Valid range [0, 100].-->
+    </kWingColorChooseGrandparentChance>
+    <kAlienHeadWide value="1, 1">
+      <!--Alien Facial Blend: HeadWide (First entry female, second male)-->
+    </kAlienHeadWide>
+    <kAlienJawChinSquare value="0.46, 0">
+      <!--Alien Facial Blend: JawChinSquare (First entry female, second male)-->
+    </kAlienJawChinSquare>
+    <kAlienNoseScaleDown value="0.25, 0.57">
+      <!--Alien Facial Blend: NoseScaleDown  (First entry female, second male)-->
+    </kAlienNoseScaleDown>
+    <kAlienNoseDown value="0.01, 0.01">
+      <!--Alien Facial Blend: NoseDown  (First entry female, second male)-->
+    </kAlienNoseDown>
+    <kAlienNoseThin value="0.5, 1">
+      <!--Alien Facial Blend: NoseThin  (First entry female, second male)-->
+    </kAlienNoseThin>
+    <kAlienNoseBridgeRotate value="0.33, 1">
+      <!--Alien Facial Blend: NoseBridgeRotate   (First entry female, second male)-->
+    </kAlienNoseBridgeRotate>
+    <kAlienNoseBridgeOut value="0.33, 0.73">
+      <!--Alien Facial Blend: NoseBridgeOut (First entry female, second male)-->
+    </kAlienNoseBridgeOut>
+    <kAlienNoseBridgeScaleUp value="0.5, 0.5">
+      <!--Alien Facial Blend: NoseBridgeScaleUp (First entry female, second male)-->
+    </kAlienNoseBridgeScaleUp>
+    <kAlienNoseNostrilsUp value="0.5, 0.5">
+      <!--Alien Facial Blend: NoseNostrilsUp (First entry female, second male)-->
+    </kAlienNoseNostrilsUp>
+    <kAlienNoseNostrilScale value="-1, -1">
+      <!--Alien Facial Blend: NoseNostrilScale (First entry female, second male)-->
+    </kAlienNoseNostrilScale>
+    <kAlienNoseTipScaleDown value="1, 1">
+      <!--Alien Facial Blend: NoseTipScaleDown (First entry female, second male)-->
+    </kAlienNoseTipScaleDown>
+    <kAlienEyesBrowCurve value="0.29, 0.29">
+      <!--Alien Facial Blend: EyesBrowCurve (First entry female, second male)-->
+    </kAlienEyesBrowCurve>
+    <kAlienEyesBrowRotate value="0.75, 0.75">
+      <!--Alien Facial Blend: EyesBrowRotate (First entry female, second male)-->
+    </kAlienEyesBrowRotate>
+    <kAlienMouthLipUpperDefinition value="0.25, 0.25">
+      <!--Alien Facial Blend: MouthLipUpperDefinition (First entry female, second male)-->
+    </kAlienMouthLipUpperDefinition>
+    <kAlienMouthCurveDown value="0.5, 0.5">
+      <!--Alien Facial Blend: MouthCurveDown (First entry female, second male)-->
+    </kAlienMouthCurveDown>
+    <kAlienMouthIn value="0.5, 1">
+      <!--Alien Facial Blend: MouthIn (First entry female, second male)-->
+    </kAlienMouthIn>
+    <kAlienTranslateMouthDown value="0.75, 1">
+      <!--Alien Facial Blend: TranslateMouthDown (First entry female, second male)-->
+    </kAlienTranslateMouthDown>
+    <kAlienMouthThin value="0.5, 0.5">
+      <!--Alien Facial Blend: MouthThin (First entry female, second male)-->
+    </kAlienMouthThin>
+    <kAlienEyeAlienCorrector value="1, 1">
+      <!--Alien Facial Blend: EyeAlienCorrector (First entry female, second male)-->
+    </kAlienEyeAlienCorrector>
+    <kAlienEyeAlien value="1, 1">
+      <!--Alien Facial Blend: EyeAlien (First entry female, second male)-->
+    </kAlienEyeAlien>
+    <kAlienJawChinDown value="0.5, 0.75">
+      <!--Alien Facial Blend: JawChinDown (First entry female, second male)-->
+    </kAlienJawChinDown>
+    <kAlienJawChinScaleDown value="0.33, 0.33">
+      <!--Alien Facial Blend: JawChinScaleDown  (First entry female, second male)-->
+    </kAlienJawChinScaleDown>
+    <kAlienJawThin value="1, 1">
+      <!--Alien Facial Blend: JawThin   (First entry female, second male)-->
+    </kAlienJawThin>
+    <kAlienJawCheeksIn value="0.6, 0.6">
+      <!--Alien Facial Blend: JawCheeksIn    (First entry female, second male)-->
+    </kAlienJawCheeksIn>
+    <kAlienJawCheekSharpness value="0.45, 0.45">
+      <!--Alien Facial Blend: JawCheekSharpness (First entry female, second male)-->
+    </kAlienJawCheekSharpness>
+    <kAlienEarsRotateY value="0.5, 0.5">
+      <!--Alien Facial Blend: EarsRotateY  (First entry female, second male)-->
+    </kAlienEarsRotateY>
+    <kAlienEarPoint value="1, 1">
+      <!--Alien Facial Blend: EarPoint   (First entry female, second male)-->
+    </kAlienEarPoint>
+    <kAlienHeadProfileOut value="1, 1">
+      <!--Alien Facial Blend: HeadProfileOut (First entry female, second male)-->
+    </kAlienHeadProfileOut>
+    <kAlienEyesLashesThin value="1, 1">
+      <!--Alien Facial Blend: EyesLashesThin (First entry female, second male)-->
+    </kAlienEyesLashesThin>
+    <kAlienJawCheeksBoneDown value="0.1, 0.1">
+      <!--Alien Facial Blend: JawCheeksBoneDown  (First entry female, second male)-->
+    </kAlienJawCheeksBoneDown>
+    <kAlienJawChinRound value="0, 0.1">
+      <!--Alien Facial Blend: JawChinRound (First entry female, second male)-->
+    </kAlienJawChinRound>
+    <kAlienNoseTipDepthIn value="0, 0.45">
+      <!--Alien Facial Blend: NoseTipDepthIn (First entry female, second male)-->
+    </kAlienNoseTipDepthIn>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kMutateHairColorChooseParentBlendChance value="10">
+      <!--When hair color mutates, chance for parent blend color.  Valid range [0, 100].-->
+      <!--deprecated on: 4/15/2008 4:25:06 PM-->
+    </kMutateHairColorChooseParentBlendChance>
+    <kMutateHairColorChooseFullBlendChance value="2">
+      <!--When hair color mutates, chance for full spectrum blend color.  Valid range [0, 100].-->
+      <!--deprecated on: 4/15/2008 4:25:06 PM-->
+    </kMutateHairColorChooseFullBlendChance>
+  </Deprecated_Tuning>
+</base>

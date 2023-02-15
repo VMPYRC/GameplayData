@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTravelDurations value="3, 5, 8, 10, 12">
+      <!--Range:  +ints  Description:  Trip duration lengths-->
+    </kTravelDurations>
+    <kCostOfTravelingPerAge value="250, 500, 1000, 1000, 500">
+      <!--Range:  +ints  Description:  Cost to travel per age. This indexed for Child, Teen, YoungAdult, Adult, Elder.-->
+    </kCostOfTravelingPerAge>
+    <kCostOfTravelingPerDay value="300, 100, 200">
+      <!--Range:  +ints  Description:  Cost to travel per day in France, Egypt, China.-->
+    </kCostOfTravelingPerDay>
+    <kTravelToVacationWorldTimeout value="20">
+      <!--As soon as you are done using the phone or computer to trigger travel, we'll force the household to travel within this time interval. Units: Sim Minutes. Positive Integer. Initial GPE Default: 20.-->
+    </kTravelToVacationWorldTimeout>
+    <kMinimumAndMaximumDistanceForRadialRangeRouteOnArrival value="1, 7">
+      <!--When the sims arrive at vacation world, this is the radial range around the front door where they attempt to perform the Arrive interaction. For mailbox and PostBox, we use the minimum value. Type: float array. Fixed length 2. Minimum then maximum number. Initial GPE Default: {3, 7}.-->
+    </kMinimumAndMaximumDistanceForRadialRangeRouteOnArrival>
+    <kTravelToUniversityWorldTimeout value="15">
+      <!--As soon as you are done pulling out the suitcase during the travel to University flow, we'll force the household to travel within this time interval. Units: Sim Minutes. Positive Integer. Initial GPE Default: 40.-->
+    </kTravelToUniversityWorldTimeout>
+    <kAcademicStoryNumDaysThreshold value="1">
+      <!--Positive Integer. The minimum number of home world days that must have elapsed since last visiting a university world in order that academic story progression will occur when returning to the university world-->
+    </kAcademicStoryNumDaysThreshold>
+    <kNumTermsPerHomeWorldDay value="0.25">
+      <!--Float > 0. The number of academic terms that will be simulated in academic story progression for each day that elapses in the home world since last visiting the university world-->
+    </kNumTermsPerHomeWorldDay>
+    <kAcademicStoryChanceOfNewStart value="0.5">
+      <!--Float 0.0-1.0f. The percentage chance that if a Sim chooses a new degree from ChooseWeightRandomSuitableDegree() that he will actually start it during StoryProgression when returning to the university world-->
+    </kAcademicStoryChanceOfNewStart>
+    <kRentalPercentageOfWorth value="0.01">
+      <!--Float 0.0-1.0f. The percentage applied to lot values for determining rental move-in price in University world-->
+    </kRentalPercentageOfWorth>
+  </Current_Tuning>
+</base>

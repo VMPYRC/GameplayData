@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToFallInRift value="30">
+      <!--Range: 0 - 100 : Percentage chance of falling into the rift - PAB-->
+    </kChanceToFallInRift>
+    <kTimeInRift value="20">
+      <!--Range: 0 - x : Time in Sim Minutes that Sim spends in the rift - PAB-->
+    </kTimeInRift>
+    <kChanceForGemOrMetal value="40">
+      <!--Range: 0 - 100 : Chance of finding a gem or metal in the rift - PAB-->
+    </kChanceForGemOrMetal>
+    <kChanceForCommonGemOrMetal value="65">
+      <!--Range: 0 - 100 : Chance gem / metal is common - PAB-->
+    </kChanceForCommonGemOrMetal>
+    <kChanceForUncommonGemOrMetal value="30">
+      <!--Range: 0 - 100 : Chance gem / metal is uncommon - PAB-->
+    </kChanceForUncommonGemOrMetal>
+    <kRiftBuffs value="NotSoHealthyGlow, Cloudy, LightningMagnet, Giddy, Singed">
+      <!--Range: Buffs.  Description: Buffs that could be applied to sim if they fail to find a gem or metal in the rift (Note if you add a new buff here you will need to add a new string with the buffname appended..  example = BuffAddedGiddy in localization) - PAB-->
+    </kRiftBuffs>
+    <kChanceOfEruption value="75">
+      <!--Range: 0 - 100 : Percentage chance of doing an eruption on each loop while in the rift - PAB-->
+    </kChanceOfEruption>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPerformConcertAvailableStartingAtHour value="15">
+      <!--Range:  Sim hour.  Description: Hour of the day at which the Perform Concert interaction is avaiable to Music career sims-->
+    </kPerformConcertAvailableStartingAtHour>
+    <kPerformConcertAvailableEndingAtHour value="23">
+      <!--Range:  Sim hour.  Description: Hour of the day at which the Perform Concert interaction is no longer available to Music career sims-->
+    </kPerformConcertAvailableEndingAtHour>
+    <kPerformedConcertDurationMinutes value="120">
+      <!--Range:  Sim minutes.  Description:  Duration in minutes of a concert performed by a user Music career sim-->
+    </kPerformedConcertDurationMinutes>
+    <kEveningShowStartHour value="17">
+      <!--Hour of day to start an evening show (Monday through Sunday)-->
+    </kEveningShowStartHour>
+    <kEveningShowDurationHours value="6">
+      <!--Duration in hours for the evening show to last-->
+    </kEveningShowDurationHours>
+    <kEveningShowPrice value="40">
+      <!--Simoleon cost for an evening show-->
+    </kEveningShowPrice>
+    <kMatineeStartHour value="12">
+      <!--Hour of day to start a matinee show (Saturday and Sunday)-->
+    </kMatineeStartHour>
+    <kMatineeDurationHours value="5">
+      <!--Duration in hours for the matinee show to last-->
+    </kMatineeDurationHours>
+    <kMatineePrice value="30">
+      <!--Simoleon cost for a matinee show-->
+    </kMatineePrice>
+    <kAttendInteractionDurationMinutes value="120">
+      <!--How long in minutes should a sim need to watch a show to get the full benefit and buff?-->
+    </kAttendInteractionDurationMinutes>
+    <kActionMovieNames value="ActionMovie1, ActionMovie2, ActionMovie3">
+      <!--Strings.  HAL id for names of Action movies-->
+    </kActionMovieNames>
+    <kThrillerMovieNames value="ThrillerMovie1, ThrillerMovie2, ThrillerMovie3">
+      <!--Strings.  HAL id for names of Thriller movies-->
+    </kThrillerMovieNames>
+    <kSciencefictionMovieNames value="SciencefictionMovie1, SciencefictionMovie2, SciencefictionMovie3">
+      <!--Strings.  HAL id for names of Sciencefiction movies-->
+    </kSciencefictionMovieNames>
+    <kBromanceMovieNames value="BromanceMovie1, BromanceMovie2, BromanceMovie3">
+      <!--Strings.  HAL id for names of Bromance movies-->
+    </kBromanceMovieNames>
+    <kChickflickMovieNames value="ChickflickMovie1, ChickflickMovie2, ChickflickMovie3">
+      <!--Strings.  HAL id for names of Chickflick movies-->
+    </kChickflickMovieNames>
+    <kComedyMovieNames value="ComedyMovie1, ComedyMovie2, ComedyMovie3">
+      <!--Strings.  HAL id for names of Comedy movies-->
+    </kComedyMovieNames>
+    <kForeignMovieNames value="ForeignMovie1, ForeignMovie2, ForeignMovie3">
+      <!--Strings.  HAL id for names of Foreign movies-->
+    </kForeignMovieNames>
+    <kIndieMovieNames value="IndieMovie1, IndieMovie2, IndieMovie3">
+      <!--Strings.  HAL id for names of Indie movies-->
+    </kIndieMovieNames>
+    <kChanceOfSeeingATerribleMovie value="10">
+      <!--Float(0-100) Chance of seeing a terrible movie-->
+    </kChanceOfSeeingATerribleMovie>
+    <kNegativeTraitTerribleMovieIncrease value="10">
+      <!--Float(0-100) Percentage increase of seeing a terrible movie because of negative trait-->
+    </kNegativeTraitTerribleMovieIncrease>
+    <kTraitsForTerribleMovie value="AntiTV, HotHeaded, Loner, Neurotic, Snob, Unlucky">
+      <!--TraitNames[]  Triats that increase chance of seeing a terrible movie-->
+    </kTraitsForTerribleMovie>
+    <kPlayNames value="Play1, Play2, Play3">
+      <!--Strings.  HAL id for names of plays-->
+    </kPlayNames>
+    <kSymphonyNames value="Symphony1, Symphony2, Symphony3">
+      <!--Strings.  HAL id for names of symphonies-->
+    </kSymphonyNames>
+    <kMinLTRForShowGrouping value="35">
+      <!--Float: The Min amount of LTR needed for a sim to be available in the sim picker for shows-->
+    </kMinLTRForShowGrouping>
+  </Current_Tuning>
+</base>

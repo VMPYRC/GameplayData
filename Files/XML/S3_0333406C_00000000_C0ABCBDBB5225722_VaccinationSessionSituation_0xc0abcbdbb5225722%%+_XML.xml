@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAskForVaccinationBroadcasterParams>
+      <PulseRadius value="50">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <PulseRepeatTime value="10">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="2">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="True">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kAskForVaccinationBroadcasterParams>
+    <kSuccessRatingThreshold value="45, 80">
+      <!--The thresholds (by %success) for the 'ratings' of an vaccination session when it's done.  This affects only the flavor text in the TNS.  Format: (TotalMoneyEarnedBadToAverageThreshold, TotalMoneyEarnedAverageToGoodThreshold)-->
+    </kSuccessRatingThreshold>
+    <kNumSimsToInitiallyBring value="5">
+      <!--Number of random Sims we bring from around town to come to start the Vaccination Session.  Note that more Sims than this will ultimately be involved in the Vaccination Session due to being sucked in by the broadcaster.-->
+    </kNumSimsToInitiallyBring>
+    <kMaxSimsInSessionAtAnyOneTime value="8">
+      <!--Max Sims (fans) that the Vaccination Session will hold.  Setting this too high will cause performance problems.  If a new Sim routes into the broadcaster but the Vaccination Session already has this max number of vaccination seekers then the new Sim will continue on their way & not ask for an vaccination.-->
+    </kMaxSimsInSessionAtAnyOneTime>
+    <kMaxDistanceForAutonomousSign value="10">
+      <!--Max number of tiles between the Vaccinator Sim and the Fan in order for the Vaccinator Sim to *autonomously* vaccinate.  This prevents the Vaccinator Sim from autonomously routing to another Lot to vaccinate (since the radius of the reaction broadcaster for the Vaccination Session is so large).-->
+    </kMaxDistanceForAutonomousSign>
+    <kVaccinationSessionMaxDurationInHours value="4">
+      <!--Max number of Sim hours that the vaccination session will last for.  Time starts when Vaccinator Sim enters the range of the broadcaster (and hence doesn't start if they route fail before getting there). MUST be greater than 1 (i.e. 2 or more) because we're popping up a TNS with 1 hour remaining telling Players they have 1 hour left, if this is an issue come see JJ.-->
+    </kVaccinationSessionMaxDurationInHours>
+    <kPerformanceChanges value="-10, 8, 14">
+      <!--Career performance change based on success thresholds-->
+    </kPerformanceChanges>
+    <kHandledSimBonus value="2">
+      <!--Career performance change based on handling a sim-->
+    </kHandledSimBonus>
+    <kIgnoredSimPenalty value="-5">
+      <!--Career performance change based on handling a sim-->
+    </kIgnoredSimPenalty>
+  </Current_Tuning>
+</base>

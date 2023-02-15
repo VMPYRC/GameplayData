@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeSculptorAtlas,magicGnomeSculptorDavid,magicGnomeSculptorDisc,magicGnomeSculptorGunShow">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeSculptorThinker">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeSculptorAtlas,magicGnomeSculptorDavid,magicGnomeSculptorDisc,magicGnomeSculptorGunShow">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeSculptorThinker">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeSculptorThinker">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kWeightExpensive value="2">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+      <kNoKickPoses value="magicGnomeSculptorGunShow">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+    </kGnomeTuning>
+    <kDesireForSculptures value="5">
+      <!--OBJECT DESIREABILITY: score multiplier for scultpures objects.-->
+    </kDesireForSculptures>
+    <kDesireForArt value="3.5">
+      <!--OBJECT DESIREABILITY: score multiplier for art objects.-->
+    </kDesireForArt>
+  </Current_Tuning>
+</base>

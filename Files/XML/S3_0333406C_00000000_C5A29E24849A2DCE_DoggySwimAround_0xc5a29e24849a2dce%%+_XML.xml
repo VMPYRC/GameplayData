@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSwimAroundWanderDistance value="5">
+      <!--The wander distance (in meters) for Sims swimming around in the pool autonomously.-->
+    </kSwimAroundWanderDistance>
+    <kNumberOfTimesToSwimAroundWander value="3, 6">
+      <!--Number of times to route wander around while running this interaction.-->
+    </kNumberOfTimesToSwimAroundWander>
+    <kChanceToSwimNearOtherSims value="0.6">
+      <!--Chance that a dog will swim choose to swim near other sims in the pool.-->
+    </kChanceToSwimNearOtherSims>
+    <kChanceToShowHydrophobicThoughtBalloon value="1">
+      <!--Chance that a hydrophobic dog will show the hates swimming icon after routing.-->
+    </kChanceToShowHydrophobicThoughtBalloon>
+  </Current_Tuning>
+</base>

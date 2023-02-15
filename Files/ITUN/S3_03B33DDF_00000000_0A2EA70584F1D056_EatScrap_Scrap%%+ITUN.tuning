@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<base>
+	<Interaction name="Sims3.Gameplay.Objects.HobbiesSkills.Inventing.Scrap+EatScrap+Definition" />
+	<Object name="Sims3.Gameplay.Objects.HobbiesSkills.Inventing.Scrap" />
+	<CodeVersion name="EP2" considerCodeVersion="False" />
+	<Current_Tuning>
+		<Disallow DisallowAutonomous="False" DisallowUserDirected="False" DisallowPlayerSim="False" />
+		<BaseAvailability>
+			<AgeSpeciesAvail AgeSpeciesValue="Y,A,E" />
+			<MotiveThreshold MotiveThresholdType="None" MotiveThresholdValue="0" MotiveBelowCheck="False" />
+			<MoodThreshold MoodThresholdType="None" MoodThresholdValue="0" />
+			<SkillThreshold SkillThresholdType="None" SkillThresholdValue="0" />
+			<ExcludingTrait type="RobotHiddenTrait" />
+			<Occult OccultRestrictionType="Ignore" OccultTypes="0x0" OccultTypesHumanAllowed="True" />
+			<CareerThreshold CareerThresholdType="Undefined" CareerThresholdValue="0" IncludePastCareers="False" />
+			<Lot AllowNonGreetedSimsIfObjectOutside="True" AllowNonGreetedSimsIfObjectOutsideUserDirected="True" AllowGreetedSims="True" AllowOnCommunityLots="True" AllowOnAllLots="True" />
+			<World RestrictionType="None" Types="" Names="" />
+			<Room AllowInTombRoomAutonomous="True" AllowEvenIfNotAllowedInRoomAutonomous="False" />
+			<Misc DisallowedIfPregnant="False" DisallowedFromInventory="False" />
+		</BaseAvailability>
+		<Check type="All" value="0" />
+		<Tradeoff name="EatScrap">
+			<Localization autoGenerate="True" />
+			<Time value="1" addRoute="True" />
+			<Exit funExit="False" stressExit="False" interruptible="False" />
+			<RouteLeadIn allowed="False" />
+			<AskJoinInteraction joinable="False" />
+			<AllowAutonomousReinforcement allowPraise="False" allowScold="False" />
+			<ScoringFunction alwaysChooseBest="False" name="" specificCommodity="None" />
+			<ActionTopic name="" ActionTopicUnavailableAfterActionFinishes="False" />
+			<Output>
+				<Change type="Hunger" advertised="200" locked="False" actual="200" updateType="ImmediateDelta" timeDependsOn="False" updateEvenOnFailure="False" updateAboveAndBelowZero="Either" />
+			</Output>
+		</Tradeoff>
+	<Notes Notes="" DesignerNotes="Assumed Tuned per Juan" LastChange="4/18/2011 2:30:46 PM" />
+	</Current_Tuning>
+</base>

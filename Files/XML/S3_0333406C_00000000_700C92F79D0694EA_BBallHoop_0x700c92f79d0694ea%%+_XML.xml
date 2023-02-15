@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAthleticTuning>
+      <kLookAtThresholdForTrain value="50">
+        <!--Range: 0 to 100. Only objects of lookat interestingness above this value will be looked at while training sims-->
+      </kLookAtThresholdForTrain>
+      <DelayFatiguePercentagePerAthleticSkillLevel value="0.05">
+        <!--Range: 0.0f to 0.1f.  Description: As you use athletic game objects, your Sim has an increase in the Fatigue motive.  As your Sim gains Athletic skill, your Sim will be less fatigued.  This tunable is the fatigue gain percentage decrease per athletic skill level.-->
+      </DelayFatiguePercentagePerAthleticSkillLevel>
+      <AthleticTraitDestressMultiplier value="2">
+        <!--Range: Non-negative float.  Description:  Sims with the Athletic trait will distress at a faster rate than normal Sims while using athletic game objects.  This tunable is the multiplier to the normal destress rate.-->
+      </AthleticTraitDestressMultiplier>
+      <MinsToAddPumped value="60">
+        <!--Range: Positive floats.  Description: Number of Sim minutes in the 'Work Out' interaction in order to get the 'Pumped' buff.-->
+      </MinsToAddPumped>
+      <AthleticLevelToAddPumped value="3">
+        <!--Range: Positive integers.  Description:  Minimum Athletic skill level at which to get the 'Pumped' buff.-->
+      </AthleticLevelToAddPumped>
+      <CanTriggerAthleticTraitTip value="False">
+        <!--Type: bool.  Description:  If a sim has Athletic skill, this object will prompt a Trait tip.-->
+      </CanTriggerAthleticTraitTip>
+    </kAthleticTuning>
+    <kDaysToReachMuscularShape value="0.1">
+      <!--Range: Positive floats.  Description:  The time in Sim days it takes a Sim to reach full muscular shape from the fully non-muscular shape.-->
+    </kDaysToReachMuscularShape>
+    <kFatiguedAnimationMotiveValue value="-50">
+      <!--Range: Motive values.  Description: Fatigue level at which a Sim will start playing fatigued workout animations.-->
+    </kFatiguedAnimationMotiveValue>
+    <kMaxTimeWaitForRace value="15">
+      <!--Time to wait for another player-->
+    </kMaxTimeWaitForRace>
+    <kGameLengthInMinutes value="30">
+      <!--Length of game in sim minutes-->
+    </kGameLengthInMinutes>
+    <kBasketOdds value="15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70">
+      <!--Odds of making baskets at various skill levels-->
+    </kBasketOdds>
+    <kChallengeGameRelationshipBoost value="10">
+      <!--Relationship bump to give for taking a shot.-->
+    </kChallengeGameRelationshipBoost>
+    <kStreakLengthToGetOnFire value="3">
+      <!--Number of shots to make in a row to get on fire buff-->
+    </kStreakLengthToGetOnFire>
+    <kBackboardBreakChance value="5">
+      <!--Odds of backboard breaking per shot-->
+    </kBackboardBreakChance>
+  </Current_Tuning>
+</base>

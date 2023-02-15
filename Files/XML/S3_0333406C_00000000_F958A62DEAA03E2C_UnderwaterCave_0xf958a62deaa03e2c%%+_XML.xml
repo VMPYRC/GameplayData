@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGrabbedChance value="0.25, 0.23, 0.21, 0.19, 0.17, 0.15, 0.13, 0.11, 0.09, 0.07, 0.05">
+      <!--Range: Float . Chance of being attacked on exit-->
+    </kGrabbedChance>
+    <kMinTentacleWaveInterlude value="1">
+      <!--Range: Float. Min hours between tentacle waves-->
+    </kMinTentacleWaveInterlude>
+    <kMaxTentacleWaveInterlude value="3">
+      <!--Range: Float. Max hours between tentacle waves-->
+    </kMaxTentacleWaveInterlude>
+    <kMinTentacleWaveDuration value="5">
+      <!--Range: Float. Min minutes the tentacle waves-->
+    </kMinTentacleWaveDuration>
+    <kMaxTentacleWaveDuration value="10">
+      <!--Range: Float. Max minutes the tentacle waves-->
+    </kMaxTentacleWaveDuration>
+    <kTentacleWaveStopTimeout value="5">
+      <!--Range: Float. Time in minutes to wait for a tentacle wave to end before resetting the cave-->
+    </kTentacleWaveStopTimeout>
+  </Current_Tuning>
+</base>

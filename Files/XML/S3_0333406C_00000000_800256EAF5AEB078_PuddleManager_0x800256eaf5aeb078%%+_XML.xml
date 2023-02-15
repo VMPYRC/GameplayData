@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxPuddleRadius value="15">
+      <!--Number of tiles a puddle can spread from the origin tile.  This is capped at 20 to prevent stack overflow-->
+    </kMaxPuddleRadius>
+    <kPuddleTerrainLifetime value="120">
+      <!--How long (in Sim minutes) before a puddle on lot terrain naturally evaporates-->
+    </kPuddleTerrainLifetime>
+    <kPuddleFloorTileLifetime value="480">
+      <!--How long (in Sim minutes) before a puddle on a floor tile naturally evaporates-->
+    </kPuddleFloorTileLifetime>
+    <kTimeToMopPuddle value="5" />
+    <kPuddleTombLifetime value="75">
+      <!--How long (in Sim minutes) before a puddle in a tomb naturally evaporates-->
+    </kPuddleTombLifetime>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

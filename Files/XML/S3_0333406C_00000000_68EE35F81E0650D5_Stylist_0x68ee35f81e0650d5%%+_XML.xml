@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <FreestyleMakeoverUnlockJobLevel value="3">
+      <!--Career level at which the 'freestyle makeover' social interaction becomes available to Sims in the Stylist Active Career.-->
+    </FreestyleMakeoverUnlockJobLevel>
+    <kStylistActiveCareerLevelForNpcStylistSelectable value="8">
+      <!--When the NPC Stylist becomes selectable (e.g. through marriage) they are placed in the Stylist Active Career at this career level.-->
+    </kStylistActiveCareerLevelForNpcStylistSelectable>
+    <GiveFashionAdviceUnlockJobLevel value="6">
+      <!--Career level at which the 'give fashion advice' social interaction becomes available to Sims in the Stylist Active Career.-->
+    </GiveFashionAdviceUnlockJobLevel>
+    <kHouseCallsUnlockedCareerLevel value="3">
+      <!--Career level before which we force Stylist Jobs to be on Salon Lots.  Starting at this career level we choose Jobs on the Lot types specified in the JobsAndTasks.xls spreadsheet (tuned to *Residential and Salon Lots* at the time this variable was created).-->
+    </kHouseCallsUnlockedCareerLevel>
+    <ComplimentFashionSenseUnlockJobLevel value="1">
+      <!--Career level at which the 'compliment fashion sense' social interaction becomes available to Sims in the Stylist Active Career.-->
+    </ComplimentFashionSenseUnlockJobLevel>
+    <InsultFashionSenseUnlockJobLevel value="1">
+      <!--Career level at which the 'insult fashion sense' social interaction becomes available to Sims in the Stylist Active Career.-->
+    </InsultFashionSenseUnlockJobLevel>
+    <kMaximumLengthOfPendingEventDrivenJobQueue value="20">
+      <!--Maximum number of story-progression related possible jobs to remember before forgetting old ones.-->
+    </kMaximumLengthOfPendingEventDrivenJobQueue>
+    <kMaximumJobLength value="4">
+      <!--Range:  number of days  Description:  Max number of days a job remains available before disappearing.-->
+    </kMaximumJobLength>
+    <kSolicitFailureTimeoutHours value="24">
+      <!--Number of Sim hours that a client Sim cannot be styled for by a playable Stylist after they turn down the Stylist's 'Solicit Job' attempt.-->
+    </kSolicitFailureTimeoutHours>
+    <kNumHoursEarlyCanShowUpForWork value="2">
+      <!--The number of hours early a Sim can show up for work and wait outside.-->
+    </kNumHoursEarlyCanShowUpForWork>
+    <kTryCreateLowLevelStylistJobFrequency value="2">
+      <!--How often in Sim hours we try to create a Job for low-level playable Stylists.  This helps solve the bug where multiple Stylist Sims in the playable household will result in a Job being created only for 1 Stylist (due to only 1 Job per Lot and Stylists requiring Salon Lot due to not having Makeover Freestyle yet).-->
+    </kTryCreateLowLevelStylistJobFrequency>
+    <StylingSkillPointsPerMakeoverFreestyle value="800">
+      <!--Number of Styling Skill points we give to a Sim after completing each 'Makeover Freestyle' social interaction.  This is Immediate Delta ('chunk') gain, not Continuous Flow gain.-->
+    </StylingSkillPointsPerMakeoverFreestyle>
+  </Current_Tuning>
+</base>

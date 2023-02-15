@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPlayTimeMinMax value="30, 45">
+      <!--[Min,Max] Num Sim Mins a sim will play in the leaf pile. Actual will be randomly picked between the 2-->
+    </kPlayTimeMinMax>
+    <kPetPlayTimeMinMax value="10, 15">
+      <!--[Min,Max] Num Sim Mins a pet will play in the leaf pile. Actual will be randomly picked between the 2-->
+    </kPetPlayTimeMinMax>
+    <kMaxNumPilesToPickUp value="5">
+      <!--int > 0 Max number of leaf piles sim should pick up in a row when doing dispose interaction-->
+    </kMaxNumPilesToPickUp>
+    <kTraitsAllowedAutonomousBurn value="Evil, Insane, Daredevil, Pyromaniac">
+      <!--Only Sims with these traits are allowed to autonomously burn leaf piles-->
+    </kTraitsAllowedAutonomousBurn>
+    <kBabyMadeChance value="50">
+      <!--Range: 0-100. Chance of Sim getting Pregnant on TryForBaby.-->
+    </kBabyMadeChance>
+    <kChanceOfLovesOutdoors value="75">
+      <!--Range:  0 - 100  Description:  Chance of baby being born with the loves outdoors trait.-->
+    </kChanceOfLovesOutdoors>
+    <kLTRGainFromWoohooInLeafPile value="5">
+      <!--LTR bump from woohoo in Leaf Pile.-->
+    </kLTRGainFromWoohooInLeafPile>
+    <kLeafPileSpreadChance value="60">
+      <!--0-100, Chance of fire spreading to a tile with a leaf pile on it.  This chance used instead of existing tunable kObjectSpreadChance-->
+    </kLeafPileSpreadChance>
+    <kLeafPileSpreadToOtherTilesChance value="10">
+      <!--0-100, Chance of fire on a leaf pile spreading to other tiles.-->
+    </kLeafPileSpreadToOtherTilesChance>
+    <kTraitsNotAllowedAutonomousRake value="Evil, Insane, Daredevil, Pyromaniac">
+      <!--Sims with these traits are NOT allowed to autonomously rake leaf piles-->
+    </kTraitsNotAllowedAutonomousRake>
+    <kRakeTime value="15">
+      <!--Num Sim Mins it takes to rake a puddle of leafs into a pile-->
+    </kRakeTime>
+    <kTrashUnitsPerPileSize value="1, 4, 8">
+      <!--[Small,Medium,Large] Number of Trash units per visual state assuming newly created pile = l trash unit-->
+    </kTrashUnitsPerPileSize>
+    <kDistanceToCreateNewPile value="6">
+      <!--int > 0, If the distance between sim and nearest existing leaf pile is greater than this, a new pile will be created instead of making the existing one bigger-->
+    </kDistanceToCreateNewPile>
+    <kChanceSpawnRodent value="50">
+      <!--Range[0-100] When sim picks up non decomposed pile, chance of spawning a rodent if EP5 is installed-->
+    </kChanceSpawnRodent>
+    <kChanceSpawnRoaches value="80">
+      <!--Range[0-100] When sim picks up decomposing pile, chance of spawning roaches-->
+    </kChanceSpawnRoaches>
+    <kEnvironmentPerPileSize value="-5, -7, -10">
+      <!--[Small,Medium,Large] Environment score for UnRotten Leaf piles per pile size-->
+    </kEnvironmentPerPileSize>
+    <kEnvironmentPerRottenPileSize value="-10, -20, -30">
+      <!--[Small,Medium,Large] Environment score for Rotten Leaf piles per pile size-->
+    </kEnvironmentPerRottenPileSize>
+  </Current_Tuning>
+</base>

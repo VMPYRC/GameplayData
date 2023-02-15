@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDailyPotentialHotSpotsMinMax value="1,3">
+      <!--Everyday we decide x number of IMetaObjects (typically lots) to be a HotSpot. This is the bounds for selecting a random number of HotSpots on a given day. Initial GPE Default: [1, 4]. Units: Number of IMetaObjects. Positive integers.-->
+    </kDailyPotentialHotSpotsMinMax>
+    <kGlobalMultiplierForCelebritiesScoreToGoToDeadZone value="0.05">
+      <!--This multipler is applied to the MetaInteractionScoredByVenue interaction's autonomy score override. When the sim is a celebrity and the venue is a dead zone, the base score is multipled by this fraction. Range: [0, 1]. 0 means that the celebrity never wants to goto a dead zone. Initial GPE Default: 0.3f.-->
+    </kGlobalMultiplierForCelebritiesScoreToGoToDeadZone>
+    <kGlobalTimeWindowToTrackPlayersPopularLotPreference value="5">
+      <!--We store the player's lot preferences for this sliding window of time. Units: Sim days. Initial GPE default: 5f.-->
+    </kGlobalTimeWindowToTrackPlayersPopularLotPreference>
+    <kMinimumLotUsageBeforeItIsACandidatePopularLot value="2">
+      <!--We want to ensure that we only select a lot that has been visited at least x number of times (within the time window) before its even considered to be a player preferred lot. Range: [0, infinity]. Initial GPE default: 5.-->
+    </kMinimumLotUsageBeforeItIsACandidatePopularLot>
+    <kGlobalCapOnPopularLotsForPlayer value="6">
+      <!--To ensure that there are only a handful popular lots in the world, we enforce a global cap. Range: [0, infinity]. Initial GPE default: 7.-->
+    </kGlobalCapOnPopularLotsForPlayer>
+    <kGlobalCapOnUnpopularLotsForPlayer value="8">
+      <!--To ensure that there are only a handful unpopular lots in the world, we enforce a global cap. Range: [0, infinity]. Initial GPE default: 7.-->
+    </kGlobalCapOnUnpopularLotsForPlayer>
+    <kMotiveLockForNpcAtVenuesMotives value="Energy, Hygiene">
+      <!--This is a vector of Motives that will be cheated and locked for NPCs entering venue lots flagged to use this tunable. Valid values: Motives.  Take care that the length of this ventor is the same as kMotiveLockForNpcAtVenuesValues.-->
+    </kMotiveLockForNpcAtVenuesMotives>
+    <kMotiveLockForNpcAtVenuesValues value="80,80">
+      <!--This is a vector of Motive values that will be cheated and locked for NPCs entering venue lots flagged to use this tunable. Valid values: float within the given motive's valid range of values. Take care that the length of this ventor is the same as kMotiveLockForNpcAtVenuesMotives.-->
+    </kMotiveLockForNpcAtVenuesValues>
+    <kMultiplierForPreferingACommunityLotThatAllowsSimsPets value="3">
+      <!--To ensure that there are only a handful unpopular lots in the world, we enforce a global cap. Range: [0, infinity]. Initial GPE default: 7.-->
+    </kMultiplierForPreferingACommunityLotThatAllowsSimsPets>
+    <kNumberOfSimsDesiredOnLotWithLifeguardJob value="10">
+      <!--To ensure beach looks active-->
+    </kNumberOfSimsDesiredOnLotWithLifeguardJob>
+  </Current_Tuning>
+</base>

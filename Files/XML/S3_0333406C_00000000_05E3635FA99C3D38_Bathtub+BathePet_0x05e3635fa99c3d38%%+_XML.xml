@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHygieneIncreaseSpeed value="250">
+      <!--Hygiene increase speed, use this instead of tuning in the interaction tuning tool-->
+    </kHygieneIncreaseSpeed>
+    <kHumanHygieneDecreaseSpeed value="-50">
+      <!--Human's hygiene decrease speed, use this instead of tuning in the interaction tuning tool-->
+    </kHumanHygieneDecreaseSpeed>
+    <kBatheMinTime value="15">
+      <!--Minimum bathe time-->
+    </kBatheMinTime>
+    <kCatFailChance value="0.75">
+      <!--The chance to fail bathe cat-->
+    </kCatFailChance>
+    <kDogBadBatheChance value="0.75">
+      <!--The chance for dog bad bathe situation, if dog meet with certain traits-->
+    </kDogBadBatheChance>
+    <kTraitsDogBadBath value="HyperPet, AggressivePet, PiggyPet">
+      <!--The traits for dog bad bathe situation, if dog has these traits, check the chance-->
+    </kTraitsDogBadBath>
+    <kDogBadBatheHygieneIncreaseSpeed value="150">
+      <!--Hygiene increase speed, use this instead of tuning in the interaction tuning tool-->
+    </kDogBadBatheHygieneIncreaseSpeed>
+    <kDogBadBatheHumanHygieneDecreaseSpeed value="-75">
+      <!--Human's hygiene decrease speed, use this instead of tuning in the interaction tuning tool-->
+    </kDogBadBatheHumanHygieneDecreaseSpeed>
+    <kDogBadBatheMinTime value="25">
+      <!--Dog bad bath situation minimum time-->
+    </kDogBadBatheMinTime>
+    <kCatFailLTRDecrease value="-10">
+      <!--When cat fail, the ltr decrease-->
+    </kCatFailLTRDecrease>
+    <kBatheDogSoakBuffTime value="15">
+      <!--After bathe how long the dog will keep the soak buff, in minute-->
+    </kBatheDogSoakBuffTime>
+    <kCatWithFleasFailChance value="0.05">
+      <!--The chance to fail bathe cat if the cat has fleas-->
+    </kCatWithFleasFailChance>
+  </Current_Tuning>
+</base>

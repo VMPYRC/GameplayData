@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinTimeToCough value="30">
+      <!--Range: Positive float below kMaxTimeToCough.  Description:  Min time to wait before running the cough it up interaction.-->
+    </kMinTimeToCough>
+    <kMaxTimeToCough value="60">
+      <!--Range: Positive float above kMinTimeToCough.  Description:  Max time to wait before running the cough it up interaction.-->
+    </kMaxTimeToCough>
+    <kMinSimHygieneForAToad value="0">
+      <!--Range: -100.0 to 100.0.  Description:  A sim with hygiene greater than this will cough up a toad.-->
+    </kMinSimHygieneForAToad>
+    <kMinLotEnvironmentScoreForAToad value="25">
+      <!--Range: -100.0 to 100.0.  Description:  A lot with an environment score higher than this will cough up a toad.-->
+    </kMinLotEnvironmentScoreForAToad>
+  </Current_Tuning>
+</base>

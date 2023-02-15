@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTrickOrTreatObjectChance value="0.2">
+      <!--Range: 0.0 - 1.0.  The chance a trick or treater will get a random object instead of candy.-->
+    </kTrickOrTreatObjectChance>
+    <kTrickOrTreatObjectInstanceNames value="TeddyBear, BaseBall, MagicGnomeEvil, MagicGnomeFall">
+      <!--Medator instance names of objects that can be given to trick or treaters.-->
+    </kTrickOrTreatObjectInstanceNames>
+    <kTrickOrTreatObjectProductVersions value="BaseGame, BaseGame, EP8, EP8">
+      <!--Product versions (Must be Base Game or EP8) of objects that can be given to trick or treaters.  These must be in the same order of the objects listed in 'kTrickOrTreatObjects'.-->
+    </kTrickOrTreatObjectProductVersions>
+    <kTrickOrTreatMaxTravelDistance value="4000">
+      <!--Max distance to travel between houses.  If the next available house is beyond this distances, the Sims will return home.-->
+    </kTrickOrTreatMaxTravelDistance>
+    <kTrickOrTreatMaxHousesToVisit value="10">
+      <!--Max number of houses trick or treaters can visit before going home.-->
+    </kTrickOrTreatMaxHousesToVisit>
+    <kTrickOrTreatVandalismHighChanceTraits value="MeanSpirited, Evil, Inappropriate">
+      <!--If a Sim has one of these traits, they are far more likely to commit random vandalism and will always try to vandalize if no one is home.-->
+    </kTrickOrTreatVandalismHighChanceTraits>
+    <kTrickOrTreatVandalismChanceNoOneHome value="0.1">
+      <!--Range: 0.0 - 1.0.  The chance a Sim will try to commit vandalism if no one is home.  Sims that have any of the kTrickOrTreatVandalismHighChanceTraits will always try to do this.-->
+    </kTrickOrTreatVandalismChanceNoOneHome>
+    <kTrickOrTreatVandalismChanceSenseless value="0.25">
+      <!--Range: 0.0 - 1.0.  The chance a Sim with kTrickOrTreatVandalismHighChanceTraits will try to commit vandalism if somone IS home.  Sims without kTrickOrTreatVandalismHighChanceTraits will never do this.-->
+    </kTrickOrTreatVandalismChanceSenseless>
+    <kNPCTrickOrTreatStartTime value="16">
+      <!--The time when NPCs will go trick or treating during Spooky Time.-->
+    </kNPCTrickOrTreatStartTime>
+    <kTrickOrTreatAvailableXDaysBeforeSpookyTime value="1">
+      <!--How many days before Spooky Time Trick or Treat will be available.  If it should only be available on Spooky Time, set to 0.-->
+    </kTrickOrTreatAvailableXDaysBeforeSpookyTime>
+    <kTrickOrTreatUseHolidayCheck value="True">
+      <!--This is for design/testing.  False: Trick Or Treat is available all of the time.  True: Uses the value in kTrickOrTreatAvailableXDaysBeforeSpookyTime to determine when Spooky Time should be available.-->
+    </kTrickOrTreatUseHolidayCheck>
+    <kTrickOrTreatMaxGroupSize value="6">
+      <!--The max group size when trick or treating.  This means you can select this value - 1 in the Sim Picker when doing Trick Or Treat With...-->
+    </kTrickOrTreatMaxGroupSize>
+    <kTrickOrTreatVandalismChanceThrowEggs value="0.4">
+      <!--Range: 0.0 - 1.0.  The chance a vandal with throw eggs at the front door.  If the chance is not met, they will try to do another vandalism interaction randomly.-->
+    </kTrickOrTreatVandalismChanceThrowEggs>
+    <kChildCostumeNames value="cuBodyEP8Costume1, cuBodyEP8Costume2, cuBodyEP8Costume3, cuBodyEP8Costume4, cuBodyEP8Costume5, cuBodyEP8Costume6, cuBodyEP8Costume7, cuBodyEP8Costume8, cuBodyEP8Costume9, cuBodyEP8Costume10, cuBodyEP8Costume11, cuBodyEP8Costume12, cuBodyEP8Costume13, cuBodyEP8Costume14, cuBodyEP8Costume15, cuBodyEP8Costume16, cuBodyEP8Costume17, cuBodyEP8Costume18, cuBodyEP8Costume19, cuBodyEP8Costume20">
+      <!--Child costume package names.  Verify costumes work before checking in additions.-->
+    </kChildCostumeNames>
+    <kTeenMaleCostumeNames value="tmBodyEP8Costume1, tmBodyEP8Costume2, tmBodyEP8Costume3, tmBodyEP8Costume4, tmBodyEP8Costume5, tmBodyEP8Costume6, tmBodyEP8Costume7, tmBodyEP8Costume8, tmBodyEP8Costume9, tmBodyEP8Costume10, tmBodyEP8Costume11">
+      <!--Teen male costume package names.  Verify costumes work before checking in additions.-->
+    </kTeenMaleCostumeNames>
+    <kTeenFemaleCostumeNames value="tfBodyEP8Costume1, tfBodyEP8Costume2, tfBodyEP8Costume3, tfBodyEP8Costume4, tfBodyEP8Costume5, tfBodyEP8Costume6, tfBodyEP8Costume7, tfBodyEP8Costume8, tfBodyEP8Costume9, tfBodyEP8Costume10, tfBodyEP8Costume11">
+      <!--Teen female costume package names.  Verify costumes work before checking in additions.-->
+    </kTeenFemaleCostumeNames>
+    <kAdultMaleCostumeNames value="amBodyEP8Costume1, amBodyEP8Costume2, amBodyEP8Costume3, amBodyEP8Costume4, amBodyEP8Costume5, amBodyEP8Costume6, amBodyEP8Costume7, amBodyEP8Costume8, amBodyEP8Costume9, amBodyEP8Costume10, amBodyEP8Costume11, amBodyEP8Costume12, amBodyEP8Costume13, amBodyEP8Costume14, amBodyEP8Costume15, amBodyEP8Costume16, amBodyEP8Costume17, amBodyEP8Costume18, amBodyEP8Costume19, amBodyEP8Costume20, amBodyEP8Costume21, amBodyEP8Costume22, amBodyEP8Costume23, amBodyEP8Costume24">
+      <!--Adult male costume package names.  Verify costumes work before checking in additions.-->
+    </kAdultMaleCostumeNames>
+    <kAdultFemaleCostumeNames value="afBodyEP8Costume1, afBodyEP8Costume2, afBodyEP8Costume3, afBodyEP8Costume4, afBodyEP8Costume5, afBodyEP8Costume6, afBodyEP8Costume7, afBodyEP8Costume8, afBodyEP8Costume9, afBodyEP8Costume10, afBodyEP8Costume11, afBodyEP8Costume12, afBodyEP8Costume13, afBodyEP8Costume14, afBodyEP8Costume15, afBodyEP8Costume16, afBodyEP8Costume17, afBodyEP8Costume18, afBodyEP8Costume19, afBodyEP8Costume20, afBodyEP8Costume21, afBodyEP8Costume22, afBodyEP8Costume23">
+      <!--Adult female costume package names.  Verify costumes work before checking in additions.-->
+    </kAdultFemaleCostumeNames>
+  </Current_Tuning>
+</base>

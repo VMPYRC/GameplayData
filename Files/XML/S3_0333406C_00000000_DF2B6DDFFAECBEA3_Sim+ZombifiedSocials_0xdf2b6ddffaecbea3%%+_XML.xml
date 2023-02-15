@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kZombificationInfectionChance value="100">
+      <!--Range [float]:  0.0 - 100.0  Description:  The chance that the 'Braaaiiins' interaction will spread the Zombification Buff.-->
+    </kZombificationInfectionChance>
+    <kNumberOfArrrgghInteractions value="6">
+      <!--Range [Integer]:  0 - n  Description:  The number of 'Arrrggh' interactions to appear when selecting a sim.-->
+    </kNumberOfArrrgghInteractions>
+    <kBaseChanceToAcceptSocial value="50">
+      <!--Range [float]:  0.0 - 100.0  Description:  The base chance that the target will 'accept' the social.-->
+    </kBaseChanceToAcceptSocial>
+    <kLowestPossibleChanceToAcceptSocial value="25">
+      <!--Range [float]:  0.0 - 100.0  Description:  The minimal chance that the target will 'accept' the social.  Traits will not take the chance to accept below this value.-->
+    </kLowestPossibleChanceToAcceptSocial>
+    <kHighestPossibleChanceToAcceptSocial value="75">
+      <!--Range [float]:  0.0 - 100.0  Description:  The maximum chance that the target will 'accept' the social.  Traits will not take teh chance to accept above this value.-->
+    </kHighestPossibleChanceToAcceptSocial>
+    <kActorTraitsThatEncourageAcceptanceOfSocial value="Charismatic">
+      <!--Type: TraitNames  Description:  An array of traits on the Actor [Zombie], that increase the chance of target 'accepting' the social-->
+    </kActorTraitsThatEncourageAcceptanceOfSocial>
+    <kActorChanceModifierForTraitsThatEncourageAcceptance value="5">
+      <!--Range [float]:  0.0 - 100.0  Description:  The amount by which Actor traits increase the chance that the target will 'accept' the social.-->
+    </kActorChanceModifierForTraitsThatEncourageAcceptance>
+    <kActorTraitsThatDiscourageAcceptanceOfSocial value="MeanSpirited">
+      <!--Type: TraitNames  Description:  An array of traits on the Actor [Zombie], that decrease the chance of target 'accepting' the social-->
+    </kActorTraitsThatDiscourageAcceptanceOfSocial>
+    <kActorChanceModifierForTraitsThatDiscourageAcceptance value="5">
+      <!--Range [float]:  0.0 - 100.0  Description:  The amount by which Actor traits decrease the chance that the target will 'accept' the social.-->
+    </kActorChanceModifierForTraitsThatDiscourageAcceptance>
+    <kTargetTraitsThatEncourageAcceptanceOfSocial value="Unlucky">
+      <!--Type: TraitNames  Description:  An array of traits on the Target [Sim Zombie is trying to socialize with], that increase the chance of target 'accepting' the social-->
+    </kTargetTraitsThatEncourageAcceptanceOfSocial>
+    <kTargetChanceModifierForTraitsThatEncourageAcceptance value="5">
+      <!--Range [float]:  0.0 - 100.0  Description:  The amount by which Target traits increase the chance that the target will 'accept' the social.-->
+    </kTargetChanceModifierForTraitsThatEncourageAcceptance>
+    <kTargetTraitsThatDiscourageAcceptanceOfSocial value="Lucky">
+      <!--Type: TraitNames  Description:  An array of traits on the Target [Sim Zombie is trying to socialize with], that decrease the chance of target 'accepting' the social-->
+    </kTargetTraitsThatDiscourageAcceptanceOfSocial>
+    <kTargetChanceModifierForTraitsThatDiscourageAcceptance value="5">
+      <!--Range [float]:  0.0 - 100.0  Description:  The amount by which Target traits that decrease the chance that the target will 'accept' the social.-->
+    </kTargetChanceModifierForTraitsThatDiscourageAcceptance>
+    <kChanceToAutonomouslyPerformBraaaiiinsSocial value="5">
+      <!--Range [float]:  0.0 - 100.0  Description:  The chance that the zombie will perform Braaaiiins autonomously.-->
+    </kChanceToAutonomouslyPerformBraaaiiinsSocial>
+  </Current_Tuning>
+</base>

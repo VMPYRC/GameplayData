@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBaseGreenSkinIndex value="0.35">
+      <!--Base green skin color index ([0,1.0])-->
+    </kBaseGreenSkinIndex>
+    <kRountingCallbackTime value="1">
+      <!--Time in sim minutes between checking a PlantSim's posture while routing-->
+    </kRountingCallbackTime>
+    <kWaterMotiveIncrement value="7">
+      <!--Water motive increment per kEnvironmentUpdateFrequencyMinutes(2 Sim minutes) when the PlantSim is in the rain.-->
+    </kWaterMotiveIncrement>
+  </Current_Tuning>
+</base>

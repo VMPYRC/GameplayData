@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeToSnoop value="35">
+      <!--Time to snoop for clues in sim minutes-->
+    </kTimeToSnoop>
+    <kTimeMultiplierPerLevel value="1.25, 1.2, 1.15, 1.1, 1.05, 1, 0.95, 0.9, 0.85, 0.8, 0.75">
+      <!--Multiplier on how long it takes to snoop for clues per level in logic-->
+    </kTimeMultiplierPerLevel>
+    <kSimSnoopWalkStyle value="Sneak">
+      <!--walk style to use during the routing for snoop for clues-->
+    </kSimSnoopWalkStyle>
+  </Current_Tuning>
+</base>

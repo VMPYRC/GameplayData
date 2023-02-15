@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <sDesireToSocializeWithGuest value="200" />
+    <sInappropriateGuestThresholdForExpulsion value="3">
+      <!--Range: 0-5. Inappropriate score threshold above which guests will get chucked out-->
+    </sInappropriateGuestThresholdForExpulsion>
+    <sMaxWaitForGreeting value="2">
+      <!--How long (in hours) the visitor will stay on the lot ungreeted before returning home-->
+    </sMaxWaitForGreeting>
+    <kInappropriateIncrease value="50">
+      <!--How much the Inappropriateness STC changes when the guest acts strangely-->
+    </kInappropriateIncrease>
+    <kMinVisitingTime value="3">
+      <!--Range: Sim hours. Minimum visiting time before the guest might decide to leave.-->
+    </kMinVisitingTime>
+    <kAskToStayOverTimeStart value="16">
+      <!--Range:  Sim time.  Description:  Starting time of day at which a Sim can 'Ask to Stay Over'.  This should not be tuned to be earlier than kStayOverClearTime-->
+    </kAskToStayOverTimeStart>
+    <kAskToStayOverTimeEnd value="4">
+      <!--Range:  Sim time.  Description:  Ending time of day at which a Sim can 'Ask to Stay Over'-->
+    </kAskToStayOverTimeEnd>
+    <kAskToStayOverDaysPermission value="1">
+      <!--Range:  Sim days.  Description:  Number of days after inviting a Sim over for which the visit situation will automatically start that Sim in the greeted state.-->
+    </kAskToStayOverDaysPermission>
+    <kStayOverClearTime value="6">
+      <!--Allowed to Stay Sims, will get their allowedToStay Status cleared at this time. They will then drop into normal visit conditions. This time must be after kEndUnacceptableVisitTime or the Sim will Leave right away.-->
+    </kStayOverClearTime>
+    <kStartUnacceptableVisitTime value="3">
+      <!--If not invited to stay, this is the start time a visitor will not stay over anymore. kStartUnacceptableVisitTime & kEndUnacceptableVisitTime-->
+    </kStartUnacceptableVisitTime>
+    <kEndUnacceptableVisitTime value="5">
+      <!--If not invited to stay, this is the start time a visitor will not stay over anymore. kStartUnacceptableVisitTime & kEndUnacceptableVisitTime-->
+    </kEndUnacceptableVisitTime>
+    <kTimeBetweenWarningTNS value="1">
+      <!--Time in Sim hours between inappropriate warning TNSes-->
+    </kTimeBetweenWarningTNS>
+    <kInviteInNumRetries value="3">
+      <!--The number Of times a guest will retry to be invited in by the host.-->
+    </kInviteInNumRetries>
+    <kWaitTimeToRetryGreet value="2">
+      <!--How long (in minutes) before the host will retry an attept to invite a Sim inside.-->
+    </kWaitTimeToRetryGreet>
+    <kLTRThresholdForInviteIn value="-20">
+      <!--Range: -100 to 100. If LTR is below this, the sim won't be invited in-->
+    </kLTRThresholdForInviteIn>
+    <kMinWaitingTimeWhenNotInvited value="0.5">
+      <!--Range: Sim hours. Minimum time to wait outside door after ringing the bell.-->
+    </kMinWaitingTimeWhenNotInvited>
+    <kMaxWaitingTimeWhenNotInvited value="1">
+      <!--Range: Sim hours. Minimum time to wait outside door after ringing the bell.-->
+    </kMaxWaitingTimeWhenNotInvited>
+    <kMinWaitingTimeWhenInvited value="1.5">
+      <!--Range: Sim hours. Minimum time to wait outside door after ringing the bell when invited over.-->
+    </kMinWaitingTimeWhenInvited>
+    <kMaxWaitingTimeWhenInvited value="2">
+      <!--Range: Sim hours. Maximum time to wait outside door after ringing the bell when invited over.-->
+    </kMaxWaitingTimeWhenInvited>
+    <kForceOutsideResetSendHomeTime value="240">
+      <!--Range: Sim minutes. How long to wait before resetting the sim and magically moving him home-->
+    </kForceOutsideResetSendHomeTime>
+    <kForceOutsideTeleportTime value="120">
+      <!--Range: Sim minutes. How long to wait before resetting the sim and magically moving him home-->
+    </kForceOutsideTeleportTime>
+    <kVisitorPrivilegesForStayOver value="4">
+      <!--Privilege level for visitors that are allowed to spend the night.  Used only if the Sim's actual privilege level is less than this value.  This value is overriding those in Socializing.xls > LTR tab > VisitorPrivileges column.-->
+    </kVisitorPrivilegesForStayOver>
+    <kMaxWaitingTimeForeignVisitor value="10">
+      <!--Range: Sim hours. Maximum time that Foreign Visitors will wait outside door after ringing the bell when invited over.-->
+    </kMaxWaitingTimeForeignVisitor>
+    <kMinWaitingTimeForeignVisitor value="8">
+      <!--Range: Sim hours. Minimum time that Foreign Visitors will wait outside door after ringing the bell when invited over.-->
+    </kMinWaitingTimeForeignVisitor>
+    <kAskToStayOverDaysPermission_Descendants value="1">
+      <!--Range:  Sim days.  Description: Descendants Version: Number of days after inviting a Sim over for which the visit situation will automatically start that Sim in the greeted state.-->
+    </kAskToStayOverDaysPermission_Descendants>
+    <kAskToStayOverTimeStart_Descendants value="7">
+      <!--Range:  Sim time.  Description: Descendants Version:  Starting time of day at which a Sim can 'Ask to Stay Over'.  This should not be tuned to be earlier than kStayOverClearTime-->
+    </kAskToStayOverTimeStart_Descendants>
+    <kAskToStayOverTimeEnd_Descendants value="2">
+      <!--Range:  Sim time.  Description Descendants Version::  Ending time of day at which a Sim can 'Ask to Stay Over'-->
+    </kAskToStayOverTimeEnd_Descendants>
+    <kStayOverClearTime_Descendants value="6">
+      <!--Range:  Sim time. Description Descendants Version: Allowed to Stay Sims, will get their allowedToStay Status cleared at this time. They will then drop into normal visit conditions. This time must be after kEndUnacceptableVisitTime or the Sim will Leave right away.-->
+    </kStayOverClearTime_Descendants>
+    <kVisitorPrivilegesForStayOver_Descendants value="4">
+      <!--Range: -1 (not allowed to do anything) and 4 (allowed to do everything) : Description Descendants Version: Privilege level for visitors that are allowed to spend the night.  Used only if the Sim's actual privilege level is less than this value.  This value is overriding those in Socializing.xls > LTR tab > VisitorPrivileges column.-->
+    </kVisitorPrivilegesForStayOver_Descendants>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

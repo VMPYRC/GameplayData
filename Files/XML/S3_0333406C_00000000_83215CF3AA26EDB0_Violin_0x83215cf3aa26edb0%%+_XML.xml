@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGiveUpTime value="90">
+      <!--Time in Sim minutes a Sim will wait before exiting the interaction if the other sim doesn't show up-->
+    </kGiveUpTime>
+    <kJigCleanupTime value="120">
+      <!--This is a failsafe for the Jig if the object is uninstalled this will make sure the jigs clean up after x amount of time in Sim mintues.-->
+    </kJigCleanupTime>
+    <kLevelToPlayForTips value="4">
+      <!--Level to be able to play for tips-->
+    </kLevelToPlayForTips>
+    <kTipCaseRadiusForTipping value="1">
+      <!--Radius the sim will route to tip. -->
+    </kTipCaseRadiusForTipping>
+    <kMinTipPerLevel value="2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12">
+      <!--Min Tip At Level when playing for tips-->
+    </kMinTipPerLevel>
+    <kMaxTipPerLevel value="7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17">
+      <!--Max Tip At Level when playing for tips-->
+    </kMaxTipPerLevel>
+    <kViolinSkillPerSimHour value="800">
+      <!--Skill Gain Per Hour of playing-->
+    </kViolinSkillPerSimHour>
+    <kDanceWatchRadius value="2.5">
+      <!--Dance/Watch Radius-->
+    </kDanceWatchRadius>
+    <kMinutesToWaitForDancersToFinnish value="60">
+      <!--Duration a sim will wait for dancers to stop-->
+    </kMinutesToWaitForDancersToFinnish>
+    <kClipNames1 value="violin_playa_group, violin_playb_group, violin_playc_group, violin_playd_group, violin_playe_group, violin_playf_group">
+      <!--Song Clip Name set 1 (ties directly with kSongSkillLevel and kSongMedieval-->
+    </kClipNames1>
+    <kClipNames2 value="violin_playg_group, violin_playh_group, violin_playi_group, violin_playj_group, violin_playk_group">
+      <!--Song Clip Name set 2 (ties directly with kSongSkillLevel and kSongMedieval-->
+    </kClipNames2>
+    <kClipNames3 value="fiddle_beg_song, fiddle_inter_song, fiddle_adv_song">
+      <!--Song Clip Name set 3 (ties directly with kSongSkillLevel and kSongMedieval-->
+    </kClipNames3>
+    <kSongSkillLevel1 value="0, 1, 2, 3, 4, 5">
+      <!--Level Required to Play Song this ties directly to kClipNames1 and kSongMedieval1-->
+    </kSongSkillLevel1>
+    <kSongSkillLevel2 value="6, 7, 8, 9, 10">
+      <!--Level Required to Play Song this ties directly to kClipNames2 and kSongMedieval2-->
+    </kSongSkillLevel2>
+    <kSongSkillLevel3 value="4, 6, 8">
+      <!--Level Required to Play Song this ties directly to kClipNames3 and kSongMedieval3-->
+    </kSongSkillLevel3>
+    <kSongMedieval1 value="False, False, False, False, False, False">
+      <!--True/False if the song is medieval this ties directly to kSongSkillLevel1 and kClipNames1-->
+    </kSongMedieval1>
+    <kSongMedieval2 value="False, False, False, False, False">
+      <!--True/False if the song is medieval this ties directly to kSongSkillLevel2 and kClipNames2-->
+    </kSongMedieval2>
+    <kSongMedieval3 value="True, True, True">
+      <!--True/False if the song is medieval this ties directly to kSongSkillLevel3 and kClipNames3-->
+    </kSongMedieval3>
+  </Current_Tuning>
+</base>

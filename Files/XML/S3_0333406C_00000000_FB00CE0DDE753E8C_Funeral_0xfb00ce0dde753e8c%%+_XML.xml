@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFuneralParams>
+      <PreparationTime value="2">
+        <!--How long the host will prepare before the party starts (in hours)-->
+      </PreparationTime>
+      <PercentageChanceOfBringingAFriend value="0">
+        <!--Percentage chance (0 to 100) of bringing a friend along to the party-->
+      </PercentageChanceOfBringingAFriend>
+      <MinPartyTime value="2">
+        <!--Min length of party (in hours): Sims will not leave until this many hours after they arrive (unless motive distress)-->
+      </MinPartyTime>
+      <ChanceOfBringingFood value="0">
+        <!--Percentage chance of bringing food-->
+      </ChanceOfBringingFood>
+      <HourAtWhichChildrenGoHome value="22">
+        <!--Time (in 24 hours) at which children (and their parents) will leave the party-->
+      </HourAtWhichChildrenGoHome>
+      <InitialDesireToSocialize value="50" />
+      <RatioOfMoodToLikingChangeWhenLeavingParty value=".15">
+        <!--Ratio of mood -> liking update when leaving the party (0.1 means that mood of +90 is turned into +9 liking)-->
+      </RatioOfMoodToLikingChangeWhenLeavingParty>
+      <HoursBeforePartyToInvite value="1">
+        <!--How Many Hours before the Party Start the Host invites Guests to Start coming over-->
+      </HoursBeforePartyToInvite>
+      <MinutesPerLeavingCheck value="15">
+        <!--How Often the Party Checks if people should leave the party. Minutes-->
+      </MinutesPerLeavingCheck>
+      <RelToTimeMod value="0.01">
+        <!--This changes Rel to a scale of 0-200, multiplies it by this number, and adds you min party time to get how long you'll stay to start. Hours-->
+      </RelToTimeMod>
+      <MoodToTimeMod value=".045">
+        <!--Each MinutesPerLeavingCheck you get an additional Your Mood * MoodToTimeMod Minutes to stay-->
+      </MoodToTimeMod>
+    </kFuneralParams>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

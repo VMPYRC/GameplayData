@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChampionRacehorseRequirement value="15">
+      <!--Description:  Number of advanced or higher competitions to win for Champion Racehorse-->
+    </kChampionRacehorseRequirement>
+    <kLongDistanceRacerRequirement value="20000">
+      <!--Description:  Total meters jogged for Long Distance Racer-->
+    </kLongDistanceRacerRequirement>
+    <kEnduranceEquineRequirement value="15">
+      <!--Description:  Total hours spent in train for racing to get Endurance Equine-->
+    </kEnduranceEquineRequirement>
+    <kLevelForBeginnerComps value="0">
+      <!--Range:  Skill level.  Description:  Skill level to enter beginner level competitions-->
+    </kLevelForBeginnerComps>
+    <kLevelForRacingOutfit value="1">
+      <!--Range:  Skill level.  Description:  Skill level to unlock Racing Outfit-->
+    </kLevelForRacingOutfit>
+    <kLevelForAdvancedComps value="3">
+      <!--Range:  Skill level.  Description:  Skill level to enter advanced level competitions-->
+    </kLevelForAdvancedComps>
+    <kLevelForPumpedPony value="5">
+      <!--Range:  Skill level.  Description:  Skill level to allow Pumped Pony moodlet-->
+    </kLevelForPumpedPony>
+    <kLevelForInternationalComps value="7">
+      <!--Range:  Skill level.  Description:  Skill level to enter international level competitions-->
+    </kLevelForInternationalComps>
+    <kLevelForGallopFasterSpeed value="4">
+      <!--Range:  Skill level.  Description:  Skill level to get a faster speed for galloping (Speed 2)-->
+    </kLevelForGallopFasterSpeed>
+    <kLevelForGallopFastestSpeed value="10">
+      <!--Range:  Skill level.  Description:  Skill level to get the fastest speed for galloping (Speed 3)-->
+    </kLevelForGallopFastestSpeed>
+    <kFatigueDecayPerLevel value="1, 0.2">
+      <!--Array: Decay multiplier. Description: Decay multipliers for min and max level of racing for fatigue. The higher the level, the smaller the decay. Used for interpolation-->
+    </kFatigueDecayPerLevel>
+    <kThirstMultiplierPerLevel value="1, 0.5">
+      <!--Array: Decay multiplier. Description: Commodity multiplier for thirst for training for racing interaction-->
+    </kThirstMultiplierPerLevel>
+  </Current_Tuning>
+</base>

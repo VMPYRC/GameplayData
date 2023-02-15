@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToSpawnScatteredFeathers value="0.0007">
+      <!--The chance a bird will spawn scattered feathers while it's in its cage/tree.-->
+    </kChanceToSpawnScatteredFeathers>
+    <kLtrLossFromHungerAndEmptyFoodBin value="-0.25">
+      <!--LTR loss with family if bird is hungry and no food left in current terrarium.-->
+    </kLtrLossFromHungerAndEmptyFoodBin>
+    <kNumberOfSimulateLoopsBeforeApplyingLTRLoss value="6">
+      <!--Number of simulate loops where one simulate loop is the time of BehaviorAlarmCallbackFrequency-->
+    </kNumberOfSimulateLoopsBeforeApplyingLTRLoss>
+  </Current_Tuning>
+</base>

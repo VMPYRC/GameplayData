@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTruckQueueSize value="5">
+      <!--Range: 1 - +numbers  Description:  The number of unique lots the ice cream truck must visit before it can consider the same lot again. If there are not enough lots in the world, this is ignored.-->
+    </kTruckQueueSize>
+    <kMaxIceCreamTrucksToSpawn value="1">
+      <!--Range:  int  Description:  Max Number of IceCream Trucks To Create-->
+    </kMaxIceCreamTrucksToSpawn>
+    <kParkLotDistanceReduction value="1000">
+      <!--Range: +numbers Description:  If this lot is a park, we reduce the disatnce to the lot by this amount.-->
+    </kParkLotDistanceReduction>
+    <kKidsLotDistanceReduction value="250">
+      <!--Range: +numbers Description:  For every kid on this lot we reduce the disatnce to the lot by this amount.-->
+    </kKidsLotDistanceReduction>
+    <kSchoolLotDistanceReduction value="1000">
+      <!--Range: +numbers Description:  If this lot has a school and it is after school hours, we reduce the disatnce to the lot by this amount.-->
+    </kSchoolLotDistanceReduction>
+    <kSelectableSimLotDistanceReduction value="1250">
+      <!--Range: +numbers Description:  If this lot the selectable sims home lot, we reduce the disatnce to the lot by this amount.-->
+    </kSelectableSimLotDistanceReduction>
+    <kHoursOfOperation value="10, 18">
+      <!--The hours of the day ice cream trucks will operation.  First number represents opening hour, second closing hour.-->
+    </kHoursOfOperation>
+    <kHoursOfOperationSummer value="10, 21">
+      <!--The hours of the day ice cream trucks will operation in the summer.  First number represents opening hour, second closing hour.-->
+    </kHoursOfOperationSummer>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFreeChairMedatorInstanceNames value="ChairDiningPatioPlastic" />
+    <kRoastTimeInMinutes value="20" />
+    <kEatTimeInMinutes value="20" />
+    <kRoastChanceToBurnNormal value="0.2" />
+    <kRoastChanceToBurnWithNegativeTrait value="0.4" />
+    <kRoastChanceToBurnWithNegativeTraitList value="Unlucky, AbsentMinded, Clumsy" />
+    <kRoastNeverBurnTraitList value="Observant, NaturalCook" />
+    <kShooForCleanUpTimeout value="15" />
+    <kStartGlowTimeInMinutes value="5">
+      <!--Number of minutes the wood takes to start glowing after being lit.-->
+    </kStartGlowTimeInMinutes>
+    <kStopGlowTimeInMinutes value="8">
+      <!--Number of minutes the wood will glow after being put out.-->
+    </kStopGlowTimeInMinutes>
+    <kAutonomousLightHourRangeBegin value="19" />
+    <kAutonomousLightHourRangeEnd value="2" />
+    <kAutonomousLightMultiplierNighttime value="1" />
+    <kAutonomousLightMultiplierDaytime value="0.5" />
+    <kAutomaticExtinguishAfterUserDirectedLight value="True" />
+    <kAutomaticExtinguishAfterAutonomousLight value="True" />
+    <kAutomaticExtinguishDelayInMinutes value="180" />
+    <kPokeTimeInMinutes value="10" />
+    <kGhostChairOpacity value="0.2" />
+    <kLatestTimeInMorningForFire value="5" />
+    <kEarliestTimeInEveningForFire value="20" />
+  </Current_Tuning>
+</base>

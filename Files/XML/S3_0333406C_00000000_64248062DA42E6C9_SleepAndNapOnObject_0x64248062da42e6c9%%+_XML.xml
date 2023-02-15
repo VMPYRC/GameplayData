@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNapTimeMinMax value="15, 30">
+      <!--Min/Max amount of time in sim mins pets should nap. Actual time will be randomly picked between min/max-->
+    </kNapTimeMinMax>
+    <kNightmareLength value="10, 15">
+      <!--Min/Max amount of time in sim mins a nightmare lasts. Actual time will be randomly picked between min/max-->
+    </kNightmareLength>
+    <kEnergyThresholdForSleepCat value="60">
+      <!--Range: -100 to 100.  Description:  Cat's energy level must be below this number to do the sleep interaction.-->
+    </kEnergyThresholdForSleepCat>
+    <kEnergyThresholdForSleepDog value="40">
+      <!--Range: -100 to 100.  Description:  Dog's energy level must be below this number to do the sleep interaction.-->
+    </kEnergyThresholdForSleepDog>
+    <kLTRForBackSleep value="50">
+      <!--Min LTR required by at least 1 sim in household to unlock sleep on back animation loop for cats.-->
+    </kLTRForBackSleep>
+    <kChanceStretch value="50">
+      <!--Range: 0-100. Chance of pet stretching after waking up.-->
+    </kChanceStretch>
+    <kFrequencyOfThoughtBalloon value="6">
+      <!--Frequency of displaying thought balloons in Sim Mins.-->
+    </kFrequencyOfThoughtBalloon>
+    <kNightmareChance value="80, 1">
+      <!--Range: 0-100, Max/Min Chance of nightmare linearly interpolated between matching tuned mood values.-->
+    </kNightmareChance>
+    <kNightmareChanceMoodLevels value="-50, 100">
+      <!--Range: -100 to 150, Mood levels to linearly interpolate between to pick chance of nightmare.-->
+    </kNightmareChanceMoodLevels>
+    <kTimeBetweenNightmareChecks value="15">
+      <!--Time between checks to have nightmare in Sim Mins.-->
+    </kTimeBetweenNightmareChecks>
+    <kNightmareCooldown value="60">
+      <!--Time before pet can have another nightmare in Sim Mins.-->
+    </kNightmareCooldown>
+    <kDreamOfHumanChance value="0.15">
+      <!--Dreaming: Chance thoughtballoon is of human..-->
+    </kDreamOfHumanChance>
+    <kCatFlipChance value="10">
+      <!--Range: 0.0-100.0, Max/Min Chance of switching between sleeping on back and sleeping on stomach for cats-->
+    </kCatFlipChance>
+  </Current_Tuning>
+</base>

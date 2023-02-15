@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBiteLowMotiveThreshold value="20">
+      <!--Range: 0 - 100.  If the pet's hunger or energy drops below this value, they may bite the Sim.-->
+    </kBiteLowMotiveThreshold>
+    <kBiteChance value="0.25">
+      <!--Range: 0 - 1. The percent chance the Sim will get bit if the pet's hunger or energy are below kBiteLowMotiveThreshold's value.-->
+    </kBiteChance>
+    <kPlayWithDurationRange value="15, 30">
+      <!--The Sim will play with the pet a random number of minutes between these two values.  Fun exit conditions may cause the interaction to end earlier.-->
+    </kPlayWithDurationRange>
+    <kLtrGainedForPlayWithLargeBird value="0.25">
+      <!--The amount of LTR gained with a large bird per cycle of the Play With animation. 0.0+-->
+    </kLtrGainedForPlayWithLargeBird>
+  </Current_Tuning>
+</base>

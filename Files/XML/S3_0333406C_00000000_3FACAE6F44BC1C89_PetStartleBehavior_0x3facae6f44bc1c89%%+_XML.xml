@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHorseBraveTraitWeights value="1, 0, -0.5">
+      <!--Weighting for this trait for [Calm, Spooked, Panic] reactions.-->
+    </kHorseBraveTraitWeights>
+    <kHorseNervousTraitWeights value="-0.8, 0.4, 1">
+      <!--Weighting for this trait for [Calm, Spooked, Panic] reactions.-->
+    </kHorseNervousTraitWeights>
+    <kCatDogAggressiveTraitWeights value="3, -0.25, -0.25">
+      <!--Weighting for this trait for [Aggressive, Coward, Curious] reactions.-->
+    </kCatDogAggressiveTraitWeights>
+    <kCatDogAdventurousTraitWeights value="-0.25, -0.25, 3">
+      <!--Weighting for this trait for [Aggressive, Coward, Curious] reactions.-->
+    </kCatDogAdventurousTraitWeights>
+    <kCatDogShyTraitWeights value="-0.5, 0.5, 0.5">
+      <!--Weighting for this trait for [Aggressive, Coward, Curious] reactions.-->
+    </kCatDogShyTraitWeights>
+    <kCatDogSkittishTraitWeights value="1, 1, -0.5">
+      <!--Weighting for this trait for [Aggressive, Coward, Curious] reactions.-->
+    </kCatDogSkittishTraitWeights>
+    <kStartleCooldownTimeNormal value="240">
+      <!--Cooldown time in sim minutes between startles.-->
+    </kStartleCooldownTimeNormal>
+    <kStartleCooldownTimeAdventurousTrait value="240">
+      <!--Cooldown time in sim minutes between startles with this trait.-->
+    </kStartleCooldownTimeAdventurousTrait>
+    <kStartleCooldownTimeSkittishTrait value="120">
+      <!--Cooldown time in sim minutes between startles with this trait.-->
+    </kStartleCooldownTimeSkittishTrait>
+    <kStartleCooldownTimeBraveTrait value="480">
+      <!--Cooldown time in sim minutes between startles with this trait.-->
+    </kStartleCooldownTimeBraveTrait>
+    <kStartleCooldownTimeNervousTrait value="30">
+      <!--Cooldown time in sim minutes between startles with this trait.-->
+    </kStartleCooldownTimeNervousTrait>
+    <kSkittishPetSocialStartleLTRThreshold value="-20">
+      <!--Range: Float [-100,100] Description: LTR Threshold below which a Skittish Trait pet has a chance to run the coward/panicked startled behavior at the beginning of a social.-->
+    </kSkittishPetSocialStartleLTRThreshold>
+    <kSkittishPetSocialStartleRandomChance value="10">
+      <!--Range: Float 0-100. Description: Chance for a Skittish Trait pet to run the coward/panicked startled behavior at the beginning of a social, if below the LTR Threshold set with kSkittishPetSocialStartleLTRThreshold.-->
+    </kSkittishPetSocialStartleRandomChance>
+    <kSkittishPetSocialStartleLTRLoss value="-5">
+      <!--Range: Float 0-100. Description: Amount of LTR liking lost between a Skittish Trait pet and a human that has startled them via a failed social.-->
+    </kSkittishPetSocialStartleLTRLoss>
+  </Current_Tuning>
+</base>

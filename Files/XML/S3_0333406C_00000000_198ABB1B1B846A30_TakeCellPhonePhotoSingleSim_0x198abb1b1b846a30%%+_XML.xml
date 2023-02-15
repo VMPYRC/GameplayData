@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteRange value="2, 5">
+      <!--Route range in tiles (meters) that Sims will route to (if not already within this range) before taking a cell phone photo of a Celebrity Sim.  Format: (minRange, maxRange).-->
+    </kRouteRange>
+    <kChancePositiveReactionAfterTakePhoto value="0.75">
+      <!--Chance that a Sim who takes a cell phone photo will react positively after taking the photo.  Range: 0 to 1.-->
+    </kChancePositiveReactionAfterTakePhoto>
+    <kPositiveReactions value="Cheer, Wave">
+      <!--Positive reaction types for after Sim takes photo.  Will randomly choose one of these.-->
+    </kPositiveReactions>
+  </Current_Tuning>
+</base>

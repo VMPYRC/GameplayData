@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeToPerform value="10">
+      <!--Time to do the performance interaction-->
+    </kTimeToPerform>
+    <kPossibleFailureOccurrence value="5">
+      <!--Chance of failure occurrence check: Format in minutes the times where animation can fail-->
+    </kPossibleFailureOccurrence>
+    <kChanceOfCatchingFire value=".7">
+      <!--Change of Catching Fire-->
+    </kChanceOfCatchingFire>
+    <kXPforTrick value="45">
+      <!--Experience earned for performing a ring of fire trick on stage-->
+    </kXPforTrick>
+    <kTrickUnlockLevel value="8, 9, 10">
+      <!--Performance Level at which trick 1, 2 and 3 is unlocked respectively-->
+    </kTrickUnlockLevel>
+    <kXPforFailingTrick value="13.5">
+      <!--Experience earned for failing a ring of fire trick on stage-->
+    </kXPforFailingTrick>
+    <kFailPMPenalty value="0.07">
+      <!--Penalty to performance meter for failure. Range 0 - 1-->
+    </kFailPMPenalty>
+    <kSuccessPMBonus value="0.04">
+      <!--Performance meter bonus on success. Range 0 - 1-->
+    </kSuccessPMBonus>
+  </Current_Tuning>
+</base>

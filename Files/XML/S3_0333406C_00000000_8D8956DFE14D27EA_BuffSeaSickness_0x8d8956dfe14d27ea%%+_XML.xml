@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kVomitCheckInterval value="15">
+      <!--Unit: Sim minutes; Interval at which we check to see if the sim should vomit. GPE default: 15-->
+    </kVomitCheckInterval>
+    <kVomitChance value="0.125">
+      <!--Range: 0-1.0; Chance to vomit at each vomit check interval. GPE default: .25-->
+    </kVomitChance>
+  </Current_Tuning>
+</base>

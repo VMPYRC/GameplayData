@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kReactionEnvironmentScoreSoSo value="32.2">
+      <!--Range:  0+  Description:  Environment score above which Sims will have a neutral reaction-->
+    </kReactionEnvironmentScoreSoSo>
+    <kReactionEnvironmentScoreLike value="35.5">
+      <!--Range:  0+  Description:  Environment score above which Sims will have a positive reaction-->
+    </kReactionEnvironmentScoreLike>
+    <kReactionEnvironmentScoreLove value="52">
+      <!--Range:  0+  Description:  Environment score above which Sims will have a very positive reaction-->
+    </kReactionEnvironmentScoreLove>
+    <kDuration value="3, 6">
+      <!--Description:  The time, in Sim minutes, that one half of the interaction lasts - gaussian distribution.  After the thought balloon appears, the interaction will wait this time again.-->
+    </kDuration>
+  </Current_Tuning>
+</base>

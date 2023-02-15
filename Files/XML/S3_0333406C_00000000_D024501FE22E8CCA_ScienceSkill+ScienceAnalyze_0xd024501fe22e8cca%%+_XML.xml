@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinLevelMinerals value="3">
+      <!--Range: 0-10  Description: Minimum level to analyze minerals.-->
+    </kMinLevelMinerals>
+    <kMinLevelInsects value="6">
+      <!--Range: 0-10  Description: Minimum level to analyze insects.-->
+    </kMinLevelInsects>
+    <kMinLevelPlants value="4">
+      <!--Range: 0-10  Description: Minimum level to analyze plants.-->
+    </kMinLevelPlants>
+    <kMinLevelFish value="7">
+      <!--Range: 0-10  Description: Minimum level to analyze fish.-->
+    </kMinLevelFish>
+    <kSuccessRatesMinerals value="50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100">
+      <!--Range: 0-100  Description: Success chance for mineral analysis per by level.-->
+    </kSuccessRatesMinerals>
+    <kSuccessRatesInsects value="50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100">
+      <!--Range: 0-100  Description: Success chance for insect analysis per by level.-->
+    </kSuccessRatesInsects>
+    <kSuccessRatesPlants value="50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100">
+      <!--Range: 0-100  Description: Success chance for plant analysis per by level.-->
+    </kSuccessRatesPlants>
+    <kSuccessRatesFish value="50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100">
+      <!--Range: 0-100  Description: Success chance for fish analysis per by level.-->
+    </kSuccessRatesFish>
+    <kAnalyzeRange value="2">
+      <!--Range: positive float  Description: Distance from object when analyzing.-->
+    </kAnalyzeRange>
+    <kAnalyzePlantGardeningPoints value="50">
+      <!--Description:  The skill points that the sim will receive in the Gardening skill when analyzing a plant-->
+    </kAnalyzePlantGardeningPoints>
+    <kAnalyzeInsectCollectionPoints value="50">
+      <!--Description:  The skill points that the sim will receive in the Collection skill when analyzing an insect-->
+    </kAnalyzeInsectCollectionPoints>
+    <kAnalyzeMineralCollectionPoints value="50">
+      <!--Description:  The skill points that the sim will receive in the Collection skill when analyzing a mineral-->
+    </kAnalyzeMineralCollectionPoints>
+    <kAnalyzeFishFishingPoints value="50">
+      <!--Description:  The skill points that the sim will receive in the Fishing skill when analyzing a fish-->
+    </kAnalyzeFishFishingPoints>
+  </Current_Tuning>
+</base>

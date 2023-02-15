@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPumpedBuffAthleticSkillMultiplier value="1.2">
+      <!--Range: Positive floats.  Description:  When a Sim gains the 'Pumped' buff, he/she gains athletic skill at an increased rate determined by this tunable multiplier.-->
+    </kPumpedBuffAthleticSkillMultiplier>
+    <kPumpedBuffFitnessShapeMultiplier value="1.25">
+      <!--Range: Positive floats.  Description:  When a Sim gains the 'Pumped' buff, he/she gains cardio and muscular shape changes at an increased rate determined by this tunable multiplier.-->
+    </kPumpedBuffFitnessShapeMultiplier>
+    <kTimeToWaitToEvict value="15">
+      <!--Time to wait to evict a lower priority Sim from this object, in Sim minutes-->
+    </kTimeToWaitToEvict>
+    <kChanceToIdleOnWorkoutBench value="0.1">
+      <!--Range:  Percentage chance under 1.0f.  Description:  Chance that a Sim idles when transitioning between workout interactions.-->
+    </kChanceToIdleOnWorkoutBench>
+    <kChanceToIdleOnChinUpBar value="0.1">
+      <!--Range:  Percentage chance under 1.0f.  Description:  Chance that a Sim idles when transitioning between workout interactions.-->
+    </kChanceToIdleOnChinUpBar>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

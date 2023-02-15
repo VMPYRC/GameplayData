@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTuning>
+      <ComfyBuffStrength value="15">
+        <!--Range: Positive integers.  Description:  Strength of the 'Comfy' buff that is added to the Sim when using the dining chair.-->
+      </ComfyBuffStrength>
+    </kTuning>
+    <sLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="1">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <DefaultInteractionLookAtThreshold value="-1">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </sLookAtTuning>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kNapAvailabilityHoursBeforeWakeupTime value="10">
+      <!--Range: 0.0f to 24.0f.  Description:  This tunable determines the minimum number of hours between the current time and the Sim's wakeup time for the Nap interaction to be selectable on the chair.  This uses the Sim's current job's wakeup time (or the default wakeup time, if the Sim has no job).-->
+      <!--deprecated on: 1/23/2008 6:33:51 PM-->
+    </kNapAvailabilityHoursBeforeWakeupTime>
+    <kNapLengthInMinutes value="120">
+      <!--Range: 60 to 180 integer value.  Description: This tunable is how long the nap interaction will last - please consult Eric Weidler and the sleep design before tuning to avoid unexpected sleep schedule drift.-->
+      <!--deprecated on: 1/23/2008 6:33:51 PM-->
+    </kNapLengthInMinutes>
+  </Deprecated_Tuning>
+</base>

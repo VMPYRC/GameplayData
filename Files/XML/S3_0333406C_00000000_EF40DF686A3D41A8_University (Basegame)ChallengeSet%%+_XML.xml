@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>University (Basegame)</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>236</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>534</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName />
+      <DisplayName>Fulfill a promised $Wish</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Wish</SubjectType>
+        <UlongValue>506114036</UlongValue>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>DreamIDMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>true</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPromisedDreamCompleted</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>237</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/15475f5b-2e2f-4c9a-8124-8c96848826c3:Name</NameKey>
+    <Name>Master of the Musical Destiny</Name>
+    <SetName>University (Basegame)</SetName>
+    <ChallengeGuid>15475f5b-2e2f-4c9a-8124-8c96848826c3</ChallengeGuid>
+    <ExportVersion>6</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>236</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/15475f5b-2e2f-4c9a-8124-8c96848826c3:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP9\Visual\Concepts\UI\Icons\All EP9\badge_master_of_the_musical_destiny.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1106</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>534</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Fulfill a promised $Wish</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Wish</SubjectType>
+        <UlongValue>782846499</UlongValue>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>DreamIDMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>true</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPromisedDreamCompleted</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1107</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/7edb777c-6115-4f96-aae2-102729d4d38a:Name</NameKey>
+    <Name>Master of the Rockin' Destiny</Name>
+    <SetName>University (Basegame)</SetName>
+    <ChallengeGuid>7edb777c-6115-4f96-aae2-102729d4d38a</ChallengeGuid>
+    <ExportVersion>2</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>1106</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/7edb777c-6115-4f96-aae2-102729d4d38a:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP9\Visual\Concepts\UI\Icons\All EP9\badge_master_of_the_rockin_destiny.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1228</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>663</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>30</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchOpportunityTypeStartFunction</StartFunctionName>
+      <DisplayName>Complete Opportunity of $OpportunityType</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>OpportunityType</SubjectType>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CompletedOpportunityOfType</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kOpportunityCompleted</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1229</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/8b788b9d-ce0f-4208-9a34-d791e85d9313:Name</NameKey>
+    <Name>Opportunist</Name>
+    <SetName>University (Basegame)</SetName>
+    <ChallengeGuid>8b788b9d-ce0f-4208-9a34-d791e85d9313</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>1228</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/8b788b9d-ce0f-4208-9a34-d791e85d9313:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP9\Visual\Concepts\UI\Icons\All EP9\badge_opportunities_silver.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

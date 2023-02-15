@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<ServiceNPCSpecifications>
+<Specifications>
+  <NPC></NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <InvalidWorlds></InvalidWorlds>
+  <DefaultOutfitMale></DefaultOutfitMale>
+  <DefaultOutfitFemale></DefaultOutfitFemale>
+  <ProductVersion>BaseGame</ProductVersion>
+  <EgyptOutfitMale></EgyptOutfitMale>
+  <EgyptOutfitFemale></EgyptOutfitFemale>
+  <FranceOutfitMale></FranceOutfitMale>
+  <FranceOutfitFemale></FranceOutfitFemale>
+  <ChinaOutfitMale></ChinaOutfitMale>
+  <ChinaOutfitFemale></ChinaOutfitFemale>
+  <UseServobot>False</UseServobot>
+  <UseHoverbot>False</UseHoverbot>
+  <FutureWorldOutfitMale></FutureWorldOutfitMale>
+  <FutureWorldOutfitFemale></FutureWorldOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>Babysitter</NPC>
+  <AppropriateAgeFlags>8</AppropriateAgeFlags>
+  <InvalidWorlds>Egypt,China,France,University</InvalidWorlds>
+  <FutureWorldOutfitMale>Babysitter_Teen_Male_01</FutureWorldOutfitMale>
+  <FutureWorldOutfitFemale>Babysitter_Teen_Female_01</FutureWorldOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>Burglar</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <DefaultOutfitMale>MaleBurglar</DefaultOutfitMale>
+  <DefaultOutfitFemale>FemaleBurglar</DefaultOutfitFemale>
+  <UseServobot>True</UseServobot>
+  <FutureWorldOutfitMale>Burglar_EP11_Biped_Male</FutureWorldOutfitMale>
+  <FutureWorldOutfitFemale>Burglar_EP11_Biped_Male</FutureWorldOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>Firefighter</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <DefaultOutfitMale>activeCareer_ma_Firefighter05_Full</DefaultOutfitMale>
+  <DefaultOutfitFemale>activeCareer_fa_Firefighter05_Full</DefaultOutfitFemale>
+  <EgyptOutfitMale>Service_Fire_EP01_Egypt_male</EgyptOutfitMale>
+  <EgyptOutfitFemale>Service_Fire_EP01_Egypt_female</EgyptOutfitFemale>
+  <FranceOutfitMale>Service_Fire_EP01_France_male</FranceOutfitMale>
+  <FranceOutfitFemale>Service_Fire_EP01_France_female</FranceOutfitFemale>
+  <ChinaOutfitMale>Service_Fire_EP01_China_Male</ChinaOutfitMale>
+  <ChinaOutfitFemale>Service_Fire_EP01_China_female</ChinaOutfitFemale>
+  <UseServobot>True</UseServobot>
+  <FutureWorldOutfitMale>Firefighter_EP11_Biped_Male</FutureWorldOutfitMale>
+  <FutureWorldOutfitFemale>Firefighter_EP11_Biped_Female</FutureWorldOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>Maid</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <DefaultOutfitMale>MaleMaid</DefaultOutfitMale>
+  <DefaultOutfitFemale>FemaleMaid</DefaultOutfitFemale>
+  <EgyptOutfitMale>Service_Maid_EP01_Egypt_male</EgyptOutfitMale>
+  <EgyptOutfitFemale>Service_Maid_EP01_Egypt_female</EgyptOutfitFemale>
+  <ChinaOutfitMale>Service_Maid_EP01_China_male</ChinaOutfitMale>
+  <ChinaOutfitFemale>Service_Maid_EP01_China_female</ChinaOutfitFemale>
+  <UseServobot>True</UseServobot>
+  <UseHoverbot>True</UseHoverbot>
+  <FutureWorldOutfitMale>Maid_EP11_Hover_Male</FutureWorldOutfitMale>
+  <FutureWorldOutfitFemale>Maid_EP11_Hover_Female</FutureWorldOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>PizzaDelivery</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <DefaultOutfitMale>MalePizza</DefaultOutfitMale>
+  <DefaultOutfitFemale>FemalePizza</DefaultOutfitFemale>
+  <UseServobot>True</UseServobot>
+  <FutureWorldOutfitMale>PizzaDelivery_EP11_Biped_Male</FutureWorldOutfitMale>
+  <FutureWorldOutfitFemale>PizzaDelivery_EP11_Biped_Female</FutureWorldOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>Police</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <DefaultOutfitMale>MalePolice</DefaultOutfitMale>
+  <DefaultOutfitFemale>FemalePolice</DefaultOutfitFemale>
+  <EgyptOutfitMale>Service_Police_EP01_Egypt_male</EgyptOutfitMale>
+  <EgyptOutfitFemale>Service_Police_EP01_Egypt_female</EgyptOutfitFemale>
+  <FranceOutfitMale>Service_Police_EP01_France_male</FranceOutfitMale>
+  <FranceOutfitFemale>Service_Police_EP01_France_female</FranceOutfitFemale>
+  <ChinaOutfitMale>Service_Police_EP01_China_male</ChinaOutfitMale>
+  <ChinaOutfitFemale>Service_Police_EP01_China_female</ChinaOutfitFemale>
+  <UseServobot>True</UseServobot>
+  <FutureWorldOutfitMale>Police_EP11_Biped_Male</FutureWorldOutfitMale>
+  <FutureWorldOutfitFemale>Police_EP11_Biped_Female</FutureWorldOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>Repairman</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <DefaultOutfitMale>MaleRepairman</DefaultOutfitMale>
+  <DefaultOutfitFemale>FemaleRepairman</DefaultOutfitFemale>
+  <UseServobot>True</UseServobot>
+  <FutureWorldOutfitMale>Repairman_EP11_Biped_Male</FutureWorldOutfitMale>
+  <FutureWorldOutfitFemale>Repairman_EP11_Biped_Female</FutureWorldOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>Repoman</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <InvalidWorlds>Egypt,China,France,University</InvalidWorlds>
+  <DefaultOutfitMale>MaleRepo</DefaultOutfitMale>
+  <DefaultOutfitFemale>FemaleRepo</DefaultOutfitFemale>
+  <FutureWorldOutfitMale>Repoman_EP11_Male</FutureWorldOutfitMale>
+  <FutureWorldOutfitFemale>Repoman_EP11_Female</FutureWorldOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>SocialWorkerChildProtection</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <DefaultOutfitMale>MaleSocialProtection</DefaultOutfitMale>
+  <DefaultOutfitFemale>FemaleSocialProtection</DefaultOutfitFemale>
+  <FutureWorldOutfitMale>ChildProtection_EP11_Male</FutureWorldOutfitMale>
+  <FutureWorldOutfitFemale>ChildProtection_EP11_Female</FutureWorldOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>SocialWorkerAdoption</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <InvalidWorlds>Egypt,China,France,University</InvalidWorlds>
+  <DefaultOutfitMale>MaleSocialAdoption</DefaultOutfitMale>
+  <DefaultOutfitFemale>FemaleSocialAdoption</DefaultOutfitFemale>
+  <FutureWorldOutfitMale>Adoption_EP11_Male</FutureWorldOutfitMale>
+  <FutureWorldOutfitFemale>Adoption_EP11_Female</FutureWorldOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>MailCarrier</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <DefaultOutfitMale>MaleMail</DefaultOutfitMale>
+  <DefaultOutfitFemale>FemaleMail</DefaultOutfitFemale>
+  <EgyptOutfitMale>Service_Mail_EP01_Egypt_male</EgyptOutfitMale>
+  <EgyptOutfitFemale>Service_Mail_EP01_Egypt_female</EgyptOutfitFemale>
+  <FranceOutfitMale>Service_Mail_EP01_France_Male</FranceOutfitMale>
+  <FranceOutfitFemale>Service_Mail_EP01_France_female</FranceOutfitFemale>
+  <ChinaOutfitMale>Service_Mail_EP01_China_male</ChinaOutfitMale>
+  <ChinaOutfitFemale>Service_Mail_EP01_China_female</ChinaOutfitFemale>
+  <UseServobot>True</UseServobot>
+  <FutureWorldOutfitMale>MailCarrier_EP11_Biped_Male</FutureWorldOutfitMale>
+  <FutureWorldOutfitFemale>MailCarrier_EP11_Biped_Female</FutureWorldOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>NewspaperDelivery</NPC>
+  <AppropriateAgeFlags>4</AppropriateAgeFlags>
+  <InvalidWorlds>Egypt,China,France,University,FutureWorld</InvalidWorlds>
+  <DefaultOutfitMale>MaleNewspaper</DefaultOutfitMale>
+  <DefaultOutfitFemale>FemaleNewspaper</DefaultOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>ScienceGeek</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <InvalidWorlds>Egypt,China,France</InvalidWorlds>
+  <DefaultOutfitMale>MaleScienceGeek</DefaultOutfitMale>
+  <DefaultOutfitFemale>FemaleScienceGeek</DefaultOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>Butler</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <DefaultOutfitMale>MaleButler</DefaultOutfitMale>
+  <DefaultOutfitFemale>FemaleButler</DefaultOutfitFemale>
+  <ProductVersion>EP3</ProductVersion>
+  <EgyptOutfitMale>MaleButler</EgyptOutfitMale>
+  <EgyptOutfitFemale>FemaleButler</EgyptOutfitFemale>
+  <FranceOutfitMale>MaleButler</FranceOutfitMale>
+  <FranceOutfitFemale>FemaleButler</FranceOutfitFemale>
+  <ChinaOutfitMale>MaleButler</ChinaOutfitMale>
+  <ChinaOutfitFemale>FemaleButler</ChinaOutfitFemale>
+  <UseServobot>True</UseServobot>
+  <UseHoverbot>True</UseHoverbot>
+  <FutureWorldOutfitMale>Butler_EP11_Hover_Male</FutureWorldOutfitMale>
+  <FutureWorldOutfitFemale>Butler_EP11_Hover_Female</FutureWorldOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>Bartender</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <DefaultOutfitMale>MaleBartender</DefaultOutfitMale>
+  <DefaultOutfitFemale>FemaleBartender</DefaultOutfitFemale>
+  <ProductVersion>EP3</ProductVersion>
+  <EgyptOutfitMale>Service_Maid_EP01_Egypt_male</EgyptOutfitMale>
+  <EgyptOutfitFemale>Service_Maid_EP01_Egypt_female</EgyptOutfitFemale>
+  <ChinaOutfitMale>Service_Maid_EP01_China_male</ChinaOutfitMale>
+  <ChinaOutfitFemale>Service_Maid_EP01_China_female</ChinaOutfitFemale>
+  <UseServobot>True</UseServobot>
+  <UseHoverbot>True</UseHoverbot>
+  <FutureWorldOutfitMale>Bartender_EP11_Hover_Male</FutureWorldOutfitMale>
+  <FutureWorldOutfitFemale>Bartender_EP11_Hover_Female</FutureWorldOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>Dancer</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <ProductVersion>EP4</ProductVersion>
+  <UseServobot>True</UseServobot>
+  <UseHoverbot>True</UseHoverbot>
+  <FutureWorldOutfitMale>Dancer_EP11_Biped_Male</FutureWorldOutfitMale>
+  <FutureWorldOutfitFemale>Dancer_EP11_Biped_Female</FutureWorldOutfitFemale>
+ </Specifications>
+<Specifications>
+  <NPC>SocialWorkerPetPutUp</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <InvalidWorlds>Egypt,China,France,University,FutureWorld</InvalidWorlds>
+  <DefaultOutfitMale>MaleSocialProtection</DefaultOutfitMale>
+  <DefaultOutfitFemale>FemaleSocialProtection</DefaultOutfitFemale>
+  <ProductVersion>EP5</ProductVersion>
+ </Specifications>
+<Specifications>
+  <NPC>SocialWorkerPetAdoption</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <InvalidWorlds>Egypt,China,France,University,FutureWorld</InvalidWorlds>
+  <DefaultOutfitMale>MaleSocialAdoption</DefaultOutfitMale>
+  <DefaultOutfitFemale>FemaleSocialAdoption</DefaultOutfitFemale>
+  <ProductVersion>EP5</ProductVersion>
+ </Specifications>
+<Specifications>
+  <NPC>Magician</NPC>
+  <AppropriateAgeFlags>32</AppropriateAgeFlags>
+  <InvalidWorlds>Egypt,China,France,FutureWorld</InvalidWorlds>
+  <DefaultOutfitMale>activecareer_ma_Magician1</DefaultOutfitMale>
+  <DefaultOutfitFemale>activecareer_fa_Magician2</DefaultOutfitFemale>
+  <ProductVersion>EP6</ProductVersion>
+ </Specifications>
+<Specifications>
+  <NPC>Singer</NPC>
+  <AppropriateAgeFlags>32</AppropriateAgeFlags>
+  <InvalidWorlds>Egypt,China,France,FutureWorld</InvalidWorlds>
+  <DefaultOutfitMale>activecareer_ma_Singer1</DefaultOutfitMale>
+  <DefaultOutfitFemale>activecareer_fa_singer1</DefaultOutfitFemale>
+  <ProductVersion>EP6</ProductVersion>
+ </Specifications>
+<Specifications>
+  <NPC>PerformanceArtist</NPC>
+  <AppropriateAgeFlags>32</AppropriateAgeFlags>
+  <InvalidWorlds>Egypt,China,France,FutureWorld</InvalidWorlds>
+  <DefaultOutfitMale>activecareer_ma_PerformanceArtist1</DefaultOutfitMale>
+  <DefaultOutfitFemale>activecareer_fa_PerformanceArtist1</DefaultOutfitFemale>
+  <ProductVersion>EP6</ProductVersion>
+ </Specifications>
+<Specifications>
+  <NPC>DJ</NPC>
+  <AppropriateAgeFlags>32</AppropriateAgeFlags>
+  <InvalidWorlds>Egypt,China,France,FutureWorld</InvalidWorlds>
+  <DefaultOutfitMale>activecareer_ma_DJ1</DefaultOutfitMale>
+  <DefaultOutfitFemale>activecareer_fa_DJ1</DefaultOutfitFemale>
+  <ProductVersion>EP6</ProductVersion>
+ </Specifications>
+<Specifications>
+  <NPC>UniversityMascot</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <InvalidWorlds>Egypt,China,France,FutureWorld</InvalidWorlds>
+  <DefaultOutfitMale>amMascot</DefaultOutfitMale>
+  <DefaultOutfitFemale>afMascot</DefaultOutfitFemale>
+  <ProductVersion>EP9</ProductVersion>
+ </Specifications>
+<Specifications>
+  <NPC>Resortworker</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <DefaultOutfitMale>amEP10ResortWorkerFrontDesk01</DefaultOutfitMale>
+  <DefaultOutfitFemale>afEP10ResortWorkerFrontDesk01</DefaultOutfitFemale>
+  <ProductVersion>EP10</ProductVersion>
+ </Specifications>
+<Specifications>
+  <NPC>ResortMaintenanceLow</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <DefaultOutfitMale>amEP10ResortWorkerFrontDesk01</DefaultOutfitMale>
+  <DefaultOutfitFemale>afEP10ResortWorkerFrontDesk01</DefaultOutfitFemale>
+  <ProductVersion>EP10</ProductVersion>
+ </Specifications>
+<Specifications>
+  <NPC>ResortMaintenanceMedium</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <DefaultOutfitMale>amEP10ResortWorkerFrontDesk01</DefaultOutfitMale>
+  <DefaultOutfitFemale>afEP10ResortWorkerFrontDesk01</DefaultOutfitFemale>
+  <ProductVersion>EP10</ProductVersion>
+ </Specifications>
+<Specifications>
+  <NPC>ResortMaintenanceHigh</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <DefaultOutfitMale>amEP10ResortWorkerFrontDesk01</DefaultOutfitMale>
+  <DefaultOutfitFemale>afEP10ResortWorkerFrontDesk01</DefaultOutfitFemale>
+  <ProductVersion>EP10</ProductVersion>
+ </Specifications>
+<Specifications>
+  <NPC>ResortworkerBar</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <DefaultOutfitMale>amEP10ResortWorkerFrontDesk01</DefaultOutfitMale>
+  <DefaultOutfitFemale>afEP10ResortWorkerFrontDesk01</DefaultOutfitFemale>
+  <ProductVersion>EP10</ProductVersion>
+ </Specifications>
+<Specifications>
+  <NPC>TimeTraveler</NPC>
+  <AppropriateAgeFlags>48</AppropriateAgeFlags>
+  <InvalidWorlds>Egypt,China,France</InvalidWorlds>
+  <ProductVersion>EP11</ProductVersion>
+ </Specifications>
+</ServiceNPCSpecifications>

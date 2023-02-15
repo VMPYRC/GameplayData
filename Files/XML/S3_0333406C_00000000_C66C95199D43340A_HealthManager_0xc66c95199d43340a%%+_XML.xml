@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAllergyCooldown value="168">
+      <!--allergy cooldown in hours-->
+    </kAllergyCooldown>
+    <kSicknessCooldown value="168">
+      <!--sickness cooldown in hours-->
+    </kSicknessCooldown>
+    <kAllergyOdds value="0.1">
+      <!--Odds of allergy symptoms when go outside-->
+    </kAllergyOdds>
+    <kMaxSickCheckInterval value="150">
+      <!--Max normal interval for sick check (minutes)-->
+    </kMaxSickCheckInterval>
+    <kMinSickCheckInterval value="120">
+      <!--Min normal interval for sick check (minutes)-->
+    </kMinSickCheckInterval>
+    <kMaxSickCheckChillyInterval value="120">
+      <!--Max chilly interval for sick check (minutes)-->
+    </kMaxSickCheckChillyInterval>
+    <kMinSickCheckChillyInterval value="100">
+      <!--Min chilly interval for sick check (minutes)-->
+    </kMinSickCheckChillyInterval>
+    <kMaxSickCheckFreezingInterval value="80">
+      <!--Max freezing interval for sick check (minutes)-->
+    </kMaxSickCheckFreezingInterval>
+    <kMinSickCheckFreezingInterval value="60">
+      <!--Min freezing interval for sick check (minutes)-->
+    </kMinSickCheckFreezingInterval>
+    <kAmbientSicknessOdds value="0.01">
+      <!--Odds of getting sick during the periodic checks-->
+    </kAmbientSicknessOdds>
+    <kInteractSicknessOdds value="0.1">
+      <!--Odds of getting sick from using a particular type of item-->
+    </kInteractSicknessOdds>
+    <kRomanticSicknessOdds value="0.5">
+      <!--Odds of getting sick from romantic social with a sick sim-->
+    </kRomanticSicknessOdds>
+    <kProximitySicknessOdds value="0.1">
+      <!--Odds of getting sick from being in proximity to a sick sim-->
+    </kProximitySicknessOdds>
+    <kColdBloodedModifier value="0.9">
+      <!--Coldblooded modifier-->
+    </kColdBloodedModifier>
+    <kWarmbloodedModifier value="1.1">
+      <!--Warmblooded modifier-->
+    </kWarmbloodedModifier>
+    <kMinIncubationTime value="24">
+      <!--Min cold incubation time (Hours)-->
+    </kMinIncubationTime>
+    <kMaxIncubationTime value="48">
+      <!--Max cold incubation time (Hours)-->
+    </kMaxIncubationTime>
+    <kSickObjects value="KissingBooth">
+      <!--List of ObjectTypes that can trigger a cold-->
+    </kSickObjects>
+    <kAllergyGeneticOdds value="0.2, 0.4, 0.8">
+      <!--Odds of having allergies based on number of parents with allergies-->
+    </kAllergyGeneticOdds>
+    <kAllergyNoGeneticOdds value="0.2">
+      <!--Odds of having allergies based on no genetic history-->
+    </kAllergyNoGeneticOdds>
+    <kAllergyGeneticOneParentOdds value="0.2, 0.4">
+      <!--Odds of having allergies based on number of parents with allergies with only 1 known parent-->
+    </kAllergyGeneticOneParentOdds>
+    <kLovesOutdoorsModifier value="0.9">
+      <!--Allergy odds multiplier if loves outdoors-->
+    </kLovesOutdoorsModifier>
+    <kHatesOutdoorsModifier value="1.1">
+      <!--Allergy odds multiplier if hates outdoors-->
+    </kHatesOutdoorsModifier>
+    <kWarmInteractionDelta value="-30">
+      <!--Warm Interaction sickness delta in minutes-->
+    </kWarmInteractionDelta>
+    <kColdInteractionDelta value="30">
+      <!--Cold Interaction sickness delta in minutess-->
+    </kColdInteractionDelta>
+  </Current_Tuning>
+</base>

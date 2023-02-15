@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMartialArtsSkillMultiplier value="1.25">
+      <!--Range: Positive floats.  Description:  Marital Arts Skill Gain increase when sim has buff-->
+    </kMartialArtsSkillMultiplier>
+    <kMultiplierToSpeedUpMeditation value="0.8">
+      <!--Tunable for meditation timing is multiplied with this tunable. Positive float. Range: [0, 1]. Initial GPE Default: 0.75f-->
+    </kMultiplierToSpeedUpMeditation>
+    <kZenHomeworkRateMultiplier value="0.555">
+      <!--Range: Additive float multiplier.  Description:  Increased rate of completing homework if the Sim has Zen buff.-->
+    </kZenHomeworkRateMultiplier>
+    <kZenReadPPMBonus value="0.5">
+      <!--Range: Additive float multiplier.  Description:  Bonus number of pages sim can read per minute-->
+    </kZenReadPPMBonus>
+  </Current_Tuning>
+</base>

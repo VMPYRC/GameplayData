@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kInteractionStageLength value="240">
+      <!--Interaction duration. Units: Sim minutes. Positive float. Initial GPE Default: 30f-->
+    </kInteractionStageLength>
+    <kTotalTimeToFinishAnalysis value="240">
+      <!--At the end of this duration, the analysis will finish and the sim will get a reward. Units: Sim minutes. Positive float. Initial GPE Default: 30f-->
+    </kTotalTimeToFinishAnalysis>
+    <kRewardOnFinishingAnalysis value="1000">
+      <!--Money awarded at the end of finishing Forensic analysis on computer (after a long time). Units: Sim minutes. Positive float. Initial GPE Default: 30f-->
+    </kRewardOnFinishingAnalysis>
+  </Current_Tuning>
+</base>

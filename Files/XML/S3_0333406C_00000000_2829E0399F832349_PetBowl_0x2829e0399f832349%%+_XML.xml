@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFullBowlFoodUnits value="100">
+      <!--Range:  int  Description:  This is the number of bites till bowl is empty-->
+    </kFullBowlFoodUnits>
+    <kNumFoodUnitsToChangeToHalfFullState value="50">
+      <!--Range:  int between 1-kFullBowlFoodUnits Description:  value in which bowl goes to half-full state-->
+    </kNumFoodUnitsToChangeToHalfFullState>
+    <kHungryValToCancelInteraction value="-25">
+      <!--Range:  -100-100  Description:  Tunable at which hungry pet will cancel current interaction and go eat food-->
+    </kHungryValToCancelInteraction>
+    <kBaseCostToFillBowl value="0.1">
+      <!--Range:  float  Description:  Base Cost to fill bowl-->
+    </kBaseCostToFillBowl>
+    <kScoringMultiplierForEatingFromOwnedBowl value="1.5">
+      <!--Range:  float  Description:  Scoring multiplier for eating from owned bowl-->
+    </kScoringMultiplierForEatingFromOwnedBowl>
+    <kLazyEatingTraits value="LazyPet">
+      <!--TraitNames that cause sim to have lazy eating style-->
+    </kLazyEatingTraits>
+    <kAggressiveEatingTraits value="AggressivePet">
+      <!--TraitNames that cause sim to have aggressive eating style-->
+    </kAggressiveEatingTraits>
+    <kPlayfulEatingTraits value="PlayfulPet">
+      <!--TraitNames that cause sim to have playful eating style-->
+    </kPlayfulEatingTraits>
+    <kSloppyEatingTraits value="PiggyPet">
+      <!--TraitNames that cause sim to have sloppy eating style-->
+    </kSloppyEatingTraits>
+    <kMinFoodUnitsForAutonomousFill value="20">
+      <!--Range:  Int  Description:  Food Units before sim will autonomously fill pet bowl-->
+    </kMinFoodUnitsForAutonomousFill>
+  </Current_Tuning>
+</base>

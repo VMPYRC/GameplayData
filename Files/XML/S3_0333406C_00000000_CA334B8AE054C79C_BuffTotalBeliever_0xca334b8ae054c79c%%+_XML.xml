@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFunLossMultiplier value="0.2">
+      <!--Range: 0 - 1. Description: Fun loss rate multiplier (rate at which it trends toward zero).  This is a multiplier, thus set to 1.0 to have no effect.-->
+    </kFunLossMultiplier>
+    <kSocialsLossMultiplier value="0.5">
+      <!--Range: 0 - 1. Description: Stress loss rate multiplier (rate at which it trends toward zero).  This is a multiplier, thus set to 1.0 to have no effect.-->
+    </kSocialsLossMultiplier>
+  </Current_Tuning>
+</base>

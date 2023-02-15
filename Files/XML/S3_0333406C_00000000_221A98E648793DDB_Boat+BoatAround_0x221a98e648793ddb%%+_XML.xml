@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPathLengthTuningRoaming>
+      <fTotalLengthTarget value="1000">
+        <!--The target total length of the run around path in meters.-->
+      </fTotalLengthTarget>
+      <fSubPathLengthMin value="50">
+        <!--The minimum length of a sub path in meters.-->
+      </fSubPathLengthMin>
+      <fSubPathLengthMax value="100">
+        <!--The maximum length of a sub path in meters.-->
+      </fSubPathLengthMax>
+      <fSubPathDirectionChangeConeAngleDegrees value="90">
+        <!--The maximum angle deviation of a sub path in degrees.-->
+      </fSubPathDirectionChangeConeAngleDegrees>
+    </kPathLengthTuningRoaming>
+  </Current_Tuning>
+</base>

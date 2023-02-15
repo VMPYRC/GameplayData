@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPercentModifier value="25">
+      <!--Range: int -100 to 100. Description: what percent of the catalog price to add to the item's price.  negative number decreases price-->
+    </kPercentModifier>
+    <kSellBackPriceModifier value="1.1">
+      <!--Price modifier to apply to items you sell back to the store. moneyback = curValue * kSellbackPriceModifier-->
+    </kSellBackPriceModifier>
+    <kTimeOfMagicHour value="17">
+      <!--Range:  0-24  Description:  The time when the magic hour comic book inventory changes-->
+    </kTimeOfMagicHour>
+    <kMaxNumOfComicsOnSaleAtStart value="4">
+      <!--Range:  0-x Description: Max number of comics that are on sale-->
+    </kMaxNumOfComicsOnSaleAtStart>
+  </Current_Tuning>
+</base>

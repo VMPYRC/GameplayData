@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeRangeToGuard value="30, 45">
+      <!--Time range in sim minutes to guard.-->
+    </kTimeRangeToGuard>
+    <kBarkAtRadius value="2.5">
+      <!--Radius around the object that pets will react to sims.-->
+    </kBarkAtRadius>
+    <kHouseholdSimLTRThreshold value="-20">
+      <!--Household sims below this LTR will get grumbled at.-->
+    </kHouseholdSimLTRThreshold>
+    <kLazyPetSleepChance value="0.2">
+      <!--Chance a lazy pet will route close to the object and fall asleep.-->
+    </kLazyPetSleepChance>
+    <kCluelessPetBarkAtChance value="0.2">
+      <!--Chance a clueless pet will route close to the object and bark at it.-->
+    </kCluelessPetBarkAtChance>
+    <kOwnedObjectScoreMultiplier value="5">
+      <!--Autonomy multiplier if the target of the guard interaction is owned by the actor.-->
+    </kOwnedObjectScoreMultiplier>
+    <kDistanceFromObject value="1, 3">
+      <!--Distance away from the object that the pet should route to before guarding.-->
+    </kDistanceFromObject>
+    <kReinforcementTuningAmountToReinforceLazyPets value="20">
+      <!--Amount to either praise or scold a lazy pet for sleeping when they should be guarding.-->
+    </kReinforcementTuningAmountToReinforceLazyPets>
+    <kReinforcementTuningAllowAutonomousPraiseScoldForLazyPets value="True, True">
+      <!--Allow autonomous praising and scolding of lazy pets when they fall asleep.-->
+    </kReinforcementTuningAllowAutonomousPraiseScoldForLazyPets>
+    <kReactionsToBarkingPets value="BadNoise, Scared, Shocked, Startled, Annoyed">
+      <!--List of reactions that will be randomly chosen when a pet barks at the sim.-->
+    </kReactionsToBarkingPets>
+    <kChanceSitIncrementPerGuardStandLoop value="10">
+      <!--Range: positive floats 1-100. When a pet is standing while guarding, this is the chance that the pet will sit incremented per guard loop. So if the pet has been standing for 3 loops, the chance they'll sit will br 3x the value here. That way the longer they're standing, the more likely they'll sit.-->
+    </kChanceSitIncrementPerGuardStandLoop>
+    <kChanceStandIncrementPerGuardSitLoop value="5">
+      <!--Range: positive floats 1-100. When a pet is sitting while guarding, this is the chance that the pet will stand incremented per guard loop. So if the pet has been sitting for 3 loops, the chance they'll stand will be 3x the value here. That way the longer they're sitting, the more likely they'll stand.-->
+    </kChanceStandIncrementPerGuardSitLoop>
+    <kBaseChanceToReactToPet value="0.75">
+      <!--Range: positive floats 0-1. Base chance a sim will run away from the pet.-->
+    </kBaseChanceToReactToPet>
+    <kCowardlyTraitsToReact value="Coward, SkittishPet">
+      <!--A list of traits that will use kCowardlyChanceToReactToPet when calculating if they run away from the pet.-->
+    </kCowardlyTraitsToReact>
+    <kCowardlyChanceToReactToPet value="0.9">
+      <!--Range: positive floats 0-1. Chance a sim with kCowardlyTraitsToReact will run away from the pet.-->
+    </kCowardlyChanceToReactToPet>
+    <kAggressivePetMulitplier value="1.2">
+      <!--Range: positive floats 0-1. Chance will be muliplied by this value to see if the sim should run away or not.-->
+    </kAggressivePetMulitplier>
+  </Current_Tuning>
+</base>

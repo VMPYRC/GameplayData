@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceOfFillingUp value="55">
+      <!--Range 0 - 100: Percent chance the junk pile will fill up per day.-->
+    </kChanceOfFillingUp>
+    <kMinutesBetweenReceivingScrap value="3">
+      <!--Number of sim minutes between the sim receiving scrap from this junk pile.-->
+    </kMinutesBetweenReceivingScrap>
+    <kChanceOfBonusObject value="8">
+      <!--Range 0 - 100: Percent chance the sim finds a random object when they dig through.-->
+    </kChanceOfBonusObject>
+    <kBonusObjectList value="ChairDiningPatioPlastic,MicrowaveCheap,StoveCheap,AlarmClockCheap,TableEndDeckAdirondack,TableEndCountry,StereoCheapContemporary,ChairLivingDesigner,TableCoffeeClub1x1,LoveseatDesigner,LightingTableLampFun,LightingTableCountry">
+      <!--A comma-separated list of medator keys that are used to create the bonus furniture objects the sim has a chance of getting.-->
+    </kBonusObjectList>
+    <kMinutesSimsShouldAutonomouslyDigThrough value="60">
+      <!--Number of max sim minutes that the sim should autonomous dig through a junk pile.-->
+    </kMinutesSimsShouldAutonomouslyDigThrough>
+    <kBonusObjectVersionList value="BaseGame,Basegame,Basegame,Basegame,Basegame,Basegame,Basegame,Basegame,Basegame,Basegame,Basegame,Basegame">
+      <!--A comma-separated list of product version corresponding to the bonus object list.-->
+    </kBonusObjectVersionList>
+    <kTimeMultiplierIfTheScrapper value="0.75">
+      <!--Multiplier applied to kMinsBetweenReceivingScrap if the sim has the 'The Scrapper' Lifetime Opp.-->
+    </kTimeMultiplierIfTheScrapper>
+    <kTunableScrapAmount value="0, 900">
+      <!--Max amount of scrap generated when filled up.  Generates a random amount of scrap between the two values.-->
+    </kTunableScrapAmount>
+  </Current_Tuning>
+</base>

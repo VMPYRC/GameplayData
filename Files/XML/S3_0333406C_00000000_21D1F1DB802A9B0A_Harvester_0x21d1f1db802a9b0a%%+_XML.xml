@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSuctionIntervalTime value="2">
+      <!--Range:  0+  Description:  The interval, in Sim minutes, between suctioning objects-->
+    </kSuctionIntervalTime>
+    <kSuctionRadius value="5">
+      <!--Range:  0+  Description:  The radius of action of the Harvester-->
+    </kSuctionRadius>
+    <kSuctionShakeDuration value="1">
+      <!--Range:  0+  Description:  The time an object shakes before being suctioned by the Harvester-->
+    </kSuctionShakeDuration>
+    <kSuctionFailChanceMinimum value="0.05">
+      <!--Range:  0.0 - 1.0  Description:  Chance of failure at Inventing skill level zero-->
+    </kSuctionFailChanceMinimum>
+    <kSuctionFailChanceMaximum value="0.001">
+      <!--Range:  0.0 - 1.0  Description:  Chance of failure at Inventing skill level max-->
+    </kSuctionFailChanceMaximum>
+    <kSuctionFailChanceMoodThreshold value="-5">
+      <!--Range:  -100 - 100  Description:  Mood threshold below which we apply a fail multiplier-->
+    </kSuctionFailChanceMoodThreshold>
+    <kSuctionFailChanceMoodMultiplier value="5">
+      <!--Range:  0+  Description:  The multiplier applied on the chance of failure when below the spcified mood threshold-->
+    </kSuctionFailChanceMoodMultiplier>
+    <kSuctionFailFunMultiplier value="-20">
+      <!--Range:  0-  Description:  The multiplier on the Fun commodity specified in tuning the the Harvester is out of control-->
+    </kSuctionFailFunMultiplier>
+    <kCostMultiplierIfMasterInvention value="1.15">
+      <!--Cost multiplier to apply to Havester's value if it is a 'Masterful' invention. < 1 will decrease value, 1 will do nothing and > 1 will increase value.-->
+    </kCostMultiplierIfMasterInvention>
+  </Current_Tuning>
+</base>

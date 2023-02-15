@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDurationOfDumpsterDive value="40">
+      <!--Duration that the Sim will dumpster dive for in Sim Minutes.-->
+    </kDurationOfDumpsterDive>
+    <kTimeBetweenFindingThings value="17">
+      <!--Duration Between Finding Items-->
+    </kTimeBetweenFindingThings>
+    <kChanceToFindBetterThenLowQuality value="35">
+      <!--Chance to find item better then Low Quality-->
+    </kChanceToFindBetterThenLowQuality>
+    <kChanceForHighQualityItem value="30">
+      <!--Chance to get High Quality Item if we are getting better then low quality-->
+    </kChanceForHighQualityItem>
+    <kTraitsForBonus value="AvantGarde, Lucky, Frugal, Daredevil, Neat, Perfectionist, Workaholic, Unlucky, Artistic">
+      <!--Traits For Medium Or Higher Bonus to be added-->
+    </kTraitsForBonus>
+    <kSelectTraitBonusForHigh value="5, 5, 5, 0, -5, -5, -5, -5, -5">
+      <!--Chance to find medium Items Increased if sims has Specific Traits.  Must be the same lenght as kTraitsForBonus-->
+    </kSelectTraitBonusForHigh>
+    <kSelectTraitBonusForMediumOrBetter value="5, 5, 5, 5, -5, -5, -5, -5, -5">
+      <!--Chance to find medium Items Decreased if sims has Specific Traits Trait (Positive Number)-->
+    </kSelectTraitBonusForMediumOrBetter>
+    <kSkillsForBonus value="InfluenceRebel, StreetArt, Mooch">
+      <!--Skills For Bonus-->
+    </kSkillsForBonus>
+    <kSkillsBonusForMedium value="2, 1, 0.5">
+      <!--Skill bonus for kSkillForBonus. Medium Quality. Must be the same number as Skills for Bonus.  0 = No Change-->
+    </kSkillsBonusForMedium>
+    <kSkillsBonusForHigh value="1, 0.5, 0">
+      <!--Skill bonus for kSkillForBonus for High Quality Must be the same number as Skills for Bonsu.  0 = No Change-->
+    </kSkillsBonusForHigh>
+    <kChanceToBeSmelly value="50">
+      <!--Chance an object out of the trash will be smelly. -->
+    </kChanceToBeSmelly>
+    <kChanceToFindInsectLow value="40">
+      <!--Chance To find Insects instead of Low Quality Item-->
+    </kChanceToFindInsectLow>
+    <kChanceToFindCommonMetalsAndRocks value="40">
+      <!--Chance To find Common Metals / Rocks instead of Medium Quality Items-->
+    </kChanceToFindCommonMetalsAndRocks>
+    <kChanceToFindUnCommonMetalsandRocks value="50">
+      <!--Chance To find UnCommon Metals / Rocks instead of High Quality Items-->
+    </kChanceToFindUnCommonMetalsandRocks>
+    <kMinMediumValueRockMetal value="5">
+      <!--Min Value of Medium Value Rocks and Metals-->
+    </kMinMediumValueRockMetal>
+    <kMaxMediumValueRockMetal value="25">
+      <!--Max Value of Medium Value Rocks and Metals-->
+    </kMaxMediumValueRockMetal>
+    <kMinHighValueRockMetal value="50">
+      <!--Min Value of High Value Rocks and Metals-->
+    </kMinHighValueRockMetal>
+    <kMaxHighValueRockMetal value="100">
+      <!--Max Value of High Value Rocks and Metals-->
+    </kMaxHighValueRockMetal>
+    <kChanceToGetNauseous value="30">
+      <!--Chance Sims will get Nauseous Buff-->
+    </kChanceToGetNauseous>
+  </Current_Tuning>
+</base>

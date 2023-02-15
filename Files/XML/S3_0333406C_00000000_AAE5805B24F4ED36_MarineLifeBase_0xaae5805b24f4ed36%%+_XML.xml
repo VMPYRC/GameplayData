@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kStartingDistance value="20">
+      <!--Starting distance away from target object when using TryToPlaceAndFadeIn.-->
+    </kStartingDistance>
+    <kMaxGoodLocationSearchRadius value="20">
+      <!--Max Search Radius from Starting Position when attempting to find a good location to place using TryToPlaceAndFadeIn-->
+    </kMaxGoodLocationSearchRadius>
+    <kMaxAttemptsForGoodLocation value="5">
+      <!--Number of attempts to find a good location in TryToPlaceAndFadeIn-->
+    </kMaxAttemptsForGoodLocation>
+    <kInitialVerticalOffset value="1">
+      <!--Vertical offset when initially placing the TryToPlaceAndFadeIn. This is the height that the animation would normally keep the MarineLife above the ocean floor.-->
+    </kInitialVerticalOffset>
+    <kMaxSegmentLength value="1">
+      <!--Max route segment length-->
+    </kMaxSegmentLength>
+  </Current_Tuning>
+</base>

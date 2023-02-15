@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLtrDecayPerDay value="1.5">
+      <!--Range:  0 - 1  Description:  Ltr decay for vehicles per day of sim time.-->
+    </kLtrDecayPerDay>
+    <kLtrDecayPerDayForEnthusiast value="1">
+      <!--Range:  0 - 1  Description:  Ltr decay for vehicles per day of sim time as a vehicle enthusiast.-->
+    </kLtrDecayPerDayForEnthusiast>
+    <kLtrBoostPerRide value="1.5">
+      <!--Range:  0 - 1  Description:  Ltr boost per ride for vehicles.-->
+    </kLtrBoostPerRide>
+    <kLtrBoostPerRideForEnthusiast value="2">
+      <!--Range:  0 - 1  Description:  Ltr boost per ride for vehicles as a vehicle enthusiast.-->
+    </kLtrBoostPerRideForEnthusiast>
+    <kMinCarRelationshipStartingValue value="10">
+      <!--Range:  0 - 100  Description:  Minimumum value for a car relationship to start at.(Linear interpolation for price between kMinimumCost and kMaximumCost)-->
+    </kMinCarRelationshipStartingValue>
+    <kMaxCarRelationshipStartingValue value="60">
+      <!--Range:  0 - 100  Description:  Maximum value for a car relationship to start at. (Linear interpolation for price between kMinimumCost and kMaximumCost)-->
+    </kMaxCarRelationshipStartingValue>
+    <kMinimumCost value="1000">
+      <!--Range:  0-?  Description:  Minimum car price for interpolation.-->
+    </kMinimumCost>
+    <kMaximumCost value="100000">
+      <!--Range:  0-?  Description:  Maximum car price for interpolation.-->
+    </kMaximumCost>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentScoreMultiplier value="1">
+      <!--The amount by which the sum of the plates' environment score is multiplied to determine the table's environment score-->
+    </kEnvironmentScoreMultiplier>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kBreakfastRecipes value="FrenchToast, BellagianWaffles, Pancakes, EggsMachiavellian">
+      <!--Breakfast Options-->
+    </kBreakfastRecipes>
+    <kLunchRecipes value="GrilledCheese, HotDog, Cheesesteak, StewSurprise, Hamburger">
+      <!--Lunch Options-->
+    </kLunchRecipes>
+    <kDinnerRecipes value="TriTipSteak, StuffedTurkey, GoopyCarbonara, Ratatouille, GrilledSalmon, LobsterThermador ">
+      <!--Dinner Options-->
+    </kDinnerRecipes>
+    <kSushiRecipes value="RollSushi">
+      <!--Sushi Options-->
+    </kSushiRecipes>
+    <kDimSumRecipes value="DimSum">
+      <!--DimSum Options-->
+    </kDimSumRecipes>
+    <kVegetarianRecipes value="CheeseTofuSteak, Veggieburger, VegetarianFishAndChips, TofuDog, VegetarianDimSum, VeggiRolls ">
+      <!--Vegetarian Options-->
+    </kVegetarianRecipes>
+    <kDessertRecipes value="KeyLimePie, FruitParfait, Cookies,BakedAngelFoodCake">
+      <!--Dessert Options-->
+    </kDessertRecipes>
+    <kKidRecipes value="GrilledCheese, HotDog, MacAndCheese,PeanutButterAndJelly">
+      <!--Kid Options-->
+    </kKidRecipes>
+    <kScoring value="5, 10, 20">
+      <!--Scoring-->
+    </kScoring>
+    <kUpkeepCost value="5, 10, 20">
+      <!--Upkeep Cost-->
+    </kUpkeepCost>
+    <kReviewQuantity value="10, 10, 10">
+      <!--Number of reviews for different qualities.  Base strings are: Gameplay/Objects/Resort/ResortBuffetTable:LowQualityReview, Gameplay/Objects/Resort/ResortBuffetTable:MedQualityReview, Gameplay/Objects/Resort/ResortBuffetTable:HighQualityReview-->
+    </kReviewQuantity>
+    <kReviewHighlightQuantity value="10">
+      <!--Number of reviews for Highlight (best feature by scoring & highest quality) of resort.  Base strings is: Gameplay/Objects/Resort/ResortBuffetTable:HighlightReview-->
+    </kReviewHighlightQuantity>
+    <kPercentOfFoodUnits value="0.3">
+      <!--The percentage of food units food from the resort buffet table provides.  Example: If food from the table should satisfy only half what it normally ways, set to 0.5f.-->
+    </kPercentOfFoodUnits>
+    <kHungerToStopFeeding value="90">
+      <!--Sims will try to get another plate of food as long as their hunger is <= to this value.-->
+    </kHungerToStopFeeding>
+    <kMaxSimsToDineWith value="7">
+      <!--The max number of Sims that can be chosen when using the Dine With interaction.-->
+    </kMaxSimsToDineWith>
+    <kLowQualityBurntSpoiledChance value="0.25">
+      <!--Range: [0, 1.0] - The probability that low quality food will be burnt or spoiled (50/50 each).-->
+    </kLowQualityBurntSpoiledChance>
+    <kLowQualityFoodQualities value="Bad, Neutral">
+      <!--Food quality represented by Resort-food quality of low-->
+    </kLowQualityFoodQualities>
+    <kMediumQualityFoodQualities value="Nice, VeryNice, Great">
+      <!--Food quality represented by Resort-food quality of low-->
+    </kMediumQualityFoodQualities>
+    <kHighQualityFoodQualities value="Excellent, Outstanding, Perfect">
+      <!--Food quality represented by Resort-food quality of low-->
+    </kHighQualityFoodQualities>
+    <kRefreshFoodInterval value="180">
+      <!--Delay time before refreshing the food again. (Sim minutes)-->
+    </kRefreshFoodInterval>
+    <kSimsServedCapacity value="10000">
+      <!--number of Sims a buffet table can satisfy-->
+    </kSimsServedCapacity>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAntsFirstChance value="80">
+      <!--Range: Positive percents.  Description: Chance ants will appear at all.-->
+    </kAntsFirstChance>
+    <kAntsSecondChance value="80">
+      <!--Range: Positive percents.  Description: Chance ants will appear again.-->
+    </kAntsSecondChance>
+    <kAntsMinInterval value="20">
+      <!--Range: Positive integer values.  Description: Minimum number of minutes between showing ants.  Actual times will be normally distributed between min and max.-->
+    </kAntsMinInterval>
+    <kAntsMaxInterval value="60">
+      <!--Range: Positive integer values.  Description: Maximum number of minutes between showing ants.  Actual times will be normally distributed between min and max.-->
+    </kAntsMaxInterval>
+    <kServeCost value="100">
+      <!--Range: Positive numbers.  Description: Cost of running the Serve interaction.-->
+    </kServeCost>
+    <kBasketRecipies value="Hamburger,HotDog">
+      <!--A comma-separated list of recipie keys that are used to create the food the Sim pulls out of the basket.  These all must use the hamburger animations.-->
+    </kBasketRecipies>
+    <kBasketVegetarianRecipies value="GrilledCheese,PeanutButterAndJelly">
+      <!--A comma-separated list of recipie keys that are used to create the food the Sim pulls out of the basket.  These all must use the hamburger animations.-->
+    </kBasketVegetarianRecipies>
+    <kBlanketRecipies value="Hamburger,AutumnSalad,GrilledSalmon">
+      <!--A comma-separated list of recipie keys that are used to create the clutter on the picnic blanket.-->
+    </kBlanketRecipies>
+    <kShooForCleanUpTimeout value="10">
+      <!--Range: Positive decimal values.  Description: Number of minutes to wait after shooing sims to clean up the picninc before we give up.-->
+    </kShooForCleanUpTimeout>
+    <kScoringMultiplierForSittingOnEmptyPicnicTable value="0.05">
+      <!--How much sims like to sit on empty picnic tables (as a multiplier)-->
+    </kScoringMultiplierForSittingOnEmptyPicnicTable>
+    <kScoringMultiplierForSittingOnPicnicTableWithStrangers value="0.01">
+      <!--How much sims like to sit on picnic tables with strangers (as a multiplier)-->
+    </kScoringMultiplierForSittingOnPicnicTableWithStrangers>
+    <kAutonomyTimerWhenSittingAtPicnic value="1">
+      <!--How long (in Sim hours) Sims will sit at the picnic before considering local autonomy to push them out-->
+    </kAutonomyTimerWhenSittingAtPicnic>
+    <kMaxPicningDelayInHoursBeforeConsideringExit value="3">
+      <!--Range: Sim hours. How long after which a Sim will decide to exit picnicing even when waiting for somebody else to join him (this should be large because it is here to catch an edge-case)-->
+    </kMaxPicningDelayInHoursBeforeConsideringExit>
+    <kAutonomyMultiplierForPicnicingInTheDark value="0.1">
+      <!--Range: 0-1. How much Sims want to autonomously picnic when it is dark (as a multiplier)-->
+    </kAutonomyMultiplierForPicnicingInTheDark>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kBasketRecipieKeys value="Hamburger">
+      <!--deprecated on: 4/23/2008 11:22:23 AM-->
+    </kBasketRecipieKeys>
+    <kBasketVegetarianRecipieKeys value="Hamburger">
+      <!--deprecated on: 4/23/2008 11:22:23 AM-->
+    </kBasketVegetarianRecipieKeys>
+    <kBlanketRecipieKeys value="Hamburger, AutumnSalad">
+      <!--deprecated on: 4/23/2008 11:22:23 AM-->
+    </kBlanketRecipieKeys>
+  </Deprecated_Tuning>
+</base>

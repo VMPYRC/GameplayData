@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kParentsHomeWaitTime value="0.5">
+      <!--Time after which babysitter should leave if a parent is home (hours)-->
+    </kParentsHomeWaitTime>
+    <kParentsAwayForRealTime value="0.5">
+      <!--Time parents have to be gone after which babysitter will leave should they again return (hours)-->
+    </kParentsAwayForRealTime>
+    <kDelayBeforeArriving value=".1">
+      <!--Length of time (in hours) that babysitter waits before routing to lot-->
+    </kDelayBeforeArriving>
+    <kSocializingScoringFactor value="0.01">
+      <!--How important socializing with the baby is (between 0 and 1) when the baby's social motive is maxed-->
+    </kSocializingScoringFactor>
+    <kUseObjectWithChildMultiplier value="1.5">
+      <!--Range:  Scoring multiplier.  Description:  How much additionally a baby sitter wants to use objects that a child is using.-->
+    </kUseObjectWithChildMultiplier>
+    <kUseObjectInSameRoomAsChildMultiplier value="1.5">
+      <!--Range:  Scoring multiplier.  Description:  How much additionally a baby sitter wants to use objects in the same room as a child.-->
+    </kUseObjectInSameRoomAsChildMultiplier>
+    <kUseObjectWithChildBaseScore value="20">
+      <!--Range:  Autonomy score.  Description:  How much base score an interaction will score if it is more than 0 score if a babysitter would use the same object as a child.-->
+    </kUseObjectWithChildBaseScore>
+    <kUseObjectInSameRoomAsChildBaseScore value="20">
+      <!--Range:  Autonomy score.  Description:  How much base score an interaction will score if it is more than 0 score and it is on an object in the same room as a child.-->
+    </kUseObjectInSameRoomAsChildBaseScore>
+    <kBabysitterCheckForChildTime value="15">
+      <!--Range:  Sim minutes.  Description:  How often a babysitter should check for a child or below - if the babysitter does the same interaction for twice the length and doesn't see the child, then add an exit reason!-->
+    </kBabysitterCheckForChildTime>
+    <kEndTime value="23">
+      <!--End time for babysitter to leave (in 24 hours)-->
+    </kEndTime>
+    <kMinBabysittingTime value="10">
+      <!--Min time a babysitter will stay (in 24 hours)-->
+    </kMinBabysittingTime>
+    <kServiceTuning>
+      <kMaxNumNPCsInPool value="2">
+        <!--Max num NPCs at once in service-->
+      </kMaxNumNPCsInPool>
+      <kCost value="75">
+        <!--Cost of service-->
+      </kCost>
+      <kIsEmergencyService value="False">
+        <!--If true this service charges kCost only if falsely called, otherwise free.-->
+      </kIsEmergencyService>
+      <kIsRecurrent value="False">
+        <!--Whether the service is recurrent (true) or one-off (false).  Recurrent services are the only type which can be cancelled through the phone dialog.-->
+      </kIsRecurrent>
+      <kAlwaysTryToSendSameSim value="True">
+        <!--Whether or not the service always tries to send the same NPC to a specific household-->
+      </kAlwaysTryToSendSameSim>
+    </kServiceTuning>
+    <kDriveTime value="5">
+      <!--Length of time (in minutes) that babysitter takes to drive to lot-->
+    </kDriveTime>
+  </Current_Tuning>
+</base>

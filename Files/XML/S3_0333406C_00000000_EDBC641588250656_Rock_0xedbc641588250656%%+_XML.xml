@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTuning>
+      <kEnvironmentPerValue value="0.01" />
+      <kMaxEnvironment value="10" />
+      <kRouteDistance value="1" />
+      <kMinViewDistance value="2" />
+      <kMaxViewDistance value="3" />
+    </kTuning>
+    <kCommonThreshold value="1">
+      <!--Range:  ???  Description:  Rocks with a multiplier below this are given the common TNS. Note: things between this value and uncommon are shown the standard TNS.-->
+    </kCommonThreshold>
+    <kUncommonThreshold value="2">
+      <!--Range:  ???  Description:  Rocks with a multiplier above this are given the Uncommon TNS. Note: things between this value and common are shown the standard TNS.-->
+    </kUncommonThreshold>
+    <kRareThreshold value="5">
+      <!--Range:  ???  Description:  Rocks with a multiplier above this are given the rare TNS.-->
+    </kRareThreshold>
+  </Current_Tuning>
+</base>

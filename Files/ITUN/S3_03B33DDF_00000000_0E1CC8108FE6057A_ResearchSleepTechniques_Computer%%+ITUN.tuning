@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<base>
+	<Interaction name="Sims3.Gameplay.Objects.Electronics.Computer+ResearchSleepTechniques+Definition" />
+	<Object name="Sims3.Gameplay.Objects.Electronics.Computer" />
+	<CodeVersion name="BaseGame" considerCodeVersion="False" />
+	<Current_Tuning>
+		<Disallow DisallowAutonomous="True" DisallowUserDirected="True" DisallowPlayerSim="True" />
+		<BaseAvailability>
+			<AgeSpecies AgeSpeciesValue="T,Y,A,E" />
+			<MotiveThreshold MotiveThresholdType="None" MotiveThresholdValue="0" MotiveBelowCheck="False" />
+			<MoodThreshold MoodThresholdType="None" MoodThresholdValue="0" />
+			<SkillThreshold SkillThresholdType="None" SkillThresholdValue="0" />
+			<ExcludingTrait type="AntiTV" />
+			<RequiredTrait type="LightSleeper" />
+			<RequiredTrait type="HeavySleeper" />
+			<CareerThreshold CareerThresholdType="Undefined" CareerThresholdValue="0" IncludePastCareers="False" />
+			<Lot AllowNonGreetedSimsIfObjectOutside="False" AllowNonGreetedSimsIfObjectOutsideUserDirected="True" AllowGreetedSims="True" AllowOnCommunityLots="True" AllowOnAllLots="False" />
+			<World RestrictionType="None" Types="" Names="" />
+			<Room AllowInTombRoomAutonomous="False" />
+			<Misc DisallowedIfPregnant="True" DisallowedFromInventory="True" />
+		</BaseAvailability>
+		<PosturePrecondition name="Sitting" value="1">
+			<Check name="InFrontOfSurfaceForTarget" />
+			<Check name="ChairScootedIntoSurface" />
+		</PosturePrecondition>
+		<PosturePrecondition name="Standing" value="1">
+			<Check name="TargetInInventory" />
+		</PosturePrecondition>
+		<Check type="SelfRegarding" value="1.5" />
+		<Check type="InappropriateForVisitor" value="1.5" />
+		<Check type="All" value="0" />
+		<Tradeoff name="ResearchSleepTechniques">
+			<Localization autoGenerate="True" />
+			<Time value="1" addRoute="True" />
+			<Exit funExit="False" stressExit="False" interruptible="False" />
+			<RouteLeadIn allowed="False" />
+			<AskJoinInteraction joinable="False" />
+			<ScoringFunction alwaysChooseBest="False" name="" specificCommodity="None" />
+			<ActionTopic name="" ActionTopicUnavailableAfterActionFinishes="False" />
+			<Output>
+			</Output>
+		</Tradeoff>
+	<Notes Notes="Tuning out of the game.  It doesn't actually do anything, give you anything, or even show you anything.  Therefore, it is gone. -mg" />
+	</Current_Tuning>
+</base>

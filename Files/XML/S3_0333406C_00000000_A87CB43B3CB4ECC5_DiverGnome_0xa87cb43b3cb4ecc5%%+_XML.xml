@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeScubaLook, magicGnomeScubaSwim, magicGnomeScubaSit">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeScubaSleep">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeScubaPonder,magicGnomeScubaLook">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeScubaSit">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeScubaSit">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="magicGnomeScubaSleep, magicGnomeScubaSwim">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="2">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kGnomeTuning>
+    <kHotTubDesireMultiplier value="20">
+      <!--OBJECT DESIRABILITY: score multiplier for science station objects.-->
+    </kHotTubDesireMultiplier>
+    <kPoolDesireMultiplier value="30">
+      <!--OBJECT DESIRABILITY: score multiplier for desk objects.-->
+    </kPoolDesireMultiplier>
+    <kBathTubDesireMultiplier value="20">
+      <!--OBJECT DESIRABILITY: score multiplier for laptop objects.-->
+    </kBathTubDesireMultiplier>
+    <kUnderwaterCollectingMultiplier value="1.5">
+      <!--Range: Positive floats  Description:  Multiplier for chance to find things while diving or in a cave-->
+    </kUnderwaterCollectingMultiplier>
+  </Current_Tuning>
+</base>

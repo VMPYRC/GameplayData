@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kTuningBed>
+      <WellRestedStrength value="10">
+        <!--Mood score added by the well rested buff given by the bed. Only trigerred if value is greater than 0.-->
+      </WellRestedStrength>
+      <ComfyBuffStrength value="20">
+        <!--Mood score added by comfy buff.-->
+      </ComfyBuffStrength>
+      <GivesBadNightsSleep value="False">
+        <!--Can this bed give you the Bad Nights Sleep buff?-->
+      </GivesBadNightsSleep>
+      <EnergyMultiplier value="1">
+        <!--Multiplier on energy gain rate for this bed.  1.0f is normal, 0.5f is slow, 2.0f is really fast.-->
+      </EnergyMultiplier>
+      <AllowIntersectionWithCeilingObjects value="True">
+        <!--True if this bed is allowed to intersect objects on the cieling, false otherwise.-->
+      </AllowIntersectionWithCeilingObjects>
+      <WooHooEffectName value="" />
+      <HygieneDelta value="0">
+        <!--Hygiene change rate on this bed (not a multiplier). Positive number makes sim cleaner, negative makes them dirtier.-->
+      </HygieneDelta>
+    </kTuningBed>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRadiusDistToBedForPillowVersion value="10">
+      <!--Distance from Bed Sim must be to use Pillow version of accept/Reject animations.  Note they must also be in the same room as the bed-->
+    </kRadiusDistToBedForPillowVersion>
+    <kPillowFightTime value="20">
+      <!--Time in Sim minutes pillow fight should last-->
+    </kPillowFightTime>
+    <kAllowedSTCTypes value="Ok, Friendly, VeryFriendly, Dull, Drab, Flirty, Seductive, Hot, Amusing, Funny, Hilarious">
+      <!--Range: ShortTermContextTypes[]  Description: STCs in which this interaction is available-->
+    </kAllowedSTCTypes>
+    <kTimeBetweenChecks value="6">
+      <!--Number of Sim minutes between checks for a negative outcome-->
+    </kTimeBetweenChecks>
+    <kChanceOfNegativeOutcome value="10">
+      <!--Range: 0-100 Description: Chance of there being a negative outcome to the pillow fight if accepted-->
+    </kChanceOfNegativeOutcome>
+    <kBaseWinChance value="50">
+      <!--Base chance that Sim A 'Wallops' B if there is a negative outcome-->
+    </kBaseWinChance>
+    <kWinChanceBonusPerSkillLevelDiff value="2">
+      <!--Chance increase/decrease per difference in athletic skill level that sim A 'Wallops' B if there is a negative outcome-->
+    </kWinChanceBonusPerSkillLevelDiff>
+    <kWinChanceBonusIfHasTrait value="15">
+      <!--Chance increase/decrease that A 'Wallops' B if A or B has one of the tuned traits-->
+    </kWinChanceBonusIfHasTrait>
+    <kLTRGainForNegativeOutcome value="-10">
+      <!--LTR increase between pillow fighters if there is a negative outcome.-->
+    </kLTRGainForNegativeOutcome>
+    <kTraitsIncreaseChance value="Coward, Dramatic, Loser">
+      <!--Traits That get negative outcome boosted chance-->
+    </kTraitsIncreaseChance>
+    <kLTRGainForPositiveOutcome value="10">
+      <!--LTR increase between pillow fighters if there is a positive outcome.-->
+    </kLTRGainForPositiveOutcome>
+  </Current_Tuning>
+</base>

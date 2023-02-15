@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kConeAngle value="3.141593">
+      <!--Float. Watchers will stand in a cone around the goal. This is the cone angle, in radians.-->
+    </kConeAngle>
+    <kMinDistance value="3">
+      <!--Float. Watchers min distance from goal.-->
+    </kMinDistance>
+    <kMaxDistance value="7">
+      <!--Float. Watchers max distance from goal.-->
+    </kMaxDistance>
+    <kPositiveRelScoreReactions value="Cheer, Excited, PumpFist">
+      <!--Array of Reactions. Watchers will do this when shooter scores and they have a neutral/positive relationship-->
+    </kPositiveRelScoreReactions>
+    <kPositiveRelMissReactions value="Gloomy">
+      <!--Array of Reactions. Watchers will do this when shooter fails to score and they have a neutral/positive relationship-->
+    </kPositiveRelMissReactions>
+    <kNegativeRelScoreReactions value="Yawn, Boo">
+      <!--Array of Reactions. Watchers will do this when shooter scores and they have a negative relationship-->
+    </kNegativeRelScoreReactions>
+    <kNegativeRelMissReactions value="LaughAt">
+      <!--Array of Reactions. Watchers will do this when shooter fails to score and they have a negative relationship-->
+    </kNegativeRelMissReactions>
+  </Current_Tuning>
+</base>

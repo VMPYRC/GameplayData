@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kProlificSculptorNumRequired value="35">
+      <!--Number of sculptures to be made before becoming a Prolific Sculptor-->
+    </kProlificSculptorNumRequired>
+    <kMasterSculptorNumEachRequired value="5">
+      <!--Number of sculptures to be made in each medium before becoming a master sculptor-->
+    </kMasterSculptorNumEachRequired>
+    <kIcePersonalityNumRequired value="25">
+      <!--Number of ice sculptures to be made in ice before becoming achieving ice personality-->
+    </kIcePersonalityNumRequired>
+    <kMasterSculptorValueMultiplier value="1.3">
+      <!--Value multiplier for Master Sculptors-->
+    </kMasterSculptorValueMultiplier>
+    <kLevelForAppreciation value="5">
+      <!--Level where sculptors you make will appreciate-->
+    </kLevelForAppreciation>
+    <kChiselmeisterNumRequired value="20">
+      <!--Number of sculptures to be made before becoming a Chiselmeister-->
+    </kChiselmeisterNumRequired>
+    <kLevelForBrilliant value="5">
+      <!--Level where you can start making brilliant sculptures-->
+    </kLevelForBrilliant>
+    <kLevelForMasterpiece value="9">
+      <!--Level where you can start making masterpiece sculptures-->
+    </kLevelForMasterpiece>
+    <kValueAtLevelOfSkill value="20, 20, 35, 50, 60, 90, 105, 125, 200, 270, 300">
+      <!--Value per level for sculptures made.-->
+    </kValueAtLevelOfSkill>
+    <kBrilliantSculptureChance value="0.2">
+      <!--Chance of a sculpture being brilliant-->
+    </kBrilliantSculptureChance>
+    <kBrilliantBonusValueMin value="400">
+      <!--Min value bonus for brilliant sculptures-->
+    </kBrilliantBonusValueMin>
+    <kBrilliantBonusValueMax value="650">
+      <!--Max value bonus for brilliant sculptures-->
+    </kBrilliantBonusValueMax>
+    <kMasterpieceSculptureChance value="0.35">
+      <!--Chance of a sculpture being masterpiece if it is already brilliant-->
+    </kMasterpieceSculptureChance>
+    <kMasterpieceBonusValueMin value="1200">
+      <!--Min value bonus for masterpiece sculptures-->
+    </kMasterpieceBonusValueMin>
+    <kMasterpieceBonusValueMax value="2500">
+      <!--Max value bonus for masterpiece sculptures-->
+    </kMasterpieceBonusValueMax>
+    <kChieselmeisterSpeedMultiplier value="0.66">
+      <!--Chiselmeister reward: Multiplier for time per stage to sculpt (higher means takes longer)-->
+    </kChieselmeisterSpeedMultiplier>
+    <kLevelSculptSimBecomesAvailable value="6">
+      <!--Level where you can start sculpting sims-->
+    </kLevelSculptSimBecomesAvailable>
+    <kSculpturesMadeBetweenBlowtorchFail value="6">
+      <!--Number of sculptures (not just metal) the sim must make before the blowtorch fail can happen again-->
+    </kSculpturesMadeBetweenBlowtorchFail>
+    <kSimSculptureOvermaxAmount value="4">
+      <!--Overmax amount per each sim sculpture made-->
+    </kSimSculptureOvermaxAmount>
+    <kSimSculptureMediumChance value="0, 0, 0, 0, 0, 0, 0.3, 0.4, 0.5, 0.6, 0.8">
+      <!--Chance per level for sim sculpture being medium quality.-->
+    </kSimSculptureMediumChance>
+    <kSimSculptureHighChance value="0, 0, 0, 0, 0, 0, 0, 0.2, 0.3, 0.4, 0.6">
+      <!--Chance per level for sim sculpture being high quality.-->
+    </kSimSculptureHighChance>
+    <kLowQualitySimSculptureValue value="200">
+      <!--base value of low quality sim sculpture-->
+    </kLowQualitySimSculptureValue>
+    <kMediumQualitySimSculptureValue value="350">
+      <!--base value of medium quality sim sculpture-->
+    </kMediumQualitySimSculptureValue>
+    <kHighQualitySimSculptureValue value="600">
+      <!--base value of high quality sim sculpture-->
+    </kHighQualitySimSculptureValue>
+  </Current_Tuning>
+</base>

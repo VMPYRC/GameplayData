@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLightTowerDelayArray value="15, 30, 60, 120, 5">
+      <!--Range:  0 - 100  Description:  This tunable represents the delay second possibilities for the set delay interaction-->
+    </kLightTowerDelayArray>
+    <kMinDelay value="5">
+      <!--Range: 0 - 100 Description: When a player chooses a specific delay time (that they get to type in, this will be the The MIN number they can use)-->
+    </kMinDelay>
+    <kMaxDelay value="100">
+      <!--Range: 0 - 100 Description: When a player chooses a specific delay time (that they get to type in, this will be the The MAX number they can use)-->
+    </kMaxDelay>
+    <kDefaultDelay value="35">
+      <!--Range: 0 - 100 Description: Default Custom Delay Time in Sim Seconds-->
+    </kDefaultDelay>
+  </Current_Tuning>
+</base>

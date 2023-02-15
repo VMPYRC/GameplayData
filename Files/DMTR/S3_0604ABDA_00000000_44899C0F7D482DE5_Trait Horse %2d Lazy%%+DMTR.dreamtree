@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DreamTree Version="1">
+  <Category>EP5</Category>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>183309684</Id>
+    <ParentId>183309684</ParentId>
+    <IsRoot>true</IsRoot>
+    <PrototypeId>191068934</PrototypeId>
+    <Center>
+      <X>42</X>
+      <Y>155</Y>
+    </Center>
+    <DreamVisible>false</DreamVisible>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits />
+    <Relationships />
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>692696330</Id>
+    <ParentId>183309684</ParentId>
+    <PrototypeId>3734313851</PrototypeId>
+    <Center>
+      <X>44</X>
+      <Y>-22</Y>
+    </Center>
+    <DreamVisible>false</DreamVisible>
+    <Repeatable>true</Repeatable>
+    <TimeBetweenRepeats>24</TimeBetweenRepeats>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits />
+    <Relationships />
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>1084695403</Id>
+    <ParentId>1117441566</ParentId>
+    <PrototypeId>202586835</PrototypeId>
+    <Center>
+      <X>46</X>
+      <Y>-327</Y>
+    </Center>
+    <FulfillmentScore>15</FulfillmentScore>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits>
+      <SelectedTrait>
+        <Trait>LazyHorse</Trait>
+        <Required>true</Required>
+        <Excluded>false</Excluded>
+      </SelectedTrait>
+    </Traits>
+    <Relationships />
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="TimerNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>1117441566</Id>
+    <ParentId>692696330</ParentId>
+    <PrototypeId>245410120</PrototypeId>
+    <Center>
+      <X>43</X>
+      <Y>-192</Y>
+    </Center>
+    <NextDreamSelectionProbability>30</NextDreamSelectionProbability>
+    <NumberSatisfies>1</NumberSatisfies>
+    <TimeBetweenSatisfies>2</TimeBetweenSatisfies>
+  </InstanceNode>
+  <Name>Trait Horse - Lazy</Name>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailablilty>Horse</SpeciesAvailablilty>
+  <TreeHash>497609896</TreeHash>
+</DreamTree>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kInitialNumberOfCatToys value="3">
+      <!--Number of cat toys the pet toy crate comes stocked with when purchased from the catalog. If this number is greater than the total number in kMetadorCatToyNames you will only get as many as there are metador names for-->
+    </kInitialNumberOfCatToys>
+    <kMedatorCatToyNames value="petToyMouse, petToyBallPaper, petToyBallYarn, petToyBallFoil, petToyBallPlastic">
+      <!--List of metador names for cat toys that can go in in pet toy crate-->
+    </kMedatorCatToyNames>
+    <kInitialNumberOfDogToys value="3">
+      <!--Number of dog toys the pet toy crate comes stocked with when purchased from the catalog. If this number is greater than the total number in kMetadorDogToyNames you will only get as many as there are metador names for-->
+    </kInitialNumberOfDogToys>
+    <kMedatorDogToyNames value="chewToyNewspaper, chewToyBone, chewToyHotDog">
+      <!--List of metador names for dog toys that can go in in pet toy crate-->
+    </kMedatorDogToyNames>
+    <kNumToysForFullGeoState value="6">
+      <!--Number of toys in crate before it shows the full geo state-->
+    </kNumToysForFullGeoState>
+  </Current_Tuning>
+</base>

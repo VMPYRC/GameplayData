@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLTRToAcceptGift value="40">
+      <!--Relationship score required for sim to accept given gift-->
+    </kLTRToAcceptGift>
+    <kLTRToSuperAcceptGift value="90">
+      <!--Relationship score at which the super excited accept TNS will display-->
+    </kLTRToSuperAcceptGift>
+    <kValueForCommitmentIssueHateGift value="200">
+      <!--Gifts worth over this amount will be hated by Sims with Commitment Issues trait-->
+    </kValueForCommitmentIssueHateGift>
+    <kValueForSnobHateGift value="400">
+      <!--Gifts worth under this amount will be hated by Sims with Snob trait-->
+    </kValueForSnobHateGift>
+    <kComfyScoreToLoveGift value="20">
+      <!--Gifts with a comfy score above this will be loved by Sims with Comfy trait-->
+    </kComfyScoreToLoveGift>
+    <kChanceSpoiledRejectBecauseOfValue value="50">
+      <!--Range:  0 - 100  Description:  Chance of sim with spoiled buff rejecting gift if its below kValueForSpoiledToAccept value-->
+    </kChanceSpoiledRejectBecauseOfValue>
+    <kChanceSpoiledRejectBecauseAlreadyHave value="75">
+      <!--Range:  0 - 100  Description:  Chance of sim with spoiled buff reacting gift if they already have it-->
+    </kChanceSpoiledRejectBecauseAlreadyHave>
+    <kValueForSpoiledToAccept value="100">
+      <!--Gifts above this value will be accepted by sims with spoiled buff-->
+    </kValueForSpoiledToAccept>
+    <kNumMinsToGetSpoiledBuff value="120">
+      <!--Number of Sim Minutes Child must get kNumberGiftsToGetSpoiledBuff gift's to get spoiled buff-->
+    </kNumMinsToGetSpoiledBuff>
+    <kNumberGiftsToGetSpoiledBuff value="3">
+      <!--Number of Gifts sim must get within kNumMinsToGetSpoiledBuff minutes to get spoiled buff-->
+    </kNumberGiftsToGetSpoiledBuff>
+  </Current_Tuning>
+</base>

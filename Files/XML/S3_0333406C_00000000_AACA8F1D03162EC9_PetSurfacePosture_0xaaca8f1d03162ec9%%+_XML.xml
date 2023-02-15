@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnergyGainPerHour value="5">
+      <!--Range: Positive floats.  Description: Increase in Energy per sim hour while pet is sitting on a surface.-->
+    </kEnergyGainPerHour>
+    <kPostureSwitcherTuning>
+      <kSwitchTimeMinutesMin value="10">
+        <!--Posture will switch at a random time between kSwitchTimeMinutesMin and kSwitchTimeMinutesMax-->
+      </kSwitchTimeMinutesMin>
+      <kSwitchTimeMinutesMax value="20">
+        <!--Posture will switch at a random time between kSwitchTimeMinutesMin and kSwitchTimeMinutesMax-->
+      </kSwitchTimeMinutesMax>
+    </kPostureSwitcherTuning>
+    <kTimeToStayInPeSurfacePosture value="60">
+      <!--If Pet autonomously chooses to sit on a surface or lay down on the floor this is the number of sim minutes they will only consider interactions from lay down pose when choosing something to do autonomously.-->
+    </kTimeToStayInPeSurfacePosture>
+  </Current_Tuning>
+</base>

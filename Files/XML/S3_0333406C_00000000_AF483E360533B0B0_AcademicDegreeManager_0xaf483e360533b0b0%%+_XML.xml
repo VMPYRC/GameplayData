@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNeedBasedGrantMaxFundsToQualify value="500">
+      <!--The max household funds for which a university needs based grant will be awarded-->
+    </kNeedBasedGrantMaxFundsToQualify>
+    <kHonorsScholarshipAmount value="10000">
+      <!--Per Sim honors scholarship stipend amount-->
+    </kHonorsScholarshipAmount>
+    <kFullScholarshipAmount value="2500">
+      <!--Per Sim full scholarship stipend amount-->
+    </kFullScholarshipAmount>
+    <kPartialScholarshipAmount value="1000">
+      <!--Per Sim partial scholarship stipend amount-->
+    </kPartialScholarshipAmount>
+    <kNeedBasedGrantAmount value="750">
+      <!--Per Sim need based grant stipend amount-->
+    </kNeedBasedGrantAmount>
+    <kHonorsScholarshipAwardedCretitsPercent value="0">
+      <!--Per Sim honors scholarship percentage(0 to 100) of credits awarded-->
+    </kHonorsScholarshipAwardedCretitsPercent>
+    <kFullScholarshipAwardedCretitsPercent value="0">
+      <!--Per Sim full scholarship percentage(0 to 100) of credits awarded-->
+    </kFullScholarshipAwardedCretitsPercent>
+    <kPartialScholarshipAwardedCretitsPercent value="0">
+      <!--Per Sim partial scholarship percentage(0 to 100) of credits awarded-->
+    </kPartialScholarshipAwardedCretitsPercent>
+    <kNeedBasedGrantAwardedCretitsPercent value="0">
+      <!--Per Sim need based grant percentage(0 to 100) of credits awarded-->
+    </kNeedBasedGrantAwardedCretitsPercent>
+    <kPartialScholarshipThreshold value="1200">
+      <!--SUAT Score at which Partial scholarship is granted-->
+    </kPartialScholarshipThreshold>
+    <kFullScholarshipThreshold value="1800">
+      <!--SUAT Score at which Full scholarship is granted-->
+    </kFullScholarshipThreshold>
+    <kBonusLowCredit value="1, 1, 1, 1, 1, 1">
+      <!--Low Threshold Bonus credit award based on SUAT subscore.-->
+    </kBonusLowCredit>
+    <kBonusHighCredit value="3, 3, 3, 3, 3, 3">
+      <!--High Threshold Bonus credit award based on SUAT subscore.-->
+    </kBonusHighCredit>
+    <kLowThresholdCreditAward value="250, 250, 250, 250, 250, 250">
+      <!--SUAT score threshold that gives you a low credit award. In this order - Business,Technology,Science,FineArts,Communications,PhysEd-->
+    </kLowThresholdCreditAward>
+    <kHighThresholdCreditAward value="360, 360, 360, 360, 360, 360">
+      <!--SUAT score threshold that gives you a high credit award. In this order - Business,Technology,Science,FineArts,Communications,PhysEd-->
+    </kHighThresholdCreditAward>
+    <kWeightBase value="1">
+      <!--AcademicDegree Random Selection base weight for each degree candidate-->
+    </kWeightBase>
+    <kWeightLastStudiedDegree value="2">
+      <!--AcademicDegree Random Selection weight if the candidate degree is the last studied degree-->
+    </kWeightLastStudiedDegree>
+    <kWeightUnfinishedDegree value="2">
+      <!--AcademicDegree Random Selection weight if the candidate degree is a degree that was started but not finished-->
+    </kWeightUnfinishedDegree>
+    <kWeightUnfinishedDegreePerCourse value="1">
+      <!--AcademicDegree Random Selection weight for each course completed towards the unfinished candidate degree-->
+    </kWeightUnfinishedDegreePerCourse>
+    <kWeightCurrentOccupation value="1">
+      <!--AcademicDegree Random Selection weight for being currently employed in an associated occupation-->
+    </kWeightCurrentOccupation>
+    <kWeightCurrentOccupationPerLevel value="1">
+      <!--AcademicDegree Random Selection weight for each career level when currently employed in an associated occupation-->
+    </kWeightCurrentOccupationPerLevel>
+    <kWeightRetiredOccupation value="1">
+      <!--AcademicDegree Random Selection weight when retired from an associated occupation-->
+    </kWeightRetiredOccupation>
+    <kWeightRetiredOccupationPerLevel value="1">
+      <!--AcademicDegree Random Selection weight for each career level when retired from an associated occupation-->
+    </kWeightRetiredOccupationPerLevel>
+    <kWeightSkill value="1">
+      <!--AcademicDegree Random Selection weight for each associated skill that the Sim has-->
+    </kWeightSkill>
+    <kWeightSkillPerLevel value="1">
+      <!--AcademicDegree Random Selection weight per skill level for each associated skill that the Sim has-->
+    </kWeightSkillPerLevel>
+    <kCompletedDegreeBonusCredit value="0.25">
+      <!--Range 0-1: Bonus credit awarded to other degrees, if at least one degree is completed-->
+    </kCompletedDegreeBonusCredit>
+    <kBonusCreditCuttoff value="0.85">
+      <!--Range 0-1: Ratio of credits to required credits at which no more bonus will be awarded-->
+    </kBonusCreditCuttoff>
+  </Current_Tuning>
+</base>

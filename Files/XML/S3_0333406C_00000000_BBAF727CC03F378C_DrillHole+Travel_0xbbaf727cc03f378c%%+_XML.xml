@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTravelTimeMultiplier value="0.1">
+      <!--Multiplies the distance between the two holes to calculate a time in sim minutes to travel there.-->
+    </kTravelTimeMultiplier>
+    <kTravelTimeBounds value="10, 60">
+      <!--Regardless of the distance between the holes, sims will always travel between holes within these bounds.-->
+    </kTravelTimeBounds>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRadialRouteRange value="1, 1.2">
+      <!--When performing a radial route to jump on an object, this is the minimum and maximum distance from the containment slot to try to route to.-->
+    </kRadialRouteRange>
+    <kRadialRoutePreferedSpacing value="0.1">
+      <!--When performing a radial route to jump on an object, this is the granularity for the route.  Lower numbers will mean the cat will route closer to the object, but increase the chance of clipping.  Higher numbers mean the cat might not be able to route to a slot even though it appears that there's enough space.-->
+    </kRadialRoutePreferedSpacing>
+    <kChanceForFailureAnimation value="0.05, 0.3, 0.7">
+      <!--Chance of performing the jump off fail animation for {lower chance traits, normal pets, high chance traits}.  Pets with higher chance traits and lower chance traits, will always use the higher chance of failure.-->
+    </kChanceForFailureAnimation>
+    <kLowerChanceOfFailTraits value="AdventurousPet, IndependentPet, AgilePet">
+      <!--When performing a radial route to jump on an object, this is the minimum and maximum distance from the containment slot to try to route to.-->
+    </kLowerChanceOfFailTraits>
+    <kHigherChanceOfFailTraits value="LazyPet, CluelessPet, SkittishPet">
+      <!--When performing a radial route to jump on an object, this is the minimum and maximum distance from the containment slot to try to route to.-->
+    </kHigherChanceOfFailTraits>
+    <kLargeDogBedRoutingMinMaxRadius value="0.7, 2">
+      <!--When the large dog is pre routing to the bed, this is the minimum and maximum radius to route to in order to prevent turn clipping with the bed.-->
+    </kLargeDogBedRoutingMinMaxRadius>
+    <kLargeDogBedRoutingConeAngle value="0.7">
+      <!--When the large dog is pre routing to the bed, this is the cone angle from the routing slot to radially route to in order to prevent turn clipping with the bed.-->
+    </kLargeDogBedRoutingConeAngle>
+  </Current_Tuning>
+</base>

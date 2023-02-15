@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinutesForGoingForJoyride value="30">
+      <!--Minutes:  Description: Minutes the child requires to stay in the GoForJoyride loop animation to get the buff-->
+    </kMinutesForGoingForJoyride>
+    <kFrequencyToUpdateLtrDuringJoyride value="5">
+      <!--Frequency at which we expect the liking to increase during Go For Joyride. Positive float. Units: Sim Minutes. Initial GPE default: 5f.-->
+    </kFrequencyToUpdateLtrDuringJoyride>
+    <kLtrIncreaseDuringJoyRide value="2">
+      <!--During go for joyride, we provide this increase in the liking for a given frequency. Positive float. Initial GPE default: 3f.-->
+    </kLtrIncreaseDuringJoyRide>
+    <kMaxRadiusForLtr value="5">
+      <!--Radius for finding other sims doing Go For Joyride. Positive float. Initial GPE default: 4f.-->
+    </kMaxRadiusForLtr>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kProximityStopThreshold value="10">
+      <!--Range: Positive float values.  Description:  Proximity in meters at which we will stop considering a Sim for inclusion on the visitor skewer (if they are not on the same lot)-->
+    </kProximityStopThreshold>
+    <kRealTimeProximityCheckPeriod value="2">
+      <!--Range: Positive float values.  Description:  Period in real (not Sim) seconds for when we will query for proximate Sims-->
+    </kRealTimeProximityCheckPeriod>
+    <kSimTimeProximityCheckPeriod value="5">
+      <!--Range: Positive float values.  Description:  Period in Sim minutes for when we query for proximate Sims-->
+    </kSimTimeProximityCheckPeriod>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

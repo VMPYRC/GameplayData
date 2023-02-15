@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxDistanceBetwenWalls value="10">
+      <!--Positive float. Max distance second wall needs to be to race. In meters-->
+    </kMaxDistanceBetwenWalls>
+    <kMaxTimeWaitForRace value="30">
+      <!--Positive float. Max time sim will wait for other sim to come to race. sim minutes-->
+    </kMaxTimeWaitForRace>
+    <kChanceOfFalling value="0.01, 0.02, 0.1, 0.65, 0.9">
+      <!--Floats in range 0 to 1.  Index 0 - The chance you will fall when you are on a wall 2 difficulty levels below your level.  Index 1 - 1 level below.  Index 2 - At your level.  Index 3 - 1 level above.  Index 4 - 2 difficulty levels above your level.-->
+    </kChanceOfFalling>
+    <kChanceOfFatiguedBuff value="0.01, 0.02, 0.1, 0.65, 0.9">
+      <!--Floats in range 0 to 1.  Index 0 - The chance you will get the Fatigued buff when Training on a wall 2 difficulty levels below your level.  Index 1 - 1 level below.  Index 2 - At your level.  Index 3 - 1 level above.  Index 4 - 2 difficulty levels above your level.-->
+    </kChanceOfFatiguedBuff>
+    <kChanceOfPumpedBuff value="0.1, 0.4, 0.8">
+      <!--Floats in range 0 to 1.  Index 0 - The chance you will get the Pumped buff when on a wall 2 difficulty levels below your level.  Index 1 - 1 level below.  Index 2 - At your level.-->
+    </kChanceOfPumpedBuff>
+    <kMinEnergyToUseWall value="-50">
+      <!--Float.  This is the minimun energy the sim should have to be able to use the wall-->
+    </kMinEnergyToUseWall>
+    <kTrainingShortDuration value="100">
+      <!--Positive float.  Short duration of train interaction.-->
+    </kTrainingShortDuration>
+    <kTrainingLongDuration value="300">
+      <!--Positive float.  Long duration of train interaction.-->
+    </kTrainingLongDuration>
+    <kClimbingAthleticSkillMultiplier value="1, 2, 2.5, 3, 5">
+      <!--Positive floats.  Index 0 - Multipliers for your athletic skill gain while climbing.  Index 1 - 1 level below.  Index 2 - At your level.  Index 3 - 1 level above.  Index 4 - 2 difficulty levels above your level.-->
+    </kClimbingAthleticSkillMultiplier>
+    <kTrainingAthleticSkillMultiplier value="1, 2, 3, 4, 5">
+      <!--Positive floats.  Index 0 - Multipliers for your athletic skill gain while training.  Indexes according to Tones-->
+    </kTrainingAthleticSkillMultiplier>
+    <kTrainingFunMultiplier value="1, 1.5, 2, 2.5, 3">
+      <!--Positive floats.  Index 0 - Multipliers for the fun commodity setup on the interaction tuning.  Indexes according to Tones-->
+    </kTrainingFunMultiplier>
+    <kWinRaceSimoleons value="100">
+      <!--Range:  +ints  Description:  Simoleons gained when winnning a race-->
+    </kWinRaceSimoleons>
+    <kTimeForBellFX value="3">
+      <!--Positive float. Max time sim Bell FX will play after sim is done with wall. sim minutes-->
+    </kTimeForBellFX>
+    <kToneAthleticLevelNeeded value="2, 5, 8">
+      <!--Ints in range 0 to 10.  Barrier for unlocking the avaliability of rock climbing tones, there are 4 total.-->
+    </kToneAthleticLevelNeeded>
+    <kDaysToReachCardioShape value="0.5">
+      <!--Range: Positive floats.  Description:  The time in Sim days it takes a Sim to reach full cardio shape from the fully fat shape.-->
+    </kDaysToReachCardioShape>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxNumStudentsToBring value="4">
+      <!--Maximum Number of students to bring-->
+    </kMaxNumStudentsToBring>
+    <kRelationshipPerHour value="1">
+      <!--Relationship increase per hour-->
+    </kRelationshipPerHour>
+    <kBaseChanceForReward value="0.75">
+      <!--Base chance of getting a reward. 0.0 - 1.0-->
+    </kBaseChanceForReward>
+    <kGradeRequiredForReward value="1">
+      <!--Required grade to receive reward. 0=A, 1=B, 2=C, 3=D, 4=F-->
+    </kGradeRequiredForReward>
+    <kMoodRequiredForReward value="25">
+      <!--Required mood value to receive reward. range: -100 - 150, bad: -100 - -10, fair: -9 - 10, good: 11 - 150, super mood bar: 50 - 150, NOTE: These values might change! Check MoodManager tuning file for current values!!-->
+    </kMoodRequiredForReward>
+  </Current_Tuning>
+</base>

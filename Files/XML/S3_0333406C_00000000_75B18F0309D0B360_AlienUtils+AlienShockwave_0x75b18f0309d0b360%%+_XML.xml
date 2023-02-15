@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kShockwaveDistance value="15">
+      <!--Valid Sims within this distance, on the same lot, will have shockwave effects applied to them.-->
+    </kShockwaveDistance>
+    <kABPGainActor value="50">
+      <!--The amount of Alien Brain Power the actor will receive.-->
+    </kABPGainActor>
+    <kABPGainOther value="25">
+      <!--The amount of Alien Brain Power other aliens within the shockwave distance will receive.  Can be positive, negative or 0.-->
+    </kABPGainOther>
+    <kBreakObjectChance value="0.5">
+      <!--Range: 0.0 - 1.0.  The percent chance a breakable object within the shockwave will break.  This chance is rolled on a per object basis.-->
+    </kBreakObjectChance>
+    <kHumanReactions value="FreakOut, Nauseous, BadNoise, HeadPain">
+      <!--Human Sims will play one of these reactions if within range.-->
+    </kHumanReactions>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kToddlerRouteToCaregiverMinRadius value="1">
+      <!--When routing to a caregiver, the minimum radius for the destination.-->
+    </kToddlerRouteToCaregiverMinRadius>
+    <kToddlerRouteToCaregiverMaxRadius value="3">
+      <!--When routing to a caregiver, the maximum radius for the destination.-->
+    </kToddlerRouteToCaregiverMaxRadius>
+    <kAutonomyScoreMultiplier value="0.01" />
+    <kToddlerWanderMaxInterLotRouteLength value="15">
+      <!--When a route to a caregiver would cross a lot boundary and the route is longer than this value the toddler will teleport instead. (Prevents toddlers routing down the street.)-->
+    </kToddlerWanderMaxInterLotRouteLength>
+  </Current_Tuning>
+</base>

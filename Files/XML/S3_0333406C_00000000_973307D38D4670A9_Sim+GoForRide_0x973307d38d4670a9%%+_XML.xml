@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPathLengthTuning>
+      <fTotalLengthTarget value="500">
+        <!--The target total length of the run around path in meters.-->
+      </fTotalLengthTarget>
+      <fSubPathLengthMin value="60">
+        <!--The minimum length of a sub path in meters.-->
+      </fSubPathLengthMin>
+      <fSubPathLengthMax value="120">
+        <!--The maximum length of a sub path in meters.-->
+      </fSubPathLengthMax>
+      <fSubPathDirectionChangeConeAngleDegrees value="120">
+        <!--The maximum angle deviation of a sub path in degrees.-->
+      </fSubPathDirectionChangeConeAngleDegrees>
+    </kPathLengthTuning>
+    <kMinTimeBeforeSatisfyingWish value="30">
+      <!--Float. How long a Sim must do this interaction before satisfying the Go For Ride wish.-->
+    </kMinTimeBeforeSatisfyingWish>
+  </Current_Tuning>
+</base>

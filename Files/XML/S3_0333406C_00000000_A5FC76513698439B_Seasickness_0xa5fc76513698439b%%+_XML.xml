@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSeasicknessCheckInterval value="120">
+      <!--Unit: Sim minutes; Interval at which we check to see if the sim should get the seasickness buff. GPE default: 30-->
+    </kSeasicknessCheckInterval>
+    <kSeasicknessChance value="0.125">
+      <!--Range: 0-1.0; Chance to add seasickness buff at each interval. GPE default: .25-->
+    </kSeasicknessChance>
+  </Current_Tuning>
+</base>

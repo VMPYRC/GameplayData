@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPotionProdigyRequiredNumberOfPotions value="150">
+      <!--Range:  positive integer  Description:  The Number of Potions required to be created in order to achieve Potion Prodigy Challenge-->
+    </kPotionProdigyRequiredNumberOfPotions>
+    <kPotionProdigyCreatePotionBonus value="3">
+      <!--Range:  positive integer  Description:  The Total Number of Potions that will be created each Mix Potions interaction after achieving Potion Prodigy Challenge-->
+    </kPotionProdigyCreatePotionBonus>
+    <kMasterAlchemistPotionShopDiscount value="0.25">
+      <!--Range:  0-1.0 float;  Description:  The percentage discount to the cost of items purchased at the Potion Shop after achieving Master Alchemist Challenge; 0.25 is 25% off-->
+    </kMasterAlchemistPotionShopDiscount>
+    <kAlchemistsAnonymousRequiredNumberOfPotionsThrown value="50">
+      <!--Range:  positive integer  Description:  The Number of Potions Thrown at others in order to achieve Master Alchemist Challenge-->
+    </kAlchemistsAnonymousRequiredNumberOfPotionsThrown>
+    <kAlchemistsAnonymousHarmfulPotionLTRMultiplier value="2.0">
+      <!--Range:  Positive float;  Description:  The multiplier applied to the LTR effect when throwing harmful potions at others after achieving Master Alchemist Challenge-->
+    </kAlchemistsAnonymousHarmfulPotionLTRMultiplier>
+    <kAlchemistsAnonymousBeneficialPotionLTRMultiplier value="2.0">
+      <!--Range: Positive float;  Description: The multiplier applied to the LTR effect when throwing beneficial potions at others after achieving Master Alchemist Challenge-->
+    </kAlchemistsAnonymousBeneficialPotionLTRMultiplier>
+    <kMasterAlchemistIngredientNotConsumedChance value="0.25">
+      <!--Range:  0-1.0 float;  Description:  The percentage chance for each ingredient to not be consumed when creating alchemy objects. This is a bonus for achieving Master Alchemist Challenge; 0.25 is 25% chance-->
+    </kMasterAlchemistIngredientNotConsumedChance>
+    <kWitchPotionShopDiscount value="0.10">
+      <!--Range:  0-1.0 float;  Description:  The percentage discount to the cost of items purchased at the Potion Shop if sim is a witch-->
+    </kWitchPotionShopDiscount>
+    <kLevelOneRewards value="Harvestable#Red Valerian#2, Harvestable#Mandrake#2, Harvestable#Wolfsbane#2, Harvestable#Red Toadstools#2">
+      <!--Comma-separated List of Reward Parser Commands. Description: This is list of commands processed by the Rewards Parser that will be given to the Sim as soon as the Sim reaches Spellcraft Level 1. The Rewards Parser commands normally use commas to indicate parameters, but Tunables interpret commas different, so for each Rewards Parser command use # instead of a comma.-->
+    </kLevelOneRewards>
+  </Current_Tuning>
+</base>

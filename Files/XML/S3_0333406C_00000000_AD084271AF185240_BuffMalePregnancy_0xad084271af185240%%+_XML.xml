@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFatnessUpdateFrequency value="120">
+      <!--How frequently the Sim's fatness should be updated in Sim minutes.-->
+    </kFatnessUpdateFrequency>
+    <kFatnessUpdatePercentage value="0.05">
+      <!--Range: Fat percentage.  Description:  Fat percentage gain when the Sim's fatness is updated every kFatnessUpdateFrequency minutes.-->
+    </kFatnessUpdatePercentage>
+    <kTimeElapsedForPregnantWalk value="1440">
+      <!--After the Sim has the buff for this many Sim minutes they will start using the pregnancy walk style.-->
+    </kTimeElapsedForPregnantWalk>
+    <kFatnessMax value="1.05">
+      <!--Through normal gameplay a Sim can reach a fatness of 1.0  This is the max fatness a Sim can become from Male Pregnancy.  We can't let them become too fat because animations will break and clipping will occur.-->
+    </kFatnessMax>
+  </Current_Tuning>
+</base>

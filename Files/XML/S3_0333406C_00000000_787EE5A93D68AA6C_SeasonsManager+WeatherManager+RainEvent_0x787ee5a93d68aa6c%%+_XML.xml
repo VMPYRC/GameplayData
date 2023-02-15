@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCloseThreshold value="200">
+      <!--Float. Points within this distance of the edge of the town is considered close distance-->
+    </kCloseThreshold>
+    <kMedThreshold value="400">
+      <!--Float. Points within this distance of the edge of the town is considered medium distance-->
+    </kMedThreshold>
+    <kFarThreshold value="600">
+      <!--Float. Points within this distance of the edge of the town is considered far distance-->
+    </kFarThreshold>
+    <kCloseThunderDelay value="0">
+      <!--Float. Sim minutes between lightning and thunder when lightning is close-->
+    </kCloseThunderDelay>
+    <kMedThunderDelay value="0.5">
+      <!--Float. Sim minutes between lightning and thunder when lightning is medium distance away-->
+    </kMedThunderDelay>
+    <kFarThunderDelay value="2">
+      <!--Float. Sim minutes between lightning and thunder when lightning is far distance away-->
+    </kFarThunderDelay>
+    <kMinTimeBetweenLightning value="15">
+      <!--Float. Min Sim minutes between lightning-->
+    </kMinTimeBetweenLightning>
+    <kMaxTimeBetweenLightning value="45">
+      <!--Float. Max Sim minutes between lightning-->
+    </kMaxTimeBetweenLightning>
+    <kEvilThunderReactChance value="1">
+      <!--Float 0-1. Chance an evil Sim will laugh evilly when thunder goes off-->
+    </kEvilThunderReactChance>
+    <kChanceForceLightningOnFocusLot value="15">
+      <!--Float 0-100. Chance that a lightning strike inside town will be forced to be on the current focus lot. Setting the default high (75%) for testing purposes.-->
+    </kChanceForceLightningOnFocusLot>
+    <kLightningStrikeTypeWeights value="1, 1, 5">
+      <!--Float 0-100. Lightning strike weights for each type of strike on the focus lot: [Sim, Object, Terrain]-->
+    </kLightningStrikeTypeWeights>
+    <kLuckyUnluckyWeightChange value="0.75">
+      <!--Positive float. Change to the weight (default value is 1.0) to be picked as the target of lightning if lucky/unlucky (minus/plus).-->
+    </kLuckyUnluckyWeightChange>
+    <kLightningCameraShakeIntensity value="0.2">
+      <!--Range: float 0-1. Description:  When lightning strikes, camera will shake with this intensity-->
+    </kLightningCameraShakeIntensity>
+    <kLightningCameraShakeDuration value="1">
+      <!--Range: positive floats in sim minutes. Description:  When lightning strikes, the camera will shake for this duration.-->
+    </kLightningCameraShakeDuration>
+    <kTraitsThatReactNervouslyToThunder value="Coward, Excitable, Insane, Neurotic">
+      <!--TraitNames[]. Sims with these traits will react nervously when thunder goes off-->
+    </kTraitsThatReactNervouslyToThunder>
+    <kNervousThunderReactions value="FreakOut, Scared, Shiver, Shocked, Startled, TraitCoward, TraitCoward2">
+      <!--ReactionTypes[]. Reactions for Sims when thunder goes off-->
+    </kNervousThunderReactions>
+    <kChanceOfRainbow value="50">
+      <!--Float 0-100. Chance that a rainbow will appear.-->
+    </kChanceOfRainbow>
+    <kMinimumPrecipitationIntensityForLightning value="Moderate">
+      <!--PrecipitationIntensity. The minimum intensity of rain to cause lightning. (values are: None, Light, Moderate, Heavy)-->
+    </kMinimumPrecipitationIntensityForLightning>
+    <kTimeBetweenPuttingOutFires value="10">
+      <!--Float. Sim minutes between putting out fires during rain-->
+    </kTimeBetweenPuttingOutFires>
+    <kMinimumPrecipitationIntensityForLightningStrikes value="Heavy">
+      <!--PrecipitationIntensity. The minimum intensity of rain to cause in-world lightning strikes. (values are: None, Light, Moderate, Heavy)-->
+    </kMinimumPrecipitationIntensityForLightningStrikes>
+  </Current_Tuning>
+</base>

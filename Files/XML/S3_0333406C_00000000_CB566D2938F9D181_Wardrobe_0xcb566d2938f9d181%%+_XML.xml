@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPossibleOutfitsAfterWooHoo value="Everyday, Formalwear, Sleepwear, Swimwear, Athletic">
+      <!--The possible outfit categories sims can switch into while woohooing in a wardrobe-->
+    </kPossibleOutfitsAfterWooHoo>
+    <kBabyMadeChance value="50">
+      <!--Range: 0-100. Chance of Sim getting Pregnant on TryForBaby.-->
+    </kBabyMadeChance>
+    <kAppropriatenessPenalty value="3.5">
+      <!--Appropriateness Penalty for woohooing on someone else's lot-->
+    </kAppropriatenessPenalty>
+    <kUpgradeSpellcastingLevel value="3">
+      <!--Level of spellcasting a witch must have in order to Upgrade the Wardrobe to a MagicWardrobe.-->
+    </kUpgradeSpellcastingLevel>
+    <kUpgradeTime value="15">
+      <!--Time in Sim Minutes that it takes to Upgrade a Wardrobe to a MagicWardrobe. default 30-->
+    </kUpgradeTime>
+    <kMinTimeBetweenAdventureEvents value="5">
+      <!--TextAdvanture: Minimum time in Sim minutes between adventure events-->
+    </kMinTimeBetweenAdventureEvents>
+    <kMaxTimeBetweenAdventureEvents value="10">
+      <!--TextAdvanture: Maximum time in Sim minutes between adventure events-->
+    </kMaxTimeBetweenAdventureEvents>
+    <kSkillCheckThreshold value="1, 2, 3">
+      <!--TextAdvanture: Skill check threshold. In order of levels.-->
+    </kSkillCheckThreshold>
+    <kMoodCheckThreshold value="10, 20, 30">
+      <!--TextAdvanture: Mood check threshold. In order of levels.-->
+    </kMoodCheckThreshold>
+    <kMoodWeight value="2">
+      <!--TextAdvanture: Mood Check Weight-->
+    </kMoodWeight>
+    <kSkillWeight value="7">
+      <!--TextAdvanture: Skill Check Weight-->
+    </kSkillWeight>
+    <kRandomWeight value="1">
+      <!--TextAdvanture: Random Check Weight-->
+    </kRandomWeight>
+    <kChanceOfHint value="20">
+      <!--TextAdvanture: Chance of showing a specific hint if fail. i.e. if it was because of mood, This is the chance a TNS will say so. (1:100)-->
+    </kChanceOfHint>
+    <kChanceOfCollectables value="100">
+      <!--TextAdvanture: Chance of a sim returning from the magic portal with 3 random collectables. (1:100)-->
+    </kChanceOfCollectables>
+    <kMedatorCollectables value="BaseGame paintingFairyTaleFantasy, BaseGame flamingo, EP7 sculptureJarOddityBunny, EP7 sculptureTableAntiqueBustFemale, EP7 teddyBearAntiqueWizard, EP7 paintingChangingPortraitWitch, EP7 magicBroomExpensive, BaseGame gem, BaseGame seed, BaseGame fish, BaseGame beetle, BaseGame butterfly">
+      <!--TextAdvanture: List of Medator instance names and product versions that may come out of the protal with the sim. Example 'BaseGame RubberDuck'. There are special keywords that trigger special functionality. those are beetle, butterfly, seed, gem, and fish.-->
+    </kMedatorCollectables>
+    <kCollectableWeights value="1, 1, 1, 1, 1, 1, 1, 2, 4, 4, 4, 4">
+      <!--TextAdvanture: Weights for medator instances-->
+    </kCollectableWeights>
+    <kChanceOfRandomSuccess value="50">
+      <!--TextAdvanture: Chance of a sim continuing in the adventure if the RandomCheck is used.-->
+    </kChanceOfRandomSuccess>
+    <kAdditionalChanceOfLuckySims value="20">
+      <!--TextAdvanture: Additional chance of lucky sim continuing in the adventure when RandomCheck is used.-->
+    </kAdditionalChanceOfLuckySims>
+    <kMinUpgradeRadius value="2">
+      <!--Minimum radius a witch sim will stand when attempting to upgrade the wardrobe-->
+    </kMinUpgradeRadius>
+    <kMaxUpgradeRadius value="5">
+      <!--Maximum radius a witch sim will stand when attempting to upgrade the wardrobe-->
+    </kMaxUpgradeRadius>
+  </Current_Tuning>
+</base>

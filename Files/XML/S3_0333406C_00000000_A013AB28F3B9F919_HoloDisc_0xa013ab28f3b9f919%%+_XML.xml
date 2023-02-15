@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSpriteMoodThreshold value="10, 75">
+      <!--Range: 0-100.  Description: Thresholds for the Sprite's mood [medium, high].-->
+    </kSpriteMoodThreshold>
+    <kMoodDecayPerHour value="5">
+      <!--Range: Negative Float.  Description: Mood decay per hour.-->
+    </kMoodDecayPerHour>
+    <kSpriteNeedDuration value="0.5">
+      <!--Range: Hours.  Description: Length of time a Sim has to satisfy a Sprite's need.-->
+    </kSpriteNeedDuration>
+    <kSatisfyNeedMoodMultiplier value="2">
+      <!--Range: Float.  Description: Multiplier applied to mood bump when interaction satisfies a sprite's need.-->
+    </kSatisfyNeedMoodMultiplier>
+  </Current_Tuning>
+</base>

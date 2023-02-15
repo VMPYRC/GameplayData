@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<TV>
+<TVChannel>
+  <Channel_Name></Channel_Name>
+  <Channel_Level></Channel_Level>
+  <Video_File_Names></Video_File_Names>
+  <Video_File_Names_BW></Video_File_Names_BW>
+  <Video_File_Names_EP1></Video_File_Names_EP1>
+  <Video_File_Names_EP8></Video_File_Names_EP8>
+  <Associated_Traits></Associated_Traits>
+  <Effect_On_Skill></Effect_On_Skill>
+  <Sync_Event_Name></Sync_Event_Name>
+  <Buff_Prereq></Buff_Prereq>
+  <Target_Buff></Target_Buff>
+  <IsRomanticChannel>0</IsRomanticChannel>
+  <IsWorkOutChannel>0</IsWorkOutChannel>
+  <IsHorrorChannel>0</IsHorrorChannel>
+  <IsKidsChannel>0</IsKidsChannel>
+  <IsSportsChannel>0</IsSportsChannel>
+  <TeachesRecepies>0</TeachesRecepies>
+  <IsVideoGameChannel>0</IsVideoGameChannel>
+  <IsHomeMovieChannel>0</IsHomeMovieChannel>
+  <IsWeatherChannel>0</IsWeatherChannel>
+ </TVChannel>
+<TVChannel>
+  <Channel_Name>ActionPlanet</Channel_Name>
+  <Channel_Level>Level1</Channel_Level>
+  <Video_File_Names>Sims3TV_Action, Sims3TV_Marooned</Video_File_Names>
+  <Video_File_Names_BW>Sims3TV_ActionBW, Sims3TV_MaroonedBW</Video_File_Names_BW>
+  <Associated_Traits>ComputerWhiz, Brave, Excitable, Daredevil, PartyAnimal</Associated_Traits>
+  <Sync_Event_Name>TheBigExplosion</Sync_Event_Name>
+  <Buff_Prereq>-</Buff_Prereq>
+  <Target_Buff>-</Target_Buff>
+ </TVChannel>
+<TVChannel>
+  <Channel_Name>SportsStation</Channel_Name>
+  <Channel_Level>Level1</Channel_Level>
+  <Video_File_Names>Sims3TV_Sports</Video_File_Names>
+  <Video_File_Names_BW>Sims3TV_SportsBW</Video_File_Names_BW>
+  <Associated_Traits>Athletic, Daredevil, PartyAnimal</Associated_Traits>
+  <Sync_Event_Name>TheBigPlay</Sync_Event_Name>
+  <Buff_Prereq>-</Buff_Prereq>
+  <Target_Buff>-</Target_Buff>
+  <IsSportsChannel>1</IsSportsChannel>
+ </TVChannel>
+<TVChannel>
+  <Channel_Name>RomanticRendezvous</Channel_Name>
+  <Channel_Level>Level1</Channel_Level>
+  <Video_File_Names>Sims3TV_Casablana, Sims3TV_Wedding</Video_File_Names>
+  <Video_File_Names_BW>Sims3TV_WeddingBW, Sims3TV_Casablana</Video_File_Names_BW>
+  <Associated_Traits>Artistic, Charismatic, Flirty, OverEmotional</Associated_Traits>
+  <Sync_Event_Name>RomanticEvent</Sync_Event_Name>
+  <Buff_Prereq>-</Buff_Prereq>
+  <Target_Buff>-</Target_Buff>
+  <IsRomanticChannel>1</IsRomanticChannel>
+ </TVChannel>
+<TVChannel>
+  <Channel_Name>KidZone</Channel_Name>
+  <Channel_Level>Level1</Channel_Level>
+  <Video_File_Names>Sims3TV_Kids</Video_File_Names>
+  <Video_File_Names_BW>Sims3TV_KidsBW</Video_File_Names_BW>
+  <Associated_Traits>Childish, AbsentMinded</Associated_Traits>
+  <Sync_Event_Name>-</Sync_Event_Name>
+  <Buff_Prereq>-</Buff_Prereq>
+  <Target_Buff>-</Target_Buff>
+  <IsKidsChannel>1</IsKidsChannel>
+ </TVChannel>
+<TVChannel>
+  <Channel_Name>SimCooking</Channel_Name>
+  <Channel_Level>Level2</Channel_Level>
+  <Video_File_Names>Sims3TV_Chef, Sims3TV_Cooking</Video_File_Names>
+  <Video_File_Names_BW>Sims3TV_ChefBW, Sims3TV_CookingBW</Video_File_Names_BW>
+  <Associated_Traits>CouchPotato, NaturalCook</Associated_Traits>
+  <Effect_On_Skill>Cooking</Effect_On_Skill>
+  <Sync_Event_Name>-</Sync_Event_Name>
+  <Buff_Prereq>-</Buff_Prereq>
+  <Target_Buff>-</Target_Buff>
+  <TeachesRecepies>1</TeachesRecepies>
+ </TVChannel>
+<TVChannel>
+  <Channel_Name>HouseOfHorrors</Channel_Name>
+  <Channel_Level>Level2</Channel_Level>
+  <Video_File_Names>Sims3TV_Horror, Sims3TV_Vampire</Video_File_Names>
+  <Video_File_Names_BW>Sims3TV_HorrorBW</Video_File_Names_BW>
+  <Associated_Traits>-</Associated_Traits>
+  <Sync_Event_Name>TheBigShocker</Sync_Event_Name>
+  <Buff_Prereq>Neurotic, Coward, OverEmotional</Buff_Prereq>
+  <Target_Buff>Scared</Target_Buff>
+  <IsHorrorChannel>1</IsHorrorChannel>
+ </TVChannel>
+<TVChannel>
+  <Channel_Name>GotGarden?</Channel_Name>
+  <Channel_Level>Level2</Channel_Level>
+  <Video_File_Names>Sims3TV_HomeDeco</Video_File_Names>
+  <Video_File_Names_BW>Sims3TV_HomeDecoBW</Video_File_Names_BW>
+  <Associated_Traits>GreenThumb, Vegetarian, LovesTheOutdoors</Associated_Traits>
+  <Effect_On_Skill>Gardening</Effect_On_Skill>
+  <Sync_Event_Name>-</Sync_Event_Name>
+  <Buff_Prereq>-</Buff_Prereq>
+  <Target_Buff>-</Target_Buff>
+ </TVChannel>
+<TVChannel>
+  <Channel_Name>TheHallOfHistory</Channel_Name>
+  <Channel_Level>Level3</Channel_Level>
+  <Video_File_Names>Sims3TV_History</Video_File_Names>
+  <Video_File_Names_BW>Sims3TV_HistoryBW</Video_File_Names_BW>
+  <Associated_Traits>Artistic, BookWorm, Genius, Workaholic</Associated_Traits>
+  <Sync_Event_Name>-</Sync_Event_Name>
+  <Buff_Prereq>-</Buff_Prereq>
+  <Target_Buff>-</Target_Buff>
+ </TVChannel>
+<TVChannel>
+  <Channel_Name>MasterFisher</Channel_Name>
+  <Channel_Level>Level3</Channel_Level>
+  <Video_File_Names>Sims3TV_Fishing</Video_File_Names>
+  <Video_File_Names_BW>Sims3TV_FishingBW</Video_File_Names_BW>
+  <Associated_Traits>LovesTheOutdoors</Associated_Traits>
+  <Effect_On_Skill>Fishing</Effect_On_Skill>
+  <Sync_Event_Name>-</Sync_Event_Name>
+  <Buff_Prereq>-</Buff_Prereq>
+  <Target_Buff>-</Target_Buff>
+ </TVChannel>
+<TVChannel>
+  <Channel_Name>SuperShoppingNetwork</Channel_Name>
+  <Channel_Level>Level4</Channel_Level>
+  <Video_File_Names>Sims3TV_HSN</Video_File_Names>
+  <Video_File_Names_BW>Sims3TV_HSNBW</Video_File_Names_BW>
+  <Associated_Traits>Snob, CouchPotato</Associated_Traits>
+  <Sync_Event_Name>-</Sync_Event_Name>
+  <Buff_Prereq>-</Buff_Prereq>
+  <Target_Buff>-</Target_Buff>
+ </TVChannel>
+<TVChannel>
+  <Channel_Name>WorkOutChannel</Channel_Name>
+  <Channel_Level>Level1</Channel_Level>
+  <Video_File_Names>Sims3TV_Workout</Video_File_Names>
+  <Video_File_Names_BW>Sims3TV_WorkoutBW</Video_File_Names_BW>
+  <Associated_Traits>-</Associated_Traits>
+  <Sync_Event_Name>-</Sync_Event_Name>
+  <Buff_Prereq>-</Buff_Prereq>
+  <Target_Buff>-</Target_Buff>
+  <IsWorkOutChannel>1</IsWorkOutChannel>
+ </TVChannel>
+<TVChannel>
+  <Channel_Name>VideoGame0</Channel_Name>
+  <Channel_Level>Level1</Channel_Level>
+  <Video_File_Names>Sims3VG_Burnout, Sims3VG_Football, Sims3VG_Skate</Video_File_Names>
+  <Video_File_Names_EP1>Sims3TV_Animals1,Sims3TV_Animals2</Video_File_Names_EP1>
+  <Associated_Traits>-</Associated_Traits>
+  <Sync_Event_Name>TheBigExplosionVGS</Sync_Event_Name>
+  <Buff_Prereq>-</Buff_Prereq>
+  <Target_Buff>-</Target_Buff>
+  <IsVideoGameChannel>1</IsVideoGameChannel>
+ </TVChannel>
+<TVChannel>
+  <Channel_Name>HomeMovie</Channel_Name>
+  <Channel_Level>Level1</Channel_Level>
+  <Video_File_Names>Sims3TV_Sports</Video_File_Names>
+  <Associated_Traits>-</Associated_Traits>
+  <Sync_Event_Name>-</Sync_Event_Name>
+  <Buff_Prereq>-</Buff_Prereq>
+  <Target_Buff>-</Target_Buff>
+  <IsHomeMovieChannel>1</IsHomeMovieChannel>
+ </TVChannel>
+<TVChannel>
+  <Channel_Name>Weather</Channel_Name>
+  <Channel_Level>Level1</Channel_Level>
+  <Video_File_Names_EP8>SPECIAL_CASED_IN_CODE</Video_File_Names_EP8>
+  <Associated_Traits>-</Associated_Traits>
+  <Sync_Event_Name>-</Sync_Event_Name>
+  <Buff_Prereq>-</Buff_Prereq>
+  <Target_Buff>-</Target_Buff>
+  <IsWeatherChannel>1</IsWeatherChannel>
+ </TVChannel>
+<SkillGain>
+  <Cooking></Cooking>
+  <Gardening></Gardening>
+  <Fishing></Fishing>
+  <Anything_to_Right>Not being used</Anything_to_Right>
+  <ChanceForElectrocution></ChanceForElectrocution>
+ </SkillGain>
+<SkillGain>
+  <Cooking>5</Cooking>
+  <Gardening>5</Gardening>
+  <Fishing>5</Fishing>
+  <ChanceForElectrocution>0.8</ChanceForElectrocution>
+ </SkillGain>
+<SkillGain>
+  <Cooking>5</Cooking>
+  <Gardening>5</Gardening>
+  <Fishing>5</Fishing>
+  <ChanceForElectrocution>0.8</ChanceForElectrocution>
+ </SkillGain>
+<SkillGain>
+  <Cooking>5</Cooking>
+  <Gardening>5</Gardening>
+  <Fishing>5</Fishing>
+  <ChanceForElectrocution>0.75</ChanceForElectrocution>
+ </SkillGain>
+<SkillGain>
+  <Cooking>5</Cooking>
+  <Gardening>5</Gardening>
+  <Fishing>5</Fishing>
+  <ChanceForElectrocution>0.65</ChanceForElectrocution>
+ </SkillGain>
+<SkillGain>
+  <Cooking>5</Cooking>
+  <Gardening>5</Gardening>
+  <Fishing>5</Fishing>
+  <ChanceForElectrocution>0.55</ChanceForElectrocution>
+ </SkillGain>
+<SkillGain>
+  <Cooking>5</Cooking>
+  <Gardening>5</Gardening>
+  <Fishing>5</Fishing>
+  <ChanceForElectrocution>0.25</ChanceForElectrocution>
+ </SkillGain>
+<SkillGain>
+  <Cooking>5</Cooking>
+  <Gardening>5</Gardening>
+  <Fishing>5</Fishing>
+  <ChanceForElectrocution>0.2</ChanceForElectrocution>
+ </SkillGain>
+<SkillGain>
+  <Cooking>5</Cooking>
+  <Gardening>5</Gardening>
+  <Fishing>5</Fishing>
+  <ChanceForElectrocution>0.2</ChanceForElectrocution>
+ </SkillGain>
+<SkillGain>
+  <Cooking>5</Cooking>
+  <Gardening>5</Gardening>
+  <Fishing>5</Fishing>
+  <ChanceForElectrocution>0.1</ChanceForElectrocution>
+ </SkillGain>
+<SkillGain>
+  <Cooking>5</Cooking>
+  <Gardening>5</Gardening>
+  <Fishing>5</Fishing>
+  <ChanceForElectrocution>0.1</ChanceForElectrocution>
+ </SkillGain>
+<SkillGain>
+  <Cooking>5</Cooking>
+  <Gardening>5</Gardening>
+  <Fishing>5</Fishing>
+  <ChanceForElectrocution>0.05</ChanceForElectrocution>
+ </SkillGain>
+<SyncEvents>
+  <Sync_Event_Name></Sync_Event_Name>
+  <Base_Frequency></Base_Frequency>
+  <Max_Addition_To_Base_Frequency></Max_Addition_To_Base_Frequency>
+  <Chance_Of_Playing_Sync_Event></Chance_Of_Playing_Sync_Event>
+  <One_Shot_State_Name></One_Shot_State_Name>
+ </SyncEvents>
+<SyncEvents>
+  <Sync_Event_Name>TheBigExplosion</Sync_Event_Name>
+  <Base_Frequency>45</Base_Frequency>
+  <Max_Addition_To_Base_Frequency>15</Max_Addition_To_Base_Frequency>
+  <Chance_Of_Playing_Sync_Event>0.65</Chance_Of_Playing_Sync_Event>
+  <One_Shot_State_Name>Sync_Event_Explosion</One_Shot_State_Name>
+ </SyncEvents>
+<SyncEvents>
+  <Sync_Event_Name>TheBigPlay</Sync_Event_Name>
+  <Base_Frequency>25</Base_Frequency>
+  <Max_Addition_To_Base_Frequency>5</Max_Addition_To_Base_Frequency>
+  <Chance_Of_Playing_Sync_Event>0.65</Chance_Of_Playing_Sync_Event>
+  <One_Shot_State_Name>Sync_Event_Big_Play</One_Shot_State_Name>
+ </SyncEvents>
+<SyncEvents>
+  <Sync_Event_Name>TheBigShocker</Sync_Event_Name>
+  <Base_Frequency>50</Base_Frequency>
+  <Max_Addition_To_Base_Frequency>10</Max_Addition_To_Base_Frequency>
+  <Chance_Of_Playing_Sync_Event>0.75</Chance_Of_Playing_Sync_Event>
+  <One_Shot_State_Name>Sync_Event_Scary</One_Shot_State_Name>
+ </SyncEvents>
+<SyncEvents>
+  <Sync_Event_Name>TheBigExplosionVGS</Sync_Event_Name>
+  <Base_Frequency>20</Base_Frequency>
+  <Max_Addition_To_Base_Frequency>10</Max_Addition_To_Base_Frequency>
+  <Chance_Of_Playing_Sync_Event>0.85</Chance_Of_Playing_Sync_Event>
+  <One_Shot_State_Name>Sync_Event_Explosion</One_Shot_State_Name>
+ </SyncEvents>
+<SyncEvents>
+  <Sync_Event_Name>RomanticEvent</Sync_Event_Name>
+  <Base_Frequency>45</Base_Frequency>
+  <Max_Addition_To_Base_Frequency>20</Max_Addition_To_Base_Frequency>
+  <Chance_Of_Playing_Sync_Event>0.7</Chance_Of_Playing_Sync_Event>
+  <One_Shot_State_Name>Sync_Event_Romantic</One_Shot_State_Name>
+ </SyncEvents>
+</TV>

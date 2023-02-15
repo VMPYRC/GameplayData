@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRoutingDistance value="1">
+      <!--Value: 0.7+  Description:  The distance from the mound when the sim is routing.-->
+    </kRoutingDistance>
+    <kFadeTime value="5">
+      <!--Value:  0.01+  Description:  The time in real seconds it takes for the object to fade.-->
+    </kFadeTime>
+    <kDigFindChance value="1">
+      <!--Range:  0-1.0  Description:  The chance that digging will find something of interest.-->
+    </kDigFindChance>
+    <kDigDuration value="30">
+      <!--Time, in Sim Minutes, that the Sim will dig-->
+    </kDigDuration>
+    <kDigObjectWeights value="3,2,2,2,3">
+      <!--Array of 5 random weights used to determine the object type found, where index 0=PotOfGold,1=RainbowBeetle,2=RainbowGem,3=RainbowButterfly,4=RainbowTrout-->
+    </kDigObjectWeights>
+  </Current_Tuning>
+</base>

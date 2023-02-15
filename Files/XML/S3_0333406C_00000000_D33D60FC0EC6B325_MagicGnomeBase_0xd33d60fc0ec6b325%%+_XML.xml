@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTrickeryStartHour value="21">
+      <!--Earliest hour of the day that gnomes may enact their nightly trickery (probably late at night - must be after noon).-->
+    </kTrickeryStartHour>
+    <kTrickeryEndHour value="4">
+      <!--Latest hour of the day that gnomes may enact their nightly trickery (probably early in the morning - must be before noon).-->
+    </kTrickeryEndHour>
+    <kTrickeryRescheduleHours value="0.25">
+      <!--(Positive float) - Hours later to reschedule trickery, if first alarm occurs during interaction.-->
+    </kTrickeryRescheduleHours>
+    <kChanceDoNothing value="0">
+      <!--(ACTION weight - influences chances of all ACTIONs) Chance that a magic gnome will do nothing.-->
+    </kChanceDoNothing>
+    <kChanceChangePose value="0.1">
+      <!--(ACTION weight - influences chances of all ACTIONs) Chance that a magic gnome will just change pose.-->
+    </kChanceChangePose>
+    <kChanceMoveRandomly value="0.3">
+      <!--(ACTION weight - influences chances of all ACTIONs) Chance that a magic gnome will just move to a new location.-->
+    </kChanceMoveRandomly>
+    <kChanceVisitFavoriteObject value="0.2">
+      <!--(ACTION weight - influences chances of all ACTIONs) Chance that a magic gnome will visit its favorite object.-->
+    </kChanceVisitFavoriteObject>
+    <kChanceVisitSlot value="0.2">
+      <!--(ACTION weight - influences chances of all ACTIONs) Chance that a magic gnome will visit a slot.-->
+    </kChanceVisitSlot>
+    <kChanceCleanObject value="0.1">
+      <!--(ACTION weight - influences chances of all ACTIONs) Chance that a magic gnome will just clean an object.-->
+    </kChanceCleanObject>
+    <kChanceUseObject value="0.1">
+      <!--(ACTION weight - influences chances of all ACTIONs) Chance that a magic gnome will use an object.-->
+    </kChanceUseObject>
+    <kChanceChangePoseOnMove value="0.8">
+      <!--(0-1) Chance that, if doing a move action, a magic gnome will also change pose.-->
+    </kChanceChangePoseOnMove>
+    <kChanceUseTV value="0.6">
+      <!--(0-1) Chance that, if using an object, will choose to use TV rather than stereo.-->
+    </kChanceUseTV>
+    <kWeightOutside value="3">
+      <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is outside.-->
+    </kWeightOutside>
+    <kWeightSubtractOtherGnome value="1">
+      <!--OBJECT DESIREABILITY: (Positive float) Weight to subtract for each other magic gnome this object is the favorite of.-->
+    </kWeightSubtractOtherGnome>
+    <kWeightPlant value="3">
+      <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is a plant.-->
+    </kWeightPlant>
+    <kExpensiveThreshold value="1500">
+      <!--OBJECT DESIREABILITY: (Simoleons) Threshold above which a gnome thinks an object is expensive.-->
+    </kExpensiveThreshold>
+    <kAngryGnomeReactToSimsBroadcasterParams>
+      <PulseRadius value="10">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="True">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <PulseRepeatTime value="0">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="OffForAllSims">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human,Horse,Dog,LittleDog,Cat">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="True">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kAngryGnomeReactToSimsBroadcasterParams>
+    <kGnomeFieldOfView value="45">
+      <!--(0-180) Angle of angry gnomes field of view-->
+    </kGnomeFieldOfView>
+    <kGnomeFadeTime value="1">
+      <!--(0-??) time Gnome takes to fadeout in game minutes-->
+    </kGnomeFadeTime>
+    <kAngryGnomeMinTrickTime value="30">
+      <!--(0-??) Minimum time before Angry Gnome commits trickery in game minutes-->
+    </kAngryGnomeMinTrickTime>
+    <kAngryGnomeMaxTrickTime value="60">
+      <!--(0-??) Maximum time before Angry Gnome commits trickery in game minutes-->
+    </kAngryGnomeMaxTrickTime>
+    <kAngryGnomeGrabChance value="85">
+      <!--(0-100) %chance of successfully grabbing gnome-->
+    </kAngryGnomeGrabChance>
+    <kAngryGnomeKeepChance value="10">
+      <!--(0-100) %chance of successfully keeping gnome-->
+    </kAngryGnomeKeepChance>
+    <kAngryGnomeSneakDistance value="6">
+      <!--0-?? distance to start sneaking-->
+    </kAngryGnomeSneakDistance>
+    <kAngryGnomeSwipeDistance value="0.7">
+      <!--0-?? min distance from angry gnome to do swipe-->
+    </kAngryGnomeSwipeDistance>
+    <kAngryGnomeMaxSwipeDistance value="0.8">
+      <!--0-?? max distance from angry gnome to do swipe-->
+    </kAngryGnomeMaxSwipeDistance>
+    <kChanceSpecial value="0.4">
+      <!--(ACTION weight - influences chances of all ACTIONs) Chance that a magic gnome will do it's special action.- this is only used when the gnome is a type that has special actions-->
+    </kChanceSpecial>
+  </Current_Tuning>
+</base>

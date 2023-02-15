@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHorseFertilizerQualityWeights value="0, 0, 0, 1, 2, 3, 4, 3, 2, 1, 0">
+      <!--Float Array. The weights of getting different qualities of horse fertilizer when cleaning it: [Horrifying, Putrid, Foul, Bad, Neutral, Nice, VeryNice, Great, Excellent, Outstanding, Perfect].-->
+    </kHorseFertilizerQualityWeights>
+    <kMinSimMinutesToClean value="15">
+      <!--Float. Min time it takes to clean a Box Stall. Max time = kMaxNumHorseFertilizerFromClean x kSimMinutesToCleanDirtyPoint-->
+    </kMinSimMinutesToClean>
+    <kMaxNumHorseFertilizerFromClean value="5">
+      <!--Int. Max amount of Horse Fertilizer a Sim can get from a full cleaning.-->
+    </kMaxNumHorseFertilizerFromClean>
+    <kSimMinutesToCleanDirtyPoint value="3">
+      <!--Float. How long it takes to clean one dirty point. However, the total time it takes to clean is subject to kMinSimMinutesToClean and kMaxSimMinutesToClean.-->
+    </kSimMinutesToCleanDirtyPoint>
+    <kSimMinutesTimeoutForUsingGate value="120">
+      <!--Float. Timeout on trying to enter/exit the box stall. Should be large, but not forever.-->
+    </kSimMinutesTimeoutForUsingGate>
+    <kPregnancyChance value="60">
+      <!--Float 0-100. Chance that a horse gets pregnant when Trying For Foal.-->
+    </kPregnancyChance>
+    <kDirtyBroadcasterParams>
+      <PulseRadius value="6">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="10">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="True">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="Disgusted, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kDirtyBroadcasterParams>
+    <kPointsBeforeAutonomousClean value="8">
+      <!--Int. Number of dirty points before sim will autonmously be allowed to clean should be higher than kPointsBeforeDirty-->
+    </kPointsBeforeAutonomousClean>
+    <kPointsBeforeDirtyLow value="7">
+      <!--Int. Box stall becomes low level dirty when it has this many dirty points (times the it got peed on by horses).-->
+    </kPointsBeforeDirtyLow>
+    <kPointsBeforeDirtyMed value="9">
+      <!--Int. Box stall becomes medium level dirty when it has this many dirty points (times the it got peed on by horses).-->
+    </kPointsBeforeDirtyMed>
+    <kPointsBeforeDirtyHigh value="11">
+      <!--Int. Box stall becomes high level dirty when it has this many dirty points (times the it got peed on by horses).-->
+    </kPointsBeforeDirtyHigh>
+  </Current_Tuning>
+</base>

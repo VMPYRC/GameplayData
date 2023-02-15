@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSkillLevelForIntermediate value="4">
+      <!--Skill level to start playing medium skill level set of animations-->
+    </kSkillLevelForIntermediate>
+    <kSkillLevelForExpert value="8">
+      <!--Skill level to start playing high skill level set of animations-->
+    </kSkillLevelForExpert>
+    <kMinutesPerFailureDiceRoll value="20">
+      <!--Number of Sim minutes between checks for a failure-->
+    </kMinutesPerFailureDiceRoll>
+    <kChanceOfFailureAtMinMaxSkillLevel value="0.3,0">
+      <!--0-1 chance of failure at min, max skill level-->
+    </kChanceOfFailureAtMinMaxSkillLevel>
+    <kChanceOfFailureAtMinMaxMoodLevel value="0.7,0.05">
+      <!--0-1 chance of failure at min, max mood level-->
+    </kChanceOfFailureAtMinMaxMoodLevel>
+    <kFailureChanceSkillWeight value="0.8">
+      <!--0-1 value representing how much weight skill level has over mood with regards to chance of failure.-->
+    </kFailureChanceSkillWeight>
+    <kAthleticSkillGainRateDuringPractice value="3">
+      <!--Athletic skill gain rate During Practice interaction in Points per Sim Min-->
+    </kAthleticSkillGainRateDuringPractice>
+    <kTrainLtrIncreaseRate value="5">
+      <!--Rate at which to increase LTR relationship between Sims when being trained in points per sim hour-->
+    </kTrainLtrIncreaseRate>
+    <kDaysToReachCardioShape value=".8">
+      <!--Range: Positive floats.  Description:  The time in Sim days it takes a Sim to reach full cardio shape from the fully fat shape.-->
+    </kDaysToReachCardioShape>
+  </Current_Tuning>
+</base>

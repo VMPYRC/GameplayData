@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumPearlDives value="50">
+      <!--Range:  integer  Description:  Number of pearl dives for Pearl Diver challenge.-->
+    </kNumPearlDives>
+    <kPearlDiverMux value="1.5">
+      <!--Range:  float 1+ Description:  Multiplier for selling sea shells for Pearl Diver challenge completion.-->
+    </kPearlDiverMux>
+    <kNumCavesExplored value="15">
+      <!--Range:  integer  Description:  Number of caves explored for Underwater Spelunker challenge.-->
+    </kNumCavesExplored>
+    <kUnderwaterSpelunkerChance value="1.0">
+      <!--Range:  float 0-1  Description:  Increased chance for finding collectibles in caves for Underwater Spelunker challenge completion.-->
+    </kUnderwaterSpelunkerChance>
+    <kNumHoursSnorkeling value="40">
+      <!--Range:  integer  Description:  Number of hours snorkeling for Savvy Snorkeler challenge.-->
+    </kNumHoursSnorkeling>
+    <kSavvySnorkelerChance value="0.25">
+      <!--Range:  float 0-1  Description:  Increased chance for finding collectibles while snorkeling for Savvy Snorkeler challenge completion.-->
+    </kSavvySnorkelerChance>
+  </Current_Tuning>
+</base>

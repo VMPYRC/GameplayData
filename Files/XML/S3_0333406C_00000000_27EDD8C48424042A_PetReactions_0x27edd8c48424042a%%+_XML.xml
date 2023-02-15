@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRadiusMin value="2">
+      <!--Min radius to route to broadcaster radius before playing back reaction-->
+    </kRadiusMin>
+    <kRadiusMax value="4">
+      <!--Max radius to route to broadcaster radius before playing back reaction-->
+    </kRadiusMax>
+    <kNegativePetAggressiveIsLooping value="0">
+      <!--Chance that NegativePetAggressive reactions play a looping variant-->
+    </kNegativePetAggressiveIsLooping>
+    <kNegativePetSkittishIsLooping value="0">
+      <!--Chance that NegativePetSkittish reactions play a looping variant-->
+    </kNegativePetSkittishIsLooping>
+    <kNegativePetIsLooping value="0">
+      <!--Chance that NegativePet reactions play a looping variant-->
+    </kNegativePetIsLooping>
+    <kNeutralPetIsLooping value="0">
+      <!--Chance that NeutralPet reactions play a looping variant-->
+    </kNeutralPetIsLooping>
+    <kPositivePetIsLooping value="0">
+      <!--Chance that PositivePet reactions play a looping variant-->
+    </kPositivePetIsLooping>
+    <kPositivePetLoudIsLooping value="0">
+      <!--Chance that PositivePetLoud reactions play a looping variant-->
+    </kPositivePetLoudIsLooping>
+    <kPositivePetQuietIsLooping value="0">
+      <!--Chance that PositivePetQuiet reactions play a looping variant-->
+    </kPositivePetQuietIsLooping>
+  </Current_Tuning>
+</base>

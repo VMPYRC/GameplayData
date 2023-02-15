@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeForCheckingForParentsLeaving value="24">
+      <!--Time in sim hours: Minutes for cooldown if the Parents accepted the offer and left the house. This cooldown is put into action from the moment the parents are back-->
+    </kTimeForCheckingForParentsLeaving>
+    <kChanceForCheckingForParentsLeaving value="0.30">
+      <!--Range (0 - 1): Tunable chance for showing the option for parents Leaving.-->
+    </kChanceForCheckingForParentsLeaving>
+    <kTimeForAcceptedCooldown value="48">
+      <!--Time in sim hours: Hours for cooldown if the Parents accepted the offer and left the house. This cooldown is put into action from the moment the parents are back-->
+    </kTimeForAcceptedCooldown>
+    <kTimeForRejectedCooldown value="72">
+      <!--Time in sim minutes: Hours for cooldown if the Parents rejected the offer and left the house.-->
+    </kTimeForRejectedCooldown>
+    <kDaysBeforeTeenAgeUp value="3">
+      <!--Time in sim days: Days before the teens ages up for allowing this situation to happen-->
+    </kDaysBeforeTeenAgeUp>
+    <kOriginalVacationLength value="2">
+      <!--Sim Days: Length of the Parent Vacation-->
+    </kOriginalVacationLength>
+    <kHoursBeforeReturnForReminderTNS value="2">
+      <!--Sim Hours: Tunable hours before the return time to remind that they will return.-->
+    </kHoursBeforeReturnForReminderTNS>
+    <kHoursCheckForBeingBackEarly value="5">
+      <!--Sim Hours: Tunable hours for check of chance to have the parents return early.-->
+    </kHoursCheckForBeingBackEarly>
+    <kChanceForReturningEarly value="0.05">
+      <!--Range (0 - 1): Tunable chance for parents to return early.-->
+    </kChanceForReturningEarly>
+    <kChanceForReturningEarlyDuringTeenParty value="0.1">
+      <!--Range (0 - 1): Tunable chance for parents to return early duringTeenParty.-->
+    </kChanceForReturningEarlyDuringTeenParty>
+    <kHoursBeforeReturnForEarlyReminderTNS value="1">
+      <!--Sim Hours: Tunable hours before the return time to remind that they will return earlier than expected.-->
+    </kHoursBeforeReturnForEarlyReminderTNS>
+    <kHoursForNPCTeenToSuggestPartyToActiveSim value="4">
+      <!--Sim Hours: Tunable amount of hours where an NPC teen might call and active teen Sim.-->
+    </kHoursForNPCTeenToSuggestPartyToActiveSim>
+    <kChanceForNPCCallToShowTNS value="0.40">
+      <!--Range (0 - 1): Chance for NPC Call to be effective-->
+    </kChanceForNPCCallToShowTNS>
+    <kHoursForPoliceRecurringCheck value="1">
+      <!--Range:  0 - 100  Description:  Time in hours for check on police arrival-->
+    </kHoursForPoliceRecurringCheck>
+    <kHoursAfterCheckForPoliceArrival value="1">
+      <!--Range:  0 - 100  Description:  Time in hours after the TNS for the police to go to the lot-->
+    </kHoursAfterCheckForPoliceArrival>
+    <kPoliceChanceCalculationWeights value="15, 1, 1">
+      <!--Array of floats: [basechance, length, people]  Description:  Weights for People in the party and Length of the party for Police Chance calculation. Should not be zero.-->
+    </kPoliceChanceCalculationWeights>
+    <kParentReturnBuffList value="GreatTrip, Relaxed, Rejuvinated, Energized, Tranquil">
+      <!--Array:  BuffNames  Description:  List of buff that will be used to pick a buff for the parents when they return-->
+    </kParentReturnBuffList>
+    <kMinMaxHoursForTeenParty value="0, 7">
+      <!--Range:  0 - x  Description:  Min and max amount of hours in a party to have full chance for police to come-->
+    </kMinMaxHoursForTeenParty>
+    <kMinMaxPeopleForTeenParty value="0, 10">
+      <!--Range:  0 - x Description:  Min and max amount of people in a teen party to have full chance for police to come-->
+    </kMinMaxPeopleForTeenParty>
+    <kMinMaxUninvitedGuestsForScold value="0, 1">
+      <!--Range:  0 - x Description:  Min and max amount of people in the house, to get scold when parents arrive-->
+    </kMinMaxUninvitedGuestsForScold>
+    <kMinMaxPuddlesForScold value="0, 2">
+      <!--Range:  0 - x Description:  Min and max amount of puddles in the house, to get scold when parents arrive-->
+    </kMinMaxPuddlesForScold>
+    <kMinMaxBrokenObjectsForScold value="0, 2">
+      <!--Range:  0 - x Description:  Min and max amount of broken objects in the house, to get scold when parents arrive-->
+    </kMinMaxBrokenObjectsForScold>
+    <kMinMaxDirtyObjectsForScold value="0, 4">
+      <!--Range:  0 - x Description:  Min and max amount of broken objects in the house, to get scold when parents arrive-->
+    </kMinMaxDirtyObjectsForScold>
+    <kScoldCalculationWeights value="15, 1, 5, 1">
+      <!--Array of floats: [guests, puddles, broken, dirty]  Description:  Weights for chances to calculate if parents scold the teens or not..-->
+    </kScoldCalculationWeights>
+    <kPoliceBaseChance value="0.05">
+      <!--Base Chance for police to arrive-->
+    </kPoliceBaseChance>
+    <kMinutesForParentsToReturnAfterPolice value="60">
+      <!--Range:  0 - 100  Description:  Time in minutes after the police yells at the child for the parents to come back-->
+    </kMinutesForParentsToReturnAfterPolice>
+    <kHoursInitialCheckForBeingBackEarly value="3">
+      <!--Sim Hours: Tunable hours for first check of chance to have the parents return early since the moment the teen party starts-->
+    </kHoursInitialCheckForBeingBackEarly>
+    <kPhoneCallTimeout value="20">
+      <!--Timeout of police call / friend calls in minutes-->
+    </kPhoneCallTimeout>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeLengthOfClass value="120">
+      <!--Range:  0.0f - 120.0f  Description:  The amount of time in Sim Minutes to complete the History Lesson.-->
+    </kTimeLengthOfClass>
+    <kTimeBetweenEvents value="15">
+      <!--Range:  15.0f - kTimeLengthOfClass  Description:  The amount of time in Sim Minutes between different the History Lesson TNS.-->
+    </kTimeBetweenEvents>
+    <kVampireThirstDecayMultiplier value="0">
+      <!--Range:  0-1.0f  Description:  Vampire Thirst Motive Decay Multiplier used with the QuenchedThirstForKnowledge buff-->
+    </kVampireThirstDecayMultiplier>
+    <kVampireThirstBuffDuration value="480">
+      <!--Range: integer  Description:  The duration in Sim minutes of the Vampire's QuenchedThirstForKnowledge buff-->
+    </kVampireThirstBuffDuration>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeToStreak value="60">
+      <!--Time in minutes for a sim to streak. Initial GPE value: 120.-->
+    </kTimeToStreak>
+    <kStreakerBroadcastParams>
+      <PulseRadius value="10">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="10">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kStreakerBroadcastParams>
+    <kBaseChanceToBeCaught value="0.15">
+      <!--Chance when we check for police that the sim gets caught. 0-1 Initial GPE value: 0.4.-->
+    </kBaseChanceToBeCaught>
+    <kPositiveTraitMod value="0.075">
+      <!--Positive steaking traits reduce chance of being caught by this. Initial GPE value: 0.05.-->
+    </kPositiveTraitMod>
+    <kNegativeTraitMod value="0.075">
+      <!--Negative steaking traits increase chance of being caught by this. Initial GPE value: 0.05.-->
+    </kNegativeTraitMod>
+    <kNighttimeMod value="0.05">
+      <!--Nighttime screaking reduces police chance by this. Initial GPE value: 0.2.-->
+    </kNighttimeMod>
+    <kRebelInflunceModifier value="0, 0, 0.05, 0.05, 0.05, 0.1, 0.1, 0.1, 0.15, 0.15, 0.15">
+      <!--Modifier to being caught based on the level of influence with rebels. Initial GPE value: 0.5.-->
+    </kRebelInflunceModifier>
+    <kTraitsForReducingChanceOfBeingCaught value="InfluenceRebel, AvantGarde, Lucky">
+      <!--Range:  Trait Names; Traits that will reduce the chance of being caught-->
+    </kTraitsForReducingChanceOfBeingCaught>
+    <kTraitsForIncreasingChanceOfBeingCaught value="Unlucky, Clumsy, CouchPotato, AbsentMinded">
+      <!--Range:  Trait Names; Traits that will increase the chance of being caught-->
+    </kTraitsForIncreasingChanceOfBeingCaught>
+    <kPoliceCheckTimer value="30">
+      <!--Time in minutes between checks for the police. Initial GPE value: 30.-->
+    </kPoliceCheckTimer>
+    <kFineForStreaking value="500">
+      <!--Fine for streaking. Should always be positive. Initial GPE value: 500.-->
+    </kFineForStreaking>
+    <kMaxRouteAttempts value="10">
+      <!--Maximum times to attempt a single route. The higher this number, the more times the sim will try to find a new spot for streaking before giving up. Initial GPE value: 10.-->
+    </kMaxRouteAttempts>
+    <kChanceToTryToDance value="0.5">
+      <!--Chance 0-1 that a streaker tries to find music to dance to: 0.15.-->
+    </kChanceToTryToDance>
+    <kTimeToDance value="30">
+      <!--How long should the sim dance, starting when they reach the radio in question: 30.-->
+    </kTimeToDance>
+    <kMinRadiusToDance value="2">
+      <!--How far we are allowed ot stand from the radio to dance (Min): 2.0f.-->
+    </kMinRadiusToDance>
+    <kMaxRadiusToDance value="8">
+      <!--How far we are allowed ot stand from the radio to dance (Max): 6.0f.-->
+    </kMaxRadiusToDance>
+    <kSocialiteThreshold value="3">
+      <!--Threshold level for socialites to cheer a streaking sim. Initial GPE value: 5.-->
+    </kSocialiteThreshold>
+    <kCheckForKidsBroadcastParams>
+      <PulseRadius value="40">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="20">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kCheckForKidsBroadcastParams>
+    <kRadiusToCheckForTeens value="40">
+      <!--How far around the sim should we check for kids when starting the run of the interaction. GPE Value: 30-->
+    </kRadiusToCheckForTeens>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDonationMax value="10000">
+      <!--The maximum amount a single sim can donate from one donation interaction in simoleons-->
+    </kDonationMax>
+    <kChanceStealing value="0.6">
+      <!--Range: 0-1f  Description: The percentage chance a day of the opportunity to steal from the campaign fund being offered-->
+    </kChanceStealing>
+    <kDonationPercent value="0.025">
+      <!--Range: 0-1f  Description: Percentage of consituent's lot value that is donated to campaign fund-->
+    </kDonationPercent>
+    <kEmbezzleMax value="5000">
+      <!--The maximum amount the Political sim can steal from the campaign fund in simoleons-->
+    </kEmbezzleMax>
+    <kEmbezzleMin value="50">
+      <!--The minimum amount the Political sim will get when stealing from the campaign fund in simoleons-->
+    </kEmbezzleMin>
+    <kRiskDuration value="16">
+      <!--Length of time in hours for TakeARisk tone to complete-->
+    </kRiskDuration>
+    <kRiskImproveBoss value="40">
+      <!--Improve LTR with boss by this much If TakeARisk results in Just Boss Relationship improvement-->
+    </kRiskImproveBoss>
+    <kRiskHurtBoss value="-30">
+      <!--Hurt LTR with boss by this much if TakeARisk results in in no one being impressed( negative float)-->
+    </kRiskHurtBoss>
+    <kChanceRiskOutcome1 value="0.1">
+      <!--Odds of getting promoted outcome occuring in TakeARisk. Range:0-1f-->
+    </kChanceRiskOutcome1>
+    <kChanceRiskOutcome2 value="0.3">
+      <!--Odds of increased boss relationship outcome occuring in TakeARisk.  Range:0-1f-->
+    </kChanceRiskOutcome2>
+    <kChanceRiskOutcome3 value="0.4">
+      <!--Odds of increased boss relationship but decrease coworker relationship.  Range:0-1f-->
+    </kChanceRiskOutcome3>
+    <kChanceRiskOutcome4 value="0.2">
+      <!--Odds of decrease boss and coworker relationship.  Range:0-1f-->
+    </kChanceRiskOutcome4>
+    <kRiskImproveBossByBrownnose value="40">
+      <!--Improve LTR with boss by this much if TakeARisk results in the brown nosing.-->
+    </kRiskImproveBossByBrownnose>
+    <kRiskHurtCowrkersByBrownnose value="-40">
+      <!--Hurt LTR with coworkers by this much if TakeARisk results in the brown nosing.-->
+    </kRiskHurtCowrkersByBrownnose>
+    <kRiskHurtCoworkers value="-40">
+      <!--Hurt LTR with coworkers by this much if TakeARisk results in no one being impressed( negative float)-->
+    </kRiskHurtCoworkers>
+    <kBeImpressedSTCAndLTRToAdd value="40">
+      <!--Hurt LTR with coworkers by this much if TakeARisk results in no one being impressed( negative float)-->
+    </kBeImpressedSTCAndLTRToAdd>
+    <kChanceCaught value="20">
+      <!--The percent chance from 0 to 100 that the sim will get caught when stealing money from the campaign fund-->
+    </kChanceCaught>
+    <kPercentCampaignFundsToSteal value="0.1">
+      <!--The percentage of the campaign fund that is stolen if the sim chooses to. Range: 0-1f.-->
+    </kPercentCampaignFundsToSteal>
+    <kCriminalStartBranch value="Base">
+      <!---->
+    </kCriminalStartBranch>
+    <kCriminalStartLevel value="4">
+      <!---->
+    </kCriminalStartLevel>
+    <kCampaignDonationLevel value="5">
+      <!--Range: 0-10  The career level at which 'Ask For Campaign Donation' is availible-->
+    </kCampaignDonationLevel>
+    <kInspirationalSpeechLevel value="6">
+      <!--Range: 0-10  The career level at which 'Give Inspriational speech' is availible-->
+    </kInspirationalSpeechLevel>
+    <kInspirationalSpeechBroadcastParams>
+      <PulseRadius value="15">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <TimeToFullPulseExpansion value="4.0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="30">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <PulseRepeatTime value="20">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="True">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="Cheer, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kInspirationalSpeechBroadcastParams>
+    <kPoliticalCareer_DonationsMultiplier value="1.5">
+      <!--The multiplier applied to the donation amount when the sim has the PoliticalCareer_Donations opportunity-->
+    </kPoliticalCareer_DonationsMultiplier>
+    <kPoliticalCareer_MegaFundRaiserAmount value="20000">
+      <!--The amount the sim has to raise in a single fundraiser party to complete this opportunity.-->
+    </kPoliticalCareer_MegaFundRaiserAmount>
+    <kLevelForLimo value="7" />
+    <kWatchInspirationalSpeechLookAtInterestingness value="120">
+      <!--Range: 0-200  The look-at interestingness of looking at someone giving an inspirational speech-->
+    </kWatchInspirationalSpeechLookAtInterestingness>
+    <kCelebrityLevel value="10">
+      <!--Level at which the Sim becomes a Celebrity and people start reacting to the SIm on the street.-->
+    </kCelebrityLevel>
+    <kCampaignDonationLTRMultiplier value="0.01">
+      <!--Range: 0-1f  Description: The multiplier applied to Campaigner/Campaignee's LTR.Liking value which in turn will be applied as a multiplier to how much money to donate-->
+    </kCampaignDonationLTRMultiplier>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kDonationFraction value="20">
+      <!-- deprecated on: 7/25/2007 11:04:25 AM-->
+    </kDonationFraction>
+    <kStealPercent value="0.1">
+      <!-- deprecated on: 7/25/2007 2:30:07 PM-->
+    </kStealPercent>
+    <kRiskValue1 value="10">
+      <!--Odds of getting promoted outcome occuring in TakeARisk.  Odds are out of Value1+Value2+Value3-->
+      <!--deprecated on: 11/29/2007 6:05:47 PM-->
+    </kRiskValue1>
+    <kRiskValue2 value="60">
+      <!--Odds of increased boss relationship outcome occuring in TakeARisk.  Odds are out of Value1+Value2+Value3-->
+      <!--deprecated on: 11/29/2007 6:05:47 PM-->
+    </kRiskValue2>
+    <kRiskValue3 value="30">
+      <!--Odds of decreased boss relationship outcome occuring in TakeARisk.  Odds are out of Value1+Value2+Value3-->
+      <!--deprecated on: 11/29/2007 6:05:47 PM-->
+    </kRiskValue3>
+    <kChanceCaughtLarge value="0.3">
+      <!--Range: 0-1f  Description: The odds that the political sim will get caught stealing if they take the 'large' amount-->
+      <!--deprecated on: 12/4/2007 12:54:11 PM-->
+    </kChanceCaughtLarge>
+    <kAmountOfMoneyStolen value="0.1">
+      <!--Range: 0-1f  Description: The percentage of the campaign fund that is stolen if the sim chooses to-->
+      <!--deprecated on: 12/4/2007 12:54:11 PM-->
+    </kAmountOfMoneyStolen>
+    <RequiresScoring value="False">
+      <!--Whether or not the broadcast interactions are scored by autonomy (TO BE DELETED BY REVANS)-->
+      <!--deprecated on: 2/7/2008 3:04:24 PM-->
+    </RequiresScoring>
+    <IsLifeThreatening value="False">
+      <!--Whether the reaction is responding to a life-threatening event (e.g. responding to fire)-->
+      <!--deprecated on: 3/13/2008 4:22:02 PM-->
+    </IsLifeThreatening>
+  </Deprecated_Tuning>
+</base>

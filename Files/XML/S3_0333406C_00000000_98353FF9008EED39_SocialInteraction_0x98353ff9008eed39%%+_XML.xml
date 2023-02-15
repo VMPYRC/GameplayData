@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSocialRouteRadiusMax value="3">
+      <!--The max range SimA will plan around SimB in a social interaction.-->
+    </kSocialRouteRadiusMax>
+    <kSocialRouteMinDist value="5">
+      <!--If SimA is closer (in meters) than this distance to SimB, the social will start right away.-->
+    </kSocialRouteMinDist>
+    <kSocialTimeoutTime value="45">
+      <!--General timeout, to use, in minutes.-->
+    </kSocialTimeoutTime>
+    <kSocialJigPlacementLimit value="6">
+      <!--Distance limit for finding a place to place a social jig.-->
+    </kSocialJigPlacementLimit>
+    <kSocialSyncGiveupTime value="30">
+      <!--Sync timeout, to use, in minutes.-->
+    </kSocialSyncGiveupTime>
+    <kSocialBumpDistMin value="0.35">
+      <!--Min distance to try and push a sim away from a wall or object when a social starts.-->
+    </kSocialBumpDistMin>
+    <kSocialBumpDistMax value="0.5">
+      <!--Max distance to try and push a sim away from a wall or object when a social starts.-->
+    </kSocialBumpDistMax>
+    <kApproachGreetDistance value="3">
+      <!--The distance away that Sim A will wave to greet Sim B.-->
+    </kApproachGreetDistance>
+    <kTurnToFaceTime value="0.8">
+      <!--Time in sim minutes between Sim A's approach greet and the time Sim B turns to face.-->
+    </kTurnToFaceTime>
+  </Current_Tuning>
+</base>

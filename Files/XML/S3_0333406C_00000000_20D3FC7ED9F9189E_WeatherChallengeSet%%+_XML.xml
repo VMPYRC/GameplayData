@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Weather</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>8695</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>235230971</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Died From Fire</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>DiedByFireFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>true</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSimDied</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>8696</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>235230973</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Died From Cold</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>DiedByColdFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>true</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSimDied</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>8697</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/0b8f8587-09ad-48bf-a50a-b58ad5fbc9a6:Name</NameKey>
+    <Name>Harsh Weather</Name>
+    <SetName>Weather</SetName>
+    <ChallengeGuid>0b8f8587-09ad-48bf-a50a-b58ad5fbc9a6</ChallengeGuid>
+    <ExportVersion>2</ExportVersion>
+    <ChallengeType>Player</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>(8695AndOP8696)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/0b8f8587-09ad-48bf-a50a-b58ad5fbc9a6:Description</DescriptionKey>
+    <ThemeKey>Family</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>EP8</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>C:\Perforce\Devo\EP\Assets\InGame\UI\EP08\SocialFeatures\Badges\ep08_badge_harsh_weather.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>C:\Perforce\Devo\EP\Assets\InGame\UI\EP08\SocialFeatures\Badges\ep8_badge_incomplete3.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP8</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>8816</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Buff</SubjectType>
+        <EnumName>Suntanned</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>8817</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/15441a83-6922-4350-aa78-8dbefc31ca19:Name</NameKey>
+    <Name>Sun Worshipper</Name>
+    <SetName>Weather</SetName>
+    <ChallengeGuid>15441a83-6922-4350-aa78-8dbefc31ca19</ChallengeGuid>
+    <ExportVersion>2</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>8816</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/15441a83-6922-4350-aa78-8dbefc31ca19:Description</DescriptionKey>
+    <ThemeKey>Seasonal</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP8</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>C:\Perforce\Devo\EP\Assets\InGame\UI\EP08\SocialFeatures\Badges\ep08_badge_sun_worshipper.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>C:\Perforce\Devo\EP\Assets\InGame\UI\EP08\SocialFeatures\Badges\ep8_badge_incomlete.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP8</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>9131</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>235231007</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have A Tan For Several Days In A Row</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kBronzed</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>9132</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/36bfa574-d9a8-4efe-a744-28b9726c1371:Name</NameKey>
+    <Name>Bronzed!</Name>
+    <SetName>Weather</SetName>
+    <ChallengeGuid>36bfa574-d9a8-4efe-a744-28b9726c1371</ChallengeGuid>
+    <ExportVersion>2</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>9131</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/36bfa574-d9a8-4efe-a744-28b9726c1371:Description</DescriptionKey>
+    <ThemeKey>Seasonal</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP8</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>C:\Perforce\Devo\EP\Assets\InGame\UI\EP08\SocialFeatures\Badges\ep08_badge_bronzed.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>C:\Perforce\Devo\EP\Assets\InGame\UI\EP08\SocialFeatures\Badges\ep8_badge_incomlete.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP8</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>9273</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>235230766</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Grill With Snow On The Ground</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>IsSnowOnTheGroundFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGrilled</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>9274</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>235230770</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Swin In The Ocean During Winter</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>IsWinterFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSwimming</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>9275</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>235230773</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Throw A Pool Party During Winter</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>IsWinterFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSchedulePoolParty</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>9276</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/4827b85d-ed57-415a-884d-28bce2af673f:Name</NameKey>
+    <Name>Winter Shminter</Name>
+    <SetName>Weather</SetName>
+    <ChallengeGuid>4827b85d-ed57-415a-884d-28bce2af673f</ChallengeGuid>
+    <ExportVersion>2</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>((9273AndOP9274)AndOP9275)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/4827b85d-ed57-415a-884d-28bce2af673f:Description</DescriptionKey>
+    <ThemeKey>Seasonal</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP8</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>2012-01-01T00:00:00</StartDateTime>
+    <NonNewDate>2012-01-17T00:00:00</NonNewDate>
+    <EndDateTime>2012-01-18T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>C:\Perforce\Devo\EP\Assets\InGame\UI\EP08\SocialFeatures\Badges\ep08_badge_winter_shminter.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>C:\Perforce\Devo\EP\Assets\InGame\UI\EP08\SocialFeatures\Badges\ep8_badge_incomplete2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP8</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>10373</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Buff</SubjectType>
+        <EnumName>Sunburnt</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>10374</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/cee3f319-13ff-4ccb-a729-393a58b315ec:Name</NameKey>
+    <Name>Fair Skinned</Name>
+    <SetName>Weather</SetName>
+    <ChallengeGuid>cee3f319-13ff-4ccb-a729-393a58b315ec</ChallengeGuid>
+    <ExportVersion>2</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>10373</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/cee3f319-13ff-4ccb-a729-393a58b315ec:Description</DescriptionKey>
+    <ThemeKey>Seasonal</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP8</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>C:\Perforce\Devo\EP\Assets\InGame\UI\EP08\SocialFeatures\Badges\ep08_badge_fair_skinned.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>C:\Perforce\Devo\EP\Assets\InGame\UI\EP08\SocialFeatures\Badges\ep8_badge_incomlete.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP8</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

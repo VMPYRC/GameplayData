@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Occults</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>30</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>349</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Has Lamp</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>IsGenieLampFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kInventoryObjectAdded</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>31</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/0560c7b2-f9d0-418a-8060-4ab6a39010c9:Name</NameKey>
+    <Name>Toward the Light</Name>
+    <SetName>Occults</SetName>
+    <ChallengeGuid>0560c7b2-f9d0-418a-8060-4ab6a39010c9</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>30</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/0560c7b2-f9d0-418a-8060-4ab6a39010c9:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\genie_094.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>238</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>556</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Had a Ghost Baby</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>DefaultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kHadGhostBaby</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>239</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>478</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>$Sim is a toddler</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>SimIsAToddlerCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>BecomeAToddlerFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>true</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSimAgeTransition</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/2181cf63-2933-4710-9ec6-bf7cf4f3780b:Name</NameKey>
+    <Name>Strange Joy</Name>
+    <SetName>Occults</SetName>
+    <ChallengeGuid>2181cf63-2933-4710-9ec6-bf7cf4f3780b</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>238</LogicString>
+    <FailureString>239</FailureString>
+    <DescriptionKey>Gameplay/Challenges/2181cf63-2933-4710-9ec6-bf7cf4f3780b:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\ghost_097.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_platinum_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1151</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>358</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Free the Genie</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGrantedWishToFreeGenie</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1152</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/c4d6300a-8049-4abd-8085-0898db8cad7e:Name</NameKey>
+    <Name>Genie Out of Bottle</Name>
+    <SetName>Occults</SetName>
+    <ChallengeGuid>c4d6300a-8049-4abd-8085-0898db8cad7e</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>1151</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/c4d6300a-8049-4abd-8085-0898db8cad7e:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\genie_095.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1294</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>555</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName />
+      <DisplayName>Restored Sim's Ghost</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>DefaultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRestoredGhost</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1295</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/d68f7767-1597-4c3f-98f1-cbb63b9fe9f9:Name</NameKey>
+    <Name>Ghost of a Chance</Name>
+    <SetName>Occults</SetName>
+    <ChallengeGuid>d68f7767-1597-4c3f-98f1-cbb63b9fe9f9</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>1294</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/d68f7767-1597-4c3f-98f1-cbb63b9fe9f9:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badges\finished\all\ghost_096.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badges\finished\blank badges\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1385</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>360</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>100</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchSimStartFunction</StartFunctionName>
+      <DisplayName>Ensorcel $Sim</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SimMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEnsorcelSim</TriggerEvent>
+      <SubjectType>Sim</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1386</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/e4aaf068-6958-455b-ba74-0dd0c5ec06f6:Name</NameKey>
+    <Name>Enchanting</Name>
+    <SetName>Occults</SetName>
+    <ChallengeGuid>e4aaf068-6958-455b-ba74-0dd0c5ec06f6</ChallengeGuid>
+    <ChallengeType>Player</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>1385</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/e4aaf068-6958-455b-ba74-0dd0c5ec06f6:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\genie_093.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_gold_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

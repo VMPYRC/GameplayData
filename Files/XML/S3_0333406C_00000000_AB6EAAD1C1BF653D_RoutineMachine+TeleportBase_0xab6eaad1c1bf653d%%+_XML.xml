@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kThresholdHunger value="50">
+      <!--Below this value, fix their hunger.  GPE Default: 50-->
+    </kThresholdHunger>
+    <kThresholdBladder value="50">
+      <!--Below this value, fix their bladder. GPE Default: 50-->
+    </kThresholdBladder>
+    <kThresholdHygiene value="50">
+      <!--Below this value, fix their hygiene.  GPE default: 50-->
+    </kThresholdHygiene>
+    <kSleepyTimeStart value="3">
+      <!--Starting time where sim plays yawn animation. GPE Default 3 (3:00 am)-->
+    </kSleepyTimeStart>
+    <kSleepyTimeEnd value="8">
+      <!--Ending time where sim plays yawn animation.  GPE Default 8 (8:00 am)-->
+    </kSleepyTimeEnd>
+    <kChangeHungerTime value="5">
+      <!--Max time to refill this motive.  GPE Default: 5-->
+    </kChangeHungerTime>
+    <kChangeBladderTime value="5">
+      <!--Max time to refill this motive.  GPE Default: 5-->
+    </kChangeBladderTime>
+    <kChangeHygieneTime value="10">
+      <!--Max time to refill this motive.  GPE Default: 10-->
+    </kChangeHygieneTime>
+    <kMinEnergyToTeleport value="-20">
+      <!--Minimum energy motive to teleport successfully.  Below this goes to Dreamscape.  GPE default: -20-->
+    </kMinEnergyToTeleport>
+    <kSpeakerFun value="3">
+      <!--Speaker Fun per minute-->
+    </kSpeakerFun>
+    <kExploreMinBetweenEvents value="3">
+      <!--Minimum time between explore events, in minutes-->
+    </kExploreMinBetweenEvents>
+    <kExploreMaxBetweenEvents value="10">
+      <!--Maximum time between explore events-->
+    </kExploreMaxBetweenEvents>
+    <kNumExploreEvents value="5">
+      <!--Number of explore event sets.  IMPORTANT: verify that all HAL string sets are included in the package.-->
+    </kNumExploreEvents>
+    <kSkillCheck1Required value="3">
+      <!--Minimum skill level to pass this skill check.  GPE Default: 3-->
+    </kSkillCheck1Required>
+    <kSkillCheck2Required value="5">
+      <!--Minimum skill level of athletic or logic skill to pass this skill check.  GPE Default: 5-->
+    </kSkillCheck2Required>
+    <kChanceOfExploreRandomFailure value="10">
+      <!--Percent chance that a skill check will fail from random chance.  GPE default: 10-->
+    </kChanceOfExploreRandomFailure>
+    <kChanceOfExploreAwesomeGnome value="20">
+      <!--Chance of getting a gnome when getting all skill checks correct-->
+    </kChanceOfExploreAwesomeGnome>
+    <kDreamscapeEnergyBoost value="50">
+      <!--ENergy granted from passing a Dreamscape test-->
+    </kDreamscapeEnergyBoost>
+    <kRewardRareGemMinCost value="200">
+      <!--Value (minimum) of rare gem found in routine machine dreamscape.  GPE Default: 200-->
+    </kRewardRareGemMinCost>
+    <kGnomeList value="GardenGnome, MagicGnome, MagicGnomeEypt, MagicGnomeChina, MagicGnomeFrance, MagicGnomeInventor, MagicGnomeSculptor, MagicGnomeCelebrity">
+      <!--List of gnomes to randomly select from.-->
+    </kGnomeList>
+    <kGnomeProductVersions value="BaseGame, BaseGame, EP1, EP1, EP1, EP2, EP2, EP3">
+      <!--List of product versions of those gnomes.-->
+    </kGnomeProductVersions>
+  </Current_Tuning>
+</base>

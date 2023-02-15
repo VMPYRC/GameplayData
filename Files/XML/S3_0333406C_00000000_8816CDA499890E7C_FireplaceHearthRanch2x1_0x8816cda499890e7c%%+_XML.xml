@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="22">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kFireplaceTuning>
+      <PokeFireTime value="45">
+        <!--How long in sim minutes the bennifits of a poked fire last.-->
+      </PokeFireTime>
+      <PokeFireStageTime value="15">
+        <!--How long in sim minutes the poke fire interaction lasts.-->
+      </PokeFireStageTime>
+      <CozyFireBuffNormal value="17">
+        <!--Strength of CozyFire buff with normal fire.-->
+      </CozyFireBuffNormal>
+      <CozyFireBuffRaging value="22">
+        <!--Strength of Cozy Fire buff with raging fire. Replaces normal cozyFire buff strength-->
+      </CozyFireBuffRaging>
+      <CozyFireBuffRange value="10">
+        <!--Radius of Cozy Fire buff effect.-->
+      </CozyFireBuffRange>
+      <EnvironmentScoreWithRagingFire value="40">
+        <!--Strength of Environment score when the fire is raging. Replaces normal Envirornment strength-->
+      </EnvironmentScoreWithRagingFire>
+      <TimeToGetCozyFireBuff value="10">
+        <!--How Long in sim Minutes a Sim must stay in Warm Self to get the Cozy Fire Buff.-->
+      </TimeToGetCozyFireBuff>
+      <CozyFireBuffLength value="120">
+        <!--How Long in sim minutes the CozyFire buff lasts.-->
+      </CozyFireBuffLength>
+      <NumMinsPerBurnTest value="2">
+        <!--How often in Sim minutes to test for the chance of getting burned.-->
+      </NumMinsPerBurnTest>
+      <ChanceBurnSelfWhenPlaying value="10">
+        <!--The percent chance of burning yourself when playing with fire. Gets tested every N Minutes-->
+      </ChanceBurnSelfWhenPlaying>
+      <MinTimeBeforeCanBurn value="5">
+        <!--The min number of sim minutes that must pass before sim can get burned.-->
+      </MinTimeBeforeCanBurn>
+      <NumFunDecWhenBurned value="-15">
+        <!--NEGATIVE NUMBER: How much to decrease the sim's fun by if they burn themselves while playing with fire.-->
+      </NumFunDecWhenBurned>
+      <HasRemote value="False">
+        <!--Does Fireplace use a remote to turn it on and off?-->
+      </HasRemote>
+      <MinsPerCatchOnFireCheck value="15">
+        <!--Number of sim minutes between Checks to catch stuff on fire-->
+      </MinsPerCatchOnFireCheck>
+      <kChanceCatchFire value="2">
+        <!--0-100: Chance the fireplace starts a fire on surrounding objects.-->
+      </kChanceCatchFire>
+      <kChanceCatchFireWhenNoSimsInRoom value="0.25">
+        <!--0-100: Chance the fireplace starts a fire on the floor in front of the fireplace when there are no sims in the room.-->
+      </kChanceCatchFireWhenNoSimsInRoom>
+      <kObjectDistanceFromFireplace value="2">
+        <!--Distance in meters from fireplace root to search for objects to catch on fire.-->
+      </kObjectDistanceFromFireplace>
+      <NormalFlameLightChannelR value="0.35">
+        <!--RGB value of light-->
+      </NormalFlameLightChannelR>
+      <NormalFlameLightChannelG value="0.2" />
+      <NormalFlameLightChannelB value="0.15" />
+      <BlueFlameLightChannelR value="0" />
+      <BlueFlameLightChannelG value="0" />
+      <BlueFlameLightChannelB value="0.5" />
+      <GreenFlameLightChannelR value="0" />
+      <GreenFlameLightChannelG value="0.5" />
+      <GreenFlameLightChannelB value="0" />
+      <PurpleFlameLightChannelR value="0.5" />
+      <PurpleFlameLightChannelG value="0" />
+      <PurpleFlameLightChannelB value="0.5" />
+      <UpgradeChangeColor>
+        <UpgradeTime value="240">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="5280">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="15">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="False">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeChangeColor>
+      <UpgradeAutoLight>
+        <UpgradeTime value="160">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="2720">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="15">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="False">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeAutoLight>
+      <UpgradeFireproof>
+        <UpgradeTime value="160">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="2400">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="15">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="False">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeFireproof>
+    </kFireplaceTuning>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSpawnDiameter value="10">
+      <!--The diameter (in tiles) around SeaLife spawners that we'll try to spawn objects.  SeaLifes might be placed outside this depending on the footprints of nearby objects.-->
+    </kSpawnDiameter>
+    <kInvalidSpawnDiameter value="12">
+      <!--The diameter (in tiles, disregarding elevation difference) around SeaLife spawners outside of which we'll consider a spawned SeaLife placement invalid.  Each time we try to spawn a SeaLife we'll try to find a good location for it several times but if each find good location attempt ends up placing it outside this range then we will eventually fail (in which case we'll delete the spawned object and pop up a debug warning dialog saying that the worldbuilder crew should change the location of this spawner to a more route-friendly location). NOTE: This should be tuned with consideration of what the 'kSpawnDiameter' tuning var is set to (this var should not be set any lower than 'kSpawnDiameter' but can be greater than 'kSpawnDiameter' if desired).-->
+    </kInvalidSpawnDiameter>
+  </Current_Tuning>
+</base>

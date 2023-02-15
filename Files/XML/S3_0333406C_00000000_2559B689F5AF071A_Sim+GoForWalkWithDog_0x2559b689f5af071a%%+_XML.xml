@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAcceptableCommercialLotSubTypes value="kBeach, kBigPark, kPool, kSmallPark, kEP5_DogPark">
+      <!--Strings: A list of CommercialLotSubTypes that dogs can be walked to.-->
+    </kAcceptableCommercialLotSubTypes>
+    <kPeeSniffAlarmFrequencyInSimMinutes value="20">
+      <!--The frequency of the Pee/Sniff alarm in sim minutes.-->
+    </kPeeSniffAlarmFrequencyInSimMinutes>
+    <kMaxBladderForDogToPee value="10">
+      <!--The Bladder level below which the dog will stop to pee.-->
+    </kMaxBladderForDogToPee>
+    <kFunDelta value="35">
+      <!--Positive float.  How much fun the Human and Dog get from this social per sim hour.-->
+    </kFunDelta>
+    <kLTRLikingDeltaPerSimMinute value="0.08">
+      <!--Positive float.  How much LTR Liking the Human and Dog gain per sim minute while they are walking together.-->
+    </kLTRLikingDeltaPerSimMinute>
+    <kChanceOfAutonomousDogWalk value="0.25">
+      <!--Positive float.  The chance that an NPC will walk its dog when travelling to a lot with the dog.-->
+    </kChanceOfAutonomousDogWalk>
+  </Current_Tuning>
+</base>

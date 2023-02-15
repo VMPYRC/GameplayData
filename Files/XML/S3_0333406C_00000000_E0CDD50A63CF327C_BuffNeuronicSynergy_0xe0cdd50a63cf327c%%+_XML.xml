@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHomeworkCompletionRateModifier value="1.111">
+      <!--Homework completion rate increase (similar to the increase one gets from doing homework in a library).  This is an adder, not a multiplier, thus set to 0 to have no effect.  Search for this variable in script to make sure you know how it's interacting with other rate modifiers!.-->
+    </kHomeworkCompletionRateModifier>
+    <kMultiplierToSpeedUpMeditation value="0.5">
+      <!--Meditation speed increase (to achieve Meditative Focus more quickly).  This is a multiplier so set to 1.0 to have no effect.  Search for this variable in script to make sure you know how it's interacting with other rate modifiers!-->
+    </kMultiplierToSpeedUpMeditation>
+    <kSkillGainRateModifier value="0.3">
+      <!--Skill gain rate increase (to learn skills more quickly).  This is an adder so set to 0 to have no effect.  Search for this variable in script to make sure you know how it's interacting with other rate modifiers!-->
+    </kSkillGainRateModifier>
+  </Current_Tuning>
+</base>

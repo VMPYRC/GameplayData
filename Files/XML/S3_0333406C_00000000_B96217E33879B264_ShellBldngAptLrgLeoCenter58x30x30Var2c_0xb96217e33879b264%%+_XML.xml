@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBuildableShellTuning>
+      <kDefaultTimesFromSunrise value="2">
+        <!--times (in hours) at whitch light material state returns to default delta from Sunrise-->
+      </kDefaultTimesFromSunrise>
+      <kDefaultDelayTimesFromSunrise value="1">
+        <!--max delay ( in hours) at witch light material state returns to default delta from Sunrise, must match up to previous 1:1-->
+      </kDefaultDelayTimesFromSunrise>
+      <kLowTimesFromSunrise value="0">
+        <!--times (in hours) at whitch light material state returns to low delta from Sunrise-->
+      </kLowTimesFromSunrise>
+      <kLowDelayTimesFromSunrise value="-1">
+        <!--max delay ( in hours) at witch light material state returns to low delta from Sunrise, must match up to previous 1:1-->
+      </kLowDelayTimesFromSunrise>
+      <kHighTimesFromSunrise value="">
+        <!--times (in hours) at whitch light material state returns to high delta from Sunrise-->
+      </kHighTimesFromSunrise>
+      <kHighDelayTimesFromSunrise value="">
+        <!--max delay ( in hours) at witch light material state returns to high delta from Sunrise, must match up to previous 1:1-->
+      </kHighDelayTimesFromSunrise>
+      <kDefaultTimesFromSunset value="7">
+        <!--times (in hours) at whitch light material state returns to default delta from Sunset-->
+      </kDefaultTimesFromSunset>
+      <kDefaultDelayTimesFromSunset value="1">
+        <!--max delay ( in hours) at witch light material state returns to default delta from Sunset, must match up to previous 1:1-->
+      </kDefaultDelayTimesFromSunset>
+      <kLowTimesFromSunset value="-1,4">
+        <!--times (in hours) at whitch light material state returns to low delta from Sunset-->
+      </kLowTimesFromSunset>
+      <kLowDelayTimesFromSunset value="0,1">
+        <!--max delay ( in hours) at witch light material state returns to low delta from Sunset, must match up to previous 1:1-->
+      </kLowDelayTimesFromSunset>
+      <kHighTimesFromSunset value="0">
+        <!--times (in hours) at whitch light material state returns to high delta from Sunset-->
+      </kHighTimesFromSunset>
+      <kHighDelayTimesFromSunset value="-1">
+        <!--max delay ( in hours) at witch light material state returns to high delta from Sunset, must match up to previous 1:1-->
+      </kHighDelayTimesFromSunset>
+      <kDaySoundsDelta value="3">
+        <!--delta( in hours) from sunrise for triggering day sounds-->
+      </kDaySoundsDelta>
+      <kNightSoundsDelta value="1">
+        <!--delta( in hours) from sunset for triggering night sounds-->
+      </kNightSoundsDelta>
+      <kDaySounds value="shell_apt_cheap_day_plist">
+        <!--Day Sounds, currently shell_apt_exp_day_plist or shell_apt_cheap_day_plist-->
+      </kDaySounds>
+      <kNightSounds value="shell_apt_cheap_night_plist">
+        <!--Night Sounds, currently shell_apt_exp_night_plist or shell_apt_cheap_night_plist-->
+      </kNightSounds>
+      <kVerticalSoundDisplacement value="-3">
+        <!--Vertical Sound Displacement (so penthouse appts neighbor noise is from below), normal can be middle of floor.-->
+      </kVerticalSoundDisplacement>
+      <kNumberOfFloors value="18">
+        <!--Number of floors.-->
+      </kNumberOfFloors>
+      <kNumberOfRoomsPerFloor value="4">
+        <!--Number of rooms per floor. Don't exceed 99.-->
+      </kNumberOfRoomsPerFloor>
+      <kIsPenthouse value="True">
+        <!--whether the shell is a penthouse building-->
+      </kIsPenthouse>
+      <kShellDoor value="shellDoorMetalGlass">
+        <!--Door for the shell-->
+      </kShellDoor>
+      <kShellDoorProductVersion value="EP3">
+        <!--Product version of the door for the shell-->
+      </kShellDoorProductVersion>
+    </kBuildableShellTuning>
+  </Current_Tuning>
+</base>

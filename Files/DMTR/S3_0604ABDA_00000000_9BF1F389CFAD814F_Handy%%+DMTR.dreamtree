@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DreamTree Version="1">
+  <Category>Traits</Category>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>821743757</Id>
+    <ParentId>821743757</ParentId>
+    <IsRoot>true</IsRoot>
+    <PrototypeId>4082937641</PrototypeId>
+    <Center>
+      <X>-17</X>
+      <Y>20</Y>
+    </Center>
+    <DreamVisible>false</DreamVisible>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits />
+    <Relationships />
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="TimerNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>1498480366</Id>
+    <ParentId>821743757</ParentId>
+    <PrototypeId>245410120</PrototypeId>
+    <Center>
+      <X>-6</X>
+      <Y>-153</Y>
+    </Center>
+    <NumberSatisfies>5</NumberSatisfies>
+    <TimeBetweenSatisfies>96</TimeBetweenSatisfies>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>2245150994</Id>
+    <ParentId>1498480366</ParentId>
+    <PrototypeId>2707355146</PrototypeId>
+    <Center>
+      <X>4</X>
+      <Y>-330</Y>
+    </Center>
+    <FulfillmentScore>50</FulfillmentScore>
+    <SkillsZeroCheck>true</SkillsZeroCheck>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills>
+      <string>Handiness</string>
+    </Skills>
+    <Traits>
+      <SelectedTrait>
+        <Trait>Handy</Trait>
+        <Required>true</Required>
+        <Excluded>false</Excluded>
+      </SelectedTrait>
+    </Traits>
+    <Relationships />
+    <InputSubject>Handiness</InputSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <Name>Handy</Name>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <SpeciesAvailablilty>Human</SpeciesAvailablilty>
+  <TreeHash>3540278641</TreeHash>
+</DreamTree>

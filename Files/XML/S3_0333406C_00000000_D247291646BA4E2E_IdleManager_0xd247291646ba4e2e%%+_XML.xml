@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHighPriorityDistressIdleFrequencyInMinutes value="45" />
+    <kMediumPriorityDistressIdleFrequencyInMinutes value="60" />
+    <kLowPriorityDistressIdleFrequencyInMinutes value="90" />
+    <kStandingIdleChance value="64">
+      <!--Range: Positive integers.  Description: Chance to choose a standing idle when idling.  Probability chance is this weight divided by weights of buff + trait + mood + standing idle.-->
+    </kStandingIdleChance>
+    <kMoodIdleChance value="4">
+      <!--Range: Positive integers.  Description: Chance to choose a mood idle when idling.  Probability chance is this weight divided by weights of buff + trait + mood + standing idle.-->
+    </kMoodIdleChance>
+    <kBuffIdleChance value="4">
+      <!--Range: Positive integers.  Description: Chance to choose a buff idle when idling.  Probability chance is this weight divided by weights of buff + trait + mood + standing idle.-->
+    </kBuffIdleChance>
+    <kTraitIdleChance value="4">
+      <!--Range: Positive integers.  Description: Chance to choose a trait idle when idling.  Probability chance is this weight divided by weights of buff + trait + mood + standing idle.-->
+    </kTraitIdleChance>
+    <kFacialMoodIdleChance value="3">
+      <!--Range: Positive integers.  Description: Chance to choose a facial idle based on mood when idling.  Probability chance is this weight divided by weights of buff + trait + mood facial idles.-->
+    </kFacialMoodIdleChance>
+    <kFacialBuffIdleChance value="6">
+      <!--Range: Positive integers.  Description: Chance to choose a facial idle based on buffs when idling.  Probability chance is this weight divided by weights of buff + trait + mood facial idles.-->
+    </kFacialBuffIdleChance>
+    <kFacialTraitIdleChance value="6">
+      <!--Range: Positive integers.  Description: Chance to choose a facial idle based on traits when idling.  Probability chance is this weight divided by weights of buff + trait + mood facial idles.-->
+    </kFacialTraitIdleChance>
+    <kSeatedIdleChance value="1">
+      <!--Range: Positive integers.  Description: Chance to choose a seated idle when idling.  Probability chance is this weight divided by weights of buff + trait + mood + standing idle.-->
+    </kSeatedIdleChance>
+    <kThoughtBalloonChance value="10">
+      <!--Range: 0 - 100  Description:  Percent chance that if the idle doesn't have a thought balloon it will try to find one from the sims traits or buffs or dreams or other-->
+    </kThoughtBalloonChance>
+    <kBuffWeight value="35">
+      <!--Description:  Weight to select a Buff Balloon-->
+    </kBuffWeight>
+    <kDreamWeight value="50">
+      <!--Description:  Weight to selct a dream ballon-->
+    </kDreamWeight>
+    <kActiveTopicWeight value="50">
+      <!--Description:  Weight to selct an active topic ballon-->
+    </kActiveTopicWeight>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

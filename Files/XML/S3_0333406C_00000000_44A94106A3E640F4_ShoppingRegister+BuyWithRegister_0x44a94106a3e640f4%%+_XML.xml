@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinDistance value="0.7">
+      <!--Range:  0 - 100  Description:  Min Route Distance-->
+    </kMinDistance>
+    <kMaxDistance value="1.5">
+      <!--Range:  0 - 100  Description:  Max Route Distance-->
+    </kMaxDistance>
+    <kConeAngle value="0.5235988">
+      <!--The arc/cone's angle for finding a suitable spot for a sim that will stand to buy items. Units: Radians. Valid range [0, Pi]. Initial GPE Default: (Pi)/6 (30 degreees.-->
+    </kConeAngle>
+  </Current_Tuning>
+</base>

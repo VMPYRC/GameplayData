@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPerformanceModifier value="-1">
+      <!--Performance Modifier when building an independent case-->
+    </kPerformanceModifier>
+    <kMinimumMinutesToComplete value="600">
+      <!--Lower limit of time (in minutes) required to complete building an independent case-->
+    </kMinimumMinutesToComplete>
+    <kMaximumMinutesToComplete value="1080">
+      <!--Upper limit of time (in minutes) required to complete building an independent case-->
+    </kMaximumMinutesToComplete>
+    <kMinimumLogicSkillForSuccess value="0">
+      <!--The minimum level of Logic skill needed for the sim to succeed in building their case. All levels below this number guarantee a failure. All levels above this level increase in probability linearly until the maximum level, at which point probability becomes 100%-->
+    </kMinimumLogicSkillForSuccess>
+    <kMaximumLogicSkillForSuccess value="7">
+      <!--The maximum level of Logic skill needed for the sim to succeed in building their case. All levels above this number guarantee a success. All levels below this level decrease in probability linearly until the minimum level, at which point probability becomes 0%-->
+    </kMaximumLogicSkillForSuccess>
+    <kPerformanceChangeOnSuccess value="75">
+      <!--Amount of performance change when the sim successfully builds an independent case.-->
+    </kPerformanceChangeOnSuccess>
+    <kRelationshipChangeOnFailure value="-5">
+      <!--Amount of LTR added to each coworker's relationship to the sim when they fail to build a case.-->
+    </kRelationshipChangeOnFailure>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kIndependentCaseMinutesToComplete value="1200">
+      <!--Law Enforcement Career, 'Build Independent Case' Tone: Number of minutes required to complete an independent case.-->
+      <!--deprecated on: 11/30/2007 5:25:52 PM-->
+    </kIndependentCaseMinutesToComplete>
+  </Deprecated_Tuning>
+</base>

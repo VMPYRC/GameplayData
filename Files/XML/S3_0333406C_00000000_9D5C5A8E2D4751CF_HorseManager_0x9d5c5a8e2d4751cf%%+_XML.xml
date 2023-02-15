@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFoalNearMotherDistance value="15">
+      <!--Float. If a foal and its mother is within this distance of each other, the foal gets a "Near Mother" buff-->
+    </kFoalNearMotherDistance>
+    <kFoalAwayFromMotherDistance value="16">
+      <!--Float. If a foal and its mother is this distance apart, the foal gets a "Away From Mother" buff and the mother gets the "Away From Foal" buff-->
+    </kFoalAwayFromMotherDistance>
+    <kFoalAwayFromMotherHours value=".5">
+      <!--Float. If a foal and its mother is away from each other for this many hours, the foal gets a "Away From Mother" buff and the mother gets the "Away From Foal" buff-->
+    </kFoalAwayFromMotherHours>
+    <kFoalAwayFromMotherSocialDecayPerHour value="-10">
+      <!--Float. Social Motive Delta on a foal when it has the "Away From Mother" buff. Negative numbers indicate faster decay.-->
+    </kFoalAwayFromMotherSocialDecayPerHour>
+    <kKickFunDeltaSim value="-10">
+      <!--Kick: Negative float.  The amount to change the sim's fun motive by after being kicked.-->
+    </kKickFunDeltaSim>
+    <kKickFunDeltaOrneryHorse value="25">
+      <!--Kick: Positive float.  The amount to change the horse's fun motive by after kicking.  Only Ornery horses will get this fun bonus.-->
+    </kKickFunDeltaOrneryHorse>
+    <kCostHorseAgeValue value="0, -150">
+      <!--int: Bonus Cost for the horse given if the horse is [adult, elder]-->
+    </kCostHorseAgeValue>
+    <kCostSkillMultiplier value="600, 600">
+      <!--int: Bonus Cost for the horse that we multiply for its skill points [riding, jumping]-->
+    </kCostSkillMultiplier>
+    <kCostBaseValue value="600, 400">
+      <!--Range: Value base range for the cost of a horse. [initial value, end value]-->
+    </kCostBaseValue>
+    <kCostBuyHorseValue value="1.2">
+      <!--Range: [Multiplier] Extra cost for the horse if it is being bought-->
+    </kCostBuyHorseValue>
+    <kCostGoodTraitBonus value="200">
+      <!--int: Cost of horse if the horse has good traits-->
+    </kCostGoodTraitBonus>
+    <kCostBadTraitPenalty value="100">
+      <!--int: Cost of horse  if the horse has bad traits-->
+    </kCostBadTraitPenalty>
+    <kRacingSkillOppMultiplier value="1.5, 1.3">
+      <!--Range of cost multipliers for linear interpolation for the Lifetime Opportunity. [value for sim having the skill lifetime opp, value for the sim's kRacingSkillOppGenealogyCap generation having the skill lifetime opp]-->
+    </kRacingSkillOppMultiplier>
+    <kRacingSkillOppGenealogyCap value="2">
+      <!--int: Max genealogy level for getting the Racing Skill lifetime opportunity transfered to children-->
+    </kRacingSkillOppGenealogyCap>
+    <kJumpingSkillOppMultiplier value="1.5, 1.3">
+      <!--Range of cost multipliers for linear interpolation  for the Lifetime Opportunity. [value for sim having the skill lifetime opp, value for the sim's kJumpingSkillOppGenealogyCap generation having the skill lifetime opp]-->
+    </kJumpingSkillOppMultiplier>
+    <kJumpingSkillOppGenealogyCap value="2">
+      <!--int: Max genealogy level for getting the Jumping Skill lifetime opportunity transfered to children-->
+    </kJumpingSkillOppGenealogyCap>
+    <kBreedHorseCostMultiplier value="0.3">
+      <!--Range: [Multiplier] Percentage of horse cost for breeding Mare-->
+    </kBreedHorseCostMultiplier>
+    <kKickLTRLikingDelta value="-10">
+      <!--Kick: Negative float.  The amount to change the LTR Liking between horse and human after kicking.-->
+    </kKickLTRLikingDelta>
+    <kTimeToEatBeforeGainingExtraNutritiousBuff value="5">
+      <!--Float. How long a horse must eat in Sim minutes before getting the Extra Nutritious buff.-->
+    </kTimeToEatBeforeGainingExtraNutritiousBuff>
+    <kExtraNutritiousSkillGainRateModifier value="0.1">
+      <!--Float. Skill gain rate additive modifier applied to all skills when horse has the Extra Nutritious buff. Note: this is *not* a multiplier.-->
+    </kExtraNutritiousSkillGainRateModifier>
+    <kDistanceToStartleForMediumChance value="8">
+      <!--Range:  0 - 100  Description:  Distance in which for medium chance to startle deer-->
+    </kDistanceToStartleForMediumChance>
+    <kDistanceToStartleHighChance value="4">
+      <!--Range:  0 - 100  Description:  Distance in which for High chance to startle deer-->
+    </kDistanceToStartleHighChance>
+    <kChanceForMediumStartle value="50">
+      <!--Range:  0 - 100  Description:  Chance to startle at medium distance-->
+    </kChanceForMediumStartle>
+    <kChanceForHighStartle value="95">
+      <!--Range:  0 - 100  Description:  Chance to startle at high distance-->
+    </kChanceForHighStartle>
+    <kWildlifeFriendDecrementFromChanceToStartleMin value="20">
+      <!--Range:  0 - 100. Description:  if Sim has wildlife trait how much to decrement chance to startle. Linear Interpolation based on sim's wildlife friend skill. this is the min.-->
+    </kWildlifeFriendDecrementFromChanceToStartleMin>
+    <kWildlifeFriendDecrementFromChanceToStartleMax value="100">
+      <!--Range:  0 - 100. Description:  if Sim has wildlife trait how much to decrement chance to startle. Linear Interpolation based on sim's wildlife friend skill. this is the max.-->
+    </kWildlifeFriendDecrementFromChanceToStartleMax>
+    <kMinHorseCost value="50">
+      <!--Simoleons:  Minimum cost of a horse.-->
+    </kMinHorseCost>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinimumDistanceToWander value="8">
+      <!--Minimum distance for dog to wander while searching-->
+    </kMinimumDistanceToWander>
+    <kMaximumDistanceToWander value="20">
+      <!--Maximum distance for dog to wander while searching-->
+    </kMaximumDistanceToWander>
+    <kMinimumTimeToWander value="20">
+      <!--Minimum time for dog to wander while searching in sim minutes-->
+    </kMinimumTimeToWander>
+    <kMaximumTimeToWander value="45">
+      <!--Maximum time for dog to wander while searching in sim minutes-->
+    </kMaximumTimeToWander>
+    <kTimeToDig value="10">
+      <!--Time it should take the dog to dig up an item-->
+    </kTimeToDig>
+    <kFadeDuration value="30">
+      <!--The time of the hole to fade out-->
+    </kFadeDuration>
+    <kValidTerrainTypes value="Cement01, Cobblestone01, Asphalt01, Masonry01, Concrete01, Concrete02, Flagstone01, Footpath, Default, Dirt01, Dirt02, Grass01, Grass02, Sand01, Sand02, Gravel01, Gravel02, Ice01, Mud01, Mulch01, Rock01, Rock02, Road01, Road01_Sidewalk, Snow01">
+      <!--Valid terrrain types for sniffing out.-->
+    </kValidTerrainTypes>
+  </Current_Tuning>
+</base>

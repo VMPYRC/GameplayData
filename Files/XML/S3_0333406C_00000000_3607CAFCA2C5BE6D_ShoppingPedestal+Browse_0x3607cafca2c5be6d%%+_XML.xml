@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDurationSimWillBrowseShoppingPedestals value="10">
+      <!--Description:  The duration in Sim minutes a Sim will continue browsing ShoppingPedestals.-->
+    </kDurationSimWillBrowseShoppingPedestals>
+    <kChanceSimWillPurchaseFromShoppingPedestal value="50">
+      <!--Description:  The chance an NPC Sim will purchase an item after finish browsing ShoppingPedestals.-->
+    </kChanceSimWillPurchaseFromShoppingPedestal>
+    <kBrowseReactionWeighting value="1, 1, 1">
+      <!--Description:  The weighted chance of playing a specific browse reaction. Each number relates to a reaction.  Curious, Agreeable, Disgusted-->
+    </kBrowseReactionWeighting>
+    <kTimeToSpendViewingSingleObject value="3">
+      <!--Description:  The duration in Sim minutes a Sim will view the object on a single ShoppingPedestals.-->
+    </kTimeToSpendViewingSingleObject>
+  </Current_Tuning>
+</base>

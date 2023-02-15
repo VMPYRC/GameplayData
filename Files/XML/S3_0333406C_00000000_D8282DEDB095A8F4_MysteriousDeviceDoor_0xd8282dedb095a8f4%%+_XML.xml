@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinViewDistance value="1">
+      <!--Range:  0 - ?  Description:  Min view distance-->
+    </kMinViewDistance>
+    <kMaxViewDistance value="6">
+      <!--Range:  0 - ?  Description:  Max view distance-->
+    </kMaxViewDistance>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kMinTimeBeforeClosingDoorIfSimInside value="15">
+      <!--Number of minutes the door will wait to try closing the door again if a Sim is inside-->
+    </kMinTimeBeforeClosingDoorIfSimInside>
+    <kMinViewingTime value="5">
+      <!--Range: Sim Minutes.  The minimum time a Sim will stop to look at a viewable-->
+    </kMinViewingTime>
+    <kMaxViewingTime value="25">
+      <!--Range: Sim Minutes.  The maximum time a Sim will stop to look at a viewable-->
+    </kMaxViewingTime>
+    <kLookAtPriorityForViewObjectInteraction value="80">
+      <!--Range: 0 to 100. Description: How important to when performing the View interaction on fountains, paintings, sculptures etc.-->
+    </kLookAtPriorityForViewObjectInteraction>
+    <fMaxViewConeAngle value="85">
+      <!--Range: Angle in Degrees.  The area the Sim will try to stand defined by angle from the center of the front of the door-->
+    </fMaxViewConeAngle>
+    <sLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="30">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <DefaultInteractionLookAtThreshold value="120">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </sLookAtTuning>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeToWaitToEvict value="15">
+      <!--Time to wait to evict a lower priority Sim from this object, in Sim minutes-->
+    </kTimeToWaitToEvict>
+    <kSnacksAvailableAtBar value="EP9Brownie,foodSnackCookie,foodSnackDonutEP09,EP9Bagel,EP9Muffin,EP9KeyLimePie,EP9CheeseDanish,FoodBirthdayCakeSlice">
+      <!--Array of Strings. Recipe names for snacks available at the barista bar-->
+    </kSnacksAvailableAtBar>
+    <kTeasAvailableAtBar value="GinsengTea@Ginseng,SweetGrassTea@SweetGrass,CinnamonTea@Cinnamon,BasilTea@Basil,LavenderTea@Lavender,PeppermintTea@Peppermint,WonderpetalTea@Wonderpetal,ChamomileTea@Chamomile,BumbleleafTea@Bumbleleaf,GreenleafTea@Greenleaf,LicoriceTea@Licorice,BuzzberryTea@Buzzberry">
+      <!--Array of Strings. Names of teas, followed by ingredient needed (Ingredient name) separated with @ (eg. 'GinsengTea@Ginseng', 'SweetGrassTea@SweetGrass')-->
+    </kTeasAvailableAtBar>
+    <kOrganicDrinksAvailableAtBar value="OrganicKonaLift@KonaBean,OrganicMidnightMud@BlackBean,OldJoesOrganicReserve@ElderSwan,OrganicCatCreation@ExpensiveBerry,OrganicSlappucino@MauiBean">
+      <!--Array of Strings. Names of organic drinks, followed by ingredient needed (Ingredient name) separated with @ (eg. 'CoffeeType1@CoffeeBean')-->
+    </kOrganicDrinksAvailableAtBar>
+    <kEnergyDrinksAvailableAtBar value="ChamomileKick@Chamomile,Greenleafapalooza@Greenleaf,PeppermintParty@Peppermint,Garlicious@Garlic,InYourFaceLime@Lime,SpudSudsShock@Potato,WatermelonMushroomCloud@Watermelon,LicoriceEnergsplosion@Licorice,BuzzberryRush@Buzzberry,WondrousOnyum@Onion,RidiculousRedApple@Apple">
+      <!--Array of Strings. Names of energy drinks, followed by ingredient needed (Ingredient name) separated with @ (eg. 'ChamomileKick@Chamomile')-->
+    </kEnergyDrinksAvailableAtBar>
+    <kHotBeverageDrinksAvailableAtBar value="6">
+      <!--Number of hot beverages to show in the 'hot beverages' menu.-->
+    </kHotBeverageDrinksAvailableAtBar>
+    <kCostOfSnack value="10">
+      <!--Cost of a snack-->
+    </kCostOfSnack>
+    <kGameDevDiscount value="0.7">
+      <!--Discount given to Video Game Developer Sims above a certain career level.-->
+    </kGameDevDiscount>
+    <kGameDevCareerLevelForDiscount value="2">
+      <!--Level required in the Video Game Developer career to get a discount.-->
+    </kGameDevCareerLevelForDiscount>
+  </Current_Tuning>
+</base>

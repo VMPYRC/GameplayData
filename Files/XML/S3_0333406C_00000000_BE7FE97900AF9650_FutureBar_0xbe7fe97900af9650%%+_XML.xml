@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFutureBarFoodUnits value="20">
+      <!--Number minutes it takes to drink a future bar drink. - PAB-->
+    </kFutureBarFoodUnits>
+    <kFailChance value="40, 35, 30, 25, 20, 15, 15, 10, 5, 0, 0">
+      <!--Range 0-100: Chance of gross juice being ordered (per skill level) - PAB-->
+    </kFailChance>
+    <kOrderDrinkSkillLevels value="4, 0, 4">
+      <!--Range 0-10: Future skill levels needed for the different order drink interactions (Single / Round, Future, Favourite - PAB-->
+    </kOrderDrinkSkillLevels>
+  </Current_Tuning>
+</base>

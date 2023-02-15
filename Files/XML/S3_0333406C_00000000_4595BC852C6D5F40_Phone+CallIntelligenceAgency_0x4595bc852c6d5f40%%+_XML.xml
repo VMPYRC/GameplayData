@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCallLength value="30">
+      <!--Length of the call to the intelligence agency in minutes-->
+    </kCallLength>
+    <kMinTNSTime value="5">
+      <!--Minimum time between showing TNSes for the phone intelligence agency interaction- in minutes-->
+    </kMinTNSTime>
+    <kMaxTNSTime value="10">
+      <!--Maximum time between showing TNSes for the phone intelligence agency interaction- in minutes-->
+    </kMaxTNSTime>
+    <kChanceOfHoldEachEvent value="0.2">
+      <!--Chance that when it is time for a TNS we get put on hold-->
+    </kChanceOfHoldEachEvent>
+    <kEnjoyingMusicMoodBenefitOnHold value="5">
+      <!--Mood benefit from hold music-->
+    </kEnjoyingMusicMoodBenefitOnHold>
+  </Current_Tuning>
+</base>

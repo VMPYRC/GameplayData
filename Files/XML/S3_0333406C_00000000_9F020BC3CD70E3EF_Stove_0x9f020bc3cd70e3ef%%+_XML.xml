@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kUpgradeMakeFireproofTuning>
+      <UpgradeTime value="160">
+        <!--The amount of time it takes to do the upgrade in minutes-->
+      </UpgradeTime>
+      <SkillGainRate value="1920">
+        <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+      </SkillGainRate>
+      <BadFailureChance value="15">
+        <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+      </BadFailureChance>
+      <ShouldShockInPuddle value="True">
+        <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+      </ShouldShockInPuddle>
+    </kUpgradeMakeFireproofTuning>
+    <kUpgradeImprovedCookingQualityTuning>
+      <UpgradeTuning>
+        <UpgradeTime value="320">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="5440">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="15">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="True">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeTuning>
+      <CookingQualityMultiplier value="1.25">
+        <!--Multiplier applied to bonus food points-->
+      </CookingQualityMultiplier>
+    </kUpgradeImprovedCookingQualityTuning>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <UpgradeComplexity value="4">
+      <!--The initial level a Sim can perform an upgrade.  Also the level when he has the max chance of failure-->
+      <!--deprecated on: 1/7/2008 7:09:06 PM-->
+    </UpgradeComplexity>
+    <UpgradeComplexity value="7">
+      <!--The initial level a Sim can perform an upgrade.  Also the level when he has the max chance of failure-->
+      <!--deprecated on: 1/7/2008 7:09:06 PM-->
+    </UpgradeComplexity>
+  </Deprecated_Tuning>
+</base>

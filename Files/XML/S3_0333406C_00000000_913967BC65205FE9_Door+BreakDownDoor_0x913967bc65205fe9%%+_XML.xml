@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinMaxTimeToBreakDownDoor value="10, 20">
+      <!--Range:  float  Description:  Min and Max Time sim needs to break down door-->
+    </kMinMaxTimeToBreakDownDoor>
+    <kAthleticSkillDecrement value="1">
+      <!--Range:  float  Description:  Num minutes taken off for each athletic skill sim has-->
+    </kAthleticSkillDecrement>
+    <kChanceSimWillFail value="20">
+      <!--Range:  1-100  Description:  Chance Sim will fail at kicking door-->
+    </kChanceSimWillFail>
+    <kAthleticSkillMaxFail value="5">
+      <!--Range:  int  Description:  Skill Level in which sim cannot fail-->
+    </kAthleticSkillMaxFail>
+    <kMinutesTillFail value="15">
+      <!--Range:  float  Description:  Minutes until sim fails door kick.-->
+    </kMinutesTillFail>
+  </Current_Tuning>
+</base>

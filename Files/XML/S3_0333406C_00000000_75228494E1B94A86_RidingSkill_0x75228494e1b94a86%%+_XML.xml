@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCompetitionsWonToBeChampion value="20">
+      <!--Range:  1 - 100  Description:  Competitions Required to be an Equestrian Champion-->
+    </kCompetitionsWonToBeChampion>
+    <kWildHorsesForMustangMaster value="3">
+      <!--Range:  1 - 100  Description: Wild Horses adopted required to be a Mustang Master-->
+    </kWildHorsesForMustangMaster>
+    <kHorsesForHorseFriend value="10">
+      <!--Range:  1 - 100  Description: Horses that have Friend LTR required to become a Horse Friend-->
+    </kHorsesForHorseFriend>
+    <kLevelForTrainForRacing value="2">
+      <!--Range:  1 - 10  Description: Minimum Riding Skill Level required for Train for Racing-->
+    </kLevelForTrainForRacing>
+    <kLevelForEnterRacingCompetition value="2">
+      <!--Range:  1 - 10  Description: Minimum Riding Skill Level for Entering Racing Competition-->
+    </kLevelForEnterRacingCompetition>
+    <kLevelForEnterJumpingCompetition value="3">
+      <!--Range:  1 - 10  Description: Minimum Riding Skill Level for Entering Jumping Competition-->
+    </kLevelForEnterJumpingCompetition>
+    <kLevelForEnterCrossCountryCompetition value="6">
+      <!--Range:  1 - 10  Description: Minimum Riding Skill Level for Entering Cross Country Competition-->
+    </kLevelForEnterCrossCountryCompetition>
+    <kLevelForUsingHorsesAsPreferredVehicle value="0">
+      <!--Range:  1 - 10  Description: Minimum Riding Skill Level for Using horse as preferred vehicle-->
+    </kLevelForUsingHorsesAsPreferredVehicle>
+    <kLevelForRidingBareback value="5">
+      <!--Range:  1 - 10  Description: Minimum Riding Skill Level for Riding bareback-->
+    </kLevelForRidingBareback>
+    <kLevelForHeroicPose value="7">
+      <!--Range:  1 - 10  Description: Minimum Riding Skill Level for Heroic Pose-->
+    </kLevelForHeroicPose>
+    <kLevelForAdoptingWildHorse value="8">
+      <!--Range:  1 - 10  Description: Minimum Riding Skill Level for Adoptiing Wild Horses-->
+    </kLevelForAdoptingWildHorse>
+    <kLevelForWhisperSocial value="10">
+      <!--Range:  1 - 10  Description: Minimum Riding Skill Level for allowing Whisper Social-->
+    </kLevelForWhisperSocial>
+    <kEquestrianChampionPrizeMultiplier value="1.2">
+      <!--Range:  1 - X  Description: Prize multiplier for Equestrian Champion-->
+    </kEquestrianChampionPrizeMultiplier>
+    <kMinSaddleSoreTime value="180">
+      <!--Range:  Time for saddle sore (on riding skill level 0)-->
+    </kMinSaddleSoreTime>
+    <kMaxSaddleSoreTime value="1080">
+      <!--Range:  Time for saddle sore (on riding skill level 10)-->
+    </kMaxSaddleSoreTime>
+    <kLevelForTrot value="1">
+      <!--Range:  1 - 10  Description: Minimum Riding Skill Level required for Troting-->
+    </kLevelForTrot>
+    <kLevelForGallop value="2">
+      <!--Range:  1 - 10  Description: Minimum Riding Skill Level required for Galloping-->
+    </kLevelForGallop>
+    <kLTRSkillMultiplier value="1, 2.0">
+      <!--Array:  [1 - X, 1-X]  Description: Min and max multipliers for LTR based on the riding skill level-->
+    </kLTRSkillMultiplier>
+    <kJumpingSkillMultiplier value="1, 1.75">
+      <!--Array:  [1 - X, 1-X]  Description: Min and max multipliers for Jumping Skill gain based on the riding skill level of the rider-->
+    </kJumpingSkillMultiplier>
+    <kRacingSkillMultiplier value="1, 1.75">
+      <!--Array:  [1 - X, 1-X]  Description: Min and max multipliers for Jumping Skill gain based on the riding skill level of the rider-->
+    </kRacingSkillMultiplier>
+    <kNearFailMountChance value="0.3, 0">
+      <!--Array:  [0-1, 0-1]  Description: Min and max chance for near failing a mount based on the riding skill level of the rider-->
+    </kNearFailMountChance>
+    <kSkilledMountChance value="0, 1">
+      <!--Array:  [0-1, 0-1]  Description: Min and max chance for doing a Skilled (vs Amateur) mount based on the riding skill level of the rider. Note that kNearFailMountChance is determined first, and only if that does not fail is Skilled vs Amateur determined.-->
+    </kSkilledMountChance>
+    <kChanceForNpcToRideHorse value="0, 1">
+      <!--Array:  [0-1, 0-1]  Description: Min and max chance for an NPC riding a horse when traveling from home lot to another lot.-->
+    </kChanceForNpcToRideHorse>
+    <kMinLtrForMountAvailability value="-100">
+      <!--Range:  -100 - 100  Description: Minimum LTR for Mount interaction to be available between prospective rider and horse.-->
+    </kMinLtrForMountAvailability>
+    <kMinLtrForMountAccept value="-10">
+      <!--Range:  -100 - 100  Description: Minimum LTR for Mount interaction to be accepted between prospective rider and horse.-->
+    </kMinLtrForMountAccept>
+    <kLevelForStableRider value="5">
+      <!--Range:  1 - 10  Description: Minimum Riding Skill Level for having stable riding animations-->
+    </kLevelForStableRider>
+  </Current_Tuning>
+</base>

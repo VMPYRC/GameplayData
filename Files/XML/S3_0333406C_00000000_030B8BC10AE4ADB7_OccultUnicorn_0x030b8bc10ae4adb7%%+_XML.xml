@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxMagicPoints value="60">
+      <!--Maximum magic points the unicorn can have-->
+    </kMaxMagicPoints>
+    <kPowerShortageMagicPoints value="30">
+      <!--Threshold of points where the horse will get the PowerShortage Buff-->
+    </kPowerShortageMagicPoints>
+    <kMinHygiene value="-60">
+      <!--Minimum possible hygiene for Unicorn-->
+    </kMinHygiene>
+    <kUsedMagicPointsTimeout value="360">
+      <!--Timeout(in simminutes) for UsedMagicPoints state to restore magic points-->
+    </kUsedMagicPointsTimeout>
+    <kUnicornLikingMultiplier value="1.25">
+      <!--Multiplier. Description: Multiplier for LTR liking between a unicorn and a pet, or human teen or below.-->
+    </kUnicornLikingMultiplier>
+    <kSkillGainRateModifier value="0.25">
+      <!--Range: Positive float values. Description: Additional skill gain modifier for Unicorns.-->
+    </kSkillGainRateModifier>
+    <kChanceForLifeFruit value="0.1">
+      <!--Chance: 0-1 . Description: Chance for sim to turn plan into life fruit bush if it has been fertilized with unicorn fertilizer-->
+    </kChanceForLifeFruit>
+    <kGoodNPCUnicornLikingMultiplier value="1.25">
+      <!--Multiplier. Description: Multiplier for LTR liking between a unicorn and a good sim-->
+    </kGoodNPCUnicornLikingMultiplier>
+    <kEvilNPCUnicornLikingMultiplier value="0.5">
+      <!--Multiplier. Description: Multiplier for LTR liking between a unicorn and an evil sim.-->
+    </kEvilNPCUnicornLikingMultiplier>
+    <kMinLTRforChanceOfBless value="30">
+      <!--Range -100 - 100. Description: Min LTR liking required for chance of pushing the bless interaction after an accepted social-->
+    </kMinLTRforChanceOfBless>
+    <kMaxLTRforChanceOfCurse value="-25">
+      <!--Range -100 - 100. Description: Max LTR liking required for chance of pushing the curse interaction after a rejected social-->
+    </kMaxLTRforChanceOfCurse>
+    <kChanceForBlessAfterSocial value="0.5">
+      <!--Chance: 0 - 1. Description: Chance for pushing the Bless social after an accepted social with the right ltr conditions-->
+    </kChanceForBlessAfterSocial>
+    <kChanceForCurseAfterSocial value="0.75">
+      <!--Chance: 0 - 1. Description: Chance for pushing the Curse social after a rejected social with the right ltr conditions-->
+    </kChanceForCurseAfterSocial>
+    <kPetCountForValidSpawnLocation value="5">
+      <!--Range: 0 - X. Description: Minimum number of pets a sim has to have with friend LTR to make his household a valid spawn location-->
+    </kPetCountForValidSpawnLocation>
+    <kSocialSuccessLtrModifier value="10">
+      <!--The amount of LTR Liking to subtract from sim/npc unicorns for LTR for socials where a Unicorn is the target. 0.0+-->
+    </kSocialSuccessLtrModifier>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kReactToFightBroadcaster>
+      <PulseRadius value="10">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <PulseRepeatTime value="2">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kReactToFightBroadcaster>
+    <kGenericRejectorWeightsDogAggressive value="1, 24">
+      <!--2 Ints.  The weighted chances of a dog choosing the aggressive reaction if it doesn't have the Aggressive trait and if it does have the trait.-->
+    </kGenericRejectorWeightsDogAggressive>
+    <kGenericRejectorWeightsDogSkittishOrShy value="1, 24">
+      <!--2 Ints.  The weighted chances of a dog choosing the skittish/shy reaction if it doesn't have the Skittish or Shy trait and if it does have the traits.-->
+    </kGenericRejectorWeightsDogSkittishOrShy>
+    <kGenericRejectorWeightsDogProud value="0, 24">
+      <!--2 Ints.  The weighted chances of a dog choosing the proud reaction if it doesn't have the Proud trait and if it does have the trait.-->
+    </kGenericRejectorWeightsDogProud>
+    <kGenericRejectorWeightsDogOther value="8">
+      <!--Int.  The weighted chance of a dog choosing neutral reaction.-->
+    </kGenericRejectorWeightsDogOther>
+    <kGenericRejectorWeightsCatAggressive value="1, 24">
+      <!--2 Ints.  The weighted chances of a cat choosing the aggressive reaction if it doesn't have the Aggressive trait and if it does have the trait.-->
+    </kGenericRejectorWeightsCatAggressive>
+    <kGenericRejectorWeightsCatSkittishOrShy value="1, 24">
+      <!--2 Ints.  The weighted chances of a cat choosing the skittish/shy reaction if it doesn't have the Skittish or Shy trait and if it does have the traits.-->
+    </kGenericRejectorWeightsCatSkittishOrShy>
+    <kGenericRejectorWeightsCatProud value="0, 24">
+      <!--2 Ints.  The weighted chances of a cat choosing the proud reaction if it doesn't have the Proud trait and if it does have the trait.-->
+    </kGenericRejectorWeightsCatProud>
+    <kGenericRejectorWeightsCatOther value="8">
+      <!--Int.  The weighted chance of a cat choosing neutral reaction.-->
+    </kGenericRejectorWeightsCatOther>
+    <kGenericRejectorWeightsHorseAggressiveOrOrnery value="1, 36">
+      <!--2 Ints.  The weighted chances of a horse choosing the aggressive reaction if it doesn't have the Aggressive or Ornery trait and if it does have the traits.-->
+    </kGenericRejectorWeightsHorseAggressiveOrOrnery>
+    <kGenericRejectorWeightsHorseOther value="9">
+      <!--Int.  The weighted chance of a horse choosing neutral reaction.-->
+    </kGenericRejectorWeightsHorseOther>
+    <kGenericPetRejectBigLikingBonus value="20">
+      <!--Positive float.  The big LTR Liking bonus given for traits such as CatLover.-->
+    </kGenericPetRejectBigLikingBonus>
+    <kGenericPetRejectSmallLikingBonus value="10">
+      <!--Positive float.  The small LTR Liking bonus given for traits such as AnimalLover.-->
+    </kGenericPetRejectSmallLikingBonus>
+    <kGenericPetRejectLikingPenalty value="-10">
+      <!--Negative float.  The LTR Liking penalty given for traits such as ShyPet.-->
+    </kGenericPetRejectLikingPenalty>
+    <kGenericPetRejectBigMoodBonus value="20">
+      <!--Positive int.  The big Mood bonus given for traits such as CatLover.-->
+    </kGenericPetRejectBigMoodBonus>
+    <kGenericPetRejectSmallMoodBonus value="10">
+      <!--Positive int.  The small Mood bonus given for traits such as AnimalLover.-->
+    </kGenericPetRejectSmallMoodBonus>
+    <kGenericPetRejectMoodPenalty value="-10">
+      <!--Negative int.  The Mood penalty given for traits such as ShyPet.-->
+    </kGenericPetRejectMoodPenalty>
+    <kGenericRejectorKickMoodThreshold value="-9">
+      <!--Int.  The threshold below which a horse's mood must be for it to Kick you as a generic reject.  Ornery horses may kick regardless of mood.-->
+    </kGenericRejectorKickMoodThreshold>
+    <kGenericRejectorKickLTRLikingThreshold value="-1, -50">
+      <!--2 floats in range -100 to 100.  The threshold above which your LTR Liking must be for a horse to rarely reject you via Kick and the theshold below which your LTR Liking must be for the horse to Kick you more often.-->
+    </kGenericRejectorKickLTRLikingThreshold>
+    <kGenericRejectorWeightsKick value="4, 9, 18">
+      <!--2 Ints.  The weighted chances of a horse choosing the kick reaction if your LTR Liking is above the high threshold, normal or below the low threshold.-->
+    </kGenericRejectorWeightsKick>
+    <kGenericPetRejectHideUnderObjectRadius value="10">
+      <!--Positive float.  The distance which a skittish cat will go to hide under something.-->
+    </kGenericPetRejectHideUnderObjectRadius>
+    <kFutureSocialNameHashes value="4140304027, 831998283, 3770398268, 1735574630, 3176818779, 11334642, 2768640779, 1257204734, 3982180067, 1204138180, 4109336770, 422204313">
+      <!--Hashes of the Social names that use Future Sim animations, using the FNV1_32Bit_LC hash macro. Ask Jeff Davis if you need help finding hash values-->
+    </kFutureSocialNameHashes>
+    <kAcceptableInsults value="3146155728, 275022589">
+      <!--Hashes of the Social names that count as Insults for the Evil Mastermind statue. Ask Jeff Davis if you need help finding hash values-->
+    </kAcceptableInsults>
+  </Current_Tuning>
+</base>

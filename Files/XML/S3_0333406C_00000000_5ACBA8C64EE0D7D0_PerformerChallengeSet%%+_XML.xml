@@ -1,0 +1,1303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Performer</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>284</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>557</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Fail $Trick</DisplayName>
+      <StringEnumValue>PerformMimeWalkingInWind</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>FailedTrickFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>289</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>JuggleClubs</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>290</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>JuggleKnives</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>292</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>JuggleTorches</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>293</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>PerformMimeHumanStatue</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>296</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>PerformMimePullingRope</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>297</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>PerformMimeTrappedInBox</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>299</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>BalancingBallTrick1</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>300</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>BalancingBallTrick2</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>304</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>BalancingBallTrick3</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>305</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>GiantRingOfFireTrick1</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>306</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>GiantRingOfFireTrick2</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>307</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>GiantRingOfFireTrick3</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/28725942-47f8-49a0-98d3-c7d4ecc2e53b:Name</NameKey>
+    <Name>Blown Away!</Name>
+    <SetName>Performer</SetName>
+    <ChallengeGuid>28725942-47f8-49a0-98d3-c7d4ecc2e53b</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>284</LogicString>
+    <FailureString>((((289OrOP290)OrOP(292OrOP293))OrOP((296OrOP297)OrOP(299OrOP300)))OrOP(((304OrOP305)OrOP306)OrOP307))</FailureString>
+    <DescriptionKey>Gameplay/Challenges/28725942-47f8-49a0-98d3-c7d4ecc2e53b:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\performer_065.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>412</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>541</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Is Playable Ghost</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>OwnerIsPlayableGhostFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>414</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>390</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform as $Career at GigBigShow</DisplayName>
+      <StringEnumValue>PerformanceArtistCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PerformanceShowFeedbackFunctionGigBigShow</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>415</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>549</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Had a $GigQuality Gig</DisplayName>
+      <EnumValue>4</EnumValue>
+      <StringEnumValue>Legendary</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GigWasSpecifiedQuality</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>GigQuality</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>418</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>386</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform as $Career at GigPark</DisplayName>
+      <StringEnumValue>PerformanceArtistCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PerformanceShowFeedbackFunctionGigPark</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>419</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>387</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform as $Career at GigBistro</DisplayName>
+      <StringEnumValue>PerformanceArtistCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PerformanceShowFeedbackFunctionGigBistro</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>421</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>388</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform as $Career at GigHangout</DisplayName>
+      <StringEnumValue>PerformanceArtistCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PerformanceShowFeedbackFunctionGigHangout</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>423</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>389</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform as $Career at GigPrivate</DisplayName>
+      <StringEnumValue>PerformanceArtistCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PerformanceShowFeedbackFunctionGigPrivate</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>424</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>450</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Join $Career</DisplayName>
+      <StringEnumValue>PerformanceArtistCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>JoinACareerCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>JoinACareerFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerHired</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/47e01961-bc16-447a-bc1b-f58e42fcac94:Name</NameKey>
+    <Name>The Show Must Go On</Name>
+    <SetName>Performer</SetName>
+    <ChallengeGuid>47e01961-bc16-447a-bc1b-f58e42fcac94</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>(412AndOP(414AndOP415))</LogicString>
+    <FailureString>((418OrOP419)OrOP(421OrOP(423OrOP424)))</FailureString>
+    <DescriptionKey>Gameplay/Challenges/47e01961-bc16-447a-bc1b-f58e42fcac94:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\performer_062.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_platinum_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>734</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>30</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <EnumValue>24</EnumValue>
+      <StringEnumValue>PerformMimeHumanStatue</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>735</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/7a3199d9-355b-4341-ac52-cccbf89c3ea6:Name</NameKey>
+    <Name>Is That Real</Name>
+    <SetName>Performer</SetName>
+    <ChallengeGuid>7a3199d9-355b-4341-ac52-cccbf89c3ea6</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>734</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/7a3199d9-355b-4341-ac52-cccbf89c3ea6:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\magician_039.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_gold_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>864</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>25</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>BalancingBallTrick3</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>865</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/9602d56a-e659-4df2-a015-1881aa6f1273:Name</NameKey>
+    <Name>On the Ball</Name>
+    <SetName>Performer</SetName>
+    <ChallengeGuid>9602d56a-e659-4df2-a015-1881aa6f1273</ChallengeGuid>
+    <ChallengeType>Player</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>864</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/9602d56a-e659-4df2-a015-1881aa6f1273:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\performer_061.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>879</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>386</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform as $Career at GigPark</DisplayName>
+      <StringEnumValue>PerformanceArtistCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PerformanceShowFeedbackFunctionGigPark</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>881</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>387</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform as $Career at GigBistro</DisplayName>
+      <EnumValue>18577542249709152</EnumValue>
+      <StringEnumValue>PerformanceArtistCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PerformanceShowFeedbackFunctionGigBistro</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>882</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>388</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform as $Career at GigHangout</DisplayName>
+      <EnumValue>18577542249709152</EnumValue>
+      <StringEnumValue>PerformanceArtistCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PerformanceShowFeedbackFunctionGigHangout</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>884</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>389</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform as $Career at GigPrivate</DisplayName>
+      <EnumValue>18577542249709152</EnumValue>
+      <StringEnumValue>PerformanceArtistCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PerformanceShowFeedbackFunctionGigPrivate</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>885</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>390</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform as $Career at GigBigShow</DisplayName>
+      <EnumValue>18577542249709152</EnumValue>
+      <StringEnumValue>PerformanceArtistCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PerformanceShowFeedbackFunctionGigBigShow</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>887</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>345</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Quit job</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>HaveAJobCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>QuitJobFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>888</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>346</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get fired</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetFiredFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/9a75f8ee-3ee5-48e6-b8cf-232b5e79893a:Name</NameKey>
+    <Name>Acrobat Around</Name>
+    <SetName>Performer</SetName>
+    <ChallengeGuid>9a75f8ee-3ee5-48e6-b8cf-232b5e79893a</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>((879AndOP(881AndOP882))AndOP(884AndOP885))</LogicString>
+    <FailureString>(887OrOP888)</FailureString>
+    <DescriptionKey>Gameplay/Challenges/9a75f8ee-3ee5-48e6-b8cf-232b5e79893a:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\performer_059.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1203</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>423</CompletionConditionId>
+      <InputNumber>20000</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Earn $n simoleons through tipping (PerformanceArtist)</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>PerformanceArtistOccupationCheck</CheckFunctionName>
+      <FeedbackFunctionName>EarnNSimoleansFromTipsAsPerformanceArtistFeedback</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotTips</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1204</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/ce626776-bcbd-4286-b9d8-9e54db08dfc6:Name</NameKey>
+    <Name>Works Hard for the Money</Name>
+    <SetName>Performer</SetName>
+    <ChallengeGuid>ce626776-bcbd-4286-b9d8-9e54db08dfc6</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>1203</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/ce626776-bcbd-4286-b9d8-9e54db08dfc6:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\performer_063.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_platinum_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1226</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>558</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Succeed at $Trick</DisplayName>
+      <StringEnumValue>GiantRingOfFireTrick1</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SucceededAtTrickFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1227</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>558</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Succeed at $Trick</DisplayName>
+      <StringEnumValue>GiantRingOfFireTrick2</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SucceededAtTrickFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1228</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>558</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Succeed at $Trick</DisplayName>
+      <StringEnumValue>GiantRingOfFireTrick3</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SucceededAtTrickFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1231</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>557</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Fail $Trick</DisplayName>
+      <StringEnumValue>GiantRingOfFireTrick1</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>FailedTrickFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1232</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>557</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Fail $Trick</DisplayName>
+      <StringEnumValue>GiantRingOfFireTrick2</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>FailedTrickFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1233</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>557</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Fail $Trick</DisplayName>
+      <StringEnumValue>GiantRingOfFireTrick3</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>FailedTrickFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/cf04c8c2-8269-4e00-a0bd-b519671f247c:Name</NameKey>
+    <Name>As Hard as it Looks</Name>
+    <SetName>Performer</SetName>
+    <ChallengeGuid>cf04c8c2-8269-4e00-a0bd-b519671f247c</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>((1226AndOP1227)AndOP1228)</LogicString>
+    <FailureString>((1231OrOP1232)OrOP1233)</FailureString>
+    <DescriptionKey>Gameplay/Challenges/cf04c8c2-8269-4e00-a0bd-b519671f247c:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\performer_066.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1256</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>3</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>PerformMimeHumanStatue</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1257</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>3</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>PerformMimePullingRope</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1259</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>3</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>PerformMimeTrappedInBox</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1260</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>3</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>PerformMimeWalkingInWind</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1263</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>3</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>JuggleClubs</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1264</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>3</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>JuggleKnives</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1266</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>442</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>3</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $Trick</DisplayName>
+      <StringEnumValue>JuggleTorches</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>TrickMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPerformedTrick</TriggerEvent>
+      <SubjectType>Trick</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1267</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>450</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Join $Career</DisplayName>
+      <StringEnumValue>PerformanceArtistCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>JoinACareerCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>JoinACareerFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerHired</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1270</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>345</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Quit job</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>HaveAJobCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>QuitJobFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1271</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>346</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get fired</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetFiredFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1272</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>310</CompletionConditionId>
+      <InputNumber>3</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or Demoted to $Career level $n or higher</DisplayName>
+      <EnumValue>18577542249709152</EnumValue>
+      <StringEnumValue>PerformanceArtistCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelGreaterThanOrEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/d08ada1b-617c-4df3-bb72-50aaafe573c5:Name</NameKey>
+    <Name>Watch What I Can Do!</Name>
+    <SetName>Performer</SetName>
+    <ChallengeGuid>d08ada1b-617c-4df3-bb72-50aaafe573c5</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(((1256AndOP1257)AndOP(1259AndOP1260))AndOP((1263AndOP1264)AndOP(1266AndOP1267)))</LogicString>
+    <FailureString>((1270OrOP1271)OrOP1272)</FailureString>
+    <DescriptionKey>Gameplay/Challenges/d08ada1b-617c-4df3-bb72-50aaafe573c5:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\performer_067.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1386</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>534</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Fulfill a promised $Wish</DisplayName>
+      <EnumValue>207663733</EnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>DreamIDMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>true</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPromisedDreamCompleted</TriggerEvent>
+      <SubjectType>Wish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1387</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/e3728410-c9a1-4a71-b5ea-4db55acec250:Name</NameKey>
+    <Name>Acromaniac!</Name>
+    <SetName>Performer</SetName>
+    <ChallengeGuid>e3728410-c9a1-4a71-b5ea-4db55acec250</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>1386</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/e3728410-c9a1-4a71-b5ea-4db55acec250:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\performer_058.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1401</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>450</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Join $Career</DisplayName>
+      <EnumValue>18577542249709152</EnumValue>
+      <StringEnumValue>PerformanceArtistCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>JoinACareerCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>JoinACareerFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerHired</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1402</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>549</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Had a $GigQuality Gig</DisplayName>
+      <EnumValue>4</EnumValue>
+      <StringEnumValue>Legendary</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GigWasSpecifiedQuality</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>GigQuality</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1404</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>346</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get fired</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetFiredFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1405</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>345</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Quit job</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>HaveAJobCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>QuitJobFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/e69c892f-43b2-48e9-b4b3-fa19009321db:Name</NameKey>
+    <Name>Legendary Performer</Name>
+    <SetName>Performer</SetName>
+    <ChallengeGuid>e69c892f-43b2-48e9-b4b3-fa19009321db</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>(1401AndOP1402)</LogicString>
+    <FailureString>(1404OrOP1405)</FailureString>
+    <DescriptionKey>Gameplay/Challenges/e69c892f-43b2-48e9-b4b3-fa19009321db:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\performer_060.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

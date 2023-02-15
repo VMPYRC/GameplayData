@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRoommateLTRForInvite value="5">
+      <!--Min LTR needed to allow a player to ask a sim to be their roommate.-->
+    </kRoommateLTRForInvite>
+    <kRoommateValidationTimeOfDay value="9">
+      <!--Time of day (in 24 hour time) to run the roommate validation check.-->
+    </kRoommateValidationTimeOfDay>
+    <kRoommateRentMultiplier value="0.01">
+      <!--This value is multiplied by the cost of a lot to determine how much each roommate pays in rent.-->
+    </kRoommateRentMultiplier>
+    <kConvinceTraits value="Schmoozer, Charismatic">
+      <!--These are the traits that make the 'Ask Roommate To' social display as 'Convince Roommate To'-->
+    </kConvinceTraits>
+    <kEncourageTraits value="Nurturing, Good, FamilyOriented">
+      <!--These are the traits that make the 'Ask Roommate To' social display as 'Encourage Roommate To'-->
+    </kEncourageTraits>
+    <kNagTraits value="Snob, Diva, Grumpy, MeanSpirited">
+      <!--These are the traits that make the 'Ask Roommate To' social display as 'Nag Roommate To'-->
+    </kNagTraits>
+    <kRoommateMoochSkillGain value="100">
+      <!--The amount of Mooch skill a sim gains when mooching from a roommate-->
+    </kRoommateMoochSkillGain>
+    <kRoommateMoochMinMoney value="10">
+      <!--The min amount of simoleons gained when a sim mooches from roommates-->
+    </kRoommateMoochMinMoney>
+    <kRoommateMoochMaxMoney value="100">
+      <!--The max amount of simoleons gained when a sim mooches from roommates-->
+    </kRoommateMoochMaxMoney>
+    <kRoommateRentDay value="Friday">
+      <!--The day of the week that roommates will pay rent. This will happen at the same time that roommates are validated (kRoommateValidationTimeOfDay)-->
+    </kRoommateRentDay>
+    <kRoommateFixObjectsDuration value="240">
+      <!--When a roommate is asked to fix objects on the lot, this is the default amount of time they will spend fixing objects.-->
+    </kRoommateFixObjectsDuration>
+    <kRoommateCleanLotDuration value="240">
+      <!--When a roommate is asked to clean up the lot, this is the default amount of time they will spend cleaning.-->
+    </kRoommateCleanLotDuration>
+  </Current_Tuning>
+</base>

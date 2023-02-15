@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCostTattooFromTattooArtist value="150">
+      <!--Range:  0+  Description:  The cost, in Simoleons, of getting a tattoo from a tattoo artist-->
+    </kCostTattooFromTattooArtist>
+    <kCostTattooSelf value="50">
+      <!--Range:  0+  Description:  The cost, in Simoleons, to tattoo yourself-->
+    </kCostTattooSelf>
+    <kTimeMinTattooAtMinSkill value="15">
+      <!--Range:  0+  Description:  The minimum required time, in Sim minutes, to tattoo a Sim at skill level 0-->
+    </kTimeMinTattooAtMinSkill>
+    <kTimeMinTattooAtMaxSkill value="8">
+      <!--Range:  0+  Description:  The minimum required time, in Sim minutes, to tattoo a Sim at skill level max-->
+    </kTimeMinTattooAtMaxSkill>
+    <kTimeMaxTattooAtMinSkill value="25">
+      <!--Range:  0+  Description:  The maximum required time, in Sim minutes, to tattoo a Sim at skill level 0-->
+    </kTimeMaxTattooAtMinSkill>
+    <kTimeMaxTattooAtMaxSkill value="12">
+      <!--Range:  0+  Description:  The maximum required time, in Sim minutes, to tattoo a Sim at skill level max-->
+    </kTimeMaxTattooAtMaxSkill>
+    <kChanceOfFailureAtMinSkill value="0.5">
+      <!--Range:  0.0 - 1.0  Description:  The chance that the Sim will fail at tattooing at skill level 0-->
+    </kChanceOfFailureAtMinSkill>
+    <kChanceOfFailureAtMaxSkill value="0.0">
+      <!--Range:  0.0 - 1.0  Description:  The chance that the Sim will fail at tattooing at skill level max-->
+    </kChanceOfFailureAtMaxSkill>
+    <kSkillLevelTattooArtist value="10">
+      <!--Range:  0 - 10  Description:  The skill level of the NPC Tattoo Artist-->
+    </kSkillLevelTattooArtist>
+    <kChanceOfFailureMultiplierUnlucky value="1.1">
+      <!--Range:  1.0+  Description:  Unlucky Sims chance of failure multiplier-->
+    </kChanceOfFailureMultiplierUnlucky>
+    <kChanceOfFailureMultiplierLucky value="0.2">
+      <!--Range:  1.0-  Description:  Lucky Sims chance of failure multiplier-->
+    </kChanceOfFailureMultiplierLucky>
+    <kCostTattooDaySpa value="300">
+      <!--Range:  0+  Description:  The cost, in Simoleons, to get a tattoo at the Day Spa RabbitHole-->
+    </kCostTattooDaySpa>
+    <kCostTattooFromSim value="75">
+      <!--Range:  0+  Description:  The cost, in Simoleons, of getting a tattoo from somebody-->
+    </kCostTattooFromSim>
+  </Current_Tuning>
+</base>

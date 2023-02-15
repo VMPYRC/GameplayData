@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinumumNumberOfWagoners value="2">
+      <!--The minumum number of Sims that make up a Welcome Wagon-->
+    </kMinumumNumberOfWagoners>
+    <kMaximumNumberOfWagoners value="3">
+      <!--The maximum number of Sims that make up a Welcome Wagon-->
+    </kMaximumNumberOfWagoners>
+    <kMaximumNeighborRadius value="250">
+      <!--The maximum radius to consider when finding suitable neighbors-->
+    </kMaximumNeighborRadius>
+    <kMaximumWaitTime value="3">
+      <!--The amount of time, in Sim hours, after which the welcome wagon gives up-->
+    </kMaximumWaitTime>
+    <TimeUntilWagonArrives value="3">
+      <!--The length of time, in Sim hours, from startup until the wagon arrives-->
+    </TimeUntilWagonArrives>
+    <kMaximumCelebrityLevel value="0">
+      <!--Range:  0 - 5  Description:  The maximum celebrity level for Sims participating in the Welcome Wagon-->
+    </kMaximumCelebrityLevel>
+  </Current_Tuning>
+</base>

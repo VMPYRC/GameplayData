@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAthleticSkillMultiplierOfTrainedSim value="1.5">
+      <!--Range: Positive floats.  Description:  When a Sim trains another Sim, the trained Sim's athletic skill rate increase will go up by the multiplier dictated by this tunable.-->
+    </kAthleticSkillMultiplierOfTrainedSim>
+    <kBodyShapeMultiplierOfTrainedSim value="1.5">
+      <!--Range: Positive floats.  Description:  When a Sim trains another Sim, the trained Sim's body shape rate change will go up by the multiplier dictated by this tunable.-->
+    </kBodyShapeMultiplierOfTrainedSim>
+    <kTimeToWaitForTrainee value="60">
+      <!--Range: Positive integers.  Description:  Time in Sim minutes that the training Sim will stand around and wait (after routing) for the trainee Sim.-->
+    </kTimeToWaitForTrainee>
+    <kTimeBetweenRelationshipIncrease value="12">
+      <!--Time between relationship increases.-->
+    </kTimeBetweenRelationshipIncrease>
+    <kRelationshipIncrease value="2">
+      <!--Amount of relationship increase-->
+    </kRelationshipIncrease>
+    <kTrainerMinDistance value="2.5">
+      <!--Minimum distance for the trainer-->
+    </kTrainerMinDistance>
+    <kTrainerMaxDistance value="3.0">
+      <!--Maximum distance for the trainer-->
+    </kTrainerMaxDistance>
+  </Current_Tuning>
+</base>

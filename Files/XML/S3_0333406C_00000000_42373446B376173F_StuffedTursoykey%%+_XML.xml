@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<StuffedTursoykey>
+<CookingProcess>
+  <Cooking_Processes></Cooking_Processes>
+  <Supported_Processes></Supported_Processes>
+  <Step_1></Step_1>
+  <Step_2></Step_2>
+  <Step_3></Step_3>
+  <Step_4></Step_4>
+  <Step_5></Step_5>
+  <Load_Models></Load_Models>
+  <Load_Pot_Materials></Load_Pot_Materials>
+  <Load_Large_Bowl_Material></Load_Large_Bowl_Material>
+  <Load_All_Large_Bowl_Materials></Load_All_Large_Bowl_Materials>
+  <Load_Grill_Models></Load_Grill_Models>
+  <Load_PlateServing_Model></Load_PlateServing_Model>
+  <Models></Models>
+  <Pot_Materials></Pot_Materials>
+  <Large_Bowl_Material></Large_Bowl_Material>
+  <Large_Bowl_Materials></Large_Bowl_Materials>
+  <Grill_Models></Grill_Models>
+  <PlateServing_Model></PlateServing_Model>
+ </CookingProcess>
+<CookingProcess>
+  <Cooking_Processes>No Prep</Cooking_Processes>
+  <Step_1>Done</Step_1>
+  <Load_Models>x</Load_Models>
+  <Models>foodPrepStuffedTurkey#turkeyVeggies, foodPrepStuffedTurkey#turkeyVeggies:FoodCooked, foodPrepStuffedTurkey#turkeyVeggies:Burnt</Models>
+  <Pot_Materials>potMaterialsUncooked, potMaterialsCooked, potMaterialsBurnt,</Pot_Materials>
+  <Large_Bowl_Material>foodPrepFruitParfait</Large_Bowl_Material>
+  <Large_Bowl_Materials>bowlMaterialUncooked, bowlMaterialCooked, bowlMaterialBurnt</Large_Bowl_Materials>
+  <Grill_Models>foodCookHotDogs:Default, foodCookHotDogs:FoodCooked, foodCookHotDogs:Burnt, foodPrepHotDogs:Default</Grill_Models>
+  <PlateServing_Model>foodPrepHotDogs:Default</PlateServing_Model>
+ </CookingProcess>
+<CookingProcess>
+  <Cooking_Processes>Grill</Cooking_Processes>
+  <Step_1>Cutting_Board</Step_1>
+  <Step_2>Food_Tray</Step_2>
+  <Step_3>Grill</Step_3>
+  <Step_4>Done</Step_4>
+ </CookingProcess>
+<CookingProcess>
+  <Cooking_Processes>Bake</Cooking_Processes>
+  <Supported_Processes>x</Supported_Processes>
+  <Step_1>Cutting_Board</Step_1>
+  <Step_2>Baking_Dish</Step_2>
+  <Step_3>In_Oven</Step_3>
+  <Step_4>Done</Step_4>
+ </CookingProcess>
+<CookingProcess>
+  <Cooking_Processes>Just Cutting Board</Cooking_Processes>
+  <Step_1>Cutting_Board</Step_1>
+  <Step_2>Done</Step_2>
+ </CookingProcess>
+<CookingProcess>
+  <Cooking_Processes>Fry/Broil</Cooking_Processes>
+  <Step_1>Cutting_Board</Step_1>
+  <Step_2>Frying_Pan</Step_2>
+  <Step_3>Stove_And_Oven</Step_3>
+  <Step_4>Done</Step_4>
+ </CookingProcess>
+<CookingProcess>
+  <Cooking_Processes>Fry</Cooking_Processes>
+  <Step_1>Cutting_Board</Step_1>
+  <Step_2>Frying_Pan</Step_2>
+  <Step_3>On_Stove</Step_3>
+  <Step_4>Done</Step_4>
+ </CookingProcess>
+<CookingProcess>
+  <Cooking_Processes>Mix, Fry/Broil</Cooking_Processes>
+  <Step_1>Cutting_Board</Step_1>
+  <Step_2>Stir_In_Bowl</Step_2>
+  <Step_3>Frying_Pan</Step_3>
+  <Step_4>Stove_And_Oven</Step_4>
+  <Step_5>Done</Step_5>
+ </CookingProcess>
+<CookingProcess>
+  <Cooking_Processes>Mix, Fry</Cooking_Processes>
+  <Step_1>Cutting_Board</Step_1>
+  <Step_2>Stir_In_Bowl</Step_2>
+  <Step_3>Frying_Pan</Step_3>
+  <Step_4>On_Stove</Step_4>
+  <Step_5>Done</Step_5>
+ </CookingProcess>
+<CookingProcess>
+  <Cooking_Processes>Mix, Bake</Cooking_Processes>
+  <Step_1>Cutting_Board</Step_1>
+  <Step_2>Stir_In_Bowl</Step_2>
+  <Step_3>Baking_Dish</Step_3>
+  <Step_4>In_Oven</Step_4>
+  <Step_5>Done</Step_5>
+ </CookingProcess>
+<CookingProcess>
+  <Cooking_Processes>Cook in Pot</Cooking_Processes>
+  <Step_1>Cutting_Board</Step_1>
+  <Step_2>Stir_In_Bowl</Step_2>
+  <Step_3>Pot</Step_3>
+  <Step_4>On_Stove</Step_4>
+  <Step_5>Done</Step_5>
+ </CookingProcess>
+<CookingProcess>
+  <Cooking_Processes>Just Mix in Big Bowl</Cooking_Processes>
+  <Step_1>Cutting_Board</Step_1>
+  <Step_2>Stir_In_Bowl</Step_2>
+  <Step_3>Done</Step_3>
+ </CookingProcess>
+<CookingProcess>
+  <Cooking_Processes>Microwave</Cooking_Processes>
+  <Step_1>Microwave</Step_1>
+  <Step_2>Done</Step_2>
+ </CookingProcess>
+<CookingProcess>
+  <Cooking_Processes>Microwave in Big Bowl</Cooking_Processes>
+  <Step_1>Cutting_Board</Step_1>
+  <Step_2>Stir_In_Bowl</Step_2>
+  <Step_3>Microwave</Step_3>
+  <Step_4>Done</Step_4>
+ </CookingProcess>
+<CookingProcess>
+  <Cooking_Processes>Microwave on Plate</Cooking_Processes>
+  <Step_1>Cutting_Board</Step_1>
+  <Step_2>Plate_Serving</Step_2>
+  <Step_3>Microwave</Step_3>
+  <Step_4>Done</Step_4>
+ </CookingProcess>
+<FoodTray>
+  <Slot_0></Slot_0>
+  <Slot_1></Slot_1>
+  <Slot_2></Slot_2>
+  <Slot_3></Slot_3>
+  <Slot_4></Slot_4>
+  <Slot_5></Slot_5>
+  <Slot_6></Slot_6>
+  <Slot_7></Slot_7>
+  <Slot_8></Slot_8>
+  <Slot_9></Slot_9>
+  <Slot_10></Slot_10>
+ </FoodTray>
+<FoodTray>
+  <Slot_0>tofu#tofuWhole</Slot_0>
+  <Slot_1>carrots</Slot_1>
+ </FoodTray>
+<CuttingBoard>
+  <Num_Loops></Num_Loops>
+  <Chop_Loop></Chop_Loop>
+  <Crack_Egg></Crack_Egg>
+  <Spread_Loop></Spread_Loop>
+  <Stuff></Stuff>
+  <Pour_Carton></Pour_Carton>
+  <Pour_Box></Pour_Box>
+  <Take_Pat_Place></Take_Pat_Place>
+  <Hand_Top_To_Bottom></Hand_Top_To_Bottom>
+  <Hand_Top_Right_To_Bottom></Hand_Top_Right_To_Bottom>
+  <Shake_Spice></Shake_Spice>
+  <Pinch_Spice></Pinch_Spice>
+  <Pour_Whipped_Cream_Loop></Pour_Whipped_Cream_Loop>
+  <Chop_Slot></Chop_Slot>
+  <PickUp_Bottom_Slot></PickUp_Bottom_Slot>
+  <Stuff_Slot></Stuff_Slot>
+  <Bowl_Slot></Bowl_Slot>
+  <Jar_Slot></Jar_Slot>
+  <Grab_LowerLeft_Slot></Grab_LowerLeft_Slot>
+  <Put_LowerRight_Slot></Put_LowerRight_Slot>
+  <Grab_UpperMiddle_Slot></Grab_UpperMiddle_Slot>
+  <Grab_UpperRight_Slot></Grab_UpperRight_Slot>
+  <Box_Slot></Box_Slot>
+  <Carton_Slot></Carton_Slot>
+  <Deco_1></Deco_1>
+  <Deco_2></Deco_2>
+  <Deco_3></Deco_3>
+  <Deco_4></Deco_4>
+  <Deco_5></Deco_5>
+  <Deco_6></Deco_6>
+  <Deco_7></Deco_7>
+ </CuttingBoard>
+<CuttingBoard>
+  <Num_Loops>2</Num_Loops>
+  <Stuff>x</Stuff>
+  <Pinch_Spice>x</Pinch_Spice>
+  <Stuff_Slot>tofu#tofuWhole</Stuff_Slot>
+  <Bowl_Slot>bowlSpices</Bowl_Slot>
+  <Grab_UpperRight_Slot>potatoes#potatoesWhole</Grab_UpperRight_Slot>
+  <Carton_Slot>carrots</Carton_Slot>
+  <Deco_6>apple#foodWhole</Deco_6>
+ </CuttingBoard>
+<CuttingBoard>
+  <Num_Loops>2</Num_Loops>
+  <Stuff>x</Stuff>
+  <Stuff_Slot>tofu#tofuWhole</Stuff_Slot>
+  <Bowl_Slot>bowlSpices</Bowl_Slot>
+  <Grab_UpperRight_Slot>potatoes#potatoesWhole</Grab_UpperRight_Slot>
+  <Carton_Slot>carrots</Carton_Slot>
+  <Deco_6>apple#foodWhole</Deco_6>
+ </CuttingBoard>
+<CuttingBoard>
+  <Num_Loops>2</Num_Loops>
+  <Stuff>x</Stuff>
+  <Shake_Spice>x</Shake_Spice>
+  <Stuff_Slot>tofu#tofuWhole</Stuff_Slot>
+  <Bowl_Slot>bowlSpices</Bowl_Slot>
+  <Grab_UpperRight_Slot>potatoes#potatoesHalf</Grab_UpperRight_Slot>
+  <Carton_Slot>carrots</Carton_Slot>
+  <Deco_6>apple#foodHalf</Deco_6>
+ </CuttingBoard>
+<CuttingBoard>
+ </CuttingBoard>
+<CuttingBoard>
+ </CuttingBoard>
+</StuffedTursoykey>

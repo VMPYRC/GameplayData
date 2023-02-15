@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeToMakeDrinkMinAtZero value="8">
+      <!--Range:  0+  Description:  The minimum time it takes, in Sim minutes, to make one drink at skill level 0 -->
+    </kTimeToMakeDrinkMinAtZero>
+    <kTimeToMakeDrinkMaxAtZero value="25">
+      <!--Range:  0+  Description:  The maximum time it takes, in Sim minutes, to make one drink at skill level 0-->
+    </kTimeToMakeDrinkMaxAtZero>
+    <kTimeToMakeDrinkMinAtMax value="4">
+      <!--Range:  0+  Description:  The minimum time it takes, in Sim minutes, to make one drink at max skill level-->
+    </kTimeToMakeDrinkMinAtMax>
+    <kTimeToMakeDrinkMaxAtMax value="11">
+      <!--Range:  0+  Description:  The maximum time it takes, in Sim minutes, to make one drink at max skill level-->
+    </kTimeToMakeDrinkMaxAtMax>
+    <kLifetimeOpportunityMoodTarget value="200">
+      <!--Range:  0+  Description:  The amount of mixed mood drinks necessary to achieve the Master of Mood lifetime opportunity-->
+    </kLifetimeOpportunityMoodTarget>
+    <kLifetimeOpportunityTotalTarget value="500">
+      <!--Range:  0+  Description:  The amount of total drinks necessary to achieve the Poseidon lifetime opportunity-->
+    </kLifetimeOpportunityTotalTarget>
+    <kLifetimeOpportunityUniqueTarget value="25">
+      <!--Range:  0+  Description:  The amount of new drinks made necessary to achieve the Cool Creator lifetime opportunity-->
+    </kLifetimeOpportunityUniqueTarget>
+    <kLifetimeOpportunityServedTarget value="60">
+      <!--Range:  0+  Description:  The amount of drinks served while bartending necessary to achieve the Master Bartender lifetime opportunity-->
+    </kLifetimeOpportunityServedTarget>
+    <kLifetimeOpportunityMoodDurationMultiplier value="1.5">
+      <!--Range:  0+  Description:  The duration multiplier on mood buffs yielded by the Master of Mood achievement-->
+    </kLifetimeOpportunityMoodDurationMultiplier>
+    <kLifetimeOpportunityMoodStrengthMultiplier value="1.25">
+      <!--Range:  0+  Description:  The strength multiplier on mood buffs yielded by the Master of Mood achievement-->
+    </kLifetimeOpportunityMoodStrengthMultiplier>
+    <kLifetimeOpportunityMoodQualityBoost value="1">
+      <!--Range:  0+  Description:  The quality boost on mood drinks mixed by Sims with the Master of Mood achievement-->
+    </kLifetimeOpportunityMoodQualityBoost>
+    <kLifetimeOpportunityTotalMinimumQuality value="VeryNice">
+      <!--Range:  Quality  Description:  The minimum quality of drinks mixed by Sims with the Poseidon achievement-->
+    </kLifetimeOpportunityTotalMinimumQuality>
+    <kTrackedStatTerribleThreshold value="Bad">
+      <!--Range:  Quality  Description:  The quality at or below which drinks are tracked as Terrible-->
+    </kTrackedStatTerribleThreshold>
+    <kTrackedStatGreatThreshold value="Great">
+      <!--Range:  Quality  Description:  The quality at or above which drinks are tracked as Great-->
+    </kTrackedStatGreatThreshold>
+    <kLifetimeOpportunityServedLtrBoost value="3">
+      <!--Range:  0+  Description:  The LTR gain with customers when serving a drink mixed by a Sim with the Master Bartender achievement-->
+    </kLifetimeOpportunityServedLtrBoost>
+    <kLifetimeOpportunityServedTipMultiplier value="1.2">
+      <!--Range:  0+  Description:  The multiplier on money earned by Sims with the Master Bartender achievement-->
+    </kLifetimeOpportunityServedTipMultiplier>
+    <kLifetimeOpportunityUniqueMinimumQuality value="Nice">
+      <!--Range:  Quality  Description:  The minimum quality of new unique drinks mixed by Sims with the Cool Creator achievement-->
+    </kLifetimeOpportunityUniqueMinimumQuality>
+    <kCreateDrinkChanceBase value="0.1">
+      <!--Range:  0 - 1  Description:  The base chance that a new drink will be discovered-->
+    </kCreateDrinkChanceBase>
+    <kCreateDrinkWeightBase value="0.3">
+      <!--Range:  0+  Description:  The weight that the base chance has in determining the overall chance that a new drink will be discovered-->
+    </kCreateDrinkWeightBase>
+    <kCreateDrinkChanceSkillMinimum value="-0.6">
+      <!--Range:  0 - 1  Description:  The skill yielded chance that a new drink will be discovered at skill level zero-->
+    </kCreateDrinkChanceSkillMinimum>
+    <kCreateDrinkChanceSkillMaximum value="0.2">
+      <!--Range:  0 - 1  Description:  The skill yielded chance that a new drink will be disocvered at skill level max-->
+    </kCreateDrinkChanceSkillMaximum>
+    <kCreateDrinkWeightSkill value="0.3">
+      <!--Range:  0+  Description:  The weight that the skill yielded chance has in determining the overall chance that a new drink will be discovered-->
+    </kCreateDrinkWeightSkill>
+    <kCreateDrinkChanceMoodXValues value="-100, -50, 0, 50, 100">
+      <!--Range:  int[]  Description:  The Mood values of the Mood vs. chance curve-->
+    </kCreateDrinkChanceMoodXValues>
+    <kCreateDrinkChanceMoodYValues value="-0.75, -0.5, 0, 0.3, 0.5">
+      <!--Range:  float[]  Description:  The chance values of the Mood vs. chance curve-->
+    </kCreateDrinkChanceMoodYValues>
+    <kCreateDrinkWeightMood value="0.3">
+      <!--Range:  0+  Description:  The weight that the mood yielded chance has in determining the overall chance that a new drink will be discovered-->
+    </kCreateDrinkWeightMood>
+    <kCreateDrinkChanceBoostXValues value="0,15,75">
+      <!--Range:  int[]  Description:  The previous discoveries values of the previous discoveries vs. chance curve-->
+    </kCreateDrinkChanceBoostXValues>
+    <kCreateDrinkChanceBoostYValues value="0.25,-0.5,-2">
+      <!--Range:  float[]  Description:  The chance values of the previous discoveries vs. chance curve-->
+    </kCreateDrinkChanceBoostYValues>
+    <kCreateDrinkWeightBoost value="0.1">
+      <!--Range:  0+  Description:  The weight that the previous discoveries yielded chance has in determining the overall chance that a new drink will be discovered-->
+    </kCreateDrinkWeightBoost>
+    <kCreateDrinkMoodChanceAtSkillZero value="-0.6">
+      <!--Range:  0+  Description:  The chance that new drinks will be mood drinks at skill level 0-->
+    </kCreateDrinkMoodChanceAtSkillZero>
+    <kCreateDrinkMoodChanceAtSkillMax value="0.2">
+      <!--Range:  0+  Description:  The chance that new drinks will be mood drinks at skill level max-->
+    </kCreateDrinkMoodChanceAtSkillMax>
+    <kCreateDrinkQualityBaseAtSkillZero value="Foul">
+      <!--Range:  Quality  Description:  The base quality of new drinks at skill level zero-->
+    </kCreateDrinkQualityBaseAtSkillZero>
+    <kCreateDrinkQualityBaseAtSkillMax value="VeryNice">
+      <!--Range:  Quality  Description:  The base quality of new drinks at skill level max-->
+    </kCreateDrinkQualityBaseAtSkillMax>
+    <kCreateDrinkQualitySkewMin value="-2">
+      <!--Range:  int  Description:  The lower bound random skew factor for base qualities-->
+    </kCreateDrinkQualitySkewMin>
+    <kCreateDrinkQualitySkewMax value="2">
+      <!--Range:  int  Description:  The upper bound random skew factor for base qualities-->
+    </kCreateDrinkQualitySkewMax>
+    <kReactionThresholdBad value="Bad">
+      <!--Range:  Quality  Description:  The quality threshold for Bad reactions-->
+    </kReactionThresholdBad>
+    <kReactionThresholdNeutral value="Neutral">
+      <!--Range:  Quality  Description:  The quality threshold for Neutral reactions-->
+    </kReactionThresholdNeutral>
+    <kReactionThresholdGood value="Great">
+      <!--Range:  Quality  Description:  The quality threshold for Good reactions-->
+    </kReactionThresholdGood>
+    <kWorkAsBartenderBadDrinkWarningThreshold value="3">
+      <!--Range:  0+  Description:  Number of bad drinks that will trigger a Tns warning when working as a bartender-->
+    </kWorkAsBartenderBadDrinkWarningThreshold>
+    <kWorkAsBartenderBadDrinkThreshold value="7">
+      <!--Range:  0+  Description:  Number of bad drinks that will get the Sim fired when working as a bartender-->
+    </kWorkAsBartenderBadDrinkThreshold>
+    <kWorkAsBartenderGoodDrinkThreshold value="4">
+      <!--Range:  0+  Description:  Number of good drinks that will trigger a Tns message when working as a bartender-->
+    </kWorkAsBartenderGoodDrinkThreshold>
+    <kWorkAsBartenderBanishmentPeriod value="40">
+      <!--Range:  0+  Description:  The time, in Sim hours, bad bartenders are banished from working at a particular venue-->
+    </kWorkAsBartenderBanishmentPeriod>
+    <kIngredientMultiplierMinimum value="0.4">
+      <!--Range:  0+  Description:  The value multiplier for ingredients of the lowest quality-->
+    </kIngredientMultiplierMinimum>
+    <kIngredientMultiplierMaximum value="2">
+      <!--Range:  0+  Description:  The value multiplier for ingredients of the highest quality-->
+    </kIngredientMultiplierMaximum>
+    <kTipMultiplierMinimum value="0.3">
+      <!--Range:  0+  Description:  The tip amount when the drink is at the minimum quality level for the venue-->
+    </kTipMultiplierMinimum>
+    <kTipMultiplierMaximum value="1.1">
+      <!--Range:  0+  Description:  The tip amount when the drink is at the maximum quality level for the venue-->
+    </kTipMultiplierMaximum>
+    <kTipMultiplierUniqueDrink value="0.4">
+      <!--Range:  0+  Description:  The tip multiplier when serving a unique drink-->
+    </kTipMultiplierUniqueDrink>
+    <kTipMultiplierTraitFrugal value="0.6">
+      <!--Range:  0+  Description:  The tip multiplier for Frugal sims-->
+    </kTipMultiplierTraitFrugal>
+    <kUniqueDrinkCooldownTime value="20">
+      <!--Range:  0+  Description:  The cooldown time, in Sim hours, after which unique drinks can be served again-->
+    </kUniqueDrinkCooldownTime>
+    <kLifetimeOpportunityUniqueQualityBoost value="1">
+      <!--Range:  0+  Description:  The quality boost of existing unique drink mixed by Sims with the Cool Creator achievement-->
+    </kLifetimeOpportunityUniqueQualityBoost>
+    <kUniqueDrinkQualityContributionSkill value="0.25">
+      <!--Range:  0+  Description:  The quality contribution of skill when mixing unique drinks-->
+    </kUniqueDrinkQualityContributionSkill>
+    <kUniqueDrinkQualityContributionMoodMin value="-0.1">
+      <!--Range:  0+  Description:  The quality contribution of minimum mood when mixing unique drinks-->
+    </kUniqueDrinkQualityContributionMoodMin>
+    <kUniqueDrinkQualityContributionMoodMax value="0.35">
+      <!--Range:  0+  Description:  The quality contribution of maximum mood when mixing unique drinks-->
+    </kUniqueDrinkQualityContributionMoodMax>
+    <kUniqueDrinkQualityContributionNumberTarget value="20">
+      <!--Range:  0+  Description:  The number of unique drinks mixed that will yield the maximum contribution-->
+    </kUniqueDrinkQualityContributionNumberTarget>
+    <kUniqueDrinkQualityContributionNumber value="0.25">
+      <!--Range:  0+  Description:  The quality contribution when the target number of drinks has been mixed-->
+    </kUniqueDrinkQualityContributionNumber>
+    <kNameDrinkAfterCelebrityQuality value="Neutral">
+      <!--Range:  Quality  Description:  The minimum quality drink that Snob sims and Celebrities require to not be insulted when named after them-->
+    </kNameDrinkAfterCelebrityQuality>
+    <kNameDrinkAfterLevelRequired value="10">
+      <!--Range:  0+  Description:  The skill level at which Sim can name drinks after other Sims-->
+    </kNameDrinkAfterLevelRequired>
+    <kNameDrinkAfterLtrGain value="10">
+      <!--Range:  0+  Description:  The LTR gain obtained with Sims after whom drinks are named, when drinking such drinks-->
+    </kNameDrinkAfterLtrGain>
+    <kVisualEffectBubblyQuality value="VeryNice">
+      <!--Range:  Quality  Description:  The quality at which drinks have a special bubbly effect-->
+    </kVisualEffectBubblyQuality>
+    <kBartenderDefaultStartTime value="12">
+      <!--Range:  0+  Description:  The dafault time a bartender starts to work, unless the venue specifies an opening time-->
+    </kBartenderDefaultStartTime>
+    <kBartenderDefaultEndTime value="4">
+      <!--Range:  0+  Description:  The default time a bartender stops working, unless the venue specifies a closing time-->
+    </kBartenderDefaultEndTime>
+    <kBartenderStartTimeDelta value="1.5">
+      <!--Range:  0+  Description:  The time, in Sim hours, the Bartender will show up at a venue before the opening time-->
+    </kBartenderStartTimeDelta>
+    <kBartenderEndTimeDelta value="0.25">
+      <!--Range:  0+  Description:  The time, in Sim hours, the Bartender will leave a venue after closing time-->
+    </kBartenderEndTimeDelta>
+    <kRoundOfDrinksBaseCostPerDrink value="8">
+      <!--Range:  0+  Description:  The base cost to charge for a drink when buying a round. This will be multiplied by the venue multiplier-->
+    </kRoundOfDrinksBaseCostPerDrink>
+    <kDrinkQualityContributionSkewMinimum value="-0.1">
+      <!--Range:  floats  Description:  The lower bound quality random skew-->
+    </kDrinkQualityContributionSkewMinimum>
+    <kDrinkQualityContributionSkewMaximum value="0.15">
+      <!--Range:  floats  Description:  The upper bound quality random skew-->
+    </kDrinkQualityContributionSkewMaximum>
+    <kUniqueDrinkCustomItemsMinimumQuality value="VeryNice">
+      <!--Range:  Quality  Description:  The minimum quality unique drinks must have such that non-mood ones will receive custom colors/picks/glasses-->
+    </kUniqueDrinkCustomItemsMinimumQuality>
+    <kUniqueDrinkCustomColorChance value="0.75">
+      <!--Range:  0+  Description:  The chance that appropriate quality non-mood unique drinks will have a custom color-->
+    </kUniqueDrinkCustomColorChance>
+    <kUniqueDrinkCustomColors value="Yellow, Purple, Green, Orange, Red">
+      <!--Range:  DrinkColor[]  Description:  Colors that are availble for unique drinks with no mood-->
+    </kUniqueDrinkCustomColors>
+    <kUniqueDrinkCustomPickChance value="0.6">
+      <!--Range:  0  Description:  The chance that appropriate quality non-mood unique drinks will have a custom pick-->
+    </kUniqueDrinkCustomPickChance>
+    <kUniqueDrinkCustomPicks value="Blue, Lightning, Plumbob, Red, Star">
+      <!--Range:  DrinkPick[]  Description:  Picks that are available for unique drinks with no mood-->
+    </kUniqueDrinkCustomPicks>
+    <kUniqueDrinkCustomGlassChance value="0.75">
+      <!--Range:  0+  Description:  The chance that appropriate quality non-moo drinks will have a nicer glass-->
+    </kUniqueDrinkCustomGlassChance>
+    <kSpeechBalloonQualityTwoStars value="Great">
+      <!--Range:  Quality  Description:  Quality threshold for showing two stars on drink speech balloons-->
+    </kSpeechBalloonQualityTwoStars>
+    <kSpeechBalloonQualityThreeStars value="Outstanding">
+      <!--Range:  Quality  Description:  Quality threshold for showing three stars on drink speech balloons-->
+    </kSpeechBalloonQualityThreeStars>
+    <kFailureDrinkInfractionCelebrityLevel value="3">
+      <!--Range:  0+  Description:  The celebrity level above which failure drinks have a chance of being counted multiple times-->
+    </kFailureDrinkInfractionCelebrityLevel>
+    <kFailureDrinkInfractionTraits value="Evil, MeanSpirited, Snob, HotHeaded">
+      <!--Range:  TraitNames[]  Description:  Traits that cause failure drinks to have a chance of being counted multiple times-->
+    </kFailureDrinkInfractionTraits>
+    <kFailureDrinkInfractionCount value="2">
+      <!--Range:  0+  Description:  The number of infractions counted for failure drinks when the receiving Sim is a celebrity or has the appropriate traits-->
+    </kFailureDrinkInfractionCount>
+    <kKnownRecipesLearnSkillLevelRequired value="4">
+      <!--Range:  0+  Description:  The skill level after which Sims can learn data drinks-->
+    </kKnownRecipesLearnSkillLevelRequired>
+    <kKnownRecipesLearnChanceBase value="30">
+      <!--Range:  0+  Description:  The base chance of learning a recipe when making it or drinking it-->
+    </kKnownRecipesLearnChanceBase>
+    <kKnownRecipeLearnChanceIncrease value="20">
+      <!--Range:  0+  Description:  The increase in base chance of learning a recipe every time a Sim drinks it-->
+    </kKnownRecipeLearnChanceIncrease>
+    <kLifetimeOpportunityLearnedTarget value="42">
+      <!--Range:  0+  Description:  The number of drinks learned necessary to achieve the Professor of Drinks lifetime opportunity-->
+    </kLifetimeOpportunityLearnedTarget>
+    <kLifetimeOpportunityLearnedRewardDrinks value="UberPartyDrink, UberRomanticDrink, UberCrazyDrink">
+      <!--Range:  String[]  Description:  An array of data drink keys that are learned when achieving the Professor of Drinks lifetime opportunity-->
+    </kLifetimeOpportunityLearnedRewardDrinks>
+    <kBuyBirthdayCakeBaseCost value="80">
+      <!--Range:  0+  Description:  The base cost, in Simoleons, to buy a Birthday Cake at a bar-->
+    </kBuyBirthdayCakeBaseCost>
+    <kBuyPizzaBaseCost value="40">
+      <!--Range:  0+  Description:  The base cost, in Simoleons, to buy a Pizza at a bar-->
+    </kBuyPizzaBaseCost>
+    <kMoodPartyDrinkScoreModifier value="1">
+      <!--Range:  0+  Description:  The increase in party score when drinking a Party mood drink-->
+    </kMoodPartyDrinkScoreModifier>
+    <kFlamingDrinkSkillLevelRequired value="6">
+      <!--Range:  0+  Description:  The minimum drink required to use the blow-torch to make flaming drinks-->
+    </kFlamingDrinkSkillLevelRequired>
+    <kFlamingDrinkBaseChance value="0.2">
+      <!--Range:  0+  Description:  The base chance that the Sim will use the blowtorch if a drink is not specifically marked as flaming-->
+    </kFlamingDrinkBaseChance>
+    <kFlamingDrinkTraitMultiplier value="1.25">
+      <!--Range:  0+  Description:  The chance multiplier that the Sim will use the blowtorch for every trait that encourages them to do so-->
+    </kFlamingDrinkTraitMultiplier>
+    <kFlamingDrinkEncouragedTraits value="Insane, PartyAnimal, Pyromaniac">
+      <!--Range:  TraitNames[]  Description:  The traits that encourage Sims to use the blowtorch and make flaming drinks more often-->
+    </kFlamingDrinkEncouragedTraits>
+    <kPutridEffectQuality value="Bad">
+      <!--Range:  Quality  Description:  The quality below which drinks will have a putrid effect and material state-->
+    </kPutridEffectQuality>
+    <kRequiredQualityForEffects value="Neutral">
+      <!--Range:  Quality  Description:  The minimum quality required for drinks to yield their standard gameplay effects-->
+    </kRequiredQualityForEffects>
+    <kBartenderDefaultDrinkQualityMinimum value="Neutral">
+      <!--Range:  Quality  Description:  The minimum quality of drinks mixed by bartenders if a venue ovveride doesn't exist-->
+    </kBartenderDefaultDrinkQualityMinimum>
+    <kBartenderDefaultDrinkQualityMaximum value="VeryNice">
+      <!--Range:  Quality  Description:  The maximum quality of drinks mixed by bartenders if a venue ovveride doesn't exist-->
+    </kBartenderDefaultDrinkQualityMaximum>
+    <kExitVenueAlarmRepeatTime value="7">
+      <!--Range:  0+  Description:  How often the exit venue alarm repeats for pushing guests to leave a closed venue (in mins).-->
+    </kExitVenueAlarmRepeatTime>
+    <kCustomDrinkTitleMaximumLength value="128">
+      <!--Range:  0+  Description:  The maximum number of characters allowed when naming custom drinks-->
+    </kCustomDrinkTitleMaximumLength>
+    <kPlasmaFruitThirstMotiveDelta value="50">
+      <!--Range:  0+  Description:  The Vampire Thirst motive delta per plasma fruit in dirnks-->
+    </kPlasmaFruitThirstMotiveDelta>
+    <kTimeBeforeVenueOpenWhenAllowedToVisit value="1">
+      <!--Range:  0+  Description:  Time in hours before a venue opens when the visit lot option is not greyed out-->
+    </kTimeBeforeVenueOpenWhenAllowedToVisit>
+    <kChanceNPCImmediatelyGoesHomeAfterVenueCloses value="50">
+      <!--Range:  0+  Description: Chance that an NPC will choose to immediately go home when the venue closes. Be aware that sims might be pushed to leave multiple times-->
+    </kChanceNPCImmediatelyGoesHomeAfterVenueCloses>
+    <kStaggeredExitTimeDelta value="1">
+      <!--Range:  0+  Description:  The time delta, in Sim hours, before closing when NPC Sims will start going home-->
+    </kStaggeredExitTimeDelta>
+    <kStaggeredExitTimeInterval value="10">
+      <!--Range:  0+  Description:  The time interval, in Sim minutes, when we will try to send NPC Sims home when close to closing time-->
+    </kStaggeredExitTimeInterval>
+    <kStaggeredExitChance value="0.5">
+      <!--Range:  0+  Description:  The chance that an NPC Sim will go home when close to closing time-->
+    </kStaggeredExitChance>
+    <kTimeOfPartyEnd value="6">
+      <!--Range:  0+  Description:  The time at which, even with parties going on, venues will close-->
+    </kTimeOfPartyEnd>
+    <kPartyEndCheckInterval value="30">
+      <!--Range:  0+  Description:  The interval, in Sim minutes, at which we check if a party has ended-->
+    </kPartyEndCheckInterval>
+  </Current_Tuning>
+</base>

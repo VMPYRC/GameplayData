@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTaxiChance value="0.05">
+      <!--The percent chance a npc Sim will call a taxi instead of using a generated ownable car based on career level.-->
+    </kTaxiChance>
+    <kLimoChance value="0.01">
+      <!--The percent chance a npc Sim will call a limo instead of using a generated ownable car based on career level.-->
+    </kLimoChance>
+    <kStartingCareerLevelNpcUsesNormalCar value="4">
+      <!--The career level at which npc Sims will start using a normal car instead of a cheap car.-->
+    </kStartingCareerLevelNpcUsesNormalCar>
+    <kStartingCareerLevelNpcUsesExpensiveCar value="7">
+      <!--The career level at which npc Sims will start using an expensive car instead of a normal car.-->
+    </kStartingCareerLevelNpcUsesExpensiveCar>
+    <FranceNpcVehicleChanceWeights value="4, 2, 1, 1">
+      <!--Comma-separated list of weighted relative chances of NPCs using various vehicles.  Format: (WeightedRandomScooter, WeightedRandomBicycle, WeightedRandomCarUsed1, WeightedRandomHatchback).  These are floats (so feel free to use decimals or integers or both).-->
+    </FranceNpcVehicleChanceWeights>
+  </Current_Tuning>
+</base>

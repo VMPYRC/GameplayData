@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kWatchTuning>
+      <TimePerTipTest value="5">
+        <!--Time in minutes between tests of whether or not a Sim should tip.-->
+      </TimePerTipTest>
+      <ChanceOfTipPerLevel value="0, 0, 0, 0, 0, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75">
+        <!--Chance of tips at each level of music skill.  This is the base chance modulated by other factors.-->
+      </ChanceOfTipPerLevel>
+      <MoreLikelyToTipMultiplier value="2">
+        <!--Sims who are more likely to tip get this added to base chance.-->
+      </MoreLikelyToTipMultiplier>
+      <TraitsMoreLikelyToTip value="EasilyImpressed, Good">
+        <!--Sims who are more likely to tip.-->
+      </TraitsMoreLikelyToTip>
+      <LessLikelyToTipMultiplier value="0.5">
+        <!--Sims who are less likely to tip get this added to base chance.-->
+      </LessLikelyToTipMultiplier>
+      <TraitsLessLikelyToTip value="Evil, Frugal, Snob">
+        <!--Sims who are less likely to tip.-->
+      </TraitsLessLikelyToTip>
+      <MoneyPerLevel value="10">
+        <!--BaseTip per level of music skill you are.-->
+      </MoneyPerLevel>
+      <MoneyPerCompositionPlayed value="1">
+        <!--Additional money given per composition played.-->
+      </MoneyPerCompositionPlayed>
+      <LikingIncreaseForWatchPlaying value="5">
+        <!--Liking increase from watching.-->
+      </LikingIncreaseForWatchPlaying>
+      <MinutesForLikingGain value="30">
+        <!--Sim minutes of watching before a liking increase will occur.-->
+      </MinutesForLikingGain>
+      <BaseChanceOfNegativeReaction value="0.1">
+        <!--The base chance that spectators will play negative reactions-->
+      </BaseChanceOfNegativeReaction>
+      <ReactionMultiplierForNegativeLTR value="2">
+        <!--[PerformForTips Watch] if spectator has negative LTR with performer, multiplier to the chance that the spectator will play a negative reaction-->
+      </ReactionMultiplierForNegativeLTR>
+      <ReactionMultiplierForInnapropriateness value="1.5">
+        <!--[PerformForTips Watch] if spectator has inappropriate or insane trait, multiplier to the chance that the spectator will play a negative reaction-->
+      </ReactionMultiplierForInnapropriateness>
+      <PerformForTipsConeAngleToWatch value="1.57">
+        <!--[PerformForTips Watch] Range in Radians. Cone angle allowed for sim watching game.-->
+      </PerformForTipsConeAngleToWatch>
+      <PerformForTipsPreferredRadiusToWatch value="5">
+        <!--[PerformForTips Watch] The preferred distance away from the performer viewers will watch from.-->
+      </PerformForTipsPreferredRadiusToWatch>
+      <PerformForTipsMinRadiusToWatch value="2">
+        <!--[PerformForTips Watch] The minimum distance away from the performer viewers will watch from.-->
+      </PerformForTipsMinRadiusToWatch>
+      <PerformForTipsMaxRadiusToWatch value="7">
+        <!--[PerformForTips Watch] The maximum distance away from the performer viewers will watch from.-->
+      </PerformForTipsMaxRadiusToWatch>
+      <kReactionChance value="0.5">
+        <!--Chance of playing a reaction animation, per tick.  Range: 0-1-->
+      </kReactionChance>
+    </kWatchTuning>
+  </Current_Tuning>
+</base>

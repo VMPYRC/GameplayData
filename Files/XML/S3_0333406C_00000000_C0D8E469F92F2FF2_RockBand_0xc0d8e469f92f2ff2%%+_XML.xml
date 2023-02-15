@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumGigsToBecomeGigMaster value="15">
+      <!--Range:  integer  Description:  Number of gigs to satisfy Guitar-->
+    </kNumGigsToBecomeGigMaster>
+    <kMaxLengthBandName value="45">
+      <!--Range:  integer  Description:  Max length for band name-->
+    </kMaxLengthBandName>
+    <kPerformanceGenreTypes value="Blues, Jam, Jazz, Rock">
+      <!--Description: Peformance Genre types-->
+    </kPerformanceGenreTypes>
+    <kJamGenreTypes value="Jam, Blues">
+      <!--Description: Jam Genre types-->
+    </kJamGenreTypes>
+    <kCelebrityLevelToFormBand value="-1">
+      <!--Range:    Description:  Celebrity level difference between two sims (actor level - target level >= this value band is acceptable-->
+    </kCelebrityLevelToFormBand>
+    <kColumnWidthSize value="200, 200, 50">
+      <!--Description:  Width Sizes for columns in skill journal-->
+    </kColumnWidthSize>
+    <kTraitsToStartFight value="Evil, Insane, Grumpy">
+      <!--Range:  TraitNames  Description:  Traits target sim must have to start a fight if kicked out-->
+    </kTraitsToStartFight>
+    <kOppNamesDisableBandInstrumentInteractions value="EP3_SkillBand_DiveBarLow1,EP3_SkillBand_DiveBarMid1,EP3_SkillBand_DiveBarHigh1,EP3_SkillBand_RandomDiveA1,EP3_SkillBand_RandomDiveB1,EP3_SkillBand_RandomDiveC1,EP3_SkillBand_RandomDiveD1,EP3_SkillBand_RandomDiveE1,EP3_SkillBand_LoungeLow1,EP3_SkillBand_LoungeMid1,EP3_SkillBand_LoungeHigh1,EP3_SkillBand_RandomLoungeA1,EP3_SkillBand_RandomLoungeB1,EP3_SkillBand_RandomLoungeC1,EP3_SkillBand_RandomLoungeD1">
+      <!--Range:  Opportuninty Names  Description:  If any houshold has a skill opportunity on this lot with this guid instrument interaction will be disabled except for perform gig-->
+    </kOppNamesDisableBandInstrumentInteractions>
+  </Current_Tuning>
+</base>

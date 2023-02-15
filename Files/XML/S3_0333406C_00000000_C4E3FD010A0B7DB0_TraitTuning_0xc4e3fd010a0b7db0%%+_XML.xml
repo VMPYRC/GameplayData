@@ -1,0 +1,1424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAbsentMindedTraitSimIdleFrequencyStart value="240">
+      <!--Range: Sim minutes.  Description:  How frequently an 'AbsentMinded' trait Sim will pause and do a 'think hard' idle.  The time is randomly chosen from a range beginning with this tunable and ending with the 'frequencyEnd' tunable.-->
+    </kAbsentMindedTraitSimIdleFrequencyStart>
+    <kAbsentMindedTraitSimIdleFrequencyEnd value="480">
+      <!--Range: Sim minutes.  Description:  How frequently an 'AbsentMinded' trait Sim will pause and do a 'think hard' idle.-->
+    </kAbsentMindedTraitSimIdleFrequencyEnd>
+    <kAbsentMindedTraitSimChanceToIdleWhileCooking value="0.1">
+      <!--Range: Float values below 1.0f.  Description:  The percentage change an 'AbsentMinded' trait Sim will pause and do a 'think hard' idle while cooking.-->
+    </kAbsentMindedTraitSimChanceToIdleWhileCooking>
+    <kArtisticTraitSimPaintingSkillMultiplier value="1.25">
+      <!--Range: Float values above 1.0f.  Description:  If an 'Artistic' trait Sim is learning Painting Skill, they get this extra skill gain multiplier.-->
+    </kArtisticTraitSimPaintingSkillMultiplier>
+    <kArtisticTraitSimGuitarSkillMultiplier value="1.1">
+      <!--Range: Float values above 1.0f.  Description:  If an 'Artistic' trait Sim is learning Guitar Skill, they get this extra skill gain multiplier.-->
+    </kArtisticTraitSimGuitarSkillMultiplier>
+    <kArtisticTraitSimWritingSkillMultiplier value="1.1">
+      <!--Range: Float values above 1.0f.  Description:  If an 'Artistic' trait Sim is learning Writing Skill, they get this extra skill gain multiplier.-->
+    </kArtisticTraitSimWritingSkillMultiplier>
+    <kAthleticTraitSimSkillMultiplier value="1.2">
+      <!--Range: Float values above 1.0f.  Description:  If a 'Athletic' trait Sim is learning Athletic Skill, they get this extra skill gain multiplier.-->
+    </kAthleticTraitSimSkillMultiplier>
+    <kAthleticTraitSimFatigueMultiplier value="0.8">
+      <!--Range: Float values below 1.0f.  Description:  If a 'Athletic' trait Sim is working out, they get this fatigue multiplier which slows down fatigue gain.-->
+    </kAthleticTraitSimFatigueMultiplier>
+    <kCharismaticTraitSimSkillMultiplier value="1.25">
+      <!--Range: Float values above 1.0f.  Description:  If a 'Charismatic' trait Sim is learning Charisma, they get this extra skill gain multiplier.-->
+    </kCharismaticTraitSimSkillMultiplier>
+    <kExcitableTraitSimChanceOfBuff value="0.25">
+      <!--Range: Float values below 1.0f.  Description:  'Excitable' trait Sims routing towards another Sim in the Romantic or Friendly LTR state with a positive STC will have a chance of adding the excited buff.  This tunable is that percentage chance.-->
+    </kExcitableTraitSimChanceOfBuff>
+    <kHumorTraitSimLTRMultiplierForJokes value="1.5">
+      <!--Range: Float values above 1.0f.  Description:  If a 'Good Sense of Humor' trait Sim is involved in a joke, the positive outcome of the joke will have a greater effect on the LTR between the two sims (increase the liking value more).-->
+    </kHumorTraitSimLTRMultiplierForJokes>
+    <kGardeningTraitSimSkillMultiplier value="1.25">
+      <!--Range: Float values above 1.0f.  Description:  If a 'Green Thumb' trait Sim is learning Gardening Skill, they get this extra skill gain multiplier.-->
+    </kGardeningTraitSimSkillMultiplier>
+    <kEvilTraitDistanceToGainFiendishlyDelighted value="10">
+      <!--Range: Tiles.  Description:  Distance at which an Evil sim will react to a bad event and gain the FiendishlyDelightedBuff.-->
+    </kEvilTraitDistanceToGainFiendishlyDelighted>
+    <kBraveTraitSimPerformanceBonus value="3">
+      <!--Range: Positive floats.  Description:  Brave Sims get a performance bonus in the Military and Law Enforcement careers.-->
+    </kBraveTraitSimPerformanceBonus>
+    <kEvilTraitSimPerformanceBonus value="3">
+      <!--Range: Positive floats.  Description:  Evil Sims get a performance bonus in the Criminal career.-->
+    </kEvilTraitSimPerformanceBonus>
+    <kCowardTraitTimeToGetAfraidOfDarkStart value="21">
+      <!--Range: Sim hour (0-23).  Description: Float that represents the time of day when a Coward Sim would get scared of the dark.-->
+    </kCowardTraitTimeToGetAfraidOfDarkStart>
+    <kCowardTraitTimeToGetAfraidOfDarkEnd value="5">
+      <!--Range: Sim hour (0-23).  Description: Float that represents the time of day when a Coward Sim would stop getting scared of the dark.-->
+    </kCowardTraitTimeToGetAfraidOfDarkEnd>
+    <kGeniusTraitContemplateDistance value="3">
+      <!--Range: Tiles.  Description:  Distance around a 'Genius' Sim where nearby objects are available to be contemplated.-->
+    </kGeniusTraitContemplateDistance>
+    <kVirtuosoTraitSimGuitarSkillMultiplier value="1.25">
+      <!--Range: Float values above 1.0f.  Description:  A 'Virtuoso' trait Sim gains skill in musical skills tunably faster (currently only Guitar).-->
+    </kVirtuosoTraitSimGuitarSkillMultiplier>
+    <kGeniusTraitContemplateLengthInMinutes value="8">
+      <!--Range: Sim minutes.  Description:  Amount of time a 'Genius' Sim will contemplate a nearby object.-->
+    </kGeniusTraitContemplateLengthInMinutes>
+    <kSlobTraitChanceToLeavePuddle value="0.75">
+      <!--Range: Float values below 1.0f.  Description:  A 'Slob' trait Sim has a chance to add a puddle after bathing or showering.-->
+    </kSlobTraitChanceToLeavePuddle>
+    <kSlobTraitChanceToThrowUpSpoiledFood value=".10">
+      <!--Range: Float values below 1.0f.  Description:  A 'Slob' trait Sim has a chance of throwing up after licking spoiled food from a container.-->
+    </kSlobTraitChanceToThrowUpSpoiledFood>
+    <kComputerWhizTraitGamesFunMultiplier value="1.5">
+      <!--Range: Float values above 1.0f.  Description:  'Computer Whiz' Sims gain fun from 'Play Computer Games' at a multiplier specified by this tunable.-->
+    </kComputerWhizTraitGamesFunMultiplier>
+    <kComputerWhizTraitLogicSkillMultiplier value="1.1">
+      <!--Range: Float values above 1.0f.  Description: 'Computer Whiz' Sims gain extra skill from playing chess on the computer.-->
+    </kComputerWhizTraitLogicSkillMultiplier>
+    <kComputerWhizTraitRepairMultiplier value="0.4">
+      <!--Range: Float values below 1.0f.  Description:  'Computer Whiz' Sims repair computers faster than normal Sims at this multiplier.-->
+    </kComputerWhizTraitRepairMultiplier>
+    <kComputerWhizTraitUpgradeMultiplier value="0.75">
+      <!--Range: Float values below 1.0f.  Description:  'Computer Whiz' Sims upgrade computers faster than normal Sims at this multiplier.-->
+    </kComputerWhizTraitUpgradeMultiplier>
+    <kChanceToReactOnRouteFailure value="0.1">
+      <!--Range: Float values below 1.0f.  Description:  A 'Loser', 'Hotheaded', 'Neurotic' Sim has a perentage chance of reacting after a route failure defined by this tunable.-->
+    </kChanceToReactOnRouteFailure>
+    <kNeuroticTraitFreakOutChance value=".1">
+      <!--Range: Positive floats under 1.0f.  Description:  Chance that a Neurotic Sim will play a spaz reaction after a variety of situations (burn food, get debuff, route blocked).-->
+    </kNeuroticTraitFreakOutChance>
+    <kNeuroticTraitFreakOutTime value="7">
+      <!--Range: Sim minutes.  Description:  Amount of time a Neurotic Sim will play a freak out interaction.-->
+    </kNeuroticTraitFreakOutTime>
+    <kNeuroticTraitFreakOutLookAtPriority value="50">
+      <!--Range: 0-100.  Description:  Look at priority for other Sims to watch a Neurotic Sim 'Freak Out'.-->
+    </kNeuroticTraitFreakOutLookAtPriority>
+    <kMoochTraitSmallMoneyMoochSkill value="45">
+      <!--Range: Skill points.  Description:  Number of skill points a Mooch trait Sim gets for a successful small mooch of money.-->
+    </kMoochTraitSmallMoneyMoochSkill>
+    <kMoochTraitSmallMoneyMoochChance value="0.8">
+      <!--Range: Positive float below 1.0f.  Description:  Chance that a Mooch trait Sim will successfully mooch a small amount of money.-->
+    </kMoochTraitSmallMoneyMoochChance>
+    <kMoochTraitLargeMoneyMoochSkill value="90">
+      <!--Range: Skill points.  Description:  Number of skill points a Mooch trait Sim gets for a successful large mooch of money.-->
+    </kMoochTraitLargeMoneyMoochSkill>
+    <kMoochTraitLargeMoneyMoochChance value="0.5">
+      <!--Range: Positive float below 1.0f.  Description:  Chance that a Mooch trait Sim will successfully mooch a large amount of money.-->
+    </kMoochTraitLargeMoneyMoochChance>
+    <kMoochTraitMoneyRandomBegin value="0.7">
+      <!--Range: Positive floats below 1.0f.  Description:  The lower boundary of a gaussian distribution that gets multiplied to the table of mooch amounts.-->
+    </kMoochTraitMoneyRandomBegin>
+    <kMoochTraitMoneyRandomEnd value="1.3">
+      <!--Range: Positive floats above 1.0f.  Description:  The upper boundary of a gaussian distribution that gets multiplied to the table of mooch amounts.-->
+    </kMoochTraitMoneyRandomEnd>
+    <kMoochTraitMoneyDoubleChance value="0.25">
+      <!--Range: Positive floats below 1.0f.  Description:  Probability chance the mooch amount gets doubled.-->
+    </kMoochTraitMoneyDoubleChance>
+    <kMoochTraitMoneyQuadChance value="0.1">
+      <!--Range: Positive floats below 1.0f.  Description:  Probability chance the mooch amount gets quadrupled.  Takes precedence over doubling.-->
+    </kMoochTraitMoneyQuadChance>
+    <kMoochTraitChildSkill value="4">
+      <!--Range: Skill levels.  Description:  Highest level of mooch skill a child can gain.-->
+    </kMoochTraitChildSkill>
+    <kMoochTraitTeenSkill value="6">
+      <!--Range: Skill levels.  Description:  Highest level of mooch skill a teen can gain.-->
+    </kMoochTraitTeenSkill>
+    <kGeniusTraitSimSkillMultiplier value="1.3">
+      <!--Range: Float values above 1.0f.  Description:  A 'Genius' trait Sim gains skill in Logic, Chess, Hacking, and Mooch at this tunable percentage rate.  1.5f means 150% normal speed.-->
+    </kGeniusTraitSimSkillMultiplier>
+    <kNaturalCookTraitSkillPointModifier value="1.3">
+      <!--Range: Float values above 1.0f.  Description: A multiplier for skill points if this sim has the Natural Cook trait.-->
+    </kNaturalCookTraitSkillPointModifier>
+    <kNaturalCookTraitChanceToLearnRecipe value="0.50">
+      <!--Range: Float values below 0.1f.  Description: Chance that a Natural Cook Sim learns a recipe after eating it, assuming 100% at level 0 and subtracting this tunable percentage for each level thereafter.-->
+    </kNaturalCookTraitChanceToLearnRecipe>
+    <kNaturalCookTraitLevelToEnhanceFood value="4">
+      <!--Range: Skill level.  Description:  Minimum cooking skill level for a Natural Cook Sim to be able to 'Kick Up a Notch' on food.-->
+    </kNaturalCookTraitLevelToEnhanceFood>
+    <kNaturalCookTraitChanceToPlayEnhanceAnimation value=".2">
+      <!--Range: Float values below 1.0f.  Description:  Chance that a Natural Cook Sim will play the 'Kick Up a Notch' animation after automatically preparing food.-->
+    </kNaturalCookTraitChanceToPlayEnhanceAnimation>
+    <kNaturalCookTraitEnhanceFoodPoints value="15">
+      <!--Range: Cooking points.  Description: Natural Cook trait Sims give a bonus to foods if they have used the 'Kick Up a Notch' interaction on it.  This is the number of bonus food points the trait gives.-->
+    </kNaturalCookTraitEnhanceFoodPoints>
+    <kBraveTraitExtinguishFireSpeedMultiplier value=".5">
+      <!--Range: Positive floats under 1.0f.  Description: Brave Sims put out fires faster at a rate defined by this multiplier (less than 1.0f means time is shortened).-->
+    </kBraveTraitExtinguishFireSpeedMultiplier>
+    <kBraveTraitSimExtinguishTime value="20">
+      <!--Range: Positive floats.  Description:  Number of Sim minutes that a Brave Sim will put out fires before running to put self out.-->
+    </kBraveTraitSimExtinguishTime>
+    <kDaredevilTraitExtinguishFireSpeedMultiplier value="0.66">
+      <!--Range: Positive floats under 1.0f.  Description: Daredevil Sims put out fires faster at a rate defined by this multiplier (less than 1.0f means time is shortened).-->
+    </kDaredevilTraitExtinguishFireSpeedMultiplier>
+    <kDaredevilTraitSimExtinguishTime value="20">
+      <!--Range: Positive floats.  Description:  How often a Daredevil Sim checks to see if there's no fires left and is ready to put self out.-->
+    </kDaredevilTraitSimExtinguishTime>
+    <kDaredevilTraitOnFireBuffMood value="50">
+      <!--Range: Mood values.  Description:  Positive mood value a Daredevil receives when getting the 'On Fire' buff.-->
+    </kDaredevilTraitOnFireBuffMood>
+    <kDaredevilTraitWatchThisBroadcaster>
+      <PulseRadius value="10">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <PulseRepeatTime value="5">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="45">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kDaredevilTraitWatchThisBroadcaster>
+    <kAbsentMindedTraitSimSkillMultiplier value="1">
+      <!--Range: Float values below 1.0f.  Description:  A 'AbsentMinded' trait Sim gains skill in Logic, Hacking, Writing, and Handiness at this tunable percentage rate.  0.3f means 30% normal speed.-->
+    </kAbsentMindedTraitSimSkillMultiplier>
+    <kInsaneTraitSimChanceToWanderAround value="0.07">
+      <!--This is the chance for a sim to be deciding another place to stand somewhere around the window. Positive float between 0 and 1.-->
+    </kInsaneTraitSimChanceToWanderAround>
+    <kEvilTraitWitnessDeathFunGain value="50">
+      <!--Range: Fun/Stress motive change.  Description:  Evil Sims get a fun gain when watching non-family/loved one Sims die.-->
+    </kEvilTraitWitnessDeathFunGain>
+    <kHatesOutdoorsTraitAdvertisingMultiplier value="0.9">
+      <!--Range: Float multiplier.  Description:  'Hates Outdoor' Trait Sims get an autonomy advertisement multiplier additive penalty for objects that are outside.  This multiplier should be under 1.0f.-->
+    </kHatesOutdoorsTraitAdvertisingMultiplier>
+    <kImmuneToFireTraitExtinguishFireSpeedMultiplier value="0.1">
+      <!--Range: Positive floats under 1.0f.  Description: ImmuneToFire Sims put out fires faster at a rate defined by this multiplier (less than 1.0f means time is shortened).-->
+    </kImmuneToFireTraitExtinguishFireSpeedMultiplier>
+    <kFlirtyTraitAddChanceToMeetSimWhenGettingDrinks value="0.5">
+      <!--Range: Float values below 1.0f.  Description:  'Flirty' trait Sims have an increased chance to meet someone when getting drinks alone.-->
+    </kFlirtyTraitAddChanceToMeetSimWhenGettingDrinks>
+    <kFriendlyTraitAddChanceToMeetSimWhenGettingDrinks value="0.5">
+      <!--Range: Float values below 1.0f.  Description:  'Friendly' trait Sims have an increased chance to meet someone when getting drinks alone.-->
+    </kFriendlyTraitAddChanceToMeetSimWhenGettingDrinks>
+    <kCouchPotatoTraitComfyBuffMultiplier value="2">
+      <!--Range:  Positive floats above 1.0f.  Description:  Multiplier for Comfy buff effect for Couch Potato trait Sims.-->
+    </kCouchPotatoTraitComfyBuffMultiplier>
+    <kCouchPotatoMoodForWorkOut value="0">
+      <!--Range:  Mood value.  Description:  Minimum mood value for a Couch Potato Sim to work out.-->
+    </kCouchPotatoMoodForWorkOut>
+    <kCouchPotatoTraitSofaTVDistanceForBonus value="10">
+      <!--Range:  Floor tiles.  Description:  Number of floor tiles the couch is away from the TV to count as being close enough for the couch potato to prefer to sit there.-->
+    </kCouchPotatoTraitSofaTVDistanceForBonus>
+    <kCouchPotatoTraitSofaNearTVBonus value="4">
+      <!--Range:  Advertising bonus.  Description:  Score advertising bonus when choosing a place to sit - Couch Potato sims will choose to sit on sofas that are near TVs.-->
+    </kCouchPotatoTraitSofaNearTVBonus>
+    <kCouchPotatoTraitOversleepAmountInHours value="2">
+      <!--Range:  Sim Hours.  Description:  Number of hours that a Couch Potato will attempt to sleep in after well-rested buff is acquired.-->
+    </kCouchPotatoTraitOversleepAmountInHours>
+    <kCommitmentIssuesTraitLikingToProposeMarriage value="90">
+      <!--Range: Liking values.  Description:  LTR liking value a Commitment Issues sim must have with partner to 'propose marriage'.-->
+    </kCommitmentIssuesTraitLikingToProposeMarriage>
+    <kCommitmentIssuesTraitLikingToGetMarried value="80">
+      <!--Range: Liking values.  Description:  LTR liking value a Commitment Issues sim must have with partner to 'get married'.-->
+    </kCommitmentIssuesTraitLikingToGetMarried>
+    <kPartyAnimalTraitIncreasedChanceGuestFood value="0.25">
+      <!--Range: Positive floats.  Description:  Additional chance that guests attending a party thrown by a party animal will bring food gifts.-->
+    </kPartyAnimalTraitIncreasedChanceGuestFood>
+    <kPartyAnimalTraitWooToGainLifeOfParty value="3">
+      <!--Range:  Positive integers.  Description:  After successfully 'Woo'ing this tunable number of unique party guests at the same party, the Party Animal will gain the 'Life of the Party' buff.-->
+    </kPartyAnimalTraitWooToGainLifeOfParty>
+    <kHotHeadedTraitAngryMoodMultiplier value="1.5">
+      <!--Range: Positive float values above 1.0f.  Description:  HotHeaded Sims are more affected by Angry debuffs by the multiplier given in this tunable.-->
+    </kHotHeadedTraitAngryMoodMultiplier>
+    <kOverEmotionalTraitMoodMultiplier value="1.25">
+      <!--Range: Positive float values above 1.0f.  Description:  OverEmotional Sims are more affected by mood changes by the multiplier given in this tunable.-->
+    </kOverEmotionalTraitMoodMultiplier>
+    <kVegetarianTraitChanceToGetNauseousWhenEatingMeat value="1">
+      <!--Range:  Percentage chance below 1.0f.  Description:  Chance that a Vegetarian Sim will get Nauseous when eating meat.-->
+    </kVegetarianTraitChanceToGetNauseousWhenEatingMeat>
+    <kSchmoozerTraitLTRMultiplierForCoworkers value="1.5">
+      <!--Range: Multipliers above 1.0f.  Description:  LTR Multiplier when a Schmoozer Sim engages in a positive social with a Coworker or Boss-->
+    </kSchmoozerTraitLTRMultiplierForCoworkers>
+    <kFamilyOrientedTraitAdvertisingMultiplier value="3">
+      <!--Range: Advertising multiplier.  Description:  Score advertising bonus when a Family Oriented sim does an interaction with a family member.-->
+    </kFamilyOrientedTraitAdvertisingMultiplier>
+    <kFamilyOrientedTraitPottyTrainMultiplier value="1.5">
+      <!--Range: Positive floats above 1.0f.  Description:  Family-Oriented Sims teaching a toddler to use the potty does it at a tunably faster rate.-->
+    </kFamilyOrientedTraitPottyTrainMultiplier>
+    <kFamilyOrientedTraitTeachToTalkMultiplier value="1.5">
+      <!--Range: Positive floats above 1.0f.  Description:  Family-Oriented Sims teaching a toddler to talk does it at a tunably faster rate.-->
+    </kFamilyOrientedTraitTeachToTalkMultiplier>
+    <kFamilyOrientedTraitTeachToWalkMultiplier value="1.5">
+      <!--Range: Positive floats above 1.0f.  Description:  Family-Oriented Sims teaching a toddler to walk does it at a tunably faster rate.-->
+    </kFamilyOrientedTraitTeachToWalkMultiplier>
+    <kSchmoozerTraitCareerToneMultiplier value="2.5">
+      <!--Range:  Multipliers above 1.0f.  Description:  LTR Multiplier when a Schmoozer Sim engages in social career tones (Suck up to Boss, Hang With Coworkers)-->
+    </kSchmoozerTraitCareerToneMultiplier>
+    <kFeelingLuckyTraitBurglarMultiplier value="0.0">
+      <!--Range:  Floats under 1.0f.  Description:  Multiplier on the chance that a Feeling Lucky trait Sim will have a burglar come to his house.-->
+    </kFeelingLuckyTraitBurglarMultiplier>
+    <kFeelingLuckyTraitBurnFoodMultiplier value="0.0">
+      <!--Range:  Floats under 1.0f.  Description:  Multiplier on the chance that a Feeling Lucky trait Sim will suffer a random failure while cooking and burn food.-->
+    </kFeelingLuckyTraitBurnFoodMultiplier>
+    <kFeelingLuckyTraitCookingFireMultiplier value="0.0">
+      <!--Range:  Floats under 1.0f.  Description:  Multiplier on the chance that an appliance catches on fire when a Feeling Lucky trait Sim burns food.-->
+    </kFeelingLuckyTraitCookingFireMultiplier>
+    <kFeelingLuckyTraitBirthdayCakeFireMultiplier value="0.0">
+      <!--Range:  Floats under 1.0f.  Description:  Multiplier on the chance that a birthday cake for a Lucky Sim will catch on fire.-->
+    </kFeelingLuckyTraitBirthdayCakeFireMultiplier>
+    <kFeelingLuckyTraitSpreadFireMultiplier value="0.0">
+      <!--Range:  Floats under 1.0f.  Description:  Multiplier on the chance that a 'Feeling Lucky' Sim that has caught on fire will spread the fire.-->
+    </kFeelingLuckyTraitSpreadFireMultiplier>
+    <kFeelingLuckyTraitCatchFireChance value="0.0">
+      <!--Range:  Floats under 1.0f.  Description:  Chance that a 'Feeling Lucky' Sim will catch on fire when standing on a fire tile.-->
+    </kFeelingLuckyTraitCatchFireChance>
+    <kFeelingLuckyTraitUpgradeFailureMultiplier value="0.0">
+      <!--Range:  Floats under 1.0f.  Description:  Multiplier on the chance that a 'Feeling Lucky' Sim will fail an upgrade.-->
+    </kFeelingLuckyTraitUpgradeFailureMultiplier>
+    <kFeelingLuckyTraitUpgradeBadFailureMultiplier value="0.0">
+      <!--Range:  Floats under 1.0f.  Description:  Multiplier on the chance that if a 'Feeling Lucky' Sim does fail an upgrade, the multiplier on the chance of a bad failure (shock).-->
+    </kFeelingLuckyTraitUpgradeBadFailureMultiplier>
+    <kFeelingLuckyTraitObjectBreakMultiplier value="0.0">
+      <!--Range:  Floats under 1.0f.  Description:  Multiplier on the chance that a 'Feeling Lucky' Sim will break an object while using it.-->
+    </kFeelingLuckyTraitObjectBreakMultiplier>
+    <kFeelingLuckyTraitShockMultiplier value="0.0">
+      <!--Range:  Floats under 1.0f.  Description:  Multiplier on the chance that a 'Feeling Lucky' Sim will get electrocuted while repairing an object.-->
+    </kFeelingLuckyTraitShockMultiplier>
+    <kFeelingLuckyTraitCareerOpportunitySuccessMultiplier value="10">
+      <!--Range:  Floats above 1.0f.  Description:  Multiplier on the chance that a 'Feeling Lucky' Sim will 'win' a career event or opportunity that has a 'win' and 'lose' condition.-->
+    </kFeelingLuckyTraitCareerOpportunitySuccessMultiplier>
+    <kFeelingLuckyTraitRaiseMultiplier value="2">
+      <!--Range:  Floats above 1.0f.  Description:  Multiplier on the chance that a 'Feeling Lucky' Sim will get a raise at work.-->
+    </kFeelingLuckyTraitRaiseMultiplier>
+    <kFeelingUnluckyTraitBurglarMultiplier value="2">
+      <!--Range:  Floats above 1.0f.  Description:  Multiplier on the chance that a Feeling Unlucky trait Sim will have a burglar come to his house.-->
+    </kFeelingUnluckyTraitBurglarMultiplier>
+    <kFeelingUnluckyTraitBurnFoodMultiplier value="2">
+      <!--Range:  Floats above 1.0f.  Description:  Multiplier on the chance that a Feeling Unlucky trait Sim will suffer a random failure while cooking and burn food.-->
+    </kFeelingUnluckyTraitBurnFoodMultiplier>
+    <kFeelingUnluckyTraitCookingFireMultiplier value="2">
+      <!--Range:  Floats above 1.0f.  Description:  Multiplier on the chance that an appliance catches on fire when a Feeling Unlucky trait Sim burns food.-->
+    </kFeelingUnluckyTraitCookingFireMultiplier>
+    <kFeelingUnluckyTraitBirthdayCakeFireMultiplier value="3">
+      <!--Range:  Floats above 1.0f.  Description:  Multiplier on the chance that a birthday cake for a Unlucky Sim will catch on fire.-->
+    </kFeelingUnluckyTraitBirthdayCakeFireMultiplier>
+    <kFeelingUnluckyTraitSpreadFireMultiplier value="2">
+      <!--Range:  Floats above 1.0f.  Description:  Multiplier on the chance that a 'Feeling Unlucky' Sim that has caught on fire will spread the fire.-->
+    </kFeelingUnluckyTraitSpreadFireMultiplier>
+    <kFeelingUnluckyTraitUpgradeFailureMultiplier value="1.4">
+      <!--Range:  Floats above 1.0f.  Description:  Multiplier on the chance that a 'Feeling Unlucky' Sim will fail an upgrade.-->
+    </kFeelingUnluckyTraitUpgradeFailureMultiplier>
+    <kFeelingUnluckyTraitUpgradeBadFailureMultiplier value="2">
+      <!--Range:  Floats above 1.0f.  Description:  Multiplier on the chance that if a 'Feeling Unlucky' Sim does fail an upgrade, the multiplier on the chance of a bad failure (shock).-->
+    </kFeelingUnluckyTraitUpgradeBadFailureMultiplier>
+    <kFeelingUnluckyTraitObjectBreakMultiplier value="2">
+      <!--Range:  Floats above 1.0f.  Description:  Multiplier on the chance that a 'Feeling Unlucky' Sim will break an object while using it.-->
+    </kFeelingUnluckyTraitObjectBreakMultiplier>
+    <kFeelingUnluckyTraitShockMultiplier value="1.5">
+      <!--Range:  Floats above 1.0f.  Description:  Multiplier on the chance that a 'Feeling Unlucky' Sim will get electrocuted while repairing an object.-->
+    </kFeelingUnluckyTraitShockMultiplier>
+    <kFeelingUnluckyTraitCareerOpportunitySuccessMultiplier value="0.2">
+      <!--Range:  Floats below 1.0f.  Description:  Multiplier on the chance that a 'Feeling Unlucky' Sim will 'win' a career event or opportunity that has a 'win' and 'lose' condition.-->
+    </kFeelingUnluckyTraitCareerOpportunitySuccessMultiplier>
+    <kFeelingUnluckyTraitRaiseMultiplier value="0.5">
+      <!--Range:  Floats below 1.0f.  Description:  Multiplier on the chance that a 'Feeling Unlucky' Sim will get a raise at work.-->
+    </kFeelingUnluckyTraitRaiseMultiplier>
+    <kFeelingUnluckyTraitBurnTime value="20">
+      <!--Range:  Sim minutes.  Description:  Number of minutes that a 'Feeling Unlucky' Sim will have the On Fire buff before dying due to fire.-->
+    </kFeelingUnluckyTraitBurnTime>
+    <kLoserTraitCareerEventChance value="0.5">
+      <!--Range: Floats below 1.0f.  Description:  Loser Trait sims have a chance of getting a career event which just displays a TNS that mocks the Sim instead of a proper event.-->
+    </kLoserTraitCareerEventChance>
+    <kNaturalCookTraitChanceToLearnRecipeAtRestaurant value="0.08">
+      <!--Range: Float values below 1.0f.  Description: Chance that a Natural Cook Sim learns a recipe after eating at a restaurant.-->
+    </kNaturalCookTraitChanceToLearnRecipeAtRestaurant>
+    <kRouteDistanceForIdle value="5">
+      <!--Range:  Tiles.  Description:  Minimum route length in order for Sim to play a route lead-in.-->
+    </kRouteDistanceForIdle>
+    <kVirtuosoTraitSimGuitarCashMultiplier value="1.35">
+      <!--Range: Float values above 1.0f.  Description:  A 'Virtuoso' trait Sim will earn cash and money at a tunably higher percentage when playing the Guitar.-->
+    </kVirtuosoTraitSimGuitarCashMultiplier>
+    <kAbsentMindedTraitSimCleanIdleFrequencyStart value="5">
+      <!--Range: Sim minutes.  Description:  How frequently an 'AbsentMinded' trait Sim will pause and do a 'think hard' while cleaning.  The time is randomly chosen from a range beginning with this tunable and ending with the 'frequencyEnd' tunable.-->
+    </kAbsentMindedTraitSimCleanIdleFrequencyStart>
+    <kAbsentMindedTraitSimCleanIdleFrequencyEnd value="20">
+      <!--Range: Sim minutes.  Description:  How frequently an 'AbsentMinded' trait Sim will pause and do a 'think hard' while cleaning.-->
+    </kAbsentMindedTraitSimCleanIdleFrequencyEnd>
+    <kAbsentMindedTraitSimChanceToIdleWhileCleaning value="0.9">
+      <!--Range:  Float values below 1.0f.  Description:  The percentage chance an 'AbsentMinded' trait Sim will pause and do an idle while cleaning.-->
+    </kAbsentMindedTraitSimChanceToIdleWhileCleaning>
+    <kAbsentMindedTraitSimEatingIdleFrequencyStart value="5">
+      <!--Range: Sim minutes.  Description:  How frequently an 'AbsentMinded' trait Sim will pause and do a 'think hard' while eating.  The time is randomly chosen from a range beginning with this tunable and ending with the 'frequencyEnd' tunable.-->
+    </kAbsentMindedTraitSimEatingIdleFrequencyStart>
+    <kAbsentMindedTraitSimEatingIdleFrequencyEnd value="20">
+      <!--Range: Sim minutes.  Description:  How frequently an 'AbsentMinded' trait Sim will pause and do a 'think hard' while eating.-->
+    </kAbsentMindedTraitSimEatingIdleFrequencyEnd>
+    <kAbsentMindedTraitSimChanceToIdleWhileEating value="0.5">
+      <!--Range: Float values below 1.0f.  Description:  The percentage change an 'AbsentMinded' trait Sim will pause and do a 'think hard' idle while eating.-->
+    </kAbsentMindedTraitSimChanceToIdleWhileEating>
+    <kAbsentMindedTraitSimCookingIdleFrequencyStart value="5">
+      <!--Range: Sim minutes.  Description:  How frequently an 'AbsentMinded' trait Sim will pause and do a 'think hard' while cooking.  The time is randomly chosen from a range beginning with this tunable and ending with the 'frequencyEnd' tunable.-->
+    </kAbsentMindedTraitSimCookingIdleFrequencyStart>
+    <kAbsentMindedTraitSimCookingIdleFrequencyEnd value="20">
+      <!--Range: Sim minutes.  Description:  How frequently an 'AbsentMinded' trait Sim will pause and do a 'think hard' while cooking.-->
+    </kAbsentMindedTraitSimCookingIdleFrequencyEnd>
+    <kWorkaholicTraitHomeworkFunPerHour value="20">
+      <!--Range: Fun per Sim hour.  Description:  Amount of fun per hour a Workaholic Trait Sim gets for working / copying / helping / being helped on homework.-->
+    </kWorkaholicTraitHomeworkFunPerHour>
+    <kWorkaholicTraitHomeworkRateModifier value=".278">
+      <!--Range: Additive float multiplier.  Description:  Increased rate of completing homework if the Sim has the Workaholic trait.-->
+    </kWorkaholicTraitHomeworkRateModifier>
+    <kWorkaholicTraitTutorHomeworkRateModifier value=".278">
+      <!--Range: Additive float multiplier.  Description:  Increased rate of completing homework if the Sim is being tutored by a Workaholic trait Sim.-->
+    </kWorkaholicTraitTutorHomeworkRateModifier>
+    <kKleptomaniacTraitChanceToStealObject value=".2">
+      <!--Range: Floats below 1.0f.  Description:  Chance that a Kleptomaniac Sim will steal a random object from work.-->
+    </kKleptomaniacTraitChanceToStealObject>
+    <kKleptomaniacTraitSimoleonsPerCareerLevel value="350">
+      <!--Range: Simoleons.  Description:  The formula for the maximum value of an object that a Kleptomaniac Sim can steal is [career level * this tunable].-->
+    </kKleptomaniacTraitSimoleonsPerCareerLevel>
+    <kKleptomaniacTraitMaxValueOfObjectStolenAtSchool value="500">
+      <!--Range: Simoleons.  Description:  The maximum value of an object that can be stolen by a Kleptomaniac Sim from school.-->
+    </kKleptomaniacTraitMaxValueOfObjectStolenAtSchool>
+    <kKleptomaniacTraitSwipeStartTime value="19">
+      <!--Range: Sim hours.  Description:  Starting range of the time of day at which a Kleptomaniac Sim can swipe something.-->
+    </kKleptomaniacTraitSwipeStartTime>
+    <kKleptomaniacTraitSwipeEndTime value="6">
+      <!--Range: Sim hours.  Description:  Ending range of the time of day at which a Kleptomaniac Sim can swipe something.-->
+    </kKleptomaniacTraitSwipeEndTime>
+    <kKleptomaniacTraitSwipeDistance value="6">
+      <!--Range:  Tiles.  Description:  Number of tiles away that a Kleptomaniac Sim will consider swiping an object.-->
+    </kKleptomaniacTraitSwipeDistance>
+    <kHardlyHungryHungerDecayMultiplier value="0.25">
+      <!--Range: Float values below 1.0f. Description: If the sim purchases the Hardly Hungry trait, Hunger decays more slowy.-->
+    </kHardlyHungryHungerDecayMultiplier>
+    <kSpeedyCleanerCleanTimeMultiplier value="3">
+      <!--Range: Float values above 1.0f. Description: Multiplier applied to cleaning rate for sims with the Speedy Cleaner trait.-->
+    </kSpeedyCleanerCleanTimeMultiplier>
+    <kExtraCreativeBrilliantChanceAdd value="25">
+      <!--Range: Int values below 100. Description: Increase in chance to paint a brilliant painting for sims with the Extra Creative trait.-->
+    </kExtraCreativeBrilliantChanceAdd>
+    <kExtraCreativeMasterpieceChanceAdd value="15">
+      <!--Range: Int values below 100. Description: Increase in chance to paint a masterpiece for sims with the Extra Creative trait.-->
+    </kExtraCreativeMasterpieceChanceAdd>
+    <kHighRollerRoyaltyMultiplier value="1.33333">
+      <!--Range: Float values above 1.0f. Description: Multiplier applied to royalty check amounts for sims with the Multi-Tasker trait.-->
+    </kHighRollerRoyaltyMultiplier>
+    <kMultiTaskerHomeworkTimeMultiplier value="1.5">
+      <!--Range: Float values above 1.0f. Description: Multiplier applied to homework rate for sims with the Multi-Tasker trait.-->
+    </kMultiTaskerHomeworkTimeMultiplier>
+    <kMultiTaskerWorkPerformanceAdd value="3">
+      <!--Range: Positive values. Description: Flat value added to work performance change for sims with the Multi-Tasker trait.-->
+    </kMultiTaskerWorkPerformanceAdd>
+    <kOfficeHeroRelationshipMultiplier value="2">
+      <!--Range: Float above 1.0f. Description: Multiplier applied to relationship gain for Office Hero sims in the Hang With Coworkers Tone and whenever relationship is changed with a coworker.-->
+    </kOfficeHeroRelationshipMultiplier>
+    <kOpportunisticRewardMultiplier value="2">
+      <!--Range: Positive int. Description: Multiplier applied to opportunity rewards for Opportunistic sims.-->
+    </kOpportunisticRewardMultiplier>
+    <kVacationerMissingWorkPerformanceMultiplier value="0.2">
+      <!--Range: Float below 1.0f. Description: Multiplier applied to regular missing work performance penalty for Vacationer sims.-->
+    </kVacationerMissingWorkPerformanceMultiplier>
+    <kFastMetabolismBodyShapeAdd value="0.25">
+      <!--Range: Positive float values. Description: Added to the body shape multiplier for sims with the Fast Metabolism trait.-->
+    </kFastMetabolismBodyShapeAdd>
+    <kBookwormTraitHomeworkRateMultiplier value=".278">
+      <!--Range: Additive float multiplier.  Description:  Increased rate of completing homework if the Sim has the Bookworm trait.-->
+    </kBookwormTraitHomeworkRateMultiplier>
+    <kBookWormWritingQualityModifier value="20">
+      <!--Range: Percentage to write a hit / best-seller up to 50.  Description:  Increased chance of writing a hit or best-seller book for Book-Worm trait Sims.-->
+    </kBookWormWritingQualityModifier>
+    <kClumsyTraitChanceBurnSelfOnFireplace value="25">
+      <!--Range: 0 - 100.  Description:  Additional chance for Clumsy trait Sims to burn him/herself on the fireplace when doing 'Play With Fire'.-->
+    </kClumsyTraitChanceBurnSelfOnFireplace>
+    <kBookshopBargainerSalePercentAdd value="25">
+      <!--Range: Float values [0,100]. Description: Value added to sale percentage on books for Bookshop Bargainer sims.-->
+    </kBookshopBargainerSalePercentAdd>
+    <kFastLearnerSkillGainMod value="0.15">
+      <!--Range: Positive float values. Description: Additional skill gain modifier for sims with the Fast Learner trait.-->
+    </kFastLearnerSkillGainMod>
+    <kHagglerSalePercentAdd value="15">
+      <!--Range: Float values [0,100]. Description: Value added to sale percentage for all store items for Haggler sims.-->
+    </kHagglerSalePercentAdd>
+    <kSuperGreenThumbPlantQualityMultiplier value="1.15">
+      <!--Range: Float values above 1.0f. Description: Multiplier applied to plant quality value for Super-Green Thumb sims.-->
+    </kSuperGreenThumbPlantQualityMultiplier>
+    <kObservantNumTraitsToLearn value="3">
+      <!--Range: Positive int.  Description:  Max number of traits for an observant sim to learn.-->
+    </kObservantNumTraitsToLearn>
+    <kHandyTraitSimHandinessSkillMultiplier value="1.25">
+      <!--Range:  Floats above 1.0f.  Description:  Handy Sims learn Handiness Skill at an accelerated rate defined by this tunable.-->
+    </kHandyTraitSimHandinessSkillMultiplier>
+    <kPerfectionistTraitEnhanceFoodPoints value="15">
+      <!--Range: Cooking points.  Description: Perfectionist trait Sims give a bonus to foods he/she has cooked.-->
+    </kPerfectionistTraitEnhanceFoodPoints>
+    <kPerfectionistTraitWritingQualityModifier value="15">
+      <!--Range: Percentage to write a hit / best-seller up to 50.  Description:  Increased chance of writing a hit or best-seller book for Perfectionist trait Sims.-->
+    </kPerfectionistTraitWritingQualityModifier>
+    <kPerfectionistTraitHomeworkRateMultiplier value="-0.15">
+      <!--Range: Additive float multiplier.  Description:  Decreased rate of completing homework if the Sim has the Perfectionist trait.-->
+    </kPerfectionistTraitHomeworkRateMultiplier>
+    <kPerfectionistTraitCuttingBoardLoops value="1">
+      <!--Range: Animation loops on the cutting board.  Description:  Perfectionist trait Sims take longer to prepare food and use an additional tunable number of chops on the cutting board.-->
+    </kPerfectionistTraitCuttingBoardLoops>
+    <kPerfectionistTraitPaintingBrilliantChanceAdd value="20">
+      <!--Range: Int values below 100. Description: Increase in chance to paint a brilliant painting for sims with the Perfectionist trait.-->
+    </kPerfectionistTraitPaintingBrilliantChanceAdd>
+    <kPerfectionistTraitPaintingMasterpieceChanceAdd value="15">
+      <!--Range: Int values below 100. Description: Increase in chance to paint a masterpiece for sims with the Perfectionist trait.-->
+    </kPerfectionistTraitPaintingMasterpieceChanceAdd>
+    <kPerfectionistTraitPaintingStageTime value="15">
+      <!--Range: Sim minutes.  Description:  Additional Sim minutes that a Perfectionist trait needs to paint for each stage of a painting.-->
+    </kPerfectionistTraitPaintingStageTime>
+    <kAttractiveInitialRelationship value="20">
+      <!--Range: Positive floats. Description: Initial relationship for sims with proper gender preference for sims with Attractive trait.-->
+    </kAttractiveInitialRelationship>
+    <kKleptomaniacTraitResetObjectTime value="4">
+      <!--Range: Time of day.  Description:  Time of day at which objects swiped by a Kleptomaniac on a community or NPC lot will get reset.-->
+    </kKleptomaniacTraitResetObjectTime>
+    <kKleptomaniacTraitDaysToTryReplaceObject value="14">
+      <!--Range: Sim days.  Description:  Number of Sim days to allow the object refresh alarm to try to replace an object that was swiped on a community or NPC lot.-->
+    </kKleptomaniacTraitDaysToTryReplaceObject>
+    <kKleptomaniacTraitChanceToStealFromRestaurant value=".2">
+      <!--Range: Float under 1.0f.  Description:  Chance of a Kleptomaniac Sim to steal a bowl or plate from the Restaurant rabbit hole.-->
+    </kKleptomaniacTraitChanceToStealFromRestaurant>
+    <kSnobTraitMinimumValueForApproval value="800">
+      <!--Range: Simoleons.  Description:  Minimum number of simoleons an object must be worth for a snob to not play a snobby reaction during the 'come and see'.-->
+    </kSnobTraitMinimumValueForApproval>
+    <kInsaneTraitChancesToTestRandomInteraction value="5">
+      <!--Range: Integers.  Description:  Number of interactions an Insane Sim will randomly consider and test tree before going to a fallback plan of choosing a random commodity to find the best action of.-->
+    </kInsaneTraitChancesToTestRandomInteraction>
+    <kDislikesChildrenTraitDistanceForGrumpyIdle value="7">
+      <!--Range: Tiles.  Description:  Distance away that a child needs to be from a 'Dislikes Children' trait Sim on the world lot for that Sim to display child-hating idles.-->
+    </kDislikesChildrenTraitDistanceForGrumpyIdle>
+    <kDislikesChildrenTraitDistanceFromChildForAutonomousShoo value="7">
+      <!--Range:  Tiles.  Description:  Maximum number of tiles away that a child can be from the Dislikes Children trait Sim to be autonomously shooed.-->
+    </kDislikesChildrenTraitDistanceFromChildForAutonomousShoo>
+    <kCowardTraitChanceToFaintWhenSeeingGhost value="1">
+      <!--Range: Positive probability under 1.0f.  Description:  Probability that a Coward Sim will faint when seeing a Ghost.-->
+    </kCowardTraitChanceToFaintWhenSeeingGhost>
+    <kCowardTraitChanceToFaintWhenSeeingBurglar value="1">
+      <!--Range: Positive probability under 1.0f.  Description:  Probability that a Coward Sim will faint when seeing a Burglar.-->
+    </kCowardTraitChanceToFaintWhenSeeingBurglar>
+    <kCowardTraitChanceToFaintWhenSeeingFire value="0.2">
+      <!--Range: Positive probability under 1.0f.  Description:  Probability that a Coward Sim will faint when seeing a fire.-->
+    </kCowardTraitChanceToFaintWhenSeeingFire>
+    <kCowardTraitRunAwayFromRepomanChance value="1">
+      <!--Range: Positive probability under 1.0f.  Description:  Probability that a Coward Sim will run away when seeing the Repoman.-->
+    </kCowardTraitRunAwayFromRepomanChance>
+    <kLegendaryHostMinLikingValue value="15">
+      <!--Range: Positive float value. Description: The minimum amount of liking update guests will get at a party thrown by a Legendary Host.-->
+    </kLegendaryHostMinLikingValue>
+    <kMeanTraitMoodPenaltyPerEnemy value="5">
+      <!--Range:  Mood value.  Description:  Mood penalty per enemy that the MeanSpirited Trait Sim has.-->
+    </kMeanTraitMoodPenaltyPerEnemy>
+    <kInappropriateTraitReactionRadius value="7">
+      <!--Range:  Tiles.  Description:  Tiles away that a host is from an inappropriate guest at which the host will play the 'react to inappropriate action' animation.  For example, if an inappropriate Sim takes a sponge bath and the host is X tiles away, this animation will trigger.-->
+    </kInappropriateTraitReactionRadius>
+    <kAmbitiousTraitPerformanceBonus value="2">
+      <!--Range:  Performance per hour.  Description:  Ambitious trait Sims get a tunable increase to performance gain per hour.-->
+    </kAmbitiousTraitPerformanceBonus>
+    <kAmbitiousTraitAnxietyDays value="4">
+      <!--Range:  Sim days.  Description:  Number of days after which an Ambitious Sim will get 'Anxious To Advance' buff if he/she hasn't gained any skill points or gotten a promotion.-->
+    </kAmbitiousTraitAnxietyDays>
+    <kKleptomaniacTraitObjectsStealPerDay value="3">
+      <!--RAnge: Number of objects.  Description:  Number of objects a kleptomaniac Sim is allowed to steal per day.-->
+    </kKleptomaniacTraitObjectsStealPerDay>
+    <kClumsyTraitChanceToTrip value=".04">
+      <!--Range:  Probability under 1.0f.  Description:  Chance for a clumsy trait to trip at end of route.-->
+    </kClumsyTraitChanceToTrip>
+    <kNeuroticTraitAnxiousChance value=".1">
+      <!--Range: Positive floats under 1.0f.  Description:  Chance that a Neurotic Sim will get an anxiety buff after using a fireplace, sink, or stove.-->
+    </kNeuroticTraitAnxiousChance>
+    <kNeuroticTraitAnxiousDelay value="1">
+      <!--Range: Sim hours.  Description:  Number of hours after using a sink, fireplace, or stove that a Neurotic Sim will get worried about it.-->
+    </kNeuroticTraitAnxiousDelay>
+    <kLovesOutdoorsTraitAdvertisingMultiplier value="0.2">
+      <!--Range: Float multiplier.  Description:  'Loves Outdoor' Trait Sims get an autonomy advertisement multiplier additive bonus for objects that are outside.  This multiplier bonus should be under 1.0f.-->
+    </kLovesOutdoorsTraitAdvertisingMultiplier>
+    <kComputerWhizTraitChanceToGetCaughtWhileHacking value="0.02">
+      <!--Range:  Float values below 1.0f.  Description:  Chance for a 'Computer Whiz' Sim to get caught every 30 minutes while hacking.-->
+    </kComputerWhizTraitChanceToGetCaughtWhileHacking>
+    <LightSleeperMinutesAbleToSleep value="1440">
+      <!--Range:  Sim minutes.  Description:  Number of Sim minutes that an Insomniac Sim is able to sleep at a time.-->
+    </LightSleeperMinutesAbleToSleep>
+    <AntiTVTraitChanceToSabotageTV value="0.9">
+      <!--Range:  Float values below 1.0f.  Description:  The chance that an Anti-TV Sim successfully sabotages the TV and breaks it.-->
+    </AntiTVTraitChanceToSabotageTV>
+    <GeniusTraitChanceToSolveProblem value="0.6">
+      <!--RAnge:  Float under 1.0f.  Description:  Chance a Genius Sim solves an unsolved problem.-->
+    </GeniusTraitChanceToSolveProblem>
+    <FrugalTraitValueForSigh value="250">
+      <!--Range:  Simoleons.  Description:  Simoleons above which value a Frugal Sim will disapprove of a newly bought object.-->
+    </FrugalTraitValueForSigh>
+    <kAmbitiousTraitLifetimeHappinessMultiplier value="1.15">
+      <!--Range: Float multiplier.  Description:  Ambitious Trait Sims get additional lifetime happiness when fulfilling promised dreams.-->
+    </kAmbitiousTraitLifetimeHappinessMultiplier>
+    <kChildishTraitSimLTRMultiplierForRepetition value="1">
+      <!--Range: Float values above 1.0f.  Description:  If a 'Childish' trait Sim is the target of a social that is repetitive, the boring context effect is multiplied by this tunable value.-->
+    </kChildishTraitSimLTRMultiplierForRepetition>
+    <kLonerTraitAdvertisingMultiplier value="0.2">
+      <!--Range:  Advertising multiplier.  Description:  Additional advertising boost for objects in the same room as a Loner Sim's bedroom (if (s)he owns a bed)-->
+    </kLonerTraitAdvertisingMultiplier>
+    <kLonerTraitAdvertisingMultiplierForSims value="0.05">
+      <!--Range:  Advertising multiplier penalty per Sim.  Description:  Advertising penalty (percentage) for each Sim in the same room as the object being considered.-->
+    </kLonerTraitAdvertisingMultiplierForSims>
+    <kLonerTraitAdvertisingMultiplierForSimsMax value="0.2">
+      <!--Range:  Advertising multiplier peanlty.  Description:  Maximum advertising penalty for a large number of Sims in a room for the Loner sim - this is so objects in rooms with lots of Sims doesn't advertise 0.-->
+    </kLonerTraitAdvertisingMultiplierForSimsMax>
+    <kNoSenseOfHumorTraitSimLTRMultiplierForInterestingSocials value="0.5">
+      <!--Range: Float values below 1.0f.  Description:  If a 'No Sense Of Humor' Sim is trying to increase 'impressive' social context, the relationship change will be multiplied by this tunable, making it harder.-->
+    </kNoSenseOfHumorTraitSimLTRMultiplierForInterestingSocials>
+    <kNoSenseOfHumorTraitDistanceToBeBored value="5">
+      <!--Range:  Distance.  Description:  Distance at which Sims will play a yawn animation if in the area of effect of the 'bore to death' social.-->
+    </kNoSenseOfHumorTraitDistanceToBeBored>
+    <kSchmoozerPerformanceBonusAtSchool value="2">
+      <!--Range: Performance bonus per hour.  Description:  Schmoozer trait Sims are supposed to get a performance bonus per hour while at school (defined by this tunable).-->
+    </kSchmoozerPerformanceBonusAtSchool>
+    <kSnobTraitEnvironmentScoreMultiplier value="2">
+      <!--Range: Multiplier above 1.0f.  Description: Snob Sims get a multiplier on environment score (both positive and negative) which is this tunable.-->
+    </kSnobTraitEnvironmentScoreMultiplier>
+    <kSnobTraitNewStuffMood value="30">
+      <!--Range: Mood value.  Description:  Mood value for the 'New Stuff' buff when a Snob Sim gets it.-->
+    </kSnobTraitNewStuffMood>
+    <kSnobTraitEnvironmentBonusForMirror value="10">
+      <!--Range: Float values between 0 - 100.  Description:  Additional environment score bonus that mirrors provide to Snob sims.-->
+    </kSnobTraitEnvironmentBonusForMirror>
+    <PyromaniacTraitChanceForInheritance value="0.5">
+      <!--Range: Float under 1.0f.  Description:  Chance that a Sim will get the 'Pyromaniac' trait from a parent instead of 'Immune to Fire' trait.-->
+    </PyromaniacTraitChanceForInheritance>
+    <PyromaniacTraitEnergyGainFromFlameFruit value="50">
+      <!--Range:  Motive gain.  Description:  Energy gain from a Pyromaniac Sim eating flame fruit.-->
+    </PyromaniacTraitEnergyGainFromFlameFruit>
+    <PyromaniacTraitFunGainFromFlameFruit value="50">
+      <!--Range:  Motive gain.  Description:  Fun gain from a Pyromaniac Sim eating flame fruit.-->
+    </PyromaniacTraitFunGainFromFlameFruit>
+    <PyromaniacTraitChanceToTransmogrifyFlameFruit value="0.5">
+      <!--Range:  Float under 1.0f.  Description:  Chance that a 'Pyromaniac' Sim will successfully transmogrify a fruit into a flame fruit.-->
+    </PyromaniacTraitChanceToTransmogrifyFlameFruit>
+    <PyromaniacTraitBurnRadius value="10">
+      <!--Range:  Tiles.  Description:  Tiles away from current location that a Pyromaniac Sim considers burning something.-->
+    </PyromaniacTraitBurnRadius>
+    <PyromaniacTraitCozyFireMoodMultiplier value="2">
+      <!--Range:  Positive floats.  Description:  Multiplier that a Pyromaniac Sim gets for the cozy fire buff.-->
+    </PyromaniacTraitCozyFireMoodMultiplier>
+    <MeanSpiritedMoodForEnemyBuff value="10">
+      <!--Range:  Mood value.  Description:  Mood bonus when the MeanSpirited Trait Sim has the 'Enemy' buff.-->
+    </MeanSpiritedMoodForEnemyBuff>
+    <ArtisticTraitSimXylophoneSkillMultiplier value="1.1">
+      <!--Range: Float values above 1.0f.  Description:  If an 'Artistic' trait Sim is learning Xylophone Skill, they get this extra skill gain multiplier.  1.5f means 50% bonus.-->
+    </ArtisticTraitSimXylophoneSkillMultiplier>
+    <VirtuosoTraitSimXylophoneSkillMultiplier value="1.25">
+      <!--Range: Float values above 1.0f.  Description:  If an 'Virtuoso' trait Sim is learning Xylophone Skill, they get this extra skill gain multiplier.  1.5f means 50% bonus.-->
+    </VirtuosoTraitSimXylophoneSkillMultiplier>
+    <ChanceForRouteLeadIn value="0.15">
+      <!--Range:  Probability under 1.0f.  Description: Chance that a Sim will play a trait route lead-in if the route is sufficiently long.-->
+    </ChanceForRouteLeadIn>
+    <kPerfectionistTraitWritingPagesSlowerPerMinuteMultiplier value="0.8">
+      <!--Range: Pages per minute.  Description:  Perfectionist trait Sims take longer to write novels and are slower at the pages per minute defined by this tunable.-->
+    </kPerfectionistTraitWritingPagesSlowerPerMinuteMultiplier>
+    <kNormalSimNapTimeStart value="3">
+      <!--Range:  Sim minutes.  Description:  Starting range of a gaussian distribution for minutes for normal Sims to snore.-->
+    </kNormalSimNapTimeStart>
+    <kNormalSimNapTimeEnd value="6">
+      <!--Range:  Sim minutes.  Description:  Ending range of a gaussian distribution for minutes for normal Sims to snore.-->
+    </kNormalSimNapTimeEnd>
+    <kLightSleeperSimNapTimeStart value="15">
+      <!--Range:  Sim minutes.  Description:  Starting range of a gaussian distribution for minutes for Light Sleeper Sims to snore.-->
+    </kLightSleeperSimNapTimeStart>
+    <kLightSleeperSimNapTimeEnd value="30">
+      <!--Range:  Sim minutes.  Description:  Ending range of a gaussian distribution for minutes for Light Sleeper Sims to snore.-->
+    </kLightSleeperSimNapTimeEnd>
+    <kHeavySleeperSimNapTimeStart value="2">
+      <!--Range:  Sim minutes.  Description:  Starting range of a gaussian distribution for minutes for Heavy Sleeper Sims to snore.-->
+    </kHeavySleeperSimNapTimeStart>
+    <kHeavySleeperSimNapTimeEnd value="4">
+      <!--Range:  Sim minutes.  Description:  Ending range of a gaussian distribution for minutes for Heavy Sleeper Sims to snore.-->
+    </kHeavySleeperSimNapTimeEnd>
+    <kExtraCreativeValueMultiplier value="1.5">
+      <!--Range: Positive floats. Description: Multipler applied to overall value of a painting if the painter has the Extra Creative trait.-->
+    </kExtraCreativeValueMultiplier>
+    <kFertilityBabyMakingChanceIncrease value="25">
+      <!--Range:  0-100  Description:  Additive chance provided by a fertility treatment.  If both sims have it this will be added to the base chance twice.-->
+    </kFertilityBabyMakingChanceIncrease>
+    <kFertilityMultipleBabiesMultiplier value="20">
+      <!--Range: Float above 1.0f. Description: Multiplier aplied per parent with fertility treatment to the chance of multiple babies post max cap.-->
+    </kFertilityMultipleBabiesMultiplier>
+    <kPermaCleanHygieneDecayMultiplier value="0.25">
+      <!--Range: Float values below 1.0f. Description: If the sim purchases the Perman Clean trait, Hygiene decays more slowly.-->
+    </kPermaCleanHygieneDecayMultiplier>
+    <kNeatCleaningFun value="30">
+      <!--Fun motive delta while cleaning for neat sims.-->
+    </kNeatCleaningFun>
+    <kDaredevilOnFireTimeout value="180">
+      <!--Range: +floats  Description:  Sim minutes OnFireBuff should last for a daredevil sim. They never die from timeout, the buff just goes away.-->
+    </kDaredevilOnFireTimeout>
+    <kCharismaticLTRGainMultiplier value="1.25">
+      <!--Float multiplier of the LTR gain that charismatic sims get from conversation (either target or initiating sim)-->
+    </kCharismaticLTRGainMultiplier>
+    <kCharismaticLTRDecayMultiplier value="0.75">
+      <!--Float multiplier of LTR decay of charismatic sims-->
+    </kCharismaticLTRDecayMultiplier>
+    <kKleptomaniacLTRPenalty value="-30">
+      <!--LTR hit that a Klepto gets if someone catches them stealing-->
+    </kKleptomaniacLTRPenalty>
+    <kKleptomaniacStealingInnapropriateness value="6">
+      <!--The innapprorpiate level for stealing an object.-->
+    </kKleptomaniacStealingInnapropriateness>
+    <kDisciplinedTraitsMartialArtsSkillMultiplier value="1.25">
+      <!--Range: Float values above 1.0f.  Description:  If a 'Disciplined' trait Sim is learning Martial Arts Skill, they get this extra skill gain multiplier.-->
+    </kDisciplinedTraitsMartialArtsSkillMultiplier>
+    <CultureTypeTraitChanceForInheritance value="0.5">
+      <!--Range: Float under 1.0f.  Description:  Chance that a Sim will get a culture trait from a parent.-->
+    </CultureTypeTraitChanceForInheritance>
+    <kMeditativeTranceSleepEnergyGainMultiplier value="1.25">
+      <!--Range: Float > 1.0. This is a multiplier applied to energy gain while sleeping. Note that we multiply this with any existing gain from whatever bed the sim is sleeping on.-->
+    </kMeditativeTranceSleepEnergyGainMultiplier>
+    <kAdventurousVisaPointMultiplier value="1.2">
+      <!--Multiplier for the visa points gain for adventurous sims-->
+    </kAdventurousVisaPointMultiplier>
+    <kAdventurousStirCrazyDelayMultiplier value=".75">
+      <!--Multiplier for the delay length of receiving the stir crazy buff.-->
+    </kAdventurousStirCrazyDelayMultiplier>
+    <kAdventurousWentToLocationLengthMultiplier value=".6">
+      <!--Multiplier for the length of the went to location buff.-->
+    </kAdventurousWentToLocationLengthMultiplier>
+    <kPhotographersEyeSkillMultiplier value="1.25">
+      <!--Range Float above 1.0f, Sims with Photographers Eye learn the photography skill at an accerated rate defined by this tunable.-->
+    </kPhotographersEyeSkillMultiplier>
+    <kPhotographersEyePhotographValueMultiplier value="1.25">
+      <!--Multiplier to the value of pictures taken by a sim that has photographers eye.-->
+    </kPhotographersEyePhotographValueMultiplier>
+    <kDisciplinedTraitMartialArtsFun value="20">
+      <!--Fun that a disciplined sim gets from doing martial arts interactions (spar, training dummy, board breaking)-->
+    </kDisciplinedTraitMartialArtsFun>
+    <kCarefreeFunGainMultiplier value="1.25">
+      <!--Range: Float > 1.0. This is a multiplier applied to fun for sims with the Carefree trait.-->
+    </kCarefreeFunGainMultiplier>
+    <kPreparedTravelerDurationIncrease value="3">
+      <!--Range: Int > 0. Number of days to increase max vacation stay for sims with the PreparedTraveler trait.-->
+    </kPreparedTravelerDurationIncrease>
+    <kJetsetterCostMultiplier value="0.75">
+      <!--Range: Float < 1. Multiplier applied to cost of trip for sims with the Jetsetter trait.-->
+    </kJetsetterCostMultiplier>
+    <kLearnedRelicHunterTreasureValueMultiplier value="1.3">
+      <!--Range: Float > 1. Multiplier applied to value/probability/number of treasures collected by sim with LearnedRelicHunter trait.-->
+    </kLearnedRelicHunterTreasureValueMultiplier>
+    <kLearnedRelicHunterValuableGems value="Jade,Opal,Septarian,Tiberium">
+      <!--Gem Types that will get a probability boost for sims with the LearnedRelicHunter trait.-->
+    </kLearnedRelicHunterValuableGems>
+    <kLearnedRelicHunterValuableMetals value="Plutonium, Soulpeace,Mummitomium">
+      <!--Metal Types that will get a probability boost for sims with the LearnedRelicHunter trait.-->
+    </kLearnedRelicHunterValuableMetals>
+    <kLearnedRelicHunterValuableRarities value="Rare,Special">
+      <!--Plant rarities that will get a probability boost for sims with the LearnedRelicHunter trait.-->
+    </kLearnedRelicHunterValuableRarities>
+    <kLearnedRelicHunterValuableCollectableRelics value="DangerousCreatures, GoldFigurines">
+      <!--Collectible Relic Types that will get a probability boost for sims with the LearnedRelicHunter trait.-->
+    </kLearnedRelicHunterValuableCollectableRelics>
+    <kLearnedRelicHunterValuableKeystones value="Crescent, Star">
+      <!--Keystone names or types that will get a probability boost for sims with the LearnedRelicHunter trait.-->
+    </kLearnedRelicHunterValuableKeystones>
+    <kLearnedRelicHunterValuableCoinPileSizes value="kVeryLargeSize, kLargeSize">
+      <!--Ancient coin pile sizes that will get a probability boost for sims with the LearnedRelicHunter trait.-->
+    </kLearnedRelicHunterValuableCoinPileSizes>
+    <kLearnedRelicHunterValuableNamedCollectableRelics value="CanopicJarB, Dragon">
+      <!--Specific Collectible Relic that will get a probability boost for sims with the LearnedRelicHunter trait.-->
+    </kLearnedRelicHunterValuableNamedCollectableRelics>
+    <kHotHeadedReactToDangerChance value=".7">
+      <!--Range:  0.0 - 1.0  Description:  The chance Hotheaded Sims have of reacting to danger in tombs-->
+    </kHotHeadedReactToDangerChance>
+    <kMeanSpiritedReactToDangerChance value="0.7">
+      <!--Range:  0.0 - 1.0  Description:  The chance Mean Spirited Sims have of reacting to danger-->
+    </kMeanSpiritedReactToDangerChance>
+    <kNormalReactToDangerChance value="0.5">
+      <!--Range:  0.0 - 1.0  Description:  The chance Sims will react to danger in tombs-->
+    </kNormalReactToDangerChance>
+    <SavvySculptorSkillMultiplier value="1.25">
+      <!--Range Float above 1.0f, Sims with Savvy Sculptor learn the sculpting skill at an accerated rate defined by this tunable.-->
+    </SavvySculptorSkillMultiplier>
+    <PerceptiveLogicSkillMultiplier value="1.2">
+      <!--Range Float above 1.0f, Sims with Perceptive learn the logic skill at an accelerated rate defined by this tunable.-->
+    </PerceptiveLogicSkillMultiplier>
+    <kPercentChanceOfLearningRandomTraitPerceptive value="35">
+      <!--Percentage chance of learning a random trait from a social (only applies if the social has the LearnRandomTrait set)-->
+    </kPercentChanceOfLearningRandomTraitPerceptive>
+    <PerceptiveBonusToNotFailOnStakeout value="0.05">
+      <!--Bonus chance to not fail when conducting a stakeout-->
+    </PerceptiveBonusToNotFailOnStakeout>
+    <PerceptiveBonusToWitnessCrimeOnStakeout value="0.1">
+      <!--Bonus chance to witness a crime instead of detering crime-->
+    </PerceptiveBonusToWitnessCrimeOnStakeout>
+    <PerceptiveMultiplierOppMoney value="1.3">
+      <!--Multiplier to gaining career XP from opportunities-->
+    </PerceptiveMultiplierOppMoney>
+    <kEntrepreneurialMindXPMultiplier value="1.25">
+      <!--Range: Float > 0. Multiplier applied to all XP gained in Active careers in which you work for yourself.-->
+    </kEntrepreneurialMindXPMultiplier>
+    <kCarefulCrafterSculptureValueMultiplier value="1.25">
+      <!--Range: Float > 0. Multiplier applied to the value of items made via sculpting.-->
+    </kCarefulCrafterSculptureValueMultiplier>
+    <kCarefulCrafterInventionValueMultiplier value="1.15">
+      <!--Range: Float > 0. Multiplier applied to the value of items made via inventing.-->
+    </kCarefulCrafterInventionValueMultiplier>
+    <kEfficientBuilderScrapCostMultiplier value="-0.15">
+      <!--Range: Float < 0. Additive Multiplier applied to the scrap cost of items made via inventing-->
+    </kEfficientBuilderScrapCostMultiplier>
+    <kSuaveSellerSellMultiplierStore value="1.15">
+      <!--Range: Float > 0. Multiplier applied the price you can sell items at a regular store.-->
+    </kSuaveSellerSellMultiplierStore>
+    <kSuaveSellerSellMultiplierConsignment value="1.15">
+      <!--Range: Float > 0. Multiplier applied the price you can sell items at a consignment store.-->
+    </kSuaveSellerSellMultiplierConsignment>
+    <kCareerBoosterCashMultiplier value="1.2">
+      <!--Range: Float > 0. Multiplier applied to the stipend or job completion cash of active careers.-->
+    </kCareerBoosterCashMultiplier>
+    <kOfficeHeroRelationshipMultiplierLoss value="0.5">
+      <!--Range: Float below 1.0f. Description: Multiplier applied to relationship loss for Office Hero sims whenever relationship is changed with a coworker.-->
+    </kOfficeHeroRelationshipMultiplierLoss>
+    <BornSalesmanReputationOnSaleBonusMultiplier value="1.15">
+      <!--Range:  0+  Description:  The reputation gain multiplier for Sims with the born salesman trait on sales-->
+    </BornSalesmanReputationOnSaleBonusMultiplier>
+    <BornSalesmanSellMultiplierConsignment value="1.2">
+      <!--Range: Float > 0. Multiplier applied to the price you sell items at a consignment store with the Born Salesman trait.-->
+    </BornSalesmanSellMultiplierConsignment>
+    <BornSalesmanQualityMinimumThresholdForPositiveFeedback value="0.5">
+      <!--Range:  0+  Description:  The minimum quality necessary to receive positive feedback for a Born Salesman-->
+    </BornSalesmanQualityMinimumThresholdForPositiveFeedback>
+    <BornSalesmanQualityMinimumChanceOfPositiveFeedback value="0.3">
+      <!--Range:  0+  Description:  The chance of getting a positive feedback at the minimum quality required for a Born Salesman-->
+    </BornSalesmanQualityMinimumChanceOfPositiveFeedback>
+    <BornSalesmanQualityMaximumChanceOfPositiveFeedback value="0.7">
+      <!--Range:  0+  Description:  The chance of getting a positive feedback at the maximum quality level for a Born Salesman-->
+    </BornSalesmanQualityMaximumChanceOfPositiveFeedback>
+    <EccentricSkillMultiplier value="1.2">
+      <!--Range Float above 1.0f, Sims with eccentric trait learn the inventing skill at an accerated rate defined by this tunable.-->
+    </EccentricSkillMultiplier>
+    <DramaticChanceToCryOnLevelUp value="0.6">
+      <!--Chance to cry when leveling up in their career-->
+    </DramaticChanceToCryOnLevelUp>
+    <DramaticMinFakePassout value="6">
+      <!--Min passout time when faking it-->
+    </DramaticMinFakePassout>
+    <DramaticMaxFakePassout value="20">
+      <!--Max passout time when faking it-->
+    </DramaticMaxFakePassout>
+    <kShyTraitLtrGainMultiplier value="0.85">
+      <!--Range: Positive float. Description: LTR Multiplier for LTR gain rate between a Shy and anyone who is not at least a friend.-->
+    </kShyTraitLtrGainMultiplier>
+    <kShyTraitLtrLossMultiplier value="1">
+      <!--Range: Positive float. Description: LTR Multiplier for LTR loss rate between a Shy and anyone who is not at least a friend.-->
+    </kShyTraitLtrLossMultiplier>
+    <kWateringHoleRegularPriceMultiplier value="0.5">
+      <!--Range: Float 0-1. Description: Watering Hole Regular trait - Multiplier for food and drink prices.-->
+    </kWateringHoleRegularPriceMultiplier>
+    <kBetterBartenderQualityBoostOnCraftedDrinks value="2">
+      <!--Range: Int 0+  Description: Better Bartender: Quality boost on crafted drinks.-->
+    </kBetterBartenderQualityBoostOnCraftedDrinks>
+    <kTheHustlerFoosballOverturnPointChance value="0.5">
+      <!--Range: Float 0~1  Description: The Hustler: Foosball - who scores is based on foosball skill difference. If a hustler is scored on, there is this chance of flipping the score onto the opponents. Two hustlers on a team gives two chances to flip the point onto the opponents. Opposing hustlers cancel out point flip attempts.-->
+    </kTheHustlerFoosballOverturnPointChance>
+    <kTheHustlerShuffleboardProbabilityDistribution value="65, 20, 5, 10">
+      <!--Range: Float 0~1  Description: The Hustler: Shuffleboard - Probability distribution for getting Great, Good, Horrible, and Miss. This overrides skill-based results for the Hustler.-->
+    </kTheHustlerShuffleboardProbabilityDistribution>
+    <kExcellentGroupieMaxMotiveForUnhappyExitModifier value="-30">
+      <!--Range: Float -100 to 0  Description: Excellent Groupie: Augments the Max Motive for Unhappy Exit by this much. Should be negative, to lower the amount.-->
+    </kExcellentGroupieMaxMotiveForUnhappyExitModifier>
+    <kExcellentGroupieMinMoodForUnhappyExitModifier value="-10">
+      <!--Range: Float -100 to 0  Description: Excellent Groupie: Augments the Min Mood for Unhappy Exit by this much. Should be negative, to lower the amount.-->
+    </kExcellentGroupieMinMoodForUnhappyExitModifier>
+    <kExcellentGroupieMinMoodForHappyExitModifier value="-25">
+      <!--Range: Float -100 to 0  Description: Excellent Groupie: Augments the Min Mood for Happy Exit by this much. Should be negative, to lower the amount.-->
+    </kExcellentGroupieMinMoodForHappyExitModifier>
+    <kNextBigThingIncreasePercentOfPay value="0.15">
+      <!--Range:  under 1.0f  Description:  Percent increase of being paid for gig-->
+    </kNextBigThingIncreasePercentOfPay>
+    <kTheHustlerDartboardBonus value="15">
+      <!--Range: Float 0-100.0  Description: The Hustler: Dartboard - -->
+    </kTheHustlerDartboardBonus>
+    <kNextBigThingIncreasePercentOfCelebPoints value="0.15">
+      <!--Range:  under 1.0f  Description:  Percent increase of celeb point for gig-->
+    </kNextBigThingIncreasePercentOfCelebPoints>
+    <kHardlyHungryVampireThirstDecayMultiplier value="0.35">
+      <!--Range: Float values below 1.0f. Description: If a vampire sim purchases the Hardly Hungry trait, thirst decays more slowy.-->
+    </kHardlyHungryVampireThirstDecayMultiplier>
+    <kNurturingTraitLtrGainMultiplier value="1.25">
+      <!--Range:  over 1.0f  Description:  Percent increase of LTR value increase when one of the sims has nurturing trait-->
+    </kNurturingTraitLtrGainMultiplier>
+    <kNurturingTantrumChanceMultiplier value="0.3">
+      <!--Range: Float >= 0f. Multiplier for the chance to throw tantrums when scolded by someone with the nurturing trait.-->
+    </kNurturingTantrumChanceMultiplier>
+    <kRebelliousSimPerformanceBonus value="5">
+      <!--Range: Positive floats.  Description:  Rebellious Sims get a performance bonus in the Criminal, Film and Music careers.-->
+    </kRebelliousSimPerformanceBonus>
+    <kLazyPetEnergyDecayMultiplier value="1.25">
+      <!--Range: Positive floats above 1.0. Description: Lazy pets get tired more quickly. 1.25 means they'll lose energy 25% faster.-->
+    </kLazyPetEnergyDecayMultiplier>
+    <kLazyPetRacingSkillMultiplier value="0.5">
+      <!--Range: Positive float values below 1.0f. Description: A Lazy pet gains skill in Racing at this tunable percentage rate. e.g. 0.6f means 60% normal speed.-->
+    </kLazyPetRacingSkillMultiplier>
+    <kLovesOutdoorsTraitWildlifeFriendSkillMultiplier value="1.25">
+      <!--Range: Float values above 1.0f. Description: When a sim with the Loves Outdoors trait, they get this extra skill gain multiplier for the WildlifeFriend skill. e.g. 1.5 means 50% faster.-->
+    </kLovesOutdoorsTraitWildlifeFriendSkillMultiplier>
+    <kHatesJumpingExerciseDecayMultiplier value="0.75">
+      <!--Range: Positive floats above 1.0. Description: Horse with hates jumping trait decay exercise slower. 1.25 means they'll lose energy 25% faster.-->
+    </kHatesJumpingExerciseDecayMultiplier>
+    <kHatesJumpingSkillMultiplier value="0.5">
+      <!--Range: Positive float values below 1.0f. Description: Horse with hates jumping trait gains skill in Jumping at this tunable percentage rate. e.g. 0.6f means 60% normal speed.-->
+    </kHatesJumpingSkillMultiplier>
+    <kTraitsThatAffectPetSkillFatigueNegatively value="LazyPet, LazyHorse, HatesJumpingPet">
+      <!--Description:  List of traits that cause you to gain pet skill fatigue slower-->
+    </kTraitsThatAffectPetSkillFatigueNegatively>
+    <kPetSkillFatigueNegativeEffectMultiplier value="1.5">
+      <!--Range:  > 1.0f  Description:  Multiplier on pet fatigue gain rate when the pet has one of the given negative skills-->
+    </kPetSkillFatigueNegativeEffectMultiplier>
+    <kTraitsThatAffectPetSkillFatiguePositively value="HyperPet, FastPet, AgilePet">
+      <!--Description:  List of traits that cause you to gain pet skill fatigue faster-->
+    </kTraitsThatAffectPetSkillFatiguePositively>
+    <kPetSkillFatiguePositiveEffectMultiplier value="0.75">
+      <!--Range:  0-1.0f  Description:  Multiplier on pet fatigue gain rate when the pet has one of the given positive skills-->
+    </kPetSkillFatiguePositiveEffectMultiplier>
+    <kLazyPetTraitComfyBuffMultiplier value="2">
+      <!--Range:  Positive floats above 1.0f.  Description:  Multiplier for Pet version of Comfy buff effect for pets with Lazy Pet trait.-->
+    </kLazyPetTraitComfyBuffMultiplier>
+    <kAgilePetExerciseDecayMultiplier value="1.25">
+      <!--Range: Floats above 1.0. Description: Agile pets need to exercise more often. 1.25 means they'll lose the exercise motive 25% faster.-->
+    </kAgilePetExerciseDecayMultiplier>
+    <kAgilePetJumpingSkillMultiplier value="1.25">
+      <!--Range: Floats above 1.0. Description: Agile pets gain skill in Jumping at this tunable percentage rate. e.g. 1.5f means 150% normal speed.-->
+    </kAgilePetJumpingSkillMultiplier>
+    <kFastPetExerciseDecayMultiplier value="1.25">
+      <!--Range: Floats above 1.0. Description: Fast pets need to exercise more often. 1.25 means they'll lose the exercise motive 25% faster.-->
+    </kFastPetExerciseDecayMultiplier>
+    <kFastPetRacingSkillMultiplier value="1.25">
+      <!--Range: Floats above 1.0. Description: Fast pets gain skill in Racing at this tunable percentage rate. e.g. 1.5f means 150% normal speed.-->
+    </kFastPetRacingSkillMultiplier>
+    <kBravePetTraitLtrGainMultiplier value="1.25">
+      <!--Range: Positive float. Description: LTR Multiplier for LTR gain rate between a human with the brave trait and pet with the brave trait.-->
+    </kBravePetTraitLtrGainMultiplier>
+    <kBravePetTraitSpookedTimerMultiplier value="0.5">
+      <!--Range: Positive float. Description: Multiplier for shortening the buff timer for the Spooked buff when the pet has this trait. e.g. 0.6 lasts 60% of the normal time.-->
+    </kBravePetTraitSpookedTimerMultiplier>
+    <kBravePetTraitPanickedTimerMultiplier value="0.5">
+      <!--Range: Positive float. Description: Multiplier for shortening the buff timer for the Panicked buff when the pet has this trait. e.g. 0.6 lasts 60% of the normal time.-->
+    </kBravePetTraitPanickedTimerMultiplier>
+    <kHunterPetTraitCatHuntingSkillMultiplier value="1.25">
+      <!--Range: Float values above 1.0f. Description: Cats with the Hunter trait get a skill gain multiplier for the CatHunting skill. e.g. 1.5 means 50% faster.-->
+    </kHunterPetTraitCatHuntingSkillMultiplier>
+    <kHunterPetTraitDogHuntingSkillMultiplier value="1.15">
+      <!--Range: Float values above 1.0f. Description: Dogs with the Hunter trait get a skill gain multiplier for the DogHunting skill. e.g. 1.5 means 50% faster.-->
+    </kHunterPetTraitDogHuntingSkillMultiplier>
+    <kFertilityLitterMakingChanceIncrease value="100">
+      <!--Range:  0-100  Description:  Additive chance provided by a fertility treatment.  If both sims have it this will be added to the base chance twice.-->
+    </kFertilityLitterMakingChanceIncrease>
+    <kFertilityLargeLitterMultiplier value="1.5">
+      <!--Range: Float 1.0-10.0. Description: Multiplier applied per parent with fertility treatment to the chance of multiple babies post max cap.-->
+    </kFertilityLargeLitterMultiplier>
+    <EquineZenMultiplier value="1.25">
+      <!--Equine Zen: Amount having trait affects refill of exercise motive-->
+    </EquineZenMultiplier>
+    <kNervousPetTraitSimIdleFrequencyStart value="240">
+      <!--Range: Sim minutes.  Description:  How frequently an 'NervousPet' trait Sim will pause and do an idle.  The time is randomly chosen from a range beginning with this tunable and ending with the 'frequencyEnd' tunable.-->
+    </kNervousPetTraitSimIdleFrequencyStart>
+    <kNervousPetTraitSimIdleFrequencyEnd value="480">
+      <!--Range: Sim minutes.  Description:  How frequently an 'NervousPet' trait Sim will pause and do an idle.-->
+    </kNervousPetTraitSimIdleFrequencyEnd>
+    <kNervousPetTraitLtrGainMultiplier value="1.25">
+      <!--Range: Positive float. Description: LTR Multiplier for LTR gain rate between a human with the neurotic trait and pet with the nervousPet trait.-->
+    </kNervousPetTraitLtrGainMultiplier>
+    <kHyperPetEnergyDecayMultiplier value="0.75">
+      <!--Range: Positive floats above 1.0. Description: Hyper pets lose energy at a slower rate. 0.75 means they'll lose energy 25% slower.-->
+    </kHyperPetEnergyDecayMultiplier>
+    <kHyperPetTraitSleepEnergyGainMultiplier value="1.15">
+      <!--Range: Positive floats above 1.0. Description: This is a multiplier applied to energy gain while sleeping or napping. e.g. 1.5 will cause the pet to gain energy 50% faster.-->
+    </kHyperPetTraitSleepEnergyGainMultiplier>
+    <kLoyalDogTraitLtrGainMultiplier value="1.25">
+      <!--Range: Positive float. Description: LTR Multiplier for LTR gain rate when a dog with the LoyalPet trait is involved.-->
+    </kLoyalDogTraitLtrGainMultiplier>
+    <kLoyalDogLayDownTimer value="5">
+      <!--Range: Positive float. Description: How often (in sim minutes) a dog with the LoyalPet trait that is laying down will check to see if it its favorite human is in another room, to get up and lay down there instead.-->
+    </kLoyalDogLayDownTimer>
+    <kLoyalDogPetFollowScoringMultiplier value="5">
+      <!--Range: Float > 1.0. Description: -->
+    </kLoyalDogPetFollowScoringMultiplier>
+    <kLoyalDogTraitAdvertisingMultiplier value="5">
+      <!--Range: Float > 0. Description: For dogs that has the Loyal Pet trait - Multiplier for interactions on objects in the same room as the Sim with the best relationship with the dog. Only works if both are on same lot.-->
+    </kLoyalDogTraitAdvertisingMultiplier>
+    <kLoyalDogSkillGainMod value="0.15">
+      <!--Range: Float > 0. Description: Additional skill gain modifier for dogs with the Loyal Pet trait.-->
+    </kLoyalDogSkillGainMod>
+    <kPlayfulPetFunDecayMultiplier value="1.25">
+      <!--Range: Floats above 1.0. Description: Playful pets need to have fun more often. 1.25 means they'll lose the fun motive 25% faster.-->
+    </kPlayfulPetFunDecayMultiplier>
+    <kPlayfulPetFunMultiplier value="1.25">
+      <!--Range:  Floats above 1.0f. Description: Multiplier to fun gain when a pet has the Playful Pet trait. This applies to the pet as well as the Sim interacting with the pet (if there is one).-->
+    </kPlayfulPetFunMultiplier>
+    <kGentlePetTraitLtrGainMultiplier value="1.25">
+      <!--Range: Positive float. Description: LTR Multiplier for LTR gain rate between a human with the Good or Friendly traits and pet with the GentlePet trait.-->
+    </kGentlePetTraitLtrGainMultiplier>
+    <kProudCatGroomSelfScoringMultiplier value="3">
+      <!--Range: Positive float > 1.0. Description: Autonomy score multiplier applied to Proud trait cats when their hygiene drops below the kProudCatHygieneMotiveThreshold value.-->
+    </kProudCatGroomSelfScoringMultiplier>
+    <kProudCatHygieneMotiveThreshold value="50">
+      <!--Range: Positive float < 100.0. Description: Motive threshhold below which the kProudCatGroomSelfScoringMultiplier is applied to the groom self autonomy score.-->
+    </kProudCatHygieneMotiveThreshold>
+    <kProudDogSmellyPetBuffEffectValue value="-20">
+      <!--Range: Negative integer > -100. Description: Replaces the spreadsheet effect value of the Smelly Pet buff on a Proud Trait dog.-->
+    </kProudDogSmellyPetBuffEffectValue>
+    <kPiggyPetHungerDecayMultiplier value="1.25">
+      <!--Range: Positive floats above 1.0. Description: Piggy pets lose energy at a slower rate. 1.25 means they'll lose hunger 25% faster.-->
+    </kPiggyPetHungerDecayMultiplier>
+    <kPiggyPetSmellyPetBuffEffectValue value="20">
+      <!--Range: Positive integer <= 100. Description: Replaces the spreadsheet effect value of the Smelly Pet buff on a Piggy Trait dog or horse.-->
+    </kPiggyPetSmellyPetBuffEffectValue>
+    <kIndependentPetSocialDecayMultiplier value="0.75">
+      <!--Range: Positive Floats < 1.0. Description: Independent pets need to socialize less often. 0.75 means their social motive will decay 75% of the normal rate.-->
+    </kIndependentPetSocialDecayMultiplier>
+    <kIndependentPetTraitFunMultiplier value="1.25">
+      <!--Range: Float values above 1.0f. Description: Independent pets enjoy certain solo interactions more. Dog: Chase Ball, Cat: Stalk Toy and Hunt. 1.5 means 150% of the normal fun gain.-->
+    </kIndependentPetTraitFunMultiplier>
+    <kIndependentPetTraitSocialAdvertisingMultiplier value="0.5">
+      <!--Range: Positive Floats < 1.0. Description: Social advertising penalty for pets with the Independent Pet trait.-->
+    </kIndependentPetTraitSocialAdvertisingMultiplier>
+    <kAdventurousPetRandomStartleScoringMultiplier value="0.5">
+      <!--Range: Positive Floats < 1.0. Description: Adventurous pets are less likely to startle randomly. This is a multiplier on the autonomy advertising for the random pet startle interaction.-->
+    </kAdventurousPetRandomStartleScoringMultiplier>
+    <kAggressivePetRandomStartleScoringMultiplier value="0.5">
+      <!--Range: Positive Floats < 1.0. Description: Aggressive pets are less likely to startle randomly. This is a multiplier on the autonomy advertising for the random pet startle interaction.-->
+    </kAggressivePetRandomStartleScoringMultiplier>
+    <kShyPetRandomStartleScoringMultiplier value="2">
+      <!--Range: Positive Floats > 1.0. Description: Shy pets are more likely to startle randomly. This is a multiplier on the autonomy advertising for the random pet startle interaction.-->
+    </kShyPetRandomStartleScoringMultiplier>
+    <kSkittishPetNauseousBuffChanceMultiplier value="1.1">
+      <!--Range: Positive Floats > 1.0. Description: Skittish pets get nauseous more easily. This multiplier affects any rolls to get the Nauseous Pet buff. 1.5 means 50% greater chance.-->
+    </kSkittishPetNauseousBuffChanceMultiplier>
+    <kSkittishPetRandomStartleScoringMultiplier value="2">
+      <!--Range: Positive Floats > 1.0. Description: Skittish pets are more likely to startle randomly. This is a multiplier on the autonomy advertising for the random pet startle interaction.-->
+    </kSkittishPetRandomStartleScoringMultiplier>
+    <kCluelessPetTraitLtrGainMultiplier value="1.25">
+      <!--Range: Positive float. Description: LTR Multiplier for LTR gain rate between a human with either the Absent-Minded or Easily Impressed traits and a pet with the Clueless Pet trait.-->
+    </kCluelessPetTraitLtrGainMultiplier>
+    <kCluelessPetTraitSimIdleFrequencyStart value="240">
+      <!--Range: Sim minutes.  Description:  How frequently an 'Clueless Pet' trait Sim will pause and do an idle.  The time is randomly chosen from a range beginning with this tunable and ending with the 'frequencyEnd' tunable.-->
+    </kCluelessPetTraitSimIdleFrequencyStart>
+    <kCluelessPetTraitSimIdleFrequencyEnd value="480">
+      <!--Range: Sim minutes.  Description:  How frequently an 'Clueless Pet' trait Sim will pause and do an idle.-->
+    </kCluelessPetTraitSimIdleFrequencyEnd>
+    <kOrneryPetTraitLtrGainMultiplier value="1.25">
+      <!--Range: Positive float. Description: LTR Multiplier for LTR gain rate between a human with either the Mean or Evil traits and a pet with the Ornery Pet trait.-->
+    </kOrneryPetTraitLtrGainMultiplier>
+    <kGeniusPetTraitLtrGainMultiplier value="1.25">
+      <!--Range: Positive float. Description: LTR Multiplier for LTR gain rate between a human with either the Mean or Evil traits and a pet with the Genius Pet trait.-->
+    </kGeniusPetTraitLtrGainMultiplier>
+    <kGeniusPetSkillGainMod value="0.25">
+      <!--Range: Float > 0. Description: Additional skill gain modifier for dogs with the Genius Pet trait. 0.25 means 25% faster-->
+    </kGeniusPetSkillGainMod>
+    <kAlphaPetTraitHuntingSkillMultiplier value="1.15">
+      <!--Range: Float values above 1.0f. Description: Cats/Dogs with the AlphaPet trait get a skill gain multiplier for both DogHunting/CatHunting skill. e.g. 1.5 means 50% faster.-->
+    </kAlphaPetTraitHuntingSkillMultiplier>
+    <kBelovedPetLtrMultiplier value="1.15">
+      <!--Range: Float values above 1.0f. Description: Cats/Dogs/Horses with the BelovedPet trait get a LTR multiplier-->
+    </kBelovedPetLtrMultiplier>
+    <kBelovedPetAdvertisingMultiplier value="3">
+      <!--Range: Advertising multiplier.  Description:  Score advertising bonus when a Human do positive social to a BelovedPet.-->
+    </kBelovedPetAdvertisingMultiplier>
+    <kAnimalLoverTraitWildlifeFriendSkillMultiplier value="1.25">
+      <!--Range: Float values above 1.0f. Description: When a sim with the Animal Lover trait, they get this extra skill gain multiplier for the WildlifeFriend skill. e.g. 1.5 means 50% faster.-->
+    </kAnimalLoverTraitWildlifeFriendSkillMultiplier>
+    <kAnimalLoverLtrMultiplier value="1.15">
+      <!--Range: Float values above 1.0f. Description: Animal lovers get a LTR multiplier with all animals.-->
+    </kAnimalLoverLtrMultiplier>
+    <kPreferredPetLtrMultiplier value="1.25">
+      <!--Range: Float values above 1.0f. Description: Cat Person with a cat/Dog person with a dog/equestrian with a horse get a LTR multiplier.-->
+    </kPreferredPetLtrMultiplier>
+    <kMourningMoodStrengthWhenPreferredPetDies value="-60">
+      <!--Range: int values for buff strength. Description: Cat Person with a cat/Dog person with a dog/equestrian with a horse get a different strength mourning buff.-->
+    </kMourningMoodStrengthWhenPreferredPetDies>
+    <kPreferredPetSkillGainBoost value="1.25">
+      <!--Range: float value multiplier. Description: Cat Person with a hunting cat/Dog person with a dog doing tricks or hunting.-->
+    </kPreferredPetSkillGainBoost>
+    <kSuperSmartPetSkillGainMod value="0.15">
+      <!--Range: Float > 0. Description: Additional skill gain modifier for dogs with the Super Smart Pet trait. 0.25 means 25% faster-->
+    </kSuperSmartPetSkillGainMod>
+    <kShyPetTraitSocialAdvertisingMultiplier value="0.1">
+      <!--Range: Positive Floats < 1.0. Description: Social advertising penalty for pets with the Shy Pet trait.-->
+    </kShyPetTraitSocialAdvertisingMultiplier>
+    <kShyPetTraitSocialAdvertisingMultiplierForFavoriteHuman value="3">
+      <!--Range: Positive Floats > 1.0. Description: Social advertising bonus for pets with the Shy Pet trait when socializing with their favorite human (BFF or highest liking).-->
+    </kShyPetTraitSocialAdvertisingMultiplierForFavoriteHuman>
+    <kShyPetFunMultiplier value="1.25">
+      <!--Range:  Floats above 1.0f. Description: Multiplier to fun gain when a pet has the Shy Pet trait. Only applies if interacting with favorite sim.-->
+    </kShyPetFunMultiplier>
+    <kShyPetSocialMultiplier value="1.25">
+      <!--Range:  Floats above 1.0f. Description: Multiplier to social gain when a pet has the Shy Pet trait. Only applies if interacting with favorite sim.-->
+    </kShyPetSocialMultiplier>
+    <kShyPetSkillGainMod value="1.15">
+      <!--Range: Float > 0. Description: Additional skill gain modifier for pets with the Shy Pet trait when interacting with their favorite sim.-->
+    </kShyPetSkillGainMod>
+    <kFriendlyPetTraitOtherPetsLtrGainMultiplier value="1.15">
+      <!--Range: Positive float. Description: LTR Multiplier for LTR gain rate between pets when a pet with the Friendly Pet trait is involved.-->
+    </kFriendlyPetTraitOtherPetsLtrGainMultiplier>
+    <kFriendlyPetTraitWithHumansLtrGainMultiplier value="1.15">
+      <!--Range: Positive float. Description: LTR Multiplier for LTR gain rate between a pet and a human when the pet has the Friendly Pet trait.-->
+    </kFriendlyPetTraitWithHumansLtrGainMultiplier>
+    <kLoyalDogTraitAdvertisingMultiplierForFavoriteSim value="5">
+      <!--Range: Float > 0. Description: For dogs that has the Loyal Pet trait - Multiplier for interactions/socials involving their favorite sim.-->
+    </kLoyalDogTraitAdvertisingMultiplierForFavoriteSim>
+    <kLoyalDogLayDownNearFavoriteSimScoringMultiplier value="6">
+      <!--Range: Float > 1.0. Description: Scoring multiplier used by Loyal Trait dogs for the laydown interactions (lay down, sleep, nap) when their favorite sim is in the same room.-->
+    </kLoyalDogLayDownNearFavoriteSimScoringMultiplier>
+    <kEquestrianRidingSkillMultiplier value="1.25">
+      <!--Range: float value multiplier. Description: Equestrian trait gains riding skill faster.-->
+    </kEquestrianRidingSkillMultiplier>
+    <kSkittishPetObjectStartleModifier value="15">
+      <!--Range: Positive Floats 0-100.0f. Description: Skittish pets are more likely to startle from objects. This value is added to the startle chance value defined in the startle spreadsheet if the pet is skittish.-->
+    </kSkittishPetObjectStartleModifier>
+    <kShyPetScoringMultiplierForSleepingInEnclosedArea value="3">
+      <!--Range: Float > 1.0. Description: Autonomy scoring multiplier for Shy Pets for sleeping/napping in enclosed areas. (Cubby of Cat Condo or Pet House.)-->
+    </kShyPetScoringMultiplierForSleepingInEnclosedArea>
+    <kShyPetChanceToChooseEnclosedCatCondo value="80">
+      <!--Range: Float 0-100.0. Description: Chance for a Shy cat to choose the enclosed area of the Cat Condo instead of another level (if available).-->
+    </kShyPetChanceToChooseEnclosedCatCondo>
+    <kPlayfulHorseSocialDecayMultiplier value="1.25">
+      <!--Range: Floats above 1.0. Description: Playful horses need to socialized more often. 1.25 means they'll lose the social motive 25% faster.-->
+    </kPlayfulHorseSocialDecayMultiplier>
+    <kPlayfulHorseExerciseDecayMultiplier value="1.25">
+      <!--Range: Floats above 1.0. Description: Playful horses need to exercise more often. 1.25 means they'll lose the exercise motive 25% faster.-->
+    </kPlayfulHorseExerciseDecayMultiplier>
+    <kUntrainedHorseSaddleLtrThreshold value="25">
+      <!--Range: Floats between -100 and 100 Description: LTR below which an untrained horse will refuse to be saddled.-->
+    </kUntrainedHorseSaddleLtrThreshold>
+    <kUntrainedHorseMountLtrThreshold value="50">
+      <!--Range: Floats between -100 and 100 Description: LTR below which an untrained horse will refuse to be mounted.-->
+    </kUntrainedHorseMountLtrThreshold>
+    <kUntrainedHorseThrowRiderLtrThreshold value="80">
+      <!--Range: Floats between -100 and 100 Description: LTR below which an untrained horse has a chance to throw a rider.-->
+    </kUntrainedHorseThrowRiderLtrThreshold>
+    <kUntrainedHorseChanceToThrowRider value="30">
+      <!--Range: Floats between -100 and 100 Description: Chance that an untrained horse will throw its rider.-->
+    </kUntrainedHorseChanceToThrowRider>
+    <kUntrainedHorseUnsaddleMeDuration value="120">
+      <!--Range: Floats > 0 Description: Duration for the Unsaddle Me! when a horse has the untrained trait.-->
+    </kUntrainedHorseUnsaddleMeDuration>
+    <kUntrainedHorseAlarmDuration value="15">
+      <!--Range: Floats > 0 Description: Alarm duration for when untrained horses are saddled and/or being ridden.-->
+    </kUntrainedHorseAlarmDuration>
+    <kUntrainedHorseSaddledPoints value="10">
+      <!--Range: Floats > 0 Description: Number of training points to be given per alarm callback for being saddled.-->
+    </kUntrainedHorseSaddledPoints>
+    <kUntrainedHorseRiddenPoints value="15">
+      <!--Range: Floats > 0 Description: Number of training points to be given per alarm callback for being saddled.-->
+    </kUntrainedHorseRiddenPoints>
+    <kUntrainedHorsePointThreshold value="640">
+      <!--Range: Floats > 0 Description: Number of training points until the untrainted trait is removed.-->
+    </kUntrainedHorsePointThreshold>
+    <kDesertPonyHorseThirstMultiplier value="0.25">
+      <!--Desert Pony: Multiplier on decay amount for horseThirst (0.1 -1.0 to make decay slower)-->
+    </kDesertPonyHorseThirstMultiplier>
+    <kRaisedbyWolvesSocialUpdate value="35">
+      <!--Range: how many socials will gain per hour. Description: Sim has RaisedbyWolves trait gain more social commodity update while interact with pets.-->
+    </kRaisedbyWolvesSocialUpdate>
+    <kMourningMoodStrengthWhenPetDiesAndSimIsAnimalLover value="-55">
+      <!--Range: int values for buff strength. Description: Animal Lovers get a different strength mourning buff.-->
+    </kMourningMoodStrengthWhenPetDiesAndSimIsAnimalLover>
+    <kMourningMoodStrengthWhenAPetDies value="-40">
+      <!--Range: int values for buff strength. Description: Strength of the mourning buff when a pet dies, for sims that don't have a modifying trait.-->
+    </kMourningMoodStrengthWhenAPetDies>
+    <kDivaTraitEnvironmentBonusForMirror value="10">
+      <!--Range: Float values between 0 - 100.  Description:  Additional environment score bonus that mirrors provide to Diva Sims.-->
+    </kDivaTraitEnvironmentBonusForMirror>
+    <kBornToCookTraitEnhanceFoodPoints value="15">
+      <!--Range: Cooking points.  Description: Born to Cook trait Sims give a bonus to foods if they have used the 'Kick Up a Notch' interaction on it.  This is the number of bonus food points the trait gives.-->
+    </kBornToCookTraitEnhanceFoodPoints>
+    <kDivaArgumentLTRPenalty value="-30">
+      <!--LTR hit that a Diva receives for arguing with their romantic partner-->
+    </kDivaArgumentLTRPenalty>
+    <kDivaTraitLtrGainMultiplier value="0.7">
+      <!--Range: Positive float. Description: LTR Multiplier for LTR gain rate between a Diva and anyone else.-->
+    </kDivaTraitLtrGainMultiplier>
+    <kDivaTraitLtrLossMultiplier value="1">
+      <!--Range: Positive float. Description: LTR Multiplier for LTR loss rate between a Diva and anyone else.-->
+    </kDivaTraitLtrLossMultiplier>
+    <kDivaTraitSimChanceOfBreakingUpAfterArgument value="0.65">
+      <!--Range: Float values below 1.0f.  Description:  The percentage chance a 'Diva' trait Sim breaking-up after an argument-->
+    </kDivaTraitSimChanceOfBreakingUpAfterArgument>
+    <kDivaTraitSimChanceOfSlappingAfterInsult value="0.9">
+      <!--Range: Float values below 1.0f.  Description:  The percentage chance a 'Diva' trait Sim slapping when another Sim insults the Diva-->
+    </kDivaTraitSimChanceOfSlappingAfterInsult>
+    <kNaturalBornPerformerMultiplyer value="0.2">
+      <!--Range 0 - 1: Description: Learning Multiplyer for Sims with Natural Born Performer e.g. .5 = [Default]+([Default]*.5)-->
+    </kNaturalBornPerformerMultiplyer>
+    <kNaturalBornPerformerReducedChanceToFailWhilePerforming value="25">
+      <!--Range 0 - 100: Description: Reduced Chance Of Failure.  e.g. 10 = [Default]% - 10%-->
+    </kNaturalBornPerformerReducedChanceToFailWhilePerforming>
+    <kChanceForBornToDoThis value="50">
+      <!--Range 0 - 100: Description: Chance while performing the sim receives the Born To Do This buff.-->
+    </kChanceForBornToDoThis>
+    <kSocialButterflySocialDecayIncrease value="8">
+      <!--Range 1-5: Description: Percent increase in social decay e.g. 1.5 will decay 1 and a half times faster then usual-->
+    </kSocialButterflySocialDecayIncrease>
+    <kSocialsForItsAllAboutMeBuff value="5">
+      <!--Number of Socials a day for It's all about me buff-->
+    </kSocialsForItsAllAboutMeBuff>
+    <kSocialsForNotItsLikeImInvisible value="3">
+      <!--Number of Socials a day needed to not get It's like I'm invisible-->
+    </kSocialsForNotItsLikeImInvisible>
+    <FearlessVoyagerRewardMultiplier value="1.5">
+      <!--Range: Positive int. Description: Multiplier applied to opportunity rewards for FearlessVoyager sims.-->
+    </FearlessVoyagerRewardMultiplier>
+    <PerfectHostRewardMultiplier value="2">
+      <!--Range: Positive int. Description: Multiplier applied to opportunity rewards for PerfectHost sims.-->
+    </PerfectHostRewardMultiplier>
+    <kLycanthropyHumanTraitSimSkillMultiplier value="2.0">
+      <!--Range: Float values above 1.0f.  Description:  If a 'LycanthropyHuman' trait Sim is learning Athletic Skill, they get this extra skill gain multiplier.-->
+    </kLycanthropyHumanTraitSimSkillMultiplier>
+    <kLycanthropyHumanTraitSimFatigueMultiplier value="0.75">
+      <!--Range: Float values below 1.0f.  Description:  If a 'LycanthropyHuman' trait Sim is working out, they get this fatigue multiplier which slows down fatigue gain.-->
+    </kLycanthropyHumanTraitSimFatigueMultiplier>
+    <kLycanthropyWerewolfBonusForNiceNails value="20">
+      <!--Range: Float values between 0 - 100.  Description:  Additional bonus that NiceNails buff provides to LycanthropyWerewolf Sims.-->
+    </kLycanthropyWerewolfBonusForNiceNails>
+    <kLycanthropyHumanTraitSimLTRMultiplier value="1.5">
+      <!--Range: Float values below 1.0f.  Description:  If a 'LycanthropyHuman' trait Sim is socializing with another sim with the 'LycanthropyHuman' trait, they get this multiplier to LTR gains.-->
+    </kLycanthropyHumanTraitSimLTRMultiplier>
+    <kLycanthropyWerewolfSlowingEnergyMotives value="0.5">
+      <!--Range: Float values between 0.01 - 1.0.  Description:  Werewolf Modifier to slow energy motive loss.-->
+    </kLycanthropyWerewolfSlowingEnergyMotives>
+    <kLycanthropyWerewolfSlowingBladderMotives value="0.75">
+      <!--Range: Float values between 0.01 - 1.0.  Description:  Werewolf Modifier to slow bladder motive loss.-->
+    </kLycanthropyWerewolfSlowingBladderMotives>
+    <kLycanthropyWerewolfSlowingFunMotives value="1.0">
+      <!--Range: Float values between 0.01 - 1.0.  Description:  Werewolf Modifier to slow fun motive loss.-->
+    </kLycanthropyWerewolfSlowingFunMotives>
+    <kLycanWerewolfFeralMoodMin value="-40">
+      <!--Mood when Sim will feral change to Werewolf Form.  Mood meter is 150 though -100-->
+    </kLycanWerewolfFeralMoodMin>
+    <NightOwlFunModifier value="0.15">
+      <!--Night Owl Fun Modifier-->
+    </NightOwlFunModifier>
+    <NightOwlTimeToRemove value="5">
+      <!--Time in the morning to remove the Night Owl buff-->
+    </NightOwlTimeToRemove>
+    <ItsTooEarlyTimeToRemove value="10">
+      <!--Time in the morning to remove the It's too Early buff-->
+    </ItsTooEarlyTimeToRemove>
+    <ItsTooEarlyTimeToStart value="6">
+      <!--Start time for Too Early buff-->
+    </ItsTooEarlyTimeToStart>
+    <NightOwlTimeToStart value="23">
+      <!--Start time for Past My Bedtime buff-->
+    </NightOwlTimeToStart>
+    <kBroodingTraitPaintingSkillMultiplier value="0.9">
+      <!--Range: Positive float values below 1.0f.  Description:  If a 'Brooding' trait Sim is learning Painting Skill, they get this extra skill gain multiplier.-->
+    </kBroodingTraitPaintingSkillMultiplier>
+    <kBroodingTraitCookingSkillMultiplier value="0.9">
+      <!--Range: Positive float values below 1.0f.  Description:  If a 'Brooding' trait Sim is learning Cooking Skill, they get this extra skill gain multiplier.-->
+    </kBroodingTraitCookingSkillMultiplier>
+    <kBroodingTraitWritingSkillMultiplier value="0.9">
+      <!--Range: Positive float values below 1.0f.  Description:  If a 'Brooding' trait Sim is learning Writing Skill, they get this extra skill gain multiplier.-->
+    </kBroodingTraitWritingSkillMultiplier>
+    <kSupernaturalSkepticTraitPerformanceBonus value="5">
+      <!--Range: Positive floats.  Description: Performance bonus for Supernatural Skeptics in Business, Politics, Policing, or Journalism.-->
+    </kSupernaturalSkepticTraitPerformanceBonus>
+    <kSupernaturalSkepticTraitSpellcraftingSkillMultiplier value="0.9">
+      <!--Range: All floats.  Description: Spellcrafting Skill modifier for Supernatural Skeptics.-->
+    </kSupernaturalSkepticTraitSpellcraftingSkillMultiplier>
+    <kSupernaturalSkepticTraitWandFailBump value="10">
+      <!--Range: All floats.  Description: Increased chance of failure using a Wand for Supernatural Skeptics.-->
+    </kSupernaturalSkepticTraitWandFailBump>
+    <kSupernaturalSkepticTraitWandEpicFailBump value="20">
+      <!--Range: All floats.  Description: Increased chance of epic failure using a Wand for Supernatural Skeptics.-->
+    </kSupernaturalSkepticTraitWandEpicFailBump>
+    <kSupernaturalSkepticTraitPotionFailBump value="10">
+      <!--Range: All floats.  Description: Increased chance of failure making a Potion for Supernatural Skeptics.-->
+    </kSupernaturalSkepticTraitPotionFailBump>
+    <kSupernaturalSkepticTraitPotionEpicFailBump value="20">
+      <!--Range: All floats.  Description: Increased chance of epic failure making a Potion for Supernatural Skeptics.-->
+    </kSupernaturalSkepticTraitPotionEpicFailBump>
+    <kGathererTraitCatchInsectModifier value="10">
+      <!--0 - 100% chance modifier to catch an insect if we have the Gatherer trait.-->
+    </kGathererTraitCatchInsectModifier>
+    <kGathererTraitSeedQualityMultiplier value="1.45">
+      <!--0 - x multiplier for seed quality with Gatherer trait. NOTE: 10.0 makes everything perfect quality. Probably keep this under 2.0-->
+    </kGathererTraitSeedQualityMultiplier>
+    <kGathererTraitNumberOfExtraHarvestables value="2">
+      <!--0 - x number of extra harvestables with Gatherer trait.-->
+    </kGathererTraitNumberOfExtraHarvestables>
+    <kGathererTraitSpaceRocksAnalyzeBetter value="10">
+      <!--0 - x multiplier - Analyzing space rocks yields better with Gatherer Trait.-->
+    </kGathererTraitSpaceRocksAnalyzeBetter>
+    <kGathererTraitWerewolfHuntObjectQualityModifier value="5">
+      <!--0 - x - added to quality value of object found in Werewolf Hunt with Gatherer Trait-->
+    </kGathererTraitWerewolfHuntObjectQualityModifier>
+    <kGathererTraitIngotQualityModifier value="5">
+      <!--0 - x - multiplier for ingot value with Gatherer Trait-->
+    </kGathererTraitIngotQualityModifier>
+    <kGathererTraitGemCutQualityModifier value="5">
+      <!--0 - x - multiplier for gem cut value with Gatherer Trait-->
+    </kGathererTraitGemCutQualityModifier>
+    <kGathererTraitInsectValueModifier value=".05">
+      <!--Range:  0 - 1  Description:  This is the percentage value increase for insects caught by a Gatherer sim-->
+    </kGathererTraitInsectValueModifier>
+    <kGathererTraitExtraHarvestablesChance value="0.3">
+      <!--Range:  0 - 1  Description:  The chance that a Gatherer sim will receive extra harvestables-->
+    </kGathererTraitExtraHarvestablesChance>
+    <kProperMoodForDecoratedBuff value="5">
+      <!--Range: Mood value. Description: Mood value for the 'Decorated' buff when a Proper Sim gets it.-->
+    </kProperMoodForDecoratedBuff>
+    <kProperMoodForNicelyDecoratedBuff value="10">
+      <!--Range: Mood value. Description: Mood value for the 'Nicely Decorated' buff when a Proper Sim gets it.-->
+    </kProperMoodForNicelyDecoratedBuff>
+    <kProperMoodForBeautifullyDecoratedBuff value="10">
+      <!--Range: Mood value. Description: Mood value for the 'Beautifully Decorated' buff when a Proper Sim gets it.-->
+    </kProperMoodForBeautifullyDecoratedBuff>
+    <kProperMoodForDisgustedBuff value="-5">
+      <!--Range: Mood value. Description: Mood value for the 'Disgusted' buff when a Proper Sim gets it.-->
+    </kProperMoodForDisgustedBuff>
+    <kProperMoodForDirtySurroundingsBuff value="-5">
+      <!--Range: Mood value. Description: Mood value for the 'Dirty Surroundings' buff when a Proper Sim gets it.-->
+    </kProperMoodForDirtySurroundingsBuff>
+    <kProperMoodForFilthySurroundingsBuff value="-10">
+      <!--Range: Mood value. Description: Mood value for the 'Filthy Surroundings' buff when a Proper Sim gets it.-->
+    </kProperMoodForFilthySurroundingsBuff>
+    <kProperMoodForVileSurroundingsBuff value="-15">
+      <!--Range: Mood value. Description: Mood value for the 'Vile Surroundings' buff when a Proper Sim gets it.-->
+    </kProperMoodForVileSurroundingsBuff>
+    <kGathererTraitSpawnModifier value="0.2">
+      <!--0 - x - multiplier to increase / decrease spawn times if Sim is on same lot of a spawner-->
+    </kGathererTraitSpawnModifier>
+    <kBroodingSocialValueOnLoseFriend value="-100">
+      <!--The value that a brooding sim's social will be set to when they lose a friend.-->
+    </kBroodingSocialValueOnLoseFriend>
+    <kOccultSlowingEnergyMotives value="1.0">
+      <!--Range: Float values between 0.01 - 1.0.  Description:  Occult Modifier to slow energy motive loss during full moon.-->
+    </kOccultSlowingEnergyMotives>
+    <FestivalFrequenterTicketMultiplier value="2">
+      <!--A Sim with the Festival Frequenter reward trait will use this multiplier whenever they gain festival tickets.-->
+    </FestivalFrequenterTicketMultiplier>
+    <FestivalFrequenterInteractionDiscount value="0.5">
+      <!--Range: 0.0-1.0. Description: The percent discount a Festival Frequenter will receive on 'Festival' interactions.-->
+    </FestivalFrequenterInteractionDiscount>
+    <kLovesTheColdTempToUnlockIdle value="-20">
+      <!--Below this temp, Sims with Loves the cold Trait will start playing 'loves cold trait idle' if they are outside-->
+    </kLovesTheColdTempToUnlockIdle>
+    <kLovesTheHeatTempToUnlockIdle value="20">
+      <!--Above this temp, Sims with Loves the Heat Trait will start playing 'loves heat trait idle' if they are outside-->
+    </kLovesTheHeatTempToUnlockIdle>
+    <kSTCUpdateMultiplerIrresistibleTrait value="2">
+      <!--Range: All floats.  Description: Multiplier applied to Amorous Commodity STC update when Sim has Irresistible trait.-->
+    </kSTCUpdateMultiplerIrresistibleTrait>
+    <kBoostEarningStreetArtSkillWithAvantGardeTrait value="15">
+      <!--Range: Float values above 1.0f. Description: If AvantGarde Sim is learning the Street Art Skill, they get this extra sill gain multiplier-->
+    </kBoostEarningStreetArtSkillWithAvantGardeTrait>
+    <kBoostCreatingStreetArtMasterpieceWithAvantGardeTrait value="5">
+      <!--Range: 0-100% Percent increase to create a Street Art Masterpiece because sim has Avant Garde Trait-->
+    </kBoostCreatingStreetArtMasterpieceWithAvantGardeTrait>
+    <kBoostInValueForStreetArtWithAvantGardeTrait value="15">
+      <!--Range: 0-100% Percent increase in value of Street Art created by sim with Avant Garde Trait-->
+    </kBoostInValueForStreetArtWithAvantGardeTrait>
+    <kSociallyAwkwardScienceSkillGainMod value="0.15">
+      <!--Range: Float > 0. Description: Additional science skill gain modifier for Sims with the Socially Awkward trait. 0.15 means 15% faster-->
+    </kSociallyAwkwardScienceSkillGainMod>
+    <kLovesToSwimScubaDivingSkillMultiplier value="1.15">
+      <!--Range: Float values above 1.0f. Description: When a sim has the LovesToSwim trait, they get this extra skill gain multiplier for the ScubaDiving skill. e.g. 1.5 means 50% faster.-->
+    </kLovesToSwimScubaDivingSkillMultiplier>
+    <kSailorChanceOfAvertingKrakenAttack value="0.5">
+      <!--Range: 0-1.0f; If a kraken attack is decided to happen, if one of the sims on the boat is a sailor then this is the chance that the attack will be foiled by the sailor(ie. it will not happen). GPE default 0.3-->
+    </kSailorChanceOfAvertingKrakenAttack>
+    <kLovesToSwimFatigueMultiplier value="0.5">
+      <!--Multiplier applied to Fatigue delta while swimming when a sim has the LovesToSwim trait. Default: 0.5-->
+    </kLovesToSwimFatigueMultiplier>
+    <kLovesToSwimChanceToWinSharkFight value="0.3">
+      <!--Range: 0-1.0; If a sim with the LovesToSwim trait were supposed to lose a fight with a shark using default tuning, this is the chance they would win instead.-->
+    </kLovesToSwimChanceToWinSharkFight>
+    <kSailorChanceOfForcedTraitOnHouseboat value="0.3">
+      <!--Range: 0-1.0; Chance of baby to have Sailor Trait if conceived on a houseboat-->
+    </kSailorChanceOfForcedTraitOnHouseboat>
+    <kSailorChanceOfNotGettingSeasick value="0.3">
+      <!--Range: 0-1.0; If a sailor sim were to get seasick, this is the chance that instead they would not get sick.-->
+    </kSailorChanceOfNotGettingSeasick>
+    <kMogulIncomeMultiplier value="1.5">
+      <!--Range: Positive Floats  Description:  All (positive) income from resorts will be multiplied by this value.-->
+    </kMogulIncomeMultiplier>
+    <kKrakenReleaseCooldownHours value="12">
+      <!--Range:  Positive Floats  Description:  The number of hours that the Release The Kraken interaction will be on cooldown after using it.-->
+    </kKrakenReleaseCooldownHours>
+    <kBreathHoldingContestMultiplier value="10">
+      <!--Range:  1+  Description:  For the Breath Holding Contest. This multiplier is applied to the time a sim with Lungs of Steel will spend underwater (after applying skill and trait modifiers)-->
+    </kBreathHoldingContestMultiplier>
+    <kEfficientChipRaiseMultiplier value="3.0">
+      <!--Range:  Floats above 1.0f.  Description:  Multiplier on the chance that a Servobot with the Efficient chip will get a raise at work.-->
+    </kEfficientChipRaiseMultiplier>
+    <kEfficientChipSkillGainMultiplier value="0.5">
+      <!--Multiplier applied to the skill gain for Bots with the Efficient chip. 0.0f means normal skill gain, 1.0f means double, -1.0f means no skill gain.-->
+    </kEfficientChipSkillGainMultiplier>
+    <kEfficientChipMaintenenceDecayMultiplier value="0.75">
+      <!--Range:  Floats below 1.0f.  Description:  Multiplier that reduces the Maintenence motive decay of a Servobot with the Efficient chip.-->
+    </kEfficientChipMaintenenceDecayMultiplier>
+    <kEfficientChipBatteryPowerGainMultiplier value="1.5">
+      <!--Range:  Floats above 1.0f.  Description:  Multiplier that increases the Battery Power motive gain of a Servobot with the Efficient chip.-->
+    </kEfficientChipBatteryPowerGainMultiplier>
+    <kBoostEarningBotBuildingWithBotFanTrait value="1.15">
+      <!--Range: Float values above 1.0f. Description: If BotFan Sim is learning the BotBuilding Skill, they get this extra sill gain multiplier-->
+    </kBoostEarningBotBuildingWithBotFanTrait>
+    <kBotFanRelationshipMultiplier value="1.5">
+      <!--Range: Float above 1.0f. Description: Multiplier applied to relationship gain for bot fan sims whenever relationship is changed with a robot.-->
+    </kBotFanRelationshipMultiplier>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kCrybabyTraitSimChanceForCryingAfterRouteFailure value="0.5">
+      <!--Range: Float values below 1.0f.  Description:  A 'Crybaby' Sim has a perentage chance of crying after a route failure defined by this tunable.-->
+      <!--deprecated on: 2/26/2008 4:02:03 PM-->
+    </kCrybabyTraitSimChanceForCryingAfterRouteFailure>
+    <kNeuroticTraitFreakOutBroadcaster>
+      <PulseRadius value="10">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <PulseRepeatTime value="1">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <!--deprecated on: 2/26/2008 6:04:30 PM-->
+    </kNeuroticTraitFreakOutBroadcaster>
+    <kStupidTraitSimSkillMultiplier value="0.3">
+      <!--Range: Float values below 1.0f.  Description:  A 'Stupid' trait Sim gains skill in Logic, Hacking, Writing, and Handiness at this tunable percentage rate.  0.3f means 30% normal speed.-->
+      <!--deprecated on: 4/18/2008 5:23:23 PM-->
+    </kStupidTraitSimSkillMultiplier>
+  </Deprecated_Tuning>
+</base>

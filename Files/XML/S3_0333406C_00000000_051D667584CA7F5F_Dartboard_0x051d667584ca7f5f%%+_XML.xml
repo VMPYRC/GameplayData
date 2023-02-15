@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumPlayersPerTeam value="3">
+      <!--Range:  1 - Inf  Description: Number of sims allowed per team-->
+    </kNumPlayersPerTeam>
+    <kNumTeamsPerGame value="2">
+      <!--Range:  1 - Inf  Description: Number of teams per game. If you change this from 2, you'll need to inform GPE and redesign the TNS messages for the end game as they expect 2 teams.-->
+    </kNumTeamsPerGame>
+    <kNumTurnsPerGame value="1">
+      <!--Range:  1 - Inf  Description: Number of turns taken per player per side in a game of darts. Note: If team has less than the max number of players, the total number of turns per sim will be increased so that the total number of turns per game is always the same-->
+    </kNumTurnsPerGame>
+    <kNumThrowsPerTurn value="3">
+      <!--Range:  1 - Inf  Description: Number of throws taken per turn by one sim-->
+    </kNumThrowsPerTurn>
+    <kChanceForCustomThrow value="20">
+      <!--Range:  0.0 - 100.0  Description: Chance per throw for a custom throw to occur (if possible)-->
+    </kChanceForCustomThrow>
+    <kSkillLevelNeededForCustomThrow value="7">
+      <!--Range:  1 - Inf  Description: Skill level needed for Athletic, Logic, Martial Arts to be able to trigger a custom throw-->
+    </kSkillLevelNeededForCustomThrow>
+    <kLuckyBonus value="3">
+      <!--Range:  0.0 - 100.0  Description: Bonus for lucky trait-->
+    </kLuckyBonus>
+    <kAthleticBonus value="3">
+      <!--Range:  0.0 - 100.0  Description: Bonus for athletic trait-->
+    </kAthleticBonus>
+    <kDisciplinedBonus value="3">
+      <!--Range:  0.0 - 100.0  Description: Bonus for disciplined trait-->
+    </kDisciplinedBonus>
+    <kPartyAnimalBonus value="3">
+      <!--Range:  0.0 - 100.0  Description: Bonus for bonus for party animal trait-->
+    </kPartyAnimalBonus>
+    <kLoserPenalty value="-15">
+      <!--Range:  0.0 - 100.0  Description: Penalty for loser trait-->
+    </kLoserPenalty>
+    <kUnluckyPenalty value="-10">
+      <!--Range:  0.0 - 100.0  Description: Penalty for unlucky trait-->
+    </kUnluckyPenalty>
+    <kCouchPotatoPenalty value="-5">
+      <!--Range:  0.0 - 100.0  Description: Penalty for couch potato trait-->
+    </kCouchPotatoPenalty>
+    <kModifierPerDartSkillLevel value="-12,-8,-6,-2,0,15,20,25,30,35,40">
+      <!--Description: Penalty/Bonus to throwing darts for each level of Dart Skill-->
+    </kModifierPerDartSkillLevel>
+    <kModifierPerAthleticSkillLevel value="0,1,1,3,3,5,5,7,7,9,9">
+      <!--Description: Bonus to throwing darts for each level of Athletic Skill-->
+    </kModifierPerAthleticSkillLevel>
+    <kModifierPerMartialArtsSkillLevel value="0,0,1,1,2,2,3,3,4,4,5">
+      <!--Description: Bonus to throwing darts for each level of Martial Arts Skill-->
+    </kModifierPerMartialArtsSkillLevel>
+    <kConeAngle value="3.769911">
+      <!--The arc/cone's angle for finding a suitable spot for a sim to watch/wait for a turn. Units: Radians. Valid range [0, Pi]. Initial GPE Default: 3(Pi)/8.-->
+    </kConeAngle>
+    <kWatchRouteMinDistance value="2.5">
+      <!--Range:  1.0 - Inf  Description: Minimum distance a sim will route away when they're watching.-->
+    </kWatchRouteMinDistance>
+    <kWatchRouteMaxDistance value="6">
+      <!--Range:  1.0 - Inf  Description: Max distance a sim will route away when they're watching.-->
+    </kWatchRouteMaxDistance>
+    <kWatchRoutePreferredDistance value="3.5">
+      <!--Range:  1.0 - Inf  Description: Preferred distance a sim will route away when they're watching.-->
+    </kWatchRoutePreferredDistance>
+    <kWaitRouteMinDistance value="1.5">
+      <!--Range:  1.0 - Inf  Description: Minimum distance a sim will route away when they're waiting for their turn.-->
+    </kWaitRouteMinDistance>
+    <kWaitRouteMaxDistance value="4">
+      <!--Range:  1.0 - Inf  Description: Max distance a sim will route away when they're waiting for their turn.-->
+    </kWaitRouteMaxDistance>
+    <kWaitRoutePreferredDistance value="2">
+      <!--Range:  1.0 - Inf  Description: Preferred distance a sim will route away when they're waiting for their turn.-->
+    </kWaitRoutePreferredDistance>
+    <kVictorySting value="sting_dartboard_win">
+      <!--Description:  sting for victory TNS-->
+    </kVictorySting>
+    <kNeverLoseTuning>
+      <UpgradeTime value="240">
+        <!--The amount of time it takes to do the upgrade in minutes-->
+      </UpgradeTime>
+      <SkillGainRate value="2720">
+        <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+      </SkillGainRate>
+      <BadFailureChance value="15">
+        <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+      </BadFailureChance>
+      <ShouldShockInPuddle value="False">
+        <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+      </ShouldShockInPuddle>
+    </kNeverLoseTuning>
+    <kChanceForCheatedBuff value="30">
+      <!--Range:  0.0 - 100.0  Description: Chance to for sim to receive cheated buff if another sim cheated during a game-->
+    </kChanceForCheatedBuff>
+    <kChanceForAccusationOfCheating value="65">
+      <!--Range:  0.0 - 100.0  Description: Chance to for cheated sim to accuse the other sim of cheating-->
+    </kChanceForAccusationOfCheating>
+    <kThrowingSocialMotiveDelta value="25">
+      <!--Range:  0.0 - Inf  Description: Social motive delta when sim is taking a turn throwing darts-->
+    </kThrowingSocialMotiveDelta>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAppreciationPercent value="0.04">
+      <!--Percentage of base value that is added on for appreciation-->
+    </kAppreciationPercent>
+    <kNumDrinksForMedSkill value="10">
+      <!--Number of Nectar Drinks to Drink with Med skill animations-->
+    </kNumDrinksForMedSkill>
+    <kNumDrinksForHighSkill value="30">
+      <!--Number of Nectar Drinks to Drink with High skill animations-->
+    </kNumDrinksForHighSkill>
+    <kMinNumFruitTypesAncient value="1">
+      <!--Min number of types of fruits in ancient nectar-->
+    </kMinNumFruitTypesAncient>
+    <kMaxNumFruitTypesAncient value="3">
+      <!--Max number of types of fruits in ancient nectar-->
+    </kMaxNumFruitTypesAncient>
+    <kAncientBaseValuePercentCurrent value="0.25">
+      <!--Percentage of current value to be the base value of an ancient nectar bottle (for appreciation)-->
+    </kAncientBaseValuePercentCurrent>
+    <kQualityValueThresholds value="2, 4, 6, 10, 18, 30, 46, 70, 100, 160, 99999">
+      <!--Array of the quality threshold values for nectar (greater than x is the corresponding quality level)-->
+    </kQualityValueThresholds>
+    <kQualityBuffMoodLevels value="-20, -15, -10, -5, 0, 5, 8, 12, 16, 20, 25">
+      <!--Array of the buff mood effect values for different quality nectar-->
+    </kQualityBuffMoodLevels>
+    <kNectarBuffNames value="4">
+      <!--Number of nectar buff names (this is expecting good and bad to have the same number of options)-->
+    </kNectarBuffNames>
+    <kNectarNumDesctiptionAdjectives value="15">
+      <!--Number of adjectives-->
+    </kNectarNumDesctiptionAdjectives>
+    <kNectarNumDesctiptionFlavorHints value="7">
+      <!--Number of flavor hints-->
+    </kNectarNumDesctiptionFlavorHints>
+    <kNectarNumBaseSentences value="6">
+      <!--Number of base TNSes for nectar description-->
+    </kNectarNumBaseSentences>
+    <kThresholdMoodSnobs value="13">
+      <!--Mood threshold at which snobs get the positive buff-->
+    </kThresholdMoodSnobs>
+    <kSnobMoodBonus value="5">
+      <!--Bonus mood that snobs get added to a positive buff-->
+    </kSnobMoodBonus>
+    <kFlameFruitForFlame value="0.25">
+      <!--Percentage of flame fruit in the bottle required to make it use flame fx-->
+    </kFlameFruitForFlame>
+    <kLifeFruitForYounger value="0.5">
+      <!--Percentage of life fruit in the bottle required to give the make younger effect-->
+    </kLifeFruitForYounger>
+  </Current_Tuning>
+</base>

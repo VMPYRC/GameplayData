@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToReact value="0.25">
+      <!--Chance that a sim reacts to the current board position. Positive float. Range [0, 1]. Initial GPE Default: 0.25f-->
+    </kChanceToReact>
+    <kMinutesToMove value="10">
+      <!--Minutes before a sim makes a move. A random number is chosen between +-2 of this value. Positive float. Units: Sim Minutes. Constraint: Atleast 2. Initial GPE Default: 12.0f-->
+    </kMinutesToMove>
+    <kTimeToCompleteStage value="3">
+      <!--Number of hours that we want the sim to practice/play chess on the fixed time stage. Positive float. Units: Sim hours. Initial GPE deafult: 3.0f-->
+    </kTimeToCompleteStage>
+    <kLTRimprovementForPlayingWithSomeone value="3">
+      <!--Increase in the LTR Liking whenever you play with someone. Positive float. Range [0, 100]. Initial GPE deafult: 3.0f-->
+    </kLTRimprovementForPlayingWithSomeone>
+    <kChessSkillGainRateWithChessMasterOpponent value="1">
+      <!--Multiplier on skill gain rate when playing a chess master.-->
+    </kChessSkillGainRateWithChessMasterOpponent>
+    <kLogicSkillGainRateWithChessMasterOpponent value="0.5">
+      <!--Multiplier on skill gain rate when playing a chess master.-->
+    </kLogicSkillGainRateWithChessMasterOpponent>
+    <kLikingToReactToWin value="25">
+      <!--Minumum LTR liking to react positively for a win. This is for a sim watching the chess game. Positive float. Initial GPE deafult: 30.0f-->
+    </kLikingToReactToWin>
+    <kDistanceToWatch value="1.5">
+      <!--Diatance To watch other sims playing chess. Positive float. Initial GPE deafult: 1.5f-->
+    </kDistanceToWatch>
+    <kGeniusTraitScoreBump value="10">
+      <!--Added to the score of winning if the Sim has Genius Trait. This increases chance of winning. Positive int. Initial GPE Default: 2-->
+    </kGeniusTraitScoreBump>
+    <kAbsentMindedTraitScoreBump value="5">
+      <!--Subracted to the score of winning if they have the Absent Minded Trait. This decreases chance of winning. Positive int. Initial GPE Default: 2-->
+    </kAbsentMindedTraitScoreBump>
+    <kLuckScoreBump value="5">
+      <!--Added or Subracted to the chance of winning score, based on if the Sim has Lucky or Unlucky (respectively) This increases/decreases chance of winning. Positive int. Initial GPE Default: 2-->
+    </kLuckScoreBump>
+    <kScoreSkillMultiplier value="10">
+      <!--This is a multiplier on how much logic/chess skill matters to winning the game.  Increase this value to make Sims wit higher skill to win more often. Default: 10-->
+    </kScoreSkillMultiplier>
+    <kPlayWithFunMultiplier value="1">
+      <!--Fun skill multiplier for 'Play With'.  This will affect how much more fun sims have when they play eachother rather than alone. THIS VALUE IS ADDITIVE! (if the base multiplier is 1.0f and you set this to 1.0f, the gain for playing with another sim will be 2.0f). Positive float. Initial GPE deafult: 1.0f-->
+    </kPlayWithFunMultiplier>
+    <kPlayWithLogicMultiplier value=".5">
+      <!--Logic skill multiplier for 'Play With'.  This will affect how much more fun sims have when they play eachother rather than alone. THIS VALUE IS ADDITIVE! Positive float. Initial GPE deafult: 1.0f-->
+    </kPlayWithLogicMultiplier>
+    <kPlayWithChessMultiplier value=".5">
+      <!--Chess skill multiplier for 'Play With'.  This will affect how much more fun sims have when they play eachother rather than alone. THIS VALUE IS ADDITIVE! Positive float. Initial GPE deafult: 1.0f-->
+    </kPlayWithChessMultiplier>
+    <kMeditativeFocusScoreBump value="2">
+      <!--Added to the score of winning if the Sim has Mediative Focus buff. This increases chance of winning. Positive int. Initial GPE Default: 2-->
+    </kMeditativeFocusScoreBump>
+    <kFairyScoreBump value="11">
+      <!--Added to the score of winning if the Sim is a Fairy. This increases chance of winning. Positive int. Initial GPE Default: 3-->
+    </kFairyScoreBump>
+  </Current_Tuning>
+</base>

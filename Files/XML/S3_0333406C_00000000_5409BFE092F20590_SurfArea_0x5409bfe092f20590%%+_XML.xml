@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteToRange value="6">
+      <!--Distance they will route around the surf area if they are waiting in line.-->
+    </kRouteToRange>
+    <kMaxWaitDuration value="6">
+      <!--The Max time they will wait in line (in sim Hours) before they abandon trying to surf.-->
+    </kMaxWaitDuration>
+    <kJigCleanupAlarm value="3">
+      <!--Duration in sim hours the Jig will hang around in case of error.-->
+    </kJigCleanupAlarm>
+    <kSurfSkillPerSimHour value="800">
+      <!--Skill Gain Per Hour of surfing-->
+    </kSurfSkillPerSimHour>
+    <kSkillLevelForNewWave value="4, 7">
+      <!--Levels for Animation Change.  Starts at lowest level, then first entry is medium level of wave, second entry is final level of wave-->
+    </kSkillLevelForNewWave>
+    <kRoutingSlots value="RoutingSlot_1, RoutingSlot_2">
+      <!--Routing Slots for routing to the wave machine-->
+    </kRoutingSlots>
+    <kMinRouteRadius value="1">
+      <!--Minimum Distance A sim will route to.  This is to prevent sims from waiting in the routing slots-->
+    </kMinRouteRadius>
+    <kSurfDuration value="120">
+      <!--Surf Duration in Sim Minutes-->
+    </kSurfDuration>
+    <kSurfEarlyExitTime value="20">
+      <!--If a Sim fails a trick and there is less then this amount of time in sim minutes till the end of the interaction they will just exit.-->
+    </kSurfEarlyExitTime>
+    <kChanceToFail value="5, 4, 3, 2, 1, 0.75, 0.5, 0.25, 0.15, 0.1, 0.5">
+      <!--Chance To Fail Per Surf Level Skill while surfing this should be pretty low is it will hit every iteration of the loop. Level [0-10]-->
+    </kChanceToFail>
+    <kChanceToFailTrick value="27.5, 25, 22.5, 20, 17.5, 15, 12.5, 10, 7.5, 5, 2.5">
+      <!--Chance to fail after doing a trick per level.  Level [0-10]-->
+    </kChanceToFailTrick>
+    <kChanceToEpicFail value="17">
+      <!--Chance to epic fail when failing-->
+    </kChanceToEpicFail>
+    <kWatchRadius value="15">
+      <!--Watch Radius-->
+    </kWatchRadius>
+    <kTrickLoopWait value="15">
+      <!--Duration between attempting tricks in Sim minutes-->
+    </kTrickLoopWait>
+    <kMinRouteAwayDistance value="2">
+      <!--Minimum distance a Sim will route away when done surfing.-->
+    </kMinRouteAwayDistance>
+    <kMaxRouteAwayDistance value="3">
+      <!--Maximum Distance a sim will route away when done surfing.-->
+    </kMaxRouteAwayDistance>
+  </Current_Tuning>
+</base>

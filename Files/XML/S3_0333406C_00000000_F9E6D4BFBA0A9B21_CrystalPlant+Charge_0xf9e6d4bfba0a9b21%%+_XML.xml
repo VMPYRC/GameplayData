@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLoopDuration value="10">
+      <!--Range: Float.  Description: Minutes the Sim should spend in the looping portion of this interaction.-->
+    </kLoopDuration>
+    <kEPUPerCharge value="27, 27, 27, 27">
+      <!--Range: Floats.  Description: Emotional Power Units applied from this charge [Kindess, Laughter, Love, Rage].-->
+    </kEPUPerCharge>
+    <kTimeIntervalBetweenLoops value="2">
+      <!--Range: Float.  Description: Minutes balloon icons for the plant remain visible.-->
+    </kTimeIntervalBetweenLoops>
+    <kKindIcons value="balloon_bff, balloon_moodlet_newFriend">
+      <!--Input: Strings.  Description: Names of balloon icons that will appear during Kindness charge.-->
+    </kKindIcons>
+    <kLaughIcons value="balloon_clown, balloon_moodlet_sawGreatPlay">
+      <!--Input: Strings.  Description: Names of balloon icons that will appear during Kindness charge.-->
+    </kLaughIcons>
+    <kLoveIcons value="balloon_heart, balloon_moodlet_great_kisser">
+      <!--Input: Strings.  Description: Names of balloon icons that will appear during Kindness charge.-->
+    </kLoveIcons>
+    <kRageIcons value="balloon_moodlet_offended, balloon_boxinggloves">
+      <!--Input: Strings.  Description: Names of balloon icons that will appear during Kindness charge.-->
+    </kRageIcons>
+  </Current_Tuning>
+</base>

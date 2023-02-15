@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSkillGainPerSimMinute value="3" />
+    <kMaxChanceToFall value="50">
+      <!--What chance the toddler has of falling when just starting to learn.-->
+    </kMaxChanceToFall>
+    <kMaxDistanceToCrawlToJig value="4">
+      <!--Maximum distance in meters the child should crawl to get to the jig.  Otherwise, the adult will pick up and carry them.-->
+    </kMaxDistanceToCrawlToJig>
+    <kBRouteTriggerDistance value="2">
+      <!--Minimum distance in meters the parent should be from the child before they turn to face the parent or crawl to get to the jig.-->
+    </kBRouteTriggerDistance>
+    <kTeachToWalkToddlerMinimumMood value="-20">
+      <!--Minimum mood the toddler must have to accept the interaction.-->
+    </kTeachToWalkToddlerMinimumMood>
+    <kCryAfterReject value="False">
+      <!--Should the toddler cry after rejecting the interaction?-->
+    </kCryAfterReject>
+    <kCryAfterFallAndExit value="True">
+      <!--Should the toddler cry after falling if the interaction exits?-->
+    </kCryAfterFallAndExit>
+    <kRelationshipSTC value="Friendly">
+      <!--Social STC for this interaction.-->
+    </kRelationshipSTC>
+    <kRelationshipDeltaSTC value="50">
+      <!--STC delta per Sim hour.-->
+    </kRelationshipDeltaSTC>
+    <kRelationshipDeltaLTR value="8">
+      <!--LTR delta per Sim hour.-->
+    </kRelationshipDeltaLTR>
+    <kLookAtThresholdAdult value="200">
+      <!--How interesting something has to be to make a participant look away from this interaction.-->
+    </kLookAtThresholdAdult>
+    <kLookAtThresholdToddler value="200">
+      <!--How interesting something has to be to make a participant look away from this interaction.-->
+    </kLookAtThresholdToddler>
+    <kSocialChange value="30">
+      <!--The social change during the interaction for toddlers (adds a motive delta).-->
+    </kSocialChange>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTuning>
+      <kCompendiumIngotValueModifier value="0.11">
+        <!--Range:  0.0+  Description:  The percentage by which Compendium ingots will be worth more than the combined value of the input metals-->
+      </kCompendiumIngotValueModifier>
+      <kMixedCollectionValueBoundaries value="200, 500, 1000, 3500, 5000, 12000, 25000, 50000, 100000, 150000, 150001">
+        <!--Range:  0+  Description:  Determines the value boundaries for mixed collections-->
+      </kMixedCollectionValueBoundaries>
+      <kMixedCollectionStringIds value="RandomSeeds, SimoleonsLarge, AncientCoinsSmall, MagicGnome, GemTiberium, FragmentRandomType, FragmentSarcophagusOfKings, NectarBottleUber1, NectarBottleUber2, NectarBottleUber3, NectarBottleUber3">
+        <!--Range:  Treasure String IDs  Description:  The IDs for treasures generated for mixed collections. Specify treasures with no probability of being empty.-->
+      </kMixedCollectionStringIds>
+      <kStackedMetalExtraValueCap value="2000">
+        <!--Range:  0+  Description:  The largest amount in Simoleons considered for producing stacked ingots. The rest is added to the first ingot's value-->
+      </kStackedMetalExtraValueCap>
+      <kCostOnOwnerLot value="500">
+        <!--Description:  Cost to transfigurificate in Simoleons when object is owned by actor-->
+      </kCostOnOwnerLot>
+      <kCostOnCommunityLot value="2500">
+        <!--Description:  Cost to transfigurificate in Simoleons when object is on community lot-->
+      </kCostOnCommunityLot>
+      <kMinDistanceToView value="1">
+        <!--Minimum Distance at which the sim would perform View interaction. Positive float.-->
+      </kMinDistanceToView>
+      <kMaxDistanceToView value="4">
+        <!--Maximum Distance at which the sim would perform View interaction. Positive float.-->
+      </kMaxDistanceToView>
+      <kValueNecessaryForPositveReaction value="400">
+        <!--Range:  0+  Description:  Value in Simoleons the item must be to get a positive reaction-->
+      </kValueNecessaryForPositveReaction>
+      <kValueNecessaryForVeryPositveReaction value="1600">
+        <!--Range:  0+  Description:  Value in Simoleons the item must be to get a very positive reaction-->
+      </kValueNecessaryForVeryPositveReaction>
+      <kNumberOfGemCutsForSkullCut value="5">
+        <!--Range:  0+  Description:  The number of different gem cuts that will yield a Skull cut gem-->
+      </kNumberOfGemCutsForSkullCut>
+      <kNumberOfGemTypesForSoulpeace value="5">
+        <!--Range:  0+  Description:  The number of different gem types that will yield a Soulpeace gem-->
+      </kNumberOfGemTypesForSoulpeace>
+      <kNumberOfMetalTypesForSupernovium value="5">
+        <!--Range:  0+  Description:  The number of different metal types that will yield Supernovium-->
+      </kNumberOfMetalTypesForSupernovium>
+    </kTuning>
+  </Current_Tuning>
+</base>

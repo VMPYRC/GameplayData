@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMeditationDurationToUnlockMeditativeFocus value="60">
+      <!--While performaing meditate interaction, Meditative Focus buff is added to the sim (unpaused) after this duration. Units: Sim Minutes. Positive float. Initial GPE Default: 60f-->
+    </kMeditationDurationToUnlockMeditativeFocus>
+    <kMeditationIntervalToIncrementMeditativeFocus value="15">
+      <!--Once the sim possesses Meditative focus for a base timeout, every x minutes, we increment the buff's timeout. This is x. Units: Sim Minutes. Positive float. Initial GPE Default: 30f-->
+    </kMeditationIntervalToIncrementMeditativeFocus>
+    <kIncrementInMeditativeFocusTimeout value="30">
+      <!--For each meditation interval, we bump up the Meditative Focus buff's timeout by this amount. Units: Sim Minutes. Positive float. Initial GPE Default: 60f-->
+    </kIncrementInMeditativeFocusTimeout>
+    <kMaximumMeditativeFocusTimeout value="240">
+      <!--This is the upper cap on the meditative focus timeout. At this point we start levitation. Units: Sim Minutes. Positive float. Initial GPE Default: 240f-->
+    </kMaximumMeditativeFocusTimeout>
+    <kFrequencyToRemoveNegativeMentalMoodlets value="15">
+      <!--Every interval the meditating sim will lose a negative mental moodlet. Units: Sim Minutes. Positive float. Initial GPE Default: 15f-->
+    </kFrequencyToRemoveNegativeMentalMoodlets>
+    <kMultiplierToSlowMeditation value="1.2">
+      <!--Specific traits slow meditation. Each tunable for meditation timing are multiplied with this tunable. Positive float. Initial GPE Default: 1.5f-->
+    </kMultiplierToSlowMeditation>
+    <kMultiplierToSpeedUpMeditation value="0.8">
+      <!--Specific traits speed up meditation. Each tunable for meditation timing is multiplied with this tunable. Positive float. Range: [0, 1]. Initial GPE Default: 0.75f-->
+    </kMultiplierToSpeedUpMeditation>
+    <kRoundsInSpar value="3">
+      <!--Maximum number of rounds in a sparring match. Positive integer. Odd number. Initial GPE default: 3.-->
+    </kRoundsInSpar>
+    <kMinimumTimeForSingleSparRound value="3">
+      <!--Given the highest difference in the skill levels of the opponents, this is the time taken for the sim to Win. Positive float. Initial GPE Default: 3f-->
+    </kMinimumTimeForSingleSparRound>
+    <kMaximumTimeForSingleSparRound value="20">
+      <!--Given the smallest difference in the skill levels of the opponents, i.e. 0, this is the time taken for the sim to Win. Positive float. Constrains: Greater than minimum counterpart. Initial GPE Default: 30f-->
+    </kMaximumTimeForSingleSparRound>
+    <kSparRoundTimeJitter value="1.5">
+      <!--Once the actual time to procede in a round t is computed, we'll find a random number between (t - this tunable) and (t + this tunable). Positive float. Constrains: Smaller than the minimum value to participate in a round. Initial GPE Default: 1.5f-->
+    </kSparRoundTimeJitter>
+    <kLtrIncreasePerSparRound value="0.75">
+      <!--Increase in LTR per spar round. Positive float. Initial GPE Default: 0.75f-->
+    </kLtrIncreasePerSparRound>
+    <kStcAtTheEndOfSparRound value="Friendly">
+      <!--Target STC at the end for each spar round. String. Valid STC enum value. Initial GPE Default: Friendly-->
+    </kStcAtTheEndOfSparRound>
+    <kStcValueAtTheEndOfSparRound value="75">
+      <!--Target STC value at the end for each spar round. Positive float. Initial GPE Default: 75f-->
+    </kStcValueAtTheEndOfSparRound>
+    <kMartialArtsSkillLevelMultiplier value="10">
+      <!--Scaling Martial arts skill level to increase chances of winning a sparring round. Positive float. Initial GPE Default: 3f-->
+    </kMartialArtsSkillLevelMultiplier>
+    <kAthleticSkillLevelMultipler value="5">
+      <!--Scaling Athletic skill level to increase chances of winning a sparring round. Positive float. Initial GPE Default: 1.5f-->
+    </kAthleticSkillLevelMultipler>
+    <kIncreasedScoreDueToBuffOrTrait value="6">
+      <!--Increment score to win a sparing round by this amount for each designed buff and trait. This value stacks per buff or trait. Positive float. Initial GPE Default: 2.5f-->
+    </kIncreasedScoreDueToBuffOrTrait>
+    <kMeditativeFocusCareerPerformanceModifier value="3">
+      <!--If the sim has Meditative Focus moodlet, any increase in performance is modified (incremented) by this tunable. Positive float. Initial GPE default: 5f.-->
+    </kMeditativeFocusCareerPerformanceModifier>
+    <kMeditativeFocusSkillGainModifier value="0.25">
+      <!--If the sim has Meditative Focus moodlet, any increase in skill is modified (incremented) by this tunable. Positive float. Initial GPE default: 0.25f.-->
+    </kMeditativeFocusSkillGainModifier>
+    <kSparMatchParticipationToBeSparMaster value="75">
+      <!--Number of matches you need to participate to unlock this lifetime achievement. Positive int. Initial GPE default: 50.-->
+    </kSparMatchParticipationToBeSparMaster>
+    <kIncreasedScoreForSparMaster value="25">
+      <!--If the sim is a Spar Master, increment score to win a sparing round by this amount. This value stacks. Positive float. Initial GPE Default: 5f-->
+    </kIncreasedScoreForSparMaster>
+    <kNumberOfBoardsBrokenForLifetimeOpportunity value="150">
+      <!--Number of Oak or higher level board you need to break to get the Board Breaker Lifetime Opportunity. Positive int. Initial GPE default: 50.-->
+    </kNumberOfBoardsBrokenForLifetimeOpportunity>
+    <kHoursMeditatedToBeMasterOfMeditation value="150">
+      <!--Number of hours needed to be a master of meditation. Positive int. Initial GPE default: 100.-->
+    </kHoursMeditatedToBeMasterOfMeditation>
+    <kTournamentWinsToImproveSparringRank value="3, 5, 9, 15, 20">
+      <!--Number of wins over in a tournament needed to level up in Spar Tournament Ranking. Right now we assume 5 is the highest rank (that is why there are 5 numbers in this array). Implementation wise there are six ranks (0 to 5). Make sure this list has at least 1 number (that'll maintain at least 1 ranks). Positive increasing set of integers. NOTE: If you change the size of this array, talk with Manu (or some GPE).-->
+    </kTournamentWinsToImproveSparringRank>
+    <kFadeInAndOutTimeForMeditationTeleportation value="2">
+      <!--Fade in and out duration. Positive float. Initial GPE Default: 2f-->
+    </kFadeInAndOutTimeForMeditationTeleportation>
+    <kMeditativeFocusTimeOutReductionForMasterOfMeditationTeleport value="30">
+      <!--Each time a master of meditation teleports, this amount is reduced from his Meditative Focus buff. Units: Sim Minutes. Positive float. Initial GPE default: 30f.-->
+    </kMeditativeFocusTimeOutReductionForMasterOfMeditationTeleport>
+    <kChanceToGiveNoGems value="30">
+      <!--Advanced board breaker breaks Space rock. Chance of nothing happening. Score between [0, 100). Positive float. Initial GPE default: 30f.-->
+    </kChanceToGiveNoGems>
+    <kChanceToGiveLowPricedGems value="70">
+      <!--Advanced board breaker breaks Space rock. Chance of Low priced gem. Score between (0, 100). Greater than no chance. Positive float. Initial GPE default: 80f.-->
+    </kChanceToGiveLowPricedGems>
+    <kChanceToGiveMediumPricedGems value="95">
+      <!--Advanced board breaker breaks Space rock. Chance of nothing happening. Score between (0, 100). Positive float. Greater than low priced. Anythgin above this is the chance to get high priced gems. Initial GPE default: 95f.-->
+    </kChanceToGiveMediumPricedGems>
+    <kMaximumNumberOfGemsAwarded value="3">
+      <!--Advanced board breaker breaks Space rock. The sim gets a random number of gems between 1 and this number. Positive int. Initial GPE default: 3.-->
+    </kMaximumNumberOfGemsAwarded>
+    <kGemPriceThresholdBetweenLowAndMedium value="66">
+      <!--Gems with price below this number are low priced gems. Positive float. Initial GPE default: 50f.-->
+    </kGemPriceThresholdBetweenLowAndMedium>
+    <kGemPriceThresholdBetweenMediumAndHigh value="351">
+      <!--Gems above this price are high priced gems. Positive float. Initial GPE default: 200f.-->
+    </kGemPriceThresholdBetweenMediumAndHigh>
+    <kMartialArtsSkillForOpponentPerTournamentRank value="4, 4, 5, 7, 8, 10">
+      <!--Ideal Martial arts skill of the opponent at a given Spar Tournament rank. Right now we assume 5 is the highest rank. Make sure this list has one more element than kTournamentWinsToImproveSparringRank. Initial GPE default for the first element is 2. Positive increasing set of integers. NOTE: If you change the size of this array, talk with Manu (or some GPE).-->
+    </kMartialArtsSkillForOpponentPerTournamentRank>
+    <kIncreaseInAffinityForOpponentsWithAthleticSkill value="3">
+      <!--When we are selecting the next spar opponent, anyone with Athletic skill is preferred by providing this score. This will help improve initial randomness in selection i.e. the case when the world is devoid of Martial Artists. Positive int. Initial GPE default: 3.-->
+    </kIncreaseInAffinityForOpponentsWithAthleticSkill>
+    <kMaximumVarienceInSkillLevelForSparTournametOpponent value="2">
+      <!--How much a particular sim's Martial Skill be increased (while we are faking the skill level of a newly chosen challenger). Positive integet. Initial GPE Default: 2.-->
+    </kMaximumVarienceInSkillLevelForSparTournametOpponent>
+    <kMinimumMartialArtsSkillGainRateWhileSparring value="10">
+      <!--For the lowest skill level (i.e. 1), this is the skill gain rate for the sparring opponent. Positive float. Initial GPE Default: 1.5f-->
+    </kMinimumMartialArtsSkillGainRateWhileSparring>
+    <kMaximumMartialArtsSkillGainRateWhileSparring value="24">
+      <!--For the highest skill level, this is the skill gain rate for the sparring opponent. Positive float. Initial GPE Default: 7f-->
+    </kMaximumMartialArtsSkillGainRateWhileSparring>
+    <kAthleticSkillGainRateWhileSparring value="3">
+      <!--Athletic skill gain rate when you spar. Independent of the opponent's skills. Positive float. Initial GPE Default: 3f-->
+    </kAthleticSkillGainRateWhileSparring>
+    <kGrandMasterSkillGainModifier value="5">
+      <!--Once the martial artist is a Grand Master, the opponent's skill gain rate is incremented by this tunable. Positive float. Initial GPE Default: 3f-->
+    </kGrandMasterSkillGainModifier>
+    <kMaximumRadiusToWatchSparringMatch value="7">
+      <!--When you choose to watch sparring sims, this is the maximum radius around sparring sims (in an attempt to route). Positive float. Initial GPE Default: 4f-->
+    </kMaximumRadiusToWatchSparringMatch>
+    <kLtrLikingToBeASparMatchFan value="30">
+      <!--When a sim is watching a spar game, this is the amount of LTR liking needed to be cheering for the sim. Positive float. Initial GPE Default: 40f-->
+    </kLtrLikingToBeASparMatchFan>
+    <kWatchSparTimeOut value="180">
+      <!--In worst case, if a sim is stuck watching spar interaction, we will bail out of the interaction if its lifetime is more than this amount. Positive float. Units: Sim Minutes. Initial GPE Default: 180f-->
+    </kWatchSparTimeOut>
+    <kLtrLikingToBooASparMatchParticipant value="-20">
+      <!--When a sim is watching a spar game, if the LTR between the sim and the winner is less than this number, the sim boos. Negative float. Initial GPE Default: -20f-->
+    </kLtrLikingToBooASparMatchParticipant>
+    <kSparMasteryEffectsRgbAlpha value="1, 0.1, 0.1">
+      <!--RGB values for Mastery effects 1. Positive floats.-->
+    </kSparMasteryEffectsRgbAlpha>
+    <kSparMasteryEffectsRgbBeta value="0.1, 1, 0.1">
+      <!--RGB values for Mastery effects 1. Positive floats.-->
+    </kSparMasteryEffectsRgbBeta>
+    <kSparMasteryEffectsRgbGamma value="0.1, 0.1, 1">
+      <!--RGB values for Mastery effects 1. Positive floats.-->
+    </kSparMasteryEffectsRgbGamma>
+    <kSparMasteryEffectsRgbDelta value="1,0.85,0.1">
+      <!--RGB values for Mastery effects 1. Positive floats.-->
+    </kSparMasteryEffectsRgbDelta>
+    <kSparMasteryEffectsRgbEpsilon value=".62, .12, 0.94">
+      <!--RGB values for Mastery effects 1. Positive floats.-->
+    </kSparMasteryEffectsRgbEpsilon>
+    <kMinimumEnergyToBeAbleToSpar value="-50">
+      <!--Minimum energy motive value to be able to spar. Negative float. Initial GPE default: -50f.-->
+    </kMinimumEnergyToBeAbleToSpar>
+  </Current_Tuning>
+</base>

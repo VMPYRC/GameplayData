@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDurationCleanup value="5, 12, 20">
+      <!--Duration in Sim Minuts to clean up a street art.  (Small, Med, Large)-->
+    </kDurationCleanup>
+    <kWatchRadius value="3">
+      <!--Watch Interaction Radius-->
+    </kWatchRadius>
+    <kStartOverReducedMultiplyer value="0.5">
+      <!--For start over the cleanup is reduced by this.  e.g. 0.5 = half the time-->
+    </kStartOverReducedMultiplyer>
+    <kTuningView>
+      <MinDistanceToView value="3">
+        <!--Minimum Distance at which the Sim will watch the painting. Positive float.-->
+      </MinDistanceToView>
+      <MaxDistanceToView value="3.25">
+        <!--Maximum Distance at which the Sim will watch the painting. Positive float.-->
+      </MaxDistanceToView>
+    </kTuningView>
+    <kSkillToBeTippable value="2">
+      <!--Skill level before they can receive tips while tagging-->
+    </kSkillToBeTippable>
+    <kTipAmountPerLevel value="10, 12, 14, 16, 18, 20, 22, 26, 29, 32, 35">
+      <!--Tip amount for tipping during painting, Levels kSkillToBeTippable-10-->
+    </kTipAmountPerLevel>
+    <kChanceToBeCaught value="3.5">
+      <!--Chance To be Caught Graffiting.  This fires every time we change the state of the Wall Mural.  So it fires about 3 times per piece.  -->
+    </kChanceToBeCaught>
+    <kIncreasedChanceToBeCaughtBeingWatched value="3">
+      <!--Increase Chance of being caught while being watched-->
+    </kIncreasedChanceToBeCaughtBeingWatched>
+  </Current_Tuning>
+</base>

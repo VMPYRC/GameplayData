@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="1">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kViewTuning>
+      <MinDistanceToView value="2">
+        <!--Minimum Distance at which the Sim will watch the painting. Positive float.-->
+      </MinDistanceToView>
+      <MaxDistanceToView value="3">
+        <!--Maximum Distance at which the Sim will watch the painting. Positive float.-->
+      </MaxDistanceToView>
+    </kViewTuning>
+  </Current_Tuning>
+</base>

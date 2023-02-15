@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kActionsMin value="4">
+      <!--Minimum story progression actions in a day-->
+    </kActionsMin>
+    <kActionsMax value="10">
+      <!--Maximum story progression actions in a day-->
+    </kActionsMax>
+    <kDropActionsXPercentOfMaxScore value="0.01">
+      <!--If the score of an action is < max score times this amount, we will drop it-->
+    </kDropActionsXPercentOfMaxScore>
+    <kTravellingTargetError value="3">
+      <!--Target error level to stop story progression on travelling-->
+    </kTravellingTargetError>
+    <kTravellingMaxActions value="60">
+      <!--Max actions to do during travelling fixup-->
+    </kTravellingMaxActions>
+  </Current_Tuning>
+</base>

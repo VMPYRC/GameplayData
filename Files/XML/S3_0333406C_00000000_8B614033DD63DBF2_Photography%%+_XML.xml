@@ -1,0 +1,5544 @@
+<?xml version="1.0"?>
+<Photography>
+<Subjects>
+  <Key></Key>
+  <MinLevel>0</MinLevel>
+  <Bonus></Bonus>
+  <Collection>Misc</Collection>
+  <Location>UserCreated</Location>
+  <SkillPoints>0</SkillPoints>
+  <Value>0</Value>
+  <Scale>1</Scale>
+  <Stats></Stats>
+  <NameKey></NameKey>
+  <TitleKey></TitleKey>
+  <DescriptionKey></DescriptionKey>
+  <Class>Sims3.Gameplay.Skills.SubjectScoringFunctions</Class>
+  <Method></Method>
+  <Arg0></Arg0>
+  <Arg1></Arg1>
+  <Arg2></Arg2>
+  <Arg3></Arg3>
+ </Subjects>
+<Subjects>
+  <Key>Nothing</Key>
+  <Scale>1</Scale>
+  <NameKey>NothingName</NameKey>
+  <TitleKey>NothingTitle</TitleKey>
+  <Method>FixedScore</Method>
+  <Arg0>0.05</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Maid</Key>
+  <MinLevel>-1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>50</SkillPoints>
+  <Value>5</Value>
+  <Stats>UniqueSims</Stats>
+  <NameKey>MaidName</NameKey>
+  <Method>SimOfService</Method>
+  <Arg0>Maid</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>MaidAtWork</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>20</SkillPoints>
+  <Value>5</Value>
+  <Stats>UniqueSims</Stats>
+  <NameKey>MaidAtWorkName</NameKey>
+  <Method>Op_And</Method>
+  <Arg0>Maid</Arg0>
+  <Arg1>BeingNeat</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>SolvingHunger</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>InteractionForCommodity</Method>
+  <Arg0>Hunger</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>FourSimsEating</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>50</SkillPoints>
+  <Value>70</Value>
+  <Scale>25</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>FourSimsEatingName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>SolvingHunger</Arg0>
+  <Arg1>4</Arg1>
+  <Arg2>4</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>ThreesACrowd</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>40</SkillPoints>
+  <Value>50</Value>
+  <Stats>UniqueSims</Stats>
+  <NameKey>ThreesACrowdName</NameKey>
+  <Method>ExactSimCount</Method>
+  <Arg0>3</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>TwosCompany</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>40</SkillPoints>
+  <Value>30</Value>
+  <Stats>UniqueSims</Stats>
+  <NameKey>TwosCompanyName</NameKey>
+  <Method>ExactSimCount</Method>
+  <Arg0>2</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>FiveSims</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <Stats>UniqueSims</Stats>
+  <NameKey>FiveSimsName</NameKey>
+  <Method>ExactSimCount</Method>
+  <Arg0>5</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>BeingNeat</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionForCommodity</Method>
+  <Arg0>TraitNeat</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Sims</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Actors.Sim</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>ObjectsOnFire</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>BurningObjects</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>OnlyOnVacation</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>OnlyInWorldType</Method>
+  <Arg0>Vacation</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Nighttime</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>TimeOfDay</Method>
+  <Arg0>19</Arg0>
+  <Arg1>7</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>StillLifeFinder</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Gameplay.Objects</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>StillLifeGeneric</Key>
+  <Collection>StillLife</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>1</Value>
+  <Scale>0.03</Scale>
+  <NameKey>StilLifeGenericName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>StillLifeFinder</Arg0>
+  <Arg1>3</Arg1>
+  <Arg2>6</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>Indoors</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>Indoors</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>Outdoors</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>Outdoors</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>Residential</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>Residential</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>IndoorResidentialSims</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>Op_And</Method>
+  <Arg0>Indoors</Arg0>
+  <Arg1>Sims</Arg1>
+  <Arg2>Residential</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>AreFriends</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>AreFriends</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>AreFriendsOrRomantic</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>AreFriendsOrRomantic</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>AreRomantic</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>AreRomantic</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>AreEnemies</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>AreEnemies</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>OnlyInChina</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>OnlyInWorldName</Method>
+  <Arg0>China</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>OnlyInEgypt</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>OnlyInWorldName</Method>
+  <Arg0>Egypt</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>OnlyInFrance</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>OnlyInWorldName</Method>
+  <Arg0>France</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>MaleSim</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>SimFlagsOr</Method>
+  <Arg0>Male</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>FemaleSim</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>SimFlagsOr</Method>
+  <Arg0>Female</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>OneSim</Key>
+  <MinLevel>-1</MinLevel>
+  <NameKey>OneSimName</NameKey>
+  <TitleKey>OneSimNameTitle</TitleKey>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>ExactSimCount</Method>
+  <Arg0>1</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>StillLifeCouch</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>StillLife</Collection>
+  <SkillPoints>165</SkillPoints>
+  <Value>7</Value>
+  <NameKey>StillLifeCouchName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Sofa</Arg0>
+  <Arg1>Loveseat</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Vehicles</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Objects.Vehicles.Car</Arg0>
+  <Arg1>Objects.Vehicles.Taxi</Arg1>
+  <Arg2>Objects.Vehicles.LightweightTaxi</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>CarInstance</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>Car</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>StillLifeCar</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AroundTown</Collection>
+  <SkillPoints>165</SkillPoints>
+  <Value>9</Value>
+  <NameKey>StillLifeCarName</NameKey>
+  <TitleKey>StillLifeCarNameTitle</TitleKey>
+  <Method>Op_All</Method>
+  <Arg0>CarInstance</Arg0>
+  <Arg1>Vehicles</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>StillLifeFlowers</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>StillLife</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>26</Value>
+  <NameKey>StillLifeFlowersName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Daffodil</Arg0>
+  <Arg1>Orchid</Arg1>
+  <Arg2>Sunflower</Arg2>
+  <Arg3>FlowerBarrel</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>StillLifeGardenDecorations</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>StillLife</Collection>
+  <SkillPoints>170</SkillPoints>
+  <Value>12</Value>
+  <NameKey>StillLifeGardenDecorationsName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Gnome</Arg0>
+  <Arg1>flamingo</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>StillLifeCandles</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>StillLife</Collection>
+  <SkillPoints>165</SkillPoints>
+  <Value>12</Value>
+  <NameKey>StillLifeCandlesName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Candle</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>StillLifeTombstone</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>StillLife</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>12</Value>
+  <NameKey>StillLifeTombstoneName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Urnstone</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>StillLifeBicycle</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AroundTown</Collection>
+  <SkillPoints>165</SkillPoints>
+  <Value>14</Value>
+  <NameKey>StillLifeBicycleName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Bicycle</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>StillLifePicnicBasket</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AroundTown</Collection>
+  <SkillPoints>165</SkillPoints>
+  <Value>58</Value>
+  <Scale>1.5</Scale>
+  <NameKey>StillLifePicnicBasketName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>PicnicBasket</Arg0>
+  <Arg1>PicnicBlanket</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Toilet</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>HomeSweetHome</Collection>
+  <SkillPoints>130</SkillPoints>
+  <Value>7</Value>
+  <NameKey>ToiletName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Plumbing.Mimics.Toilet</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>StillLifeNectarBottleAndFood</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>StillLife</Collection>
+  <SkillPoints>190</SkillPoints>
+  <Value>5</Value>
+  <Scale>10</Scale>
+  <NameKey>StillLifeNectarBottleAndFoodName</NameKey>
+  <Method>AllOfTheseObjects</Method>
+  <Arg0>Nectar</Arg0>
+  <Arg1>Plate</Arg1>
+  <Arg2>Food</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>TissueBox</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>StillLife</Collection>
+  <SkillPoints>165</SkillPoints>
+  <Value>7</Value>
+  <NameKey>TissueBoxName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>TissueBox</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>StuffedBear</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>HomeSweetHome</Collection>
+  <SkillPoints>190</SkillPoints>
+  <Value>19</Value>
+  <NameKey>StuffedBearName</NameKey>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>TeddyBear</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PoliceCar</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AroundTown</Collection>
+  <SkillPoints>250</SkillPoints>
+  <Value>130</Value>
+  <NameKey>PoliceCarName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>CarPolice</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Television</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>StillLife</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>10</Value>
+  <NameKey>TelevisionName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Electronics.TV</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>VideoGame</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>StillLife</Collection>
+  <SkillPoints>160</SkillPoints>
+  <Value>16</Value>
+  <NameKey>VideoGameName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Electronics.VideoGameSystem</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>OnlyOneFemaleSim</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_And</Method>
+  <Arg0>OneSim</Arg0>
+  <Arg1>FemaleSim</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>OnlyOneMaleSim</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_And</Method>
+  <Arg0>OneSim</Arg0>
+  <Arg1>MaleSim</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>ParentTest</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>GenealogyWithPhotographer</Method>
+  <Arg0>Parent</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SiblingTest</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>GenealogyWithPhotographer</Method>
+  <Arg0>Sibling</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>FamilyMember</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Family</Collection>
+  <SkillPoints>140</SkillPoints>
+  <Value>15</Value>
+  <Scale>5</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>FamilyMemberName</NameKey>
+  <TitleKey>FamilyMemberTitle</TitleKey>
+  <Method>GenealogyWithPhotographer</Method>
+  <Arg0>BloodRelated</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>RelationshipChild</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Family</Collection>
+  <SkillPoints>160</SkillPoints>
+  <Value>10</Value>
+  <Scale>20</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>RelationshipChildName</NameKey>
+  <TitleKey>RelationshipChildNameTitle</TitleKey>
+  <Method>GenealogyWithPhotographer</Method>
+  <Arg0>Child</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>RelationshipGrandchild</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Family</Collection>
+  <SkillPoints>190</SkillPoints>
+  <Value>10</Value>
+  <Scale>20</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>RelationshipGrandchildName</NameKey>
+  <Method>GenealogyWithPhotographer</Method>
+  <Arg0>Grandchild</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>RelationshipFriend</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Family</Collection>
+  <SkillPoints>170</SkillPoints>
+  <Value>10</Value>
+  <Scale>10</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>RelationshipFriendName</NameKey>
+  <Method>AreFriendsWithPhotographer</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>RelationshipSignificantOther</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Family</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>10</Value>
+  <Scale>30</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>RelationshipSignificantOtherName</NameKey>
+  <Method>AreRomanticWithPhotographer</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>DeadRelatives</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Family</Collection>
+  <SkillPoints>250</SkillPoints>
+  <Value>65</Value>
+  <Scale>30</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>DeadRelativesName</NameKey>
+  <Method>Op_And</Method>
+  <Arg0>FamilyMember</Arg0>
+  <Arg1>Ghost</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>RelationshipSpouse</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Family</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>20</Value>
+  <Scale>50</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>RelationshipSpouseName</NameKey>
+  <TitleKey>RelationshipSpouseTitle</TitleKey>
+  <Method>LTRWithPhotographer</Method>
+  <Arg0>Spouse</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>TwoOfMyFriends</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Family</Collection>
+  <SkillPoints>190</SkillPoints>
+  <Value>23</Value>
+  <Scale>10</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>TwoOfMyFriendsName</NameKey>
+  <Method>Op_And</Method>
+  <Arg0>TwosCompany</Arg0>
+  <Arg1>RelationshipFriend</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>ThreeOfMyFriends</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Family</Collection>
+  <SkillPoints>230</SkillPoints>
+  <Value>25</Value>
+  <Scale>20</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>ThreeOfMyFriendsName</NameKey>
+  <Method>Op_And</Method>
+  <Arg0>ThreesACrowd</Arg0>
+  <Arg1>RelationshipFriend</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Housemate</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Family</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>9</Value>
+  <Scale>1.5</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>HousemateName</NameKey>
+  <TitleKey>HousemateTitle</TitleKey>
+  <Method>HousemateOfPhotographer</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>Eating</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionForCommodity</Method>
+  <Arg0>Hunger</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>CalamityTheivery</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Calamity</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>200</Value>
+  <Scale>250</Scale>
+  <Stats>Burglars</Stats>
+  <NameKey>CalamityTheiveryName</NameKey>
+  <TitleKey>CalamityTheiveryNameTitle</TitleKey>
+  <Method>SimOfService</Method>
+  <Arg0>Burglar</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>CalamitySocialWorker</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Calamity</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>160</Value>
+  <Scale>250</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>CalamitySocialWorkerName</NameKey>
+  <TitleKey>CalamitySocialWorkerNameTitle</TitleKey>
+  <Method>SimOfService</Method>
+  <Arg0>SocialWorkerChildProtection</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>CalamitySinged</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Calamity</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>130</Value>
+  <Scale>50</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>CalamitySingedName</NameKey>
+  <TitleKey>CalamitySingedNameTitle</TitleKey>
+  <Method>HasMoodlet</Method>
+  <Arg0>Singed</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>CalamityFight</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Calamity</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>140</Value>
+  <Scale>250</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>CalamityFightName</NameKey>
+  <TitleKey>CalamityFightNameTitle</TitleKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>Fight!</Arg0>
+  <Arg1>Fight Pet</Arg1>
+  <Arg2>Fight Beat Up For Info</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>CalamityRepoMan</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Calamity</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>160</Value>
+  <Scale>50</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>CalamityRepoManName</NameKey>
+  <TitleKey>CalamityRepoManNameTitle</TitleKey>
+  <Method>SimOfService</Method>
+  <Arg0>Repoman</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>CalamitySlapping</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Calamity</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>140</Value>
+  <Scale>250</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>CalamitySlappingName</NameKey>
+  <TitleKey>CalamitySlappingNameTitle</TitleKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>slap</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SickSim</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Calamity</Collection>
+  <SkillPoints>190</SkillPoints>
+  <Value>99</Value>
+  <Scale>250</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>SickSimName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>Vomit</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SnakeFail</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Calamity</Collection>
+  <SkillPoints>240</SkillPoints>
+  <Value>75</Value>
+  <Scale>25</Scale>
+  <NameKey>SnakeFailName</NameKey>
+  <Method>HasMoodlet</Method>
+  <Arg0>OuchMyFace</Arg0>
+  <Arg1>SnakeBite</Arg1>
+  <Arg2>SnakeKiss</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>Soaked</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Calamity</Collection>
+  <SkillPoints>210</SkillPoints>
+  <Value>75</Value>
+  <Scale>25</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>SoakedName</NameKey>
+  <Method>HasMoodlet</Method>
+  <Arg0>Soaked</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>DoublyDead</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Paranormal</Collection>
+  <SkillPoints>500</SkillPoints>
+  <Value>300</Value>
+  <Scale>2</Scale>
+  <Stats>Ghosts</Stats>
+  <NameKey>DoublyDeadName</NameKey>
+  <DescriptionKey>DoublyDeadDescription</DescriptionKey>
+  <Method>Op_And</Method>
+  <Arg0>Mummy</Arg0>
+  <Arg1>Ghost</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Ghost</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Paranormal</Collection>
+  <SkillPoints>240</SkillPoints>
+  <Value>100</Value>
+  <Scale>3</Scale>
+  <Stats>Ghosts</Stats>
+  <NameKey>GhostName</NameKey>
+  <TitleKey>GhostTitle</TitleKey>
+  <Method>Ghost</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>GhostProblem</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Paranormal</Collection>
+  <SkillPoints>240</SkillPoints>
+  <Value>200</Value>
+  <Scale>2</Scale>
+  <Stats>Ghosts</Stats>
+  <NameKey>GhostProblemName</NameKey>
+  <DescriptionKey>GhostProblemDescription</DescriptionKey>
+  <Method>Op_And</Method>
+  <Arg0>TwosCompany</Arg0>
+  <Arg1>Ghost</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>SeriousGhostProblem</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Paranormal</Collection>
+  <SkillPoints>300</SkillPoints>
+  <Value>300</Value>
+  <Scale>2</Scale>
+  <Stats>Ghosts</Stats>
+  <NameKey>SeriousGhostProblemName</NameKey>
+  <DescriptionKey>SeriousGhostProblemDescription</DescriptionKey>
+  <Method>Op_And</Method>
+  <Arg0>ThreesACrowd</Arg0>
+  <Arg1>Ghost</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>TooManyGhosts</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Paranormal</Collection>
+  <SkillPoints>350</SkillPoints>
+  <Value>500</Value>
+  <Scale>2</Scale>
+  <Stats>Ghosts</Stats>
+  <NameKey>TooManyGhostsName</NameKey>
+  <DescriptionKey>TooManyGhostsDescription</DescriptionKey>
+  <Method>Op_And</Method>
+  <Arg0>FiveSims</Arg0>
+  <Arg1>Ghost</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>MyDeadSpouse</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Paranormal</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>150</Value>
+  <Scale>2</Scale>
+  <Stats>Ghosts</Stats>
+  <NameKey>MyDeadSpouseName</NameKey>
+  <Method>Op_And</Method>
+  <Arg0>RelationshipSpouse</Arg0>
+  <Arg1>Ghost</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>HauntedObjects</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Paranormal</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>200</Value>
+  <Scale>2</Scale>
+  <NameKey>HauntedObjectsName</NameKey>
+  <DescriptionKey>HauntedObjectsDescription</DescriptionKey>
+  <Method>HauntedObjects</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>MyDeadEnemy</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Paranormal</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>300</Value>
+  <Scale>2</Scale>
+  <Stats>Ghosts</Stats>
+  <NameKey>MyDeadEnemyName</NameKey>
+  <TitleKey>MyDeadEnemyTitle</TitleKey>
+  <Method>Op_And</Method>
+  <Arg0>Ghost</Arg0>
+  <Arg1>MyEnemy</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Mummy</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Paranormal</Collection>
+  <SkillPoints>190</SkillPoints>
+  <Value>289</Value>
+  <Scale>2</Scale>
+  <NameKey>MummyName</NameKey>
+  <Method>OccultAny</Method>
+  <Arg0>Mummy</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>MummyHavingASnack</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Paranormal</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>350</Value>
+  <Scale>2</Scale>
+  <NameKey>MummyHavingASnackName</NameKey>
+  <DescriptionKey>MummyHavingASnackDescription</DescriptionKey>
+  <Method>Op_And</Method>
+  <Arg0>Mummy</Arg0>
+  <Arg1>Eating</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>WanderingGhost</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Paranormal</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>120</Value>
+  <Scale>5</Scale>
+  <Stats>Ghosts</Stats>
+  <NameKey>WanderingGhostName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>GhostWander</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>DeathNPC</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Paranormal</Collection>
+  <SkillPoints>300</SkillPoints>
+  <Value>200</Value>
+  <Scale>2</Scale>
+  <NameKey>SimplyDeath</NameKey>
+  <Method>SimOfService</Method>
+  <Arg0>GrimReaper</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>DeathOnVacation</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Paranormal</Collection>
+  <SkillPoints>180</SkillPoints>
+  <Value>250</Value>
+  <Scale>2</Scale>
+  <NameKey>DeathOnVacationName</NameKey>
+  <Method>Op_And</Method>
+  <Arg0>OnlyOnVacation</Arg0>
+  <Arg1>DeathNPC</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Electronics</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>electronics</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>GadgetsGalore</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>HomeSweetHome</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>15</Value>
+  <Scale>0.1</Scale>
+  <NameKey>GadgetsGaloreName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>Electronics</Arg0>
+  <Arg1>2</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>Outdoors1</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>UmbrellaBeach</Arg0>
+  <Arg1>firepit</Arg1>
+  <Arg2>picnic</Arg2>
+  <Arg3>ParkBench</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>Outdoors2</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>Adirondack</Arg0>
+  <Arg1>barbeque</Arg1>
+  <Arg2>poolLadder</Arg2>
+  <Arg3>Bicycle</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>Outdoors3</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>SwingSet</Arg0>
+  <Arg1>Sprinkler</Arg1>
+  <Arg2>JungleGym</Arg2>
+  <Arg3>Baseball</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>Outdoors4</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>Football</Arg0>
+  <Arg1>Tent</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>OutdoorStuff</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>HomeSweetHome</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>15</Value>
+  <Scale>0.07</Scale>
+  <NameKey>OutdoorStuffName</NameKey>
+  <DescriptionKey>OutdoorStuffDescription</DescriptionKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>Outdoors1</Arg0>
+  <Arg1>Outdoors2</Arg1>
+  <Arg2>Outdoors3</Arg2>
+  <Arg3>Outdoors4</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>BathroomInstances</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>wallTowel</Arg0>
+  <Arg1>pottyChair</Arg1>
+  <Arg2>ToiletPaper</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>BathroomStuff</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>HomeSweetHome</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>15</Value>
+  <Scale>0.1</Scale>
+  <NameKey>BathroomStuffName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>BathroomInstances</Arg0>
+  <Arg1>2</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>Kitchen</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>appliances</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>KitchenKitsch</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>HomeSweetHome</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>15</Value>
+  <Scale>0.1</Scale>
+  <NameKey>KitchenKitschName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>Kitchen</Arg0>
+  <Arg1>2</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>PartyClass</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Counters.Bar</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PartyInstance1</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>party</Arg0>
+  <Arg1>cake</Arg1>
+  <Arg2>buffet</Arg2>
+  <Arg3>fireworks</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>PartyInstance2</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>NectarBottle</Arg0>
+  <Arg1>NectarGlass</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>PartyStuffCollector</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>PartyClass</Arg0>
+  <Arg1>PartyInstance1</Arg1>
+  <Arg2>PartyInstance2</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>PartyStuff</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>HomeSweetHome</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>15</Value>
+  <Scale>0.1</Scale>
+  <NameKey>PartyStuffName</NameKey>
+  <DescriptionKey>PartyStuffDescription</DescriptionKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>PartyStuffCollector</Arg0>
+  <Arg1>2</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>DecorationClass</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>painting</Arg0>
+  <Arg1>rugs</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>DecorationsInstance1</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>vase</Arg0>
+  <Arg1>lightingWall</Arg1>
+  <Arg2>lightingFloor</Arg2>
+  <Arg3>lamp</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>DecorationsInstance2</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>sculptureWall</Arg0>
+  <Arg1>Curtain</Arg1>
+  <Arg2>Photograph</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>DecorationCollector</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>DecorationClass</Arg0>
+  <Arg1>DecorationsInstance1</Arg1>
+  <Arg2>DecorationsInstance2</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>DecorationsCollectorCount</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>HomeSweetHome</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>15</Value>
+  <Scale>0.1</Scale>
+  <NameKey>DecorationsCollectorCountName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>DecorationCollector</Arg0>
+  <Arg1>2</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>SimSculpture</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>SimSculpture</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>Sketch</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>workbenchDraftingCanvas</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>DecorationsEP2Collector</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>SimSculpture</Arg0>
+  <Arg1>Sketch</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Decorations</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>HomeSweetHome</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>15</Value>
+  <Scale>0.1</Scale>
+  <NameKey>DecorationsName</NameKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>DecorationCollectorCount</Arg0>
+  <Arg1>DecorationsEP2Collector</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>GardenClasses</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>soilAutoPlant</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>GardenInstances</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>sculpturePlant</Arg0>
+  <Arg1>tree</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>GardenCollector</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>GardenClasses</Arg0>
+  <Arg1>GardenInstances</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>NiceGarden</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>HomeSweetHome</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>15</Value>
+  <Scale>0.07</Scale>
+  <NameKey>NiceGardenName</NameKey>
+  <DescriptionKey>NiceGardenDescription</DescriptionKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>GardenCollector</Arg0>
+  <Arg1>3</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>FurnitureClass</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>seating</Arg0>
+  <Arg1>table</Arg1>
+  <Arg2>Beds.Mimics</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>FurnitureInstances</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>bookshelf</Arg0>
+  <Arg1>dresser</Arg1>
+  <Arg2>desk</Arg2>
+  <Arg3>crib</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>FurnitureCollector</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>FurnitureClass</Arg0>
+  <Arg1>FurnitureInstances</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Furniture</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>HomeSweetHome</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>15</Value>
+  <Scale>0.1</Scale>
+  <NameKey>FurnitureName</NameKey>
+  <DescriptionKey>FurnitureDescription</DescriptionKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>FurnitureCollector</Arg0>
+  <Arg1>2</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>YummyClass</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>cooking</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>YummyInstances</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>Nectar</Arg0>
+  <Arg1>Food</Arg1>
+  <Arg2>IceCream</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>YummyInteraction</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionNamed</Method>
+  <Arg0>Roast</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SomethingYummy</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>HomeSweetHome</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>15</Value>
+  <Scale>0.1</Scale>
+  <NameKey>SomethingYummyName</NameKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>YummyClass</Arg0>
+  <Arg1>YummyInstances</Arg1>
+  <Arg2>YummyInteraction</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>ToyClass</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>toys</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>ToyInstances1</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>Exercise</Arg0>
+  <Arg1>Easel</Arg1>
+  <Arg2>Telescope</Arg2>
+  <Arg3>Chess</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>ToyInstances2</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>FishingPole</Arg0>
+  <Arg1>musical</Arg1>
+  <Arg2>Foosball</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>ToysHobbies</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>HomeSweetHome</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>15</Value>
+  <Scale>0.1</Scale>
+  <NameKey>ToysHobbiesName</NameKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>ToyClass</Arg0>
+  <Arg1>ToyInstances1</Arg1>
+  <Arg2>ToyInstances2</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>BabyInstances1</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>PottyChair</Arg0>
+  <Arg1>Crib</Arg1>
+  <Arg2>ToddlerMobile</Arg2>
+  <Arg3>BabyBottle</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>BabyInstances2</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>HighChair</Arg0>
+  <Arg1>ToyXylo</Arg1>
+  <Arg2>ActivityTable</Arg2>
+  <Arg3>TeddyBear</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>BabyInstances3</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>ToyBoxChest</Arg0>
+  <Arg1>toyPegboxShapes</Arg1>
+  <Arg2>WallChild</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>BabyCollector</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>BabyInstances1</Arg0>
+  <Arg1>BabyInstances2</Arg1>
+  <Arg2>BabyInstances3</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>BabyStuff</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>HomeSweetHome</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>15</Value>
+  <Scale>0.1</Scale>
+  <NameKey>BabyStuffName</NameKey>
+  <DescriptionKey>BabyStuffDescription</DescriptionKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>BabyCollector</Arg0>
+  <Arg1>2</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>Picnicing</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>PostureSatisfies</Method>
+  <Arg0>Picnicing</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Sitting</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>PostureSatisfies</Method>
+  <Arg0>Sitting</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Standing</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>PostureSatisfies</Method>
+  <Arg0>Standing</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SemiActive</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>Sitting</Arg0>
+  <Arg1>Standing</Arg1>
+  <Arg2>Picnicing</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>LoversAtNight</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>65</Value>
+  <Scale>20</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>LoversAtNightName</NameKey>
+  <TitleKey>LoversAtNightNameTitle</TitleKey>
+  <Method>Op_All</Method>
+  <Arg0>AreRomantic</Arg0>
+  <Arg1>Nighttime</Arg1>
+  <Arg2>SemiActive</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>Cooking</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionNamed</Method>
+  <Arg0>CookOn</Arg0>
+  <Arg1>CookInOven</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>PrepareFood</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionNamed</Method>
+  <Arg0>Prepare</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>CookCooking</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>175</SkillPoints>
+  <Value>20</Value>
+  <Scale>500</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>CookCookingName</NameKey>
+  <TitleKey>CookCookingNameTitle</TitleKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>PrepareFood</Arg0>
+  <Arg1>Cooking</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>PoliticsDemonstration</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>140</SkillPoints>
+  <Value>120</Value>
+  <Stats>UniqueSims</Stats>
+  <NameKey>PoliticsDemonstrationName</NameKey>
+  <TitleKey>PoliticsDemonstrationNameTitle</TitleKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>protest</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PlayWithSprinkler</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>190</SkillPoints>
+  <Value>45</Value>
+  <Scale>500</Scale>
+  <NameKey>PlayWithSprinklerName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>PlayWithSprinkler</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Repairing</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionNamed</Method>
+  <Arg0>Repair</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>RepairManReparing</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>85</Value>
+  <Scale>500</Scale>
+  <NameKey>RepairManReparingName</NameKey>
+  <Method>Op_All</Method>
+  <Arg0>Repairing</Arg0>
+  <Arg1>RepairMan</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>RepairMan</Key>
+  <MinLevel>-1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>100</SkillPoints>
+  <Value>50</Value>
+  <Scale>5</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>RepairManName</NameKey>
+  <Method>SimOfService</Method>
+  <Arg0>Repairman</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Computing</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>45</Value>
+  <Scale>500</Scale>
+  <NameKey>ComputingName</NameKey>
+  <TitleKey>ComputingTitle</TitleKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>Computer+</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Chessmatch</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>210</SkillPoints>
+  <Value>75</Value>
+  <Scale>500</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>ChessmatchName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>chess</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Fishing</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>65</Value>
+  <Scale>500</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>FishingName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>FishHere</Arg0>
+  <Arg1>FishingSpot</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>PhotoOfPhotographer</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>140</Value>
+  <Scale>500</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>PhotoOfPhotographerName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>TakePhoto</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Gardening</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>210</SkillPoints>
+  <Value>56</Value>
+  <Scale>500</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>GardeningName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>weed</Arg0>
+  <Arg1>WaterPlant</Arg1>
+  <Arg2>harvest</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>SimPainting</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>35</Value>
+  <Scale>500</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>SimPaintingName</NameKey>
+  <TitleKey>SimPaintingTitle</TitleKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>paint</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>ChildBeingCarried</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>25</Value>
+  <Scale>500</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>ChildBeingCarriedName</NameKey>
+  <Method>PostureSatisfies</Method>
+  <Arg0>CarryingChild</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>MundanePizzaDelivery</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>35</Value>
+  <Stats>UniqueSims</Stats>
+  <NameKey>MundanePizzaDeliveryName</NameKey>
+  <Method>SimOfService</Method>
+  <Arg0>PizzaDelivery</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>MundaneMailCarrier</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>130</SkillPoints>
+  <Value>100</Value>
+  <Stats>UniqueSims</Stats>
+  <NameKey>MundaneMailCarrierName</NameKey>
+  <Method>SimOfService</Method>
+  <Arg0>MailCarrier</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>AreaManAreaWoman</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>20</Value>
+  <Scale>0.05</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>AreaManAreaWomanName</NameKey>
+  <Method>ExactSimCount</Method>
+  <Arg0>1</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>ChildPlayingToybox</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>160</SkillPoints>
+  <Value>75</Value>
+  <Scale>75</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>ChildPlayingToyboxName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>ToyBoxToy+PlayWith</Arg0>
+  <Arg1>ToyBox+PlayIn</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>ChildPlayingEasyBake</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>190</SkillPoints>
+  <Value>110</Value>
+  <Scale>75</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>ChildPlayingEasyBakeName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>ToyOven+Bake</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>ToyBox</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>toybox</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PoliceOfficer</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>190</SkillPoints>
+  <Value>100</Value>
+  <Scale>5</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>PoliceOfficerName</NameKey>
+  <Method>SimOfService</Method>
+  <Arg0>Police</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Firefighter</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>230</SkillPoints>
+  <Value>100</Value>
+  <Scale>5</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>FirefighterName</NameKey>
+  <Method>SimOfService</Method>
+  <Arg0>Firefighter</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Babysitter</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>EverydayMoments</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>190</Value>
+  <Scale>5</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>BabysitterName</NameKey>
+  <Method>SimOfService</Method>
+  <Arg0>Babysitter</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>CarryingChild</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>PostureSatisfies</Method>
+  <Arg0>CarryingChild</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>MaleCarryingChild</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>Op_And</Method>
+  <Arg0>MaleSim</Arg0>
+  <Arg1>CarryingChild</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>ParentAndChild</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>Genealogy</Method>
+  <Arg0>ParentOrStepParent</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>FemaleCarryingChild</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>Op_And</Method>
+  <Arg0>FemaleSim</Arg0>
+  <Arg1>CarryingChild</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>MakeOut</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>MakeOut</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>VoyeurCouchMakeOut</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>300</SkillPoints>
+  <Value>120</Value>
+  <NameKey>VoyeurCouchMakeOutName</NameKey>
+  <DescriptionKey>VoyeurCouchMakeOutDescription</DescriptionKey>
+  <Method>Op_All</Method>
+  <Arg0>MakeOut</Arg0>
+  <Arg1>TwosCompany</Arg1>
+  <Arg2>StillLifeCouch</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>ShowerInACan</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>ShowerInACan</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Stranger</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>LTRWithPhotographer</Method>
+  <Arg0>Stranger</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>MyEnemy</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>LTRWithPhotographer</Method>
+  <Arg0>Enemy</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>UsingShowerInACan</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionNamed</Method>
+  <Arg0>UseDeodorant</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>VoyeurShowerUsingCan</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <SkillPoints>230</SkillPoints>
+  <Value>50</Value>
+  <Scale>120</Scale>
+  <NameKey>VoyeurShowerUsingCanName</NameKey>
+  <Method>Op_All</Method>
+  <Arg0>UsingShowerInACan</Arg0>
+  <Arg1>ShowerInACan</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>LoversOnLocationChina</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <Location>China</Location>
+  <SkillPoints>150</SkillPoints>
+  <Value>160</Value>
+  <Scale>3</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>LoversOnLocationChinaName</NameKey>
+  <TitleKey>LoversOnLocationChinaTitle</TitleKey>
+  <Method>Op_And</Method>
+  <Arg0>AreRomantic</Arg0>
+  <Arg1>OnlyInChina</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>LoversOnLocationFrance</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <Location>France</Location>
+  <SkillPoints>150</SkillPoints>
+  <Value>156</Value>
+  <Scale>3</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>LoversOnLocationFranceName</NameKey>
+  <TitleKey>LoversOnLocationFranceTitle</TitleKey>
+  <Method>Op_And</Method>
+  <Arg0>AreRomantic</Arg0>
+  <Arg1>OnlyInFrance</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>LoversOnLocationEgypt</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <Location>Egypt</Location>
+  <SkillPoints>150</SkillPoints>
+  <Value>145</Value>
+  <Scale>3</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>LoversOnLocationEgyptName</NameKey>
+  <TitleKey>LoversOnLocationEgyptTitle</TitleKey>
+  <Method>Op_And</Method>
+  <Arg0>AreRomantic</Arg0>
+  <Arg1>OnlyInEgypt</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>FloorTrap</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <SkillPoints>180</SkillPoints>
+  <Value>100</Value>
+  <NameKey>FloorTrapName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>FloorTrap</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PushableStatue</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <SkillPoints>160</SkillPoints>
+  <Value>105</Value>
+  <NameKey>PushableStatueName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>PushableStatue</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>GiantBoulder</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <SkillPoints>180</SkillPoints>
+  <Value>120</Value>
+  <NameKey>GiantBoulderName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>GiantBoulder</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PileofAncientCoins</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <SkillPoints>160</SkillPoints>
+  <Value>160</Value>
+  <NameKey>PileofAncientCoinsName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>AncientCoinPile</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>FloorSwitch</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <SkillPoints>160</SkillPoints>
+  <Value>95</Value>
+  <NameKey>FloorSwitchName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>FloorSwitch</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>RubblePile</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <SkillPoints>170</SkillPoints>
+  <Value>75</Value>
+  <NameKey>RubblePileName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>RubblePile</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>TreasureChest</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <SkillPoints>190</SkillPoints>
+  <Value>90</Value>
+  <NameKey>TreasureChestName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>TreasureChest</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Sphinx</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <Location>Egypt</Location>
+  <SkillPoints>160</SkillPoints>
+  <Value>180</Value>
+  <Scale>0.4</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>SphinxName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Shells.Sphinx</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Dragon Cave</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <Location>China</Location>
+  <SkillPoints>170</SkillPoints>
+  <Value>350</Value>
+  <Scale>0.6</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>DragonCaveName</NameKey>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>shellDragonCaveChina</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Pyramid</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <SkillPoints>180</SkillPoints>
+  <Value>300</Value>
+  <Scale>0.5</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>PyramidName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Pyramid</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>AbuSimbel</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <Location>Egypt</Location>
+  <SkillPoints>210</SkillPoints>
+  <Value>250</Value>
+  <Scale>0.5</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>AbuSimbelName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Shells.TempleOfAbuSimbel</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SnakeCharmer</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <Location>Egypt</Location>
+  <SkillPoints>200</SkillPoints>
+  <Value>200</Value>
+  <Scale>205</Scale>
+  <NameKey>SnakeCharmerName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>Charm</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SoulpeaceStatue</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>200</Value>
+  <NameKey>SoulpeaceStatueName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>SoulpeaceStatue</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>AnubisTorch</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <Location>Egypt</Location>
+  <SkillPoints>180</SkillPoints>
+  <Value>80</Value>
+  <NameKey>AnubisTorchName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>TorchAnubis</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Sarcophagus</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Sarcophagus</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Relic</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>75</Value>
+  <NameKey>RelicName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Relic</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>NotFragment</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>NoneOfTheseClassStrings</Method>
+  <Arg0>Fragment</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>OnlySarcophagus</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>OnLocation</Collection>
+  <Location>Egypt</Location>
+  <SkillPoints>250</SkillPoints>
+  <Value>120</Value>
+  <NameKey>SarcopagusName</NameKey>
+  <Method>Op_And</Method>
+  <Arg0>NotFragment</Arg0>
+  <Arg1>Sarcophagus</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>NectarRack</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>BestOfClass</Collection>
+  <SkillPoints>180</SkillPoints>
+  <Value>90</Value>
+  <NameKey>NectarRackName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>NectarRackExpensive</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>ExpensiveStereo</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>BestOfClass</Collection>
+  <SkillPoints>190</SkillPoints>
+  <Value>38</Value>
+  <NameKey>ExpensiveStereoName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>StereoExpensive</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>MostExpensiveTent</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>BestOfClass</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>25</Value>
+  <NameKey>MostExpensiveTentName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Sultan</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>RichAndFamousCar</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>BestOfClass</Collection>
+  <SkillPoints>240</SkillPoints>
+  <Value>57</Value>
+  <NameKey>RichAndFamousCarName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>CarExpensive</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>RichAndFamousMoneyTree</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>BestOfClass</Collection>
+  <SkillPoints>300</SkillPoints>
+  <Value>75</Value>
+  <Scale>5</Scale>
+  <NameKey>RichAndFamousMoneyTreeName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Money Tree</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Omniplant</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>BestOfClass</Collection>
+  <SkillPoints>240</SkillPoints>
+  <Value>88</Value>
+  <Scale>3</Scale>
+  <NameKey>OmniplantName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Omni Plant</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Lifesaver</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>BestOfClass</Collection>
+  <SkillPoints>300</SkillPoints>
+  <Value>50</Value>
+  <Scale>175</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>LifesaverName</NameKey>
+  <Method>HasCareer</Method>
+  <Arg0>Medical</Arg0>
+  <Arg1>9</Arg1>
+  <Arg2>10</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>MasterCriminal</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>BestOfClass</Collection>
+  <SkillPoints>290</SkillPoints>
+  <Value>90</Value>
+  <Scale>175</Scale>
+  <Stats>UniqueSims,Burglars</Stats>
+  <NameKey>MasterCriminalName</NameKey>
+  <Method>HasCareer</Method>
+  <Arg0>Criminal</Arg0>
+  <Arg1>9</Arg1>
+  <Arg2>10</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>SuperCop</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>BestOfClass</Collection>
+  <SkillPoints>280</SkillPoints>
+  <Value>95</Value>
+  <Scale>175</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>SuperCopName</NameKey>
+  <TitleKey>SuperCopTitle</TitleKey>
+  <Method>HasCareer</Method>
+  <Arg0>LawEnforcement</Arg0>
+  <Arg1>9</Arg1>
+  <Arg2>10</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>IronChef</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>BestOfClass</Collection>
+  <SkillPoints>270</SkillPoints>
+  <Value>75</Value>
+  <Scale>175</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>IronChefName</NameKey>
+  <Method>HasCareer</Method>
+  <Arg0>Culinary</Arg0>
+  <Arg1>9</Arg1>
+  <Arg2>10</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>SuperStar</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>BestOfClass</Collection>
+  <SkillPoints>290</SkillPoints>
+  <Value>75</Value>
+  <Scale>175</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>SuperStarName</NameKey>
+  <TitleKey>SuperStarTitle</TitleKey>
+  <Method>HasCareer</Method>
+  <Arg0>Music</Arg0>
+  <Arg1>9</Arg1>
+  <Arg2>10</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>ChampionOfTheNation</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>BestOfClass</Collection>
+  <SkillPoints>286</SkillPoints>
+  <Value>90</Value>
+  <Scale>175</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>ChampionOfTheNationName</NameKey>
+  <TitleKey>ChampionOfTheNationTitle</TitleKey>
+  <Method>HasCareer</Method>
+  <Arg0>Military</Arg0>
+  <Arg1>9</Arg1>
+  <Arg2>10</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>DiplomatExtrordinaire</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>BestOfClass</Collection>
+  <SkillPoints>293</SkillPoints>
+  <Value>75</Value>
+  <Scale>175</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>DiplomatExtrordinaireName</NameKey>
+  <TitleKey>DiplomatExtrordinaireTitle</TitleKey>
+  <Method>HasCareer</Method>
+  <Arg0>Political</Arg0>
+  <Arg1>9</Arg1>
+  <Arg2>10</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>Limo</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>BestOfClass</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>50</Value>
+  <Scale>25</Scale>
+  <NameKey>LimoName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>CarLimo</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PlacesFrenchMarket</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Architecture</Collection>
+  <Location>France</Location>
+  <SkillPoints>75</SkillPoints>
+  <Value>90</Value>
+  <Scale>0.01</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>PlacesFrenchMarketName</NameKey>
+  <Method>Op_And</Method>
+  <Arg0>PlacesMarket</Arg0>
+  <Arg1>OnlyInFrance</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>MarketSmallVenue</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Venue</Method>
+  <Arg0>MarketSmall</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>MarketVenue</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Venue</Method>
+  <Arg0>Market</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PlacesMarket</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Architecture</Collection>
+  <SkillPoints>160</SkillPoints>
+  <Value>75</Value>
+  <Scale>0.01</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>PlacesMarketName</NameKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>MarketSmallVenue</Arg0>
+  <Arg1>MarketVenue</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>PlacesDojo</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Architecture</Collection>
+  <Location>China</Location>
+  <SkillPoints>210</SkillPoints>
+  <Value>100</Value>
+  <Scale>0.01</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>PlacesDojoName</NameKey>
+  <Method>Venue</Method>
+  <Arg0>Dojo</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PlacesChineseGarden</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Architecture</Collection>
+  <Location>China</Location>
+  <SkillPoints>240</SkillPoints>
+  <Value>140</Value>
+  <Scale>0.01</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>PlacesChineseGardenName</NameKey>
+  <Method>Venue</Method>
+  <Arg0>ChineseGarden</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Bookstore</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Architecture</Collection>
+  <SkillPoints>290</SkillPoints>
+  <Value>100</Value>
+  <Scale>0.3</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>BookstoreName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>RabbitHoles.Bookstore</Arg0>
+  <Arg1>RabbitHoles.ComboBookstoreDaySpa</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>PlacesNectuary</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Architecture</Collection>
+  <SkillPoints>230</SkillPoints>
+  <Value>100</Value>
+  <Scale>0.01</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>NectuaryName</NameKey>
+  <Method>Venue</Method>
+  <Arg0>Nectary</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>CityHall</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Architecture</Collection>
+  <SkillPoints>140</SkillPoints>
+  <Value>75</Value>
+  <Scale>0.1</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>CityHallName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>CityHall</Arg0>
+  <Arg1>cityHallEP3</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Theatre</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Architecture</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>75</Value>
+  <Scale>0.15</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>TheatreName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>RabbitHoles.Theatre</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Hospital</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Architecture</Collection>
+  <SkillPoints>160</SkillPoints>
+  <Value>75</Value>
+  <Scale>0.1</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>HospitalName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Hospital</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Stadium</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Architecture</Collection>
+  <SkillPoints>140</SkillPoints>
+  <Value>75</Value>
+  <Scale>0.1</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>StadiumName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Stadium</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Mausoleum</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Architecture</Collection>
+  <SkillPoints>230</SkillPoints>
+  <Value>45</Value>
+  <Scale>0.2</Scale>
+  <NameKey>MausoleumName</NameKey>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>Mausoleum</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>School</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AroundTown</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>80</Value>
+  <Scale>0.1</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>SchoolName</NameKey>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>School</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Gym</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AroundTown</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>80</Value>
+  <Scale>0.01</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>GymName</NameKey>
+  <Method>Venue</Method>
+  <Arg0>Gym</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Diner</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AroundTown</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>80</Value>
+  <Scale>0.1</Scale>
+  <NameKey>DinerName</NameKey>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>RestaurantDiner</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Park</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AroundTown</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>80</Value>
+  <Scale>0.01</Scale>
+  <NameKey>ParkName</NameKey>
+  <Method>Venue</Method>
+  <Arg0>BigPark</Arg0>
+  <Arg1>SmallPark</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Beach</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AroundTown</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>80</Value>
+  <Scale>0.04</Scale>
+  <NameKey>BeachName</NameKey>
+  <Method>Venue</Method>
+  <Arg0>BeachVenue</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Bistro</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AroundTown</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>80</Value>
+  <Scale>0.1</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>BistroName</NameKey>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>Bistro</Arg0>
+  <Arg1>businessEP3</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Spa</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AroundTown</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>80</Value>
+  <Scale>0.1</Scale>
+  <NameKey>SpaName</NameKey>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>DaySpa</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Grocery</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AroundTown</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>80</Value>
+  <Scale>0.1</Scale>
+  <NameKey>GroceryName</NameKey>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>Grocery</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PlacesInTown</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AroundTown</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>80</Value>
+  <Scale>0.05</Scale>
+  <NameKey>PlacesInTownName</NameKey>
+  <DescriptionKey>PlacesInTownDescription</DescriptionKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>RabbitHole</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>TwoLovers</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>AreRomantic</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>SimsDancing</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>100</SkillPoints>
+  <Value>140</Value>
+  <Scale>200</Scale>
+  <NameKey>SimsDancingName</NameKey>
+  <TitleKey>SimsDancingTitle</TitleKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>DanceTogether</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SimSoloDancing</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>100</SkillPoints>
+  <Value>75</Value>
+  <Scale>200</Scale>
+  <NameKey>SimSoloDancingName</NameKey>
+  <TitleKey>SimSoloDancingTitle</TitleKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>Dance</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SimsSparring</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>150</Value>
+  <Scale>200</Scale>
+  <NameKey>SimsSparringName</NameKey>
+  <TitleKey>SimsSparringTitle</TitleKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>MartialArts+Spar</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Boards</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>BoardBreaker</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PracticeInteraction</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionNamed</Method>
+  <Arg0>Practice</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SimBreakingBoards</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>167</Value>
+  <Scale>200</Scale>
+  <NameKey>SimBreakingBoardsName</NameKey>
+  <TitleKey>SimBreakingBoardsTitle</TitleKey>
+  <Method>Op_All</Method>
+  <Arg0>PracticeInteraction</Arg0>
+  <Arg1>Boards</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Run</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>WalkStyle</Method>
+  <Arg0>Run</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Run2</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>WalkStyle</Method>
+  <Arg0>FastRun</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Run3</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>WalkStyle</Method>
+  <Arg0>ForceRun</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Jog</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>WalkStyle</Method>
+  <Arg0>Jog</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>FastJog</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>WalkStyle</Method>
+  <Arg0>FastJog</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Jogging</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>Jog</Arg0>
+  <Arg1>FastJog</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Running</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>Run</Arg0>
+  <Arg1>Run2</Arg1>
+  <Arg2>Run3</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>RunJog</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>Running</Arg0>
+  <Arg1>Jogging</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>SimRunning</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>180</SkillPoints>
+  <Value>75</Value>
+  <Scale>200</Scale>
+  <NameKey>SimRunningName</NameKey>
+  <Method>Op_All</Method>
+  <Arg0>RunJog</Arg0>
+  <Arg1>OneSim</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>SimsPlayingCatch</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>190</SkillPoints>
+  <Value>120</Value>
+  <Scale>200</Scale>
+  <NameKey>SimsPlayingCatchName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>PlayCatch</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>ClearPile</Key>
+  <MinLevel>-1</MinLevel>
+  <Value>75</Value>
+  <Method>InteractionNamed</Method>
+  <Arg0>Clear</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>MovingStatue</Key>
+  <MinLevel>-1</MinLevel>
+  <Value>65</Value>
+  <Method>InteractionNamed</Method>
+  <Arg0>Move</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PushingStatue</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>160</SkillPoints>
+  <Value>75</Value>
+  <Scale>200</Scale>
+  <NameKey>PushingStatueName</NameKey>
+  <Method>Op_All</Method>
+  <Arg0>MovingStatue</Arg0>
+  <Arg1>PushableStatue</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>PleadingToSphinx</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>160</SkillPoints>
+  <Value>75</Value>
+  <Scale>200</Scale>
+  <NameKey>PleadingToSphinxName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>Plead</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>TrainingMartialArts</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>190</SkillPoints>
+  <Value>120</Value>
+  <Scale>200</Scale>
+  <NameKey>TrainingMartialArtsName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>TrainingDummy+Practice</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PlayGuitar</Key>
+  <MinLevel>-1</MinLevel>
+  <Value>45</Value>
+  <Method>InteractionNamed</Method>
+  <Arg0>Guitar+Play</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PlayFlute</Key>
+  <MinLevel>-1</MinLevel>
+  <Value>76</Value>
+  <Method>InteractionNamed</Method>
+  <Arg0>Charm</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PlayingInstrument</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>35</Value>
+  <Scale>200</Scale>
+  <NameKey>PlayingInstrumentName</NameKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>PlayGuitar</Arg0>
+  <Arg1>PlayFlute</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>SimMakingBed</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>25</Value>
+  <Scale>200</Scale>
+  <NameKey>SimMakingBedName</NameKey>
+  <TitleKey>SimMakingBedTitle</TitleKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>BedMakeBed</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SimSwimming</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>29</Value>
+  <Scale>200</Scale>
+  <NameKey>SimSwimmingName</NameKey>
+  <Method>PostureSatisfies</Method>
+  <Arg0>SwimmingInPool</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>RummagingInTrashcan</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>230</SkillPoints>
+  <Value>170</Value>
+  <Scale>200</Scale>
+  <NameKey>RummagingInTrashcanName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>Rummage</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SimPuttingOutFire</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>230</SkillPoints>
+  <Value>90</Value>
+  <Scale>200</Scale>
+  <NameKey>SimPuttingOutFireName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>Extinguish</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>WorkingOut</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>170</SkillPoints>
+  <Value>65</Value>
+  <Scale>200</Scale>
+  <NameKey>WorkingOutName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>WorkOut</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>MakingNectar</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>SimsInMotion</Collection>
+  <SkillPoints>180</SkillPoints>
+  <Value>90</Value>
+  <Scale>200</Scale>
+  <NameKey>MakingNectarName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>AddFruit</Arg0>
+  <Arg1>PlaceGrapesFor</Arg1>
+  <Arg2>SquishGrapes</Arg2>
+  <Arg3>MakeNectar</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>WhiteRose</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>35</Value>
+  <Scale>0.1</Scale>
+  <NameKey>WhiteRoseName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>PlantRoseWhite</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>RedRose</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>35</Value>
+  <Scale>0.1</Scale>
+  <NameKey>RedRoseName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>PlantRoseRed</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SunFlower</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>89</Value>
+  <Scale>0.5</Scale>
+  <NameKey>SunFlowerName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>PlantSunflower</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Hydrangea</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>45</Value>
+  <Scale>0.1</Scale>
+  <NameKey>HydrangeaName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>PlantHydrangea</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>TomatoPlant</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>35</Value>
+  <Scale>0.5</Scale>
+  <NameKey>TomatoPlantName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Tomato</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>AppleTree</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>35</Value>
+  <Scale>0.5</Scale>
+  <NameKey>AppleTreeName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Apple</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>LettucePlant</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>65</Value>
+  <Scale>0.5</Scale>
+  <NameKey>LettucePlantName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Lettuce</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>OnionPlant</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>67</Value>
+  <Scale>0.5</Scale>
+  <NameKey>OnionPlantName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Onion</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PotatoVine</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>59</Value>
+  <Scale>0.5</Scale>
+  <NameKey>PotatoVineName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Potato</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>WatermelonVine</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>78</Value>
+  <Scale>0.5</Scale>
+  <NameKey>WatermelonVineName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Watermelon</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>LimeTree</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>35</Value>
+  <Scale>0.5</Scale>
+  <NameKey>LimeTreeName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Lime</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>BellPepperPlant</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>77</Value>
+  <Scale>0.5</Scale>
+  <NameKey>BellPepperPlantName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Pepper</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>GarlicPlant</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>100</Value>
+  <Scale>0.5</Scale>
+  <NameKey>Garlic</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Garlic</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>DeathFlowerBush</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>140</Value>
+  <Scale>0.5</Scale>
+  <NameKey>DeathFlowerBushName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Death</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>LifePlant</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>140</Value>
+  <Scale>0.5</Scale>
+  <NameKey>LifePlantName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Life</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>FlamePlant</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>85</Value>
+  <Scale>0.5</Scale>
+  <NameKey>FlamePlantName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Flame</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>GrapeVineChar</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>99</Value>
+  <Scale>0.5</Scale>
+  <NameKey>GrapeVineCharName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Vine Char</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>GrapeVineMer</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>105</Value>
+  <Scale>0.5</Scale>
+  <NameKey>GrapeVineMerName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Vine Mer</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>GrapeVineBlanc</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>120</Value>
+  <Scale>0.5</Scale>
+  <NameKey>GrapeVineBlancName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Vine Blanc</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>GrapeVineBlue</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>110</Value>
+  <Scale>0.5</Scale>
+  <NameKey>GrapeVineBlueName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Vine Blue</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>GrapeVineCab</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>76</Value>
+  <Scale>0.5</Scale>
+  <NameKey>GrapeVineCabName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Vine Cab</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>GrapeVinePin</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>90</Value>
+  <Scale>0.5</Scale>
+  <NameKey>GrapeVinePinName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Vine Pin</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PomegranateTree</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>120</Value>
+  <Scale>0.5</Scale>
+  <NameKey>PomegranateTreeName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Pomegranate</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PlumTree</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PlantsAndFlowers</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>90</Value>
+  <Scale>0.5</Scale>
+  <NameKey>PlumTreeName</NameKey>
+  <Method>Plant</Method>
+  <Arg0>Plum</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>MagicGnome</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>300</SkillPoints>
+  <Value>250</Value>
+  <Scale>5</Scale>
+  <NameKey>MagicGnomeName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>MagicGnome</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>WhiteDiamond</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>75</Value>
+  <Scale>5</Scale>
+  <NameKey>WhiteDiamondName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Gem,Sims3GameplayObjects</Class>
+  <Method>ScoreGems</Method>
+  <Arg0>Diamond</Arg0>
+  <Arg1>Any</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Topaz</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>75</Value>
+  <Scale>5</Scale>
+  <NameKey>TopazName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Gem,Sims3GameplayObjects</Class>
+  <Method>ScoreGems</Method>
+  <Arg0>Aqua</Arg0>
+  <Arg1>Any</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Rainbow Gem</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>75</Value>
+  <Scale>5</Scale>
+  <NameKey>RainbowGemName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Gem,Sims3GameplayObjects</Class>
+  <Method>ScoreGems</Method>
+  <Arg0>Rainbow</Arg0>
+  <Arg1>Any</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>LuminoriousGem</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>75</Value>
+  <Scale>5</Scale>
+  <NameKey>LuminoriousGemName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Gem,Sims3GameplayObjects</Class>
+  <Method>ScoreGems</Method>
+  <Arg0>Crazy</Arg0>
+  <Arg1>Any</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>PinkDiamond</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>75</Value>
+  <Scale>5</Scale>
+  <NameKey>PinkDiamondName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Gem,Sims3GameplayObjects</Class>
+  <Method>ScoreGems</Method>
+  <Arg0>Pink</Arg0>
+  <Arg1>Any</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Tiberium</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>130</Value>
+  <Scale>5</Scale>
+  <NameKey>TiberiumName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Gem,Sims3GameplayObjects</Class>
+  <Method>ScoreGems</Method>
+  <Arg0>Tiberium</Arg0>
+  <Arg1>Any</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Opal</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>65</Value>
+  <Scale>5</Scale>
+  <NameKey>OpalName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Gem,Sims3GameplayObjects</Class>
+  <Method>ScoreGems</Method>
+  <Arg0>Opal</Arg0>
+  <Arg1>Any</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Quartz</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>25</Value>
+  <Scale>5</Scale>
+  <NameKey>QuartzName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Gem,Sims3GameplayObjects</Class>
+  <Method>ScoreGems</Method>
+  <Arg0>Quartz</Arg0>
+  <Arg1>Any</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Geode</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>50</Value>
+  <Scale>5</Scale>
+  <NameKey>GeodeName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Gem,Sims3GameplayObjects</Class>
+  <Method>ScoreGems</Method>
+  <Arg0>Geode</Arg0>
+  <Arg1>Any</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>SpaceRock</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>50</Value>
+  <Scale>5</Scale>
+  <NameKey>SpaceRockName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Metal,Sims3GameplayObjects</Class>
+  <Method>ScoreSpaceRock</Method>
+  <Arg0>Any</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Copper</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>50</Value>
+  <Scale>5</Scale>
+  <NameKey>CopperName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Metal,Sims3GameplayObjects</Class>
+  <Method>ScoreMetal</Method>
+  <Arg0>Copper</Arg0>
+  <Arg1>Smelt</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Iron</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>50</Value>
+  <Scale>5</Scale>
+  <NameKey>IronName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Metal,Sims3GameplayObjects</Class>
+  <Method>ScoreMetal</Method>
+  <Arg0>Iron</Arg0>
+  <Arg1>Smelt</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Silver</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>50</Value>
+  <Scale>5</Scale>
+  <NameKey>SilverName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Metal,Sims3GameplayObjects</Class>
+  <Method>ScoreMetal</Method>
+  <Arg0>Silver</Arg0>
+  <Arg1>Smelt</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Gold</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>50</Value>
+  <Scale>5</Scale>
+  <NameKey>GoldName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Metal,Sims3GameplayObjects</Class>
+  <Method>ScoreMetal</Method>
+  <Arg0>Gold</Arg0>
+  <Arg1>Smelt</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Mummitomium</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>80</Value>
+  <Scale>5</Scale>
+  <NameKey>MummitomiumName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Metal,Sims3GameplayObjects</Class>
+  <Method>ScoreMetal</Method>
+  <Arg0>Mummitomium</Arg0>
+  <Arg1>Smelt</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Mercury</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>50</Value>
+  <Scale>5</Scale>
+  <NameKey>MercuryName</NameKey>
+  <Class>Sims3.Gameplay.Objects.Spawners.Metal,Sims3GameplayObjects</Class>
+  <Method>ScoreMetal</Method>
+  <Arg0>Mercury</Arg0>
+  <Arg1>Smelt</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>CanopicJarA</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>CanopicJarA</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>CanopicJarB</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>CanopicJarB</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>CanopicJarC</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>CanopicJarC</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>CanopicJarD</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>CanopicJarD</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>CanopicJarE</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>CanopicJarE</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>CanopicJars1</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_All</Method>
+  <Arg0>CanopicJarA</Arg0>
+  <Arg1>CanopicJarB</Arg1>
+  <Arg2>CanopicJarC</Arg2>
+  <Arg3>CanopicJarD</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>CanopicJarCollection</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>240</SkillPoints>
+  <Value>400</Value>
+  <Scale>25</Scale>
+  <NameKey>CanoplicJarCollectionName</NameKey>
+  <Method>Op_All</Method>
+  <Arg0>CanopicJars1</Arg0>
+  <Arg1>CanopicJarE</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>DropaStoneA</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>DropaStoneA</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>DropaStoneB</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>DropaStoneB</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>DropaStoneC</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>DropaStoneC</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>DropaStoneD</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>DropaStoneD</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>DropaStoneE</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>DropaStoneE</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>DropaStones1</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_All</Method>
+  <Arg0>DropaStoneA</Arg0>
+  <Arg1>DropaStoneB</Arg1>
+  <Arg2>DropaaStoneC</Arg2>
+  <Arg3>DropaStoneD</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>DropaStoneCollection</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>350</Value>
+  <Scale>25</Scale>
+  <NameKey>DropaStoneCollectionName</NameKey>
+  <Method>Op_All</Method>
+  <Arg0>DropaStones1</Arg0>
+  <Arg1>DropaStoneE</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>SethStatueInstance</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>SethStatue</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>CobraStatueInstance</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>CobraStatue</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>HorusStatueInstance</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>HorusStatue</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>EgyptStatueSet</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>425</Value>
+  <Scale>25</Scale>
+  <NameKey>EgyptStatueSetName</NameKey>
+  <DescriptionKey>EgyptStatueSetDescription</DescriptionKey>
+  <Method>Op_All</Method>
+  <Arg0>SethStatueInstance</Arg0>
+  <Arg1>CobraStatueInstance</Arg1>
+  <Arg2>HorusStatueInstance</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>DragonStatueInstance</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>ZodiacDragon</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SnakeStatueInstance</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>ZodiacSnake</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>TigerStatueInstance</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>ZodiacTiger</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>ChinaStatueSet</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>245</Value>
+  <Scale>25</Scale>
+  <NameKey>ChinaStatueSetName</NameKey>
+  <DescriptionKey>ChinaStatueSetDescription</DescriptionKey>
+  <Method>Op_All</Method>
+  <Arg0>DragonStatueInstance</Arg0>
+  <Arg1>SnakeStatueInstance</Arg1>
+  <Arg2>TigerStatueInstance</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>AmmitStatueInstance</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>Ammit</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>AnubisStatueInstance</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>Anubis</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>FudogStatueInstance</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>Fudog</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>GargoyleStatueInstance</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>Gargoyle</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>DangerousCreaturesStatueSet</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Collectables</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>300</Value>
+  <Scale>25</Scale>
+  <NameKey>DangerousCreaturesStatueSetName</NameKey>
+  <DescriptionKey>DangerousCreaturesStatueSetDescription</DescriptionKey>
+  <Method>Op_All</Method>
+  <Arg0>AmmitStatueInstance</Arg0>
+  <Arg1>AnubisStatueInstance</Arg1>
+  <Arg2>FudogStatueInstance</Arg2>
+  <Arg3>GargoyleStatueInstance</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>SpeciesHuman</Key>
+  <MinLevel>-1</MinLevel>
+  <DescriptionKey>Hidden</DescriptionKey>
+  <Method>SpeciesOr</Method>
+  <Arg0>Human</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SpeciesCat</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AnimalKingdom</Collection>
+  <SkillPoints>30</SkillPoints>
+  <Value>20</Value>
+  <Scale>100</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>SpeciesCatName</NameKey>
+  <Method>SpeciesOr</Method>
+  <Arg0>Cat</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SpeciesDog</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AnimalKingdom</Collection>
+  <SkillPoints>30</SkillPoints>
+  <Value>20</Value>
+  <Scale>100</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>SpeciesDogName</NameKey>
+  <Method>SpeciesOr</Method>
+  <Arg0>Dog</Arg0>
+  <Arg1>LittleDog</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>SpeciesHorse</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AnimalKingdom</Collection>
+  <SkillPoints>40</SkillPoints>
+  <Value>20</Value>
+  <Scale>100</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>SpeciesHorseName</NameKey>
+  <Method>SpeciesOr</Method>
+  <Arg0>Horse</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SpeciesPet</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>SpeciesOr</Method>
+  <Arg0>Dog</Arg0>
+  <Arg1>LittleDog</Arg1>
+  <Arg2>Cat</Arg2>
+  <Arg3>Horse</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>BabyPet</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>SimFlagsOrPetsOnly</Method>
+  <Arg0>Baby</Arg0>
+  <Arg1>Toddler</Arg1>
+  <Arg2>Child</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>MyPet</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AnimalKingdom</Collection>
+  <SkillPoints>50</SkillPoints>
+  <Value>30</Value>
+  <Scale>125</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>MyPetName</NameKey>
+  <Method>PetOfPhotographer</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>AZoo</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AnimalKingdom</Collection>
+  <SkillPoints>100</SkillPoints>
+  <Value>100</Value>
+  <Scale>175</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>AZooName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>SpeciesPet</Arg0>
+  <Arg1>3</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>BabyPets</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AnimalKingdom</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>90</Value>
+  <Scale>200</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>BabyPetsName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>BabyPet</Arg0>
+  <Arg1>2</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>PetInCage</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AnimalKingdom</Collection>
+  <SkillPoints>50</SkillPoints>
+  <Value>25</Value>
+  <Scale>90</Scale>
+  <NameKey>PetInCageName</NameKey>
+  <Method>PetInCage</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>Birdie</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AnimalKingdom</Collection>
+  <SkillPoints>60</SkillPoints>
+  <Value>30</Value>
+  <Scale>100</Scale>
+  <NameKey>BirdieName</NameKey>
+  <Method>IsLiveBird</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>SpeciesDeer</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AnimalKingdom</Collection>
+  <SkillPoints>100</SkillPoints>
+  <Value>100</Value>
+  <Scale>250</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>SpeciesDeerName</NameKey>
+  <Method>SpeciesOr</Method>
+  <Arg0>Deer</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>HorseAndRider</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>AnimalKingdom</Collection>
+  <SkillPoints>65</SkillPoints>
+  <Value>35</Value>
+  <Scale>150</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>HorseAndRiderName</NameKey>
+  <Method>IsHorseAndRider</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>DogTricks</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PetsInAction</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>100</Value>
+  <Scale>200</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>DogTricksName</NameKey>
+  <Method>IsDogTrick</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>ShowJumping</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PetsInAction</Collection>
+  <SkillPoints>130</SkillPoints>
+  <Value>100</Value>
+  <Scale>200</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>ShowJumpingName</NameKey>
+  <Method>PetIncludedInteractionNamed</Method>
+  <Arg0>DoJump</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>HeroicHorse</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PetsInAction</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>125</Value>
+  <Scale>200</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>HeroicPoseName</NameKey>
+  <Method>PetIncludedInteractionNamed</Method>
+  <Arg0>HeroicPose</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>TugOfWar</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PetsInAction</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>125</Value>
+  <Scale>200</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>TugOfWarName</NameKey>
+  <Method>PetIncludedInteractionNamed</Method>
+  <Arg0>Tug Of War</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>CleverCat</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PetsInAction</Collection>
+  <SkillPoints>130</SkillPoints>
+  <Value>100</Value>
+  <Scale>200</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>CleverCatName</NameKey>
+  <Method>PetIncludedInteractionNamed</Method>
+  <Arg0>CatFishHere</Arg0>
+  <Arg1>CatchPrey</Arg1>
+  <Arg2>StalkForPrey</Arg2>
+  <Arg3>Pounce</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>GiveLoveSocialA</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>PetIncludedInteractionNamed</Method>
+  <Arg0>Let Sniff Hand</Arg0>
+  <Arg1>Pet On Surface</Arg1>
+  <Arg2>Pet On Floor Auto Accept</Arg2>
+  <Arg3>Pet</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>GiveLoveSocialB</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>PetIncludedInteractionNamed</Method>
+  <Arg0>Feed Treat Auto Accept</Arg0>
+  <Arg1>Hug Held Pet</Arg1>
+  <Arg2>Smooch Held Pet</Arg2>
+  <Arg3>Talk To Pet</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>GiveLoveSocialC</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>PetIncludedInteractionNamed</Method>
+  <Arg0>Rub Belly</Arg0>
+  <Arg1>Feed Treat</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>GiveLoveSocials</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>GiveLoveSocialA</Arg0>
+  <Arg1>GiveLoveSocialB</Arg1>
+  <Arg2>GiveLoveSocialC</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>CatDoingGiveLoveSocial</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_All</Method>
+  <Arg0>GiveLoveSocials</Arg0>
+  <Arg1>SpeciesCat</Arg1>
+  <Arg2>SpeciesHuman</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>CuteCatInteractions</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>PetIncludedInteractionNamed</Method>
+  <Arg0>Groom</Arg0>
+  <Arg1>CatToyWallDancer+Play</Arg1>
+  <Arg2>CatToy+PlayAndHuntToy</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>CuteCat</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PetsInAction</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>50</Value>
+  <Scale>150</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>CuteCatName</NameKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>CuteCatInteractions</Arg0>
+  <Arg1>CatDoingGiveLoveSocial</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>DeadBird</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PetsInAction</Collection>
+  <SkillPoints>125</SkillPoints>
+  <Value>90</Value>
+  <Scale>200</Scale>
+  <NameKey>DeadBirdName</NameKey>
+  <Method>IsDeadBird</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>TalkingBird</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PetsInAction</Collection>
+  <SkillPoints>130</SkillPoints>
+  <Value>100</Value>
+  <Scale>200</Scale>
+  <NameKey>TalkingBirdName</NameKey>
+  <Method>PetIncludedInteractionNamed</Method>
+  <Arg0>TeachToTalk</Arg0>
+  <Arg1>TalkWith</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>PetTombstones</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>tombstoneDog</Arg0>
+  <Arg1>tombstoneCat</Arg1>
+  <Arg2>tombstoneHorse</Arg2>
+  <Arg3>tombstoneUnicorn</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>PetCemetary</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PetsInAction</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>125</Value>
+  <Scale>150</Scale>
+  <NameKey>PetCemetaryName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>PetTombstones</Arg0>
+  <Arg1>2</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>DeathRiding</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>PetsInAction</Collection>
+  <SkillPoints>275</SkillPoints>
+  <Value>150</Value>
+  <Scale>500</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>DeathRidingName</NameKey>
+  <Method>IsDeathRiding</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>ImaginaryFriend</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Generations</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>100</Value>
+  <Scale>150</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>ImaginaryFriendName</NameKey>
+  <Method>ImaginaryFriend</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>BackyardFunObjectsA</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>JungleGym</Arg0>
+  <Arg1>SpringRider</Arg1>
+  <Arg2>Sandbox</Arg2>
+  <Arg3>Seesaw</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>BackyardFunObjectsB</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>SwingSet</Arg0>
+  <Arg1>Treehouse</Arg1>
+  <Arg2>SlippySlide</Arg2>
+  <Arg3>HopscotchCourt</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>BackyardFun</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Generations</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>50</Value>
+  <Scale>100</Scale>
+  <NameKey>BackyardFunName</NameKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>BackyardFunObjectsA</Arg0>
+  <Arg1>BackyardFunObjectsB</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>InPajamas</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InPajamasAtSlumberParty</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>SleepoverFun</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Generations</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>100</Value>
+  <Scale>200</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>SleepoverFunName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>InPajamas</Arg0>
+  <Arg1>2</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>WeddingObjects</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>WeddingCake</Arg0>
+  <Arg1>WeddingArch</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>WeddingVowExchanged</Key>
+  <MinLevel>-1</MinLevel>
+  <Value>45</Value>
+  <Method>InteractionNamed</Method>
+  <Arg0>Exchange Rings</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Wedding</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Generations</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>125</Value>
+  <Scale>500</Scale>
+  <NameKey>WeddingName</NameKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>WeddingObjects</Arg0>
+  <Arg1>WeddingVowExchanged</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>PartyDancers</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Generations</Collection>
+  <SkillPoints>110</SkillPoints>
+  <Value>90</Value>
+  <Scale>200</Scale>
+  <NameKey>PartyDancersName</NameKey>
+  <Method>DancingAtParty</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>AtParty</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AtParty</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>PartySims</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Generations</Collection>
+  <SkillPoints>125</SkillPoints>
+  <Value>90</Value>
+  <Scale>200</Scale>
+  <NameKey>PartySimsName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>AtParty</Arg0>
+  <Arg1>3</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>Graduation</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Generations</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>125</Value>
+  <Scale>500</Scale>
+  <NameKey>GraduationName</NameKey>
+  <Method>InGraduationGown</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>Caught</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Generations</Collection>
+  <SkillPoints>100</SkillPoints>
+  <Value>100</Value>
+  <Scale>400</Scale>
+  <NameKey>CaughtName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>SetBoobyTrap</Arg0>
+  <Arg1>PrankDoorbellDitch</Arg1>
+  <Arg2>PrankFlamingBag</Arg2>
+  <Arg3>PrankThrowingEggs</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>ForScience</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Generations</Collection>
+  <SkillPoints>100</SkillPoints>
+  <Value>75</Value>
+  <Scale>150</Scale>
+  <NameKey>ForScienceName</NameKey>
+  <Method>SimUsingAnyObject</Method>
+  <Arg0>ChemistryLab</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PillowFighting</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionNamed</Method>
+  <Arg0>PillowFight</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PillowFight</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Generations</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>40</Value>
+  <Scale>150</Scale>
+  <NameKey>PillowFightName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>PillowFighting</Arg0>
+  <Arg1>2</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>Vampire</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Nightlife</Collection>
+  <SkillPoints>110</SkillPoints>
+  <Value>50</Value>
+  <Scale>200</Scale>
+  <NameKey>VampireName</NameKey>
+  <Method>OccultAny</Method>
+  <Arg0>Vampire</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SkinnyDipping</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Nightlife</Collection>
+  <SkillPoints>150</SkillPoints>
+  <Value>60</Value>
+  <Scale>200</Scale>
+  <NameKey>SkinnyDippingName</NameKey>
+  <Method>IsSkinnyDipping</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>FoodTruck</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Nightlife</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>30</Value>
+  <Scale>150</Scale>
+  <NameKey>FoodTruckName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>FoodTruck</Arg0>
+  <Arg1>IceCreamTruck</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>Cocktail</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Nightlife</Collection>
+  <SkillPoints>50</SkillPoints>
+  <Value>30</Value>
+  <Scale>150</Scale>
+  <NameKey>CocktailName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>BarTray</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>BarGames</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Nightlife</Collection>
+  <SkillPoints>50</SkillPoints>
+  <Value>30</Value>
+  <Scale>150</Scale>
+  <NameKey>BarGamesName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Shuffleboard</Arg0>
+  <Arg1>Dartboard</Arg1>
+  <Arg2>FoosballTable</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>Mixologist</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Nightlife</Collection>
+  <SkillPoints>60</SkillPoints>
+  <Value>35</Value>
+  <Scale>150</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>MixologistName</NameKey>
+  <Method>IsMixologist</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>HotSpot</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Nightlife</Collection>
+  <SkillPoints>80</SkillPoints>
+  <Value>40</Value>
+  <Scale>190</Scale>
+  <NameKey>HotSpotName</NameKey>
+  <Method>IsHotSpot</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>CelebritySighting</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Nightlife</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>150</Value>
+  <Scale>250</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>CelebritySightingName</NameKey>
+  <Method>HasCelebrityLevel</Method>
+  <Arg0>4</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>DanceOnDanceCounterOrTable</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionNamed</Method>
+  <Arg0>DanceOnCounterOrTable</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>DanceOnDanceFloor</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionNamed</Method>
+  <Arg0>DanceFloor+Dance</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>DancingFools</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Nightlife</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>75</Value>
+  <Scale>200</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>DancingFoolsName</NameKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>DanceOnDanceCounterOrTable</Arg0>
+  <Arg1>DanceOnDanceFloor</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>PlayingBandPiano</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionNamed</Method>
+  <Arg0>Piano+Play</Arg0>
+  <Arg1>Piano+Perform</Arg1>
+  <Arg2>Piano+Jam</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>PlayingBandDrum</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionNamed</Method>
+  <Arg0>Drum+Play</Arg0>
+  <Arg1>Drum+Perform</Arg1>
+  <Arg2>Drum+Jam</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>PlayingBandBassGuitar</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionNamed</Method>
+  <Arg0>BassGuitar+Play</Arg0>
+  <Arg1>BassGuitar+Perform</Arg1>
+  <Arg2>BassGuitar+Jam</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>PlayingBandGuitar</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionNamed</Method>
+  <Arg0>Guitar+Play</Arg0>
+  <Arg1>Guitar+Perform</Arg1>
+  <Arg2>Guitar+Jam</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>PlayingBandInstrument</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>PlayingBandPiano</Arg0>
+  <Arg1>PlayingBandDrum</Arg1>
+  <Arg2>PlayingBandBassGuitar</Arg2>
+  <Arg3>PlayingBandGuitar</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>RockingOut</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Nightlife</Collection>
+  <SkillPoints>100</SkillPoints>
+  <Value>75</Value>
+  <Scale>200</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>RockingOutName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>PlayingBandInstrument</Arg0>
+  <Arg1>2</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>BigAir</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Career</Collection>
+  <SkillPoints>60</SkillPoints>
+  <Value>35</Value>
+  <Scale>200</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>BigAirName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>Trampoline+Play</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>GettingTattoo</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Career</Collection>
+  <SkillPoints>60</SkillPoints>
+  <Value>45</Value>
+  <Scale>200</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>GettingTattooName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>TattooChair+GetTattoo</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>ToolsOfTradeObjectsA</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>InventionWorkbench</Arg0>
+  <Arg1>DustingKit</Arg1>
+  <Arg2>DraftingTable</Arg2>
+  <Arg3>SculptingStation</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>ToolsOfTradeObjectsB</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>StylingStation</Arg0>
+  <Arg1>TattooChair</Arg1>
+  <Arg2>Trampoline</Arg2>
+  <Arg3>FirefighterPole</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>ToolsOfTradeObjectsC</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>MagnifyingGlass</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>StylistDecorativeObject</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>sculptureTableMakeupCase</Arg0>
+  <Arg1>sculptureTableStylingTray</Arg1>
+  <Arg2>sculptureTableCombJar</Arg2>
+  <Arg3>sculptureTableBlowDryer</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>ToolsOfTrade</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Career</Collection>
+  <SkillPoints>60</SkillPoints>
+  <Value>50</Value>
+  <Scale>125</Scale>
+  <NameKey>ToolsOfTradeName</NameKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>ToolsOfTradeObjectsA</Arg0>
+  <Arg1>ToolsOfTradeObjectsB</Arg1>
+  <Arg2>ToolsOfTradeObjectsC</Arg2>
+  <Arg3>StylistDecorativeObject</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>FireEngine</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Career</Collection>
+  <SkillPoints>60</SkillPoints>
+  <Value>45</Value>
+  <Scale>110</Scale>
+  <NameKey>FireEngineName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>FireEngine</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>BakeSale</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Career</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>60</Value>
+  <Scale>200</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>BakeSaleName</NameKey>
+  <Method>PostureSatisfies</Method>
+  <Arg0>TendingTable</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>MakeoverSelf</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionNamed</Method>
+  <Arg0>StylingStation+MakeoverSelf</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>GetMakeover</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>InteractionNamed</Method>
+  <Arg0>StylingStation+GetMakeover</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Makeover</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Career</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>60</Value>
+  <Scale>200</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>MakeoverName</NameKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>MakeoverSelf</Arg0>
+  <Arg1>GetMakeover</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>BrilliantSculpture</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>HasSculptureQuality</Method>
+  <Arg0>Brilliant</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SculptureGarden</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Career</Collection>
+  <SkillPoints>50</SkillPoints>
+  <Value>40</Value>
+  <Scale>125</Scale>
+  <NameKey>SculptureGardenName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>BrilliantSculpture</Arg0>
+  <Arg1>3</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>InventionObjects1</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>MoonGlobe</Arg0>
+  <Arg1>NewtonsCradle</Arg1>
+  <Arg2>DrinkingLlama</Arg2>
+  <Arg3>WindUpToy</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>InventionObjects2</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>StaticCoil</Arg0>
+  <Arg1>Carousel</Arg1>
+  <Arg2>Levitation</Arg2>
+  <Arg3>FishTank</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>InventionObjects3</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Robot</Arg0>
+  <Arg1>Harvester</Arg1>
+  <Arg2>Hygienator</Arg2>
+  <Arg3>TimeMachine</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>InventionObjects4</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Miner</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>InventionCollection</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>InventionObjects1</Arg0>
+  <Arg1>InventionObjects2</Arg1>
+  <Arg2>InventionObjects3</Arg2>
+  <Arg3>InventionObjects4</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>EccentricCollection</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Career</Collection>
+  <SkillPoints>100</SkillPoints>
+  <Value>75</Value>
+  <Scale>150</Scale>
+  <NameKey>EccentricCollectionName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>InventionCollection</Arg0>
+  <Arg1>2</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>GhostHunterLevel10</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>HasCareer</Method>
+  <Arg0>GhostHunter</Arg0>
+  <Arg1>10</Arg1>
+  <Arg2>10</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>StylistLevel10</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>HasCareer</Method>
+  <Arg0>Stylist</Arg0>
+  <Arg1>10</Arg1>
+  <Arg2>10</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>InteriorDesignerLevel10</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>HasCareer</Method>
+  <Arg0>InteriorDesigner</Arg0>
+  <Arg1>10</Arg1>
+  <Arg2>10</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>PrivateEyeLevel10</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>HasCareer</Method>
+  <Arg0>PrivateEye</Arg0>
+  <Arg1>10</Arg1>
+  <Arg2>10</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>FirefighterLevel10</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>HasCareer</Method>
+  <Arg0>Firefighter</Arg0>
+  <Arg1>10</Arg1>
+  <Arg2>10</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>TopBrassCareers</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>GhostHunterLevel10</Arg0>
+  <Arg1>StylistLevel10</Arg1>
+  <Arg2>InteriorDesignerLevel10</Arg2>
+  <Arg3>PrivateEyeLevel10</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>TopBrass</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Career</Collection>
+  <SkillPoints>225</SkillPoints>
+  <Value>150</Value>
+  <Scale>250</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>TopBrassName</NameKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>TopBrassCareers</Arg0>
+  <Arg1>FirefighterLevel10</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>FireInHole</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Career</Collection>
+  <SkillPoints>250</SkillPoints>
+  <Value>200</Value>
+  <Scale>200</Scale>
+  <NameKey>FireInHoleName</NameKey>
+  <Method>ObjectBeingDetonated</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>GlowingMushrooms</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Supernatural</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>40</Value>
+  <Scale>35</Scale>
+  <NameKey>GlowingMushroomName</NameKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>GlowOrb</Arg0>
+  <Arg1>SpotlightMushroom</Arg1>
+  <Arg2>Mycena</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>GlowOrb</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Plant</Method>
+  <Arg0>Glow Orbs</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SpotlightMushroom</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Plant</Method>
+  <Arg0>Spotlight Mushrooms</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Mycena</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Plant</Method>
+  <Arg0>Mycenas</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>WerewolfFetch</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Supernatural</Collection>
+  <SkillPoints>100</SkillPoints>
+  <Value>50</Value>
+  <Scale>100</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>WerewolfFetchName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>PlayFetchWerewolfInteraction</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>WererwolfHowl</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Supernatural</Collection>
+  <SkillPoints>75</SkillPoints>
+  <Value>40</Value>
+  <Scale>80</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>WerewolfHowlName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>HowlAtTheMoon</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>WerewolfScratch</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Supernatural</Collection>
+  <SkillPoints>80</SkillPoints>
+  <Value>60</Value>
+  <Scale>90</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>WerewolfScratchName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>WerewolfScratchObject</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>FairyTrick</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Supernatural</Collection>
+  <SkillPoints>100</SkillPoints>
+  <Value>55</Value>
+  <Scale>150</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>FairyTrickName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>FairySocialPlayTrick</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>SpellcastingDuel</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Supernatural</Collection>
+  <SkillPoints>100</SkillPoints>
+  <Value>50</Value>
+  <Scale>95</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>SpellcastingDuelName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>SpellcastingDuel</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>MagicPotion</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Supernatural</Collection>
+  <SkillPoints>60</SkillPoints>
+  <Value>30</Value>
+  <Scale>40</Scale>
+  <NameKey>MagicPotionName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>AlchemyPotion</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Zombies</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Supernatural</Collection>
+  <SkillPoints>80</SkillPoints>
+  <Value>75</Value>
+  <Scale>99</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>ZombiesName</NameKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>TempZombie</Arg0>
+  <Arg1>PermaZombie</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>TempZombie</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>HasMoodlet</Method>
+  <Arg0>Zombie</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>PermaZombie</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>HasMoodlet</Method>
+  <Arg0>PermaZombie</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>FortuneTeller</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Supernatural</Collection>
+  <SkillPoints>120</SkillPoints>
+  <Value>45</Value>
+  <Scale>65</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>FortunetellerName</NameKey>
+  <Method>HasCareer</Method>
+  <Arg0>FortuneTeller</Arg0>
+  <Arg1>6</Arg1>
+  <Arg2>10</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>MysticArchitecture</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Supernatural</Collection>
+  <SkillPoints>240</SkillPoints>
+  <Value>160</Value>
+  <Scale>25</Scale>
+  <Stats>Landmarks</Stats>
+  <NameKey>MysticArchitectureName</NameKey>
+  <DescriptionKey>MysticArchetectureDescription</DescriptionKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>PotionShopConsignmentStore</Arg0>
+  <Arg1>Arboretum</Arg1>
+  <Arg2>VaultOfAntiquity</Arg2>
+  <Arg3>GypsyCaravan</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>PotionShop</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Venue</Method>
+  <Arg0>PotionShopConsignmentStore</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>Arboretum</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>Arboretum</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>VaultOfAntiquity</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>VaultOfAntiquity</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>GypsyCaravan</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>GypsyCaravan</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>MagicCollection</Key>
+  <MinLevel>1</MinLevel>
+  <Collection>Supernatural</Collection>
+  <SkillPoints>175</SkillPoints>
+  <Value>150</Value>
+  <Scale>60</Scale>
+  <NameKey>MagicCollectionName</NameKey>
+  <DescriptionKey>MagicCollectionDescription</DescriptionKey>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>MagicObjects01</Arg0>
+  <Arg1>MagicObjects02</Arg1>
+  <Arg2>MagicObjects03</Arg2>
+  <Arg3>MagicObjects04</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>MagicObjects01</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>AlchemyStation</Arg0>
+  <Arg1>MagicWand</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>MagicObjects02</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>MagicMirror</Arg0>
+  <Arg1>MagicJellyBeanBush</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>MagicObjects03</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>MoodLamp</Arg0>
+  <Arg1>OrbOfAnswers</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>MagicObjects04</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>MoonDial</Arg0>
+  <Arg1>PhilosophersStone</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>SnowObjects1</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>SnowAngel</Arg0>
+  <Arg1>Snowman</Arg1>
+  <Arg2>Igloo</Arg2>
+  <Arg3>SkatingRinkIceSmall</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>SnowObjects2</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>SkatingRinkIceLarge</Arg0>
+  <Arg1>HalfPipe</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>AnySnowObject</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>SnowObjects1</Arg0>
+  <Arg1>SnowObjects2</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>HaveDeepSnow</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>HaveDeepSnow</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>SnowDay</Key>
+  <Collection>Seasons</Collection>
+  <SkillPoints>130</SkillPoints>
+  <Value>7</Value>
+  <NameKey>SnowDayName</NameKey>
+  <Method>Op_And</Method>
+  <Arg0>HaveDeepSnow</Arg0>
+  <Arg1>AnySnowObject</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>LeafPileObjects</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>LeafPile</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>TreeObjects</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>ObjectInstanceName</Method>
+  <Arg0>tree</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>TreeOrLeafPile</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>TreeObjects</Arg0>
+  <Arg1>LeafPileObjects</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>IsAutumnCheck</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>IsAutumn</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>AutumnLeaves</Key>
+  <Collection>Seasons</Collection>
+  <SkillPoints>130</SkillPoints>
+  <Value>7</Value>
+  <NameKey>AutumnLeavesName</NameKey>
+  <Method>Op_And</Method>
+  <Arg0>IsAutumnCheck</Arg0>
+  <Arg1>TreeOrLeafPile</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>FestivalObjects1</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>AppleBobbingContestTank</Arg0>
+  <Arg1>EatingContestStand</Arg1>
+  <Arg2>FacePaintingBooth</Arg2>
+  <Arg3>SnowConeMachine</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>FestivalObjects2</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>ConcessionsStand</Arg0>
+  <Arg1>KissingBooth</Arg1>
+  <Arg2>HorseshoeCourt</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>AnyFestivalObject</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>Op_AtLeastOne</Method>
+  <Arg0>FestivalObjects1</Arg0>
+  <Arg1>FestivalObjects2</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>OnFestivalLot</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>IsFestivalLot</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>AFestival</Key>
+  <Collection>Seasons</Collection>
+  <SkillPoints>100</SkillPoints>
+  <Value>100</Value>
+  <NameKey>AFestivalName</NameKey>
+  <Method>Op_And</Method>
+  <Arg0>OnFestivalLot</Arg0>
+  <Arg1>AnyFestivalObject</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>SnowballFight</Key>
+  <Collection>Seasons</Collection>
+  <SkillPoints>130</SkillPoints>
+  <Value>150</Value>
+  <Scale>800</Scale>
+  <NameKey>SnowballFightName</NameKey>
+  <Method>HavingSnowballFight</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>WaterbaloonFight</Key>
+  <Collection>Seasons</Collection>
+  <SkillPoints>130</SkillPoints>
+  <Value>150</Value>
+  <Scale>800</Scale>
+  <NameKey>WaterballoonFightName</NameKey>
+  <Method>HavingWaterBaloonFight</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>FunInTheSun</Key>
+  <Collection>Seasons</Collection>
+  <SkillPoints>50</SkillPoints>
+  <Value>40</Value>
+  <Scale>600</Scale>
+  <NameKey>FunInTheSunName</NameKey>
+  <Method>HavingFunInSun</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>RainyDay</Key>
+  <Collection>Seasons</Collection>
+  <SkillPoints>50</SkillPoints>
+  <Value>40</Value>
+  <Scale>5</Scale>
+  <NameKey>RainyDayName</NameKey>
+  <Method>IsRainyDay</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>SpringDanceKing</Key>
+  <Collection>Seasons</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>75</Value>
+  <Scale>5</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>SpringDanceKingName</NameKey>
+  <Method>IsSpringDanceKing</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>SpringDanceQueen</Key>
+  <Collection>Seasons</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>75</Value>
+  <Scale>5</Scale>
+  <Stats>UniqueSims</Stats>
+  <NameKey>SpringDanceQueenName</NameKey>
+  <Method>IsSpringDanceQueen</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>Aliens</Key>
+  <Collection>Seasons</Collection>
+  <SkillPoints>200</SkillPoints>
+  <Value>350</Value>
+  <Scale>5</Scale>
+  <NameKey>AliensName</NameKey>
+  <Method>IsAlienOrUFO</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>AtHolidayParty</Key>
+  <MinLevel>-1</MinLevel>
+  <Method>AtHolidayParty</Method>
+  <Arg0>)</Arg0>
+ </Subjects>
+<Subjects>
+  <Key>HolidayParty</Key>
+  <Collection>Seasons</Collection>
+  <SkillPoints>130</SkillPoints>
+  <Value>75</Value>
+  <Scale>600</Scale>
+  <NameKey>HolidayPartyName</NameKey>
+  <Method>KeyObjectCount</Method>
+  <Arg0>AtHolidayParty</Arg0>
+  <Arg1>3</Arg1>
+  <Arg2>99</Arg2>
+  <Arg3>)</Arg3>
+ </Subjects>
+<Subjects>
+  <Key>HauntedHouse</Key>
+  <Collection>Seasons</Collection>
+  <SkillPoints>60</SkillPoints>
+  <Value>50</Value>
+  <NameKey>HauntedHouseName</NameKey>
+  <Method>AnyOfTheseObjects</Method>
+  <Arg0>HauntedHouse</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Subjects>
+  <Key>GameOfHorseshoes</Key>
+  <Collection>Seasons</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>75</Value>
+  <NameKey>GameOfHorseshoesName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>HorseshoeCourt+WaitToThrow</Arg0>
+  <Arg1>HorseshoeCourt+TakeTurn</Arg1>
+  <Arg2>)</Arg2>
+ </Subjects>
+<Subjects>
+  <Key>CompetitiveEating</Key>
+  <Collection>Seasons</Collection>
+  <SkillPoints>90</SkillPoints>
+  <Value>50</Value>
+  <Scale>7</Scale>
+  <NameKey>CompetitiveEatingName</NameKey>
+  <Method>InteractionNamed</Method>
+  <Arg0>EatingContestStand+ParticipateInContest</Arg0>
+  <Arg1>)</Arg1>
+ </Subjects>
+<Collections>
+  <Key></Key>
+  <SKU></SKU>
+  <NameKey></NameKey>
+  <DescriptionKey></DescriptionKey>
+  <SortOrder></SortOrder>
+  <Location>UserCreated</Location>
+  <Styles></Styles>
+  <Sizes></Sizes>
+  <MinLevel>0</MinLevel>
+  <Bonus>False</Bonus>
+  <HideInCaptureUI>False</HideInCaptureUI>
+  <Score>1</Score>
+  <ValueMultiplier>1</ValueMultiplier>
+  <ValueMultiplierWhenComplete>1.25</ValueMultiplierWhenComplete>
+ </Collections>
+<Collections>
+  <Key>Misc</Key>
+  <SKU>EP1</SKU>
+  <NameKey>MiscName</NameKey>
+  <DescriptionKey>MiscDescription</DescriptionKey>
+  <MinLevel>-1</MinLevel>
+  <HideInCaptureUI>True</HideInCaptureUI>
+ </Collections>
+<Collections>
+  <Key>StillLife</Key>
+  <SKU>EP1</SKU>
+  <NameKey>StillLifeName</NameKey>
+  <DescriptionKey>StillLifeDescription</DescriptionKey>
+  <MinLevel>1</MinLevel>
+ </Collections>
+<Collections>
+  <Key>EverydayMoments</Key>
+  <SKU>EP1</SKU>
+  <NameKey>EverydayMomentsName</NameKey>
+  <DescriptionKey>EverydayMomentsDescription</DescriptionKey>
+  <MinLevel>2</MinLevel>
+  <ValueMultiplierWhenComplete>1.35</ValueMultiplierWhenComplete>
+ </Collections>
+<Collections>
+  <Key>Family</Key>
+  <SKU>EP1</SKU>
+  <NameKey>FamilyName</NameKey>
+  <DescriptionKey>FamilyDescription</DescriptionKey>
+  <MinLevel>1</MinLevel>
+ </Collections>
+<Collections>
+  <Key>AroundTown</Key>
+  <SKU>EP1</SKU>
+  <NameKey>AroundTownName</NameKey>
+  <DescriptionKey>AroundTownDescription</DescriptionKey>
+  <MinLevel>3</MinLevel>
+ </Collections>
+<Collections>
+  <Key>HomeSweetHome</Key>
+  <SKU>EP1</SKU>
+  <NameKey>HomeSweetHomeName</NameKey>
+  <DescriptionKey>HomeSweetHomeDescription</DescriptionKey>
+  <MinLevel>3</MinLevel>
+ </Collections>
+<Collections>
+  <Key>Calamity</Key>
+  <SKU>EP1</SKU>
+  <NameKey>CalamityName</NameKey>
+  <DescriptionKey>CalamityDescription</DescriptionKey>
+  <MinLevel>4</MinLevel>
+ </Collections>
+<Collections>
+  <Key>Architecture</Key>
+  <SKU>EP1</SKU>
+  <NameKey>Architecture</NameKey>
+  <DescriptionKey>ArchitectureDescription</DescriptionKey>
+  <MinLevel>4</MinLevel>
+ </Collections>
+<Collections>
+  <Key>OnLocation</Key>
+  <SKU>EP1</SKU>
+  <NameKey>OnLocationName</NameKey>
+  <DescriptionKey>OnLocationDescription</DescriptionKey>
+  <MinLevel>5</MinLevel>
+  <ValueMultiplier>1.1</ValueMultiplier>
+  <ValueMultiplierWhenComplete>1.3</ValueMultiplierWhenComplete>
+ </Collections>
+<Collections>
+  <Key>Paranormal</Key>
+  <SKU>EP1</SKU>
+  <NameKey>Paranormal</NameKey>
+  <DescriptionKey>ParanormalDescription</DescriptionKey>
+  <MinLevel>6</MinLevel>
+ </Collections>
+<Collections>
+  <Key>PlantsAndFlowers</Key>
+  <SKU>EP1</SKU>
+  <NameKey>PlantsAndFlowersName</NameKey>
+  <DescriptionKey>PlantsAndFlowersDescription</DescriptionKey>
+  <MinLevel>7</MinLevel>
+ </Collections>
+<Collections>
+  <Key>SimsInMotion</Key>
+  <SKU>EP1</SKU>
+  <NameKey>SimsInMotion</NameKey>
+  <DescriptionKey>SimsInMotionDescription</DescriptionKey>
+  <MinLevel>8</MinLevel>
+ </Collections>
+<Collections>
+  <Key>BestOfClass</Key>
+  <SKU>EP1</SKU>
+  <NameKey>BestOfClassName</NameKey>
+  <DescriptionKey>BestOfClassDescription</DescriptionKey>
+  <MinLevel>9</MinLevel>
+ </Collections>
+<Collections>
+  <Key>Collectables</Key>
+  <SKU>EP1</SKU>
+  <NameKey>CollectablesName</NameKey>
+  <DescriptionKey>CollectablesDescription</DescriptionKey>
+  <MinLevel>5</MinLevel>
+ </Collections>
+<Collections>
+  <Key>AnimalKingdom</Key>
+  <SKU>EP5</SKU>
+  <NameKey>AnimalKingdomName</NameKey>
+  <DescriptionKey>AnimalKingdomDescription</DescriptionKey>
+  <MinLevel>1</MinLevel>
+ </Collections>
+<Collections>
+  <Key>PetsInAction</Key>
+  <SKU>EP5</SKU>
+  <NameKey>PetsInActionName</NameKey>
+  <DescriptionKey>PetsInActionDescription</DescriptionKey>
+  <MinLevel>1</MinLevel>
+ </Collections>
+<Collections>
+  <Key>Generations</Key>
+  <SKU>EP4</SKU>
+  <NameKey>GenerationsName</NameKey>
+  <DescriptionKey>GenerationsDescription</DescriptionKey>
+  <MinLevel>1</MinLevel>
+ </Collections>
+<Collections>
+  <Key>Nightlife</Key>
+  <SKU>EP3</SKU>
+  <NameKey>NIghtlifeName</NameKey>
+  <DescriptionKey>NIghtlifeDescription</DescriptionKey>
+  <MinLevel>1</MinLevel>
+ </Collections>
+<Collections>
+  <Key>Career</Key>
+  <SKU>EP2</SKU>
+  <NameKey>CareerName</NameKey>
+  <DescriptionKey>CareerDescription</DescriptionKey>
+  <MinLevel>1</MinLevel>
+ </Collections>
+<Collections>
+  <Key>Supernatural</Key>
+  <SKU>EP7</SKU>
+  <NameKey>SupernaturalName</NameKey>
+  <DescriptionKey>SupernaturalDescription</DescriptionKey>
+  <MinLevel>1</MinLevel>
+ </Collections>
+<Collections>
+  <Key>Seasons</Key>
+  <SKU>EP8</SKU>
+  <NameKey>SeasonsName</NameKey>
+  <DescriptionKey>SeasonsDescription</DescriptionKey>
+  <MinLevel>1</MinLevel>
+ </Collections>
+<SkillProgression>
+  <SkillLevel></SkillLevel>
+  <SKU></SKU>
+  <StyleUnlocks></StyleUnlocks>
+  <SizeUnlocks></SizeUnlocks>
+  <FeatureUnlocks></FeatureUnlocks>
+  <BadPhotoChance></BadPhotoChance>
+  <ValueMultiplier></ValueMultiplier>
+ </SkillProgression>
+<SkillProgression>
+  <SkillLevel>0</SkillLevel>
+  <StyleUnlocks>PhotoPlain</StyleUnlocks>
+  <SizeUnlocks>Small,SmartPhone,SmartPhoneHorizontal</SizeUnlocks>
+  <BadPhotoChance>0.75</BadPhotoChance>
+  <ValueMultiplier>0.3</ValueMultiplier>
+ </SkillProgression>
+<SkillProgression>
+  <SkillLevel>1</SkillLevel>
+  <BadPhotoChance>0.33</BadPhotoChance>
+  <ValueMultiplier>0.3</ValueMultiplier>
+ </SkillProgression>
+<SkillProgression>
+  <SkillLevel>2</SkillLevel>
+  <StyleUnlocks>PhotoGray</StyleUnlocks>
+  <SizeUnlocks>Medium</SizeUnlocks>
+  <BadPhotoChance>0.17</BadPhotoChance>
+  <ValueMultiplier>0.4</ValueMultiplier>
+ </SkillProgression>
+<SkillProgression>
+  <SkillLevel>3</SkillLevel>
+  <BadPhotoChance>0.1</BadPhotoChance>
+  <ValueMultiplier>0.5</ValueMultiplier>
+ </SkillProgression>
+<SkillProgression>
+  <SkillLevel>4</SkillLevel>
+  <StyleUnlocks>PhotoSepia</StyleUnlocks>
+  <BadPhotoChance>0.05</BadPhotoChance>
+  <ValueMultiplier>0.8</ValueMultiplier>
+ </SkillProgression>
+<SkillProgression>
+  <SkillLevel>5</SkillLevel>
+  <SizeUnlocks>Large</SizeUnlocks>
+  <BadPhotoChance>0.05</BadPhotoChance>
+  <ValueMultiplier>1</ValueMultiplier>
+ </SkillProgression>
+<SkillProgression>
+  <SkillLevel>6</SkillLevel>
+  <FeatureUnlocks>ZoomUpgrade</FeatureUnlocks>
+  <BadPhotoChance>0.03</BadPhotoChance>
+  <ValueMultiplier>1.1</ValueMultiplier>
+ </SkillProgression>
+<SkillProgression>
+  <SkillLevel>7</SkillLevel>
+  <BadPhotoChance>0.01</BadPhotoChance>
+  <ValueMultiplier>1.25</ValueMultiplier>
+ </SkillProgression>
+<SkillProgression>
+  <SkillLevel>8</SkillLevel>
+  <StyleUnlocks>PhotoVignette</StyleUnlocks>
+  <BadPhotoChance>0.01</BadPhotoChance>
+  <ValueMultiplier>1.45</ValueMultiplier>
+ </SkillProgression>
+<SkillProgression>
+  <SkillLevel>9</SkillLevel>
+  <BadPhotoChance>0.01</BadPhotoChance>
+  <ValueMultiplier>1.5</ValueMultiplier>
+ </SkillProgression>
+<SkillProgression>
+  <SkillLevel>10</SkillLevel>
+  <SizeUnlocks>Panorama</SizeUnlocks>
+  <BadPhotoChance>0</BadPhotoChance>
+  <ValueMultiplier>2</ValueMultiplier>
+ </SkillProgression>
+<Styles>
+  <Style></Style>
+  <SKU></SKU>
+  <NameKey></NameKey>
+  <DescriptionKey></DescriptionKey>
+  <UseForFailureChance></UseForFailureChance>
+  <SkillCost>0</SkillCost>
+  <NonSkillCost>0</NonSkillCost>
+  <ValueMultiplier></ValueMultiplier>
+ </Styles>
+<Styles>
+  <Style>PhotoPlain</Style>
+  <NameKey>PhotoPlainName</NameKey>
+  <DescriptionKey>PhotoPlainDescription</DescriptionKey>
+  <UseForFailureChance>0</UseForFailureChance>
+  <SkillCost>0</SkillCost>
+  <ValueMultiplier>1</ValueMultiplier>
+ </Styles>
+<Styles>
+  <Style>PhotoSepia</Style>
+  <NameKey>PhotoSepiaName</NameKey>
+  <DescriptionKey>PhotoSepiaDescription</DescriptionKey>
+  <UseForFailureChance>0</UseForFailureChance>
+  <SkillCost>5</SkillCost>
+  <ValueMultiplier>1.25</ValueMultiplier>
+ </Styles>
+<Styles>
+  <Style>PhotoGray</Style>
+  <NameKey>PhotoGrayName</NameKey>
+  <DescriptionKey>PhotoGrayDescription</DescriptionKey>
+  <UseForFailureChance>0</UseForFailureChance>
+  <SkillCost>5</SkillCost>
+  <ValueMultiplier>1.1</ValueMultiplier>
+ </Styles>
+<Styles>
+  <Style>PhotoVignette</Style>
+  <NameKey>PhotoVignetteName</NameKey>
+  <DescriptionKey>PhotoVignetteDescription</DescriptionKey>
+  <UseForFailureChance>0</UseForFailureChance>
+  <SkillCost>7</SkillCost>
+  <ValueMultiplier>1.4</ValueMultiplier>
+ </Styles>
+<Styles>
+  <Style>PhotoFail_Gnome</Style>
+  <SKU>EP1</SKU>
+  <NameKey>PhotoFail_GnomeName</NameKey>
+  <DescriptionKey>PhotoFail_GnomeDescription</DescriptionKey>
+  <UseForFailureChance>1</UseForFailureChance>
+  <SkillCost>1</SkillCost>
+  <ValueMultiplier>1</ValueMultiplier>
+ </Styles>
+<Styles>
+  <Style>PhotoFail_Finger</Style>
+  <NameKey>PhotoFail_FingerName</NameKey>
+  <UseForFailureChance>6</UseForFailureChance>
+  <ValueMultiplier>1</ValueMultiplier>
+ </Styles>
+<Styles>
+  <Style>PhotoFail_Blurry</Style>
+  <NameKey>PhotoFail_BlurryName</NameKey>
+  <UseForFailureChance>6</UseForFailureChance>
+  <ValueMultiplier>1</ValueMultiplier>
+ </Styles>
+<Styles>
+  <Style>PhotoFail_Noise</Style>
+  <NameKey>PhotoFail_NoiseName</NameKey>
+  <UseForFailureChance>3</UseForFailureChance>
+  <ValueMultiplier>1</ValueMultiplier>
+ </Styles>
+<Sizes>
+  <Size></Size>
+  <SKU></SKU>
+  <NameKey></NameKey>
+  <DescriptionKey></DescriptionKey>
+  <UIFrame></UIFrame>
+  <SkillCost></SkillCost>
+  <NonSkillCost>0</NonSkillCost>
+  <ValueMultiplier></ValueMultiplier>
+ </Sizes>
+<Sizes>
+  <Size>Tiny</Size>
+  <NameKey>TinyName</NameKey>
+  <DescriptionKey>TinyDescription</DescriptionKey>
+  <SkillCost>0</SkillCost>
+  <ValueMultiplier>0.2</ValueMultiplier>
+ </Sizes>
+<Sizes>
+  <Size>Small</Size>
+  <NameKey>SmallName</NameKey>
+  <DescriptionKey>SmallDescription</DescriptionKey>
+  <UIFrame>0</UIFrame>
+  <SkillCost>6</SkillCost>
+  <ValueMultiplier>0.6</ValueMultiplier>
+ </Sizes>
+<Sizes>
+  <Size>Medium</Size>
+  <NameKey>MediumName</NameKey>
+  <DescriptionKey>MediumDescription</DescriptionKey>
+  <UIFrame>1</UIFrame>
+  <SkillCost>13</SkillCost>
+  <ValueMultiplier>1</ValueMultiplier>
+ </Sizes>
+<Sizes>
+  <Size>Large</Size>
+  <NameKey>LargeName</NameKey>
+  <DescriptionKey>LargeDescription</DescriptionKey>
+  <UIFrame>2</UIFrame>
+  <SkillCost>20</SkillCost>
+  <ValueMultiplier>1.5</ValueMultiplier>
+ </Sizes>
+<Sizes>
+  <Size>Panorama</Size>
+  <NameKey>PanoramaName</NameKey>
+  <DescriptionKey>PanoramaDescription</DescriptionKey>
+  <UIFrame>3</UIFrame>
+  <SkillCost>35</SkillCost>
+  <ValueMultiplier>2.3</ValueMultiplier>
+ </Sizes>
+<Sizes>
+  <Size>SmartPhone</Size>
+  <NameKey>SmartPhoneName</NameKey>
+  <DescriptionKey>SmartPhoneDescription</DescriptionKey>
+  <UIFrame>4</UIFrame>
+  <SkillCost>0</SkillCost>
+  <ValueMultiplier>0.75</ValueMultiplier>
+ </Sizes>
+<Sizes>
+  <Size>SmartPhoneHorizontal</Size>
+  <NameKey>SmartPhoneHorizontalName</NameKey>
+  <DescriptionKey>SmartPhoneHorizontalDescription</DescriptionKey>
+  <UIFrame>5</UIFrame>
+  <SkillCost>0</SkillCost>
+  <ValueMultiplier>0.75</ValueMultiplier>
+ </Sizes>
+<Poses>
+  <Pose></Pose>
+  <Trait></Trait>
+  <Chance>1</Chance>
+  <MinTime>3</MinTime>
+  <MaxTime>6</MaxTime>
+  <LocalizationKey></LocalizationKey>
+  <CanAskFor>True</CanAskFor>
+ </Poses>
+<Poses>
+  <Pose>idle</Pose>
+  <Chance>3</Chance>
+ </Poses>
+<Poses>
+  <Pose>pose1</Pose>
+  <LocalizationKey>pose1</LocalizationKey>
+ </Poses>
+<Poses>
+  <Pose>pose2</Pose>
+  <LocalizationKey>pose2</LocalizationKey>
+ </Poses>
+<Poses>
+  <Pose>pose3</Pose>
+  <LocalizationKey>pose3</LocalizationKey>
+ </Poses>
+<Poses>
+  <Pose>pose4</Pose>
+  <LocalizationKey>pose4</LocalizationKey>
+ </Poses>
+<Poses>
+  <Pose>pose5</Pose>
+  <LocalizationKey>pose5</LocalizationKey>
+ </Poses>
+<Poses>
+  <Pose>hiddenCultureTraits_Asia_pose1</Pose>
+  <Trait>CultureChina</Trait>
+  <LocalizationKey>asiapose1</LocalizationKey>
+ </Poses>
+<Poses>
+  <Pose>hiddenCultureTraits_Asia_pose2</Pose>
+  <Trait>CultureChina</Trait>
+  <LocalizationKey>asiapose2</LocalizationKey>
+ </Poses>
+<Poses>
+  <Pose>hiddenCultureTraits_Asia_pose3</Pose>
+  <Trait>CultureChina</Trait>
+  <LocalizationKey>asiapose3</LocalizationKey>
+ </Poses>
+</Photography>

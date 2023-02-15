@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAggregateMoneyBagValuePerHarvestCycle value="100, 1900">
+      <!--Aggregate value of all money bags per *harvest cycle* (for Money Trees with Neutral or better quality).  Actual value used is a linear interpolation of this.  Format: (Aggregate value of all Money Bags for Money Trees at the lower bound of the Neutral quality level, Aggregate value of all Money Bags for Money Trees at the upper bound of the Perfect quality level).-->
+    </kAggregateMoneyBagValuePerHarvestCycle>
+    <kVarianceMultiplierAggregateMoneyBagValue value="0.9, 1.1">
+      <!--Variance multiplier of aggregate Money Bag payout per *harvest cycle* (for Money Trees with Neutral or better quality).  Total payout for a harvest cycle is the aggregate value multiplied by a random value within this range.  Format: (Min multiplier, Max multiplier).-->
+    </kVarianceMultiplierAggregateMoneyBagValue>
+    <kMoneyBagValueForSubNeutralMoneyTree value="1, 25">
+      <!--Payout per *money bag* for Money Trees with quality level below Neutral.  Actual value is a random number in this range.  Format: (Min money bag value, Max money bag value).-->
+    </kMoneyBagValueForSubNeutralMoneyTree>
+    <kQualityIncrease value="0.091, 0.091, 0.091, 0.091, 0.091, 0.091, 0.075, 0.06, 0.05, 0.05, 0.04">
+      <!--Quality increase of Money Tree after each harvest cycle.  This array specifies the quality increments based on what the *current* Quality level of the Money Tree.  Format: (Horrifying, Putrid, Foul, Bad, Neutral, Nice, VeryNice, Great, Excellent, Outstanding, Perfect).-->
+    </kQualityIncrease>
+    <kNumBillsOnDeath value="2,4">
+      <!--Number of Bills to leave on the ground when the Money Tree dies.  A random number of bills in this range is chosen.  Note:  The *aggregate amount* of the bills is divided amongst however many bills are specified here.  Format: (min number of bills, max number of bills).-->
+    </kNumBillsOnDeath>
+    <kAggregateBillValueOnDeath value="1, 5, 7, 10, 50, 100, 250, 500, 1000, 2500, 10000">
+      <!--Aggregate value of all bills when Money Tree dies (for each Quality level of the Money Tree). Format: (Horrifying, Putrid, Foul, Bad, Neutral, Nice, VeryNice, Great, Excellent, Outstanding, Perfect).-->
+    </kAggregateBillValueOnDeath>
+    <kVarianceMultiplierAggregateBillValue value="0.9, 1.1">
+      <!--Variance multiplier of aggregate Bill value when Money Tree dies.  Total payout for Bills is the aggregate value multiplied by a random value within this range.  Format: (Min multiplier, Max multiplier).-->
+    </kVarianceMultiplierAggregateBillValue>
+    <kBurglarHarvestTime value="5">
+      <!--Number of Sim minutes that the Burglar takes to perform the 'Harvest' interaction (i.e. 'stealing' the money bags).-->
+    </kBurglarHarvestTime>
+  </Current_Tuning>
+</base>

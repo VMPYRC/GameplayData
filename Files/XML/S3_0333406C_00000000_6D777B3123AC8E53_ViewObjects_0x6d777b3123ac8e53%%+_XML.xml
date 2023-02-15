@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLookAtPriorityForViewObjectInteraction value="60">
+      <!--Range: 0 to 100. Description: How important to when performing the View interaction on fountains, paintings, sculptures etc.-->
+    </kLookAtPriorityForViewObjectInteraction>
+    <kPreferViewablesWatchedByOthersMultiplier value="1.5">
+      <!--Range: 0 to 10.  How much more interesting it is to look at paintings that are being looked at by others-->
+    </kPreferViewablesWatchedByOthersMultiplier>
+    <kMinViewingTime value="15">
+      <!--Range: Sim Minutes.  The minimum time a Sim will stop to look at a viewable-->
+    </kMinViewingTime>
+    <kMaxViewingTime value="45">
+      <!--Range: Sim Minutes.  The maximum time a Sim will stop to look at a viewable-->
+    </kMaxViewingTime>
+    <kMinAgeOfObjectInDaysToEnableReminisce value="1" />
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kDistanceFromWhichSimViews value="5">
+      <!--deprecated on: 1/12/2008 8:53:41 PM-->
+    </kDistanceFromWhichSimViews>
+  </Deprecated_Tuning>
+</base>

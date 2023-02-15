@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSniffHighLikingThreshold value="25">
+      <!--Sniff: Float in range -100 to 100.  The LTR liking required for two pets (or a sim and a pet) to be considered having a high LTR.-->
+    </kSniffHighLikingThreshold>
+    <kPuppyKittenChanceToStumbleWhileRunning value="0.6">
+      <!--Range: Probability 0 - 1.0. Chance that a puppy or kitten will stumble at the end of a running route.-->
+    </kPuppyKittenChanceToStumbleWhileRunning>
+    <kPuppyKittenChanceToStumbleWhileWalking value="0.4">
+      <!--Range: Positive float 0 - 100. Chance that a puppy or kitten will stumble at the end of a walking route.-->
+    </kPuppyKittenChanceToStumbleWhileWalking>
+    <kFavoriteSleepingSpotScoreMultiplier value="5">
+      <!--Range: Floats above 1.0. Autonomy score multiplier for being the pet's favorite spot to sleep on.-->
+    </kFavoriteSleepingSpotScoreMultiplier>
+    <kFavoriteSleepingSpotWeightNearHighRelSimIfLoyal value="1">
+      <!--Range: Positive floats. Weighting to add to kFavoriteSleepingSpotWeights for sleeping near high rel sim when the pet is a Loyal Pet.-->
+    </kFavoriteSleepingSpotWeightNearHighRelSimIfLoyal>
+    <kLikingThresholdToConsiderSleepingNearBed value="50">
+      <!--Range: Floats -100 - 100. LTR Liking threshold to be considered for having the pet pick a spot near this sim's bed as the pet's favorite sleeping spot.-->
+    </kLikingThresholdToConsiderSleepingNearBed>
+    <kChanceToUseFavoriteSurfaceOrFloorSpot value="40">
+      <!--Range: Floats 0-100. Chance for a pet to sleep in its favorite spot, if that spot is a surface/floor spot. (i.e. one that uses the PetSurfacePosture.LayDownHere interaction)-->
+    </kChanceToUseFavoriteSurfaceOrFloorSpot>
+    <kSpecialSleepingSpotWeighting value="3, 1, 1, 1">
+      <!--Range: Positive floats. Weighting to choose to [SleepNearMom, SleepNearMate, SleepNearBFF, NoSpecialSpot].-->
+    </kSpecialSleepingSpotWeighting>
+    <kSleepNearBFFLoyalPetAdditionalWeighting value="0.5">
+      <!--Range: Positive floats. Weighting to add to kSpecialSleepingSpotWeighting for SleepingNearBFF when the pet is a Loyal Pet.-->
+    </kSleepNearBFFLoyalPetAdditionalWeighting>
+    <kDogFavoriteSleepingSpotWeights value="1, 5, 3">
+      <!--Range: Floats 0-100. [Weighting for a Dog to decide that this new spot is their favorite sleeping spot, Weighting to pick a spot near a high rel sim (if exists), Weighting to do neither]-->
+    </kDogFavoriteSleepingSpotWeights>
+    <kCatFavoriteSleepingSpotWeights value="2, 4, 4">
+      <!--Range: Floats 0-100. [Weighting for a Cat to decide that this new spot is their favorite sleeping spot, Weighting to pick a spot near a high rel sim (if exists), Weighting to do neither]-->
+    </kCatFavoriteSleepingSpotWeights>
+    <kHorseFavoriteSleepingSpotChance value="25">
+      <!--Range: Floats 0-100. Weighting for a Horse to decide that this new spot is their favorite sleeping spot.-->
+    </kHorseFavoriteSleepingSpotChance>
+  </Current_Tuning>
+</base>

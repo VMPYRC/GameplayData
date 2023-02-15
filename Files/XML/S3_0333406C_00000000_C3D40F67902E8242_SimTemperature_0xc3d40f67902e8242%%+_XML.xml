@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTemperatureChangeRateIndoors value="40">
+      <!--Range - positive floats. How quickly sim's temperatures will return to normal when indoors in temp/hour (AKA sim's temperature motive gains/loses this amount of temperature every motive update when indoors)-->
+    </kTemperatureChangeRateIndoors>
+    <kFrostbittenGoAwayFasterTempThreshold value="-1">
+      <!--Range - floats (-100 - 100). If temperature is above this threshold, sim's frostbite buff goes away faster.-->
+    </kFrostbittenGoAwayFasterTempThreshold>
+    <kFrostbittenGoAwayFasterRate value="60">
+      <!--Range - positive floats (rate = min/hour). If sim keeps temperature above certain threshold, this is the rate at which frostbite buff will get time subtracted away (rate is in terms of mins subtracted per sim update).-->
+    </kFrostbittenGoAwayFasterRate>
+    <kVampireHeatGainMultiplier value="1.5">
+      <!--Range - positive floats. If sim is gaining temperature and sim is vampire, they get this multiplier on the heat gain.-->
+    </kVampireHeatGainMultiplier>
+    <kSimNeutralTempInWorldTemp value="60">
+      <!--Range - positive floats. Sim Neutral Temp = 0. This variable defines the world temp that equals sim neutral temp. AKA if world Temp < this number, sims will get colder when ouside, if world temp > this number, sims get warmer when outside-->
+    </kSimNeutralTempInWorldTemp>
+    <kTemperatureChangeRateOutdoors value="10">
+      <!--Range - positive floats. How quickly sim's temperatures will change to the world temp when outdoors in temp/hour-->
+    </kTemperatureChangeRateOutdoors>
+    <kTemperatureThresholdToGetSuntanned value="50">
+      <!--Range - positive floats. If Sim is outside in swimwear/undies and their temperature raises past this threshold, they get the suntanned moodlet.-->
+    </kTemperatureThresholdToGetSuntanned>
+    <kTemperatureThresholdToGetSunburned value="75">
+      <!--Range - positive floats. If Sim is outside in swimwear/undies and their temperature raises past this threshold, they get the sunburned moodlet.-->
+    </kTemperatureThresholdToGetSunburned>
+    <kMinTemperatureWhenWearingWinterClothes value="-60">
+      <!--Range - negative floats. Sims wearing winter clothes will not have their temperature fall below this threshold-->
+    </kMinTemperatureWhenWearingWinterClothes>
+    <kSuntanColoration value="0, 1, 0.5, 0, 0.4, 0.7, 0, 0, 0">
+      <!--Range: float array size: 9.  Description:  Tuning for how suntan skin coloration looks. Index 0 = (0 if whole body, 1 if dual tone, 2 if failed tan, 3 if sunburnt). Index 1-3 is the color (R,G,B). Index 4 = (alpha to blend with skin tone). Index 5 = (darkening factor). Index 6-8=(color 2 to use if using spots).-->
+    </kSuntanColoration>
+    <kSunburntColoration value="3, 1, 0.5, 0, 0.6, 0.8, 1, 0, 0">
+      <!--Range: float array size: 9.  Description:  Tuning for how sunburn skin coloration looks. Index 0 = (0 if whole body, 1 if dual tone, 2 if failed tan, 3 if sunburnt). Index 1-3 is the color (R,G,B). Index 4 = (alpha to blend with skin tone). Index 5 = (darkening factor). Index 6-8=(color 2 to use if using spots).-->
+    </kSunburntColoration>
+    <kFrostbittenColoration value="0, 0.9, 0.9, 1.3, 0.8, 1, 0, 0, 0">
+      <!--Range: float array size: 9.  Description:  Tuning for how frostbite skin coloration looks. Index 0 = (0 if whole body, 1 if dual tone, 2 if failed tan, 3 if sunburnt). Index 1-3 is the color (R,G,B). Index 4 = (alpha to blend with skin tone). Index 5 = (darkening factor). Index 6-8=(color 2 to use if using spots).-->
+    </kFrostbittenColoration>
+    <kTemperatureToConsiderHot value="30">
+      <!--Range - positive floats. When outside temperature (translated to sim temperature) is above this threshold, it's considered hot. This is used for deciding when outerwear will make sim temp increase faster-->
+    </kTemperatureToConsiderHot>
+    <kWinterClothesHeatGainMultiplier value="3">
+      <!--Range - positive floats > 1. When it's hot outside, wearing winter clothes will make sim temp increase this times faster-->
+    </kWinterClothesHeatGainMultiplier>
+    <kTemperatureToConsiderCold value="-30">
+      <!--Range - negative. When outside temperature (translated to sim temperature) is below this threshold, it's considered cold. This is used for deciding when wearing undies/swimwear will make sim temp drop faster-->
+    </kTemperatureToConsiderCold>
+    <kNotEnoughClothesColdGainMultiplier value="3">
+      <!--Range - positive floats > 1. When it's cold outside, wearing undies/swimwear will make sim temp drop this times faster-->
+    </kNotEnoughClothesColdGainMultiplier>
+    <kTemperatureThresholdToGetFrostbitten value="-95">
+      <!--Range - negative floats. If Sim temperature falls past this threshold, they get the frostbitten moodlet.-->
+    </kTemperatureThresholdToGetFrostbitten>
+    <kTemperatureThresholdToRemoveFrozenSolid value="-80">
+      <!--Range - negative floats. If Sim temperature rises past threshold, they are no longer frozen solid.-->
+    </kTemperatureThresholdToRemoveFrozenSolid>
+    <kFrostbittenUnpauseBuffThreshold value="-60">
+      <!--Range - negative floats. If temperature is above this threshold, sim's frostbite buff will unpause, allowing the timer to tick down.-->
+    </kFrostbittenUnpauseBuffThreshold>
+    <kSimTempToWorldTempMultiplier value="3">
+      <!--Range - positive floats. Used to convert world temperature to sim temperature. We subtract a constant (kSimNeutralTempInWorldTemp) and then multiply by this number-->
+    </kSimTempToWorldTempMultiplier>
+    <kTemperatureThresholdToStartColdBreathEffect value="32">
+      <!--Range - Fahrenheit. If World temperature falls below this threshold, sims get the cold breath effect. (above this threshold, cold breath effect stops)-->
+    </kTemperatureThresholdToStartColdBreathEffect>
+    <kTemperatureAddedAfterSpontaneouslyCombusted value="-15">
+      <!--Range: negative floats. Amount of temperature we change sim temperature by when sim stops being spontaneously combusted. (this prevents sims from repeatedly catching on fire)-->
+    </kTemperatureAddedAfterSpontaneouslyCombusted>
+    <kBadSprayTanColoration value="3, 1, 0.5, 0, 0.6, 0, 1, 0, 0">
+      <!--Range: float array size: 9.  Description:  Tuning for how a bad (extremely dark) spray tan skin coloration looks. Index 0 = (0 if whole body, 1 if dual tone, 2 if failed tan, 3 if sunburnt). Index 1-3 is the color (R,G,B). Index 4 = (alpha to blend with skin tone). Index 5 = (darkening factor). Index 6-8=(color 2 to use if using spots).-->
+    </kBadSprayTanColoration>
+    <kPurpleSprayTanColoration value="1, 0.79, 0.6, 0.8, 0.8, 1.5, 0.85, 0.5, 0.8">
+      <!--Range: float array size: 9.  Description:  Tuning for how a purple spray tan skin coloration looks. Index 0 = (0 if whole body, 1 if dual tone, 2 if failed tan, 3 if sunburnt). Index 1-3 is the color (R,G,B). Index 4 = (alpha to blend with skin tone). Index 5 = (darkening factor). Index 6-8=(color 2 to use if using spots).-->
+    </kPurpleSprayTanColoration>
+    <kYellowSprayTanColoration value="1, 1, 0.4, 0, 0.99, 1.5, 1, 0.3, 0">
+      <!--Range: float array size: 9.  Description:  Tuning for how a yellow spray tan skin coloration looks. Index 0 = (0 if whole body, 1 if dual tone, 2 if failed tan, 3 if sunburnt). Index 1-3 is the color (R,G,B). Index 4 = (alpha to blend with skin tone). Index 5 = (darkening factor). Index 6-8=(color 2 to use if using spots).-->
+    </kYellowSprayTanColoration>
+    <kGreenSprayTanColoration value="1, 0.64, 0.82, 0.39, 0.7, 1.5, 0.6, 0.7, 0.39">
+      <!--Range: float array size: 9.  Description:  Tuning for how a green spray tan skin coloration looks. Index 0 = (0 if whole body, 1 if dual tone, 2 if failed tan, 3 if sunburnt). Index 1-3 is the color (R,G,B). Index 4 = (alpha to blend with skin tone). Index 5 = (darkening factor). Index 6-8=(color 2 to use if using spots).-->
+    </kGreenSprayTanColoration>
+    <kUnevenSprayTanColoration value="2, 2, 0.5, 0, 0.4, 0.7, 0, 0, 0">
+      <!--Range: float array size: 9.  Description:  Tuning for how an uneven spray tan skin coloration looks. Index 0 = (0 if whole body, 1 if dual tone, 2 if failed tan, 3 if sunburnt). Index 1-3 is the color (R,G,B). Index 4 = (alpha to blend with skin tone). Index 5 = (darkening factor). Index 6-8=(color 2 to use if using spots).-->
+    </kUnevenSprayTanColoration>
+    <kSuntanColorationAlien value="0, 1, 0.5, 0, 0.4, 0.7, 0, 0, 0">
+      <!--Range: float array size: 9.  Description:  Tuning for how suntan skin coloration looks. Index 0 = (0 if whole body, 1 if dual tone, 2 if failed tan, 3 if sunburnt). Index 1-3 is the color (R,G,B). Index 4 = (alpha to blend with skin tone). Index 5 = (darkening factor). Index 6-8=(color 2 to use if using spots).-->
+    </kSuntanColorationAlien>
+    <kSunburntColorationAlien value="3, 1, 0.5, 0, 0.6, 0.8, 1, 0, 0">
+      <!--Range: float array size: 9.  Description:  Tuning for how sunburn skin coloration looks. Index 0 = (0 if whole body, 1 if dual tone, 2 if failed tan, 3 if sunburnt). Index 1-3 is the color (R,G,B). Index 4 = (alpha to blend with skin tone). Index 5 = (darkening factor). Index 6-8=(color 2 to use if using spots).-->
+    </kSunburntColorationAlien>
+    <kBadSprayTanColorationAlien value="3, 1, 0.5, 0, 0.6, 0, 1, 0, 0">
+      <!--Range: float array size: 9.  Description:  Tuning for how a bad (extremely dark) spray tan skin coloration looks. Index 0 = (0 if whole body, 1 if dual tone, 2 if failed tan, 3 if sunburnt). Index 1-3 is the color (R,G,B). Index 4 = (alpha to blend with skin tone). Index 5 = (darkening factor). Index 6-8=(color 2 to use if using spots).-->
+    </kBadSprayTanColorationAlien>
+    <kUnevenSprayTanColorationAlien value="2, 2, 0.5, 0, 0.4, 0.7, 0, 0, 0">
+      <!--Range: float array size: 9.  Description:  Tuning for how an uneven spray tan skin coloration looks. Index 0 = (0 if whole body, 1 if dual tone, 2 if failed tan, 3 if sunburnt). Index 1-3 is the color (R,G,B). Index 4 = (alpha to blend with skin tone). Index 5 = (darkening factor). Index 6-8=(color 2 to use if using spots).-->
+    </kUnevenSprayTanColorationAlien>
+    <kPurpleSprayTanColorationAlien value="1, 0.79, 0.6, 0.8, 0.8, 1.5, 0.85, 0.5, 0.8">
+      <!--Range: float array size: 9.  Description:  Tuning for how a purple spray tan skin coloration looks. Index 0 = (0 if whole body, 1 if dual tone, 2 if failed tan, 3 if sunburnt). Index 1-3 is the color (R,G,B). Index 4 = (alpha to blend with skin tone). Index 5 = (darkening factor). Index 6-8=(color 2 to use if using spots).-->
+    </kPurpleSprayTanColorationAlien>
+    <kYellowSprayTanColorationAlien value="1, 1, 0.4, 0, 0.99, 1.5, 1, 0.3, 0">
+      <!--Range: float array size: 9.  Description:  Tuning for how a yellow spray tan skin coloration looks. Index 0 = (0 if whole body, 1 if dual tone, 2 if failed tan, 3 if sunburnt). Index 1-3 is the color (R,G,B). Index 4 = (alpha to blend with skin tone). Index 5 = (darkening factor). Index 6-8=(color 2 to use if using spots).-->
+    </kYellowSprayTanColorationAlien>
+    <kGreenSprayTanColorationAlien value="1, 0.64, 0.82, 0.39, 0.7, 1.5, 0.6, 0.7, 0.39">
+      <!--Range: float array size: 9.  Description:  Tuning for how a green spray tan skin coloration looks. Index 0 = (0 if whole body, 1 if dual tone, 2 if failed tan, 3 if sunburnt). Index 1-3 is the color (R,G,B). Index 4 = (alpha to blend with skin tone). Index 5 = (darkening factor). Index 6-8=(color 2 to use if using spots).-->
+    </kGreenSprayTanColorationAlien>
+    <kTemperatureDeltaFrostyFace value="10">
+      <!--Range: Positive float (we will manually apply pos/neg). Amount of temperature we change sim temperature by when sim has Frosty Face Buff.-->
+    </kTemperatureDeltaFrostyFace>
+    <kDelayBeforeSoakedBuffFromRain value="60, 55, 50">
+      <!--Range: Positive float in sim minutes for Light, Medium, Heavy rain. Amount of delay minutes before applying the soaked buff (per rain intensity), so if sims are only outside for a split second, they won't immediately get wet.-->
+    </kDelayBeforeSoakedBuffFromRain>
+    <kImmuneToColdTraitPreventsBuffs value="TeethChattering, Frostbitten, FrostyFace, GettingChilly, StartingToShiver">
+      <!--Sims with 'Immune To Cold' Trait will not get any of these buffs-->
+    </kImmuneToColdTraitPreventsBuffs>
+    <kImmuneToHeatTraitPreventsBuffs value="GettingWarm, SweatingProfusely, Sunburnt, StartingToSweat">
+      <!--Sims with 'Immune To Heat' Trait will not get any of these buffs-->
+    </kImmuneToHeatTraitPreventsBuffs>
+    <kTempCapImmuneToCold value="-60">
+      <!--Range - negative floats. Sims with Immune to Cold trait will have their temp capped to this.-->
+    </kTempCapImmuneToCold>
+    <kTempCapImmuneToHeat value="60">
+      <!--Range - positive floats. Sims with Immune to Heat trait will have their temp capped to this.-->
+    </kTempCapImmuneToHeat>
+    <kTempMultiplierForLovesTheColdTrait value="0.5">
+      <!--Range: Positive floats.  Description:  Decay multiplier for sim temperature if its below 0 and sim has Loves the Cold Trait.-->
+    </kTempMultiplierForLovesTheColdTrait>
+    <kTempMultiplierForLovesTheHeatTrait value="0.5">
+      <!--Range: Positive floats.  Description:  Decay multiplier for sim temperature if its Above 0 and sim has Loves the Heat Trait.-->
+    </kTempMultiplierForLovesTheHeatTrait>
+    <kOccultTemperatureRangeCaps value="-25, 25">
+      <!--Range: float array size 2 [min, max].  Description:  occult sim's temperatures do not go below the min and do not go above the max of this tunable.-->
+    </kOccultTemperatureRangeCaps>
+    <kOccultsThatCanHaveSimTemperature value="Vampire, Werewolf, Fairy, Witch, Mermaid">
+      <!--Range: list of OccultTypes. Description: list of occults that can have sim temperature to the full extent alway (Note imaginary friend is different because it doesn't have temperature when imaginary) .-->
+    </kOccultsThatCanHaveSimTemperature>
+    <kTempBoostingBuffs value="CozyFire, Warmed, FlameOn, OnFire">
+      <!--Sims with these buffs will have their temp raised by x in CalculateSimTemperatureChangeAndBuffs if their current temp is less than 0.-->
+    </kTempBoostingBuffs>
+    <kTemperatureChangeRateTempBoostingBuff value="25">
+      <!--Range - positive floats. If a Sim has one of the buffs defined in kTempBoostingBuffs, their temperature change rate will be at least this amount.-->
+    </kTemperatureChangeRateTempBoostingBuff>
+    <kDelayBeforeSoakedBuffFromRainForFrankenstein value="75, 70, 65">
+      <!--Range: Positive float in sim minutes for Light, Medium, Heavy rain. Amount of delay minutes before applying the soaked buff (per rain intensity) for frankenstein. THis is because frankensteins short out, so it's nice to be a bit forgiving.-->
+    </kDelayBeforeSoakedBuffFromRainForFrankenstein>
+    <kVampireHeatingUpNonSunnyBuffDelayTimer value="120">
+      <!--Range - positive floats. Delay timer for a vampire getting the HeatingUp buff if it's not sunny outside-->
+    </kVampireHeatingUpNonSunnyBuffDelayTimer>
+  </Current_Tuning>
+</base>

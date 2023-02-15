@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kProtestDuration value="0, 4, 4, 4">
+      <!--The duration of the protest once it has officially started in sim hours-->
+    </kProtestDuration>
+    <kMaxRandomOutcomeMultiplier value="1.15">
+      <!--The max size of the modifier to apply to the outcome of the protest-->
+    </kMaxRandomOutcomeMultiplier>
+    <kMinRandomOutcomeMultiplier value="0.85">
+      <!--The min size of the modifier to apply to the outcome of the protest-->
+    </kMinRandomOutcomeMultiplier>
+    <kBrokenUpOutcomeThreshold value="50">
+      <!--The protest score under which da popo breaks up the protest - 100 point scale-->
+    </kBrokenUpOutcomeThreshold>
+    <kLostMomentumOutcomeThreshold value="80">
+      <!--The protest score under which momentum was lost (provided it wasn't broken up) - 100 point scale-->
+    </kLostMomentumOutcomeThreshold>
+    <kProtestBroadcastParams>
+      <PulseRadius value="200">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="8">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="False">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="False">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kProtestBroadcastParams>
+    <kMinProtestRadius value="0.5">
+      <!--DONT CHANGE UNLESS YOU KNOW WHAT YOU ARE DOING.  Units: meters/tiles Minimum Radius for routing to city hall for protest-->
+    </kMinProtestRadius>
+    <kMaxProtestRadius value="6.0">
+      <!--DONT CHANGE UNLESS YOU KNOW WHAT YOU ARE DOING.  Units: meters/tiles Max Radius for routing to city hall for protest-->
+    </kMaxProtestRadius>
+    <kProtestTNSHoursBefore value="1">
+      <!--The time in sim hours before the protest to show the tns-->
+    </kProtestTNSHoursBefore>
+    <kProtestAttendenceThresholds value="0, 3, 5, 10, 15, 20, 30, 40, 55, 70, 85, 100">
+      <!--ImprovedProtestType score attendance thresholds.  If the protest score is over the amount attendence will increase by 1.-->
+    </kProtestAttendenceThresholds>
+    <kPulseTime value="8">
+      <!--The time between protest self updates in sim minutes-->
+    </kPulseTime>
+    <kChanceOfProtestForDaysOfWeek value="0.15, 0.2, 0.0, 0.15, 0.0, 0.2, 0.25">
+      <!--Chances (0 to 1) of each day of the week having an NPC ImprovedProtestType.  Format: (chanceSun, chanceMon, chanceTues, chanceWed, chanceThurs, chanceFri, chanceSat).-->
+    </kChanceOfProtestForDaysOfWeek>
+    <kProtestTimesSunday value="14.0, 16.0, 15.0">
+      <!--Valid ImprovedProtestType times on Sundays.  Use 6 for 6:00 AM, 13.5 for 1:30 PM, etc.  Format: (earliestStartTime, latestStartTime, preferredStartTime).-->
+    </kProtestTimesSunday>
+    <kProtestTimesMonday value="14.0, 16.0, 15.0">
+      <!--Valid ImprovedProtestType times on Mondays.  Use 6 for 6:00 AM, 13.5 for 1:30 PM, etc.  Format: (earliestStartTime, latestStartTime, preferredStartTime).-->
+    </kProtestTimesMonday>
+    <kProtestTimesTuesday value="14.0, 16.0, 15.0">
+      <!--Valid ImprovedProtestType times on Tuesdays.  Use 6 for 6:00 AM, 13.5 for 1:30 PM, etc.  Format: (earliestStartTime, latestStartTime, preferredStartTime).-->
+    </kProtestTimesTuesday>
+    <kProtestTimesWednesday value="14.0, 16.0, 15.0">
+      <!--Valid ImprovedProtestType times on Wednesdays.  Use 6 for 6:00 AM, 13.5 for 1:30 PM, etc.  Format: (earliestStartTime, latestStartTime, preferredStartTime).-->
+    </kProtestTimesWednesday>
+    <kProtestTimesThursday value="14.0, 16.0, 15.0">
+      <!--Valid ImprovedProtestType times on Thursdays.  Use 6 for 6:00 AM, 13.5 for 1:30 PM, etc.  Format: (earliestStartTime, latestStartTime, preferredStartTime).-->
+    </kProtestTimesThursday>
+    <kProtestTimesFriday value="14.0, 16.0, 15.0">
+      <!--Valid ImprovedProtestType times on Fridays.  Use 6 for 6:00 AM, 13.5 for 1:30 PM, etc.  Format: (earliestStartTime, latestStartTime, preferredStartTime).-->
+    </kProtestTimesFriday>
+    <kProtestTimesSaturday value="14.0, 16.0, 15.0">
+      <!--Valid ImprovedProtestType times on Saturdays.  Use 6 for 6:00 AM, 13.5 for 1:30 PM, etc.  Format: (earliestStartTime, latestStartTime, preferredStartTime).-->
+    </kProtestTimesSaturday>
+    <kChanceForcePreferredStartTime value="0.4">
+      <!--When we're calculating the time at which an NPC ImprovedProtestType starts, this variable is the chance that we force it to start at the 'preferred' time for the current day of the week (i.e. the 3rd values in the kProtestTimesMonday, kProtestTimesTuesday, etc. arrays).-->
+    </kChanceForcePreferredStartTime>
+    <kScheduleHour value="4">
+      <!--Each day at this hour we roll to see if we're going to schedule a ImprovedProtestType for later in the day.  Set to 6 for 6:00 AM, 13.5 for 1:30 PM, etc.  Pick a value that won't have any NPC Parties going on (late enough that the last night's ImprovedProtestType will be over, but early enough that there are still a number of hours before the earliest possible start time for any day's ImprovedProtestType).-->
+    </kScheduleHour>
+    <kCelebrationOfGreatSuccessTuning>
+      <InteractionNameLocalizationKey value="Gameplay/Excel/Idles/Reactions:CheerInteractionName" />
+      <AllowAutonomous value="True" />
+      <Priority value="High" />
+      <CancellableByPlayer value="True" />
+      <Hidden value="False" />
+      <CelebrateAnimations value="Idle, Clap, Cheer, ThrowConfetti, HoldSign, HoldBalloon" />
+      <CelebrateAnimationWeights value="1, 1, 1, 1, 1, 1" />
+      <CelebrateAnimationTimes value="5, 5, 5, 10, 10, 10" />
+      <Reactions value="" />
+      <ReactionWeights value="" />
+      <SignImages value="SignPicketYeti" />
+      <RouteToTarget value="True" />
+    </kCelebrationOfGreatSuccessTuning>
+    <kProtestCelebrationDuration value="30">
+      <!--The time in sim minutes that the sims will celebrate their victory-->
+    </kProtestCelebrationDuration>
+    <kLifetimeHappinessRewardFromCause value="2000">
+      <!--The amount of lifetime happiness from a victorious protest-->
+    </kLifetimeHappinessRewardFromCause>
+    <kSpawnerPercentRewardFromCause value="3.0">
+      <!--The percent to amplify spawning - 1.0+ because it's a multiplier-->
+    </kSpawnerPercentRewardFromCause>
+    <kSpawnerCountRewardFromCause value="1">
+      <!--The boost to # spawned - 0+ because it's added-->
+    </kSpawnerCountRewardFromCause>
+    <kSkillIncreasePctRewardFromCause value="2.0">
+      <!--The percent to amplify skill learning - 1.0+ because it's a multiplier-->
+    </kSkillIncreasePctRewardFromCause>
+    <kGradeBoostPctRewardFromCause value="0.1">
+      <!--The percent to boost grades - 0.0 - 1.0-->
+    </kGradeBoostPctRewardFromCause>
+    <kTimeToAffectSpawners value="3">
+      <!--The time in days spawning is boosted-->
+    </kTimeToAffectSpawners>
+    <kCauseDifficulty value="0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2">
+      <!--The difficulty rating of a given protest: 0-2, where 0 is low and 2 is high-->
+    </kCauseDifficulty>
+    <kDecayPerMinute value="0.05, 0.1, 0.2">
+      <!--Rate of decay in score per minute of sim time based on protest difficulty-->
+    </kDecayPerMinute>
+    <kScoreBonusAddedPerSuccessfulFlyerHandout value="30, 20, 10">
+      <!--ImprovedProtestType score bonus for handing out a flyer-->
+    </kScoreBonusAddedPerSuccessfulFlyerHandout>
+    <kDifficultyMultiplierOnOutcomeCalculation value="1, 1, 1">
+      <!--ImprovedProtestType score bonus for handing out a flyer-->
+    </kDifficultyMultiplierOnOutcomeCalculation>
+    <kRebelSkillLevelMultiplierOnOutcomeCalculation value="1, 1, 1, 1.1, 1.2, 1.4, 1.6, 1.6, 1.8, 1.8, 2">
+      <!--ImprovedProtestType score bonus for handing out a flyer-->
+    </kRebelSkillLevelMultiplierOnOutcomeCalculation>
+    <kDecayDelayAfterActions value="30, 30, 30">
+      <!--Time to delay decaying after an interaction on the protest in sim minutes-->
+    </kDecayDelayAfterActions>
+    <kCanvasTimeout value="360">
+      <!--Sim minutes before you can repeat canvass someone-->
+    </kCanvasTimeout>
+    <kBonusFromGiveImpassionedSpeech value="22">
+      <!--ImprovedProtestType score increment for GiveImpassionedSpeech-->
+    </kBonusFromGiveImpassionedSpeech>
+    <kBonusFromRileTheCrowd value="22">
+      <!--ImprovedProtestType score increment for RileTheCrowd-->
+    </kBonusFromRileTheCrowd>
+    <kBonusFromLeadAChant value="22">
+      <!--ImprovedProtestType score increment for LeadAChant-->
+    </kBonusFromLeadAChant>
+    <kCarryPicketSignDuration value="20">
+      <!--Time to loop in Carry Picket Sign before choosing another interaction, time in sim minutes 0+-->
+    </kCarryPicketSignDuration>
+    <kUseMegaphoneDuration value="15">
+      <!--Time to loop in Megaphone rant before choosing another interaction, time in sim minutes 0+-->
+    </kUseMegaphoneDuration>
+    <kFailTurnOnChance value="10">
+      <!--Chance to get the 'Is this thing on?' reaction starting an interaction.  Float 0-100-->
+    </kFailTurnOnChance>
+    <kFeedbackChance value="10">
+      <!--Chance to have the megaphone feedback when starting an interaction.  Float 0-100-->
+    </kFeedbackChance>
+    <kDaysToWaitForNPCProtests value="0">
+      <!--Days to wait after a protest to schedule an NPC protest-->
+    </kDaysToWaitForNPCProtests>
+    <kReactToRantBroadcastParams>
+      <PulseRadius value="15">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="20">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="3">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kReactToRantBroadcastParams>
+    <kMinWatchDistance value="3">
+      <!--Minimum distance a sim will stand away from the ranter to watch.-->
+    </kMinWatchDistance>
+    <kMaxWatchDistance value="6">
+      <!--Maximum distance a sim will stand away from the ranter to watch.-->
+    </kMaxWatchDistance>
+    <kChanceToObserveRanter value="50">
+      <!--Percent chance to observe a ranting sim. 0-100 float-->
+    </kChanceToObserveRanter>
+    <kTimeBetweenWatcherReactions value="10">
+      <!--The time between reactions played by watching sims in sim minutes.-->
+    </kTimeBetweenWatcherReactions>
+    <kReactionNames value="Clap, Cheer, Boo, Surprise">
+      <!--The time between reactions played by watching sims in sim minutes.-->
+    </kReactionNames>
+    <kPoliceBreakupParams>
+      <PulseRadius value="200">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="15">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="False">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="False">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kPoliceBreakupParams>
+    <kMinRetreatDistance value="15">
+      <!--Minimum distance in meters the sim will route away when the police yell at them.-->
+    </kMinRetreatDistance>
+    <kMaxRetreatDistance value="35">
+      <!--Maximum distance in meters the sim will route away when the police yell at them.-->
+    </kMaxRetreatDistance>
+    <kTimeForPoliceYelling value="20">
+      <!--Time in sim minutes for the cop to yell at protestors.-->
+    </kTimeForPoliceYelling>
+    <kMidProtestNoticeTime value="0, 2, 2, 2">
+      <!--Sim hours into the protest to give them a TNS describing the state of the protest-->
+    </kMidProtestNoticeTime>
+    <kRebelUnlockLevelToProtestHappiness value="0">
+      <!--Rebel skill unlock level to be able to protest happiness.-->
+    </kRebelUnlockLevelToProtestHappiness>
+    <kRebelUnlockLevelToProtestMoney value="0">
+      <!--Rebel skill unlock level to be able to protest money.-->
+    </kRebelUnlockLevelToProtestMoney>
+    <kRebelUnlockLevelToProtestSpawners value="0">
+      <!--Rebel skill unlock level to be able to protest spawners.-->
+    </kRebelUnlockLevelToProtestSpawners>
+    <kRebelUnlockLevelToProtestGrades value="0">
+      <!--Rebel skill unlock level to be able to protest grades.-->
+    </kRebelUnlockLevelToProtestGrades>
+    <kRebelUnlockLevelToProtestSkills value="0">
+      <!--Rebel skill unlock level to be able to protest skills.-->
+    </kRebelUnlockLevelToProtestSkills>
+    <kPoliceDistanceFromPodium value="1">
+      <!--Radius around the podium for the cop to reach when breaking up a protest.-->
+    </kPoliceDistanceFromPodium>
+    <kRandomnessToDuration value="12">
+      <!--Max amount of random time added to megaphone and picket interactions to add variety.-->
+    </kRandomnessToDuration>
+    <kStandardProtestUseMegaphoneInteractionChance value="12">
+      <!--Percent chance protester will do a megaphone interaction instead of a carry picket sign interaction.-->
+    </kStandardProtestUseMegaphoneInteractionChance>
+    <kChanceForHungerThoughtBubble value="0.1">
+      <!--Percent chance protester will show the hungry thought bubble during a hunger strike.-->
+    </kChanceForHungerThoughtBubble>
+    <kRaisePctRewardFromCause value="0.1">
+      <!--The percent raise to give sims when successfully protesting low wages - 0.0 - 1.0-->
+    </kRaisePctRewardFromCause>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFemalePercent value="80">
+      <!--Percentage of wild horses that, on average, are female-->
+    </kFemalePercent>
+    <kParentPercent value="20">
+      <!--Percentage of wild horses that are parents to foals in the herd-->
+    </kParentPercent>
+    <kWildHorseTraits value="MeanPet,FastPet,AgilePet,AggressivePet,HatesJumpingPet,ShyPet,UntrainedHorse">
+      <!--Traits that a wild horse can have-->
+    </kWildHorseTraits>
+    <kMultiplierForWildHorseTraits value="0.5">
+      <!--Range : float (0-1).  Description: weight for the special traits that the horses in the adopt horse pool should have.-->
+    </kMultiplierForWildHorseTraits>
+    <kFoalPercent value="20">
+      <!--Percentage of wild horses that are, on average, a foal in the herd-->
+    </kFoalPercent>
+  </Current_Tuning>
+</base>

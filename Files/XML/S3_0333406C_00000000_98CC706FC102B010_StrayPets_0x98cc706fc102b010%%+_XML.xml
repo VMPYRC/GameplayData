@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxStraysInWorld value="5">
+      <!--The max number of strays that are allowed in world at a given time.-->
+    </kMaxStraysInWorld>
+    <kActiveHouseholdMaxTimeBetweenVisists value="96">
+      <!--The max number of hours between stray visits at the active household before one is forced.-->
+    </kActiveHouseholdMaxTimeBetweenVisists>
+    <kActiveHouseholdVisitBaseChance value="0.015">
+      <!--The base chance a random stray pet will be grabbed from the pool to attempt a visit.-->
+    </kActiveHouseholdVisitBaseChance>
+    <kActiveHouseholdVisitChanceHighLTR value="0.65">
+      <!--When determing which pet to send to the active household, this is the chance we will send a stray with a tunably high LTR (if one exists).  If the chance fails or no valid strays are available a random stray will be sent.-->
+    </kActiveHouseholdVisitChanceHighLTR>
+    <kActiveHouseholdVisitLTRThreshold value="25">
+      <!--The LTR threshold used in kActiveHouseholdVisitChanceHighLTR.-->
+    </kActiveHouseholdVisitLTRThreshold>
+    <kVisitLengthMin value="60">
+      <!--The minimum amount of time in minutes a stray will visit.-->
+    </kVisitLengthMin>
+    <kVisitLengthMax value="120">
+      <!--The max amount of time in minutes astray will visit.-->
+    </kVisitLengthMax>
+    <kRandomLotVisitChance value="0.01">
+      <!--The chance a random stray pet will be grabbed from the pool to visit a random lot.-->
+    </kRandomLotVisitChance>
+    <kActiveHouseholdVisitChanceIncludeLowLTR value="0.25">
+      <!--If not sending a hight LTR stray, this is the chance low LTR strays will be included in the list of potential strays.-->
+    </kActiveHouseholdVisitChanceIncludeLowLTR>
+    <kActiveHouseholdVisitLowLTRThreshold value="-50">
+      <!--The LTR threshold used in kActiveHouseholdVisitChanceIncludeLowLTR.-->
+    </kActiveHouseholdVisitLowLTRThreshold>
+    <kVisitLengthHighLTRMin value="90">
+      <!--The minimum amount of time in minutes a high LTR stray will visit.-->
+    </kVisitLengthHighLTRMin>
+    <kVisitLengthHighLTRMax value="180">
+      <!--The max amount of time in minutes a high LTR stray will visit.-->
+    </kVisitLengthHighLTRMax>
+  </Current_Tuning>
+</base>

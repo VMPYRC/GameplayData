@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTuningBed>
+      <WellRestedStrength value="10">
+        <!--Mood score added by the well rested buff given by the bed. Only trigerred if value is greater than 0.-->
+      </WellRestedStrength>
+      <ComfyBuffStrength value="10">
+        <!--Mood score added by comfy buff.-->
+      </ComfyBuffStrength>
+      <GivesBadNightsSleep value="True">
+        <!--Can this bed give you the Bad Nights Sleep buff?-->
+      </GivesBadNightsSleep>
+      <EnergyMultiplier value="1">
+        <!--Multiplier on energy gain rate for this bed.  1.0f is normal, 0.5f is slow, 2.0f is really fast.-->
+      </EnergyMultiplier>
+      <AllowIntersectionWithCeilingObjects value="True">
+        <!--True if this bed is allowed to intersect objects on the cieling, false otherwise.-->
+      </AllowIntersectionWithCeilingObjects>
+      <WooHooEffectName value="tentWoohooPetals" />
+      <HygieneDelta value="0">
+        <!--Hygiene change rate on this bed (not a multiplier). Positive number makes sim cleaner, negative makes them dirtier.-->
+      </HygieneDelta>
+    </kTuningBed>
+    <kWooHooBroadcasterParams>
+      <PulseRadius value="8">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="5">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kWooHooBroadcasterParams>
+    <kMeltingPoint value="100">
+      <!--How many melting points required to make a completed igloo turn into the melted state.  From here, melting will continue until it reaches kMeltingPointPuddle.-->
+    </kMeltingPoint>
+    <kMeltingPointPuddles value="150">
+      <!--How many melting points required to turn the igloo into puddles.-->
+    </kMeltingPointPuddles>
+    <kNumPuddles value="10">
+      <!--How many puddles to make when puddle melting point is reached.-->
+    </kNumPuddles>
+  </Current_Tuning>
+</base>

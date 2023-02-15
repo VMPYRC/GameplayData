@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEatFishHungerThreshold value="-50">
+      <!--Description:  If the cat's hunger is below this when they're done fishing they'll eat the fish instead of putting it in their inventory-->
+    </kEatFishHungerThreshold>
+    <kMinMaxPrePounceTime value="1, 5">
+      <!--Description:  Min To Max time the cat  does pre-pounce animations for-->
+    </kMinMaxPrePounceTime>
+    <kMinMaxSuccesChance value="30, 75">
+      <!--Description:  The min and max chances for success, will lerp between these values based on your hunting skill-->
+    </kMinMaxSuccesChance>
+    <kHungerGainFromEating value="25">
+      <!--  Description:  If the cat eats the fish they gain this much hunger-->
+    </kHungerGainFromEating>
+  </Current_Tuning>
+</base>

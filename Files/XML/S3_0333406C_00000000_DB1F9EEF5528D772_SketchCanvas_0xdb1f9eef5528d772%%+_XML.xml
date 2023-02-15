@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTuning>
+      <ValuePerSkillLevel value="1, 2, 2, 2, 3, 3, 4, 5, 6, 7, 10">
+        <!--Description: The starting value of a painting at each skill level.-->
+      </ValuePerSkillLevel>
+      <MoneyPerNthPainting value="3">
+        <!--Number of simoleons to multiply N by to get experience contributer to value of painting where N is the Nth painting the sim has made-->
+      </MoneyPerNthPainting>
+      <RandomValueMultiplierMin value=".75">
+        <!--Min random multipler applied to value at end of calculation-->
+      </RandomValueMultiplierMin>
+      <RandomValueMultiplierMax value="1.75">
+        <!--Max random multipler applied to value at end of calculation-->
+      </RandomValueMultiplierMax>
+      <AppreciationAtSkillLevelPerDay value=".75">
+        <!--Number of Simoleons to multiply with the skill level of the painter at the time the made it, to add to paintings value every 48hours-->
+      </AppreciationAtSkillLevelPerDay>
+      <ThresholdForMinEnviornmentScore value="10">
+        <!--Smallest price to get Min enviornment score-->
+      </ThresholdForMinEnviornmentScore>
+      <ThresholdForMaxEnviornmentScore value="1000">
+        <!--Smallest price to get Max enviornment score-->
+      </ThresholdForMaxEnviornmentScore>
+      <MinEnviornmentValue value="0">
+        <!--Minimum Enviornment Score-->
+      </MinEnviornmentValue>
+      <MaxEnviornmentValue value="15">
+        <!--Maximum Enviornment Score-->
+      </MaxEnviornmentValue>
+    </kTuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kFrameInstanceName value="EaselFrameSmall">
+      <!--Name of the Medator Instance that will be used as the frame object on the sketch canvas.-->
+    </kFrameInstanceName>
+  </Current_Tuning>
+</base>

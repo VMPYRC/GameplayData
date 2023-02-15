@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <MapTagRadius value="16">
+      <!--The radius of a map tag.-->
+    </MapTagRadius>
+    <PushForce value="5000">
+      <!--The push force that is given upon collision of two map tags, i.e. the collision spring coefficient.-->
+    </PushForce>
+    <IdealSeparation value="80">
+      <!--The ideal distance between the center of two map tags, i.e. the collision spring length.-->
+    </IdealSeparation>
+    <DefaultMapTag2DOffset value="-16, -42">
+      <!--The amount to offset each maptag win from its target before doing any collisions.-->
+    </DefaultMapTag2DOffset>
+    <InnerBorder value="75, 80, 30, 215">
+      <!--The border for each side of the screen to restrict map tags from going over.-->
+    </InnerBorder>
+    <CollisionDamping value="20">
+      <!--Damping for map tag collisions, i.e. the damping coefficient for the collision spring.-->
+    </CollisionDamping>
+    <Mass value="5000">
+      <!--Mass of the maptag used in simulating collisions.-->
+    </Mass>
+    <PullDamping value="1500">
+      <!--Damping coefficient for the spring attachment between the maptag and the anchor point-->
+    </PullDamping>
+    <PullForce value="5000">
+      <!--The pull force that pulls map tags towards their anchor points, i.e. the spring coefficient for the attachment spring.-->
+    </PullForce>
+    <TimeStep value="0.5">
+      <!--Time step for the physics simulation.-->
+    </TimeStep>
+    <kSecondsBeforeHideActiveSimTag value="0.5">
+      <!--The number of seconds to wait before hiding the active sim tag when it gets culled.-->
+    </kSecondsBeforeHideActiveSimTag>
+    <kMaxNumMaptagsToDisplay value="200">
+      <!--The maximum number of map tags to show-->
+    </kMaxNumMaptagsToDisplay>
+    <MinFadeDistance value="20">
+      <!--Minimum distance between maptag and target for max arrow opacity-->
+    </MinFadeDistance>
+    <MaxFadeDistance value="500">
+      <!--maximum distance between maptag and target for min arrow opacity-->
+    </MaxFadeDistance>
+    <MaxFade value="25">
+      <!--maximum fadeout (0 = fully translucent, 255 (0xff) no fade-->
+    </MaxFade>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+  </Deprecated_Tuning>
+</base>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxFavoriteLots value="3">
+      <!--Max favorite lots for unicorn spawning-->
+    </kMaxFavoriteLots>
+    <kChanceOfSpawningUnicorn value="0.33">
+      <!--Range (0-1). Description: Chance of spawning a unicorn.-->
+    </kChanceOfSpawningUnicorn>
+    <kSpawnAlarmTime value="20">
+      <!--Range (0-23). Description: Hour of the day when unicorn is going to spawn-->
+    </kSpawnAlarmTime>
+    <kDespawnAlarmTime value="5">
+      <!--Range (0-23). Description: Hour of the day when unicorn is going to despawn-->
+    </kDespawnAlarmTime>
+  </Current_Tuning>
+</base>

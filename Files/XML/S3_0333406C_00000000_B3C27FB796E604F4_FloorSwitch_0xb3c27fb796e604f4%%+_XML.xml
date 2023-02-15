@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kColorTemporary value=".29, .39, .51">
+      <!--Range: 3 floats [0,1]. RGB color the VFX and model will be when this switch is a temporarily-activated switch.-->
+    </kColorTemporary>
+    <kColorPermanent value=".29, .41, .31">
+      <!--Range: 3 floats [0,1]. RGB color the VFX and model will be when this switch is a permanently-activated switch.-->
+    </kColorPermanent>
+    <kTintTransitionTime value="0.5">
+      <!--Range: 0, or positive float. Transition time (in real seconds?) of object tint. Set to 0 for instant switch.-->
+    </kTintTransitionTime>
+    <kFearBuffThresholdStandOnSwitch value="-80">
+      <!--Range: Negative integer. If a Sim has a fear buff with a greater strength than this value, they will not stand on floor switches.-->
+    </kFearBuffThresholdStandOnSwitch>
+    <kJumpOnChanceBase value="0.05">
+      <!--Range: Float [0,1]. Base chance of jumping on switch.-->
+    </kJumpOnChanceBase>
+    <kJumpOnChanceTrait value="0.1">
+      <!--Range: Float [0,1]. Chance for sims with kJumpOnTraits to jump on the switch.-->
+    </kJumpOnChanceTrait>
+    <kJumpOnTraits value="HotHeaded, Childish">
+      <!--List of traits that makes the sim more likely to jump on the floor switch.-->
+    </kJumpOnTraits>
+  </Current_Tuning>
+</base>

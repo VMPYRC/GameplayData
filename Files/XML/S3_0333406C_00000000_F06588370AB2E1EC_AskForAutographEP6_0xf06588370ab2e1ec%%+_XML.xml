@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kInteractionScoringMultipliers value="1, 2">
+      <!--'Ask for Autograph' is more likely to occur autonomously as the target's Celebrity Level increases. Format: (multiplierAtMinCelebrityLevel, multiplierAtMaxCelebrityLevel). We'll use linear interpolation if target's Celebrity Level is somewhere between the min & max levels. Use 1.0 to have no effect, 1.5 for 50% higher scoring, etc.-->
+    </kInteractionScoringMultipliers>
+  </Current_Tuning>
+</base>

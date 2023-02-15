@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinTimeBeforeInteraction value="20">
+      <!--Range: Sim minutes.  Description:  Min time before possibly doing an interaction-->
+    </kMinTimeBeforeInteraction>
+    <kMaxTimeBeforeInteraction value="60">
+      <!--Range: Sim minutes.  Description:  Max time before possibly doing an interaction-->
+    </kMaxTimeBeforeInteraction>
+    <kMaxRouteAttempts value="10">
+      <!--Maximum times to attempt a single route. The higher this number, the more times the sim will try to find a new spot for running to in a panic.-->
+    </kMaxRouteAttempts>
+    <kPercentageChanceOfInteraction value="50, 80, 100">
+      <!--Percentage: 0-100 Description:  Percentage chance of each interaction.  First number is the chance of panicking, second minus the first is the chance of littering, and third minus the second is the chance of attracting. - JThummel-->
+    </kPercentageChanceOfInteraction>
+  </Current_Tuning>
+</base>

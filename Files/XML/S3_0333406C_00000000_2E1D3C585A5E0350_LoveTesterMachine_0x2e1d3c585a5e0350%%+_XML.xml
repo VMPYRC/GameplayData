@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCost value="5">
+      <!--Num simoleons it costs to use machine-->
+    </kCost>
+    <kSinglePersonRandomMinMaxPoints value="30, 70">
+      <!--Range 0-100, [Min,Max] random factor for love tester outcome score where each level outcome is spread over 10 points.  I.E 0-9 is cold fish & 90-100 is Uncontrollable-->
+    </kSinglePersonRandomMinMaxPoints>
+    <kSinglePersonTempRanges value="-30, 30">
+      <!--Range -100 to 100, [low, high]. Single person mode, Sims with temp below/above these values get the corresponding kSinglePersonTempBonus points added to their overall love score-->
+    </kSinglePersonTempRanges>
+    <kSinglePersonTempBonus value="-15, 15">
+      <!--[negative int, positive int], Love test outcome Score Modifier for corresponding tunable kSinglePersonTempRanges-->
+    </kSinglePersonTempBonus>
+    <kSinglePersonTraits value="Attractive, Charismatic, Childish, CommitmentIssues, Flirty, Loner">
+      <!--[TraitName, TraitName,...] List of traits that effect sim's love score by corresponding tunable amounts in tunable kSinglePersonTraitScoreMods-->
+    </kSinglePersonTraits>
+    <kSinglePersonTraitScoreMods value="10, 10, -10, -10, 10, -30">
+      <!--[int, int, ...] List of love score modifiers for corresponding trait in tunable amounts in tunable kSinglePersonTraits-->
+    </kSinglePersonTraitScoreMods>
+    <kChanceSimBotAutomatic10 value="50">
+      <!--Range 0-100, Tunable chance that when a sim bot uses the love tester machine the outcome will be an automatic 10 and will get a special TNS-->
+    </kChanceSimBotAutomatic10>
+    <kTwoPersonRandomMinMaxPoints value="10, 70">
+      <!--Range 0-100, [Min,Max] random factor for love tester outcome score where each level outcome is spread over 10 points.  I.E 0-9 is cold fish & 90-100 is Uncontrollable-->
+    </kTwoPersonRandomMinMaxPoints>
+    <kTwoPersonTempRanges value="-60, 60">
+      <!--Range -100 to 100, [low, high]. Two person mode, Sims with temp below/above these values get the corresponding kTwoPersonTempBonus points added to overall love score-->
+    </kTwoPersonTempRanges>
+    <kTwoPersonTempBonus value="-20, 20">
+      <!--[negative int, positive int], Love test outcome Score Modifier for corresponding tunable kTwoPersonTempRanges-->
+    </kTwoPersonTempBonus>
+    <kTwoPersonLTRTypes value="RomanticInterest, Spouse, Partner, Fiancee, Ex, ExSpouse">
+      <!--[LongTermRelationshipTypes, LongTermRelationshipTypes,...] List of LongTermRelationshipTypes that effect two person love score by corresponding tunable amounts in tunable kTwoPersonLTRTypesScoreMods-->
+    </kTwoPersonLTRTypes>
+    <kTwoPersonLTRTypesScoreMods value="15, 15, 15, 20, -30, -40">
+      <!--[int, int, ...] List of love score modifiers for corresponding trait in tunable amounts in tunable kTwoPersonLTRTypes-->
+    </kTwoPersonLTRTypesScoreMods>
+    <kTwoPersonAttractionBonus value="30">
+      <!--Range 0-100, Two person mode: Love test outcome Score Modifier if sims are attracted.-->
+    </kTwoPersonAttractionBonus>
+    <kTwoPersonLTRGainForPositiveOutcome value="10">
+      <!--Two Person mode: LTR increase between sims if there is a positive outcome.-->
+    </kTwoPersonLTRGainForPositiveOutcome>
+    <kTwoPersonLTRGainForNegativeOutcome value="-10">
+      <!--Two Person Mode: LTR increase between sims if there is a negative outcome.-->
+    </kTwoPersonLTRGainForNegativeOutcome>
+    <kNumFestivalTicketsForPositiveOutcome value="3">
+      <!--Range:  1 - Inf  Description: Number of festival tickets for having a positive outcome.-->
+    </kNumFestivalTicketsForPositiveOutcome>
+    <kNumFestivalTicketsForNeutralOutcome value="2">
+      <!--Range:  1 - Inf  Description: Number of festival tickets for having a neutral outcome.-->
+    </kNumFestivalTicketsForNeutralOutcome>
+    <kNumFestivalTicketsForNegativeOutcome value="1">
+      <!--Range:  1 - Inf  Description: Number of festival tickets for having a negative outcome.-->
+    </kNumFestivalTicketsForNegativeOutcome>
+  </Current_Tuning>
+</base>

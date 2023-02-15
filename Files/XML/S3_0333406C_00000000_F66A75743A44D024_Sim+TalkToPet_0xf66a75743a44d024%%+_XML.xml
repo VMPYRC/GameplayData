@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceThatQuietPetMakesNoise value="0.1">
+      <!--Float in range 0 to 1.  The chance that a pet with the QuietPet trait will make noise when a human sim talks to it.-->
+    </kChanceThatQuietPetMakesNoise>
+    <kChanceThatNoisyPetMakesNoise value="0.75">
+      <!--Float in range 0 to 1.  The chance that a pet with the NoisyPet trait will make noise when a human sim talks to it.-->
+    </kChanceThatNoisyPetMakesNoise>
+    <kBaseChanceThatPetMakesNoise value="0.4">
+      <!--Float in range 0 to 1.  The chance that a pet with neither the QuietPet trait nor the NoisyPet trait will make noise when a human sim talks to it.-->
+    </kBaseChanceThatPetMakesNoise>
+    <kFunDelta value="5">
+      <!--Positive float.  The amount of Fun the sim and pet should gain from talking to one another.-->
+    </kFunDelta>
+    <kPetBalloons value="balloon_yeti, balloon_beetles, balloon_flies, balloon_pond, balloon_flowerpot">
+      <!--Strings.  The icons that will be used in pet speech balloons.-->
+    </kPetBalloons>
+    <kSimBalloons value="balloon_yeti, balloon_beetles, balloon_flies, balloon_pond, balloon_flowerpot">
+      <!--Strings.  The icons that will be used in sim speech balloons.-->
+    </kSimBalloons>
+  </Current_Tuning>
+</base>

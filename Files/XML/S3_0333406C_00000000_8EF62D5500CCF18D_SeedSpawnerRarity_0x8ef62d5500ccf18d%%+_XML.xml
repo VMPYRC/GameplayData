@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPlaceHolderTuning>
+      <TuningObjectSpawner>
+        <MaxSpawnCapacity value="3">
+          <!--Max number of untaken objects that this Spawner can have in-world.-->
+        </MaxSpawnCapacity>
+        <SpawnFrequency value="0.5, 3">
+          <!--The bounds of the 'spawn timer' frequency in sim hours. Values: (1) Min, (2) Max.  A different random number within this range is chosen as the 'spawn timer' duration each loop.-->
+        </SpawnFrequency>
+        <SpawnChance value="0.9">
+          <!--Each time the 'spawn timer' goes off (and we're under this Spawner's max capacity) this chance determines whether or not we spawn something.  Range: 0.0 to 1.0.  Zeroing this number will disable the spawner.-->
+        </SpawnChance>
+        <DeleteUntakenObjectFrequency value="5">
+          <!--Number of sim hours in between this spawner reaching max capacity and automatically deleting the oldest untaken spawned object.-->
+        </DeleteUntakenObjectFrequency>
+      </TuningObjectSpawner>
+      <SeedRarityChances value="0">
+        <!--When we know we're going to spawn a Seed these are the percent chances the Seed will be of a given rarity.  Format: (1) Common, (2) Uncommon, (3) Rare, (4) Special. The code will normalize probability values that sum to greater than 1.0f.  Zeroing all probabilities will disable the spawner.-->
+      </SeedRarityChances>
+      <QualityCommonMin value="Neutral">
+        <!--When the Spawner is about to spawn a Common seed, the seed's Quality is randomly chosen using a bell curve with this value as the minimum bound of the bell curve.-->
+      </QualityCommonMin>
+      <QualityCommonMax value="Neutral">
+        <!--When the Spawner is about to spawn a Common seed, the seed's Quality is randomly chosen using a bell curve with this value as the maximum bound of the bell curve.-->
+      </QualityCommonMax>
+      <QualityUncommonMin value="Neutral">
+        <!--When the Spawner is about to spawn an Uncommon seed, the seed's Quality is randomly chosen using a bell curve with this value as the minimum bound of the bell curve.-->
+      </QualityUncommonMin>
+      <QualityUncommonMax value="Neutral">
+        <!--When the Spawner is about to spawn an Uncommon seed, the seed's Quality is randomly chosen using a bell curve with this value as the maximum bound of the bell curve.-->
+      </QualityUncommonMax>
+      <QualityRareMin value="Neutral">
+        <!--When the Spawner is about to spawn a Rare seed, the seed's Quality is randomly chosen using a bell curve with this value as the minimum bound of the bell curve.-->
+      </QualityRareMin>
+      <QualityRareMax value="Neutral">
+        <!--When the Spawner is about to spawn a Rare seed, the seed's Quality is randomly chosen using a bell curve with this value as the maximum bound of the bell curve.-->
+      </QualityRareMax>
+      <QualitySpecialMin value="Neutral">
+        <!--When the Spawner is about to spawn a Special seed, the seed's Quality is randomly chosen using a bell curve with this value as the minimum bound of the bell curve.-->
+      </QualitySpecialMin>
+      <QualitySpecialMax value="Neutral">
+        <!--When the Spawner is about to spawn a Special seed, the seed's Quality is randomly chosen using a bell curve with this value as the maximum bound of the bell curve.-->
+      </QualitySpecialMax>
+      <ChanceOfAMushroom value="15">
+        <!--Chance that seed is really a mushroom.-->
+      </ChanceOfAMushroom>
+    </kPlaceHolderTuning>
+    <kSpawnDiameter value="10">
+      <!--The diameter (in tiles) around seed spawners that we'll try to place seeds within.  Seeds might be placed outside this depending on the footprints of nearby objects.-->
+    </kSpawnDiameter>
+    <kInvalidSpawnDiameter value="12">
+      <!--The diameter (in tiles, disregarding elevation difference) around seed spawners outside of which we'll consider a spawned seed placement invalid.  Each time we try to spawn a seed we'll try to find a good location for it several times but if each find good location attempt ends up placing it outside this range then we will eventually fail (in which case we'll delete the spawned object and pop up a debug warning dialog saying that the worldbuilder crew should change the location of this spawner to a more route-friendly location). NOTE: This should be tuned with consideration of what the 'kSpawnDiameter' tuning var is set to (this var should not be set any lower than 'kSpawnDiameter' but can be greater than 'kSpawnDiameter' if desired).-->
+    </kInvalidSpawnDiameter>
+    <kSpawnableMinorPets value="BirdLarge, BirdSmall, Lizard, Rodent, Snake, Turtle">
+      <!--The minor pet types this spawner can spawn if the random chance to spawn a pet is successful.-->
+    </kSpawnableMinorPets>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

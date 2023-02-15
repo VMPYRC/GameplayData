@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinOccupationLevelForTalkAboutOccupation value="1">
+      <!--When running 'Talk About Occupation' interaction on a not-yet-impressed Celebrity Sim, we will only create pie menu options for the playable Sim's Occupations (current/retired/quit) with an Occupation Level greater than or equal to this value.-->
+    </kMinOccupationLevelForTalkAboutOccupation>
+    <kBonusImpressPointsForHavingFilmCareer value="10">
+      <!--Additional Impress Points granted if player is currently in the film career.-->
+    </kBonusImpressPointsForHavingFilmCareer>
+    <kMaximumNumberOfOccupationsInPieMenu value="7">
+      <!--The Try To Impress... Talk About Occupation... will show at most these many occupations in its nested pie menu. Positive Integer. Initial GPE default: 12-->
+    </kMaximumNumberOfOccupationsInPieMenu>
+    <kBonusImpressPointsForSameOccupationOrGoodChoiceOfOccupation value="50, 45, 40, 35, 30">
+      <!--If both the participants have a matching occupation, we grant a bonus impress points. At the same time, if actor doesn't have the occupation but picks a occupation that the celebrity possesses, we grant the same bonus impress points. Positive floats. Length: 5. i.e. for every celebrity level from 1 through 5.-->
+    </kBonusImpressPointsForSameOccupationOrGoodChoiceOfOccupation>
+    <kMaximumNumberOfBestChoiceOccupationsInPieMenu value="3">
+      <!--The Try To Impress... Talk About Occupation... will show at most these many best option occupations in its nested pie menu i.e. these are skills with the highest yielding impress points. Positive Integer. This number should be smaller than kMaximumNumberOfOccupationsInPieMenu. Initial GPE default: 5.-->
+    </kMaximumNumberOfBestChoiceOccupationsInPieMenu>
+  </Current_Tuning>
+</base>

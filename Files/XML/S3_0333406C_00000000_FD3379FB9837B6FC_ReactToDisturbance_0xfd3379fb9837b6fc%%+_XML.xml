@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteRadiusForReaction value="1">
+      <!--Range: positive decimal in tiles.  Description: How close to the disturbing object the Sim should get before reacting.-->
+    </kRouteRadiusForReaction>
+    <kCryingBabyLookAtPriority value="100">
+      <!--Range: Look-at priority.  Description:  Priority for the Sim to look at a crying baby the first time they get the Crying Baby buff.-->
+    </kCryingBabyLookAtPriority>
+    <kChanceReactToNoise value="0.5">
+      <!--Probability (0.0 to 1.0) that pets will react negatively to noise, the first time that they notice a noise broadcaster.-->
+    </kChanceReactToNoise>
+    <kMinTVRetreatDistance value="3">
+      <!--Distance (minimum) that pets will walk away from TV if it wakes them up.-->
+    </kMinTVRetreatDistance>
+    <kMaxTVRetreatDistance value="4">
+      <!--Distance (maximum) that pets will walk away from TV if it wakes them up.-->
+    </kMaxTVRetreatDistance>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCarTuning>
+      <Speed value="18">
+        <!--Car speed in meters / second (second = Sim minute).-->
+      </Speed>
+      <Acceleration value="5">
+        <!--Car acceleration in meters / second^2 (second = Sim minute).-->
+      </Acceleration>
+    </kCarTuning>
+    <kUpgradeSpaceTravelTuning>
+      <UpgradeTime value="240">
+        <!--The amount of time it takes to do the upgrade in minutes-->
+      </UpgradeTime>
+      <SkillGainRate value="3600">
+        <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+      </SkillGainRate>
+      <BadFailureChance value="0">
+        <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+      </BadFailureChance>
+      <ShouldShockInPuddle value="False">
+        <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+      </ShouldShockInPuddle>
+    </kUpgradeSpaceTravelTuning>
+    <kUpgradeLaserCannonsTuning>
+      <UpgradeTime value="300">
+        <!--The amount of time it takes to do the upgrade in minutes-->
+      </UpgradeTime>
+      <SkillGainRate value="4560">
+        <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+      </SkillGainRate>
+      <BadFailureChance value="0">
+        <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+      </BadFailureChance>
+      <ShouldShockInPuddle value="False">
+        <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+      </ShouldShockInPuddle>
+    </kUpgradeLaserCannonsTuning>
+    <kTravelToMinMaxTNSFrequency value="30, 40">
+      <!--[Min,Max] time between TNS's when doing 'travel to' interaction in sim minutes-->
+    </kTravelToMinMaxTNSFrequency>
+    <kTravelToMinMaxInteractionLength value="90, 120">
+      <!--[Min,Max] time sim is gone 'traveling in space' in sim minutes.  A random time will be picked form these numbers at the beginning of the interaction.-->
+    </kTravelToMinMaxInteractionLength>
+    <kTravelToChanceGetReward value="100">
+      <!--Range 0-100: Chance Sim will get something when they return from space Travel-->
+    </kTravelToChanceGetReward>
+    <kTravelToMoonRewardWeights value="10, 0, 75, 2, 13">
+      <!--[Space Rock, Gem, Metal, Gnome, Cheese] Reward Category Weighting for Space travel to the Moon.-->
+    </kTravelToMoonRewardWeights>
+    <kTravelToAsteroidBeltRewardWeights value="75, 11, 12, 2, 0">
+      <!--[Space Rock, Gem, Metal, Gnome, Cheese] Reward Category Weighting for Space travel to Asteroid Belt.-->
+    </kTravelToAsteroidBeltRewardWeights>
+    <kTravelToPlanetSimXRewardWeights value="12, 75, 11, 2, 0">
+      <!--[Space Rock, Gem, Metal, Gnome, Cheese] Reward Category Weighting for Space travel to Planet SimX.-->
+    </kTravelToPlanetSimXRewardWeights>
+    <kTravelToSpaceRockRewardWeights value="25, 70, 5">
+      <!--[Small, Medium, Large] Weighted chance of getting each space rock size if Space Rock reward is given during 'Travel To' interaction.-->
+    </kTravelToSpaceRockRewardWeights>
+    <kTravelToSpaceGemRewardGuids value="Aqua, Smoky, Emerald, Ruby, Yellow, Tanzanite, Diamond, Rainbow, Crazy, Pink">
+      <!--[GemGuid, GemGuid, ...] Guid Name of each Gem from RockGemMetal.xls Sim can get as reward during 'travel to' interaction.  Must match coresponding weight tuning.-->
+    </kTravelToSpaceGemRewardGuids>
+    <kTravelToSpaceGemRewardWeights value="5, 5, 7, 7, 10, 20, 20, 5, 20, 1">
+      <!--[GemWeight, GemWeight, ...] Weighted chance of getting coresponding gem Guid as reward for 'Travel To' interaction.-->
+    </kTravelToSpaceGemRewardWeights>
+    <kTravelToSpaceMetalRewardGuids value="Iron, Silver, Gold, Palladium, Plutonium">
+      <!--[MetalGuid, MetalGuid, ...] Guid Name of each Metal from RockGemMetal.xls Sim can get as reward during 'travel to' interaction.  Must match coresponding weight tuning.-->
+    </kTravelToSpaceMetalRewardGuids>
+    <kTravelToSpaceMetalRewardWeights value="4, 15, 35, 45, 1">
+      <!--[MetalWeight, MetalWeight, ...] Weighted chance of getting coresponding Metal Guid as reward for 'Travel To' interaction.-->
+    </kTravelToSpaceMetalRewardWeights>
+    <kTravelToTNSVariations value="7, 9, 7">
+      <!--[Moon, AsteroidBelt, PlanetSimX] Number of TNS string variations for each respective travel destination for 'Travel to' interaction.-->
+    </kTravelToTNSVariations>
+    <kInvadableLotSubtypes value="kBeach, kBigPark, kSmallPark, kEP5_CatJungle, kEP5_DogPark, kEP8_Festival, kFishingSpot, kPool, kEP5_HorseRanch, kGraveyard, kMisc_NoVisitors, kMisc_Visitors, kEP1_Dojo, kEP1_Market, kEP1_Nectary, kEP1_ChineseGarden, kHangout, kGym, kLibrary, kArtGallery, kEP2_Junkyard, kEP2_JunkyardNoVisitors, kEP2_Salon, kEP2_Laundromat, kEP9_Dormitory, kEP9_Fraternity, kEP9_Sorority, kEP9_StudentUnion, kEP9_RebelHangout, kEP9_UniversityHangout, kEP9_NerdShop, kEP9_Arcade, kEP9_CoffeeShop, kEP9_GroupSciencePark ">
+      <!--[MetaAutonomyVenueType, MetaAutonomyVenueType, ...] List of venu types that can be invaded.-->
+    </kInvadableLotSubtypes>
+    <kInvadeLotBroadcastParams>
+      <PulseRadius value="200">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="false">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="5">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human, Cat, Dog, LittleDog, Horse, Deer">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="Surprised, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kInvadeLotBroadcastParams>
+    <kAbductIdleTime value="5">
+      <!--Num sim minutes sim who's being upducted should play abductee lookaround idles before UFO fades in and abducts them.-->
+    </kAbductIdleTime>
+    <kAbductLerpParams>
+      <Time value="0.5">
+        <!--Time in seconds the camera movement should take.-->
+      </Time>
+      <Zoom value="-100">
+        <!--Distance in meters from the target point the camera should float.-->
+      </Zoom>
+      <Pitch value="-100">
+        <!--Angle from the horizon the camera should point down from.  Negative values are the camera above the horizon, looking down.-->
+      </Pitch>
+      <Yaw value="-100">
+        <!--Angle about the target the camera should point from. Positive values are clockwise around the target (to the right-hand side) from the target's point of view.  Valid range: [-90, 90]-->
+      </Yaw>
+      <Swing value="True">
+        <!--Determines whether the camera should swing down to look at the ground if currently in look at sky mode.  Valid range: [0, 360)-->
+      </Swing>
+    </kAbductLerpParams>
+    <kLandLerpParams>
+      <Time value="0.5">
+        <!--Time in seconds the camera movement should take.-->
+      </Time>
+      <Zoom value="-100">
+        <!--Distance in meters from the target point the camera should float.-->
+      </Zoom>
+      <Pitch value="-100">
+        <!--Angle from the horizon the camera should point down from.  Negative values are the camera above the horizon, looking down.-->
+      </Pitch>
+      <Yaw value="-100">
+        <!--Angle about the target the camera should point from. Positive values are clockwise around the target (to the right-hand side) from the target's point of view.  Valid range: [-90, 90]-->
+      </Yaw>
+      <Swing value="True">
+        <!--Determines whether the camera should swing down to look at the ground if currently in look at sky mode.  Valid range: [0, 360)-->
+      </Swing>
+    </kLandLerpParams>
+    <kInvadeLotUFOHeight value="8">
+      <!--Distance above terrain UFO should be at on a lot during an invasion. Note 3 is the height of 1 sim floor-->
+    </kInvadeLotUFOHeight>
+    <kCreateStormWeightsSummer value="70, 20, 10">
+      <!--[Rain, Snow, Hail] Weighted chance of picking each storm type during Summer Season.-->
+    </kCreateStormWeightsSummer>
+    <kCreateStormWeightsFall value="50, 40, 10">
+      <!--[Rain, Snow, Hail] Weighted chance of picking each storm type during Fall Season.-->
+    </kCreateStormWeightsFall>
+    <kCreateStormWeightsWinter value="20, 70, 10">
+      <!--[Rain, Snow, Hail] Weighted chance of picking each storm type during Winter Season.-->
+    </kCreateStormWeightsWinter>
+    <kCreateStormWeightsSpring value="50, 40, 10">
+      <!--[Rain, Snow, Hail] Weighted chance of picking each storm type during Spring Season.-->
+    </kCreateStormWeightsSpring>
+    <kCreateStormMinMaxLength value="2, 4">
+      <!--[Min,Max] Time storm should last in sim hours. A random time will be picked from these numbers.-->
+    </kCreateStormMinMaxLength>
+    <kCreateStormIdleTime value="5">
+      <!--Num sim minutes after takeoff sim will remain hidden in the clouds before storm is actually triggered and sim lands.-->
+    </kCreateStormIdleTime>
+    <kPreInvadeLotBroadcastParams>
+      <PulseRadius value="200">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="5">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kPreInvadeLotBroadcastParams>
+    <kInvadeLotNumSimsToStart value="8">
+      <!--Num sims required on lot to start attack.-->
+    </kInvadeLotNumSimsToStart>
+    <kInvadeLotMaxNumSims value="15">
+      <!--Max Number of sims that should show up on lot.-->
+    </kInvadeLotMaxNumSims>
+    <kInvadeLotMinMaxTimeBetweenWarpsInvade value="5, 8">
+      <!--[Min, Max] Num sim minutes UFO sits in place before warping to another location during wreak havok part of invasion.-->
+    </kInvadeLotMinMaxTimeBetweenWarpsInvade>
+    <kInvadeLotMinMaxTimeBetweenZaps value="0.5, 1">
+      <!--[Min,Max] Num Sim minutes between laser zaps when UFO is hovering over a spot during invasion.-->
+    </kInvadeLotMinMaxTimeBetweenZaps>
+    <kInvadeLotPanicPathLengthTuning>
+      <fTotalLengthTarget value="15">
+        <!--The target total length of the run around path in meters.-->
+      </fTotalLengthTarget>
+      <fSubPathLengthMin value="3">
+        <!--The minimum length of a sub path in meters.-->
+      </fSubPathLengthMin>
+      <fSubPathLengthMax value="5">
+        <!--The maximum length of a sub path in meters.-->
+      </fSubPathLengthMax>
+      <fSubPathDirectionChangeConeAngleDegrees value="120">
+        <!--The maximum angle deviation of a sub path in degrees.-->
+      </fSubPathDirectionChangeConeAngleDegrees>
+    </kInvadeLotPanicPathLengthTuning>
+    <kInvadeLotMaxZapRadius value="10">
+      <!--Float > 0 Max radius from center of UFO that laser can try to zap.-->
+    </kInvadeLotMaxZapRadius>
+    <kInvadeLotChanceToZapSim value="50">
+      <!--Range[0-100] If Sim is within kInvadeLotMaxZapRadius of ship when its time to zap something, this is the chance they will get zapped-->
+    </kInvadeLotChanceToZapSim>
+    <kInvadeLotChanceZappedNaked value="40">
+      <!--Range[0-100] Chance of sim being zapped getting naked clothing version of zap instead of fire.  Only for Ages Y,A,E-->
+    </kInvadeLotChanceZappedNaked>
+    <kInvadeLotMinMaxAttackTime value="60, 75">
+      <!--[Min,Max] Num sim minutes sim should wreak havok on sims below before returning home.-->
+    </kInvadeLotMinMaxAttackTime>
+    <kInvadeLotMinWaitTime value="10">
+      <!--Num sim minutes sim should wander around lot they are invading even if enough people have arrived to start the invasion.-->
+    </kInvadeLotMinWaitTime>
+    <kInvadeLotMaxWaitTime value="60">
+      <!--Num sim minutes sim should wander around lot they are invading before giving up on enough people to arriving to start the invasion.-->
+    </kInvadeLotMaxWaitTime>
+    <kCryingFromInvasionDuration value="30">
+      <!--Float > 0 Num Sim Minutes Babies and Toddlers should run Cry Interaction for.  Note cry can get pushed on them again if they finish before invasion does.-->
+    </kCryingFromInvasionDuration>
+    <kAbductUFOHoverTime value="0.5">
+      <!--Num sim minutes UFO will hover above sim before starting to abduct them.-->
+    </kAbductUFOHoverTime>
+    <kCreateStormMinMaxRainTemp value="60, 80">
+      <!--[Min,Max] Temperature override for rain. A random temp will be picked from these numbers.-->
+    </kCreateStormMinMaxRainTemp>
+    <kCreateStormMinMaxSnowTemp value="0, 30">
+      <!--[Min,Max] Temperature override for snow. A random temp will be picked from these numbers.-->
+    </kCreateStormMinMaxSnowTemp>
+  </Current_Tuning>
+</base>

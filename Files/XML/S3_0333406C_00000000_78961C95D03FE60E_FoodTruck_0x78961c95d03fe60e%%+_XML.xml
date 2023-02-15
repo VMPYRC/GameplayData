@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCarTuning>
+      <Speed value="18">
+        <!--Car speed in meters / second (second = Sim minute).-->
+      </Speed>
+      <Acceleration value="5">
+        <!--Car acceleration in meters / second^2 (second = Sim minute).-->
+      </Acceleration>
+    </kCarTuning>
+    <kChanceGetGreasyBuff value="0.6">
+      <!--Range:  0-1  Description:  Chance sim will get Greasy buff-->
+    </kChanceGetGreasyBuff>
+    <kChanceIncreaseForGreasyBuff value="0.15">
+      <!--Range:  0-1  Description:  addition to chance of getting greasy buff if slob-->
+    </kChanceIncreaseForGreasyBuff>
+    <kChanceToGetFoodPoisoningBuff value="0.15">
+      <!--Range:  0-1  Description:  Chance sim will get food poisoning if did not get greasy buff-->
+    </kChanceToGetFoodPoisoningBuff>
+    <kChanceIncreaseForFoodPoisonBuff value="0.15">
+      <!--Range:  0-1  Description:  Addition to chance of getting food poison bufff if a snob-->
+    </kChanceIncreaseForFoodPoisonBuff>
+    <kFoodTruckTuning>
+      <HoursToStayOnLot value="6">
+        <!--Range: float Description: Num Hours to stay on the lot-->
+      </HoursToStayOnLot>
+      <RecipeNames value="Burrito, Taco, HotDog, Hamburger, BloodFruitChowder, ClamChowder">
+        <!--Range:  recipe names  Description:  This is recipe names food truck can make-->
+      </RecipeNames>
+    </kFoodTruckTuning>
+  </Current_Tuning>
+</base>

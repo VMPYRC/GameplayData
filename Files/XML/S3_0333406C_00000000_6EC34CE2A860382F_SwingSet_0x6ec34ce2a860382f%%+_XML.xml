@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceOfFacingSpeakerOrListenerIfFacingAway value="0.7">
+      <!--If the Sim is facing away from the speaker in a group talk situation, it takes a long time to face the other direction.  This is the chance (0-1) that the Sim will take the time to turn around.-->
+    </kChanceOfFacingSpeakerOrListenerIfFacingAway>
+    <kPushRelationshipDeltaSTC value="20">
+      <!--Friendly STC, per Sim hour, gained while pushing or being pushed.-->
+    </kPushRelationshipDeltaSTC>
+    <kPushRelationshipDeltaLTR value="5">
+      <!--Long-term relationship gain per Sim hour.-->
+    </kPushRelationshipDeltaLTR>
+    <kTimeToSpendOnThisObject value="20">
+      <!--Time to spend swinging while playing on a playground. Positive float. Unit: Sim minutes.-->
+    </kTimeToSpendOnThisObject>
+  </Current_Tuning>
+</base>

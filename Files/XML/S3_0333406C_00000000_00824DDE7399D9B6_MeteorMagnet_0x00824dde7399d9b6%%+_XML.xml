@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteRadiusToPickUp value="0.5">
+      <!--Description: [Float] Distance away from the magnet that the Sim will route to in order to pick it up.-->
+    </kRouteRadiusToPickUp>
+    <kChanceToAttractMeteorStrike value="2.5">
+      <!--Range:  0 - 100  Description: [Float] The chance to trigger meteor strike if EP2 installed.  Chance is checked before Large Meteor Chance.-->
+    </kChanceToAttractMeteorStrike>
+    <kChanceToAttractLargeMeteorite value="10">
+      <!--Range:  0 - 100  Description: [Float] The chance to attract Large meteorite.  If fails, checks to see if you get medium meteorite.-->
+    </kChanceToAttractLargeMeteorite>
+    <kRockGemMetalToAttract value="Iron, Silver, Gold, Palladium, Plutonium, SpaceRockSmall, Geode, Mercury, Platinum, Copper, Mummitomium, Titanium, Iridium, Supernovium, Compendium, Smithsonite, TungstenCarbide, CarbonSteel, Sunstone, Moonstone">
+      <!--Description: [RockGemMetal Enum] The rocks, gems, metals that can be attracted / spawned in the interaction.  Must be same length as kRockGemMetalToAttractChance.-->
+    </kRockGemMetalToAttract>
+    <kRockGemMetalToAttractChance value="3, 3, 2, 1, 1, 5, 1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 3, 2, 1, 1">
+      <!--Description: [Float] The weighted chance to attract the rock, gem, metal listed at same index in kRockGemMetalToAttract tunable.-->
+    </kRockGemMetalToAttractChance>
+    <kTimeToPlayLoopingAnimation value="15">
+      <!--Description:  [Float] The time in Sim minutes that the Sim will play the pulling loop in the AttractSpaceObject interaction.-->
+    </kTimeToPlayLoopingAnimation>
+  </Current_Tuning>
+</base>

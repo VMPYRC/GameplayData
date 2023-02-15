@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Town</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>14</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>467</CompletionConditionId>
+      <InputNumber>60</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have read $n unique books</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>ReadNUniqueBooksCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>ReadNUniqueBooksFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kReadBook</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>15</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/01cd8b00-5958-4f45-a668-a652294ea991:Name</NameKey>
+    <Name>Librophile</Name>
+    <SetName>Town</SetName>
+    <ChallengeGuid>01cd8b00-5958-4f45-a668-a652294ea991</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>14</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/01cd8b00-5958-4f45-a668-a652294ea991:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\town_135.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_gold_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>22</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>306</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Experience $Service</DisplayName>
+      <EnumValue>4</EnumValue>
+      <StringEnumValue>Babysitter</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>OrderServiceFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kOrderedService</TriggerEvent>
+      <SubjectType>Service</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>23</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/036d46b9-9065-44c2-afe9-a199d5745b62:Name</NameKey>
+    <Name>Help!</Name>
+    <SetName>Town</SetName>
+    <ChallengeGuid>036d46b9-9065-44c2-afe9-a199d5745b62</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>22</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/036d46b9-9065-44c2-afe9-a199d5745b62:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\town_140.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>115</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <StringEnumValue>Stressed</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>116</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/11d8a84d-0d07-4b0b-afb9-66600be0316d:Name</NameKey>
+    <Name>Serenity Now</Name>
+    <SetName>Town</SetName>
+    <ChallengeGuid>11d8a84d-0d07-4b0b-afb9-66600be0316d</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>115</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/11d8a84d-0d07-4b0b-afb9-66600be0316d:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\town_145.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>218</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>303</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Visit a $RabbitHole</DisplayName>
+      <EnumValue>3</EnumValue>
+      <StringEnumValue>Grocery</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GoToRabbitHoleFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kReceivedRabbitHoleTreatment</TriggerEvent>
+      <SubjectType>RabbitHole</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>219</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/1e79f75b-b307-4691-b2e1-fee8e6a4914e:Name</NameKey>
+    <Name>Store Run</Name>
+    <SetName>Town</SetName>
+    <ChallengeGuid>1e79f75b-b307-4691-b2e1-fee8e6a4914e</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>218</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/1e79f75b-b307-4691-b2e1-fee8e6a4914e:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\town_139.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>222</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>550</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Visit $Lot</DisplayName>
+      <EnumValue>8</EnumValue>
+      <StringEnumValue>ArtGallery</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>VenueTypeExistsInWorldCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>VisitALotTypeFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventSimMovedToLot</TriggerEvent>
+      <SubjectType>Lot</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>223</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/1fddff1a-8a5b-4610-a3ec-ea9b24f8f57d:Name</NameKey>
+    <Name>Supporter of The Arts</Name>
+    <SetName>Town</SetName>
+    <ChallengeGuid>1fddff1a-8a5b-4610-a3ec-ea9b24f8f57d</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>222</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/1fddff1a-8a5b-4610-a3ec-ea9b24f8f57d:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\town_138.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>377</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <StringEnumValue>AwesomeParty</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>378</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/3d216cb3-f5bd-4f7f-ab00-e18ec276dc8f:Name</NameKey>
+    <Name>Your Right to Party</Name>
+    <SetName>Town</SetName>
+    <ChallengeGuid>3d216cb3-f5bd-4f7f-ab00-e18ec276dc8f</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>377</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/3d216cb3-f5bd-4f7f-ab00-e18ec276dc8f:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\town_144.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>467</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <StringEnumValue>CompletelyAtEase</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>468</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/4f5821d3-8380-4563-9eb0-196079cf26a5:Name</NameKey>
+    <Name>Rest and Relaxation</Name>
+    <SetName>Town</SetName>
+    <ChallengeGuid>4f5821d3-8380-4563-9eb0-196079cf26a5</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>467</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/4f5821d3-8380-4563-9eb0-196079cf26a5:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\town_146.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>738</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>303</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Visit a $RabbitHole</DisplayName>
+      <EnumValue>1</EnumValue>
+      <StringEnumValue>Bookstore</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GoToRabbitHoleFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kReceivedRabbitHoleTreatment</TriggerEvent>
+      <SubjectType>RabbitHole</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>739</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/818098aa-b5c4-44ac-9d45-be7160e62a51:Name</NameKey>
+    <Name>Book it!</Name>
+    <SetName>Town</SetName>
+    <ChallengeGuid>818098aa-b5c4-44ac-9d45-be7160e62a51</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>738</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/818098aa-b5c4-44ac-9d45-be7160e62a51:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\town_136.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>860</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>306</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Experience $Service</DisplayName>
+      <StringEnumValue>Maid</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>OrderServiceFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kOrderedService</TriggerEvent>
+      <SubjectType>Service</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>861</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/95bf58b7-3587-4bc5-9908-1b7f870e6e82:Name</NameKey>
+    <Name>Too Busy to Clean</Name>
+    <SetName>Town</SetName>
+    <ChallengeGuid>95bf58b7-3587-4bc5-9908-1b7f870e6e82</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>860</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/95bf58b7-3587-4bc5-9908-1b7f870e6e82:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\town_141.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>971</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>306</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Experience $Service</DisplayName>
+      <EnumValue>2</EnumValue>
+      <StringEnumValue>PizzaDelivery</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>OrderServiceFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kOrderedService</TriggerEvent>
+      <SubjectType>Service</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>972</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/a6ec4586-cef1-43b9-9e60-e4da1ac8659e:Name</NameKey>
+    <Name>Delivery Please!</Name>
+    <SetName>Town</SetName>
+    <ChallengeGuid>a6ec4586-cef1-43b9-9e60-e4da1ac8659e</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>971</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/a6ec4586-cef1-43b9-9e60-e4da1ac8659e:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\town_142.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1081</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>484</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>6</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchSimStartFunction</StartFunctionName>
+      <DisplayName>Win a fight</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>FightCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>WinAFightFeedBackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSocialInteraction</TriggerEvent>
+      <SubjectType>Sim</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1082</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>537</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchSimStartFunction</StartFunctionName>
+      <DisplayName>Lose a fight</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>FightCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>LoseAFightFeedBackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSocialInteraction</TriggerEvent>
+      <SubjectType>Sim</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/b960f2e2-e3c8-4615-bd20-17e57bf95a5f:Name</NameKey>
+    <Name>Win 6 fights in a row</Name>
+    <SetName>Town</SetName>
+    <ChallengeGuid>b960f2e2-e3c8-4615-bd20-17e57bf95a5f</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>1081</LogicString>
+    <FailureString>1082</FailureString>
+    <DescriptionKey>Gameplay/Challenges/b960f2e2-e3c8-4615-bd20-17e57bf95a5f:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badges\finished\all\town_134.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

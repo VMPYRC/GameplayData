@@ -1,0 +1,1432 @@
+<?xml version="1.0"?>
+<Treasures>
+<TreasureComponent>
+  <StringID></StringID>
+  <ValueMin>0</ValueMin>
+  <ValueMax>100</ValueMax>
+  <MinYearsOld>0</MinYearsOld>
+  <MaxYearsOld>100</MaxYearsOld>
+  <Culture></Culture>
+  <TreasureTypes></TreasureTypes>
+  <TreasureTypeWeights></TreasureTypeWeights>
+  <EmptyProbability>0</EmptyProbability>
+  <Gems></Gems>
+  <GemWeights></GemWeights>
+  <CollectibleRelics></CollectibleRelics>
+  <CollectibleRelicWeights></CollectibleRelicWeights>
+  <SmeltedMetals></SmeltedMetals>
+  <SmeltedMetalWeights></SmeltedMetalWeights>
+  <SeedRarities></SeedRarities>
+  <SeedRarityWeights></SeedRarityWeights>
+  <AverageSeedQuality>Neutral</AverageSeedQuality>
+  <Keystones></Keystones>
+  <KeystoneWeights></KeystoneWeights>
+  <AncientCoinPileSizes></AncientCoinPileSizes>
+  <AncientCoinPileWeights></AncientCoinPileWeights>
+  <DriedFoodTypes></DriedFoodTypes>
+  <DriedFoodWeights></DriedFoodWeights>
+  <NumberOfDriedFoods></NumberOfDriedFoods>
+  <NamedCollectibleRelics></NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights></NamedCollectibleRelicWeights>
+  <NumberOfNectarBottles>1</NumberOfNectarBottles>
+  <FragmentTypes></FragmentTypes>
+  <FragmentTypeWeights></FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>CrescentKeystone</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>Crescent</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>StarKeystone</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>Star</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>HeartKeystone</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>Heart</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>EgyptTombLootSmall</StringID>
+  <ValueMin>50</ValueMin>
+  <ValueMax>75</ValueMax>
+  <MinYearsOld>500</MinYearsOld>
+  <MaxYearsOld>2500</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>Gem, SmeltedMetal,TrashRelic, Money, AncientCoins</TreasureTypes>
+  <TreasureTypeWeights>4,4,18,4,4</TreasureTypeWeights>
+  <Gems>Alabaster, Turquoise, Ruby, Emerald</Gems>
+  <GemWeights>2,2,1,1</GemWeights>
+  <SmeltedMetals>Copper, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>10,5,5</SmeltedMetalWeights>
+  <AncientCoinPileSizes>kVerySmallSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>EgyptTombLootMedium</StringID>
+  <ValueMin>125</ValueMin>
+  <ValueMax>175</ValueMax>
+  <MinYearsOld>500</MinYearsOld>
+  <MaxYearsOld>3000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>Gem, SmeltedMetal, CollectibleRelic, TrashRelic, Money, AncientCoins, Fragment</TreasureTypes>
+  <TreasureTypeWeights>2,2,10,18,2,4,5</TreasureTypeWeights>
+  <Gems>Alabaster, Turquoise, Ruby, Emerald, Yellow, Diamond</Gems>
+  <GemWeights>2,2,1,1,2,1</GemWeights>
+  <CollectibleRelics>ConopicJars, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>8,2</CollectibleRelicWeights>
+  <SmeltedMetals>Copper, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>10,5,5</SmeltedMetalWeights>
+  <AncientCoinPileSizes>kSmallSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+  <FragmentTypes>EgyptianSarcophagus</FragmentTypes>
+  <FragmentTypeWeights>1</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>EgyptTombLootLarge</StringID>
+  <ValueMin>275</ValueMin>
+  <ValueMax>325</ValueMax>
+  <MinYearsOld>1000</MinYearsOld>
+  <MaxYearsOld>6000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>Gem, CollectibleRelic, TrashRelic, MagicGnome, AncientCoins, Fragment</TreasureTypes>
+  <TreasureTypeWeights>2,8,18,1,4,5</TreasureTypeWeights>
+  <Gems>Diamond, Rainbow</Gems>
+  <GemWeights>5,3</GemWeights>
+  <CollectibleRelics>ConopicJars, GoldFigurines, DangerousCreatures, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>8,4,1,2</CollectibleRelicWeights>
+  <SmeltedMetalWeights>5,5</SmeltedMetalWeights>
+  <AncientCoinPileSizes>kLargeSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+  <FragmentTypes>EgyptianSarcophagus, SarcophagusOfTheKings</FragmentTypes>
+  <FragmentTypeWeights>20,10</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>EgyptTombLootEpic</StringID>
+  <ValueMin>550</ValueMin>
+  <ValueMax>600</ValueMax>
+  <MinYearsOld>3000</MinYearsOld>
+  <MaxYearsOld>8000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>Gem, SmeltedMetal, CollectibleRelic, TrashRelic, MagicGnome, AncientCoins, Fragment</TreasureTypes>
+  <TreasureTypeWeights>2,2,12,16,1,4,8</TreasureTypeWeights>
+  <Gems>Crazy, Pink, Soulpeace</Gems>
+  <GemWeights>20,10,1</GemWeights>
+  <CollectibleRelics>GoldFigurines, DangerousCreatures</CollectibleRelics>
+  <CollectibleRelicWeights>4,1</CollectibleRelicWeights>
+  <SmeltedMetals>Mummitomium, Gold</SmeltedMetals>
+  <SmeltedMetalWeights>4,20</SmeltedMetalWeights>
+  <AncientCoinPileSizes>kVeryLargeSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+  <FragmentTypes>SarcophagusOfTheKings</FragmentTypes>
+  <FragmentTypeWeights>1</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>ChinaTombLootSmall</StringID>
+  <ValueMin>50</ValueMin>
+  <ValueMax>75</ValueMax>
+  <MinYearsOld>500</MinYearsOld>
+  <MaxYearsOld>2500</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>Gem, SmeltedMetal,TrashRelic, Money, AncientCoins</TreasureTypes>
+  <TreasureTypeWeights>4,4,18,2,4</TreasureTypeWeights>
+  <Gems>Lazuli, Ruby, Emerald</Gems>
+  <GemWeights>2,1,1</GemWeights>
+  <SmeltedMetals>Mercury, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>2,5,5</SmeltedMetalWeights>
+  <AncientCoinPileSizes>kVerySmallSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>ChinaTombLootMedium</StringID>
+  <ValueMin>125</ValueMin>
+  <ValueMax>175</ValueMax>
+  <MinYearsOld>500</MinYearsOld>
+  <MaxYearsOld>3000</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>Gem, SmeltedMetal, CollectibleRelic, TrashRelic, Money, AncientCoins, Fragment</TreasureTypes>
+  <TreasureTypeWeights>2,2,10,18,2,4,5</TreasureTypeWeights>
+  <Gems>Lazuli</Gems>
+  <GemWeights>2</GemWeights>
+  <CollectibleRelics>ZodiacAnimals, ChineseVases, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>4,20,2</CollectibleRelicWeights>
+  <SmeltedMetals>Mercury, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>4,5,5</SmeltedMetalWeights>
+  <AncientCoinPileSizes>kSmallSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+  <FragmentTypes>DiveWell, PlainSarcophagus</FragmentTypes>
+  <FragmentTypeWeights>20,20</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>ChinaTombLootLarge</StringID>
+  <ValueMin>275</ValueMin>
+  <ValueMax>325</ValueMax>
+  <MinYearsOld>1000</MinYearsOld>
+  <MaxYearsOld>6000</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>Gem, SmeltedMetal, CollectibleRelic, TrashRelic, MagicGnome, AncientCoins, Fragment</TreasureTypes>
+  <TreasureTypeWeights>2,2,8,18,1,4,5</TreasureTypeWeights>
+  <Gems>Jade, Rainbow</Gems>
+  <GemWeights>4,2</GemWeights>
+  <CollectibleRelics>ZodiacAnimals, ChineseVases, DangerousCreatures, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>4,15,1,2</CollectibleRelicWeights>
+  <SmeltedMetals>Mercury, Platinum, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>8,8,5,5</SmeltedMetalWeights>
+  <AncientCoinPileSizes>kLargeSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+  <FragmentTypes>DiveWell, PlainSarcophagus</FragmentTypes>
+  <FragmentTypeWeights>20,20</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>ChinaTombLootEpic</StringID>
+  <ValueMin>550</ValueMin>
+  <ValueMax>600</ValueMax>
+  <MinYearsOld>3000</MinYearsOld>
+  <MaxYearsOld>8000</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>Gem, CollectibleRelic, TrashRelic, MagicGnome, AncientCoins, Fragment</TreasureTypes>
+  <TreasureTypeWeights>2,12,16,1,4,5</TreasureTypeWeights>
+  <Gems>Jade, Crazy, Pink</Gems>
+  <GemWeights>10,8,6</GemWeights>
+  <CollectibleRelics>ZodiacAnimals, DangerousCreatures</CollectibleRelics>
+  <CollectibleRelicWeights>4,1</CollectibleRelicWeights>
+  <AncientCoinPileSizes>kVeryLargeSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+  <FragmentTypes>DiveWell, PlainSarcophagus</FragmentTypes>
+  <FragmentTypeWeights>20,20</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>FranceTombLootSmall</StringID>
+  <ValueMin>50</ValueMin>
+  <ValueMax>75</ValueMax>
+  <MinYearsOld>500</MinYearsOld>
+  <MaxYearsOld>2500</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>Gem, SmeltedMetal,TrashRelic, Money, AncientCoins, Nectar</TreasureTypes>
+  <TreasureTypeWeights>4,4,18,2,4,4</TreasureTypeWeights>
+  <Gems>Citrine, Amethyst</Gems>
+  <GemWeights>2,2</GemWeights>
+  <SmeltedMetals>Titanium, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>8,5,5</SmeltedMetalWeights>
+  <AncientCoinPileSizes>kVerySmallSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+  <NumberOfNectarBottles>2</NumberOfNectarBottles>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>FranceTombLootMedium</StringID>
+  <ValueMin>125</ValueMin>
+  <ValueMax>175</ValueMax>
+  <MinYearsOld>500</MinYearsOld>
+  <MaxYearsOld>3000</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>Gem, SmeltedMetal, CollectibleRelic, TrashRelic, Money, AncientCoins, Nectar,Fragment</TreasureTypes>
+  <TreasureTypeWeights>2,2,10,18,2,4,4,5</TreasureTypeWeights>
+  <Gems>Citrine, Amethyst, Emerald</Gems>
+  <GemWeights>2,2,1</GemWeights>
+  <CollectibleRelics>DangerousCreatures, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>1,2</CollectibleRelicWeights>
+  <SmeltedMetals>Titanium,Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>8,5,5</SmeltedMetalWeights>
+  <AncientCoinPileSizes>kSmallSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+  <NumberOfNectarBottles>2</NumberOfNectarBottles>
+  <FragmentTypes>PushableStatue, PlainSarcophagus</FragmentTypes>
+  <FragmentTypeWeights>20,20</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>FranceTombLootLarge</StringID>
+  <ValueMin>275</ValueMin>
+  <ValueMax>325</ValueMax>
+  <MinYearsOld>1000</MinYearsOld>
+  <MaxYearsOld>6000</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>Gem, SmeltedMetal, CollectibleRelic, TrashRelic, MagicGnome, AncientCoins,Nectar, Fragment</TreasureTypes>
+  <TreasureTypeWeights>2,2,8,18,1,2,4,5</TreasureTypeWeights>
+  <Gems>Opal, Rainbow</Gems>
+  <GemWeights>8,6</GemWeights>
+  <CollectibleRelics>DangerousCreatures, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>1,2</CollectibleRelicWeights>
+  <SmeltedMetals>Titanium, Iridium, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>8,8,5,5</SmeltedMetalWeights>
+  <AncientCoinPileSizes>kLargeSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+  <NumberOfNectarBottles>2</NumberOfNectarBottles>
+  <FragmentTypes>PushableStatue, PlainSarcophagus</FragmentTypes>
+  <FragmentTypeWeights>20,20</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>FranceTombLootEpic</StringID>
+  <ValueMin>550</ValueMin>
+  <ValueMax>600</ValueMax>
+  <MinYearsOld>3000</MinYearsOld>
+  <MaxYearsOld>8000</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>Gem, CollectibleRelic, TrashRelic, MagicGnome, AncientCoins,Fragment</TreasureTypes>
+  <TreasureTypeWeights>2,12,16,1,2,5</TreasureTypeWeights>
+  <Gems>Opal, Crazy, Pink, Tiberium</Gems>
+  <GemWeights>15,10,5,4</GemWeights>
+  <CollectibleRelics>DangerousCreatures, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>1,2</CollectibleRelicWeights>
+  <AncientCoinPileSizes>kVeryLargeSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+  <FragmentTypes>PushableStatue, PlainSarcophagus</FragmentTypes>
+  <FragmentTypeWeights>20,20</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>RelicTombLootSmall</StringID>
+  <ValueMin>50</ValueMin>
+  <ValueMax>75</ValueMax>
+  <MinYearsOld>500</MinYearsOld>
+  <MaxYearsOld>2500</MaxYearsOld>
+  <TreasureTypes>TrashRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>RelicTombLootMedium</StringID>
+  <ValueMin>125</ValueMin>
+  <ValueMax>175</ValueMax>
+  <MinYearsOld>500</MinYearsOld>
+  <MaxYearsOld>3000</MaxYearsOld>
+  <TreasureTypes>CollectibleRelic, TrashRelic</TreasureTypes>
+  <TreasureTypeWeights>1,9</TreasureTypeWeights>
+  <CollectibleRelics>ConopicJars,ChineseVases, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>1,1,1</CollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>RelicTombLootLarge</StringID>
+  <ValueMin>275</ValueMin>
+  <ValueMax>325</ValueMax>
+  <MinYearsOld>1000</MinYearsOld>
+  <MaxYearsOld>6000</MaxYearsOld>
+  <TreasureTypes>CollectibleRelic, TrashRelic</TreasureTypes>
+  <TreasureTypeWeights>2,8</TreasureTypeWeights>
+  <CollectibleRelics>ConopicJars,GoldFigurines,DangerousCreatures, ZodiacAnimals,ChineseVases, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>5,1,1,1,5,5</CollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>RelicTombLootEpic</StringID>
+  <ValueMin>550</ValueMin>
+  <ValueMax>600</ValueMax>
+  <MinYearsOld>3000</MinYearsOld>
+  <MaxYearsOld>8000</MaxYearsOld>
+  <TreasureTypes>CollectibleRelic, TrashRelic</TreasureTypes>
+  <TreasureTypeWeights>4,6</TreasureTypeWeights>
+  <CollectibleRelics>ConopicJars,GoldFigurines,DangerousCreatures, ZodiacAnimals,ChineseVases, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>1,1,1,1,1,1</CollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>AncientCoinsVerySmall</StringID>
+  <TreasureTypes>AncientCoins</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <AncientCoinPileSizes>kVerySmallSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>AncientCoinsSmall</StringID>
+  <TreasureTypes>AncientCoins</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <AncientCoinPileSizes>kSmallSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>AncientCoinsLarge</StringID>
+  <TreasureTypes>AncientCoins</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <AncientCoinPileSizes>kLargeSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>AncientCoinsVeryLarge</StringID>
+  <TreasureTypes>AncientCoins</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <AncientCoinPileSizes>kVeryLargeSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1</AncientCoinPileWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>SimoleonsVerySmall</StringID>
+  <ValueMin>10</ValueMin>
+  <ValueMax>51</ValueMax>
+  <TreasureTypes>Money</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>SimoleonsSmall</StringID>
+  <ValueMin>75</ValueMin>
+  <ValueMax>140</ValueMax>
+  <TreasureTypes>Money</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>SimoleonsMedium</StringID>
+  <ValueMin>150</ValueMin>
+  <ValueMax>300</ValueMax>
+  <TreasureTypes>Money</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>SimoleonsLarge</StringID>
+  <ValueMin>350</ValueMin>
+  <ValueMax>700</ValueMax>
+  <TreasureTypes>Money</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>SimoleonsVeryLarge</StringID>
+  <ValueMin>750</ValueMin>
+  <ValueMax>1250</ValueMax>
+  <TreasureTypes>Money</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>SimoleonsEnormous</StringID>
+  <ValueMin>1750</ValueMin>
+  <ValueMax>3000</ValueMax>
+  <TreasureTypes>Money</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>RandomCheapGem</StringID>
+  <TreasureTypes>Gem</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <EmptyProbability>0.25</EmptyProbability>
+  <Gems>Aqua, Smoky, Ruby</Gems>
+  <GemWeights>1, 3, 1</GemWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>GemAqua</StringID>
+  <TreasureTypes>Gem</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Gems>Aqua</Gems>
+  <GemWeights>1</GemWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>GemMedium</StringID>
+  <TreasureTypes>Gem</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <EmptyProbability>0.1</EmptyProbability>
+  <Gems>Yellow, Tanzanite, Diamond</Gems>
+  <GemWeights>1, 1, 1</GemWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>GemExpensive</StringID>
+  <TreasureTypes>Gem</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Gems>Rainbow, Crazy, Pink</Gems>
+  <GemWeights>6, 4, 1</GemWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>GemEgypt</StringID>
+  <TreasureTypes>Gem</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Gems>Alabaster, Turquoise</Gems>
+  <GemWeights>1, 1</GemWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>GemChina</StringID>
+  <TreasureTypes>Gem</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Gems>Jade, Lazuli</Gems>
+  <GemWeights>1, 1</GemWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>GemFrance</StringID>
+  <TreasureTypes>Gem</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Gems>Amethyst, Opal</Gems>
+  <GemWeights>1, 1</GemWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>GemSoulpeace</StringID>
+  <TreasureTypes>Gem</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Gems>Soulpeace</Gems>
+  <GemWeights>1</GemWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>GemTiberium</StringID>
+  <TreasureTypes>Gem</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Gems>Tiberium</Gems>
+  <GemWeights>1</GemWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>GemNewMisc</StringID>
+  <TreasureTypes>Gem</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Gems>Geode, Septarian, Quartz</Gems>
+  <GemWeights>3, 1, 3</GemWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>GemEmerald</StringID>
+  <TreasureTypes>Gem</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Gems>Emerald</Gems>
+  <GemWeights>1</GemWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>RandomSeeds</StringID>
+  <TreasureTypes>Seed</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <SeedRarities>Common, Uncommon, Rare</SeedRarities>
+  <SeedRarityWeights>4,3,2</SeedRarityWeights>
+  <AverageSeedQuality>Nice</AverageSeedQuality>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>RandomMetals</StringID>
+  <TreasureTypes>SmeltedMetal</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <SmeltedMetals>Iron, Silver, Gold, Palladium, Plutonium</SmeltedMetals>
+  <SmeltedMetalWeights>1, 1, 1, 1, 1</SmeltedMetalWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>MetalsChina</StringID>
+  <TreasureTypes>SmeltedMetal</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <SmeltedMetals>Mercury, Platinum</SmeltedMetals>
+  <SmeltedMetalWeights>4, 1</SmeltedMetalWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>MetalsFrance</StringID>
+  <TreasureTypes>SmeltedMetal</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <SmeltedMetals>Titanium, Iridium</SmeltedMetals>
+  <SmeltedMetalWeights>4, 1</SmeltedMetalWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>MetalsEgypt</StringID>
+  <ValueMin>200</ValueMin>
+  <ValueMax>400</ValueMax>
+  <TreasureTypes>SmeltedMetal</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <SmeltedMetals>Copper</SmeltedMetals>
+  <SmeltedMetalWeights>5</SmeltedMetalWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>FragmentPushableStatue</StringID>
+  <TreasureTypes>Fragment</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <FragmentTypes>PushableStatue</FragmentTypes>
+  <FragmentTypeWeights>1</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>FragmentDiveWell</StringID>
+  <TreasureTypes>Fragment</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <FragmentTypes>DiveWell</FragmentTypes>
+  <FragmentTypeWeights>1</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>FragmentPlainSarcophagus</StringID>
+  <TreasureTypes>Fragment</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <FragmentTypes>PlainSarcophagus</FragmentTypes>
+  <FragmentTypeWeights>1</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>FragmentEgyptianSarcophagus</StringID>
+  <TreasureTypes>Fragment</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <FragmentTypes>EgyptianSarcophagus</FragmentTypes>
+  <FragmentTypeWeights>1</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>FragmentSarcophagusOfKings</StringID>
+  <TreasureTypes>Fragment</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <FragmentTypes>SarcophagusOfTheKings</FragmentTypes>
+  <FragmentTypeWeights>1</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>FragmentRandomType</StringID>
+  <TreasureTypes>Fragment</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <FragmentTypes>PushableStatue, DiveWell, PlainSarcophagus, EgyptianSarcophagus, SarcophagusOfTheKings</FragmentTypes>
+  <FragmentTypeWeights>1, 1, 1, 1, 1</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>MagicGnome</StringID>
+  <TreasureTypes>MagicGnome</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>GoldFigurinesCollection</StringID>
+  <MinYearsOld>3500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <TreasureTypes>CollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <CollectibleRelics>GoldFigurines</CollectibleRelics>
+  <CollectibleRelicWeights>1</CollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>NectarBottleTombCheap</StringID>
+  <ValueMin>10</ValueMin>
+  <ValueMax>75</ValueMax>
+  <MinYearsOld>50</MinYearsOld>
+  <MaxYearsOld>100</MaxYearsOld>
+  <TreasureTypes>Nectar</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NumberOfNectarBottles>2</NumberOfNectarBottles>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>NectarBottleTombMedium</StringID>
+  <ValueMin>75</ValueMin>
+  <ValueMax>150</ValueMax>
+  <MinYearsOld>250</MinYearsOld>
+  <MaxYearsOld>1000</MaxYearsOld>
+  <TreasureTypes>Nectar</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NumberOfNectarBottles>2</NumberOfNectarBottles>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>NectarBottleTombExpensive</StringID>
+  <ValueMin>200</ValueMin>
+  <ValueMax>450</ValueMax>
+  <MinYearsOld>2000</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <TreasureTypes>Nectar</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NumberOfNectarBottles>2</NumberOfNectarBottles>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>NectarBottleNectaryCheap</StringID>
+  <ValueMin>5</ValueMin>
+  <ValueMax>50</ValueMax>
+  <MinYearsOld>1</MinYearsOld>
+  <MaxYearsOld>10</MaxYearsOld>
+  <TreasureTypes>Nectar</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NumberOfNectarBottles>2</NumberOfNectarBottles>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>NectarBottleNectaryMedium</StringID>
+  <ValueMin>50</ValueMin>
+  <ValueMax>150</ValueMax>
+  <MinYearsOld>5</MinYearsOld>
+  <MaxYearsOld>20</MaxYearsOld>
+  <TreasureTypes>Nectar</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NumberOfNectarBottles>2</NumberOfNectarBottles>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>NectarBottleNectaryExpensive</StringID>
+  <ValueMin>200</ValueMin>
+  <ValueMax>800</ValueMax>
+  <MinYearsOld>15</MinYearsOld>
+  <MaxYearsOld>50</MaxYearsOld>
+  <TreasureTypes>Nectar</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NumberOfNectarBottles>2</NumberOfNectarBottles>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>NectarBottleUber1</StringID>
+  <ValueMin>22000</ValueMin>
+  <ValueMax>27000</ValueMax>
+  <MinYearsOld>100</MinYearsOld>
+  <MaxYearsOld>200</MaxYearsOld>
+  <TreasureTypes>Nectar</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NumberOfNectarBottles>1</NumberOfNectarBottles>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>NectarBottleUber2</StringID>
+  <ValueMin>45000</ValueMin>
+  <ValueMax>55000</ValueMax>
+  <MinYearsOld>300</MinYearsOld>
+  <MaxYearsOld>500</MaxYearsOld>
+  <TreasureTypes>Nectar</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NumberOfNectarBottles>1</NumberOfNectarBottles>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>NectarBottleUber3</StringID>
+  <ValueMin>75000</ValueMin>
+  <ValueMax>110000</ValueMax>
+  <MinYearsOld>700</MinYearsOld>
+  <MaxYearsOld>900</MaxYearsOld>
+  <TreasureTypes>Nectar</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NumberOfNectarBottles>1</NumberOfNectarBottles>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>DriedFoodOne</StringID>
+  <TreasureTypes>DriedFood</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <DriedFoodTypes>Low, Medium, High</DriedFoodTypes>
+  <DriedFoodWeights>1, 2, 1</DriedFoodWeights>
+  <NumberOfDriedFoods>1</NumberOfDriedFoods>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>DriedFoodSome</StringID>
+  <TreasureTypes>DriedFood</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <DriedFoodTypes>Low, Medium, High</DriedFoodTypes>
+  <DriedFoodWeights>1, 2, 1</DriedFoodWeights>
+  <NumberOfDriedFoods>2</NumberOfDriedFoods>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>DriedFoodLots</StringID>
+  <TreasureTypes>DriedFood</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <DriedFoodTypes>Low, Medium, High</DriedFoodTypes>
+  <DriedFoodWeights>1, 2, 1</DriedFoodWeights>
+  <NumberOfDriedFoods>4</NumberOfDriedFoods>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>KeyofDiscovery</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>KeyofDiscovery</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>KeystoneoftheBurningSands</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>KeyToFireTomb</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>KeystoneHeartOfWaterTemple</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>WaterTombFinalRoomKey</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>KeystoneofQueenHatshepsut</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>KeystoneofQueenHatshepsut</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>KeystoneRedPriest</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>RedPriestKeystone</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>KeystoneBluePriest</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>BluePriestKeystone</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>MarketplaceStorageKey5</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>MarketplaceStorageKey5</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>MarketplaceStorageKey4</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>MarketplaceStorageKey4</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>ResoluteFistAnnexKey</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>ResoluteFistAnnexKey</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>GroundskeepersShackKey</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>GroundskeepersShackKey</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>LandgraabLibraryKey</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>LandgraabLibraryKey</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>LandgraabMasterKey</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>LandgraabMasterKey</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>DeathTombDepthsKeystone</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>DeathTombDepthsKeystone</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>ExtraKeystoneCharm</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>ExtraKeystoneCharm</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>ExtraKeystoneLodestone</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>ExtraKeystoneLodestone</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>ExtraKeystoneEarthCore</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>ExtraKeystoneEarthCore</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>ExtraKeystoneMoonstone</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <Keystones>ExtraKeystoneMoonstone</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>Quest_Necteaux2a_AncientNectar</StringID>
+  <ValueMin>500</ValueMin>
+  <ValueMax>1000</ValueMax>
+  <MinYearsOld>5000</MinYearsOld>
+  <MaxYearsOld>5200</MaxYearsOld>
+  <TreasureTypes>Nectar</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NumberOfNectarBottles>1</NumberOfNectarBottles>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>Quest_BetterNectar6_NectarReward</StringID>
+  <ValueMin>100</ValueMin>
+  <ValueMax>200</ValueMax>
+  <MinYearsOld>30</MinYearsOld>
+  <MaxYearsOld>50</MaxYearsOld>
+  <TreasureTypes>Nectar</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NumberOfNectarBottles>1</NumberOfNectarBottles>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>Quest_SecretGardenB4_RelicReward</StringID>
+  <MinYearsOld>3000</MinYearsOld>
+  <MaxYearsOld>3100</MaxYearsOld>
+  <TreasureTypes>CollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <CollectibleRelics>GoldFigurines</CollectibleRelics>
+  <CollectibleRelicWeights>1</CollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>Quest_Necteaux_AncientNectar</StringID>
+  <ValueMin>400</ValueMin>
+  <ValueMax>750</ValueMax>
+  <MinYearsOld>2000</MinYearsOld>
+  <MaxYearsOld>3000</MaxYearsOld>
+  <TreasureTypes>Nectar</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NumberOfNectarBottles>1</NumberOfNectarBottles>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>Quest_Necteaux_AmazingNectar</StringID>
+  <ValueMin>4000</ValueMin>
+  <ValueMax>7500</ValueMax>
+  <MinYearsOld>5000</MinYearsOld>
+  <MaxYearsOld>5100</MaxYearsOld>
+  <TreasureTypes>Nectar</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NumberOfNectarBottles>1</NumberOfNectarBottles>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>Quest_FoodAndNectar_DecentNectar</StringID>
+  <ValueMin>100</ValueMin>
+  <ValueMax>200</ValueMax>
+  <MinYearsOld>2</MinYearsOld>
+  <MaxYearsOld>15</MaxYearsOld>
+  <TreasureTypes>Nectar</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NumberOfNectarBottles>1</NumberOfNectarBottles>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>SarcophagusFragment</StringID>
+  <TreasureTypes>Fragment</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <FragmentTypes>SarcophagusOfTheKings</FragmentTypes>
+  <FragmentTypeWeights>1</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionTombofDiscovery</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>TombofDiscovery</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionTomboftheBurningSands</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>TomboftheBurningSands</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionTomboftheRock</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>TomboftheRock</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionTomboftheDesertOcean</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>TomboftheDesertOcean</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionCriminalHQ</StringID>
+  <MinYearsOld>50</MinYearsOld>
+  <MaxYearsOld>100</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>CriminalHQ</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionAncientLibrary</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>AncientLibrary</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionCommandCenter</StringID>
+  <MinYearsOld>50</MinYearsOld>
+  <MaxYearsOld>100</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>CommandCenter</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionSoulpeaceChambers</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>SoulpeaceChambers</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionHatshepsutsQuarters</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>HatshepsutsQuarters</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionBazaarTomb</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>BazaarTomb</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionTempleofDeath</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>TempleofDeath</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionCopperQuarry</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>CopperQuarry</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionSanctuaryofHorus</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>SanctuaryofHorus</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionTempleoftheAxe</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>TempleoftheAxe</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionResoluteFistAnnex</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>ResoluteFistAnnex</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionTomboftheDragonEmperor</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>TomboftheDragonEmperor</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionDragonCave</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>DragonCave</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionHallsoftheLostArmy</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>RicePaddyHiddenTemple</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionHotSpringsHiddenTemple</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>HotSpringsHiddenTemple</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionDongHuoTreasureTrove</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>DongHuoTreasureTrove</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionMarketCaves</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>MarketCaves</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionAncientMonkRetreat</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>AncientMonkRetreat</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionNectarCatacombs</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>NectarCatacombs</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionTombofIsael</StringID>
+  <MinYearsOld>3900</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>TombofIsael</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionTombofNecteaux</StringID>
+  <MinYearsOld>3900</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>TombofNecteaux</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionLouvreCatacombs</StringID>
+  <MinYearsOld>2500</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>LouvreCatacombs</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionFaerieTomb</StringID>
+  <MinYearsOld>10000</MinYearsOld>
+  <MaxYearsOld>150000</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>FaerieTomb</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionCelticBurialSite</StringID>
+  <MinYearsOld>4500</MinYearsOld>
+  <MaxYearsOld>4999</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>CelticBurialSite</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionCelticBurialSitePangu</StringID>
+  <MinYearsOld>4500</MinYearsOld>
+  <MaxYearsOld>4999</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>CelticBurialSitePangu</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionCelticBurialSiteFloorPanel</StringID>
+  <MinYearsOld>4500</MinYearsOld>
+  <MaxYearsOld>4999</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>CelticBurialSiteFloorPanel</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>TombCollectionChateauduLandgraab</StringID>
+  <MinYearsOld>50</MinYearsOld>
+  <MaxYearsOld>100</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>NamedCollectibleRelic</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <NamedCollectibleRelics>ChateauduLandgraab</NamedCollectibleRelics>
+  <NamedCollectibleRelicWeights>1</NamedCollectibleRelicWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>DragonEmperorFinalChambers</StringID>
+  <TreasureTypes>Keystone</TreasureTypes>
+  <TreasureTypeWeights>1</TreasureTypeWeights>
+  <EmptyProbability>0</EmptyProbability>
+  <Keystones>DragonEmperorFinalChambers</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>EgyptDigSiteRegular</StringID>
+  <ValueMin>25</ValueMin>
+  <ValueMax>150</ValueMax>
+  <MinYearsOld>500</MinYearsOld>
+  <MaxYearsOld>2500</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>Gem, SmeltedMetal, Seed, TrashRelic, Trash, Money, AncientCoins</TreasureTypes>
+  <TreasureTypeWeights>4,4,2,18,4,4,4</TreasureTypeWeights>
+  <EmptyProbability>0</EmptyProbability>
+  <Gems>Alabaster, Turquoise, Ruby, Emerald</Gems>
+  <GemWeights>2,2,1,1</GemWeights>
+  <SmeltedMetals>Copper, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>10,5,5</SmeltedMetalWeights>
+  <SeedRarities>Common, Uncommon, Rare</SeedRarities>
+  <SeedRarityWeights>3,2,1</SeedRarityWeights>
+  <AverageSeedQuality>Neutral</AverageSeedQuality>
+  <AncientCoinPileSizes>kVerySmallSize,kSmallSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1,1</AncientCoinPileWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>EgyptDigSiteOld</StringID>
+  <ValueMin>100</ValueMin>
+  <ValueMax>350</ValueMax>
+  <MinYearsOld>2000</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>Gem, SmeltedMetal, Seed, CollectibleRelic, TrashRelic, Trash, AncientCoins, Fragment</TreasureTypes>
+  <TreasureTypeWeights>2,2,2,6,18,2,4,1</TreasureTypeWeights>
+  <EmptyProbability>0</EmptyProbability>
+  <Gems>Alabaster, Turquoise, Ruby, Emerald</Gems>
+  <GemWeights>2,2,1,1</GemWeights>
+  <CollectibleRelics>ConopicJars, GoldFigurines, DangerousCreatures, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>20,4,1,2</CollectibleRelicWeights>
+  <SmeltedMetals>Copper, Mummitomium, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>10,1,5,5</SmeltedMetalWeights>
+  <SeedRarities>Common, Uncommon, Rare, Special</SeedRarities>
+  <SeedRarityWeights>10,8,6,1</SeedRarityWeights>
+  <AverageSeedQuality>Nice</AverageSeedQuality>
+  <AncientCoinPileSizes>kSmallSize,kLargeSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1,1</AncientCoinPileWeights>
+  <FragmentTypes>EgyptianSarcophagus, SarcophagusOfTheKings</FragmentTypes>
+  <FragmentTypeWeights>20,5</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>EgyptDigSiteAncient</StringID>
+  <ValueMin>250</ValueMin>
+  <ValueMax>600</ValueMax>
+  <MinYearsOld>3000</MinYearsOld>
+  <MaxYearsOld>8000</MaxYearsOld>
+  <Culture>Egypt</Culture>
+  <TreasureTypes>Gem, SmeltedMetal, CollectibleRelic, TrashRelic, MagicGnome, AncientCoins, Keystone, Fragment</TreasureTypes>
+  <TreasureTypeWeights>1,2,10,18,1,6,2,3</TreasureTypeWeights>
+  <EmptyProbability>0</EmptyProbability>
+  <Gems>Crazy, Pink, Soulpeace</Gems>
+  <GemWeights>20,10,1</GemWeights>
+  <CollectibleRelics>ConopicJars, GoldFigurines, DangerousCreatures, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>20,4,1,2</CollectibleRelicWeights>
+  <SmeltedMetals>Copper, Mummitomium, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>10,2,5,5</SmeltedMetalWeights>
+  <Keystones>Star</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+  <AncientCoinPileSizes>kLargeSize,kVeryLargeSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>2,1</AncientCoinPileWeights>
+  <FragmentTypes>EgyptianSarcophagus, SarcophagusOfTheKings</FragmentTypes>
+  <FragmentTypeWeights>20,10</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>ChinaDigSiteRegular</StringID>
+  <ValueMin>25</ValueMin>
+  <ValueMax>150</ValueMax>
+  <MinYearsOld>500</MinYearsOld>
+  <MaxYearsOld>2500</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>Gem, SmeltedMetal, Seed, TrashRelic, Trash, Money, AncientCoins</TreasureTypes>
+  <TreasureTypeWeights>4,4,2,18,4,4,4</TreasureTypeWeights>
+  <EmptyProbability>0</EmptyProbability>
+  <Gems>Jade, Lazuli, Ruby, Emerald</Gems>
+  <GemWeights>2,2,1,1</GemWeights>
+  <SmeltedMetals>Mercury, Platinum, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>8,8,5,5</SmeltedMetalWeights>
+  <SeedRarities>Common, Uncommon, Rare</SeedRarities>
+  <SeedRarityWeights>3,2,1</SeedRarityWeights>
+  <AverageSeedQuality>Neutral</AverageSeedQuality>
+  <AncientCoinPileSizes>kVerySmallSize,kSmallSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1,1</AncientCoinPileWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>ChinaDigSiteOld</StringID>
+  <ValueMin>100</ValueMin>
+  <ValueMax>350</ValueMax>
+  <MinYearsOld>2000</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>Gem, SmeltedMetal, Seed, CollectibleRelic, TrashRelic, Trash, AncientCoins, Fragment</TreasureTypes>
+  <TreasureTypeWeights>2,2,2,6,18,2,4,1</TreasureTypeWeights>
+  <EmptyProbability>0</EmptyProbability>
+  <Gems>Jade, Lazuli, Ruby, Emerald</Gems>
+  <GemWeights>2,2,1,1</GemWeights>
+  <CollectibleRelics>ZodiacAnimals, ChineseVases, DangerousCreatures, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>4,20,1,2</CollectibleRelicWeights>
+  <SmeltedMetals>Mercury, Platinum, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>8,8,5,5</SmeltedMetalWeights>
+  <SeedRarities>Common, Uncommon, Rare, Special</SeedRarities>
+  <SeedRarityWeights>10,8,6,1</SeedRarityWeights>
+  <AverageSeedQuality>Nice</AverageSeedQuality>
+  <AncientCoinPileSizes>kSmallSize,kLargeSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1,1</AncientCoinPileWeights>
+  <FragmentTypes>DiveWell, PlainSarcophagus</FragmentTypes>
+  <FragmentTypeWeights>20,20</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>ChinaDigSiteAncient</StringID>
+  <ValueMin>250</ValueMin>
+  <ValueMax>600</ValueMax>
+  <MinYearsOld>3000</MinYearsOld>
+  <MaxYearsOld>8000</MaxYearsOld>
+  <Culture>China</Culture>
+  <TreasureTypes>Gem, SmeltedMetal, CollectibleRelic, TrashRelic, MagicGnome, AncientCoins, Keystone, Fragment</TreasureTypes>
+  <TreasureTypeWeights>2,2,10,18,1,6,2,3</TreasureTypeWeights>
+  <EmptyProbability>0</EmptyProbability>
+  <Gems>Jade, Lazuli, Ruby, Emerald, Crazy, Pink</Gems>
+  <GemWeights>16,16,6,6,1,1</GemWeights>
+  <CollectibleRelics>ZodiacAnimals, ChineseVases, DangerousCreatures, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>4,20,1,2</CollectibleRelicWeights>
+  <SmeltedMetals>Mercury, Platinum, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>8,8,5,5</SmeltedMetalWeights>
+  <Keystones>Crescent</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+  <AncientCoinPileSizes>kLargeSize,kVeryLargeSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>2,1</AncientCoinPileWeights>
+  <FragmentTypes>DiveWell, PlainSarcophagus</FragmentTypes>
+  <FragmentTypeWeights>20,20</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>FranceDigSiteRegular</StringID>
+  <ValueMin>25</ValueMin>
+  <ValueMax>150</ValueMax>
+  <MinYearsOld>500</MinYearsOld>
+  <MaxYearsOld>2500</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>Gem, SmeltedMetal, Seed, TrashRelic, Trash, Money, AncientCoins, Nectar</TreasureTypes>
+  <TreasureTypeWeights>4,4,2,18,4,4,4,4</TreasureTypeWeights>
+  <EmptyProbability>0</EmptyProbability>
+  <Gems>Citrine, Amethyst, Opal, Emerald</Gems>
+  <GemWeights>2,2,1,1</GemWeights>
+  <SmeltedMetals>Titanium, Iridium, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>8,8,5,5</SmeltedMetalWeights>
+  <SeedRarities>Common, Uncommon, Rare</SeedRarities>
+  <SeedRarityWeights>3,2,1</SeedRarityWeights>
+  <AverageSeedQuality>Neutral</AverageSeedQuality>
+  <AncientCoinPileSizes>kVerySmallSize,kSmallSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1,1</AncientCoinPileWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>FranceDigSiteOld</StringID>
+  <ValueMin>100</ValueMin>
+  <ValueMax>350</ValueMax>
+  <MinYearsOld>2000</MinYearsOld>
+  <MaxYearsOld>4000</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>Gem, SmeltedMetal, Seed, CollectibleRelic, TrashRelic, Trash, AncientCoins, Nectar, Fragment</TreasureTypes>
+  <TreasureTypeWeights>2,2,1,6,18,2,4,4,1</TreasureTypeWeights>
+  <EmptyProbability>0</EmptyProbability>
+  <Gems>Citrine, Amethyst, Opal, Emerald</Gems>
+  <GemWeights>2,2,1,1</GemWeights>
+  <CollectibleRelics>DangerousCreatures, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>1,2</CollectibleRelicWeights>
+  <SmeltedMetals>Titanium, Iridium, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>8,8,5,5</SmeltedMetalWeights>
+  <SeedRarities>Common, Uncommon, Rare, Special</SeedRarities>
+  <SeedRarityWeights>10,8,6,1</SeedRarityWeights>
+  <AverageSeedQuality>Nice</AverageSeedQuality>
+  <AncientCoinPileSizes>kSmallSize,kLargeSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>1,1</AncientCoinPileWeights>
+  <FragmentTypes>PushableStatue, PlainSarcophagus</FragmentTypes>
+  <FragmentTypeWeights>20,20</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>FranceDigSiteAncient</StringID>
+  <ValueMin>250</ValueMin>
+  <ValueMax>600</ValueMax>
+  <MinYearsOld>3000</MinYearsOld>
+  <MaxYearsOld>8000</MaxYearsOld>
+  <Culture>France</Culture>
+  <TreasureTypes>Gem, SmeltedMetal, CollectibleRelic, TrashRelic, MagicGnome, AncientCoins,Nectar, Keystone, Fragment</TreasureTypes>
+  <TreasureTypeWeights>2,2,10,18,1,6,4,2,3</TreasureTypeWeights>
+  <EmptyProbability>0</EmptyProbability>
+  <Gems>Citrine, Amethyst, Opal, Emerald, Crazy, Pink,Tiberium</Gems>
+  <GemWeights>16,16,16,6,1,1,1</GemWeights>
+  <CollectibleRelics>DangerousCreatures, DropaStones</CollectibleRelics>
+  <CollectibleRelicWeights>1,2</CollectibleRelicWeights>
+  <SmeltedMetals>Titanium, Iridium, Gold, Silver</SmeltedMetals>
+  <SmeltedMetalWeights>8,8,5,5</SmeltedMetalWeights>
+  <Keystones>Heart</Keystones>
+  <KeystoneWeights>1</KeystoneWeights>
+  <AncientCoinPileSizes>kLargeSize,kVeryLargeSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>2,1</AncientCoinPileWeights>
+  <FragmentTypes>PushableStatue, PlainSarcophagus</FragmentTypes>
+  <FragmentTypeWeights>20,20</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>GenericDigSite</StringID>
+  <ValueMin>25</ValueMin>
+  <ValueMax>600</ValueMax>
+  <MinYearsOld>500</MinYearsOld>
+  <MaxYearsOld>8000</MaxYearsOld>
+  <TreasureTypes>Gem, SmeltedMetal, CollectibleRelic, TrashRelic, MagicGnome, AncientCoins, Fragment</TreasureTypes>
+  <TreasureTypeWeights>2,2,2,18,1,6,3</TreasureTypeWeights>
+  <EmptyProbability>0</EmptyProbability>
+  <Gems>Aqua, Smoky, Emerald, Ruby, Yellow, Tanzanite, Diamond, Rainbow, Crazy, Pink</Gems>
+  <GemWeights>10,9,8,7,6,5,4,3,2,1</GemWeights>
+  <CollectibleRelics>ConopicJars, GoldFigurines,ZodiacAnimals,ChineseVases,DangerousCreatures,DRopaStones</CollectibleRelics>
+  <CollectibleRelicWeights>10,2,2,10,1,5</CollectibleRelicWeights>
+  <SmeltedMetals>Iron,Silver,Gold,Palladium,Plutonium</SmeltedMetals>
+  <SmeltedMetalWeights>10,8,6,2,1</SmeltedMetalWeights>
+  <SeedRarities>Common, Uncommon, Rare, Special</SeedRarities>
+  <SeedRarityWeights>10,8,6,1</SeedRarityWeights>
+  <AverageSeedQuality>Neutral</AverageSeedQuality>
+  <AncientCoinPileSizes>kVerySmallSize,kSmallSize,kLargeSize,kVeryLargeSize</AncientCoinPileSizes>
+  <AncientCoinPileWeights>10,8,6,2</AncientCoinPileWeights>
+  <FragmentTypes>PushableStatue,DiveWell,PlainSarcophagus</FragmentTypes>
+  <FragmentTypeWeights>1,1,1</FragmentTypeWeights>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>WastelandDigSiteA</StringID>
+  <TreasureTypes>MysteriousFragment1, MysteriousFragment2, MysteriousFragment3, MysteriousFragment4</TreasureTypes>
+  <TreasureTypeWeights>4,2,2,2</TreasureTypeWeights>
+  <EmptyProbability>0.2</EmptyProbability>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>WastelandDigSiteB</StringID>
+  <TreasureTypes>MysteriousFragment1, MysteriousFragment2, MysteriousFragment3, MysteriousFragment4</TreasureTypes>
+  <TreasureTypeWeights>2,4,2,2</TreasureTypeWeights>
+  <EmptyProbability>0.2</EmptyProbability>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>WastelandDigSiteC</StringID>
+  <TreasureTypes>MysteriousFragment1, MysteriousFragment2, MysteriousFragment3, MysteriousFragment4</TreasureTypes>
+  <TreasureTypeWeights>2,2,4,2</TreasureTypeWeights>
+  <EmptyProbability>0.2</EmptyProbability>
+ </TreasureComponent>
+<TreasureComponent>
+  <StringID>WastelandDigSiteD</StringID>
+  <TreasureTypes>MysteriousFragment1, MysteriousFragment2, MysteriousFragment3, MysteriousFragment4</TreasureTypes>
+  <TreasureTypeWeights>2,2,2,4</TreasureTypeWeights>
+  <EmptyProbability>0.2</EmptyProbability>
+ </TreasureComponent>
+</Treasures>

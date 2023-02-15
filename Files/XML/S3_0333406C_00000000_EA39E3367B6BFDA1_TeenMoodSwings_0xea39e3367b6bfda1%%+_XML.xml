@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDaysForCheck value="0">
+      <!--Range:  0 - 100  Description:  The check for mood swings will be done every X amount of days. 0 means every day.-->
+    </kDaysForCheck>
+    <kBaseChanceForMoodSwing value="0.15">
+      <!--Float:  0 - 1  Description:  Base chance for mood swing.-->
+    </kBaseChanceForMoodSwing>
+    <kMinTroublePoints value="20">
+      <!--Float:  0 - 200  Description:  Amount of trouble points required to add chance to base chance.-->
+    </kMinTroublePoints>
+    <kBadTraits value="Rebellious, HotHeaded, MeanSpirited, Grumpy, Evil">
+      <!--List of bad traits to consider for -->
+    </kBadTraits>
+    <kCoolDownTimeDays value="3">
+      <!--Range:  0 - 100  Description:  Cooldown in days for mood swings-->
+    </kCoolDownTimeDays>
+    <kTroublePointChance value="0.2">
+      <!--Float:  0 - 1  Description:  Chance to add if trouble points surpass certain value-->
+    </kTroublePointChance>
+    <kBadTraitsChance value="0.3">
+      <!--Float:  1 - 3  Description:  Chance to add if Sim has any of the bad traits-->
+    </kBadTraitsChance>
+    <kBadDGradeChance value="0.2">
+      <!--Float:  0 - 1  Description:  Chance to add if Sim has any of the bad Grades-->
+    </kBadDGradeChance>
+    <kBadFGradeChance value="0.3">
+      <!--Float:  0 - 1  Description:  Chance to add if Sim has any of the bad Grades-->
+    </kBadFGradeChance>
+  </Current_Tuning>
+</base>

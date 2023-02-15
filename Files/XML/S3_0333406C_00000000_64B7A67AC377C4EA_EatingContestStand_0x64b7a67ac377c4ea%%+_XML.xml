@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kConeAngle value="2.513274">
+      <!--The arc/cone's angle for finding a suitable spot for a sim to watch. Units: Radians. Valid range [0, Pi]. Initial GPE Default: 4(Pi)/5.-->
+    </kConeAngle>
+    <kWatchRouteDistances value="1.5, 5, 2.5">
+      <!--Range:  1.0 - Inf  Description: Min/Max/Preferred distances a sim will route away from the stand when they're watching.-->
+    </kWatchRouteDistances>
+    <kPreContestTime value="30">
+      <!--Range:  1.0 - Inf  Description: How long in Sim minutes from the second sim joining a contest (i.e. routing is complete) until the contest starts. This time is used to allow other sims to join and wait for their routing to occur.-->
+    </kPreContestTime>
+    <kGetReadyTime value="5">
+      <!--Range:  1.0 - Inf  Description: How long the Get Ready phase lasts, right before the start. This should be short, as it puts sims in the get ready animation. No other sims can join during this time.-->
+    </kGetReadyTime>
+    <kContestLengthTime value="60">
+      <!--Range:  20.0 - Inf  Description: How long the actual contest lasts.-->
+    </kContestLengthTime>
+    <kContestResetTime value="120">
+      <!--Range:  1.0 - Inf  Description: How long after the contest ends until it is ready for a new one.-->
+    </kContestResetTime>
+    <kBaseRandomValue value="50">
+      <!--Range:  1.0 - Inf  Description: The base max random value for determining who will win a contest. It is a random roll from 0 to this value, plus bonuses, and will give the sim's change to win a particular contest.-->
+    </kBaseRandomValue>
+    <kBonusForBeingHungry value="10">
+      <!--Range:  1.0 - Inf  Description: Bonus for being hungry when the contest starts.-->
+    </kBonusForBeingHungry>
+    <kBonusPerContest value="5">
+      <!--Range:  1.0 - Inf  Description: Bonus per eating contest a sim has participated in. Capped at this value times 5.-->
+    </kBonusPerContest>
+    <kModifierForOccult value="10">
+      <!--Range:  1.0 - Inf  Description: Modifier for being an occult. Bonus for Simbot, Ghost, Invisible. Penalty for Vampire, Mummy.-->
+    </kModifierForOccult>
+    <kBonusForFavoriteFood value="10">
+      <!--Range:  1.0 - Inf  Description: Bonus if the contest type and the sim's favorite food match up.-->
+    </kBonusForFavoriteFood>
+    <kChanceForNauseousBuffAfter value="30">
+      <!--Range:  1.0 - Inf  Description: Chance for sims to get the Nauseous buff after the competition.-->
+    </kChanceForNauseousBuffAfter>
+    <kNumFestivalTickersForWinning value="25">
+      <!--Range:  1 - Inf  Description: Number of festival tickets the winner gets.-->
+    </kNumFestivalTickersForWinning>
+    <kNumFestivalTickersForNotWinning value="5">
+      <!--Range:  1 - Inf  Description: Number of festival tickets the non winners get.-->
+    </kNumFestivalTickersForNotWinning>
+    <kScoringMultiplierWhenContestIsStarting value="6">
+      <!--Range: 1.0 - Inf  Description: Autonomy scoring multiplier for the participate interaction, to encourage sims to join contests that are in the starting stage.-->
+    </kScoringMultiplierWhenContestIsStarting>
+    <kPieFaceHygieneChange value="-25">
+      <!--Range:  1.0 - Inf  Description: Change to the sim's hygiene motive when they get pie face.-->
+    </kPieFaceHygieneChange>
+    <kTimeToWaitForOthers value="30">
+      <!--Range:  1.0 - Inf  Description: How many sim minutes to wait for another sim to join the contest before giving up, when there is only one sim waiting.-->
+    </kTimeToWaitForOthers>
+    <kBonusForCompetitiveEater value="20">
+      <!--Range:  1.0 - Inf  Description: Bonus if the sim has the Competitive Eater lifetime reward.-->
+    </kBonusForCompetitiveEater>
+    <kChanceForWatcherToVomit value="2">
+      <!--Range:  1.0 - Inf  Description: Chance for sims watching to vomit per loop callback. Note: Keep this number low so that it doesn't happen too often.-->
+    </kChanceForWatcherToVomit>
+    <kAddedChanceForWatcherToVomit value="5">
+      <!--Range:  1.0 - Inf  Description: Additional chance to vomit if the sim is a vegetarian (hot dog only) or pregnant. Will be added twice if both are true.-->
+    </kAddedChanceForWatcherToVomit>
+  </Current_Tuning>
+</base>

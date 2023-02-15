@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCoolDownTimer value="2">
+      <!--Cool down before Sim can do this interaction again, in Sim hours-->
+    </kCoolDownTimer>
+    <kAdvert value="80, 70, 60, 30, 0, 0, 0, 0, 0, 0, 0">
+      <!--Range: 0-1  Inspect advertisement multiplier based on skill level-->
+    </kAdvert>
+    <kRouteDist value="1">
+      <!--Range: Integer  Distance to which sim routes before inspecting it-->
+    </kRouteDist>
+  </Current_Tuning>
+</base>

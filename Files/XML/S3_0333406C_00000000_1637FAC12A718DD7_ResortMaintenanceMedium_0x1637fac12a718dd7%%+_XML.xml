@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kServiceTuning>
+      <kMaxNumNPCsInPool value="3">
+        <!--Max num NPCs at once in service-->
+      </kMaxNumNPCsInPool>
+      <kCost value="0">
+        <!--Cost of service-->
+      </kCost>
+      <kIsEmergencyService value="False">
+        <!--If true this service charges kCost only if falsely called, otherwise free.-->
+      </kIsEmergencyService>
+      <kIsRecurrent value="False">
+        <!--Whether the service is recurrent (true) or one-off (false).  Recurrent services are the only type which can be cancelled through the phone dialog.-->
+      </kIsRecurrent>
+      <kAlwaysTryToSendSameSim value="True">
+        <!--Whether or not the service always tries to send the same NPC to a specific household-->
+      </kAlwaysTryToSendSameSim>
+    </kServiceTuning>
+    <kResortMaintenanceTuning>
+      <kMinHandinessSkill value="5">
+        <!--Min Handiness Skil-->
+      </kMinHandinessSkill>
+      <kMaxHandinessSkill value="8">
+        <!--Max Handiness Skil-->
+      </kMaxHandinessSkill>
+      <kMaxFixingTime value="4">
+        <!--Max length of time (in hours) that resortmaintenance will be out for before leaving-->
+      </kMaxFixingTime>
+      <kMaxGoofOffTime value="1">
+        <!--maximum time to goof off in hours-->
+      </kMaxGoofOffTime>
+      <kGoofOffOdds value="0.15">
+        <!--odds of goofing off (0-1)-->
+      </kGoofOffOdds>
+      <kMinGoofCheckTimeTime value="45">
+        <!--Min time between fix vs. goofoff checks (in minutes)-->
+      </kMinGoofCheckTimeTime>
+      <kMaxGoofCheckTimeTime value="60">
+        <!--Max time between fix vs. goofoff checks (in minutes)-->
+      </kMaxGoofCheckTimeTime>
+      <kMinFixingTime value="6">
+        <!--Min length of time (in hours) that resortmaintenance will be out for before leaving-->
+      </kMinFixingTime>
+    </kResortMaintenanceTuning>
+    <kOutfitTuning>
+      <kAdultMaleUniformNames value="amEP10ResortWorkerBeachMaintenanceMedium01,amEP10ResortWorkerSpanishMaintenanceMedium01,amEP10ResortWorkerModernMaintenanceMedium01,amEP10ResortWorkerSwimsuitMaintenanceMedium01,amEP10ResortWorkerFormalMaintenanceMedium01">
+        <!--Adult male Resort uniform package names.  Verify outfits work before checking in additions.-->
+      </kAdultMaleUniformNames>
+      <kAdultFemaleUniformNames value="afEP10ResortWorkerBeachMaintenanceMedium01,afEP10ResortWorkerSpanishMaintenanceMedium01,afEP10ResortWorkerModernMaintenanceMedium01,afEP10ResortWorkerSwimsuitMaintenanceMedium01,afEP10ResortWorkerFormalMaintenanceMedium01">
+        <!--Adult female Resort uniform package names.  Verify outfits work before checking in additions.-->
+      </kAdultFemaleUniformNames>
+      <kElderMaleUniformNames value="emEP10ResortWorkerBeachMaintenanceMedium01,emEP10ResortWorkerSpanishMaintenanceMedium01,emEP10ResortWorkerModernMaintenanceMedium01,emEP10ResortWorkerSwimsuitMaintenanceMedium01,emEP10ResortWorkerFormalMaintenanceMedium01">
+        <!--Elder male Resort uniform package names.  Verify outfits work before checking in additions.-->
+      </kElderMaleUniformNames>
+      <kElderFemaleUniformNames value="efEP10ResortWorkerBeachMaintenanceMedium01,efEP10ResortWorkerSpanishMaintenanceMedium01,efEP10ResortWorkerModernMaintenanceMedium01,efEP10ResortWorkerSwimsuitMaintenanceMedium01,efEP10ResortWorkerFormalMaintenanceMedium01">
+        <!--Elder female Resort uniform package names.  Verify outfits work before checking in additions.-->
+      </kElderFemaleUniformNames>
+    </kOutfitTuning>
+  </Current_Tuning>
+</base>

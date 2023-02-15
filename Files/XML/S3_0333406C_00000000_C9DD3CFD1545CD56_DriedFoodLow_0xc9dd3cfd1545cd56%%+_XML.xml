@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTuning>
+      <HungerGain value="75">
+        <!--Range: Positive float. How much hunger the sim should gain from eating this dried food.-->
+      </HungerGain>
+      <MealBuffStrength value="0">
+        <!--Range: Positive int. Strength of the Meal buff the sim gets form eating this. Reference Cooking tunables to see ranges for Good/Great/Amazing buffs. Set to 0 for no buff.-->
+      </MealBuffStrength>
+      <MealBuffDuration value="120">
+        <!--Range: Positive float. Duration of the Meal buff the sim gets form eating this. Reference Cooking tunables to see ranges for Good/Great/Amazing buffs.-->
+      </MealBuffDuration>
+    </kTuning>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxCallPetDistanceSqr value="900">
+      <!--Positive float.  The maximum distance (squared) that the pet can be away from the sim and still be called.-->
+    </kMaxCallPetDistanceSqr>
+    <kMinCallPetDistanceSqr value="49">
+      <!--Positive float.  The minimum distance (squared) that the pet can be away from the sim and still be called.-->
+    </kMinCallPetDistanceSqr>
+    <kMinCallPetLTR value="10">
+      <!--Float in range -100 to 100.  The minimum LTR liking between the pet and sim for the pet to be called.-->
+    </kMinCallPetLTR>
+    <kNormalPetWaitTimeSimMinutes value="0.5, 1.5">
+      <!--2 Positive floats.  The minimum and maximum number of sim minutes a normal pet will wait before responding to the call.-->
+    </kNormalPetWaitTimeSimMinutes>
+    <kLazyOrShyPetWaitTimeSimMinutes value="2, 5">
+      <!--2 Positive floats.  The minimum and maximum number of sim minutes a lazy/shy pet will wait before responding to the call.-->
+    </kLazyOrShyPetWaitTimeSimMinutes>
+    <kAcceptChance value="0.6">
+      <!--Float in range 0 to 1.  The chance that the call will be accepted if LTR Liking is below kLTRLikingThreshold.-->
+    </kAcceptChance>
+    <kCluelessPetMisrouteChance value="0.5">
+      <!--Float in range 0 to 1.  The chance that a clueless pet will route to the wrong spot.-->
+    </kCluelessPetMisrouteChance>
+    <kCluelessPetMisrouteDistances value="3, 7">
+      <!--2 Positive floats.  The minimum and maximum distance that a clueless pet will route from the calling sim.-->
+    </kCluelessPetMisrouteDistances>
+    <kMaxNumberOfCluelessRoutes value="2">
+      <!--Positive int.  The maximum number of times a clueless pet is allowed to misroute before properly routing to the calling sim.-->
+    </kMaxNumberOfCluelessRoutes>
+    <kLTRLikingThreshold value="40">
+      <!--Float in range -100 to 100.  Above this LTR Liking pets will always accept the call.-->
+    </kLTRLikingThreshold>
+  </Current_Tuning>
+</base>

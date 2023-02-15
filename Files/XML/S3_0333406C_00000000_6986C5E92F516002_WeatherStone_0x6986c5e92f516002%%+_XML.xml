@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kViewDistance value="1.5, 5">
+      <!--Range: float array size two.  Description:  index 0 = min view distance, index 1 = max view distance-->
+    </kViewDistance>
+    <kSummonWeatherRouteDistance value="1.5, 4">
+      <!--Range: float array size two.  Description:  index 0 = min radius to route to stone for summoning, index 1 = max distance to route to stone for summoning-->
+    </kSummonWeatherRouteDistance>
+    <kSummonWeatherBaseSuccessChance value="50">
+      <!--Range: float 0-100. Description:  Base chance that a summon weather interaction will succeed-->
+    </kSummonWeatherBaseSuccessChance>
+    <kSummonWeatherAdditionalSuccessChancePerJoin value="10">
+      <!--Range: float 0-100. Description:  For each sim that joins the summon weather interaction, this is the amount the success chance increases by-->
+    </kSummonWeatherAdditionalSuccessChancePerJoin>
+    <kSummonWeatherSuccessChanceMax value="98">
+      <!--Range: float 0-100. Description:  Maximum cap chance for success for summoning weather.-->
+    </kSummonWeatherSuccessChanceMax>
+    <kSummonWeatherFailureStruckByLightningChance value="10">
+      <!--Range: float 0-100. Description:  If summoning weather failed, this is the chance a sim will be struck by lightning.-->
+    </kSummonWeatherFailureStruckByLightningChance>
+    <kWeatherStoneAppearCameraLerpParams>
+      <Time value="1">
+        <!--Time in seconds the camera movement should take.-->
+      </Time>
+      <Zoom value="15">
+        <!--Distance in meters from the target point the camera should float.-->
+      </Zoom>
+      <Pitch value="-25">
+        <!--Angle from the horizon the camera should point down from.  Negative values are the camera above the horizon, looking down.-->
+      </Pitch>
+      <Yaw value="-60">
+        <!--Angle about the target the camera should point from. Positive values are clockwise around the target (to the right-hand side) from the target's point of view.  Valid range: [-90, 90]-->
+      </Yaw>
+      <Swing value="True">
+        <!--Determines whether the camera should swing down to look at the ground if currently in look at sky mode.  Valid range: [0, 360)-->
+      </Swing>
+    </kWeatherStoneAppearCameraLerpParams>
+    <kWeatherStoneSummonedWeatherDuration value="3, 6">
+      <!--Range: positive floats [min, max] in hours. Description:  When special weather is summoned, this is the min and max for how long that weather lasts.-->
+    </kWeatherStoneSummonedWeatherDuration>
+    <kEclipsingFogWinterishTemperatureRange value="15, 40">
+      <!--Range: positive floats [min, max]. Description:  When eclipsing fog happens, the world temperature falls within this tunable range-->
+    </kEclipsingFogWinterishTemperatureRange>
+    <kHuntersStormNumCollectablesSpawned value="5">
+      <!--Range: positive ints. Description:  When huntersStorm happens, this is the number of collectables that spawn-->
+    </kHuntersStormNumCollectablesSpawned>
+    <kHunterStormInsectRarities value="Common, Uncommon, Rare, ExtraordinarilyUnusual">
+      <!--Range: InsectRarity values. Description:  When huntersStorm happens, if an insect collectable spawns, we choose the rarity of that insect from this list based on the weights in the weights tunable-->
+    </kHunterStormInsectRarities>
+    <kHunterStormInsectRarityWeights value="0.5, 0.5, 0.3, 0.1">
+      <!--Range: InsectRarity values. Description:  When huntersStorm happens, if an insect collectable spawns, this is the weight of each of the rarities-->
+    </kHunterStormInsectRarityWeights>
+    <kEclipsingFogEmittersPerTile value="0.006">
+      <!--Range: positive floats. Description:  KEEP THIS LOW! something below 0.01. too many fog emitters in the world causes big issues-->
+    </kEclipsingFogEmittersPerTile>
+    <kSummonWeatherSuccessContinueSummoningTime value="5, 10">
+      <!--Range: float array [min, max].  Description:  After summoning is successful, sims continue to play the summon weather animation for an amount of time between min and max (in sim minutes)-->
+    </kSummonWeatherSuccessContinueSummoningTime>
+    <kSummonWeatherDetermineOutcomeTime value="15, 30">
+      <!--Range: float array size 2. [min, max].  Description: After the summon weather interaction has run for a random number between the min and max sim minutes, we'll do a roll to determine if the summoning is successful or not-->
+    </kSummonWeatherDetermineOutcomeTime>
+    <kSummonWeatherFailureContinueSummoningTime value="1, 3">
+      <!--Range: float array [min, max].  Description:  After summoning is failure, sims continue to play the summon weather animation for an amount of time between min and max (in sim minutes)-->
+    </kSummonWeatherFailureContinueSummoningTime>
+    <kCameraShakeDistanceRange value="10, 100">
+      <!--Range: positive floats [min, max]. If the camera distance is closer than the first value, the camera will shake at full intensity.  It will linearly decrease until the second value.  If the camera is further than the second value, it won't shake at all.-->
+    </kCameraShakeDistanceRange>
+    <kCameraIntensityRange value="0.01, 0.6">
+      <!--Range: positive floats [min, max]. The min/max intensity that the camera should shake.  If the minimum value is not 0, the camera will shake that much regardless of how far away it is.-->
+    </kCameraIntensityRange>
+    <kCameraShakeDuration value="7">
+      <!--Range: positive floats in sim minutes. Description:  When the weather stone is appear, the camera will shake for this duration.-->
+    </kCameraShakeDuration>
+    <kHuntersStormCollectableSpawnRadius value="2.5">
+      <!--Range: positive float (should be > 1 because of how wide the weather stone is). Description: We will try to spawn collectables at this radius or greater around the stone.-->
+    </kHuntersStormCollectableSpawnRadius>
+    <kHuntersStormNumCollectableCircleSegments value="12">
+      <!--Range: positive ints (greater than 0!). Description: When finding the collectable raining spots, we will find this many points in a circle around the stone-->
+    </kHuntersStormNumCollectableCircleSegments>
+    <kCreateStormMinMaxSnowTemp value="0, 30">
+      <!--[Min,Max] Temperature override for snow. A random temp will be picked from these numbers.-->
+    </kCreateStormMinMaxSnowTemp>
+  </Current_Tuning>
+</base>

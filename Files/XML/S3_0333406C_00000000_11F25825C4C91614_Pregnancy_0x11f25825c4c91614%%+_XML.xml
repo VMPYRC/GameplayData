@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceOfNausea value="0.1">
+      <!--(0-1) chance of getting nausea during hour 9 to 24. This will be tried 15 times. Sim always gets it at hour 8.-->
+    </kChanceOfNausea>
+    <kHourToStartWalkingPregnant value="40">
+      <!--(24-60) Which hour of pregnancy the Sim begins to use pregnant locomotion-->
+    </kHourToStartWalkingPregnant>
+    <kNumberOfPuddlesForWaterBreak value="0">
+      <!--Number of puddles made by water break, set to 0 for no water break.-->
+    </kNumberOfPuddlesForWaterBreak>
+    <kPregnantDaysOff value="4">
+      <!--Number of days off for the pregnant mother. The Spouse gets this many days off minus 2 once baby is born.-->
+    </kPregnantDaysOff>
+    <kChanceOfBackache value="0.083">
+      <!--(0-1) chance of getting backache during hour 24 to 72. This will be tried 48 times.-->
+    </kChanceOfBackache>
+    <kHourToStartContractions value="70">
+      <!--(less than kHoursOfPregnancy) Which hour of pregnancy the Sim begins to have contractions. Also when they can go to hospital.-->
+    </kHourToStartContractions>
+    <kChanceOfTwins value="0.025">
+      <!--(0-1) chance of getting twins.-->
+    </kChanceOfTwins>
+    <kChanceOfTriplets value="0.001">
+      <!--(0-1) chance of getting triplets, must be less than chance of twins.-->
+    </kChanceOfTriplets>
+    <kMaxBabyMultiplier value="30">
+      <!--Maximum multiplier used when determing the chance of multiple babies.-->
+    </kMaxBabyMultiplier>
+    <kKidMultiplierPerHour value="2">
+      <!--Multiplier added to base per hour of kid entertainment (tv or stereo).-->
+    </kKidMultiplierPerHour>
+    <kDoubleKidMultiplierPerHour value="5">
+      <!--Multiplier added to base per hour of kid entertainment (tv and stereo together).-->
+    </kDoubleKidMultiplierPerHour>
+    <kPregnancyBookBonusMom value="15">
+      <!--Additive Bonus to Pregnancy Average Mood Per Pregnancy Book read by Mom-->
+    </kPregnancyBookBonusMom>
+    <kPregnancyBookBonusDad value="15">
+      <!--Additive Bonus to Pregnancy Average Mood Per Pregnancy Book read by Dad-->
+    </kPregnancyBookBonusDad>
+    <kContractionBroadcasterParams>
+      <PulseRadius value="10">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <PulseRepeatTime value="5">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="False">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="False">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="True">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kContractionBroadcasterParams>
+    <kGenderOffsetPerFoodEaten value="0.1">
+      <!--Offset provided to gender random per food eaten (watermelon & apple).-->
+    </kGenderOffsetPerFoodEaten>
+    <kMaxGenderOffset value="0.5">
+      <!--(0-.5) Maximum offset from .5 allowed to be achieved.-->
+    </kMaxGenderOffset>
+    <kHourToStartPregnantMotives value="8">
+      <!--(less than kHoursOfPregnancy) Which hour of pregnancy the Sim begins to have contractions. Also when they can go to hospital.-->
+    </kHourToStartPregnantMotives>
+    <kHourToShowPregnantBuff value="24">
+      <!--(less than kHoursOfPregnancy) Which hour of pregnancy the Sim begins to have contractions. Also when they can go to hospital.-->
+    </kHourToShowPregnantBuff>
+    <kHoursOfPregnancy value="72">
+      <!--Which hour of pregnancy the Sim has the baby.-->
+    </kHoursOfPregnancy>
+    <kHoursToShowFullyPregnant value="36">
+      <!--(0-(kHoursOfPregnancy-kHourToShowPregnantBuff)) Number of hours to use when blending from no prego to fully prego visually.-->
+    </kHoursToShowFullyPregnant>
+    <kMaxDaysAsNPCBaby value="1">
+      <!--Maximum number of days that an NPC baby will remain a baby before aging up to a toddler.-->
+    </kMaxDaysAsNPCBaby>
+    <kSimMinutesReactToContraction value="20">
+      <!--Length of time in sim minutes to react to contractions.-->
+    </kSimMinutesReactToContraction>
+    <kShowPregnancyCameraLerp>
+      <Time value="1">
+        <!--Time in seconds the camera movement should take.-->
+      </Time>
+      <Zoom value="9">
+        <!--Distance in meters from the target point the camera should float.-->
+      </Zoom>
+      <Pitch value="-35">
+        <!--Angle from the horizon the camera should point down from.  Negative values are the camera above the horizon, looking down.-->
+      </Pitch>
+      <Yaw value="-100">
+        <!--Angle about the target the camera should point from. Positive values are clockwise around the target (to the right-hand side) from the target's point of view.  Valid range: [-90, 90]-->
+      </Yaw>
+      <Swing value="True">
+        <!--Determines whether the camera should swing down to look at the ground if currently in look at sky mode.  Valid range: [0, 360)-->
+      </Swing>
+    </kShowPregnancyCameraLerp>
+    <kLikingToGoHomeWithMother value="30">
+      <!--Range:  -100 - 100  Description:  Liking threshold to go home with mother from the hospital.-->
+    </kLikingToGoHomeWithMother>
+    <kForeignSimDisplaysTNS value="12">
+      <!--Range:  0-kVacationSimLeavesBaseWorld  Description: Time TNS will display for foreign sims to leave the world-->
+    </kForeignSimDisplaysTNS>
+    <kForeignSimLeavesWorld value="18">
+      <!--Range:  0 - kHoursOfPregnancy  Description:  Time Sim not belonging to world will leave the world.  Should be less the kHoursOfPregnancy -->
+    </kForeignSimLeavesWorld>
+    <kChanceForGhostBaby value="50">
+      <!--Chance to get a ghost baby if either parent has The Undead buff from drinking a Ghost potion. Range 0.0 - 100.0-->
+    </kChanceForGhostBaby>
+    <kOccultsDisallowedForRandomOccultBaby value="Unicorn, Frankenstein, ImaginaryFriend, Mummy">
+      <!--OccultTypes Array  Description: OccultTypes that are disallowed for randomly determining an occult for Random Occult Babies-->
+    </kOccultsDisallowedForRandomOccultBaby>
+    <kBaseChanceOfBabyHavingRandomOccultMutation value="0">
+      <!--(0-1) Chance of having a baby that receives a mutation of a randomly-assigned occult, regardless of genetics-->
+    </kBaseChanceOfBabyHavingRandomOccultMutation>
+    <kFullMoonImprovedBabyChance value="0.2">
+      <!--Improved (additive) chance of pregnency during Full moon. Range 0 -1-->
+    </kFullMoonImprovedBabyChance>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <IsLifeThreatening value="False">
+      <!--Whether the reaction is responding to a life-threatening event (e.g. responding to fire)-->
+      <!--deprecated on: 3/13/2008 4:21:51 PM-->
+    </IsLifeThreatening>
+  </Deprecated_Tuning>
+</base>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPaintingTime value="10">
+      <!--time it takes to paint in minutes-->
+    </kPaintingTime>
+    <kPaintingCost value="50">
+      <!--cost to paint-->
+    </kPaintingCost>
+    <kAlwaysAvailablePatternNames value="CostumeMakeUpHappyClown, CostumeMakeUpFeline, CostumeMakeupUnicorn, CostumeMakeUpWhimsical, CostumeMakeUpMoonStars">
+      <!--Patterns always available (excluding agegender prefix)-->
+    </kAlwaysAvailablePatternNames>
+    <kAlwaysAvailablePatternVersion value="BaseGame, BaseGame, BaseGame, BaseGame, BaseGame">
+      <!--Patterns always available (product versions)-->
+    </kAlwaysAvailablePatternVersion>
+    <kRandomlyAvailablePatternNames value="CostumeMakeUpPirateSkull, CostumeMakeUpPlumbobs">
+      <!--Randomly Available Patterns : 2 per season  (excluding agegender prefix)-->
+    </kRandomlyAvailablePatternNames>
+    <kRandomlyAvailablePatternVersion value="EP8, EP8">
+      <!--Randomly Available Patterns (product versions)-->
+    </kRandomlyAvailablePatternVersion>
+    <kSummerAvailablePatternNames value="CostumeMakeUpSun, CostumeMakeUpSurfer">
+      <!--Summer Available Patterns : 1 per season  (excluding agegender prefix)-->
+    </kSummerAvailablePatternNames>
+    <kSummerAvailablePatternVersion value="EP8, EP8">
+      <!--Summer Available Patterns (product versions)-->
+    </kSummerAvailablePatternVersion>
+    <kFallAvailablePatternNames value="CostumeMakeUpPumpkin, CostumeMakeUpHandTurkey">
+      <!--Fall Available Patterns : 1 per season  (excluding agegender prefix)-->
+    </kFallAvailablePatternNames>
+    <kFallAvailablePatternVersion value="EP8, EP8">
+      <!--Fall Available Patterns (product versions)-->
+    </kFallAvailablePatternVersion>
+    <kWinterAvailablePatternNames value="CostumeMakeUpSnowflake, CostumeMakeUpFreezerBunny">
+      <!--Wintery Available Patterns : 1 per season  (excluding agegender prefix)-->
+    </kWinterAvailablePatternNames>
+    <kWinterAvailablePatternVersion value="EP8, EP8">
+      <!--Winter Available Patterns (product versions)-->
+    </kWinterAvailablePatternVersion>
+    <kSpringAvailablePatternNames value="CostumeMakeUpBunnyFace, CostumeMakeUpHearts">
+      <!--Spring Available Patterns : 1 per season  (excluding agegender prefix)-->
+    </kSpringAvailablePatternNames>
+    <kSpringAvailablePatternVersion value="EP8, EP8">
+      <!--Spring Available Patterns (product versions)-->
+    </kSpringAvailablePatternVersion>
+    <kFailPatternNames value="CostumeMakeupFailure1, CostumeMakeupFailure2, CostumeMakeupFailure3, CostumeMakeupFailure4">
+      <!--Fail Patterns (excluding agegender prefix)-->
+    </kFailPatternNames>
+    <kFailPatternVersion value="EP8, EP8, EP8, EP8">
+      <!--Fail Patterns (product versions)-->
+    </kFailPatternVersion>
+    <kFailureOdds value="0.20">
+      <!--Odds of failure (0-1)-->
+    </kFailureOdds>
+    <kUnluckyOddMod value="0.15">
+      <!--Modifier for unlucky (added to success odds) (0-1)-->
+    </kUnluckyOddMod>
+    <kLuckyOddMod value="-0.04">
+      <!--Modifier for lucky (added to success odds) (0-1)-->
+    </kLuckyOddMod>
+    <kSuccessReactions value="Cheer, Excited, PumpFist">
+      <!--Success Reactions-->
+    </kSuccessReactions>
+    <kFailReactions value="WhyMe, Angry, Embarrassed">
+      <!--Fail Reactions-->
+    </kFailReactions>
+    <kTimeTillWearsOff value="9">
+      <!--time (in hours) until facepaint wears off.-->
+    </kTimeTillWearsOff>
+    <kMaximumNumberOfSimsInLine value="6">
+      <!--Range: Positive integers.  Description:  Maximum number of Sims that can wait in line to use Snowboard Half Pipe.-->
+    </kMaximumNumberOfSimsInLine>
+    <kTimeToWaitInLine value="90">
+      <!--Range: Positive floats.  Description: Amount of Sim minutes a Sim will wait in line before timing out and exiting.-->
+    </kTimeToWaitInLine>
+    <kLineSlotMinDistance value="1">
+      <!--Distance from the Booth's entry routing slot to the beginning of the head of the line.-->
+    </kLineSlotMinDistance>
+    <kLineSlotMaxDistance value="2">
+      <!--Distance from the Booths's entry routing slot to the end of the head of the line.-->
+    </kLineSlotMaxDistance>
+    <kLineLength value="3">
+      <!--Total length of the line, measured from the end of the head of the line.-->
+    </kLineLength>
+    <kLineStartAngle value="1.570796">
+      <!--The angle (width in radians) of the cone shape that represents the head of the line. Initial GPE value: 2.356194 (Pi *3 / 4).-->
+    </kLineStartAngle>
+    <kLineAngle value="0.7853982">
+      <!--The angle (width in radians) of the cone shape that represents the line. Initial GPE value: 0.785375f (Pi / 4).-->
+    </kLineAngle>
+    <kLineStartSpacingFactor value="2">
+      <!--Spacing factor of routing options for line head. Positive float.-->
+    </kLineStartSpacingFactor>
+    <kLineSpacingFactor value="2">
+      <!--Spacing factor of routing options for line. Positive float. Init GPE default: 1.0f-->
+    </kLineSpacingFactor>
+    <kNumFestivalTicketsForGettingPainted value="5">
+      <!--Range: 1 - Inf  Description: Number of festival tickets a selectable sim gets for having their face painted.-->
+    </kNumFestivalTicketsForGettingPainted>
+  </Current_Tuning>
+</base>

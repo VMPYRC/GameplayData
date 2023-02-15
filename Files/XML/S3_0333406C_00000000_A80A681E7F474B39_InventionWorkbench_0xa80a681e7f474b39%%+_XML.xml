@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumScrapsForFull value="250">
+      <!--Number of scraps the workbench must have to show the 'Full' visual state-->
+    </kNumScrapsForFull>
+    <kRestockNumScraps value="10, 50, 100">
+      <!--Each restock sub pie menu option for restocking N scraps. You can have as many as you like-->
+    </kRestockNumScraps>
+    <kMinutesPerInventDiceRoll value="30">
+      <!--Number of Sim minutes between checks for a invent result-->
+    </kMinutesPerInventDiceRoll>
+    <kInventNumTicketsNothing value="100,85,95,95,94,94,93,93,92,91,91">
+      <!--Number of tickets the 'Nothing Happens' result has for each Inventing skill level 0-10-->
+    </kInventNumTicketsNothing>
+    <kInventNumTicketsFire value="0,3,3,3,3,2,2,2,2,2,2">
+      <!--Number of tickets the 'Fire' result has for each Inventing skill level 0-10-->
+    </kInventNumTicketsFire>
+    <kInventNumTicketsElectrocution value="0,3,3,3,2,2,2,2,1,1,1">
+      <!--Number of tickets the 'Electrocution' result has for each Inventing skill level 0-10-->
+    </kInventNumTicketsElectrocution>
+    <kInventNumTicketsDiscovery value="5,30,27,19,18,18,17,16,16,15,14">
+      <!--Number of tickets the 'Discover something' result has for each Inventing skill level 0-10-->
+    </kInventNumTicketsDiscovery>
+    <kShowFinalModelPercent value="0.9">
+      <!--Range: 0-1 Desc: Completion percent at which to show the real invention model-->
+    </kShowFinalModelPercent>
+    <kHandinessSkillGainRateDuringMake value="2">
+      <!--Handiness skill gain rate During Make/Make Many interaction in Points per Sim Min-->
+    </kHandinessSkillGainRateDuringMake>
+    <kHandinessSkillGainRateDuringInvent value="3">
+      <!--Handiness skill gain rate During Dabble/Invent interaction in Points per Sim Min-->
+    </kHandinessSkillGainRateDuringInvent>
+    <kNumScrapsPerDiceRoll value="8">
+      <!--Number of units of scrap to consume each time we check for invent result-->
+    </kNumScrapsPerDiceRoll>
+    <kMinTimeForModelSwapDuringMakeInteraction value="5">
+      <!--Min amount of time between model swaps when doing the make/make many interaction-->
+    </kMinTimeForModelSwapDuringMakeInteraction>
+    <kMaxTimeForModelSwapDuringMakeInteraction value="25">
+      <!--Max amount of time between model swaps when doing the make/make many interaction-->
+    </kMaxTimeForModelSwapDuringMakeInteraction>
+    <kLevelCanMakeImprovedWidget value="5">
+      <!--Skill level at which sim has a chance to create an 'improved' widget-->
+    </kLevelCanMakeImprovedWidget>
+    <kChanceOfImprovedWidget value="0.5">
+      <!--Once tuned level is reached: Chance of Sim making a widget with quality 'Improved'.-->
+    </kChanceOfImprovedWidget>
+    <kWidgetWonderTimeBoost value="0.15">
+      <!--Range:  0 - 1 Additive Description:  Percent of total time you want to reduce when a widget wonder is making a widget-->
+    </kWidgetWonderTimeBoost>
+    <kMasterInventorTimeBoost value="0.15">
+      <!--Range:  0 - 1 Additive Description:  Percent of total time you want to reduce when a master inventor sim makes something-->
+    </kMasterInventorTimeBoost>
+    <kInventNumTicketsDiscoveryEccentric value="10,40,42,38,35,35,32,32,31,30,50">
+      <!--IfEccentric: Number of tickets the 'Discover something' result has for each Inventing skill level 0-10-->
+    </kInventNumTicketsDiscoveryEccentric>
+    <kChanceOfImprovedWidgetEccentric value="0.15">
+      <!--Additive Chance of an Eccentric Sim making a widget with quality 'Improved'.-->
+    </kChanceOfImprovedWidgetEccentric>
+    <kEccentricTraitTimeBoost value="0.15">
+      <!--Range:  0 - 1 Additive Description:  Percent of total time you want to reduce when an eccentric sim makes something-->
+    </kEccentricTraitTimeBoost>
+    <kChanceOfGnomeDuringMake value="0.015">
+      <!--During Make/MakeMany interaction Chance of Magic Gnome showing up instead of regular item.-->
+    </kChanceOfGnomeDuringMake>
+    <kChanceOfGnomeDuringInvent value="0.025">
+      <!--During Invent interaction Chance of Magic Gnome showing up instead of making a new discovery.-->
+    </kChanceOfGnomeDuringInvent>
+    <kCheapToyTimeBoost value="0.5">
+      <!--Range:  0 - 1 Additive Description:  Percent of total time you want to reduce when making a cheap toy-->
+    </kCheapToyTimeBoost>
+    <kScrapCostMultiplyer value="2.75">
+      <!--Cost Multiplier for restock interaction.  N units cost N * kScrapUnitValue * kScrapCostMultiplyer-->
+    </kScrapCostMultiplyer>
+    <kNumScrapToStartWith value="64">
+      <!--Number of scraps a brand new invention workebench should start with-->
+    </kNumScrapToStartWith>
+  </Current_Tuning>
+</base>

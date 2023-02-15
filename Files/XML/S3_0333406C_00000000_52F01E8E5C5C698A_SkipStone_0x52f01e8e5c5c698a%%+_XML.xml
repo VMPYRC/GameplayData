@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceOfSplashType value="1, 6, 4, 1">
+      <!--Range [float]:  0 - 10  Description:  Weighted chance that a splash type will happen.  One Big Splash, Two Splashes, Three Small Splashes, Cluster of Small Splashes.-->
+    </kChanceOfSplashType>
+    <kTimesToSkipStones value="5">
+      <!--Range [integer]:  1-x  Description:  The number of times a Sim will skip stones.-->
+    </kTimesToSkipStones>
+    <kTimeBetweenSkips value="10">
+      <!--Time in Sim Seconds between skips on the water-->
+    </kTimeBetweenSkips>
+    <kTimeTillRockHitsWater value="10">
+      <!--Time in Sim Seconds before the stone hits the water-->
+    </kTimeTillRockHitsWater>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxWaitHours value="8">
+      <!--Max number of Sim hours that customer Sim will follow playable Stylist around when 'Perform Job' has been selected.  This is a fail-safe so we should tune this to be greater than the longest duration that a Job map tag icon can be visible for during any given day.-->
+    </kMaxWaitHours>
+    <kMaxGetToLotHours value="4">
+      <!--Max number of Sim hours that we allow a customer Sim to take to get to the Lot where the Stylist Job is to occur.  This is a fail-safe in case the customer is doing something higher-priority than the 'go to lot' interaction that's pushed on them.  If this time duration is reached and the customer is still not on the makeover Lot then we'll kill the Job and display the 'sorry i have to cancel my makeover appointment' TNS message so that the Player isn't left waiting forever for a preoccupied customer.-->
+    </kMaxGetToLotHours>
+  </Current_Tuning>
+</base>

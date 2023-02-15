@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumHoursDoingSideJobsToGetBonus value="8">
+      <!--How long in sim hours the sim has to spend doing side jobs to get a cash bonus. Will happen every kNumHoursDoingSideJobsToGetBonus hours.-->
+    </kNumHoursDoingSideJobsToGetBonus>
+    <kSideJobDurationVariance value="0.25">
+      <!--Percent variance in time to complete a side job, ranges from 0 to 1, a value of .2 means duration can be +/- 20%-->
+    </kSideJobDurationVariance>
+    <kBaseSideJobsBonusAmount value="80">
+      <!--The base number of simoleons a Sim gets for doing a side job (at level 1)-->
+    </kBaseSideJobsBonusAmount>
+    <kSideJobBonusAmountExtraPerCareerLevel value="80">
+      <!--The amount of extra simoleons a Sim gets for each level above level 1 of criminal career for doing a side job-->
+    </kSideJobBonusAmountExtraPerCareerLevel>
+    <kSideJobBonusAmountVariance value="0.25">
+      <!--Percent variance in the bonus amount for a side job, ranges from 0 to 1, a value of .2 means bonus can be +/- 20%-->
+    </kSideJobBonusAmountVariance>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDaysToReachCardioShape value=".8">
+      <!--Range: Positive floats.  Description:  The time in Sim days it takes a Sim to reach full cardio shape from the fully fat shape while swimming in the pool.-->
+    </kDaysToReachCardioShape>
+    <kSkillGainRatePerMinute value="8">
+      <!--Range: Positive floats.  Description:  The skill points gained per Sim minute while swimming in the pool.-->
+    </kSkillGainRatePerMinute>
+    <kSwimFatiguedDeathTimeInHours value="12">
+      <!--Range: Positive floats.  Description:  The time in Sim hours after the Sim receives the fatigued buff after which the Sim will die while swimming.-->
+    </kSwimFatiguedDeathTimeInHours>
+    <kMinumumMinutesToSatisfySwimming value="15">
+      <!--Description:  Number of minutes a sim has to be swimming before satisfying the Go Swimming dream-->
+    </kMinumumMinutesToSatisfySwimming>
+    <kPlantSimHygieneRecoverRate value="1.75">
+      <!--How much hygiene does PlantSim recover per Sim minute-->
+    </kPlantSimHygieneRecoverRate>
+    <kWaitTimeForBoatDriverToWaitForBoatOnOceanExit value="20">
+      <!--Range: Positive ints.  Description:  The time in sim minutes for a boat driver to wait for all passenger sims to get out before just abandoning the boat in the water. Triggered when driver exits swimming posture.-->
+    </kWaitTimeForBoatDriverToWaitForBoatOnOceanExit>
+  </Current_Tuning>
+</base>

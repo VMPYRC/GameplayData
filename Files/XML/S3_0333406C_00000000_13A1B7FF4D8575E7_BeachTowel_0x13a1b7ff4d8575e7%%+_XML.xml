@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNapLength value="120">
+      <!--Range: positive integer value.  Description: Num sim minutes nap interaction will last-->
+    </kNapLength>
+    <kTemperatureCapWhenUnderUmbrella value="60">
+      <!--Range: positive floats. When umbrella is up on beach towel it makes sim temperature not rise above this cap.-->
+    </kTemperatureCapWhenUnderUmbrella>
+    <kMoodGainForEnjoyingMusicBuff value="10">
+      <!--Range: positive floats. Mood value for Enjoying Music Buff sim gets from beachtowel stereo.-->
+    </kMoodGainForEnjoyingMusicBuff>
+    <kStayInTowlPostureTime value="60">
+      <!--SimMinutes, Num Sim minutes after sim enters towel posture the sim will prefer to do interactions in this posture over all others-->
+    </kStayInTowlPostureTime>
+    <kNumBeachTowelsToDisallowAutonomy value="8">
+      <!--int > 0: After this many towels are on the lot sims will stop autonomously choosing to relax on a beach towel until the number drops below this again.-->
+    </kNumBeachTowelsToDisallowAutonomy>
+    <kChanceNPCPutUpUmbrella value="40">
+      <!--0-100: Chance of an NPC putting up the umbrella when they first enter the beach towel-->
+    </kChanceNPCPutUpUmbrella>
+    <kChanceAutonomousPutUpUmbrella value="40">
+      <!--0-100: Chance of a player sim putting up the umbrella when they autonomously enter the beach towel-->
+    </kChanceAutonomousPutUpUmbrella>
+    <kChanceNPCTurningOnRadio value="20">
+      <!--0-100: Chance of an NPC Turning on radio when they first enter the beach towel-->
+    </kChanceNPCTurningOnRadio>
+    <kChanceAutonomousTurningOnRadio value="20">
+      <!--0-100: Chance of a player sim Turning on radio when they autonomously enter the beach towel-->
+    </kChanceAutonomousTurningOnRadio>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAdditionalCelebrityThreshold value="1">
+      <!--If the ringing sim's celebrity level plus this value is greater than the highest celebrity level on the lot, they will be let in.-->
+    </kAdditionalCelebrityThreshold>
+    <kRejectedReaction value="Angry, Boo, Shrug, Annoyed">
+      <!--Reaction a sim will play if they are rejected from the ring.-->
+    </kRejectedReaction>
+    <kRingRelationshipThreshold value="25">
+      <!--If the ringing sim has a relationship with any sim on the lot greater than this, they will be let in.-->
+    </kRingRelationshipThreshold>
+    <kVisitRelationshipThreshold value="25">
+      <!--If the visiting sim has a relationship with any sim on the lot greater than this, they will be let in.-->
+    </kVisitRelationshipThreshold>
+  </Current_Tuning>
+</base>

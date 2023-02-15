@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAttractionPhoneCallChance value="5">
+      <!--Range: 0 - 100  Description: Chance per day of an attraction call from an NPC to a selectable sim asking for a date-->
+    </kAttractionPhoneCallChance>
+    <kAttractionLTRThresholds value="-10, 50">
+      <!--Range: -100.0 - 100.0  Description: LTR range for an attraction gift/love letter to be sent from an NPC to a selectable sim, [0] is the minimum value needed to consider it, [1] is the LTR where it hits the max value specified by kAttractionGiftLetterMaxChancePerDay-->
+    </kAttractionLTRThresholds>
+    <kAttractionGiftLetterMaxChancePerDay value="10">
+      <!--Range: 0 - 100  Description: Max chance per day for an NPC to send an attraction gift/love letter.-->
+    </kAttractionGiftLetterMaxChancePerDay>
+    <kDateHoursToCallAfterWork value="1, 3">
+      <!--Range: 0 - 100  Description: For date calls during work days, the time after the selectable sim leaves work in hours for the call to occur. Both in hours after finish time.-->
+    </kDateHoursToCallAfterWork>
+    <kAttractionDateRejectThreshold value="2">
+      <!--Range: 0 - inf  Description: How many times the player has to reject attraction date calls from the same NPC sim before that NPC sim will give up calling.-->
+    </kAttractionDateRejectThreshold>
+  </Current_Tuning>
+</base>

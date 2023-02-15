@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRoutingDistanceMinimum value="1">
+      <!--Range:  0+  Description:  The minimum routing distance to react-->
+    </kRoutingDistanceMinimum>
+    <kRoutingDistanceMaximum value="4">
+      <!--Range:  0+  Description:  The maximum routing distance to react-->
+    </kRoutingDistanceMaximum>
+    <kTimeToReactMinimum value="10">
+      <!--Range:  0+  Description:  The minimum length, in Sim minutes, of the panicking-->
+    </kTimeToReactMinimum>
+    <kTimeToReactMaximum value="20">
+      <!--Range:  0+  Description:  The maximum length, in Sim minutes, of the panicking-->
+    </kTimeToReactMaximum>
+    <kWanderDistanceMinimum value="5">
+      <!--Range:  0+  Description:  The minimum distance to run away after panicking-->
+    </kWanderDistanceMinimum>
+    <kWanderDistanceMaximum value="12">
+      <!--Range:  0+  Description:  The maximum (and preferred) distance to run away after panicking-->
+    </kWanderDistanceMaximum>
+  </Current_Tuning>
+</base>

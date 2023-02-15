@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDeerNPCAnimalTuning>
+      <MinDistanceWatchAnimalRoute value="11">
+        <!--Range: positive floats. Minimum distance a sim will route near this npc animal when choosing to watch it.-->
+      </MinDistanceWatchAnimalRoute>
+      <MaxDistanceWatchAnimalRoute value="14">
+        <!--Range: positive floats. Maximum distance a sim will route near this npc animal when choosing to watch it.-->
+      </MaxDistanceWatchAnimalRoute>
+      <PreferredCommercialLots value="kBigPark, kSmallPark, kFishingSpot">
+        <!--List of lot types. Deer will prefer to go to these lots-->
+      </PreferredCommercialLots>
+      <PreferredCommercialLotWeights value="14, 30, 20">
+        <!--List of floats. Must be same length as kPreferredCommercialLots. This is relative weights each of the preferred lots have. Ones with higher weight will be visited more often.-->
+      </PreferredCommercialLotWeights>
+      <VisitCommercialLotMultiplier value="2">
+        <!--Range: Positive floats. Overall multiplier applied to commerical lots. Use to score commercial against residential lots.-->
+      </VisitCommercialLotMultiplier>
+      <VisitResidentialLotMultiplier value="1">
+        <!--Range: Positive floats. Overall multiplier applied to residential lots. Use to score commercial against residential lots.-->
+      </VisitResidentialLotMultiplier>
+      <StayOnLotLength value="90, 120">
+        <!--Range: Positive floats. Min and Max for how long to stay on a lot (in Sim minutes) before the animal will go to a different lot.-->
+      </StayOnLotLength>
+      <ThinkAboutNatureChanceWhileWatching value="50">
+        <!--Range: 1 - 100. Chance the sim that is watching the npc animal will show a thought balloon about nature. Otherwise, the sim will show thoughtballoon of the npc animal-->
+      </ThinkAboutNatureChanceWhileWatching>
+      <ShooedElapsedDaysBeforeReturning value="4">
+        <!--Range: positive floats (in days). If the animal was shooed from a lot, this is the number of days that have to elapse before the pet will consider going to that lot again-->
+      </ShooedElapsedDaysBeforeReturning>
+    </kDeerNPCAnimalTuning>
+    <kMaleDeerChance value="50">
+      <!--Range: 0 - 100. Chance of making a Male Deer.-->
+    </kMaleDeerChance>
+    <kPreferHarvestableSourceMultiplier value="4">
+      <!--If a lot has harvestables outside, this multiplier is applied to that lot's preference.-->
+    </kPreferHarvestableSourceMultiplier>
+    <kPreferSameLotMultiplier value="5">
+      <!--Prefered Same lot multiplier, this will try to keep the deers going to the same lot-->
+    </kPreferSameLotMultiplier>
+    <kWanderAroundPathLengthTuning>
+      <fTotalLengthTarget value="9">
+        <!--The target total length of the run around path in meters.-->
+      </fTotalLengthTarget>
+      <fSubPathLengthMin value="3">
+        <!--The minimum length of a sub path in meters.-->
+      </fSubPathLengthMin>
+      <fSubPathLengthMax value="6">
+        <!--The maximum length of a sub path in meters.-->
+      </fSubPathLengthMax>
+      <fSubPathDirectionChangeConeAngleDegrees value="120">
+        <!--The maximum angle deviation of a sub path in degrees.-->
+      </fSubPathDirectionChangeConeAngleDegrees>
+    </kWanderAroundPathLengthTuning>
+  </Current_Tuning>
+</base>

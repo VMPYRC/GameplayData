@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinutesToReachBottomOfWellForAthleticLevel0 value="5" />
+    <kMinutesToReachBottomOfWellForAthleticLevel10 value="3" />
+    <kMinutesToReachBottomOfWellJitter value="2">
+      <!--Range: Minutes.  Diving to the bottom of the well may take this much more or less than the minutes given by level of athletic skill.-->
+    </kMinutesToReachBottomOfWellJitter>
+    <kNumberOfDiveProgressTNSs value="17">
+      <!--Number of TNSs in the localization database that can come up while the sim is diving-->
+    </kNumberOfDiveProgressTNSs>
+    <kTimeHydrophobeTakesToReachBottomOfWellMultiplier value="1.2" />
+    <kProbabilityOfReceivingATNSWhileDiving value="0.20" />
+    <kTimeToFocusOnSimAfterWarping value="3">
+      <!--Time it will take to move the camera to the sim after warping wells.  Not sure what the range on this value is.-->
+    </kTimeToFocusOnSimAfterWarping>
+    <kNumberOfReachedBottomTNSs value="7" />
+    <kFractionOfTimeFromDivingToSurface value="0.25">
+      <!--The fraction of the time it takes for a sim to surface based on how long it took him/her to dive-->
+    </kFractionOfTimeFromDivingToSurface>
+    <kMinimumMinutesAtBottomOfWellAfterTNS value="2" />
+    <kMaximumMinutesAtBottomOfWellAfterTNS value="4" />
+    <kMinimumMinutesAtBottomOfWellAfterTreasure value="2" />
+    <kMaximumMinutesAtBottomOfWellAfterTreasure value="4" />
+    <kFearBuffMoodValue value="-10">
+      <!--Range: Negative integer. Strength of the fear buff after a hydrophobic/coward sim dives.-->
+    </kFearBuffMoodValue>
+    <kMinimumMinutesSurfacingToPlayABigGaspAfterSurfacing value="15" />
+    <kMinutesSurfacingAfterWhichBigGaspIsAlwaysPlayedAfterSurfacing value="30" />
+    <kSandsOfUnderstandingDiveTimeMultiplier value="0.33">
+      <!--Multiplier (float value) to speed up time to reach bottom of well when glowing from Sands of Understanding.  Set to 1 to have no effect, 0.75 to take 75% of the time we'd otherwise take, etc.-->
+    </kSandsOfUnderstandingDiveTimeMultiplier>
+    <kAthleticSkillPointsGainedForSuccessfulDive value="20" />
+    <kIsSkillMeterVisible value="True" />
+  </Current_Tuning>
+</base>

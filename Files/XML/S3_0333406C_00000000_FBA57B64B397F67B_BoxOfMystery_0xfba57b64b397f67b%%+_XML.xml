@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBabyMadeChance value="50">
+      <!--Range: 0-100. Chance of Sim getting Pregnant on TryForBaby.-->
+    </kBabyMadeChance>
+    <kXptoGrantonSuccess value="30">
+      <!--Range: 0 - infinity, Description: XP Added on successful trick-->
+    </kXptoGrantonSuccess>
+    <kLevelForVanishingSim value="6">
+      <!--Level Vanishing Sim becomes available-->
+    </kLevelForVanishingSim>
+    <kLevelForSwordsOfDestiny value="3">
+      <!--Level Swords Of Destiny becomes available-->
+    </kLevelForSwordsOfDestiny>
+    <kChanceToFailWooHoo value="20">
+      <!--Chance to Fail WooHoo Interaction Range 0-100-->
+    </kChanceToFailWooHoo>
+    <kXptoGrantonFail value="9">
+      <!--Range: 0 - infinity, Description: XP Added on failing a trick-->
+    </kXptoGrantonFail>
+    <kChanceToFailPerformingVanishingSim value="50, 50, 50, 50, 50, 50, 50, 50, 35, 25, 10">
+      <!--Chance to Fail based off of skill level. Skill 0-10-->
+    </kChanceToFailPerformingVanishingSim>
+    <kChanceToFailPerformingSwordsOfDestiny value="50, 50, 50, 50, 42.5, 35, 30, 25, 20, 10, 5">
+      <!--Chance to Fail based off of skill level. Skill 0-10-->
+    </kChanceToFailPerformingSwordsOfDestiny>
+    <kPerformanceMeterIncreaseOnSuccessSwordsOfDestiny value=".02">
+      <!--Performance Meter Increase On Success Swords of Destiny-->
+    </kPerformanceMeterIncreaseOnSuccessSwordsOfDestiny>
+    <kPerformanceMeterIncreaseOnSuccessVanishingSim value=".02">
+      <!--Performance Meter Increase On Success Vanishing Sim-->
+    </kPerformanceMeterIncreaseOnSuccessVanishingSim>
+    <kPerformanceMeterDecreaseOnFailSwordsOfDestiny value=".04">
+      <!--Performance Meter Decrease On Fail Swords of Destiny *POSITIVE*-->
+    </kPerformanceMeterDecreaseOnFailSwordsOfDestiny>
+    <kPerformanceMeterDecreaseOnFailVanishingSim value=".04">
+      <!--Performance Meter Decrease On Fail Vanishing Sim *POSITIVE*-->
+    </kPerformanceMeterDecreaseOnFailVanishingSim>
+  </Current_Tuning>
+</base>

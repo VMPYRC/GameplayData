@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSimMinutesForCatToEatPrey value="10">
+      <!--The amount of time it should take a cat to finish a Prey, in minutes. 0.0+-->
+    </kSimMinutesForCatToEatPrey>
+    <kCatEatingDistance value="0.4">
+      <!--The distance for a cat to get to a Prey for eating. 0.0+-->
+    </kCatEatingDistance>
+    <kKittenEatingDistance value="0.2">
+      <!--The distance for a kitten to get to a Prey for eating. 0.0+-->
+    </kKittenEatingDistance>
+    <kDistanceForCatHuntingBehavior value="3">
+      <!--The distance between the Prey and the cat for the cat to run the hunting behavior. 0.0+-->
+    </kDistanceForCatHuntingBehavior>
+    <kDistanceFromPreyForCatToHunting value="3">
+      <!--The distance away from the Prey the cat will run before starting the hunting behavior. Should be less than kDistanceForCatHuntingBehavior. 0.0+-->
+    </kDistanceFromPreyForCatToHunting>
+    <kSimMinutesForDogToEatPrey value="5">
+      <!--The amount of time it should take a dog to finish a Prey, in minutes. 0.0+-->
+    </kSimMinutesForDogToEatPrey>
+    <kDogEatingDistance value="0.4">
+      <!--The distance for a dog to get to a Prey for eating. 0.0+-->
+    </kDogEatingDistance>
+    <kPuppyEatingDistance value="0.2">
+      <!--The distance for a puppy to get to a Prey for eating. 0.0+-->
+    </kPuppyEatingDistance>
+    <kLittleDogEatingDistance value="0.4">
+      <!--The distance for a little dog to get to a Prey for eating. 0.0+-->
+    </kLittleDogEatingDistance>
+    <kLittlePuppyEatingDistance value="0.2">
+      <!--The distance for a little puppy to get to a Prey for eating. 0.0+-->
+    </kLittlePuppyEatingDistance>
+    <kDistanceForDogSniffingBehavior value="4">
+      <!--The distance between the Prey and the dog for the dog to run the sniffing behavior. 0.0+-->
+    </kDistanceForDogSniffingBehavior>
+    <kDistanceFromPreyForDogToSniffAir value="4">
+      <!--The distance from the Prey the dog will run if it's going to sniff the air. Should be less than kDistanceForDogSniffingBehavior. 0.0+-->
+    </kDistanceFromPreyForDogToSniffAir>
+  </Current_Tuning>
+</base>

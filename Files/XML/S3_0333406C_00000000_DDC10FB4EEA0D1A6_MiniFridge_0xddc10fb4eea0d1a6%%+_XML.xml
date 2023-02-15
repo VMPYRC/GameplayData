@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeToWaitInLine value="15">
+      <!--Range: Positive floats.  Description: Amount of Sim minutes a Sim will wait in line before timing out and exiting.-->
+    </kTimeToWaitInLine>
+    <kMaximumNumberOfSimsInLine value="3">
+      <!--Range: Positive integers.  Description:  Maximum number of Sims that can wait in line.-->
+    </kMaximumNumberOfSimsInLine>
+    <kSnacksToExclude value="EP9Brownie, foodSnackCookie, foodSnackDonutEP09, EP9Bagel, EP9Muffin, EP9KeyLimePie, EP9CheeseDanish, FoodBirthdayCakeSlice, EP9Empanada, EP9SnackRamen, EP9SnackBreakfastBurrito, EP9SnackPopcorn, EP9SnackCurryWurst, EP9SnackPizza">
+      <!--Array of Strings. Medator names of snacks to exclude from mini fridge-->
+    </kSnacksToExclude>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Collectibles</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>2143</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>607</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Analyze $n space rocks</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>AnalyzeNSpaceRocksFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kAnalyzeSpaceRocks</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2144</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/23b5badc-07d1-4585-a0ef-ac6a9d66f052:Name</NameKey>
+    <Name>Spacious Curiosity</Name>
+    <SetName>Collectibles</SetName>
+    <ChallengeGuid>23b5badc-07d1-4585-a0ef-ac6a9d66f052</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>2143</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/23b5badc-07d1-4585-a0ef-ac6a9d66f052:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\collectables_11 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>2215</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>612</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get a $GemCut Gem</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>GemCut</SubjectType>
+        <EnumName>Brilliant</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetGemCutGemFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGetNCutGems</TriggerEvent>
+      <SubjectTypes>
+        <string>GemCut</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2216</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>612</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get a $GemCut Gem</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>GemCut</SubjectType>
+        <EnumName>Crystalball</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetGemCutGemFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGetNCutGems</TriggerEvent>
+      <SubjectTypes>
+        <string>GemCut</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2218</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>612</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get a $GemCut Gem</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>GemCut</SubjectType>
+        <EnumName>Emerald</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetGemCutGemFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGetNCutGems</TriggerEvent>
+      <SubjectTypes>
+        <string>GemCut</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2219</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>612</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get a $GemCut Gem</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>GemCut</SubjectType>
+        <EnumName>Gemdust</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetGemCutGemFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGetNCutGems</TriggerEvent>
+      <SubjectTypes>
+        <string>GemCut</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2222</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>612</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get a $GemCut Gem</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>GemCut</SubjectType>
+        <EnumName>Heart</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetGemCutGemFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGetNCutGems</TriggerEvent>
+      <SubjectTypes>
+        <string>GemCut</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2223</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>612</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get a $GemCut Gem</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>GemCut</SubjectType>
+        <EnumName>Marquis</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetGemCutGemFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGetNCutGems</TriggerEvent>
+      <SubjectTypes>
+        <string>GemCut</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2225</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>612</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get a $GemCut Gem</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>GemCut</SubjectType>
+        <EnumName>Moon</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetGemCutGemFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGetNCutGems</TriggerEvent>
+      <SubjectTypes>
+        <string>GemCut</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2226</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>612</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName />
+      <DisplayName>Get a $GemCut Gem</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>GemCut</SubjectType>
+        <EnumName>Oval</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetGemCutGemFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGetNCutGems</TriggerEvent>
+      <SubjectTypes>
+        <string>GemCut</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2230</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>612</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName />
+      <DisplayName>Get a $GemCut Gem</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>GemCut</SubjectType>
+        <EnumName>Pear</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetGemCutGemFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGetNCutGems</TriggerEvent>
+      <SubjectTypes>
+        <string>GemCut</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2231</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>612</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName />
+      <DisplayName>Get a $GemCut Gem</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>GemCut</SubjectType>
+        <EnumName>Plumbbob</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetGemCutGemFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGetNCutGems</TriggerEvent>
+      <SubjectTypes>
+        <string>GemCut</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2232</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>612</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName />
+      <DisplayName>Get a $GemCut Gem</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>GemCut</SubjectType>
+        <EnumName>Star</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetGemCutGemFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGetNCutGems</TriggerEvent>
+      <SubjectTypes>
+        <string>GemCut</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2233</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>612</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName />
+      <DisplayName>Get a $GemCut Gem</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>GemCut</SubjectType>
+        <EnumName>Sun</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetGemCutGemFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGetNCutGems</TriggerEvent>
+      <SubjectTypes>
+        <string>GemCut</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2234</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/2e912f87-10e5-4074-8b81-c887450fcc36:Name</NameKey>
+    <Name>Cutter McCuttington</Name>
+    <SetName>Collectibles</SetName>
+    <ChallengeGuid>2e912f87-10e5-4074-8b81-c887450fcc36</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>((((2215AndOP2216)AndOP(2218AndOP2219))AndOP((2222AndOP2223)AndOP(2225AndOP2226)))AndOP(((2230AndOP2231)AndOP2232)AndOP2233))</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/2e912f87-10e5-4074-8b81-c887450fcc36:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\collectables_13 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_gold_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>2344</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>29</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>5</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Find a rock</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCollectedRock</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2345</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/3e3e3fe0-8395-4fd0-be4b-f70cf653168f:Name</NameKey>
+    <Name>Rocker</Name>
+    <SetName>Collectibles</SetName>
+    <ChallengeGuid>3e3e3fe0-8395-4fd0-be4b-f70cf653168f</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>2344</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/3e3e3fe0-8395-4fd0-be4b-f70cf653168f:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\collectables_9 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>2440</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>10</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>5</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch an Insect</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtBug</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2441</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/4c96de4d-dd4b-4498-bb91-dc2f84fab4a2:Name</NameKey>
+    <Name>Bugger</Name>
+    <SetName>Collectibles</SetName>
+    <ChallengeGuid>4c96de4d-dd4b-4498-bb91-dc2f84fab4a2</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>2440</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/4c96de4d-dd4b-4498-bb91-dc2f84fab4a2:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\collectables_07 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>3010</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>104</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>5</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Find some Metal</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCollectedMetal</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3011</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/8cd6364d-3919-4973-b33f-7aa4159c9a76:Name</NameKey>
+    <Name>Metalhead</Name>
+    <SetName>Collectibles</SetName>
+    <ChallengeGuid>8cd6364d-3919-4973-b33f-7aa4159c9a76</ChallengeGuid>
+    <ExportVersion>0</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>3010</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/8cd6364d-3919-4973-b33f-7aa4159c9a76:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\collectables_10 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>3145</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>611</CompletionConditionId>
+      <InputNumber>30</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get $n Metals Smelted</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetNMetalsSmeltedFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGetMetalsSmelted</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3146</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/9ebe9c37-f373-4560-973c-d780d1f4ff51:Name</NameKey>
+    <Name>I Smelt A Lot</Name>
+    <SetName>Collectibles</SetName>
+    <ChallengeGuid>9ebe9c37-f373-4560-973c-d780d1f4ff51</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>3145</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/9ebe9c37-f373-4560-973c-d780d1f4ff51:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\collectables_12 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_gold_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>3205</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>608</CompletionConditionId>
+      <InputNumber>5</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName />
+      <DisplayName>Pick Up $n Seeds</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CollectNSeedsFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPickedUpSeeds</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3206</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/a7c6d209-9e82-4943-93c4-77e7a88f4a3b:Name</NameKey>
+    <Name>Seedling</Name>
+    <SetName>Collectibles</SetName>
+    <ChallengeGuid>a7c6d209-9e82-4943-93c4-77e7a88f4a3b</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>3205</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/a7c6d209-9e82-4943-93c4-77e7a88f4a3b:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\collectables_08 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

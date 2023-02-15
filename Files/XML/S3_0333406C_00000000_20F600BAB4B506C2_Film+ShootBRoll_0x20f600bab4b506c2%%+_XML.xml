@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinTimePerShot value="30">
+      <!--min time (in minutes) for shot in one place-->
+    </kMinTimePerShot>
+    <kMaxTimePerShot value="45">
+      <!--max time (in minutes) for shot in one place-->
+    </kMaxTimePerShot>
+    <kMinTimeTotalShooting value="120">
+      <!--min time (in minutes) for total shooting-->
+    </kMinTimeTotalShooting>
+    <kMaxTimeTotalShooting value="180">
+      <!--max time (in minutes) for total shooting-->
+    </kMaxTimeTotalShooting>
+    <kInShotMaxDistance value="15">
+      <!--maximum distance a sim can be in way of shot-->
+    </kInShotMaxDistance>
+    <kGetInWayChance value="0.2">
+      <!--Chance of a sim intentionally getting in the way 0-1-->
+    </kGetInWayChance>
+    <kMaxSquareSize value="15">
+      <!--max size of square in which start looking for good position to shoot, centered in current position-->
+    </kMaxSquareSize>
+  </Current_Tuning>
+</base>

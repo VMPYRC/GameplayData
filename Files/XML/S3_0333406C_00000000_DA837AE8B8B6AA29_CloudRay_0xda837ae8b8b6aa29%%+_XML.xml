@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTempReactPositiveToSnow value="30">
+      <!--Range - positive floats. Sims with body temp above this level will react positively to being hit with snow cloud.-->
+    </kTempReactPositiveToSnow>
+    <kLTRGainLoss value="-10, 10, -10, 0, 0">
+      <!--[Shoot Rain, Snow Positive React, Snow Negative React, Backfire, Backfire Die] LTR gain/loss between sims during shoot cloud social for each respective outcome.-->
+    </kLTRGainLoss>
+    <kTempDropForSnow value="-25">
+      <!--Range - negative floats. Sims hit with Snow cloud will have their body temp modified by this much but capped at kSnowTempDropCap-->
+    </kTempDropForSnow>
+    <kSnowTempDropCap value="-80">
+      <!--Range - negative floats. Temp cap for sims hit with snow cloud.  Sims hit by cloud will never have their temperature lowered past this number.-->
+    </kSnowTempDropCap>
+    <kPanicPathLengthTuning>
+      <fTotalLengthTarget value="40">
+        <!--The target total length of the run around path in meters.-->
+      </fTotalLengthTarget>
+      <fSubPathLengthMin value="3">
+        <!--The minimum length of a sub path in meters.-->
+      </fSubPathLengthMin>
+      <fSubPathLengthMax value="5">
+        <!--The maximum length of a sub path in meters.-->
+      </fSubPathLengthMax>
+      <fSubPathDirectionChangeConeAngleDegrees value="120">
+        <!--The maximum angle deviation of a sub path in degrees.-->
+      </fSubPathDirectionChangeConeAngleDegrees>
+    </kPanicPathLengthTuning>
+    <kActorFunGainLoss value="15, 15, 5, -15, -15">
+      <!--[Shoot Rain, Snow Positive React, Snow Negative React, Backfire, Backfire Die] Fun gain/loss For Actor as a result of shoot cloud social for each respective outcome.-->
+    </kActorFunGainLoss>
+    <kTargetFunGainLoss value="-15, 10, -15, 15, 0">
+      <!--[Shoot Rain, Snow Positive React, Snow Negative React, Backfire, Backfire Die] Fun gain/loss For Target as a result of shoot cloud social for each respective outcome.-->
+    </kTargetFunGainLoss>
+    <kNumUsesForBackFire value="4">
+      <!--Range: int > 0 Cloud Ray usage number within kTempReactPositiveToSnow hours upon which it will back fire.-->
+    </kNumUsesForBackFire>
+    <kTimeWindowOfBackfire value="4">
+      <!--Positive Float: If this is the kNumUsesForBackFire'th time sim uses the cloud ray within this number of Sim Hours, It will backfire on the sim.-->
+    </kTimeWindowOfBackfire>
+  </Current_Tuning>
+</base>

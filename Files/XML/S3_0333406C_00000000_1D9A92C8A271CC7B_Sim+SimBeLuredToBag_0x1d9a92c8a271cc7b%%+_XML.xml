@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kWanderingTimes value="1, 3">
+      <!--How many times a sim will wandering to find cat, range between kWanderingTimes[0] and kWanderingTimes[1]-->
+    </kWanderingTimes>
+    <kDistanceToBag value="2, 3, 5">
+      <!--In each time getting closer, how faraway a sim should be around the bag, the first one is the closest. The array length should be equal with kWanderingTimes[1]-->
+    </kDistanceToBag>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,499 @@
+<?xml version="1.0"?>
+<MapTags>
+<TagTuning>
+  <MapTagType></MapTagType>
+  <Icon></Icon>
+  <ShadeColor>FFFFFFFF</ShadeColor>
+  <ColorReference></ColorReference>
+  <FilterType>All</FilterType>
+  <ShowStarBurstBackground>False</ShowStarBurstBackground>
+  <AllowedBoundsOutsideScreen>1</AllowedBoundsOutsideScreen>
+  <OverrideAllowedBounds>False</OverrideAllowedBounds>
+  <MinCamDistance>100</MinCamDistance>
+  <MaxCamDistance>100000</MaxCamDistance>
+  <CamZoomValue>100</CamZoomValue>
+  <CamPitchValue>-60</CamPitchValue>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>NeighborLot</MapTagType>
+  <Icon>hud_icon_availablehouse_r2</Icon>
+  <ShadeColor>FFF89543</ShadeColor>
+  <FilterType>FriendsHomes</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>HomeLot</MapTagType>
+  <Icon>hud_icon_availablehouse_r2</Icon>
+  <ShadeColor>FF62EF6C</ShadeColor>
+  <FilterType>All</FilterType>
+  <AllowedBoundsOutsideScreen>250</AllowedBoundsOutsideScreen>
+  <MinCamDistance>135</MinCamDistance>
+  <CamZoomValue>57</CamZoomValue>
+  <CamPitchValue>57</CamPitchValue>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>Venue</MapTagType>
+  <ShadeColor>FF2C6AA4</ShadeColor>
+  <FilterType>PublicSpacesAndActivities</FilterType>
+  <CamZoomValue>50</CamZoomValue>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>NPCSim</MapTagType>
+  <ShadeColor>FFF89A47</ShadeColor>
+  <FilterType>None</FilterType>
+  <CamZoomValue>15</CamZoomValue>
+  <CamPitchValue>-50</CamPitchValue>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>FamilySim</MapTagType>
+  <ShadeColor>FF83F46C</ShadeColor>
+  <FilterType>HouseholdAndWork</FilterType>
+  <OverrideAllowedBounds>True</OverrideAllowedBounds>
+  <CamZoomValue>15</CamZoomValue>
+  <CamPitchValue>-50</CamPitchValue>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SelectedSim</MapTagType>
+  <ShadeColor>FF83F46C</ShadeColor>
+  <FilterType>All</FilterType>
+  <AllowedBoundsOutsideScreen>400</AllowedBoundsOutsideScreen>
+  <OverrideAllowedBounds>True</OverrideAllowedBounds>
+  <MinCamDistance>80</MinCamDistance>
+  <CamZoomValue>57</CamZoomValue>
+  <CamPitchValue>57</CamPitchValue>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>Work</MapTagType>
+  <Icon>hud_icon_your_work_r2</Icon>
+  <ShadeColor>FF3399FF</ShadeColor>
+  <FilterType>HouseholdAndWork,Work</FilterType>
+  <MinCamDistance>75</MinCamDistance>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>Opportunity</MapTagType>
+  <Icon>hud_icon_opportunity_r2</Icon>
+  <ShadeColor>FF41E7EC</ShadeColor>
+  <FilterType>HouseholdAndWork,OpportunitiesAndJobs</FilterType>
+  <MinCamDistance>50</MinCamDistance>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>Car</MapTagType>
+  <ShadeColor>FFA8D0F1</ShadeColor>
+  <FilterType>None</FilterType>
+  <MinCamDistance>50</MinCamDistance>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>RabbitHole</MapTagType>
+  <ShadeColor>FFEA676A</ShadeColor>
+  <MinCamDistance>50</MinCamDistance>
+  <CamZoomValue>57</CamZoomValue>
+  <CamPitchValue>57</CamPitchValue>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>ActiveHousehold</MapTagType>
+  <Icon>hud_icon_availablehouse_r2</Icon>
+  <ShadeColor>FF83F46C</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SelectedEmptyLot</MapTagType>
+  <Icon>hud_icon_emptylot_select_r2</Icon>
+  <ShadeColor>FFD3B1FF</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SelectedEmptyHouse</MapTagType>
+  <Icon>hud_icon_emptyhouse_select_r2</Icon>
+  <ShadeColor>FFD3B1FF</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SelectedHousehold</MapTagType>
+  <Icon>hud_icon_availablehouse_select_r2</Icon>
+  <ShadeColor>FFD3B1FF</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SelectedCommunity</MapTagType>
+  <Icon>hud_icon_communitylot_select_r2</Icon>
+  <ShadeColor>FFD3B1FF</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>AvailableEmptyLot</MapTagType>
+  <Icon>hud_icon_emptylot_r2</Icon>
+  <ShadeColor>FF9780F1</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>AvailableEmptyHouse</MapTagType>
+  <Icon>hud_icon_emptyhouse_r2</Icon>
+  <ShadeColor>FF9780F1</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>AvailableHousehold</MapTagType>
+  <Icon>hud_icon_availablehouse_r2</Icon>
+  <ShadeColor>FF9780F1</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>UnavailableEmptyLot</MapTagType>
+  <Icon>hud_icon_emptylot_r2</Icon>
+  <ShadeColor>FF808080</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>UnavailableEmptyHouse</MapTagType>
+  <Icon>hud_icon_emptyhouse_r2</Icon>
+  <ShadeColor>FF808080</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>UnavailableHousehold</MapTagType>
+  <Icon>hud_icon_availablehouse_r2</Icon>
+  <ShadeColor>FF808080</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>CommunityLot</MapTagType>
+  <Icon>hud_icon_communitylot_r2</Icon>
+  <ShadeColor>FF9780F1</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>EmptyCommunityLot</MapTagType>
+  <Icon>hud_icon_emptycommunitylot_r2</Icon>
+  <ShadeColor>FF9780F1</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>BaseCamp</MapTagType>
+  <Icon>hud_icon_basecamp_r2</Icon>
+  <ShadeColor>FF9780F1</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>OwnableLot</MapTagType>
+  <Icon>hud_icon_ownablelot_r2</Icon>
+  <ShadeColor>FF9780F1</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>OwnedLot</MapTagType>
+  <Icon>hud_icon_ownedlot_r2</Icon>
+  <ShadeColor>FF9780F1</ShadeColor>
+  <FilterType>All</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SelectedBaseCamp</MapTagType>
+  <Icon>hud_icon_basecamp_select_r2</Icon>
+  <ShadeColor>FFD3B1FF</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SelectedOwnableLot</MapTagType>
+  <Icon>hud_icon_ownablelot_select_r2</Icon>
+  <ShadeColor>FFD3B1FF</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SelectedOwnedLot</MapTagType>
+  <Icon>hud_icon_ownedlot_select_r2</Icon>
+  <ShadeColor>FFD3B1FF</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>UnavailableOwnableLot</MapTagType>
+  <Icon>hud_icon_ownablelot_r2</Icon>
+  <ShadeColor>FF808080</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>OpportunityDisabled</MapTagType>
+  <Icon>hud_icon_opportunity_r2</Icon>
+  <ShadeColor>FFB2DBE8</ShadeColor>
+  <FilterType>HouseholdAndWork,OpportunitiesAndJobs</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SimOfInterest</MapTagType>
+  <ShadeColor>FFF0949D</ShadeColor>
+  <FilterType>PublicSpacesAndActivities</FilterType>
+  <MinCamDistance>20</MinCamDistance>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>Adventure</MapTagType>
+  <Icon>hud_icon_opportunity_r2</Icon>
+  <ShadeColor>FFFFDD00</ShadeColor>
+  <FilterType>HouseholdAndWork,OpportunitiesAndJobs</FilterType>
+  <OverrideAllowedBounds>True</OverrideAllowedBounds>
+  <MinCamDistance>50</MinCamDistance>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>AdventureDisabled</MapTagType>
+  <Icon>hud_icon_opportunity_r2</Icon>
+  <ShadeColor>FFF4E59A</ShadeColor>
+  <FilterType>HouseholdAndWork,OpportunitiesAndJobs</FilterType>
+  <MinCamDistance>50</MinCamDistance>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>ActiveCareerJob</MapTagType>
+  <ShadeColor>FFFF7E00</ShadeColor>
+  <FilterType>HouseholdAndWork,Work,OpportunitiesAndJobs</FilterType>
+  <ShowStarBurstBackground>True</ShowStarBurstBackground>
+  <OverrideAllowedBounds>True</OverrideAllowedBounds>
+  <MinCamDistance>75</MinCamDistance>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SpiritHidden</MapTagType>
+  <ShadeColor>FF808080</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SpiritRevealed</MapTagType>
+  <ShadeColor>FF83F46C</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>PrivateEyeCase</MapTagType>
+  <ShadeColor>FFFF7E00</ShadeColor>
+  <FilterType>HouseholdAndWork,Work,OpportunitiesAndJobs</FilterType>
+  <ShowStarBurstBackground>True</ShowStarBurstBackground>
+  <OverrideAllowedBounds>True</OverrideAllowedBounds>
+  <MinCamDistance>50</MinCamDistance>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>Spawner</MapTagType>
+  <ShadeColor>FF41E7EC</ShadeColor>
+  <FilterType>PublicSpacesAndActivities</FilterType>
+  <MinCamDistance>50</MinCamDistance>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>OccupationReward</MapTagType>
+  <Icon>hud_icon_opportunity_r2</Icon>
+  <ShadeColor>FF41E7EC</ShadeColor>
+  <FilterType>HouseholdAndWork,OpportunitiesAndJobs</FilterType>
+  <OverrideAllowedBounds>True</OverrideAllowedBounds>
+  <MinCamDistance>50</MinCamDistance>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>VampirePrey</MapTagType>
+  <Icon>hud_mt_i_bloodtarget</Icon>
+  <ShadeColor>FF910503</ShadeColor>
+  <ShowStarBurstBackground>True</ShowStarBurstBackground>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>Celebrity</MapTagType>
+  <ShadeColor>FFFFDD00</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>CelebrityLot</MapTagType>
+  <Icon>hud_mt_i_celebhomes</Icon>
+  <ShadeColor>FFFFDD00</ShadeColor>
+  <FilterType>FriendsHomes</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>UnknownCelebrityLot</MapTagType>
+  <Icon>hud_mt_i_celebhomes</Icon>
+  <ShadeColor>FFFFDD00</ShadeColor>
+  <FilterType>FriendsHomes</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>NpcParty</MapTagType>
+  <Icon>hud_mt_i_party</Icon>
+  <ShadeColor>FFCB53F1</ShadeColor>
+  <FilterType>FriendsHomes,OpportunitiesAndJobs</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>PetAdoption</MapTagType>
+  <Icon>hud_mt_i_petadoption</Icon>
+  <ShadeColor>FFFF7E00</ShadeColor>
+  <FilterType>FriendsHomes</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>CatHunting</MapTagType>
+  <ShadeColor>FF41E7EC</ShadeColor>
+  <FilterType>PublicSpacesAndActivities</FilterType>
+  <MinCamDistance>50</MinCamDistance>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>DogHunting</MapTagType>
+  <ShadeColor>FF41E7EC</ShadeColor>
+  <FilterType>PublicSpacesAndActivities</FilterType>
+  <MinCamDistance>50</MinCamDistance>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SingAGram</MapTagType>
+  <ShadeColor>FF910503</ShadeColor>
+  <FilterType>Work,OpportunitiesAndJobs,HouseholdAndWork</FilterType>
+  <ShowStarBurstBackground>True</ShowStarBurstBackground>
+  <OverrideAllowedBounds>True</OverrideAllowedBounds>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>NPCShow</MapTagType>
+  <Icon>hud_mt_i_npcshow</Icon>
+  <ShadeColor>FFCB53F1</ShadeColor>
+  <FilterType>PublicSpacesAndActivities</FilterType>
+  <ShowStarBurstBackground>True</ShowStarBurstBackground>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SimFest</MapTagType>
+  <Icon>hud_mt_i_simfest</Icon>
+  <ShadeColor>FF910503</ShadeColor>
+  <FilterType>Work,OpportunitiesAndJobs</FilterType>
+  <ShowStarBurstBackground>True</ShowStarBurstBackground>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>PassportShow</MapTagType>
+  <Icon>hud_mt_i_passportshow</Icon>
+  <ShadeColor>FF910503</ShadeColor>
+  <FilterType>Work,OpportunitiesAndJobs</FilterType>
+  <ShowStarBurstBackground>True</ShowStarBurstBackground>
+  <OverrideAllowedBounds>True</OverrideAllowedBounds>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>Proprietor</MapTagType>
+  <ShadeColor>FFF89A47</ShadeColor>
+  <FilterType>Work,OpportunitiesAndJobs</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>ActiveSingagram</MapTagType>
+  <ShadeColor>FFFF7E00</ShadeColor>
+  <FilterType>Work,OpportunitiesAndJobs,HouseholdAndWork</FilterType>
+  <ShowStarBurstBackground>True</ShowStarBurstBackground>
+  <OverrideAllowedBounds>True</OverrideAllowedBounds>
+  <MinCamDistance>0</MinCamDistance>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>AlienVisitor</MapTagType>
+  <ShadeColor>FF000000</ShadeColor>
+  <OverrideAllowedBounds>True</OverrideAllowedBounds>
+  <MinCamDistance>50</MinCamDistance>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>WeatherStone</MapTagType>
+  <Icon>hud_mt_i_weatherstone</Icon>
+  <ShadeColor>FF9780F1</ShadeColor>
+  <FilterType>None</FilterType>
+  <MinCamDistance>80</MinCamDistance>
+  <CamZoomValue>15</CamZoomValue>
+  <CamPitchValue>-35</CamPitchValue>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>Dormitory</MapTagType>
+  <Icon>hud_mt_i_dorm_coed</Icon>
+  <ShadeColor>FF9780F1</ShadeColor>
+  <FilterType>HouseholdAndWork</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SelectedDormitory</MapTagType>
+  <Icon>hud_mt_i_dorm_coed_select</Icon>
+  <ShadeColor>FFD3B1FF</ShadeColor>
+  <FilterType>HouseholdAndWork</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>Fraternity</MapTagType>
+  <Icon>hud_mt_i_dorm_male</Icon>
+  <ShadeColor>FF9789F1</ShadeColor>
+  <FilterType>HouseholdAndWork</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SelectedFraternity</MapTagType>
+  <Icon>hud_mt_i_dorm_male_select</Icon>
+  <ShadeColor>FFD3B1FF</ShadeColor>
+  <FilterType>HouseholdAndWork</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>Sorority</MapTagType>
+  <Icon>hud_mt_i_dorm_female</Icon>
+  <ShadeColor>FF9780F1</ShadeColor>
+  <FilterType>HouseholdAndWork</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SelectedSorority</MapTagType>
+  <Icon>hud_mt_i_dorm_female_select</Icon>
+  <ShadeColor>FFD3B1FF</ShadeColor>
+  <FilterType>HouseholdAndWork</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>JuiceKeggerParty</MapTagType>
+  <Icon>hud_mt_i_party_juicekeggerparty</Icon>
+  <ShadeColor>FFCB53F1</ShadeColor>
+  <FilterType>FriendsHomes,OpportunitiesAndJobs</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>TailgatingParty</MapTagType>
+  <Icon>hud_mt_i_party_tailgatingparty</Icon>
+  <ShadeColor>FFCB53F1</ShadeColor>
+  <FilterType>FriendsHomes,OpportunitiesAndJobs</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>BonfireParty</MapTagType>
+  <Icon>hud_mt_i_party_bonfireparty</Icon>
+  <ShadeColor>FFCB53F1</ShadeColor>
+  <FilterType>FriendsHomes,OpportunitiesAndJobs</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>VideoGameLanParty</MapTagType>
+  <Icon>hud_mt_i_party_videogamelanparty</Icon>
+  <ShadeColor>FFCB53F1</ShadeColor>
+  <FilterType>FriendsHomes,OpportunitiesAndJobs</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>MasqueradeBall</MapTagType>
+  <Icon>hud_mt_i_party_masqueradeballparty</Icon>
+  <ShadeColor>FFCB53F1</ShadeColor>
+  <FilterType>FriendsHomes,OpportunitiesAndJobs</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>VictoryParty</MapTagType>
+  <Icon>hud_mt_i_party_victoryparty</Icon>
+  <ShadeColor>FFCB53F1</ShadeColor>
+  <FilterType>FriendsHomes,OpportunitiesAndJobs</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>Apartment</MapTagType>
+  <Icon>hud_mt_i_apartment</Icon>
+  <ShadeColor>FF9780F1</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SelectedApartment</MapTagType>
+  <Icon>hud_mt_i_apartment</Icon>
+  <ShadeColor>FFD3B1FF</ShadeColor>
+  <FilterType>FriendsHomes,HouseholdAndWork</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>Orientation</MapTagType>
+  <Icon>hud_mt_i_student_union</Icon>
+  <ShadeColor>FF910503</ShadeColor>
+  <ShowStarBurstBackground>True</ShowStarBurstBackground>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>PrivateLot</MapTagType>
+  <Icon>hud_mt_i_privatelot</Icon>
+  <ShadeColor>FF9780F1</ShadeColor>
+  <FilterType>HouseholdAndWork</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>DivingLot</MapTagType>
+  <ShadeColor>FFB2DBE8</ShadeColor>
+  <FilterType>PublicSpacesAndActivities</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>PortLot</MapTagType>
+  <Icon>hud_mt_i_port</Icon>
+  <ShadeColor>FF9780F1</ShadeColor>
+  <FilterType>None</FilterType>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>TimePortal</MapTagType>
+  <Icon>hud_mt_i_time_portal</Icon>
+  <ShadeColor>FFCB53F1</ShadeColor>
+  <FilterType>HouseholdAndWork</FilterType>
+  <ShowStarBurstBackground>True</ShowStarBurstBackground>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>BaseCampFuture</MapTagType>
+  <Icon>hud_icon_basecamp_r2</Icon>
+  <ShadeColor>FF9780F1</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>SelectedBaseCampFuture</MapTagType>
+  <Icon>hud_icon_basecamp_select_r2</Icon>
+  <ShadeColor>FFD3B1FF</ShadeColor>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>DescendantFamily</MapTagType>
+  <Icon>hud_mt_i_descendant_family</Icon>
+  <ShadeColor>FFFF7E00</ShadeColor>
+  <FilterType>FriendsHomes</FilterType>
+  <ShowStarBurstBackground>True</ShowStarBurstBackground>
+  <MinCamDistance>135</MinCamDistance>
+  <CamZoomValue>57</CamZoomValue>
+  <CamPitchValue>57</CamPitchValue>
+ </TagTuning>
+<TagTuning>
+  <MapTagType>FutureFireworks</MapTagType>
+  <Icon>hud_icon_communitylot_r2</Icon>
+  <ShadeColor>FFFFDD00</ShadeColor>
+  <ShowStarBurstBackground>True</ShowStarBurstBackground>
+ </TagTuning>
+</MapTags>

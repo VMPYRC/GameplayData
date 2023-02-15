@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeSingerDanceMove,magicGnomeSingerRockOut,magicGnomeSingerSinging">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeSingerRelaxing">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeSingerPointing">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeSingerRelaxing">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeSingerRelaxing">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="3">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kGnomeTuning>
+    <kTimeOfDayWhenGnomeElvisSpawns value="23">
+      <!--Hour during the day (24hour system) when we check if we should spawn a elvis gnome-->
+    </kTimeOfDayWhenGnomeElvisSpawns>
+    <kSingingSkillNeededForSpawn value="7">
+      <!--Minimum singing skill required for elvis gnome to spawn by audio equip.-->
+    </kSingingSkillNeededForSpawn>
+    <kChanceGnomeElvisSpawnsSkill value="20">
+      <!--Chance a elvis gnome will spawn if kSingingSkillNeededForSpawn is matched-->
+    </kChanceGnomeElvisSpawnsSkill>
+    <kChanceGnomeElvisSpawnsSandwich value="10">
+      <!--Chance a elvis gnome will spawn if Fried Peanut Butter and Banana is left out-->
+    </kChanceGnomeElvisSpawnsSandwich>
+    <kMusicPlaysFor value="60">
+      <!--How long the music plays in sim minutes-->
+    </kMusicPlaysFor>
+    <kDistanceForGuitarPlayingBoost value="20" />
+    <kSkillBoostForPlayingGuitarInRange value="1.1" />
+    <kEnvironmentTuning>
+      <EnvironmentScore value="10">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+  </Current_Tuning>
+</base>

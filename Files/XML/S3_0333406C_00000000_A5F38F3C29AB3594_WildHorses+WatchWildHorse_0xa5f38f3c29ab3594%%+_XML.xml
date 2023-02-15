@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteDistance value="12">
+      <!--Approximate distance to try to route up to a wild horse for this interaction-->
+    </kRouteDistance>
+    <kTimeBetweenReactions value="10">
+      <!--Minutes between sims reacting to watching wild horses-->
+    </kTimeBetweenReactions>
+    <kReactionList value="StandingAwe,Surprise,ViewLike">
+      <!--Possible reactions to play on the human sim watching the wild horse-->
+    </kReactionList>
+    <kMaxViewingRing value="10">
+      <!--Distance beyond kRouteDistance a watching sim can be before they try to re-route to the wild horse-->
+    </kMaxViewingRing>
+    <kWatchWildHorseLTRIncrease value="1">
+      <!--Increase in ltr upon successfully 'watching' a horse-->
+    </kWatchWildHorseLTRIncrease>
+    <kWatchUnicornLTRIncrease value="1">
+      <!--Increase in ltr upon successfully 'watching' a unicorn-->
+    </kWatchUnicornLTRIncrease>
+    <kWatchHorseMaxTime value="30">
+      <!--Max time that a sim is watching a wild horse before it ends-->
+    </kWatchHorseMaxTime>
+  </Current_Tuning>
+</base>

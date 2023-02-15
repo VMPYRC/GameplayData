@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPlayRelationshipSTC value="Friendly">
+      <!--Description:  During the Play interaction, the STC relationship type to update-->
+    </kPlayRelationshipSTC>
+    <kPlayRelationshipDeltaSTC value="20">
+      <!--Description:  During the Play interaction, the STC relationship delta per hour-->
+    </kPlayRelationshipDeltaSTC>
+    <kPlayRelationshipDeltaLTR value="5">
+      <!--Description:  During the Play interaction, the LTR relationship delta per hour-->
+    </kPlayRelationshipDeltaLTR>
+    <kPlayMeanTimeBeforeSwapSides value="20">
+      <!--Description:  During the Play interaction, MTB swapping sides in minutes-->
+    </kPlayMeanTimeBeforeSwapSides>
+    <kPlayMeanTimeBeforeFail value="60,70,80,90,100,120,140,160,180,200,240">
+      <!--Description:  During the Play interaction, MTBF in minutes for each skill level-->
+    </kPlayMeanTimeBeforeFail>
+    <kPlayDismountChance value="0, 0, 0, 0, 0, 0, 0.05, 0.1, 0.4, 0.8, 1">
+      <!--Description:  During the Play interaction, chance amazing dismount will be used-->
+    </kPlayDismountChance>
+    <kPlayReactionsBroadcaster>
+      <PulseRadius value="5">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="True">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <PulseRepeatTime value="-1">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="False">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="False">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human, Horse, Cat, Dog, LittleDog">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="Cheer, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kPlayReactionsBroadcaster>
+    <kPlayReactionsPositive value="Awe, Cheer, Watch">
+      <!--Description:  During the Play interaction, the positive reactions for Sims observing failures, tricks, and dismounts-->
+    </kPlayReactionsPositive>
+    <kPlayReactionsCaring value="Awkward, Scared, ViewDistressed">
+      <!--Description:  During the Play interaction, the negative reactions for Sims observing failures, tricks, and dismounts-->
+    </kPlayReactionsCaring>
+    <kPlayReactionsMean value="Boo, LaughAt, PointLaugh">
+      <!--Description:  During the Play interaction, the negative reactions for Sims observing failures, tricks, and dismounts-->
+    </kPlayReactionsMean>
+    <kPlaySocialDelta value="50">
+      <!--Description:  During the Play interaction, the social delta per hour-->
+    </kPlaySocialDelta>
+    <kPortalTraversalFailureChance value="0.3, 0.2, 0.1, 0.05, 0, 0, 0, 0, 0, 0, 0">
+      <!--Description:  When using the trampoline as a portal, the chance the Sim will fall down after jumping to the other side.-->
+    </kPortalTraversalFailureChance>
+    <kPortalCost value="4">
+      <!--Description: the routing cost of using the trampoline as a portal.-->
+    </kPortalCost>
+    <kFailureChanceClumsyMultiplier value="2">
+      <!--Description:  The failure multiplier for Clumsy Sims-->
+    </kFailureChanceClumsyMultiplier>
+    <kSkillModifierAthletic value="1.2">
+      <!--Description:  The skill gain multiplier for Athletic Sims-->
+    </kSkillModifierAthletic>
+  </Current_Tuning>
+</base>

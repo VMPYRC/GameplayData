@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHelperChargePerSimMinute value="0.5">
+      <!-- Description:  This is the amount of charge that this piece will generate for each sim minute that it is used by an assistant-->
+    </kHelperChargePerSimMinute>
+    <kPlayerSimChargePerMinuteScienceSkill value="0.6, 0.66, 0.72, 0.78, 0.84, 0.9, 0.96, 1.02, 1.08, 1.14, 1.2">
+      <!-- Description:  the amount of charge that this piece will generate for each sim minute that a selectable sim uses it (separated by Science skill level)-->
+    </kPlayerSimChargePerMinuteScienceSkill>
+  </Current_Tuning>
+</base>

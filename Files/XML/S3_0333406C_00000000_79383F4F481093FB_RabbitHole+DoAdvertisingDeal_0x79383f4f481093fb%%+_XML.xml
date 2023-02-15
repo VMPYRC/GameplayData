@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDaysUnavailableAfterFailure value="7">
+      <!--Description:  Days that must pass before sim can try to do another ad deal after failing-->
+    </kDaysUnavailableAfterFailure>
+    <kTimeToSpendInside value="60">
+      <!--Range:  0 - 100  Description:  Time to wait inside the rabbithole in sim minutes-->
+    </kTimeToSpendInside>
+    <kDaysUnavailableAfterSuccess value="4">
+      <!--Description:  Number of days the interaction isn't available after success-->
+    </kDaysUnavailableAfterSuccess>
+    <kFailureMoodThreshold value="0">
+      <!--Range:  -100 - 100  Description:  If the sim's mood is below this they'll get the failure case, Must be less than kGoodResultMoodThreshold-->
+    </kFailureMoodThreshold>
+    <kGoodResultMoodThreshold value="75">
+      <!--Range:  -100 - 100  Description:  Cutoff between the medium and good reward, if the sim's mood is above this they'll get the good award, must greater than kFailureMoodThreshold-->
+    </kGoodResultMoodThreshold>
+    <kMediumJobMoneyReward value="500">
+      <!--Description:  Money the sim does if they do a medium job-->
+    </kMediumJobMoneyReward>
+    <kGoodJobMoneyReward value="1500">
+      <!--Description:  Money sim gets if they do a great job-->
+    </kGoodJobMoneyReward>
+  </Current_Tuning>
+</base>

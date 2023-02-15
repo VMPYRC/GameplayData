@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCommonChips value="FearOfHumans, Cleaner, HandiBot, Chef, RoboNanny, FisherBot, Gardener, Evil, Humor, Friendly, Musician">
+      <!--Common Chip Array-->
+    </kCommonChips>
+    <kRareChips value="Professional, SolarPowered, MoodAdjuster, AbilityToLearn, HumanEmotion, CapacityToLove">
+      <!--Rare Chip Array-->
+    </kRareChips>
+    <kVeryRareChips value="ArtisticAlgorithms, Sentience, Efficient, HoloProjector">
+      <!--Very Rare Chip Array-->
+    </kVeryRareChips>
+    <kChanceToGetAChip value="0.5, 0.3, 0.2">
+      <!--Change to get a chip in certain category: common, rare, or very rare (Total should adds up to 1.0)-->
+    </kChanceToGetAChip>
+    <kNumberOfChips value="7">
+      <!--Number of Chips to get-->
+    </kNumberOfChips>
+  </Current_Tuning>
+</base>

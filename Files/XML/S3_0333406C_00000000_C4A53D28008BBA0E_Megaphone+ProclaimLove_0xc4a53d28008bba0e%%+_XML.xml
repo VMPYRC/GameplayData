@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinRouteRadius value="2">
+      <!--Range:  Positive floats. Description: Min route distance for proclaimer.-->
+    </kMinRouteRadius>
+    <kMaxRouteRadius value="4">
+      <!--Range:  Positive floats. Description: Max route distance for proclaimer.-->
+    </kMaxRouteRadius>
+    <kMaxSyncTime value="30">
+      <!--Range:  Positive ints.  Description: Max time in sim minutes to wait for sync for proclaim love interaction.-->
+    </kMaxSyncTime>
+    <kLoopTime value="15">
+      <!--Range:  Positive floats.  Description: Max time in sim minutes to proclaim love, should be less than kMaxSyncTime.-->
+    </kLoopTime>
+    <kRouteAngle value="180">
+      <!--Range:  Positive floats. Description: Route angle for proclaimer.-->
+    </kRouteAngle>
+    <kTraitsToMatchForRomance value="Flirty, HopelessRomantic, Charismatic, GreatKisser, OverEmotional, Irresistible">
+      <!--List of TraitNames that if both the Proclaimer and Proclaimee have, then romance is started.-->
+    </kTraitsToMatchForRomance>
+    <kLTRThresholdForRomanticInterest value="40">
+      <!--The LTR threshold for accepting the proclaimation.  -100 to 100-->
+    </kLTRThresholdForRomanticInterest>
+    <kLTRGainFromProclaimingLove value="12">
+      <!--The LTR gain on the Sim proclaimed to if they accept the proclaimation.-->
+    </kLTRGainFromProclaimingLove>
+    <kRomanticSTCIncrease value="100" />
+  </Current_Tuning>
+</base>

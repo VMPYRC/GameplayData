@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kShellDaySoundsDelta value="1">
+      <!--delta (in hours) from sunrise for triggering day non-shell specific sounds-->
+    </kShellDaySoundsDelta>
+    <kShellNightSoundsDelta value="2">
+      <!--delta (in hours) from sunset for triggering night non-shell specific sounds-->
+    </kShellNightSoundsDelta>
+    <kShellDayTopSound value="city_day_lp">
+      <!--Day Shell Sounds that all shells play. Played from the top of buildings.-->
+    </kShellDayTopSound>
+    <kShellNightTopSound value="city_night_lp">
+      <!--Night Shell Sounds that all shells play. Played from the top of buildings.-->
+    </kShellNightTopSound>
+    <kShellDayBottomSound value="city_day_lo_lp">
+      <!--Day Shell Sounds that all shells play. Played from the bottom of buildings.-->
+    </kShellDayBottomSound>
+    <kShellNightBottomSound value="city_night_lo_lp">
+      <!--Night Shell Sounds that all shells play. Played from the bottom of buildings.-->
+    </kShellNightBottomSound>
+    <kSoundChangeDelayDelta value="2">
+      <!--delay between stopping one set of sounds, and starting the next.  Used to(hopefully) prevent overlap-->
+    </kSoundChangeDelayDelta>
+  </Current_Tuning>
+</base>

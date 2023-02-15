@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSurfaceWaitTime value="30">
+      <!--Time to wait for all Sims to surface from scuba diving before heading out to the Island or not in the case one does not surface.- should not need tuning-->
+    </kSurfaceWaitTime>
+    <kMinLTRToBeShownTheWay value="70">
+      <!--The min LTR for the mermaid to show the Sim the way to the Island-->
+    </kMinLTRToBeShownTheWay>
+    <kAlarmRepeatLength value="5">
+      <!--How frequent to poll if the Sims are close enough to reveal the hiden cay.-->
+    </kAlarmRepeatLength>
+    <kDiscoveryDistance value="200">
+      <!--How close the Sims have to be before revealing the Cay.-->
+    </kDiscoveryDistance>
+  </Current_Tuning>
+</base>

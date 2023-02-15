@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMapTagsAlwaysShowTimeout value=".5">
+      <!--How long to always show new maptags regardless of camera culling such as new jobs, opportunities from when they first appear.-->
+    </kMapTagsAlwaysShowTimeout>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kPriorityDecrementPerHour value="50">
+      <!--deprecated on: 3/12/2008 10:26:37 AM-->
+    </kPriorityDecrementPerHour>
+    <kMaximumPriority value="1000">
+      <!--deprecated on: 3/12/2008 1:47:46 PM-->
+    </kMaximumPriority>
+    <kMapTagsTuning>
+      <kFamiliarityDecrementPerHour value="0" />
+      <kFamiliarityIncrementWhenInteracted value="0" />
+      <kScoreDecrementPerHour value="0" />
+      <kScoreIncrementWhenInteracted value="0" />
+      <kFamiliarityInitialValue value="500" />
+      <kScoreInitialValue value="5" />
+      <!--deprecated on: 3/13/2008 2:16:50 PM-->
+    </kMapTagsTuning>
+  </Deprecated_Tuning>
+</base>

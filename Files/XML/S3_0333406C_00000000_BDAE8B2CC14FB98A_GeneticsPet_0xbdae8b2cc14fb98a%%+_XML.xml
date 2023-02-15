@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBodyShapeRandomDistanceBetweenParentsChance value="50">
+      <!--Body Shape blending (Outcome 1) The Egg's blend is a random distance between the those of the parents. This is a weighted chance.-->
+    </kBodyShapeRandomDistanceBetweenParentsChance>
+    <kBodyShapeExactlyOneOfParentsChance value="25">
+      <!--Body Shape blending (Outcome 2)  The Egg's blend is exactly one of the parents' blends. This is a weighted chance.-->
+    </kBodyShapeExactlyOneOfParentsChance>
+    <kBodyShapeRandomDistanceBetweenGrandparentsChance value="10">
+      <!--Body Shape blending (Outcome 3)  The Egg's blend is a random distance between the those of the grandparents. This is a weighted chance.-->
+    </kBodyShapeRandomDistanceBetweenGrandparentsChance>
+    <kBodyShapeExactlyOneOfGrandparentsChance value="5">
+      <!--Body Shape blending (Outcome 4) The Egg's blend is exactly one of the grandparents' blends. This is a weighted chance.-->
+    </kBodyShapeExactlyOneOfGrandparentsChance>
+    <kNumTraitsToAssign value="2">
+      <!--Number of traits we assign to each offspring on birth-->
+    </kNumTraitsToAssign>
+    <kInheritTraitsFromParentChance value="65">
+      <!--Chance we choose to inherit traits from parents. This is weighted chance with all the other inheritTrait tunables.-->
+    </kInheritTraitsFromParentChance>
+    <kInheritTraitsFromGrandparentsChance value="25">
+      <!--Chance we choose to inherit traits from grandparents. This is weighted chance with all the other inheritTrait tunables.-->
+    </kInheritTraitsFromGrandparentsChance>
+    <kInheritTraitRandomChance value="10">
+      <!--NonZERO!!! Chance we choose to randomly select a trait from all possible pet traits. This is weighted chance with all the other inheritTrait tunables.-->
+    </kInheritTraitRandomChance>
+    <kInheritSkillFromParentChance value="0.6">
+      <!--Range: 0.0 - 1.0. For each skill a parent has, this is the chance the pet baby inherits it.-->
+    </kInheritSkillFromParentChance>
+    <kInheritSkillFromGrandparentChance value="0.1">
+      <!--Range: 0.0 - 1.0. For each skill a grandparent has, this is the chance the pet baby inherits it.-->
+    </kInheritSkillFromGrandparentChance>
+    <kInheritSkillAncestorSkillLeveloffsets value="3, 0">
+      <!--When baby pet inherits a skill, the skill level is set to random between [ancestor skill level - first val, ancestor skill level + second val).-->
+    </kInheritSkillAncestorSkillLeveloffsets>
+    <kInheritTrickFromParentChance value="0.6">
+      <!--Range: 0.0 - 1.0. For dog trick inheritance, this is the chance the pet baby inherits a parent's trick.-->
+    </kInheritTrickFromParentChance>
+    <kInheritTrickFromGrandparentChance value="0.1">
+      <!--Range: 0.0 - 1.0. For dog trick inheritance, this is the chance the pet baby inherits a grandparent's trick.-->
+    </kInheritTrickFromGrandparentChance>
+    <kDogEarInheritFromGrandparentsChance value="0.15">
+      <!--Dog Ear Shape Inheritance. Range: 0.0 - 1.0. If the babypet has grandparents, this is the chance the babypet will inherit the ear shape of one of the grandparents-->
+    </kDogEarInheritFromGrandparentsChance>
+    <kTailInheritFromGrandparentsChance value="0.15">
+      <!--Pet Tail Inheritance. Range: 0.0 - 1.0. If the babypet has grandparents, this is the chance the babypet will inherit their tail from one of the grandparents-->
+    </kTailInheritFromGrandparentsChance>
+    <kHorseHairColorInheritFromGrandparentsChance value="0.15, 0.15, 0.15">
+      <!--Horse Hair Color Inheritance. [Mane, Tail, Hoof]. Range: 0.0 - 1.0. If the foal has grandparents, this is the chance the foal will inherit the specified part's color from one of the grandparents-->
+    </kHorseHairColorInheritFromGrandparentsChance>
+    <kHorseHairstyleInheritFromGrandparentsChance value="0.15, 0.15, 0.15">
+      <!--Horse Hairstyle Inheritance. [Mane, Tail, Hoof]. Range: 0.0 - 1.0. If the foal has grandparents, this is the chance the foal will inherit their specified part's hairstyle from one of the grandparents-->
+    </kHorseHairstyleInheritFromGrandparentsChance>
+    <kEyeColorInheritSplitColorChance value="0.1">
+      <!--Pet Eye Color inheritance. Range: 0.0 - 1.0. This is the chance the baby pet will get 2 eyes that have split colors.-->
+    </kEyeColorInheritSplitColorChance>
+    <kEyeColorInheritFromGrandparentsChance value="0.15">
+      <!--Pet Eye Color inheritance. Range: 0.0 - 1.0. Whenever we need to choose a color, this is the chance we choose that eye color from a grandparent.-->
+    </kEyeColorInheritFromGrandparentsChance>
+    <kEyeColorMutateToDefaultPresetChance value="0.02">
+      <!--Pet Eye Color inheritance. Range: 0.0 - 1.0. This is the chance the baby pet's eye color will mutate to the default eyecolor.-->
+    </kEyeColorMutateToDefaultPresetChance>
+    <kMarkingLayerRotationMutation value="0.3, -45, 45">
+      <!--Marking layer rotation. [Range: 0.0 - 1.0. chance rotation mutates, rotation mutate addition min (should be neg), rotation mutate addition max]. Note min rotation overall = -180, max rotation overall = 180-->
+    </kMarkingLayerRotationMutation>
+    <kMarkingLayerScaleMutation value="0.3, -0.15, 0.15, 0.1, 1.0">
+      <!--Marking layer scale. [Range: 0.0 - 1.0. chance scale mutates, scale mutate addition min (should be neg), scale mutate addition max, min scale overall (because otherwise we might have a scale of 0), max scale overall]. This field will be applied to both scaleX and scaleY. min scale = 0-->
+    </kMarkingLayerScaleMutation>
+    <kMarkingLayerTranslationMutation value="0.3, -0.5, 0.5, -1.0, 1.0">
+      <!--Marking layer translation. [Range: 0.0 - 1.0. chance translation mutates, translation mutate addition min (should be neg), translation mutate addition max, translation overall min, translation overall max]. This field will be applied to both translationX and translationY.-->
+    </kMarkingLayerTranslationMutation>
+    <kPeltLayerInheritFromParentsChance value="0.7">
+      <!--Pelt layer inheritance. Range: 0.0 - 1.0. This is the chance a pelt layer from a parent is inherited-->
+    </kPeltLayerInheritFromParentsChance>
+    <kPeltLayerInheritFromGrandparentsChance value="0.15">
+      <!--Pelt layer inheritance. Range: 0.0 - 1.0. This is the chance a pelt layer from a grandparent is inherited-->
+    </kPeltLayerInheritFromGrandparentsChance>
+    <kPeltRegionConflictTossChance value="0.7">
+      <!--Pelt Region conflict. Range: 0.0 - 1.0. If we inherit 2 pelt regions that conflict, this is the chance one of them is tossed immediately. If the layer isn't tossed immediately, then we merge aspects of each layer-->
+    </kPeltRegionConflictTossChance>
+    <kPeltLayerColorMutateToRandomCAPPresetChance value="0.05">
+      <!--Pelt layer color. Range: 0.0 - 1.0. Chance the color of a marking layer or pelt layer mutates to a random CAP Preset.-->
+    </kPeltLayerColorMutateToRandomCAPPresetChance>
+    <kPeltLayerOpacityMutation value="0.8, 0.2, 0.2, 0.8">
+      <!--Pelt layer opacity. [Range: 0.0 - 1.0. opacity only mutates if it's below this threshold, Range: 0.0 - 1.0. if below threshold chance opacity mutates, mutate range min, mutate range max]-->
+    </kPeltLayerOpacityMutation>
+    <kPeltRegionConflictMergeColorOpacity value="0.5, 0.5">
+      <!--Pelt Region conflict merging. Range for each: 0.0 - 1.0. [chance we merge color, chance we merge opacity]. If we inherit 2 pelt layers that conflict and we decide set the color and opacity of one of the regions to the settings of the other.-->
+    </kPeltRegionConflictMergeColorOpacity>
+    <kMarkingLayerTypeMutationChance value="0.05">
+      <!--Marking layer type. Range: 0.0 - 1.0. Chance marking layer type mutates to a new marking layer type.-->
+    </kMarkingLayerTypeMutationChance>
+    <kMarkingLayerAddNewChance value="0.05">
+      <!--Marking layer add new. Range: 0.0 - 1.0. Chance after all the inherited layers have been calculated, we'll add a new marking layer.-->
+    </kMarkingLayerAddNewChance>
+    <kBasePeltLayerInheritFromGrandparentsChance value="0.15">
+      <!--Base Pelt layer inheritance. Range: 0.0 - 1.0. If the pet has grandparents, this is the chance a base pelt layer from a grandparent is inherited. Otherwise we inherit from parents.-->
+    </kBasePeltLayerInheritFromGrandparentsChance>
+    <kFurCurlinessInheritFromGrandparentsChance value="0.15">
+      <!--Fur Curliness inheritance. Range: 0.0 - 1.0. If the pet has grandparents, this is the chance the fur curliness is inherited from a grandparent. Otherwise we inherit from parents.-->
+    </kFurCurlinessInheritFromGrandparentsChance>
+    <kSameEggMutateEachMarkingLayerChance value="0.01">
+      <!--Range: 0.0 - 1.0. For offspring that derive from the same egg, this is the chance for each of the offspring's marking layers that the layer will mutate to a random type of marking-->
+    </kSameEggMutateEachMarkingLayerChance>
+    <kSameEggMutateEyeColorToCAPPresetChance value="0.05">
+      <!--Range: 0.0 - 1.0. For offspring that derive from the same egg,, this is the chance that the offspring's eyes will mutate to a random CAP preset color-->
+    </kSameEggMutateEyeColorToCAPPresetChance>
+    <kNoseColorInheritFromGrandparentsChance value="0.15">
+      <!--Pet Nose Color Inheritance. Range: 0.0 - 1.0. If the baby cat or dog has grandparents, this is the chance the babypet will inherit their nose color from one of the grandparents-->
+    </kNoseColorInheritFromGrandparentsChance>
+    <kFurCurlinessNumCurlsRandomVariance value="-0.1, 0.1, 0.1, 1">
+      <!--Fur Curliness inheritance. [Range: -1.0 - 0.0. Min addition to number of curls. Should be negative, Range: 0.0 - 1.0. Max addition to number of curls. Should be positive, Min total num curls can be, max total num curls can be]. For random variance of number of curls, we pick a random number between min and max and add that to num curls.-->
+    </kFurCurlinessNumCurlsRandomVariance>
+    <kFurCurlinessCurlRadiusRandomVariance value="-0.1, 0.1, 0.1, 1">
+      <!--Fur Curliness inheritance. [Range: -1.0 - 0.0. Min addition to curl radius. Should be negative, Range: 0.0 - 1.0. Max addition to curl radius. Should be positive, min total curl radius can be, max total curl radius can be]. For random variance of curl radius, we pick a random number between min and max and add that to curl radius.-->
+    </kFurCurlinessCurlRadiusRandomVariance>
+    <kUnicornBeardColorInheritFromGrandparentsChance value="0.15">
+      <!--Unicorn beard Color Inheritance. Range: 0.0 - 1.0. If the foal has grandparents, this is the chance the foal will inherit their specified part's color from one of the grandparents-->
+    </kUnicornBeardColorInheritFromGrandparentsChance>
+    <kUnicornHornStyleInheritFromGrandparentsChance value="0.15">
+      <!--Unicorn Horn inheritance. Range: 0.0 - 1.0. If the pet has grandparents, this is the chance the foal will inherit the horn part's hairstyle from one of the grandparents-->
+    </kUnicornHornStyleInheritFromGrandparentsChance>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSimMinutesInRabbitHole value="60,90">
+      <!--Time in sim minutes that the sim will be in the rabbit hole.-->
+    </kSimMinutesInRabbitHole>
+    <kChanceOfSuccess value="50, 55, 60, 70, 80, 90">
+      <!--Amount that the legal fees cost for a sim to do this interaction.-->
+    </kChanceOfSuccess>
+    <kSTCToChange value="Steamed">
+      <!--The STC string to affect on successful deflection.-->
+    </kSTCToChange>
+    <kSTCChangeOnSuccess value="-50">
+      <!--Relationship hit with deflection target on success.-->
+    </kSTCChangeOnSuccess>
+    <kCooldownRange value="1440, 1440">
+      <!--Failure cooldown min/max in sim minutes.-->
+    </kCooldownRange>
+    <kSTCChangeOnFailure value="-10">
+      <!--Relationship hit with deflection target on failure.-->
+    </kSTCChangeOnFailure>
+  </Current_Tuning>
+</base>

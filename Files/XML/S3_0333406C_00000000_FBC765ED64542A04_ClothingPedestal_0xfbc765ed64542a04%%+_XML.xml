@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPedestalRoutingTuningClass>
+      <kMinRouteRange value="1.25">
+        <!--Description:  The min range that a Sim will route toward the Pedestal.  Used as a param in the radial route code.-->
+      </kMinRouteRange>
+      <kMaxRouteRange value="1.75">
+        <!--Description:  The max range that a Sim will route toward the Pedestal.  Used as a param in the radial route code.-->
+      </kMaxRouteRange>
+    </kPedestalRoutingTuningClass>
+    <kObjectSwapEffectName value="ep11ShopClothes_main">
+      <!--Name of the VFX effect to play at specified location.-->
+    </kObjectSwapEffectName>
+    <kCostToPlanPurchaseOutfit value="425">
+      <!--Description: The cost to purchase a custom outfit from the pedestal.-->
+    </kCostToPlanPurchaseOutfit>
+    <kNumPoses value="4">
+      <!--Description: The number of poses that are supported by animation gallery show pedestal clothing poses.-->
+    </kNumPoses>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinSkateLevelToAutoSkateAcrossPonds value="2">
+      <!--Range: non negative ints. Minimum skating skill required to skate across a pond instead of using cautious walk-->
+    </kMinSkateLevelToAutoSkateAcrossPonds>
+    <kCautiousWalkStumbleCheckFrequency value="2">
+      <!--Range: positive floats in sim mins. When sims do a cautious walk on the pond, this is the frequency at which we roll for stumbling-->
+    </kCautiousWalkStumbleCheckFrequency>
+    <kCautiousWalkStumbleChance value="30">
+      <!--Range: positive floats 0-100. When sims do a cautious walk on the pond, this is the chance they'll stumble whenever we check for stumbling-->
+    </kCautiousWalkStumbleChance>
+    <kNumTriesToRouteOffPondBeforeTeleporting value="3">
+      <!--Range: positive ints. In the worst case, if a sim can't route to a place on the pond shoreline after this many tries, we will teleport them to a safe location.-->
+    </kNumTriesToRouteOffPondBeforeTeleporting>
+    <kPondFreezeLevelToShowUnstableIceTooltip value="60">
+      <!--Range: positive floats. If ice is melting/freezing and pond freezing level is above this threshold, we'll show the unstable ice tooltip. This is to make it clear to players taht even though the ice looks frozen, you can't skate on it just yet.-->
+    </kPondFreezeLevelToShowUnstableIceTooltip>
+    <kWorldPondAskToJoinQueryRadius value="30">
+      <!--Range: positive floats. When clicking on a world pond and doing ask to join, sims within this tunable radius of the actor will show up in the dialog box.-->
+    </kWorldPondAskToJoinQueryRadius>
+    <kWorldPondSelectClosestSkatingAreaMaxRadius value="20">
+      <!--Range: positive floats. When clicking on a world pond and trying to get the closest skating area, if none are in this radius, we'll try to create a new skating area.-->
+    </kWorldPondSelectClosestSkatingAreaMaxRadius>
+  </Current_Tuning>
+</base>

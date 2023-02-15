@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDecayTime value="24">
+      <!--How many sim hours it takes for the plant remains to decay into nothingness.-->
+    </kDecayTime>
+    <kDecaySnoozeTime value="5">
+      <!--How many sim minutes it should wait before trying to decay again, if the object was in use when it tried to decay previously.-->
+    </kDecaySnoozeTime>
+  </Current_Tuning>
+</base>

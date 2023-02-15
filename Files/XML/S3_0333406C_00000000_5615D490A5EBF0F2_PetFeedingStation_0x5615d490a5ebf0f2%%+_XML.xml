@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRepairableTuning>
+      <HoursUnbreakable value="24">
+        <!--How long until the object is allowed to check for breakage after being fixed or purchased.-->
+      </HoursUnbreakable>
+      <StartPercentChanceBreak value="5">
+        <!--Starting chance of object breaking when its used.-->
+      </StartPercentChanceBreak>
+      <PercentChanceBreakIncrease value="1">
+        <!--How much the chance of breakage increases each time the object is used (int, 1 to 100).-->
+      </PercentChanceBreakIncrease>
+      <PercentWhenReplaceAvailable value="50">
+        <!--What percent breakage chance the Replace interaction becomes available-->
+      </PercentWhenReplaceAvailable>
+      <RepairComplexity value="1">
+        <!--The level at which repair time reaches its minimum-->
+      </RepairComplexity>
+      <MinRepairTime value="10">
+        <!--Minimum amount of time in sim minutes that it takes to repair this object.  This time when skill level at or above RepairComplexity-->
+      </MinRepairTime>
+      <MaxRepairTime value="20">
+        <!--Maximum amount of time in sim minutes that it takes to repair this object.  Occurs at skill level 0.-->
+      </MaxRepairTime>
+      <RepairSkillGain value="5">
+        <!--Rate of skill gain while repairing object in points per sim minute-->
+      </RepairSkillGain>
+      <UpgradeUnbreakable>
+        <UpgradeTime value="15">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="5">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="20">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="False">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeUnbreakable>
+      <MinChanceOfElectrocution value="0">
+        <!--Minimum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs when skill level > = RepairComplexity-->
+      </MinChanceOfElectrocution>
+      <MaxChanceOfElectrocution value="0">
+        <!--Maximum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs at skill level 0.-->
+      </MaxChanceOfElectrocution>
+    </kRepairableTuning>
+    <kTimeIncrementValues value="4, 6, 8, 10">
+      <!--The time increment when auto fill can occur: default always uses the the second element-->
+    </kTimeIncrementValues>
+    <kCostToFillFeeder value="100">
+      <!--Description:  Cost to fill feeder-->
+    </kCostToFillFeeder>
+    <kMaxFeederUnits value="10">
+      <!--Range:  0 - 100  Description:  Default number of units when pet feeder is filled-->
+    </kMaxFeederUnits>
+    <kFeederUnitStateChanges value="5">
+      <!--Range:  0 - kMaxFeederUnits  Description: Units remaining when going to full to some state-->
+    </kFeederUnitStateChanges>
+    <kMaxBowlUnits value="200">
+      <!--Range:  0 - 100  Description:  Default number of units when pet bowl is filled-->
+    </kMaxBowlUnits>
+    <kBowlUnitStateChanges value="100">
+      <!--Range:  0 - kMaxFeederUnits  Description: Units remaining when going to full to some state-->
+    </kBowlUnitStateChanges>
+    <kTimeSabotageTakes value="25">
+      <!--Range:  5 - 100  Description:  Time in which sabotage takes to occur in sim minutes-->
+    </kTimeSabotageTakes>
+    <kTimeAddSmartSensorTakes value="25">
+      <!--Range:  5 - 100  Description:  Time in which add smart sensor takes to occur in sim minutes-->
+    </kTimeAddSmartSensorTakes>
+    <kHungryLevelToRun value="0">
+      <!--Range:  -100-100  Description:  Tunable at which hungry pet will run-->
+    </kHungryLevelToRun>
+    <kLazyEatingTraits value="LazyPet">
+      <!--TraitNames that cause sim to have lazy eating style-->
+    </kLazyEatingTraits>
+    <kAggressiveEatingTraits value="AggressivePet">
+      <!--TraitNames that cause sim to have aggressive eating style-->
+    </kAggressiveEatingTraits>
+    <kPlayfulEatingTraits value="PlayfulPet">
+      <!--TraitNames that cause sim to have playful eating style-->
+    </kPlayfulEatingTraits>
+    <kSloppyEatingTraits value="PiggyPet">
+      <!--TraitNames that cause sim to have sloppy eating style-->
+    </kSloppyEatingTraits>
+    <kMinutesForHigherFeeding value="120">
+      <!--Minutes for feeding to advertise higher-->
+    </kMinutesForHigherFeeding>
+    <kHungryLevelToAdvertiseHigherWithSmartSensor value="35">
+      <!--Range:  -100-100  Description: When min pet hunger should -->
+    </kHungryLevelToAdvertiseHigherWithSmartSensor>
+    <kMultiplierToEat value="2">
+      <!--Multiplier for when feeding station should advertise higher if pet is hungry-->
+    </kMultiplierToEat>
+  </Current_Tuning>
+</base>

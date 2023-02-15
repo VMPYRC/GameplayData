@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kResortTuning>
+      <kShiftCosts value="25, 25, 50">
+        <!--cost for each shift.  Day, night, graveyard-->
+      </kShiftCosts>
+      <kShiftScore value="25, 25, 25">
+        <!--score for each shift.  Day, night, graveyard-->
+      </kShiftScore>
+      <kNoDayShiftBase value="Gameplay/Objects/Miscellaneous/ResortBar:NoDayShift">
+        <!--base review string for no day shift-->
+      </kNoDayShiftBase>
+      <kNoDayShiftCount value="10">
+        <!--number of no day shift strings-->
+      </kNoDayShiftCount>
+      <kNoNightShiftBase value="Gameplay/Objects/Miscellaneous/ResortBar:NoNightShift">
+        <!--base review string for no night shift-->
+      </kNoNightShiftBase>
+      <kNoNightShiftCount value="10">
+        <!--number of no night shift strings-->
+      </kNoNightShiftCount>
+      <kNoGraveyardShiftBase value="Gameplay/Objects/Miscellaneous/ResortBar:NoGraveyardShift">
+        <!--base review string for no graveyard shift-->
+      </kNoGraveyardShiftBase>
+      <kNoGraveyardShiftCount value="10">
+        <!--number of no graveyard shift strings-->
+      </kNoGraveyardShiftCount>
+    </kResortTuning>
+    <kBartenderWaitInSimMinutes value="20">
+      <!--Range:  0+  Description:  The number of Sim-Minutes that a sim will wait for another sim to exit the PoolBar before giving up on their Bartender-related interaction.-->
+    </kBartenderWaitInSimMinutes>
+  </Current_Tuning>
+</base>

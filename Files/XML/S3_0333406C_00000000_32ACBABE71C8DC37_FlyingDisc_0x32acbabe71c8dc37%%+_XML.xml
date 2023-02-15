@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPlayCatchAutonomousAthleticTraitMultiplier value="1.25">
+      <!--Likelihood multiplier for Sims with Athletic trait when interaction is autonomous-->
+    </kPlayCatchAutonomousAthleticTraitMultiplier>
+    <kPlayCatchAutonomousLovesOutdoorsMultiplier value="1.25">
+      <!--Likelihood multiplier for Sims with Loves Outdoors trait when interaction is autonomous-->
+    </kPlayCatchAutonomousLovesOutdoorsMultiplier>
+    <kPlayCatchAutonomousChildishMultiplier value="1.25">
+      <!--Likelihood multiplier for Sims with Childish trait when interaction is autonomous-->
+    </kPlayCatchAutonomousChildishMultiplier>
+    <kFlyingDiscCatchMedianSkills value="0, 2, 4, 6">
+      <!--The median skill for different types of catches (Miss, Drop, Novice, Skilled)-->
+    </kFlyingDiscCatchMedianSkills>
+    <kFlyingDiscCatchSkillOffsetClamp value="4">
+      <!--No catch animation whose median skill is this many units away from the Sim's skill level will be played-->
+    </kFlyingDiscCatchSkillOffsetClamp>
+    <kFlyingDiscCatchInitialWeights value="0.01, 0.15, 0.565 , 0.275">
+      <!--Initial weights of what catch animation to play (Miss, Drop, Novice, Skilled)-->
+    </kFlyingDiscCatchInitialWeights>
+    <kFlyingDiscClumsyBumpChance value="15">
+      <!--Range: 0-100.  Description: Chance that having Clumsy trait will reduce the skill type of the catch.-->
+    </kFlyingDiscClumsyBumpChance>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+  </Current_Tuning>
+</base>

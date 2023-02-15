@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHighestWeightForNeutralQuality value="6">
+      <!--The weight given to Neutral Quality so that it is has a higher chance of getting chosen randomly. Positive float. Good Default value = Distance between Neutral and Outstanding i.e. 6.0f-->
+    </kHighestWeightForNeutralQuality>
+    <kPercentageChanceOfChoosingCommonPlantRarity value="0.7">
+      <!--The chance of choosing Plant Rarity: Common. Positive float. Range [0, 1]. Constraints: this tunable + Uncommon Rarity + Rare Plant Rarity = 1. (NOTE: rare plant rarity is not a tunable.)-->
+    </kPercentageChanceOfChoosingCommonPlantRarity>
+    <kPercentageChanceOfChoosingUnCommonPlantRarity value="0.25">
+      <!--The chance of choosing Plant Rarity: Uncommon. Positive float. Range [0, 1]. Constraints: Common Rarity + Uncommon Rarity + Rare Plant Rarity = 1. (NOTE: rare plant rarity is not a tunable.)-->
+    </kPercentageChanceOfChoosingUnCommonPlantRarity>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeMagicianChains,magicGnomeMagicianWandInAir,magicGnomeMagicianTippingHat">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeMagicianRelaxing">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeMagicianWandInHat">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeMagicianRelaxing">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeMagicianRelaxing">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="2">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kGnomeTuning>
+    <kChanceHoudiniWillSpawn value="15" />
+    <kEnvironmentTuning>
+      <EnvironmentScore value="7">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+  </Current_Tuning>
+</base>

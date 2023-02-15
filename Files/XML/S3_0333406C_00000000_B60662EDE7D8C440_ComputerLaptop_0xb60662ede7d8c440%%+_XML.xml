@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kRepairableTuning>
+      <HoursUnbreakable value="84">
+        <!--How long until the object is allowed to check for breakage after being fixed or purchased.-->
+      </HoursUnbreakable>
+      <StartPercentChanceBreak value="4">
+        <!--Starting chance of object breaking when its used.-->
+      </StartPercentChanceBreak>
+      <PercentChanceBreakIncrease value="3">
+        <!--How much the chance of breakage increases each time the object is used (int, 1 to 100).-->
+      </PercentChanceBreakIncrease>
+      <PercentWhenReplaceAvailable value="15">
+        <!--What percent breakage chance the Replace interaction becomes available-->
+      </PercentWhenReplaceAvailable>
+      <RepairComplexity value="10">
+        <!--The level at which repair time reaches its minimum-->
+      </RepairComplexity>
+      <MinRepairTime value="15">
+        <!--Minimum amount of time in sim minutes that it takes to repair this object.  This time when skill level at or above RepairComplexity-->
+      </MinRepairTime>
+      <MaxRepairTime value="90">
+        <!--Maximum amount of time in sim minutes that it takes to repair this object.  Occurs at skill level 0.-->
+      </MaxRepairTime>
+      <RepairSkillGain value="2800">
+        <!--Rate of skill gain while repairing object in points per sim minute-->
+      </RepairSkillGain>
+      <UpgradeUnbreakable>
+        <UpgradeTime value="240">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="3600">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="50">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="True">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeUnbreakable>
+      <MinChanceOfElectrocution value="0">
+        <!--Minimum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs when skill level > = RepairComplexity-->
+      </MinChanceOfElectrocution>
+      <MaxChanceOfElectrocution value="5">
+        <!--Maximum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs at skill level 0.-->
+      </MaxChanceOfElectrocution>
+    </kRepairableTuning>
+    <kComputerTuning>
+      <FindJobNumJobOpportunies value="5">
+        <!--Number of jobs offered at a time.-->
+      </FindJobNumJobOpportunies>
+      <FindJobNumMinutesBetweenOffer value="2">
+        <!--Number of minutes between job offers.-->
+      </FindJobNumMinutesBetweenOffer>
+      <WorkAtHomePerormanceIncPerHour value="4">
+        <!--Job performance increase for working at home.-->
+      </WorkAtHomePerormanceIncPerHour>
+      <HackGetPaidEveryXMinutes value="15">
+        <!--The base number of minutes between hacking payouts-->
+      </HackGetPaidEveryXMinutes>
+      <HackPayTimeVariance value="15">
+        <!--A random number of minutes added to the base to provide variance in pay times-->
+      </HackPayTimeVariance>
+      <HackMinPay value="8">
+        <!--The min amount of money hacking can pay.-->
+      </HackMinPay>
+      <HackMaxPay value="23">
+        <!--The max amount hacking can pay.-->
+      </HackMaxPay>
+      <HackChanceOfBonus value="10">
+        <!--The chance per payout that there will be a large bonus.-->
+      </HackChanceOfBonus>
+      <HackBonusMultiplier value="4">
+        <!--If the bonus chance is met, this is the multiplier applied to the normal pay.-->
+      </HackBonusMultiplier>
+      <HackPercentPayIncreasePerLevelOfHackingSkill value=".4">
+        <!--When the amount of pay is calculated using, this number is is multiplied by your current skill level and that percent is added to the total pay.-->
+      </HackPercentPayIncreasePerLevelOfHackingSkill>
+      <ChatRelationshipIncreaseEveryXMinutes value="40">
+        <!--How frequently the loop delegate of Chat will be called.  The relationship is increased between the two Sims when it's called.-->
+      </ChatRelationshipIncreaseEveryXMinutes>
+      <ChatRelationshipIncrease value="40">
+        <!--The amount the relationship between the two Sims will increase.-->
+      </ChatRelationshipIncrease>
+      <ChatThoughtBalloonChanceLoop value="25">
+        <!--The chance per loop we show a thought balloon.-->
+      </ChatThoughtBalloonChanceLoop>
+      <ChatThoughtBalloonChanceShowOtherSim value="40">
+        <!--If chance for a thought balloon is hit, the chance we show the other Sim.-->
+      </ChatThoughtBalloonChanceShowOtherSim>
+      <HackStartHour value="21">
+        <!--The hour that hack becomes available on the computer.-->
+      </HackStartHour>
+      <HackEndHour value="7">
+        <!--The hour that hack becomes unavailable on the computer.-->
+      </HackEndHour>
+      <HackTotalHoursAvailable value="10">
+        <!--The number of hours hack is available on the computer.  This is the number of hours between StartHour and EndHour-->
+      </HackTotalHoursAvailable>
+      <ChatIntimacylevel value="20">
+        <!--The highest intimacy level of traits you can learn from chatting on a computer-->
+      </ChatIntimacylevel>
+      <ChatLearnSomethingFrequencyStart value="90">
+        <!--The shortest possible time between learning new traits while chatting.-->
+      </ChatLearnSomethingFrequencyStart>
+      <ChatLearnSomethingFrequencyEnd value="120">
+        <!--The longest possible time between learning new traits while chatting.-->
+      </ChatLearnSomethingFrequencyEnd>
+      <FindActiveCareerNumAvailable value="8">
+        <!--Number of active careers offered at a time.-->
+      </FindActiveCareerNumAvailable>
+    </kComputerTuning>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <UpgradeComplexity value="1">
+      <!--The initial level a Sim can perform an upgrade.  Also the level when he has the max chance of failure-->
+      <!--deprecated on: 1/7/2008 7:09:16 PM-->
+    </UpgradeComplexity>
+    <ObsessedWithComputerTraitScore value="0">
+      <!--Range: Any float value.  Description:  Sims with the 'Obsessed with X' Trait will get an environment bonus from rooms that contain the object that Sim is obsessed with.  This tunable is an additive amount of environment bonus for Sims with the 'Obsessed with X' trait. This amount is expected to be positive but does not have to be.-->
+      <!--deprecated on: 1/16/2008 11:52:11 AM-->
+    </ObsessedWithComputerTraitScore>
+    <ObsessedWithTVTraitScore value="0">
+      <!--Range: Any float value.  Description:  Sims with the 'Obsessed with X' Trait will get an environment bonus from rooms that contain the object that Sim is obsessed with.  This tunable is an additive amount of environment bonus for Sims with the 'Obsessed with X' trait. This amount is expected to be positive but does not have to be.-->
+      <!--deprecated on: 1/16/2008 11:52:11 AM-->
+    </ObsessedWithTVTraitScore>
+    <kFunIncPerHourPlayGames value="100">
+      <!--deprecated on: 1/25/2008 6:44:23 PM-->
+    </kFunIncPerHourPlayGames>
+    <NumSimMinutesPerBrokenPulse value="10">
+      <!--Number of sim minutes between pulses of the Broken ReactionBroadcaster-->
+      <!--deprecated on: 2/7/2008 11:40:05 AM-->
+    </NumSimMinutesPerBrokenPulse>
+    <BrokenBroadcasterStartRadius value="100">
+      <!--Start Radius of Broken ReactionBroadcaster-->
+      <!--deprecated on: 2/7/2008 11:40:05 AM-->
+    </BrokenBroadcasterStartRadius>
+    <BrokenBroadcasterEndRadius value="100">
+      <!--End Radius of Broken ReactionBroadcaster-->
+      <!--deprecated on: 2/7/2008 11:40:05 AM-->
+    </BrokenBroadcasterEndRadius>
+    <BrokenBroadcasterTimeToFullPulseExpansion value="5">
+      <!--Number of sim minutes until Broken ReactionBroadcaster becomes full-->
+      <!--deprecated on: 2/7/2008 11:40:05 AM-->
+    </BrokenBroadcasterTimeToFullPulseExpansion>
+    <kFindJobNumJobsOpportunitiesPerDay value="5">
+      <!--deprecated on: 3/14/2008 1:55:57 PM-->
+    </kFindJobNumJobsOpportunitiesPerDay>
+    <kWorkAtHomePerformanceIncPerHour value="5">
+      <!--deprecated on: 3/14/2008 1:55:57 PM-->
+    </kWorkAtHomePerformanceIncPerHour>
+  </Deprecated_Tuning>
+</base>

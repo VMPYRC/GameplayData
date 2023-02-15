@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="0" />
+      <MapTagFilterType value="PublicSpacesAndActivities,Work">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-60">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="100">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kCanInvestHere value="True">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kInvestCost value="50000">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="120000">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="11000">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="16000">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="25000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="1000000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kNpcExitFreq value="10">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kDaytimeLightSunriseDelta value="24">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kNighttimeLightSunsetDelta value="24">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kPreventLotPurchase value="True">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="True">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+  </Current_Tuning>
+</base>

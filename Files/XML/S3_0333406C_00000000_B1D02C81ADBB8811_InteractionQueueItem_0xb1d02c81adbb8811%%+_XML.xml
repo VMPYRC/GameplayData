@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kQueueButtonVerticalOffset value="5">
+      <!--The vertical offset from the top of the queue of each interaction control.-->
+    </kQueueButtonVerticalOffset>
+    <kQueueButtonOffsetWidth value="3">
+      <!--The space between controls in the queue.-->
+    </kQueueButtonOffsetWidth>
+    <kQueueDraggerSnapDistance value="50">
+      <!--The distance in screen units the dragger will snap.-->
+    </kQueueDraggerSnapDistance>
+    <kQueueMovementSpeed value="200">
+      <!--The maximum number of screen units a control can move per real second.-->
+    </kQueueMovementSpeed>
+    <kQueueAcceleration value="10">
+      <!--The maximum acceleration of the control per real second.-->
+    </kQueueAcceleration>
+    <kNumSecondsToShowTooltip value="5">
+      <!--Number of seconds to show greyed-out tooltip for tones.-->
+    </kNumSecondsToShowTooltip>
+    <kToolTip_Use_ToolTipManager_Defaults value="False">
+      <!--Set to false if Hud Interaction is going to use below tunable values.-->
+    </kToolTip_Use_ToolTipManager_Defaults>
+    <kToolTip_HudInteraction_StartTime value="0">
+      <!--Time before tooltip show up.-->
+    </kToolTip_HudInteraction_StartTime>
+    <kToolTip_HudInteraction_TimeoutTime value="15">
+      <!--Timeout time, when tooltip will go away. Set to -1 if tooltip should always display when on-->
+    </kToolTip_HudInteraction_TimeoutTime>
+    <kToolTip_HudInteraction_TransitionTime value="-1">
+      <!--Transition Time when to use start time after rolling off another tooltip item. Set to -1 if transition time will use Tooltip Manager Default-->
+    </kToolTip_HudInteraction_TransitionTime>
+    <kDiscoveryBoxTimeoutTime value="5">
+      <!--Amount of time (in seconds) the discovery box stays up for.-->
+    </kDiscoveryBoxTimeoutTime>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSkillGainRate value="1000">
+      <!--Range: Positive float. Description: Skill points gained per hour or listening to audio program.-->
+    </kSkillGainRate>
+    <kGamingDuration value="120">
+      <!--Range: Positive float. Description: Duration in minutes 'Play Game on Tablet' interaction will last.-->
+    </kGamingDuration>
+    <kCompWhizMultiplier value="2">
+      <!--Range: All Floats. Description: Autonomous Multiplier used for all Tablet interactions for Sims with 'Computer Whiz' trait.-->
+    </kCompWhizMultiplier>
+    <kTechnophobeMultiplier value="0.25">
+      <!--Range: All Floats. Description: Autonomous Multiplier used for all Tablet interactions for Sims with 'Technophobe' trait.-->
+    </kTechnophobeMultiplier>
+    <kPlayGameFunThreshold value="75">
+      <!--Range: All Floats. Description: Fun motive Threshold below which 'Play Game' becomes available to autonomous Sims.-->
+    </kPlayGameFunThreshold>
+    <kHomeworkSkillPPM value="2">
+      <!--Range: Positive float. Description: The number of homework skill points gained per minute.-->
+    </kHomeworkSkillPPM>
+    <kHomeworkRateMultiplier value="2">
+      <!--Range: Positive float. Description: Multiplier applied to normal rate of homework completion.-->
+    </kHomeworkRateMultiplier>
+    <kBookRepeatFunRate value="0.5">
+      <!--Range: Positve float. Description: Multiplier for how much fun a sim has re-reading a book.  GPE Default: 0.5-->
+    </kBookRepeatFunRate>
+  </Current_Tuning>
+</base>

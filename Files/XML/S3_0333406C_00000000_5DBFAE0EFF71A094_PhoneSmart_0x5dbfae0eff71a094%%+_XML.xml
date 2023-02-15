@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPlayListOfVideoFileNames value="Sims3TV_Kids, Sims3TV_Action, Sims3TV_HomeDeco">
+      <!--Smart Phone Videos, the order is Funny, Gross, Cute-->
+    </kPlayListOfVideoFileNames>
+    <kCameraTuning>
+      <ParisMarketDiscountFactor value="0">
+        <!--Proportion of normal price the camera should cost at the market stall (vs. a normal store).-->
+      </ParisMarketDiscountFactor>
+      <AdditionalCostToTakePhoto value="0" />
+      <MaximumSize value="SmartPhoneHorizontal">
+        <!--Maximum available photo size.  May be gated by skill.-->
+      </MaximumSize>
+      <MaximumZoom value="Medium">
+        <!--Maximum available zoom without ZoomUpgrade.-->
+      </MaximumZoom>
+      <MaximumZoomWithZoomUpgrade value="Medium">
+        <!--Maximum available zoom with ZoomUpgrade.-->
+      </MaximumZoomWithZoomUpgrade>
+      <SkillGainMultiplier value="1">
+        <!--If non-zero, photos taken will contribute to skill and be sellable, a zero here makes a camera work like the base game cellphone camera.-->
+      </SkillGainMultiplier>
+      <ValueMultiplier value="1">
+        <!--Photo value multiplier.-->
+      </ValueMultiplier>
+      <ShortcutPriority value="9">
+        <!--Priority for chosing this camera when player uses the Shift-C shortcut.  Ideally each camera should have a distinct value.-->
+      </ShortcutPriority>
+      <CameraQuality value="Expensive">
+        <!--Quality level of this camera.-->
+      </CameraQuality>
+      <MinimumSize value="SmartPhone">
+        <!--The minimum PhotographSize that this camera is capable of taking pictures using-->
+      </MinimumSize>
+    </kCameraTuning>
+    <kNumberOfPosesSolo value="3">
+      <!--Range:  0+  Description:  The number of solo  adult poses for photobooth pictures-->
+    </kNumberOfPosesSolo>
+    <kNumberOfA2APosesCouple value="2">
+      <!--Range:  0+  Description:  The number of  Adult to Adult poses-->
+    </kNumberOfA2APosesCouple>
+    <kNumberOfRomanticPosesCouple value="1">
+      <!--Range:  0+  Description:  The number of romantic poses-->
+    </kNumberOfRomanticPosesCouple>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinsToCarvePumpkins value="45, 45, 45, 45, 45">
+      <!--Number of sim minutes required to carve each of the pumpkin styles. order is: Traditional, Silly, Evil, Ghost, Cat.-->
+    </kMinsToCarvePumpkins>
+    <kStompLength value="5">
+      <!--Range: positive floats. Number of sim minutes it takes to stomp pumpkins.-->
+    </kStompLength>
+    <kChanceCatchOnFireFromStompingLitPumpkin value="25">
+      <!--Range: 0-100. Chance a sim will catch on fire if they stomp a lit pumpkin.-->
+    </kChanceCatchOnFireFromStompingLitPumpkin>
+    <kFailureReactions value="Cry, Shocked, Shrug, WhyMe">
+      <!--List of reactions to play when the pumpkin is a failure.-->
+    </kFailureReactions>
+    <kSuccessfulNormalReactions value="Cheer, PumpFist">
+      <!--List of reactions to play when the pumpkin is a success (for non childish sims only, if you want childish sims to also do these reactions, add it to the tunable list for childish sims as well).-->
+    </kSuccessfulNormalReactions>
+    <kSuccessfulChildishReactions value="FreakOut, Scared, Repel">
+      <!--List of reactions to play when the pumpkin is a success for childish, coward, or over-emotional sims.-->
+    </kSuccessfulChildishReactions>
+    <kRadialRouteViewDistanceMinMax value="1, 2.5">
+      <!--Range: positive floats [min, max]. Radial route distance to stomp pumpkins-->
+    </kRadialRouteViewDistanceMinMax>
+    <kDaysUntilCompletedPumpkinRots value="3">
+      <!--Range: positive floats in sim days. Number of days after pumpkin is completed afterwhich pumpkin will rot/go into destroyed state-->
+    </kDaysUntilCompletedPumpkinRots>
+    <kChanceMakeFailureChild value="25">
+      <!--Range: 1-100. Chance a child will make a failure pumpkin.-->
+    </kChanceMakeFailureChild>
+    <kChanceMakeFailureAdult value="10">
+      <!--Range: 1-100. Chance an adult will make a failure pumpkin.-->
+    </kChanceMakeFailureAdult>
+    <kReactToStompTuning>
+      <PulseRadius value="15">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="2">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="10">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="True">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="Three">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="False">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="False">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kReactToStompTuning>
+    <kTraitsThatLaughAtPumpkinStomping value="Evil, Grumpy, MeanSpirited, Rebellious">
+      <!--The traits that will autonomously stomp pumpkins - use to determine which traits will laugh at pumpkin stomping/misfortune.-->
+    </kTraitsThatLaughAtPumpkinStomping>
+    <kHoursPumpkinStaysLit value="5">
+      <!--Range: positive floats in sim hours. Number of hours a pumpkin will stay lit after using the light interaction-->
+    </kHoursPumpkinStaysLit>
+    <kReactionsToOwnPumpkinStomped value="Angry, Annoyed, Shocked, Cry">
+      <!--Array of ReactionTypes. Reactions sims play if their own pumpkin was stomped-->
+    </kReactionsToOwnPumpkinStomped>
+    <kChildOrChildishReactionsToPumpkinStomped value="Cry">
+      <!--Array of ReactionTypes. Reactions child or childish play if any pumpkin is stomped near them.-->
+    </kChildOrChildishReactionsToPumpkinStomped>
+    <kNumSeedsToGrantAfterCarving value="2, 4">
+      <!--Range: positive ints [min, max]. When sim is finished carving a pumpkin, this is the number of seeds (min, max) that will be added to the sim's inventory-->
+    </kNumSeedsToGrantAfterCarving>
+    <kRadialRouteStompDistance value="0.625">
+      <!--DO NOT CHANGE before speaking with animation - this distance provided by animation. Radial route distance to stomp pumpkins-->
+    </kRadialRouteStompDistance>
+    <kDaysUntilIncompletePumpkinRots value="0.5">
+      <!--Range: positive floats in sim days. Number of days after incomplete pumpkin will rot afterwhich pumpkin will rot/go into destroyed state-->
+    </kDaysUntilIncompletePumpkinRots>
+    <kTraitsGrossedOutWhenScooping value="Neat, Childish">
+      <!--Array of TraitNames. List of traits that will play a hesistant/squeamish variation of scooping out seeds.-->
+    </kTraitsGrossedOutWhenScooping>
+  </Current_Tuning>
+</base>

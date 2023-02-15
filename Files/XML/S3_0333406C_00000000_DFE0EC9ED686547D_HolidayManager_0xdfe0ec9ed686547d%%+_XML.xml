@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDaysBeforeHolidayToShowWarningTNS value="2">
+      <!--The number of days before the holiday starts to show a warning TNS. 0+-->
+    </kDaysBeforeHolidayToShowWarningTNS>
+    <kTimeOfDayToShowStartHoliday value="5">
+      <!--The time of day to start the holiday. 0.0 - 23.0f  0.0 being midnight (the very very start of the day)-->
+    </kTimeOfDayToShowStartHoliday>
+    <kSpringHolidaySocialLikingBonus value="20">
+      <!--The bonus added to two sims liking when performing a romantic social during the spring holiday.-->
+    </kSpringHolidaySocialLikingBonus>
+    <kSpringHolidaySocialMoodBonus value="20">
+      <!--The bonus added to two sims mood when performing a romantic social during the spring holiday.-->
+    </kSpringHolidaySocialMoodBonus>
+    <kWinterHolidaySocialLikingBonus value="20">
+      <!--The bonus added to two sims liking when performing any social during the winter holiday.-->
+    </kWinterHolidaySocialLikingBonus>
+    <kWinterHolidaySocialMoodBonus value="20">
+      <!--The bonus added to two sims mood when performing any social during the winter holiday.-->
+    </kWinterHolidaySocialMoodBonus>
+    <kFeelingFestiveAdvMultiplier value="2">
+      <!--Range: Float > 0. Description: Autonomy multiplier for friendly socials if sim has Feeling Festive Buff.-->
+    </kFeelingFestiveAdvMultiplier>
+    <kFeelingFestiveSocialLikingBonus value="20">
+      <!--Positive float.  The small LTR Liking bonus given to Sims with Feeling Festive buff.-->
+    </kFeelingFestiveSocialLikingBonus>
+    <kFeelingFestiveSocialMoodBonus value="20">
+      <!--Positive int.  The small Mood bonus given to Sims with Feeling Festive buff.-->
+    </kFeelingFestiveSocialMoodBonus>
+    <kWinterHolidayAdvMultiplier value="2">
+      <!--Range: Float > 0. Description: Autonomy multiplier for friendly socials during the winter holiday.-->
+    </kWinterHolidayAdvMultiplier>
+    <kSpringHolidayAdvMultiplier value="2">
+      <!--Range: Float > 0. Description: Autonomy multiplier for romantic socials during the spring holiday.-->
+    </kSpringHolidayAdvMultiplier>
+  </Current_Tuning>
+</base>

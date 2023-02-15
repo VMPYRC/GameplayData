@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeToWaitToEvict value="15">
+      <!--Time to wait to evict a lower priority Sim from this object, in Sim minutes-->
+    </kTimeToWaitToEvict>
+    <kChanceOfSportyAnim value="40">
+      <!--Chance of playing sporty anim-->
+    </kChanceOfSportyAnim>
+    <kChanceOfAthleticAnim value="30">
+      <!--Chance of playing athletic anim-->
+    </kChanceOfAthleticAnim>
+    <kChanceOfSillyAnim value="30">
+      <!--Chance of playing silly anim-->
+    </kChanceOfSillyAnim>
+    <kChanceOfRomanticAnim value="30">
+      <!--Chance of playing romantic anim-->
+    </kChanceOfRomanticAnim>
+    <kBoneUpLoopTime value="60">
+      <!--Max time to loop on Bone Up-->
+    </kBoneUpLoopTime>
+    <kTestSkeletalMaxLoops value="3">
+      <!--Max number of loops to play Test Skeletal-->
+    </kTestSkeletalMaxLoops>
+    <kIncreasedChanceForSporty value="30">
+      <!--Increased Chance for Sporty Anim based on Traits (Ambitious, Bookworm, Genius, Workaholic)-->
+    </kIncreasedChanceForSporty>
+    <kIncreasedChanceForAthletic value="25">
+      <!--Increased Chance for Athletic Anim based on Traits (Athletic, Brave, Daredevil, Perfectionist, Vegetarian)-->
+    </kIncreasedChanceForAthletic>
+    <kIncreasedChanceForSilly value="50">
+      <!--Increased Chance for Silly Anim based on Traits (Childish, GSOH, Insance, PartyAnimal)-->
+    </kIncreasedChanceForSilly>
+    <kIncreasedChanceForRomantic value="65">
+      <!--Increased Chance for Romancit Anim based on Traits (Charismatic, FamilyOriented, Flirty, Good Kisser, Hopeless Romantic, Schmoozer)-->
+    </kIncreasedChanceForRomantic>
+    <kBalloonNames value="balloon_microscope, balloon_bodysculptor, balloon_heart, balloon_meat, balloon_bandaid, balloon_caduceus, balloon_medbottle, balloon_pill, balloon_pumped, balloon_jogger, balloon_stethoscope, ep9_balloon_bone_up_on_anatomy_bones, ep9_balloon_bone_up_on_anatomy_eye_ball, ep9_balloon_bone_up_on_anatomy_hands, ep9_balloon_bone_up_on_anatomy_heart, ep9_balloon_bone_up_on_anatomy_medicine_bottle, ep9_balloon_bone_up_on_anatomy_needle_shot, ep9_balloon_bone_up_on_anatomy_pills, ep9_balloon_bone_up_on_anatomy_pumped_sim, ep9_balloon_bone_up_on_anatomy_stethoscope, ep9_balloon_bone_up_on_anatomy_strong_arm">
+      <!--Loop time for Bone Up interaction-->
+    </kBalloonNames>
+    <kMinWatchRadius value="1.5">
+      <!--Range: 0 - x  Min radius from object that sims will go to-->
+    </kMinWatchRadius>
+    <kMaxWatchRadius value="3">
+      <!--Range: 0 - x  Max radius from object that sims will go to-->
+    </kMaxWatchRadius>
+    <kChanceOfNewWatchAnimation value="5">
+      <!--Chance of Sim playing a new watch animation-->
+    </kChanceOfNewWatchAnimation>
+    <kSportyScienceSkill value="5">
+      <!--Science skill that a sim gets doing test skeletal interaction with sporty anim-->
+    </kSportyScienceSkill>
+    <kAthleticScienceSkill value="5">
+      <!--Atheletic skill that a sim gets doing test skeletal interaction with athletic anim-->
+    </kAthleticScienceSkill>
+    <kSillyScienceSkill value="15">
+      <!--Funl that a sim gets doing test skeletal interaction with silly anim-->
+    </kSillyScienceSkill>
+    <kScaryScienceSkill value="15">
+      <!--Social that a sim gets doing test skeletal interaction with scary anim-->
+    </kScaryScienceSkill>
+    <kSocialBoneUp value="15">
+      <!--Social that a sim gets doing bone up interaction-->
+    </kSocialBoneUp>
+    <kNerdInfluenceBoneUp value="3">
+      <!--Nerd Influence that a sim gets doing bone up interaction-->
+    </kNerdInfluenceBoneUp>
+    <kWatchSkeletonBroadcasterParams>
+      <PulseRadius value="6">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="15">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="4">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kWatchSkeletonBroadcasterParams>
+  </Current_Tuning>
+</base>

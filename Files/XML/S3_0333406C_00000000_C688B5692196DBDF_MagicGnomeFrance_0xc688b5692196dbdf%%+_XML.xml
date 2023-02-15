@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeFranceAttention,magicGnomeFranceCower">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeFranceSleepingThumb">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeFranceAttention,magicGnomeFranceSnotty,magicGnomeFranceRun,magicGnomeFranceCower">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeFranceSnotty,magicGnomeFranceSleepingThumb">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeFranceSleepingThumb">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kWeightExpensive value="6">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+      <kNoKickPoses value="magicGnomeFranceRun, magicGnomeFranceSleepingThumb">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+    </kGnomeTuning>
+    <kDesireForFood value="2">
+      <!--OBJECT DESIREABILITY: score multiplier for IEdible objects.-->
+    </kDesireForFood>
+    <kDesireForFridge value="4">
+      <!--OBJECT DESIREABILITY: score multiplier for Fridge objects.-->
+    </kDesireForFridge>
+    <kDesireForNectarRack value="20">
+      <!--OBJECT DESIREABILITY: score multiplier for NectarRack objects.-->
+    </kDesireForNectarRack>
+  </Current_Tuning>
+</base>

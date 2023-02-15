@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxSpawnAttempts value="10">
+      <!--Every time a spawner spawns an object (e.g. seed, gem, insect, etc.) we run 'find good location for' on the spawned object *the number of times specified here in this tuning var*.  If after this number of times we have not found a location that is routable and sufficiently close to the spawner we give up (spawned object is deleted and a warning assert dialog box is popped up informing us that we may want to change the location of this spawner to somewhere that is more route-friendly).-->
+    </kMaxSpawnAttempts>
+    <kInitialVacationRolls value="1">
+      <!--How many times we roll for a spawn the first time we enter a vacation lot (China, Egypt, or France).-->
+    </kInitialVacationRolls>
+  </Current_Tuning>
+</base>

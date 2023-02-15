@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteAttemptsToEnterRabbitHole value="5">
+      <!--Range:  1+  Description:  Number of tries used to get into a rabbit hole.-->
+    </kRouteAttemptsToEnterRabbitHole>
+    <kMinSimMinutesToSleepOnFailedRouteAttempt value="0">
+      <!--Range:  +numbers  Description:  Sim minutes to idle before attempting to route into rabbit hole again.-->
+    </kMinSimMinutesToSleepOnFailedRouteAttempt>
+    <kMaxSimMinutesToSleepOnFailedRouteAttempt value="5">
+      <!--Range:  +numbers  Description:  Sim minutes to idle before attempting to route into rabbit hole again.-->
+    </kMaxSimMinutesToSleepOnFailedRouteAttempt>
+  </Current_Tuning>
+</base>

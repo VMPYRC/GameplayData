@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Cooking</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>568</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>488</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>30</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchMealStartFunction</StartFunctionName>
+      <DisplayName>Learn the recipe for $Meal</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>LearnANewRecipieCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>LearnANewRecipieFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLearnedRecipe</TriggerEvent>
+      <SubjectType>Meal</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>569</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/5e1d8d0b-a04e-4d22-b824-2d924d41d359:Name</NameKey>
+    <Name>What's Cookin</Name>
+    <SetName>Cooking</SetName>
+    <ChallengeGuid>5e1d8d0b-a04e-4d22-b824-2d924d41d359</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>568</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/5e1d8d0b-a04e-4d22-b824-2d924d41d359:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\cooking_112.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>690</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>455</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>3</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Serve a perfect $Meal</DisplayName>
+      <KeyValue>GrilledCheese</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName>BaseMealCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>ServeAPerfectMealFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCookedMeal</TriggerEvent>
+      <SubjectType>Meal</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>692</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>455</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>3</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Serve a perfect $Meal</DisplayName>
+      <KeyValue>Hamburger</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName>BaseMealCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>ServeAPerfectMealFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCookedMeal</TriggerEvent>
+      <SubjectType>Meal</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>693</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>455</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>3</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Serve a perfect $Meal</DisplayName>
+      <KeyValue>StuffedTurkey</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName>BaseMealCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>ServeAPerfectMealFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCookedMeal</TriggerEvent>
+      <SubjectType>Meal</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>696</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>455</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>3</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Serve a perfect $Meal</DisplayName>
+      <KeyValue>GoopyCarbonara</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName>BaseMealCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>ServeAPerfectMealFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCookedMeal</TriggerEvent>
+      <SubjectType>Meal</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>697</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>455</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>3</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Serve a perfect $Meal</DisplayName>
+      <KeyValue>TriTipSteak</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName>BaseMealCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>ServeAPerfectMealFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCookedMeal</TriggerEvent>
+      <SubjectType>Meal</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>698</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>455</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>3</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Serve a perfect $Meal</DisplayName>
+      <KeyValue>StewSurprise</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName>BaseMealCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>ServeAPerfectMealFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCookedMeal</TriggerEvent>
+      <SubjectType>Meal</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>699</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/70f37a32-abb4-405a-a45e-32d44d343f0f:Name</NameKey>
+    <Name>The Perfect Chef</Name>
+    <SetName>Cooking</SetName>
+    <ChallengeGuid>70f37a32-abb4-405a-a45e-32d44d343f0f</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>((690AndOP(692AndOP693))AndOP((696AndOP697)AndOP698))</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/70f37a32-abb4-405a-a45e-32d44d343f0f:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\cooking_115.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_gold_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1004</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>455</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>200</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchMealStartFunction</StartFunctionName>
+      <DisplayName>Serve a perfect $Meal</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>BaseMealCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>ServeAPerfectMealFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCookedMeal</TriggerEvent>
+      <SubjectType>Meal</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1005</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/acde893c-7b48-479c-aa07-d0a88dd0a290:Name</NameKey>
+    <Name>Profoundly Perfect Dishes</Name>
+    <SetName>Cooking</SetName>
+    <ChallengeGuid>acde893c-7b48-479c-aa07-d0a88dd0a290</ChallengeGuid>
+    <ChallengeType>Player</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>1004</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/acde893c-7b48-479c-aa07-d0a88dd0a290:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\cooking_114.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_platinum_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1542</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>16077570406775838192</EnumValue>
+      <StringEnumValue>FlameOn</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1543</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/fe7a413e-d9b9-4f39-9ac2-209348e6c142:Name</NameKey>
+    <Name>Heavenly Warmth</Name>
+    <SetName>Cooking</SetName>
+    <ChallengeGuid>fe7a413e-d9b9-4f39-9ac2-209348e6c142</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>1542</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/fe7a413e-d9b9-4f39-9ac2-209348e6c142:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\cooking_113.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

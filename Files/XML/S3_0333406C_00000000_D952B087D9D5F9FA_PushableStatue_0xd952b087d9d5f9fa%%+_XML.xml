@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFearBuffThresholdPushPullStatue value="-80">
+      <!--Range: Negative integer. If a Sim has a fear buff with a greater strength than this value, they will not push or pull the statue.-->
+    </kFearBuffThresholdPushPullStatue>
+    <kDirectionIndicatorFadeDelayTime value="1.8">
+      <!--Number of Sim minutes before the indicator starts fading after the mouse leaves a statue.-->
+    </kDirectionIndicatorFadeDelayTime>
+    <kDirectionIndicatorFadeOutTime value="1.2">
+      <!--Number of Sim minutes the indicator takes to fade out after the mouse leaves a statue.-->
+    </kDirectionIndicatorFadeOutTime>
+    <kDirectionIndicatorDestroyDelayTime value="30">
+      <!--Number of Sim minutes before the cached indicator is destroyed.-->
+    </kDirectionIndicatorDestroyDelayTime>
+  </Current_Tuning>
+</base>

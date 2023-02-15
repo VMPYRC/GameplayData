@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMotivesUpdateFrequency value="5">
+      <!--Update motives every X Sim minutes.-->
+    </kMotivesUpdateFrequency>
+    <kMotivesToModify value="Fun, Social, Hygiene">
+      <!--List of motives to modify.-->
+    </kMotivesToModify>
+    <kMotivesValues value="-6, -6, -6, -6">
+      <!--List of values to modify.  Must match up with the entries in kMotivesToModify.-->
+    </kMotivesValues>
+    <kLTRChange value="1">
+      <!--LTR change between the two Sims.  Happens at the frequency defined in kMotivesUpdateFrequency.-->
+    </kLTRChange>
+  </Current_Tuning>
+</base>

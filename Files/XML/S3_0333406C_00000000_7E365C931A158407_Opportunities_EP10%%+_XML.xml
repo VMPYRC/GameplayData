@@ -1,0 +1,624 @@
+<?xml version="1.0"?>
+<Opportunities_EP10>
+<OpportunitiesSetup>
+  <ProductVersion>BaseGame</ProductVersion>
+  <ProductRegistrationRequired>Undefined</ProductRegistrationRequired>
+  <GUID></GUID>
+  <CustomOpportunityClass></CustomOpportunityClass>
+  <Icon></Icon>
+  <AcceptDialogDescriptionBackground>NotSet</AcceptDialogDescriptionBackground>
+  <RepeatLevel>Never</RepeatLevel>
+  <IsOrdered>True</IsOrdered>
+  <IsCounted>False</IsCounted>
+  <IsTotaled>False</IsTotaled>
+  <Timeout></Timeout>
+  <TimeoutData>0</TimeoutData>
+  <TimeoutEnd>11:59PM</TimeoutEnd>
+  <Loss></Loss>
+  <LossData>0</LossData>
+  <AdventureMapTagTarget></AdventureMapTagTarget>
+  <OppMapDagDisplayType>Normal</OppMapDagDisplayType>
+  <CountOrTotal></CountOrTotal>
+  <EventListenerInfo1></EventListenerInfo1>
+  <EventListenerInfo2></EventListenerInfo2>
+  <EventListenerInfo3></EventListenerInfo3>
+  <CompletionEvent></CompletionEvent>
+  <AllowPhoneCompletion>False</AllowPhoneCompletion>
+  <CompletionProceduralTestFunction></CompletionProceduralTestFunction>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <Availability>JobBoardAndPhone</Availability>
+  <OpportunityType>Career</OpportunityType>
+  <Source></Source>
+  <SourceData></SourceData>
+  <Target></Target>
+  <TargetData></TargetData>
+  <TargetRoleRequired>None</TargetRoleRequired>
+  <TargetInteractionName></TargetInteractionName>
+  <TargetSocialTextKeys></TargetSocialTextKeys>
+  <TargetInteractionLikingToAccept>-100</TargetInteractionLikingToAccept>
+  <TargetInteractionIgnoreTarget>False</TargetInteractionIgnoreTarget>
+  <TargetWorldRequired>Undefined</TargetWorldRequired>
+  <TargetInteractionCommodity></TargetInteractionCommodity>
+  <TargetInteractionLength>120</TargetInteractionLength>
+  <TargetInteractionDays>All</TargetInteractionDays>
+  <TargetInteractionStartTime>12:00AM</TargetInteractionStartTime>
+  <TargetInteractionEndTime>11:59PM</TargetInteractionEndTime>
+  <TargetInteractionItemRequired></TargetInteractionItemRequired>
+  <TargetInteractionNumberItemsRequired></TargetInteractionNumberItemsRequired>
+  <TargetInteractionItemsDeleted></TargetInteractionItemsDeleted>
+  <TargetUseCollectibleProgressText>True</TargetUseCollectibleProgressText>
+  <TargetDeletionSortingFunction></TargetDeletionSortingFunction>
+  <TargetProceduralDeletionFunction></TargetProceduralDeletionFunction>
+  <Object></Object>
+  <ObjectData></ObjectData>
+  <ObjectTreasureSpawner></ObjectTreasureSpawner>
+  <ObjectStateForCompletion></ObjectStateForCompletion>
+  <DestinationInventory>SimInventory</DestinationInventory>
+  <RequiredOnCompletion>False</RequiredOnCompletion>
+  <DeleteOnCompletion>False</DeleteOnCompletion>
+  <DeleteOnFailure></DeleteOnFailure>
+  <CompletionTNSType>Info</CompletionTNSType>
+  <EventDay></EventDay>
+  <EventStartTime></EventStartTime>
+  <EventEndTime></EventEndTime>
+  <EventSetup></EventSetup>
+</OpportunitiesSetup>
+<OpportunitiesSetup>
+  <ProductVersion>EP10</ProductVersion>
+  <GUID>EP10_SkillUnderwaterDiving_Seashells1</GUID>
+  <Icon>hud_underwater_skill,EP10</Icon>
+  <RepeatLevel>Always</RepeatLevel>
+  <IsOrdered>False</IsOrdered>
+  <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <OpportunityType>Skill</OpportunityType>
+  <Target>RabbitHole</Target>
+  <TargetData>ScienceLab</TargetData>
+  <TargetInteractionName>EP10_TurnInSeashells</TargetInteractionName>
+  <TargetInteractionLength>10</TargetInteractionLength>
+  <TargetInteractionItemRequired>Seashell,Any</TargetInteractionItemRequired>
+  <TargetInteractionNumberItemsRequired>5</TargetInteractionNumberItemsRequired>
+  <TargetInteractionItemsDeleted>True</TargetInteractionItemsDeleted>
+  <TargetDeletionSortingFunction>CompareGameObjectValuesAscending</TargetDeletionSortingFunction>
+</OpportunitiesSetup>
+<OpportunitiesSetup>
+  <ProductVersion>EP10</ProductVersion>
+  <GUID>EP10_SkillUnderwaterDiving_Seashells2</GUID>
+  <Icon>hud_underwater_skill,EP10</Icon>
+  <RepeatLevel>Always</RepeatLevel>
+  <IsOrdered>False</IsOrdered>
+  <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <OpportunityType>Skill</OpportunityType>
+  <Target>RabbitHole</Target>
+  <TargetData>ScienceLab</TargetData>
+  <TargetInteractionName>EP10_TurnInSeashells</TargetInteractionName>
+  <TargetInteractionLength>10</TargetInteractionLength>
+  <TargetInteractionItemRequired>Seashell,Any</TargetInteractionItemRequired>
+  <TargetInteractionNumberItemsRequired>7</TargetInteractionNumberItemsRequired>
+  <TargetInteractionItemsDeleted>True</TargetInteractionItemsDeleted>
+  <TargetDeletionSortingFunction>CompareGameObjectValuesAscending</TargetDeletionSortingFunction>
+</OpportunitiesSetup>
+<OpportunitiesSetup>
+  <ProductVersion>EP10</ProductVersion>
+  <GUID>EP10_SkillUnderwaterDiving_Seashells3</GUID>
+  <Icon>hud_underwater_skill,EP10</Icon>
+  <RepeatLevel>Always</RepeatLevel>
+  <IsOrdered>False</IsOrdered>
+  <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <OpportunityType>Skill</OpportunityType>
+  <Target>RabbitHole</Target>
+  <TargetData>CityHall</TargetData>
+  <TargetInteractionName>EP10_TurnInSeashells</TargetInteractionName>
+  <TargetInteractionLength>10</TargetInteractionLength>
+  <TargetInteractionItemRequired>Seashell,Any</TargetInteractionItemRequired>
+  <TargetInteractionNumberItemsRequired>5</TargetInteractionNumberItemsRequired>
+  <TargetInteractionItemsDeleted>True</TargetInteractionItemsDeleted>
+  <TargetDeletionSortingFunction>CompareGameObjectValuesAscending</TargetDeletionSortingFunction>
+</OpportunitiesSetup>
+<OpportunitiesSetup>
+  <ProductVersion>EP10</ProductVersion>
+  <GUID>EP10_SkillUnderwaterDiving_MessageBottles1</GUID>
+  <Icon>hud_underwater_skill,EP10</Icon>
+  <RepeatLevel>Always</RepeatLevel>
+  <IsOrdered>False</IsOrdered>
+  <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <OpportunityType>Skill</OpportunityType>
+  <Target>RabbitHole</Target>
+  <TargetData>CityHall</TargetData>
+  <TargetInteractionName>EP10_TurnInMessageInABottles</TargetInteractionName>
+  <TargetInteractionLength>10</TargetInteractionLength>
+  <TargetInteractionItemRequired>Seashell,MessageInABottle</TargetInteractionItemRequired>
+  <TargetInteractionNumberItemsRequired>2</TargetInteractionNumberItemsRequired>
+  <TargetInteractionItemsDeleted>True</TargetInteractionItemsDeleted>
+  <TargetDeletionSortingFunction>CompareGameObjectValuesAscending</TargetDeletionSortingFunction>
+</OpportunitiesSetup>
+<OpportunitiesSetup>
+  <ProductVersion>EP10</ProductVersion>
+  <GUID>EP10_SkillUnderwaterDiving_MessageBottles2</GUID>
+  <Icon>hud_underwater_skill,EP10</Icon>
+  <RepeatLevel>Always</RepeatLevel>
+  <IsOrdered>False</IsOrdered>
+  <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <OpportunityType>Skill</OpportunityType>
+  <Target>RabbitHole</Target>
+  <TargetData>CityHall</TargetData>
+  <TargetInteractionName>EP10_TurnInMessageInABottles</TargetInteractionName>
+  <TargetInteractionLength>10</TargetInteractionLength>
+  <TargetInteractionItemRequired>Seashell,MessageInABottle</TargetInteractionItemRequired>
+  <TargetInteractionNumberItemsRequired>4</TargetInteractionNumberItemsRequired>
+  <TargetInteractionItemsDeleted>True</TargetInteractionItemsDeleted>
+  <TargetDeletionSortingFunction>CompareGameObjectValuesAscending</TargetDeletionSortingFunction>
+</OpportunitiesSetup>
+<OpportunitiesSetup>
+  <ProductVersion>EP10</ProductVersion>
+  <GUID>EP10_SkillUnderwaterDiving_SeaLife1</GUID>
+  <Icon>hud_underwater_skill,EP10</Icon>
+  <RepeatLevel>Always</RepeatLevel>
+  <IsOrdered>False</IsOrdered>
+  <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <OpportunityType>Skill</OpportunityType>
+  <Target>RabbitHole</Target>
+  <TargetData>Restaurant</TargetData>
+  <TargetInteractionName>EP10_TurnInSeaLife</TargetInteractionName>
+  <TargetInteractionLength>10</TargetInteractionLength>
+  <TargetInteractionItemRequired>Fish,SeaUrchin,Any</TargetInteractionItemRequired>
+  <TargetInteractionNumberItemsRequired>2</TargetInteractionNumberItemsRequired>
+  <TargetInteractionItemsDeleted>True</TargetInteractionItemsDeleted>
+  <TargetDeletionSortingFunction>CompareGameObjectValuesAscending</TargetDeletionSortingFunction>
+</OpportunitiesSetup>
+<OpportunitiesSetup>
+  <ProductVersion>EP10</ProductVersion>
+  <GUID>EP10_SkillUnderwaterDiving_SeaLife2</GUID>
+  <Icon>hud_underwater_skill,EP10</Icon>
+  <RepeatLevel>Always</RepeatLevel>
+  <IsOrdered>False</IsOrdered>
+  <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <OpportunityType>Skill</OpportunityType>
+  <Target>RabbitHole</Target>
+  <TargetData>Restaurant</TargetData>
+  <TargetInteractionName>EP10_TurnInSeaLife</TargetInteractionName>
+  <TargetInteractionLength>10</TargetInteractionLength>
+  <TargetInteractionItemRequired>Fish,Eel,Any</TargetInteractionItemRequired>
+  <TargetInteractionNumberItemsRequired>2</TargetInteractionNumberItemsRequired>
+  <TargetInteractionItemsDeleted>True</TargetInteractionItemsDeleted>
+  <TargetDeletionSortingFunction>CompareGameObjectValuesAscending</TargetDeletionSortingFunction>
+</OpportunitiesSetup>
+<OpportunitiesSetup>
+  <ProductVersion>EP10</ProductVersion>
+  <GUID>EP10_SkillUnderwaterDiving_SeaLife3</GUID>
+  <Icon>hud_underwater_skill,EP10</Icon>
+  <RepeatLevel>Always</RepeatLevel>
+  <IsOrdered>False</IsOrdered>
+  <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <OpportunityType>Skill</OpportunityType>
+  <Target>RabbitHole</Target>
+  <TargetData>Restaurant</TargetData>
+  <TargetInteractionName>EP10_TurnInSeaLife</TargetInteractionName>
+  <TargetInteractionLength>10</TargetInteractionLength>
+  <TargetInteractionItemRequired>Fish,Squid,Any</TargetInteractionItemRequired>
+  <TargetInteractionNumberItemsRequired>2</TargetInteractionNumberItemsRequired>
+  <TargetInteractionItemsDeleted>True</TargetInteractionItemsDeleted>
+  <TargetDeletionSortingFunction>CompareGameObjectValuesAscending</TargetDeletionSortingFunction>
+</OpportunitiesSetup>
+<OpportunitiesSetup>
+  <ProductVersion>EP10</ProductVersion>
+  <GUID>EP10_SkillUnderwaterDiving_Caves1</GUID>
+  <Icon>hud_underwater_skill,EP10</Icon>
+  <RepeatLevel>Always</RepeatLevel>
+  <IsOrdered>False</IsOrdered>
+  <IsCounted>True</IsCounted>
+  <EventListenerInfo1>kExploredUnderwaterCave,2</EventListenerInfo1>
+  <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <OpportunityType>Skill</OpportunityType>
+  <Target>RabbitHole</Target>
+  <TargetData>ScienceLab</TargetData>
+  <TargetInteractionName>EP10_TurnInCave</TargetInteractionName>
+  <TargetInteractionLength>10</TargetInteractionLength>
+</OpportunitiesSetup>
+<OpportunitiesSetup>
+  <ProductVersion>EP10</ProductVersion>
+  <GUID>EP10_SkillUnderwaterDiving_Caves2</GUID>
+  <Icon>hud_underwater_skill,EP10</Icon>
+  <RepeatLevel>Always</RepeatLevel>
+  <IsOrdered>False</IsOrdered>
+  <IsCounted>True</IsCounted>
+  <EventListenerInfo1>kExploredUnderwaterCave,3</EventListenerInfo1>
+  <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <OpportunityType>Skill</OpportunityType>
+  <Target>RabbitHole</Target>
+  <TargetData>ScienceLab</TargetData>
+  <TargetInteractionName>EP10_TurnInCave</TargetInteractionName>
+  <TargetInteractionLength>10</TargetInteractionLength>
+</OpportunitiesSetup>
+<OpportunitiesSetup>
+  <ProductVersion>EP10</ProductVersion>
+  <GUID>EP10_HiddenIsland_Op1</GUID>
+  <Icon>trait_hidden_island_map,EP10</Icon>
+  <RepeatLevel>Never</RepeatLevel>
+  <CompletionEvent>kDeliveredToSim</CompletionEvent>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <OpportunityType>Location</OpportunityType>
+  <Target>Sim</Target>
+  <TargetData>Stranger,Elder</TargetData>
+  <TargetInteractionName>EP10_AskAboutIsland</TargetInteractionName>
+  <TargetInteractionLikingToAccept>20</TargetInteractionLikingToAccept>
+</OpportunitiesSetup>
+<OpportunitiesSetup>
+  <ProductVersion>EP10</ProductVersion>
+  <GUID>EP10_HiddenIsland_Op2</GUID>
+  <Icon>trait_hidden_island_map,EP10</Icon>
+  <RepeatLevel>Never</RepeatLevel>
+  <IsCounted>True</IsCounted>
+  <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <OpportunityType>Location</OpportunityType>
+  <Target>RabbitHole</Target>
+  <TargetData>ScienceLab</TargetData>
+  <TargetInteractionName>EP10_TurnInKelp</TargetInteractionName>
+  <TargetInteractionLength>15</TargetInteractionLength>
+  <TargetInteractionItemRequired>Harvestable,Kelp,Any</TargetInteractionItemRequired>
+  <TargetInteractionNumberItemsRequired>3</TargetInteractionNumberItemsRequired>
+  <TargetInteractionItemsDeleted>True</TargetInteractionItemsDeleted>
+  <TargetDeletionSortingFunction>CompareGameObjectValuesAscending</TargetDeletionSortingFunction>
+</OpportunitiesSetup>
+<OpportunitiesSetup>
+  <ProductVersion>EP10</ProductVersion>
+  <GUID>EP10_HiddenIsland_Op3</GUID>
+  <Icon>trait_hidden_island_map,EP10</Icon>
+  <RepeatLevel>Never</RepeatLevel>
+  <EventListenerInfo1>kGotBuff,SoleSurvivor,1</EventListenerInfo1>
+  <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <OpportunityType>Location</OpportunityType>
+  <Target>RabbitHole</Target>
+  <TargetData>ScienceLab</TargetData>
+  <TargetInteractionName>EP10_ReturntoLab</TargetInteractionName>
+  <TargetInteractionLength>10</TargetInteractionLength>
+</OpportunitiesSetup>
+<OpportunitiesSetup>
+  <ProductVersion>EP10</ProductVersion>
+  <GUID>EP10_HiddenIsland_Op4</GUID>
+  <Icon>trait_hidden_island_map,EP10</Icon>
+  <RepeatLevel>Never</RepeatLevel>
+  <IsCounted>True</IsCounted>
+  <EventListenerInfo1>kFoughtAShark,1</EventListenerInfo1>
+  <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <OpportunityType>Location</OpportunityType>
+  <Target>RabbitHole</Target>
+  <TargetData>ScienceLab</TargetData>
+  <TargetInteractionName>EP10_ReturntoLab</TargetInteractionName>
+  <TargetInteractionLength>5</TargetInteractionLength>
+</OpportunitiesSetup>
+<OpportunitiesSetup>
+  <ProductVersion>EP10</ProductVersion>
+  <GUID>EP10_HiddenIsland_Op5</GUID>
+  <Icon>trait_hidden_island_map,EP10</Icon>
+  <RepeatLevel>Never</RepeatLevel>
+  <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+  <ChanceToGetOnPhone>0</ChanceToGetOnPhone>
+  <OpportunityType>Location</OpportunityType>
+  <Target>RabbitHole</Target>
+  <TargetData>CityHall</TargetData>
+  <TargetInteractionName>EP10_SearchForMap</TargetInteractionName>
+  <TargetInteractionLength>30</TargetInteractionLength>
+  <Object>OpportunityObject</Object>
+  <ObjectData>EP10_MapNote,opp_stuffedEnvelope_r2</ObjectData>
+  <RequiredOnCompletion>True</RequiredOnCompletion>
+  <DeleteOnCompletion>True</DeleteOnCompletion>
+</OpportunitiesSetup>
+<Names>
+  <GUID></GUID>
+  <OpportunityName></OpportunityName>
+  <OpportunityDescription></OpportunityDescription>
+  <OpportunityHint></OpportunityHint>
+  <CompletionText></CompletionText>
+  <SecondaryCompletionText></SecondaryCompletionText>
+  <FailureText></FailureText>
+  <ProgressText></ProgressText>
+</Names>
+<Names>
+  <GUID>EP10_SkillUnderwaterDiving_Seashells1</GUID>
+  <OpportunityName>EP10_SkillUnderwaterDiving_Seashells1_Name</OpportunityName>
+  <OpportunityDescription>EP10_SkillUnderwaterDiving_Seashells1_Description</OpportunityDescription>
+  <OpportunityHint>EP10_SkillUnderwaterDiving_Seashells1_Hint</OpportunityHint>
+  <CompletionText>EP10_SkillUnderwaterDiving_Seashells1_Completion</CompletionText>
+  <ProgressText>EP10_SkillUnderwaterDiving_Seashells1_Progress</ProgressText>
+</Names>
+<Names>
+  <GUID>EP10_SkillUnderwaterDiving_Seashells2</GUID>
+  <OpportunityName>EP10_SkillUnderwaterDiving_Seashells2_Name</OpportunityName>
+  <OpportunityDescription>EP10_SkillUnderwaterDiving_Seashells2_Description</OpportunityDescription>
+  <OpportunityHint>EP10_SkillUnderwaterDiving_Seashells2_Hint</OpportunityHint>
+  <CompletionText>EP10_SkillUnderwaterDiving_Seashells2_Completion</CompletionText>
+  <ProgressText>EP10_SkillUnderwaterDiving_Seashells2_Progress</ProgressText>
+</Names>
+<Names>
+  <GUID>EP10_SkillUnderwaterDiving_Seashells3</GUID>
+  <OpportunityName>EP10_SkillUnderwaterDiving_Seashells3_Name</OpportunityName>
+  <OpportunityDescription>EP10_SkillUnderwaterDiving_Seashells3_Description</OpportunityDescription>
+  <OpportunityHint>EP10_SkillUnderwaterDiving_Seashells3_Hint</OpportunityHint>
+  <CompletionText>EP10_SkillUnderwaterDiving_Seashells3_Completion</CompletionText>
+  <ProgressText>EP10_SkillUnderwaterDiving_Seashells3_Progress</ProgressText>
+</Names>
+<Names>
+  <GUID>EP10_SkillUnderwaterDiving_MessageBottles1</GUID>
+  <OpportunityName>EP10_SkillUnderwaterDiving_MessageBottles1_Name</OpportunityName>
+  <OpportunityDescription>EP10_SkillUnderwaterDiving_MessageBottles1_Description</OpportunityDescription>
+  <OpportunityHint>EP10_SkillUnderwaterDiving_MessageBottles1_Hint</OpportunityHint>
+  <CompletionText>EP10_SkillUnderwaterDiving_MessageBottles1_Completion</CompletionText>
+  <ProgressText>EP10_SkillUnderwaterDiving_MessageBottles1_Progress</ProgressText>
+</Names>
+<Names>
+  <GUID>EP10_SkillUnderwaterDiving_MessageBottles2</GUID>
+  <OpportunityName>EP10_SkillUnderwaterDiving_MessageBottles2_Name</OpportunityName>
+  <OpportunityDescription>EP10_SkillUnderwaterDiving_MessageBottles2_Description</OpportunityDescription>
+  <OpportunityHint>EP10_SkillUnderwaterDiving_MessageBottles2_Hint</OpportunityHint>
+  <CompletionText>EP10_SkillUnderwaterDiving_MessageBottles2_Completion</CompletionText>
+  <ProgressText>EP10_SkillUnderwaterDiving_MessageBottles2_Progress</ProgressText>
+</Names>
+<Names>
+  <GUID>EP10_SkillUnderwaterDiving_SeaLife1</GUID>
+  <OpportunityName>EP10_SkillUnderwaterDiving_SeaLife1_Name</OpportunityName>
+  <OpportunityDescription>EP10_SkillUnderwaterDiving_SeaLife1_Description</OpportunityDescription>
+  <OpportunityHint>EP10_SkillUnderwaterDiving_SeaLife1_Hint</OpportunityHint>
+  <CompletionText>EP10_SkillUnderwaterDiving_SeaLife1_Completion</CompletionText>
+  <ProgressText>EP10_SkillUnderwaterDiving_SeaLife1_Progress</ProgressText>
+</Names>
+<Names>
+  <GUID>EP10_SkillUnderwaterDiving_SeaLife2</GUID>
+  <OpportunityName>EP10_SkillUnderwaterDiving_SeaLife2_Name</OpportunityName>
+  <OpportunityDescription>EP10_SkillUnderwaterDiving_SeaLife2_Description</OpportunityDescription>
+  <OpportunityHint>EP10_SkillUnderwaterDiving_SeaLife2_Hint</OpportunityHint>
+  <CompletionText>EP10_SkillUnderwaterDiving_SeaLife2_Completion</CompletionText>
+  <ProgressText>EP10_SkillUnderwaterDiving_SeaLife2_Progress</ProgressText>
+</Names>
+<Names>
+  <GUID>EP10_SkillUnderwaterDiving_SeaLife3</GUID>
+  <OpportunityName>EP10_SkillUnderwaterDiving_SeaLife3_Name</OpportunityName>
+  <OpportunityDescription>EP10_SkillUnderwaterDiving_SeaLife3_Description</OpportunityDescription>
+  <OpportunityHint>EP10_SkillUnderwaterDiving_SeaLife3_Hint</OpportunityHint>
+  <CompletionText>EP10_SkillUnderwaterDiving_SeaLife3_Completion</CompletionText>
+  <ProgressText>EP10_SkillUnderwaterDiving_SeaLife3_Progress</ProgressText>
+</Names>
+<Names>
+  <GUID>EP10_SkillUnderwaterDiving_Caves1</GUID>
+  <OpportunityName>EP10_SkillUnderwaterDiving_Caves1_Name</OpportunityName>
+  <OpportunityDescription>EP10_SkillUnderwaterDiving_Caves1_Description</OpportunityDescription>
+  <OpportunityHint>EP10_SkillUnderwaterDiving_Caves1_Hint</OpportunityHint>
+  <CompletionText>EP10_SkillUnderwaterDiving_Caves1_Completion</CompletionText>
+  <ProgressText>EP10_SkillUnderwaterDiving_Caves1_Progress</ProgressText>
+</Names>
+<Names>
+  <GUID>EP10_SkillUnderwaterDiving_Caves2</GUID>
+  <OpportunityName>EP10_SkillUnderwaterDiving_Caves2_Name</OpportunityName>
+  <OpportunityDescription>EP10_SkillUnderwaterDiving_Caves2_Description</OpportunityDescription>
+  <OpportunityHint>EP10_SkillUnderwaterDiving_Caves2_Hint</OpportunityHint>
+  <CompletionText>EP10_SkillUnderwaterDiving_Caves2_Completion</CompletionText>
+  <ProgressText>EP10_SkillUnderwaterDiving_Caves2_Progress</ProgressText>
+</Names>
+<Names>
+  <GUID>EP10_HiddenIsland_Op1</GUID>
+  <OpportunityName>EP10_HiddenIsland_Op1_Name</OpportunityName>
+  <OpportunityDescription>EP10_HiddenIsland_Op1_Description</OpportunityDescription>
+  <OpportunityHint>EP10_HiddenIsland_Op1_Hint</OpportunityHint>
+  <ProgressText>EP10_HiddenIsland_Op1_Progress</ProgressText>
+</Names>
+<Names>
+  <GUID>EP10_HiddenIsland_Op2</GUID>
+  <OpportunityName>EP10_HiddenIsland_Op2_Name</OpportunityName>
+  <OpportunityDescription>EP10_HiddenIsland_Op2_Description</OpportunityDescription>
+  <OpportunityHint>EP10_HiddenIsland_Op2_Hint</OpportunityHint>
+  <ProgressText>EP10_HiddenIsland_Op2_Progress</ProgressText>
+</Names>
+<Names>
+  <GUID>EP10_HiddenIsland_Op3</GUID>
+  <OpportunityName>EP10_HiddenIsland_Op3_Name</OpportunityName>
+  <OpportunityDescription>EP10_HiddenIsland_Op3_Description</OpportunityDescription>
+  <OpportunityHint>EP10_HiddenIsland_Op3_Hint</OpportunityHint>
+  <ProgressText>EP10_HiddenIsland_Op3_Progress</ProgressText>
+</Names>
+<Names>
+  <GUID>EP10_HiddenIsland_Op4</GUID>
+  <OpportunityName>EP10_HiddenIsland_Op4_Name</OpportunityName>
+  <OpportunityDescription>EP10_HiddenIsland_Op4_Description</OpportunityDescription>
+  <OpportunityHint>EP10_HiddenIsland_Op4_Hint</OpportunityHint>
+  <ProgressText>EP10_HiddenIsland_Op4_Progress</ProgressText>
+</Names>
+<Names>
+  <GUID>EP10_HiddenIsland_Op5</GUID>
+  <OpportunityName>EP10_HiddenIsland_Op5_Name</OpportunityName>
+  <OpportunityDescription>EP10_HiddenIsland_Op5_Description</OpportunityDescription>
+  <OpportunityHint>EP10_HiddenIsland_Op5_Hint</OpportunityHint>
+  <CompletionText>EP10_HiddenIsland_Op5_Completion</CompletionText>
+  <ProgressText>EP10_HiddenIsland_Op5_Progress</ProgressText>
+</Names>
+<OpportunitiesRequirements>
+  <GUID></GUID>
+  <Requirement1></Requirement1>
+  <Requirement2></Requirement2>
+  <Requirement3></Requirement3>
+  <Requirement4></Requirement4>
+  <CustomRequirementFunction></CustomRequirementFunction>
+</OpportunitiesRequirements>
+<OpportunitiesRequirements>
+  <GUID>EP10_SkillUnderwaterDiving_Seashells1</GUID>
+  <Requirement1>Skill,ScubaDiving,2,5</Requirement1>
+  <Requirement2>WorldHasRabbitHoleType,ScienceLab</Requirement2>
+</OpportunitiesRequirements>
+<OpportunitiesRequirements>
+  <GUID>EP10_SkillUnderwaterDiving_Seashells2</GUID>
+  <Requirement1>Skill,ScubaDiving,6,10</Requirement1>
+  <Requirement2>WorldHasRabbitHoleType,ScienceLab</Requirement2>
+</OpportunitiesRequirements>
+<OpportunitiesRequirements>
+  <GUID>EP10_SkillUnderwaterDiving_Seashells3</GUID>
+  <Requirement1>Skill,ScubaDiving,2,10</Requirement1>
+  <Requirement2>WorldHasRabbitHoleType,CityHall</Requirement2>
+</OpportunitiesRequirements>
+<OpportunitiesRequirements>
+  <GUID>EP10_SkillUnderwaterDiving_MessageBottles1</GUID>
+  <Requirement1>Skill,ScubaDiving,2,5</Requirement1>
+  <Requirement2>WorldHasRabbitHoleType,CityHall</Requirement2>
+</OpportunitiesRequirements>
+<OpportunitiesRequirements>
+  <GUID>EP10_SkillUnderwaterDiving_MessageBottles2</GUID>
+  <Requirement1>Skill,ScubaDiving,6,10</Requirement1>
+  <Requirement2>WorldHasRabbitHoleType,CityHall</Requirement2>
+</OpportunitiesRequirements>
+<OpportunitiesRequirements>
+  <GUID>EP10_SkillUnderwaterDiving_SeaLife1</GUID>
+  <Requirement1>Skill,ScubaDiving,2,10</Requirement1>
+  <Requirement2>WorldHasRabbitHoleType,Restaurant</Requirement2>
+</OpportunitiesRequirements>
+<OpportunitiesRequirements>
+  <GUID>EP10_SkillUnderwaterDiving_SeaLife2</GUID>
+  <Requirement1>Skill,ScubaDiving,2,10</Requirement1>
+  <Requirement2>WorldHasRabbitHoleType,Restaurant</Requirement2>
+</OpportunitiesRequirements>
+<OpportunitiesRequirements>
+  <GUID>EP10_SkillUnderwaterDiving_SeaLife3</GUID>
+  <Requirement1>Skill,ScubaDiving,2,10</Requirement1>
+  <Requirement2>WorldHasRabbitHoleType,Restaurant</Requirement2>
+</OpportunitiesRequirements>
+<OpportunitiesRequirements>
+  <GUID>EP10_SkillUnderwaterDiving_Caves1</GUID>
+  <Requirement1>Skill,ScubaDiving,2,5</Requirement1>
+  <Requirement2>WorldHasRabbitHoleType,ScienceLab</Requirement2>
+</OpportunitiesRequirements>
+<OpportunitiesRequirements>
+  <GUID>EP10_SkillUnderwaterDiving_Caves2</GUID>
+  <Requirement1>Skill,ScubaDiving,6,10</Requirement1>
+  <Requirement2>WorldHasRabbitHoleType,ScienceLab</Requirement2>
+</OpportunitiesRequirements>
+<OpportunitiesRequirements>
+  <GUID>EP10_HiddenIsland_Op1</GUID>
+  <Requirement1>WorldHasRabbitHoleType,ScienceLab</Requirement1>
+  <Requirement2>HasStrangers,1</Requirement2>
+</OpportunitiesRequirements>
+<OpportunitiesRequirements>
+  <GUID>EP10_HiddenIsland_Op2</GUID>
+  <Requirement1>WorldHasRabbitHoleType,ScienceLab</Requirement1>
+  <Requirement2>OpportunityComplete,EP10_HiddenIsland_Op1</Requirement2>
+</OpportunitiesRequirements>
+<OpportunitiesRequirements>
+  <GUID>EP10_HiddenIsland_Op3</GUID>
+  <Requirement1>WorldHasRabbitHoleType,ScienceLab</Requirement1>
+  <Requirement2>OpportunityComplete,EP10_HiddenIsland_Op2</Requirement2>
+</OpportunitiesRequirements>
+<OpportunitiesRequirements>
+  <GUID>EP10_HiddenIsland_Op4</GUID>
+  <Requirement1>WorldHasRabbitHoleType,ScienceLab</Requirement1>
+  <Requirement2>OpportunityComplete,EP10_HiddenIsland_Op3</Requirement2>
+</OpportunitiesRequirements>
+<OpportunitiesRequirements>
+  <GUID>EP10_HiddenIsland_Op5</GUID>
+  <Requirement1>WorldHasRabbitHoleType,CityHall</Requirement1>
+  <Requirement2>OpportunityComplete,EP10_HiddenIsland_Op4</Requirement2>
+</OpportunitiesRequirements>
+<OpportunitiesCompletion>
+  <GUID></GUID>
+  <TriggerOpportunityOnCompletion></TriggerOpportunityOnCompletion>
+  <TriggerQuietly>False</TriggerQuietly>
+  <ShowRewardText>True</ShowRewardText>
+  <ShowRewardForOpp>Undefined</ShowRewardForOpp>
+  <CompletionWinChance>100</CompletionWinChance>
+  <CompletionWinReward1></CompletionWinReward1>
+  <CompletionWinReward2></CompletionWinReward2>
+  <CompletionWinReward3></CompletionWinReward3>
+  <CompletionWinReward4></CompletionWinReward4>
+  <CustomOnWinCompletionFunction></CustomOnWinCompletionFunction>
+  <CompletionModifier1></CompletionModifier1>
+  <CompletionModifier2></CompletionModifier2>
+  <CompletionModifier3></CompletionModifier3>
+  <CompletionModifier4></CompletionModifier4>
+  <CompletionLossReward1></CompletionLossReward1>
+  <CompletionLossReward2></CompletionLossReward2>
+  <CompletionLossReward3></CompletionLossReward3>
+  <CompletionLossReward4></CompletionLossReward4>
+  <CustomOnLossCompletionFunction></CustomOnLossCompletionFunction>
+  <FailureReward1></FailureReward1>
+  <FailureReward2></FailureReward2>
+  <FailureReward3></FailureReward3>
+  <FailureReward4></FailureReward4>
+</OpportunitiesCompletion>
+<OpportunitiesCompletion>
+  <GUID>EP10_SkillUnderwaterDiving_Seashells1</GUID>
+  <ShowRewardText>False</ShowRewardText>
+  <CompletionWinReward1>Money,Variable,CalculateFishReward</CompletionWinReward1>
+</OpportunitiesCompletion>
+<OpportunitiesCompletion>
+  <GUID>EP10_SkillUnderwaterDiving_Seashells2</GUID>
+  <ShowRewardText>False</ShowRewardText>
+  <CompletionWinReward1>Money,Variable,CalculateFishReward</CompletionWinReward1>
+</OpportunitiesCompletion>
+<OpportunitiesCompletion>
+  <GUID>EP10_SkillUnderwaterDiving_Seashells3</GUID>
+  <ShowRewardText>False</ShowRewardText>
+  <CompletionWinReward1>Money,Variable,CalculateFishReward</CompletionWinReward1>
+</OpportunitiesCompletion>
+<OpportunitiesCompletion>
+  <GUID>EP10_SkillUnderwaterDiving_MessageBottles1</GUID>
+  <ShowRewardText>False</ShowRewardText>
+  <CompletionWinReward1>Money,750</CompletionWinReward1>
+</OpportunitiesCompletion>
+<OpportunitiesCompletion>
+  <GUID>EP10_SkillUnderwaterDiving_MessageBottles2</GUID>
+  <ShowRewardText>False</ShowRewardText>
+  <CompletionWinReward1>Money,1500</CompletionWinReward1>
+</OpportunitiesCompletion>
+<OpportunitiesCompletion>
+  <GUID>EP10_SkillUnderwaterDiving_SeaLife1</GUID>
+  <ShowRewardText>False</ShowRewardText>
+  <CompletionWinReward1>Money,Variable,CalculateFishReward</CompletionWinReward1>
+</OpportunitiesCompletion>
+<OpportunitiesCompletion>
+  <GUID>EP10_SkillUnderwaterDiving_SeaLife2</GUID>
+  <ShowRewardText>False</ShowRewardText>
+  <CompletionWinReward1>Money,Variable,CalculateFishReward</CompletionWinReward1>
+</OpportunitiesCompletion>
+<OpportunitiesCompletion>
+  <GUID>EP10_SkillUnderwaterDiving_SeaLife3</GUID>
+  <ShowRewardText>False</ShowRewardText>
+  <CompletionWinReward1>Money,Variable,CalculateFishReward</CompletionWinReward1>
+</OpportunitiesCompletion>
+<OpportunitiesCompletion>
+  <GUID>EP10_SkillUnderwaterDiving_Caves1</GUID>
+  <ShowRewardText>False</ShowRewardText>
+  <CompletionWinReward1>Money,750</CompletionWinReward1>
+</OpportunitiesCompletion>
+<OpportunitiesCompletion>
+  <GUID>EP10_SkillUnderwaterDiving_Caves2</GUID>
+  <ShowRewardText>False</ShowRewardText>
+  <CompletionWinReward1>Money,1200</CompletionWinReward1>
+</OpportunitiesCompletion>
+<OpportunitiesCompletion>
+  <GUID>EP10_HiddenIsland_Op1</GUID>
+  <TriggerOpportunityOnCompletion>EP10_HiddenIsland_Op2</TriggerOpportunityOnCompletion>
+</OpportunitiesCompletion>
+<OpportunitiesCompletion>
+  <GUID>EP10_HiddenIsland_Op2</GUID>
+  <TriggerOpportunityOnCompletion>EP10_HiddenIsland_Op3</TriggerOpportunityOnCompletion>
+</OpportunitiesCompletion>
+<OpportunitiesCompletion>
+  <GUID>EP10_HiddenIsland_Op3</GUID>
+  <TriggerOpportunityOnCompletion>EP10_HiddenIsland_Op4</TriggerOpportunityOnCompletion>
+</OpportunitiesCompletion>
+<OpportunitiesCompletion>
+  <GUID>EP10_HiddenIsland_Op4</GUID>
+  <TriggerOpportunityOnCompletion>EP10_HiddenIsland_Op5</TriggerOpportunityOnCompletion>
+</OpportunitiesCompletion>
+<OpportunitiesCompletion>
+  <GUID>EP10_HiddenIsland_Op5</GUID>
+  <CompletionWinReward1>UnchartedIslandDiscovery,LocalsRefuge</CompletionWinReward1>
+</OpportunitiesCompletion>
+</Opportunities_EP10>

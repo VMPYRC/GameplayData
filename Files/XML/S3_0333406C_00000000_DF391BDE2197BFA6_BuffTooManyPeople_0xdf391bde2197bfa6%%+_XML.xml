@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTooManyPeopleDistance value="5">
+      <!--Range: Positive floats.  Description:  The distance check in which we see how many Sims are close to the 'Loner' Sim.  If more than 3 non-immediate-family members, then we trigger the TooManyPeople Buff-->
+    </kTooManyPeopleDistance>
+    <kTooManyPeopleSimCount value="3">
+      <!--Range: Positive integers.  Description:  The minimum number of people for the 'Too Many People' buff to apply for 'Loner' Sims.-->
+    </kTooManyPeopleSimCount>
+    <kTooManyPeopleFunPenalty value="0">
+      <!--Range: Negative floats.  Description:  When a 'Loner' Sim has the 'Too Many People' buff, his or her fun/stress motive value goes down by the amount in this tunable per Sim hour.-->
+    </kTooManyPeopleFunPenalty>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

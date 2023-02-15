@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kWindowForRememberingMeetings value="7">
+      <!--Number of days you want to remember the meetings held per work day. Natural number (1 or above). Initial GPE default: 7.-->
+    </kWindowForRememberingMeetings>
+    <kSimHoursToCallMeetingWothwhile value="1.5">
+      <!--Sim hours needed to be in this tone to count it as a valid meeting for the day. Positive float. Unit: Sim hours. Initial GPE default: 1.5f-->
+    </kSimHoursToCallMeetingWothwhile>
+    <kAmountGiftedToSimTransferingToPoliticalCareer value="500">
+      <!--Positive int. Initial GPE default: 500-->
+    </kAmountGiftedToSimTransferingToPoliticalCareer>
+    <kMinMoodToHoldMeeting value="-50">
+      <!--Min mood value to be able to hold a meeting in Business rabbithole. Range: [-100, 100]. Initial GPE Default: 20-->
+    </kMinMoodToHoldMeeting>
+    <kTimeToWaitForNextPrankAttempt value="1">
+      <!--For some reason, the prankee is not at work, the alarm restarts, this value is a default time before the alarm waits and fires again. Positive float. Units: Sim Hours. Initial GPE Default: 1.0f-->
+    </kTimeToWaitForNextPrankAttempt>
+    <kLTRIncreaseWhenPrankSucceeds value="10">
+      <!--Increase in the LTR liking value when prank succeeds on a non-boss coworker. Positive float. Initial GPE Default: 5.0f-->
+    </kLTRIncreaseWhenPrankSucceeds>
+    <kLTRIncreaseWhenPrankSucceedsOnBoss value="10">
+      <!--Increase in the LTR liking value when prank succeeds on boss. Positive float. Initial GPE Default: 15.0f-->
+    </kLTRIncreaseWhenPrankSucceedsOnBoss>
+    <kLTRDecreaseWhenPrankFails value="-5">
+      <!--Increase in the LTR liking value when prank fails on a non-boss coworker. Negative float. Initial GPE Default: -5.0f-->
+    </kLTRDecreaseWhenPrankFails>
+    <kLTRDecreaseWhenPrankFailsOnBoss value="-15">
+      <!--Increase in the LTR liking value when prank fails on boss. Negative float. Initial GPE Default: -15.0f-->
+    </kLTRDecreaseWhenPrankFailsOnBoss>
+    <kSTCValueOnPranks value="50">
+      <!--STC value given on either positive or negative Commodities when you play a prank. Positive Int. Range [1, 99]. Initial GPE Default: 50. Note: Preferably dont change it.-->
+    </kSTCValueOnPranks>
+    <kCareerPerformanceChange value="15">
+      <!--This is the amount by which career performance increases or decreases when a prank on boss succeeds or fails respectively. Positive float. Range [1, 100]. Initial GPE Default: 15-->
+    </kCareerPerformanceChange>
+    <kCareerPerformanceLostWhenPrankRepeated value="-10">
+      <!--Performance reduces if the sim tries to play a prank on a sim on the next day (after failing on it the previous day). Negative float. Initial GPE default: -10.0f-->
+    </kCareerPerformanceLostWhenPrankRepeated>
+    <kMoneyForHoldingMeetings value="750">
+      <!--Money paid per meeting on a rabbithole. Positive int. Initial GPE default: 100.-->
+    </kMoneyForHoldingMeetings>
+    <kLevelForLimo value="8" />
+    <kEarliestTimeToHoldMeeting value="8">
+      <!--Earliest hour to be able to start meeting at highest level. Range: [0, 23]. Units: Sim housrs. Initial GPE Default: 7f-->
+    </kEarliestTimeToHoldMeeting>
+    <kLatestTimeToHoldMeeting value="18">
+      <!--Latest hour to be able to start meeting at highest level. Range: [0, 23]. Units: Sim housrs. Initial GPE Default: 20f-->
+    </kLatestTimeToHoldMeeting>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFriendLTRBoost value="25">
+      <!--'Friend' LTR Boost-->
+    </kFriendLTRBoost>
+    <kSomeoneNewLTRBoost value="50">
+      <!--'SomeoneNew' LTR Boost-->
+    </kSomeoneNewLTRBoost>
+    <kPartyScoreModifier value="10">
+      <!--Party score change for EnhanceParty! interaction-->
+    </kPartyScoreModifier>
+    <kCameraShakeDistanceRange value="10, 100">
+      <!--Range: positive floats [min, max]. If the camera distance is closer than the first value, the camera will shake at full intensity.  It will linearly decrease until the second value.  If the camera is further than the second value, it won't shake at all.-->
+    </kCameraShakeDistanceRange>
+    <kCameraIntensityRange value="0.01, 1">
+      <!--Range: positive floats [min, max]. The min/max intensity that the camera should shake.  If the minimum value is not 0, the camera will shake that much regardless of how far away it is.-->
+    </kCameraIntensityRange>
+    <kCameraShakeDuration value="2">
+      <!--Range: positive floats in sim minutes. Description:  When the weather stone is appear, the camera will shake for this duration.-->
+    </kCameraShakeDuration>
+    <kGhostHauntTime value="3">
+      <!--Length in sim hours a particular ghost haunts an object.-->
+    </kGhostHauntTime>
+    <kGhostTraits value="Kleptomaniac, Evil, MeanSpirited, Inappropriate, Insane, Clumsy, Childish, DislikesChildren, HotHeaded, Neurotic, PartyAnimal, HatesOutdoors, Grumpy, Diva">
+      <!--Range:  Trait Names  Description:  The available traits for spawned ghosts-->
+    </kGhostTraits>
+    <kGhostMaxGhostsInWorld value="15">
+      <!--the max number of ghosts allowed in the world at once.-->
+    </kGhostMaxGhostsInWorld>
+    <kMaxDragonNameLength value="24">
+      <!--Max length of a dragon name, compare with stuffed animal using 24 chars-->
+    </kMaxDragonNameLength>
+    <kFireballChanceMissing value="25">
+      <!--Range: Positive float 0-100.  Description: Chance that a summon fireball will be missed by the sim dodging it-->
+    </kFireballChanceMissing>
+    <kChanceToSetDownBabyDragon value="50">
+      <!--Chance to Set down a baby dragon vs putting in inventory.-->
+    </kChanceToSetDownBabyDragon>
+    <kLTRChangeForMeanSummon value="-5">
+      <!--Amount of LTR change when casting Fireball, Firey torment, or Curse on another sim. Should be negative for a ltr drop-->
+    </kLTRChangeForMeanSummon>
+  </Current_Tuning>
+</base>

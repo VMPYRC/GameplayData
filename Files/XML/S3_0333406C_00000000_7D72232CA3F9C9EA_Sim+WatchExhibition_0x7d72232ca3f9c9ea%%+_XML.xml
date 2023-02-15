@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPossibleReacitons value="Cheer, Excited, LaughAt">
+      <!--Possible Sim Reactions-->
+    </kPossibleReacitons>
+    <kChanceOfTip value="0.4">
+      <!--Chance sim will tip-->
+    </kChanceOfTip>
+    <kMoreLikelyToTipMultiplier value="1.75">
+      <!--Sims who are more likely to tip get this added to base chance.-->
+    </kMoreLikelyToTipMultiplier>
+    <kTraitsMoreLikelyToTip value="EasilyImpressed, Good, DogPerson, AnimalLover">
+      <!--Sims who are more likely to tip.-->
+    </kTraitsMoreLikelyToTip>
+    <kLessLikelyToTipMultiplier value="0.5">
+      <!--Sims who are less likely to tip get this added to base chance.-->
+    </kLessLikelyToTipMultiplier>
+    <kBaseTip value="15">
+      <!--Base Tip for trick exhibition.-->
+    </kBaseTip>
+    <kMoneyPerTrickPerformed value="1">
+      <!--Additional money given per trick (rounded down).-->
+    </kMoneyPerTrickPerformed>
+    <kMaxTip value="25">
+      <!--Max Tip for trick exhibition.-->
+    </kMaxTip>
+    <kTimeBetweenTipTests value="6">
+      <!--Time between tip tests in sim minutes-->
+    </kTimeBetweenTipTests>
+  </Current_Tuning>
+</base>

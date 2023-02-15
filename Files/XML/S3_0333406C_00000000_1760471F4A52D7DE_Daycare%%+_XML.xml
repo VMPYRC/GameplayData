@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<Daycare>
+<LevelData>
+  <RequiredDaycareChildren></RequiredDaycareChildren>
+  <MaxWeekendDaycareChildren></MaxWeekendDaycareChildren>
+ </LevelData>
+<LevelData>
+  <RequiredDaycareChildren>2</RequiredDaycareChildren>
+  <MaxWeekendDaycareChildren>1</MaxWeekendDaycareChildren>
+ </LevelData>
+<LevelData>
+  <RequiredDaycareChildren>3</RequiredDaycareChildren>
+  <MaxWeekendDaycareChildren>1</MaxWeekendDaycareChildren>
+ </LevelData>
+<LevelData>
+  <RequiredDaycareChildren>4</RequiredDaycareChildren>
+  <MaxWeekendDaycareChildren>2</MaxWeekendDaycareChildren>
+ </LevelData>
+<LevelData>
+  <RequiredDaycareChildren>5</RequiredDaycareChildren>
+  <MaxWeekendDaycareChildren>2</MaxWeekendDaycareChildren>
+ </LevelData>
+<LevelData>
+  <RequiredDaycareChildren>6</RequiredDaycareChildren>
+  <MaxWeekendDaycareChildren>3</MaxWeekendDaycareChildren>
+ </LevelData>
+<MotiveValuesToddler>
+  <MotiveName></MotiveName>
+  <Scored>True</Scored>
+  <InitialValueMin></InitialValueMin>
+  <InitialValueMax></InitialValueMax>
+  <BadValueMin></BadValueMin>
+  <BadValueMax></BadValueMax>
+  <MotiveAccidentValue></MotiveAccidentValue>
+  <PersistentThoughtBalloonThumbFilename>placeholder</PersistentThoughtBalloonThumbFilename>
+ </MotiveValuesToddler>
+<MotiveValuesToddler>
+  <MotiveName>Bladder</MotiveName>
+  <Scored>False</Scored>
+  <InitialValueMin>-60</InitialValueMin>
+  <InitialValueMax>0</InitialValueMax>
+  <BadValueMin>-91</BadValueMin>
+  <BadValueMax>-81</BadValueMax>
+  <MotiveAccidentValue>-91</MotiveAccidentValue>
+  <PersistentThoughtBalloonThumbFilename>moodlet_hasToPee</PersistentThoughtBalloonThumbFilename>
+ </MotiveValuesToddler>
+<MotiveValuesToddler>
+  <MotiveName>Hunger</MotiveName>
+  <InitialValueMin>-50</InitialValueMin>
+  <InitialValueMax>10</InitialValueMax>
+  <BadValueMin>-80</BadValueMin>
+  <BadValueMax>-37</BadValueMax>
+  <MotiveAccidentValue>-37</MotiveAccidentValue>
+  <PersistentThoughtBalloonThumbFilename>moodlet_hungry</PersistentThoughtBalloonThumbFilename>
+ </MotiveValuesToddler>
+<MotiveValuesToddler>
+  <MotiveName>Hygiene</MotiveName>
+  <InitialValueMin>-20</InitialValueMin>
+  <InitialValueMax>10</InitialValueMax>
+  <BadValueMin>-81</BadValueMin>
+  <BadValueMax>-62</BadValueMax>
+  <MotiveAccidentValue>-62</MotiveAccidentValue>
+  <PersistentThoughtBalloonThumbFilename>moodlet_grungy</PersistentThoughtBalloonThumbFilename>
+ </MotiveValuesToddler>
+<MotiveValuesToddler>
+  <MotiveName>Fun</MotiveName>
+  <InitialValueMin>-40</InitialValueMin>
+  <InitialValueMax>-10</InitialValueMax>
+  <BadValueMin>-91</BadValueMin>
+  <BadValueMax>-22</BadValueMax>
+  <MotiveAccidentValue>-22</MotiveAccidentValue>
+  <PersistentThoughtBalloonThumbFilename>moodlet_strained</PersistentThoughtBalloonThumbFilename>
+ </MotiveValuesToddler>
+<MotiveValuesToddler>
+  <MotiveName>Social</MotiveName>
+  <InitialValueMin>-30</InitialValueMin>
+  <InitialValueMax>5</InitialValueMax>
+  <BadValueMin>-91</BadValueMin>
+  <BadValueMax>-62</BadValueMax>
+  <MotiveAccidentValue>-62</MotiveAccidentValue>
+  <PersistentThoughtBalloonThumbFilename>moodlet_desolate</PersistentThoughtBalloonThumbFilename>
+ </MotiveValuesToddler>
+<MotiveValuesAfterschoolChild>
+  <MotiveName></MotiveName>
+  <Scored>True</Scored>
+  <InitialValueMin></InitialValueMin>
+  <InitialValueMax></InitialValueMax>
+  <BadValueMin></BadValueMin>
+  <BadValueMax></BadValueMax>
+  <MotiveAccidentValue></MotiveAccidentValue>
+  <PersistentThoughtBalloonThumbFilename>placeholder</PersistentThoughtBalloonThumbFilename>
+ </MotiveValuesAfterschoolChild>
+<MotiveValuesAfterschoolChild>
+  <MotiveName>Bladder</MotiveName>
+  <Scored>False</Scored>
+  <InitialValueMin>-30</InitialValueMin>
+  <InitialValueMax>15</InitialValueMax>
+  <BadValueMin>-60</BadValueMin>
+  <BadValueMax>-40</BadValueMax>
+  <MotiveAccidentValue>-80</MotiveAccidentValue>
+  <PersistentThoughtBalloonThumbFilename>moodlet_hasToPee</PersistentThoughtBalloonThumbFilename>
+ </MotiveValuesAfterschoolChild>
+<MotiveValuesAfterschoolChild>
+  <MotiveName>Hunger</MotiveName>
+  <InitialValueMin>50</InitialValueMin>
+  <InitialValueMax>90</InitialValueMax>
+  <BadValueMin>-60</BadValueMin>
+  <BadValueMax>-37</BadValueMax>
+  <MotiveAccidentValue>-37</MotiveAccidentValue>
+  <PersistentThoughtBalloonThumbFilename>moodlet_hungry</PersistentThoughtBalloonThumbFilename>
+ </MotiveValuesAfterschoolChild>
+<MotiveValuesAfterschoolChild>
+  <MotiveName>Hygiene</MotiveName>
+  <Scored>False</Scored>
+  <InitialValueMin>50</InitialValueMin>
+  <InitialValueMax>75</InitialValueMax>
+  <BadValueMin>-62</BadValueMin>
+  <BadValueMax>-33</BadValueMax>
+  <MotiveAccidentValue>-62</MotiveAccidentValue>
+  <PersistentThoughtBalloonThumbFilename>moodlet_grungy</PersistentThoughtBalloonThumbFilename>
+ </MotiveValuesAfterschoolChild>
+<MotiveValuesAfterschoolChild>
+  <MotiveName>Fun</MotiveName>
+  <InitialValueMin>-10</InitialValueMin>
+  <InitialValueMax>20</InitialValueMax>
+  <BadValueMin>-71</BadValueMin>
+  <BadValueMax>-22</BadValueMax>
+  <MotiveAccidentValue>-22</MotiveAccidentValue>
+  <PersistentThoughtBalloonThumbFilename>moodlet_strained</PersistentThoughtBalloonThumbFilename>
+ </MotiveValuesAfterschoolChild>
+<MotiveValuesAfterschoolChild>
+  <MotiveName>Social</MotiveName>
+  <InitialValueMin>0</InitialValueMin>
+  <InitialValueMax>20</InitialValueMax>
+  <BadValueMin>-71</BadValueMin>
+  <BadValueMax>-62</BadValueMax>
+  <MotiveAccidentValue>-62</MotiveAccidentValue>
+  <PersistentThoughtBalloonThumbFilename>moodlet_desolate</PersistentThoughtBalloonThumbFilename>
+ </MotiveValuesAfterschoolChild>
+<ScoreTuningMotives>
+  <Rating></Rating>
+  <DiffThreshold></DiffThreshold>
+  <ScoreInfluence></ScoreInfluence>
+ </ScoreTuningMotives>
+<ScoreTuningMotives>
+  <Rating>Terrible</Rating>
+  <DiffThreshold>-1000</DiffThreshold>
+  <ScoreInfluence>-2</ScoreInfluence>
+ </ScoreTuningMotives>
+<ScoreTuningMotives>
+  <Rating>Bad</Rating>
+  <DiffThreshold>-60</DiffThreshold>
+  <ScoreInfluence>-1</ScoreInfluence>
+ </ScoreTuningMotives>
+<ScoreTuningMotives>
+  <Rating>Neutral</Rating>
+  <DiffThreshold>-30</DiffThreshold>
+  <ScoreInfluence>0</ScoreInfluence>
+ </ScoreTuningMotives>
+<ScoreTuningMotives>
+  <Rating>Good</Rating>
+  <DiffThreshold>50</DiffThreshold>
+  <ScoreInfluence>1</ScoreInfluence>
+ </ScoreTuningMotives>
+<ScoreTuningMotives>
+  <Rating>Great</Rating>
+  <DiffThreshold>80</DiffThreshold>
+  <ScoreInfluence>2</ScoreInfluence>
+ </ScoreTuningMotives>
+<ScoreTuningMood>
+  <Rating></Rating>
+  <DiffThreshold></DiffThreshold>
+  <ScoreInfluence></ScoreInfluence>
+ </ScoreTuningMood>
+<ScoreTuningMood>
+  <Rating>Terrible</Rating>
+  <DiffThreshold>-1000</DiffThreshold>
+  <ScoreInfluence>-5</ScoreInfluence>
+ </ScoreTuningMood>
+<ScoreTuningMood>
+  <Rating>Bad</Rating>
+  <DiffThreshold>-30</DiffThreshold>
+  <ScoreInfluence>-3</ScoreInfluence>
+ </ScoreTuningMood>
+<ScoreTuningMood>
+  <Rating>Neutral</Rating>
+  <DiffThreshold>-5</DiffThreshold>
+  <ScoreInfluence>0</ScoreInfluence>
+ </ScoreTuningMood>
+<ScoreTuningMood>
+  <Rating>Good</Rating>
+  <DiffThreshold>25</DiffThreshold>
+  <ScoreInfluence>3</ScoreInfluence>
+ </ScoreTuningMood>
+<ScoreTuningMood>
+  <Rating>Great</Rating>
+  <DiffThreshold>48</DiffThreshold>
+  <ScoreInfluence>5</ScoreInfluence>
+ </ScoreTuningMood>
+<ScoreTuningOverall>
+  <Rating></Rating>
+  <TotalScoreThreshold></TotalScoreThreshold>
+  <Experience></Experience>
+  <Money_Level1></Money_Level1>
+  <Money_Level2></Money_Level2>
+  <Money_Level3></Money_Level3>
+  <Money_Level4></Money_Level4>
+  <Money_Level5></Money_Level5>
+ </ScoreTuningOverall>
+<ScoreTuningOverall>
+  <Rating>Terrible</Rating>
+  <TotalScoreThreshold>-1000</TotalScoreThreshold>
+  <Experience>-25</Experience>
+  <Money_Level1>25</Money_Level1>
+  <Money_Level2>25</Money_Level2>
+  <Money_Level3>25</Money_Level3>
+  <Money_Level4>25</Money_Level4>
+  <Money_Level5>25</Money_Level5>
+ </ScoreTuningOverall>
+<ScoreTuningOverall>
+  <Rating>Bad</Rating>
+  <TotalScoreThreshold>-4</TotalScoreThreshold>
+  <Experience>0</Experience>
+  <Money_Level1>60</Money_Level1>
+  <Money_Level2>60</Money_Level2>
+  <Money_Level3>60</Money_Level3>
+  <Money_Level4>60</Money_Level4>
+  <Money_Level5>60</Money_Level5>
+ </ScoreTuningOverall>
+<ScoreTuningOverall>
+  <Rating>Neutral</Rating>
+  <TotalScoreThreshold>-1</TotalScoreThreshold>
+  <Experience>100</Experience>
+  <Money_Level1>80</Money_Level1>
+  <Money_Level2>80</Money_Level2>
+  <Money_Level3>80</Money_Level3>
+  <Money_Level4>80</Money_Level4>
+  <Money_Level5>80</Money_Level5>
+ </ScoreTuningOverall>
+<ScoreTuningOverall>
+  <Rating>Good</Rating>
+  <TotalScoreThreshold>7</TotalScoreThreshold>
+  <Experience>200</Experience>
+  <Money_Level1>90</Money_Level1>
+  <Money_Level2>90</Money_Level2>
+  <Money_Level3>90</Money_Level3>
+  <Money_Level4>90</Money_Level4>
+  <Money_Level5>90</Money_Level5>
+ </ScoreTuningOverall>
+<ScoreTuningOverall>
+  <Rating>Great</Rating>
+  <TotalScoreThreshold>11</TotalScoreThreshold>
+  <Experience>300</Experience>
+  <Money_Level1>120</Money_Level1>
+  <Money_Level2>120</Money_Level2>
+  <Money_Level3>120</Money_Level3>
+  <Money_Level4>120</Money_Level4>
+  <Money_Level5>120</Money_Level5>
+ </ScoreTuningOverall>
+<LTRTuning>
+  <Rating></Rating>
+  <LTRThreshold></LTRThreshold>
+  <ExperienceMultiplier></ExperienceMultiplier>
+ </LTRTuning>
+<LTRTuning>
+  <Rating>Terrible</Rating>
+  <LTRThreshold>-1000</LTRThreshold>
+  <ExperienceMultiplier>0.6</ExperienceMultiplier>
+ </LTRTuning>
+<LTRTuning>
+  <Rating>Bad</Rating>
+  <LTRThreshold>-20</LTRThreshold>
+  <ExperienceMultiplier>0.8</ExperienceMultiplier>
+ </LTRTuning>
+<LTRTuning>
+  <Rating>Neutral</Rating>
+  <LTRThreshold>0</LTRThreshold>
+  <ExperienceMultiplier>1</ExperienceMultiplier>
+ </LTRTuning>
+<LTRTuning>
+  <Rating>Good</Rating>
+  <LTRThreshold>40</LTRThreshold>
+  <ExperienceMultiplier>1.15</ExperienceMultiplier>
+ </LTRTuning>
+<LTRTuning>
+  <Rating>Great</Rating>
+  <LTRThreshold>75</LTRThreshold>
+  <ExperienceMultiplier>1.3</ExperienceMultiplier>
+ </LTRTuning>
+<RatingTextColor>
+  <Rating></Rating>
+  <Red></Red>
+  <Green></Green>
+  <Blue></Blue>
+ </RatingTextColor>
+<RatingTextColor>
+  <Rating>Terrible</Rating>
+  <Red>204</Red>
+  <Green>0</Green>
+  <Blue>0</Blue>
+ </RatingTextColor>
+<RatingTextColor>
+  <Rating>Bad</Rating>
+  <Red>153</Red>
+  <Green>102</Green>
+  <Blue>0</Blue>
+ </RatingTextColor>
+<RatingTextColor>
+  <Rating>Neutral</Rating>
+  <Red>0</Red>
+  <Green>0</Green>
+  <Blue>0</Blue>
+ </RatingTextColor>
+<RatingTextColor>
+  <Rating>Good</Rating>
+  <Red>15</Red>
+  <Green>179</Green>
+  <Blue>19</Blue>
+ </RatingTextColor>
+<RatingTextColor>
+  <Rating>Great</Rating>
+  <Red>204</Red>
+  <Green>0</Green>
+  <Blue>204</Blue>
+ </RatingTextColor>
+</Daycare>

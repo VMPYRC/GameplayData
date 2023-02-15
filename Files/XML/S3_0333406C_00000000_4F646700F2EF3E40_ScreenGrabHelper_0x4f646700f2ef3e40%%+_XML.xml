@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPortraitCamera>
+      <Time value=".25">
+        <!--Time in seconds the camera movement should take.-->
+      </Time>
+      <Zoom value="3">
+        <!--Distance in meters from the target point the camera should float.-->
+      </Zoom>
+      <Pitch value="-5">
+        <!--Angle from the horizon the camera should point down from.  Negative values are the camera above the horizon, looking down.-->
+      </Pitch>
+      <Yaw value="10">
+        <!--Angle about the target the camera should point from. Positive values are clockwise around the target (to the right-hand side) from the target's point of view.  Valid range: [-90, 90]-->
+      </Yaw>
+      <Swing value="True">
+        <!--Determines whether the camera should swing down to look at the ground if currently in look at sky mode.  Valid range: [0, 360)-->
+      </Swing>
+    </kPortraitCamera>
+    <kPortraitOffsetAdult value="1.7, 0">
+      <!--Height and width Adult offset for where to center the screen grab square when painting a portrait.-->
+    </kPortraitOffsetAdult>
+    <kPortraitOffsetTeen value="1.68, 0">
+      <!--Height and width Teen offset for where to center the screen grab square when painting a portrait.-->
+    </kPortraitOffsetTeen>
+    <kPortraitOffsetChild value="1.15, 0">
+      <!--Height and width Child offset for where to center the screen grab square when painting a portrait.-->
+    </kPortraitOffsetChild>
+    <kPortraitOffsetToddler value="0.36, 0">
+      <!--Height and width Toddler offset for where to center the screen grab square when painting a portrait.-->
+    </kPortraitOffsetToddler>
+    <kUIAspectRatio value="1, 1.25, 1, 1.25, 1.25, 1, 1, 1.25, 3, 1, 1, 1.5, 1.5, 1">
+      <!--Aspect ratio and zoom to use in the photo inventory UI thumbnail for sizes Tiny, Small, Medium, Large, Panorama, SmartPhone and SmartPhoneHorizontal organized width(tiny), height(tiny), width(small), etc.-->
+    </kUIAspectRatio>
+    <kMinMaxZoomLevels value="95.0, 95.0, 90.0, 105.0, 60.0, 105.0, 12.0, 110.0">
+      <!--Min and max zoom levels mapped to Sims3.Gameplay.Skills.PhotographZoom enum.-->
+    </kMinMaxZoomLevels>
+    <kPortraitOffsetCat value="0.20, 0">
+      <!--Height and width Cat offset for where to center the screen grab square when painting a portrait.-->
+    </kPortraitOffsetCat>
+    <kPortraitOffsetKitten value="0, 0">
+      <!--Height and width Kitten offset for where to center the screen grab square when painting a portrait.-->
+    </kPortraitOffsetKitten>
+    <kPortraitOffsetDog value="0.50, 0">
+      <!--Height and width Large Dog offset for where to center the screen grab square when painting a portrait.-->
+    </kPortraitOffsetDog>
+    <kPortraitOffsetDogPuppy value="0, 0">
+      <!--Height and width Large Dog Puppy offset for where to center the screen grab square when painting a portrait.-->
+    </kPortraitOffsetDogPuppy>
+    <kPortraitOffsetLittleDog value="0.25, 0">
+      <!--Height and width Small Dog offset for where to center the screen grab square when painting a portrait.-->
+    </kPortraitOffsetLittleDog>
+    <kPortraitOffsetLittleDogPuppy value="0, 0">
+      <!--Height and width Small Dog Puppy offset for where to center the screen grab square when painting a portrait.-->
+    </kPortraitOffsetLittleDogPuppy>
+  </Current_Tuning>
+</base>

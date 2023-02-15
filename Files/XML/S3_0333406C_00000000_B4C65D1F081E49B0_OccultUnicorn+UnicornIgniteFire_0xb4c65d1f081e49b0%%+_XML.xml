@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMagicPointsRequired value="15">
+      <!--The amount of MP this interaction consumes.-->
+    </kMagicPointsRequired>
+    <kGlowVfxRgb value="1, 0.3, 0">
+      <!--The RGB value for the unicorn's glow effect.-->
+    </kGlowVfxRgb>
+    <kMinutesBetweenIgnites value="10">
+      <!--The amount of time, in Sim minutes, a Unicorn must wait between igniting fires.-->
+    </kMinutesBetweenIgnites>
+    <kRoutingDistance value="6">
+      <!--The radius to route to the clicked spot on the terrain before igniting a fire. 0.0+-->
+    </kRoutingDistance>
+    <kSimsWithinHitPointRadius value="1">
+      <!--The radius around the hit point to check for sims.  If sims are within this radius, the interaction will test out. 0.0+-->
+    </kSimsWithinHitPointRadius>
+  </Current_Tuning>
+</base>

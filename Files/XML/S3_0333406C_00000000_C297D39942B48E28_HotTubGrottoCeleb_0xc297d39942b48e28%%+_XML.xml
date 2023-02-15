@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="60">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kRepairableTuning>
+      <HoursUnbreakable value="96">
+        <!--How long until the object is allowed to check for breakage after being fixed or purchased.-->
+      </HoursUnbreakable>
+      <StartPercentChanceBreak value="3">
+        <!--Starting chance of object breaking when its used.-->
+      </StartPercentChanceBreak>
+      <PercentChanceBreakIncrease value="1">
+        <!--How much the chance of breakage increases each time the object is used (int, 1 to 100).-->
+      </PercentChanceBreakIncrease>
+      <PercentWhenReplaceAvailable value="15">
+        <!--What percent breakage chance the Replace interaction becomes available-->
+      </PercentWhenReplaceAvailable>
+      <RepairComplexity value="7">
+        <!--The level at which repair time reaches its minimum-->
+      </RepairComplexity>
+      <MinRepairTime value="25">
+        <!--Minimum amount of time in sim minutes that it takes to repair this object.  This time when skill level at or above RepairComplexity-->
+      </MinRepairTime>
+      <MaxRepairTime value="120">
+        <!--Maximum amount of time in sim minutes that it takes to repair this object.  Occurs at skill level 0.-->
+      </MaxRepairTime>
+      <RepairSkillGain value="3500">
+        <!--Rate of skill gain while repairing object in points per sim minute-->
+      </RepairSkillGain>
+      <UpgradeUnbreakable>
+        <UpgradeTime value="330">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="5500">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="35">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="True">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeUnbreakable>
+      <MinChanceOfElectrocution value="0">
+        <!--Minimum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs when skill level > = RepairComplexity-->
+      </MinChanceOfElectrocution>
+      <MaxChanceOfElectrocution value="10">
+        <!--Maximum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs at skill level 0.-->
+      </MaxChanceOfElectrocution>
+    </kRepairableTuning>
+    <kNumPuddlesToMakeWhenBroken value="5">
+      <!--Range:  0-?  Description:  Number of Puddles to make when hot tub is broken.-->
+    </kNumPuddlesToMakeWhenBroken>
+    <kHotTubDestressAmount value="65">
+      <!--Range: Positive floats.  Description: Normal Amount Sims gain fun (de-stress) per sim hour when in the hot tub.-->
+    </kHotTubDestressAmount>
+    <kHotTubDestressAmountIfSkinnyDipping value="100">
+      <!--Range: Positive floats.  Description: Skinny dip Amount Sims gain fun (de-stress) per sim hour when in the hot tub.-->
+    </kHotTubDestressAmountIfSkinnyDipping>
+    <kHotTubHygieneGainPerHour value="30">
+      <!--Range: Positive floats.  Description: How much hygiene Sims gain per sim hour when in the HotTub posture.-->
+    </kHotTubHygieneGainPerHour>
+    <kFatigueLossPerHour value="75">
+      <!--Range: Positive floats.  Description: Decrease in fatigue per sim hour from hottub posture.-->
+    </kFatigueLossPerHour>
+    <kNumMinsToRemoveSoreBuff value="45">
+      <!--Range: Positive int. Description: How many sim minutes it takes to remove the sore buff.-->
+    </kNumMinsToRemoveSoreBuff>
+    <kBabyMadeChance value="50">
+      <!--Range: 0-100. Chance of Sim getting Pregnant on TryForBaby.-->
+    </kBabyMadeChance>
+    <kBabyTraitChance value="10, 10, 80">
+      <!--Weighted values for chance of baby getting these traits: None, Hydrophobic, PartyAnimal-->
+    </kBabyTraitChance>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCleanHoovesHygieneDelta value="60">
+      <!--Clean Hooves: Positive float.  The amount of hygiene horse gain from the Clean Hooves social.-->
+    </kCleanHoovesHygieneDelta>
+    <kCleanHoovesSmellyOrStinkyThreshold value="-60">
+      <!--Clean Hooves: Positive float.  The hygiene level below which a horse is considered Smelly or Stinky.-->
+    </kCleanHoovesSmellyOrStinkyThreshold>
+    <kPetGroomHygieneDelta value="2">
+      <!--Pet Groom: Positive float.  The amount of Hygiene an adult target pet gains each time the groom animation plays.-->
+    </kPetGroomHygieneDelta>
+    <kPetGroomHairballDelta value="1">
+      <!--Pet Groom: Positive int.  The amount the hairball count increases each kPetGroomHairballIncreaseFrequencySimMinutes.-->
+    </kPetGroomHairballDelta>
+    <kPetGroomSocialMultiplierMotiveRangeHygiene value="-80, 0">
+      <!--Pet Groom: Ints in range -100 to 100.  For adult to adult socials, the Hygiene motive score at which to apply corresponding scoring multiplier.-->
+    </kPetGroomSocialMultiplierMotiveRangeHygiene>
+    <kPetGroomSocialMultiplierScoreRangeHygiene value="400, 1">
+      <!--Pet Groom: Positive floats.  For adult to adult socials, the social score multiplier to apply at corresponding Hygiene motive levels.-->
+    </kPetGroomSocialMultiplierScoreRangeHygiene>
+    <kPetGroomSocialMultiplierMotiveRangeSocial value="-80, 0">
+      <!--Pet Groom: Ints in range -100 to 100.  For adult to child socials, the Social motive score at which to apply corresponding scoring multiplier.-->
+    </kPetGroomSocialMultiplierMotiveRangeSocial>
+    <kPetGroomSocialMultiplierScoreRangeSocial value="400, 1">
+      <!--Pet Groom: Positive floats.  For adult to child socials, the social score multiplier to apply at corresponding Social motive levels.-->
+    </kPetGroomSocialMultiplierScoreRangeSocial>
+    <kPetGroomChildPetGroomDurationSimMinutes value="30">
+      <!--Pet Groom: Positive float.  The number of sim minutes pets should continue grooming child pets.-->
+    </kPetGroomChildPetGroomDurationSimMinutes>
+    <kHugHorseChanceOfThoughtBalloons value="0.25">
+      <!--Hug Horse: Float [0,1]. Chance of thought balloons of each other.-->
+    </kHugHorseChanceOfThoughtBalloons>
+    <kBarkHissAtStrayMaxLTR value="25">
+      <!--Bark/Hiss At Stray will be available on non-aggressive pets if their LTR with the stray is <= to this value.-->
+    </kBarkHissAtStrayMaxLTR>
+    <kUnicornCureHumanBuffs value="Nauseous, Kicked, MummysCurse, UnicornsIre, GotFleasHuman, Bitten, Seasick">
+      <!--List of human buffs that will allow the Unicorn Cure interaction-->
+    </kUnicornCureHumanBuffs>
+    <kUnicornCurePetBuffs value="NauseousPet, GotFleasPet">
+      <!--List of pet buffs that will allow the Unicorn Cure interaction-->
+    </kUnicornCurePetBuffs>
+    <kUnicornCureMagicCost value="20">
+      <!--The amount of magic points the Unicorns Cure ability consumes.-->
+    </kUnicornCureMagicCost>
+    <kUnicornCureVfxRgb value="1, 0.4 , 1">
+      <!--The RGB value of the Unicorn's glow effect for Unicorns Cure ability.-->
+    </kUnicornCureVfxRgb>
+    <kUnicornBlessDisallowBuffs value="UnicornsBlessing">
+      <!--Buffs that will disallow the Unicorns Blessing interaction on a sim.-->
+    </kUnicornBlessDisallowBuffs>
+    <kUnicornBlessMagicCost value="20">
+      <!--The amount of magic points the Unicorns Blessing ability consumes.-->
+    </kUnicornBlessMagicCost>
+    <kUnicornBlessVfxRgb value="1, 1, 1">
+      <!--The RGB value of the Unicorn's glow effect for Unicorns Bless ability.-->
+    </kUnicornBlessVfxRgb>
+    <kUnicornCurseDisallowBuffs value="UnicornsIre">
+      <!--Buffs that will disallow the Unicorns Curse interaction on a sim.-->
+    </kUnicornCurseDisallowBuffs>
+    <kUnicornCurseMagicCost value="20">
+      <!--The amount of magic points the Unicorns Curse ability consumes.-->
+    </kUnicornCurseMagicCost>
+    <kUnicornCurseVfxRgb value="0.5, 0, 0">
+      <!--The RGB value of the Unicorn's glow effect for Unicorns Curse ability.-->
+    </kUnicornCurseVfxRgb>
+    <kUnicornMinLtrForInvite value="50">
+      <!--The minimum amount of LTR a player must have with a wild unicorn before it can invite it to the household.-->
+    </kUnicornMinLtrForInvite>
+    <kUnicornMinBfPetsForInvite value="3">
+      <!--The minimum number of pets a Sim must have Best Friend or higher LTR with in order to successfully invite a unicorn in to the household.-->
+    </kUnicornMinBfPetsForInvite>
+    <kBegForHarvestableCooldownThreshold value="20">
+      <!--BegForHarvestable: Positive float.  When its HorseBegForHarvestable motive falls below this value the horse can beg again.-->
+    </kBegForHarvestableCooldownThreshold>
+    <kPetGroomHairballIncreaseFrequencySimMinutes value="10">
+      <!--Pet Groom: Positive float.  The number of sim minutes between hairball counter increases.-->
+    </kPetGroomHairballIncreaseFrequencySimMinutes>
+    <kFeedTreatHungerLevelCanRejectIfFull value="90">
+      <!--Feed Treat: Range -100 to 100, Hunger level above which pet is 'full' and has a chance of rejecting the treat.-->
+    </kFeedTreatHungerLevelCanRejectIfFull>
+    <kFeedTreatChanceRejectIfFull value="40">
+      <!--Feed Treat: Range: 0-100, Chance of pet who's hunger is above tuned 'kFeedTreatHungerLevelCanReject' will reject feed treat social.-->
+    </kFeedTreatChanceRejectIfFull>
+    <kFeedTreatHungerLevelCanRejectSkittish value="-20">
+      <!--Feed Treat: Range -100 to 100, Hunger motive level below which skittish pet will always accept the treat.-->
+    </kFeedTreatHungerLevelCanRejectSkittish>
+    <kFeedTreatChanceRejectSkittish value="10">
+      <!--Feed Treat: 0-100.  Chance of skittish pet rejecting treat if hunger is above tuned value 'kFeedTreatHungerLevelCanRejectSkittish'.-->
+    </kFeedTreatChanceRejectSkittish>
+    <kMarkSimSocialMultiplierForBFF value="2">
+      <!--MarkSim: Positive float.  The score multiplier for the Mark Sim social when the Human is the Cat's BFF.-->
+    </kMarkSimSocialMultiplierForBFF>
+    <kMarkSimLTRLikingDelta value="0">
+      <!--MarkSim: Positive float.  The amount to change the LTR Liking between Human and Cat after a successful Mark Sim.-->
+    </kMarkSimLTRLikingDelta>
+    <kPouncePlayFunCommodityUpdate>
+      <mMultiplier value="1" />
+      <mLocked value="False" />
+      <mActualValue value="60" />
+      <mUpdateType value="ContinuousFlow" />
+      <mTimeDependsOnCommodityFilling value="False" />
+      <mUpdateEvenOnFailure value="True" />
+      <mUpdateAboveAndBelowZero value="Either" />
+      <CommodityIsMeantForReinforcement value="False" />
+    </kPouncePlayFunCommodityUpdate>
+    <kPouncePlayEnergyCommodityUpdate>
+      <mMultiplier value="1" />
+      <mLocked value="False" />
+      <mActualValue value="-30" />
+      <mUpdateType value="ContinuousFlow" />
+      <mTimeDependsOnCommodityFilling value="False" />
+      <mUpdateEvenOnFailure value="True" />
+      <mUpdateAboveAndBelowZero value="Either" />
+      <CommodityIsMeantForReinforcement value="False" />
+    </kPouncePlayEnergyCommodityUpdate>
+    <kPouncePlayHuntingSkillCommodityUpdate>
+      <mMultiplier value="1" />
+      <mLocked value="False" />
+      <mActualValue value="600" />
+      <mUpdateType value="ContinuousFlow" />
+      <mTimeDependsOnCommodityFilling value="False" />
+      <mUpdateEvenOnFailure value="True" />
+      <mUpdateAboveAndBelowZero value="Either" />
+      <CommodityIsMeantForReinforcement value="False" />
+    </kPouncePlayHuntingSkillCommodityUpdate>
+    <kPounceMeanFunCommodityUpdate>
+      <mMultiplier value="1" />
+      <mLocked value="False" />
+      <mActualValue value="-30" />
+      <mUpdateType value="ContinuousFlow" />
+      <mTimeDependsOnCommodityFilling value="False" />
+      <mUpdateEvenOnFailure value="True" />
+      <mUpdateAboveAndBelowZero value="Either" />
+      <CommodityIsMeantForReinforcement value="False" />
+    </kPounceMeanFunCommodityUpdate>
+    <kPounceMeanEnergyCommodityUpdate>
+      <mMultiplier value="1" />
+      <mLocked value="False" />
+      <mActualValue value="-30" />
+      <mUpdateType value="ContinuousFlow" />
+      <mTimeDependsOnCommodityFilling value="False" />
+      <mUpdateEvenOnFailure value="True" />
+      <mUpdateAboveAndBelowZero value="Either" />
+      <CommodityIsMeantForReinforcement value="False" />
+    </kPounceMeanEnergyCommodityUpdate>
+    <kPounceMeanHuntingSkillCommodityUpdate>
+      <mMultiplier value="1" />
+      <mLocked value="False" />
+      <mActualValue value="600" />
+      <mUpdateType value="ContinuousFlow" />
+      <mTimeDependsOnCommodityFilling value="False" />
+      <mUpdateEvenOnFailure value="True" />
+      <mUpdateAboveAndBelowZero value="Either" />
+      <CommodityIsMeantForReinforcement value="False" />
+    </kPounceMeanHuntingSkillCommodityUpdate>
+    <kPeeOnSimHygieneLoss value="50">
+      <!--Pee On: The amount of hygiene the Sim will lose after being peed on.-->
+    </kPeeOnSimHygieneLoss>
+    <kUnicornCureHumanReactions value="Cheer, Excited">
+      <!--The reactions a human should play after being cured.-->
+    </kUnicornCureHumanReactions>
+    <kUnicornBlessHumanReactions value="Cheer, Excited">
+      <!--The reactions a human should play after being blessed.-->
+    </kUnicornBlessHumanReactions>
+    <kUnicornCurseHumanReactions value="Annoyed, Angry">
+      <!--The reactions a human should play after being cursed.-->
+    </kUnicornCurseHumanReactions>
+    <kBiteAtStartleChance value="0.75">
+      <!--Bite At: The chance a Friendly or Nervous horse will be startled after being bit at.-->
+    </kBiteAtStartleChance>
+    <kBiteAtReactions value="FreakOut, Scared, Startled">
+      <!--Bite At: Reactions a Coward or Hates Outdoors human will play after being bit at.-->
+    </kBiteAtReactions>
+    <kLetSniffHandSniffLTR value="20">
+      <!--Let Sniff Hand: The LTR threshold for non-friendly, non-aggressive pets to have a chance to push Sniff.-->
+    </kLetSniffHandSniffLTR>
+    <kLetSniffHandSniffChance value="0.50">
+      <!--Let Sniff Hand: The chance a non-friendly, non-aggressive pet will push Sniff if LTR >= kLetSniffHandSniffLTR.-->
+    </kLetSniffHandSniffChance>
+    <kLetSniffHandSniffLTRFriendly value="0">
+      <!--Let Sniff Hand: The LTR threshold for friendly pets to have a chance to push Sniff.-->
+    </kLetSniffHandSniffLTRFriendly>
+    <kLetSniffHandSniffChanceFriendly value="0.75">
+      <!--Let Sniff Hand: The chance a friendly pet will push Sniff if LTR >= kLetSniffHandSniffLTRFriendly.-->
+    </kLetSniffHandSniffChanceFriendly>
+    <kLetSniffHandSniffLTRAggressive value="30">
+      <!--Let Sniff Hand: The LTR threshold for aggressive pets to have a chance to push Sniff.-->
+    </kLetSniffHandSniffLTRAggressive>
+    <kLetSniffHandSniffChanceAggressive value="0.25">
+      <!--Let Sniff Hand: The chance an aggressive pet will push Sniff if LTR >= kLetSniffHandSniffLTRAggressive.-->
+    </kLetSniffHandSniffChanceAggressive>
+    <kLetSniffHandAggroNegativeSocLTR value="0">
+      <!--Let Sniff Hand: Aggressive LTR threshold for negative social.-->
+    </kLetSniffHandAggroNegativeSocLTR>
+    <kLetSniffHandAggroNegativeSocChance value="0.5">
+      <!--Let Sniff Hand: The chance an aggressive pet with an LTR <= kLetSniffHandAggroLTRNegativeSoc will follow Let Sniff Hand with a negative social.-->
+    </kLetSniffHandAggroNegativeSocChance>
+    <kPetGroomMinimumDurationSimMinutes value="10">
+      <!--Pet Groom: Positive float.  The minimum number of sim minutes pets should groom.  If Hygiene if already maxed the social will last this long.-->
+    </kPetGroomMinimumDurationSimMinutes>
+    <kDogGrowlBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a dog will respond by growling.-->
+    </kDogGrowlBaseWeight>
+    <kDogGrowlOverrideTraits value="AggressivePet, MeanPet, ShyPet, SkittishPet">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a dog responding by growling.-->
+    </kDogGrowlOverrideTraits>
+    <kDogGrowlOverrideWeights value="2, 0, 0, 0">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kDogGrowlOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kDogGrowlOverrideWeights>
+    <kDogBarkBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a dog will respond by barking.-->
+    </kDogBarkBaseWeight>
+    <kDogBarkOverrideTraits value="AggressivePet, MeanPet, ShyPet, SkittishPet">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a dog responding by barking.-->
+    </kDogBarkOverrideTraits>
+    <kDogBarkOverrideWeights value="2, 0, 0, 0">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kDogBarkOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kDogBarkOverrideWeights>
+    <kDogCowerBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a dog will respond by cowering.-->
+    </kDogCowerBaseWeight>
+    <kDogCowerOverrideTraits value="AggressivePet, MeanPet, ShyPet, SkittishPet">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a dog responding by cowering.-->
+    </kDogCowerOverrideTraits>
+    <kDogCowerOverrideWeights value="0, 0, 3, 3">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kDogCowerOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kDogCowerOverrideWeights>
+    <kDogFightBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a dog will respond by fighting.-->
+    </kDogFightBaseWeight>
+    <kDogFightOverrideTraits value="AggressivePet, MeanPet, ShyPet, SkittishPet">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a dog responding by fighting.-->
+    </kDogFightOverrideTraits>
+    <kDogFightOverrideWeights value="2, 0, 0, 0">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kDogFightOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kDogFightOverrideWeights>
+    <kDogIgnoreBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a dog will respond by ignoring.-->
+    </kDogIgnoreBaseWeight>
+    <kDogIgnoreOverrideTraits value="AggressivePet, MeanPet, ShyPet, SkittishPet">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a dog responding by ignoring.-->
+    </kDogIgnoreOverrideTraits>
+    <kDogIgnoreOverrideWeights value="0, 0, 2, 2">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kDogIgnoreOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kDogIgnoreOverrideWeights>
+    <kDogChaseBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a dog will respond by chasing.-->
+    </kDogChaseBaseWeight>
+    <kDogChaseOverrideTraits value="AggressivePet, MeanPet, ShyPet, SkittishPet">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a dog responding by chasing.-->
+    </kDogChaseOverrideTraits>
+    <kDogChaseOverrideWeights value="0, 0, 2, 2">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kDogChaseOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kDogChaseOverrideWeights>
+    <kCatHissBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a cat will respond by hissing.-->
+    </kCatHissBaseWeight>
+    <kCatHissOverrideTraits value="AggressivePet, MeanPet, ShyPet, SkittishPet">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a cat responding by hissing.-->
+    </kCatHissOverrideTraits>
+    <kCatHissOverrideWeights value="2, 0, 0, 1">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kCatHissOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kCatHissOverrideWeights>
+    <kCatCowerBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a cat will respond by cowering.-->
+    </kCatCowerBaseWeight>
+    <kCatCowerOverrideTraits value="AggressivePet, MeanPet, ShyPet, SkittishPet">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a cat responding by cowering.-->
+    </kCatCowerOverrideTraits>
+    <kCatCowerOverrideWeights value="0, 0, 2, 2">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kCatCowerOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kCatCowerOverrideWeights>
+    <kCatFightBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a cat will respond by fighting.-->
+    </kCatFightBaseWeight>
+    <kCatFightOverrideTraits value="AggressivePet, MeanPet, ShyPet, SkittishPet">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a cat responding by fighting.-->
+    </kCatFightOverrideTraits>
+    <kCatFightOverrideWeights value="2, 0, 0, 0">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kCatFightOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kCatFightOverrideWeights>
+    <kCatIgnoreBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a cat will respond by ignoring.-->
+    </kCatIgnoreBaseWeight>
+    <kCatIgnoreOverrideTraits value="AggressivePet, MeanPet, ShyPet, SkittishPet">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a cat responding by ignoring.-->
+    </kCatIgnoreOverrideTraits>
+    <kCatIgnoreOverrideWeights value="0, 0, 3, 1">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kCatIgnoreOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kCatIgnoreOverrideWeights>
+    <kCatChaseBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a cat will respond by chasing.-->
+    </kCatChaseBaseWeight>
+    <kCatChaseOverrideTraits value="AggressivePet, MeanPet, ShyPet, SkittishPet">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a cat responding by chasing.-->
+    </kCatChaseOverrideTraits>
+    <kCatChaseOverrideWeights value="0, 0, 2, 2">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kCatChaseOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kCatChaseOverrideWeights>
+    <kHorseFlickTailBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a horse will respond by flicking their tail.-->
+    </kHorseFlickTailBaseWeight>
+    <kHorseFlickTailOverrideTraits value="AggressivePet, MeanPet, ShyPet, SkittishPet">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a horse responding by flicking their tail.-->
+    </kHorseFlickTailOverrideTraits>
+    <kHorseFlickTailOverrideWeights value="1, 2, 3, 0">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kHorseFlickTailOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kHorseFlickTailOverrideWeights>
+    <kHorseSnortStompBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a horse will respond by snorting and stomping.-->
+    </kHorseSnortStompBaseWeight>
+    <kHorseSnortStompOverrideTraits value="AggressivePet, MeanPet, ShyPet, SkittishPet">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a horse responding by snorting and stomping.-->
+    </kHorseSnortStompOverrideTraits>
+    <kHorseSnortStompOverrideWeights value="2, 2, 0, 0">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kHorseSnortStompOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kHorseSnortStompOverrideWeights>
+    <kHorseChaseBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a horse will respond by chasing.-->
+    </kHorseChaseBaseWeight>
+    <kHorseChaseOverrideTraits value="AggressivePet, MeanPet, ShyPet, SkittishPet">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a horse responding by chasing.-->
+    </kHorseChaseOverrideTraits>
+    <kHorseChaseOverrideWeights value="0, 0, 2, 0">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kHorseChaseOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kHorseChaseOverrideWeights>
+    <kHumanIgnoreBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a human will respond by ignoring.-->
+    </kHumanIgnoreBaseWeight>
+    <kHumanIgnoreOverrideTraits value="Evil, Brave, Coward, Dramatic, Friendly, Good, MeanSpirited">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a human responding by ignoring.-->
+    </kHumanIgnoreOverrideTraits>
+    <kHumanIgnoreOverrideWeights value="0, 0, 3, 0, 2, 2, 0">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kHumanIgnoreOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kHumanIgnoreOverrideWeights>
+    <kHumanRecoilBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a human will respond by recoiling.-->
+    </kHumanRecoilBaseWeight>
+    <kHumanRecoilOverrideTraits value="Evil, Brave, Coward, Dramatic, Friendly, Good, MeanSpirited">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a human responding by recoiling.-->
+    </kHumanRecoilOverrideTraits>
+    <kHumanRecoilOverrideWeights value="0, 0, 3, 1, 1, 1, 1">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kHumanRecoilOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kHumanRecoilOverrideWeights>
+    <kHumanLaughBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a human will respond by laughing.-->
+    </kHumanLaughBaseWeight>
+    <kHumanLaughOverrideTraits value="Evil, Brave, Coward, Dramatic, Friendly, Good, MeanSpirited">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a human responding by laughing.-->
+    </kHumanLaughOverrideTraits>
+    <kHumanLaughOverrideWeights value="2, 2, 0, 2, 2, 2, 2">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kHumanLaughOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kHumanLaughOverrideWeights>
+    <kHumanShooBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a human will respond by shooing.-->
+    </kHumanShooBaseWeight>
+    <kHumanShooOverrideTraits value="Evil, Brave, Coward, Dramatic, Friendly, Good, MeanSpirited">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a human responding by shooing.-->
+    </kHumanShooOverrideTraits>
+    <kHumanShooOverrideWeights value="1, 2, 1, 1, 1, 1, 1">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kHumanShooOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kHumanShooOverrideWeights>
+    <kHumanScoldBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a human will respond by scolding.-->
+    </kHumanScoldBaseWeight>
+    <kHumanScoldOverrideTraits value="Evil, Brave, Coward, Dramatic, Friendly, Good, MeanSpirited">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a human responding by scolding.-->
+    </kHumanScoldOverrideTraits>
+    <kHumanScoldOverrideWeights value="3, 2, 0, 3, 1, 1, 3">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kHumanScoldOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kHumanScoldOverrideWeights>
+    <kHumanChaseBaseWeight value="1">
+      <!--Cat Hiss: Positive float.  The weighted chance that a human will respond by chasing.-->
+    </kHumanChaseBaseWeight>
+    <kHumanChaseOverrideTraits value="Evil, Brave, Coward, Dramatic, Friendly, Good, MeanSpirited">
+      <!--Cat Hiss: Strings.  List of traits which will override the base weighted chance of a human responding by chasing.-->
+    </kHumanChaseOverrideTraits>
+    <kHumanChaseOverrideWeights value="0, 0, 3, 3, 1, 1, 0">
+      <!--Cat Hiss: Positive float.  List of weights corresponding to kHumanChaseOverrideTraits.  In the case where the target has more than one applicable trait, the highest value will be used.-->
+    </kHumanChaseOverrideWeights>
+    <kPetGroomCatMateScoringMultiplier value="3">
+      <!--Pet Groom: Positive float.  Scoring Multiplier for cats that are mates to groom each other.-->
+    </kPetGroomCatMateScoringMultiplier>
+    <kNuzzleCatMateScoringMultiplier value="3">
+      <!--Pet Groom: Positive float.  Scoring Multiplier for cats that are mates to nuzzle each other.-->
+    </kNuzzleCatMateScoringMultiplier>
+    <kAttackShredFunUpdate value="20">
+      <!--Attack Shred: Fun change for Aggressive cats/kittens from the Attack Shred social.-->
+    </kAttackShredFunUpdate>
+    <kCatToyWallDancerMiniumRequiredMood value="-80">
+      <!--CatToyWallDancer: The minimum mood required for both parties of the PlayWith interaction for the social to succeed.-->
+    </kCatToyWallDancerMiniumRequiredMood>
+    <kSimFunGainFromPlayingTugOfWar value="40">
+      <!--TugOfWar: fun gain from playing tug of war for Sim-->
+    </kSimFunGainFromPlayingTugOfWar>
+    <kPetFunGainFromPlayingTugOfWar value="40">
+      <!--TugOfWar: fun gain from playing tug of war for Pet-->
+    </kPetFunGainFromPlayingTugOfWar>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToFail value="0.15">
+      <!--Chance per loop that a dog will fail chasing the ball.-->
+    </kChanceToFail>
+    <kSuccessRoutingStyles value="PetRun, PetTrot">
+      <!--If success, pet will randomly choose one these walk styles to route to the ball.-->
+    </kSuccessRoutingStyles>
+    <kIncreasedChanceToFailTraits value="CluelessPet, PlayfulPet">
+      <!--List of traits that have an increased chance of barking before running at the ball.-->
+    </kIncreasedChanceToFailTraits>
+    <kIncreasedChanceToFail value="0.4">
+      <!--Chance per loop that a dog will fail chasing the ball.-->
+    </kIncreasedChanceToFail>
+    <kChanceToBark value="0.15">
+      <!--Chance per loop that a dog will bark at the ball before hitting it.-->
+    </kChanceToBark>
+    <kIncreasedChanceToBarkTraits value="NoisyPet, HyperPet">
+      <!--List of traits that have an increased chance of barking before running at the ball.-->
+    </kIncreasedChanceToBarkTraits>
+    <kIncreasedChanceToBark value="0.4">
+      <!--Chance per loop that a dog will bark at the ball before hitting it.-->
+    </kIncreasedChanceToBark>
+  </Current_Tuning>
+</base>

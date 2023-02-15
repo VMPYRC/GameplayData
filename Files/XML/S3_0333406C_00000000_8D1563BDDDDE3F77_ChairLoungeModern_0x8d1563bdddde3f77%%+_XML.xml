@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTuning>
+      <ComfyBuffStrength value="25">
+        <!--Range: Positive integers.  Description:  Strength of the 'Comfy' buff that is added to the Sim when using the dining chair.-->
+      </ComfyBuffStrength>
+    </kTuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="6">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+  </Current_Tuning>
+</base>

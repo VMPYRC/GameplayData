@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMillisecondsToFlashLight value="300">
+      <!--The number of milliseconds that should elapse before the recording light flashes.-->
+    </kMillisecondsToFlashLight>
+    <kMillisecondsToFlashBattery value="500">
+      <!--The number of milliseconds that should elapse before the dead battery light flashes.-->
+    </kMillisecondsToFlashBattery>
+    <kMillisecondsToFlashTimer value="500">
+      <!--The number of milliseconds that should elapse before the timer flashes. (the timer will always BEGIN flashing at 10 seconds remaining.  the controls the frequency of the flash)-->
+    </kMillisecondsToFlashTimer>
+  </Current_Tuning>
+</base>

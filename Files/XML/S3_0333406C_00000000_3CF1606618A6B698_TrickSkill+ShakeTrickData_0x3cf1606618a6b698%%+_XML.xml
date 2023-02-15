@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <mShakeTuning>
+      <kTrickSkillLevelRequired value="3">
+        <!--Range: 0-5, Trick skill level needed to learn the trick.-->
+      </kTrickSkillLevelRequired>
+      <kBasePracticePointsPerSimMinute value="1">
+        <!--Base level of practice points given each minute the trick is practiced-->
+      </kBasePracticePointsPerSimMinute>
+      <kPracticePointsNeededToLearn value="450">
+        <!--Number of practice points required to learn the trick-->
+      </kPracticePointsNeededToLearn>
+      <kGeniusDogPracticeBonus value="0.1">
+        <!--Number of bonus practice points per sim minute for genius dogs-->
+      </kGeniusDogPracticeBonus>
+      <kCluelessDogPracticePenalty value="0.2">
+        <!--Number of penalty practice points subtracted per sim minute for clueless dogs-->
+      </kCluelessDogPracticePenalty>
+      <kLTRBonusPoints value="0.1">
+        <!--Bonus points added to base practice points for LTR between dog and sim. Calculated as (100/LTRLiking) * kLTRBonusPoints-->
+      </kLTRBonusPoints>
+      <kMoodBonusPoints value="0.1">
+        <!--Bonus points added to base practice points for dog mood. Calculated as (Mood/MoodManager.kMoodSuperBarEnd) * kMoodBonusPoints-->
+      </kMoodBonusPoints>
+      <kDogPersonTrickPracticeBonus value="0.1">
+        <!--Number of bonus practice points per sim minute for dogs when the trainer has Dog Person trait-->
+      </kDogPersonTrickPracticeBonus>
+      <kTrickBFFMultiplier value="1.05">
+        <!--Range: Floats above 1.0. Description: Multipler to the number of points earned after all other modifers when the sim is the pet's BFF.-->
+      </kTrickBFFMultiplier>
+    </mShakeTuning>
+  </Current_Tuning>
+</base>

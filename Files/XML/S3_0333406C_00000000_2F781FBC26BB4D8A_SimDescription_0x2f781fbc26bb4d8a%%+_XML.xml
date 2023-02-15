@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kWeightBodyShapeDecay value="10">
+      <!--Range: Positive floats.  Description: Number of Sim days for a Sim to decay from one end of a spectrum (completely thin) to the other end of the spectrum (completely fat) - used in continuous body shape modification calculations.-->
+    </kWeightBodyShapeDecay>
+    <kFitBodyShapeDecay value="10">
+      <!--Range: Positive floats.  Description: Number of Sim days for a Sim to decay from one end of a spectrum (completely muscular) to the other end of the spectrum (non-muscular) - used in continuous body shape modification calculations.-->
+    </kFitBodyShapeDecay>
+    <kFatBodyShapeChange value="0.2">
+      <!--Range: Positive floats.  Description: Number of Sim days for a Sim to get completely fat from eating.  Example, a tuning value of 0.1 would mean 2.4 hours.  If the eating interaction is 1 hour, the Sim becomes 1/2.4 ~= 40% fatter.-->
+    </kFatBodyShapeChange>
+    <kNumUserDirectedSameSexGenderPreferencesBeforeSameSexAllowedAutonomously value="6" />
+    <kNumGenerationsForLegacyHappiness value="5">
+      <!--Number of generations to sum when computing legacy happiness.  -1 means all-->
+    </kNumGenerationsForLegacyHappiness>
+    <kCardioFitValue value="0.75">
+      <!--Range:  0 to 1.  Description:  Maximum 'fit' value for a Sim doing cardio exercise.  A Sim can never get more fit than this value through cardio exercise.-->
+    </kCardioFitValue>
+    <kCardioThinValue value="-0.5">
+      <!--Range:  -1 to 0.  Description:  Minimum 'thin' value for a Sim doing cardio exercise.  A Sim can never get more skinny than this value through cardio exercise.-->
+    </kCardioThinValue>
+    <kTeenHomeworkSkillStartLevel value="5">
+      <!--The homework skill level Teens will start with.  Does not apply to children who age up to teen.-->
+    </kTeenHomeworkSkillStartLevel>
+    <kLifetimeHappinessRewardThreshold value="5000">
+      <!--This is the number of lifetime happiness points at which we notify the player that he can start purchasing rewards.-->
+    </kLifetimeHappinessRewardThreshold>
+    <kSimoleonThresholdForBeingRich value="100000">
+      <!--If the sim's lot value exceed this value, the sim counts as being rich-->
+    </kSimoleonThresholdForBeingRich>
+    <kBodyShapeChangeForUpdate value="0.2">
+      <!--Range:  Body shape change.  Description:  Percentage of body shape change along any axis (fat, fit, thin, pregnant) which will cause a thumbnail refresh.-->
+    </kBodyShapeChangeForUpdate>
+    <kPreservedGenealogyLinksForLivingSims value="3">
+      <!--The number of genealogy links that are saved for each living Sim-->
+    </kPreservedGenealogyLinksForLivingSims>
+    <kPreservedGenealogyLinksForDeadSims value="1">
+      <!--The number of genealogy links that are saved for each dead Sim-->
+    </kPreservedGenealogyLinksForDeadSims>
+    <kShellsLivableByServiceSims value="0.75">
+      <!--lower end percentage of buildable shells habitable by service sims.-->
+    </kShellsLivableByServiceSims>
+    <kPetMinLifetimehappinessPointsForBlueGhost value="10000">
+      <!--Description:  Min Lifetimehappiness points required for pet to have blue ghost shader applied-->
+    </kPetMinLifetimehappinessPointsForBlueGhost>
+    <kPetNPCChanceForBlueShader value="0.65">
+      <!--RangeL: 0 - 1 Description:  Chance Npc sim will be have good ghost shader applied-->
+    </kPetNPCChanceForBlueShader>
+    <kMaxAgingDaysGainedFromGourmetFood value="18" />
+    <kMinAlienDNAPercentToBeAlien value="0.20">
+      <!--Range: 0.0 - 1.0 Description:  The minimum alien DNA a percentage required to be considered an alien.-->
+    </kMinAlienDNAPercentToBeAlien>
+    <kAlienDNAJitterPercent value="0.05">
+      <!--Range: 0.0 - 1.0 Description:  The 'jitter' value when creating an alien from two Sims.  A random value from 0 to this value will be added or subtracted from the base alien DNA.-->
+    </kAlienDNAJitterPercent>
+    <kHappilyEverAfterMultiple value="2">
+      <!--Multiplier for the buff HappilyEverAfter-->
+    </kHappilyEverAfterMultiple>
+    <kSimoleonThresholdForBeingRichFutureWorld value="500000">
+      <!--If the sim's lot value exceed this value, the sim counts as being rich: Future Version-->
+    </kSimoleonThresholdForBeingRichFutureWorld>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

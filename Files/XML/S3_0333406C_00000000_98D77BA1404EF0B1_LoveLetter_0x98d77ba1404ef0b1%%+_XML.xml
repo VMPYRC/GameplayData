@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBaseLTRToAccept value="20">
+      <!--Range -100 - 100: Base LTR threshold for recipient to accept love letter-->
+    </kBaseLTRToAccept>
+    <kLTRModIfRomanticallyInvolved value="-15">
+      <!--Floats < 0: LTR threshold modifier if sims are romantically involved-->
+    </kLTRModIfRomanticallyInvolved>
+    <kLTRModIfAttracted value="-10">
+      <!--Floats < 0: LTR threshold modifier if sims are attracted-->
+    </kLTRModIfAttracted>
+    <kLTRModIfTargetHasPartner value="25">
+      <!--Floats > 0: LTR threshold modifier if Target of love letter already has a partner-->
+    </kLTRModIfTargetHasPartner>
+    <kActorTraitModifiers value="Charismatic, HopelessRomantic, Inappropriate">
+      <!--If Actor has trait, LTR accept Threshold is modified by matching amount in tuable kActorTraitModifierAmounts-->
+    </kActorTraitModifiers>
+    <kActorTraitModifierAmounts value="-5, -5, 5">
+      <!--Floats: LTR threshold modifiers applied if Actor has matching trait in tunable kActorTraitModifiers-->
+    </kActorTraitModifierAmounts>
+    <kTargetTraitModifiers value="Flirty, HopelessRomantic, Unflirty">
+      <!--If Target has trait, LTR accept Threshold is modified by matching amount in tuable kTargetTraitModifierAmounts-->
+    </kTargetTraitModifiers>
+    <kTargetTraitModifierAmounts value="-5, -5, 5">
+      <!--Floats: LTR threshold modifiers applied if Target has matching trait in tunable kTargetTraitModifiers-->
+    </kTargetTraitModifierAmounts>
+    <kMinMaxTimeForResponse value="1, 2">
+      <!--[min, max] int > 0: min/max number of sim days after love letter is sent that sim will get a response.  Actual time is randomly chosen between the 2-->
+    </kMinMaxTimeForResponse>
+    <kChanceOfLoveLetterNormal value="10">
+      <!--0-100: Daily chance of a sim in the household getting a love letter if its possible for them to get one on a normal day.-->
+    </kChanceOfLoveLetterNormal>
+    <kChanceOfLoveLetterInSpring value="20">
+      <!--0-100: Spring Daily chance of a sim in the household getting a love letter if its possible for them to get one during a spring day.-->
+    </kChanceOfLoveLetterInSpring>
+    <kChanceOfLoveLetterOnSpringHoliday value="50">
+      <!--0-100: Chance of a sim in the household getting a love letter if its possible for them to get one if its a spring holiday.-->
+    </kChanceOfLoveLetterOnSpringHoliday>
+    <kLTRForHighRomanceTNS value="50">
+      <!--Float: For spontaneous letters, If sims are romantically involved and their LTR is above this they get High Romance version of TNS-->
+    </kLTRForHighRomanceTNS>
+    <kLTRLikingModForAccept value="10">
+      <!--float > 0: amount to modify sims's LTR if sent love letter is accepted-->
+    </kLTRLikingModForAccept>
+    <kLTRLikingModForReject value="-5">
+      <!--float < 0: amount to modify sims's LTR if sent love letter is rejected-->
+    </kLTRLikingModForReject>
+  </Current_Tuning>
+</base>

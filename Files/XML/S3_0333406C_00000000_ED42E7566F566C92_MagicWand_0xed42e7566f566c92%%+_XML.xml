@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteRadiusToPickUp value="1">
+      <!--Distance away from the magic wand that the sim will route to in order to swipe at it.-->
+    </kRouteRadiusToPickUp>
+    <kSkillLevelSuccessRateMultiplier value="3">
+      <!--Each level of Spellcasting skill increases success chance of spells by this percent-->
+    </kSkillLevelSuccessRateMultiplier>
+    <kSpellLevelSuccessRateMultiplier value="4">
+      <!--Each level of the spell decreases success chance by this percent-->
+    </kSpellLevelSuccessRateMultiplier>
+    <kSpellLevels value="1, 4, 8, 8, 2, 2, 4, 5, 3, 3, 10, 1, 9">
+      <!--Skill level at which spells unlock, in the following order: Good Luck Charm, Love Charm, Sunlight Charm, Pestilence Curse, Fire Blast, Ice Blast, Toadify, Haunting Curse, Spellcasting Duel, Upgrade, Reanimate, Convert, Restoration-->
+    </kSpellLevels>
+    <kExpertLevel value="5">
+      <!--Spellcasting level at which Sim starts using expert spell animations-->
+    </kExpertLevel>
+    <kDefaultPracticeTime value="60">
+      <!--Time, in minutes, that a Sim will practice spellcasting, unless the player drags the interaction-->
+    </kDefaultPracticeTime>
+    <kMinNumRounds value="4">
+      <!--Minimum rounds of spellcasting duel-->
+    </kMinNumRounds>
+    <kMaxNumRounds value="10">
+      <!--Maximum rounds of spellcasting duel-->
+    </kMaxNumRounds>
+    <kMinRandomThrow value="0">
+      <!--Minimum random throw for spellcasting duel-->
+    </kMinRandomThrow>
+    <kMaxRandomThrow value="10">
+      <!--Maximum random throw for spellcasting duel-->
+    </kMaxRandomThrow>
+    <kMoonPhaseSuccessRateModifier value="0.25, 0, 0, 0, 0, 0, 0, 0">
+      <!--Added to spell success rate based on phase of the moon, in this order: FullMoon, WaxingCrescent, FirstQuarter, WaxingGibbous, NewMoon, WaningGibbous, ThirdQuarter, WaningCrescent-->
+    </kMoonPhaseSuccessRateModifier>
+    <kMoonPhaseMotiveDrainMultiplier value="0.5, 1, 1, 1, 1, 1, 1, 1">
+      <!--Multiplier to spell motive drain based on phase of the moon, in this order: FullMoon, WaxingCrescent, FirstQuarter, WaxingGibbous, NewMoon, WaningGibbous, ThirdQuarter, WaningCrescent-->
+    </kMoonPhaseMotiveDrainMultiplier>
+    <kMotiveCurseLevel value="-90">
+      <!--Motive Curses, and Motive Charm epic fails, set the motive to this amount-->
+    </kMotiveCurseLevel>
+    <kFamiliarMotiveMultiplier value="0.5">
+      <!--Motive drain is multiplied by this amount if the caster has the Animal Familiar buff-->
+    </kFamiliarMotiveMultiplier>
+    <kFamiliarSkillBonus value="1.2">
+      <!--Spellcasting skill gain is increased by this amount if the caster has the Animal Familiar buff (0.5 = 50% faster skill gain, 1.0 = double speed)-->
+    </kFamiliarSkillBonus>
+    <kRestorationVfxDuration value="10">
+      <!--How long the lot vfx last after casting Restoration Ritual, in Sim minutes-->
+    </kRestorationVfxDuration>
+    <kDangerouslyLowExtraSpellFailChance value="10">
+      <!--When a witch has the DangerouslyLowOnMagic buff, spells are this % more likely to fail. Range: 0-100-->
+    </kDangerouslyLowExtraSpellFailChance>
+    <kDepletedExtraEpicFailChance value="20">
+      <!--When a witch has the DepletedMagic buff, spells always fail, and are this % more likely to epic fail. Range: 0-100-->
+    </kDepletedExtraEpicFailChance>
+    <kCurableBuffs value="ToadSim, TragicClown, InnerBeauty, PermaZombie, Zombie, FeelingBlue, FeelingBlueish">
+      <!--List of transform buffs that can be removed by SunlightCharm-->
+    </kCurableBuffs>
+    <kMotiveCharmUnlockLevels value="6, 6, 11, 6, 11, 11">
+      <!--Skill level at which motive charms unlock, in the following order: Bladder, Hunger, Energy, Hygiene, Fun, Social-->
+    </kMotiveCharmUnlockLevels>
+    <kMotiveCurseUnlockLevels value="7, 7, 11, 7, 11, 11">
+      <!--Skill level at which motive curses unlock, in the following order: Bladder, Hunger, Energy, Hygiene, Fun, Social-->
+    </kMotiveCurseUnlockLevels>
+    <kPlantIngredients value="Lettuce, Tomato, Onion, Bell Pepper, Garlic, Potato, Apple, Lime, Flame Fruit, Grapes, Watermelon, Lifefruit, Grapes Char, Grapes Mer, Grapes Blanc, Grapes Blue, Grapes Cab, Grapes Pin, Pomegranate, Plum, Pomelo, Cherries, VampireFruit, Carrot, Banana, Truffles, White Caps, Porcinis, Glow Orbs, Spotlight Mushrooms, Red Toadstools, Mycenas, Ghost Chili, Mandrake, Red Valerian, Wolfsbane, Death Flower">
+      <!--List of Ingredients that satisfy the Cast Conversion Ritual on a Plant wish-->
+    </kPlantIngredients>
+  </Current_Tuning>
+</base>

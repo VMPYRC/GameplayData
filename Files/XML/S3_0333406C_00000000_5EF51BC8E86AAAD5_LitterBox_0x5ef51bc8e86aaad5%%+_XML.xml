@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChancePlayPiggyAnims value="25">
+      <!--Range 0-100: Chance of using piggy cat version use litter box animations if pet is piggy.-->
+    </kChancePlayPiggyAnims>
+    <kHygieneLossPerUse value="-10, -20, -30">
+      <!--negative values [Clean, Dirty, VeryDirty] Hygiene Loss when cat uses litter box for each clean stage of the box-->
+    </kHygieneLossPerUse>
+    <kChanceNauseousFromEat value="30">
+      <!--Range 0-100: Chance Dog gets nauseous buff from eating out of the litter box.-->
+    </kChanceNauseousFromEat>
+    <kSkittishTraitScaredChance value="10">
+      <!--Chance for skittish pets to get scared by the litter box and go somewhere else.-->
+    </kSkittishTraitScaredChance>
+    <kSkittishTraitScaredChanceUberBox value="15">
+      <!--Chance for skittish pets to get scared by the UBER litter box and go somewhere else.-->
+    </kSkittishTraitScaredChanceUberBox>
+    <kChanceDryHeave value="50">
+      <!--Range 0-100: Chance Sim dry heaving and getting disgusted buff when cleaning an extremely dirty litter box.-->
+    </kChanceDryHeave>
+    <kChanceProudNotUseDirtyBox value="80">
+      <!--Range 0-100: Chance Proud cats will refuse to use Dirty Litter Box and pee on floor instead.-->
+    </kChanceProudNotUseDirtyBox>
+    <kChanceNormalNotUseVeryDirtyBox value="80">
+      <!--Range 0-100: Chance Normal pets cats will refuse to use Extremely Dirty Litter Box and pee on floor instead.-->
+    </kChanceNormalNotUseVeryDirtyBox>
+    <kCleanlinessScoreMultiplyer value="1, 0.2">
+      <!--Range:[cleanest state, dirtiest state] float, Description: Scoring multiplier to autonomously choose this litter box.  Actual value is linearly interpolated based on dirty level of box.-->
+    </kCleanlinessScoreMultiplyer>
+  </Current_Tuning>
+</base>

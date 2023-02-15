@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxNumPlayers value="4">
+      <!--Max number of Sims allowed to play-->
+    </kMaxNumPlayers>
+    <kMinRouteDistance value="3">
+      <!--Minimum distance Sim should route next to the hopscotch court when waiting for their turn to hop-->
+    </kMinRouteDistance>
+    <kMaxRouteDistance value="4">
+      <!--Maximum distance Sim should route next to the hopscotch court when waiting for their turn to hop-->
+    </kMaxRouteDistance>
+    <kReactionPeriod value="4">
+      <!--Max number of Sim minutes between reactions for a Sim that is waiting to hop (Note: Set this fairly high, as the way this works means it will most likely happen fairly early in the period.-->
+    </kReactionPeriod>
+    <kWaitReactions value="Cheer, Excited">
+      <!--Range:  ReactionTypes[]  Description:  possible reactions for sim to play while waiting to hop-->
+    </kWaitReactions>
+    <kPlayingSocialMotiveDelta value="20">
+      <!--Range:  0.0 - Inf  Description: Social motive delta when Sim is hoping and there are other sims there-->
+    </kPlayingSocialMotiveDelta>
+    <kModifierPerHopscotchSkillLevel value="-20, -15, -10, -5, 0, 5, 10, 15, 20, 25, 25">
+      <!--Description: Penalty/Bonus for each level of Hopscotch Skill - please talk to john w. before you change these values-->
+    </kModifierPerHopscotchSkillLevel>
+    <kModifierPerAthleticSkillLevel value="0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20">
+      <!--Description: Bonus for each level of Athletic Skill - please talk to john w. before you change these values-->
+    </kModifierPerAthleticSkillLevel>
+    <kLTRimprovementForPlayingWithSomeone value="1">
+      <!--Increase in the LTR Liking whenever you play with someone per hop interaction. Positive float. Range [0, 100].-->
+    </kLTRimprovementForPlayingWithSomeone>
+    <kModifierPerChildAthleticSkillLevel value="0, 10, 15, 20">
+      <!--Description: Bonus for each level of Child Athletic Skill - please talk to john w. before you change these values-->
+    </kModifierPerChildAthleticSkillLevel>
+  </Current_Tuning>
+</base>

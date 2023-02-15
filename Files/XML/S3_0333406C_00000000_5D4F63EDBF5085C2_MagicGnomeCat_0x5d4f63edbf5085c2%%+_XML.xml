@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomePetCatSitting, magicGnomePetCatStill">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value=" magicGnomePetCatSleeping">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomePetCatPlaying, magicGnomePetCatStill">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomePetCatSitting, magicGnomePetCatStill">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value=" magicGnomePetCatSitting, magicGnomePetCatSleeping">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="magicGnomePetCatSleeping, magicGnomePetCatPlaying, magicGnomePetCatStill, magicGnomePetCatSitting">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="2">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kGnomeTuning>
+    <kChancePerWhackedOutBuff value="0.07">
+      <!--The chance, per freak out buff, that a cat gnome will spawn.-->
+    </kChancePerWhackedOutBuff>
+    <kCheckForCatGnomeTime value="24">
+      <!--The number of sim hours between tries to create a cat gnome 0.0+-->
+    </kCheckForCatGnomeTime>
+  </Current_Tuning>
+</base>

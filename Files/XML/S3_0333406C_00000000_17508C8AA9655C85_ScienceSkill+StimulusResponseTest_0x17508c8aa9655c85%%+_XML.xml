@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLevelReqForStimulusResponseTest value="1">
+      <!--Range:  0 - 10  Description:  This is the skill level requirement that needs to be met in order to do a stimulus response test -->
+    </kLevelReqForStimulusResponseTest>
+    <kRelevantSkillWeightFactor value="0.25">
+      <!--Range:  0-1  Description:  This number is multiplied by the target's Logic/Athletic skill level and used as a weight for which response will occur.-->
+    </kRelevantSkillWeightFactor>
+    <kSkillPointsAthletic value="100">
+      <!--Range:  0 - 100  Description:  Number of points to add for the Athletic skill if the sim catches the object-->
+    </kSkillPointsAthletic>
+    <kSkillPointsLogic value="100">
+      <!--Range:  0 - 100  Description:  Number of points to add for the Logic skill if the sim flinches-->
+    </kSkillPointsLogic>
+    <kSkillPointsScience value="0">
+      <!--Range:  0 - 100  Description:  Number of points to add for the science skill on the actor-->
+    </kSkillPointsScience>
+  </Current_Tuning>
+</base>

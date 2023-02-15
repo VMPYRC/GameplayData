@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kConversationExitRadius value="8">
+      <!--Range: 0 to float.MaxValue.  Description:  The distance in meters from the conversation center at which a Sim exits a conversation if they need to be pushed out of the way by another Sim's route.  The conversation center is defined as the centroid of all conversation participants besides yourself.-->
+    </kConversationExitRadius>
+    <kAthleticSkillFightModifier value="0.08">
+      <!--Range: 0 to 0.05f.  Description:  Each level of difference in Athletic skill level (up to 10) changes the chance the Sim will win the fight by this tunable.-->
+    </kAthleticSkillFightModifier>
+    <kTraitSimFightModifier value="0.4">
+      <!--Range: 0 to 0.5f.  Description:  If a Sim has trait Brave, MeanSpirited, or Evil, this Sim will have this tunable percentage extra chance to win against a Sim that does not have any of those traits.  Normal chance is 0.5f with no modifiers so having this tunable at 0.5f means a Brave Sim vs. normal Sim, Brave Sim will always win.-->
+    </kTraitSimFightModifier>
+    <kAskForPromotionMaximumLevel value="9">
+      <!--Range: 0 to 10.  Description:  Level at which the Sim can no longer see the 'Ask for Promotion' social on his or her Boss.-->
+    </kAskForPromotionMaximumLevel>
+    <kReactToSocialParams>
+      <PulseRadius value="10">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <PulseRepeatTime value="2">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="False">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kReactToSocialParams>
+    <kNumExtraSocialsAddedByUserDirectedInteractionBeforeSimsConsiderLeaving value="6">
+      <!--How many extra socials are added to a conversation after a user-directed interaction before the Sims consider leaving-->
+    </kNumExtraSocialsAddedByUserDirectedInteractionBeforeSimsConsiderLeaving>
+    <kMinNumSocialsBeforeSimsConsiderLeaving value="2">
+      <!--Min num socials in an autonomous conversation before the Sims consider leaving-->
+    </kMinNumSocialsBeforeSimsConsiderLeaving>
+    <kMaxNumSocialsBeforeSimsConsiderLeaving value="4">
+      <!--Max num socials in an autonomous conversation before the Sims consider leaving-->
+    </kMaxNumSocialsBeforeSimsConsiderLeaving>
+    <kMaxTimeToTalkAboutActionAfterFinishing value="60">
+      <!--The max time (in Sim minutes) you can talk to a Sim about the action he was performing after he finished it-->
+    </kMaxTimeToTalkAboutActionAfterFinishing>
+    <kMaxTimeToJoinConversation value="30">
+      <!--Range: 0 to float.MaxValue.  Description:  The time, in minutes, a sim will wait to join a conversation.-->
+    </kMaxTimeToJoinConversation>
+    <kMinimumLikingForFamilyOrientedSocials value="60">
+      <!--Range:  0 - 100  Description:  Minimum liking to do family oriented socials to non-blood related people that live outside your household-->
+    </kMinimumLikingForFamilyOrientedSocials>
+    <kMartialArtsSkillFightModifier value="0.125">
+      <!--Range: 0 to 0.05f.  Description:  Each level of difference in Martial Arts skill level (up to 10) changes the chance the Sim will win the fight by this tunable. This tunable is very similar to kAthleticSkillFightModifier. Initial GPE default: 0.05f-->
+    </kMartialArtsSkillFightModifier>
+    <kSmalltalkedLTRMultiplier value="1.5">
+      <!--Range: Multipliers above 1.0f.  Description:  LTR Multiplier when a sim has the small talked buff and does a friendly social-->
+    </kSmalltalkedLTRMultiplier>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kFirstRomanceBuffBonusToRomanticSTC value="200">
+      <!--Range: 0 to 200 (or maximum commodity value of Romantic).  Description:  When a Sim with the First Romance buff initiates a conversation with his or her partner Sim also with the First Romance buff (the two must be 'romance', 'fiancee', or 'spouse') then the STC receives a Romance bonus to help them start in a Romantic context.-->
+      <!--deprecated on: 2/7/2008 4:14:46 PM-->
+    </kFirstRomanceBuffBonusToRomanticSTC>
+    <kNewlyEngagedBuffBonusToRomanticSTC value="200">
+      <!--Range: 0 to 200 (or maximum commodity value of Romantic).  Description:  When a Sim with the Newly Engaged buff initiates a conversation with his or her partner Sim also with the Newly Engaged buff then the STC receives a Romance bonus to help them start in a Romantic context.-->
+      <!--deprecated on: 2/7/2008 4:14:46 PM-->
+    </kNewlyEngagedBuffBonusToRomanticSTC>
+  </Deprecated_Tuning>
+</base>

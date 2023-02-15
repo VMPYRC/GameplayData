@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSodaExplosionFailChance value="0.1">
+      <!--Range:  0 - 1  Description:  This is the chance that the soda will explode upon opening-->
+    </kSodaExplosionFailChance>
+    <kAllFizzAdditionalExplosionChance value="0.65">
+      <!--Range:  0 - 1  Description:  The additional chance that an All Fizz soda has to explode-->
+    </kAllFizzAdditionalExplosionChance>
+    <kHungerFillAmount value="75">
+      <!--Range:  0 - 100  Description:  The amount of Hunger that Soda satisfies-->
+    </kHungerFillAmount>
+    <kNewGlunkaNauseousChance value="0.65">
+      <!--Range:  0 - 1  Description:  This is the chance that New Glunka will give the sim the Nauseous buff-->
+    </kNewGlunkaNauseousChance>
+    <kGoldenCanSimoleonReward value="1000">
+      <!--Range:  0 - 1  Description:  This is the number of simoleons that the Golden Can awards the sim-->
+    </kGoldenCanSimoleonReward>
+    <kSodaWeights value="65, 65, 85, 85, 35, 85, 5, 35">
+      <!--List of floats representing the random weight of each soda type.  DietGlunkaCola, TheNewGlunka, GlunkaClassic, MountainRunoff DietMountainRunoff, AllFizz, GoldenCanSoda, CitrusOxide-->
+    </kSodaWeights>
+  </Current_Tuning>
+</base>

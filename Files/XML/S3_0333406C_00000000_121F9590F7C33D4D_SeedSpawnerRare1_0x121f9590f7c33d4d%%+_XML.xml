@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTuningSeedSpawner>
+      <TuningObjectSpawner>
+        <MaxSpawnCapacity value="3">
+          <!--Max number of untaken objects that this Spawner can have in-world.-->
+        </MaxSpawnCapacity>
+        <SpawnFrequency value="10,20">
+          <!--The bounds of the 'spawn timer' frequency in sim hours. Values: (1) Min, (2) Max.  A different random number within this range is chosen as the 'spawn timer' duration each loop.-->
+        </SpawnFrequency>
+        <SpawnChance value="0.65">
+          <!--Each time the 'spawn timer' goes off (and we're under this Spawner's max capacity) this chance determines whether or not we spawn something.  Range: 0.0 to 1.0.  Zeroing this number will disable the spawner.-->
+        </SpawnChance>
+        <DeleteUntakenObjectFrequency value="12">
+          <!--Number of sim hours in between this spawner reaching max capacity and automatically deleting the oldest untaken spawned object.-->
+        </DeleteUntakenObjectFrequency>
+      </TuningObjectSpawner>
+      <SeedRarityChances value="0.2,0.4,0.4,0">
+        <!--When we know we're going to spawn a Seed these are the percent chances the Seed will be of a given rarity.  Format: (1) Common, (2) Uncommon, (3) Rare, (4) Special. The code will normalize probability values that sum to greater than 1.0f.  Zeroing all probabilities will disable the spawner.-->
+      </SeedRarityChances>
+      <QualityCommonMin value="Nice">
+        <!--When the Spawner is about to spawn a Common seed, the seed's Quality is randomly chosen using a bell curve with this value as the minimum bound of the bell curve.-->
+      </QualityCommonMin>
+      <QualityCommonMax value="Excellent">
+        <!--When the Spawner is about to spawn a Common seed, the seed's Quality is randomly chosen using a bell curve with this value as the maximum bound of the bell curve.-->
+      </QualityCommonMax>
+      <QualityUncommonMin value="Neutral">
+        <!--When the Spawner is about to spawn an Uncommon seed, the seed's Quality is randomly chosen using a bell curve with this value as the minimum bound of the bell curve.-->
+      </QualityUncommonMin>
+      <QualityUncommonMax value="Great">
+        <!--When the Spawner is about to spawn an Uncommon seed, the seed's Quality is randomly chosen using a bell curve with this value as the maximum bound of the bell curve.-->
+      </QualityUncommonMax>
+      <QualityRareMin value="Nice">
+        <!--When the Spawner is about to spawn a Rare seed, the seed's Quality is randomly chosen using a bell curve with this value as the minimum bound of the bell curve.-->
+      </QualityRareMin>
+      <QualityRareMax value="Excellent">
+        <!--When the Spawner is about to spawn a Rare seed, the seed's Quality is randomly chosen using a bell curve with this value as the maximum bound of the bell curve.-->
+      </QualityRareMax>
+      <QualitySpecialMin value="Neutral">
+        <!--When the Spawner is about to spawn a Special seed, the seed's Quality is randomly chosen using a bell curve with this value as the minimum bound of the bell curve.-->
+      </QualitySpecialMin>
+      <QualitySpecialMax value="Neutral">
+        <!--When the Spawner is about to spawn a Special seed, the seed's Quality is randomly chosen using a bell curve with this value as the maximum bound of the bell curve.-->
+      </QualitySpecialMax>
+      <ChanceOfAMushroom value="12">
+        <!--Chance that seed is really a mushroom.-->
+      </ChanceOfAMushroom>
+    </kTuningSeedSpawner>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

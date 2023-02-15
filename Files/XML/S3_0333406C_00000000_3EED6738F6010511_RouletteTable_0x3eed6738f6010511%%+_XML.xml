@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLowStakes value="100">
+      <!--Range: Positive int. Buy-in amount when playing low stakes.-->
+    </kLowStakes>
+    <kMediumStakes value="500">
+      <!--Range: Positive int. Buy-in amount when playing medium stakes.-->
+    </kMediumStakes>
+    <kHighStakes value="1000">
+      <!--Range: Positive int. Buy-in amount when playing high stakes.-->
+    </kHighStakes>
+    <kMegaStakes value="10000">
+      <!--Range: Positive int. Buy-in amount when playing high stakes.-->
+    </kMegaStakes>
+    <kWinningOdds value="30, 33, 36, 40, 45, 50, 55, 60, 65, 70, 75">
+      <!--Roulette base winning odds based on skill level.  Will be normalized and randomized, so they are approximate-->
+    </kWinningOdds>
+    <kBetMax value="1.5">
+      <!--Multiplier for big bets-->
+    </kBetMax>
+    <kBetMin value="0.8">
+      <!--Multiplier for small bets-->
+    </kBetMin>
+    <kGamblingGainPerSimMinute value="7">
+      <!--Rate gambling skill increases every sim minute.  GPE Default: 30-->
+    </kGamblingGainPerSimMinute>
+    <kMinutesToPlay value="360">
+      <!--Minutes to play before being done, barring stress exits-->
+    </kMinutesToPlay>
+    <kChanceOfGoodHack value="75">
+      <!--Percent of time hacking table results in better results-->
+    </kChanceOfGoodHack>
+    <kHackDuration value="720">
+      <!--Duration of hack in sim minutes.  GPE Default 1440 = 1 sim day-->
+    </kHackDuration>
+    <kWatchRadius value="2">
+      <!--Maximum meters away to stand to watch the table-->
+    </kWatchRadius>
+    <kWatchTimeBeforeRecting value="10">
+      <!--Minutes to watch before cheering or harassing.  -->
+    </kWatchTimeBeforeRecting>
+    <kOddsChangeForLuckySims value="15">
+      <!--Odds increase/decrease for lucky/unlucky sims-->
+    </kOddsChangeForLuckySims>
+    <kOddsChangeForHackedTable value="45">
+      <!--Odds increase/decrease for hacked table-->
+    </kOddsChangeForHackedTable>
+    <kMoodPartyScoreModifier value="2">
+      <!--Party score change when someone wins a hand-->
+    </kMoodPartyScoreModifier>
+    <kSocialGain value="50">
+      <!--Social motive increase when used with another sim-->
+    </kSocialGain>
+    <kChanceOfShock value="20">
+      <!--Odds of getting electrocuted while hacking-->
+    </kChanceOfShock>
+    <kChanceOfFailedSabotage value="30">
+      <!--Percent of time sabotage table fails-->
+    </kChanceOfFailedSabotage>
+    <kOddsChangeForLuckyCoin value="20">
+      <!--Odds increase when holding a lucky coin-->
+    </kOddsChangeForLuckyCoin>
+  </Current_Tuning>
+</base>

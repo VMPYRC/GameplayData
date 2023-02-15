@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kInterviewLoops value="4">
+      <!--Range: Ints.  Description: Number of loops that this interaction should last.-->
+    </kInterviewLoops>
+    <kChanceOfTakingOffense value="15">
+      <!--Range: Floats.  Description: Chance that interviewee will be offended by a question.-->
+    </kChanceOfTakingOffense>
+    <kRadioPersonalityBump value="9">
+      <!--Range: Floats.  Description: Radio Personality bump received when interaction is completed without giving offense.-->
+    </kRadioPersonalityBump>
+    <kCommunicationsPerformanceDelta value=".5">
+      <!--Range: Floats.  Description: Academic Performance motive delta while performing this interaction for Communications majors.-->
+    </kCommunicationsPerformanceDelta>
+    <kMaxInterviewDistance value="12">
+      <!--Range: Positive Floats.  Description: Maximum distance from station that interview candidates will be chosen.-->
+    </kMaxInterviewDistance>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceOfMetalSparks value="0.2">
+      <!--Range:  0.0 - 1.0  Description:  The chance that a metal effect/sound will play on each hit-->
+    </kChanceOfMetalSparks>
+    <kChanceOfBeingExasperated value="0.1">
+      <!--Range:  0.0 - 1.0  Description:  The chance that the Sim will be exasperated, given the necessary conditions-->
+    </kChanceOfBeingExasperated>
+    <kMoodThresholdForBeingExasperated value="-20">
+      <!--Range:  -100 - 100  Description:  The mood threshold under which the Sim might be exasperated-->
+    </kMoodThresholdForBeingExasperated>
+    <kCountThresholdForBeingExasperated value="5">
+      <!--Range:  0+  Description:  The amount of rubble piles cleared by this Sim after which he might be exasperated-->
+    </kCountThresholdForBeingExasperated>
+    <kAthleticSkillGainRate value="2">
+      <!--Range:  0+  Description:  The Athletic gain per Sim minute-->
+    </kAthleticSkillGainRate>
+    <kIsSkillMeterVisible value="True">
+      <!--Range:  true/false  Description:  True, to show the skill meter, false otherwise-->
+    </kIsSkillMeterVisible>
+  </Current_Tuning>
+</base>

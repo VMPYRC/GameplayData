@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DreamTree Version="1">
+  <Category>EP2</Category>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>990798473</Id>
+    <ParentId>1571047158</ParentId>
+    <PrototypeId>3425286186</PrototypeId>
+    <Center>
+      <X>-282</X>
+      <Y>-979</Y>
+    </Center>
+    <PromiseConnection>true</PromiseConnection>
+    <FulfillmentScore>50</FulfillmentScore>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits>
+      <SelectedTrait>
+        <Trait>SavvySculptor</Trait>
+        <Required>true</Required>
+        <Excluded>false</Excluded>
+      </SelectedTrait>
+    </Traits>
+    <Relationships />
+    <InputSubject>SculptingStation</InputSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+    <UseDefaultFulfillment>false</UseDefaultFulfillment>
+  </InstanceNode>
+  <InstanceNode d2p1:type="TimerNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>1347693805</Id>
+    <ParentId>2433357380</ParentId>
+    <PrototypeId>245410120</PrototypeId>
+    <Center>
+      <X>-272</X>
+      <Y>-713</Y>
+    </Center>
+    <NumberSatisfies>5</NumberSatisfies>
+    <TimeBetweenSatisfies>96</TimeBetweenSatisfies>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>1571047158</Id>
+    <ParentId>1347693805</ParentId>
+    <PrototypeId>2707355146</PrototypeId>
+    <Center>
+      <X>-276</X>
+      <Y>-846</Y>
+    </Center>
+    <FulfillmentScore>50</FulfillmentScore>
+    <SkillsZeroCheck>true</SkillsZeroCheck>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills>
+      <string>Sculpting</string>
+    </Skills>
+    <Traits>
+      <SelectedTrait>
+        <Trait>SavvySculptor</Trait>
+        <Required>true</Required>
+        <Excluded>false</Excluded>
+      </SelectedTrait>
+    </Traits>
+    <Relationships />
+    <InputSubject>Sculpting</InputSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>2433357380</Id>
+    <ParentId>2433357380</ParentId>
+    <IsRoot>true</IsRoot>
+    <PrototypeId>153415416</PrototypeId>
+    <Center>
+      <X>-270</X>
+      <Y>-571</Y>
+    </Center>
+    <DreamVisible>false</DreamVisible>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits />
+    <Relationships />
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <Name>Trait - Savvy Sculptor</Name>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+  <SpeciesAvailablilty>Human</SpeciesAvailablilty>
+  <TreeHash>2256157065</TreeHash>
+</DreamTree>

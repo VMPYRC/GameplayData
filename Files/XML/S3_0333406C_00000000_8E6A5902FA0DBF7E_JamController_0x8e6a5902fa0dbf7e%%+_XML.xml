@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSectionTypes value="verse, chorus, break">
+      <!--Description: Section types-->
+    </kSectionTypes>
+    <kBaseChanceForSweetMoveSuccess value="100">
+      <!--Range:  0-100  Description:  Base Chance for success of sweet move-->
+    </kBaseChanceForSweetMoveSuccess>
+    <kChanceAdditionSweetMoveSuccess value="9">
+      <!--Range:  0-100  Description:  For Every level this is added to base chance for success-->
+    </kChanceAdditionSweetMoveSuccess>
+    <kMinTillUpdateLtr value="20">
+      <!--Range:  0-100  Description:  Minutes before LTR update is applied-->
+    </kMinTillUpdateLtr>
+    <kLTRGain value="1">
+      <!--Range:  0 - 100  Description:  LTR gain for jamming/performing together-->
+    </kLTRGain>
+    <kChanceOtherSimWillDoSweetMove value="50">
+      <!--Range:  0 - 100  Description:  Chance Others sims in group will do sweet move.  The percent chance get applied to each jammer-->
+    </kChanceOtherSimWillDoSweetMove>
+  </Current_Tuning>
+</base>

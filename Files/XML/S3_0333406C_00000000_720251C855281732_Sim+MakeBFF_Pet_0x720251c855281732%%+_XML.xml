@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLTRThresholdForBFF value="50">
+      <!--Required LTR before this interaction is possible. Range: 0.0-100.0-->
+    </kLTRThresholdForBFF>
+    <kFriendlyLTRBonus value="10">
+      <!--Amount to be subtracted from LTR Threshold for having this trait. Range: 0.0-Inf-->
+    </kFriendlyLTRBonus>
+    <kLoyalLTRBonus value="10">
+      <!--Amount to be subtracted from LTR Threshold for having this trait. Range: 0.0-Inf-->
+    </kLoyalLTRBonus>
+    <kIndependentPenalty value="15">
+      <!--Amount to be added to LTR Threshold for having this trait. Range: 0.0-Inf-->
+    </kIndependentPenalty>
+    <kAggresivePenalty value="15">
+      <!--Amount to be added to LTR Threshold for having this trait. Range: 0.0-Inf-->
+    </kAggresivePenalty>
+    <kSkittishPenalty value="10">
+      <!--Amount to be added to LTR Threshold for having this trait. Range: 0.0-Inf-->
+    </kSkittishPenalty>
+  </Current_Tuning>
+</base>

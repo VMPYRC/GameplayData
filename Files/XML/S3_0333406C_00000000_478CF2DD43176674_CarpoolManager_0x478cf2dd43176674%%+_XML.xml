@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kExtraMinutesToWait value="45">
+      <!--Amount of extra time in sim minutes to wait before leaving to give sims extra time to get in the car.-->
+    </kExtraMinutesToWait>
+    <kMaxCarpoolRouteWaitInMinutes value="360">
+      <!--A failsafe max time in minutes that a sim will wait in a routing carpool. Should be long, as this is an emergency measure.-->
+    </kMaxCarpoolRouteWaitInMinutes>
+  </Current_Tuning>
+</base>

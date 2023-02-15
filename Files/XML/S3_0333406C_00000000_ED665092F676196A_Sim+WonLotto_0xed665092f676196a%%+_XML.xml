@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumPriceLevels value="8">
+      <!--Number of price levels-->
+    </kNumPriceLevels>
+    <kRewards value="50, 100, 500, 1000, 5000, 50000, 100000, 1000000">
+      <!--Simoleons rewards at different price level-->
+    </kRewards>
+    <kWinningChance value="30, 25, 15, 10, 7, 7, 5.95, 0.05">
+      <!--Chance to win a lotto at different price level-->
+    </kWinningChance>
+    <kInsiderTipBonus value="-30, -25, -15, -10, 23, 33, 24.05, 19.95">
+      <!--Bonus winning chance of Insider Tip buff-->
+    </kInsiderTipBonus>
+    <kLuckyTraitModifier value="0, 0, 0, 5.0, 10.0, 12.5, 15.0, 10.0">
+      <!--Lucky trait modifier of winning chance-->
+    </kLuckyTraitModifier>
+    <kUnLuckyTraitModifier value="0, 0, 0, -5.0, -10.0, -12.5, -15.0, -10.0">
+      <!--UnLucky trait modifier of winning chance-->
+    </kUnLuckyTraitModifier>
+    <kTicketModifer value="0.9">
+      <!--Winning chance modifier for each additional lotto ticket-->
+    </kTicketModifer>
+    <kFutureSkillModifier value="1, 1.05, 1.1, 1.15, 1.25, 1.3, 1.4, 1.5, 1.75, 2, 3">
+      <!--Future skill modifier of winning amount-->
+    </kFutureSkillModifier>
+    <kBaseWinningChance value="20">
+      <!--Base Winning chance-->
+    </kBaseWinningChance>
+  </Current_Tuning>
+</base>

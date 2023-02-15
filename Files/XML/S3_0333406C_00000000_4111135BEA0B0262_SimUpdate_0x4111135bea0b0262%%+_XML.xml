@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSimUpdateSleepTicks value="30">
+      <!--The number of ticks that we delay in Sim Update.-->
+    </kSimUpdateSleepTicks>
+    <kFriendReactPriority value="55">
+      <!--The priority of reacting to Friends.-->
+    </kFriendReactPriority>
+    <kLoverReactPriority value="55">
+      <!--The priority of reacting to Lovers.-->
+    </kLoverReactPriority>
+    <kEnemyReactPriority value="55">
+      <!--The priority of reacting to Enemies.-->
+    </kEnemyReactPriority>
+    <kSaluteReactPriority value="55">
+      <!--The priority of reacting to Military with a salute.-->
+    </kSaluteReactPriority>
+    <kPetTraitReactPriority value="55">
+      <!--The priority of reacting to the type of pet your traits love. (a dogPerson will react to a dog)-->
+    </kPetTraitReactPriority>
+    <kReactToHorseLTRThreshold value="5">
+      <!--If the LTR is higher than the threshold, sim/pets will not do the React to Horse thing-->
+    </kReactToHorseLTRThreshold>
+    <kBonehildaFreakoutTraits value="Coward, SupernaturalSkeptic, Shy, Neurotic, SkittishPet">
+      <!--List of traits that will freak-out when entering a room with Bonehilda-->
+    </kBonehildaFreakoutTraits>
+    <kBonehildaReactPriority value="75">
+      <!--The priority of reacting to Bonehilda.-->
+    </kBonehildaReactPriority>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

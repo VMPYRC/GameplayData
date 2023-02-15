@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxNumPlayers value="4">
+      <!--Max number of Sims allowed to play-->
+    </kMaxNumPlayers>
+    <kConeAngle value="3.769911">
+      <!--The arc/cone's angle for finding a suitable spot for a sim to watch/wait for a turn. Units: Radians. Valid range [0, Pi]. Initial GPE Default: 3(Pi)/8.-->
+    </kConeAngle>
+    <kWaitRouteMinDistance value="1.5">
+      <!--Range:  1.0 - Inf  Description: Minimum distance a sim will route away when they're waiting for their turn.-->
+    </kWaitRouteMinDistance>
+    <kWaitRouteMaxDistance value="3">
+      <!--Range:  1.0 - Inf  Description: Max distance a sim will route away when they're waiting for their turn.-->
+    </kWaitRouteMaxDistance>
+    <kWaitRoutePreferredDistance value="2.25">
+      <!--Range:  1.0 - Inf  Description: Preferred distance a sim will route away when they're waiting for their turn.-->
+    </kWaitRoutePreferredDistance>
+    <kReactionPeriod value="30">
+      <!--Max number of Sim minutes between reactions for a Sim that is waiting to throw (Note: Set this fairly high, as the way this works means it will most likely happen fairly early in the period.-->
+    </kReactionPeriod>
+    <kWaitReactions value="Cheer, Excited">
+      <!--Range:  ReactionTypes[]  Description:  possible reactions for sim to play while waiting to throw-->
+    </kWaitReactions>
+    <kPlayingSocialMotiveDelta value="20">
+      <!--Range:  0.0 - Inf  Description: Social motive delta when Sim is throwing and there are other sims there-->
+    </kPlayingSocialMotiveDelta>
+    <kLTRimprovementForPlayingWithSomeone value="1">
+      <!--Increase in the LTR Liking whenever you play with someone per throw interaction. Positive float. Range [0, 100].-->
+    </kLTRimprovementForPlayingWithSomeone>
+    <kHorseshoesScoreToWin value="21">
+      <!--Score needed to win a game of horseshoes. In case of tie, game continues until someone ends with a higher score.-->
+    </kHorseshoesScoreToWin>
+    <kHorseshoePointsForGoodThrow value="7">
+      <!--Points given in a game of horseshoes for getting a good throw (ringer).-->
+    </kHorseshoePointsForGoodThrow>
+    <kHorseshoePointsForOkThrow value="4">
+      <!--Points given in a game of horseshoes for getting an ok throw.-->
+    </kHorseshoePointsForOkThrow>
+    <kHorseshoePointsForBadThrow value="2">
+      <!--Points given in a game of horseshoes for getting a bad throw.-->
+    </kHorseshoePointsForBadThrow>
+    <kBaseQuality value="0">
+      <!--Base quality for a throw. kModifierPerHorseshoeSkillLevel gets added to this. Talk to John W. before you change any of these tunables, as it's a delicate balance.-->
+    </kBaseQuality>
+    <kQualityRandomness value="100">
+      <!--Range of the random roll from 0 to kQualityRandomness. This is added to kBaseQuality plus the skill modifier value.-->
+    </kQualityRandomness>
+    <kQualityForOkThrow value="30">
+      <!--Throw Quality threshold for an ok throw.-->
+    </kQualityForOkThrow>
+    <kQualityForGoodThrow value="70">
+      <!--Throw Quality threshold for a good throw.-->
+    </kQualityForGoodThrow>
+    <kModifierPerHorseshoeSkillLevel value="-25, -20, -15, -10, -5, 0, 5, 10, 15, 20, 25">
+      <!--Description: Penalty/Bonus for each level of Horseshoe Skill.-->
+    </kModifierPerHorseshoeSkillLevel>
+    <kNumFestivalTicketsForWinning value="25">
+      <!--Range:  1 - Inf  Description: Number of festival tickets the winner gets.-->
+    </kNumFestivalTicketsForWinning>
+    <kNumFestivalTicketsForNotWinning value="5">
+      <!--Range:  1 - Inf  Description: Number of festival tickets the non winners get.-->
+    </kNumFestivalTicketsForNotWinning>
+  </Current_Tuning>
+</base>

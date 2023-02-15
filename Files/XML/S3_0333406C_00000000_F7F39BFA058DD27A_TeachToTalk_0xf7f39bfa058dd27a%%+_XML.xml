@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSkillGainPerSimMinute value="3" />
+    <kTeachToTalkToddlerMinimumMood value="-20">
+      <!--Minimum mood the toddler must have to accept the interaction.-->
+    </kTeachToTalkToddlerMinimumMood>
+    <kRelationshipSTC value="Friendly">
+      <!--Social STC for this interaction.-->
+    </kRelationshipSTC>
+    <kRelationshipDeltaSTC value="50">
+      <!--STC delta per Sim hour.-->
+    </kRelationshipDeltaSTC>
+    <kRelationshipDeltaLTR value="8">
+      <!--LTR delta per Sim hour.-->
+    </kRelationshipDeltaLTR>
+    <kLookAtThresholdAdult value="200">
+      <!--How interesting something has to be to make a participant look away from this interaction.-->
+    </kLookAtThresholdAdult>
+    <kLookAtThresholdToddler value="200">
+      <!--How interesting something has to be to make a participant look away from this interaction.-->
+    </kLookAtThresholdToddler>
+    <kSocialChange value="50">
+      <!--The social change during the interaction for toddlers (adds a motive delta).-->
+    </kSocialChange>
+    <kLearnToTalkSuccessMultiplier value="0.5">
+      <!--Range:  0.0 - 1.0  Description:  Multiplier fudging how often toddlers repeat correctly when learning to talk-->
+    </kLearnToTalkSuccessMultiplier>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAllowLTRForSnuggle value="40">
+      <!--Minimum LTR for 2 unrelated pets to have and be able to snuggle with each other-->
+    </kAllowLTRForSnuggle>
+    <kSnuggleParentChildScoringMultiplier value="2">
+      <!--Range: floats > 1.0. Desc: Autonomy scoring multiplier for the Snuggle interaction when a parent and child are considering snuggling.-->
+    </kSnuggleParentChildScoringMultiplier>
+    <kSnuggleInuseScoringMultiplier value="5">
+      <!--Range: floats > 1.0. Desc: This is used to counter the default In Use scoring penalty of 0.2. (e.g. 0.2 * 5.0 = 1.0) Talk to a GPE before you change this.-->
+    </kSnuggleInuseScoringMultiplier>
+  </Current_Tuning>
+</base>

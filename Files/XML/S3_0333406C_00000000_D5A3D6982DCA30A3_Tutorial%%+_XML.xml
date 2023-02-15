@@ -1,0 +1,4716 @@
+<?xml version="1.0"?>
+<Tutorial>
+<Tutorial>
+  <StateName></StateName>
+  <ControlId>0x0</ControlId>
+  <LockStep>False</LockStep>
+  <ImageToUse>None</ImageToUse>
+  <ShowTail>True</ShowTail>
+  <MaskId>None</MaskId>
+  <IsStepUsed>True</IsStepUsed>
+  <ArrowDelay>5</ArrowDelay>
+ </Tutorial>
+<Tutorial>
+  <StateName>Intro</StateName>
+  <LockStep>True</LockStep>
+  <ShowTail>False</ShowTail>
+  <MaskId>Intro</MaskId>
+ </Tutorial>
+<Tutorial>
+  <StateName>CameraPanned</StateName>
+  <LockStep>True</LockStep>
+  <ShowTail>False</ShowTail>
+  <IsStepUsed>False</IsStepUsed>
+ </Tutorial>
+<Tutorial>
+  <StateName>CameraRotated</StateName>
+  <LockStep>True</LockStep>
+  <ShowTail>False</ShowTail>
+  <IsStepUsed>False</IsStepUsed>
+ </Tutorial>
+<Tutorial>
+  <StateName>SimViewClicked</StateName>
+  <ControlId>0x8feffb06</ControlId>
+  <ShowTail>False</ShowTail>
+  <MaskId>SimViewClicked</MaskId>
+ </Tutorial>
+<Tutorial>
+  <StateName>CameraPitched</StateName>
+  <ControlId>0x8feffb05</ControlId>
+  <LockStep>True</LockStep>
+  <ImageToUse>MouseMMB_NS</ImageToUse>
+  <MaskId>CameraPitched</MaskId>
+  <ArrowDelay>6</ArrowDelay>
+ </Tutorial>
+<Tutorial>
+  <StateName>CameraZoomed</StateName>
+  <ControlId>0x8feffb03</ControlId>
+  <LockStep>True</LockStep>
+  <ImageToUse>MouseMMB_Scroll</ImageToUse>
+  <MaskId>CameraZoomed</MaskId>
+  <ArrowDelay>6</ArrowDelay>
+ </Tutorial>
+<Tutorial>
+  <StateName>FloorChanged</StateName>
+  <ControlId>0x8feffa0f</ControlId>
+  <MaskId>FloorChanged</MaskId>
+  <ArrowDelay>4</ArrowDelay>
+ </Tutorial>
+<Tutorial>
+  <StateName>WallsChanged</StateName>
+  <ControlId>0x8feffa07</ControlId>
+  <MaskId>WallsChanged</MaskId>
+  <ArrowDelay>2</ArrowDelay>
+ </Tutorial>
+<Tutorial>
+  <StateName>UnPaused</StateName>
+  <ControlId>0x47e97a02</ControlId>
+  <MaskId>UnPaused</MaskId>
+  <ArrowDelay>4</ArrowDelay>
+ </Tutorial>
+<Tutorial>
+  <StateName>FirstWishPromised</StateName>
+  <ControlId>0x06f5b804</ControlId>
+  <MaskId>FirstWishPromised</MaskId>
+ </Tutorial>
+<Tutorial>
+  <StateName>MouseOverToDoList</StateName>
+  <ControlId>0x070ac71c</ControlId>
+  <MaskId>MouseOverToDoList</MaskId>
+ </Tutorial>
+<Tutorial>
+  <StateName>BuyModeEntered</StateName>
+  <ControlId>0x8feffa03</ControlId>
+  <MaskId>BuyModeEntered</MaskId>
+  <ArrowDelay>3</ArrowDelay>
+ </Tutorial>
+<Tutorial>
+  <StateName>ConditionalTimer</StateName>
+  <LockStep>True</LockStep>
+  <ShowTail>False</ShowTail>
+  <MaskId>ConditionalTimer</MaskId>
+ </Tutorial>
+<Tutorial>
+  <StateName>CouchSelected</StateName>
+  <ControlId>0x07c1200d</ControlId>
+  <ShowTail>False</ShowTail>
+  <ArrowDelay>0</ArrowDelay>
+ </Tutorial>
+<Tutorial>
+  <StateName>CouchPlaced</StateName>
+  <ShowTail>False</ShowTail>
+ </Tutorial>
+<Tutorial>
+  <StateName>CouchMoved</StateName>
+  <ShowTail>False</ShowTail>
+ </Tutorial>
+<Tutorial>
+  <StateName>CouchRotated</StateName>
+  <ShowTail>False</ShowTail>
+ </Tutorial>
+<Tutorial>
+  <StateName>ReturnedToLiveMode</StateName>
+  <ControlId>0x8fdffa04</ControlId>
+  <ShowTail>False</ShowTail>
+  <MaskId>ReturnedToLiveMode</MaskId>
+ </Tutorial>
+<Tutorial>
+  <StateName>SecondWishPromised</StateName>
+  <ControlId>0x06f5b804</ControlId>
+  <MaskId>SecondWishPromised</MaskId>
+ </Tutorial>
+<Tutorial>
+  <StateName>SatOnCouch</StateName>
+  <MaskId>SatOnCouch</MaskId>
+ </Tutorial>
+<Tutorial>
+  <StateName>ActionCancelled</StateName>
+  <ControlId>0x070740d0</ControlId>
+ </Tutorial>
+<Tutorial>
+  <StateName>MouseOverMoodlet</StateName>
+  <ControlId>0x0708274c</ControlId>
+  <MaskId>MouseOverMoodlet</MaskId>
+ </Tutorial>
+<Tutorial>
+  <StateName>MouseOverMoodBar</StateName>
+  <ControlId>0x06f5b840</ControlId>
+  <MaskId>MouseOverMoodBar</MaskId>
+ </Tutorial>
+<Tutorial>
+  <StateName>SavedGameOrClosedOptions</StateName>
+  <ControlId>0x8feffa16</ControlId>
+  <MaskId>SavedGameOrClosedOptions</MaskId>
+ </Tutorial>
+<Tutorial>
+  <StateName>End</StateName>
+  <LockStep>True</LockStep>
+  <MaskId>Close</MaskId>
+ </Tutorial>
+<Tutorialettes>
+  <LessonKey></LessonKey>
+  <TnsKey></TnsKey>
+  <LessonName></LessonName>
+  <PageText></PageText>
+  <PageTextMac></PageTextMac>
+  <PageImage></PageImage>
+  <IgnoreGlobalCooldown>False</IgnoreGlobalCooldown>
+  <EPValid>BaseGame</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>ActionQueue</LessonKey>
+  <TnsKey>ActionQueueTns</TnsKey>
+  <LessonName>ActionQueueName</LessonName>
+  <PageText>ActionQueueText1</PageText>
+  <PageImage>lesson_AQ1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ActionQueueText2</PageText>
+  <PageImage>lesson_AQ2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ActionQueueText3</PageText>
+  <PageImage>lesson_AQ3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ActionQueueText4</PageText>
+  <PageImage>lesson_AQ4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Aging</LessonKey>
+  <TnsKey>AgingTns</TnsKey>
+  <LessonName>AgingName</LessonName>
+  <PageText>AgingText1</PageText>
+  <PageImage>lesson_aging1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AgingText2</PageText>
+  <PageImage>lesson_aging2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AgingText3</PageText>
+  <PageImage>lesson_aging3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AgingText4</PageText>
+  <PageImage>lesson_aging4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Babies</LessonKey>
+  <TnsKey>BabiesTns</TnsKey>
+  <LessonName>BabiesName</LessonName>
+  <PageText>BabiesText1</PageText>
+  <PageImage>lesson_babies1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BabiesText2</PageText>
+  <PageImage>lesson_babies2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BabiesText3</PageText>
+  <PageImage>lesson_babies3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>BuildMode</LessonKey>
+  <TnsKey>BuildModeTns</TnsKey>
+  <LessonName>BuildModeName</LessonName>
+  <PageText>BuildModeText1</PageText>
+  <PageImage>lesson_build1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BuildModeText2</PageText>
+  <PageImage>lesson_build2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BuildModeText3</PageText>
+  <PageImage>lesson_build3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BuildModeText4</PageText>
+  <PageImage>lesson_build4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BuildModeText5</PageText>
+  <PageImage>lesson_build5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>BuyMode</LessonKey>
+  <TnsKey>BuyModeTns</TnsKey>
+  <LessonName>BuyModeName</LessonName>
+  <PageText>BuyModeText1</PageText>
+  <PageImage>lesson_buy1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BuyModeText2</PageText>
+  <PageImage>lesson_buy2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BuyModeText3</PageText>
+  <PageImage>lesson_buy3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BuyModeText4</PageText>
+  <PageImage>lesson_buy4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BuyModeText5</PageText>
+  <PageImage>lesson_buy5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BuyModeText6</PageText>
+  <PageImage>lesson_buy6</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Camera</LessonKey>
+  <TnsKey>CameraTns</TnsKey>
+  <LessonName>CameraName</LessonName>
+  <PageText>CameraText1</PageText>
+  <PageTextMac>CameraText1Mac</PageTextMac>
+  <PageImage>Lesson_Camera1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CameraText2</PageText>
+  <PageImage>Lesson_Camera2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CameraText3</PageText>
+  <PageTextMac>CameraText3Mac</PageTextMac>
+  <PageImage>Lesson_Camera3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CameraText4</PageText>
+  <PageTextMac>CameraText4Mac</PageTextMac>
+  <PageImage>Lesson_Camera4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>CellPhone</LessonKey>
+  <TnsKey>CellPhoneTns</TnsKey>
+  <LessonName>CellPhoneName</LessonName>
+  <PageText>CellPhoneText1</PageText>
+  <PageImage>lesson_cellphone1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CellPhoneText2</PageText>
+  <PageImage>lesson_cellphone2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CellPhoneText3</PageText>
+  <PageImage>lesson_cellphone3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Children</LessonKey>
+  <TnsKey>ChildrenTns</TnsKey>
+  <LessonName>ChildrenName</LessonName>
+  <PageText>ChildrenText1</PageText>
+  <PageImage>lesson_children1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ChildrenText2</PageText>
+  <PageImage>lesson_children2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ChildrenText3</PageText>
+  <PageImage>lesson_children3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Collecting</LessonKey>
+  <TnsKey>CollectingTns</TnsKey>
+  <LessonName>CollectingName</LessonName>
+  <PageText>CollectingText1</PageText>
+  <PageImage>lesson_collecting1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CollectingText2</PageText>
+  <PageImage>lesson_collecting2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CollectingText3</PageText>
+  <PageImage>lesson_collecting3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CollectingText4</PageText>
+  <PageImage>lesson_collecting4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>CommunityLocations</LessonKey>
+  <TnsKey>CommunityLocationsTns</TnsKey>
+  <LessonName>CommunityLocationsName</LessonName>
+  <PageText>CommunityLocationsText1</PageText>
+  <PageImage>lesson_community1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CommunityLocationsText2</PageText>
+  <PageImage>lesson_community2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>CreateASim</LessonKey>
+  <TnsKey>CreateASimTns</TnsKey>
+  <LessonName>CreateASimName</LessonName>
+  <PageText>CreateASimText1</PageText>
+  <PageImage>Lesson_CASim1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateASimText2</PageText>
+  <PageImage>Lesson_CASim2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateASimText3</PageText>
+  <PageImage>Lesson_CASim3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateASimText4</PageText>
+  <PageImage>Lesson_CASim4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateASimText5</PageText>
+  <PageImage>Lesson_CASim5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateASimText6</PageText>
+  <PageImage>Lesson_CASim6</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>CreateAStyle</LessonKey>
+  <TnsKey>CreateAStyleTns</TnsKey>
+  <LessonName>CreateAStyleName</LessonName>
+  <PageText>CreateAStyleText1</PageText>
+  <PageImage>Lesson_CAStyle1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateAStyleText2</PageText>
+  <PageImage>Lesson_CAStyle2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateAStyleText3</PageText>
+  <PageImage>Lesson_CAStyle3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateAStyleText4</PageText>
+  <PageImage>Lesson_CAStyle4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateAStyleText5</PageText>
+  <PageImage>Lesson_CAStyle5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateAStyleText6</PageText>
+  <PageImage>Lesson_CAStyle6</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateAStyleText7</PageText>
+  <PageImage>Lesson_CAStyle7</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateAStyleText8</PageText>
+  <PageImage>Lesson_CAStyle8</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>EditTown</LessonKey>
+  <TnsKey>EditTownTns</TnsKey>
+  <LessonName>EditTownName</LessonName>
+  <PageText>EditTownText1</PageText>
+  <PageImage>lesson_EditTown1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EditTownText2</PageText>
+  <PageImage>lesson_EditTown2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EditTownText3</PageText>
+  <PageImage>lesson_EditTown3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EditTownText4</PageText>
+  <PageImage>lesson_EditTown4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EditTownText5</PageText>
+  <PageImage>lesson_EditTown5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EditTownText11</PageText>
+  <PageImage>lesson_EditTown11</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EditTownText6</PageText>
+  <PageImage>lesson_EditTown6</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EditTownText7</PageText>
+  <PageImage>lesson_EditTown7</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EditTownText8</PageText>
+  <PageImage>lesson_EditTown8</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EditTownText9</PageText>
+  <PageImage>lesson_EditTown9</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EditTownText10</PageText>
+  <PageImage>lesson_EditTown10</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>FindingYourSim</LessonKey>
+  <TnsKey>FindingYourSimTns</TnsKey>
+  <LessonName>FindingYourSimName</LessonName>
+  <PageText>FindingYourSimText1</PageText>
+  <PageImage>lesson_FindSim1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FindingYourSimText2</PageText>
+  <PageTextMac>FindingYourSimText2Mac</PageTextMac>
+  <PageImage>lesson_FindSim2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FindingYourSimText3</PageText>
+  <PageTextMac>FindingYourSimText3Mac</PageTextMac>
+  <PageImage>lesson_FindSim3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Groceries</LessonKey>
+  <TnsKey>GroceriesTns</TnsKey>
+  <LessonName>GroceriesName</LessonName>
+  <PageText>GroceriesText1</PageText>
+  <PageImage>lesson_groceries1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GroceriesText2</PageText>
+  <PageImage>lesson_groceries2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GroceriesText3</PageText>
+  <PageImage>lesson_groceries3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>HiringServices</LessonKey>
+  <TnsKey>HiringServicesTns</TnsKey>
+  <LessonName>HiringServicesName</LessonName>
+  <PageText>HiringServicesText1</PageText>
+  <PageImage>lesson_services1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HiringServicesText2</PageText>
+  <PageImage>lesson_services2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HiringServicesText3</PageText>
+  <PageImage>lesson_services3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HiringServicesText4</PageText>
+  <PageImage>lesson_services4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>InteractingWithObjects</LessonKey>
+  <TnsKey>InteractingWithObjectsTns</TnsKey>
+  <LessonName>InteractingWithObjectsName</LessonName>
+  <PageText>InteractingWithObjectsText1</PageText>
+  <PageImage>lesson_interacting1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>InteractingWithObjectsText2</PageText>
+  <PageImage>lesson_interacting2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>InteractingWithObjectsText3</PageText>
+  <PageImage>lesson_interacting3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>InteractingWithObjectsText4</PageText>
+  <PageImage>lesson_interacting4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Inventory</LessonKey>
+  <TnsKey>InventoryTns</TnsKey>
+  <LessonName>InventoryName</LessonName>
+  <PageText>InventoryText1</PageText>
+  <PageImage>lesson_inventory1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>InventoryText2</PageText>
+  <PageImage>lesson_inventory2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>InventoryText3</PageText>
+  <PageImage>lesson_inventory3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>InventoryText4</PageText>
+  <PageImage>lesson_inventory4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>JobProgression</LessonKey>
+  <TnsKey>JobProgressionTns</TnsKey>
+  <LessonName>JobProgressionName</LessonName>
+  <PageText>JobProgressionText1</PageText>
+  <PageImage>lesson_Career1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>JobProgressionText2</PageText>
+  <PageImage>lesson_Career2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>JobProgressionText3</PageText>
+  <PageImage>lesson_Career3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>JobProgressionText4</PageText>
+  <PageImage>lesson_Career4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Jobs</LessonKey>
+  <TnsKey>JobsTns</TnsKey>
+  <LessonName>JobsName</LessonName>
+  <PageText>JobsText1</PageText>
+  <PageImage>lesson_GetJob1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>JobsText2</PageText>
+  <PageImage>lesson_GetJob2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>JobsText3</PageText>
+  <PageImage>lesson_GetJob3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>LifetimeHappiness</LessonKey>
+  <TnsKey>LifetimeHappinessTns</TnsKey>
+  <LessonName>LifetimeHappinessName</LessonName>
+  <PageText>LifetimeHappinessText1</PageText>
+  <PageImage>lesson_LH1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>LifetimeHappinessText2</PageText>
+  <PageImage>lesson_LH2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>LifetimeHappinessText3</PageText>
+  <PageImage>lesson_LH3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>LifetimeHappinessText4</PageText>
+  <PageImage>lesson_LH4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>MapView</LessonKey>
+  <TnsKey>MapViewTns</TnsKey>
+  <LessonName>MapViewName</LessonName>
+  <PageText>MapViewText1</PageText>
+  <PageImage>Lesson_MapView1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MapViewText2</PageText>
+  <PageImage>Lesson_MapView2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MapViewText3</PageText>
+  <PageImage>Lesson_MapView3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MapViewText4</PageText>
+  <PageImage>Lesson_MapView4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MapViewText5</PageText>
+  <PageImage>Lesson_MapView5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MapViewText6</PageText>
+  <PageImage>Lesson_MapView6</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Mood</LessonKey>
+  <TnsKey>MoodTns</TnsKey>
+  <LessonName>MoodName</LessonName>
+  <PageText>MoodText1</PageText>
+  <PageImage>lesson_Mood1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MoodText2</PageText>
+  <PageImage>lesson_Mood2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MoodText3</PageText>
+  <PageImage>lesson_Mood3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MoodText4</PageText>
+  <PageImage>lesson_Mood4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MoodText5</PageText>
+  <PageImage>lesson_Mood5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MoodText6</PageText>
+  <PageImage>lesson_Mood6</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Moodlets</LessonKey>
+  <TnsKey>MoodletsTns</TnsKey>
+  <LessonName>MoodletsName</LessonName>
+  <PageText>MoodletsText1</PageText>
+  <PageImage>lesson_Moodlet1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MoodletsText2</PageText>
+  <PageImage>lesson_Moodlet2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MoodletsText3</PageText>
+  <PageImage>lesson_Moodlet3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MoodletsText4</PageText>
+  <PageImage>lesson_Moodlet4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MoodletsText5</PageText>
+  <PageImage>lesson_Moodlet5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Motives</LessonKey>
+  <TnsKey>MotivesTns</TnsKey>
+  <LessonName>MotivesName</LessonName>
+  <PageText>MotivesText1</PageText>
+  <PageImage>lesson_Motives1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MotivesText2</PageText>
+  <PageImage>lesson_Motives2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Moving</LessonKey>
+  <TnsKey>MovingTns</TnsKey>
+  <LessonName>MovingName</LessonName>
+  <PageText>MovingText1</PageText>
+  <PageImage>lesson_moving1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MovingText2</PageText>
+  <PageImage>lesson_moving2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MovingText3</PageText>
+  <PageImage>lesson_moving3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MovingText4</PageText>
+  <PageImage>lesson_moving4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Opportunities</LessonKey>
+  <TnsKey>OpportunitiesTns</TnsKey>
+  <LessonName>OpportunitiesName</LessonName>
+  <PageText>OpportunitiesText1</PageText>
+  <PageImage>lesson_opportunities1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>OpportunitiesText2</PageText>
+  <PageImage>lesson_opportunities2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>OpportunitiesText3</PageText>
+  <PageImage>lesson_opportunities3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>OpportunitiesText4</PageText>
+  <PageTextMac>OpportunitiesText4Mac</PageTextMac>
+  <PageImage>lesson_opportunities4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>OpportunityFamilyInventory</LessonKey>
+  <TnsKey>OpportunityFamilyInventoryTns</TnsKey>
+  <LessonName>OpportunityFamilyInventoryName</LessonName>
+  <PageText>OpportunityFamilyInventoryText1</PageText>
+  <PageImage>lesson_familyInventory1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>OpportunityFamilyInventoryText2</PageText>
+  <PageImage>lesson_familyInventory2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>OpportunityFamilyInventoryText3</PageText>
+  <PageImage>lesson_familyInventory3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>OpportunityFamilyInventoryText4</PageText>
+  <PageImage>lesson_familyInventory4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>PartTimeJobs</LessonKey>
+  <TnsKey>PartTimeJobsTns</TnsKey>
+  <LessonName>PartTimeJobsName</LessonName>
+  <PageText>PartTimeJobsText1</PageText>
+  <PageImage>lesson_parttime1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PartTimeJobsText2</PageText>
+  <PageImage>lesson_parttime2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PartTimeJobsText3</PageText>
+  <PageImage>lesson_parttime3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PartTimeJobsText4</PageText>
+  <PageImage>lesson_parttime4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>PayingBills</LessonKey>
+  <TnsKey>PayingBillsTns</TnsKey>
+  <LessonName>PayingBillsName</LessonName>
+  <PageText>PayingBillsText1</PageText>
+  <PageImage>lesson_bills1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PayingBillsText2</PageText>
+  <PageImage>lesson_bills2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PayingBillsText3</PageText>
+  <PageImage>lesson_bills3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PayingBillsText4</PageText>
+  <PageImage>lesson_bills4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PayingBillsText5</PageText>
+  <PageImage>lesson_bills5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Pregnancy</LessonKey>
+  <TnsKey>PregnancyTns</TnsKey>
+  <LessonName>PregnancyName</LessonName>
+  <PageText>PregnancyText1</PageText>
+  <PageImage>lesson_pregnancy1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PregnancyText2</PageText>
+  <PageImage>lesson_pregnancy2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PregnancyText3</PageText>
+  <PageImage>lesson_pregnancy3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PregnancyText4</PageText>
+  <PageImage>lesson_pregnancy4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Relationships</LessonKey>
+  <TnsKey>RelationshipsTns</TnsKey>
+  <LessonName>RelationshipsName</LessonName>
+  <PageText>RelationshipsText1</PageText>
+  <PageImage>lesson_Relationships1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RelationshipsText2</PageText>
+  <PageImage>lesson_Relationships2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RelationshipsText3</PageText>
+  <PageImage>lesson_Relationships3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RelationshipsText4</PageText>
+  <PageImage>lesson_Relationships4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Roofs</LessonKey>
+  <TnsKey>RoofsTns</TnsKey>
+  <LessonName>RoofsName</LessonName>
+  <PageText>RoofsText1</PageText>
+  <PageImage>lesson_roofs1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RoofsText2</PageText>
+  <PageImage>lesson_roofs2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RoofsText3</PageText>
+  <PageImage>lesson_roofs3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RoofsText4</PageText>
+  <PageImage>lesson_roofs4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RoofsText5</PageText>
+  <PageImage>lesson_roofs5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>School</LessonKey>
+  <TnsKey>SchoolTns</TnsKey>
+  <LessonName>SchoolName</LessonName>
+  <PageText>SchoolText1</PageText>
+  <PageImage>lesson_school1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SchoolText2</PageText>
+  <PageImage>lesson_school2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SchoolText3</PageText>
+  <PageImage>lesson_school3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SchoolText4</PageText>
+  <PageImage>lesson_school4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SchoolText5</PageText>
+  <PageImage>lesson_school5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SchoolText6</PageText>
+  <PageImage>lesson_school6</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SchoolText7</PageText>
+  <PageImage>lesson_school7</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SchoolText8</PageText>
+  <PageImage>lesson_school8</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Sharing</LessonKey>
+  <TnsKey>SharingTns</TnsKey>
+  <LessonName>SharingName</LessonName>
+  <PageText>SharingText1</PageText>
+  <PageImage>lesson_sharing1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SharingText2</PageText>
+  <PageImage>lesson_sharing2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SharingText3</PageText>
+  <PageImage>lesson_sharing3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SharingText4</PageText>
+  <PageImage>lesson_sharing4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>SkillBuilding</LessonKey>
+  <TnsKey>SkillBuildingTns</TnsKey>
+  <LessonName>SkillBuildingName</LessonName>
+  <PageText>SkillBuildingText1</PageText>
+  <PageImage>lesson_skills1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SkillBuildingText2</PageText>
+  <PageImage>lesson_skills2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SkillBuildingText3</PageText>
+  <PageImage>lesson_skills3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SkillBuildingText4</PageText>
+  <PageImage>lesson_skills4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SkillBuildingText5</PageText>
+  <PageImage>lesson_skills5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>SkillTracking</LessonKey>
+  <TnsKey>SkillTrackingTns</TnsKey>
+  <LessonName>SkillTrackingName</LessonName>
+  <PageText>SkillTrackingText1</PageText>
+  <PageImage>lesson_skilljournal1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SkillTrackingText2</PageText>
+  <PageImage>lesson_skilljournal2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SkillTrackingText3</PageText>
+  <PageImage>lesson_skilljournal3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SkillTrackingText4</PageText>
+  <PageImage>lesson_skilljournal4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Socialization</LessonKey>
+  <TnsKey>SocializationTns</TnsKey>
+  <LessonName>SocializationName</LessonName>
+  <PageText>SocializationText1</PageText>
+  <PageImage>lesson_Socializing1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SocializationText2</PageText>
+  <PageImage>lesson_Socializing2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SocializationText3</PageText>
+  <PageImage>lesson_Socializing3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SocializationText4</PageText>
+  <PageImage>lesson_Socializing4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TerrainTools</LessonKey>
+  <TnsKey>TerrainToolsTns</TnsKey>
+  <LessonName>TerrainToolsName</LessonName>
+  <PageText>TerrainToolsText1</PageText>
+  <PageTextMac>TerrainToolsText1Mac</PageTextMac>
+  <PageImage>lesson_terrain1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TerrainToolsText2</PageText>
+  <PageTextMac>TerrainToolsText2Mac</PageTextMac>
+  <PageImage>lesson_terrain2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TerrainToolsText3</PageText>
+  <PageImage>lesson_terrain3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TerrainToolsText4</PageText>
+  <PageImage>lesson_terrain4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TerrainToolsText5</PageText>
+  <PageImage>lesson_terrain5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TerrainToolsText6</PageText>
+  <PageImage>lesson_terrain6</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TimeControl</LessonKey>
+  <TnsKey>TimeControlTns</TnsKey>
+  <LessonName>TimeControlName</LessonName>
+  <PageText>TimeControlText1</PageText>
+  <PageImage>lesson_time1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TimeControlText2</PageText>
+  <PageImage>lesson_time2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TimeControlText3</PageText>
+  <PageImage>lesson_time3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TimeControlText4</PageText>
+  <PageImage>lesson_time4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Tinkering</LessonKey>
+  <TnsKey>TinkeringTns</TnsKey>
+  <LessonName>TinkeringName</LessonName>
+  <PageText>TinkeringText1</PageText>
+  <PageImage>Lesson_Tinkering1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TinkeringText2</PageText>
+  <PageImage>Lesson_Tinkering2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TinkeringText3</PageText>
+  <PageImage>Lesson_Tinkering3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Toddlers</LessonKey>
+  <TnsKey>ToddlersTns</TnsKey>
+  <LessonName>ToddlersName</LessonName>
+  <PageText>ToddlersText1</PageText>
+  <PageImage>lesson_toddlers1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ToddlersText2</PageText>
+  <PageImage>lesson_toddlers2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ToddlersText3</PageText>
+  <PageImage>lesson_toddlers3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ToddlersText4</PageText>
+  <PageImage>lesson_toddlers4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Tones</LessonKey>
+  <TnsKey>TonesTns</TnsKey>
+  <LessonName>TonesName</LessonName>
+  <PageText>TonesText1</PageText>
+  <PageImage>Lesson_Tones1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TonesText2</PageText>
+  <PageImage>Lesson_Tones2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TonesText3</PageText>
+  <PageImage>Lesson_Tones3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TonesText4</PageText>
+  <PageImage>Lesson_Tones4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Traits</LessonKey>
+  <TnsKey>TraitsTns</TnsKey>
+  <LessonName>TraitsName</LessonName>
+  <PageText>TraitsText1</PageText>
+  <PageImage>lesson_Traits1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TraitsText2</PageText>
+  <PageImage>lesson_Traits2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TraitsText3</PageText>
+  <PageImage>lesson_Traits3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TraitsText4</PageText>
+  <PageImage>lesson_Traits4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TraitsText5</PageText>
+  <PageImage>lesson_Traits5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Vehicles</LessonKey>
+  <TnsKey>VehiclesTns</TnsKey>
+  <LessonName>VehiclesName</LessonName>
+  <PageText>VehiclesText1</PageText>
+  <PageImage>lesson_vehicles1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VehiclesText2</PageText>
+  <PageImage>lesson_vehicles2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VehiclesText3</PageText>
+  <PageImage>lesson_vehicles3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Visiting</LessonKey>
+  <TnsKey>VisitingTns</TnsKey>
+  <LessonName>VisitingName</LessonName>
+  <PageText>VisitingText1</PageText>
+  <PageImage>lesson_visiting1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VisitingText2</PageText>
+  <PageImage>lesson_visiting2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VisitingText3</PageText>
+  <PageImage>lesson_visiting3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Wishes</LessonKey>
+  <TnsKey>WishesTns</TnsKey>
+  <LessonName>WishesName</LessonName>
+  <PageText>WishesText1</PageText>
+  <PageImage>lesson_wishes1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WishesText2</PageText>
+  <PageImage>lesson_wishes2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WishesText3</PageText>
+  <PageImage>lesson_wishes3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WishesText4</PageText>
+  <PageTextMac>WishesText4Mac</PageTextMac>
+  <PageImage>lesson_wishes4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WishesText5</PageText>
+  <PageImage>lesson_wishes5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WishesText6</PageText>
+  <PageImage>lesson_wishes6</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>WorldEditor</LessonKey>
+  <TnsKey>WorldEditorPlacementTNS</TnsKey>
+  <LessonName>WorldEditorName</LessonName>
+  <PageText>WorldEditorText1</PageText>
+  <PageImage>lesson_WorldEditor1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WorldEditorText2</PageText>
+  <PageImage>lesson_WorldEditor2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WorldEditorText3</PageText>
+  <PageImage>lesson_WorldEditor3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WorldEditorText4</PageText>
+  <PageImage>lesson_WorldEditor4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WorldEditorText5</PageText>
+  <PageImage>lesson_WorldEditor5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Arrival</LessonKey>
+  <TnsKey>ArrivalTNS</TnsKey>
+  <LessonName>ArrivalName</LessonName>
+  <PageText>ArrivalText1</PageText>
+  <PageImage>lesson_Arrival1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ArrivalText2</PageText>
+  <PageImage>lesson_Arrival2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ArrivalText3</PageText>
+  <PageImage>lesson_Arrival3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ArrivalText4</PageText>
+  <PageImage>lesson_Arrival4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>AthleticSkill</LessonKey>
+  <LessonName>AthleticSkillName</LessonName>
+  <PageText>AthleticSkillText1</PageText>
+  <PageImage>lesson_Athletic1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AthleticSkillText2</PageText>
+  <PageImage>lesson_Athletic2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AthleticSkillText3</PageText>
+  <PageImage>lesson_Athletic3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AthleticSkillText4</PageText>
+  <PageImage>lesson_Athletic4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>CharismaSkill</LessonKey>
+  <LessonName>CharismaSkillName</LessonName>
+  <PageText>CharismaSkillText1</PageText>
+  <PageImage>lesson_Charisma1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CharismaSkillText2</PageText>
+  <PageImage>lesson_Charisma2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CharismaSkillText3</PageText>
+  <PageImage>lesson_Charisma3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>CookingSkill</LessonKey>
+  <LessonName>CookingSkillName</LessonName>
+  <PageText>CookingSkillText1</PageText>
+  <PageImage>lesson_Cooking1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CookingSkillText2</PageText>
+  <PageImage>lesson_Cooking2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CookingSkillText3</PageText>
+  <PageImage>lesson_Cooking3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>GuitarSkill</LessonKey>
+  <LessonName>GuitarSkillName</LessonName>
+  <PageText>GuitarSkillText1</PageText>
+  <PageImage>lesson_Guitar1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GuitarSkillText2</PageText>
+  <PageImage>lesson_Guitar2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GuitarSkillText3</PageText>
+  <PageImage>lesson_Guitar3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GuitarSkillText4</PageText>
+  <PageImage>lesson_Guitar4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>HandinessSkill</LessonKey>
+  <LessonName>HandinessSkillName</LessonName>
+  <PageText>HandinessSkillText1</PageText>
+  <PageImage>lesson_Handiness1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HandinessSkillText2</PageText>
+  <PageImage>lesson_Handiness2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HandinessSkillText3</PageText>
+  <PageImage>lesson_Handiness3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HandinessSkillText4</PageText>
+  <PageImage>lesson_Handiness4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>LocationLiving</LessonKey>
+  <LessonName>LocationLivingName</LessonName>
+  <PageText>LocationLivingText1</PageText>
+  <PageImage>lesson_LocationLIving1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>LocationLivingText2</PageText>
+  <PageImage>lesson_LocationLIving2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>LocationLivingText4</PageText>
+  <PageImage>lesson_LocationLIving4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>LogicSkill</LessonKey>
+  <LessonName>LogicSkillName</LessonName>
+  <PageText>LogicSkillText1</PageText>
+  <PageImage>lesson_Logic1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>LogicSkillText2</PageText>
+  <PageImage>lesson_Logic2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>LogicSkillText3</PageText>
+  <PageImage>lesson_Logic3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>LogicSkillText4</PageText>
+  <PageImage>lesson_Logic4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>PaintingSkill</LessonKey>
+  <LessonName>PaintingSkillName</LessonName>
+  <PageText>PaintingSkillText1</PageText>
+  <PageImage>lesson_Painting1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PaintingSkillText2</PageText>
+  <PageImage>lesson_Painting2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PaintingSkillText3</PageText>
+  <PageImage>lesson_Painting3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PaintingSkillText4</PageText>
+  <PageImage>lesson_Painting4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>WritingSkill</LessonKey>
+  <LessonName>WritingSkillName</LessonName>
+  <PageText>WritingSkillText1</PageText>
+  <PageImage>lesson_Writing1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WritingSkillText2</PageText>
+  <PageImage>lesson_Writing2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WritingSkillText3</PageText>
+  <PageImage>lesson_Writing3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WritingSkillText4</PageText>
+  <PageImage>lesson_Writing4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>GardeningSkill</LessonKey>
+  <TnsKey>GardeningSkillTNS</TnsKey>
+  <LessonName>GardeningSkillName</LessonName>
+  <PageText>GardeningSkillText1</PageText>
+  <PageImage>lesson_Gardening1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GardeningSkillText2</PageText>
+  <PageImage>lesson_Gardening2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GardeningSkillText3</PageText>
+  <PageImage>lesson_Gardening3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GardeningSkillText4</PageText>
+  <PageImage>lesson_Gardening4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>FishingSkill</LessonKey>
+  <TnsKey>FishingSkillTNS</TnsKey>
+  <LessonName>FishingSkillName</LessonName>
+  <PageText>FishingSkillText1</PageText>
+  <PageImage>lesson_Fishing1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FishingSkillText2</PageText>
+  <PageImage>lesson_Fishing2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FishingSkillText3</PageText>
+  <PageImage>lesson_Fishing3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FishingSkillText4</PageText>
+  <PageImage>lesson_Fishing4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>MartialArtsSkill</LessonKey>
+  <TnsKey>MartialArtsSkillTNS</TnsKey>
+  <LessonName>MartialArtsSkillName</LessonName>
+  <PageText>MartialArtsSkillText1</PageText>
+  <PageImage>lesson_MartialArts1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MartialArtsSkillText2</PageText>
+  <PageImage>Lesson_MartialArts2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MartialArtsSkillText3</PageText>
+  <PageImage>Lesson_MartialArts3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MartialArtsSkillText4</PageText>
+  <PageImage>Lesson_MartialArts4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>PhotographySkill</LessonKey>
+  <TnsKey>PhotographySkillTNS</TnsKey>
+  <LessonName>PhotographySkillName</LessonName>
+  <PageText>PhotographySkillText1</PageText>
+  <PageImage>lesson_Photography1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PhotographySkillText2</PageText>
+  <PageImage>lesson_Photography2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PhotographySkillText3</PageText>
+  <PageImage>lesson_Photography3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Marriage</LessonKey>
+  <LessonName>MarriageName</LessonName>
+  <PageText>MarriageText1</PageText>
+  <PageImage>lesson_Marriage1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MarriageText2</PageText>
+  <PageImage>lesson_Marriage2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MarriageText3</PageText>
+  <PageImage>lesson_Marriage3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>NectarMaking</LessonKey>
+  <TnsKey>NectarMakingTNS</TnsKey>
+  <LessonName>NectarMakingName</LessonName>
+  <PageText>NectarMakingText1</PageText>
+  <PageImage>lesson_NectarMaking1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>NectarMakingText2</PageText>
+  <PageImage>lesson_NectarMaking2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>NectarMakingText3</PageText>
+  <PageImage>lesson_NectarMaking3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Traveling</LessonKey>
+  <TnsKey>TravellingTNS</TnsKey>
+  <LessonName>TravelingName</LessonName>
+  <PageText>TravelingText1</PageText>
+  <PageImage>lesson_Traveling1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TravelingText2</PageText>
+  <PageImage>lesson_Traveling2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TravelingText3</PageText>
+  <PageImage>lesson_Traveling3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TravelingText4</PageText>
+  <PageImage>lesson_Traveling4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>VisaLevel</LessonKey>
+  <TnsKey>VisaLevelTNS</TnsKey>
+  <LessonName>VisaLevelName</LessonName>
+  <PageText>VisaLevelText1</PageText>
+  <PageImage>lesson_VisaLevel1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VisaLevelText2</PageText>
+  <PageImage>lesson_VisaLevel2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VisaLevelText3</PageText>
+  <PageImage>lesson_VisaLevel3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VisaLevelText4</PageText>
+  <PageImage>lesson_VisaLevel4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Market</LessonKey>
+  <TnsKey>MarketTNS</TnsKey>
+  <LessonName>MarkName</LessonName>
+  <PageText>MarketText1</PageText>
+  <PageImage>lesson_Market1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MarketText2</PageText>
+  <PageImage>lesson_Market2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MarketText3</PageText>
+  <PageImage>lesson_Market3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MarketText4</PageText>
+  <PageImage>lesson_Market4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>AncientCoins</LessonKey>
+  <TnsKey>AncientCoinsTNS</TnsKey>
+  <LessonName>AncientCoinsName</LessonName>
+  <PageText>AncientCoinsText1</PageText>
+  <PageImage>lesson_AncientCoins1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AncientCoinsText2</PageText>
+  <PageImage>lesson_AncientCoins2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AncientCoinsText3</PageText>
+  <PageImage>lesson_AncientCoins3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TombTech</LessonKey>
+  <TnsKey>TombTechTNS</TnsKey>
+  <LessonName>TombTechName</LessonName>
+  <PageText>TombTechText1</PageText>
+  <PageImage>Lesson_TombTech1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombTechText2</PageText>
+  <PageImage>Lesson_TombTech2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombTechText3</PageText>
+  <PageImage>Lesson_TombTech3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombTechText4</PageText>
+  <PageImage>Lesson_TombTech4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>BaseCamp</LessonKey>
+  <TnsKey>BaseCampTNS</TnsKey>
+  <LessonName>BaseCampName</LessonName>
+  <PageText>BaseCampText1</PageText>
+  <PageImage>lesson_Arrival2</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BaseCampText2</PageText>
+  <PageImage>lesson_Arrival3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TombTreasureChest</LessonKey>
+  <TnsKey>TombTreasureChestTNS</TnsKey>
+  <LessonName>TombTreasureChestName</LessonName>
+  <PageText>TombTreasureChestText1</PageText>
+  <PageImage>lesson_TombTreasureChest1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombTreasureChestText2</PageText>
+  <PageImage>lesson_TombTreasureChest2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombTreasureChestText3</PageText>
+  <PageImage>lesson_TombTreasureChest3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombTreasureChestText4</PageText>
+  <PageImage>lesson_TombTreasureChest4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TombKeystone</LessonKey>
+  <TnsKey>TombKeystoneTNS</TnsKey>
+  <LessonName>TombKeystoneName</LessonName>
+  <PageText>TombKeystoneText1</PageText>
+  <PageImage>lesson_TombKeystone1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombKeystoneText2</PageText>
+  <PageImage>lesson_TombKeystone2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombKeystoneText3</PageText>
+  <PageImage>lesson_TombKeystone3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombKeystoneText4</PageText>
+  <PageImage>lesson_TombKeystone4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TombFloorPlate</LessonKey>
+  <TnsKey>TombFloorPlateTNS</TnsKey>
+  <LessonName>TombFloorPlateName</LessonName>
+  <PageText>TombFloorPlateText1</PageText>
+  <PageImage>lesson_TombFloorSwitch1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombFloorPlateText2</PageText>
+  <PageImage>lesson_TombFloorSwitch2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombFloorPlateText3</PageText>
+  <PageImage>lesson_TombFloorSwitch3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombFloorPlateText4</PageText>
+  <PageImage>lesson_TombFloorSwitch4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TombPushableStatueInspect</LessonKey>
+  <TnsKey>TombPushableStatueInspectTNS</TnsKey>
+  <LessonName>TombPushableStatueInspectName</LessonName>
+  <PageText>TombPushableStatueInspectText1</PageText>
+  <PageImage>lesson_PushableStatue1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombPushableStatueInspectText2</PageText>
+  <PageImage>lesson_PushableStatue2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombPushableStatueInspectText3</PageText>
+  <PageImage>lesson_PushableStatue3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombPushableStatueInspectText4</PageText>
+  <PageImage>lesson_PushableStatue4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TombTrashRelic</LessonKey>
+  <TnsKey>TombTrashRelicTNS</TnsKey>
+  <LessonName>TombTrashRelicName</LessonName>
+  <PageText>TombTrashRelicText1</PageText>
+  <PageImage>lesson_TombTrashRelic1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombTrashRelicText2</PageText>
+  <PageImage>lesson_TombTrashRelic2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombTrashRelicText3</PageText>
+  <PageImage>lesson_TombTrashRelic3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TombCollectableRelic</LessonKey>
+  <TnsKey>TombCollectableRelicTNS</TnsKey>
+  <LessonName>TombCollectableRelicName</LessonName>
+  <PageText>TombCollectableRelicText1</PageText>
+  <PageImage>lesson_TombCollectibleRelic1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombCollectableRelicText2</PageText>
+  <PageImage>lesson_TombCollectibleRelic2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombCollectableRelicText3</PageText>
+  <PageImage>lesson_TombCollectibleRelic3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TombHiddenDoor</LessonKey>
+  <TnsKey>TombHiddenDoorTNS</TnsKey>
+  <LessonName>TombHiddenDoorName</LessonName>
+  <PageText>TombHiddenDoorText1</PageText>
+  <PageImage>lesson_TombHiddenDoor1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombHiddenDoorText2</PageText>
+  <PageImage>lesson_TombHiddenDoor2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombHiddenDoorText3</PageText>
+  <PageImage>lesson_TombHiddenDoor3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombHiddenDoorText4</PageText>
+  <PageImage>lesson_TombHiddenDoor4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TombFloorWallObstacle</LessonKey>
+  <TnsKey>TombFloorWallObstacleTNS</TnsKey>
+  <LessonName>TombFloorWallObstacleName</LessonName>
+  <PageText>TombFloorWallObstacleText1</PageText>
+  <PageImage>lesson_TombObstacle1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombFloorWallObstacleText2</PageText>
+  <PageImage>lesson_TombObstacle2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombFloorWallObstacleText3</PageText>
+  <PageImage>lesson_TombObstacle3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombFloorWallObstacleText4</PageText>
+  <PageImage>lesson_TombObstacle4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TombDiveWell</LessonKey>
+  <TnsKey>TombDiveWellTNS</TnsKey>
+  <LessonName>TombDiveWellName</LessonName>
+  <PageText>TombDiveWellText1</PageText>
+  <PageImage>lesson_TombDiveWell1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombDiveWellText2</PageText>
+  <PageImage>lesson_TombDiveWell2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombDiveWellText3</PageText>
+  <PageImage>lesson_TombDiveWell3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombDiveWellText4</PageText>
+  <PageImage>lesson_TombDiveWell4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TombRubblePile</LessonKey>
+  <TnsKey>TombRubblePileTNS</TnsKey>
+  <LessonName>TombRubblePileName</LessonName>
+  <PageText>TombRubblePileText1</PageText>
+  <PageImage>lesson_TombRubblePile1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombRubblePileText2</PageText>
+  <PageImage>lesson_TombRubblePile2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombRubblePileText3</PageText>
+  <PageImage>lesson_TombRubblePile3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TombHoleInWall</LessonKey>
+  <TnsKey>TombHoleInWallTNS</TnsKey>
+  <LessonName>TombHoleInWallName</LessonName>
+  <PageText>TombHoleInWallText1</PageText>
+  <PageImage>lesson_TombHoleInWal1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombHoleInWallText2</PageText>
+  <PageImage>lesson_TombHoleInWall2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombHoleInWallText3</PageText>
+  <PageImage>lesson_TombHoleInWall3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombHoleInWallText4</PageText>
+  <PageImage>lesson_TombHoleInWall4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TombMummySpawned</LessonKey>
+  <TnsKey>TombMummySpawnedTNS</TnsKey>
+  <LessonName>TombMummySpawnedName</LessonName>
+  <PageText>TombMummySpawnedText1</PageText>
+  <PageImage>lesson_TombMummy1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombMummySpawnedText2</PageText>
+  <PageImage>lesson_TombMummy2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombMummySpawnedText3</PageText>
+  <PageImage>lesson_TombMummy3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombMummySpawnedText4</PageText>
+  <PageImage>lesson_TombMummy4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TombGiantBoulder</LessonKey>
+  <TnsKey>TombGiantBoulderTNS</TnsKey>
+  <LessonName>TombGiantBoulderName</LessonName>
+  <PageText>TombGiantBoulderText1</PageText>
+  <PageImage>lesson_TombGiantBoulder1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombGiantBoulderText2</PageText>
+  <PageImage>lesson_TombGiantBoulder2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TombGiantBoulderText3</PageText>
+  <PageImage>lesson_TombGiantBoulder3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>QuestTracker</LessonKey>
+  <TnsKey>QuestTrackerTNS</TnsKey>
+  <LessonName>QuestTrackerName</LessonName>
+  <PageText>QuestTrackerText1</PageText>
+  <PageImage>lesson_AdventureTracker1</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>QuestTrackerText3</PageText>
+  <PageImage>lesson_AdventureTracker3</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>QuestTrackerText2</PageText>
+  <PageImage>lesson_AdventureTracker2</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>QuestTrackerText4</PageText>
+  <PageImage>lesson_AdventureTracker4</PageImage>
+  <EPValid>EP1</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>InGameStore</LessonKey>
+  <TnsKey>ShopModeTNS</TnsKey>
+  <LessonName>ShopModeName</LessonName>
+  <PageText>ShopModeText1</PageText>
+  <PageImage>lesson_ShopMode1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ShopModeText2</PageText>
+  <PageImage>lesson_ShopMode2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ShopModeText3</PageText>
+  <PageImage>lesson_ShopMode3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ShopModeText4</PageText>
+  <PageImage>lesson_ShopMode4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Firefighter</LessonKey>
+  <TnsKey>FirefighterTNS</TnsKey>
+  <LessonName>FirefighterName</LessonName>
+  <PageText>FirefighterText1</PageText>
+  <PageImage>lesson_Firefighter1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FirefighterText2</PageText>
+  <PageImage>lesson_Firefighter2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FirefighterText3</PageText>
+  <PageImage>lesson_Firefighter3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FirefighterText4</PageText>
+  <PageImage>lesson_Firefighter4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>PrivateEye</LessonKey>
+  <TnsKey>PrivateEyeTNS</TnsKey>
+  <LessonName>PrivateEyeName</LessonName>
+  <PageText>PrivateEyeText1</PageText>
+  <PageImage>lesson_PrivateEye1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PrivateEyeText2</PageText>
+  <PageImage>lesson_PrivateEye2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PrivateEyeText3</PageText>
+  <PageImage>lesson_PrivateEye3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PrivateEyeText4</PageText>
+  <PageImage>lesson_PrivateEye4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>InteriorDesigner</LessonKey>
+  <TnsKey>InteriorDesignerTNS</TnsKey>
+  <LessonName>InteriorDesignerName</LessonName>
+  <PageText>InteriorDesignerText1</PageText>
+  <PageImage>lesson_InteriorDesigner1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>InteriorDesignerText2</PageText>
+  <PageImage>lesson_InteriorDesigner2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>InteriorDesignerText3</PageText>
+  <PageImage>lesson_InteriorDesigner3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>InteriorDesignerText4</PageText>
+  <PageImage>lesson_InteriorDesigner4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Stylist</LessonKey>
+  <TnsKey>StylistTNS</TnsKey>
+  <LessonName>StylistName</LessonName>
+  <PageText>StylistText1</PageText>
+  <PageImage>lesson_Stylist1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>StylistText2</PageText>
+  <PageImage>lesson_Stylist2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>StylistText3</PageText>
+  <PageImage>lesson_Stylist3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>StylistText4</PageText>
+  <PageImage>lesson_Stylist4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Professions</LessonKey>
+  <TnsKey>ProfessionsTNS</TnsKey>
+  <LessonName>ProfessionsName</LessonName>
+  <PageText>ProfessionsText1</PageText>
+  <PageImage>lesson_Professions1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ProfessionsText2</PageText>
+  <PageImage>lesson_Professions2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ProfessionsText3</PageText>
+  <PageImage>lesson_Professions3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ProfessionsText4</PageText>
+  <PageImage>lesson_Professions4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ProfessionsText5</PageText>
+  <PageImage>lesson_Professions5</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>ActiveDoctor</LessonKey>
+  <TnsKey>ActiveDoctorTNS</TnsKey>
+  <LessonName>ActiveDoctorName</LessonName>
+  <PageText>ActiveDoctorText1</PageText>
+  <PageImage>lesson_ActiveDoctor1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ActiveDoctorText2</PageText>
+  <PageImage>lesson_ActiveDoctor2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ActiveDoctorText3</PageText>
+  <PageImage>lesson_ActiveDoctor3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>InventingSkill</LessonKey>
+  <TnsKey>InventingSkillTNS</TnsKey>
+  <LessonName>InventingSkillName</LessonName>
+  <PageText>InventingSkillText1</PageText>
+  <PageImage>lesson_InventingSkill1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>InventingSkillText2</PageText>
+  <PageImage>lesson_InventingSkill2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>InventingSkillText3</PageText>
+  <PageImage>lesson_InventingSkill3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>InventingSkillText4</PageText>
+  <PageImage>lesson_InventingSkill4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>SculptingStation</LessonKey>
+  <TnsKey>SculptingStationTNS</TnsKey>
+  <LessonName>SculptingStationName</LessonName>
+  <PageText>SculptingStationText1</PageText>
+  <PageImage>lesson_SculptingStation1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SculptingStationText2</PageText>
+  <PageImage>lesson_SculptingStation2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SculptingStationText3</PageText>
+  <PageImage>lesson_SculptingStation3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SculptingStationText4</PageText>
+  <PageImage>lesson_SculptingStation4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SculptingStationText5</PageText>
+  <PageImage>lesson_SculptingStation5</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TattoosSystem</LessonKey>
+  <TnsKey>TattoosSystemTNS</TnsKey>
+  <LessonName>TattoosSystemName</LessonName>
+  <PageText>TattoosSystemText1</PageText>
+  <PageImage>lesson_TattoosSystem1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TattoosSystemText2</PageText>
+  <PageImage>lesson_TattoosSystem2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TattoosSystemText3</PageText>
+  <PageImage>lesson_TattoosSystem3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TattoosSystemText4</PageText>
+  <PageImage>lesson_TattoosSystem4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TattoosSystemText5</PageText>
+  <PageImage>lesson_TattoosSystem5</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>RealEstate</LessonKey>
+  <TnsKey>RealEstateTNS</TnsKey>
+  <LessonName>RealEstateName</LessonName>
+  <PageText>RealEstateText1</PageText>
+  <PageImage>lesson_RealEstate1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RealEstateText2</PageText>
+  <PageImage>lesson_RealEstate2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RealEstateText3</PageText>
+  <PageImage>lesson_RealEstate3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RealEstateText4</PageText>
+  <PageImage>lesson_RealEstate4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RealEstateText5</PageText>
+  <PageImage>lesson_RealEstate5</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>PlacingNewVenues</LessonKey>
+  <TnsKey>PlacingNewVenuesTNS</TnsKey>
+  <LessonName>PlacingNewVenuesName</LessonName>
+  <PageText>PlacingNewVenuesText1</PageText>
+  <PageImage>lesson_PlacingNewVenues1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PlacingNewVenuesText2</PageText>
+  <PageImage>lesson_PlacingNewVenues2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PlacingNewVenuesText3</PageText>
+  <PageImage>lesson_PlacingNewVenues3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PlacingNewVenuesText4</PageText>
+  <PageImage>lesson_PlacingNewVenues4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>RoofSectionPitchControl</LessonKey>
+  <TnsKey>RoofSectionPitchControlTNS</TnsKey>
+  <LessonName>RoofSectionPitchControlName</LessonName>
+  <PageText>RoofSectionPitchControlText1</PageText>
+  <PageImage>lesson_RoofSectionPitchControl1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RoofSectionPitchControlText2</PageText>
+  <PageImage>lesson_RoofSectionPitchControl2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RoofSectionPitchControlText3</PageText>
+  <PageImage>lesson_RoofSectionPitchControl3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RoofSectionPitchControlText4</PageText>
+  <PageImage>lesson_RoofSectionPitchControl4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>MultiStoryColumns</LessonKey>
+  <TnsKey>MultiStoryColumnsTNS</TnsKey>
+  <LessonName>MultiStoryColumnsName</LessonName>
+  <PageText>MultiStoryColumnsText1</PageText>
+  <PageImage>lesson_MultiStoryColumns1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MultiStoryColumnsText2</PageText>
+  <PageImage>lesson_MultiStoryColumns2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MultiStoryColumnsText3</PageText>
+  <PageImage>lesson_MultiStoryColumns3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MultiStoryColumnsText4</PageText>
+  <PageImage>lesson_MultiStoryColumns4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>ConsignmentStores</LessonKey>
+  <TnsKey>ConsignmentStoresTNS</TnsKey>
+  <LessonName>ConsignmentStoresName</LessonName>
+  <PageText>ConsignmentStoresText1</PageText>
+  <PageImage>lesson_ConsignmentStores1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ConsignmentStoresText2</PageText>
+  <PageImage>lesson_ConsignmentStores2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ConsignmentStoresText3</PageText>
+  <PageImage>lesson_ConsignmentStores3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ConsignmentStoresText4</PageText>
+  <PageImage>lesson_ConsignmentStores4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ConsignmentStoresText5</PageText>
+  <PageImage>lesson_ConsignmentStores5</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Junkyard</LessonKey>
+  <TnsKey>JunkyardTNS</TnsKey>
+  <LessonName>JunkyardName</LessonName>
+  <PageText>JunkyardText1</PageText>
+  <PageImage>lesson_Junkyard1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>JunkyardText2</PageText>
+  <PageImage>lesson_Junkyard2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>JunkyardText3</PageText>
+  <PageImage>lesson_Junkyard3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>JunkyardText4</PageText>
+  <PageImage>lesson_Junkyard4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Laundry</LessonKey>
+  <TnsKey>LaundryTNS</TnsKey>
+  <LessonName>LaundryName</LessonName>
+  <PageText>LaundryText1</PageText>
+  <PageImage>lesson_Laundry1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>LaundryText2</PageText>
+  <PageImage>lesson_Laundry2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>LaundryText3</PageText>
+  <PageImage>lesson_Laundry3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>LaundryText4</PageText>
+  <PageImage>lesson_Laundry4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>LaundryText5</PageText>
+  <PageImage>lesson_Laundry5</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>FirefighterEmergency</LessonKey>
+  <TnsKey>FirefighterEmergencyTNS</TnsKey>
+  <LessonName>FirefighterEmergencyName</LessonName>
+  <PageText>FirefighterEmergencyText1</PageText>
+  <PageImage>Lesson_FirefighterEmergency1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FirefighterEmergencyText2</PageText>
+  <PageImage>Lesson_FirefighterEmergency2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>GhostHunter</LessonKey>
+  <TnsKey>GhostHunterTNS</TnsKey>
+  <LessonName>GhostHunterName</LessonName>
+  <PageText>GhostHunterText1</PageText>
+  <PageImage>Lesson_GhostHunter1</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GhostHunterText2</PageText>
+  <PageImage>Lesson_GhostHunter2</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GhostHunterText3</PageText>
+  <PageImage>Lesson_GhostHunter3</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GhostHunterText4</PageText>
+  <PageImage>Lesson_GhostHunter4</PageImage>
+  <EPValid>EP2</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Grouping</LessonKey>
+  <TnsKey>GroupingTNS</TnsKey>
+  <LessonName>GroupingName</LessonName>
+  <PageText>GroupingText1</PageText>
+  <PageImage>lesson_Grouping1</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GroupingText2</PageText>
+  <PageImage>lesson_Grouping2</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GroupingText3</PageText>
+  <PageImage>lesson_Grouping3</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GroupingText4</PageText>
+  <PageImage>lesson_Grouping4</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>CelebritySystemSeeACelebrity</LessonKey>
+  <TnsKey>CelebritySystemSeeACelebrityTNS</TnsKey>
+  <LessonName>CelebritySystemSeeACelebrityName</LessonName>
+  <PageText>CelebritySystemSeeACelebrityText1</PageText>
+  <PageImage>lesson_MeetingCeleb1</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CelebritySystemSeeACelebrityText2</PageText>
+  <PageImage>lesson_MeetingCeleb2</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CelebritySystemSeeACelebrityText3</PageText>
+  <PageImage>lesson_MeetingCeleb3</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>CelebritySystemBuildingLevels</LessonKey>
+  <TnsKey>CelebritySystemBuildingLevelsTNS</TnsKey>
+  <LessonName>CelebritySystemBuildingLevelsName</LessonName>
+  <PageText>CelebritySystemBuildingLevelsText1</PageText>
+  <PageImage>lesson_BeingCeleb1</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CelebritySystemBuildingLevelsText2</PageText>
+  <PageImage>lesson_BeingCeleb2</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CelebritySystemBuildingLevelsText3</PageText>
+  <PageImage>lesson_BeingCeleb3</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CelebritySystemBuildingLevelsText4</PageText>
+  <PageImage>lesson_BeingCeleb4</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CelebritySystemBuildingLevelsText5</PageText>
+  <PageImage>lesson_BeingCeleb5</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CelebritySystemBuildingLevelsText6</PageText>
+  <PageImage>lesson_BeingCeleb6</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>RockBandStarted</LessonKey>
+  <TnsKey>RockBandStartedTNS</TnsKey>
+  <LessonName>RockBandStartedName</LessonName>
+  <PageText>RockBandStartedText1</PageText>
+  <PageImage>lesson_RockBandStarted1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RockBandStartedText2</PageText>
+  <PageImage>lesson_RockBandStarted2</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RockBandStartedText3</PageText>
+  <PageImage>lesson_RockBandStarted3</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RockBandStartedText4</PageText>
+  <PageImage>lesson_RockBandStarted4</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RockBandStartedText5</PageText>
+  <PageImage>lesson_RockBandStarted5</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RockBandStartedText6</PageText>
+  <PageImage>lesson_RockBandStarted6</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>ApartmentLiving</LessonKey>
+  <TnsKey>ApartmentLivingTNS</TnsKey>
+  <LessonName>ApartmentLivingName</LessonName>
+  <PageText>ApartmentLivingText1</PageText>
+  <PageImage>lesson_HighRise1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ApartmentLivingText2</PageText>
+  <PageImage>lesson_HighRise2</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ApartmentLivingText3</PageText>
+  <PageImage>lesson_HighRise3</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ApartmentLivingText4</PageText>
+  <PageImage>lesson_HighRise4</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ApartmentLivingText5</PageText>
+  <PageImage>lesson_HighRise5</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Bartending</LessonKey>
+  <TnsKey>BartendingTNS</TnsKey>
+  <LessonName>BartendingName</LessonName>
+  <PageText>BartendingText1</PageText>
+  <PageImage>lesson_Mixology1</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BartendingText2</PageText>
+  <PageImage>lesson_Mixology2</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BartendingText3</PageText>
+  <PageImage>lesson_Mixology3</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BartendingText4</PageText>
+  <PageImage>lesson_Mixology4</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Callbox</LessonKey>
+  <TnsKey>CallboxTNS</TnsKey>
+  <LessonName>CallboxName</LessonName>
+  <PageText>CallboxText1</PageText>
+  <PageImage>lesson_Callbox1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CallboxText2</PageText>
+  <PageImage>lesson_Callbox2</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Vampire</LessonKey>
+  <TnsKey>VampireTNS</TnsKey>
+  <LessonName>VampireName</LessonName>
+  <PageText>VampireText1</PageText>
+  <PageImage>lesson_Vampire1</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VampireText2</PageText>
+  <PageImage>lesson_Vampire2</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VampireText3</PageText>
+  <PageImage>lesson_Vampire3</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VampireText4</PageText>
+  <PageImage>lesson_Vampire4</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VampireText5</PageText>
+  <PageImage>lesson_Vampire5</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>ComboRabbitHole</LessonKey>
+  <TnsKey>ComboRabbitHoleTNS</TnsKey>
+  <LessonName>ComboRabbitHoleName</LessonName>
+  <PageText>ComboRabbitHoleText1</PageText>
+  <PageImage>lesson_CombinedRH1</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ComboRabbitHoleText2</PageText>
+  <PageImage>lesson_CombinedRH2</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ComboRabbitHoleText3</PageText>
+  <PageImage>lesson_CombinedRH3</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ComboRabbitHoleText4</PageText>
+  <PageImage>lesson_CombinedRH4</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>VelvetRopesPlacement</LessonKey>
+  <TnsKey>VelvetRopesPlacementTNS</TnsKey>
+  <LessonName>VelvetRopesPlacementName</LessonName>
+  <PageText>VelvetRopesPlacementText1</PageText>
+  <PageImage>lesson_BarrierRope1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VelvetRopesPlacementText2</PageText>
+  <PageImage>lesson_BarrierRope2</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VelvetRopesPlacementText3</PageText>
+  <PageImage>lesson_BarrierRope3</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VelvetRopesPlacementText4</PageText>
+  <PageImage>lesson_BarrierRope4</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VelvetRopesPlacementText5</PageText>
+  <PageImage>lesson_BarrierRope5</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Elevators</LessonKey>
+  <TnsKey>ElevatorRestrictionsTNS</TnsKey>
+  <LessonName>ElevatorRestrictionsName</LessonName>
+  <PageText>ElevatorRestrictionsText1</PageText>
+  <PageImage>lesson_Elevator1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ElevatorRestrictionsText2</PageText>
+  <PageImage>lesson_Elevator2</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ElevatorRestrictionsText3</PageText>
+  <PageImage>lesson_Elevator3</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ElevatorRestrictionsText4</PageText>
+  <PageImage>lesson_Elevator4</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ElevatorRestrictionsText5</PageText>
+  <PageImage>lesson_Elevator5</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Butler</LessonKey>
+  <TnsKey>ButlerTNS</TnsKey>
+  <LessonName>ButlerName</LessonName>
+  <PageText>ButlerText1</PageText>
+  <PageImage>lesson_Butler1</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ButlerText2</PageText>
+  <PageImage>lesson_Butler2</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ButlerText3</PageText>
+  <PageImage>lesson_Butler3</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>YouShould</LessonKey>
+  <TnsKey>YouShouldTNS</TnsKey>
+  <LessonName>YouShouldName</LessonName>
+  <PageText>YouShouldText1</PageText>
+  <PageImage>lesson_Influence1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>YouShouldText2</PageText>
+  <PageImage>lesson_Influence2</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>BuildingGigVenues</LessonKey>
+  <LessonName>BandVenuesName</LessonName>
+  <PageText>BandVenuesText1</PageText>
+  <PageImage>lesson_BuildingBandVenue1</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BandVenuesText2</PageText>
+  <PageImage>lesson_BuildingBandVenue2</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BandVenuesText3</PageText>
+  <PageImage>lesson_BuildingBandVenue3</PageImage>
+  <EPValid>EP3</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>MidlifeCrisis</LessonKey>
+  <TnsKey>MidlifeCrisis</TnsKey>
+  <LessonName>MidlifeCrisisName</LessonName>
+  <PageText>MidlifeCrisisText1</PageText>
+  <PageImage>lesson_MidlifeCrisis1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MidlifeCrisisText2</PageText>
+  <PageImage>lesson_MidlifeCrisis2</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MidlifeCrisisText3</PageText>
+  <PageImage>lesson_MidlifeCrisis3</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MidlifeCrisisText4</PageText>
+  <PageImage>lesson_MidlifeCrisis4</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Pranks</LessonKey>
+  <TnsKey>PranksTNS</TnsKey>
+  <LessonName>PrankName</LessonName>
+  <PageText>PrankText1</PageText>
+  <PageImage>lesson_Pranks1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PrankText2</PageText>
+  <PageImage>lesson_Pranks2</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PrankText3</PageText>
+  <PageImage>lesson_Pranks3</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Memories</LessonKey>
+  <TnsKey>MemoriesTNS</TnsKey>
+  <LessonName>MemoriesName</LessonName>
+  <PageText>MemoriesText1</PageText>
+  <PageImage>lesson_Memory1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MemoriesText2</PageText>
+  <PageImage>lesson_Memory2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MemoriesText3</PageText>
+  <PageImage>lesson_Memory3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>MemoriesSharing</LessonKey>
+  <TnsKey>MemoriesSharingTNS</TnsKey>
+  <LessonName>MemoriesSharingName</LessonName>
+  <PageText>MemoriesSharingText1</PageText>
+  <PageImage>lesson_MemorySharing1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MemoriesSharingText2</PageText>
+  <PageImage>lesson_MemorySharing2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MemoriesSharingText3</PageText>
+  <PageImage>lesson_MemorySharing3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>ImaginaryFriend</LessonKey>
+  <TnsKey>ImaginaryFriendTNS</TnsKey>
+  <LessonName>ImaginaryFriendName</LessonName>
+  <PageText>ImaginaryFriendText1</PageText>
+  <PageImage>lesson_ImaginaryFriend1</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ImaginaryFriendText2</PageText>
+  <PageImage>lesson_ImaginaryFriend2</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ImaginaryFriendText3</PageText>
+  <PageImage>lesson_ImaginaryFriend3</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>RomanticMoments</LessonKey>
+  <TnsKey>RomanticMomentsTNS</TnsKey>
+  <LessonName>RomanticMomentsName</LessonName>
+  <PageText>RomanticMomentsText1</PageText>
+  <PageImage>lesson_Romantic1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RomanticMomentsText2</PageText>
+  <PageImage>lesson_Romantic2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RomanticMomentsText3</PageText>
+  <PageImage>lesson_Romantic3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>BachelorParties</LessonKey>
+  <TnsKey>BachelorPartiesTNS</TnsKey>
+  <LessonName>BachelorPartiesName</LessonName>
+  <PageText>BachelorPartiesText1</PageText>
+  <PageImage>lesson_Bachelor1</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BachelorPartiesText2</PageText>
+  <PageImage>lesson_Bachelor2</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BachelorPartiesText3</PageText>
+  <PageImage>lesson_Bachelor3</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Prom</LessonKey>
+  <TnsKey>PromTNS</TnsKey>
+  <LessonName>PromName</LessonName>
+  <PageText>PromText1</PageText>
+  <PageImage>lesson_SchoolDances1</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PromText2</PageText>
+  <PageImage>lesson_SchoolDances2</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PromText3</PageText>
+  <PageImage>lesson_SchoolDances3</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PromText4</PageText>
+  <PageImage>Lesson_SchoolDances4</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Punishment</LessonKey>
+  <TnsKey>PunishmentTNS</TnsKey>
+  <LessonName>PunishmentName</LessonName>
+  <PageText>PunishmentText1</PageText>
+  <PageImage>lesson_Punishment1</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PunishmentText2</PageText>
+  <PageImage>lesson_Punishment2</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PunishmentText3</PageText>
+  <PageImage>lesson_Punishment3</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>BoardingSchool</LessonKey>
+  <TnsKey>BoardingSchoolLessonTNS</TnsKey>
+  <LessonName>BoardingSchoolLessonName</LessonName>
+  <PageText>BoardingSchoolLessonOverview</PageText>
+  <PageImage>lesson_BoardingSchool1</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BoardingSchoolLessonPrep</PageText>
+  <PageImage>lesson_BoardingSchool2</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BoardingSchoolLessonMilitary</PageText>
+  <PageImage>lesson_BoardingSchool3</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BoardingSchoolLessonArt</PageText>
+  <PageImage>lesson_BoardingSchool4</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BoardingSchoolLessonHippy</PageText>
+  <PageImage>lesson_BoardingSchool5</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>AgingStageLengths</LessonKey>
+  <TnsKey>AgingStageLengthsTNS</TnsKey>
+  <LessonName>AgingStageLengthsName</LessonName>
+  <PageText>AgingStageLengthsText1</PageText>
+  <PageImage>lesson_AgeTuning1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AgingStageLengthsText2</PageText>
+  <PageImage>lesson_AgeTuning2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AgingStageLengthsText3</PageText>
+  <PageImage>lesson_AgeTuning3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>VideoCamera</LessonKey>
+  <TnsKey>VideoCameraTNS</TnsKey>
+  <LessonName>VideoCameraName</LessonName>
+  <PageText>VideoCameraText1</PageText>
+  <PageImage>lesson_VideoCamera1</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VideoCameraText2</PageText>
+  <PageImage>lesson_VideoCamera2</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VideoCameraText3</PageText>
+  <PageImage>lesson_VideoCamera3</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>VideoCameraText4</PageText>
+  <PageImage>lesson_VideoCamera4</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>ChemistryLab</LessonKey>
+  <TnsKey>ChemistryLabTNS</TnsKey>
+  <LessonName>ChemistryLabName</LessonName>
+  <PageText>ChemistryLabText1</PageText>
+  <PageImage>lesson_chemistry1</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ChemistryLabText2</PageText>
+  <PageImage>lesson_chemistry2</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ChemistryLabText3</PageText>
+  <PageImage>lesson_chemistry3</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Daycare</LessonKey>
+  <TnsKey>DaycareTNS</TnsKey>
+  <LessonName>DaycareName</LessonName>
+  <PageText>DaycareText1</PageText>
+  <PageImage>lesson_Daycare1</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DaycareText2</PageText>
+  <PageImage>lesson_Daycare2</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DaycareText3</PageText>
+  <PageImage>lesson_Daycare3</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DaycareText4</PageText>
+  <PageImage>lesson_Daycare4</PageImage>
+  <EPValid>EP4</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>JumpingSkill</LessonKey>
+  <TnsKey>JumpingSkillTNS</TnsKey>
+  <LessonName>JumpingSkillName</LessonName>
+  <PageText>JumpingSkillText1</PageText>
+  <PageImage>lesson_JumpingSkill1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>JumpingSkillText2</PageText>
+  <PageImage>lesson_JumpingSkill2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>JumpingSkillText3</PageText>
+  <PageImage>lesson_JumpingSkill3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>BabyPets</LessonKey>
+  <TnsKey>BabyPetsTNS</TnsKey>
+  <LessonName>BabyPetsName</LessonName>
+  <PageText>BabyPetsText1</PageText>
+  <PageImage>lesson_BabyPets1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BabyPetsText2</PageText>
+  <PageImage>lesson_BabyPets2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BabyPetsText3</PageText>
+  <PageImage>lesson_BabyPets3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BabyPetsText4</PageText>
+  <PageImage>lesson_BabyPets4</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>ReinforcePet</LessonKey>
+  <TnsKey>ReinforcePetTNS</TnsKey>
+  <LessonName>ReinforcePetName</LessonName>
+  <PageText>ReinforcePetText1</PageText>
+  <PageImage>lesson_Reinforcement1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ReinforcePetText2</PageText>
+  <PageImage>lesson_Reinforcement2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ReinforcePetText3</PageText>
+  <PageImage>lesson_Reinforcement3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>RacingSkill</LessonKey>
+  <TnsKey>RacingSkillTNS</TnsKey>
+  <LessonName>RacingSkillName</LessonName>
+  <PageText>RacingSkillText1</PageText>
+  <PageImage>lesson_RacingSkill1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RacingSkillText2</PageText>
+  <PageImage>lesson_RacingSkill2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RacingSkillText3</PageText>
+  <PageImage>lesson_RacingSkill3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>RidingSkill</LessonKey>
+  <TnsKey>RidingSkillTNS</TnsKey>
+  <LessonName>RidingSkillName</LessonName>
+  <PageText>RidingSkillText1</PageText>
+  <PageImage>lesson_RidingSkill1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RidingSkillText2</PageText>
+  <PageImage>lesson_RidingSkill2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RidingSkillText3</PageText>
+  <PageImage>lesson_RidingSkill3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>DogCatCare</LessonKey>
+  <TnsKey>DogCatCareTNS</TnsKey>
+  <LessonName>DogCatCare</LessonName>
+  <PageText>DogCatCareText1</PageText>
+  <PageImage>lesson_CatDogCare1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DogCatCareText2</PageText>
+  <PageImage>lesson_CatDogCare2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DogCatCareText3</PageText>
+  <PageImage>lesson_CatDogCare3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DogCatCareText4</PageText>
+  <PageImage>lesson_CatDogCare4</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>HorseCare</LessonKey>
+  <TnsKey>HorseCareTNS</TnsKey>
+  <LessonName>HorseCare</LessonName>
+  <PageText>HorseCareText1</PageText>
+  <PageImage>lesson_HorseCare1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HorseCareText2</PageText>
+  <PageImage>lesson_HorseCare2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HorseCareText3</PageText>
+  <PageImage>lesson_HorseCare3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>EquestrianCenter</LessonKey>
+  <TnsKey>EquestrianCenterTNS</TnsKey>
+  <LessonName>EquestrianCenterName</LessonName>
+  <PageText>EquestrianCenterText1</PageText>
+  <PageImage>lesson_EquestrianCenter1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EquestrianCenterText2</PageText>
+  <PageImage>lesson_EquestrianCenter2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EquestrianCenterText3</PageText>
+  <PageImage>lesson_EquestrianCenter3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EquestrianCenterText4</PageText>
+  <PageImage>lesson_EquestrianCenter4</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EquestrianCenterText5</PageText>
+  <PageImage>lesson_EquestrianCenter5</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>CCMAdvanced</LessonKey>
+  <TnsKey>CCMAdvancedTNS</TnsKey>
+  <LessonName>CCMAdvancedName</LessonName>
+  <PageText>CCMAdvancedText1</PageText>
+  <PageImage>lesson_AdvanceCoat1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CCMAdvancedText2</PageText>
+  <PageImage>lesson_AdvanceCoat2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CCMAdvancedText3</PageText>
+  <PageImage>lesson_AdvanceCoat3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CCMAdvancedText4</PageText>
+  <PageImage>lesson_AdvanceCoat4</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CCMAdvancedText5</PageText>
+  <PageImage>lesson_AdvanceCoat5</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CCMAdvancedText6</PageText>
+  <PageImage>lesson_AdvanceCoat6</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CCMAdvancedText7</PageText>
+  <PageImage>lesson_AdvanceCoat7</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>FBDAdvanced</LessonKey>
+  <TnsKey>FBDAdvancedTNS</TnsKey>
+  <LessonName>FBDAdvancedName</LessonName>
+  <PageText>FBDAdvancedText1</PageText>
+  <PageImage>lesson_FBDAdvanced1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FBDAdvancedText2</PageText>
+  <PageImage>lesson_FBDAdvanced2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FBDAdvancedText3</PageText>
+  <PageImage>lesson_FBDAdvanced3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>MinorPets</LessonKey>
+  <TnsKey>MinorPetsTNS</TnsKey>
+  <LessonName>MinorPetsName</LessonName>
+  <PageText>MinorPetsText1</PageText>
+  <PageImage>lesson_MinorPets1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MinorPetsText2</PageText>
+  <PageImage>lesson_MinorPets2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MinorPetsText3</PageText>
+  <PageImage>lesson_MinorPets3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>JumpLinking</LessonKey>
+  <TnsKey>JumpLinkingTNS</TnsKey>
+  <LessonName>JumpLinkingName</LessonName>
+  <PageText>JumpLinkingText1</PageText>
+  <PageImage>lesson_JumpLinking1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>JumpLinkingText2</PageText>
+  <PageImage>lesson_JumpLinking2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>JumpLinkingText3</PageText>
+  <PageImage>lesson_JumpLinking3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TrainingPosts</LessonKey>
+  <TnsKey>TrainingPostsTNS</TnsKey>
+  <LessonName>TrainingPostsName</LessonName>
+  <PageText>TrainingPostsText1</PageText>
+  <PageImage>lesson_TrainingPosts1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TrainingPostsText2</PageText>
+  <PageImage>lesson_TrainingPosts2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TrainingPostsText3</PageText>
+  <PageImage>lesson_TrainingPosts3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>DogHunting</LessonKey>
+  <TnsKey>DogHuntingTNS</TnsKey>
+  <LessonName>DogHunting</LessonName>
+  <PageText>DogHuntingText1</PageText>
+  <PageImage>lesson_DogHunting1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DogHuntingText2</PageText>
+  <PageImage>lesson_DogHunting2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DogHuntingText3</PageText>
+  <PageImage>lesson_DogHunting3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DogHuntingText4</PageText>
+  <PageImage>lesson_DogHunting4</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DogHuntingText5</PageText>
+  <PageImage>lesson_DogHunting5</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>GotFleas</LessonKey>
+  <TnsKey>GotFleasTNS</TnsKey>
+  <LessonName>GotFleas</LessonName>
+  <PageText>GotFleasText1</PageText>
+  <PageImage>lesson_GotFleas1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GotFleasText2</PageText>
+  <PageImage>lesson_GotFleas2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GotFleasText3</PageText>
+  <PageImage>lesson_GotFleas3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GotFleasText4</PageText>
+  <PageImage>lesson_GotFleas4</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>CatHunting</LessonKey>
+  <TnsKey>CatHuntingTNS</TnsKey>
+  <LessonName>CatHunting</LessonName>
+  <PageText>CatHuntingText1</PageText>
+  <PageImage>lesson_CatHunting1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CatHuntingText2</PageText>
+  <PageImage>lesson_CatHunting2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CatHuntingText3</PageText>
+  <PageImage>lesson_CatHunting3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CatHuntingText4</PageText>
+  <PageImage>lesson_CatHutning4</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CatHuntingText5</PageText>
+  <PageImage>lesson_CatHunting5</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Riding</LessonKey>
+  <TnsKey>RidingTNS</TnsKey>
+  <LessonName>RidingName</LessonName>
+  <PageText>RidingText1</PageText>
+  <PageImage>lesson_Riding1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RidingText2</PageText>
+  <PageImage>lesson_Riding2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RidingText3</PageText>
+  <PageImage>lesson_Riding3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Birds</LessonKey>
+  <TnsKey>BirdsTNS</TnsKey>
+  <LessonName>BirdsName</LessonName>
+  <PageText>BirdsText1</PageText>
+  <PageImage>lesson_Birds1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BirdsText2</PageText>
+  <PageImage>lesson_Birds2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BirdsText3</PageText>
+  <PageImage>lesson_Birds3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BirdsText4</PageText>
+  <PageImage>lesson_Birds4</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BirdsText5</PageText>
+  <PageImage>lesson_Birds5</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>BreedingPets</LessonKey>
+  <LessonName>BreedingPetsName</LessonName>
+  <PageText>BreedingPetsText1</PageText>
+  <PageImage>lesson_petbreeding1</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BreedingPetsText2</PageText>
+  <PageImage>lesson_petbreeding2</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BreedingPetsText3</PageText>
+  <PageImage>lesson_petbreeding3</PageImage>
+  <EPValid>EP5</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>StageProps</LessonKey>
+  <TnsKey>StagePropsTNS</TnsKey>
+  <LessonName>StagePropsName</LessonName>
+  <PageText>StagePropsText1</PageText>
+  <PageImage>lesson_stageprops1</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>StagePropsText2</PageText>
+  <PageImage>lesson_stageprops2</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>StagePropsText3</PageText>
+  <PageImage>lesson_stageprops3</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>StagePropsText4</PageText>
+  <PageImage>lesson_stageprops4</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>SimFest</LessonKey>
+  <TnsKey>SimFestTNS</TnsKey>
+  <LessonName>SimFestName</LessonName>
+  <PageText>SimFestText1</PageText>
+  <PageImage>lesson_simfest1</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SimFestText2</PageText>
+  <PageImage>lesson_simfest2</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>HostingASim</LessonKey>
+  <TnsKey>HostingASimTNS</TnsKey>
+  <LessonName>HostingASimName</LessonName>
+  <PageText>HostingASimText1</PageText>
+  <PageImage>lesson_hostingasim1</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HostingASimText2</PageText>
+  <PageImage>lesson_hostingasim2</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HostingASimText3</PageText>
+  <PageImage>lesson_hostingasim3</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HostingASimText4</PageText>
+  <PageImage>lesson_hostingasim4</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HostingASimText5</PageText>
+  <PageImage>lesson_hostingasim5</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HostingASimText6</PageText>
+  <PageImage>lesson_hostingasim6</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HostingASimText7</PageText>
+  <PageImage>lesson_hostingasim7</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HostingASimText8</PageText>
+  <PageImage>lesson_hostingasim8</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>SendingASim</LessonKey>
+  <TnsKey>SendingASimTNS</TnsKey>
+  <LessonName>SendingASimName</LessonName>
+  <PageText>SendingASimText1</PageText>
+  <PageImage>lesson_sendingasim1</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SendingASimText2</PageText>
+  <PageImage>lesson_sendingasim2</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SendingASimText3</PageText>
+  <PageImage>lesson_sendingasim3</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SendingASimText4</PageText>
+  <PageImage>lesson_sendingasim4</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SendingASimText5</PageText>
+  <PageImage>lesson_sendingasim5</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SendingASimText6</PageText>
+  <PageImage>lesson_sendingasim6</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SendingASimText7</PageText>
+  <PageImage>lesson_sendingasim7</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>PerformanceArtist</LessonKey>
+  <TnsKey>PerformanceArtistTNS</TnsKey>
+  <LessonName>PerformanceArtistName</LessonName>
+  <PageText>PerformanceArtistText1</PageText>
+  <PageImage>lesson_performanceartist1</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PerformanceArtistText2</PageText>
+  <PageImage>lesson_performanceartist2</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PerformanceArtistText3</PageText>
+  <PageImage>lesson_performanceartist3</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PerformanceArtistText3a</PageText>
+  <PageImage>lesson_performanceartist3a</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PerformanceArtistText4</PageText>
+  <PageImage>lesson_performanceartist4</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PerformanceArtistText5</PageText>
+  <PageImage>lesson_performanceartist5</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Magician</LessonKey>
+  <TnsKey>MagicianTNS</TnsKey>
+  <LessonName>MagicianName</LessonName>
+  <PageText>MagicianText1</PageText>
+  <PageImage>lesson_magician1</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MagicianText2</PageText>
+  <PageImage>lesson_magician2</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MagicianText3</PageText>
+  <PageImage>lesson_magician3</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MagicianText3a</PageText>
+  <PageImage>lesson_magician3a</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MagicianText4</PageText>
+  <PageImage>lesson_magician4</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MagicianText5</PageText>
+  <PageImage>lesson_magician5</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Singer</LessonKey>
+  <TnsKey>SingerTNS</TnsKey>
+  <LessonName>SingerName</LessonName>
+  <PageText>SingerText1</PageText>
+  <PageImage>lesson_singer1</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SingerText2</PageText>
+  <PageImage>lesson_singer2</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SingerText3</PageText>
+  <PageImage>lesson_singer3</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SingerText4</PageText>
+  <PageImage>lesson_singer4</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SingerText3a</PageText>
+  <PageImage>lesson_singer3a</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SingerText5</PageText>
+  <PageImage>lesson_singer5</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>PerformanceVenueSystem</LessonKey>
+  <TnsKey>PerformanceVenueSystemTNS</TnsKey>
+  <LessonName>PerformanceVenueSystemName</LessonName>
+  <PageText>PerformanceVenueSystem1</PageText>
+  <PageImage>lesson_performancevenuesystem1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PerformanceVenueSystem2</PageText>
+  <PageImage>lesson_performancevenuesystem2</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PerformancVenueSystem3a</PageText>
+  <PageImage>lesson_performancevenuesystem3a</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PerformanceVenueSystem3</PageText>
+  <PageImage>lesson_performancevenuesystem3</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PerformanceVenueSystem4</PageText>
+  <PageImage>lesson_performancevenuesystem4</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>MyWall</LessonKey>
+  <TnsKey>MyWallTNS</TnsKey>
+  <LessonName>MyWallName</LessonName>
+  <PageText>MyWallText1</PageText>
+  <PageImage>lesson_mywall1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MyWallText2</PageText>
+  <PageImage>lesson_mywall2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MyWallText3</PageText>
+  <PageImage>lesson_mywall3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MyWallText4</PageText>
+  <PageImage>lesson_mywall4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MyWallText5</PageText>
+  <PageImage>lesson_mywall5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>DynamicChallenges</LessonKey>
+  <TnsKey>AchievementsTNS</TnsKey>
+  <LessonName>AchievementsName</LessonName>
+  <PageText>AchievementsText1</PageText>
+  <PageImage>lesson_achievements1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AchievementsText2</PageText>
+  <PageImage>lesson_achievements2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AchievementsText3</PageText>
+  <PageImage>lesson_achievements3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>InGameMessages</LessonKey>
+  <TnsKey>InGameMessagesTutorialTNS</TnsKey>
+  <LessonName>InGameMessagesTutorialTitleKey</LessonName>
+  <PageText>InGameMessagesTutorialTextKey</PageText>
+  <PageImage>lesson_ingamemessages1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>InGameMessagesTutorialTextKey2</PageText>
+  <PageImage>lesson_ingamemessages2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>InGameMessagesTutorialTextKey3</PageText>
+  <PageImage>lesson_ingamemessages3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>PerformanceCareers</LessonKey>
+  <TnsKey>PerformanceCareersTutorialTNS</TnsKey>
+  <LessonName>PerformanceCareersTutorialTitleKey</LessonName>
+  <PageText>PerformanceCareersTutorialTextKey</PageText>
+  <PageImage>lesson_performancecareers1</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PerformanceCareersTutorialTextKey2</PageText>
+  <PageImage>lesson_performancecareers2</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PerformanceCareersTutorialTextKey3</PageText>
+  <PageImage>lesson_performancecareers3</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PerformanceCareersTutorialTextKey4</PageText>
+  <PageImage>lesson_performancecareers4</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>CareerOutfits</LessonKey>
+  <TnsKey>CareerOutfitsTutorialTNS</TnsKey>
+  <LessonName>CareerOutfitsTutorialTitleKey</LessonName>
+  <PageText>CareerOutfitsTutorialTextKey</PageText>
+  <PageImage>lesson_careeroutfits1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CareerOutfitsTutorialTextKey2</PageText>
+  <PageImage>lesson_careeroutfits2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CareerOutfitsTutorialTextKey3</PageText>
+  <PageImage>lesson_careeroutfits3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CareerOutfitsTutorialTextKey4</PageText>
+  <PageImage>lesson_careeroutfits4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CareerOutfitsTutorialTextKey5</PageText>
+  <PageImage>lesson_careeroutfits5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>SimPort</LessonKey>
+  <TnsKey>SimPortTNS</TnsKey>
+  <LessonName>SimPortName</LessonName>
+  <PageText>SimPortText1</PageText>
+  <PageImage>lesson_simport1</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SimPortText2</PageText>
+  <PageImage>lesson_simport2</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SimPortText3</PageText>
+  <PageImage>lesson_simport3</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SimPortText4</PageText>
+  <PageImage>lesson_simport4</PageImage>
+  <EPValid>EP6</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>WerewolfTransformation</LessonKey>
+  <TnsKey>TranformationTNS</TnsKey>
+  <LessonName>TransformationName</LessonName>
+  <PageText>TransformationText1</PageText>
+  <PageImage>lesson_werewolf1</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TransformationText2</PageText>
+  <PageImage>lesson_werewolf2</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TransformationText3</PageText>
+  <PageImage>lesson_werewolf3</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TransformationText4</PageText>
+  <PageImage>lesson_werewolf4</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>GiveAGift</LessonKey>
+  <TnsKey>GiveAGiftTNS</TnsKey>
+  <LessonName>GiveAGiftTitleKey</LessonName>
+  <PageText>GiveAGiftText1</PageText>
+  <PageImage>lesson_gifting1</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GiveAGiftText2</PageText>
+  <PageImage>lesson_gifting2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GiveAGiftText3</PageText>
+  <PageImage>lesson_gifting3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GiveAGiftText4</PageText>
+  <PageImage>lesson_gifting4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>GiveAGiftText5</PageText>
+  <PageImage>lesson_gifting5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>FairyAbilities</LessonKey>
+  <TnsKey>FairyAbilitiesTNS</TnsKey>
+  <LessonName>FairyAbilitiesTutorialKey</LessonName>
+  <PageText>FairyAbilitiesText1</PageText>
+  <PageImage>lesson_fairy1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FairyAbilitiesText2</PageText>
+  <PageImage>lesson_fairy2</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FairyAbilitiesText3</PageText>
+  <PageImage>lesson_fairy3</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FairyAbilitiesText4</PageText>
+  <PageImage>lesson_fairy4</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FairyAbilitiesText5</PageText>
+  <PageImage>lesson_fairy5</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FairyAbilitiesText6</PageText>
+  <PageImage>lesson_fairy6</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FairyAbilitiesText7</PageText>
+  <PageImage>lesson_fairy7</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>WitchAbilities</LessonKey>
+  <TnsKey>WitchAbilitiesTNS</TnsKey>
+  <LessonName>WitchAbilitiesTutorialKey</LessonName>
+  <PageText>WitchAbilitiesText1</PageText>
+  <PageImage>lesson_witchabilities1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WitchAbilitiesText2</PageText>
+  <PageImage>lesson_witchabilities2</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WitchAbilitiesText3</PageText>
+  <PageImage>lesson_witchabilities3</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WitchAbilitiesText4</PageText>
+  <PageImage>lesson_witchabilities4</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WitchAbilitiesText5</PageText>
+  <PageImage>lesson_witchabilities5</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>WitchAbilitiesText6</PageText>
+  <PageImage>lesson_witchabilities6</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>AlchemySkill</LessonKey>
+  <TnsKey>AlchemySkillTNS</TnsKey>
+  <LessonName>AlchemySkillTutorialKey</LessonName>
+  <PageText>AlchemySkillText1</PageText>
+  <PageImage>lesson_alchemy1</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AlchemySkillText2</PageText>
+  <PageImage>lesson_alchemy2</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AlchemySkillText3</PageText>
+  <PageImage>lesson_alchemy3</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AlchemySkillText4</PageText>
+  <PageImage>lesson_alchemy4</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AlchemySkillText5</PageText>
+  <PageImage>lesson_alchemy5</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>ElixirConsignmentShop</LessonKey>
+  <TnsKey>ElixirConsignmentShopTNS</TnsKey>
+  <LessonName>ElixirConsignmentShopTutorialKey</LessonName>
+  <PageText>ElixirConsignmentShopText1</PageText>
+  <PageImage>lesson_potionshop1</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ElixirConsignmentShopText2</PageText>
+  <PageImage>lesson_potionshop2</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ElixirConsignmentShopText3</PageText>
+  <PageImage>lesson_potionshop3</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ElixirConsignmentShopText4</PageText>
+  <PageImage>lesson_potionshop4</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ElixirConsignmentShopText5</PageText>
+  <PageImage>lesson_potionshop5</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>LunarCycle</LessonKey>
+  <TnsKey>LunarCycleTNS</TnsKey>
+  <LessonName>LunarCycleTutorialKey</LessonName>
+  <PageText>LunarCycleText1</PageText>
+  <PageImage>lesson_lunarcycle1</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>LunarCycleText2</PageText>
+  <PageImage>lesson_lunarcycle2</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>LunarCycleText3</PageText>
+  <PageImage>lesson_lunarcycle3</PageImage>
+  <EPValid>EP7</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>SeasonOptions</LessonKey>
+  <TnsKey>SeasonOptionsTNS</TnsKey>
+  <LessonName>SeasonOptionsName</LessonName>
+  <PageText>SeasonOptionsText1</PageText>
+  <PageImage>lesson_seasonsoptions1</PageImage>
+  <EPValid>EP8</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SeasonOptionsText2</PageText>
+  <PageImage>lesson_seasonsoptions2</PageImage>
+  <EPValid>EP8</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SeasonOptionsText3</PageText>
+  <PageImage>lesson_seasonsoptions3</PageImage>
+  <EPValid>EP8</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>BlueprintMode</LessonKey>
+  <TnsKey>BlueprintModeTNS</TnsKey>
+  <LessonName>BlueprintModeName</LessonName>
+  <PageText>BlueprintModeText1</PageText>
+  <PageImage>lesson_blueprint1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BlueprintModeText2</PageText>
+  <PageImage>lesson_blueprint2</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BlueprintModeText3</PageText>
+  <PageImage>lesson_blueprint3</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BlueprintModeText4</PageText>
+  <PageImage>lesson_blueprint4</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BlueprintModeText5</PageText>
+  <PageImage>lesson_blueprint5</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BlueprintModeText6</PageText>
+  <PageImage>lesson_blueprint6</PageImage>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>SimTemperature</LessonKey>
+  <TnsKey>FrozenSimTNS</TnsKey>
+  <LessonName>FrozenSimName</LessonName>
+  <PageText>FrozenSimText1</PageText>
+  <PageImage>lesson_temperature1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP8</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FrozenSimText2</PageText>
+  <PageImage>lesson_temperature2</PageImage>
+  <EPValid>EP8</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FrozenSimText3</PageText>
+  <PageImage>lesson_temperature3</PageImage>
+  <EPValid>EP8</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FrozenSimText4</PageText>
+  <PageImage>lesson_temperature4</PageImage>
+  <EPValid>EP8</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>OnlineDating</LessonKey>
+  <TnsKey>OnlineDatingTNS</TnsKey>
+  <LessonName>OnlineDatingName</LessonName>
+  <PageText>OnlineDatingText1</PageText>
+  <PageImage>lesson_OnlineDating1</PageImage>
+  <EPValid>EP8</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>OnlineDatingText2</PageText>
+  <PageImage>lesson_OnlineDating2</PageImage>
+  <EPValid>EP8</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>OnlineDatingText3</PageText>
+  <PageImage>lesson_OnlineDating3</PageImage>
+  <EPValid>EP8</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>OnlineDatingText4</PageText>
+  <PageImage>lesson_OnlineDating4</PageImage>
+  <EPValid>EP8</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>HolidayPhoto</LessonKey>
+  <TnsKey>HolidayPhotoTNS</TnsKey>
+  <LessonName>HolidayPhotoName</LessonName>
+  <PageText>HolidayPhotoText1</PageText>
+  <PageImage>lesson_holidayPhoto1</PageImage>
+  <EPValid>EP8</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>HolidayPhotoText2</PageText>
+  <PageImage>lesson_holidayPhoto2</PageImage>
+  <EPValid>EP8</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>PortraitPhoto</LessonKey>
+  <TnsKey>PortraitPhotoTNS</TnsKey>
+  <LessonName>PortraitPhotoName</LessonName>
+  <PageText>PortraitPhotoText1</PageText>
+  <PageImage>lesson_portraitPhoto1</PageImage>
+  <EPValid>BaseGame</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PortraitPhotoText2</PageText>
+  <PageImage>lesson_portraitPhoto2</PageImage>
+  <EPValid>BaseGame</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PortraitPhotoText3</PageText>
+  <PageImage>lesson_portraitPhoto3</PageImage>
+  <EPValid>BaseGame</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>ScienceSkill</LessonKey>
+  <TnsKey>ScienceSkillTNS</TnsKey>
+  <LessonName>ScienceSkillTutorialKey</LessonName>
+  <PageText>ScienceSkillText1</PageText>
+  <PageImage>lesson_scienceskill1</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ScienceSkillText2</PageText>
+  <PageImage>lesson_scienceskill2</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ScienceSkillText3</PageText>
+  <PageImage>lesson_scienceskill3</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ScienceSkillText4</PageText>
+  <PageImage>lesson_scienceskill4</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ScienceSkillText5</PageText>
+  <PageImage>lesson_scienceskill5</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ScienceSkillText6</PageText>
+  <PageImage>lesson_scienceskill6</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>SocialNetworking</LessonKey>
+  <TnsKey>SocialNetworkingTNS</TnsKey>
+  <LessonName>SocialNetworkingTutorialKey</LessonName>
+  <PageText>SocialNetworkingText1</PageText>
+  <PageImage>lesson_socialnetworking1</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SocialNetworkingText2</PageText>
+  <PageImage>lesson_socialnetworking2</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SocialNetworkingText3</PageText>
+  <PageImage>lesson_socialnetworking3</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SocialNetworkingText4</PageText>
+  <PageImage>lesson_socialnetworking4</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>PlantSimMotives</LessonKey>
+  <TnsKey>PlantSimMotivesTNS</TnsKey>
+  <LessonName>PlantSimMotivesKey</LessonName>
+  <PageText>PlantSimMotivesText1</PageText>
+  <PageImage>lesson_plantsimmotives1</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PlantSimMotivesText2</PageText>
+  <PageImage>lesson_plantsimmotives2</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PlantSimMotivesText3</PageText>
+  <PageImage>lesson_plantsimmotives3</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PlantSimMotivesText4</PageText>
+  <PageImage>lesson_plantsimmotives4</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PlantSimMotivesText5</PageText>
+  <PageImage>lesson_plantsimmotives5</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>PlantSimMotivesText6</PageText>
+  <PageImage>lesson_plantsimmotives6</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Roommates</LessonKey>
+  <TnsKey>RoommatesTNS</TnsKey>
+  <LessonName>RoommatesTutorialKey</LessonName>
+  <PageText>RoommatesText1</PageText>
+  <PageImage>lesson_roommates1</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RoommatesText2</PageText>
+  <PageImage>lesson_roommates2</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RoommatesText3</PageText>
+  <PageImage>lesson_roommates3</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RoommatesText4</PageText>
+  <PageImage>lesson_roommates4</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RoommatesText5</PageText>
+  <PageImage>lesson_roommates5</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RoommatesText6</PageText>
+  <PageImage>lesson_roommates6</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RoommatesText7</PageText>
+  <PageImage>lesson_roommates7</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>RoommatesText8</PageText>
+  <PageImage>lesson_roommates8</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TeenAchievementsAndUniversityWorld</LessonKey>
+  <TnsKey>TeenAchievementsAndUniversityWorldTNS</TnsKey>
+  <LessonName>TeenAchievementsAndUniversityWorldKey</LessonName>
+  <PageText>TeenAchievementsAndUniversityWorldText1</PageText>
+  <PageImage>lesson_prepareforuni1</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TeenAchievementsAndUniversityWorldText2</PageText>
+  <PageImage>lesson_prepareforuni2</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TeenAchievementsAndUniversityWorldText3</PageText>
+  <PageImage>lesson_prepareforuni3</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TeenAchievementsAndUniversityWorldText4</PageText>
+  <PageImage>lesson_prepareforuni4</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>EnrollmentToUniversity</LessonKey>
+  <TnsKey>EnrollmentToUniversityTNS</TnsKey>
+  <LessonName>EnrollmentToUniversityKey</LessonName>
+  <PageText>EnrollmentToUniversityText1</PageText>
+  <PageImage>lesson_enrollment1</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EnrollmentToUniversityText2</PageText>
+  <PageImage>lesson_enrollment2</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EnrollmentToUniversityText3</PageText>
+  <PageImage>lesson_enrollment3</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EnrollmentToUniversityText4</PageText>
+  <PageImage>lesson_enrollment4</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EnrollmentToUniversityText5</PageText>
+  <PageImage>lesson_enrollment5</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EnrollmentToUniversityText6</PageText>
+  <PageImage>lesson_enrollment6</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>EnrollmentToUniversityText7</PageText>
+  <PageImage>lesson_enrollment7</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>SocialGrouping</LessonKey>
+  <TnsKey>SocialGroupingTNS</TnsKey>
+  <LessonName>SocialGroupingTutorialKey</LessonName>
+  <PageText>SocialGroupingText1</PageText>
+  <PageImage>lesson_socialgroups1</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SocialGroupingText2</PageText>
+  <PageImage>lesson_socialgroups2</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>SocialGroupingText3</PageText>
+  <PageImage>lesson_socialgroups3</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Degrees</LessonKey>
+  <TnsKey>DegreesTNS</TnsKey>
+  <LessonName>DegreesTutorialKey</LessonName>
+  <PageText>DegreesText1</PageText>
+  <PageImage>lesson_degrees1</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DegreesText2</PageText>
+  <PageImage>lesson_degrees2</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DegreesText3</PageText>
+  <PageImage>lesson_degrees3</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DegreesText4</PageText>
+  <PageImage>lesson_degrees4</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DegreesText5</PageText>
+  <PageImage>lesson_degrees5</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DegreesText6</PageText>
+  <PageImage>lesson_degrees6</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>StreetArtSkill</LessonKey>
+  <TnsKey>StreetArtSkillTNS</TnsKey>
+  <LessonName>StreetArtSkillTutorialKey</LessonName>
+  <PageText>StreetArtSkillText1</PageText>
+  <PageImage>lesson_streetart1</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>StreetArtSkillText2</PageText>
+  <PageImage>lesson_streetart2</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>StreetArtSkillText3</PageText>
+  <PageImage>lesson_streetart3</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>AtUniversity</LessonKey>
+  <TnsKey>AtUniversityTNS</TnsKey>
+  <LessonName>AtUniversityTutorialKey</LessonName>
+  <PageText>AtUniversityText1</PageText>
+  <PageImage>lesson_atuniversity1</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AtUniversityText2</PageText>
+  <PageImage>lesson_atuniversity2</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AtUniversityText3</PageText>
+  <PageImage>lesson_atuniversity3</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AtUniversityText4</PageText>
+  <PageImage>lesson_atuniversity4</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AtUniversityText5</PageText>
+  <PageImage>lesson_atuniversity5</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AtUniversityText6</PageText>
+  <PageImage>lesson_atuniversity6</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AtUniversityText7</PageText>
+  <PageImage>lesson_atuniversity7</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>AtUniversityText8</PageText>
+  <PageImage>lesson_atuniversity8</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Dormitory</LessonKey>
+  <TnsKey>DormitoryTNS</TnsKey>
+  <LessonName>DormitoryTutorialKey</LessonName>
+  <PageText>DormitoryText1</PageText>
+  <PageImage>lesson_dorms1</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DormitoryText2</PageText>
+  <PageImage>lesson_dorms2</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DormitoryText3</PageText>
+  <PageImage>lesson_dorms3</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DormitoryText4</PageText>
+  <PageImage>lesson_dorms4</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DormitoryText5</PageText>
+  <PageImage>lesson_dorms5</PageImage>
+  <EPValid>EP9</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Mermaids</LessonKey>
+  <TnsKey>MermaidsTNS</TnsKey>
+  <LessonName>MermaidsName</LessonName>
+  <PageText>MermaidsText1</PageText>
+  <PageImage>lesson_mermaids1</PageImage>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MermaidsText2</PageText>
+  <PageImage>lesson_mermaids2</PageImage>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MermaidsText3</PageText>
+  <PageImage>lesson_mermaids3</PageImage>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>MermaidsText4</PageText>
+  <PageImage>lesson_mermaids4</PageImage>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>IslandMapFragments</LessonKey>
+  <TnsKey>IslandMapFragmentsTNS</TnsKey>
+  <LessonName>IslandMapFragmentsName</LessonName>
+  <PageText>IslandMapFragmentsText1</PageText>
+  <PageImage>lesson_IslandMapFragments1</PageImage>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>IslandMapFragmentsText2</PageText>
+  <PageImage>lesson_IslandMapFragments2</PageImage>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Resorts</LessonKey>
+  <TnsKey>ResortsTNS</TnsKey>
+  <LessonName>ResortsName</LessonName>
+  <PageText>ResortsText1</PageText>
+  <PageImage>lesson_resorts1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ResortsText2</PageText>
+  <PageImage>lesson_resorts2</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ResortsText3</PageText>
+  <PageImage>lesson_resorts3</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ResortsText4</PageText>
+  <PageImage>lesson_resorts4</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ResortsText5</PageText>
+  <PageImage>lesson_resorts5</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ResortsText6</PageText>
+  <PageImage>lesson_resorts6</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ResortsText7</PageText>
+  <PageImage>lesson_resorts7</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ResortsText8</PageText>
+  <PageImage>lesson_resorts8</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ResortsText9</PageText>
+  <PageImage>lesson_resorts9</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ResortsText10</PageText>
+  <PageImage>lesson_resorts10</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ResortsText11</PageText>
+  <PageImage>lesson_resorts11</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP10</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>CreateABot</LessonKey>
+  <TnsKey>CreateABotTNS</TnsKey>
+  <LessonName>CreateABotKey</LessonName>
+  <PageText>CreateABotText1</PageText>
+  <PageImage>lesson_cab1</PageImage>
+  <IgnoreGlobalCooldown>True</IgnoreGlobalCooldown>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateABotText2</PageText>
+  <PageImage>lesson_cab2</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateABotText3</PageText>
+  <PageImage>lesson_cab3</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateABotText4</PageText>
+  <PageImage>lesson_cab4</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CreateABotText5</PageText>
+  <PageImage>lesson_cab5</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>BotBuildingSkill</LessonKey>
+  <TnsKey>BotBuildingSkillTNS</TnsKey>
+  <LessonName>BotBuildingSkillTutorialKey</LessonName>
+  <PageText>BotBuildingSkillText1</PageText>
+  <PageImage>lesson_botbuildingskill1</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BotBuildingSkillText2</PageText>
+  <PageImage>lesson_botbuildingskill2</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BotBuildingSkillText3</PageText>
+  <PageImage>lesson_botbuildingskill3</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BotBuildingSkillText4</PageText>
+  <PageImage>lesson_botbuildingskill4</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BotBuildingSkillText5</PageText>
+  <PageImage>lesson_botbuildingskill5</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>BotBuildingSkillText6</PageText>
+  <PageImage>lesson_botbuildingskill6</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TimeAlmanac</LessonKey>
+  <TnsKey>TimeAlmanacTNS</TnsKey>
+  <LessonName>TimeAlmanacTutorialKey</LessonName>
+  <PageText>TimeAlmanacText1</PageText>
+  <PageImage>lesson_timealmanac1</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TimeAlmanacText2</PageText>
+  <PageImage>lesson_timealmanac2</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TimeAlmanacText3</PageText>
+  <PageImage>lesson_timealmanac3</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TimeAlmanacText4</PageText>
+  <PageImage>lesson_timealmanac4</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>FutureSkill</LessonKey>
+  <TnsKey>FutureSkillTNS</TnsKey>
+  <LessonName>FutureSkillTutorialKey</LessonName>
+  <PageText>FutureSkillText1</PageText>
+  <PageImage>lesson_AT01</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FutureSkillText2</PageText>
+  <PageImage>lesson_AT02</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>CauseEffect</LessonKey>
+  <TnsKey>CauseEffectTNS</TnsKey>
+  <LessonName>CauseEffectTutorialKey</LessonName>
+  <PageText>CauseEffectText1</PageText>
+  <PageImage>lesson_causeeffect1</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CauseEffectText2</PageText>
+  <PageImage>lesson_causeeffect2</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CauseEffectText3</PageText>
+  <PageImage>lesson_causeeffect3</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>CauseEffectText4</PageText>
+  <PageImage>lesson_causeeffect4</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>Descendants</LessonKey>
+  <TnsKey>DescendantsTNS</TnsKey>
+  <LessonName>DescendantsTutorialKey</LessonName>
+  <PageText>DescendantsText1</PageText>
+  <PageImage>Descendants_Page1</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DescendantsText2</PageText>
+  <PageImage>Descendants_Page2</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DescendantsText3</PageText>
+  <PageImage>Descendants_Page3</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DescendantsText4</PageText>
+  <PageImage>Descendants_Page4</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DescendantsText5</PageText>
+  <PageImage>Descendants_Page5</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>TimeStatues</LessonKey>
+  <TnsKey>TimeStatuesTNS</TnsKey>
+  <LessonName>TimeStatuesTutorialKey</LessonName>
+  <PageText>TimeStatuesText1</PageText>
+  <PageImage>LegacyStatues1</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TimeStatuesText2</PageText>
+  <PageImage>LegacyStatues2</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>TimeStatuesText3</PageText>
+  <PageImage>LegacyStatues3</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>FutureTravel</LessonKey>
+  <TnsKey>FutureTravelTNS</TnsKey>
+  <LessonName>FutureTravelTutorialKey</LessonName>
+  <PageText>FutureTravelText1</PageText>
+  <PageImage>lesson_FT01</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FutureTravelText2</PageText>
+  <PageImage>lesson_FT02</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>FutureTravelText3</PageText>
+  <PageImage>lesson_FT03</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>ServoBotCompetition</LessonKey>
+  <TnsKey>ServoBotCompetitionTNS</TnsKey>
+  <LessonName>ServoBotCompetitionTutorialKey</LessonName>
+  <PageText>ServoBotCompetitionText1</PageText>
+  <PageImage>lesson_servobotcompetition1</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ServoBotCompetitionText2</PageText>
+  <PageImage>lesson_servobotcompetition2</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ServoBotCompetitionText3</PageText>
+  <PageImage>lesson_servobotcompetition3</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ServoBotCompetitionText4</PageText>
+  <PageImage>lesson_servobotcompetition4</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>ServoBotCompetitionText5</PageText>
+  <PageImage>lesson_servobotcompetition5</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <LessonKey>DreamPod</LessonKey>
+  <TnsKey>DreamPodTNS</TnsKey>
+  <LessonName>DreamPodTutorialKey</LessonName>
+  <PageText>DreamPodText1</PageText>
+  <PageImage>lesson_dreampod1</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DreamPodText2</PageText>
+  <PageImage>lesson_dreampod2</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DreamPodText3</PageText>
+  <PageImage>lesson_dreampod3</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+<Tutorialettes>
+  <PageText>DreamPodText4</PageText>
+  <PageImage>lesson_dreampod4</PageImage>
+  <EPValid>EP11</EPValid>
+ </Tutorialettes>
+</Tutorial>

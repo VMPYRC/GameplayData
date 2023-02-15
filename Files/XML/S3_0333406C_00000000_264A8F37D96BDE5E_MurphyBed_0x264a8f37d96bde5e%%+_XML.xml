@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTuningBed>
+      <WellRestedStrength value="10">
+        <!--Mood score added by the well rested buff given by the bed. Only trigerred if value is greater than 0.-->
+      </WellRestedStrength>
+      <ComfyBuffStrength value="15">
+        <!--Mood score added by comfy buff.-->
+      </ComfyBuffStrength>
+      <GivesBadNightsSleep value="False">
+        <!--Can this bed give you the Bad Nights Sleep buff?-->
+      </GivesBadNightsSleep>
+      <EnergyMultiplier value="1">
+        <!--Multiplier on energy gain rate for this bed.  1.0f is normal, 0.5f is slow, 2.0f is really fast.-->
+      </EnergyMultiplier>
+      <AllowIntersectionWithCeilingObjects value="False">
+        <!--True if this bed is allowed to intersect objects on the cieling, false otherwise.-->
+      </AllowIntersectionWithCeilingObjects>
+      <WooHooEffectName value="" />
+      <HygieneDelta value="0">
+        <!--Hygiene change rate on this bed (not a multiplier). Positive number makes sim cleaner, negative makes them dirtier.-->
+      </HygieneDelta>
+    </kTuningBed>
+    <kChanceBedWillFall value="20">
+      <!--Range: 0-100 % chance the bed will fall on sim trying to pull it down.-->
+    </kChanceBedWillFall>
+    <kChanceOfDeathWhenFalling value="6">
+      <!--Range: 0-100 % when the bed falls, chance the bed will fall on sim attempting to pull it down.-->
+    </kChanceOfDeathWhenFalling>
+    <kIncreasedChanceOfTraitSimsToHaveBedFallOnThem value="5">
+      <!--Range: 0-100 % increased chance for Unlucky, Clumsy, Couch Potato or Absent-Minded sims to have the bed fall on them.-->
+    </kIncreasedChanceOfTraitSimsToHaveBedFallOnThem>
+    <kDecreasedChanceOfTraitSimsToHaveBedFallOnThem value="5">
+      <!--Range: 0-100 % decreased chance for Athletic, Lucky, Disciplined or Brave sims to have the bed fall on them.-->
+    </kDecreasedChanceOfTraitSimsToHaveBedFallOnThem>
+    <kIncreasedChanceOfDeathWhenClumseyOrUnlucky value="10">
+      <!--Range: 0-100 % increased chance of death for Unlucky or Clumsy sims, when the bed falls.-->
+    </kIncreasedChanceOfDeathWhenClumseyOrUnlucky>
+    <kTraitsForIncreasedChanceOfFalling value="Unlucky, Clumsy, CouchPotato, AbsentMinded">
+      <!--Range:  Trait Names; Traits that will increase the chance the bed falls-->
+    </kTraitsForIncreasedChanceOfFalling>
+    <kTraitsForDecreasedChanceOfFalling value="Athletic, Lucky, Disciplined, Brave">
+      <!--Range:  Trait Names; Traits that will decrease the chance the bed falls-->
+    </kTraitsForDecreasedChanceOfFalling>
+    <kTraitsForIncreasedChanceOfClinophobiaBuff value="Coward">
+      <!--Range:  Trait Names; Traits that will get increased chance of getting Clinophobia buff if the bed falls-->
+    </kTraitsForIncreasedChanceOfClinophobiaBuff>
+    <kBaseChanceOfGettingClinophobiaBuff value="100">
+      <!--Range: 0-100 % base chance of getting clinophobia when the bed falls.-->
+    </kBaseChanceOfGettingClinophobiaBuff>
+    <kIncreasedChanceOfGettingClinophobiaBuffWithTraits value="5">
+      <!--Range: 0-100 % increased chance of getting clinophobia when the bed falls, if you have kTraitsForIncreasedChanceOfClinophobiaBuff trait.-->
+    </kIncreasedChanceOfGettingClinophobiaBuffWithTraits>
+  </Current_Tuning>
+</base>

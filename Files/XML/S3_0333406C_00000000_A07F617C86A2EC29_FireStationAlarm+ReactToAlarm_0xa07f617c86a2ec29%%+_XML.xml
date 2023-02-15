@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLoopRange value="20, 45">
+      <!--Range:  float  Description:  How long sims will loop in minutes.-->
+    </kLoopRange>
+    <kRoutingRange value="3, 8">
+      <!--Range:  float  Description:  How far away sims will route before playing their animations.-->
+    </kRoutingRange>
+    <kAnimationWeightTable value="3, 2, 10">
+      <!--Range:  float  Description:  Weight table for choosing the 'Walkie Talkie, Look at Map, or Point' animations (in that order) while responding.-->
+    </kAnimationWeightTable>
+  </Current_Tuning>
+</base>

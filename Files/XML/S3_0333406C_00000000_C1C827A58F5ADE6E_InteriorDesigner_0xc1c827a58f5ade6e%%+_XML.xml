@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAllowPlayerToUseFamilyFundsToGoOverBudget value="True">
+      <!--Range:  true or false  Description:  Allows player to use the active household's family funds to cover going over-budget on a renovation.-->
+    </kAllowPlayerToUseFamilyFundsToGoOverBudget>
+    <kTaskTypeCountMin value="5">
+      <!--Range:  0 - 5  Description:  Minimum number of task types assigned for a job.-->
+    </kTaskTypeCountMin>
+    <kTaskTypeCountMax value="5">
+      <!--Range:  kTaskCountMin - 5  Description:  Maximum number of task types assigned for a job.-->
+    </kTaskTypeCountMax>
+    <kMinimumJobValidityLength value="2">
+      <!--Range:  number of days  Description:  How long a job should be able to remain valid before it is given as an option.-->
+    </kMinimumJobValidityLength>
+    <kMaximumLengthOfPendingEventDrivenJobQueue value="20">
+      <!--Maximum number of story-progression related possible jobs to remember before forgetting old ones.-->
+    </kMaximumLengthOfPendingEventDrivenJobQueue>
+    <kMinLevelForDiscussRenovation value="8">
+      <!--Range:  0 - 10 Description: career level when the Discuss Renovation interaction becomes available.-->
+    </kMinLevelForDiscussRenovation>
+    <kMaximumSimWaitTimeInMinutes value="30">
+      <!--Time in minutes for the Sim to wait for people to exit a lot before entering renovation mode.-->
+    </kMaximumSimWaitTimeInMinutes>
+    <kBuybackValueFactor value="0.4">
+      <!--Buyback value factor to apply to object prices when selling objects owned by the client if they have never depreciated. Range: 0 (existing objects are worthless when sold) to 1 (no fake depreciation at all).-->
+    </kBuybackValueFactor>
+    <kLevelToGetBuildBuyDiscount value="1">
+      <!--At this level the Sim will get a tunable discount to build & buy purchases. Range: 1-10.-->
+    </kLevelToGetBuildBuyDiscount>
+    <kBuyModeDiscountFactor value="0.4">
+      <!--Discount factor applied to Buy Mode prices when Sim is at or above kLevelToGetBuildBuyDiscount. Range: 0 (no discount) to 1 (free).-->
+    </kBuyModeDiscountFactor>
+    <kBuildModeDiscountFactor value="0.4">
+      <!--Discount factor applied to Build Mode prices when Sim is at or above kLevelToGetBuildBuyDiscount. Range: 0 (no discount) to 1 (free).-->
+    </kBuildModeDiscountFactor>
+    <kLevelToGetHomemadeObjectBonus value="7">
+      <!--At this level the Sim will get a tunable bonus to the value of homemade objects. Range: 1-10.-->
+    </kLevelToGetHomemadeObjectBonus>
+    <kHomemadeObjectBonusSimoleonsAwardedPerHomeMadeObject value="10">
+      <!--Metric Tuning: Special Items: Bonus Simoleons awarded per home-made object if Sim's career level is high enough.-->
+    </kHomemadeObjectBonusSimoleonsAwardedPerHomeMadeObject>
+    <kHomemadeObjectBonusSimoleonsAwardedPerPersonalObject value="90">
+      <!--Metric Tuning: Special Items: Bonus Simoleons awarded per personal object if Sim's career level is high enough.-->
+    </kHomemadeObjectBonusSimoleonsAwardedPerPersonalObject>
+    <kMaximumSimWaitTimeInMinutesBeforeShowingTNS value="5">
+      <!--Time in minutes for the Sim to wait for people to exit a lot before showing the explanatory TNS.-->
+    </kMaximumSimWaitTimeInMinutesBeforeShowingTNS>
+  </Current_Tuning>
+</base>

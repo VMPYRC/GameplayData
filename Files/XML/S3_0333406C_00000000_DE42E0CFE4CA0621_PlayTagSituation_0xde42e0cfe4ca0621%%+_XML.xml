@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRelationshipSTCDelta value="70">
+      <!--Friendly STC, per hour, for Playing catch. This is among all players!-->
+    </kRelationshipSTCDelta>
+    <kRelationshipLTRDelta value="5">
+      <!--LTR gain, per hour, for Playing Catch. This is among all players!-->
+    </kRelationshipLTRDelta>
+    <kHunterDelay value="1">
+      <!--How long the hunter will wait, in seconds, before running after the prey-->
+    </kHunterDelay>
+    <kCatchBreathWeightMultiplier value="1.5">
+      <!--Multiplier k on weight, such that the chance of catching breath is weight * k - fitness-->
+    </kCatchBreathWeightMultiplier>
+    <kCatchBreathMinumumChance value="0.3">
+      <!--Minimum chance of having to catch breath after running a leg-->
+    </kCatchBreathMinumumChance>
+    <kMaxDistanceFromOrigin value="30">
+      <!--Maximum radial distance from where the interaction originated-->
+    </kMaxDistanceFromOrigin>
+    <kMinDistanceFromCurrentPoint value="9">
+      <!--Minumum radial distance from where the current prey is-->
+    </kMinDistanceFromCurrentPoint>
+    <kChangePreyChance value="0.25">
+      <!--Chance that the hunter switches prey after running a leg-->
+    </kChangePreyChance>
+    <kPercentDistanceForLaughMin value="0.3">
+      <!--Min percent of total distance the sim will play the laugh sound-->
+    </kPercentDistanceForLaughMin>
+    <kPercentDistanceForLaughMax value="0.8">
+      <!--Max percent of total distance the sim will play the laugh sound-->
+    </kPercentDistanceForLaughMax>
+  </Current_Tuning>
+</base>

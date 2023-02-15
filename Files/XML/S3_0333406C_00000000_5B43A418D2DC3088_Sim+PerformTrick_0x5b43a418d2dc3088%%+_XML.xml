@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTraitsThatCauseSimToReactNegatively value="MeanSpirited, Grumpy, Snob">
+      <!--Range:  TraitNames[]  Description:  Traits that will cause the sim to react negatively to the trick-->
+    </kTraitsThatCauseSimToReactNegatively>
+    <kTraitsThatCauseSimToReactPositively value="Friendly, DogPerson, AnimalLover">
+      <!--Range:  TraitNames[]  Description:  Traits that will cause the sim to react positively to the trick. These override the negative reaction traits-->
+    </kTraitsThatCauseSimToReactPositively>
+    <kSocialToPushOnSuccess value="PraisePet">
+      <!--Name of the social that is pushed if the sim reacts positively-->
+    </kSocialToPushOnSuccess>
+    <kLTRGain value="3">
+      <!--Amount of positive LTR gained from performing trick-->
+    </kLTRGain>
+  </Current_Tuning>
+</base>

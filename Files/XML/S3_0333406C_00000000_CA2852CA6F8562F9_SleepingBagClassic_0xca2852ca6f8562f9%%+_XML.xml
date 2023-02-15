@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTuning>
+      <ChanceToGrantBackacheBuff value=".50">
+        <!--Chance to give Backache buff once the sim has slept in the sleeping bag. Positive float. Range [0, 1].-->
+      </ChanceToGrantBackacheBuff>
+      <MinimumHoursToSleepToGetBackacheBuff value="4">
+        <!--The minimum number of Sim hours a Sim must sleep to have a chance of getting the Backache buff when waking up. Positive float. Units: Sim hours.-->
+      </MinimumHoursToSleepToGetBackacheBuff>
+      <ChanceToGrantSnugAsABugBackacheBuff value="1">
+        <!--Chance to give SnugAsABug buff once the sim has slept in the sleeping bag. Positive float. Range [0, 1].-->
+      </ChanceToGrantSnugAsABugBackacheBuff>
+      <MinimumHoursToSleepToGetSnugAsABugBuff value="4">
+        <!--The minimum number of Sim hours a Sim must sleep to have a chance of getting the SnugAsABug buff when waking up. Positive float. Units: Sim hours.-->
+      </MinimumHoursToSleepToGetSnugAsABugBuff>
+    </kTuning>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToKillMosquito value="50">
+      <!--Chance of killing a mosquito on a mosquito attack.  Type float, GPE default 40.0f-->
+    </kChanceToKillMosquito>
+    <kBonusMosquitoDefChance value="35">
+      <!--Bonus percentage given by traits to kill a mosquito.  Type float, GPE default 50.0f-->
+    </kBonusMosquitoDefChance>
+    <kGoodTraitsForMosquito value="Lucky, LovesTheOutdoors">
+      <!--List of Traits that will increase the kill mosquito probability.  Type TraitNames-->
+    </kGoodTraitsForMosquito>
+    <kBadTraitsForMosquito value="Unlucky, HatesOutdoors, Loser">
+      <!--List of Traits that will make sure you are always bitten by mosquitoes.  Type TraitNames-->
+    </kBadTraitsForMosquito>
+  </Current_Tuning>
+</base>

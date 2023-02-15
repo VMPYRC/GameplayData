@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRoutingDistance value="2">
+      <!--The radius to route to before casting the spell. 0.0+-->
+    </kRoutingDistance>
+    <kRelationshipBoostWithZombie value="20">
+      <!--Amount that Friendly STC will be increased between the caster and the reanimated Sim.  This will increase LTR as well.-->
+    </kRelationshipBoostWithZombie>
+    <kMotiveDrain value="100">
+      <!--Amount that this spell drains from motives.  Range: 0-200-->
+    </kMotiveDrain>
+  </Current_Tuning>
+</base>

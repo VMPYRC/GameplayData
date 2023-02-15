@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFulfilledBuffStackTimes value="5">
+      <!--Range:  Integer.  Description:  Number of times that the 'Fulfilled' buff can stack.  0 means no increase in mood, only timer refresh.  Otherwise any number greater than 0 means the number of times the Fulfilled buff will 'combo up' and get bigger mood benefits.-->
+    </kFulfilledBuffStackTimes>
+    <kFulfilledBuffStackMoodValue value="5">
+      <!--Range:  Mood value.  Description:  Bonus mood value for each time the 'Fulfilled' buff stacks.-->
+    </kFulfilledBuffStackMoodValue>
+  </Current_Tuning>
+</base>

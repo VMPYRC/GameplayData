@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDelayBeforeLeaving value="0.5">
+      <!--Length of time (in hours) that scenario NPC waits before leaving the lot, after his work is done-->
+    </kDelayBeforeLeaving>
+    <kCheckTime value="5">
+      <!--Length of time (in minutes) between checks for fixing complete-->
+    </kCheckTime>
+    <kExtraWaitTimeAfterSocializing value="0.5">
+      <!--Extra time (in hours) to wait before leaving if the NPC is socialized with-->
+    </kExtraWaitTimeAfterSocializing>
+    <kCameraLerpParams>
+      <Time value="3">
+        <!--Time in seconds the camera movement should take.-->
+      </Time>
+      <Zoom value="4">
+        <!--Distance in meters from the target point the camera should float.-->
+      </Zoom>
+      <Pitch value="-45">
+        <!--Angle from the horizon the camera should point down from.  Negative values are the camera above the horizon, looking down.-->
+      </Pitch>
+      <Yaw value="-100">
+        <!--Angle about the target the camera should point from. Positive values are clockwise around the target (to the right-hand side) from the target's point of view.  Valid range: [-90, 90]-->
+      </Yaw>
+      <Swing value="True">
+        <!--Determines whether the camera should swing down to look at the ground if currently in look at sky mode.  Valid range: [0, 360)-->
+      </Swing>
+    </kCameraLerpParams>
+    <kWantHelpPosition>
+      <x value="0" />
+      <y value="-0.7" />
+    </kWantHelpPosition>
+  </Current_Tuning>
+</base>

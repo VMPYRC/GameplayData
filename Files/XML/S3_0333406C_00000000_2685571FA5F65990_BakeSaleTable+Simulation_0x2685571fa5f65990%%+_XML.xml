@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDemandWeights value="4, 8, 2, 1">
+      <!--Weighting of each demand {low, med, high, ult}-->
+    </kDemandWeights>
+    <kUpdateBakeSaleSimulationTime value="0">
+      <!--What time of day the bake sale should update the demand values.-->
+    </kUpdateBakeSaleSimulationTime>
+    <kVanillaLowPricePoints value="2, 4, 6, 10">
+      <!--Vanilla low price points.  If price is equal or lower than these values, the sims will always buy.  Decreasing chance up to high price points-->
+    </kVanillaLowPricePoints>
+    <kVanillaHighPricePoints value="8, 12, 18, 20">
+      <!--Vanilla high price points.  If higher than these values, sims will not buy for the given demand.-->
+    </kVanillaHighPricePoints>
+    <kChocolateLowPricePoints value="2, 4, 6, 10">
+      <!--Chocolate low price points.  If price is equal or lower than these values, the sims will always buy.  Decreasing chance up to high price points-->
+    </kChocolateLowPricePoints>
+    <kChocolateHighPricePoints value="8, 12, 18, 20">
+      <!--Chocolate high price points.  If higher than these values, sims will not buy for the given demand.-->
+    </kChocolateHighPricePoints>
+    <kOtherLowPricePoints value="2, 4, 6, 10">
+      <!--Other low price points.  If price is equal or lower than these values, the sims will always buy.  Decreasing chance up to high price points-->
+    </kOtherLowPricePoints>
+    <kOtherHighPricePoints value="8, 12, 18, 20">
+      <!--Other high price points.  If higher than these values, sims will not buy for the given demand.-->
+    </kOtherHighPricePoints>
+  </Current_Tuning>
+</base>

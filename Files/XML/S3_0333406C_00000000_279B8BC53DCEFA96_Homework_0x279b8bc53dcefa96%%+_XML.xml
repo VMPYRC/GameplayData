@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBaseCompletetionPerMinute value=".556">
+      <!--The percent of homework that is completed per Sim minute before any modifiers.  This is the base completionRate-->
+    </kBaseCompletetionPerMinute>
+    <kCompletetionRateModifierFailing value=".556">
+      <!--The amount added to completionRate if the Sim has the 'Failing' buff.-->
+    </kCompletetionRateModifierFailing>
+    <kCompletetionRateModifierMoodHappy value=".1">
+      <!--The amount added to completionRate if the Sim is happy.-->
+    </kCompletetionRateModifierMoodHappy>
+    <kCompletetionRateModifierMoodVeryHappy value=".25">
+      <!--The amount added to completionRate if the Sim is very happy.-->
+    </kCompletetionRateModifierMoodVeryHappy>
+    <kCompletetionRateModifierMoodElated value=".556">
+      <!--The amount added to completionRate if the Sim is elated.-->
+    </kCompletetionRateModifierMoodElated>
+    <kCompletetionRateModifierHomeworkSkill value="1.111">
+      <!--The amount added to completionRate when the Sim is at homework skill level 10.  Other levels will be interpolated from this value.-->
+    </kCompletetionRateModifierHomeworkSkill>
+    <kHomeworkSkillPPM value="10">
+      <!--The number of homework skill points gained per minute.-->
+    </kHomeworkSkillPPM>
+    <kCopyingMultiplier value="3">
+      <!--The completion rate multiplier for when a Sim is copying another Sim's homework.-->
+    </kCopyingMultiplier>
+    <kCopyingBroadcasterParams>
+      <PulseRadius value="5">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <PulseRepeatTime value="5">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="False">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="False">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kCopyingBroadcasterParams>
+    <kCopyingMultiplierOld value="1">
+      <!--The completion rate multiplier for when a Sim is copying old homework.-->
+    </kCopyingMultiplierOld>
+    <kNoGlowRateCap value="1">
+      <!--Progress rates below this will have no glow.-->
+    </kNoGlowRateCap>
+    <kWeakGlowRateCap value="1.444">
+      <!--Progress rates below this will have no glow.-->
+    </kWeakGlowRateCap>
+    <kCompletetionRateModifierLibrary value="1.111">
+      <!--The amount added to completionRate if the Sim is at a library.-->
+    </kCompletetionRateModifierLibrary>
+    <kTeenDifficultyMultiplier value=".667">
+      <!--This multiplier is applied to how quickly Sims do homework when they are teens.  Expected less than 1 because teen homework is harder-->
+    </kTeenDifficultyMultiplier>
+    <kMaxDistanceFromSim value="10">
+      <!--This is the max distance used when checking to see if nearby Sims are also doing homework.-->
+    </kMaxDistanceFromSim>
+    <kCompletetionRateModifierWorkingWithOthers value=".25">
+      <!--The amount added to completionRate if the Sim is near other Sims working on homework.-->
+    </kCompletetionRateModifierWorkingWithOthers>
+    <kCompletetionRateModifierBeingHelped value=".556">
+      <!--The amount added to completionRate if the Sim is being helped.-->
+    </kCompletetionRateModifierBeingHelped>
+    <kBeingHelpedSTC value="Friendly">
+      <!--Social STC when receiving help.-->
+    </kBeingHelpedSTC>
+    <kBeingHelpedSTCIncrement value="30">
+      <!--The STC delta per hour when receiving help.-->
+    </kBeingHelpedSTCIncrement>
+    <kBeingHelpedLTRIncrement value="8">
+      <!--The LTR delta per hou when receiving help.-->
+    </kBeingHelpedLTRIncrement>
+    <kSocialDeltaHelper value="50">
+      <!--The social motive delta for the Sim helping with homework.-->
+    </kSocialDeltaHelper>
+    <kSocialDeltaHelpee value="50">
+      <!--The social motive delta for the Sim being helped with homework.-->
+    </kSocialDeltaHelpee>
+    <kCompletetionRateModifierEducationCareerBonusAmount value="0.2">
+      <!--The additional amount added to completionRate if the helper is a qualified Educator.-->
+    </kCompletetionRateModifierEducationCareerBonusAmount>
+    <kEducationCareerBonusLevelStart value="4">
+      <!--Level at which Educators start giving a bonus when helping with homework-->
+    </kEducationCareerBonusLevelStart>
+    <kBaseCompletetionPerMinuteVampire value="5">
+      <!--The percent of homework that is completed per Sim minute before any modifiers.  This is the base completionRate-->
+    </kBaseCompletetionPerMinuteVampire>
+    <kCompletetionRateModifierSuperNannyBonusAmount value="0.2">
+      <!--The additional amount added to completionRate if the helper is a SuperNanny.-->
+    </kCompletetionRateModifierSuperNannyBonusAmount>
+    <kCompletetionRateModifierStudyClub value="0.5">
+      <!--The amount added to completionRate if Sim is doing homework in the Afterschool Activity Study Club.-->
+    </kCompletetionRateModifierStudyClub>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

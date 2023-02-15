@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMoodScoreMultiplier value="0.2">
+      <!--Range: Float.  Description: Multiplier for Moods to be added as a score at the start of the competition.-->
+    </kMoodScoreMultiplier>
+    <kNumberOfCompetitors value="12, 12, 12">
+      <!--Range: Positive Int.  Description: Number of Competitors. [Battle, Building, Acting]-->
+    </kNumberOfCompetitors>
+    <kToneSuccessChance value="0.8, 0.6, 0.6">
+      <!--Range: 0-1.  Description: Chance of bonus success based on tone [Play it Safe, Take Risks, Go For Broke]-->
+    </kToneSuccessChance>
+    <kToneBonus value="2, 12, 18">
+      <!--Range: Int.  Description: Bonus given based on tone [Play it Safe, Take Risks, Go For Broke]-->
+    </kToneBonus>
+    <kTonePenalty value="0, 6, 14">
+      <!--Range: Int.  Description: Penalty given based on tone [Play it Safe, Take Risks, Go For Broke]-->
+    </kTonePenalty>
+    <kBattleSkillRequired value="-1, 3, 7">
+      <!--Range: Int.  Description: Athletic skill level required for Battle competition [Beginner, Advanced, International]-->
+    </kBattleSkillRequired>
+    <kBuildingSkillRequired value="-1, 3, 7">
+      <!--Range: Int.  Description: Bot-Building skill level required for Battle competition [Beginner, Advanced, International]-->
+    </kBuildingSkillRequired>
+    <kActingSkillRequired value="-1, 3, 7">
+      <!--Range: Int.  Description: Charisma skill level required for Battle competition [Beginner, Advanced, International]-->
+    </kActingSkillRequired>
+    <kPositionsForFinishTypes value="7, 2, 1">
+      <!--Range: 1-12.  Description: Position Ranges for [PoorFinish, StandardFinish, Victory].-->
+    </kPositionsForFinishTypes>
+    <kSkillPointsAdded value="100, 100, 100">
+      <!--Range: Float.  Description: Skill points added to bot after competition [Battle, Building, Acting]-->
+    </kSkillPointsAdded>
+    <kDebugShowCompetitionRoundTNS value="False">
+      <!--Bool: (Debug) Show Round Score-->
+    </kDebugShowCompetitionRoundTNS>
+    <kHumanEmotionBonus value="3">
+      <!--Range: Int.  Description: Bonus given in Acting competition when Robot has Human Emotion trait chip-->
+    </kHumanEmotionBonus>
+    <kBatteryPowerBonus value="0, 0, 0">
+      <!--Range: Int.  Description: Bonus given based upon Battery Power motive [low, medium, high]-->
+    </kBatteryPowerBonus>
+    <kMaintenanceBonus value="0, 0, 0">
+      <!--Range: Int.  Description: Bonus given based upon Maintenance motive [low, medium, high]-->
+    </kMaintenanceBonus>
+    <kAssociatedSkills value="Athletic, BotBuilding, Charisma">
+      <!--Range: Skills.  Description: Skills benefiting from the different competition types [Battle, Building, Acting]-->
+    </kAssociatedSkills>
+    <kEfficientChipBonus value="9">
+      <!--Range: Int.  Description: Bonus given in all competition when Robot has Efficient Chip trait-->
+    </kEfficientChipBonus>
+    <kBatteryDelta value="-20, -40, -80">
+      <!--Range: Float.  Description: Battery Power change per hour based on tone [Play it Safe, Take Risks, Go For Broke]-->
+    </kBatteryDelta>
+    <kMaintenanceDelta value="-20, -40, -80">
+      <!--Range: Float.  Description: Maintenance change per hour based on tone [Play it Safe, Take Risks, Go For Broke]-->
+    </kMaintenanceDelta>
+    <kDurationOfRound value="7">
+      <!--Range: Minutes.  Description: During a competition, scores are adjusted every this number of Sim Minutes-->
+    </kDurationOfRound>
+    <kMotiveBonusThreshold value="-50, 35">
+      <!--Range: Float.  Description: Motive threshold values to determine bonuses [low, medium]-->
+    </kMotiveBonusThreshold>
+    <kCoolDownTime value="120">
+      <!--Range: Sim minutes.  Description:  Number of Sim minutes before a player can do this interaction again.-->
+    </kCoolDownTime>
+    <kTunedForCompetitionBonus value="4">
+      <!--Range: Int.  Description: Bonus given in all competition when Robot has Tuned For Competition Buff-->
+    </kTunedForCompetitionBonus>
+  </Current_Tuning>
+</base>

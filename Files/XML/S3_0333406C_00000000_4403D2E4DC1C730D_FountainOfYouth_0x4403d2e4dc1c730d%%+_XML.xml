@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToGetCommonSuccess value="0.4">
+      <!--Range: Float [0,1]. Weighted chance of getting wish with common sucess.-->
+    </kChanceToGetCommonSuccess>
+    <kChanceToGetRareSuccess value="0.05">
+      <!--Range: Float [0,1]. Weighted chance of getting wish with rare success.-->
+    </kChanceToGetRareSuccess>
+    <kChanceToGetFailure value="0.5">
+      <!--Range: Float [0,1]. Weighted chance of getting failure on a wish.-->
+    </kChanceToGetFailure>
+    <kChanceToGetRareFailure value="0.05">
+      <!--Range: Float [0,1]. Weighted chance of getting rare failure on a wish.-->
+    </kChanceToGetRareFailure>
+    <kFundCostPerWish value="25">
+      <!--Range: int. Funds removed when Sim makes a wish into the funtain.-->
+    </kFundCostPerWish>
+    <kMinDistanceFromObjectToView value="0.8">
+      <!--The minimum distance the Sim can be from the object in order to view it.-->
+    </kMinDistanceFromObjectToView>
+    <kMaxDistanceFromObjectToView value="1.5">
+      <!--The max distance the Sim can be from the object in order to view it.-->
+    </kMaxDistanceFromObjectToView>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="45">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+  </Current_Tuning>
+</base>

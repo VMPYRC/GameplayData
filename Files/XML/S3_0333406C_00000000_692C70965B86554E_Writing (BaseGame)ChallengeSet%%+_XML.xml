@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Writing (BaseGame)</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1086</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>474</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>2</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Write a $BookGenre novel</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>BookGenre</SubjectType>
+        <EnumName>SciFi</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>WriteAGenreBookFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1087</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>474</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>2</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Write a $BookGenre novel</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>BookGenre</SubjectType>
+        <EnumName>Drama</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>WriteAGenreBookFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1088</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>474</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>2</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Write a $BookGenre novel</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>BookGenre</SubjectType>
+        <EnumName>Humor</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>WriteAGenreBookFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1090</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>474</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>2</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Write a $BookGenre novel</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>BookGenre</SubjectType>
+        <EnumName>Mystery</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>WriteAGenreBookFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1091</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>474</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>2</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Write a $BookGenre novel</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>BookGenre</SubjectType>
+        <EnumName>Romance</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>WriteAGenreBookFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1092</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>474</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>2</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Write a $BookGenre novel</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>BookGenre</SubjectType>
+        <EnumName>Vaudeville</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>WriteAGenreBookFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1093</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/86e56ce5-c4dc-47e3-85e1-7d11b2f0abf1:Name</NameKey>
+    <Name>Master of the Literary Arts</Name>
+    <SetName>Writing (BaseGame)</SetName>
+    <ChallengeGuid>86e56ce5-c4dc-47e3-85e1-7d11b2f0abf1</ChallengeGuid>
+    <ExportVersion>5</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>((((1086AndOP1087)AndOP1088)AndOP(1090AndOP1091))ThenOP1092)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/86e56ce5-c4dc-47e3-85e1-7d11b2f0abf1:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\writing_64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_gold_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

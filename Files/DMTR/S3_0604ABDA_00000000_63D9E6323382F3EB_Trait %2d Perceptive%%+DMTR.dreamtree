@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DreamTree Version="1">
+  <Category>EP2</Category>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>717623076</Id>
+    <ParentId>4152055092</ParentId>
+    <PrototypeId>2707355146</PrototypeId>
+    <Center>
+      <X>-351</X>
+      <Y>-934</Y>
+    </Center>
+    <FulfillmentScore>50</FulfillmentScore>
+    <AgeZeroCheck>true</AgeZeroCheck>
+    <AgeGroups>
+      <string>Teen</string>
+      <string>YoungAdult</string>
+      <string>Adult</string>
+      <string>Elder</string>
+    </AgeGroups>
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits>
+      <SelectedTrait>
+        <Trait>Perceptive</Trait>
+        <Required>true</Required>
+        <Excluded>false</Excluded>
+      </SelectedTrait>
+    </Traits>
+    <Relationships />
+    <InputSubject>Logic</InputSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>961839485</Id>
+    <ParentId>2898870006</ParentId>
+    <PrototypeId>3772114438</PrototypeId>
+    <Center>
+      <X>-745</X>
+      <Y>-920</Y>
+    </Center>
+    <FulfillmentScore>40</FulfillmentScore>
+    <AgeZeroCheck>true</AgeZeroCheck>
+    <AgeGroups>
+      <string>YoungAdult</string>
+      <string>Adult</string>
+      <string>Elder</string>
+    </AgeGroups>
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits>
+      <SelectedTrait>
+        <Trait>Perceptive</Trait>
+        <Required>true</Required>
+        <Excluded>false</Excluded>
+      </SelectedTrait>
+    </Traits>
+    <Relationships />
+    <InputSubject>PrivateEye</InputSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>1033211677</Id>
+    <ParentId>1033211677</ParentId>
+    <IsRoot>true</IsRoot>
+    <PrototypeId>153415414</PrototypeId>
+    <Center>
+      <X>-454</X>
+      <Y>-640</Y>
+    </Center>
+    <DreamVisible>false</DreamVisible>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits />
+    <Relationships />
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>2898870006</Id>
+    <ParentId>3344999080</ParentId>
+    <PrototypeId>3258532345</PrototypeId>
+    <Center>
+      <X>-669</X>
+      <Y>-825</Y>
+    </Center>
+    <DreamVisible>false</DreamVisible>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits />
+    <Relationships />
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="TimerNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>3344999080</Id>
+    <ParentId>1033211677</ParentId>
+    <PrototypeId>245410120</PrototypeId>
+    <Center>
+      <X>-591</X>
+      <Y>-732</Y>
+    </Center>
+    <NumberSatisfies>5</NumberSatisfies>
+    <TimeBetweenSatisfies>96</TimeBetweenSatisfies>
+  </InstanceNode>
+  <InstanceNode d2p1:type="TimerNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>4152055092</Id>
+    <ParentId>1033211677</ParentId>
+    <PrototypeId>245410120</PrototypeId>
+    <Center>
+      <X>-392</X>
+      <Y>-801</Y>
+    </Center>
+    <NumberSatisfies>5</NumberSatisfies>
+    <TimeBetweenSatisfies>96</TimeBetweenSatisfies>
+  </InstanceNode>
+  <Name>Trait - Perceptive</Name>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+  <SpeciesAvailablilty>Human</SpeciesAvailablilty>
+  <TreeHash>2643689580</TreeHash>
+</DreamTree>

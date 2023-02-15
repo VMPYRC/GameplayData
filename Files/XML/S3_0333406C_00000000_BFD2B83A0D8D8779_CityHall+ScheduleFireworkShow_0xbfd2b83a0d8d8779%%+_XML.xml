@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDurationToScheduleFireworkShow value="1">
+      <!--Duration in Sim Minutes that a Sim will need to schedule the show-->
+    </kDurationToScheduleFireworkShow>
+    <kTimeOptionsForFireworkShow value="18, 20, 21, 22, 23">
+      <!--Available time options for the firework show to occur-->
+    </kTimeOptionsForFireworkShow>
+    <kCostOfFireworkShow value="100">
+      <!--Amount of simoleans it costs to schedule the show-->
+    </kCostOfFireworkShow>
+    <kFireworkShowDuration value="120">
+      <!--Duration in Sim Minutes that the firework show lasts-->
+    </kFireworkShowDuration>
+    <kFireworkShowTNSDelay value="1">
+      <!--Duration in Sim Hours for the TNS alert to show up before the show begins-->
+    </kFireworkShowTNSDelay>
+  </Current_Tuning>
+</base>

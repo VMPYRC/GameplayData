@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRestaurantTuning>
+      <OpenTime value="11">
+        <!--The time the restaurant opens.-->
+      </OpenTime>
+      <CloseTime value="23">
+        <!--The time the restaurant closes.-->
+      </CloseTime>
+      <EarlyBirdTime value="18">
+        <!--The time the restaurant has early bird special. Set to -1 if never.-->
+      </EarlyBirdTime>
+      <EarlyBirdDiscount value="0.8">
+        <!--Discount when eating dinner for the early bird special.-->
+      </EarlyBirdDiscount>
+      <BreakfastLunchBrunchCost value="50">
+        <!--Cost per sim of breakfast/lunch/brunch.-->
+      </BreakfastLunchBrunchCost>
+      <DinnerCost value="75">
+        <!--Cost per sim for dinner.-->
+      </DinnerCost>
+      <DessertCost value="12">
+        <!--Cost per sim for dessert.-->
+      </DessertCost>
+      <DrinksCost value="20">
+        <!--Cost per sim for drinks.-->
+      </DrinksCost>
+      <EatLength value="90">
+        <!--Eat interaction length in sim minutes.-->
+      </EatLength>
+      <DessertLength value="20">
+        <!--Stay for dessert interaction length in sim minutes.-->
+      </DessertLength>
+      <DrinkLength value="30">
+        <!--Drink interaction length in sim minutes.-->
+      </DrinkLength>
+      <MinRelationshipDiningCompanions value="5">
+        <!--Minimum amount of added relationship with people you eat with.-->
+      </MinRelationshipDiningCompanions>
+      <MaxRelationshipDiningCompanions value="15">
+        <!--Maximium amount of added relationship with people you eat with.-->
+      </MaxRelationshipDiningCompanions>
+      <ClothingStyle value="Formalwear">
+        <!--Appropriate clothing style for dining at this venue.-->
+      </ClothingStyle>
+    </kRestaurantTuning>
+    <sHowLongToWaitInRabbitHoleWhenGettingFoodToEatOutside value="10">
+      <!--How long (in Sim minutes) the Sims waits inside the bistro when getting food to eat outside-->
+    </sHowLongToWaitInRabbitHoleWhenGettingFoodToEatOutside>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="50" />
+      <MapTagFilterType value="PublicSpacesAndActivities,Work">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-35">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="50">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kInvestCost value="12500">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="25000">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="2100">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="3000">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="6000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="1000000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kCanInvestHere value="True">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kNpcExitFreq value="10">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kNighttimeLightSunsetDelta value="1">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kPreventLotPurchase value="True">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="True">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+    <kClassBartendingCost value="500">
+      <!--How much a Bartending class costs, in Simoleons-->
+    </kClassBartendingCost>
+    <kClassBartendingDuration value="120">
+      <!--How long a Bartending class lasts, in Sim minutes-->
+    </kClassBartendingDuration>
+    <kFieldTripCookingIncrease value="345">
+      <!--How much Cooking skill a sim gets per hour on a field trip-->
+    </kFieldTripCookingIncrease>
+    <kFieldTripPerformanceIncrease value="20">
+      <!--How much careerPerformace increase per hour on a field trip-->
+    </kFieldTripPerformanceIncrease>
+    <kFieldTripFunIncrease value="30">
+      <!--How much fun a sim gains per hour on a field trip-->
+    </kFieldTripFunIncrease>
+    <kBadFieldTripFoodChance value="0.2">
+      <!--Chance of getting nauseaus from badfood-->
+    </kBadFieldTripFoodChance>
+    <kFieldTripTNSPercentages value="0.33, 0.66">
+      <!--At what percentage points of the field trip should do a TNS-->
+    </kFieldTripTNSPercentages>
+    <kFieldTripChildCookingIncrease value="30">
+      <!--How much Cooking skill a child gets per hour on a field trip-->
+    </kFieldTripChildCookingIncrease>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

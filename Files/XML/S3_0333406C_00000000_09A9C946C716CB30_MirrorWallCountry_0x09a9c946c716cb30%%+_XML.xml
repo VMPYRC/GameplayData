@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="9">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <ObsessedWithComputerTraitScore value="0">
+      <!--Range: Any float value.  Description:  Sims with the 'Obsessed with X' Trait will get an environment bonus from rooms that contain the object that Sim is obsessed with.  This tunable is an additive amount of environment bonus for Sims with the 'Obsessed with X' trait. This amount is expected to be positive but does not have to be.-->
+      <!--deprecated on: 1/16/2008 11:52:01 AM-->
+    </ObsessedWithComputerTraitScore>
+    <ObsessedWithTVTraitScore value="0">
+      <!--Range: Any float value.  Description:  Sims with the 'Obsessed with X' Trait will get an environment bonus from rooms that contain the object that Sim is obsessed with.  This tunable is an additive amount of environment bonus for Sims with the 'Obsessed with X' trait. This amount is expected to be positive but does not have to be.-->
+      <!--deprecated on: 1/16/2008 11:52:01 AM-->
+    </ObsessedWithTVTraitScore>
+  </Deprecated_Tuning>
+</base>

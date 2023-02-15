@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<Seashells>
+<Shells>
+  <Type></Type>
+  <Name></Name>
+  <Description></Description>
+  <CodeVersion>EP10</CodeVersion>
+  <MedatorName></MedatorName>
+  <Rarity>Common</Rarity>
+  <MinValue>0</MinValue>
+  <MaxValue>100</MaxValue>
+  <EnvironmentScore>3</EnvironmentScore>
+  <LookAtInterest>20</LookAtInterest>
+  <ModelMaterial>butterfly:ButterflyMoth</ModelMaterial>
+ </Shells>
+<Shells>
+  <Type>Scallop</Type>
+  <Name>Scallop</Name>
+  <Description>ScallopDesc</Description>
+  <MedatorName>Scallop</MedatorName>
+  <Rarity>Common</Rarity>
+  <MinValue>10</MinValue>
+  <MaxValue>15</MaxValue>
+  <EnvironmentScore>5</EnvironmentScore>
+  <ModelMaterial>shellScallop</ModelMaterial>
+ </Shells>
+<Shells>
+  <Type>Cowry</Type>
+  <Name>Cowry</Name>
+  <Description>CowryDesc</Description>
+  <MedatorName>Cowry</MedatorName>
+  <Rarity>Common</Rarity>
+  <MinValue>20</MinValue>
+  <MaxValue>30</MaxValue>
+  <EnvironmentScore>5</EnvironmentScore>
+  <ModelMaterial>shellCowry</ModelMaterial>
+ </Shells>
+<Shells>
+  <Type>Nautilus</Type>
+  <Name>Nautilus</Name>
+  <Description>NautilusDesc</Description>
+  <MedatorName>Nautilus</MedatorName>
+  <Rarity>Uncommon</Rarity>
+  <MinValue>85</MinValue>
+  <MaxValue>100</MaxValue>
+  <EnvironmentScore>10</EnvironmentScore>
+  <ModelMaterial>shellNautilus</ModelMaterial>
+ </Shells>
+<Shells>
+  <Type>Conch</Type>
+  <Name>Conch</Name>
+  <Description>ConchDesc</Description>
+  <MedatorName>Conch</MedatorName>
+  <Rarity>Uncommon</Rarity>
+  <MinValue>125</MinValue>
+  <MaxValue>150</MaxValue>
+  <EnvironmentScore>10</EnvironmentScore>
+  <ModelMaterial>shellConch</ModelMaterial>
+ </Shells>
+<Shells>
+  <Type>Abalone</Type>
+  <Name>Abalone</Name>
+  <Description>AbaloneDesc</Description>
+  <MedatorName>Abalone</MedatorName>
+  <Rarity>Uncommon</Rarity>
+  <MinValue>300</MinValue>
+  <MaxValue>350</MaxValue>
+  <EnvironmentScore>10</EnvironmentScore>
+  <ModelMaterial>shellAbalone</ModelMaterial>
+ </Shells>
+<Shells>
+  <Type>Spiny</Type>
+  <Name>Spiny</Name>
+  <Description>SpinyDesc</Description>
+  <MedatorName>Spiny</MedatorName>
+  <Rarity>Rare</Rarity>
+  <MinValue>650</MinValue>
+  <MaxValue>700</MaxValue>
+  <EnvironmentScore>15</EnvironmentScore>
+  <ModelMaterial>shellSpiny</ModelMaterial>
+ </Shells>
+<Shells>
+  <Type>Eyes</Type>
+  <Name>Eyes</Name>
+  <Description>EyesDesc</Description>
+  <MedatorName>Eyes</MedatorName>
+  <Rarity>Rare</Rarity>
+  <MinValue>850</MinValue>
+  <MaxValue>1000</MaxValue>
+  <EnvironmentScore>15</EnvironmentScore>
+  <ModelMaterial>shellEyes</ModelMaterial>
+ </Shells>
+<Shells>
+  <Type>SharkTooth</Type>
+  <Name>SharkTooth</Name>
+  <Description>SharkToothDesc</Description>
+  <MedatorName>SharkTooth</MedatorName>
+  <Rarity>ExtraordinarilyUnusual</Rarity>
+  <MinValue>1500</MinValue>
+  <MaxValue>2000</MaxValue>
+  <EnvironmentScore>15</EnvironmentScore>
+  <ModelMaterial>shellSharkTooth</ModelMaterial>
+ </Shells>
+<Shells>
+  <Type>MessageInABottle</Type>
+  <Name>MessageInABottle</Name>
+  <Description>MessageInABottleDesc</Description>
+  <MedatorName>MessageInABottle</MedatorName>
+  <Rarity>Rare</Rarity>
+  <MinValue>50</MinValue>
+  <MaxValue>75</MaxValue>
+ </Shells>
+<Shells>
+  <Type>MessageInABottleMapFrag</Type>
+  <Name>MessageInABottleMapFrag</Name>
+  <Description>MessageInABottleMapFragDesc</Description>
+  <MedatorName>MessageInABottle</MedatorName>
+  <Rarity>ExtraordinarilyUnusual</Rarity>
+  <MinValue>0</MinValue>
+  <MaxValue>0</MaxValue>
+ </Shells>
+<Shells>
+  <Type>MessageInABottlePlumbobIsland</Type>
+  <Name>MessageInABottle</Name>
+  <Description>MessageInABottleDesc</Description>
+  <MedatorName>MessageInABottle</MedatorName>
+  <Rarity>ExtraordinarilyUnusual</Rarity>
+  <MinValue>3333</MinValue>
+  <MaxValue>3333</MaxValue>
+ </Shells>
+<Spawners>
+  <SpawnerClassName></SpawnerClassName>
+  <Spawns>Conch</Spawns>
+  <Probability>1</Probability>
+  <ObjectSpawns></ObjectSpawns>
+  <ObjectProbabilities></ObjectProbabilities>
+  <ObjectSpawnChance>0</ObjectSpawnChance>
+  <MinSpawnFrequency>12</MinSpawnFrequency>
+  <MaxSpawnFrequency>24</MaxSpawnFrequency>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>24</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.SeashellSpawner1</SpawnerClassName>
+  <Spawns>Scallop, 
+Cowry,
+MessageInABottle</Spawns>
+  <Probability>30, 
+30,
+10</Probability>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.SeashellSpawner2</SpawnerClassName>
+  <Spawns>Scallop, 
+Cowry,
+Nautilus,
+MessageInABottle</Spawns>
+  <Probability>25, 
+25,
+10,
+10</Probability>
+  <ObjectSpawns>magicGnomeScuba#EP10</ObjectSpawns>
+  <ObjectProbabilities>1</ObjectProbabilities>
+  <ObjectSpawnChance>0.05</ObjectSpawnChance>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.SeashellSpawner3</SpawnerClassName>
+  <Spawns>Nautilus, 
+Conch,
+Abalone,
+MessageInABottle,
+MessageInABottleMapFrag,
+MessageInABottlePlumbobIsland</Spawns>
+  <Probability>20, 
+20,
+20,
+10, 
+2,
+1</Probability>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.SeashellSpawner4</SpawnerClassName>
+  <Spawns>Nautilus, 
+Conch,
+Abalone,
+Spiny,
+MessageInABottle,
+MessageInABottleMapFrag,
+MessageInABottlePlumbobIsland</Spawns>
+  <Probability>20, 
+20,
+20,
+5, 
+10,
+2,
+1</Probability>
+  <ObjectSpawns>magicGnomeScuba#EP10</ObjectSpawns>
+  <ObjectProbabilities>1</ObjectProbabilities>
+  <ObjectSpawnChance>0.05</ObjectSpawnChance>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.SeashellSpawner5</SpawnerClassName>
+  <Spawns>Spiny, 
+Eyes,
+SharkTooth,
+MessageInABottle,
+MessageInABottleMapFrag,
+MessageInABottlePlumbobIsland</Spawns>
+  <Probability>35, 
+25,
+2,
+5, 
+5,
+1</Probability>
+  <ObjectSpawns>magicGnomeScuba#EP10</ObjectSpawns>
+  <ObjectProbabilities>1</ObjectProbabilities>
+  <ObjectSpawnChance>0.05</ObjectSpawnChance>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.SeashellSpawner6</SpawnerClassName>
+  <Spawns>Spiny, 
+Eyes,
+SharkTooth,
+MessageInABottle,
+MessageInABottleMapFrag,
+MessageInABottlePlumbobIsland</Spawns>
+  <Probability>25, 
+35,
+2,
+5, 
+5,
+1</Probability>
+  <ObjectSpawns>magicGnomeScuba#EP10</ObjectSpawns>
+  <ObjectProbabilities>1</ObjectProbabilities>
+  <ObjectSpawnChance>0.05</ObjectSpawnChance>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.MessageInABottleSpawner1</SpawnerClassName>
+  <Spawns>MessageInABottle, 
+MessageInABottleMapFrag,
+MessageInABottlePlumbobIsland</Spawns>
+  <Probability>100, 
+10, 
+1</Probability>
+ </Spawners>
+</Seashells>

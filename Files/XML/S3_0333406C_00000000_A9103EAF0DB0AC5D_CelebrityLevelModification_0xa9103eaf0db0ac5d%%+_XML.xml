@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCareerLevelThreshold value="7">
+      <!--If the sim is above this career threshold, there is a higher chance of leveling up and lower chance of leveling down. Range: [0, MaximumCareerLevel]. Initial GPE default: 7.-->
+    </kCareerLevelThreshold>
+    <kCareerLevelThresholdMultiplers value="1.5, 0.1">
+      <!--The first number is applied as a mutipler whenever a sim is above the career threshold and wants to perform celebrity level up. The second number is used if the celebrity's career level is above the threshold but we are considering him for a celebrity level down. Size: 2. Range: [0, Infinity]. Initial GPE default: 1.5f and 0.4f.-->
+    </kCareerLevelThresholdMultiplers>
+    <kHouseholdWorthThreshold value="100000">
+      <!--If the sim's family funds are above this threshold, there is a higher chance of leveling up and lower chance of leveling down. Range: [0, int.MaxValue]. Initial GPE default: 50000.-->
+    </kHouseholdWorthThreshold>
+    <kHouseholdWorthThresholdMultiplers value="1.5, 0.1">
+      <!--The first number is applied as a mutipler whenever a sim's family funds are above the money threshold and wants to perform celebrity level up. The second number is used if the celebrity family funds are above the threshold but we are considering him for a celebrity level down. Size: 2. Range: [0, Infinity]. Initial GPE default: 1.5f and 0.4f.-->
+    </kHouseholdWorthThresholdMultiplers>
+  </Current_Tuning>
+</base>

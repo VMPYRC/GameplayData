@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteDistanceForScubaKelpHarvest value="1">
+      <!--Range: Positive float.  Description:  Route radius used when approaching kelp to harvest it if you are a normal sim.-->
+    </kRouteDistanceForScubaKelpHarvest>
+    <kRouteDistanceForMermaidKelpHarvest value="2">
+      <!--Range: Positive float.  Description:  Route radius used when approaching kelp to harvest it if you are a mermaid-->
+    </kRouteDistanceForMermaidKelpHarvest>
+    <kMinMaxKelpToGive value="2, 4">
+      <!--Range: [int > 0, int > 0]. Description: min max number of individual kelp ingredient objects to give sim when they harvest a kelp plant-->
+    </kMinMaxKelpToGive>
+  </Current_Tuning>
+</base>

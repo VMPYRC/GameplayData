@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHandinessLevelCosmicBowling value="4">
+      <!--Handiness level at which Cosmic Bowling Upgrade will be available.-->
+    </kHandinessLevelCosmicBowling>
+    <kLevelZeroResultProbabilities value="7.5, 20, 27.5, 27.5, 15, 2.5, 0">
+      <!--This array represents the probabilities of each result for level 0. the array index represents the results in this order: gutter, 1 pin, 3 pins, 5 pins, 9 pins, strike, super strike. Note: The values represent weights.-->
+    </kLevelZeroResultProbabilities>
+    <kLevelOneResultProbabilities value="5, 10, 20, 35, 25, 5, 0">
+      <!--This array represents the probabilities of each result for level 1. the array index represents the results in this order: gutter, 1 pin, 3 pins, 5 pins, 9 pins, strike, super strike. Note: The values represent weights.-->
+    </kLevelOneResultProbabilities>
+    <kLevelTwoResultProbabilities value="0, 0, 12.5, 25, 30, 27.5, 0">
+      <!--This array represents the probabilities of each result for level 2. the array index represents the results in this order: gutter, 1 pin, 3 pins, 5 pins, 9 pins, strike, super strike. Note: The values represent weights.-->
+    </kLevelTwoResultProbabilities>
+    <kLevelThreeResultProbabilities value="0, 0, 5, 25, 30, 30, 10">
+      <!--This array represents the probabilities of each result for level 3. the array index represents the results in this order: gutter, 1 pin, 3 pins, 5 pins, 9 pins, strike, super strike. Note: The values represent weights.-->
+    </kLevelThreeResultProbabilities>
+    <kLevelFourResultProbabilities value="0, 0, 0, 15, 32.5, 30, 22.5">
+      <!--This array represents the probabilities of each result for level 4. the array index represents the results in this order: gutter, 1 pin, 3 pins, 5 pins, 9 pins, strike, super strike. Note: The values represent weights.-->
+    </kLevelFourResultProbabilities>
+    <kLevelFiveResultProbabilities value="0, 0, 0, 5, 12.5, 45, 37.5">
+      <!--This array represents the probabilities of each result for level 5. the array index represents the results in this order: gutter, 1 pin, 3 pins, 5 pins, 9 pins, strike, super strike. Note: The values represent weights.-->
+    </kLevelFiveResultProbabilities>
+    <kSlowThrowResultWeights value="0, 0, 0, 0, 0, 0, 0">
+      <!--This array represents the weight modifications of each result for the Slow Throw. the array index represents the results in this order: gutter, 1 pin, 3 pins, 5 pins, 9 pins, strike, super strike.-->
+    </kSlowThrowResultWeights>
+    <kPalmThrowResultWeights value="0, 0, 0, 0, 0, 0, 0">
+      <!--This array represents the weight modifications of each result for the Palm Throw. the array index represents the results in this order: gutter, 1 pin, 3 pins, 5 pins, 9 pins, strike, super strike.-->
+    </kPalmThrowResultWeights>
+    <kPowerThrowResultWeights value="0, 0, 0, 0, 0, 0, 0">
+      <!--This array represents the weight modifications of each result for the Power Throw. the array index represents the results in this order: gutter, 1 pin, 3 pins, 5 pins, 9 pins, strike, super strike.-->
+    </kPowerThrowResultWeights>
+    <kFailThrowResultWeights value="5, 10, 15, 20, 20, 10, 0">
+      <!--This array represents the weight modifications of each result for the Fail Throw. the array index represents the results in this order: gutter, 1 pin, 3 pins, 5 pins, 9 pins, strike, super strike.-->
+    </kFailThrowResultWeights>
+    <kHighSkillResultWeights value="0, 0, 0, 0, 0, 0, 0">
+      <!--This array represents the weight modifications of each result for High Skill Throw. the array index represents the results in this order: gutter, 1 pin, 3 pins, 5 pins, 9 pins, strike, super strike.-->
+    </kHighSkillResultWeights>
+    <kUpgradeTuningCosmicBowling>
+      <UpgradeTime value="320">
+        <!--The amount of time it takes to do the upgrade in minutes-->
+      </UpgradeTime>
+      <SkillGainRate value="6400">
+        <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+      </SkillGainRate>
+      <BadFailureChance value="15">
+        <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+      </BadFailureChance>
+      <ShouldShockInPuddle value="False">
+        <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+      </ShouldShockInPuddle>
+    </kUpgradeTuningCosmicBowling>
+    <kNormalToneChanceOfRandomSpecial value="0">
+      <!--Percent chance of using a random special throw when using the normal tone.-->
+    </kNormalToneChanceOfRandomSpecial>
+    <kFailureChanceArray value="20, 15, 10, 5, 0, 0">
+      <!--Percent chance of failure for each skill level 0 - 5. Values: (0-100)-->
+    </kFailureChanceArray>
+    <kMinimumLTRToBowlTogether value="-100">
+      <!--The minimum LTR required for sims who are not part of the same social group to bowl together.-->
+    </kMinimumLTRToBowlTogether>
+    <kFramesForOnePlayer value="10">
+      <!--Number of frames when one sim is playing-->
+    </kFramesForOnePlayer>
+    <kFramesForMorePlayers value="5">
+      <!--Number of frames when more than one player is playing-->
+    </kFramesForMorePlayers>
+    <kPowerThrowEpicFailChance value="0">
+      <!--Percent chance of epic fail when using the power throw-->
+    </kPowerThrowEpicFailChance>
+    <kWatcherReactChance value="50">
+      <!--Chance that a watcher will react  to a result. (0:100)-->
+    </kWatcherReactChance>
+    <kComsicBowlingFunMultiplier value="1.25">
+      <!--Fun multiplier for bowling on a cosmic bowling lane.-->
+    </kComsicBowlingFunMultiplier>
+    <kMaxBowlers value="2">
+      <!--Maximum number of bowlers-->
+    </kMaxBowlers>
+    <kTimeCosmicAutoOn value="20">
+      <!--Time at which cosmic bowling turns on at the bowling alley. (0:23)-->
+    </kTimeCosmicAutoOn>
+    <kTimeCosmicAutoOff value="5">
+      <!--Time at which cosmic bowling turns of in the bowling alley (0-23)-->
+    </kTimeCosmicAutoOff>
+  </Current_Tuning>
+</base>

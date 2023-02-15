@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCoolDownTime value="90">
+      <!--Range: Sim minutes.  Description:  Number of Sim minutes before a player can do this interaction again-->
+    </kCoolDownTime>
+    <kOfferClassSkill value="BotBuilding, Charisma, Athletic">
+      <!--Skills that add to your pay. Each skill uses the kSkillPay bonus to lookup bonus for that skill based on skill level-->
+    </kOfferClassSkill>
+    <kSkillPayBonus value="0, 0, 0, 0, 50, 100, 150, 200, 250, 350, 500">
+      <!--Range: 0 - x. Amount of money you get ordered by skill level (0- 10)based on skill level.-->
+    </kSkillPayBonus>
+    <kOfferTrainingTime value="90">
+      <!--Range: Sim minutes.  Description:  How long does this interaction last?-->
+    </kOfferTrainingTime>
+    <kMinSkillLevel value="4">
+      <!--Range: 0 - 10.  Description:  Minimum skill level as specified by kOfferClassKill for interaction to be visible-->
+    </kMinSkillLevel>
+    <kSkillBonus value="100">
+      <!--Description:  Bonus simoleans for having a skill-->
+    </kSkillBonus>
+  </Current_Tuning>
+</base>

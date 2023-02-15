@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPathLengthTuningRoamingWaterskiing>
+      <fTotalLengthTarget value="1000">
+        <!--The target total length of the run around path in meters.-->
+      </fTotalLengthTarget>
+      <fSubPathLengthMin value="20">
+        <!--The minimum length of a sub path in meters.-->
+      </fSubPathLengthMin>
+      <fSubPathLengthMax value="100">
+        <!--The maximum length of a sub path in meters.-->
+      </fSubPathLengthMax>
+      <fSubPathDirectionChangeConeAngleDegrees value="90">
+        <!--The maximum angle deviation of a sub path in degrees.-->
+      </fSubPathDirectionChangeConeAngleDegrees>
+    </kPathLengthTuningRoamingWaterskiing>
+    <kWaterskiWalkstyleWeights value="8, 8, 16, -2, -2">
+      <!--Floats. Weighting for each type of waterskiing walkstyle: terrible, terribleB, average, expert, expertB. Add skill level to experts, and subtract skill level from terribles.-->
+    </kWaterskiWalkstyleWeights>
+    <kChanceForTerribleStyleToFall value="33">
+      <!--Float. Chance 0-100.0f for a sim that chooses the terrible style to fall.-->
+    </kChanceForTerribleStyleToFall>
+  </Current_Tuning>
+</base>

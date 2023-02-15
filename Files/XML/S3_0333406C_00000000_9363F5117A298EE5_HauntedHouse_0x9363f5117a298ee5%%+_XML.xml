@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTraitsThatHesitateBeforeEntering value="Coward, Childish">
+      <!--Range: TraitNames. Max number of sims that can be in the haunted house at a time-->
+    </kTraitsThatHesitateBeforeEntering>
+    <kHestitateReactions value="Shiver, Scared, Think">
+      <!--Range: ReactionTypes. Sims play hestitate reaction before going inside-->
+    </kHestitateReactions>
+    <kChanceHestitate value="75">
+      <!--Range: positive floats 1-100. Chance that a sim with the hestitation traits (and children) will hestitate before going inside-->
+    </kChanceHestitate>
+    <kExitReactionChances value="1, 1, 1, 9">
+      <!--Range: Weighted List length 4. A list of the weights of haunted house exit reactions. index 0 = vomit, index 1 = panic, index 2 = bladder fail, index 3 = shiver-->
+    </kExitReactionChances>
+    <kChanceGetFestivalTickets value="100">
+      <!--Range: positive floats 1-100. Chance that a sim will exit the haunted house with festival tickets.-->
+    </kChanceGetFestivalTickets>
+    <kNumFestivalTicketsToGet value="5">
+      <!--Range: positive ints. Number of festival tickets a sim will get if they get some from the haunted house.-->
+    </kNumFestivalTicketsToGet>
+    <kMinutesSpentInHauntedHouse value="10">
+      <!--Range: positive floats. Number of sim minutes a sim will spend in the haunted house before coming back out.-->
+    </kMinutesSpentInHauntedHouse>
+    <kHauntedHouseBuffsToChooseFrom value="Undefined, AttackedByTheMummy, SuckedIntoThe4thDimension, BrushedWithZombieFingers, HauntedByHouse, TouchedByAGhost, CursedByTheWitch">
+      <!--Range: List of BuffNames. List of buffs that sims can get from haunted house. Undefined is not getting a buff. (always keep undefined in the list).-->
+    </kHauntedHouseBuffsToChooseFrom>
+    <kHauntedHouseBuffWeights value="1, 1, 1, 1, 1, 1, 0.5">
+      <!--Range: List of floats (same length as kHauntedHouseBuffsToChooseFrom). The list of weighted chances that a sim will get each of the buffs in kHauntedHouseBuffsToChooseFrom. Ex: Relative Weight of getting no buff is index 0. Relative weight of getting the buff at kHauntedHouseBuffsToChooseFrom[1] is index 1.-->
+    </kHauntedHouseBuffWeights>
+    <kRouteOutDistanceMinMax value="2, 4">
+      <!--Range: positive float array size 2. When routing out of haunted house, min distance to route out, max distance to route out.-->
+    </kRouteOutDistanceMinMax>
+    <kPanicRouteOutDistanceMinMax value="5, 8">
+      <!--Range: positive float array size 2. When panicking out of haunted house, min distance to route out, max distance to route out. I like these to be bigger because the panic run looks better with a longer distance-->
+    </kPanicRouteOutDistanceMinMax>
+    <kChanceShowFlavorTNS value="50">
+      <!--Range: positive float 1-100. Chance a-->
+    </kChanceShowFlavorTNS>
+    <kLineStartMinMaxDistance value="2.5, 3.5">
+      <!--Range: float array size 2 & positive floats. Distance from the haunted house's entry routing slot to the beginning of the head of the line. Initial GPE value: 1, 2-->
+    </kLineStartMinMaxDistance>
+    <kLineStartAngle value="0.785398163">
+      <!--The angle (width in radians) of the cone shape that represents the head of the line. Initial GPE value: 0.785398163f (Pi / 4).-->
+    </kLineStartAngle>
+    <kLineStartSpacingFactor value="2">
+      <!--Spacing factor of routing options for line head. Positive float. Init GPE default: 2.0f-->
+    </kLineStartSpacingFactor>
+    <kTimeToWaitInLine value="180">
+      <!--Range: Positive floats.  Description: Amount of Sim minutes a Sim will wait in line before timing out and exiting.-->
+    </kTimeToWaitInLine>
+    <kExitReactionChancesCoward value="1, 1, 1, 1">
+      <!--Range: Weighted List length 4. Separate list of weights of haunted house exit reactions for coward sims - so maybe cowards will do the more embarrasing reactions more often. index 0 = vomit, index 1 = panic, index 2 = bladder fail, index 3 = shiver-->
+    </kExitReactionChancesCoward>
+    <kMaxNumSimsInHauntedHouseLine value="25">
+      <!--Range: positive integers. Max number of sims that can be in the haunted house at a time-->
+    </kMaxNumSimsInHauntedHouseLine>
+    <kLineLength value="5">
+      <!--Total length of the line, measured from the end of the head of the line. GPE default : 5-->
+    </kLineLength>
+    <kLineConeAngle value="1.57079633">
+      <!--The angle (width in radians) of the cone shape that represents the end of the line. Initial GPE value: 1.57079633 (Pi / 2).-->
+    </kLineConeAngle>
+    <kLineSpacingFactor value="5.25">
+      <!--how far apart the routing points are spread out (keep this sorta close to kLineStartMinMaxDistance[1] * Cone Angle). Positive float. Init GPE default: 5.25f-->
+    </kLineSpacingFactor>
+    <kChanceGetFallGnome value="5">
+      <!--Range: positive floats 1-100. Chance that a sim will exit the haunted house with a Fall Gnome.-->
+    </kChanceGetFallGnome>
+  </Current_Tuning>
+</base>

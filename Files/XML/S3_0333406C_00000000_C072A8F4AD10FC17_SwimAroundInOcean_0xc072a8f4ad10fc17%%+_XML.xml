@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDistanceSwimAround value="10">
+      <!--Range: positive floats. distance sims will swim around around ocean. Something large like 10 is good.-->
+    </kDistanceSwimAround>
+    <kSwimAroundDepth value="2">
+      <!--Range: positive floats. Depth of water sims will use when swimming around around ocean - keep this low, around 2.-->
+    </kSwimAroundDepth>
+    <kMaxDistanceBeachFromOcean value="500">
+      <!--Range: positive floats - in meters. When a sim is at the beach, the ocean must be at least this close to the beach lot for the sim to consider autonomously swimming in it.-->
+    </kMaxDistanceBeachFromOcean>
+  </Current_Tuning>
+</base>

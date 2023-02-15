@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Business</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>262</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>552</CompletionConditionId>
+      <InputNumber>7</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or demoted to $Career level $n exactly</DisplayName>
+      <StringEnumValue>Business</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>263</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>347</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Become friends with boss</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>BecomeFriendsWithBossCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>BecomeFriendsWithBossFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>266</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>552</CompletionConditionId>
+      <InputNumber>8</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or demoted to $Career level $n exactly</DisplayName>
+      <StringEnumValue>Business</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>267</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>552</CompletionConditionId>
+      <InputNumber>6</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or demoted to $Career level $n exactly</DisplayName>
+      <StringEnumValue>Business</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>269</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>345</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Quit job</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>HaveAJobCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>QuitJobFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>270</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>346</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get fired</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetFiredFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/235a932f-5dc5-402e-b0c0-a26df0f1d5c1:Name</NameKey>
+    <Name>Friends in High Places</Name>
+    <SetName>Business</SetName>
+    <ChallengeGuid>235a932f-5dc5-402e-b0c0-a26df0f1d5c1</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>(262AndOP263)</LogicString>
+    <FailureString>((266AndOP267)OrOP(269OrOP270))</FailureString>
+    <DescriptionKey>Gameplay/Challenges/235a932f-5dc5-402e-b0c0-a26df0f1d5c1:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\business_003.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>30</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>397</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>534</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Fulfill a promised $Wish</DisplayName>
+      <EnumValue>268290160</EnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>DreamIDMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>true</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPromisedDreamCompleted</TriggerEvent>
+      <SubjectType>Wish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>398</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/4635ae55-bee5-46b6-ba5c-c1cbb9c375f7:Name</NameKey>
+    <Name>Master of the Corporate Destiny</Name>
+    <SetName>Business</SetName>
+    <ChallengeGuid>4635ae55-bee5-46b6-ba5c-c1cbb9c375f7</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>397</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/4635ae55-bee5-46b6-ba5c-c1cbb9c375f7:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\delivery_10_28\business_004.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>20</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>485</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>310</CompletionConditionId>
+      <InputNumber>10</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or Demoted to $Career level $n or higher</DisplayName>
+      <EnumValue>18577463460458704</EnumValue>
+      <StringEnumValue>Business</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelGreaterThanOrEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>486</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>538</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>10</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get a raise</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>HasNonSkillBasedCareer</CheckFunctionName>
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCareerGotRaise</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>488</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>552</CompletionConditionId>
+      <InputNumber>9</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or demoted to $Career level $n exactly</DisplayName>
+      <StringEnumValue>Business</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>490</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>345</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Quit job</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>HaveAJobCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>QuitJobFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>491</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>346</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get fired</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetFiredFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/5097b5c0-86d6-46ba-b5cc-18fba46d3087:Name</NameKey>
+    <Name>Moving on Up</Name>
+    <SetName>Business</SetName>
+    <ChallengeGuid>5097b5c0-86d6-46ba-b5cc-18fba46d3087</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>(485AndOP486)</LogicString>
+    <FailureString>(488AndOP(490AndOP491))</FailureString>
+    <DescriptionKey>Gameplay/Challenges/5097b5c0-86d6-46ba-b5cc-18fba46d3087:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\business_005.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_gold_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>50</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>507</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>5</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>13271263770231523040</EnumValue>
+      <StringEnumValue>Buzzed</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>509</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>450</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Join $Career</DisplayName>
+      <StringEnumValue>Business</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>JoinACareerCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>JoinACareerFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerHired</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>510</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>552</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or demoted to $Career level $n exactly</DisplayName>
+      <StringEnumValue>Business</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>513</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>345</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Quit job</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>HaveAJobCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>QuitJobFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>514</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>346</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get fired</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetFiredFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>515</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>310</CompletionConditionId>
+      <InputNumber>2</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or Demoted to $Career level $n or higher</DisplayName>
+      <StringEnumValue>Business</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelGreaterThanOrEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/5429098d-8bba-4341-a086-dc8d5c729e10:Name</NameKey>
+    <Name>Buzzed!</Name>
+    <SetName>Business</SetName>
+    <ChallengeGuid>5429098d-8bba-4341-a086-dc8d5c729e10</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(507AndOP(509OrOP510))</LogicString>
+    <FailureString>((513OrOP514)OrOP515)</FailureString>
+    <DescriptionKey>Gameplay/Challenges/5429098d-8bba-4341-a086-dc8d5c729e10:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\business_007.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>4</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>770</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>310</CompletionConditionId>
+      <InputNumber>7</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or Demoted to $Career level $n or higher</DisplayName>
+      <EnumValue>18577463460458704</EnumValue>
+      <StringEnumValue>Business</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelGreaterThanOrEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>771</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>310</CompletionConditionId>
+      <InputNumber>9</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or Demoted to $Career level $n or higher</DisplayName>
+      <EnumValue>13271263761804595328</EnumValue>
+      <StringEnumValue>Political</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelGreaterThanOrEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>773</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>310</CompletionConditionId>
+      <InputNumber>8</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or Demoted to $Career level $n or higher</DisplayName>
+      <EnumValue>18577463460458704</EnumValue>
+      <StringEnumValue>Business</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelGreaterThanOrEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>774</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>310</CompletionConditionId>
+      <InputNumber>10</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or Demoted to $Career level $n or higher</DisplayName>
+      <EnumValue>13271263761804595328</EnumValue>
+      <StringEnumValue>Political</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelGreaterThanOrEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/84add4c6-6a8e-4aa3-822c-81506c41c17b:Name</NameKey>
+    <Name>A new Vice</Name>
+    <SetName>Business</SetName>
+    <ChallengeGuid>84add4c6-6a8e-4aa3-822c-81506c41c17b</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>(770AndOP771)</LogicString>
+    <FailureString>(773OrOP774)</FailureString>
+    <DescriptionKey>Gameplay/Challenges/84add4c6-6a8e-4aa3-822c-81506c41c17b:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\delivery_10_28\business_006.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_gold_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>50</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

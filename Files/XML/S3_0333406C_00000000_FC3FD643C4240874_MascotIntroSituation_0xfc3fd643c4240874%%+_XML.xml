@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHoursToWaitForGreet value="1.5">
+      <!--Hours the mascot will wait outside the player's house to be greeted-->
+    </kHoursToWaitForGreet>
+    <kHoursToIdle value="1.0">
+      <!--Hours the mascot will wait around the player's home after placing the welcome kit.-->
+    </kHoursToIdle>
+    <kCameraCenterOnLotTime value="2">
+      <!--The number of seconds it will take to zoom the camera on the players lot when the mascot arrives.-->
+    </kCameraCenterOnLotTime>
+    <kDoCameraZoom value="True">
+      <!--Boolean to toggle the forced camera zoom to the mascot on a player's home lot. true means do the zoom-->
+    </kDoCameraZoom>
+    <kGlobalMascotTimeout value="72">
+      <!--Minimum amount of time between triggers of the MascotIntroSituation in Hours-->
+    </kGlobalMascotTimeout>
+    <kInitialWaitTime value="0">
+      <!--Time in Sim Minutes to wait before triggering the initial mascot intro situation-->
+    </kInitialWaitTime>
+  </Current_Tuning>
+</base>

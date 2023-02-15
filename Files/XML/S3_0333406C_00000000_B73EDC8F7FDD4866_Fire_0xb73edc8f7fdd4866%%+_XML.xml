@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSmolderTime value="10">
+      <!--Length in minutes of smolder before real fire starts.-->
+    </kSmolderTime>
+    <kSpreadFrequency value="13">
+      <!--Length in minutes of time between spread testing.-->
+    </kSpreadFrequency>
+    <kFloorSpreadChance value="150">
+      <!--0-100, Chance of fire spreading to a tile with no objects.-->
+    </kFloorSpreadChance>
+    <kObjectSpreadChance value="250">
+      <!--0-100, Chance of fire spreading to a tile with an object on it.-->
+    </kObjectSpreadChance>
+    <kFireLifetime value="60">
+      <!--Length in minutes of time before the fire should check to go out.-->
+    </kFireLifetime>
+    <kFireShouldGoOutCheckFrequency value="5">
+      <!--Length in minutes of time between checks to see if fire should go out once lifetime has expired.-->
+    </kFireShouldGoOutCheckFrequency>
+    <kChanceFireGoesOut value="15">
+      <!--0-100, Chance of fire going out once the lifetime is up.-->
+    </kChanceFireGoesOut>
+    <kTimeTillObjectBurns value="15">
+      <!--Length in minutes of time before the objects being burned change visual states.-->
+    </kTimeTillObjectBurns>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="-100">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kExtinguishTimeForSmolder value="2">
+      <!--Length in minutes of time before smoldering fire is extinguished.-->
+    </kExtinguishTimeForSmolder>
+    <kExtinguishTimeForFire value="8">
+      <!--Length in minutes of time before full fire is extinguished.-->
+    </kExtinguishTimeForFire>
+    <kLightDimmerValue value="1">
+      <!--Dimmer value to determine light intensity (Intensity = 100 when this value is 1).-->
+    </kLightDimmerValue>
+    <kSpreadChancePerSim value="40">
+      <!--Spread chance per sim added to chance for each sim over 1.-->
+    </kSpreadChancePerSim>
+    <kDaredevilMinExtinguishDistance value="1">
+      <!--Range:  ???  Description:  Min Distance a dardevil routes to for extinguishing. (Sims prefer the min)-->
+    </kDaredevilMinExtinguishDistance>
+    <kMinExtinguishDistance value="1.2">
+      <!--Range:  ???  Description:  Min Distance a non-dardevil routes to for extinguishing. (Sims prefer the min)-->
+    </kMinExtinguishDistance>
+    <kMaxExtinguishDistance value="2.5">
+      <!--Range:  ???  Description:  Max Distance a sim can be from a fire to extinguis it.-->
+    </kMaxExtinguishDistance>
+    <kTimeTillObjectSemiBurns value="5">
+      <!--Length in minutes of time before objects being burned are considered 'semi burned' (e.g. pots on stoves will be destroyed). No visual change. Should be < kTimeTillObjectBurns.-->
+    </kTimeTillObjectSemiBurns>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <ObsessedWithComputerTraitScore value="0">
+      <!--Range: Any float value.  Description:  Sims with the 'Obsessed with X' Trait will get an environment bonus from rooms that contain the object that Sim is obsessed with.  This tunable is an additive amount of environment bonus for Sims with the 'Obsessed with X' trait. This amount is expected to be positive but does not have to be.-->
+      <!--deprecated on: 1/16/2008 11:51:51 AM-->
+    </ObsessedWithComputerTraitScore>
+    <ObsessedWithTVTraitScore value="0">
+      <!--Range: Any float value.  Description:  Sims with the 'Obsessed with X' Trait will get an environment bonus from rooms that contain the object that Sim is obsessed with.  This tunable is an additive amount of environment bonus for Sims with the 'Obsessed with X' trait. This amount is expected to be positive but does not have to be.-->
+      <!--deprecated on: 1/16/2008 11:51:51 AM-->
+    </ObsessedWithTVTraitScore>
+    <kExtinguishMultiplierForBraveTrait value="0.5">
+      <!--Range: Positive floats under 1.0f.  Description: Brave Sims put out fires faster at a rate defined by this multiplier (less than 1.0f means time is shortened).-->
+      <!--deprecated on: 3/31/2008 2:36:48 PM-->
+    </kExtinguishMultiplierForBraveTrait>
+  </Deprecated_Tuning>
+</base>

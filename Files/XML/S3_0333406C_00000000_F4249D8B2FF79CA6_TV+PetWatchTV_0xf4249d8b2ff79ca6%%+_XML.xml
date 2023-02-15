@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPetWatchTVDistance value="4">
+      <!--Maximum radius of the arc/cone (in front of the TV) for pets to find contending objects to sit/relax or to stand. Positive float. Initial GPE default: 3f-->
+    </kPetWatchTVDistance>
+    <kPetWatchTVAngle value="1.047198">
+      <!--The arc/cone's angle for valid objects in pets' viewing ranges such that the TV is within this angle. Units: Radians. Valid range [0, Pi]. Initial GPE default: Pi/3-->
+    </kPetWatchTVAngle>
+    <kPetFreakoutDuration value="3">
+      <!--The amount of time (in Sim minutes) that pets will freak out-->
+    </kPetFreakoutDuration>
+    <kPetWatchTVMinTime value="20">
+      <!--The minimum time (in Sim minutes) for pets to watch TV before possibly freaking out-->
+    </kPetWatchTVMinTime>
+    <kMinTVRetreatDistance value="5">
+      <!--Distance (minimum) that pets will walk away from TV if it bothers them.-->
+    </kMinTVRetreatDistance>
+    <kMaxTVRetreatDistance value="10">
+      <!--Distance (maximum) that pets will walk away from TV if it bothers them.-->
+    </kMaxTVRetreatDistance>
+    <kDelegateLoopPeriod value="30">
+      <!--How often (in Sim minutes) pets should check if they're going to freak out-->
+    </kDelegateLoopPeriod>
+    <kNormalPetFreakoutProb value="0.1">
+      <!--The probability that a normal pet will freak out if it's checking; range 0 to 1-->
+    </kNormalPetFreakoutProb>
+    <kAggressivePetFreakoutProb value="0.3">
+      <!--The probability that an aggressive pet will freak out if it's checking; range 0 to 1-->
+    </kAggressivePetFreakoutProb>
+  </Current_Tuning>
+</base>

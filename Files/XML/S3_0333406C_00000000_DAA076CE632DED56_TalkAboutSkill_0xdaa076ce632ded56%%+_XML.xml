@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaximumNumberOfSkillsInPieMenu value="7">
+      <!--The Try To Impress... Talk About Skills... will show at most these many skills in its nested pie menu. Positive Integer. Initial GPE default: 12.-->
+    </kMaximumNumberOfSkillsInPieMenu>
+    <kMaximumNumberOfBestChoiceSkillsInPieMenu value="3">
+      <!--The Try To Impress... Talk About Skills... will show at most these many best option skills in its nested pie menu i.e. these are skills with the highest yielding impress points. Positive Integer. This number should be smaller than kMaximumNumberOfSkillsInPieMenu. Initial GPE default: 5.-->
+    </kMaximumNumberOfBestChoiceSkillsInPieMenu>
+    <kBonusImpressPointsForSameSkillOrGoodChoiceOfSkill value="50, 45, 40, 35, 30">
+      <!--If both the participants have the same skill, we grant a bonus impress points. At the same time, if actor doesn't have the skill but picks a skill that the celebrity possesses, we grant the same bonus impress points. Positive floats. Length: 5. i.e. for every celebrity level from 1 through 5.-->
+    </kBonusImpressPointsForSameSkillOrGoodChoiceOfSkill>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaximumNumberOfSimsInLine value="4">
+      <!--Range: Positive integers.  Description:  Maximum number of Sims that can wait in line.-->
+    </kMaximumNumberOfSimsInLine>
+    <kTimeToWaitInLine value="30">
+      <!--Range: Positive floats.  Description: Amount of Sim minutes a Sim will wait in line before timing out and exiting.-->
+    </kTimeToWaitInLine>
+    <kLineSlotMinDistance value="1">
+      <!--Distance from the water slide's entry routing slot to the beginning of the head of the line. Initial GPE value: 1.0f-->
+    </kLineSlotMinDistance>
+    <kLineSlotMaxDistance value="2">
+      <!--Distance from the water slide's entry routing slot to the end of the head of the line.  Initial GPE value: 2.0f-->
+    </kLineSlotMaxDistance>
+    <kLineStartAngle value="2.356194">
+      <!--The angle (width in radians) of the cone shape that represents the head of the line. Initial GPE value: 2.356194 (Pi *3 / 4).-->
+    </kLineStartAngle>
+    <kLineStartSpacingFactor value="2">
+      <!--Spacing factor of routing options for line head. Positive float. Init GPE default: 2.0f-->
+    </kLineStartSpacingFactor>
+    <kAlreadySwimmingScoreMultiplier value="2">
+      <!--Range: Positive floats.  Description: Score multiplier when already swimming-->
+    </kAlreadySwimmingScoreMultiplier>
+    <kSlideTypeWeights value="0.125, 0.5, 0.375">
+      <!--Positive floats. Weighting for each type of slide: [Scared, Normal, NoFear]-->
+    </kSlideTypeWeights>
+    <kBraveTraits value="Adventurous, Brave, Athletic, Daredevil">
+      <!--Traits that increase the chance of doing a No Fear slide animation, and decrease the chance of a Scared slide animation.-->
+    </kBraveTraits>
+    <kScaredTraits value="Hydrophobic, Clumsy, CouchPotato, Coward">
+      <!--Traits that increase the chance of doing a Scared slide animation, and decrease the chance of a No Fear slide animation.-->
+    </kScaredTraits>
+    <kBraveTraitMultiplier value="3">
+      <!--Range: Positive floats. Description: Weight multiplier for each brave trait the sim has. e.g. base weight is 1.0. Sim has 3 brave traits. Weight is now 6.0.-->
+    </kBraveTraitMultiplier>
+    <kScaredTraitMultiplier value="5">
+      <!--Range: Positive floats. Description: Weight multiplier for each scared trait the sim has. e.g. base weight is 1.0. Sim has 3 scared traits. Weight is now 6.0.-->
+    </kScaredTraitMultiplier>
+    <kScaredLingerTimeRange value="90, 180">
+      <!--Range: Positive ints. Description: Random range of time in ticks (30 per sim minute/real time second) that a sim will pause at the top of the slide if scared.-->
+    </kScaredLingerTimeRange>
+  </Current_Tuning>
+</base>

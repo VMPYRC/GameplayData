@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSpawnDiameter value="10">
+      <!--The diameter (in tiles) around insect spawners that we'll try to place the swarm of insects within.  Insects might be placed outside this depending on the footprints of nearby objects.-->
+    </kSpawnDiameter>
+    <kInvalidSpawnDiameter value="12">
+      <!--The diameter (in tiles, disregarding elevation difference) around insect spawners outside of which we'll consider a spawned insect placement invalid.  Each time we try to spawn an insect we'll try to find a good location for it several times but if each find good location attempt ends up placing it outside this range then we will eventually fail (in which case we'll delete the spawned object and pop up a debug warning dialog saying that the worldbuilder crew should change the location of this spawner to a more route-friendly location). NOTE: This should be tuned with consideration of what the 'kSpawnDiameter' tuning var is set to (this var should not be set any lower than 'kSpawnDiameter' but can be greater than 'kSpawnDiameter' if desired).-->
+    </kInvalidSpawnDiameter>
+    <kSpawnableMinorPets value="BirdLarge, BirdSmall, Lizard, Rodent, Snake, Turtle">
+      <!--The minor pet types this spawner can spawn if the random chance to spawn a pet is successful.-->
+    </kSpawnableMinorPets>
+  </Current_Tuning>
+</base>

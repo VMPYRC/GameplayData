@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSimLoopTime value="30">
+      <!--Time in Sim minutes a Sim does the test animation-->
+    </kSimLoopTime>
+    <kSkillBonusPerLevel value="27">
+      <!--Range 0 - 400: Bonus sub score per level per skill in array.-->
+    </kSkillBonusPerLevel>
+    <kCareerBonusPerLevel value="39">
+      <!--Range 0 - 400: Bonus sub score per level per career in array.-->
+    </kCareerBonusPerLevel>
+    <kTraitBonus value="83">
+      <!--Range 0 - 400: Bonus SUAT sub score per Trait. This is granted if sim has the traits specified in the Trait Array for that degree-->
+    </kTraitBonus>
+    <kNailedItScore value="2000">
+      <!--Score to gain in SUAT to nail it-->
+    </kNailedItScore>
+    <kBusinessSkill value="Charisma, SocialNetworking, Bartending">
+      <!--Range 0 - 400: Bonus SUAT subscore per Skill level for the Art degree-->
+    </kBusinessSkill>
+    <kBusinessCareer value="Business, Criminal">
+      <!--Range 0 - 400: Bonus SUAT subscore per Career level for the Art degree-->
+    </kBusinessCareer>
+    <kBusinessTraits value="Genius, Ambitious, Evil, Frugal, Workaholic, BornSalesman">
+      <!--Range 0 - 400: Traits that give you kTraitBonus score towards SUAT subscore-->
+    </kBusinessTraits>
+    <kTechnologySkill value="Logic, Handiness, Inventing">
+      <!--Range 0 - 400: Bonus SUAT subscore per Skill level for the Art degree-->
+    </kTechnologySkill>
+    <kTechnologyCareer value="LawEnforcement, Military">
+      <!--Range 0 - 400: Bonus SUAT subscore per Career level for the Art degree-->
+    </kTechnologyCareer>
+    <kTechnologyTraits value="Genius, ComputerWhiz, Handy, NoSenseOfHumor, Good, Eccentric">
+      <!--Range 0 - 400: Traits that give you kTraitBonus score towards SUAT subscore-->
+    </kTechnologyTraits>
+    <kScienceSkill value="Fishing, Gardening, Spellcraft, Science">
+      <!--Range 0 - 400: Bonus SUAT subscore per Skill level for the Art degree-->
+    </kScienceSkill>
+    <kScienceCareer value="Medical, Science">
+      <!--Range 0 - 400: Bonus SUAT subscore per Career level for the Art degree-->
+    </kScienceCareer>
+    <kScienceTraits value="Genius, Bookworm, Perfectionist, SociallyAwkward, GreenThumb, Perceptive">
+      <!--Range 0 - 400: Traits that give you kTraitBonus score towards SUAT subscore-->
+    </kScienceTraits>
+    <kFineArtsSkill value="Painting, Cooking, Guitar, Piano, Drums, BassGuitar, StreetArt, Sculpting, Nectar">
+      <!--Range 0 - 400: Bonus SUAT subscore per Skill level for the Art degree-->
+    </kFineArtsSkill>
+    <kFineArtsCareer value="Culinary, Music, Film">
+      <!--Range 0 - 400: Bonus SUAT subscore per Career level for the Art degree-->
+    </kFineArtsCareer>
+    <kFineArtsTraits value="Genius, AvantGarde, Artistic, NaturalCook, Virtuoso, Rebellious">
+      <!--Range 0 - 400: Traits that give you kTraitBonus score towards SUAT subscore-->
+    </kFineArtsTraits>
+    <kCommunicationsSkill value="Writing, Photography">
+      <!--Range 0 - 400: Bonus SUAT subscore per Skill level for the Art degree-->
+    </kCommunicationsSkill>
+    <kCommunicationsCareer value="Journalism, Political, FortuneTeller">
+      <!--Range 0 - 400: Bonus SUAT subscore per Career level for the Art degree-->
+    </kCommunicationsCareer>
+    <kCommunicationsTraits value="Genius, Charismatic, Irresistible, Schmoozer, Flirty, SocialButterfly">
+      <!--Range 0 - 400: Traits that give you kTraitBonus score towards SUAT subscore-->
+    </kCommunicationsTraits>
+    <kPhysEdSkill value="Athletic, MartialArts, Riding">
+      <!--Range 0 - 400: Bonus SUAT subscore per Skill level for the Art degree-->
+    </kPhysEdSkill>
+    <kPhysEdCareer value="ProfessionalSports">
+      <!--Range 0 - 400: Bonus SUAT subscore per Career level for the Art degree-->
+    </kPhysEdCareer>
+    <kPhysEdTraits value="Genius, Athletic, LovesTheOutdoors">
+      <!--Range 0 - 400: Traits that give you kTraitBonus score towards SUAT subscore-->
+    </kPhysEdTraits>
+    <kGradeBonus value="1.3, 1.15, 1, 0.75, 0.5">
+      <!--Multiplier bonus to score based on GPA for letter grade - F,E,D,C,B,A-->
+    </kGradeBonus>
+  </Current_Tuning>
+</base>

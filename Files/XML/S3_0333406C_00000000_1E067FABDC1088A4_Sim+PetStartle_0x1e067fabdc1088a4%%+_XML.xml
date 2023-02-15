@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRunAwayDistances value="10, 15">
+      <!--Distance pet will try to run away after the startle (if needed). [Min, Max]-->
+    </kRunAwayDistances>
+    <kCatDogAgressiveThoughtBalloons value="balloon_ghost, balloon_death, balloon_shootingstar, balloon_llama, ep5_foxes">
+      <!--These are the icons that will be used in aggressive reaction cat/dog thought balloons.-->
+    </kCatDogAgressiveThoughtBalloons>
+    <kCatDogCowardThoughtBalloons value="balloon_ghost, balloon_death, balloon_shootingstar, balloon_llama">
+      <!--These are the icons that will be used in coward reaction cat/dog thought balloons.-->
+    </kCatDogCowardThoughtBalloons>
+    <kCatDogCuriousThoughtBalloons value="balloon_ghost, balloon_beetles, balloon_flies, balloon_llama">
+      <!--These are the icons that will be used in curious reaction cat/dog thought balloons.-->
+    </kCatDogCuriousThoughtBalloons>
+    <kHorseSpookedThoughtBalloons value="balloon_ghost, balloon_death, balloon_shootingstar, balloon_llama, balloon_match, balloon_firealarm">
+      <!--These are the icons that will be used in spooked reaction horse thought balloons.-->
+    </kHorseSpookedThoughtBalloons>
+    <kHorsePanickedThoughtBalloons value="balloon_dragon, balloon_yeti, balloon_flames, balloon_lochness, balloon_death, balloon_tombstone, balloon_radioactive, ep5_the_world_exploding">
+      <!--These are the icons that will be used in panicked reaction horse thought balloons.-->
+    </kHorsePanickedThoughtBalloons>
+  </Current_Tuning>
+</base>

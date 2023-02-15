@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Singer</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>325</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>422</CompletionConditionId>
+      <InputNumber>20000</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Earn $n simoleons through tipping (Singer)</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>SingerOccupationCheck</CheckFunctionName>
+      <FeedbackFunctionName>EarnNSimoleansFromTipsAsSingerFeedback</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotTips</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>326</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/312336f2-9daf-42b8-a51d-5ec4738917d9:Name</NameKey>
+    <Name>Sing it Again, Sim</Name>
+    <SetName>Singer</SetName>
+    <ChallengeGuid>312336f2-9daf-42b8-a51d-5ec4738917d9</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>325</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/312336f2-9daf-42b8-a51d-5ec4738917d9:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\singer_069.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_platinum_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>626</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>526</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>25</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Sell $n Singer Albums</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CountFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSoldSingerAlbum</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>627</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>345</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Quit job</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>HaveAJobCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>QuitJobFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/681ece31-bede-4c1c-ad36-9e9d0dad301e:Name</NameKey>
+    <Name>Going for the Gold</Name>
+    <SetName>Singer</SetName>
+    <ChallengeGuid>681ece31-bede-4c1c-ad36-9e9d0dad301e</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>626</LogicString>
+    <FailureString>627</FailureString>
+    <DescriptionKey>Gameplay/Challenges/681ece31-bede-4c1c-ad36-9e9d0dad301e:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\singer_70.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_gold_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>702</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>534</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Fulfill a promised $Wish</DisplayName>
+      <EnumValue>207663731</EnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>DreamIDMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>true</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPromisedDreamCompleted</TriggerEvent>
+      <SubjectType>Wish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>703</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/7210f1fd-3089-4e25-a805-8089b1ee1e73:Name</NameKey>
+    <Name>The Soundtrack of Your Lifetime</Name>
+    <SetName>Singer</SetName>
+    <ChallengeGuid>7210f1fd-3089-4e25-a805-8089b1ee1e73</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>702</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/7210f1fd-3089-4e25-a805-8089b1ee1e73:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\singer_068.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1212</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>447</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>15</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $JobType</DisplayName>
+      <EnumValue>202913434</EnumValue>
+      <StringEnumValue>SingagramCelebration</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>JobTypeMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>JobType</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1213</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>447</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>15</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $JobType</DisplayName>
+      <EnumValue>202913435</EnumValue>
+      <StringEnumValue>SingagramCheerUp</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>JobTypeMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>JobType</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1215</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>447</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>15</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $JobType</DisplayName>
+      <EnumValue>202913436</EnumValue>
+      <StringEnumValue>SingagramRomantic</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>JobTypeMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>JobType</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1216</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>447</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>15</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform $n $JobType</DisplayName>
+      <EnumValue>202913437</EnumValue>
+      <StringEnumValue>SingagramYouAreSpecial</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>JobTypeMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>JobType</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1217</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/ceffdda4-8ebf-448b-82d3-b29b4a04075c:Name</NameKey>
+    <Name>Ta-Da!</Name>
+    <SetName>Singer</SetName>
+    <ChallengeGuid>ceffdda4-8ebf-448b-82d3-b29b4a04075c</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>((1212AndOP1213)AndOP(1215AndOP1216))</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/ceffdda4-8ebf-448b-82d3-b29b4a04075c:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP6</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\singer_074.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_bronze_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

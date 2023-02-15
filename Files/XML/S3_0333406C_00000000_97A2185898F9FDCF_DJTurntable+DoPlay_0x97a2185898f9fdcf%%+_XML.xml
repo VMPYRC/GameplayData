@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinRequestMusicFrequency value="30, 30, 30, 30, 30, 30">
+      <!--Description:  the min time in Sim minutes for the frequency that the Request Music interaction may occur , skill levels 0-5-->
+    </kMinRequestMusicFrequency>
+    <kMaxRequestMusicFrequency value="60, 60, 60, 60, 60, 60">
+      <!--Description:  the max time in Sim minutes for the frequency that the Request Music interaction may occur , skill levels 0-5-->
+    </kMaxRequestMusicFrequency>
+    <kDJSkillIncrease value="0">
+      <!--Positive number that will be added to DJSkill while play track interaction is active-->
+    </kDJSkillIncrease>
+    <kAmbitiousMultiplier value="1.1">
+      <!--The multiplier for DJSkill skill gain used by sims with the Ambitious trait-->
+    </kAmbitiousMultiplier>
+    <kCharismaticMultiplier value="1.1">
+      <!--The multiplier for DJSkill skill gain used by sims with the Charismatic trait-->
+    </kCharismaticMultiplier>
+    <kNaturalBornPerformerMultiplier value="1.2">
+      <!--The multiplier for DJSkill skill gain used by sims with the Natural Born Performer trait-->
+    </kNaturalBornPerformerMultiplier>
+    <kVirtuosoMultiplier value="1.2">
+      <!--The multiplier for DJSkill skill gain used by sims with the Virtuoso trait-->
+    </kVirtuosoMultiplier>
+    <kComputerWhizMultiplier value="1.2">
+      <!--The multiplier for DJSkill skill gain used by sims with the Computer Whiz trait-->
+    </kComputerWhizMultiplier>
+    <kAbsentMindedMultiplier value=".85">
+      <!--The multiplier for DJSkill skill gain used by sims with the Absent Minded trait-->
+    </kAbsentMindedMultiplier>
+    <kClumsyMultiplier value=".85">
+      <!--The multiplier for DJSkill skill gain used by sims with the Clumsy trait-->
+    </kClumsyMultiplier>
+    <kCowardMultiplier value=".85">
+      <!--The multiplier for DJSkill skill gain used by sims with the Coward trait-->
+    </kCowardMultiplier>
+    <kLoserMultiplier value=".85">
+      <!--The multiplier for DJSkill skill gain used by sims with the Loser trait-->
+    </kLoserMultiplier>
+  </Current_Tuning>
+</base>

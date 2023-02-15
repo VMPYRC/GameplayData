@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kComfyBuffScore value="10">
+      <!--Buff score for sitting-->
+    </kComfyBuffScore>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kBabyMadeChance value="40">
+      <!--Chance of making a baby successfully-->
+    </kBabyMadeChance>
+    <kBabyTraitChance value="30, 60, 20">
+      <!--Weighted values for chance of baby getting these traits: None, Hydrophobic, PartyAnimal-->
+    </kBabyTraitChance>
+    <kBathDurationToRemoveFatigue value="30">
+      <!--Sim minutes to be in tub before sore, fatigue, stress, and smelly are removed-->
+    </kBathDurationToRemoveFatigue>
+    <kProximityTestFrequency value="2">
+      <!--How frequently to run proximity checks for dogs and robots-->
+    </kProximityTestFrequency>
+    <kMudBathAgeExtension value="1">
+      <!--Days the mud bath extends a sim's life-->
+    </kMudBathAgeExtension>
+    <kPrunedSkinChance value="20">
+      <!--Percent change a sim will get pruned skin when done with the sauna-->
+    </kPrunedSkinChance>
+    <kFunBoostForSteam value="15">
+      <!--How much fun creating more steam gives everyone-->
+    </kFunBoostForSteam>
+    <kWeightLossPerMinute value=".99">
+      <!--multiplier for excess weight to lose every sim minute.  Should be very slightly less than 1.0-->
+    </kWeightLossPerMinute>
+    <kBathLengthInMinutes value="60">
+      <!--Length of a session in the sauna bath-->
+    </kBathLengthInMinutes>
+    <kBuffFitnessModifier value="2">
+      <!--Range: Positive float multipliers above 1.0f.  Description:  Multiplier that increases the speed at which the Sim increases his/her body shape.-->
+    </kBuffFitnessModifier>
+    <kGroupChatRelationshipBump value="7">
+      <!--Bump to give relationship when chatting in sauna-->
+    </kGroupChatRelationshipBump>
+    <kGroupChatSocialBump value="7">
+      <!--Bump to give social when chatting in sauna-->
+    </kGroupChatSocialBump>
+    <kBuffResetMotivesFrequency value="5">
+      <!--How many sim minutes between resetting the hidden fatigue motive.-->
+    </kBuffResetMotivesFrequency>
+    <kWooHooFunBump value="199">
+      <!--Bump to give after WooHoo-->
+    </kWooHooFunBump>
+    <kWooHooSocialBump value="30">
+      <!--Bump to give after WooHoo-->
+    </kWooHooSocialBump>
+    <kWooHooHygieneBump value="100">
+      <!--Bump to give after WooHoo-->
+    </kWooHooHygieneBump>
+  </Current_Tuning>
+</base>

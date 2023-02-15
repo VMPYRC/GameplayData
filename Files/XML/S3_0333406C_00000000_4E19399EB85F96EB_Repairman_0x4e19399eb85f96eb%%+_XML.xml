@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCheckTime value="5">
+      <!--Length of time (in minutes) between checks that everything is repaired-->
+    </kCheckTime>
+    <kDelayBeforeArriving value="0.5">
+      <!--Length of time (in hours) that repairman waits before routing to lot-->
+    </kDelayBeforeArriving>
+    <kDelayBeforeLeaving value=".15">
+      <!--Length of time (in hours) that repairman waits before leaving the lot, after his work is done-->
+    </kDelayBeforeLeaving>
+    <kMinHandinessSkill value="7">
+      <!--Min Handiness Skil-->
+    </kMinHandinessSkill>
+    <kMaxHandinessSkill value="10">
+      <!--Max Handiness Skil-->
+    </kMaxHandinessSkill>
+    <kExtraWaitTimeAfterSocializing value="0.5">
+      <!--Extra time (in hours) to wait before leaving if the service NPC is socialized with-->
+    </kExtraWaitTimeAfterSocializing>
+    <kMaxFixingTime value="4">
+      <!--Max length of time (in hours) that repairman will fix for before leaving-->
+    </kMaxFixingTime>
+    <kServiceTuning>
+      <kMaxNumNPCsInPool value="2">
+        <!--Max num NPCs at once in service-->
+      </kMaxNumNPCsInPool>
+      <kCost value="50">
+        <!--Cost of service-->
+      </kCost>
+      <kIsEmergencyService value="False">
+        <!--If true this service charges kCost only if falsely called, otherwise free.-->
+      </kIsEmergencyService>
+      <kIsRecurrent value="False">
+        <!--Whether the service is recurrent (true) or one-off (false).  Recurrent services are the only type which can be cancelled through the phone dialog.-->
+      </kIsRecurrent>
+      <kAlwaysTryToSendSameSim value="True">
+        <!--Whether or not the service always tries to send the same NPC to a specific household-->
+      </kAlwaysTryToSendSameSim>
+    </kServiceTuning>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kServiceLength value="1">
+      <!--Length of time (in hours) that repairman hangs around-->
+      <!--deprecated on: 1/17/2008 3:33:53 PM-->
+    </kServiceLength>
+  </Deprecated_Tuning>
+</base>

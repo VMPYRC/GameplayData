@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxWaitHours value="20">
+      <!--Max number of Sim hours that customer Sim will wait for a Singagram when 'Perform Job' has been selected.  This is a fail-safe so we should tune this to be greater than the longest duration that a Job map tag icon can be visible for during any given day.-->
+    </kMaxWaitHours>
+  </Current_Tuning>
+</base>

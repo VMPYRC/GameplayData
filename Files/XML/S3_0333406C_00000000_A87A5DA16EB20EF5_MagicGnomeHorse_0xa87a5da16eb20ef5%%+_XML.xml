@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomePetHorseStand, magicGnomePetHorseWalk">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomePetHorseSleep">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomePetHorseJump, magicGnomePetHorseStand, magicGnomePetHorseWalk">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomePetHorseStand,magicGnomePetHorseWalk">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomePetHorseSleep">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="magicGnomePetHorseJump, magicGnomePetHorseStand, magicGnomePetHorseWalk, magicGnomePetHorseSleep">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="2">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kGnomeTuning>
+    <kMinimumLickingTimeToQualifyForGnome value="80">
+      <!--The minimum amount of time, in sim minutes, a horse must lick a salt lick in order to qualify for getting a horse gnome. 0.0+-->
+    </kMinimumLickingTimeToQualifyForGnome>
+    <kBaseChanceToGetGnome value="0.05">
+      <!--The base chance to get the gnome, after qualifying to get the gnome from licking the salt lick. 0.0 - 1.0-->
+    </kBaseChanceToGetGnome>
+    <kSimMinutesToIncrementChance value="20">
+      <!--The number of sim minutes to lick the salt lick in order to increase the chance of getting a gnome.-->
+    </kSimMinutesToIncrementChance>
+    <kAmountToIncrementChance value="0.02">
+      <!--The amount to increment the chance each time.-->
+    </kAmountToIncrementChance>
+  </Current_Tuning>
+</base>

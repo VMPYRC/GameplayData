@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeToSpendOnThisObject value="20">
+      <!--Time to spend swinging while playing on a playground. Positive float. Unit: Sim minutes.-->
+    </kTimeToSpendOnThisObject>
+    <kTimeToBuryObject value="10">
+      <!--Time it takes to bury an object. Positive float. Unit: Sim minutes.-->
+    </kTimeToBuryObject>
+    <kMinSkillLevelToShowBuildSpecificSculptureOption value="0" />
+    <kChanceSimWillPreferUnfinishedPartAutonomous value="0.8" />
+    <kChanceSimWillPreferUnfinishedPartUserDirected value="0.8" />
+    <kTimeToWaitInLine value="15">
+      <!--Range: Positive floats.  Description: Amount of Sim minutes a Sim will wait in line if the sandbox is full before timing out and exiting.-->
+    </kTimeToWaitInLine>
+  </Current_Tuning>
+</base>

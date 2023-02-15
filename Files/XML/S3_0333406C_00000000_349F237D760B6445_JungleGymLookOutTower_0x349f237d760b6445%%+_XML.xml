@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kJungleGymTuning>
+      <MaximumQueueLength value="4">
+        <!--Slide: Queue for ladder. Lookout Tower: Queue for pole to slide down. For the look out tower, any number more than 4 does not make sense. Positive integer. At least 1. Initial GPE default: 4-->
+      </MaximumQueueLength>
+      <TimeToWaitInQueue value="20">
+        <!--Slide: Queue for ladder. Lookout Tower: Queue for pole to slide down. Units: Sim minutes. Positive integer. Initial GPE default: 20-->
+      </TimeToWaitInQueue>
+      <TimeSpentBeforeSwitchingToAnotherObject value="15">
+        <!--When a sim is playing on playground, the sim spends at least this much time on the obejct. Units: Sim minutes. Positive float. Initial GPE default: 20.0f-->
+      </TimeSpentBeforeSwitchingToAnotherObject>
+      <HangOutTimeMin value="10">
+        <!--Time spent on the given Jungle gym object before sliding down. Positive float.-->
+      </HangOutTimeMin>
+      <HangOutTimeMax value="20">
+        <!--Max time spent on jungle gym object before sliding down.-->
+      </HangOutTimeMax>
+    </kJungleGymTuning>
+    <kTimeToWaitForNextExit value="3">
+      <!--Time between sims using the pole.-->
+    </kTimeToWaitForNextExit>
+    <kTimeMaxToWait value="45">
+      <!--Max time to wait before using pole with potential clipping.-->
+    </kTimeMaxToWait>
+  </Current_Tuning>
+</base>

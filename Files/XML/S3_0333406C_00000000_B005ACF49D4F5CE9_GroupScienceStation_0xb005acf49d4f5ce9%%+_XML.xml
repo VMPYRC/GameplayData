@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxChargeLevel value="100">
+      <!--Range:  0 - 100  Description:  The project will be considered fully charged once the combination of all three charge levels is at this value or higher-->
+    </kMaxChargeLevel>
+    <kFailureChargeLoss value="0.05">
+      <!--Range:  0 - 1  Description:  This is the percentage of the project's charge which will be lost upon a normal failure-->
+    </kFailureChargeLoss>
+    <kEpicChance value="0.33">
+      <!--Range:  0 - 1  Description:  If the activation fails, this is the chance that the failure will be epic-->
+    </kEpicChance>
+    <kWhiteChargeMaxPercent value="0.4">
+      <!--Range:  0 - 1  Description:  All of the individual charge colors must make up no more than this percent of the total charge in order for a white charge to occur-->
+    </kWhiteChargeMaxPercent>
+    <kMeteorShowerDuration value="15">
+      <!--Range:  0 - 100  Description:  This is the duration of the meteor shower that results from a white charge (in sim minutes)-->
+    </kMeteorShowerDuration>
+    <kMeteorImpactIntervalBase value="0.75">
+      <!--Range:  0 - 100  Description:  This is the base interval between meteor impacts for the meteor shower(in sim minutes)-->
+    </kMeteorImpactIntervalBase>
+    <kMeteorImpactIntervalVariance value="0.5">
+      <!--Range: 0 - 1  Description: The interval between meteor impacts will randomly vary by up to this percentage of the base value-->
+    </kMeteorImpactIntervalVariance>
+    <kMedatorMeteoriteValues value="EP9 magicGnomeGraduate, BaseGame HarvestMoneyBag, BaseGame MeteorMedium, BaseGame MeteorLarge, BaseGame gem, BaseGame metal">
+      <!--Description:  An array of ProductVersions and medator instance names that can be spawned as meteorites. Same format as for Wardrobe tuning. Do not include collectibles here.-->
+    </kMedatorMeteoriteValues>
+    <kMedatorMeteoriteWeights value="1, 4, 7, 7, 6, 6">
+      <!--Description:  This tunable does useful things-->
+    </kMedatorMeteoriteWeights>
+    <kMinimumMoneyBagContents value="100">
+      <!--Range:  Positive  Description:  This is the minimum amount of simoleons that the HarvestMoneyBag will contain-->
+    </kMinimumMoneyBagContents>
+    <kMaximumMoneyBagContents value="500">
+      <!--Range:  Positive  Description:  This is the maximum amount of simoleons that the HarvestMoneyBag will contain-->
+    </kMaximumMoneyBagContents>
+    <kWatchDistance value="5">
+      <!--Range:  0 - 100  Description:  The distance from the project that sims should route to in order to watch the glow.-->
+    </kWatchDistance>
+    <kEpicFailureChargeLoss value="0.10">
+      <!--Range:  0 - 1  Description: this is the percentage of the project's charge which will be lost upon epic failure-->
+    </kEpicFailureChargeLoss>
+    <kActivationFailureChances value="0.2, 0.18, 0.16, 0.14, 0.12, 0.1, 0.08, 0.06, 0.04, 0.02, 0">
+      <!--Range:  0 - 1  Description:  This is the chance that the project activation will fail (per science skill level, starting at 0)-->
+    </kActivationFailureChances>
+  </Current_Tuning>
+</base>

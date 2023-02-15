@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHungerValueForMeal value="200">
+      <!--Range:  Hunger value gain.  Description:  Maximum amount of hunger gain from eating a real meal.-->
+    </kHungerValueForMeal>
+    <kHungerValuePerBiteForMeal value="13.3">
+      <!--Range:  Hunger value.  Description:  Hunger gain value per bite from eating a real meal.  Usually 8 bites a meal.-->
+    </kHungerValuePerBiteForMeal>
+    <kHungerValueForSnack value="122">
+      <!--Range:  Hunger value gain.  Description:  Maximum amount of hunger gain from eating a snack.-->
+    </kHungerValueForSnack>
+    <kHungerValuePerBiteForSnack value="8.14">
+      <!--Range:  Hunger value.  Description:  Hunger gain value per bite from eating a snack.  Usually 8 bites a snack.-->
+    </kHungerValuePerBiteForSnack>
+    <kHungerValueForJuice value="122">
+      <!--Range:  Hunger value gain.  Description:  Maximum amount of hunger gain from drinking juice from the bar.-->
+    </kHungerValueForJuice>
+    <kHungerValuePerSipForJuice value="8.14">
+      <!--Range:  Hunger value.  Description:  Hunger gain value per sip from drinking juice from the bar.  Usually 8 sips a drink.-->
+    </kHungerValuePerSipForJuice>
+    <kNumMinutesToTalkToOthersAfterEating value="20">
+      <!--Range:  minutes. How long the sim will hang around grouptalking after eating food, if there is somebody to talk to-->
+    </kNumMinutesToTalkToOthersAfterEating>
+    <kHungerValueMultiplierFrankenstein value="0.25">
+      <!--Multiplier:  Hunger value.  Description:  This multiplier is applied to the hunger gain value whenever Frankenstein is eating.  This should be less than 1.0 as the goal is to make 'regular' food less satisfactory for Frankenstein.-->
+    </kHungerValueMultiplierFrankenstein>
+    <kChanceToThrowUpFromBarGlass value="5">
+      <!--Percent chance of throwing up after receiving a bad drink from the bar.  Random 0-100, default 5-->
+    </kChanceToThrowUpFromBarGlass>
+  </Current_Tuning>
+</base>

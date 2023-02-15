@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDistanceToDestinationSoSimWillBoat value="40">
+      <!--Distance threshold to a sim's destination before he/she will use a boat.-->
+    </kDistanceToDestinationSoSimWillBoat>
+    <kBoatGetInRadius value="15">
+      <!--How close to get to the boat when routing to the boat to get in. (Radius)-->
+    </kBoatGetInRadius>
+    <kWaterskiSkillLevelForFormalwear value="8">
+      <!--The waterski level at which sims can Ski in their formal wear.-->
+    </kWaterskiSkillLevelForFormalwear>
+    <kBoatTryBoardDistanceThresholdOnRoute value="20">
+      <!--Distance threshold below which a sim swimming near the boat will try to get back in before the boat routes away.-->
+    </kBoatTryBoardDistanceThresholdOnRoute>
+    <kMedatorInstancesForNPCBoatGeneration value="BoatSpeedFishingBoat, BoatPaddleBoat, BoatWaterScooter, BoatRowBoat, BoatSpeedBoat, BoatSailBoat">
+      <!--Boat medator instance names for NPC boat generation. Number of boats must match number of weights in kWeightsForNPCBoatGeneration.-->
+    </kMedatorInstancesForNPCBoatGeneration>
+    <kWeightsForNPCBoatGeneration value="0.5, 0.1, 0.3, 0, 0.5, 0.5">
+      <!--Float 0-1. Weights for each boat type in kMedatorInstancesForNPCBoatGeneration. Number of weights must match number of boats.-->
+    </kWeightsForNPCBoatGeneration>
+    <kMedatorInstancesForChildNPCBoatGeneration value="BoatPaddleBoat, BoatWaterScooter, BoatRowBoat">
+      <!--Boat medator instance names for child NPC boat generation. Number of boats must match number of weights in kWeightsForChildNPCBoatGeneration.-->
+    </kMedatorInstancesForChildNPCBoatGeneration>
+    <kWeightsForChildNPCBoatGeneration value="0.1, 0.3, 0">
+      <!--Float 0-1. Weights for each boat type in kMedatorInstancesForChildNPCBoatGeneration. Number of weights must match number of boats.-->
+    </kWeightsForChildNPCBoatGeneration>
+  </Current_Tuning>
+</base>

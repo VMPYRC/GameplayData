@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCleanableTuning>
+      <PristineCleanValue value="30">
+        <!--The value given when cleaning is completed by a neat Sim.  Should be greater than 0 which is what otehr sims clean to.-->
+      </PristineCleanValue>
+      <ChangeToDirtyState value="-30">
+        <!--Dirty level (Dirty Level range is -100 to 0)that will turn on the model's dirty state.-->
+      </ChangeToDirtyState>
+      <ChangeToVeryDirtyState value="-60">
+        <!--Dirty level that will turn on the model's very dirty state.-->
+      </ChangeToVeryDirtyState>
+      <DirtyIncPerUse value="7">
+        <!--The amount that get's subtracted from the dirty level each time the object is used.-->
+      </DirtyIncPerUse>
+      <DirtyThreshold value="-25">
+        <!--Dirty level of the object when Clean becomes available.-->
+      </DirtyThreshold>
+      <CleanDirtyDecPerMinute value="4">
+        <!--The amount that gets added to the dirty level every minute while cleaning.-->
+      </CleanDirtyDecPerMinute>
+      <UpgradeSelfCleaning>
+        <UpgradeTime value="240">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="2640">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="50">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="True">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeSelfCleaning>
+    </kCleanableTuning>
+    <kStoveTuning>
+      <ChanceOfRandomFireAfterFailure value="1">
+        <!--The chance of a fire *if* it has already been decided the sim will fail randomly.-->
+      </ChanceOfRandomFireAfterFailure>
+      <ChanceOfRandomFailureMultiplier value="1.2">
+        <!--The chance of a random failure at the end of cooking (either burning or fire.-->
+      </ChanceOfRandomFailureMultiplier>
+      <ApplianceBonusFoodPoints value="15">
+        <!--A food point bonus for this stove variety.-->
+      </ApplianceBonusFoodPoints>
+      <ApplianceCookingSkillMultiplier value="1">
+        <!--A multiplier applied to the cooking skill points the sim gets when completing a recipe using this stove.-->
+      </ApplianceCookingSkillMultiplier>
+      <CanCatchFire value="False">
+        <!--Set to true if this stove can catch fire.-->
+      </CanCatchFire>
+      <CanBurn value="False">
+        <!--Set to true if this stove can burn food.-->
+      </CanBurn>
+      <MinutesUntilBurning value="15">
+        <!--The minutes the sim has to overcook food on this stove until it burns.-->
+      </MinutesUntilBurning>
+      <CookSpeedMultiplier value="1.2">
+        <!--A multiplier applied to the cooking speed. Higher == faster.-->
+      </CookSpeedMultiplier>
+      <MinutesUntilFire value="30">
+        <!--The minutes the sim has to overcook food on this stove until it catches fire.-->
+      </MinutesUntilFire>
+    </kStoveTuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

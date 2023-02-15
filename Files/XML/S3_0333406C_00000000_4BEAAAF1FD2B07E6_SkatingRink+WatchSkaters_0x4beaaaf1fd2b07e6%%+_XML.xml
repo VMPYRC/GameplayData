@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kReactionsToUse value="Giggle, LaughAt, PointLaugh, Cheer, Excited">
+      <!--The various reactions we should randomize between.-->
+    </kReactionsToUse>
+    <kMaxTimeToWatch value="30">
+      <!--The maximum amount of time, in sim minutes, to watch the skaters.-->
+    </kMaxTimeToWatch>
+    <kTimeBetweenThoughtBalloons value="5">
+      <!--Frequency of displaying thought balloons during group talk in sim minutes.-->
+    </kTimeBetweenThoughtBalloons>
+    <kTimeBetweenReactions value="5">
+      <!--The time, in sim minutes, between each reaction.-->
+    </kTimeBetweenReactions>
+    <kTimeToFocusOnASim value="5">
+      <!--The amount of time, in sim minutes, to spend watching one skater before watching a new one.-->
+    </kTimeToFocusOnASim>
+    <kChanceToShowSimInThoughtBalloon value="0.25">
+      <!--The chance of a sim's thought balloon being the sim they are watching during group talk. 0.0 - 1.0-->
+    </kChanceToShowSimInThoughtBalloon>
+  </Current_Tuning>
+</base>

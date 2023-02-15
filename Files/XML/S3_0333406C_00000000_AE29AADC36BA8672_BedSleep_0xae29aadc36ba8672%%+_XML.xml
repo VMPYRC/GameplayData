@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnergyThresholdToAllowSleep value="100">
+      <!--Range: -100 to 100.  Description:  Sims are only allowed to use the Sleep interaction on beds and sofas if the Sim's energy commodity is below this tunable value.-->
+    </kEnergyThresholdToAllowSleep>
+    <kBadNightSleepBuffChance value=".15">
+      <!--Range: Positive float values.  Description:  If a Sim doesn't sleep until he/she gets the Well Rested buff and the Sim is sleeping on a cheap bed, this tunable is the percentage chance the Sim will gain the 'Bad Night's Sleep' buff.-->
+    </kBadNightSleepBuffChance>
+    <kSpooningMinInterval value="30">
+      <!--Range: Positive integer values.  Description: Minimum number of minutes between spooning.  Actual times will be normally distributed between min and max.-->
+    </kSpooningMinInterval>
+    <kSpooningMaxInterval value="100">
+      <!--Range: Positive integer values.  Description: Maximum number of minutes between spooning.  Actual times will be normally distributed between min and max.-->
+    </kSpooningMaxInterval>
+    <kSpooningMinDuration value="45">
+      <!--Range: Positive integer values.  Description: Minimum number of minutes to spoon.  Actual times will be normally distributed between min and max.-->
+    </kSpooningMinDuration>
+    <kSpooningMaxDuration value="120">
+      <!--Range: Positive integer values.  Description: Maximum number of minutes to spoon.  Actual times will be normally distributed between min and max.-->
+    </kSpooningMaxDuration>
+    <kAutonomyScoreMultiplierForBedOwner value="1">
+      <!--Range: Positive decimal less than or equal to 1.0.  Description: How much to multiply the base autonomy score if the Sim owns this bed.-->
+    </kAutonomyScoreMultiplierForBedOwner>
+    <kAutonomyScoreMultiplierForNonOwner value="0.2">
+      <!--Range: Positive decimal less than or equal to 1.0.  Description: How much to multiply the base autonomy score if all parts of this bed are owned by someone else.-->
+    </kAutonomyScoreMultiplierForNonOwner>
+    <kAutonomyScoreMultiplierBase value="0.9">
+      <!--Range: Positive decimal less than or equal to 1.0.  Description: How much to multiply the base autonomy score if there are unowned sections of the bed.-->
+    </kAutonomyScoreMultiplierBase>
+    <kUnluckyTraitHoursToGainBuff value="4">
+      <!--Range: Positive floats.  Description:  The minimum number of Sim hours an Unlucky Sim must sleep to have a chance of getting the 'Feeling Unlucky' buff when waking up.-->
+    </kUnluckyTraitHoursToGainBuff>
+    <kFeelingUnluckySleepBuffChance value="0.25">
+      <!--Range: Positive float values.  Description:  The chance that an Unlucky Sim will get the 'Feeling Unlucky' buff if he or she has slept enough hours to gain the buff.-->
+    </kFeelingUnluckySleepBuffChance>
+    <kLuckyTraitHoursToGainBuff value="4">
+      <!--Range: Positive floats.  Description:  The minimum number of Sim hours a Lucky Sim must sleep to have a chance of getting the 'Feeling Lucky' buff when waking up.-->
+    </kLuckyTraitHoursToGainBuff>
+    <kFeelingLuckySleepBuffChance value=".333">
+      <!--Range: Positive float values.  Description:  The chance that a Lucky Sim will get the 'Feeling Lucky' buff if he or she has slept enough hours to gain the buff.-->
+    </kFeelingLuckySleepBuffChance>
+    <kAutonomyScoreMultiplierWhenExhausted value="1">
+      <!--Range: Positive decimal greater than or equal to 1.0.  Description: How much to multiply the base autonomy score for sleeping if the Sim is tired or exhausted-->
+    </kAutonomyScoreMultiplierWhenExhausted>
+    <kAutonomyDoubleBedForCouplesMultiplier value="1.2">
+      <!--Range: Positive decimal greater than or equal to 1.0.  Description: How much to multiply the base autonomy score for sleeping for couples when the bed is a double-bed (to encourage couples to sleep together)-->
+    </kAutonomyDoubleBedForCouplesMultiplier>
+    <kAutonomyDoubleBedForSinglesMultiplier value="0.7">
+      <!--Range: Positive decimal greater than or equal to 1.0.  Description: How much to multiply the base autonomy score for sleeping for single Sims when the bed is a double-bed (to encourage single Sims to sleep alone)-->
+    </kAutonomyDoubleBedForSinglesMultiplier>
+    <kFrequencyOfThoughtBalloon value="6">
+      <!--Frequency of displaying thought balloons.-->
+    </kFrequencyOfThoughtBalloon>
+    <kAutonomyScoreMultiplierForBedAwayFromOwnedBed value="0.01">
+      <!--Range: Positive decimal less than or equal to 1.0.  Description: How much to multiply the base autonomy score if the Sim's owned bed is on another lot.  Tune to zero to mimic base game behavior.  GPE default: 0.01-->
+    </kAutonomyScoreMultiplierForBedAwayFromOwnedBed>
+    <kGrumpyTraitHoursToGainBuff value="4">
+      <!--Range: Positive floats.  Description:  The minimum number of Sim hours a Grmpy Sim must sleep to have a chance of getting the 'Out Of Sorts' buff when waking up.-->
+    </kGrumpyTraitHoursToGainBuff>
+    <kOutOfSortsSleepBuffChance value="0.33">
+      <!--Range: Positive float values.  Description:  The chance that a Grumpy Sim will get the 'Out Of Sorts' buff if he or she has slept enough hours to gain the buff.-->
+    </kOutOfSortsSleepBuffChance>
+    <kDreamOfAnimalChanceWithPreferredTraits value="0.35">
+      <!--Dreaming: Chance a Dog Lover, Cat Lover, Animal Lover or Equestrian Sim will dream of the approrpriate animal type.-->
+    </kDreamOfAnimalChanceWithPreferredTraits>
+    <kDreamOfAnimalChance value="0.15">
+      <!--Dreaming: Chance a non-animal loving Sim will dream of a pet.-->
+    </kDreamOfAnimalChance>
+    <kDreamOfAnimalMinorPetChance value="0.10">
+      <!--Dreaming: The chance a minor pet will be chosen when dreaming of pets.  This applies only to Animal Lovers and Sims who don't have a specific animal trait..-->
+    </kDreamOfAnimalMinorPetChance>
+    <kAutonomyBedForFairyMultiplier value="0.5">
+      <!--Range: Positive decimal less than or equal to 1.0.  Description: How much to multiply the base autonomy score for fairies sleeping in beds (to encourage single Fairy Sims to sleep in Fairy Houses)-->
+    </kAutonomyBedForFairyMultiplier>
+    <kUnstableTraitHoursToGainBuff value="1">
+      <!--Range: Positive floats.  Description:  The minimum number of Sim hours an Unstable Sim must sleep to have a chance of getting the 'Feeling Out Of Sorts' buff when waking up.-->
+    </kUnstableTraitHoursToGainBuff>
+    <kUnstableSleepBuffChanceCeiling value="1000">
+      <!--Range: -100 to 200.  Description:  Mood above this value always fails to add the unstable buffs. Calculations are based on this number. -MDILLON.-->
+    </kUnstableSleepBuffChanceCeiling>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kInteractionTimeLength value="480">
+      <!--deprecated on: 9/18/2007 1:35:24 PM-->
+    </kInteractionTimeLength>
+    <kRemoveTiredMaximumTime value="4">
+      <!--Range: 4.0f.  Description:  Please do not tune without contacting Eric Holmberg-Weidler or Tom Wang - this tunable can cause unexpected sleep drift.-->
+      <!--deprecated on: 4/25/2008 3:40:09 PM-->
+    </kRemoveTiredMaximumTime>
+    <kRemoveSleepyMaximumTime value="5.5">
+      <!--Range: 5.5f.  Description:  Please do not tune without contacting Eric Holmberg-Weidler or Tom Wang - this tunable can cause unexpected sleep drift.-->
+      <!--deprecated on: 4/25/2008 3:40:09 PM-->
+    </kRemoveSleepyMaximumTime>
+  </Deprecated_Tuning>
+</base>

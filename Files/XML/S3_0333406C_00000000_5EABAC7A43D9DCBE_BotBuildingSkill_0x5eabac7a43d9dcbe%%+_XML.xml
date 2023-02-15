@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumSimoleonsForDomoArigato value="5000">
+      <!--Range 0-10000: Total Simoleons needed to earn Domo Arigato Mr Roboto Challenge.-->
+    </kNumSimoleonsForDomoArigato>
+    <kNumNanitesNeededForMicroMaster value="200">
+      <!--Range 0-1000: Total number of nanites the user must create to earn Micro-Master.-->
+    </kNumNanitesNeededForMicroMaster>
+    <kNumRecipesOfTraitChipsForChippingIn value="21">
+      <!--Range 0-1000: Total number of Trait Chip recipes the user must discover to earn Chipping In.-->
+    </kNumRecipesOfTraitChipsForChippingIn>
+    <kDomoArigatoBuffTimeoutModifier value="3">
+      <!--Range:  0.0f - 100.0f  Description:  What multiplier should be applied to Well Tuned when Domo Arigato is true-->
+    </kDomoArigatoBuffTimeoutModifier>
+    <kChippingInPotionShopDiscount value="0.25">
+      <!--Range:  0-1.0 float;  Description:  The percentage discount to the cost of items purchased at the Bot Shop after achieving Chipping In Challenge; 0.25 is 25% off-->
+    </kChippingInPotionShopDiscount>
+  </Current_Tuning>
+</base>

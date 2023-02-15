@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeToWaitInLine value="20">
+      <!--Sim minutes for which a Sim will wait in line before timing out and exiting. Positive float. Initial GPE default: 5.0f.-->
+    </kTimeToWaitInLine>
+    <kMinutesUntilDirty value="1080">
+      <!--Range: Sim minutes.  Description:  Minutes after a Sim finishes a meal that the empty plate is considered dirty.-->
+    </kMinutesUntilDirty>
+    <kMinDistanceToMoveAwayAfterGrabbingPlate value="2">
+      <!--The minimum distance a sim will move away after grabbing some food-->
+    </kMinDistanceToMoveAwayAfterGrabbingPlate>
+    <kMaxDistanceToMoveAwayAfterGrabbingPlate value="5">
+      <!--The minimum distance a sim will move away after grabbing some food-->
+    </kMaxDistanceToMoveAwayAfterGrabbingPlate>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeBetweenFailureChecks value="5">
+      <!--Float > 0, Num Sim minutes between failure checks-->
+    </kTimeBetweenFailureChecks>
+    <kTurnLengthMinMax value="10, 20">
+      <!--Float > 0 [min, max], Num Sim minutes sim's turn lasts on half pipe (provided they dont fall) if another sim is waiting for a turn.  Actual time will be picked randomly between the 2 values. If no sim is waiting sim will keep going-->
+    </kTurnLengthMinMax>
+    <kFailureChances value="30, 20, 5">
+      <!--Range 0-100, [Low, Med, High] Chance of failure each failure check for each respective skill level.-->
+    </kFailureChances>
+    <kMaximumNumberOfSimsInLine value="6">
+      <!--Range: Positive integers.  Description:  Maximum number of Sims that can wait in line to use Snowboard Half Pipe.-->
+    </kMaximumNumberOfSimsInLine>
+    <kTimeToWaitInLine value="60">
+      <!--Range: Positive floats.  Description: Amount of Sim minutes a Sim will wait in line before timing out and exiting.-->
+    </kTimeToWaitInLine>
+    <kLineSlotMinDistance value="1">
+      <!--Distance from the HalfPipes's entry routing slot to the beginning of the head of the line.-->
+    </kLineSlotMinDistance>
+    <kLineSlotMaxDistance value="4">
+      <!--Distance from the HalfPipes's entry routing slot to the end of the head of the line.-->
+    </kLineSlotMaxDistance>
+    <kLineLength value="2">
+      <!--Total length of the line, measured from the end of the head of the line.-->
+    </kLineLength>
+    <kLineStartAngle value="2.356194">
+      <!--The angle (width in radians) of the cone shape that represents the head of the line. Initial GPE value: 2.356194 (Pi *3 / 4).-->
+    </kLineStartAngle>
+    <kLineAngle value="0.7853982">
+      <!--The angle (width in radians) of the cone shape that represents the line. Initial GPE value: 0.785375f (Pi / 4).-->
+    </kLineAngle>
+    <kLineStartSpacingFactor value="2">
+      <!--Spacing factor of routing options for line head. Positive float.-->
+    </kLineStartSpacingFactor>
+    <kLineSpacingFactor value="2">
+      <!--Spacing factor of routing options for line. Positive float. Init GPE default: 2.0f-->
+    </kLineSpacingFactor>
+    <kWatchConeAngle value="3.769911">
+      <!--Units: Radians, Valid range [0, Pi], The arc/cone's angle for finding a suitable spot for a sim to watch sim snowboarding-->
+    </kWatchConeAngle>
+    <kWatchRouteMinDistance value="0">
+      <!--Range: float > 1.0, Minimum distance a sim will route to one of the 4 general watching slots surrounding the half pipe.-->
+    </kWatchRouteMinDistance>
+    <kWatchRouteMaxDistance value="2">
+      <!--Range: float > 1.0, Max distance a sim will route to one of the 4 general watching slots surrounding the half pipe.-->
+    </kWatchRouteMaxDistance>
+    <kWatchRoutePreferredDistance value="0">
+      <!--Range: float > 1.0, Preferred distance a sim will route to one of the 4 general watching slots surrounding the half pipe.-->
+    </kWatchRoutePreferredDistance>
+    <kChanceReactToFailure value="100">
+      <!--Range 0-100, Chance of a watching sim to react to snowboarder falling.-->
+    </kChanceReactToFailure>
+    <kChanceReactToTrick value="100">
+      <!--Range 0-100, Chance of a watching sim to react to snowboarder doing a trick.-->
+    </kChanceReactToTrick>
+    <kFailureReactions value="Boo, LaughAt, PointLaugh">
+      <!--List of possible failure reactions sim might do when reacting to snowboarder falling-->
+    </kFailureReactions>
+    <kTrickReactions value="Cheer, Excited, PumpFist">
+      <!--List of possible positive reactions sim might do when reacting to snowboarder doing a trick-->
+    </kTrickReactions>
+    <kTimeToTurnOnLightsDelta value="1">
+      <!--Hour delta from world defined sunset at which lights should turn on-->
+    </kTimeToTurnOnLightsDelta>
+    <kTimeToTurnOffLightsDelta value="1">
+      <!--Hour delta from world defined sunrise at which lights should turn off-->
+    </kTimeToTurnOffLightsDelta>
+    <kMinComeAndSeeRadius value="10">
+      <!--[float] The minimum radius sims should use when running the Come And See interaction-->
+    </kMinComeAndSeeRadius>
+    <kMaxComeAndSeeRadius value="12">
+      <!--[float] The maximum radius sims should use when running the Come And See interaction-->
+    </kMaxComeAndSeeRadius>
+    <kNumFestivalTicketsForBoarding value="5">
+      <!--Range: 1 - Inf  Description: Number of festival tickets a selectable sim gets for boarding.-->
+    </kNumFestivalTicketsForBoarding>
+  </Current_Tuning>
+</base>

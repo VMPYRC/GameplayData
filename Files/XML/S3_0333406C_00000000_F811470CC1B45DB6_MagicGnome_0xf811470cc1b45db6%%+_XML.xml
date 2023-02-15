@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeStanding,magicGnomeProud,magicGnomeHandstand,,magicGnomeDancing,magicGnomeDancing2">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeSleeping">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeScared,magicGnomePointing,magicGnomeExamining">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeLyingDown, magicGnomeSitting">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeSleeping">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kWeightExpensive value="2">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+      <kNoKickPoses value="magicGnomeLyingDown, magicGnomePointing, magicGnomeSitting, magicGnomeSleeping">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+    </kGnomeTuning>
+    <kToddlerGnomeTuning>
+      <kIdlePoses value="magicGnomeToddlerFootChew,magicGnomeToddlerLook">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeToddlerFootChew">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeToddlerFootChew,magicGnomeToddlerLook">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeToddlerNap">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeToddlerTantrum">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="magicGnomeToddlerTantrum">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="1">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kToddlerGnomeTuning>
+    <kChildGnomeTuning>
+      <kIdlePoses value="magicGnomeChildAirplane,magicGnomeChildSit">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeChildLay,magicGnomeChildRelax">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeChildAirplane,magicGnomeChildSit">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeChildRelax,magicGnomeChildSit,magicGnomeChildLay">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeChildRelax">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="magicGnomeChildLay">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="2">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kChildGnomeTuning>
+    <kTeenGnomeTuning>
+      <kIdlePoses value="magicGnomeTeenAirGuitar,magicGnomeTeenPeace,magicGnomeTeenArmsCrossed">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeTeenMope">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeTeenAirGuitar,magicGnomeTeenCry">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeTeenAirGuitar,magicGnomeTeenPeace">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeTeenMope,magicGnomeTeenCry">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="3">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kTeenGnomeTuning>
+    <kElderGnomeTuning>
+      <kIdlePoses value="magicGnomeElderLookOut,magicGnomeElderGolf">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeElderSleep">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeElderLookOut,magicGnomeElderGolf,magicGnomeElderCaneShake">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeElderGolf,magicGnomeElderSleep">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeElderCaneShake">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="2">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kElderGnomeTuning>
+    <kDaysToAgeUpToChild value="7">
+      <!--Number of days until a toddler gnome should age up to a child gnome-->
+    </kDaysToAgeUpToChild>
+    <kDaysToAgeUpToTeen value="14">
+      <!--Number of days until a child gnome should age up to a teen gnome-->
+    </kDaysToAgeUpToTeen>
+    <kDaysToAgeUpToAdult value="14">
+      <!--Number of days until a teen gnome should age up to an adult (base) gnome-->
+    </kDaysToAgeUpToAdult>
+    <kDaysToAgeUpToElder value="18">
+      <!--Number of days until an adult (base) gnome should age up to an elder gnome-->
+    </kDaysToAgeUpToElder>
+    <kToddlerDesireForToys value="6">
+      <!--OBJECT DESIRABILITY: TODDLER: score multiplier for Toy objects.-->
+    </kToddlerDesireForToys>
+    <kToddlerDesireForCribs value="3">
+      <!--OBJECT DESIRABILITY: TODDLER: score multiplier for Crib objects.-->
+    </kToddlerDesireForCribs>
+    <kToddlerDesireForGardeningPlants value="1.25">
+      <!--OBJECT DESIREABILITY: TODDLER: score multiplier for Gardening Plant objects.-->
+    </kToddlerDesireForGardeningPlants>
+    <kChildDesireForToys value="4">
+      <!--OBJECT DESIRABILITY: CHILD: score multiplier for Toy objects.-->
+    </kChildDesireForToys>
+    <kChildDesireForPlaygrounds value="6">
+      <!--OBJECT DESIRABILITY: CHILD: score multiplier for Playground objects.-->
+    </kChildDesireForPlaygrounds>
+    <kChildDesireForGardeningPlants value="2">
+      <!--OBJECT DESIRABILITY: CHILD: score multiplier for Gardening Plant objects.-->
+    </kChildDesireForGardeningPlants>
+    <kTeenDesireForTeens value="4">
+      <!--OBJECT DESIRABILITY: TEEN: score multiplier for Teen Gnome objects.-->
+    </kTeenDesireForTeens>
+    <kTeenDesireForGardeningPlants value="2">
+      <!--OBJECT DESIRABILITY: TEEN: score multiplier for Gardening Plant objects.-->
+    </kTeenDesireForGardeningPlants>
+    <kDaysToKillElder value="12">
+      <!--Number of days until an elder gnome should die-->
+    </kDaysToKillElder>
+    <kSpawnToddlerCooldown value="7">
+      <!--Number of days until we should try for a toddler gnome again-->
+    </kSpawnToddlerCooldown>
+    <kChanceToSpawnToddler value="0.1">
+      <!--Chance of a toddler gnome being spawned - 0.0-1.0 - only happens if there are 2 or more adult/elder gnomes-->
+    </kChanceToSpawnToddler>
+    <kChancePosseUp value="1.0">
+      <!--(ACTION weight - influences chances of all ACTIONs) Chance that a magic gnome will posse up - uses that gnomes trickery for the day.-->
+    </kChancePosseUp>
+    <kPosseUpCooldown value="3">
+      <!--Number of days until we should try to posse up again-->
+    </kPosseUpCooldown>
+    <kRandomMinMaxDaysToKillElder value="1, 5">
+      <!--The min/max random days applied to the kDaysToKillElder to actually kill the elder off. A random number within this range will get added to kDaysToKillElder (0.0 +)-->
+    </kRandomMinMaxDaysToKillElder>
+  </Current_Tuning>
+</base>

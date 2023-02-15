@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLargeRinkTuning>
+      <kHeight value="15">
+        <!--[float] The height of the rink.-->
+      </kHeight>
+      <kWidth value="11">
+        <!--[float] The width of the rink.-->
+      </kWidth>
+      <kWatchDivisionsShortSide value="2">
+        <!--[int] The number of divisions for watch points along the shorter sides of the rink.-->
+      </kWatchDivisionsShortSide>
+      <kWatchDivisionsLongSide value="3">
+        <!--[int] The number of divisions for watch points along the longer sides of the rink.-->
+      </kWatchDivisionsLongSide>
+      <kWatchRadius value="0.5, 2">
+        <!--[float] The min and max radius to route to the watch points.-->
+      </kWatchRadius>
+      <kOutsideRouteOffset value="1.5">
+        <!--DO NOT TOUCH! THIS HAS BEEN CALCULATED TO BE AWESOME. ANY CHANGES WILL MAKE THIS NO LONGER AWESOME [float] The number of units the outside route is offset from the edge of the rink.-->
+      </kOutsideRouteOffset>
+      <kOutsideRouteRadius value="2.5">
+        <!--DO NOT TOUCH! THIS HAS BEEN CALCULATED TO BE AWESOME. ANY CHANGES WILL MAKE THIS NO LONGER AWESOME [float] The radius of the corners of the outside route.-->
+      </kOutsideRouteRadius>
+      <kOutsideRouteSlices value="2">
+        <!--DO NOT TOUCH! THIS HAS BEEN CALCULATED TO BE AWESOME. ANY CHANGES WILL MAKE THIS NO LONGER AWESOME [int] The number of slices in the corners of the outside route.-->
+      </kOutsideRouteSlices>
+      <kMaxSkatersOutsideRoute value="5">
+        <!--[int] The maximum number of skaters allowed on the outside route.-->
+      </kMaxSkatersOutsideRoute>
+      <kHasInsideRoute value="True">
+        <!--[bool] Should this rink have an inside lane? Should be FALSE for the small rinks. If set to FALSE, the other inside route tunables don't matter.-->
+      </kHasInsideRoute>
+      <kInsideRouteOffset value="3.25">
+        <!--DO NOT TOUCH! THIS HAS BEEN CALCULATED TO BE AWESOME. ANY CHANGES WILL MAKE THIS NO LONGER AWESOME [float] The number of units the inside route is offset from the edge of the rink.-->
+      </kInsideRouteOffset>
+      <kInsideRouteSlices value="8">
+        <!--DO NOT TOUCH! THIS HAS BEEN CALCULATED TO BE AWESOME. ANY CHANGES WILL MAKE THIS NO LONGER AWESOME [int] The number of slices in the entire inside route. For best results this should be evenly divisible by 4 (i.e. 4, 8, 12, 16, etc.)-->
+      </kInsideRouteSlices>
+      <kMaxSkatersInsideRoute value="3">
+        <!--[int] The maximum number of skaters allowed on the inside route.-->
+      </kMaxSkatersInsideRoute>
+      <kMinComeAndSeeRadius value="10">
+        <!--[float] The minimum radius sims should use when running the Come And See interaction-->
+      </kMinComeAndSeeRadius>
+      <kMaxComeAndSeeRadius value="8">
+        <!--[float] The maximum radius sims should use when running the Come And See interaction-->
+      </kMaxComeAndSeeRadius>
+    </kLargeRinkTuning>
+  </Current_Tuning>
+</base>

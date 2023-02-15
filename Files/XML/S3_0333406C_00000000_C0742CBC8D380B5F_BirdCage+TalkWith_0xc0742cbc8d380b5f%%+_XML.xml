@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDurationSimMinutes value="20">
+      <!--Positive float.  The number of sim minutes to run the talk loop.-->
+    </kDurationSimMinutes>
+    <kCharismaPointsGained value="200">
+      <!--Positive float.  The number of Charisma Skill points to gain from talking to a bird.-->
+    </kCharismaPointsGained>
+    <kHumanBalloons value="balloon_beetles, balloon_flies, balloon_pond, ep5_balloon_bird, balloon_tree, balloon_musicnotes">
+      <!--Strings.  The icons that will be used in human speech balloons.-->
+    </kHumanBalloons>
+    <kLTRLikingDelta value="2">
+      <!--Positive float.  The amount of LTR liking increase each time the human talks to the bird.-->
+    </kLTRLikingDelta>
+    <kSocialDelta value="30">
+      <!--Positive float.  The Social gain for the human is kSocialDelta * kSocialDeltaModifierPerSpeechType * <number of speech types known>-->
+    </kSocialDelta>
+    <kSocialDeltaModifierPerSpeechType value="2">
+      <!--Positive float.  The Social gain for the human is kSocialDelta * kSocialDeltaModifierPerSpeechType * <number of speech types known>-->
+    </kSocialDeltaModifierPerSpeechType>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBlockedBuffs value="Embarrassed, AfraidOfTheDark, Horrified, FrightenedByVR, GotRippedOff, WitnessedBetrayal, AnxioustoAdvance, Mugged, Strained, RudeAwakening, RudeGuest, BadTimeOut, TiredFromMoving">
+      <!--Range:  BuffNames[]  Description:  A list of buffs that this buff prevents/removes-->
+    </kBlockedBuffs>
+    <kReducedBuffs value="Mourning, LostAFriend, Betrayed, Stressed, Fired, StuffTaken">
+      <!--Range:  BuffNames[]  Description:  A list of buffs that this buff reduces the effeect of-->
+    </kReducedBuffs>
+    <kReductionStrengthMultiplier value="0.3">
+      <!--Range:  0+  Description:  A reduction multiplier applied to reduced buffs' strength-->
+    </kReductionStrengthMultiplier>
+    <kReductionDurationMultiplier value="0.6">
+      <!--Range:  0+  Description:  A reduction multiplier applied to reduced buffs' duration-->
+    </kReductionDurationMultiplier>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDistanceFromSimToPresent value="1.5">
+      <!--The distance the cat should get to the Sim before dropping the object on the ground.-->
+    </kDistanceFromSimToPresent>
+    <kMaxDistanceForSimToReact value="5">
+      <!--The maximum distance from the prey the target needs to be in order to react. Should be greater than kDistanceFromSimToPresent-->
+    </kMaxDistanceForSimToReact>
+    <kHumanBaseChanceToPetCat value="0.5">
+      <!--The base chance for a human sim to pet the cat after being presented something.-->
+    </kHumanBaseChanceToPetCat>
+    <kHumanTraits value="Slob, Snob, Neat, CatPerson, AnimalLover">
+      <!--The human traits that will get a modifier on the base chance to pet a cat-->
+    </kHumanTraits>
+    <kHumanTraitModifiers value="0.1, -0.2, -0.1, 0.3, 0.3">
+      <!--The modifiers that correspond to the human traits in the kHumanTraits tunable.  Must be in the same order.  -1.0 - 1.0 for each trait-->
+    </kHumanTraitModifiers>
+    <kHumanRequiredRelationshipToQualifyForModifier value="40">
+      <!--The required relationship for a sim to qualify for the high relationship modifier. -100.0 - 100.0-->
+    </kHumanRequiredRelationshipToQualifyForModifier>
+    <kHumanRelationshipModifier value="0.1">
+      <!--The modifier applied to the base chance, if the relationship is higher than the kHumanRequiredRelationshipToQualifyForModifier-->
+    </kHumanRelationshipModifier>
+    <kCatBaseChanceToNuzzleCat value="0.5">
+      <!--The base chance for a cat sim to nuzzle the cat after being presented something.-->
+    </kCatBaseChanceToNuzzleCat>
+    <kCatTraits value="FriendlyPet, AggressivePet, LoyalPet, SkittishPet">
+      <!--The cat traits that will get a modifier on the base chance to nuzzle a cat-->
+    </kCatTraits>
+    <kCatTraitModifiers value="0.2, -0.2, .01, -0.1">
+      <!--The modifiers that correspond to the pet traits in the kCatTraits tunable. Must be in the same order. -1.0 - 1.0 for each trait-->
+    </kCatTraitModifiers>
+    <kCatRequiredRelationshipToQualifyForModifier value="40">
+      <!--The required relationship for a cat to qualify for the high relationship modifier. -100.0 - 100.0-->
+    </kCatRequiredRelationshipToQualifyForModifier>
+    <kCatRelationshipModifier value="0.1">
+      <!--The modifier applied to the base chance, if the relationship is higher than the kCatRequiredRelationshipToQualifyForModifier-->
+    </kCatRelationshipModifier>
+    <kChanceOfAutonomyChooseHighestLTR value="0.7">
+      <!--The chance of autonomy choosing the highest LTR Sim to present to. 0.0 - 1.0-->
+    </kChanceOfAutonomyChooseHighestLTR>
+    <kLtrGainForPositiveReactionFromCat value="10">
+      <!--The LTR gain for a positive reaction from a cat.-->
+    </kLtrGainForPositiveReactionFromCat>
+    <kLtrLossForNegativeReactionFromCat value="5">
+      <!--The LTR loss for a negative reaction from a cat.-->
+    </kLtrLossForNegativeReactionFromCat>
+    <kLtrGainForPositiveReactionFromHuman value="10">
+      <!--The LTR gain for a positive reaction from a human.-->
+    </kLtrGainForPositiveReactionFromHuman>
+    <kLtrLossForNegativeReactionFromHuman value="5">
+      <!--The LTR loss for a negative reaction from a human.-->
+    </kLtrLossForNegativeReactionFromHuman>
+    <kRadiusForValidSims value="20">
+      <!--The radius around the cat to look for valid sims.-->
+    </kRadiusForValidSims>
+  </Current_Tuning>
+</base>

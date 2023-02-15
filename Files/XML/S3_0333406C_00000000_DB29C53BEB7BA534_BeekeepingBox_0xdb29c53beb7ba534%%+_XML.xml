@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHappinessLevelsForHoneyQualities value="12.5, 25, 37.5, 50, 62.5, 75, 82.5, 90, 97">
+      <!--Range:  0 - 100  Description:  The minimum happiness levels required for each quality of honey. Anything below the first index is Putrid.-->
+    </kHappinessLevelsForHoneyQualities>
+    <kBeeStingChances value="70, 40, 15">
+      <!--Range:  0 - 100  Description:  Chances of being stung at each happiness state. {Angry, Content, Happy}-->
+    </kBeeStingChances>
+    <kBeeAttackChances value="50, 20, 5">
+      <!--Range:  0 - 100  Description:  Chances of being attacked at each happiness state. {Angry, Content, Happy}-->
+    </kBeeAttackChances>
+    <kBeeAttackBonusToBeeStingChance value="1.425, 1.5, 2">
+      <!--Range:  0 - 100  Description:  When a Bee Attack occurs, this number is MULTIPLIED by kBeeStingChances to increase the likelihood of the sim being stung. Separated by happiness state. {Angry, Content, Happy}-->
+    </kBeeAttackBonusToBeeStingChance>
+    <kHoneyProductionTimeInSimHours value="12">
+      <!--Description: The number of hours it takes to produce 1 Honey-->
+    </kHoneyProductionTimeInSimHours>
+    <kHoneyStorageLimit value="5">
+      <!--Description:  This is the maximum number of Honey that will be stored at once. When this limit is reached, honey production will stop until the "Harvest" interaction is used.-->
+    </kHoneyStorageLimit>
+    <kChanceToHarvestBeeswax value="60">
+      <!--Range:  0 - 100  Description:  This is the chance that a sim will harvest Beeswax when using the Harvest interaction.-->
+    </kChanceToHarvestBeeswax>
+    <kStartingHappiness value="50">
+      <!--Range:  0 - 100  Description:  This is the level of happiness that bees will start at when the beekeeping box is first created-->
+    </kStartingHappiness>
+    <kHappinessStateMinimums value="30, 65">
+      <!--Range:  0 - 100  Description:  The minimum happiness levels required to reach the different happiness states. Anything below the first index results in Angry.-->
+    </kHappinessStateMinimums>
+    <kHungerDecrementPerSimHour value="4.0">
+      <!--Description:  The hunger of the bees will decrease by this much each hour. Hunger's range is 0 - 100.-->
+    </kHungerDecrementPerSimHour>
+    <kCleanlinessDecrementPerSimHour value="2.0">
+      <!--Description:  The cleanliness of the beekeeping box will decrease by this much each hour. Cleanliness's range is 0 - 100.-->
+    </kCleanlinessDecrementPerSimHour>
+    <kHappinessDecrementFromHungryPerSimHour value="1.5">
+      <!--Description:  Happiness will decrease by this much each hour when the bees are hungry.-->
+    </kHappinessDecrementFromHungryPerSimHour>
+    <kHappinessDecrementFromDirtyPerSimHour value="1.5">
+      <!--Range:  0 - 100  Description:  Happiness will decrease by this much each hour when the box is dirty.-->
+    </kHappinessDecrementFromDirtyPerSimHour>
+    <kHappinessIncreasePerHour value="1.5">
+      <!--Description:  When cleanliness and hunger are both satisfied, happiness will increase by this much each hour.-->
+    </kHappinessIncreasePerHour>
+    <kMinimumCommunityHappiness value="72">
+      <!--Range:  0 - 100  Description:  On community lots, the happiness level of the bees will never go below this value.-->
+    </kMinimumCommunityHappiness>
+  </Current_Tuning>
+</base>

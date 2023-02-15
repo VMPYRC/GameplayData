@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kClassDiscount value="0.8">
+      <!--How much discounted classes cost compared to the original cost-->
+    </kClassDiscount>
+    <kClassesAvailableStartHour value="6">
+      <!--Range:  0-24  Description:  Start hour for classes. must be a smaller value than end hour.-->
+    </kClassesAvailableStartHour>
+    <kClassesAvailableEndHour value="23">
+      <!--Range:  0-24  Description:  End hour for classes. must be a larger value than start hour.-->
+    </kClassesAvailableEndHour>
+  </Current_Tuning>
+</base>

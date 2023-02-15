@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kQuirkinessTimeStart value="1">
+      <!--Range:  0 - 24  Description: The time after which quirky behavior might occur-->
+    </kQuirkinessTimeStart>
+    <kQuirkinessTimeEnd value="5">
+      <!--Range:  0 - 24  Description: The time before which quirky behavior might occur-->
+    </kQuirkinessTimeEnd>
+    <kQuirkinessCooldownTime value="2640">
+      <!--Range:  0+  Description: The cooldown time, in Sim minutes, for quirky behavior-->
+    </kQuirkinessCooldownTime>
+    <kMummyTeddyBearCount value="7">
+      <!--Range:  0+  Description: The amount of Mummy teddy bears that can be produced, per game-->
+    </kMummyTeddyBearCount>
+    <kMummyTeddyBearThresholds value="1500, 1200, 800, 600, 450, 250, 150">
+      <!--Range:  Array of 0+ ints  Description: The value below which non-Mummytomium metals must add up to to get the nth Mummy teddy bear-->
+    </kMummyTeddyBearThresholds>
+    <kTraitsForEvilAndWrathful value="MeanSpirited, Evil, Grumpy, HotHeaded, HatesOutdoors, CantStandArt, Kleptomaniac">
+      <!--Range:  Trait Names  Description:  Valid traits for Evil/Wrathful ghosts-->
+    </kTraitsForEvilAndWrathful>
+    <kTraitsForFriendlyAndKind value="FamilyOriented, Good, GoodSenseOfHumor, Friendly, Charismatic, Virtuoso, LovesTheOutdoors">
+      <!--Range:  Trait Names  Description:  Valid traits for Friendly/Kind ghosts-->
+    </kTraitsForFriendlyAndKind>
+    <kTraitsForLost value="Loner, Neurotic, AbsentMinded, Artistic, Unflirty, Unlucky, NoSenseOfHumor, LightSleeper">
+      <!--Range:  Trait Names  Description:  Valid traits for Lost ghosts-->
+    </kTraitsForLost>
+    <kTraitsForJealous value="Loner, HopelessRomantic, OverEmotional, FamilyOriented, Clumsy, Childish, Insane">
+      <!--Range:  Trait Names  Description:  Valid traits for Jealous ghosts-->
+    </kTraitsForJealous>
+    <kTraitsForFrightened value="Insane, Coward, Loner, Unlucky, Neurotic, LightSleeper, Hydrophobic, AntiTV">
+      <!--Range:  Trait Names  Description:  Valid traits for Freightened ghosts-->
+    </kTraitsForFrightened>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaximumNumberOfClothingPilesPerSim value="2">
+      <!--Range:  0+  Description:  The maximum number of clothing piles generated per Sim, per day-->
+    </kMaximumNumberOfClothingPilesPerSim>
+    <kChanceSlobBehavior value="0.5">
+      <!--Range:  0.0 - 1.0  Description:  The chance Slob Sims will not put piles in hampers when spinning out-->
+    </kChanceSlobBehavior>
+    <kMaximumNumberOfClothingPilesPerSlob value="4">
+      <!--Range:  0+  Description:  The maximum number of clothing piles generated per Slob Sim, per day-->
+    </kMaximumNumberOfClothingPilesPerSlob>
+    <kCombinePilesRadius value="2">
+      <!--Range:  0+  Description:  The maximum radius considered for combining clothing piles, still given they are in the same room-->
+    </kCombinePilesRadius>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeTilCoughingFits value="1440">
+      <!--Range: Sim minutes.  Description:  Number of Sim minutes before coughing fits begin with this buff.-->
+    </kTimeTilCoughingFits>
+    <kMinTimeBetweenCoughingFits value="10">
+      <!--Range: Sim minutes.  Description:  Min time between coughing fits once they begin.-->
+    </kMinTimeBetweenCoughingFits>
+    <kMaxTimeBetweenCoughingFits value="60">
+      <!--Range: Sim minutes.  Description:  Max time between coughing fits once they begin.-->
+    </kMaxTimeBetweenCoughingFits>
+    <kExtraEnergyMotiveDecayPerHour value="-6">
+      <!--Range: Negative floats.  Description:  Extra energy motive decay per hour for sims with Pestilence Plague buff.-->
+    </kExtraEnergyMotiveDecayPerHour>
+    <kExtraHygieneMotiveDecayPerHour value="-12">
+      <!--Range: Negative floats.  Description:  Extra Hygiene motive decay per hour for sims with Pestilence Plague buff.-->
+    </kExtraHygieneMotiveDecayPerHour>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kVisualStateLargeCount value="6">
+      <!--Range:  0+  Description:  The amount of piles that generate the Large visual state-->
+    </kVisualStateLargeCount>
+    <kVisualStateMediumCount value="3">
+      <!--Range:  0+  Description:  The amount of piles that generate the Medium visual state-->
+    </kVisualStateMediumCount>
+    <kCapacity value="6">
+      <!--Range:  0+  Description:  The maximum amount of clothing piles that can be combined into one-->
+    </kCapacity>
+    <kEnvironmentScoreSmall value="-2">
+      <!--Range:  0-  Description:  The environment score for a small pile-->
+    </kEnvironmentScoreSmall>
+    <kEnvironmentScoreMedium value="-10">
+      <!--Range:  0-  Description:  The environment score for a medium pile-->
+    </kEnvironmentScoreMedium>
+    <kEnvironmentScoreLarge value="-25">
+      <!--Range:  0-  Description:  The environment score for a large pile-->
+    </kEnvironmentScoreLarge>
+    <kEnvironmentScoreMultiplierSlob value="0.1">
+      <!--Range:  0+  Description:  The environment score multiplier for Slob Sims-->
+    </kEnvironmentScoreMultiplierSlob>
+    <kEnvironmentScoreMultiplierNeat value="1.8">
+      <!--Range:  0+  Description:  The environment score multiplier for Neat Sims-->
+    </kEnvironmentScoreMultiplierNeat>
+    <kRadiusToConsiderHampers value="50">
+      <!--Range:  0+  Description:  The radius the Sim will consider when looking for hampers to drop clothes in-->
+    </kRadiusToConsiderHampers>
+    <kEnvironmentScoreMultiplierOld value="1.2">
+      <!--Range:  0+  Description:  The environment score multiplier for old clothing piles-->
+    </kEnvironmentScoreMultiplierOld>
+    <kEnvironmentScoreMultiplierAncient value="1.6">
+      <!--Range:  0+  Description:  The environment score multiplier for ancient clothing piles-->
+    </kEnvironmentScoreMultiplierAncient>
+    <kEnvironmentScoreMultiplierPutrid value="2.5">
+      <!--Range:  0+  Description:  The environment score multiplier for putrid clothing piles-->
+    </kEnvironmentScoreMultiplierPutrid>
+    <kTimeToBecomeOld value="2160">
+      <!--Range:  0+  Description:  The time it takes, in Sim minutes, for the pile to become old-->
+    </kTimeToBecomeOld>
+    <kTimeToBecomeAncient value="2880">
+      <!--Range:  0+  Description:  The time it takes, in Sim minutes, for the pile to become ancient, since it's become old-->
+    </kTimeToBecomeAncient>
+    <kTimeToBecomePutrid value="2880">
+      <!--Range:  0+  Description:  The time it takes, in Sim minutes, for the pile to become putrid, since it's become ancient-->
+    </kTimeToBecomePutrid>
+  </Current_Tuning>
+</base>

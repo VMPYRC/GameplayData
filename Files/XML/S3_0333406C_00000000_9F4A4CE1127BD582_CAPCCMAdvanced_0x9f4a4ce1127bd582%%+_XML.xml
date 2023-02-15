@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinMarkingSize value="5">
+      <!--The min size of a marking (in pixels-->
+    </kMinMarkingSize>
+    <kMarkingSkirtSize value="20">
+      <!--The size of the skirt outside of the map for the markings (in pixels-->
+    </kMarkingSkirtSize>
+    <kMinCurls value="0">
+      <!--Minimum Number of curls-->
+    </kMinCurls>
+    <kMaxCurls value="3">
+      <!--Maximum Number of curls-->
+    </kMaxCurls>
+    <kMinCurlSize value="0">
+      <!--Minimum Size of curls-->
+    </kMinCurlSize>
+    <kMaxCurlSize value="1.5">
+      <!--Maximum Size of curls-->
+    </kMaxCurlSize>
+    <kMinHairLength value="0.5">
+      <!--Minimum length of hair-->
+    </kMinHairLength>
+    <kMaxHairLength value="0.75">
+      <!--Maximum length of hair-->
+    </kMaxHairLength>
+    <kInitialMarkingScale value="0.25">
+      <!--Initial marking scale for both X and Y-->
+    </kInitialMarkingScale>
+    <kMaxLayers value="51">
+      <!--Max number of layers (includes base layer, does NOT include elder layer)-->
+    </kMaxLayers>
+    <kMaxHairApplyLength value="1">
+      <!--Maximum applied length of hair (will reduce hair to this length when any fur length/slider is touched, in case enters mode with hair > than this length-->
+    </kMaxHairApplyLength>
+  </Current_Tuning>
+</base>

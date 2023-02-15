@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinimumMoodValueToAvoidRegularFailure value="0">
+      <!--Minimum mood necessary to avoid failure. Range: (-100, 100). Initial GPE Default: -20.-->
+    </kMinimumMoodValueToAvoidRegularFailure>
+    <kBaseChanceOfFailurePerMoodDrop value="0.5">
+      <!--For every mood value below the minimum value to avoid failure, the chance to fail increases by this amount. Positive float. Initial GPE default: 0.5f-->
+    </kBaseChanceOfFailurePerMoodDrop>
+    <kMinimumChanceOfFailureBecauseOfBoardLevel value="30">
+      <!--If the Skill Level is same as the Board unlocking level, this is the base chance of failure. This value is scaled down for increase in skill level versus the board. Positive float. Range: [0, 100]. Initial GPE default: 20f.-->
+    </kMinimumChanceOfFailureBecauseOfBoardLevel>
+    <kMaximumChanceOfFailureBecauseOfBoardLevel value="100">
+      <!--This is the highest contribution towards failure given the highest difference between skill levels and board's unlocking skill level. Positive float. Range: [0, 100]. Constraint: Greater than minimum counterpart. Initial GPE default: 90f.-->
+    </kMaximumChanceOfFailureBecauseOfBoardLevel>
+    <kImprovementInChanceToBreakBoard value="25">
+      <!--If you are advanced board breaker, the chance to break the board is improved by this amount. Positive float. Range: [0, 100]. Initial GPE default: 7f.-->
+    </kImprovementInChanceToBreakBoard>
+    <kDisciplinedTraitImprovementInChanceToBreakBoard value="10">
+      <!--If the sim has the trait Disciplined, the chance to break the board is improved by this amount. Positive float. Range: [0, 100]. Initial GPE default: 5f.-->
+    </kDisciplinedTraitImprovementInChanceToBreakBoard>
+    <kWatchBroadcasterParams>
+      <PulseRadius value="3">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <PulseRepeatTime value="20">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kWatchBroadcasterParams>
+    <kMinutesForLikingGain value="15">
+      <!--Sims watching the board breaker gain relationship bonus at this interval. Units: Sim minutes. Positive float. Initial GPE default: 25f-->
+    </kMinutesForLikingGain>
+    <kLtrIncreaseForBoardBreakingAudience value="2">
+      <!--Sims watching the board breaker gain relationship (LTR liking) by this amount. Positive float. Initial GPE default: 2f-->
+    </kLtrIncreaseForBoardBreakingAudience>
+    <kTimeToPrepareForSpaceBlock value="20">
+      <!--Preparation animation time length for space block. Units: Sim Minutes. Positive float. Initial GPE Default: 30f-->
+    </kTimeToPrepareForSpaceBlock>
+    <kTimeToPrepareForRegularBoard value="10">
+      <!--Preparation animation time length for any board other than Space Rock. Units: Sim Minutes. Positive float. Initial GPE Default: 10f-->
+    </kTimeToPrepareForRegularBoard>
+    <kBaseChanceToCheerOrBooWhenBoardBreaks value="50">
+      <!--Sims cheer/boo if this chance is satisfied when there is a Success/REgular failure. Positive float. Range [0, 100]. Initial GPE Default: 50f-->
+    </kBaseChanceToCheerOrBooWhenBoardBreaks>
+    <kTraitsThatSupportBoardBreaker value="Friendly, Daredevil, Athletic">
+      <!--Sims with these traits have a higher chance of cheering the board breaking sim.-->
+    </kTraitsThatSupportBoardBreaker>
+    <kTraitsThatDoNotSupportBoardBreaker value="MeanSpirited, Evil">
+      <!--Sims with these traits have a higher chance of booing the board breaking sim.-->
+    </kTraitsThatDoNotSupportBoardBreaker>
+    <kImprovementInChanceDueToTraits value="10">
+      <!--If the sims have one of the traits that cheers or boos, the chances are updated by this number. Positive float. Range [0, 100]. Initial GPE Default: 10f-->
+    </kImprovementInChanceDueToTraits>
+    <kImprovementInChanceDueToLtr value="20">
+      <!--If the sims have tunably better/lower relationships, this tunable amount is applied to scale the chances of cheer or boo. Positive float. Range [0, 100]. Initial GPE Default: 20f-->
+    </kImprovementInChanceDueToLtr>
+    <kLtrLikingToCheerBoardBreaker value="25">
+      <!--When a sim is watching a board breaker and he succeeds, if the LTR is better than this number, there is increased chance of cheering. Positive float. Initial GPE Default: 40f-->
+    </kLtrLikingToCheerBoardBreaker>
+    <kLtrLikingToBooBoardBreaker value="-20">
+      <!--When a sim is watching a board breaker and he regular fails, if the LTR liking is below this number, there is increasd chance of booing. Negative float. Initial GPE Default: -20f-->
+    </kLtrLikingToBooBoardBreaker>
+    <kBoardBreaksToIncreaseStackSize value="2, 3, 4, 5, 1">
+      <!--Once the sim breaks this many boards, he adds another board in the stack. Each number corresponds to the type of Board (Foam to SpaceRock). Let SpaceRock number be 1. Increasing Positive ints.-->
+    </kBoardBreaksToIncreaseStackSize>
+    <kSkillGainRateToPractice value="10, 12, 15, 20, 26">
+      <!--Skill gain rates for increasing strength in board types. (Foam to SpaceRock). Increasing Positive floats.-->
+    </kSkillGainRateToPractice>
+    <kEpicFailureChance value="80,40,46,50,42">
+      <!--If the chance of failure is above this value, we have a guarenteed epic failure. This is per board type (Foam to SpaceRock). Descending positive floats. Range: [0, 100].-->
+    </kEpicFailureChance>
+    <kAthleticSkillGainRateWhileBoardBreaking value="3">
+      <!--Athletic skill gain rate when you break boards. Positive float. Initial GPE Default: 2f-->
+    </kAthleticSkillGainRateWhileBoardBreaking>
+    <kSpaceRockAdditionChanceOfFailure value="20">
+      <!--If we do not epic fail on space rocks, we add this chance to make it even more difficult for the sim to break the board. Positive float. Initial GPE default: 20f-->
+    </kSpaceRockAdditionChanceOfFailure>
+    <kFailureDecayConstant value="0.3">
+      <!--If the sim's skill level is higher than the board's unlock level, we exponentially decay the failure chance. This is the decay constant for the formula V * e ^ (-d * L). Where V is the base chance for failure. d is the delta between skill level and board's unlock level and L is the decay constant (i.e. this tunable). 1 provides an average decay. To make the decay faster, choose values > 1. To make the decay slower, choose values < 1. Positive float. Initial GPE default: 0.5f-->
+    </kFailureDecayConstant>
+    <kWatchPetBroadcasterParams>
+      <PulseRadius value="3">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="20">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Cat, Dog, LittleDog">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kWatchPetBroadcasterParams>
+  </Current_Tuning>
+</base>

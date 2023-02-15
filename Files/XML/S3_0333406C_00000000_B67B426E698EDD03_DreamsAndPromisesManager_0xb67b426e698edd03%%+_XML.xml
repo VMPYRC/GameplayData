@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxMajorWishMatches value="5">
+      <!--The max number of major wish matches to send to CAS.-->
+    </kMaxMajorWishMatches>
+    <kLinkedDreamHappinessMultiplier value="1.5">
+      <!--The happiness points multiplier applied to completing linked dreams. Range: float > 1.0-->
+    </kLinkedDreamHappinessMultiplier>
+    <kVeryFulfilledMoodValue value="75">
+      <!--The mood value the sim gets from getting the very fulfilled buff.-->
+    </kVeryFulfilledMoodValue>
+    <kVeryFulfilledDuration value="10080">
+      <!--The duration of the very fulfilled buff.-->
+    </kVeryFulfilledDuration>
+    <kFulfilledMultiplier value="1">
+      <!--Multiplier applied to fulfilled buff amount and duration if the sim has completed his lifetime wish. Range: float > 1.0-->
+    </kFulfilledMultiplier>
+    <kLifetimeHappinessGlobalWishMultiplier value="10">
+      <!--All wishes get this multiplier applied to their fulfillment.  Generally used for scaling them all globally. Range: float > 1.0-->
+    </kLifetimeHappinessGlobalWishMultiplier>
+    <kHoursBetweenRetestingVisibleNodes value="2">
+      <!--Description:  Retests the Visible nodes every n hours-->
+    </kHoursBetweenRetestingVisibleNodes>
+    <kEnableMissingIconAssert value="False">
+      <!--Range:  True/False  Description:  Whether or not the missing icon assert is enabled-->
+    </kEnableMissingIconAssert>
+    <kWishMasterMultiple value="2">
+      <!--Multiplier for the buff WishMaster-->
+    </kWishMasterMultiple>
+  </Current_Tuning>
+</base>

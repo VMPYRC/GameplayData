@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceAutonomousThrowScrap value="30">
+      <!--Range: 0.0 - 100.0. Chance that a cooking Sim will autonomously throw scrap to one of the watching pets-->
+    </kChanceAutonomousThrowScrap>
+    <kMoreLikelyToThrowScrapMultiplier value="2.0">
+      <!--Sims who are more likely to throw a scrap get this added to base chance.-->
+    </kMoreLikelyToThrowScrapMultiplier>
+    <kTraitsMoreLikelyToThrowScrap value="NaturalCook, Friendly, Good, AnimalLover">
+      <!--Trait weighting for sims who are more likely to throw a scrap.-->
+    </kTraitsMoreLikelyToThrowScrap>
+    <kLTRUpdateAfterFedScrap value="10">
+      <!--Relationship increase with sim that's cooking after the pet is fed a scrap.-->
+    </kLTRUpdateAfterFedScrap>
+    <kLargeDogWatchFoodRoutingDistance value="0.75, 3.0">
+      <!--Range: Positive Floats min and max. Description: Distance away from the cook that adult/elder large dogs will route to.-->
+    </kLargeDogWatchFoodRoutingDistance>
+    <kLittleDogWatchFoodRoutingDistance value="0.75, 3.0">
+      <!--Range: Positive Floats min and max. Description: Distance away from the cook that adult/elder little dogs will route to.-->
+    </kLittleDogWatchFoodRoutingDistance>
+    <kPuppyWatchFoodRoutingDistance value="0.7, 2.5">
+      <!--Range: Positive Floats min and max. Description: Distance away from the cook that puppies will route to.-->
+    </kPuppyWatchFoodRoutingDistance>
+    <kCatWatchFoodRoutingDistance value="0.75, 3.0">
+      <!--Range: Positive Floats min and max. Description: Distance away from the cook that adult/elder cats will route to.-->
+    </kCatWatchFoodRoutingDistance>
+    <kKittenWatchFoodRoutingDistance value="0.7, 2.5">
+      <!--Range: Positive Floats min and max. Description: Distance away from the cook that kittens will route to.-->
+    </kKittenWatchFoodRoutingDistance>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kReadWithRejectionThreshold value="-10">
+      <!--Toddler mood threshold for rejecting the interaction.-->
+    </kReadWithRejectionThreshold>
+    <kReadWithRelationshipDeltaSTC value="500">
+      <!--Friendly STC, per Sim hour.-->
+    </kReadWithRelationshipDeltaSTC>
+    <kReadWithRelationshipDeltaLTR value="20">
+      <!--Long-term relationship gain per Sim hour.-->
+    </kReadWithRelationshipDeltaLTR>
+    <kReadFunGainToddler value="50">
+      <!--Fun gained by toddlers reading toddler books when the book is finished (or are reading the fun book).-->
+    </kReadFunGainToddler>
+    <kReadFunGainNonToddler value="15">
+      <!--Fun gained by non-toddlers reading toddler books.-->
+    </kReadFunGainNonToddler>
+    <kReadFunGainChildish value="1.5">
+      <!--Fun bonus factor for Childish Sims.-->
+    </kReadFunGainChildish>
+    <kReadWithFunGainToddler value="20">
+      <!--Fun gained by toddlers per hour while reading with an older Sim, above the normal gain from the book.-->
+    </kReadWithFunGainToddler>
+    <kReadWithFunGainNonToddler value="50">
+      <!--Fun gained by older Sim per hour while reading with a toddler.-->
+    </kReadWithFunGainNonToddler>
+    <kRequireChildishTraitForNonToddlers value="True">
+      <!--Require childish trait for non-toddler Sims to allow the normal Read interaction.-->
+    </kRequireChildishTraitForNonToddlers>
+  </Current_Tuning>
+</base>

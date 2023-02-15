@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kUnpaidDaysOff value="1, 2, 5">
+      <!--Possible number of days off.-->
+    </kUnpaidDaysOff>
+    <kUnpaidDaysOffCooldownInHours value="48, 72, 240">
+      <!--Hours to not be able to take time off. These correspond to the days taken off in kUnpaidDaysOff.-->
+    </kUnpaidDaysOffCooldownInHours>
+    <kCallInSickHoursBeforeWork value="4">
+      <!--Maximum hours before work you can call in sick-->
+    </kCallInSickHoursBeforeWork>
+  </Current_Tuning>
+</base>

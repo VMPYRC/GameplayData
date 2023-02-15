@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGoodPacingFatigueMultiplier value="0.6">
+      <!--Range: 0.0f to 1.0f.  Description:  When the Good Pacing tone is used, your Sim should gain fatigue at a slower rate.  This tunable is a multiplier on how quickly the fatigue motive decays.  Small numbers mean lower decay rate and ability to workout longer-->
+    </kGoodPacingFatigueMultiplier>
+    <kPushSelfSkillRateDelta value=".5">
+      <!--Range: Non-negative floats.  Description: When the Push Self tone is used, your Sim will gain skill at a faster rate.  This tunable defines an additive amount to the current skill rate gain.  For example, if the current rate gain is 1.0f and this tunable is 1.0f, skill gain rate will double.-->
+    </kPushSelfSkillRateDelta>
+    <kPushSelfSoreActiveTime value="30">
+      <!--Range: Non-negative integers.  Description: When the Push Self tone is used, your Sim will be triggered to gain the Sore debuff after the next sleep interaction.  This tunable is the amount of continuous time use on the athletic game object to cause the Sore debuff to trigger.-->
+    </kPushSelfSoreActiveTime>
+    <kQuickBurstSkillRateDelta value="2">
+      <!--Range: Non-negative floats.  Description: When the Quick Burst tone is used, your Sim will gain skill at a faster rate.  This tunable defines an additive amount to the current skill rate gain.  For example, if the current rate gain is 1.0f and this tunable is 1.0f, skill gain rate will double.-->
+    </kQuickBurstSkillRateDelta>
+    <kQuickBurstHygieneDecay value="-200">
+      <!--Range: Negative integers.  Description: When the Quick Burst tone is used, your Sim will lose Hygiene motive at a faster rate.  This tunable defines the rate at which the hygiene motive will decay (it is not additive and is expected to be greater than HygieneDecay in AthleticGameObject)-->
+    </kQuickBurstHygieneDecay>
+    <kQuickBurstFatigueDelta value="-200">
+      <!--Range: Positive integers.  Description: When the Quick Burst tone is used, your Sim will lose Fatigue motive at a faster rate.  This tunable defines the rate at which the fatigue motive will decrease (it is not additive and is expected to be greater than FatigueDecay in AthleticGameObject)-->
+    </kQuickBurstFatigueDelta>
+    <kPushSelfBodyShapeMultiplier value=".5">
+      <!--Range: Positive floats.  Description:  Additional body shape change multiplier when the Push Self tone is used.  1.0f would double body shape change.-->
+    </kPushSelfBodyShapeMultiplier>
+    <kQuickBurstBodyShapeMultiplier value="2">
+      <!--Range: Positive floats.  Description: Additional body shape change multiplier when the Quick Burst tone is used.  1.0f would double body shape change.-->
+    </kQuickBurstBodyShapeMultiplier>
+    <kAthleticSkill_AdonisFitnessAmt value="0.95">
+      <!--Range: Positive floats.  Description: What Fitness level the sim has to achieve to complete this opportunity.-->
+    </kAthleticSkill_AdonisFitnessAmt>
+    <kHoursStrengthForBodyBuilder value="60" />
+    <kHoursCardioForFitnessNut value="75" />
+    <kDistanceJoggedForMarathonRunner value="500" />
+    <kDistanceJoggedPerHourOfRunning value="10">
+      <!--Distance in meters jogged per hour of running.-->
+    </kDistanceJoggedPerHourOfRunning>
+    <kAthleticSkillForFastRun value="5">
+      <!--Range:  Skill level.  Description:  Skill level at which Sims get to fast run instead of doing normal run.-->
+    </kAthleticSkillForFastRun>
+    <kHoursToCountAsWorkoutForDNP value="0.5" />
+    <kLevelForGoodPacingTone value="3">
+      <!--Range:  Skill level.  Description:  Skill level to get the 'Good Pacing' tone.-->
+    </kLevelForGoodPacingTone>
+    <kLevelForNoSweatTone value="1">
+      <!--Range:  Skill level.  Description:  Skill level to get the 'No Sweat' tone.-->
+    </kLevelForNoSweatTone>
+    <kLevelForPushSelfTone value="5">
+      <!--Range:  Skill level.  Description:  Skill level to get the 'Push Self' tone.-->
+    </kLevelForPushSelfTone>
+    <kLevelForQuickBurstTone value="7">
+      <!--Range:  Skill level.  Description:  Skill level to get the 'Quick Burst' tone.-->
+    </kLevelForQuickBurstTone>
+    <kTournamentWinsToImproveRank value="3, 5, 9, 15, 20">
+      <!--Number of wins over in a tournament needed to level up in Spar Tournament Ranking. Right now we assume 5 is the highest rank (that is why there are 5 numbers in this array). Implementation wise there are six ranks (0 to 5). Make sure this list has at least 1 number (that'll maintain at least 1 ranks). Positive increasing set of integers. NOTE: If you change the size of this array, talk with Manu (or some GPE).-->
+    </kTournamentWinsToImproveRank>
+    <kSkillForOpponentPerTournamentRank value="4, 4, 5, 7, 8, 10">
+      <!--Ideal skill of the opponent at a given Spar Tournament rank. Right now we assume 5 is the highest rank. Make sure this list has one more element than kTournamentWinsToImproveSparringRank. Initial GPE default for the first element is 2. Positive increasing set of integers. NOTE: If you change the size of this array, talk with Manu (or some GPE).-->
+    </kSkillForOpponentPerTournamentRank>
+    <kMaximumVarienceInSkillLevelForTournametOpponent value="2">
+      <!--How much a particular sim's skill be increased (while we are faking the skill level of a newly chosen challenger). Positive integer. Initial GPE Default: 2.-->
+    </kMaximumVarienceInSkillLevelForTournametOpponent>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

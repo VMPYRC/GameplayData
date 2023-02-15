@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimePerShockCheck value="10">
+      <!--Range:  minutes.  Description:  Time in minutes between checks to see if cheap toy will shock-->
+    </kTimePerShockCheck>
+    <kCheapToyShockChance value="0.25">
+      <!--Chance that a cheap toy will shock-->
+    </kCheapToyShockChance>
+    <kFunChangeFromShock value="-30">
+      <!--Amount of fun lost from being shocked-->
+    </kFunChangeFromShock>
+    <kCheapToyDetonationChance value="0.35">
+      <!--Chance that a cheap toy will blow up after shocking-->
+    </kCheapToyDetonationChance>
+    <kCheapToyShockedBabyCryChance value="0.65">
+      <!--Chance that baby will cry if shocked by a cheap toy-->
+    </kCheapToyShockedBabyCryChance>
+  </Current_Tuning>
+</base>

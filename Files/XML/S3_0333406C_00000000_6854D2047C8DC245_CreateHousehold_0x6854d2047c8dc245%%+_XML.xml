@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceOfAddingAPet value="0.4">
+      <!--[Range: [0,1] Chance that a pet will be created with the household.-->
+    </kChanceOfAddingAPet>
+    <kPositiveTraitChanceChange value="0.2">
+      <!--[Range: [0,1] Increase or decrease of kChanceOfAddingAPet based on traits-->
+    </kPositiveTraitChanceChange>
+    <kPositiveTraits value="CatPerson, DogPerson, Equestrian">
+      <!--[Range: [0,1] Increase or decrease of kChanceOfAddingAPet based on traits-->
+    </kPositiveTraits>
+    <kNegativeTraitChanceChange value="-0.2">
+      <!--[Range: [0,1] Increase or decrease of kChanceOfAddingAPet based on traits-->
+    </kNegativeTraitChanceChange>
+    <kNegativeTraits value="AbsentMinded,CommitmentIssues,CouchPotato,HatesOutdoors">
+      <!--[Range: [0,1] Increase or decrease of kChanceOfAddingAPet based on traits-->
+    </kNegativeTraits>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLTRIncrease value="3, 3, 3, 3">
+      <!--Range -100 to 100: LTR increase for accept AskForSpriteForm, ShareSpriteForm, ShowOffSpriteForm, GetToKnowSpriteForm.-->
+    </kLTRIncrease>
+    <kLTRDecrease value="-3, -3, -3, -3">
+      <!--Range -100 to 100: LTR decrease for reject AskForSpriteForm, ShareSpriteForm, ShowOffSpriteForm, GetToKnowSpriteForm.-->
+    </kLTRDecrease>
+    <kPetMoodBump value="25">
+      <!--Range: 0-100.  Description: Mood bump both of the Holo-Pet's will get from a friendly result of Get To Know Sprite.-->
+    </kPetMoodBump>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCooldownTimeInMinutes value="120">
+      <!--Range:  +floats Description:  Number of sim minutes between use of the button.-->
+    </kCooldownTimeInMinutes>
+    <kFailChance value=".1">
+      <!--Range:  +float  Description:  Chance of Failure breakage on button press-->
+    </kFailChance>
+    <kObjectsFlooding value="3">
+      <!--Range:  +int  Description:  Number of object to break.-->
+    </kObjectsFlooding>
+    <kSimMinutesForEffectToLast value="30">
+      <!--Range:  +ints  Description:  Sim minutes for electronics to be messed with.-->
+    </kSimMinutesForEffectToLast>
+    <kChanceOfTogglingElectronics value="0.7">
+      <!--Range:  +float  Description:  0 to 1 chance of toggling lights when button is pushed.  This is per electronic device.-->
+    </kChanceOfTogglingElectronics>
+    <kChanceOfTogglingTVs value="0.2">
+      <!--Range:  +float  Description:  0 to 1 chance of toggling tvs when button is pushed.  This is per electronic device.-->
+    </kChanceOfTogglingTVs>
+  </Current_Tuning>
+</base>

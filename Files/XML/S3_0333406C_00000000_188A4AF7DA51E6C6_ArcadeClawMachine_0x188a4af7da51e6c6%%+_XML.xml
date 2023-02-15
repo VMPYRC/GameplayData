@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPercentChanceOfClawPickingUpPrize value="70">
+      <!--Percent chance that the claw machine will grab a prize when it attempts to. (1:100)-->
+    </kPercentChanceOfClawPickingUpPrize>
+    <kPercentChanceOfClawDroppingPrize value="40">
+      <!--Percent chance that the claw machine will drop a prize before it can give it to the sim. (1:100)-->
+    </kPercentChanceOfClawDroppingPrize>
+    <kWeightOfPrizeTypes value="35,30,27.5,7.5">
+      <!--Weight of each prize type. Determines the probability of each type coming from the claw machine. weights match {Low, High, Rare, Ultra Rare} respectively-->
+    </kWeightOfPrizeTypes>
+    <kLowPrizeModels value="BaseGame ToyBoat,BaseGame ToyRocket,BaseGame ToyPony,BaseGame ToyCar,BaseGame ToyRabbit,BaseGame ToyGenRobotTank,BaseGame toySheep,BaseGame toyDragon,BaseGame toyLochness,BaseGame toyYeti,BaseGame toyRobot,BaseGame toyAlligator,HarvestMoneyBag">
+      <!--Low Prize medator names (must have a product version first, ie 'BaseGame ToyCar' or 'EP7 teddyBearAntiqueVampire') HarvestMoneyBag is special-->
+    </kLowPrizeModels>
+    <kHighPrizeModels value="BaseGame ToyStuffedAnimalFreezerBunny,BaseGame TeddyBear,HarvestMoneyBag">
+      <!--High Prize medator names (must have a product version first, ie 'BaseGame ToyCar' or 'EP7 teddyBearAntiqueVampire') HarvestMoneyBag is special-->
+    </kHighPrizeModels>
+    <kRarePrizeModels value="HarvestMoneyBag,Gem,EP7 teddyBearAntiqueImaginaryFriend,EP7 teddyBearAntiqueGenie,EP7 teddyBearAntiqueVampire,EP7 teddyBearAntiqueMummy,EP7 teddyBearAntiqueSimbot">
+      <!--Rare Prize medator names (must have a product version first, ie 'BaseGame ToyCar' or 'EP7 teddyBearAntiqueVampire') Gem and HarvestMoneyBag are special-->
+    </kRarePrizeModels>
+    <kUltraRarePrizeModels value="Gem,HarvestMoneyBag,EP7 magicGnomeHaunted">
+      <!--UltraRare Prize medator names (must have a product version first, ie 'BaseGame ToyCar' or 'EP7 teddyBearAntiqueVampire') Gem and HarvestMoneyBag are special-->
+    </kUltraRarePrizeModels>
+    <kSkillPercentageChange value="5">
+      <!--Percentage Change per arcade skill level. suggested (1:10)-->
+    </kSkillPercentageChange>
+    <kMaxPriceForRareGem value="200">
+      <!--Price cutoff for rare gems-->
+    </kMaxPriceForRareGem>
+    <kMaxMoneyBagValueLow value="50">
+      <!--Max value of a money bag received from the claw machine-->
+    </kMaxMoneyBagValueLow>
+    <kMinMoneyBagValueLow value="10">
+      <!--Min value of a money bag received from the claw machine-->
+    </kMinMoneyBagValueLow>
+    <kMaxMoneyBagValueHigh value="500">
+      <!--Max value of a money bag received from the claw machine-->
+    </kMaxMoneyBagValueHigh>
+    <kMinMoneyBagValueHigh value="100">
+      <!--Min value of a money bag received from the claw machine-->
+    </kMinMoneyBagValueHigh>
+    <kMaxMoneyBagValueRare value="5000">
+      <!--Max value of a money bag received from the claw machine-->
+    </kMaxMoneyBagValueRare>
+    <kMinMoneyBagValueRare value="1000">
+      <!--Min value of a money bag received from the claw machine-->
+    </kMinMoneyBagValueRare>
+    <kMaxMoneyBagValueUltraRare value="10000">
+      <!--Max value of a money bag received from the claw machine-->
+    </kMaxMoneyBagValueUltraRare>
+    <kMinMoneyBagValueUltraRare value="2000">
+      <!--Min value of a money bag received from the claw machine-->
+    </kMinMoneyBagValueUltraRare>
+    <kPercentChanceOfCheatingTheSystem value="85">
+      <!--Percent chance of fairies cheating the system. (1:100)-->
+    </kPercentChanceOfCheatingTheSystem>
+    <kCutTypes value="Emerald, Oval, Pear, Plumbbob, Marquis, Crystalball, Brilliant, Heart, Star, Sun, Moon">
+      <!--Random Gem cut types for rare rewards-->
+    </kCutTypes>
+  </Current_Tuning>
+</base>

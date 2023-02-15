@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPlayInOceanMinJigDepth value="0.2">
+      <!--Min depth in meters lowest depth the Jig can be in.  GPE default 0.2.-->
+    </kPlayInOceanMinJigDepth>
+    <kPlayInOceanMaxJigDepth value="0.55">
+      <!--Max depth in meters lowest depth the Jig can be in.  GPE default 1.-->
+    </kPlayInOceanMaxJigDepth>
+    <kPlayInOceanLoopLength value="60">
+      <!--Time in sim minutes for play in water animation to loop.  GPE default 20.0.-->
+    </kPlayInOceanLoopLength>
+    <kPlayInOceanPlantSimWaterGain value="60">
+      <!--Amount of Water commodity a plant sim gains per hour while playing in the ocean.-->
+    </kPlayInOceanPlantSimWaterGain>
+    <kPlayInOceanRouteDist value="10">
+      <!--Distance a sim will route to the jig once it is placed. if the jig is placed further than this distance from the click point then the sim will route fail.-->
+    </kPlayInOceanRouteDist>
+  </Current_Tuning>
+</base>

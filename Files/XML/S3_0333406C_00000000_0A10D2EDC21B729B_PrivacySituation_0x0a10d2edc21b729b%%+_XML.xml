@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLossInHighLTRLiking value="-3">
+      <!--Amount of loss in LTR. Used when another sim with high LTR intrudes privacy. Should be a small negative float. Bounds -100.0 and 100.0-->
+    </kLossInHighLTRLiking>
+    <kLossInMediumLTRLiking value="-5">
+      <!--Amount of loss in LTR. Used when another sim with medium LTR intrudes privacy. Should be a small negative float. Should be a smaller float than the loss for high LTR. Bounds -100.0 and 100.0-->
+    </kLossInMediumLTRLiking>
+    <kLossInLowLTRLiking value="-8">
+      <!--Amount of loss in LTR. Used when another sim with low LTR intrudes privacy. Should be a small negative float. Should be a smaller float than the loss for medium LTR. Bounds -100.0 and 100.0-->
+    </kLossInLowLTRLiking>
+    <kMinDistancetoPushSimOutOfRoom value="0">
+      <!--Distance in meters. Used as minimum distance to shoo away privacy intruder.-->
+    </kMinDistancetoPushSimOutOfRoom>
+    <kMaxDistancetoPushSimOutOfRoom value="4">
+      <!--Distance in meters. Used as maximum distance to shoo away privacy intruder.-->
+    </kMaxDistancetoPushSimOutOfRoom>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

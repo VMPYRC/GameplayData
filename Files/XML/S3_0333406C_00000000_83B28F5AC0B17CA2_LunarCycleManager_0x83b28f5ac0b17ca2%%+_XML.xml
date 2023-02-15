@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kThresholdMoodLunacy value="-10">
+      <!--Mood threshold at sims get the lunacy buff (along with fun motive tunable)-->
+    </kThresholdMoodLunacy>
+    <kThresholdFunLunacy value="-25">
+      <!--Fun motive threshold at which sims get the lunacy buff (along with stree tunable)-->
+    </kThresholdFunLunacy>
+    <kNumSimsToBeZombifiedOnFullMoon value="3">
+      <!--Number of random sims to be zombified on full moon-->
+    </kNumSimsToBeZombifiedOnFullMoon>
+    <kDisableAfraidOfDarkTraitList value="Brave, Daredevil, VampireHiddenTrait, LycanthropyWerewolf">
+      <!--Tunable list of traits that prevents a sim from getting the afraid of the dark buff-->
+    </kDisableAfraidOfDarkTraitList>
+    <kChanceToSpawnZombie value="40">
+      <!--Percent hance to spawn a zombie, at each check.  Range: 0-100-->
+    </kChanceToSpawnZombie>
+    <kTimeBetweenZombieSpawnChecks value="90">
+      <!--How often to check whether to spawn a zombie, during a full moon, in minutes-->
+    </kTimeBetweenZombieSpawnChecks>
+    <kAutoGreetZombies value="False">
+      <!--Whether to auto-greet zombies that spawn on the active lot-->
+    </kAutoGreetZombies>
+  </Current_Tuning>
+</base>

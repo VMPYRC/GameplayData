@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToToppleMachine value="0.01">
+      <!--Float Range 0-1 : Chance on shaking the machine and it falling over, killing the Sim-->
+    </kChanceToToppleMachine>
+    <kChanceAtFreeItem value="0.10">
+      <!--Float Range 0-1 : Chance of getting an item for free from shaking the machine.-->
+    </kChanceAtFreeItem>
+    <kChanceUnstuckItem value="0.5">
+      <!--Float Range 0-1 : Chance of getting an item if something is stuck in the machine when shaking.-->
+    </kChanceUnstuckItem>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFoodPointBonusPerTimesCooked value="1.5">
+      <!--The number of times a sim makes a recipe (while he has cooking skill) is tracked.  When the recipe is completed, it gets bonus food points equal to this bonus value * the number of times he's prepared the meal.  It's essentially an "experience" in the specific recipe.-->
+    </kFoodPointBonusPerTimesCooked>
+    <kGoodMealBuffTuning>
+      <kBuffNameKey value="Gameplay/Excel/buffs/BuffList:GoodMeal">
+        <!--Localization key for buff name-->
+      </kBuffNameKey>
+      <kBuffDescriptionKey value="Gameplay/Excel/buffs/BuffList:GoodMealDescription">
+        <!--Localization key for buff description-->
+      </kBuffDescriptionKey>
+      <kBuffThreshold value="10">
+        <!--Strength of mood value to get this buff name-->
+      </kBuffThreshold>
+      <kBuffDuration value="480">
+        <!--Duration of this buff-->
+      </kBuffDuration>
+    </kGoodMealBuffTuning>
+    <kGreatMealBuffTuning>
+      <kBuffNameKey value="Gameplay/Excel/buffs/BuffList:GreatMeal">
+        <!--Localization key for buff name-->
+      </kBuffNameKey>
+      <kBuffDescriptionKey value="Gameplay/Excel/buffs/BuffList:GreatMealDescription">
+        <!--Localization key for buff description-->
+      </kBuffDescriptionKey>
+      <kBuffThreshold value="25">
+        <!--Strength of mood value to get this buff name-->
+      </kBuffThreshold>
+      <kBuffDuration value="480">
+        <!--Duration of this buff-->
+      </kBuffDuration>
+    </kGreatMealBuffTuning>
+    <kAmazingMealBuffTuning>
+      <kBuffNameKey value="Gameplay/Excel/buffs/BuffList:AmazingMeal">
+        <!--Localization key for buff name-->
+      </kBuffNameKey>
+      <kBuffDescriptionKey value="Gameplay/Excel/buffs/BuffList:AmazingMealDescription">
+        <!--Localization key for buff description-->
+      </kBuffDescriptionKey>
+      <kBuffThreshold value="40">
+        <!--Strength of mood value to get this buff name-->
+      </kBuffThreshold>
+      <kBuffDuration value="480">
+        <!--Duration of this buff-->
+      </kBuffDuration>
+    </kAmazingMealBuffTuning>
+    <kBaseChanceOfFailurePerSkillLevel value="33, 25, 18, 16, 14, 12, 10, 8, 6, 4, 2">
+      <!--The base chance of failure (from [0,100])for every cooking skill level. This will be modulated by the level of the recipe the sim is making.-->
+    </kBaseChanceOfFailurePerSkillLevel>
+    <kSkillLevelDifferenceChanceMultiplier value="2">
+      <!--Failure chance is calculated by: [baseFailureChance] - [levelDifference] * kSkillLevelDifferenceChanceMultiplier, where levelDifference is the difference in level of the sim's skill level and the level of the recipe.-->
+    </kSkillLevelDifferenceChanceMultiplier>
+    <kRecipesMadeForStarChef value="50" />
+    <kRecipesMadeForWorldClassChef value="75" />
+    <kRecipesLearnedForMenuMaven value="28">
+      <!--Number of recipes needed for the Menu Maven achievement. Should be = to number of learnable recipes in base game.-->
+    </kRecipesLearnedForMenuMaven>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kSkillPointMultiplierForNaturalCook value="1.4">
+      <!--A multiplier for skill points if this sim has the Natural Cook trait. Should be > 1.0.-->
+      <!--deprecated on: 3/5/2008 9:43:00 AM-->
+    </kSkillPointMultiplierForNaturalCook>
+  </Deprecated_Tuning>
+</base>

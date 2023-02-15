@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinutesSimsShouldAutonomouslyRummage value="30">
+      <!--Number of max sim minutes that the sim should autonomous rummage through a trash pile. - PAB-->
+    </kMinutesSimsShouldAutonomouslyRummage>
+    <kChanceOfBetterNanite value="50">
+      <!--Range: float - Tunable chance that the respawned Nanite will be of higher quality than the one thrown into the trash pile - PAB-->
+    </kChanceOfBetterNanite>
+    <kMinutesSimsShouldRummage value="30">
+      <!--Number of max sim minutes that the sim should rummage through a trash pile. - PAB-->
+    </kMinutesSimsShouldRummage>
+    <kChanceOfObject value="50">
+      <!--Range 0 - 100: Percent chance the sim finds a random object when they rummage. - PAB-->
+    </kChanceOfObject>
+    <kChanceToFindBetterThenLowQuality value="40">
+      <!--Chance to find item better then Low Quality - PAB-->
+    </kChanceToFindBetterThenLowQuality>
+    <kChanceForHighQualityItem value="20">
+      <!--Chance to get High Quality Item if we are getting better then low quality - PAB-->
+    </kChanceForHighQualityItem>
+    <kMinutesSimsShouldPlayInTrash value="60">
+      <!--Number of max sim minutes that the sim should play in trash. - PAB-->
+    </kMinutesSimsShouldPlayInTrash>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxTimeToRun value="20">
+      <!--Range:  0 - 100  Description:  Seconds that the interaction should run.-->
+    </kMaxTimeToRun>
+    <kChanceOfBreaking value="0.2">
+      <!--Range:  0 - 1  Description:  Chance of the item breaking.-->
+    </kChanceOfBreaking>
+    <kMinRouteDistance value="2">
+      <!--Range:  0 - 50  Description:  How close should we try to get to syphon.-->
+    </kMinRouteDistance>
+    <kMaxRouteDistance value="2">
+      <!--Range:  0 - 50  Description:  How far should we try to get to syphon.-->
+    </kMaxRouteDistance>
+  </Current_Tuning>
+</base>

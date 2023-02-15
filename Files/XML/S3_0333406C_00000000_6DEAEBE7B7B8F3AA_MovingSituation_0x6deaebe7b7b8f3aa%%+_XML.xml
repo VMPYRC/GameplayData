@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRelationshipForMoveIn value="50">
+      <!--Required relationship for being able to ask someone to move in.-->
+    </kRelationshipForMoveIn>
+    <kRelationshipHitForRejectedMoveIn value="-10">
+      <!--Relationship hit when the active sim rejects a move in request.-->
+    </kRelationshipHitForRejectedMoveIn>
+    <kNumDaysToWaitForMoveInRequest value="2">
+      <!--How many days an NPC will wait before asking again if the player wants to move in after being rejected.-->
+    </kNumDaysToWaitForMoveInRequest>
+    <kChanceToAskPlayerSimToMoveIn value="0.01">
+      <!--Chance per day (when socializing) an NPC with sufficiently high relationship will ask the player sim to move in. Range: [0,1]-->
+    </kChanceToAskPlayerSimToMoveIn>
+    <kMoveInChanceAddForRomanticContext value="0.02">
+      <!--Additional chance an NPC will have to ask the player to move in when he/she is in a romantic context with the player. Range: [0,1]-->
+    </kMoveInChanceAddForRomanticContext>
+    <kMarriageGiftAndTaxBenefits value="1000, 3000">
+      <!--Min/Max of money received for 'gifts and tax benefits' when two sims get married. Actual number will be random in this range.-->
+    </kMarriageGiftAndTaxBenefits>
+  </Current_Tuning>
+</base>

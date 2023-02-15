@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinFrolicTime value="30">
+      <!--Description:  Minimum frolic time in sim mins. This is for the average time if no motives cause the interaction to cancel.-->
+    </kMinFrolicTime>
+    <kMaxFrolicTime value="90">
+      <!--Description:  Maximum frolic time in sim mins. This is for the average time if no motives cause the interaction to cancel.-->
+    </kMaxFrolicTime>
+    <kLTRIncreaseOnSuccess value="5">
+      <!--Positive number that will be added to LTR for the social being accepted-->
+    </kLTRIncreaseOnSuccess>
+    <kLTRDecreaseOnFailure value="-5">
+      <!--Negative number that will be subtracted to LTR for the social being rejected-->
+    </kLTRDecreaseOnFailure>
+    <kCriticalMotiveTypes value="Hunger, Bladder">
+      <!--Description:  Motive types that can be considered critical to end the social. Must match up to kCriticalMotiveValues-->
+    </kCriticalMotiveTypes>
+    <kCriticalMotiveValues value="-80, -80">
+      <!--Description:  Motive values that can be considered critical to end the social. Must match up to kCriticalMotiveTypes-->
+    </kCriticalMotiveValues>
+    <kSustainedFrolicTime value="10">
+      <!--Description:  Sustained frolic time in sim mins. This is the time the interaction will last if it is entered and the motives are already satisfied.-->
+    </kSustainedFrolicTime>
+    <kMotivesToSync value="Fun, Social, AuraPower">
+      <!--Description:  Motive values that need to be synced with the target and the actor-->
+    </kMotivesToSync>
+  </Current_Tuning>
+</base>

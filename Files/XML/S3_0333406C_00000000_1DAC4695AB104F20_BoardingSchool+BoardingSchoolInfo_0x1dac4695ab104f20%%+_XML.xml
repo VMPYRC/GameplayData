@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDailyAlarmTriggerTime value="9">
+      <!--Range: 0 to 23.  Description:  The hour of the day the daily boarding school alarm will fire.  This is when the daily chances for traits and skill will happen.-->
+    </kDailyAlarmTriggerTime>
+    <kDailyChanceTraitChange value="70">
+      <!--Range: 0 to 100.  Description:  The daily chance the Sim will lose a 'negative' trait and have it replaced with a school specific trait.-->
+    </kDailyChanceTraitChange>
+    <kDailyChanceAcquireSkill value="80">
+      <!--Range: 0 to 100.  Description:  The daily chance the Sim will acquire a school specific skill.-->
+    </kDailyChanceAcquireSkill>
+    <kDailyChanceImproveSkill value="50">
+      <!--Range: 0 to 100.  Description:  The daily chance the Sim will improve a random school specific skill.-->
+    </kDailyChanceImproveSkill>
+    <kPickupTime value="9">
+      <!--The hour of the day the car will come to pick up a Sim going to boarding school.  This will happen the following day at the specified time.-->
+    </kPickupTime>
+  </Current_Tuning>
+</base>

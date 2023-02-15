@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPracticeWithMultiplier value="1.4">
+      <!--Range:  0+  Description:  The skill gain multiplier when practicing with somebody else-->
+    </kPracticeWithMultiplier>
+    <kPracticeOnRegularBarMaximum value="3">
+      <!--Range:  0+  Description:  The skill level at which practicing on regular bars is no longer available-->
+    </kPracticeOnRegularBarMaximum>
+    <kReactionsPositive value="PumpFist, Cheer">
+      <!--Range:  ReactionTypes[]  Description:  Reactions the watcher plays when the bartender does cool stuff-->
+    </kReactionsPositive>
+    <kReactionsNegative value="Awkward">
+      <!--Range:  ReactionTypes[]  Description:  Reactions the watcher plays when the bartender does something lame-->
+    </kReactionsNegative>
+    <kReactionsMean value="Boo, PointLaugh, LaughAt">
+      <!--Range:  ReactionTypes[]  Description:  Reactions that mean watchers will play when the bartender does something lame-->
+    </kReactionsMean>
+    <kTraitsMean value="MeanSpirited, Evil">
+      <!--Range:  TraitNames  Description:  Traits that determine if the watcher is mean-->
+    </kTraitsMean>
+    <kReactionChance value="0.4">
+      <!--Range:  0+  Description:  The chance that the watcher will react to the bartender doing something cool or something lame-->
+    </kReactionChance>
+  </Current_Tuning>
+</base>

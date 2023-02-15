@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinimumRadialDistanceFromDoor value="0.5">
+      <!--Range: Positive floats.  Description: Minimum radial distance from door to route if using Door Routing Type.-->
+    </kMinimumRadialDistanceFromDoor>
+    <kMaximumRadialDistanceFromDoor value="2.5">
+      <!--Range: Positive floats.  Description: Maximum radial distance from door to route if using Door Routing Type.-->
+    </kMaximumRadialDistanceFromDoor>
+    <kMinimumRadialDistanceFromSim value="1.0">
+      <!--Range: Positive floats.  Description: Minimum radial distance from Sim to route if using Door Routing Type.-->
+    </kMinimumRadialDistanceFromSim>
+    <kMaximumRadialDistanceFromSim value="2.5">
+      <!--Range: Positive floats.  Description: Maximum radial distance from Sim to route if using Door Routing Type.-->
+    </kMaximumRadialDistanceFromSim>
+    <kMinimumRadialDistanceFromObject value="1.2">
+      <!--Range: Positive floats.  Description: Minimum radial distance to route from object if hanging out by object, or no door found.-->
+    </kMinimumRadialDistanceFromObject>
+    <kMaximumRadialDistanceFromObject value="3.0">
+      <!--Range: Positive floats.  Description: Maximum radial distance to route from object if hanging out by object, or no door found.-->
+    </kMaximumRadialDistanceFromObject>
+    <kCheckPeriodInMinutes value="1">
+      <!--Range: Positive floats.  Description: How long in Sim minutes the Sim should wait between line checks.-->
+    </kCheckPeriodInMinutes>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kRadialDistanceFromObject value="1.2">
+      <!--Range: Positive floats.  Description: Radial distance to route from object if no enclosing doors found.-->
+      <!--deprecated on: 3/1/2008 12:59:06 AM-->
+    </kRadialDistanceFromObject>
+  </Deprecated_Tuning>
+</base>

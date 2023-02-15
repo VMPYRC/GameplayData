@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kKissesToCrowdBonus value="0.01">
+      <!--Bonus to performance meter on doing the Kisses to crowd interaction. Range 0 - 1-->
+    </kKissesToCrowdBonus>
+    <kMakeAPoseBonus value="0.01">
+      <!--Bonus to performance meter on doing the make a pose interaction. Range 0 - 1-->
+    </kMakeAPoseBonus>
+    <kFlourishBonus value="0.01">
+      <!--Penalty to performance meter on doing the flourish interaction. Range 0 - 1-->
+    </kFlourishBonus>
+    <kChangeKissesFailure value="0.501">
+      <!--Chance of failure on doing the kisses to crowd interaction. Range 0 - 1-->
+    </kChangeKissesFailure>
+    <kChanceFailureMakeAPose value="0.501">
+      <!--Chance to unsuccessfully performing the Make a pose interaction. Range 0 - 1-->
+    </kChanceFailureMakeAPose>
+    <kChanceFailureFlourish value="0.501">
+      <!--Chance to unsuccessfully performing the flourish interaction. Range 0 - 1-->
+    </kChanceFailureFlourish>
+    <kKissesToCrowd_LightChannelR value="0.75">
+      <!--Tunable R value of lights for the kisses to Crowd interaction-->
+    </kKissesToCrowd_LightChannelR>
+    <kKissesToCrowd_LightChannelG value="0.25">
+      <!--Tunable G value of lights for the kisses to Crowd interaction-->
+    </kKissesToCrowd_LightChannelG>
+    <kKissesToCrowd_LightChannelB value="0.5">
+      <!--Tunable B value of lights for the kisses to Crowd interaction-->
+    </kKissesToCrowd_LightChannelB>
+    <kMakeAPose_LightChannelR value="0">
+      <!--Tunable R value of lights for the kisses to Crowd interaction-->
+    </kMakeAPose_LightChannelR>
+    <kMakeAPose_LightChannelG value="1">
+      <!--Tunable G value of lights for the kisses to Crowd interaction-->
+    </kMakeAPose_LightChannelG>
+    <kMakeAPose_LightChannelB value="1">
+      <!--Tunable B value of lights for the kisses to Crowd interaction-->
+    </kMakeAPose_LightChannelB>
+    <kMakeAPose_Fail_LightChannelR value="1">
+      <!--Tunable R value of lights for the kisses to Crowd interaction-->
+    </kMakeAPose_Fail_LightChannelR>
+    <kMakeAPose_Fail_LightChannelG value="1">
+      <!--Tunable G value of lights for the kisses to Crowd interaction-->
+    </kMakeAPose_Fail_LightChannelG>
+    <kMakeAPose_Fail_LightChannelB value="0.0">
+      <!--Tunable B value of lights for the kisses to Crowd interaction-->
+    </kMakeAPose_Fail_LightChannelB>
+    <kTunableFlashTime value="1">
+      <!--Time to finish one flash for the Flourish success: Unit: Ticks-->
+    </kTunableFlashTime>
+    <kNumFlashes value="15">
+      <!--Number of flashes to do for the flourish success-->
+    </kNumFlashes>
+    <kKissesToCrowdPenalty value="0.04">
+      <!--Penalty to performance meter on doing the Kisses to crowd interaction. Range 0 - 1-->
+    </kKissesToCrowdPenalty>
+    <kMakeAPosePenalty value="0.04">
+      <!--Penalty to performance meter on doing the make a pose interaction. Range 0 - 1-->
+    </kMakeAPosePenalty>
+    <kFlourishPenalty value="0.04">
+      <!--Bonus to performance meter on doing the flourish interaction. Range 0 - 1-->
+    </kFlourishPenalty>
+    <kFailureDecreasePerSkillLevel value="0.05">
+      <!--Range 0-1. Tunable failure decrease per skill level-->
+    </kFailureDecreasePerSkillLevel>
+    <kUnlockMakeAPoseLevel value="6">
+      <!--Level to unlock Make a Pose-->
+    </kUnlockMakeAPoseLevel>
+    <kUnlockKissesCrowdLevel value="8">
+      <!--Level to unlock Kisses to the Crowd-->
+    </kUnlockKissesCrowdLevel>
+    <kUnlockFlourishLevel value="10">
+      <!--Level to unlock The Flourish-->
+    </kUnlockFlourishLevel>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="2">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kBroomTuning>
+      <Speed value="90">
+        <!--Car speed in meters / second (second = Sim minute).-->
+      </Speed>
+      <Acceleration value="20">
+        <!--Car acceleration in meters / second^2 (second = Sim minute).-->
+      </Acceleration>
+    </kBroomTuning>
+  </Current_Tuning>
+</base>

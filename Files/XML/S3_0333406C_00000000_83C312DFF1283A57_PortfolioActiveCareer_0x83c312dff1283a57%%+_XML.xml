@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kClientLikesPortfolioBaseChance value="40">
+      <!--Base chance (0 to 100) of a client liking the portfolio ('client likes portfolio?' calculation).-->
+    </kClientLikesPortfolioBaseChance>
+    <kClientLikesPortfolioCompletionMultiplier value="0.2">
+      <!--The portfolio contribution to the 'client likes portfolio?' calculation.  We multiply the Portfolio's completion percentage (as an integer between 0 and 100) by this value.-->
+    </kClientLikesPortfolioCompletionMultiplier>
+    <kClientLikesPortfolioSkillMultiplier value="2">
+      <!--The skill level contribution to the 'client likes portfolio?' calculation.  We multiply the skill level (which is typically a number between 0 and 10) by this value.-->
+    </kClientLikesPortfolioSkillMultiplier>
+    <kClientLikesPortfolioStcPositiveMultiplier value="0.035">
+      <!--The STC contribution to the 'client likes portfolio?' calculation when the STC is in a positive context.  We multiply the STC value (which is typically a number between 0 and 10000, with the second tier usually starting around 100 or 150, and the third tier usually starting around 200 or 300, see Socializing.xls) by this value.  You should probably specify a positive value here.-->
+    </kClientLikesPortfolioStcPositiveMultiplier>
+    <kClientLikesPortfolioStcNegativeMultiplier value="-0.01">
+      <!--The STC contribution to the 'client likes portfolio?' calculation when the STC is in a negative context.  We multiply the STC value (which is typically a number between 0 and 10000, with the second tier usually starting around 100 or 150, and the third tier usually starting around 200 or 300, see Socializing.xls) by this value.  You should probably specify a negative (or zero) value here.-->
+    </kClientLikesPortfolioStcNegativeMultiplier>
+    <kClientLikesPortfolioLtrPositiveMultiplier value="0.25">
+      <!--The LTR contribution to the 'client likes portfolio?' calculation when the LTR Liking value is positive.  We multiply the LTR value (see Socializing.xls for LTR thresholds) by this value.  You should probably specify a positive value here.-->
+    </kClientLikesPortfolioLtrPositiveMultiplier>
+    <kClientLikesPortfolioLtrNegativeMultiplier value="0.1">
+      <!--The LTR contribution to the 'client likes portfolio?' calculation when the LTR Liking value is negative.  We multiply the LTR value (see Socializing.xls for LTR thresholds) by this value.  You should probably specify a negative (or zero) value here.-->
+    </kClientLikesPortfolioLtrNegativeMultiplier>
+  </Current_Tuning>
+</base>

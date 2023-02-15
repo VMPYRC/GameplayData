@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBuffMultipliers value="0.5, 0.25, -0.2, 0.5, -0.5, 0.1, 0.4, 0.5, 0.5">
+      <!--List of multipliers for the buffs in kBuffsThatModifyAcademic.-->
+    </kBuffMultipliers>
+    <kBuffsThatModifyAcademic value="StudyHolic, StudiousStudier, StudyFatigue, GeniusIQ, BrainDead, HerbWonderpetal, ImprovedAcademicPerformanceFromProtest, StolenTestAnswers, CheatSheet">
+      <!--List of Buffs that affect academics. Must match with kBuffMultipliers and kBuffChanceToGetCaught-->
+    </kBuffsThatModifyAcademic>
+    <kBuffChanceToGetCaught value="0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.35, 0.35">
+      <!--List of chance to get caught if sim has buffs in kBuffSThatModifyAcademic-->
+    </kBuffChanceToGetCaught>
+    <kChanceToGetCaughtInCheatingTone value="1">
+      <!--Chance to get caught cheating from Cheating Tone this is checked once every time the Buff Check runs. -->
+    </kChanceToGetCaughtInCheatingTone>
+    <kRebelReducedChanceToGetCaught value="0.1">
+      <!--Range: 0-100  Description: Reduced percentage chance of getting caught per skill level when Sim has Level 4+ Rebel Skill.-->
+    </kRebelReducedChanceToGetCaught>
+    <kRelationshipPerHour value="5">
+      <!--LTR per hour when using the SuckUpToProfessor tone-->
+    </kRelationshipPerHour>
+    <kChanceToGetTNSorOpporunity value="50">
+      <!--Chance when leaving class to get an Opportunity or Chatty TNS-->
+    </kChanceToGetTNSorOpporunity>
+    <kOpportunityCooldown value="16">
+      <!--Duration in Sim Hours of Cooldown for getting another University App-->
+    </kOpportunityCooldown>
+  </Current_Tuning>
+</base>

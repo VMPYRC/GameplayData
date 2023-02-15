@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinLTRForAccept value="20">
+      <!--Range:  -100 - 100.  Description:  The minimum LTR required for the kiss to be accepted.  Any relationship lower than this will result in a reject.-->
+    </kMinLTRForAccept>
+    <kNumKissesForRefusal value="2">
+      <!--Description:  Once a Sim has this many Mistletoe Kisses at a given time, they will always reject the kiss.-->
+    </kNumKissesForRefusal>
+    <kLTRGainOnAccept value="2">
+      <!--Description:  The LTR increase between Sims when the kiss is accepted.-->
+    </kLTRGainOnAccept>
+    <kRejectRouteAwayDistanceMin value="3">
+      <!--Description: If the kiss is rejected, this is the min distance the Actor will try to route away.-->
+    </kRejectRouteAwayDistanceMin>
+    <kRejectRouteAwayDistanceMax value="6">
+      <!--Description: If the kiss is rejected, this is the max distance the Actor will try to route away.-->
+    </kRejectRouteAwayDistanceMax>
+  </Current_Tuning>
+</base>

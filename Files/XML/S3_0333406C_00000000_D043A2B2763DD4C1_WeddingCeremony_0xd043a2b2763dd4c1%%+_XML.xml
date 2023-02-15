@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <sWaitUntilGatheredRound value=".25">
+      <!--How long to wait (in hours) until guests are gathered around (before proceeding anyway)-->
+    </sWaitUntilGatheredRound>
+    <sMinDistanceBetweenAudienceAndCouple value="3">
+      <!--Min distance (in meters) between the audience and the happy couple-->
+    </sMinDistanceBetweenAudienceAndCouple>
+    <sMaxDistanceBetweenAudienceAndCouple value="5">
+      <!--Min distance (in meters) between the audience and the happy couple-->
+    </sMaxDistanceBetweenAudienceAndCouple>
+    <sWaitBeforeImpatienceAtNoRingsExchanged value="1">
+      <!--How long to wait (in hours) before the exchange of rings before getting impatient and giving up-->
+    </sWaitBeforeImpatienceAtNoRingsExchanged>
+    <sApplauseTimeAfterCeremony value=".25">
+      <!--How long to applause (in hours) after the exchange of rings -->
+    </sApplauseTimeAfterCeremony>
+    <sWaitTimeAfterWeddingCanceled value="1">
+      <!--How long to wait (in hours) after wedding cancelation before going off-->
+    </sWaitTimeAfterWeddingCanceled>
+    <sWeddingArchConeAngle value="2.356194">
+      <!--Cone in front of Wedding Arch for audience to stand if there is a wedding arch-->
+    </sWeddingArchConeAngle>
+    <sWeddingReactionDelayRange value="3">
+      <!--Range: float 0 - x. Delay range for starting animations. This number will determine the range of waiting for wedding seated reactions to start.-->
+    </sWeddingReactionDelayRange>
+    <sChanceToPlayIdle value="0.2">
+      <!--Range: float 0 - 1 . Random Chance for looped animations to stop and go to an idle animation for a single loop-->
+    </sChanceToPlayIdle>
+    <sWaitForGuestsUnderWeddingArch value="0.3">
+      <!--How long to wait (in sim hours) to wait for guests under wedding arch, before proceding anyways)-->
+    </sWaitForGuestsUnderWeddingArch>
+    <sDaysOffAfterWedding value="2">
+      <!--Range:  0 - 3  Description: Days of PTO given after wedding ceremony or wedding.-->
+    </sDaysOffAfterWedding>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

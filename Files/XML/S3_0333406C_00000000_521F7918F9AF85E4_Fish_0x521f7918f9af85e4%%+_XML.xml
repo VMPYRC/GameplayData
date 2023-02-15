@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLevelsAboveForMaxWeight value="6">
+      <!--Defines slope for fish size vs. skill, this many levels above fish level, you should tend to catch perfect fish.-->
+    </kLevelsAboveForMaxWeight>
+    <kQualitySkillLevelBonus value="0.5">
+      <!--Bonus added to your current skill level when determining base fish size.-->
+    </kQualitySkillLevelBonus>
+    <kPercentVarianceForFishWeight value="0.4" />
+    <kPercentSizeIncreasePerFishCaught value="0.005" />
+    <kMultiplierOnFishSkillForFirstTimeCatch value="3">
+      <!--Multiplier applied to fish skill gain if first time catch.-->
+    </kMultiplierOnFishSkillForFirstTimeCatch>
+    <kMultiplierFishWeightForIchthyologist value="1.2">
+      <!--Multiplier on weight for sims who have become a ichthyologist.-->
+    </kMultiplierFishWeightForIchthyologist>
+    <kPercentVarianceNeutralReaction value="0.1" />
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

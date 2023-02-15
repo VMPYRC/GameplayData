@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLevelReqForDnaSample value="8">
+      <!--Range:  integer  Description:  Science Skill level required to perform Ink Blot Test.-->
+    </kLevelReqForDnaSample>
+    <kTestSuccessRate value=".5">
+      <!--Range:  0 - 1  Description:  The base chance of success for this interaction (not considering skill level).-->
+    </kTestSuccessRate>
+    <kSuccessRateSkillBonusPerLevel value="0.05">
+      <!--Range:  0 - 1  Description:  This value is added to kTestSuccessRate for each level of the science skill that the sim has. -->
+    </kSuccessRateSkillBonusPerLevel>
+    <kScienceSkillPointsOnSuccess value="50">
+      <!--Description:  The number of skill points to add to the Science skill for the sim who successfully analyzed another sim-->
+    </kScienceSkillPointsOnSuccess>
+  </Current_Tuning>
+</base>

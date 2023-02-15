@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRelationshipSTC value="Friendly">
+      <!--Social STC for this interaction.-->
+    </kRelationshipSTC>
+    <kRelationshipDeltaSTC value="50">
+      <!--STC delta per Sim hour.-->
+    </kRelationshipDeltaSTC>
+    <kRelationshipDeltaLTR value="7">
+      <!--LTR delta per Sim hour.-->
+    </kRelationshipDeltaLTR>
+    <kSocialChange value="50">
+      <!--Social gain for adult.-->
+    </kSocialChange>
+    <kStressChange value="15">
+      <!--Stress gain for adult.-->
+    </kStressChange>
+    <kMeanTimeBetweenSpeedChange value="2, 4, 10">
+      <!--Time between speed changes at each skill level.-->
+    </kMeanTimeBetweenSpeedChange>
+    <kDrivingSpeeds value="1, 4, 10, 15">
+      <!--Driving speeds.  A group of three moving up with skill level is used.-->
+    </kDrivingSpeeds>
+    <kDrivingAccels value="100, 20, 10, 10">
+      <!--Driving accelerations.  A group of three moving up with skill level is used.-->
+    </kDrivingAccels>
+    <kMinimumDistancePerSegment value="150">
+      <!--Must be large enough that route planner chooses to use a car!  Minimum is currently 110m.-->
+    </kMinimumDistancePerSegment>
+    <kMaximumDistancePerSegment value="300">
+      <!--Must be large enough that route planner chooses to use a car!  Minimum is currently 110m.-->
+    </kMaximumDistancePerSegment>
+    <kDrivingSounds value="low, low, med, med, high">
+      <!--Driving sounds.  These should match up with the tunables speeds & accelerations.-->
+    </kDrivingSounds>
+    <kTeachToDriveNonHouseholdSimsMinimumLTR value="75">
+      <!--Minimum LTR for non-household Sims for Teach to Drive. (Adult offering to Teen)-->
+    </kTeachToDriveNonHouseholdSimsMinimumLTR>
+    <kLearnToDriveNonHouseholdSimsMinimumLTR value="75">
+      <!--Minimum LTR for non-household Sims for Learn to Drive. (Teen asking Adult)-->
+    </kLearnToDriveNonHouseholdSimsMinimumLTR>
+  </Current_Tuning>
+</base>

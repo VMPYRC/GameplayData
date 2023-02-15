@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumServingsForGroupMeal value="8">
+      <!--This is used to decide if your Sim runs to the toilet.-->
+    </kNumServingsForGroupMeal>
+    <kNumServingsLeftWhenAppearsHalfDepleted value="4">
+      <!--The number of servings left on a serving object when it snaps to the half-eaten visualization.-->
+    </kNumServingsLeftWhenAppearsHalfDepleted>
+    <kBaseCookMinutesSingleServing value="10">
+      <!--The base time it takes to cook a single serving of food, in minutes.  This is before speed enhancements are applied.-->
+    </kBaseCookMinutesSingleServing>
+    <kBaseCookMinutesGroupServing value="25">
+      <!--The base time it takes to cook a group serving of food, in minutes.  This is before speed enhancements are applied.-->
+    </kBaseCookMinutesGroupServing>
+    <kBreakfastStartHour value="1">
+      <!--The start hour for breakfast.  Breakfast will be served until the start hour for lunch. Uses 24 hour period.-->
+    </kBreakfastStartHour>
+    <kLunchStartHour value="11">
+      <!--The start hour for lunch.  Lunch will be served until the start hour for dinner. Uses 24 hour period.-->
+    </kLunchStartHour>
+    <kDinnerStartHour value="17">
+      <!--The start hour for dinner.  Dinner will be served until the start hour for breakfast the next day. Uses 24 hour period.-->
+    </kDinnerStartHour>
+    <kBrunchStartHour value="9">
+      <!--The start hour for brunch (brunch is on weekends only). Uses 24 hour period.-->
+    </kBrunchStartHour>
+    <kBrunchEndHour value="15">
+      <!--The end hour for brunch; it is served until just before this hour begins. (Brunch is on weekends only). Uses 24 hour period.-->
+    </kBrunchEndHour>
+    <kSelectedHouseholdSimsCanUseIngredientsToCook value="True">
+      <!--Sets whether sims in the selected household can use up ingredients autonomously for cooking.-->
+    </kSelectedHouseholdSimsCanUseIngredientsToCook>
+    <kPotMinSimMinutesUntilAddIngredient value="5">
+      <!--When the sim cooks using the pot, there's a chance he'll add an ingredient straight to the pot.  This is the minimum amount of sim minutes that will pass before this happens.-->
+    </kPotMinSimMinutesUntilAddIngredient>
+    <kPotMaxSimMinutesUntilAddIngredient value="30">
+      <!--When the sim cooks using the pot, there's a chance he'll add an ingredient straight to the pot.  This is the maximum amount of sim minutes that will pass before this happens.-->
+    </kPotMaxSimMinutesUntilAddIngredient>
+    <kQualityMultiplierForServedFood value=".75">
+      <!--When serving food, the food quality is lower.  The food quality (if it is positive) gets multiplied by this value, so something in the range of 0.0 - 1.0 is valid.-->
+    </kQualityMultiplierForServedFood>
+    <kNumFoodPointsBurnt value="-150">
+      <!--The number of food points burnt food has.-->
+    </kNumFoodPointsBurnt>
+    <kFoodUnitsFullServing value="15">
+      <!--This is how many 'bites' it will take to eat a meal completely.-->
+    </kFoodUnitsFullServing>
+    <kFoodUnitsLeftForHalfFull value="7">
+      <!--When the number of bites left of food reaches this number, the model will switch to a half-eaten version.-->
+    </kFoodUnitsLeftForHalfFull>
+    <kCleanupChance value="50">
+      <!--Chance normal (not neat or slob) sims will clean up after eating. Should be between 0 and 100.-->
+    </kCleanupChance>
+    <kChanceOfChoosingFavoriteFood value="33">
+      <!--Chance sim will choose their favorite food if available. Should be between 0 and 100.-->
+    </kChanceOfChoosingFavoriteFood>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kFoodUnitsLeftForUsed value="2">
+      <!--When the number of bites left of food reaches this number, the model will switch to a used version, if one exists.-->
+      <!--deprecated on: 12/17/2007 7:13:45 PM-->
+    </kFoodUnitsLeftForUsed>
+  </Deprecated_Tuning>
+</base>

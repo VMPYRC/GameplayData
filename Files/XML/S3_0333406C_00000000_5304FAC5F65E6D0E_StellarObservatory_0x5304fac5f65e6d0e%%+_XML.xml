@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="50" />
+      <MapTagFilterType value="Work">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-35">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="100">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kCanInvestHere value="True">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kInvestCost value="50000">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="140000">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="12000">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="22000">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="30000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="1000000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kNpcExitFreq value="15">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kNighttimeLightSunsetDelta value="1">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kPreventLotPurchase value="True">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="True">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+    <kVisitRabbitHoleTuning>
+      <VisitLength value="60">
+        <!--Visit length in minutes.-->
+      </VisitLength>
+      <VisitBoredomChanceChild value="15">
+        <!--Visit chance for boredom child.-->
+      </VisitBoredomChanceChild>
+      <VisitBoredomChanceTeen value="35">
+        <!--Visit chance for boredom teen.-->
+      </VisitBoredomChanceTeen>
+      <VisitBoredomChanceAdult value="10">
+        <!--Visit chance for boredom adult/edler.-->
+      </VisitBoredomChanceAdult>
+      <VisitWooHooLength value="25">
+        <!--Visit woohoo length in minutes.-->
+      </VisitWooHooLength>
+      <VisitWooHooCheckForCaught value="5">
+        <!--Visit woohoo check for being caught every X minutes.-->
+      </VisitWooHooCheckForCaught>
+      <VisitWooHooChanceForCaught value="2">
+        <!--Visit woohoo chance of being caught when 'VisitWooHooCheckForCaught' is hit.-->
+      </VisitWooHooChanceForCaught>
+      <VisitTryForBabySuccessRate value="50">
+        <!--Visit try for baby chance of success.-->
+      </VisitTryForBabySuccessRate>
+      <VisitTourGroupLTRGain value="2">
+        <!--Amount of LTR gain between people on a tour group every X minutes-->
+      </VisitTourGroupLTRGain>
+      <VisitTourGroupMinutesLTR value="20">
+        <!--Frequency of LTR gain while on a tour group-->
+      </VisitTourGroupMinutesLTR>
+      <WooHooingCommodity value="Amorous">
+        <!--Social STC after WooHooing.-->
+      </WooHooingCommodity>
+      <WooHooingSTCIncrement value="25">
+        <!--The STC increment after WooHooing.-->
+      </WooHooingSTCIncrement>
+      <WooHooingLTRIncrement value="5">
+        <!--The LTR increment after WooHooing.-->
+      </WooHooingLTRIncrement>
+      <WooHooingFunDelta value="80">
+        <!--The Fun delta while WooHooing.-->
+      </WooHooingFunDelta>
+      <WooHooingSocialDelta value="125">
+        <!--The Social delta while WooHooing.-->
+      </WooHooingSocialDelta>
+    </kVisitRabbitHoleTuning>
+    <kClassSpaceTrainingCost value="500">
+      <!--Range: Simoleons.  Description: How much a Space Training class costs.-->
+    </kClassSpaceTrainingCost>
+    <kClassSpaceTrainingDuration value="180">
+      <!--Range: Minutes.  Description: How long a Space Training class lasts.-->
+    </kClassSpaceTrainingDuration>
+  </Current_Tuning>
+</base>

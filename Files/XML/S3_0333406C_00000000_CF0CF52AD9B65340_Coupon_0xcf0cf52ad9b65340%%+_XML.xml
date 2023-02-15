@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDiscountTiers value="150, 600, 3000">
+      <!--Range:  Array of ascending integers  Description:  Define discount price tiers-->
+    </kDiscountTiers>
+    <kNormalDiscounts value="40, 30, 25, 20">
+      <!--Range:  Array of positive integers  Description:  Define normal discounts-->
+    </kNormalDiscounts>
+    <kBlowoutDiscounts value="75, 70, 60, 50">
+      <!--Range:  Array of positive integers  Description:  Define blowout discounts-->
+    </kBlowoutDiscounts>
+    <kNumDaysToExpire value="3">
+      <!--Range: Int greater than 0. Description: How many days the coupon is good for including the current day. Ends exactly at 0 hour, not (numDays * 24)-->
+    </kNumDaysToExpire>
+    <kPercentChanceForBlowoutSpecial value="10">
+      <!--Range: Int 0 to 100. Description: The chance of getting a blowout special discount instead of the normal one-->
+    </kPercentChanceForBlowoutSpecial>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kPriceMod>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+      <ObsessedWithComputerTraitScore value="0">
+        <!--Range: Any float value.  Description:  Sims with the 'Obsessed with X' Trait will get an environment bonus from rooms that contain the object that Sim is obsessed with.  This tunable is an additive amount of environment bonus for Sims with the 'Obsessed with X' trait. This amount is expected to be positive but does not have to be.-->
+      </ObsessedWithComputerTraitScore>
+      <ObsessedWithTVTraitScore value="0">
+        <!--Range: Any float value.  Description:  Sims with the 'Obsessed with X' Trait will get an environment bonus from rooms that contain the object that Sim is obsessed with.  This tunable is an additive amount of environment bonus for Sims with the 'Obsessed with X' trait. This amount is expected to be positive but does not have to be.-->
+      </ObsessedWithTVTraitScore>
+      <!--deprecated on: 8/16/2007 4:01:17 PM-->
+    </kPriceMod>
+    <MinPercentBlowoutDiscount value="30">
+      <!--Range: Int 0 to 100 and < Max. Description: Min extra discount percentage if a blowout special happens-->
+      <!--deprecated on: 8/17/2007 6:38:15 PM-->
+    </MinPercentBlowoutDiscount>
+    <MaxPercentBlowoutDiscount value="50">
+      <!--Range: Int 0 to 100 AND > Min.  Description: Max extra discount percentage if a blowout special happens-->
+      <!--deprecated on: 8/17/2007 6:38:15 PM-->
+    </MaxPercentBlowoutDiscount>
+    <DiscountTier1Coupon value="80">
+      <!--Range: Int 0 to 100.  Description: Discount if item's price is less than or equal to tuning variable 'DiscountTier1PriceLessThen'-->
+      <!--deprecated on: 8/17/2007 6:38:15 PM-->
+    </DiscountTier1Coupon>
+    <DiscountTier2Coupon value="65">
+      <!--Range: Int 0 to 100.  Description: Discount if item's price is less than or equal to tuning variable 'DiscountTier2PriceLessThen'-->
+      <!--deprecated on: 8/17/2007 6:38:15 PM-->
+    </DiscountTier2Coupon>
+    <DiscountTier3Coupon value="50">
+      <!--Range: Int 0 to 100.  Description: Discount if item's price is less than or equal to tuning variable 'DiscountTier3PriceLessThen'-->
+      <!--deprecated on: 8/17/2007 6:38:15 PM-->
+    </DiscountTier3Coupon>
+    <DiscountTier4Coupon value="35">
+      <!--Range: Int 0 to 100.  Description: Discount if item's price is higher than 'DiscountTier3PriceLessThan'-->
+      <!--deprecated on: 8/17/2007 6:38:15 PM-->
+    </DiscountTier4Coupon>
+  </Deprecated_Tuning>
+</base>

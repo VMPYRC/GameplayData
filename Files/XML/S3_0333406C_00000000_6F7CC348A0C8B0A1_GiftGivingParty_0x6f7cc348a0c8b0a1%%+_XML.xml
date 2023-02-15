@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeBeforeForcingToOpenGifts value="120">
+      <!--The number of sim minutes, since the party started, to force everyone to open gifts if the host never called people to open gifts-->
+    </kTimeBeforeForcingToOpenGifts>
+    <kKickOutGuestEarlyPenalty value="-10">
+      <!--Float, LTR Liking penalty that occurs when a sim is asked to leave before the gifts have been opened. This overrides the normal liking change for the party.-->
+    </kKickOutGuestEarlyPenalty>
+  </Current_Tuning>
+</base>

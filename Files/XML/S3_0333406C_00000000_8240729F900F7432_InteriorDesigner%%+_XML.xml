@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<InteriorDesigner>
+<Scenarios>
+  <Key></Key>
+  <Event></Event>
+  <CheckFunction></CheckFunction>
+  <Budget></Budget>
+  <Payout></Payout>
+  <Required></Required>
+  <Optional></Optional>
+ </Scenarios>
+<Scenarios>
+  <Key>NewBaby</Key>
+  <Event>kGotPregnant</Event>
+  <Budget>Medium</Budget>
+  <Payout>Medium</Payout>
+  <Required>Crib,PottyChair,ToyChest</Required>
+  <Optional>Bookshelf,Rug,Sculpture,Door</Optional>
+ </Scenarios>
+<Scenarios>
+  <Key>AgeUpBedroom</Key>
+  <Event>kSimAgeTransition</Event>
+  <CheckFunction>AgeChildOrAbove</CheckFunction>
+  <Budget>High</Budget>
+  <Payout>High</Payout>
+  <Required>Bed,Dresser</Required>
+  <Optional>Bookshelf,Rug,Sculpture,Door,Stereo,VideoGame,Computer,Desk,ChairLiving,TV</Optional>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Scenarios>
+ </Scenarios>
+<Objects>
+  <Key></Key>
+  <Assembly>Sims3GameplaySystems</Assembly>
+  <Namespace>Sims3.Gameplay.Interfaces</Namespace>
+  <ClassName></ClassName>
+ </Objects>
+<Objects>
+  <Key>Crib</Key>
+  <ClassName>ICrib</ClassName>
+ </Objects>
+</InteriorDesigner>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kMinDistanceToView value="1">
+      <!--Minimum Distance at which the sim would perform View Object interaction. Positive float.-->
+    </kMinDistanceToView>
+    <kMaxDistanceToView value="3">
+      <!--Maximum Distance at which the sim would perform View Object interaction. Positive float.-->
+    </kMaxDistanceToView>
+    <kReactionTypesForCleansed value="Cheer, PumpFist">
+      <!--Valid reaction types for a Sim that has just been cleansed by the Soulpeace Statue.  Use items from the 'ReactionTypes' enum in Reactions.cs, add as many as desired, we'll choose one of them at random each time.  Example: (Cheer, PumpFist)-->
+    </kReactionTypesForCleansed>
+    <kBrightnessEmittedLight value="10">
+      <!--Brightness of the light that the Soulpeace Statue emits when it's 'activated'.  Any positive float value.  Use the debug interactions on the Soulpeace statue to force the light on/off & experiment with this value... a value of 1.0 is average, 10 or 100 is much brighter...).-->
+    </kBrightnessEmittedLight>
+    <kSeekCleansingPreGlowDuration value="20, 30">
+      <!--Number of Sim minutes that Sim needs to be parked inside the 'Seek Cleansing' interaction before the statue starts to glow & emit light.  Format: (minDuration, maxDuration).  A value is randomly chosen between these two values.-->
+    </kSeekCleansingPreGlowDuration>
+    <kSeekCleansingRouteDistance value="3, 4">
+      <!--Distance (min, max) in tiles (float value) that Sim does a cone route to for Seek Cleansing interaction.  We prefer the min distance but can go up to the max distance if necessary.  In demoing with Don he felt that 3.0 was the ideal distance.-->
+    </kSeekCleansingRouteDistance>
+    <kSeekCleansingConeAngle value="90">
+      <!--Angle (float value, in degrees) of routing cone in front of Soulpeace Statue that Sims route to for Seek Cleansing interaction.-->
+    </kSeekCleansingConeAngle>
+    <kEnvironmentToLookAtInterestingnessMultiplier value="0.2">
+      <!--The multiplier (range 0:1) which converts environment into lookat interestingness-->
+    </kEnvironmentToLookAtInterestingnessMultiplier>
+  </Current_Tuning>
+</base>

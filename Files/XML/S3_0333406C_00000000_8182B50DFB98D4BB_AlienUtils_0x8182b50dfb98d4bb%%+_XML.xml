@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kABPBaseDeltaWhileWorking value="-5">
+      <!--Alien Brain Power: The base motive delta for ABP while an alien is working.-->
+    </kABPBaseDeltaWhileWorking>
+    <kABPTraitsPositive value="Workaholic, OfficeHero">
+      <!--Alien Brain Power: If an alien has any of these traits, they will have a positive modifier added to the base delta.-->
+    </kABPTraitsPositive>
+    <kABPDeltaTraitModPositive value="2">
+      <!--Alien Brain Power: The motive delta modifier for ABP if the Sim has any of the 'positive' tratis.-->
+    </kABPDeltaTraitModPositive>
+    <kABPTraitsNegative value="CouchPotato, AbsentMinded">
+      <!--Alien Brain Power: If an alien has any of these traits, they will have a negative modifier added to the base delta.-->
+    </kABPTraitsNegative>
+    <kABPDeltaTraitModNegative value="-1">
+      <!--Alien Brain Power: The motive delta modifier for ABP if the Sim has any of the 'negative' tratis.-->
+    </kABPDeltaTraitModNegative>
+    <kABPBaseDeltaSkillGain value="-5, -2">
+      <!--Alien Brain Power: The base motive delta for ABP while an alien is gaining a skill. Index 0=Delta For Mental Skills, 1=Non-Mental Skills.-->
+    </kABPBaseDeltaSkillGain>
+    <kABPChangeOnTaskCompletion value="-2">
+      <!--Alien Brain Power: When an alien completes a task for an active career, this amount will be directly added to their ABP motive.-->
+    </kABPChangeOnTaskCompletion>
+    <kMindControlMinBrainPower value="-60">
+      <!--The minimum amount of ABP needed to do the Mind Control social.-->
+    </kMindControlMinBrainPower>
+    <kMindControlBaseChance value="75">
+      <!--The base chance Mind Control will be successful.-->
+    </kMindControlBaseChance>
+    <kMindControlMinChance value="10">
+      <!--After applying all modifiers, this is the min chance the Alien will succeed.  For example, if the mods take the chance to 0 or less, the chance will be increased to this value.  Can be 0.-->
+    </kMindControlMinChance>
+    <kMindControlChanceModGenius value="20">
+      <!--If the actor is a genius, this is added to the base chance.  If the target is a genius, this is subtracted.-->
+    </kMindControlChanceModGenius>
+    <kMindControlChanceModLogic value="5, 10">
+      <!--The Logic Skill mod.  First value represents level 1, the second level 10.  Will interpolate the value based off of the Sim's logic skill level.  The actor's skill will add to the chance, the target will subtract from it.-->
+    </kMindControlChanceModLogic>
+    <kMindControlChanceModAlienDNA value="20">
+      <!--If the target is not an alien, but has some alien DNA, this value is subtracted.-->
+    </kMindControlChanceModAlienDNA>
+    <kMindControlChanceModMood value="-15, 15">
+      <!--The Mood mod.  First value represents -100 mood, the second +100 mood.  Will interpolate the value based off of the alien's current mood value.  This value will be added to the overall success chance.-->
+    </kMindControlChanceModMood>
+    <kAlienHouseholdNumMembers value="5">
+      <!--The number of aliens that will be kept in the alien household.-->
+    </kAlienHouseholdNumMembers>
+    <kAlienHouseholdValidAges value="YoungAdult, Adult, Elder">
+      <!--The valid ages for members of the alien household.-->
+    </kAlienHouseholdValidAges>
+    <kAlienHouseholdLatestVisitHour value="3">
+      <!--The latest hour of the day we'll try to send an alien.  The window is from midnight to this value.  Default value is 3, meaning we'll try to send an alien a random time from 12am - 3am.-->
+    </kAlienHouseholdLatestVisitHour>
+    <kAlienHouseholdVisitChanceActive value="0.02">
+      <!--The base chance an alien will visit the active household.-->
+    </kAlienHouseholdVisitChanceActive>
+    <kAlienHouseholdVisitChanceActiveHighLTRMod value="0.08">
+      <!--If a particular alien has a hight LTR with a member of the active household, this will be added to the base chance.-->
+    </kAlienHouseholdVisitChanceActiveHighLTRMod>
+    <kAlienHouseholdVisitChanceActiveSpaceRockMod value="0.15">
+      <!--If the active household as at least kAlienHouseholdSpaceRocksForBonus space rocks, this will be added to the base chance.-->
+    </kAlienHouseholdVisitChanceActiveSpaceRockMod>
+    <kAlienHouseholdHighLTRThreshold value="40">
+      <!--An LTR between a Sim and an alien that is >= to this value will be considered 'High LTR'.-->
+    </kAlienHouseholdHighLTRThreshold>
+    <kAlienHouseholdSpaceRocksForBonus value="5">
+      <!--The number of space rocks the active household must have on their lot to receive the kAlienHouseholdVisitChanceActiveSpaceRockMod.-->
+    </kAlienHouseholdSpaceRocksForBonus>
+    <kAlienHouseholdVisitChanceRandom value="0.20">
+      <!--If an alien isn't sent to the active household, this is the chance one will visit a random lot.-->
+    </kAlienHouseholdVisitChanceRandom>
+    <kAlienHouseholdLogicSkill value="10, 10">
+      <!--A new member of the alien household will start with their logic skill within this range.-->
+    </kAlienHouseholdLogicSkill>
+    <kAlienHouseholdHandinessSkill value="7, 7">
+      <!--A new member of the alien household will start with their handiness skill within this range.-->
+    </kAlienHouseholdHandinessSkill>
+    <kAbductionBaseChance value="0.01">
+      <!--The base chance we will try to abduct a Sim from the active household on a nightly basis.-->
+    </kAbductionBaseChance>
+    <kAbductionTelescopeBonus value="0.14">
+      <!--This value is added to kAbductionBaseChance if a member of the active household used a telescope.-->
+    </kAbductionTelescopeBonus>
+    <kAbductionSpaceRockBonus value="0.15">
+      <!--This value is added to kAbductionBaseChance for each space rock collected by an active household member.-->
+    </kAbductionSpaceRockBonus>
+    <kAbductionMaxSpaceRockBonus value="0.60">
+      <!--This is the max bonus collecting space rocks can provide.-->
+    </kAbductionMaxSpaceRockBonus>
+    <kAbductionLength value="30">
+      <!--Sim minutes.  Once the abductee is picked up, how long they will remain in the ufo.-->
+    </kAbductionLength>
+    <kAbductionReactions value="Cry, FreakOut, Nauseous, WhyMe">
+      <!--When the abductee returns to their house, they will play one of these reactions randomly.-->
+    </kAbductionReactions>
+    <kAlienHouseholdVisitChanceOffspring value="0.1">
+      <!--If a particular alien has offspring in the active household, this will be added to the base chance.-->
+    </kAlienHouseholdVisitChanceOffspring>
+  </Current_Tuning>
+</base>

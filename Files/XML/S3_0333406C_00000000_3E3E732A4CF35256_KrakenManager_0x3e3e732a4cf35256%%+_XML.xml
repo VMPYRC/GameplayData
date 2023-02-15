@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kKrakenIdleCheck value="30">
+      <!--Boat idle time.  This time represents how long until the kraken checks if a boat has been in the same position.  GPE default 30.0.-->
+    </kKrakenIdleCheck>
+    <kSwimbyChance value="0.04">
+      <!--Range: 0-1.0f; Percent chance of kraken swim by, this will only happen if the boat has been idling for too long. GPE default 0.2 (20 percent)-->
+    </kSwimbyChance>
+    <kAttackChance value="0.01">
+      <!--Range: 0-1.0f; Percent chance of kraken attack, this will only happen if the boat has been idling for too long. GPE default 0.05 (5 percent)-->
+    </kAttackChance>
+    <kBonusAttackChance value="0.01">
+      <!--Range: 0-1.0f; Bonus Percent chance of kraken attack, This will add to kraken attack bonus if the swim by has happened for a boat. GPE default 0.1 (10 percent)-->
+    </kBonusAttackChance>
+    <kHiddenIslandBonus value="0.01">
+      <!--Range: 0-1.0f; Bonus Percent chance of kraken attack, This will add to kraken attack bonus if the boat is near one of the islands. GPE default 0.1 (10 percent)-->
+    </kHiddenIslandBonus>
+    <kHiddenIslandRadius value="30">
+      <!--Unit: Sim meters; Distance from the center of a hidden island lot that a boat has to be in order to have the hidden island bonus chance. GPE default 40-->
+    </kHiddenIslandRadius>
+    <kHeavyRainBonus value="0.01">
+      <!--Range: 0-1.0f; Bonus Percent chance of kraken attack, This will add to kraken attack bonus if the weather is heavy rain. GPE default 0.1 (10 percent)-->
+    </kHeavyRainBonus>
+    <kPanicRadius value="20">
+      <!--Unit: Sim meters; Distance around kraken attack sims in the water will panic. GPE default 30-->
+    </kPanicRadius>
+    <kKrakenMinDepth value="20">
+      <!--Unit: Sim meters; If a boat is at a point where the water is this deep or shallower, then a kraken attack/swimby will not happen..-->
+    </kKrakenMinDepth>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBaseChanceOfResearchDiscovery value="0, 0.8, 0.85, 0.875, 0.9, 0.925, 0.95, 0.975, 1.0, 1.0, 1.0">
+      <!--Range: 0-1.0f; Base percentage chance of discovering an alchemy recipe while researching alchemy at each Spellcraft skill level 0 - 10-->
+    </kBaseChanceOfResearchDiscovery>
+    <kTraitsForResearchAlchemyBonuses value="SupernaturalFanTrait, WitchHiddenTrait">
+      <!--Range:  Trait Names; Traits of those that receive the ResearchAlchemy bonuses of kResearchBonusChanceOfDiscoveryModifier and kResearchBonusSkillMultiplier -->
+    </kTraitsForResearchAlchemyBonuses>
+    <kResearchBonusChanceOfDiscoveryModifier value="0.20">
+      <!--Range: -1.0 to 1.0f; Alchemy Research bonus for those with the traits in kTraitsForResearchAlchemyBonuses; Additive modifier to the chance of discovering an alchemy recipe during Research Alchemy-->
+    </kResearchBonusChanceOfDiscoveryModifier>
+    <kResearchBonusSkillMultiplier value="0.5">
+      <!--Range: Positive Float; Alchemy Research bonus for those with the traits in kTraitsForResearchAlchemyBonuses; Additive multiplier to the rate of increasing spellcraft skill; THIS VALUE IS ADDITIVE! (if the base multiplier is 1.0f and you set this to 1.0f, the skill point multiplier will be 2.0.)-->
+    </kResearchBonusSkillMultiplier>
+    <kResearchMaximumTime value="240">
+      <!--The maximum time in Sim minutes that a Sim will continue to Research Alchemy in a single interaction-->
+    </kResearchMaximumTime>
+    <kResearchMinimumTime value="30">
+      <!--The minimum time in Sim minutes that must elapse before alchemy recipes can be discovered-->
+    </kResearchMinimumTime>
+    <kResearchTimeStep value="30">
+      <!--After researching for the minimum time, this is the number of Sim minutes that will elapse before checking for a discovery or failure again-->
+    </kResearchTimeStep>
+    <kTraitsForIncreasedChanceOfFrustration value="AbsentMinded, HotHeaded, Neurotic, Unlucky, SupernaturalSkeptic">
+      <!--Range:  Trait Names; Traits of those are more likely to get frustrated while researching alchemy -->
+    </kTraitsForIncreasedChanceOfFrustration>
+    <kTraitBasedChanceOfFrustrationModifier value="0.35">
+      <!--Range: -1.0 to 1.0f; For Sims with Traits in kTraitsForIncreasedChanceOfFrustration; Additive modifier to the chance of getting frustrated for not discovering a recipe-->
+    </kTraitBasedChanceOfFrustrationModifier>
+    <kChanceOfFrustration value="0, 0.65, 0.6, 0.55, 0.5, 0.45, 0.4, 0.35, 0.3, 0.25, 0.2">
+      <!--Range: 0-1.0f; Percent chance to get frustrated for not discovering a recipe at each time step; Specified for each Spellcraft skill level 0 - 10-->
+    </kChanceOfFrustration>
+  </Current_Tuning>
+</base>

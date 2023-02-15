@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DreamTree Version="1">
+  <Category>Traits</Category>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>110653887</Id>
+    <ParentId>2951946781</ParentId>
+    <PrototypeId>2201648468</PrototypeId>
+    <Center>
+      <X>156</X>
+      <Y>99</Y>
+    </Center>
+    <DreamVisible>false</DreamVisible>
+    <Repeatable>true</Repeatable>
+    <TimeBetweenRepeats>24</TimeBetweenRepeats>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits />
+    <Relationships />
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>1130280721</Id>
+    <ParentId>3643698869</ParentId>
+    <PrototypeId>2707355146</PrototypeId>
+    <Center>
+      <X>-12</X>
+      <Y>-165</Y>
+    </Center>
+    <FulfillmentScore>50</FulfillmentScore>
+    <SkillsZeroCheck>true</SkillsZeroCheck>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills>
+      <string>Handiness</string>
+    </Skills>
+    <Traits>
+      <SelectedTrait>
+        <Trait>Angler</Trait>
+        <Required>true</Required>
+        <Excluded>false</Excluded>
+      </SelectedTrait>
+    </Traits>
+    <Relationships />
+    <InputSubject>Fishing</InputSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="TimerNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>2808992063</Id>
+    <ParentId>1130280721</ParentId>
+    <PrototypeId>245410120</PrototypeId>
+    <Center>
+      <X>-18</X>
+      <Y>-293</Y>
+    </Center>
+    <PromiseConnection>true</PromiseConnection>
+    <NumberSatisfies>1</NumberSatisfies>
+    <TimeBetweenSatisfies>24</TimeBetweenSatisfies>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>2852151302</Id>
+    <ParentId>2808992063</ParentId>
+    <PrototypeId>3657663151</PrototypeId>
+    <Center>
+      <X>-28</X>
+      <Y>-413</Y>
+    </Center>
+    <FulfillmentScore>50</FulfillmentScore>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits>
+      <SelectedTrait>
+        <Trait>Angler</Trait>
+        <Required>true</Required>
+        <Excluded>false</Excluded>
+      </SelectedTrait>
+    </Traits>
+    <Relationships />
+    <InheritSubject>true</InheritSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>2951946781</Id>
+    <ParentId>2951946781</ParentId>
+    <IsRoot>true</IsRoot>
+    <PrototypeId>4054610939</PrototypeId>
+    <Center>
+      <X>-14</X>
+      <Y>89</Y>
+    </Center>
+    <DreamVisible>false</DreamVisible>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits />
+    <Relationships />
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="TimerNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>3643698869</Id>
+    <ParentId>2951946781</ParentId>
+    <PrototypeId>245410120</PrototypeId>
+    <Center>
+      <X>-14</X>
+      <Y>-33</Y>
+    </Center>
+    <NumberSatisfies>5</NumberSatisfies>
+    <TimeBetweenSatisfies>96</TimeBetweenSatisfies>
+  </InstanceNode>
+  <InstanceNode d2p1:type="TimerNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>3650580109</Id>
+    <ParentId>110653887</ParentId>
+    <PrototypeId>245410120</PrototypeId>
+    <Center>
+      <X>306</X>
+      <Y>96</Y>
+    </Center>
+    <NextDreamSelectionProbability>8</NextDreamSelectionProbability>
+    <NumberSatisfies>1</NumberSatisfies>
+    <TimeBetweenSatisfies>2</TimeBetweenSatisfies>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>3990878291</Id>
+    <ParentId>3650580109</ParentId>
+    <PrototypeId>2334978282</PrototypeId>
+    <Center>
+      <X>429</X>
+      <Y>50</Y>
+    </Center>
+    <FulfillmentScore>40</FulfillmentScore>
+    <MaxAdvertisement>20</MaxAdvertisement>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits>
+      <SelectedTrait>
+        <Trait>Angler</Trait>
+        <Required>false</Required>
+        <Excluded>false</Excluded>
+      </SelectedTrait>
+    </Traits>
+    <Relationships />
+    <MinTraitsMatch>1</MinTraitsMatch>
+    <TraitsWeight>100</TraitsWeight>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <Name>Angler</Name>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <SpeciesAvailablilty>Human</SpeciesAvailablilty>
+  <TreeHash>1303048565</TreeHash>
+</DreamTree>

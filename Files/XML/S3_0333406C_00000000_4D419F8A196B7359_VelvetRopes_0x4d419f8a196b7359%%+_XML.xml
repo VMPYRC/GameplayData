@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBribeAmountLow value="25">
+      <!--The monetary value assocaiated with the 'Low' bribe setting.-->
+    </kBribeAmountLow>
+    <kBribeAmountMedium value="50">
+      <!--The monetary value assocaiated with the 'Medium' bribe setting.-->
+    </kBribeAmountMedium>
+    <kBribeAmountHigh value="100">
+      <!--The monetary value assocaiated with the 'High' bribe setting.-->
+    </kBribeAmountHigh>
+    <kDisgracedPenalty value="2">
+      <!--The Celebrity level penalty for being disgraced-->
+    </kDisgracedPenalty>
+    <kSneakInDistanceToBouncer value="10">
+      <!--If the bouncer is not in an interaction when a Sim tries sneaking in, if the bouncer's distance to the Sim is <= to this value the bouncer will notice them.-->
+    </kSneakInDistanceToBouncer>
+    <kAllowedRoles value="Bouncer, Bartender, Pianist, Proprietor">
+      <!--If a Sim has one of these as an active role, they will have access through the ropes.-->
+    </kAllowedRoles>
+    <kAllowedServices value="Dancer">
+      <!--If a Sim is one of these services, they will have access through the ropes.-->
+    </kAllowedServices>
+  </Current_Tuning>
+</base>

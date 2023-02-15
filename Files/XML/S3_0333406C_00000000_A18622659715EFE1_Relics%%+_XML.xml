@@ -1,0 +1,948 @@
+<?xml version="1.0"?>
+<Relics>
+<Collections>
+  <Guid></Guid>
+  <MoodEffectWhenComplete>0</MoodEffectWhenComplete>
+  <WonderousBuffDesc></WonderousBuffDesc>
+ </Collections>
+<Collections>
+  <Guid>ConopicJars</Guid>
+  <MoodEffectWhenComplete>10</MoodEffectWhenComplete>
+  <WonderousBuffDesc>CompleteCanopicJarsDesc</WonderousBuffDesc>
+ </Collections>
+<Collections>
+  <Guid>GoldFigurines</Guid>
+  <MoodEffectWhenComplete>20</MoodEffectWhenComplete>
+  <WonderousBuffDesc>CompleteGoldFigurinesDesc</WonderousBuffDesc>
+ </Collections>
+<Collections>
+  <Guid>ZodiacAnimals</Guid>
+  <MoodEffectWhenComplete>20</MoodEffectWhenComplete>
+  <WonderousBuffDesc>CompleteZodiacAnimalsDesc</WonderousBuffDesc>
+ </Collections>
+<Collections>
+  <Guid>ChineseVases</Guid>
+  <MoodEffectWhenComplete>10</MoodEffectWhenComplete>
+  <WonderousBuffDesc>CompleteChineseVasesDesc</WonderousBuffDesc>
+ </Collections>
+<Collections>
+  <Guid>DangerousCreatures</Guid>
+  <MoodEffectWhenComplete>25</MoodEffectWhenComplete>
+  <WonderousBuffDesc>CompleteDangerousCreaturesDesc</WonderousBuffDesc>
+ </Collections>
+<Collections>
+  <Guid>DropaStones</Guid>
+  <MoodEffectWhenComplete>15</MoodEffectWhenComplete>
+  <WonderousBuffDesc>CompleteDropaStonesDesc</WonderousBuffDesc>
+ </Collections>
+<Collections>
+  <Guid>EgyptianTomb</Guid>
+  <MoodEffectWhenComplete>30</MoodEffectWhenComplete>
+  <WonderousBuffDesc>CompletedEgyptianTombCollectionDesc</WonderousBuffDesc>
+ </Collections>
+<Collections>
+  <Guid>ChineseTomb</Guid>
+  <MoodEffectWhenComplete>30</MoodEffectWhenComplete>
+  <WonderousBuffDesc>CompletedChineseTombCollectionDesc</WonderousBuffDesc>
+ </Collections>
+<Collections>
+  <Guid>FrenchTomb</Guid>
+  <MoodEffectWhenComplete>30</MoodEffectWhenComplete>
+  <WonderousBuffDesc>CompletedFrenchTombCollectionDesc</WonderousBuffDesc>
+ </Collections>
+<Collectable>
+  <Name></Name>
+  <Guid></Guid>
+  <MedatorName>CollectableRelicPlaceholder</MedatorName>
+  <CollectionType></CollectionType>
+  <Culture></Culture>
+  <ValueMin>10</ValueMin>
+  <ValueMax>100</ValueMax>
+  <EnviornmentOverride></EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Canopic Jar a</Name>
+  <Guid>CanopicJarA</Guid>
+  <MedatorName>relicCanopicJarA</MedatorName>
+  <CollectionType>ConopicJars</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>400</ValueMin>
+  <ValueMax>900</ValueMax>
+  <EnviornmentOverride>8</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Canopic Jar b</Name>
+  <Guid>CanopicJarB</Guid>
+  <MedatorName>relicCanopicJarB</MedatorName>
+  <CollectionType>ConopicJars</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>400</ValueMin>
+  <ValueMax>900</ValueMax>
+  <EnviornmentOverride>8</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Canopic Jar c</Name>
+  <Guid>CanopicJarC</Guid>
+  <MedatorName>relicCanopicJarC</MedatorName>
+  <CollectionType>ConopicJars</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>400</ValueMin>
+  <ValueMax>900</ValueMax>
+  <EnviornmentOverride>8</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Canopic Jar d</Name>
+  <Guid>CanopicJarD</Guid>
+  <MedatorName>relicCanopicJarD</MedatorName>
+  <CollectionType>ConopicJars</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>400</ValueMin>
+  <ValueMax>900</ValueMax>
+  <EnviornmentOverride>8</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Canopic Jar e</Name>
+  <Guid>CanopicJarE</Guid>
+  <MedatorName>relicCanopicJarE</MedatorName>
+  <CollectionType>ConopicJars</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>400</ValueMin>
+  <ValueMax>900</ValueMax>
+  <EnviornmentOverride>8</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Cobra</Name>
+  <Guid>Cobra</Guid>
+  <MedatorName>relicCobraStatue</MedatorName>
+  <CollectionType>GoldFigurines</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>1500</ValueMin>
+  <ValueMax>2500</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Horus</Name>
+  <Guid>Horus</Guid>
+  <MedatorName>relicHorusStatue</MedatorName>
+  <CollectionType>GoldFigurines</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>1500</ValueMin>
+  <ValueMax>2500</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Sphynx</Name>
+  <Guid>Sphynx</Guid>
+  <MedatorName>relicSphinxStatue</MedatorName>
+  <CollectionType>GoldFigurines</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>1500</ValueMin>
+  <ValueMax>2500</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Seth (Dog like Creature)</Name>
+  <Guid>Seth</Guid>
+  <MedatorName>relicSethStatue</MedatorName>
+  <CollectionType>GoldFigurines</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>1500</ValueMin>
+  <ValueMax>2500</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Dragon (Plain)</Name>
+  <Guid>Dragon</Guid>
+  <MedatorName>relicZodiacDragon</MedatorName>
+  <CollectionType>ZodiacAnimals</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>1600</ValueMin>
+  <ValueMax>3000</ValueMax>
+  <EnviornmentOverride>25</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Snake</Name>
+  <Guid>Snake</Guid>
+  <MedatorName>relicZodiacSnake</MedatorName>
+  <CollectionType>ZodiacAnimals</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>1600</ValueMin>
+  <ValueMax>3000</ValueMax>
+  <EnviornmentOverride>25</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Tiger</Name>
+  <Guid>Tiger</Guid>
+  <MedatorName>relicZodiacTiger</MedatorName>
+  <CollectionType>ZodiacAnimals</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>1600</ValueMin>
+  <ValueMax>3000</ValueMax>
+  <EnviornmentOverride>25</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Textured Vase 1</Name>
+  <Guid>TexturedVase1</Guid>
+  <MedatorName>relicVase1</MedatorName>
+  <CollectionType>ChineseVases</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>350</ValueMin>
+  <ValueMax>800</ValueMax>
+  <EnviornmentOverride>7</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Textured Vase 1 recolor a</Name>
+  <Guid>TexturedVase1A</Guid>
+  <MedatorName>relicVase1A</MedatorName>
+  <CollectionType>ChineseVases</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>350</ValueMin>
+  <ValueMax>800</ValueMax>
+  <EnviornmentOverride>7</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Textured Vase 1 recolor b</Name>
+  <Guid>TexturedVase1B</Guid>
+  <MedatorName>relicVase1B</MedatorName>
+  <CollectionType>ChineseVases</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>350</ValueMin>
+  <ValueMax>800</ValueMax>
+  <EnviornmentOverride>7</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Textured Vase 1 recolor c</Name>
+  <Guid>TexturedVase1C</Guid>
+  <MedatorName>relicVase1C</MedatorName>
+  <CollectionType>ChineseVases</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>350</ValueMin>
+  <ValueMax>800</ValueMax>
+  <EnviornmentOverride>7</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Textured Vase 2</Name>
+  <Guid>TexturedVase2</Guid>
+  <MedatorName>relicVase2</MedatorName>
+  <CollectionType>ChineseVases</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>350</ValueMin>
+  <ValueMax>800</ValueMax>
+  <EnviornmentOverride>7</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Textured Vase 2 recolor a</Name>
+  <Guid>TexturedVase2A</Guid>
+  <MedatorName>relicVase2A</MedatorName>
+  <CollectionType>ChineseVases</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>350</ValueMin>
+  <ValueMax>800</ValueMax>
+  <EnviornmentOverride>7</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Textured Vase 2 recolor b</Name>
+  <Guid>TexturedVase2B</Guid>
+  <MedatorName>relicVase2B</MedatorName>
+  <CollectionType>ChineseVases</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>350</ValueMin>
+  <ValueMax>800</ValueMax>
+  <EnviornmentOverride>7</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Textured Vase 2 recolor c</Name>
+  <Guid>TexturedVase2C</Guid>
+  <MedatorName>relicVase2C</MedatorName>
+  <CollectionType>ChineseVases</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>350</ValueMin>
+  <ValueMax>800</ValueMax>
+  <EnviornmentOverride>7</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Ammit the Destroyer</Name>
+  <Guid>AmmittheDestroyer</Guid>
+  <MedatorName>relicAmmitStatue</MedatorName>
+  <CollectionType>DangerousCreatures</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>2500</ValueMin>
+  <ValueMax>4000</ValueMax>
+  <EnviornmentOverride>35</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Anubis</Name>
+  <Guid>Anubis</Guid>
+  <MedatorName>relicAnubis</MedatorName>
+  <CollectionType>DangerousCreatures</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>2500</ValueMin>
+  <ValueMax>4000</ValueMax>
+  <EnviornmentOverride>35</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Fu Dog</Name>
+  <Guid>FuDog</Guid>
+  <MedatorName>relicFudogStatue</MedatorName>
+  <CollectionType>DangerousCreatures</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>2500</ValueMin>
+  <ValueMax>4000</ValueMax>
+  <EnviornmentOverride>35</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Gargoyle</Name>
+  <Guid>Gargoyle</Guid>
+  <MedatorName>relicGargoyleStatue</MedatorName>
+  <CollectionType>DangerousCreatures</CollectionType>
+  <Culture>France</Culture>
+  <ValueMin>2500</ValueMin>
+  <ValueMax>4000</ValueMax>
+  <EnviornmentOverride>35</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Dropa Stone</Name>
+  <Guid>DropaStone</Guid>
+  <MedatorName>relicDropaStone</MedatorName>
+  <CollectionType>DropaStones</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>700</ValueMin>
+  <ValueMax>1200</ValueMax>
+  <EnviornmentOverride>12</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Dropa Stone recolor a</Name>
+  <Guid>DropaStoneA</Guid>
+  <MedatorName>relicDropaStoneA</MedatorName>
+  <CollectionType>DropaStones</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>700</ValueMin>
+  <ValueMax>1200</ValueMax>
+  <EnviornmentOverride>12</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Dropa Stone recolor b</Name>
+  <Guid>DropaStoneB</Guid>
+  <MedatorName>relicDropaStoneB</MedatorName>
+  <CollectionType>DropaStones</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>700</ValueMin>
+  <ValueMax>1200</ValueMax>
+  <EnviornmentOverride>12</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Dropa Stone recolor c</Name>
+  <Guid>DropaStoneC</Guid>
+  <MedatorName>relicDropaStoneC</MedatorName>
+  <CollectionType>DropaStones</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>700</ValueMin>
+  <ValueMax>1200</ValueMax>
+  <EnviornmentOverride>12</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Dropa Stone recolor d</Name>
+  <Guid>DropaStoneD</Guid>
+  <MedatorName>relicDropaStoneD</MedatorName>
+  <CollectionType>DropaStones</CollectionType>
+  <Culture>France</Culture>
+  <ValueMin>700</ValueMin>
+  <ValueMax>1200</ValueMax>
+  <EnviornmentOverride>12</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Dropa Stone recolor e</Name>
+  <Guid>DropaStoneE</Guid>
+  <MedatorName>relicDropaStoneE</MedatorName>
+  <CollectionType>DropaStones</CollectionType>
+  <Culture>France</Culture>
+  <ValueMin>700</ValueMin>
+  <ValueMax>1200</ValueMax>
+  <EnviornmentOverride>12</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Sigil of the Tomb of Discovery</Name>
+  <Guid>TombofDiscovery</Guid>
+  <MedatorName>uniqueRelicEgyptA</MedatorName>
+  <CollectionType>EgyptianTomb</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>100</ValueMin>
+  <ValueMax>100</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Sigil of the Tomb of the Burning Sands</Name>
+  <Guid>TomboftheBurningSands</Guid>
+  <MedatorName>uniqueRelicEgyptB</MedatorName>
+  <CollectionType>EgyptianTomb</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>200</ValueMin>
+  <ValueMax>200</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Sigil of the Tomb of the Rock</Name>
+  <Guid>TomboftheRock</Guid>
+  <MedatorName>uniqueRelicEgyptC</MedatorName>
+  <CollectionType>EgyptianTomb</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>200</ValueMin>
+  <ValueMax>200</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Sigil of the Tomb of the Desert Ocean</Name>
+  <Guid>TomboftheDesertOcean</Guid>
+  <MedatorName>uniqueRelicEgyptD</MedatorName>
+  <CollectionType>EgyptianTomb</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>700</ValueMin>
+  <ValueMax>700</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Sigil of the Criminal Headquarters</Name>
+  <Guid>CriminalHQ</Guid>
+  <MedatorName>uniqueRelicEgyptE</MedatorName>
+  <CollectionType>EgyptianTomb</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>200</ValueMin>
+  <ValueMax>200</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Sigil of the Ancient Library</Name>
+  <Guid>AncientLibrary</Guid>
+  <MedatorName>uniqueRelicEgyptF</MedatorName>
+  <CollectionType>EgyptianTomb</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>200</ValueMin>
+  <ValueMax>200</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Sigil of James Vaughan's Command Center</Name>
+  <Guid>CommandCenter</Guid>
+  <MedatorName>uniqueRelicEgyptG</MedatorName>
+  <CollectionType>EgyptianTomb</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>400</ValueMin>
+  <ValueMax>400</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Sigil of the Great Sphinx</Name>
+  <Guid>SoulpeaceChambers</Guid>
+  <MedatorName>uniqueRelicEgyptH</MedatorName>
+  <CollectionType>EgyptianTomb</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>500</ValueMin>
+  <ValueMax>500</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Sigil of Queen Hatshepsut's Quarters</Name>
+  <Guid>HatshepsutsQuarters</Guid>
+  <MedatorName>uniqueRelicEgyptI</MedatorName>
+  <CollectionType>EgyptianTomb</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>400</ValueMin>
+  <ValueMax>400</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Sigil of the Bazaar Basement</Name>
+  <Guid>BazaarTomb</Guid>
+  <MedatorName>uniqueRelicEgyptJ</MedatorName>
+  <CollectionType>EgyptianTomb</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>500</ValueMin>
+  <ValueMax>500</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Sigil of the Passage to the Underworld</Name>
+  <Guid>TempleofDeath</Guid>
+  <MedatorName>uniqueRelicEgyptK</MedatorName>
+  <CollectionType>EgyptianTomb</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>1000</ValueMin>
+  <ValueMax>1000</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Sigil of the Copper Quarry</Name>
+  <Guid>CopperQuarry</Guid>
+  <MedatorName>uniqueRelicEgyptM</MedatorName>
+  <CollectionType>EgyptianTomb</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>200</ValueMin>
+  <ValueMax>200</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Sigil of the Sanctuary of Horus</Name>
+  <Guid>SanctuaryofHorus</Guid>
+  <MedatorName>uniqueRelicEgyptO</MedatorName>
+  <CollectionType>EgyptianTomb</CollectionType>
+  <Culture>Egypt</Culture>
+  <ValueMin>900</ValueMin>
+  <ValueMax>900</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Symbol of Pangu's Haven</Name>
+  <Guid>TempleoftheAxe</Guid>
+  <MedatorName>uniqueRelicChinaA</MedatorName>
+  <CollectionType>ChineseTomb</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>800</ValueMin>
+  <ValueMax>800</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Symbol of The Annex of the Resolute Fist</Name>
+  <Guid>ResoluteFistAnnex</Guid>
+  <MedatorName>uniqueRelicChinaB</MedatorName>
+  <CollectionType>ChineseTomb</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>600</ValueMin>
+  <ValueMax>600</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Symbol of the Tomb of the First Emperor</Name>
+  <Guid>TomboftheDragonEmperor</Guid>
+  <MedatorName>uniqueRelicChinaC</MedatorName>
+  <CollectionType>ChineseTomb</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>500</ValueMin>
+  <ValueMax>500</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Symbol of the Temple of the Dragon</Name>
+  <Guid>DragonCave</Guid>
+  <MedatorName>uniqueRelicChinaD</MedatorName>
+  <CollectionType>ChineseTomb</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>1000</ValueMin>
+  <ValueMax>1000</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Symbol of the Halls of the Lost Army</Name>
+  <Guid>RicePaddyHiddenTemple</Guid>
+  <MedatorName>uniqueRelicChinaE</MedatorName>
+  <CollectionType>ChineseTomb</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>100</ValueMin>
+  <ValueMax>100</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Symbol of the Hot Springs Cave</Name>
+  <Guid>HotSpringsHiddenTemple</Guid>
+  <MedatorName>uniqueRelicChinaF</MedatorName>
+  <CollectionType>ChineseTomb</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>400</ValueMin>
+  <ValueMax>400</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Symbol of Dong Huo's Treasure Trove</Name>
+  <Guid>DongHuoTreasureTrove</Guid>
+  <MedatorName>uniqueRelicChinaG</MedatorName>
+  <CollectionType>ChineseTomb</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>400</ValueMin>
+  <ValueMax>400</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Symbol of the Market Caverns</Name>
+  <Guid>MarketCaves</Guid>
+  <MedatorName>uniqueRelicChinaH</MedatorName>
+  <CollectionType>ChineseTomb</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>400</ValueMin>
+  <ValueMax>400</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Symbol of the Resolute Fist Retreat</Name>
+  <Guid>AncientMonkRetreat</Guid>
+  <MedatorName>uniqueRelicChinaI</MedatorName>
+  <CollectionType>ChineseTomb</CollectionType>
+  <Culture>China</Culture>
+  <ValueMin>500</ValueMin>
+  <ValueMax>500</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Signet of the Nectary Cellars</Name>
+  <Guid>NectarCatacombs</Guid>
+  <MedatorName>uniqueRelicFranceA</MedatorName>
+  <CollectionType>FrenchTomb</CollectionType>
+  <Culture>France</Culture>
+  <ValueMin>200</ValueMin>
+  <ValueMax>200</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Signet of the Tomb of Isael</Name>
+  <Guid>TombofIsael</Guid>
+  <MedatorName>uniqueRelicFranceB</MedatorName>
+  <CollectionType>FrenchTomb</CollectionType>
+  <Culture>France</Culture>
+  <ValueMin>800</ValueMin>
+  <ValueMax>800</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Signet of the Tomb of Jean Necteaux</Name>
+  <Guid>TombofNecteaux</Guid>
+  <MedatorName>uniqueRelicFranceC</MedatorName>
+  <CollectionType>FrenchTomb</CollectionType>
+  <Culture>France</Culture>
+  <ValueMin>1000</ValueMin>
+  <ValueMax>1000</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Signet of the Museum Catacombs</Name>
+  <Guid>LouvreCatacombs</Guid>
+  <MedatorName>uniqueRelicFranceD</MedatorName>
+  <CollectionType>FrenchTomb</CollectionType>
+  <Culture>France</Culture>
+  <ValueMin>300</ValueMin>
+  <ValueMax>300</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Signet of Tuatha's Garden</Name>
+  <Guid>FaerieTomb</Guid>
+  <MedatorName>uniqueRelicFranceF</MedatorName>
+  <CollectionType>FrenchTomb</CollectionType>
+  <Culture>France</Culture>
+  <ValueMin>900</ValueMin>
+  <ValueMax>900</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Signet of King's Burial Ground</Name>
+  <Guid>CelticBurialSite</Guid>
+  <MedatorName>uniqueRelicFranceG</MedatorName>
+  <CollectionType>FrenchTomb</CollectionType>
+  <Culture>France</Culture>
+  <ValueMin>300</ValueMin>
+  <ValueMax>300</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Signet of the Maze of the High Ruler</Name>
+  <Guid>CelticBurialSitePangu</Guid>
+  <MedatorName>uniqueRelicFranceH</MedatorName>
+  <CollectionType>FrenchTomb</CollectionType>
+  <Culture>France</Culture>
+  <ValueMin>500</ValueMin>
+  <ValueMax>500</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Signet of Smuggler's Cavern</Name>
+  <Guid>CelticBurialSiteFloorPanel</Guid>
+  <MedatorName>uniqueRelicFranceI</MedatorName>
+  <CollectionType>FrenchTomb</CollectionType>
+  <Culture>France</Culture>
+  <ValueMin>300</ValueMin>
+  <ValueMax>300</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Collectable>
+  <Name>Signet of Le Chateau du Landgraab</Name>
+  <Guid>ChateauduLandgraab</Guid>
+  <MedatorName>uniqueRelicFranceL</MedatorName>
+  <CollectionType>FrenchTomb</CollectionType>
+  <Culture>France</Culture>
+  <ValueMin>700</ValueMin>
+  <ValueMax>700</ValueMax>
+  <EnviornmentOverride>15</EnviornmentOverride>
+ </Collectable>
+<Trash>
+  <Name></Name>
+  <MedatorName>RelicsTemplate</MedatorName>
+  <ValidCultures>Egypt, China, France</ValidCultures>
+  <Weight>1</Weight>
+  <ValueMult>1</ValueMult>
+  <Copper>False</Copper>
+  <Jade>False</Jade>
+  <Gold>False</Gold>
+  <Stone>False</Stone>
+  <RedPottery>False</RedPottery>
+  <BrownPottery>False</BrownPottery>
+  <EgyptColor1>False</EgyptColor1>
+  <EgyptColor2>False</EgyptColor2>
+  <ChinaColor1>False</ChinaColor1>
+  <ChinaColor2>False</ChinaColor2>
+  <FranceColor1>False</FranceColor1>
+  <FranceColor2>False</FranceColor2>
+ </Trash>
+<Trash>
+  <Name>Sphinx Statue Stone</Name>
+  <MedatorName>trashRelicSphinxStatueStone</MedatorName>
+  <ValidCultures>Egypt</ValidCultures>
+  <Weight>1</Weight>
+  <ValueMult>1.2</ValueMult>
+  <Copper>True</Copper>
+  <Jade>True</Jade>
+  <Gold>True</Gold>
+  <Stone>True</Stone>
+ </Trash>
+<Trash>
+  <Name>Snake Statue Stone</Name>
+  <MedatorName>trashRelicSnakeStatueStone</MedatorName>
+  <ValidCultures>Egypt, China</ValidCultures>
+  <Weight>1</Weight>
+  <ValueMult>1.2</ValueMult>
+  <Copper>True</Copper>
+  <Jade>True</Jade>
+  <Gold>True</Gold>
+  <Stone>True</Stone>
+ </Trash>
+<Trash>
+  <Name>Dragon Statue Stone</Name>
+  <MedatorName>trashRelicDragonStatueStone</MedatorName>
+  <ValidCultures>China</ValidCultures>
+  <Weight>1</Weight>
+  <ValueMult>1.2</ValueMult>
+  <Copper>True</Copper>
+  <Jade>True</Jade>
+  <Gold>True</Gold>
+  <Stone>True</Stone>
+ </Trash>
+<Trash>
+  <Name>Tiger Statue Stone</Name>
+  <MedatorName>trashRelicTigerStatueStone</MedatorName>
+  <ValidCultures>China</ValidCultures>
+  <Weight>1</Weight>
+  <ValueMult>1.2</ValueMult>
+  <Copper>True</Copper>
+  <Jade>True</Jade>
+  <Gold>True</Gold>
+  <Stone>True</Stone>
+ </Trash>
+<Trash>
+  <Name>Trash Vase 1</Name>
+  <MedatorName>trashRelicVase1</MedatorName>
+  <Weight>8</Weight>
+  <ValueMult>1</ValueMult>
+  <Copper>True</Copper>
+  <Gold>True</Gold>
+  <Stone>True</Stone>
+  <RedPottery>True</RedPottery>
+  <BrownPottery>True</BrownPottery>
+  <EgyptColor1>True</EgyptColor1>
+  <EgyptColor2>True</EgyptColor2>
+  <ChinaColor1>True</ChinaColor1>
+  <ChinaColor2>True</ChinaColor2>
+  <FranceColor1>True</FranceColor1>
+  <FranceColor2>True</FranceColor2>
+ </Trash>
+<Trash>
+  <Name>Trash Vase 2</Name>
+  <MedatorName>trashRelicVase2</MedatorName>
+  <Weight>8</Weight>
+  <ValueMult>1</ValueMult>
+  <Copper>True</Copper>
+  <Gold>True</Gold>
+  <Stone>True</Stone>
+  <RedPottery>True</RedPottery>
+  <BrownPottery>True</BrownPottery>
+  <EgyptColor1>True</EgyptColor1>
+  <EgyptColor2>True</EgyptColor2>
+  <ChinaColor1>True</ChinaColor1>
+  <ChinaColor2>True</ChinaColor2>
+  <FranceColor1>True</FranceColor1>
+  <FranceColor2>True</FranceColor2>
+ </Trash>
+<Trash>
+  <Name>Bowl Trash 1</Name>
+  <MedatorName>trashRelicBowl1</MedatorName>
+  <Weight>8</Weight>
+  <ValueMult>1</ValueMult>
+  <Copper>True</Copper>
+  <Gold>True</Gold>
+  <Stone>True</Stone>
+  <RedPottery>True</RedPottery>
+  <BrownPottery>True</BrownPottery>
+  <EgyptColor1>True</EgyptColor1>
+  <EgyptColor2>True</EgyptColor2>
+  <ChinaColor1>True</ChinaColor1>
+  <ChinaColor2>True</ChinaColor2>
+  <FranceColor1>True</FranceColor1>
+  <FranceColor2>True</FranceColor2>
+ </Trash>
+<Trash>
+  <Name>Broken Vase 1</Name>
+  <MedatorName>trashRelicBrokenVase1</MedatorName>
+  <Weight>8</Weight>
+  <ValueMult>0.4</ValueMult>
+  <Copper>True</Copper>
+  <Gold>True</Gold>
+  <Stone>True</Stone>
+  <RedPottery>True</RedPottery>
+  <BrownPottery>True</BrownPottery>
+  <EgyptColor1>True</EgyptColor1>
+  <EgyptColor2>True</EgyptColor2>
+  <ChinaColor1>True</ChinaColor1>
+  <ChinaColor2>True</ChinaColor2>
+  <FranceColor1>True</FranceColor1>
+  <FranceColor2>True</FranceColor2>
+ </Trash>
+<Trash>
+  <Name>Broken Bowl 1</Name>
+  <MedatorName>trashRelicBrokenBowl1</MedatorName>
+  <Weight>8</Weight>
+  <ValueMult>0.4</ValueMult>
+  <Copper>True</Copper>
+  <Gold>True</Gold>
+  <Stone>True</Stone>
+  <RedPottery>True</RedPottery>
+  <BrownPottery>True</BrownPottery>
+  <EgyptColor1>True</EgyptColor1>
+  <EgyptColor2>True</EgyptColor2>
+  <ChinaColor1>True</ChinaColor1>
+  <ChinaColor2>True</ChinaColor2>
+  <FranceColor1>True</FranceColor1>
+  <FranceColor2>True</FranceColor2>
+ </Trash>
+<Trash>
+  <Name>Trashy Canopic Jar</Name>
+  <MedatorName>trashRelicCanopicJar</MedatorName>
+  <ValidCultures>Egypt</ValidCultures>
+  <Weight>8</Weight>
+  <ValueMult>1</ValueMult>
+  <Stone>True</Stone>
+  <RedPottery>True</RedPottery>
+  <BrownPottery>True</BrownPottery>
+  <EgyptColor1>True</EgyptColor1>
+  <EgyptColor2>True</EgyptColor2>
+ </Trash>
+<Trash>
+  <Name>Stone Apple</Name>
+  <MedatorName>trashRelicStoneApple</MedatorName>
+  <Weight>1</Weight>
+  <ValueMult>0.2</ValueMult>
+  <Stone>True</Stone>
+ </Trash>
+<Trash>
+  <Name>Stone Grapes</Name>
+  <MedatorName>trashRelicStoneGrapes</MedatorName>
+  <Weight>1</Weight>
+  <ValueMult>0.2</ValueMult>
+  <Stone>True</Stone>
+ </Trash>
+<Trash>
+  <Name>Stone Lettuce</Name>
+  <MedatorName>trashRelicStoneLettuce</MedatorName>
+  <Weight>1</Weight>
+  <ValueMult>0.2</ValueMult>
+  <Stone>True</Stone>
+ </Trash>
+<Trash>
+  <Name>Stone Lime</Name>
+  <MedatorName>trashRelicStoneLime</MedatorName>
+  <Weight>1</Weight>
+  <ValueMult>0.2</ValueMult>
+  <Stone>True</Stone>
+ </Trash>
+<Trash>
+  <Name>Stone Tomato</Name>
+  <MedatorName>trashRelicStoneTomato</MedatorName>
+  <Weight>1</Weight>
+  <ValueMult>0.2</ValueMult>
+  <Stone>True</Stone>
+ </Trash>
+<Trash>
+  <Name>Stone Watermelon</Name>
+  <MedatorName>trashRelicStoneWatermelon</MedatorName>
+  <Weight>1</Weight>
+  <ValueMult>0.2</ValueMult>
+  <Stone>True</Stone>
+ </Trash>
+<TrashTextures>
+  <Enum></Enum>
+  <MaterialState>Stone</MaterialState>
+  <ValueMult>1</ValueMult>
+  <ValidCultures>Egypt, China, France</ValidCultures>
+ </TrashTextures>
+<TrashTextures>
+  <Enum>Copper</Enum>
+  <MaterialState>Copper</MaterialState>
+  <ValueMult>0.75</ValueMult>
+ </TrashTextures>
+<TrashTextures>
+  <Enum>Jade</Enum>
+  <MaterialState>Jade</MaterialState>
+  <ValueMult>1.5</ValueMult>
+  <ValidCultures>China</ValidCultures>
+ </TrashTextures>
+<TrashTextures>
+  <Enum>Gold</Enum>
+  <MaterialState>Gold</MaterialState>
+  <ValueMult>1.5</ValueMult>
+ </TrashTextures>
+<TrashTextures>
+  <Enum>Stone</Enum>
+  <MaterialState>Stone</MaterialState>
+  <ValueMult>0.5</ValueMult>
+ </TrashTextures>
+<TrashTextures>
+  <Enum>RedPottery</Enum>
+  <MaterialState>RedPottery</MaterialState>
+  <ValueMult>1</ValueMult>
+ </TrashTextures>
+<TrashTextures>
+  <Enum>BrownPottery</Enum>
+  <MaterialState>BrownPottery</MaterialState>
+  <ValueMult>1</ValueMult>
+ </TrashTextures>
+<TrashTextures>
+  <Enum>Egypt1</Enum>
+  <MaterialState>EgyptColor1</MaterialState>
+  <ValueMult>1.25</ValueMult>
+  <ValidCultures>Egypt</ValidCultures>
+ </TrashTextures>
+<TrashTextures>
+  <Enum>Egypt2</Enum>
+  <MaterialState>EgyptColor2</MaterialState>
+  <ValueMult>1.15</ValueMult>
+  <ValidCultures>Egypt</ValidCultures>
+ </TrashTextures>
+<TrashTextures>
+  <Enum>China1</Enum>
+  <MaterialState>ChinaColor1</MaterialState>
+  <ValueMult>1.25</ValueMult>
+  <ValidCultures>China</ValidCultures>
+ </TrashTextures>
+<TrashTextures>
+  <Enum>China2</Enum>
+  <MaterialState>ChinaColor2</MaterialState>
+  <ValueMult>1.15</ValueMult>
+  <ValidCultures>China</ValidCultures>
+ </TrashTextures>
+<TrashTextures>
+  <Enum>France1</Enum>
+  <MaterialState>FranceColor1</MaterialState>
+  <ValueMult>1.25</ValueMult>
+  <ValidCultures>France</ValidCultures>
+ </TrashTextures>
+<TrashTextures>
+  <Enum>France2</Enum>
+  <MaterialState>FranceColor2</MaterialState>
+  <ValueMult>1.15</ValueMult>
+  <ValidCultures>France</ValidCultures>
+ </TrashTextures>
+</Relics>

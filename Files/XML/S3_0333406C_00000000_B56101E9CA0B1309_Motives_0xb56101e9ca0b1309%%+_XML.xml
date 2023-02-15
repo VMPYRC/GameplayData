@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kStressExitBladder value="-80">
+      <!--Bladder motive exit condition for stress exit interactions.-->
+    </kStressExitBladder>
+    <kStressExitEnergy value="-81">
+      <!--Energy motive exit condition for stress exit interactions.-->
+    </kStressExitEnergy>
+    <kStressExitFun value="-51">
+      <!--Fun motive exit condition for stress exit interactions.-->
+    </kStressExitFun>
+    <kStressExitHunger value="-62">
+      <!--Hunger motive exit condition for stress exit interactions.-->
+    </kStressExitHunger>
+    <kStressExitSocial value="-99">
+      <!--Social motive exit condition for stress exit interactions.-->
+    </kStressExitSocial>
+    <kFunExitBladder value="-91">
+      <!--Bladder motive exit condition for fun exit with fun not maxed interactions.-->
+    </kFunExitBladder>
+    <kFunExitEnergy value="-90">
+      <!--Energy motive exit condition for fun exit with fun not maxed interactions.-->
+    </kFunExitEnergy>
+    <kFunExitHunger value="-81">
+      <!--Hunger motive exit condition for fun exit with fun not maxed interactions.-->
+    </kFunExitHunger>
+    <kFunExitSocial value="-101">
+      <!--Social motive exit condition for fun exit with fun not maxed interactions.-->
+    </kFunExitSocial>
+    <kFunExitMaxedBladder value="-61">
+      <!--Bladder motive exit condition for fun exit with fun maxed interactions.-->
+    </kFunExitMaxedBladder>
+    <kFunExitMaxedEnergy value="-62">
+      <!--Energy motive exit condition for fun exit with fun maxed interactions.-->
+    </kFunExitMaxedEnergy>
+    <kFunExitMaxedHunger value="-37">
+      <!--Hunger motive exit condition for fun exit with fun maxed interactions.-->
+    </kFunExitMaxedHunger>
+    <kFunExitMaxedSocial value="0">
+      <!--Social motive exit condition for fun exit with fun maxed interactions.-->
+    </kFunExitMaxedSocial>
+    <kEnergyHoursInDay value="23.5">
+      <!--Range:  Sim hours.  Description:  Number of Sim hours to subtract from when setting sleep cycles.  Setting this to 23 means that the Sims are on a 23-hour cycle.-->
+    </kEnergyHoursInDay>
+    <kAutonomousFunExitBladder value="-61">
+      <!--Bladder motive exit condition for autonomous fun exit with fun not maxed interactions.-->
+    </kAutonomousFunExitBladder>
+    <kAutonomousFunExitEnergy value="-82">
+      <!--Energy motive exit condition for autonomous fun exit with fun not maxed interactions.-->
+    </kAutonomousFunExitEnergy>
+    <kAutonomousFunExitHunger value="-62">
+      <!--Hunger motive exit condition for autonomous fun exit with fun not maxed interactions.-->
+    </kAutonomousFunExitHunger>
+    <kAutonomousFunExitSocial value="-101">
+      <!--Social motive exit condition for autonomous fun exit with fun not maxed interactions.-->
+    </kAutonomousFunExitSocial>
+    <kStressExitTraitResistantBladder value="-101">
+      <!--Bladder motive exit condition for stress exit on interactions that a trait prevents exiting (Neat sim and clean interactions).-->
+    </kStressExitTraitResistantBladder>
+    <kStressExitTraitResistantEnergy value="-90">
+      <!--Energy motive exit condition for stress exit on interactions that a trait prevents exiting (Neat sim and clean interactions).-->
+    </kStressExitTraitResistantEnergy>
+    <kStressExitTraitResistantFun value="-101">
+      <!--Fun motive exit condition for stress exit on interactions that a trait prevents exiting (Neat sim and clean interactions).-->
+    </kStressExitTraitResistantFun>
+    <kStressExitTraitResistantHunger value="-82">
+      <!--Hunger motive exit condition for stress exit on interactions that a trait prevents exiting (Neat sim and clean interactions).-->
+    </kStressExitTraitResistantHunger>
+    <kStressExitTraitResistantSocial value="-101">
+      <!--Social motive exit condition for stress exit on interactions that a trait prevents exiting (Neat sim and clean interactions).-->
+    </kStressExitTraitResistantSocial>
+    <kToddlerCauseExitHygiene value="-60">
+      <!--Hygiene motive exit condition for toddlers to force being taken care of.-->
+    </kToddlerCauseExitHygiene>
+    <kToddlerCauseExitEnergy value="-101">
+      <!--Energy motive exit condition for toddlers to force being taken care of.-->
+    </kToddlerCauseExitEnergy>
+    <kToddlerCauseExitHunger value="-35">
+      <!--Hunger motive exit condition for toddlers to force being taken care of.-->
+    </kToddlerCauseExitHunger>
+    <kToddlerCauseExitSocial value="-60">
+      <!--Social motive exit condition for toddlers to force being taken care of.-->
+    </kToddlerCauseExitSocial>
+    <kPetFunExitBladder value="-91">
+      <!--[PETS] Bladder motive exit condition for fun exit with fun not maxed interactions.-->
+    </kPetFunExitBladder>
+    <kPetFunExitEnergy value="-90">
+      <!--[PETS] Energy motive exit condition for fun exit with fun not maxed interactions.-->
+    </kPetFunExitEnergy>
+    <kPetFunExitHunger value="-37">
+      <!--[PETS] Hunger motive exit condition for fun exit with fun not maxed interactions.-->
+    </kPetFunExitHunger>
+    <kPetFunExitSocial value="-60">
+      <!--[PETS] Social motive exit condition for fun exit with fun not maxed interactions.-->
+    </kPetFunExitSocial>
+    <kAutonomousPetFunExitBladder value="-61">
+      <!--[PETS] Bladder motive exit condition for autonomous fun exit with fun not maxed interactions.-->
+    </kAutonomousPetFunExitBladder>
+    <kAutonomousPetFunExitEnergy value="-82">
+      <!--[PETS] Energy motive exit condition for autonomous fun exit with fun not maxed interactions.-->
+    </kAutonomousPetFunExitEnergy>
+    <kAutonomousPetFunExitHunger value="-37">
+      <!--[PETS] Hunger motive exit condition for autonomous fun exit with fun not maxed interactions.-->
+    </kAutonomousPetFunExitHunger>
+    <kAutonomousPetFunExitSocial value="-30">
+      <!--[PETS] Social motive exit condition for autonomous fun exit with fun not maxed interactions.-->
+    </kAutonomousPetFunExitSocial>
+    <kStressExitHorseThirst value="-62">
+      <!--Horse Thirst motive exit condition for stress exit interactions.-->
+    </kStressExitHorseThirst>
+    <kPetFunExitHorseThirst value="-72">
+      <!--[PETS] Horse Thirst motive exit condition for fun exit with fun not maxed interactions.-->
+    </kPetFunExitHorseThirst>
+    <kAutonomousPetFunExitHorseThirst value="-62">
+      <!--[PETS] Horse Thirst motive exit condition for autonomous fun exit with fun not maxed interactions.-->
+    </kAutonomousPetFunExitHorseThirst>
+    <kFunExitMaxedHorseThirst value="-62">
+      <!--HorseThirst motive exit condition for fun exit with fun maxed interactions.-->
+    </kFunExitMaxedHorseThirst>
+    <kStressExitAlienBrainPower value="-81">
+      <!--Alien Brain Power motive exit condition for stress exit interactions.-->
+    </kStressExitAlienBrainPower>
+    <kStressExitTraitResistantAlienBrainPower value="-90">
+      <!--Alien Brain Power motive exit condition for stress exit on interactions that a trait prevents exiting (Neat sim and clean interactions).-->
+    </kStressExitTraitResistantAlienBrainPower>
+    <kFunExitAlienBrainPower value="-90">
+      <!--Alien Brain Power motive exit condition for fun exit with fun not maxed interactions.-->
+    </kFunExitAlienBrainPower>
+    <kAutonomousFunExitAlienBrainPower value="-82">
+      <!--Alien Brain Power motive exit condition for autonomous fun exit with fun not maxed interactions.-->
+    </kAutonomousFunExitAlienBrainPower>
+    <kFunExitMaxedAlienBrainPower value="-62">
+      <!--Alien Brain Power motive exit condition for fun exit with fun maxed interactions.-->
+    </kFunExitMaxedAlienBrainPower>
+    <kToddlerCauseExitAlienBrainPower value="-101">
+      <!--Alien Brain Power motive exit condition for toddlers to force being taken care of.-->
+    </kToddlerCauseExitAlienBrainPower>
+    <kStressExitSimTemperatureCold value="-85">
+      <!--Sim Temperature exit condition for stress exit interactions if sim is too cold.-->
+    </kStressExitSimTemperatureCold>
+    <kStressExitSimTemperatureHot value="85">
+      <!--Sim Temperature exit condition for stress exit interactions if sim is too hot.-->
+    </kStressExitSimTemperatureHot>
+    <kStressExitTraitResistantSimTemperatureCold value="-90">
+      <!--Sim Temperature exit condition for stress exit when too cold on interactions that a trait prevents exiting (Neat sim and clean interactions).-->
+    </kStressExitTraitResistantSimTemperatureCold>
+    <kStressExitTraitResistantSimTemperatureHot value="90">
+      <!--Sim Temperature exit condition for stress exit when too hot on interactions that a trait prevents exiting (Neat sim and clean interactions).-->
+    </kStressExitTraitResistantSimTemperatureHot>
+    <kFunExitSimTemperatureCold value="-90">
+      <!--Sim Temperature motive exit condition for fun exit when too cold with fun not maxed interactions.-->
+    </kFunExitSimTemperatureCold>
+    <kFunExitSimTemperatureHot value="90">
+      <!--Sim Temperature motive exit condition for fun exit when too hot with fun not maxed interactions.-->
+    </kFunExitSimTemperatureHot>
+    <kAutonomousFunExitSimTemperatureCold value="-90">
+      <!--Sim Temperature motive exit condition for autonomous fun exit when too cold with fun not maxed interactions.-->
+    </kAutonomousFunExitSimTemperatureCold>
+    <kAutonomousFunExitSimTemperatureHot value="90">
+      <!--Sim Temperature motive exit condition for autonomous fun exit when too hot with fun not maxed interactions.-->
+    </kAutonomousFunExitSimTemperatureHot>
+    <kFunExitMaxedSimTemperatureCold value="-80">
+      <!--Sim Temperature exit condition for fun exit when too cold with fun maxed interactions.-->
+    </kFunExitMaxedSimTemperatureCold>
+    <kFunExitMaxedSimTemperatureHot value="80">
+      <!--Sim Temperature exit condition for fun exit when too hot with fun maxed interactions.-->
+    </kFunExitMaxedSimTemperatureHot>
+    <kStressExitBatteryPower value="-80">
+      <!--Battery Power motive exit condition for stress exit interactions.-->
+    </kStressExitBatteryPower>
+    <kStressExitMaintenence value="-70">
+      <!--Maintenence motive exit condition for stress exit interactions.-->
+    </kStressExitMaintenence>
+    <kStressExitTraitResistantBatteryPower value="-90">
+      <!--Battery Power motive exit condition for stress exit on interactions that a trait prevents exiting (Neat sim and clean interactions).-->
+    </kStressExitTraitResistantBatteryPower>
+    <kStressExitTraitResistantMaintenence value="-90">
+      <!--Maintenence motive exit condition for stress exit on interactions that a trait prevents exiting (Neat sim and clean interactions).-->
+    </kStressExitTraitResistantMaintenence>
+    <kFunExitBatteryPower value="-90">
+      <!--Battery Power motive exit condition for fun exit with fun not maxed interactions.-->
+    </kFunExitBatteryPower>
+    <kFunExitMaintenence value="-80">
+      <!--Maintenence motive exit condition for fun exit with fun not maxed interactions.-->
+    </kFunExitMaintenence>
+    <kAutonomousFunExitBatteryPower value="-82">
+      <!--Battery Power motive exit condition for autonomous fun exit with fun not maxed interactions.-->
+    </kAutonomousFunExitBatteryPower>
+    <kAutonomousFunExitMaintenence value="-70">
+      <!--Maintenence motive exit condition for autonomous fun exit with fun not maxed interactions.-->
+    </kAutonomousFunExitMaintenence>
+    <kFunExitMaxedBatteryPower value="-80">
+      <!--Battery Power motive exit condition for fun exit with fun maxed interactions.-->
+    </kFunExitMaxedBatteryPower>
+    <kFunExitMaxedMaintenence value="-70">
+      <!--Maintenence motive exit condition for fun exit with fun maxed interactions.-->
+    </kFunExitMaxedMaintenence>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

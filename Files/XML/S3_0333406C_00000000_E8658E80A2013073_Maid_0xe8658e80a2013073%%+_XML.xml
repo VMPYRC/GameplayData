@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDelayBeforeArriving value="0.25">
+      <!--Length of time (in hours) that maid waits before routing to lot-->
+    </kDelayBeforeArriving>
+    <kDelayBeforeLeaving value=".1">
+      <!--Length of time (in hours) that maid waits before leaving the lot, after his work is done-->
+    </kDelayBeforeLeaving>
+    <kCheckTime value="2">
+      <!--Length of time (in minutes) between checks that everything is cleaned-->
+    </kCheckTime>
+    <kExtraWaitTimeAfterSocializing value="0.5">
+      <!--Extra time (in hours) to wait before leaving if the service NPC is socialized with-->
+    </kExtraWaitTimeAfterSocializing>
+    <kMinCleaningTime value="2">
+      <!--Range: Hours. Min number of hours that maid will stay at the house-->
+    </kMinCleaningTime>
+    <kMaxCleaningTime value="7">
+      <!--Range: Hours. Max number of hours that maid will stay at the house-->
+    </kMaxCleaningTime>
+    <kEarliestTimeSimCanArrive value="10">
+      <!--The earliest time (in hours) the maid can arrive -->
+    </kEarliestTimeSimCanArrive>
+    <kLatestTimeSimCanArrive value="21">
+      <!--The latest time (in hours) that the maid can arrive-->
+    </kLatestTimeSimCanArrive>
+    <kDirtyObjectsForSecondMaid value="15">
+      <!--Range:  Dirty objects.  Description:  Number of dirty objects on a lot to warrant a second maid coming to help out.-->
+    </kDirtyObjectsForSecondMaid>
+    <kServiceTuning>
+      <kMaxNumNPCsInPool value="2">
+        <!--Max num NPCs at once in service-->
+      </kMaxNumNPCsInPool>
+      <kCost value="125">
+        <!--Cost of service-->
+      </kCost>
+      <kIsEmergencyService value="False">
+        <!--If true this service charges kCost only if falsely called, otherwise free.-->
+      </kIsEmergencyService>
+      <kIsRecurrent value="True">
+        <!--Whether the service is recurrent (true) or one-off (false).  Recurrent services are the only type which can be cancelled through the phone dialog.-->
+      </kIsRecurrent>
+      <kAlwaysTryToSendSameSim value="True">
+        <!--Whether or not the service always tries to send the same NPC to a specific household-->
+      </kAlwaysTryToSendSameSim>
+    </kServiceTuning>
+    <kChanceToBeInappropriate value=".15">
+      <!--% chance that a Maid will be spawned with the Inappropriate trait.-->
+    </kChanceToBeInappropriate>
+    <kMaximimTimeToSpendBeingInappropriate value="30">
+      <!--Maximum number of minutes the Maid will spend being inappropriate at a time.-->
+    </kMaximimTimeToSpendBeingInappropriate>
+    <kInappropriateCooldownTime value="60">
+      <!--Minimum number of minutes between inappropriate actions.-->
+    </kInappropriateCooldownTime>
+    <kCheckTimeChanceToBeInappropriate value="1">
+      <!--% chance that an inappropriate maid will choose to do something inappropriate each time the check time (kCheckTime) elapses if it has been long enough since the last inappropriate action (kInappropriateCooldownTime) and they aren't actively cleaning something.  It is safe to leave this at 1, but can be tuned down if necessary.-->
+    </kCheckTimeChanceToBeInappropriate>
+    <kMaxCleaningTimeInappropriate value="6">
+      <!--Range: Hours. Max number of hours that an inappropriate maid will stay at the house-->
+    </kMaxCleaningTimeInappropriate>
+    <kChecksWithNothingLeft value="1">
+      <!--Number of failed Checks before bailing on Cleaning.-->
+    </kChecksWithNothingLeft>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+  </Deprecated_Tuning>
+</base>

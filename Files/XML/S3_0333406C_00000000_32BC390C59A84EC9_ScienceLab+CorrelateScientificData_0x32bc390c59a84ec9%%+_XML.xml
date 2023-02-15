@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCorrelationTimePerLevel value="60, 57, 54, 51, 48, 45, 42, 39, 36, 33, 30">
+      <!--Range: floats  Description: Timespan of correlation interaction for each Science Skill Level. (In Sim Minutes)-->
+    </kCorrelationTimePerLevel>
+    <kCorrelationCooldownPerLevel value="0, 0, 0, 0, 0, 48, 40, 32, 24, 16, 12">
+      <!--Range: floats  Description: Length of cooldown after a correlation when interaction will be available again. (Per skill level and in Sim Hours)-->
+    </kCorrelationCooldownPerLevel>
+    <kExperiencedExperimentalistCooldownScaler value="0.5">
+      <!--Range: float  Description: Cooldown time modifier when Experienced Experimentalist challenge is completed.-->
+    </kExperiencedExperimentalistCooldownScaler>
+    <kPoorNumberToCorrelate value="8">
+      <!--Sample number less than which is considered poor contribution.-->
+    </kPoorNumberToCorrelate>
+    <kAverageNumberToCorrelate value="24">
+      <!--Sample number less than which is considered averate contribution.-->
+    </kAverageNumberToCorrelate>
+    <kPoorSimoleanReward value="10">
+      <!--Simolean rewared for poor contribution.-->
+    </kPoorSimoleanReward>
+    <kAverageSimoleanReward value="100">
+      <!--Simolean rewared for averate contribution.-->
+    </kAverageSimoleanReward>
+    <kGoodSimoleanReward value="300">
+      <!--Simolean rewared for good contribution.-->
+    </kGoodSimoleanReward>
+    <kCorrelationProjectNames value="FamilialResemblance, FishMigration, EdibleVegetables, WhatAnnoysBugs, HerbAddiction, TheFlavorsofRocksandDirt, SleepDeprivationStudies, PartyBehaviorPatterns, TheAestheticBeautyofUglyMesses, TheGrowthofPlantSims, ParanormalPranks, GnomeGenomes, LorenzosLlamas, TheEffectofWooHooonBrains">
+      <!--Random string names for the correlate project name-->
+    </kCorrelationProjectNames>
+    <kPoorSimoleanRewardMax value="50">
+      <!--Max Simolean rewared for poor contribution.-->
+    </kPoorSimoleanRewardMax>
+    <kAverageSimoleanRewardMax value="200">
+      <!--Max Simolean rewared for averate contribution.-->
+    </kAverageSimoleanRewardMax>
+    <kGoodSimoleanRewardMax value="500">
+      <!--Max Simolean rewared for good contribution.-->
+    </kGoodSimoleanRewardMax>
+    <kGoodResultMultiplier value="1.5">
+      <!--Multiplier to randomized outcome based on good sample volume. float-->
+    </kGoodResultMultiplier>
+    <kAverageResultMultiplier value="1">
+      <!--Multiplier to randomized outcome based on good sample volume. float-->
+    </kAverageResultMultiplier>
+    <kPoorResultMultiplier value="0.5">
+      <!--Multiplier to randomized outcome based on good sample volume. float-->
+    </kPoorResultMultiplier>
+    <kPoorResultMax value="50">
+      <!--Threshold under which the end result is poor(post multiplier). float-->
+    </kPoorResultMax>
+    <kAverageResultMax value="250">
+      <!--Threshold under which the end result is average(post multiplier). float-->
+    </kAverageResultMax>
+  </Current_Tuning>
+</base>

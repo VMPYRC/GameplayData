@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLookAtPriorityForViewInteraction value="30">
+      <!--Range: 0 to 100. Description: How important to when performing the View interaction on fountains, paintings, sculptures etc.-->
+    </kLookAtPriorityForViewInteraction>
+    <kMinDistanceFromFountainClickToView value="4">
+      <!--Description: Min distance from click on fountain to view-->
+    </kMinDistanceFromFountainClickToView>
+    <kMaxDistanceFromFountainClickToView value="20">
+      <!--Description: Max distance from click on fountain to view-->
+    </kMaxDistanceFromFountainClickToView>
+    <kMinViewingTime value="5">
+      <!--Range: Sim Minutes.  The minimum time a Sim will stop to look at a viewable-->
+    </kMinViewingTime>
+    <kMaxViewingTime value="25">
+      <!--Range: Sim Minutes.  The maximum time a Sim will stop to look at a viewable-->
+    </kMaxViewingTime>
+  </Current_Tuning>
+</base>

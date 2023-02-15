@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kParentalLikingMinimumThreshold value="15">
+      <!--Floats in the range -100 to 100.  Liking threshold for two parents to be OK with a play date between their children.-->
+    </kParentalLikingMinimumThreshold>
+    <kChildLikingMinimumThreshold value="15">
+      <!--Floats in the range -100 to 100.  Liking threshold for two children to be OK with a play date with one another.-->
+    </kChildLikingMinimumThreshold>
+    <kAcceptablePlayDateHours value="12, 17">
+      <!--Floats in the range 0 to 24.  The earliest and latest time that a play date may be initiated.-->
+    </kAcceptablePlayDateHours>
+    <kChanceOfPlayDate value="0.25">
+      <!--Float in the range 0 to 1.  The chance that a play date will occur on each possible day. (Saturday and Sunday)-->
+    </kChanceOfPlayDate>
+  </Current_Tuning>
+</base>

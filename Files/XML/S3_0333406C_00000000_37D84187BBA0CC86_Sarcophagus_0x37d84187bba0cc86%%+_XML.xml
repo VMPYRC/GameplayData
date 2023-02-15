@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLookInsideMinMinutes value="5">
+      <!--The minimum number of Sim minutes a Sim will look inside the sarcophagus.-->
+    </kLookInsideMinMinutes>
+    <kLookInsideMaxMinutes value="5">
+      <!--The max number of Sim minutes a Sim will look inside the sarcophagus.-->
+    </kLookInsideMaxMinutes>
+    <kLookInsideMummyChance value="15">
+      <!--If the sarcophagus' mummy chance is set to 'Tunable', this is the chance a mummy will be present.-->
+    </kLookInsideMummyChance>
+    <kLookInsideFailureChance value="15">
+      <!--The chance a Sim will 'fail' at looking inside.-->
+    </kLookInsideFailureChance>
+    <kRestEnergyRequirement value="-25">
+      <!--A Sim's energy must be <= to this value to be able to 'Rest' in the sarcophagus.-->
+    </kRestEnergyRequirement>
+    <kViewTuning>
+      <MinDistanceToView value="1">
+        <!--Minimum Distance at which the Sim will watch the painting. Positive float.-->
+      </MinDistanceToView>
+      <MaxDistanceToView value="3">
+        <!--Maximum Distance at which the Sim will watch the painting. Positive float.-->
+      </MaxDistanceToView>
+    </kViewTuning>
+    <kSleepEnergyMotiveDelta value="25">
+      <!--The motive delta for energy while a Sim is sleeping.-->
+    </kSleepEnergyMotiveDelta>
+    <kTombMummyWanderReactionParams>
+      <PulseRadius value="50">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <PulseRepeatTime value="20">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kTombMummyWanderReactionParams>
+    <kTombMummyAthleticSkillMin value="5">
+      <!--The minimum athletic skill for a tomb mummy.-->
+    </kTombMummyAthleticSkillMin>
+    <kTombMummyAthleticSkillMax value="10">
+      <!--The max athletic skill for a tomb mummy.-->
+    </kTombMummyAthleticSkillMax>
+    <kTombMummyMartialArtsMin value="5">
+      <!--The minimum martial arts skill for a tomb mummy.-->
+    </kTombMummyMartialArtsMin>
+    <kTombMummyMartialArtsMax value="10">
+      <!--The max martial arts skill for a tomb mummy.-->
+    </kTombMummyMartialArtsMax>
+    <kTombMummyFollowParams>
+      <PulseRadius value="3">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <PulseRepeatTime value="20">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kTombMummyFollowParams>
+    <kFearBuffMoodValueSeenMummy value="-25">
+      <!--Range: Negative integer. Strength of the fear buff after seeing a mummy inside the sarcophagus.-->
+    </kFearBuffMoodValueSeenMummy>
+    <kFearBuffThresholdLookInside value="-40">
+      <!--Range: Negative integer. If a Sim has a fear buff with a greater strength than this value, they will not look inside a sarcophagus.-->
+    </kFearBuffThresholdLookInside>
+    <kLookInsideAdditionalMinutesTreasure value="5">
+      <!--The number of minutes added to the look inside time if the Sim finds treasure.  This time allows the treasure fx to play.-->
+    </kLookInsideAdditionalMinutesTreasure>
+    <kMummySleepFXDuration value="25">
+      <!--The number of Sim minutes the 'zzz' FX will play on the sarcophagus after the mummy returns from eating mummy snacks.-->
+    </kMummySleepFXDuration>
+    <kBabyMadeChance value="75">
+      <!--Range: 0-100. Chance of Sim getting Pregnant on TryForBaby.-->
+    </kBabyMadeChance>
+    <kWooHooLTRAcceptRegardlessofMood value="80">
+      <!--Assuming the two Sims can be romantic, if the LTR is >= than this value this, the Sim will be in the Sim Picker for WooHoo.-->
+    </kWooHooLTRAcceptRegardlessofMood>
+    <kWooHooLTRAcceptIfInGoodMood value="60">
+      <!--Assuming the two Sims can be romantic, if the LTR is >= than this value this, the Sim will be in the Sim Picker for WooHoo if their mood is >= kWooHooMinMood.-->
+    </kWooHooLTRAcceptIfInGoodMood>
+    <kWooHooMinMood value="40">
+      <!--This is the mood requirement for kWooHooLTRAcceptIfInGoodMood.-->
+    </kWooHooMinMood>
+  </Current_Tuning>
+</base>

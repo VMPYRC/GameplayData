@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kReportToneThresholdBad value="0">
+      <!--Metric Tuning: Final Report: If the Sim scores below this number of metric poiints, the review will be Negative.-->
+    </kReportToneThresholdBad>
+    <kReportToneThresholdGreat value="1000">
+      <!--Metric Tuning: Final Report: If the Sim scores above this number of metric poiints, the review will be Great.-->
+    </kReportToneThresholdGreat>
+    <kReportThresholdToGetBonus value="100, 400, 600, 700, 1000, 1700">
+      <!--Metric Tuning: Final Report: If the Sim scores above this number of metric poiints, the Bonus will be awarded.-->
+    </kReportThresholdToGetBonus>
+    <kReportBonusAmount value="50, 100, 250, 500, 1000, 5000">
+      <!--Metric Tuning: Final Report: number of Simoleons to award if the player earns a Bonus.-->
+    </kReportBonusAmount>
+    <kMetricExistingObjectMultiplier value="0.1">
+      <!--Metric Tuning: General: multiplier applied to points awarded for objects the player moved but didn't actually buy.-->
+    </kMetricExistingObjectMultiplier>
+    <kMetricSnobPointsDeductedPerUnspentSimoleon value="0.01">
+      <!--Metric Tuning: Snob: Metric Points deducted per Simoleon not spent.-->
+    </kMetricSnobPointsDeductedPerUnspentSimoleon>
+    <kMetricFrugalPointsAwardedPerUnspentSimoleon value="0.1">
+      <!--Metric Tuning: Frugal: Metric Points awarded per Simoleon not spent.-->
+    </kMetricFrugalPointsAwardedPerUnspentSimoleon>
+    <kMetricEvilPointsAwardedPerWindowlessRoom value="100">
+      <!--Metric Tuning: Evil & Hates the Outdoors: Metric Points awarded per room with no windows.-->
+    </kMetricEvilPointsAwardedPerWindowlessRoom>
+    <kMetricLovesTheOutdoorsPointsAwardedPerWindow value="10">
+      <!--Metric Tuning: LovesTheOutdoors: Metric Points awarded per windows.-->
+    </kMetricLovesTheOutdoorsPointsAwardedPerWindow>
+    <kMetricArtisticPointsAwardedPerLookAtPoint value="0.1">
+      <!--Metric Tuning: Artistic: Metric Points awarded per point of look at interestingness.-->
+    </kMetricArtisticPointsAwardedPerLookAtPoint>
+    <kMetricBookwormPointsAwardedPerBookshelf value="20">
+      <!--Metric Tuning: Bookworm: Metric Points awarded per bookshelf.-->
+    </kMetricBookwormPointsAwardedPerBookshelf>
+    <kMetricWorkaholicPointsAwardedPerDesk value="20">
+      <!--Metric Tuning: Workaholic: Metric Points awarded per desk.-->
+    </kMetricWorkaholicPointsAwardedPerDesk>
+    <kMetricWorkaholicPointsAwardedPerComputer value="0">
+      <!--Metric Tuning: Workaholic: Metric Points awarded per computer.-->
+    </kMetricWorkaholicPointsAwardedPerComputer>
+    <kMetricPartyAnimalPointsAwardedPerBar value="20">
+      <!--Metric Tuning: PartyAnimal: Metric Points awarded per bar, nectar rack, buffet table, or similar object.-->
+    </kMetricPartyAnimalPointsAwardedPerBar>
+    <kMetricPartyAnimalPointsAwardedPerNonCheapStereo value="0">
+      <!--Metric Tuning: PartyAnimal: Metric Points awarded per stereo (excluding cheap ones).-->
+    </kMetricPartyAnimalPointsAwardedPerNonCheapStereo>
+    <kMetricVirtuosoPointsAwardedPerGuitar value="20">
+      <!--Metric Tuning: Virtuoso: Metric Points awarded per guitar.-->
+    </kMetricVirtuosoPointsAwardedPerGuitar>
+    <kMetricVirtuosoPointsAwardedPerStereo value="20">
+      <!--Metric Tuning: Virtuoso: Metric Points awarded per stereo.-->
+    </kMetricVirtuosoPointsAwardedPerStereo>
+    <kMetricTechnophobePointsDeductedPerElectronicDevice value="0">
+      <!--Metric Tuning: Technophobe: Metric Points deducted per electronic device.-->
+    </kMetricTechnophobePointsDeductedPerElectronicDevice>
+    <kMetricCantStandArtPointsDeductedPerArtwork value="0">
+      <!--Metric Tuning: CantStandArt: Metric Points deducted per artwork.-->
+    </kMetricCantStandArtPointsDeductedPerArtwork>
+    <kMetricCouchPotatoPointsAwardedPerComfyPoint value="1">
+      <!--Metric Tuning: CouchPotato: Metric Points awarded per point of comfy.-->
+    </kMetricCouchPotatoPointsAwardedPerComfyPoint>
+    <kMetricNaturalCookPointsAwardedPerNonCheapFoodPrepObject value="50">
+      <!--Metric Tuning: NaturalCook: Metric Points added per non-cheap food prep object.-->
+    </kMetricNaturalCookPointsAwardedPerNonCheapFoodPrepObject>
+    <kMetricNaturalCookPointsAwardedPerNonCheapCookingAppliance value="100">
+      <!--Metric Tuning: NaturalCook: Metric Points added per non-cheap cooking appliance.-->
+    </kMetricNaturalCookPointsAwardedPerNonCheapCookingAppliance>
+    <kMetricComputerWhizPointsAwardedPerNonCheapComputer value="10">
+      <!--Metric Tuning: ComputerWhiz: Metric Points added per non-cheap computer.-->
+    </kMetricComputerWhizPointsAwardedPerNonCheapComputer>
+    <kMetricEasilyImpressedAverageAward value="10">
+      <!--Metric Tuning: EasilyImpressed: Average metric points awarded, regardless of renovation content.-->
+    </kMetricEasilyImpressedAverageAward>
+    <kMetricSpecialItemsPointsAwardedPerPlant value="10">
+      <!--Metric Tuning: Special Items: Metric points awarded per plant.-->
+    </kMetricSpecialItemsPointsAwardedPerPlant>
+    <kMetricSpecialItemsPointsAwardedPerRug value="10">
+      <!--Metric Tuning: Special Items: Metric points awarded per rug.-->
+    </kMetricSpecialItemsPointsAwardedPerRug>
+    <kMetricSpecialItemsPointsAwardedPerHomeMadeObject value="100">
+      <!--Metric Tuning: Special Items: Metric points awarded per home-made object.-->
+    </kMetricSpecialItemsPointsAwardedPerHomeMadeObject>
+    <kMetricSpecialItemsPointsAwardedPerHomeMadeObjectLookAtInterestingnesForClient value="10">
+      <!--Metric Tuning: Special Items: Metric points awarded per home-made objects' look at point.-->
+    </kMetricSpecialItemsPointsAwardedPerHomeMadeObjectLookAtInterestingnesForClient>
+    <kMetricSpecialItemsPointsAwardedPerSubjectOfClient value="100">
+      <!--Metric Tuning: Special Items: Metric points awarded per home-made object whose subject is the client.-->
+    </kMetricSpecialItemsPointsAwardedPerSubjectOfClient>
+    <kMetricSpecialItemsPointsAwardedPerSubjectInHousehold value="100">
+      <!--Metric Tuning: Special Items: Metric points awarded per home-made object whose subject is a member of the client's household.-->
+    </kMetricSpecialItemsPointsAwardedPerSubjectInHousehold>
+    <kMetricSpecialItemsPointsAwardedPerSubjectOfClientsPartner value="100">
+      <!--Metric Tuning: Special Items: Metric points awarded per home-made object whose subject is the partner of the client.-->
+    </kMetricSpecialItemsPointsAwardedPerSubjectOfClientsPartner>
+    <kMetricSpecialItemsPointsAwardedPerSubjectOfHouseholdMemberPartner value="100">
+      <!--Metric Tuning: Special Items: Metric points awarded per home-made object whose subject is the partner another member of the client's household.-->
+    </kMetricSpecialItemsPointsAwardedPerSubjectOfHouseholdMemberPartner>
+    <kMetricEnvironmentScoreReductionPenalty value="0.5">
+      <!--Metric Tuning: Environment Score: Metric Points deducted per unit of decreased environment score.-->
+    </kMetricEnvironmentScoreReductionPenalty>
+    <kMetricRoomTypePointsDeductedPerMissingObject value="1000">
+      <!--Metric Tuning: Room Type: Metric Points deducted for each unsatisfied object requirement.-->
+    </kMetricRoomTypePointsDeductedPerMissingObject>
+    <kMetricObjectSlotsPointsDeductedPerSlotObstructed value="0">
+      <!--Metric Tuning: ObjectSlots: Metric Points deducted for each blocked slot.-->
+    </kMetricObjectSlotsPointsDeductedPerSlotObstructed>
+    <kMetricObjectSlotsPointsDeductedPerObjectWithObstructedSlots value="50">
+      <!--Metric Tuning: ObjectSlots: Metric Points deducted for object with at least one blocked slot.-->
+    </kMetricObjectSlotsPointsDeductedPerObjectWithObstructedSlots>
+    <kMetricObjectSlotsPointsDeductedPerObjectOnUnroutableSurface value="500">
+      <!--Metric Tuning: ObjectSlots: Metric Points deducted for object on an unroutable surface.-->
+    </kMetricObjectSlotsPointsDeductedPerObjectOnUnroutableSurface>
+    <kMetricDesignerLevelPointsAwardedPerCareerLevel value="0, 10, 20, 50, 100, 150, 200, 300, 500, 800, 1000">
+      <!--Metric Tuning: Career Level: Metric Points awarded based on player's career level.-->
+    </kMetricDesignerLevelPointsAwardedPerCareerLevel>
+    <kMetricBrokenObjectsPointsDeductedPerBrokenObject value="500">
+      <!--Metric Tuning: Broken Objects: Metric Points deducted for each broken object placed by the player.-->
+    </kMetricBrokenObjectsPointsDeductedPerBrokenObject>
+    <kReportStartingScore value="100">
+      <!--Metric Tuning: Final Report: The base report score.-->
+    </kReportStartingScore>
+    <kMetricEnvironmentScoreUnlitRoomPenalty value="200">
+      <!--Metric Tuning: Environment Score: Metric Points deducted per unlit room.-->
+    </kMetricEnvironmentScoreUnlitRoomPenalty>
+    <kMetricEnvironmentScoreUndecoratedRoomPenalty value="200">
+      <!--Metric Tuning: Environment Score: Metric Points deducted per undecorated.-->
+    </kMetricEnvironmentScoreUndecoratedRoomPenalty>
+    <kMetricDirtyObjectsPointsDeductedPerDirtyObject value="500">
+      <!--Metric Tuning: Dirty Objects: Metric Points deducted for each Dirty object placed by the player.-->
+    </kMetricDirtyObjectsPointsDeductedPerDirtyObject>
+    <kMetricRoutabilityPointsDeductedPerUnreachableObject value="1500">
+      <!--Metric Tuning: Routability: Metric Points deducted for each unroutable object.-->
+    </kMetricRoutabilityPointsDeductedPerUnreachableObject>
+    <kMetricRoutabilityRouteRadiusScalingFactor value="1">
+      <!--Metric Tuning: Career Level: Metric Points awarded based on player's career level.-->
+    </kMetricRoutabilityRouteRadiusScalingFactor>
+    <kMetricDiscussRenovationPointsAwardedForDiscussingWithClient value="0, 50, 100, 125">
+      <!--Metric Tuning: Discuss Renovation: Metric Points awarded for discussing renovation with client, indexed by number of interviews completed. Capped at final value.-->
+    </kMetricDiscussRenovationPointsAwardedForDiscussingWithClient>
+    <kMetricTakeMeasurementsPointsAwardedForTakingMeasurements value="0, 50, 100, 125">
+      <!--Metric Tuning: Take Measurements: Metric Points awarded for taking measurements of objects, indexed by number of objects or measurement cycles completed. Capped at final value.-->
+    </kMetricTakeMeasurementsPointsAwardedForTakingMeasurements>
+    <kBadReviewXPMultiplier value="0.2">
+      <!--Score Tuning (bad review)-->
+    </kBadReviewXPMultiplier>
+    <kNeutralReviewXPMultiplier value="1">
+      <!--Score Tuning (neutral review)-->
+    </kNeutralReviewXPMultiplier>
+    <kGoodReviewXPMultiplier value="1.2">
+      <!--Score Tuning (good review)-->
+    </kGoodReviewXPMultiplier>
+  </Current_Tuning>
+</base>

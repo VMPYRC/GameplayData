@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMotivesToCheck value="Hunger, Social, Energy">
+      <!--List of motives to check for deciding if we should advertise higher to bring puppy or kitten inside-->
+    </kMotivesToCheck>
+    <kMotivesThresholds value="-50, -70, -60">
+      <!--Motive treshholds to consider baby pet motive failure (keep in sync with kMotivesToCheck). The thresholds for the motives in kMotivesToCheck. If a motive is below this treshold, we advertise higher to bring pet inside. (this is additive. more motives low = higher multiplier)-->
+    </kMotivesThresholds>
+    <kPuppyKittenBringInsideMultiplier value="5">
+      <!--Multiplier we add to bring puppy or kitten inside per motive failing on puppy or kitten-->
+    </kPuppyKittenBringInsideMultiplier>
+  </Current_Tuning>
+</base>

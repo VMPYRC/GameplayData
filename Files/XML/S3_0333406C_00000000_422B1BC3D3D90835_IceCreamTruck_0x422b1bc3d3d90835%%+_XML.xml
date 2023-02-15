@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCarTuning>
+      <Speed value="18">
+        <!--Car speed in meters / second (second = Sim minute).-->
+      </Speed>
+      <Acceleration value="5">
+        <!--Car acceleration in meters / second^2 (second = Sim minute).-->
+      </Acceleration>
+    </kCarTuning>
+    <kFoodTruckTuning>
+      <HoursToStayOnLot value="2">
+        <!--Range: float Description: Num Hours to stay on the lot-->
+      </HoursToStayOnLot>
+      <RecipeNames value="IceCreamCone, RainbowPop, FreezerBunnyPop, FudgePop">
+        <!--Range:  recipe names  Description:  This is recipe names food truck can make-->
+      </RecipeNames>
+    </kFoodTruckTuning>
+    <kChanceYummyGoodness value="0.5">
+      <!--Range:  0-1  Description:  Chance sim will get Yummy Goodness buff-->
+    </kChanceYummyGoodness>
+    <kChanceToGetFreezerBurnBuff value="0.1">
+      <!--Range:  0-1  Description:  Chance sim will get Freezer Burn if it did not get any other buff-->
+    </kChanceToGetFreezerBurnBuff>
+    <kChanceToGetBrainFreezBuff value="0.1">
+      <!--Range:  0-1  Description:  Chance sim will get Brain Freeze if it did not get any other buff-->
+    </kChanceToGetBrainFreezBuff>
+    <kChanceIncreaseToGetBrainFreezBuff value="0.1">
+      <!--Range:  0-1  Description:  addition to chance of getting Brain Freeze buff if slob-->
+    </kChanceIncreaseToGetBrainFreezBuff>
+    <kChanceOfDroppingIceCream value="0.1">
+      <!--Range:  0-1  Description:  Chance of dropping IceCream-->
+    </kChanceOfDroppingIceCream>
+    <kChanceIncreaseOfDroppingIceCream value="0.15">
+      <!--Range:  0-1  Description:  Increased chance of dropping IceCream for slob sims-->
+    </kChanceIncreaseOfDroppingIceCream>
+    <kStandingWanderDistanceMin value="3">
+      <!--The min distance a Sim will wander before eating while standing up.-->
+    </kStandingWanderDistanceMin>
+    <kStandingWanderDistanceMax value="6">
+      <!--The max distance a Sim will wander before eating while standing up.-->
+    </kStandingWanderDistanceMax>
+  </Current_Tuning>
+</base>

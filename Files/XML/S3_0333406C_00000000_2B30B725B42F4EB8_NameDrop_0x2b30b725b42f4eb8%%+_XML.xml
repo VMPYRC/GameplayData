@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLtrLikingThresholdToNameDrop value="35,25">
+      <!--This is the minimum amount of LTR liking that is necessary to be able to name drop a sim that has relatinoship with you. First value is for a regular sim. Second value is for an actor that has XFactor trait. Positive float array. Range: [0, 100]. Initial GPE Default: 30f, 20f.-->
+    </kLtrLikingThresholdToNameDrop>
+    <kCelebrityLevelDeltaThresholdForNameDropAccept value="1">
+      <!--When running 'Name Drop' interaction on a not-yet-impressed Celebrity Sim, it will be accepted if the Celebrity Sim you're talking to and the Celebrity Sim chosen from the Sim Picker dialog are within this many Celebrity Levels of each other. Positive integer.-->
+    </kCelebrityLevelDeltaThresholdForNameDropAccept>
+    <kCelebrityLevelDeltaConversionToImpressPoints value="25">
+      <!--While performing Name Drop, the delta in celebrity level is multipled by this number to convert it into impress points. If the delta is negative, this multipler is not used and impress poitns are set to zero. Initial GPE default: 30.-->
+    </kCelebrityLevelDeltaConversionToImpressPoints>
+  </Current_Tuning>
+</base>

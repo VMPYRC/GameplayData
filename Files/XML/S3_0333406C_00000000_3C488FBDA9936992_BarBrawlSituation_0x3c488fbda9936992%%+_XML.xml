@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDurationInitialMinimum value="15">
+      <!--Range:  0+  Description:  The initial minimum duration, in Sim minutes-->
+    </kDurationInitialMinimum>
+    <kDurationInitialMaximum value="25">
+      <!--Range:  0+  Description:  The initial maximum duration, in Sim minutes-->
+    </kDurationInitialMaximum>
+    <kDurationAdditionalMinimum value="7">
+      <!--Range:  0+  Description:  The minimum additional duration per participant, in Sim minutes-->
+    </kDurationAdditionalMinimum>
+    <kDurationAdditionalMaximum value="10">
+      <!--Range:  0+  Description:  The maximum additional duration per participant, in Sim minutes-->
+    </kDurationAdditionalMaximum>
+    <kAutonomousLimitMinSpec value="4">
+      <!--Range:  0+  Description:  On min-spec machines, the number of Sims that will prevent other Sims from autonomously joining brawls-->
+    </kAutonomousLimitMinSpec>
+    <kAutonomousLimitMedSpec value="7">
+      <!--Range:  0+  Description:  On med-spec machines, the number of Sims that will prevent other Sims from autonomously joining brawls-->
+    </kAutonomousLimitMedSpec>
+    <kAutonomousLimitMaxSpec value="12">
+      <!--Range:  0+  Description:  On max-spec and uber-spec machines, the number of Sims that will prevent other Sims from autonomously joining brawls-->
+    </kAutonomousLimitMaxSpec>
+    <kWinnersAndLosersRatio value="0.5">
+      <!--Range:  0+  Description:  The ratio of winners to losers-->
+    </kWinnersAndLosersRatio>
+    <kWinnersAndLosersSkills value="Athletic, MartialArts">
+      <!--Range:  SkillNames[]  Description:  The skills that count in your favor when brawling-->
+    </kWinnersAndLosersSkills>
+    <kWinnersAndLosersSkillContributionMinimum value="0">
+      <!--Range:  0+  Description:  The minimum score contribution per skill-->
+    </kWinnersAndLosersSkillContributionMinimum>
+    <kWinnersAndLosersSkillContributionMaximum value="10">
+      <!--Range:  0+  Description:  The maximum score contribution per skill-->
+    </kWinnersAndLosersSkillContributionMaximum>
+    <kWinnersAndLosersWinnerTraits value="Athletic, HotHeaded, Lucky">
+      <!--Range:  TraitNames[]  Description:  Traits that count in your favor when brawling-->
+    </kWinnersAndLosersWinnerTraits>
+    <kWinnersAndLosersWinnerTraitContribution value="5">
+      <!--Range:  0+  Description:  The score contribution per winning trait-->
+    </kWinnersAndLosersWinnerTraitContribution>
+    <kWinnersAndLosersLoserTraits value="Loser, Unlucky">
+      <!--Range:  TraitNames[]  Description:  Traits that count against you when brawling-->
+    </kWinnersAndLosersLoserTraits>
+    <kWinnersAndLosersLoserTraitContribution value="-8">
+      <!--Range:  0-  Description:  The score contribution per losing trait-->
+    </kWinnersAndLosersLoserTraitContribution>
+    <kWinnersAndLosersOccultContribution value="20">
+      <!--Range:  0+  Description:  The score contribution for occult Sims-->
+    </kWinnersAndLosersOccultContribution>
+    <kWinnersAndLosersLtrContribution value="0.25">
+      <!--Range:  0+  Description:  The ratio of LTR points to score contribution-->
+    </kWinnersAndLosersLtrContribution>
+    <kWinnersAndLosersWinnerBuffs value="OddlyPowerful, BoostedCourage, VampiricVigor">
+      <!--Range:  BuffNames[]  Description:  Buffs that count in your favor when brawling-->
+    </kWinnersAndLosersWinnerBuffs>
+    <kWinnersAndLosersWinnerBuffContribution value="4">
+      <!--Range:  0+  Description:  The score contribution per winning buff-->
+    </kWinnersAndLosersWinnerBuffContribution>
+    <kWinnersAndLosersLoserBuffs value="Sore, Exhausted, Starving">
+      <!--Range:  BuffNames[]  Description:  Buffs that count againts you when brawling-->
+    </kWinnersAndLosersLoserBuffs>
+    <kWinnersAndLosersLoserBuffContribution value="-4">
+      <!--Range:  0-  Description: The score contribution per losing buff-->
+    </kWinnersAndLosersLoserBuffContribution>
+    <kWinnersAndLosersWinnerLtrGain value="8">
+      <!--Range:  -100 - 100  Description:  LTR gain among winners-->
+    </kWinnersAndLosersWinnerLtrGain>
+    <kWinnersAndLosersLoserLtrGain value="-6">
+      <!--Range:  -100 - 100  Description:  LTR gain between winners and losers-->
+    </kWinnersAndLosersLoserLtrGain>
+    <kCamaraderieAverageLtrMinimum value="30">
+      <!--Range:  -100 - 100  Description:  The average LTR among brawlers required for camaraderie to occur-->
+    </kCamaraderieAverageLtrMinimum>
+    <kCamaraderieLtrGain value="10">
+      <!--Range:  -100 - 100  Description:  The LTR gain among brawlers when camaraderie occurs-->
+    </kCamaraderieLtrGain>
+    <kHurtChance value="0.25">
+      <!--Range:  0+  Description:  The chance that a losing Sim will be badly hurt-->
+    </kHurtChance>
+    <kHurtDurationMinimum value="7">
+      <!--Range:  0+  Description:  The minimum time, in Sim minutes, a Sim will be badly hurt for-->
+    </kHurtDurationMinimum>
+    <kHurtDurationMaximum value="12">
+      <!--Range:  0+  Description:  The maximum time, in Sim minutes, a Sim will be badly hurt for-->
+    </kHurtDurationMaximum>
+    <kHurtBuffs value="Backache, HurtHand, Sore">
+      <!--Range:  BuffNames[]  Description:  A list of possible buffs the Sim can receive when badly hurt-->
+    </kHurtBuffs>
+    <kVictoryReactions value="PumpFist, Cheer, TraitPartyAnimal">
+      <!--Range:  ReactionTypes[]  Description:  A list of reactions that winning Sims will play-->
+    </kVictoryReactions>
+    <kPoliceInterventionTime value="12">
+      <!--Range:  0+  Description:  The time it should take, in Sim minutes, for the police to reach the scene-->
+    </kPoliceInterventionTime>
+    <kPoliceInterventionRequiredAmount value="7">
+      <!--Range:  0+  Description:  If there are more than this many Sims, other Sims might autonmously call the cops-->
+    </kPoliceInterventionRequiredAmount>
+    <kReactionReactions value="PumpFist, FreakOut">
+      <!--Range:  ReactionTypes[]  Description:  Reactions Sims will play when reacting to the -->
+    </kReactionReactions>
+    <kReactionRouteDistanceMinimum value="3">
+      <!--Range:  0+  Description:  The minimum distance to react from-->
+    </kReactionRouteDistanceMinimum>
+    <kReactionRouteDistanceMaximum value="6">
+      <!--Range:  0+  Description:  The maximum distance to react from-->
+    </kReactionRouteDistanceMaximum>
+    <kReactionBroadcasterParams>
+      <PulseRadius value="3">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <PulseRepeatTime value="20">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="False">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="False">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kReactionBroadcasterParams>
+    <kDebrisChance value="0.3">
+      <!--Range:  0+  Description:  The chance that a jig will leave debris when the fight ends-->
+    </kDebrisChance>
+    <kSoundThresholdMedium value="3">
+      <!--Range:  0+  Description:  The number of brawls necessary to trigger medium-sized sound-->
+    </kSoundThresholdMedium>
+    <kSoundThresholdLarge value="6">
+      <!--Range:  0+  Description:  The number of brawls necessary to trigger large-sized sound-->
+    </kSoundThresholdLarge>
+  </Current_Tuning>
+</base>

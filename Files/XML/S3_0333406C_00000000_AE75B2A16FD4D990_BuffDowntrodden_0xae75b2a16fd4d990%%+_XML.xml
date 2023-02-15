@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPushDowntroddenTime value="5">
+      <!--Range: 0f+ Description: How often, in sim minutes, to push the downtrodden animation-->
+    </kPushDowntroddenTime>
+    <kGainBuffFromDrinkingSocialThreshold value="-50">
+      <!--Range: 0f+ Description: Sim gains buff if social is below this number and then gets a drink.-->
+    </kGainBuffFromDrinkingSocialThreshold>
+    <kGainBuffFromSlapOrFailedFlirtsSocialThreshold value="33">
+      <!--Range: 0f+ Description: Sim gains buff if social is below this number and then is either slapped or has failed flirting for X times.-->
+    </kGainBuffFromSlapOrFailedFlirtsSocialThreshold>
+    <kNumFailedFlirtsNeededForBuff value="2">
+      <!--Range: 0+ Description: Number of failed flirt attempts for sim to get buff (if social is low enough).-->
+    </kNumFailedFlirtsNeededForBuff>
+  </Current_Tuning>
+</base>

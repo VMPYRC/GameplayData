@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSmokeOutVfxDurationInHours value="4">
+      <!--Description: This is the number of hours that the smoke VFX will be displayed after using the "Smoke Out" interaction.-->
+    </kSmokeOutVfxDurationInHours>
+    <kStingChanceReductionFactor value="0.1">
+      <!--Range:  0 - 1  Description:  The chance of the sim getting stung is MULTIPLIED by this value while the effects of the interaction lasts. (ex. "0.5" would make the sim half as likely to get stung.-->
+    </kStingChanceReductionFactor>
+    <kAttackChanceReductionFactor value="0.25">
+      <!--Range:  0 - 1  Description:  The chance of the sim getting attacked is MULTIPLIED by this value while the effects of the interaction lasts. (ex. "0.5" would make the sim half as likely to get attacked.-->
+    </kAttackChanceReductionFactor>
+    <kHungerLevelReductionFactor value="0.75">
+      <!--Range:  0 - 1  Description:  The current hunger level is MULTIPLIED by this value.-->
+    </kHungerLevelReductionFactor>
+    <kHappinessLevelReductionFactor value="0.85">
+      <!--Range:  0 - 1  Description:  The current happiness level is MULTIPLIED by this value.-->
+    </kHappinessLevelReductionFactor>
+  </Current_Tuning>
+</base>

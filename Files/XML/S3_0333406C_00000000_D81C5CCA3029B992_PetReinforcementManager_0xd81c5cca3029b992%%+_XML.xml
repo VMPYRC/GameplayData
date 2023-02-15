@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPreSelectedPostiveReinforcableTrait value="100">
+      <!--Range:  0 - 100  Description:  Default value for chosen reinforcable trait if threshold is > 0 -->
+    </kPreSelectedPostiveReinforcableTrait>
+    <kPreSelectedNegativeReinforcableTrait value="-100">
+      <!--Range:  -100 - 0  Description:  Default value for chosen reinforcable trait if threshold is < 0 -->
+    </kPreSelectedNegativeReinforcableTrait>
+    <kMinLTRForBoost value="50">
+      <!--Range:  0-100  Description: Min LTR value between pet and enforcer to get High LTR bonus-->
+    </kMinLTRForBoost>
+    <kLTRPercentIncrease value="0.25">
+      <!--Range:  float 0-1  Description:  Percent increase if pet has good ltr value with enforcer-->
+    </kLTRPercentIncrease>
+    <kPercentIncreaseForTrait value="0.25">
+      <!--Range:  float 0-1  Description:  Percent increase if pet has loyal or intelligent trait-->
+    </kPercentIncreaseForTrait>
+    <kPercentDecreaseForTrait value="0.25">
+      <!--Range:  float 0-1  Description:  Percent decrease if pet has clueless or independent trait-->
+    </kPercentDecreaseForTrait>
+    <kMinMoodValueForGoodBoost value="50">
+      <!--Range:  0-100  Description: Min Mood mood value for good-->
+    </kMinMoodValueForGoodBoost>
+    <kPercentIncreaseForGoodMood value="0.25">
+      <!--Range:  float 0-1  Description:  Percent increase if pet is in good mood-->
+    </kPercentIncreaseForGoodMood>
+    <kReinforceValueAfterGainingTrait value="100">
+      <!--Range:  1-100  Description:  Position of in axis after gaining trait. This should not be zero-->
+    </kReinforceValueAfterGainingTrait>
+    <kReinforceValueAfterLosingTrait value="1">
+      <!--Range:  1-100  Description:  Position in axis after losing trait-->
+    </kReinforceValueAfterLosingTrait>
+    <kLengthforReinforcementEvent value="90">
+      <!--Description:  Time reinforcement can be available in minutes-->
+    </kLengthforReinforcementEvent>
+    <kTraitsForLowScold value="HotHeaded, MeanSpirited">
+      <!--Range:  0-1  Description:  Chance sim will autonomously praise pet-->
+    </kTraitsForLowScold>
+    <kTraitsForHighScold value="Friendly, Good">
+      <!--Range:  0-1  Description:  Chance sim will autonomously praise pet-->
+    </kTraitsForHighScold>
+    <kPercentFromBaseAmount value="0.05">
+      <!--Range:  0-1  Description:  Percent to take from base amount-->
+    </kPercentFromBaseAmount>
+    <kPercentIncreaseForSuperSmartTrait value="0.25">
+      <!--Range:  float 0-1  Description:  Percent increase if pet has super smart trait-->
+    </kPercentIncreaseForSuperSmartTrait>
+    <kTimeBetweenShowingEffect value="3">
+      <!--Range:  0-1  Description:  Time in between showing effect in sim minutes-->
+    </kTimeBetweenShowingEffect>
+  </Current_Tuning>
+</base>

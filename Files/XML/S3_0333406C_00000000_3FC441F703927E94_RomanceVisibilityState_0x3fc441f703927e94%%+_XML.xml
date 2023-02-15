@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRomanceVisibilityLevelThresholds value="25,70">
+      <!--These values define the number of levels as well as the distinction between different romance visibility levels. E.g. (30, 70) implies that we support three levels. [0-30), [30-70), and [70, 100]. Range for individual value (0, 100).-->
+    </kRomanceVisibilityLevelThresholds>
+    <kRomanceVisibilityPoints value="3,8.33,12.5,26">
+      <!--These values define the increase in visibility each time a PDA social is performed. Every index has specific use. 0th index: random NPC without any relationship with either PDA-ing sim, 1st index: NPC with some relationship with one of the two PDA-ing sim, 2nd index: household member, 3rd index: sim with existing romantic relationship with either of the two PDA-ing sims. Range for individual value (0, 100).-->
+    </kRomanceVisibilityPoints>
+    <kRomanceVisibilityRadius value="10">
+      <!--This is the range around the PDA-ing sims that is used for finding audience to the romance visibility. Positive float. Initial GPE default: 10f.-->
+    </kRomanceVisibilityRadius>
+    <kRomanceVisibilityPointsForVisitOrInviteOver value="5">
+      <!--If the romantic sims visit or get invited to each other's house, this is the increase in the visibility. Positive float. Initial GPE default: 5f.-->
+    </kRomanceVisibilityPointsForVisitOrInviteOver>
+    <kRomanceVisibilityPointsForPhoneCall value="3">
+      <!--If the romantic sims call each other and the target sim is at home with other household members, this is the increase in the visibility. Positive float. Initial GPE default: 5f.-->
+    </kRomanceVisibilityPointsForPhoneCall>
+    <kMinimumHoursToStartRomanceVisibilityDecay value="24">
+      <!--This is the minimum number of hours we wait before decaying the romantic visibility points. Positive float. Initial GPE default: 24f.-->
+    </kMinimumHoursToStartRomanceVisibilityDecay>
+    <kDecayInRomanceVisibilityPointsPerHour value="0.25">
+      <!--Once we have crossed the minimum number of hours before decay, we subtract visibility points proportional to this number (per hour). E.g. we happen to test for decay 30 hours into the future, we will decay (30 - kMinimumHoursToStartRomanceVisibilityDecay) * kDecayInRomanceVisibilityPointsPerHour. Positive float. Initial GPE default: 2f.-->
+    </kDecayInRomanceVisibilityPointsPerHour>
+    <kChanceOfAccusingOfBetrayalBase value="0">
+      <!--When the two cheating sims are on the same lot, this is the base chance of pushing Accuse of Cheating. Positive float. Range [0, 1]. Initial GPE default: 0.1f.-->
+    </kChanceOfAccusingOfBetrayalBase>
+    <kMinimumLtrLikingToReduceChanceOfAccusing value="90">
+      <!--If the LTR liking is higher than this number, then we'll apply kReducedChanceOfAccusingDueToGoodLtr to reduce the chance of accusing. Positive float. Range: Valid LTR liking bounds [-100, 100]. Initial GPE default: 90f.-->
+    </kMinimumLtrLikingToReduceChanceOfAccusing>
+    <kReducedChanceOfAccusingDueToGoodLtr value="0.1">
+      <!--When the two cheating sims are on the same lot, and the LTR threshold kMinimumLtrLikingToReduceChanceOfAccusing is crossed, we reduce the chance of accusition by this ammount. Positive float. Range [0, 1]. Initial GPE default: 0.2f.-->
+    </kReducedChanceOfAccusingDueToGoodLtr>
+    <kTraitsThatIncreaseChanceOfAccusing value="FamilyOriented,Good, Childish,CommitmentIssues,HotHeaded,Neurotic">
+      <!--When the cheating sim walks on to the same lot as the parter, if the partner has one of these traits we will increase the chance of accusing.-->
+    </kTraitsThatIncreaseChanceOfAccusing>
+    <kTraitsThatReduceChanceOfAccusing value="Inappropriate,Flirty,Coward,HopelessRomantic,Carefree,Shy">
+      <!--When the cheating sim walks on to the same lot as the parter, if the partner has one of these traits we will reduce the chance of accusing.-->
+    </kTraitsThatReduceChanceOfAccusing>
+    <kChanceOfAccusingFromTrait value="0.1">
+      <!--When the two cheating sims are on the same lot and we do the trait checks, this is the amount we add or subtract to the chance of accusing based on whether the trait is in good versus the bad list. Positive float. Range [0, 1]. Initial GPE default: 0.1f.-->
+    </kChanceOfAccusingFromTrait>
+    <kChanceOfAccusingOfBetrayalPerVisibilityLevel value="0.1, 0.15, 0.4">
+      <!--When the two cheating sims are on the same lot this is the chance of accusing per cheating relationship. Ad the visibility of a cheating relationship increases, the chance of being accused increases. Positive float array. Range [0, 1]. Length: 3 - one per Visibility Level.-->
+    </kChanceOfAccusingOfBetrayalPerVisibilityLevel>
+    <kBetrayedBuffTimeOutPerLtr value="120, 72, 48">
+      <!--When we add the Betrayed buff, we will apply this timeout. Index 0: Fiancee, Spouse. Index 1: Partner. Index 2: Romantic Interest. Units: Sim Hours. Positive float array.-->
+    </kBetrayedBuffTimeOutPerLtr>
+    <kLtrLikingThresholdToReduceBetrayedTimeout value="85">
+      <!--If either Sim X and/or Y has a betrayed buff, if the relationship manages to improve over this number, we will reduce the Betrayed buff's timeout. Positive float. Range [-100, 100] i.e. valid LTR liking range. Initial GPE default: 80.0f.-->
+    </kLtrLikingThresholdToReduceBetrayedTimeout>
+    <kBetrayedBuffTimeOutReduction value="6, 1, 12">
+      <!--Whenever there is gameplay realted to fix a betrayal, we use these tunables to reduce the timeout on the Betrayed buff. Index 0: LTR liking improvement (i.e. read comments on kLtrLikingThresholdToReduceBetrayedTimeout). Index 1: Giving gift. Index 2: Apologize. Units: Sim Hours. Positive float array.-->
+    </kBetrayedBuffTimeOutReduction>
+    <kIncreasedRomanticSocialMultiplier value="1.5">
+      <!--If two sims have an active romance visibility state, this multiplier is applied to every romantic social. Positive float. > 1 to make the score higher. Initial GPE default: 1.4f-->
+    </kIncreasedRomanticSocialMultiplier>
+    <kWeightsToPlaceCallOrInviteOver value="70, 30">
+      <!--Weights to place call or call over sim. Index 0: Sims with active romance. Index 1: Sims without any romance. Positive float array.-->
+    </kWeightsToPlaceCallOrInviteOver>
+    <kSocialMultiplierToTellAboutBetrayersOtherRelationship value="3">
+      <!--If a sim is getting cheated, other sims have an increased chance of performing th esocial 'Tell About Betrayers Other Relationship'. Positive float. > 1 to make the score higher. Initial GPE default: 2f-->
+    </kSocialMultiplierToTellAboutBetrayersOtherRelationship>
+    <kHourToComputeReputationTracking value="8">
+      <!--At this hour (daily) we compute time sensitive reputation tracks. Positive float. 24 Hour clock. Units: Sim Hour. Initial GPE default: 10f-->
+    </kHourToComputeReputationTracking>
+    <kDaysOfActiveRomanceForPureReputationTrack value="12, 20">
+      <!--If the Pure track constraints satisfy, these numbers indicate the number of days one needs to be in an active romance before completely qualifying for Pure Reputation. Index 0: Faithful. Index 1: Eternally Faithful. Index 1 value > Index 2 value. Positive float. Units: Sim Days.-->
+    </kDaysOfActiveRomanceForPureReputationTrack>
+    <kChanceOfAccusingWhenTargetIsEternallyFaithful value="0.15">
+      <!--When the two cheating sims are on the same lot and we do check to accuse of cheating, this is the amount we subtract to the chance of accusing if the sim being accused happens to have EternallyFaithful Reputation. Positive float. Range [0, 1]. Initial GPE default: 0.2f.-->
+    </kChanceOfAccusingWhenTargetIsEternallyFaithful>
+    <kLtrLikingMultiplerForEternallyFaithfulReputation value="1.5">
+      <!--If sims with traits mentioned in kTraitsThatLikeEternallyFaithFulSims socialize with EternallyFaithful Reputed sims, this multipler is applied to the LTR liking change. Positive float. > 1 to make the score higher. Initial GPE default: 1.4f-->
+    </kLtrLikingMultiplerForEternallyFaithfulReputation>
+    <kTraitsThatLikeEternallyFaithFulSims value="FamilyOriented, Good, EasilyImpressed,Flirty, Friendly, HopelessRomantic, Neurotic">
+      <!--When the cheating sim walks on to the same lot as the parter, if the partner has one of these traits we will increase the chance of accusing.-->
+    </kTraitsThatLikeEternallyFaithFulSims>
+    <kNumberOfLevelTwoRomanceVisibilityForCheaterTrack value="3, 7, 15">
+      <!--For computing the Cheater Track level, you need to have these many simultaneous level two romance relationships to be: Index 0: Cheater, Index 1: Dirtbag, Index 2: Slimeball. Positive integrers. Increasing values. Units: Count.-->
+    </kNumberOfLevelTwoRomanceVisibilityForCheaterTrack>
+    <kNumberOfBetrayalsForCheaterTrack value="1, 4, 10">
+      <!--For computing the Cheater Track level, you need to have these many betrayal history to be: Index 0: Cheater, Index 1: Dirtbag, Index 2: Slimeball. Positive integrers. Increasing values. Units: Count.-->
+    </kNumberOfBetrayalsForCheaterTrack>
+    <kNumberOfRomancesForRomancerTrack value="2, 4, 7">
+      <!--For computing the Romancer Track level, you need to have these many active romances to be: Index 0: Naughty, Index 1: Manipulator, Index 2: Casanova. Positive integrers. Increasing values. Units: Count.-->
+    </kNumberOfRomancesForRomancerTrack>
+    <kRomancerReputationTrackIncreasedSocialEffectiveness value="Romance">
+      <!--If a sim is a Manipulator or a Casanova, we add these social effectiveness to the sim. Type: SocialManager.SocialEffectiveness.-->
+    </kRomancerReputationTrackIncreasedSocialEffectiveness>
+    <kCasanovaReputationNewRelationshipLtrLikingBoost value="25">
+      <!--If either of the two sims in a new relationship is a Casanova and the two sims have same gender preference, we provide this initial boost in liking of their relaitonship. Positive float. Range (0, 100). Initial GPE default: 25f-->
+    </kCasanovaReputationNewRelationshipLtrLikingBoost>
+    <kNumberOfRomancesForExperiencedTrack value="3, 9, 15">
+      <!--For computing the Experienced Track level, you need to have these many active/inactive romances to be: Index 0: ExploringTheirOptions, Index 1: Player, Index 2: DonJuan. Positive integrers. Increasing values. Units: Count.-->
+    </kNumberOfRomancesForExperiencedTrack>
+    <kStcUpdateMultiplerForAmorousContexts value="1.4">
+      <!--If sims has DonJuan Reputation and he/she has an STC update in Amorous context, we apply this multipler to the update. Positive float. > 1 to make the score higher. Initial GPE default: 1.4f-->
+    </kStcUpdateMultiplerForAmorousContexts>
+    <kExperiencedReputationTrackIncreasedSocialEffectiveness value="RomanceWithTraitSpecificSims">
+      <!--If a sim is a Player or a Romancer, we add these social effectiveness to the sim. Type: SocialManager.SocialEffectiveness.-->
+    </kExperiencedReputationTrackIncreasedSocialEffectiveness>
+    <kReducedChanceOfAccusingDueToTraitAboveReproach value="0.2">
+      <!--When the two cheating sims are on the same lot, and the sim about to be accused has the lifetime reward Above Reproach, then we reduce the chance fo being accused by this amount. Positive float. Range [0, 1]. Initial GPE default: 0.5f.-->
+    </kReducedChanceOfAccusingDueToTraitAboveReproach>
+    <kLtrBitsToRemoveOnCleanSlate value="Romantic, Date, Propose, BreakUp, Divorce, BreakEngagement">
+      <!--Whenever we clean slate, we remove these LTR bits. Array wth members of type: LongTermRelationship.InteractionBits.-->
+    </kLtrBitsToRemoveOnCleanSlate>
+    <kAbsoluteRomanceVisibilityPointsPostBetrayal value="90">
+      <!--When the betrayal sequence has triggered (Accuse of Cheating or Confess Cheating), we update the romance visibility state to reach this tunable threshold. Positive float. Range: [0, 100]. Initial GPE default: 90f.-->
+    </kAbsoluteRomanceVisibilityPointsPostBetrayal>
+    <kSlimeballReputationNewRelationshipLtrLikingHit value="25">
+      <!--If either of the two sims in a new relationship is a Slimeball and the two sims have same gender preference, we provide this initial hit in liking of their relaitonship. Positive float. Range (0, 100). Initial GPE default: 25f-->
+    </kSlimeballReputationNewRelationshipLtrLikingHit>
+    <kAccusingOnWorldLotMaxDistanceApart value="15">
+      <!--When accusing of cheating while on the world lot, this is the max distance the two Sims can be from each other.-->
+    </kAccusingOnWorldLotMaxDistanceApart>
+    <kLtrLikingDeltaToFixBetrayedRelationship value="25">
+      <!--When the betrayed buff times out, we check if the pair of sims improved their relationship liking by this amount. Only if they improve the relationship, does the betrayal not convert into break up. Positive float. Initial GPE default: 30.0f.-->
+    </kLtrLikingDeltaToFixBetrayedRelationship>
+    <kRomanceVisibilityPointsForLoveLetter value="10">
+      <!--Increase in visibility If someone other than the recipient of a love letter checks the mail.-->
+    </kRomanceVisibilityPointsForLoveLetter>
+  </Current_Tuning>
+</base>

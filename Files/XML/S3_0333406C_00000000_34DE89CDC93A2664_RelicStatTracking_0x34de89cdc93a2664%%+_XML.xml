@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumRelicsForHoarder value="20">
+      <!--Number of relics found from each culture to become to get Historical Hoarder achievement-->
+    </kNumRelicsForHoarder>
+    <kNumCompleteCollectionsForConnoisseur value="6">
+      <!--Number of relic collections completed to get Relic Collection Connoisseur achievement-->
+    </kNumCompleteCollectionsForConnoisseur>
+    <kHistoricalHoarderValueIncreasePercent value="0.5">
+      <!--Range:  0.0 - 1.0  Description: Percent increase applied to discovered relic value when you have historical hoarder achievement-->
+    </kHistoricalHoarderValueIncreasePercent>
+    <kCollectionConnoisseurMoodPercentIncrease value="0.5">
+      <!--Range:  0.0 - 1.0  Description:  Percent increase in mood gained by wondrous Collection Buff if you have CollectionConnoisseur achievement-->
+    </kCollectionConnoisseurMoodPercentIncrease>
+    <kMaxNumCollectableRelicTickets value="1000">
+      <!--Number of tickets a specific collectable relic should have when no sims in the household have found that relic-->
+    </kMaxNumCollectableRelicTickets>
+    <kMinNumCollectableRelicTickets value="1">
+      <!--Number of tickets a specific collectable relic should have when All sims in the household have found that relic-->
+    </kMinNumCollectableRelicTickets>
+  </Current_Tuning>
+</base>

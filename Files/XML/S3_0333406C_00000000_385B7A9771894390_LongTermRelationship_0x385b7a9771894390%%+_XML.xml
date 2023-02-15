@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPetBaseBFFLtrValueThreshold value="60">
+      <!--Range:  float  Description:  Liking Base before pet can consider sim as BFF-->
+    </kPetBaseBFFLtrValueThreshold>
+    <kPetFriendlyLoyalDeltaLtr value="-15">
+      <!--Range:  float  Description:  Delta LTR BFF liking value will be changed if sim is friendly or loyal pet to be considered as BFF-->
+    </kPetFriendlyLoyalDeltaLtr>
+    <kPetRequireHigherLtrThreshold value="20">
+      <!--Range:  float  Description:  Delta LTR val-->
+    </kPetRequireHigherLtrThreshold>
+    <kChanceToBecomeBff value="0.1">
+      <!--Range:  0-1  Description:  Chance after reaching LTR threshold that Pet Becomes BFF-->
+    </kChanceToBecomeBff>
+    <kBFFLostLikingPenalty value="-20">
+      <!--Range:  Liking value.  Description:  Liking value that drops when a teen chooses a new BFF.-->
+    </kBFFLostLikingPenalty>
+    <kPetEnemyThreshold value="-60">
+      <!--Range: Liking value.  Description: Liking threshold below which a pet will consider this an enemy relationship.-->
+    </kPetEnemyThreshold>
+  </Current_Tuning>
+</base>

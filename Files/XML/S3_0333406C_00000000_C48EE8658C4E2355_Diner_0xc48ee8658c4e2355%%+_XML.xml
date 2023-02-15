@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRestaurantTuning>
+      <OpenTime value="0">
+        <!--The time the restaurant opens.-->
+      </OpenTime>
+      <CloseTime value="24">
+        <!--The time the restaurant closes.-->
+      </CloseTime>
+      <EarlyBirdTime value="-1">
+        <!--The time the restaurant has early bird special. Set to -1 if never.-->
+      </EarlyBirdTime>
+      <EarlyBirdDiscount value="1">
+        <!--Discount when eating dinner for the early bird special.-->
+      </EarlyBirdDiscount>
+      <BreakfastLunchBrunchCost value="12">
+        <!--Cost per sim of breakfast/lunch/brunch.-->
+      </BreakfastLunchBrunchCost>
+      <DinnerCost value="18">
+        <!--Cost per sim for dinner.-->
+      </DinnerCost>
+      <DessertCost value="8">
+        <!--Cost per sim for dessert.-->
+      </DessertCost>
+      <DrinksCost value="5">
+        <!--Cost per sim for drinks.-->
+      </DrinksCost>
+      <EatLength value="60">
+        <!--Eat interaction length in sim minutes.-->
+      </EatLength>
+      <DessertLength value="25">
+        <!--Stay for dessert interaction length in sim minutes.-->
+      </DessertLength>
+      <DrinkLength value="30">
+        <!--Drink interaction length in sim minutes.-->
+      </DrinkLength>
+      <MinRelationshipDiningCompanions value="5">
+        <!--Minimum amount of added relationship with people you eat with.-->
+      </MinRelationshipDiningCompanions>
+      <MaxRelationshipDiningCompanions value="15">
+        <!--Maximium amount of added relationship with people you eat with.-->
+      </MaxRelationshipDiningCompanions>
+      <ClothingStyle value="Everyday">
+        <!--Appropriate clothing style for dining at this venue.-->
+      </ClothingStyle>
+    </kRestaurantTuning>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="0" />
+      <MapTagFilterType value="PublicSpacesAndActivities,Work">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-35">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="40">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kInvestCost value="6000">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="18000">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="850">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="1800">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="2500">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="1000000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kCanInvestHere value="True">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kNpcExitFreq value="10">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kNighttimeLightSunsetDelta value="1">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kPreventLotPurchase value="True">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="True">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kScrapMultiplierFromSmashing value="1.25">
+      <!--When a FrankenSim smashes an object, this is the multiplier used to determine how much more/less scrap should be created compared to detonation.-->
+    </kScrapMultiplierFromSmashing>
+    <kScrapMultiplierIfBroken value="0.6">
+      <!--Multiplier used to determine how much more/less scrap should be created if the object is broken.-->
+    </kScrapMultiplierIfBroken>
+    <kScrapMultiplierIfUpgraded value="1.25">
+      <!--Multiplier used to determine how much more/less scrap should be created if the object has an upgrade.-->
+    </kScrapMultiplierIfUpgraded>
+    <kScrapMultiplierIfDiabolicalDetonator value="1.25">
+      <!--Multiplier used to determine how much more/less scrap should be created if the Sim who detonated it has completed the diabolical detonator lifetime opportunity.-->
+    </kScrapMultiplierIfDiabolicalDetonator>
+    <kCostMultiplierIfDiabolicalDetonator value="0.6">
+      <!--Multiplier used to determine how much it costs to detonate an object if the sim detonating it has the diabolical detonatore lifetime opp.-->
+    </kCostMultiplierIfDiabolicalDetonator>
+    <kScrapMultiplierIfTheScrapper value="1.25">
+      <!--Multiplier used to determine how much more/less scrap should be created if the Sim who detonated it has completed the scrapper lifetime opportunity.-->
+    </kScrapMultiplierIfTheScrapper>
+    <kSingeFromDetonateDistance value="3">
+      <!--Distance from object that detonated to singe sims.-->
+    </kSingeFromDetonateDistance>
+  </Current_Tuning>
+</base>

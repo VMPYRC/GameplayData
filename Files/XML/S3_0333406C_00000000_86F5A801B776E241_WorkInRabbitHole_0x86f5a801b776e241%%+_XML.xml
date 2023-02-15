@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kStayLateThreshold value="1">
+      <!--The number of hours the sim has to work within the overtime shift length to have stayed late.-->
+    </kStayLateThreshold>
+    <kHoursUntilWorkToRun value="0.25">
+      <!--Range: Sim hours.  Description:  Number of hours before work at which if the 'Work' interaction is queued, the Sim will start running.-->
+    </kHoursUntilWorkToRun>
+    <kHoursUntilWorkToFastWalk value="0.5">
+      <!--Range: Sim hours.  Description:  Number of hours before work at which if the 'Work' interaction is queued, the Sim will start walking fast.-->
+    </kHoursUntilWorkToFastWalk>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

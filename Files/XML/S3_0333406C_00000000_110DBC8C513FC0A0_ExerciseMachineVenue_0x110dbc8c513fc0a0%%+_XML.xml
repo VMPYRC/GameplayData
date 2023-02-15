@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAthleticTuning>
+      <kLookAtThresholdForTrain value="50">
+        <!--Range: 0 to 100. Only objects of lookat interestingness above this value will be looked at while training sims-->
+      </kLookAtThresholdForTrain>
+      <DelayFatiguePercentagePerAthleticSkillLevel value="0.065">
+        <!--Range: 0.0f to 0.1f.  Description: As you use athletic game objects, your Sim has an increase in the Fatigue motive.  As your Sim gains Athletic skill, your Sim will be less fatigued.  This tunable is the fatigue gain percentage decrease per athletic skill level.-->
+      </DelayFatiguePercentagePerAthleticSkillLevel>
+      <AthleticTraitDestressMultiplier value="2">
+        <!--Range: Non-negative float.  Description:  Sims with the Athletic trait will distress at a faster rate than normal Sims while using athletic game objects.  This tunable is the multiplier to the normal destress rate.-->
+      </AthleticTraitDestressMultiplier>
+      <MinsToAddPumped value="120">
+        <!--Range: Positive floats.  Description: Number of Sim minutes in the 'Work Out' interaction in order to get the 'Pumped' buff.-->
+      </MinsToAddPumped>
+      <AthleticLevelToAddPumped value="3">
+        <!--Range: Positive integers.  Description:  Minimum Athletic skill level at which to get the 'Pumped' buff.-->
+      </AthleticLevelToAddPumped>
+      <CanTriggerAthleticTraitTip value="True">
+        <!--Type: bool.  Description:  If a sim has Athletic skill, this object will prompt a Trait tip.-->
+      </CanTriggerAthleticTraitTip>
+    </kAthleticTuning>
+  </Current_Tuning>
+</base>

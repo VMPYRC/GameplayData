@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Holidays (EP8)</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1932</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>235231019</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Take Holiday Photo</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kTookHolidayGreetingCardPhoto</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>1933</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>235231021</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Share Holiday Photo</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>true</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSharedHolidayGreetingCardPhoto</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>1934</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/0dd5573d-ea10-44a1-9507-78e73b30a98b:Name</NameKey>
+    <Name>Happy Holidays!</Name>
+    <SetName>Holidays (EP8)</SetName>
+    <ChallengeGuid>0dd5573d-ea10-44a1-9507-78e73b30a98b</ChallengeGuid>
+    <ExportVersion>4</ExportVersion>
+    <ChallengeType>Player</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(1932AndOP1933)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/0dd5573d-ea10-44a1-9507-78e73b30a98b:Description</DescriptionKey>
+    <ThemeKey>Seasonal</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP8</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>X:\InGame\UI\EP08\SocialFeatures\Badges\ep08_badge_happy_holidays.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>X:\InGame\UI\EP08\SocialFeatures\Badges\ep8_badge_incomlete_bronze.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP8</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>3256</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>235231016</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Trick Or Treat</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <SocialName>Trick Or Treat</SocialName>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kWentTrickOrTreating</TriggerEvent>
+      <SubjectTypes>
+        <string>Sim</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3257</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/ab015943-73f7-4bc6-87c2-54c655be9f93:Name</NameKey>
+    <Name>Trick Or Treat</Name>
+    <SetName>Holidays (EP8)</SetName>
+    <ChallengeGuid>ab015943-73f7-4bc6-87c2-54c655be9f93</ChallengeGuid>
+    <ExportVersion>5</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>3256</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/ab015943-73f7-4bc6-87c2-54c655be9f93:Description</DescriptionKey>
+    <ThemeKey>Seasonal</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP8</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>X:\InGame\UI\EP08\SocialFeatures\Badges\ep08_badge_trick_or_treat.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>X:\InGame\UI\EP08\SocialFeatures\Badges\ep8_badge_incomlete_bronze.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP8</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

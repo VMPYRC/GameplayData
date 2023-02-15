@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCostOfGame value="5">
+      <!--[Play] Num of simoleons a single game costs-->
+    </kCostOfGame>
+    <kSkillLevelMedAnims value="4">
+      <!--[Play] Skill level to start using Medium set of skill animations-->
+    </kSkillLevelMedAnims>
+    <kSkillLevelHighAnims value="8">
+      <!--[Play] Skill level to start using High set of skill animations-->
+    </kSkillLevelHighAnims>
+    <kGameLength value="20, 160">
+      <!--[Play] How long Game Lasts in sim mins at skill level 0, level 10-->
+    </kGameLength>
+    <kGameLengthJitter value="20">
+      <!--[Play] Max jitter time amount to add to skill based game time length. Total time = kGAmeLength(SkillLevel) + Rand(0, kGameLengthJitter)-->
+    </kGameLengthJitter>
+    <kChanceWin value="2, 60">
+      <!--[Play] Chance Sim will win game at skill level [0, 10] using linear interpolate for levels inbetween-->
+    </kChanceWin>
+    <kWatchScoreMultiplier value="0.5, 1.75">
+      <!--[Watch] Autonomy score multiplier for Watch Interaction based on how long the sim has been playing.  [Multiplier at 0 mins passed, Multiplier at end of game].-->
+    </kWatchScoreMultiplier>
+    <kMaxNumWatchers value="4">
+      <!--[Watch] Max number of spectators watching the game-->
+    </kMaxNumWatchers>
+    <kWatchReactionsPositive value="Cheer, Excited, PumpFist">
+      <!--Description:  Possible positive reactions to sim win/losing game-->
+    </kWatchReactionsPositive>
+    <kWatchReactionsNegative value="Boo, LaughAt, PointLaugh">
+      <!--Description:  Possible negative reactions to sim win/losing game.-->
+    </kWatchReactionsNegative>
+    <kMinRadiusToWatch value="1">
+      <!--[Watch] Minimum route radius for sim watching game-->
+    </kMinRadiusToWatch>
+    <kMaxRadiusToWatch value="3">
+      <!--[Watch] Maximum route radius for sim watching game-->
+    </kMaxRadiusToWatch>
+    <kConeAngleForWatch value="1.6">
+      <!--[Watch] Range in Radians. Cone angle allowed for sim watching game.-->
+    </kConeAngleForWatch>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxNumSliders value="4">
+      <!--Max number of Sims allowed to slide-->
+    </kMaxNumSliders>
+    <kMinRouteDistance value="2">
+      <!--Minimum distance Sim should route next to slippy slide when waiting for their turn to slide-->
+    </kMinRouteDistance>
+    <kMaxRouteDistance value="3">
+      <!--Maximum distance Sim should route next to slippy slide when waiting for their turn to slide-->
+    </kMaxRouteDistance>
+    <kChanceFail value="10">
+      <!--Range:  0 - 100  Description:  Chance of Sim getting the failure outcome when sliding-->
+    </kChanceFail>
+    <kReactionPeriod value="3">
+      <!--Max number of Sim minutes between reactions for a Sim that is waiting to slide-->
+    </kReactionPeriod>
+    <kWaitReactions value="Cheer, Excited">
+      <!--Range:  ReactionTypes[]  Description:  possible reactions for sim to play while waiting to slide-->
+    </kWaitReactions>
+    <kSliddingSocialMotiveDelta value="25">
+      <!--Range:  0.0 - Inf  Description: Social motive delta when Sim is sliding and there are other sims there-->
+    </kSliddingSocialMotiveDelta>
+    <kMinPlayWithWaterToysTime value="15">
+      <!--Range:  0.0 - Inf  Description: Minimum amount of time in Sim Minutes Sim must stay on current water toy object before considering switching to another-->
+    </kMinPlayWithWaterToysTime>
+    <kChanceSwitchWaterToy value="50">
+      <!--Range:  0 - 100  Description:  Chance of Sim Switching to a different water toy once min time has been reached-->
+    </kChanceSwitchWaterToy>
+    <kPlantSimMotiveIncrease value="10">
+      <!--How much water motive for PlantSim per use-->
+    </kPlantSimMotiveIncrease>
+  </Current_Tuning>
+</base>

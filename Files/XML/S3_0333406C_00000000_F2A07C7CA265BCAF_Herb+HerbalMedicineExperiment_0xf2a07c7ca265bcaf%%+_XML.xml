@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinScienceSkillLevel value="0">
+      <!--Range:  0 - 10  Description:  The level required in the Science Skill in order to use this interaction-->
+    </kMinScienceSkillLevel>
+    <kScienceSkillGain value="0">
+      <!--Description:  The skill gain the sim will receive to the science skill upon finishing this interaction-->
+    </kScienceSkillGain>
+    <kExperimentLoopDuration value="15">
+      <!--Description:  The duration of the looping portion of the interaction in sim minutes-->
+    </kExperimentLoopDuration>
+    <kSuccessChance value="0.6">
+      <!--Range:  0 - 1  Description:  This is the chance that the interaction will succeed (Higher value means higher success rate).-->
+    </kSuccessChance>
+    <kEpicChance value="0.25">
+      <!--Range:  0 - 1  Description:  The chance for a success or failure to become an Epic success or Epic Failure (Higher value means more epics).-->
+    </kEpicChance>
+    <kSuccessIncreasePerLevel value="0.04">
+      <!--Range:  0 - 1  Description:  This amount is added to kSuccessChance for each level the sim has in the Science skill-->
+    </kSuccessIncreasePerLevel>
+  </Current_Tuning>
+</base>

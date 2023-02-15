@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceForSuccess value="60">
+      <!--Range [float]:  0.0 - 100.0  Description:  The chance that the bloom will succeed as planned.-->
+    </kChanceForSuccess>
+    <kChanceForSuccessFairySkill value="0, 5, 9, 13, 17, 20, 23, 26, 30, 34, 38">
+      <!--Range [float]:  0.0 - 100.0  Description:  Additional Chance for success based on fairy skill in addition to kChanceForSuccess-->
+    </kChanceForSuccessFairySkill>
+    <kChanceForCriticalFail value="2">
+      <!--Range [float]:  0.0 - 100.0  Description:  The chance that the bloom failure will be critical.-->
+    </kChanceForCriticalFail>
+    <kChanceForCriticalFailFairySkill value="45, 37, 29, 21, 13, 8, 5, 3, 2, 1, 0">
+      <!--Range [float]:  0.0 - 100.0  Description:  Additional Chance for critical failure based on fairy skill in addition to kChanceForCriticalFail-->
+    </kChanceForCriticalFailFairySkill>
+    <kChanceForQualityIncreaseFairySkill value="0, 0, 0, 0, 0, 2, 6, 11, 17, 25, 33">
+      <!--Range [float]:  0.0 - 100.0  Description:  Additional Chance for plant blooming to increase quality one level based on fairy skill.-->
+    </kChanceForQualityIncreaseFairySkill>
+    <kMinLevelForBloom value="5">
+      <!--Range [float]:  0.0 - 10.0  Description:  The minimum level of fairy magic to have the bloom interaction.-->
+    </kMinLevelForBloom>
+    <kChanceForQualityDecreaseFairySkill value="2, 5, 7, 12, 20, 25, 33, 44, 55, 66, 75">
+      <!--Range [float]:  0.0 - 100.0  Description:  Additional Chance for failed plant blooming to decrease quality one level based on fairy skill.-->
+    </kChanceForQualityDecreaseFairySkill>
+  </Current_Tuning>
+</base>

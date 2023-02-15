@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kReactRadius value="30">
+      <!--The distance of the other horse to winny back-->
+    </kReactRadius>
+    <kReactLTRThreshold value="-10">
+      <!--The LTR threshold of the other horse to winny back-->
+    </kReactLTRThreshold>
+    <kReactChance value="0.7">
+      <!--The chance of the other horse to winny back-->
+    </kReactChance>
+    <kWinnyMotiveThreshold value="10">
+      <!--The threshold of winny motive, if the current motive is higher than this number, will prevent autonomy winny-->
+    </kWinnyMotiveThreshold>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSpellSuccessEnchant value="80">
+      <!--SpellSuccess: Chance for Enchant Spell to Succeed on the cauldron.  Float chance representing percentage of Success-->
+    </kSpellSuccessEnchant>
+    <kMaxObjectsInCauldron value="3">
+      <!--Maximum number of objects that can be placed in the cauldron.-->
+    </kMaxObjectsInCauldron>
+    <kFadeInAndOutTimeForTeleportation value="2">
+      <!--Fade in and out duration. Positive float. Initial GPE Default: 2f-->
+    </kFadeInAndOutTimeForTeleportation>
+    <kNonsensePotionRepeatTime value="20">
+      <!--NonsensePotion: Time for the effect of the nonsense potion to repeat. SimMinues.  Intial GPE default 20-->
+    </kNonsensePotionRepeatTime>
+    <kBrewPotionTime value="10">
+      <!--Brew potion: Time Time for Brew loop animation to play . SimMinutes.  Intial GPE default 10-->
+    </kBrewPotionTime>
+    <kMaxDrinksPerTeleportPowerPotion value="5">
+      <!--Teleport Powerfull potion drink number.  Number of times you can drink a potion before it dissapears.-->
+    </kMaxDrinksPerTeleportPowerPotion>
+    <kMaxDrinksPerSparklePowerPotion value="1">
+      <!--Sparkle Powerfull potion drink number.  Number of times you can drink a potion before it dissapears.-->
+    </kMaxDrinksPerSparklePowerPotion>
+    <kMaxDrinksPerLibrePowerPotion value="5">
+      <!--Libre Powerfull potion drink number.  Number of times you can drink a potion before it dissapears.-->
+    </kMaxDrinksPerLibrePowerPotion>
+    <kMaxDrinksPerNonsensePotion value="3">
+      <!--Nonosense potion drink number.  Number of times you can drink a potion before it dissapears.-->
+    </kMaxDrinksPerNonsensePotion>
+    <StrongPotionTypeList value="Insect.Terrarium, FoodObjects.LifeFruit, Spawners.Gem, Insect.Terrarium, Fishing.Fish, Spawners.Gem, Spawners.Gem, Spawners.Metal, Fishing.Fish">
+      <!--List of strong Types-->
+    </StrongPotionTypeList>
+    <StrongPotionIDList value="ButterflyKite, Lifefruit, Crazy, BeetleRainbow, RainbowTrout, Rainbow, Diamond, Gold, BlackGoldfish">
+      <!--List of strong Potion IDs-->
+    </StrongPotionIDList>
+    <NonsensePotionTypeList value="FoodObjects.Ingredient, Fishing.Fish, Insect.Terrarium, Spawners.Metal, Spawners.Gem, Spawners.Rock">
+      <!--List of nonsense Types-->
+    </NonsensePotionTypeList>
+    <NonsensePotionIDList value="Ingredient, Fish, Butterfly, Metal, Gem, Rock">
+      <!--List of nonsense potion IDs-->
+    </NonsensePotionIDList>
+    <kEnchantmentCooldownTime value="5">
+      <!--Enchantment Effect Duration.  time until the enchantment dissapears by itself.  Simhours. GPE default 5.0f.-->
+    </kEnchantmentCooldownTime>
+    <kBrewCooldownTime value="6">
+      <!--Brew Effect Duration.  time until the enchantment dissapears by itself.  Simhours. GPE default 3.0f-->
+    </kBrewCooldownTime>
+    <kChanceOfCompletingPotion value="80">
+      <!--Chance that conjuring will complete a potion.  GPE default: 80-->
+    </kChanceOfCompletingPotion>
+    <kChanceConjureItemBase value="80">
+      <!--Chance that each item will conjure successfully.  GPE default: 80-->
+    </kChanceConjureItemBase>
+    <kChanceConjureItemLucky value="20">
+      <!--Bonus chance to conjure successfully if lucky.  GPE default: 20-->
+    </kChanceConjureItemLucky>
+    <kChanceConjureItemUnlucky value="-30">
+      <!--Bonus chance to conjure successfully if unlucky.  GPE default: -30-->
+    </kChanceConjureItemUnlucky>
+    <kConjureEnergyChange value="-30">
+      <!--Energy delta to apply when conjuring.  GPE default: -80.0-->
+    </kConjureEnergyChange>
+    <kEnviromentScore value="75">
+      <!--Enviroment Score-->
+    </kEnviromentScore>
+  </Current_Tuning>
+</base>

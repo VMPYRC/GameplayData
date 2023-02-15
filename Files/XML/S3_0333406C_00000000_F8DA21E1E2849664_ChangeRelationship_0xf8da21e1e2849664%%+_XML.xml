@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxRelationshipChange value="40">
+      <!--[Range: [0,100] Maximum amount that a relationship can change at once-->
+    </kMaxRelationshipChange>
+    <kChanceOfRomanticEscalation value="50">
+      <!--[Range: [0,100] Chance of escalating to the next romance stage when relationship changes-->
+    </kChanceOfRomanticEscalation>
+    <kChanceOfRepeatedRomance value="50">
+      <!--[Range: [0,100] Chance of jumping over several romance levels when choosing to advance romance-->
+    </kChanceOfRepeatedRomance>
+    <kEnemyThreshold value="-50">
+      <!--Threshold for being considered an enemy for story progression- note the sims aren't actually enemies-->
+    </kEnemyThreshold>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

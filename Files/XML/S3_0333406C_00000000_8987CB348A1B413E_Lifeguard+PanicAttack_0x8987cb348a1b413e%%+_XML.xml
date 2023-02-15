@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDrownTimeout value="90">
+      <!--Time in Sim minutes for the Panic animations to time out.-->
+    </kDrownTimeout>
+    <kSocialReactions value="LifeguardSlap, LifeguardInsult, LifeguardYellAt">
+      <!--Possible socials to push on sim when its not rescued by lifeguard. Array of strings.-->
+    </kSocialReactions>
+    <kMinSwimTime value="15">
+      <!--Min Time in Sim minutes for the sim to swim before panicking-->
+    </kMinSwimTime>
+    <kMaxSwimTime value="45">
+      <!--Max Time in Sim minutes for the sim to swim before panicking-->
+    </kMaxSwimTime>
+    <kDistanceSwimAround value="10">
+      <!--Distance from initial swim target that sim will swim around in-->
+    </kDistanceSwimAround>
+    <kChanceToPanic value="0.4">
+      <!--Chance of sim panicking-->
+    </kChanceToPanic>
+  </Current_Tuning>
+</base>

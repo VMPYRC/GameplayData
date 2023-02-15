@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFreeClinicSuccessRatingThreshold value="50, 80">
+      <!--The thresholds (by %success) for the 'ratings' of a clinic session when it's done.  This affects only the flavor text in the TNS.  Format: (TotalSimsTreatedBadToAverageThreshold, TotalSimsTreatedAverageToGoodThreshold)-->
+    </kFreeClinicSuccessRatingThreshold>
+    <kFreeClinicNumSimsToInitiallyBring value="5">
+      <!--Number of random Sims we bring from around town to come to start the free clinic Session.  Note that more Sims than this will ultimately be involved in the free clinic Session due to being sucked in by the broadcaster.-->
+    </kFreeClinicNumSimsToInitiallyBring>
+    <kFreeClinicMaxSimsInSessionAtAnyOneTime value="8">
+      <!--Max Sims that the free clinic Session will hold.  Setting this too high will cause performance problems.  If a new Sim routes into the broadcaster but the free clinic Session already has this max number of free clinic seekers then the new Sim will continue on their way & not ask for an free clinic.-->
+    </kFreeClinicMaxSimsInSessionAtAnyOneTime>
+    <kFreeClinicMaxDistanceForAutonomousSign value="10">
+      <!--Max number of tiles between the free clinic Sim and the Fan in order for the free clinic Sim to *autonomously* free clinic.  This prevents the free clinic Sim from autonomously routing to another Lot to free clinic (since the radius of the reaction broadcaster for the free clinic Session is so large).-->
+    </kFreeClinicMaxDistanceForAutonomousSign>
+    <kFreeClinicSessionMaxDurationInHours value="4">
+      <!--Max number of Sim hours that the free clinic session will last for.  Time starts when free clinic Sim enters the range of the broadcaster (and hence doesn't start if they route fail before getting there). MUST be greater than 1 (i.e. 2 or more) because we're popping up a TNS with 1 hour remaining telling Players they have 1 hour left, if this is an issue come see JJ.-->
+    </kFreeClinicSessionMaxDurationInHours>
+    <kFreeClinicPerformanceChanges value="-10, 8, 14">
+      <!--Career performance change based on success thresholds-->
+    </kFreeClinicPerformanceChanges>
+    <kFreeClinicHandledSimBonus value="2">
+      <!--Career performance change based on handling a sim-->
+    </kFreeClinicHandledSimBonus>
+    <kFreeClinicIgnoredSimPenalty value="-15">
+      <!--Career performance change based on handling a sim-->
+    </kFreeClinicIgnoredSimPenalty>
+  </Current_Tuning>
+</base>

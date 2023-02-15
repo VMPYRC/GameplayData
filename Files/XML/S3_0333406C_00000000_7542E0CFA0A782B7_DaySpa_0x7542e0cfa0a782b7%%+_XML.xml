@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMassageCosts value="50, 250, 500">
+      <!--Range:  Positive integers  Description:  The costs for the various Massage types-->
+    </kMassageCosts>
+    <kMassageTimes value="60, 90, 120">
+      <!--Range:  Positive floats  Description:  The time, in Sim minutes, for the various Massage types-->
+    </kMassageTimes>
+    <kMassageBuffs value="Relaxed, Relaxed, Relaxed">
+      <!--Range:  Buffs  Description:  The buff that the various Massages give-->
+    </kMassageBuffs>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="0" />
+      <CameraPitchOnRabbithole value="-35">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="50">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <MapTagFilterType value="PublicSpacesAndActivities">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <kInvestCost value="15000">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="35000">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="2500">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="4000">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="2500">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="1000000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kCanInvestHere value="True">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kNpcExitFreq value="10">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kNighttimeLightSunsetDelta value="1">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kPreventLotPurchase value="True">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="True">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+    <kFacialCosts value="50, 200, 500">
+      <!--Range:  Positive integers  Description:  The costs for the various Facial types-->
+    </kFacialCosts>
+    <kFacialTimes value="90, 90, 90">
+      <!--Range:  Positive floats  Description:  The time, in Sim minutes, for the various Facial types-->
+    </kFacialTimes>
+    <kFacialBuffs value="SmoothSkin, SmoothSkin, SmoothSkin">
+      <!--Range:  Buffs  Description:  The buff that the various Facials give-->
+    </kFacialBuffs>
+    <kTreatmentCosts value="250, 750, 1500">
+      <!--Range:  Positive integers  Description:  The costs for the various Treatment types-->
+    </kTreatmentCosts>
+    <kTreatmentTimes value="120, 120, 120">
+      <!--Range:  Positive floats  Description:  The time, in Sim minutes, for the various Treatment types-->
+    </kTreatmentTimes>
+    <kTreatmentBuffs value="Rejuvinated, Rejuvinated, Rejuvinated">
+      <!--Range:  Buffs  Description:  The buff that the various Treatments give-->
+    </kTreatmentBuffs>
+    <kSalonCosts value="25, 50, 100">
+      <!--Range:  Positive integers  Description:  The costs for the various Salon types-->
+    </kSalonCosts>
+    <kSalonTimes value="60, 60, 60">
+      <!--Range:  Positive floats  Description:  The time, in Sim minutes, for the various Salon types-->
+    </kSalonTimes>
+    <kSalonBuffs value="NiceNails, NiceNails, NiceNails">
+      <!--Range:  Buffs  Description:  The buff that the various Salons give-->
+    </kSalonBuffs>
+    <kPackageCosts value="1000, 3000, 7500">
+      <!--Range:  Positive integers  Description:  The costs for the various Package types-->
+    </kPackageCosts>
+    <kPackageTimes value="360, 360, 360">
+      <!--Range:  Positive floats  Description:  The time, in Sim minutes, for the various Package types-->
+    </kPackageTimes>
+    <kPackageBuffs value="CompletelyAtEase, CompletelyAtEase, CompletelyAtEase">
+      <!--Range:  Buffs  Description:  The buff that the various Packages give-->
+    </kPackageBuffs>
+    <kMassageMoodBoosts value="25, 50,75">
+      <!--Range:  Positive integers  Description:  Mood boosts for Massage buffs-->
+    </kMassageMoodBoosts>
+    <kMassageStressRemovals value="1,2,3">
+      <!--Range:  Positive integers  Description:  Stressful buffs that Massage removes at different strengths (-1 for all)-->
+    </kMassageStressRemovals>
+    <kFacialMoodBoosts value="10, 20, 30">
+      <!--Range:  Positive integers  Description:  Mood boosts for Facial buffs-->
+    </kFacialMoodBoosts>
+    <kFacialStressRemovals value="0, 0, 0">
+      <!--Range:  Positive integers  Description:  Stressful buffs that Facial removes at different strengths (-1 for all)-->
+    </kFacialStressRemovals>
+    <kTreatmentMoodBoosts value="30, 60, 100">
+      <!--Range:  Positive integers  Description:  Mood boosts for Treatment buffs-->
+    </kTreatmentMoodBoosts>
+    <kTreatmentStressRemovals value="5, 5, 5">
+      <!--Range:  Positive integers  Description:  Stressful buffs that Treatment removes at different strengths (-1 for all)-->
+    </kTreatmentStressRemovals>
+    <kSalonMoodBoosts value="5, 10, 15">
+      <!--Range:  Positive integers  Description:  Mood boosts for Salon buffs-->
+    </kSalonMoodBoosts>
+    <kSalonStressRemovals value="0, 0, 0">
+      <!--Range:  Positive integers  Description:  Stressful buffs that Salon removes at different strengths (-1 for all)-->
+    </kSalonStressRemovals>
+    <kPackageMoodBoosts value="20, 40, 75">
+      <!--Range:  Positive integers  Description:  Mood boosts for Package buffs-->
+    </kPackageMoodBoosts>
+    <kPackageStressRemovals value="5, 5, 5">
+      <!--Range:  Positive integers  Description:  Stressful buffs that Package removes at different strengths (-1 for all)-->
+    </kPackageStressRemovals>
+  </Current_Tuning>
+</base>

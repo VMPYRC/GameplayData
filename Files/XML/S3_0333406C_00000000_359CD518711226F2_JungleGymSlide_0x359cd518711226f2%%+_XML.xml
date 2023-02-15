@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kJungleGymTuning>
+      <MaximumQueueLength value="6">
+        <!--Slide: Queue for ladder. Lookout Tower: Queue for pole to slide down. For the look out tower, any number more than 4 does not make sense. Positive integer. At least 1. Initial GPE default: 4-->
+      </MaximumQueueLength>
+      <TimeToWaitInQueue value="60">
+        <!--Slide: Queue for ladder. Lookout Tower: Queue for pole to slide down. Units: Sim minutes. Positive integer. Initial GPE default: 20-->
+      </TimeToWaitInQueue>
+      <TimeSpentBeforeSwitchingToAnotherObject value="20">
+        <!--When a sim is playing on playground, the sim spends at least this much time on the obejct. Units: Sim minutes. Positive float. Initial GPE default: 20.0f-->
+      </TimeSpentBeforeSwitchingToAnotherObject>
+      <HangOutTimeMin value="0.5">
+        <!--Time spent on the given Jungle gym object before sliding down. Positive float.-->
+      </HangOutTimeMin>
+      <HangOutTimeMax value="1.5">
+        <!--Max time spent on jungle gym object before sliding down.-->
+      </HangOutTimeMax>
+    </kJungleGymTuning>
+    <kLineSlotMinDistance value="1">
+      <!--Distance from the slide's entry routing slot to the beginning of the head of the line. Initial GPE value: 1.0f-->
+    </kLineSlotMinDistance>
+    <kLineSlotMaxDistance value="2">
+      <!--Distance from the slide's entry routing slot to the end of the head of the line.  Initial GPE value: 2.0f-->
+    </kLineSlotMaxDistance>
+    <kLineLength value="2">
+      <!--Total length of the line, measured from the end of the head of the line. Initial GPE value: 2.0f-->
+    </kLineLength>
+    <kLineStartAngle value="0.7853982">
+      <!--The angle (width in radians) of the cone shape that represents the head of the line. Initial GPE value: 0.785375f (Pi / 4).-->
+    </kLineStartAngle>
+    <kLineAngle value="0.7853982">
+      <!--The angle (width in radians) of the cone shape that represents the line. Initial GPE value: 0.785375f (Pi / 4).-->
+    </kLineAngle>
+    <kLineStartSpacingFactor value="2">
+      <!--Spacing factor of routing options for line head. Positive float. Init GPE default: 2.0f-->
+    </kLineStartSpacingFactor>
+    <kLineSpacingFactor value="2">
+      <!--Spacing factor of routing options for line. Positive float. Init GPE default: 2.0f-->
+    </kLineSpacingFactor>
+  </Current_Tuning>
+</base>

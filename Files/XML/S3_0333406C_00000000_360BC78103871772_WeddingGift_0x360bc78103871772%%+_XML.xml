@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxNumberOfGiftsPerDay value="4">
+      <!--Maximum number of wedding gifts Just married couple should receive per day-->
+    </kMaxNumberOfGiftsPerDay>
+    <kMinLTRToGiveGift value="40">
+      <!--Minimum LTR sim must have to decide to give newly weds a gift-->
+    </kMinLTRToGiveGift>
+    <kLTRGainForThankYouCard value="6">
+      <!--LTR increase between gift giver and both married sims when Thank You card sent-->
+    </kLTRGainForThankYouCard>
+    <kWeddingGiftTuning>
+      <GiftBuyCategories value="kBuyCategoryAppliances, kBuyCategoryComfort, kBuyCategoryDecor, kBuyCategoryElectronics, kBuyCategoryEntertainment">
+        <!--Range:  BuildBuyProduct.eBuyCategory[]  Description:  Buy Categories we can pick gifts from-->
+      </GiftBuyCategories>
+      <GiftBuySubCategories value="kBuySubCategorySmallAppliances, kBuySubCategoryAudio, kBuySubCategoryHobbiesAndSkills, kBuySubCategorySportingGoods, kBuySubCategorySculptures, kBuySubCategoryPaintingsAndPosters">
+        <!--Range:  BuildBuyProduct.eBuySubCategory[]  Description:  Buy Sub Categories we can pick gifts from-->
+      </GiftBuySubCategories>
+      <GiftBuyRoomSubCategories value="kBuyRoomSubCategorySmallAppliances, kBuyRoomSubCategoryAudio, kBuyRoomSubCategoryHobbiesAndSkills, kBuyRoomSubCategoryIndoorActivities, kBuyRoomSubCategoryOutdoorActivities, kBuyRoomSubCategoryLawnOrnaments, kBuyRoomSubCategoryPaintingsAndPostersForGrownUps, kBuyRoomSubCategoryVideoGames, kBuyRoomSubCategoryClocks">
+        <!--BuildBuyProduct.eBuyRoomSubCategory[]  Description:  Buy Room sub categories we can pick gifts from-->
+      </GiftBuyRoomSubCategories>
+      <GiftBuySubCategories2 value="">
+        <!--Range:  BuildBuyProduct.eBuySubCategory2[]  Description:  Buy Sub Categories we can pick gifts from sub category set 2-->
+      </GiftBuySubCategories2>
+      <CanGiveRepeats value="False">
+        <!--True if allowed to get the same gift more than once.  False if should only give each gift once-->
+      </CanGiveRepeats>
+    </kWeddingGiftTuning>
+  </Current_Tuning>
+</base>

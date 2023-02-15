@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteRadiusToPickUp value="0.5">
+      <!--Distance away from the hoverboard that the sim will route to in order to pick it up.-->
+    </kRouteRadiusToPickUp>
+    <kMinimumDistanceToUseHoverboard value="10">
+      <!--Minimum distance (squared) of a route that a sim can use a hoverboard.-->
+    </kMinimumDistanceToUseHoverboard>
+    <kHoverboardMedatorInstanceNames value="hoverboard">
+      <!--Comma-Separated List of Hoverboard Medator Instance Names that will be used when giving random hoverboards-->
+    </kHoverboardMedatorInstanceNames>
+    <kFallChance value="75, 65, 55, 50, 25, 10, 5, 0, 0, 0, 0">
+      <!--Chance of falling at the end of the route, from level 0 to level 10 of Future skill.  Percent (0-100)-->
+    </kFallChance>
+    <kTrickChance value="0, 0, 0, 0, 0, 0, 0, 40, 55, 70, 90">
+      <!--Chance of doing a trick at the end of the route, from level 0 to level 10 of Future skill.  Percent (0-100)-->
+    </kTrickChance>
+    <kAdditionalFallChanceIfClumsy value="15">
+      <!--This is added to kFallChance if the Sim has the Clumsy trait. Percent (0-100)-->
+    </kAdditionalFallChanceIfClumsy>
+    <kFunGainPerRide value="2">
+      <!--Every time the Sim gets on a hoverboard, their Fun motive will increase by this amount-->
+    </kFunGainPerRide>
+    <kFutureSkillLevelsNeeded value="0, 4, 7">
+      <!--Future Skill Levels needed for Low, Medium, High Skill - determines profiency / speed of using the hoverboard - PAB-->
+    </kFutureSkillLevelsNeeded>
+    <kFutureSkillGainPerHour value="75">
+      <!--For every Sim hour a Sim spends on a hoverboard, they will gain this many Future Skill points-->
+    </kFutureSkillGainPerHour>
+  </Current_Tuning>
+</base>

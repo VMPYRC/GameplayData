@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>MagicWand</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>268</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>575</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>8</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Turn a Sim into a Toad</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCastToadify</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>269</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/1fda0c03-5d55-4d69-b16f-926a57113ad6:Name</NameKey>
+    <Name>Total Toadification</Name>
+    <SetName>MagicWand</SetName>
+    <ChallengeGuid>1fda0c03-5d55-4d69-b16f-926a57113ad6</ChallengeGuid>
+    <ExportVersion>6</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>268</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/1fda0c03-5d55-4d69-b16f-926a57113ad6:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\magicWand_41.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_silver_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>467</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>604</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>50</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Succeed at $Interaction</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Interaction</SubjectType>
+        <KeyValue>Sims3.Gameplay.Objects.Alchemy.MagicWand+SpellcastingDuel+Definition</KeyValue>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SucceedAtInteractionFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kInteractionSuccess</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>468</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/39544466-c029-446d-ab68-5b2fe83c79d1:Name</NameKey>
+    <Name>Spellslinger</Name>
+    <SetName>MagicWand</SetName>
+    <ChallengeGuid>39544466-c029-446d-ab68-5b2fe83c79d1</ChallengeGuid>
+    <ExportVersion>6</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>467</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/39544466-c029-446d-ab68-5b2fe83c79d1:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\magicwand_65.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_platinum_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>684</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>577</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>25</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Cast a Charm</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCastCharm</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>685</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/51ba1d33-23ba-4f6d-97eb-87821268cb6e:Name</NameKey>
+    <Name>Thuaumaturgist</Name>
+    <SetName>MagicWand</SetName>
+    <ChallengeGuid>51ba1d33-23ba-4f6d-97eb-87821268cb6e</ChallengeGuid>
+    <ExportVersion>6</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>684</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/51ba1d33-23ba-4f6d-97eb-87821268cb6e:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\magicWand_40.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_silver_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

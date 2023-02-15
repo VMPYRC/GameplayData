@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceOfSpawningDigSpot value="0.25">
+      <!--Range 0.0 - 1.0.  The chance a spawner will attempt to spawn a dig spot instead of the normally spawned objects.-->
+    </kChanceOfSpawningDigSpot>
+    <kSkillLevelNeededToDigUpDigSpots value="1">
+      <!--Range 0-10. Skill level required to dig up spawnable dig spots-->
+    </kSkillLevelNeededToDigUpDigSpots>
+    <kMinMaxChanceFindHuntable value="30, 80">
+      <!--Range 0-100, Min/Max chance of dog succesfully finding huntable linearly interpolated based on dog's hunting skill level.-->
+    </kMinMaxChanceFindHuntable>
+    <kMinsUntilMaptagsFade value="360">
+      <!--Time until dog hunting map tags fade after locate collectible interaction is run-->
+    </kMinsUntilMaptagsFade>
+    <kNumGemsForGemFinder value="50">
+      <!--Number of gems needed for Gem Finder LifetimeOpp-->
+    </kNumGemsForGemFinder>
+    <kNumMetalsForMetalFinder value="50">
+      <!--Number of metals needed for Metal Finder LifetimeOpp-->
+    </kNumMetalsForMetalFinder>
+    <kNumRocksForRockFinder value="50">
+      <!--Number of rocks needed for Rock Finder LifetimeOpp-->
+    </kNumRocksForRockFinder>
+    <kSkillLevelNeededToFetchDates value="5">
+      <!--Range 0-10. Skill level required to dig up spawnable dig spots-->
+    </kSkillLevelNeededToFetchDates>
+  </Current_Tuning>
+</base>

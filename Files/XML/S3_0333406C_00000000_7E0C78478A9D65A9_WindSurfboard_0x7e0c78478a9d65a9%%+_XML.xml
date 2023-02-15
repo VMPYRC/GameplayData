@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPerformTrickChances value="0.1, 0.2, 0.2, 0.3, 0.3, 0.3, 0.4, 0.4, 0.4, 0.5, 0.5">
+      <!--Range: 0-1.0; Chance of performing a trick during each route segment of GoWindsurfing interaction per windsurfing skill level.-->
+    </kPerformTrickChances>
+    <kSucceedTrickChances value="0, 0.05, 0.12, 0.18, 0.3, 0.5, 0.65, 0.8, 0.9, 0.95, 1">
+      <!--Range: 0-1.0; Chance of succeeding when performing a trick per level of windsurfing skill.-->
+    </kSucceedTrickChances>
+    <kSkillPointsPerHour value="100">
+      <!--Unit: skill points / hour; Amount of Windsurfing skill a sim gains per hour when using the WindSurfBoard to route.-->
+    </kSkillPointsPerHour>
+    <kViewMinDist value="2">
+      <!--Unit: Sim meters; Min view distance when sims route to view the surf board.-->
+    </kViewMinDist>
+    <kViewMaxDist value="4">
+      <!--Unit: Sim meters; Max view distance when sims route to view the surf board.-->
+    </kViewMaxDist>
+  </Current_Tuning>
+</base>

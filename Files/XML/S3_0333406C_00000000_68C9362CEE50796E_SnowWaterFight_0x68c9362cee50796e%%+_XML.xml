@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBaseHitChance value="50">
+      <!--Description: Base chance to hit.-->
+    </kBaseHitChance>
+    <kPositiveTraits value="Athletic, Lucky, Brave, Daredevil, Disciplined">
+      <!--Traits that positively affect the hit calculation.-->
+    </kPositiveTraits>
+    <kNegativeTraits value="Clumsy, AbsentMinded, Unlucky, Loser">
+      <!--Traits that negatively affect the hit calculation.-->
+    </kNegativeTraits>
+    <kPositiveBuffs value="WellRested, AdrenalineRush">
+      <!--Buffs that positively affect the hit calculation.-->
+    </kPositiveBuffs>
+    <kNegativeBuffs value="Exhausted">
+      <!--Buffs that negatively affect the hit calculation.-->
+    </kNegativeBuffs>
+    <kModifierPerBallFightingSkillLevel value="-20, 0, 15, 30">
+      <!--Description: Modifier to the hit calculation per level of ball fight skill.-->
+    </kModifierPerBallFightingSkillLevel>
+    <kModifierPerPositiveTrait value="5">
+      <!--Description: Modifier to the hit calculation per positive trait.-->
+    </kModifierPerPositiveTrait>
+    <kModifierPerNegativeTrait value="-5">
+      <!--Description: Modifier to the hit calculation per negative trait.-->
+    </kModifierPerNegativeTrait>
+    <kModifierPerPositiveBuff value="5">
+      <!--Description: Modifier to the hit calculation per positive buff.-->
+    </kModifierPerPositiveBuff>
+    <kModifierPerNegativeBuff value="-5">
+      <!--Description: Modifier to the hit calculation per negative buff.-->
+    </kModifierPerNegativeBuff>
+    <kModifierForSimBot value="25">
+      <!--Description: Modifier to the hit calculation for being a SimBot. (Will be applied such that the value is a bonus to throwing and dodging)-->
+    </kModifierForSimBot>
+    <kChanceForSimBotToShortOut value="5">
+      <!--Description: Chance for a SimBot to short out everytime it is hit.-->
+    </kChanceForSimBotToShortOut>
+    <kNumTargetedThrows value="5">
+      <!--Description: Number of throws at a targeted player before the targeting wears off.-->
+    </kNumTargetedThrows>
+    <kWaitForJoinsThreshold value="60">
+      <!--Positive Integer, Description: How many sim minutes to wait for more than 1 sim to join the fight before it gives up and tells all sims to cancel.-->
+    </kWaitForJoinsThreshold>
+    <kNumFestivalTicketsForWinning value="25">
+      <!--Range:  1 - Inf  Description: Number of festival tickets the winner gets.-->
+    </kNumFestivalTicketsForWinning>
+    <kNumFestivalTicketsForNotWinning value="5">
+      <!--Range:  1 - Inf  Description: Number of festival tickets the non winners get.-->
+    </kNumFestivalTicketsForNotWinning>
+    <kPlantSimMotivePerWaterBalloon value="5">
+      <!--Amount of Hygiene that PlantSim gets per water balloon.-->
+    </kPlantSimMotivePerWaterBalloon>
+  </Current_Tuning>
+</base>

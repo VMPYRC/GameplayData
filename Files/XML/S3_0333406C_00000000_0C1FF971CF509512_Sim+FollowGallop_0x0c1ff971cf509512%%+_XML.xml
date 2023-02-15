@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFollowDistanceAwayFromDestinationMin value="3">
+      <!--Follow gallop does a radial range route to the leader's destination with a min and max radius.-->
+    </kFollowDistanceAwayFromDestinationMin>
+    <kFollowDistanceAwayFromDestinationMax value="8">
+      <!--Follow gallop does a radial range route to the leader's destination with a min and max radius.-->
+    </kFollowDistanceAwayFromDestinationMax>
+    <kFollowerReactionChance value="25">
+      <!--The chance that a follow gallop horse performs a post gallop reaction (the leader always performs a reaction).-->
+    </kFollowerReactionChance>
+    <kFollowSpacing value="3">
+      <!--The spacing of the points of the follow gallop's radial range route to the leader's destination.  This will affect the end spacing of the horses but is not exactly the end spacing (see a GPE for more info).-->
+    </kFollowSpacing>
+  </Current_Tuning>
+</base>

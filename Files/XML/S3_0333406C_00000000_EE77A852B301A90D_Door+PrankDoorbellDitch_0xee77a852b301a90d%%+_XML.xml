@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinWanderDistance value="7">
+      <!--The min distance the Sim will try to wander from the door after ringing the doorbell.-->
+    </kMinWanderDistance>
+    <kMaxWanderDistance value="12">
+      <!--The max distance the Sim will try to wander from the door after ringing the doorbell.-->
+    </kMaxWanderDistance>
+    <kGiggleDuration value="30">
+      <!--The max amount of time a Sim will giggle after they rang they doorbell and ran away.  Note this should be long enough to provide enough time for the Prankee to route outside and look around.  Also, once they Prankee reacts the Prankster will stop giggleing regardless if the max time was reached.-->
+    </kGiggleDuration>
+  </Current_Tuning>
+</base>

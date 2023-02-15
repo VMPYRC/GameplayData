@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLookAtThresholdPickUp value="140">
+      <!--Look-at threshold to apply while Sim is actively picking up an object.-->
+    </kLookAtThresholdPickUp>
+    <kLookAtThresholdPutDown value="140">
+      <!--Look-at threshold to apply while Sim is actively putting down an object.-->
+    </kLookAtThresholdPutDown>
+    <kLookAtThresholdInventory value="-1">
+      <!--Look-at threshold to apply while Sim is actively using inventory animations.-->
+    </kLookAtThresholdInventory>
+    <kFadeTime value="0.3">
+      <!--Fade in/out time (in real-time seconds) when putting down an object.-->
+    </kFadeTime>
+    <kMaxSurfaceDist value="20">
+      <!--The maximum distance a sim will travel to a surface to put down a held object.-->
+    </kMaxSurfaceDist>
+  </Current_Tuning>
+</base>

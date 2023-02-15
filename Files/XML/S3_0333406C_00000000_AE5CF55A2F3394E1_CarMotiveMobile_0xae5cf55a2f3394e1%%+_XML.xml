@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCarTuning>
+      <Speed value="18">
+        <!--Car speed in meters / second (second = Sim minute).-->
+      </Speed>
+      <Acceleration value="5">
+        <!--Car acceleration in meters / second^2 (second = Sim minute).-->
+      </Acceleration>
+    </kCarTuning>
+    <kTimeBetweenMotiveUpdates value="1">
+      <!--Time in sim minutes between motive updates for the sim riding.-->
+    </kTimeBetweenMotiveUpdates>
+    <kCommoditiesToUpdate value="Fun, Hunger, Hygiene, Energy, Bladder, Social, DogDestruction, CatScratch, BatteryPower, Maintenence">
+      <!--List of commodities to update while riding in the Motive Mobile.-->
+    </kCommoditiesToUpdate>
+    <kCommoditiesToUpdateDeltas value="5, 5, 5, 5, 5, 5, 5, 5, 5, 5">
+      <!--List of values to update each commodity when the motives get updated.  Should match the commodities listed in 'kCommoditiesToUpdate'.-->
+    </kCommoditiesToUpdateDeltas>
+    <kCommoditiesToUpdateMaxLevels value="60, 100, 100, 70, 100, 30, 100, 100, 100, 100">
+      <!--List of maximum values to update each commodity to when the motives get updated.  Motives will not be updated past this value.  Should match the commodities listed in 'kCommoditiesToUpdate'.-->
+    </kCommoditiesToUpdateMaxLevels>
+    <kDistanceToMoveMotiveMobileForward value="2">
+      <!--Distance the motive mobile should be moved forward to give the illusion that the sim is entering the rear of the van.-->
+    </kDistanceToMoveMotiveMobileForward>
+  </Current_Tuning>
+</base>

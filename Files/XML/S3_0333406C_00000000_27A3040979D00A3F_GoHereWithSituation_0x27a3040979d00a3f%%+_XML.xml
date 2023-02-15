@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinutesToStart value="60">
+      <!--Time to wait for the situation to start, in minutes.-->
+    </kMinutesToStart>
+    <kNumberOfTimesToRoute value="3">
+      <!--Number of times for a following sim to try a route as part of this interaction.-->
+    </kNumberOfTimesToRoute>
+    <kMinFollowerRadius value="1">
+      <!--Min radius to use when routing followers to meet up points.-->
+    </kMinFollowerRadius>
+    <kMaxFollowerRadius value="3.5">
+      <!--Max radius to use when routing followers to meet up points.-->
+    </kMaxFollowerRadius>
+    <kMinutesToTimeout value="60">
+      <!--Time to wait for the situation to stall, in minutes.-->
+    </kMinutesToTimeout>
+    <kFollowerArcDegs value="60">
+      <!--Defines the cone in which followers will group up in behind the leader.-->
+    </kFollowerArcDegs>
+    <kFollowerRandomWeighting value="0.7">
+      <!--Defines the amount [0..1] of randomness followers will use when choosing meet up points.-->
+    </kFollowerRandomWeighting>
+    <kSecondsToPauseBeforeRoutingMin value="20">
+      <!--Amount of time (secs) for followers to pause before routing - this helps the leader not be blocked.-->
+    </kSecondsToPauseBeforeRoutingMin>
+    <kSecondsToPauseBeforeRoutingMax value="50">
+      <!--Amount of time (secs) for followers to pause before routing - this helps the leader not be blocked.-->
+    </kSecondsToPauseBeforeRoutingMax>
+    <kMinutesToTimeoutMummyMultiplier value="3">
+      <!--kMinutesToTimeout is multiplied by this amount if there is a mummy in the list of followers.  Mummies walk really slow.-->
+    </kMinutesToTimeoutMummyMultiplier>
+    <kSecondsToPauseBeforeReleasingMin value="20">
+      <!--Amount of time (secs) for followers to pause before being released from the situation - this helps the leader not be blocked.-->
+    </kSecondsToPauseBeforeReleasingMin>
+    <kSecondsToPauseBeforeReleasingMax value="125">
+      <!--Amount of time (secs) for followers to pause before being released from the situation - this helps the leader not be blocked.-->
+    </kSecondsToPauseBeforeReleasingMax>
+    <kLargeNumberOfFollowers value="4">
+      <!--If there are more followers than this (including the leader), the randomness, the follower radius, and the number of cones increases.-->
+    </kLargeNumberOfFollowers>
+    <kRandomnessIncreasePerFollowerOverLarge value="0.1">
+      <!--The randomness increases additively this amount per follower over kLargeNumberOfFollowers (capping at 1.0f)-->
+    </kRandomnessIncreasePerFollowerOverLarge>
+    <kMaxFollowerRadiusIncreasePerFollowerOverLarge value="0.375">
+      <!--The max follower radius increases additively this amount per follower over kLargeNumberOfFollowers.-->
+    </kMaxFollowerRadiusIncreasePerFollowerOverLarge>
+    <kLTRMinForRidingHorse value="-10">
+      <!--Range:  0 - 100  Description:  Min LTR value between sim and horse to be able to be ridden-->
+    </kLTRMinForRidingHorse>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinimumTimeToResponse value="3">
+      <!--Minimum time in hours before Sim gets a response to a posting.-->
+    </kMinimumTimeToResponse>
+    <kAverageTimeToExpire value="24">
+      <!--Time in hours before a posting expires.-->
+    </kAverageTimeToExpire>
+    <kAverageTimeToDelete value="48">
+      <!--Time in hours before a posting is deleted and no longer spawns interactions on the computer.-->
+    </kAverageTimeToDelete>
+  </Current_Tuning>
+</base>

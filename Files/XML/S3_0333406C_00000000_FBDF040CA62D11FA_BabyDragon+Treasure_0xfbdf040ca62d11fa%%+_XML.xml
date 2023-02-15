@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceOfFish value="15">
+      <!--Range: 0-100.  Description: Chance that Treasure interaction will produce a fish.-->
+    </kChanceOfFish>
+    <kTreasureList value="Diamond, Emerald, Ruby, Tanzanite, Aqua, Smoky, Pink, Yellow, Rainbow, Crazy, Gold">
+      <!--Range: RockGemMetal.  Description: List of possible treasures to receive from this interaction.-->
+    </kTreasureList>
+    <kFishList value="Goldfish">
+      <!--Range: FishType.  Description: List of possible fishes to receive from this interaction.-->
+    </kFishList>
+    <kCoolDown value="60">
+      <!--Range: Float.  Description: Time in Sim minutes that Treasure interaction has to cool-off before it can be run again.-->
+    </kCoolDown>
+  </Current_Tuning>
+</base>

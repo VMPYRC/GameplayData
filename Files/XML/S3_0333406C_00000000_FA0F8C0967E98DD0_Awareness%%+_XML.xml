@@ -1,0 +1,1866 @@
+<?xml version="1.0"?>
+<Awareness>
+<Overlay>
+  <Overlay></Overlay>
+  <Frequency>1</Frequency>
+  <AnimName></AnimName>
+  <ProductVersion>BaseGame</ProductVersion>
+  <AgeSpeciesAvailability>Human</AgeSpeciesAvailability>
+  <JazzGraph></JazzGraph>
+  <LoopCounts></LoopCounts>
+  <RequiredPosture></RequiredPosture>
+  <EnterState></EnterState>
+  <OverlayFace></OverlayFace>
+  <OverlayHead></OverlayHead>
+  <OverlayArmsAndHead></OverlayArmsAndHead>
+  <OverlayTorso></OverlayTorso>
+  <ExitState></ExitState>
+  <FacialIdle>False</FacialIdle>
+  <HasAudio>False</HasAudio>
+  <AllowLookAt>True</AllowLookAt>
+  <Xevents></Xevents>
+ </Overlay>
+<Overlay>
+  <Overlay>GroupTalk</Overlay>
+  <AnimName>a_soc_talkRespond_agree_enlightened_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>GroupTalk</Overlay>
+  <AnimName>a_soc_talkRespond_agree_laugh_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>GroupTalk</Overlay>
+  <AnimName>a_soc_talkRespond_agree_totally_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>GroupTalk</Overlay>
+  <AnimName>a_soc_talkRespond_disagree_correction_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>GroupTalk</Overlay>
+  <AnimName>a_soc_talkRespond_disagree_disgust_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>GroupTalk</Overlay>
+  <AnimName>a_soc_talkRespond_disagree_holdOn_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>GroupListenAccept</Overlay>
+  <AnimName>a_soc_talkListen_agree_funny_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>GroupListenAccept</Overlay>
+  <AnimName>a_soc_talkListen_agree_wow_x</AnimName>
+  <OverlayFace>a_soc_talkListen_agree_funny_x</OverlayFace>
+  <OverlayHead>a_soc_talkListen_agree_funny_x</OverlayHead>
+  <HasAudio>True</HasAudio>
+  <AllowLookAt>False</AllowLookAt>
+ </Overlay>
+<Overlay>
+  <Overlay>GroupListenAccept</Overlay>
+  <AnimName>a_soc_talkListen_agreeEager_x</AnimName>
+  <OverlayFace>a_soc_talkListen_agree_funny_x</OverlayFace>
+  <OverlayHead>a_soc_talkListen_agree_funny_x</OverlayHead>
+  <HasAudio>True</HasAudio>
+  <AllowLookAt>False</AllowLookAt>
+ </Overlay>
+<Overlay>
+  <Overlay>GroupListenReject</Overlay>
+  <AnimName>a_soc_talkListen_disagree_high_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>GroupListenReject</Overlay>
+  <AnimName>a_soc_talkListen_disagree_kiddingMe_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>GroupListenReject</Overlay>
+  <AnimName>a_soc_talkListen_disagree_low_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>GroupListenReject</Overlay>
+  <AnimName>a_soc_talkListen_disagree_med_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>GroupListenReject</Overlay>
+  <AnimName>a_soc_talkListen_disagree_wince_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitAbsentMinded</Overlay>
+  <AnimName>a_trait_absentminded_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitAbsentMinded2</Overlay>
+  <AnimName>a_trait_stupid_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitAbsentMinded3</Overlay>
+  <AnimName>a_trait_stupid2_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitAthletic</Overlay>
+  <AnimName>a_trait_athletic_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitChildish</Overlay>
+  <AnimName>a_trait_excitable_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitCouchPotato</Overlay>
+  <AnimName>a_trait_couchPotato_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitCoward</Overlay>
+  <AnimName>a_trait_coward_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitCoward2</Overlay>
+  <AnimName>a_trait_coward3_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitDislikesChildren</Overlay>
+  <AnimName>a_trait_dislikesChildren_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitEvil</Overlay>
+  <AnimName>a_react_evilLaugh_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitEvil2</Overlay>
+  <AnimName>a_trait_evil_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitExcitable</Overlay>
+  <AnimName>a_trait_excitable_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitExcitable2</Overlay>
+  <AnimName>a_trait_excitable2_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitGenius</Overlay>
+  <AnimName>a_trait_genius_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitGenius2</Overlay>
+  <AnimName>a_trait_genius2_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitGoodSenseOfHumor</Overlay>
+  <AnimName>a_trait_humorous_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitGrumpy</Overlay>
+  <AnimName>a_idle_grumpy_muttering01_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitGrumpy2</Overlay>
+  <AnimName>a_idle_grumpy_muttering02_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitGrumpy3</Overlay>
+  <AnimName>a_trait_gloomy_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitGrumpy4</Overlay>
+  <AnimName>a_trait_gloomy2_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitHopelessRomantic</Overlay>
+  <AnimName>a_react_pining_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitHotHeaded</Overlay>
+  <AnimName>a_react_annoyed_sigh_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitInappropriate</Overlay>
+  <AnimName>a_trait_rude_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitInsane</Overlay>
+  <AnimName>a_trait_insane_catchfly</AnimName>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitLoser</Overlay>
+  <AnimName>a_trait_crybaby_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitLoser2</Overlay>
+  <AnimName>a_trait_crybaby2_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitMean</Overlay>
+  <AnimName>a_idle_grumpy_muttering01_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitMean2</Overlay>
+  <AnimName>a_idle_grumpy_muttering02_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitMean3</Overlay>
+  <AnimName>a_trait_hotHeaded</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitNeat</Overlay>
+  <AnimName>a_trait_neat_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitNeurotic</Overlay>
+  <AnimName>a_trait_Neurotic_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitNeurotic2</Overlay>
+  <AnimName>a_trait_Neurotic2_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitNeurotic3</Overlay>
+  <AnimName>a_trait_worrywart_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitNoSenseOfHumor</Overlay>
+  <AnimName>a_trait_boring2_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitOverEmotional</Overlay>
+  <AnimName>a_trait_overlyEmotional_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitPartyAnimal</Overlay>
+  <AnimName>a_trait_partyAnimal_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitSlob</Overlay>
+  <AnimName>a_trait_slob_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitSlob2</Overlay>
+  <AnimName>a_trait_slob2_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitSnob</Overlay>
+  <AnimName>a_snobby_reaction_headTurn_fast_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TraitVirtuoso</Overlay>
+  <AnimName>a_trait_virtuoso_route_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Angry</Overlay>
+  <AnimName>a_trait_hotHeaded</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Annoyed</Overlay>
+  <AnimName>a_react_annoyed_sigh_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Awe</Overlay>
+  <AnimName>a_react_awe_x</AnimName>
+ </Overlay>
+<Overlay>
+  <Overlay>Awkward</Overlay>
+  <AnimName>a_react_awkward_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>BadNoise</Overlay>
+  <AnimName>a_react_badNoise_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>BadNoise</Overlay>
+  <AnimName>a_react_badNoise02_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Boo</Overlay>
+  <AnimName>a_react_boo_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Boo</Overlay>
+  <AnimName>a_react_boo02_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Bored</Overlay>
+  <AnimName>a_react_bored_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Bored</Overlay>
+  <AnimName>a_react_bored2_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Cheer</Overlay>
+  <AnimName>a_react_cheer_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Cheer</Overlay>
+  <AnimName>a_react_cheer2_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Cheer</Overlay>
+  <AnimName>a_react_cheer3_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Cry</Overlay>
+  <AnimName>a_trait_crybaby_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>CryModerate</Overlay>
+  <AnimName>a_trait_crybaby2_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Embarrassed</Overlay>
+  <AnimName>a_buff_embarrased_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>EnemyLaugh</Overlay>
+  <AnimName>a_react_enemyLaugh_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>EvilLaugh</Overlay>
+  <AnimName>a_react_evilLaugh_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>EvilLaugh</Overlay>
+  <AnimName>a_react_evilLaugh2_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Excited</Overlay>
+  <AnimName>a_trait_excitable_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Excited</Overlay>
+  <AnimName>a_react_excitedA_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Excited</Overlay>
+  <AnimName>a_react_excitedB_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>FreakOut</Overlay>
+  <AnimName>a_trait_neurotic_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>FreakOut</Overlay>
+  <AnimName>a_trait_neurotic2_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>GhostPositive</Overlay>
+  <AnimName>a_react_ghost_positive_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>GhostNegative</Overlay>
+  <AnimName>a_react_ghost_negative_panic_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Gloomy</Overlay>
+  <AnimName>a_trait_gloomy_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Groove</Overlay>
+  <AnimName>a_Neutral_groove_idle_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Groove</Overlay>
+  <AnimName>a_idle_rockOut2_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Groove</Overlay>
+  <AnimName>a_idle_rockOut1_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>HeadPain</Overlay>
+  <AnimName>a_buff_buzzCrash_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>HeartBroken</Overlay>
+  <AnimName>a_buff_heartBroken_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Inappropriate</Overlay>
+  <AnimName>a_react_inappropriate_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>JealousMild</Overlay>
+  <AnimName>a_react_watch_distressed_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>JealousMiddle</Overlay>
+  <AnimName>a_react_tantrum_mild_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>JealousIntense</Overlay>
+  <AnimName>a_react_tantrum_intense_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>JoyousCrying</Overlay>
+  <AnimName>a_trait_overlyEmotional_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>LaughAt</Overlay>
+  <AnimName>a_react_laughAt_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>LaughAt</Overlay>
+  <AnimName>a_react_laughAt2_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>LoudNoise</Overlay>
+  <AnimName>a_react_loudNoise_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>MotiveFailBladder</Overlay>
+  <AnimName>a_motdistress_bladder_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>MotiveFailEnergy</Overlay>
+  <AnimName>a_motDistress_sleepy_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>MotiveFailHunger</Overlay>
+  <AnimName>a_motDistress_hunger_x</AnimName>
+  <OverlayFace>a_expression_surprise_x</OverlayFace>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>MotiveFailSocial</Overlay>
+  <AnimName>a_buff_lonely_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Mwah</Overlay>
+  <AnimName>a_trait_perfectionist_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Nauseous</Overlay>
+  <AnimName>a_buff_nauseous_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Pining</Overlay>
+  <AnimName>a_react_pining_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>PointLaugh</Overlay>
+  <AnimName>a_react_point_laugh_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>PumpFist</Overlay>
+  <AnimName>a_react_pumpFist_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Repel</Overlay>
+  <AnimName>a_Buff_disgusted_repel_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Retch</Overlay>
+  <AnimName>a_Buff_disgusted_retch_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Salute</Overlay>
+  <AnimName>a_neutral_salute_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Scared</Overlay>
+  <AnimName>a_react_shocked_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Shiver</Overlay>
+  <AnimName>a_buff_coldShower_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Shocked</Overlay>
+  <AnimName>a_react_shocked_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Shocked</Overlay>
+  <AnimName>a_react_shocked2_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Shrug</Overlay>
+  <AnimName>a_react_shrug_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Shrug</Overlay>
+  <AnimName>a_react_shrug1_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Sing</Overlay>
+  <AnimName>a_sing_overlay_x</AnimName>
+  <HasAudio>True</HasAudio>
+  <Xevents>1011,1012</Xevents>
+ </Overlay>
+<Overlay>
+  <Overlay>Smelly</Overlay>
+  <AnimName>a_Buff_disgusted_smelly_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>SmellsBad</Overlay>
+  <AnimName>a_react_smellsBad_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>SmellsBad</Overlay>
+  <AnimName>a_react_smellsbad_2_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>SmellSmoke</Overlay>
+  <AnimName>a_react_smellSmoke_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>SmellYummy</Overlay>
+  <AnimName>a_react_smellYummy_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>SnobbyReject</Overlay>
+  <AnimName>a_snobby_reaction_headTurn_fast_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>SocialRejectA</Overlay>
+  <AnimName>a_react_bored_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>SocialRejectB</Overlay>
+  <AnimName>a_Buff_disgusted_repel_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Startled</Overlay>
+  <AnimName>a_react_startled_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Surprise</Overlay>
+  <AnimName>a_react_surprise_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Surprise</Overlay>
+  <AnimName>a_react_surprise1_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Swipe</Overlay>
+  <AnimName>a_trait_kleptomaniac_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Talk</Overlay>
+  <AnimName>a_soc_talkTalk_gen_d_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TantrumIntense</Overlay>
+  <AnimName>a_react_tantrum_intense_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>TantrumMild</Overlay>
+  <AnimName>a_react_tantrum_mild_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Think</Overlay>
+  <AnimName>a_trait_absentminded_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>ThrowUp</Overlay>
+  <AnimName>a_buff_throwUp_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>ViewHate</Overlay>
+  <AnimName>a_react_view_hate_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>ViewLike</Overlay>
+  <AnimName>a_react_view_like_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>ViewLove</Overlay>
+  <AnimName>a_react_view_love_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>ViewSoSo</Overlay>
+  <AnimName>a_react_view_soso_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>ViewDistressed</Overlay>
+  <AnimName>a_react_watch_distressed_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Watch</Overlay>
+  <AnimName>a2o_tv_watch_idle2_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Watch</Overlay>
+  <AnimName>a_react_watch_distressed_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Wave</Overlay>
+  <AnimName>a_react_waveA_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Wave</Overlay>
+  <AnimName>a_react_waveB_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>WeddingClap</Overlay>
+  <AnimName>wedding_genericClap</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>WeddingCry</Overlay>
+  <AnimName>wedding_happyCry</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>WeddingHappyLook</Overlay>
+  <AnimName>wedding_happyLook</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>WeddingThrowOut</Overlay>
+  <AnimName>wedding_throwOut</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>WeddingWatching</Overlay>
+  <AnimName>wedding_watching</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>WhyMe</Overlay>
+  <AnimName>a_react_whyMe_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>WipeBrow</Overlay>
+  <AnimName>a_buff_fatigued_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Yawn</Overlay>
+  <AnimName>a_react_boredYawn_y</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>ReactionWatch</Overlay>
+  <AnimName>a_react_watch_distressed_standing_x</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>FacialDisgust</Overlay>
+  <AnimName>FacialDisgust</AnimName>
+  <FacialIdle>True</FacialIdle>
+ </Overlay>
+<Overlay>
+  <Overlay>FacialFear</Overlay>
+  <AnimName>FacialFear</AnimName>
+  <FacialIdle>True</FacialIdle>
+ </Overlay>
+<Overlay>
+  <Overlay>FacialHappy</Overlay>
+  <AnimName>FacialHappy</AnimName>
+  <FacialIdle>True</FacialIdle>
+ </Overlay>
+<Overlay>
+  <Overlay>FacialSad</Overlay>
+  <AnimName>FacialSad</AnimName>
+  <FacialIdle>True</FacialIdle>
+ </Overlay>
+<Overlay>
+  <Overlay>FacialSurprise</Overlay>
+  <AnimName>FacialSurprise</AnimName>
+  <FacialIdle>True</FacialIdle>
+ </Overlay>
+<Overlay>
+  <Overlay>FacialAnger</Overlay>
+  <AnimName>FacialAnger</AnimName>
+  <FacialIdle>True</FacialIdle>
+ </Overlay>
+<Overlay>
+  <Overlay>FacialAutoSelect</Overlay>
+  <AnimName>FacialAutoSelect</AnimName>
+  <FacialIdle>True</FacialIdle>
+ </Overlay>
+<Overlay>
+  <Overlay>FacialSleepy</Overlay>
+  <AnimName>FacialSleepy</AnimName>
+  <FacialIdle>True</FacialIdle>
+ </Overlay>
+<Overlay>
+  <Overlay>FacialEvil</Overlay>
+  <AnimName>FacialEvil</AnimName>
+  <FacialIdle>True</FacialIdle>
+ </Overlay>
+<Overlay>
+  <Overlay>SeatedOverlay</Overlay>
+  <AnimName>SeatedOverlay</AnimName>
+ </Overlay>
+<Overlay>
+  <Overlay>ThrowConfetti</Overlay>
+  <JazzGraph>react_ThrowConfetti</JazzGraph>
+ </Overlay>
+<Overlay>
+  <Overlay>RubTummy</Overlay>
+  <AnimName>a_healthClinic_experimentalDrugs_rubStomach_x</AnimName>
+ </Overlay>
+<Overlay>
+  <Overlay>StarStruck</Overlay>
+  <AnimName>a_celebritySystem_beStarStruck_x</AnimName>
+  <ProductVersion>EP3</ProductVersion>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>SkinnyDipReactNegative</Overlay>
+  <AnimName>a_pool_skinnyDip_reaction_negative_x</AnimName>
+  <ProductVersion>EP3</ProductVersion>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>SkinnyDipReactPositive</Overlay>
+  <AnimName>a_pool_skinnyDip_reaction_positive_x</AnimName>
+  <ProductVersion>EP3</ProductVersion>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>StandingAwe</Overlay>
+  <AnimName>a_react_awe_x</AnimName>
+ </Overlay>
+<Overlay>
+  <Overlay>StandingExcited</Overlay>
+  <AnimName>a_react_excitedB_standing_x</AnimName>
+ </Overlay>
+<Overlay>
+  <Overlay>StandingLaughAt</Overlay>
+  <AnimName>a_react_laughAt_standing_x</AnimName>
+ </Overlay>
+<Overlay>
+  <Overlay>StandingSuprise</Overlay>
+  <AnimName>a_react_surprise_standing_x</AnimName>
+ </Overlay>
+<Overlay>
+  <Overlay>Bow</Overlay>
+  <AnimName>a_imaginationObjects_RoyalCourt_bow_x</AnimName>
+  <ProductVersion>EP4</ProductVersion>
+ </Overlay>
+<Overlay>
+  <Overlay>ImaginaryFriendReact</Overlay>
+  <AnimName>a_imaginaryFriends_reactTo_x</AnimName>
+  <ProductVersion>EP4</ProductVersion>
+ </Overlay>
+<Overlay>
+  <Overlay>Giggle</Overlay>
+  <AnimName>a_react_giggle_x</AnimName>
+ </Overlay>
+<Overlay>
+  <Overlay>GameWinExcited</Overlay>
+  <AnimName>a2o_Hopscotch_win_react1_x</AnimName>
+  <ProductVersion>EP4</ProductVersion>
+ </Overlay>
+<Overlay>
+  <Overlay>GameWinExcited</Overlay>
+  <AnimName>a2o_Hopscotch_win_react2_x</AnimName>
+  <ProductVersion>EP4</ProductVersion>
+ </Overlay>
+<Overlay>
+  <Overlay>GameWinExcited</Overlay>
+  <AnimName>a2o_Hopscotch_win_react3_x</AnimName>
+  <ProductVersion>EP4</ProductVersion>
+ </Overlay>
+<Overlay>
+  <Overlay>CheckOut</Overlay>
+  <AnimName>a_idle_stand_sniffAround_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs,Cats,Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePetLoud</Overlay>
+  <AnimName>ad_idle_stand_bark2_start_x,ad_idle_stand_bark2_loop_x,ad_idle_stand_bark2_loop2_x,ad_idle_stand_bark2_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePetLoud</Overlay>
+  <AnimName>ad_idle_sit_bark2_start_x,ad_idle_sit_bark2_loop_x,ad_idle_sit_bark2_loop2_x,ad_idle_sit_bark2_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>SittingOnGround</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePetLoud</Overlay>
+  <AnimName>ad_idle_laydown_bark2_start_x,ad_idle_laydown_bark2_loop_x,ad_idle_laydown_bark2_loop2_x,ad_idle_laydown_bark2_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Dogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePetLoud</Overlay>
+  <AnimName>ad_idle_layDown_perkUpHappy_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Dogs</AgeSpeciesAvailability>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePetLoud</Overlay>
+  <AnimName>ad_idle_laydown_bark2_start_x,ad_idle_laydown_bark2_loop_x,ad_idle_laydown_bark2_loop2_x,ad_idle_laydown_bark2_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceLieDown</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePetLoud</Overlay>
+  <AnimName>ac_idle_sit_meow_start_x,ac_idle_sit_meow_loop_x,ac_idle_sit_meow_loop2_x,ac_idle_sit_meow_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>SittingOnGround</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePetLoud</Overlay>
+  <AnimName>ac_idle_laydown_meow_start_x,ac_idle_laydown_meow_loop_x,ac_idle_laydown_meow_loop2_x,ac_idle_laydown_meow_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceLieDown</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePetLoud</Overlay>
+  <AnimName>ad_idle_stand_bark_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePetLoud</Overlay>
+  <AnimName>ac_idle_stand_meow_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePetLoud</Overlay>
+  <AnimName>ad_react_stand_jumpBackandForthPlayful_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs,Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePetLoud</Overlay>
+  <AnimName>ah_react_laugh_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePetLoud</Overlay>
+  <AnimName>ah_react_ManeShakeShuffle_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePetLoud</Overlay>
+  <AnimName>ah_react_neighAt_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePetQuiet</Overlay>
+  <AnimName>ad_react_stand_JumpBackandForthPlayful_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs,Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePetQuiet</Overlay>
+  <AnimName>ah_react_ManeShakeShuffle_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePet</Overlay>
+  <AnimName>ad_idle_stand_bark2_start_x,ad_idle_stand_bark2_loop_x,ad_idle_stand_bark2_loop2_x,ad_idle_stand_bark2_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePet</Overlay>
+  <AnimName>ad_idle_sit_bark2_start_x,ad_idle_sit_bark2_loop_x,ad_idle_sit_bark2_loop2_x,ad_idle_sit_bark2_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>SittingOnGround</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePet</Overlay>
+  <AnimName>ad_idle_sit_bark2_start_x,ad_idle_sit_bark2_loop_x,ad_idle_sit_bark2_loop2_x,ad_idle_sit_bark2_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>LittleDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePet</Overlay>
+  <AnimName>ad_idle_laydown_bark2_start_x,ad_idle_laydown_bark2_loop_x,ad_idle_laydown_bark2_loop2_x,ad_idle_laydown_bark2_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Dogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePet</Overlay>
+  <AnimName>ad_idle_layDown_perkUpHappy_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Dogs</AgeSpeciesAvailability>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePet</Overlay>
+  <AnimName>ad_idle_laydown_bark2_start_x,ad_idle_laydown_bark2_loop_x,ad_idle_laydown_bark2_loop2_x,ad_idle_laydown_bark2_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceLieDown</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePet</Overlay>
+  <AnimName>ac_idle_sit_meow_start_x,ac_idle_sit_meow_loop_x,ac_idle_sit_meow_loop2_x,ac_idle_sit_meow_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>SittingOnGround, PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePet</Overlay>
+  <AnimName>ac_idle_laydown_meow_start_x,ac_idle_laydown_meow_loop_x,ac_idle_laydown_meow_loop2_x,ac_idle_laydown_meow_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceLieDown</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePet</Overlay>
+  <AnimName>ac_idle_stand_meow_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePet</Overlay>
+  <AnimName>ad_idle_stand_bark_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePet</Overlay>
+  <AnimName>ad_react_stand_jumpBackandForthPlayful_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs,Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePet</Overlay>
+  <AnimName>ah_react_laugh_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePet</Overlay>
+  <AnimName>ah_react_ManeShakeShuffle_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>PositivePet</Overlay>
+  <AnimName>ah_react_neighAt_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>NeutralPet</Overlay>
+  <AnimName>ad_react_stand_twistHead_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs, Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NeutralPet</Overlay>
+  <AnimName>ad_react_sit_twistHead_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs, Cats</AgeSpeciesAvailability>
+  <RequiredPosture>SittingOnGround</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NeutralPet</Overlay>
+  <AnimName>ad_react_sit_twistHead_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>LittleDogs, Cats</AgeSpeciesAvailability>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NeutralPet</Overlay>
+  <AnimName>ad_react_stand_earPerkupLookIntensely_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs, Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NeutralPet</Overlay>
+  <AnimName>ad_react_sit_earPerkupLookIntensely_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs, Cats</AgeSpeciesAvailability>
+  <RequiredPosture>SittingOnGround</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NeutralPet</Overlay>
+  <AnimName>ad_idle_layDown_lookAround_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Dogs</AgeSpeciesAvailability>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NeutralPet</Overlay>
+  <AnimName>ad_react_sit_earPerkupLookIntensely_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>LittleDogs, Cats</AgeSpeciesAvailability>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NeutralPet</Overlay>
+  <AnimName>ac_idle_stand_lickPaw_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NeutralPet</Overlay>
+  <AnimName>ac_idle_sit_lickPaw_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>SittingOnGround, PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NeutralPet</Overlay>
+  <AnimName>ac_idle_layDown_lickPaw_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>PetSurfaceLieDown</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NeutralPet</Overlay>
+  <AnimName>ah_react_Nod_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>NeutralPet</Overlay>
+  <AnimName>ah_idle_stand_sniffAround_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>NeutralPet</Overlay>
+  <AnimName>ah_idle_stand_lookAround_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_stand_growl_start_x,ad_react_stand_growl_loop_x,ad_react_stand_growl_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_sit_growl_start_x,ad_react_sit_growl_loop_x,ad_react_sit_growl_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>SittingOnGround</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_sit_growl_start_x,ad_react_sit_growl_loop_x,ad_react_sit_growl_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>LittleDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_stand_meanBark_start_x,ad_react_stand_meanBark_loop_x,ad_react_stand_meanBark_loop2_x,ad_react_stand_meanBark_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_sit_meanBark_start_x,ad_react_sit_meanBark_loop_x,ad_react_sit_meanBark_loop2_x,ad_react_sit_meanBark_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>SittingOnGround</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_sit_meanBark_start_x,ad_react_sit_meanBark_loop_x,ad_react_sit_meanBark_loop2_x,ad_react_sit_meanBark_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>LittleDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_stand_whine_start_x,ad_react_stand_whine_loop_x,ad_react_stand_whine_loop2_x,ad_react_stand_whine_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_sit_whine_start_x,ad_react_sit_whine_loop_x,ad_react_sit_whine_loop2_x,ad_react_sit_whine_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>SittingOnGround</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_sit_whine_start_x,ad_react_sit_whine_loop_x,ad_react_sit_whine_loop2_x,ad_react_sit_whine_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>LittleDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_laydown_whine_start_x,ad_react_laydown_whine_loop_x,ad_react_laydown_whine_loop2_x,ad_react_laydown_whine_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceLieDown</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_laydown_whine_start_x,ad_react_laydown_whine_loop_x,ad_react_laydown_whine_loop2_x,ad_react_laydown_whine_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Dogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_idle_layDown_yelp_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Dogs</AgeSpeciesAvailability>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_stand_scaredShiver_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs,Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_stand_scaredJump_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs,Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_stand_whimper_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_sit_whimper_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <RequiredPosture>SittingOnGround</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ad_react_sit_whimper_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>LittleDogs</AgeSpeciesAvailability>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ac_idle_stand_yowl_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ac_idle_sit_yowl_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>SittingOnGround, PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ac_idle_layDown_yowl_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>PetSurfaceLieDown</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ac_react_stand_hissAt_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ac_react_sit_hissAt_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>SittingOnGround, PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ac_react_stand_earsBackFlickTail_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ah_react_RearUp_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ah_react_earsBackFlickTail_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ah_react_snortStompFeet_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePet</Overlay>
+  <AnimName>ah_trait_nervous_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetAggressive</Overlay>
+  <AnimName>ad_react_stand_growl_start_x,ad_react_stand_growl_loop_x,ad_react_stand_growl_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetAggressive</Overlay>
+  <AnimName>ad_react_sit_growl_start_x,ad_react_sit_growl_loop_x,ad_react_sit_growl_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>SittingOnGround, PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetAggressive</Overlay>
+  <AnimName>ad_react_stand_meanBark_start_x,ad_react_stand_meanBark_loop_x,ad_react_stand_meanBark_loop2_x,ad_react_stand_meanBark_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetAggressive</Overlay>
+  <AnimName>ad_react_sit_meanBark_start_x,ad_react_sit_meanBark_loop_x,ad_react_sit_meanBark_loop2_x,ad_react_sit_meanBark_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>SittingOnGround</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetAggressive</Overlay>
+  <AnimName>ad_react_sit_meanBark_start_x,ad_react_sit_meanBark_loop_x,ad_react_sit_meanBark_loop2_x,ad_react_sit_meanBark_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>LittleDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetAggressive</Overlay>
+  <AnimName>ad_idle_laydown_bark2_start_x,ad_idle_laydown_bark2_loop_x,ad_idle_laydown_bark2_loop2_x,ad_idle_laydown_bark2_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Dogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetAggressive</Overlay>
+  <AnimName>ac_react_stand_hissAt_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetAggressive</Overlay>
+  <AnimName>ac_react_sit_hissAt_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>SittingOnGround, PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetAggressive</Overlay>
+  <AnimName>ah_react_RearUp_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetAggressive</Overlay>
+  <AnimName>ah_react_earsBackFlickTail_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetAggressive</Overlay>
+  <AnimName>ah_react_snortStompFeet_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ad_react_stand_whine_start_x,ad_react_stand_whine_loop_x,ad_react_stand_whine_loop2_x,ad_react_stand_whine_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ad_react_sit_whine_start_x,ad_react_sit_whine_loop_x,ad_react_sit_whine_loop2_x,ad_react_sit_whine_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>SittingOnGround</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ad_react_sit_whine_start_x,ad_react_sit_whine_loop_x,ad_react_sit_whine_loop2_x,ad_react_sit_whine_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>LittleDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ad_react_laydown_whine_start_x,ad_react_laydown_whine_loop_x,ad_react_laydown_whine_loop2_x,ad_react_laydown_whine_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Dogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ad_idle_layDown_yelp_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Dogs</AgeSpeciesAvailability>
+  <RequiredPosture>PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ad_react_laydown_whine_start_x,ad_react_laydown_whine_loop_x,ad_react_laydown_whine_loop2_x,ad_react_laydown_whine_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,4</LoopCounts>
+  <RequiredPosture>PetSurfaceLieDown</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ad_react_stand_scaredShiver_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs,Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ad_react_stand_scaredJump_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs,Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ad_react_stand_whimper_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ad_react_sit_whimper_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <RequiredPosture>SittingOnGround, PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ac_idle_stand_yowl_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ac_idle_sit_yowl_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>SittingOnGround, PetSurfaceSitting</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ac_idle_layDown_yowl_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>PetSurfaceLieDown</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ac_react_stand_earsBackFlickTail_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ah_react_RearUp_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ah_react_earsBackFlickTail_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ah_react_snortStompFeet_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>NegativePetSkittish</Overlay>
+  <AnimName>ah_trait_nervous_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>RollOver</Overlay>
+  <AnimName>ad_idle_rollOver_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Dogs</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>Hack</Overlay>
+  <AnimName>ad_vomit_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AD,ED,AL,EL,AC,EC</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>Stretch</Overlay>
+  <AnimName>ad_idle_stand_stretch_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats,Dogs,LittleDogs</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>Sniff</Overlay>
+  <AnimName>ad_idle_stand_sniffAround_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Dogs,LittleDogs</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>TalkToPetsLow</Overlay>
+  <AnimName>a_talkToPets_low_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>TalkToPetsMed</Overlay>
+  <AnimName>a_talkToPets_medium_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>CatFlop</Overlay>
+  <AnimName>ac_trait_piggy1_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>BarkPet</Overlay>
+  <AnimName>ad_react_stand_meanBark_start_x, ad_react_stand_meanBark_loop_x, ad_react_stand_meanbark_loop2_x, ad_react_stand_meanbark_stop_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <LoopCounts>1,1</LoopCounts>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>HissPet</Overlay>
+  <AnimName>ac_react_stand_hissAt_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NervousPet</Overlay>
+  <AnimName>ad_react_stand_scaredShiver_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs,Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NervousPet</Overlay>
+  <AnimName>ad_react_stand_scaredJump_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs,Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>NervousPet</Overlay>
+  <AnimName>ah_trait_nervous_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>PantTonguePet</Overlay>
+  <AnimName>ad_react_stand_earPerkupLookIntensely_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>BlankStarePet</Overlay>
+  <AnimName>ad_react_stand_twistHead_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs,Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>BlankStarePet</Overlay>
+  <AnimName>ah_trait_clueless_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>InsaneSimReactToHorse</Overlay>
+  <AnimName>a_trait_equestrian_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>MotiveFailureHorseThirst</Overlay>
+  <AnimName>ah_petNeeds_standing_thirst_pant_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>Horses</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>DivaHmph</Overlay>
+  <AnimName>a_diva_react_hmph_x</AnimName>
+  <ProductVersion>EP6</ProductVersion>
+ </Overlay>
+<Overlay>
+  <Overlay>Terrified</Overlay>
+  <AnimName>a_buff_terrified_x</AnimName>
+  <ProductVersion>EP7</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>TerrifiedPet</Overlay>
+  <AnimName>ad_react_stand_scaredShiver_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AllDogs,Cats</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>TerrifiedPet</Overlay>
+  <AnimName>ac_react_stand_scaredShiver_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AC</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>TerrifiedPet</Overlay>
+  <AnimName>al_react_stand_scaredShiver_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>AL</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>TerrifiedPet</Overlay>
+  <AnimName>cc_react_stand_scaredShiver_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>CC</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>TerrifiedPet</Overlay>
+  <AnimName>cd_react_stand_scaredShiver_x</AnimName>
+  <ProductVersion>EP5</ProductVersion>
+  <AgeSpeciesAvailability>CD</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>GotFrostbite</Overlay>
+  <AnimName>a_react_frostBite_x</AnimName>
+  <ProductVersion>EP8</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>GotSuntan</Overlay>
+  <AnimName>a_react_sunTan_x</AnimName>
+  <ProductVersion>EP8</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>GotSunburn</Overlay>
+  <AnimName>a_react_sunBurn_x</AnimName>
+  <ProductVersion>EP8</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>BurningUp</Overlay>
+  <AnimName>a_react_burningUp_x</AnimName>
+  <ProductVersion>EP8</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>MotiveFailTooHot</Overlay>
+  <AnimName>a_idle_fanSelf_x</AnimName>
+  <ProductVersion>EP8</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>MotiveFailTooCold</Overlay>
+  <AnimName>a_idle_shiver_x</AnimName>
+  <ProductVersion>EP8</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+ </Overlay>
+<Overlay>
+  <Overlay>ReactHail</Overlay>
+  <AnimName>a_react_hail_x</AnimName>
+  <ProductVersion>EP8</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>ReactRain</Overlay>
+  <AnimName>a_react_rain_x</AnimName>
+  <ProductVersion>EP8</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>ReactRainbow</Overlay>
+  <AnimName>a_react_rainbow_x</AnimName>
+  <ProductVersion>EP8</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>ReactSnow</Overlay>
+  <AnimName>a_react_snow_x</AnimName>
+  <ProductVersion>EP8</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>InspectPastObject</Overlay>
+  <AnimName>a_react_view_curious_x</AnimName>
+  <ProductVersion>EP11</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>WhatisThis</Overlay>
+  <AnimName>a_react_view_curious_x</AnimName>
+  <ProductVersion>EP11</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>HonorClap</Overlay>
+  <AnimName>wedding_genericClap</AnimName>
+  <HasAudio>True</HasAudio>
+ </Overlay>
+<Overlay>
+  <Overlay>Oooh</Overlay>
+  <AnimName>a_react_view_oooh_x</AnimName>
+  <ProductVersion>EP11</ProductVersion>
+  <AgeSpeciesAvailability>T,Y,A,E</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>Amazed</Overlay>
+  <AnimName>a_react_view_amazed_x</AnimName>
+  <ProductVersion>EP11</ProductVersion>
+  <AgeSpeciesAvailability>T,Y,A,E</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>Fascinated</Overlay>
+  <AnimName>a_react_view_fascinated_x</AnimName>
+  <ProductVersion>EP11</ProductVersion>
+  <AgeSpeciesAvailability>T,Y,A,E</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+<Overlay>
+  <Overlay>Wowed</Overlay>
+  <AnimName>a_fireworks_reactionHappy2_EP11_x</AnimName>
+  <ProductVersion>EP11</ProductVersion>
+  <AgeSpeciesAvailability>C,T,Y,A,E</AgeSpeciesAvailability>
+  <RequiredPosture>Standing</RequiredPosture>
+ </Overlay>
+</Awareness>

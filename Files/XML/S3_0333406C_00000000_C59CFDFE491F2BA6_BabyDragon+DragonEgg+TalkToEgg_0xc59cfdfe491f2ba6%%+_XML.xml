@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinConversationTime value="5">
+      <!--Range: Positive Int.  Description: The minimum amount of minutes a Sim to Egg conversation will last.-->
+    </kMinConversationTime>
+    <kMaxConversationTime value="10">
+      <!--Range: Positive Int.  Description: The maximum amount of minutes a Sim to Egg conversation will last.-->
+    </kMaxConversationTime>
+    <kConversationalInfluenceOnEgg value="1, 1, 1, 1, 1, 1, 1, 1, 1">
+      <!--Range: Floats.  Description: Increased likelihood an egg will become a type of Dragon based on Talk To subject. (Strength,Fire,Job,Weather,Friends,EggParadox,Enemies,Existentialism)-->
+    </kConversationalInfluenceOnEgg>
+    <kRouteRadius value="1">
+      <!--Route Radius to Talk To Egg.-->
+    </kRouteRadius>
+  </Current_Tuning>
+</base>

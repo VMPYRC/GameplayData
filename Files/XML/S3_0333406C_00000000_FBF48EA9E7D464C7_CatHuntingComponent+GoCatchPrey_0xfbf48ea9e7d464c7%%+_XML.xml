@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinMaxChanceUnderstand value="20, 85">
+      <!--Range 0-100, Min/Max chance of cat understanding what Sim asked them to go hunt for linearly interpolated based on cat's hunting skill level.-->
+    </kMinMaxChanceUnderstand>
+    <kChanceUnderstandModGenius value="10">
+      <!--Range 0-100.  This value will be added to the ouctome of kMinMaxChanceUnderstand if the pet has the Genius trait.-->
+    </kChanceUnderstandModGenius>
+    <kChanceUnderstandModClueless value="-10">
+      <!--Range 0-100.  This value will be added to the ouctome of kMinMaxChanceUnderstand if the pet has the Clueless trait.-->
+    </kChanceUnderstandModClueless>
+    <kCatchAnythingRequiredHuntingSkill value="4">
+      <!--Range 0-10.  The cat's hunting skill must be >= than this for catch anything version of the interaction to be available.-->
+    </kCatchAnythingRequiredHuntingSkill>
+    <kCatchSpecificRequiredHuntingSkill value="5">
+      <!--Range 0-10.  The cat's hunting skill must be >= than this for catch specific prey version of the interaction to be available.-->
+    </kCatchSpecificRequiredHuntingSkill>
+  </Current_Tuning>
+</base>

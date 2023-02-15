@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRunHomeTraits value="Coward">
+      <!--Array of traits that run home to react to the meteor.-->
+    </kRunHomeTraits>
+    <kRunHomeChance value=".3">
+      <!--Range 0.0f - 1.0f: Chance a sim without any of the run home traits will run home.-->
+    </kRunHomeChance>
+    <kRunAwayTimeRange value="5, 15">
+      <!--Time in sim minutes a sim will run away after routing to the meteor.-->
+    </kRunAwayTimeRange>
+  </Current_Tuning>
+</base>

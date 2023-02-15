@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPrehistoricAdventureNames value="PrehistoricAdventure1, PrehistoricAdventure2, PrehistoricAdventure3">
+      <!--Strings.  HAL id for names of Prehistoric adventures-->
+    </kPrehistoricAdventureNames>
+    <kWildlifeAdventureNames value="WildlifeAdventure1, WildlifeAdventure2, WildlifeAdventure3">
+      <!--Strings.  HAL id for names of Wildlife adventures-->
+    </kWildlifeAdventureNames>
+    <kMedievalKingdomsAdventureNames value="MedievalKingdomsAdventure1, MedievalKingdomsAdventure2, MedievalKingdomsAdventure3">
+      <!--Strings.  HAL id for names of Medieval Kingdoms adventures-->
+    </kMedievalKingdomsAdventureNames>
+    <kMusicalHorrorAdventureNames value="MusicalHorrorAdventure1, MusicalHorrorAdventure2, MusicalHorrorAdventure3">
+      <!--Strings.  HAL id for names of Musical Horror adventures-->
+    </kMusicalHorrorAdventureNames>
+    <kPersianAdventureNames value="PersianAdventure1, PersianAdventure2, PersianAdventure3">
+      <!--Strings.  HAL id for names of Persian adventures-->
+    </kPersianAdventureNames>
+    <kInternationalSpyAdventureNames value="InternationalSpyAdventure1, InternationalSpyAdventure2, InternationalSpyAdventure3">
+      <!--Strings.  HAL id for names of International Spy adventures-->
+    </kInternationalSpyAdventureNames>
+    <kSuperHeroesAdventureNames value="SuperHeroesAdventure1, SuperHeroesAdventure2, SuperHeroesAdventure3">
+      <!--Strings.  HAL id for names of Super Heroes adventures-->
+    </kSuperHeroesAdventureNames>
+    <kMartialArtsAdventureNames value="MartialArtsAdventure1, MartialArtsAdventure2, MartialArtsAdventure3">
+      <!--Strings.  HAL id for names of Martial Arts adventures-->
+    </kMartialArtsAdventureNames>
+    <kAdventurePrice value="50">
+      <!--Int. Simoleon cost for a holo adventure.-->
+    </kAdventurePrice>
+    <kAdventureInteractionDurationMinutes value="120">
+      <!--How long in minutes should a sim need to attend a holo adventure to get the full benefit and buff?-->
+    </kAdventureInteractionDurationMinutes>
+    <kChanceOfSeeingATerribleHoloAdventure value="25">
+      <!--Float(0-100) Chance of seeing a terrible holo adventure.-->
+    </kChanceOfSeeingATerribleHoloAdventure>
+    <kTraitsForTerribleHoloAdventure value="AntiTV">
+      <!--TraitNames[]  Triats that increase chance of seeing a terrible holo adventure.-->
+    </kTraitsForTerribleHoloAdventure>
+    <kNegativeTraitTerribleHoloAdventureIncrease value="25">
+      <!--Float(0-100) Percentage increase of seeing a terrible holo adventure because of negative trait-->
+    </kNegativeTraitTerribleHoloAdventureIncrease>
+    <kMinLTRForHoloAdventureGrouping value="40">
+      <!--Float: The Min amount of LTR needed for a sim to be available in the sim picker for holo-adventures-->
+    </kMinLTRForHoloAdventureGrouping>
+  </Current_Tuning>
+</base>

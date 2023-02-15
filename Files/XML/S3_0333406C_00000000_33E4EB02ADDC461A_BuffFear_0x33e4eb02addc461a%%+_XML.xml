@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFearStrengthToMinutes value="4">
+      <!--Conversion of buff strength to duration in Sim minutes.  A buff with strength 20 will be multiplied by this number to determine it's duration.-->
+    </kFearStrengthToMinutes>
+    <kFearMinMoodCap value="-100">
+      <!--The total strength of all Fear buffs cannot drop the Sim below this mood.-->
+    </kFearMinMoodCap>
+    <kFearStrengthVisa1 value="0.1">
+      <!--Valid range: 0.0 - 1.0  This is percentage of strength that will be removed from the fear buff is the Sim has Visa Level 1.-->
+    </kFearStrengthVisa1>
+    <kFearStrengthVisa2 value="0.2">
+      <!--Valid range: 0.0 - 1.0  This is percentage of strength that will be removed from the fear buff is the Sim has Visa Level 2.-->
+    </kFearStrengthVisa2>
+    <kFearStrengthVisa3 value="0.3">
+      <!--Valid range: 0.0 - 1.0  This is percentage of strength that will be removed from the fear buff is the Sim has Visa Level 3.-->
+    </kFearStrengthVisa3>
+    <kFearStrengthBrave value="0.35">
+      <!--Valid range: 0.0 - 1.0  This is percentage of strength that will be removed from the fear buff is the Sim is brave.-->
+    </kFearStrengthBrave>
+    <kFearStrengthDaredevil value="0.35">
+      <!--Valid range: 0.0 - 1.0  This is percentage of strength that will be removed from the fear buff is the Sim is a daredevil.-->
+    </kFearStrengthDaredevil>
+    <kFearStrengthMultiplierCoward value="0.2">
+      <!--Valid range: 0.0 - 1.0  This is percentage of strength that will be added to the fear buff is the Sim is a coward.-->
+    </kFearStrengthMultiplierCoward>
+    <kFearMinStrengthBraveSims value="-20">
+      <!--The strength of the fear buff must be this value or less to be applied to Sims with the brave trait..-->
+    </kFearMinStrengthBraveSims>
+  </Current_Tuning>
+</base>

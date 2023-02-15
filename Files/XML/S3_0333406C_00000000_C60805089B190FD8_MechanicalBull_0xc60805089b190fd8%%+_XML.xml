@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSkillForCowboyOutfit value="7">
+      <!--The skill level at which the Sim will spin into cowboy outfit before riding the bull-->
+    </kSkillForCowboyOutfit>
+    <kCostOfRide value="10">
+      <!--The cost of a bull ride if the sim is not max level and the bull is not on the Sim's property-->
+    </kCostOfRide>
+    <kBroadcasterParams>
+      <PulseRadius value="12">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="True">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="10">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="0">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kBroadcasterParams>
+    <kPulseRadiusIncreasePerSkillLevel value="1">
+      <!--The amount the pulse radius increases for the broadcaster per level of athletic skill-->
+    </kPulseRadiusIncreasePerSkillLevel>
+    <kSimsToProcessPerDifficultyLevel value="5">
+      <!--The extra amount of Sims to process per tick (for broadcaster) per level of difficulty-->
+    </kSimsToProcessPerDifficultyLevel>
+    <kSimsIncreaseForFrenzy value="5">
+      <!--Increase in sims to process (in broadcaster params) for attention frenzy moodlet.-->
+    </kSimsIncreaseForFrenzy>
+    <kMinWatchDistance value="3">
+      <!--Minimum distance a sim will stand away from the bull to watch.-->
+    </kMinWatchDistance>
+    <kMaxWatchDistance value="6">
+      <!--Maximum distance a sim will stand away from the bull to watch.-->
+    </kMaxWatchDistance>
+    <kWatchingReactions value="Cheer, PumpFist">
+      <!--Possible reactions while watching.-->
+    </kWatchingReactions>
+    <kRideLength value="20, 30, 40">
+      <!--Time in sim minutes for a bull ride to last for each difficulty (Easy Rider first, then Bucking Bronco, then Crazy Cowboy).-->
+    </kRideLength>
+    <kProbabilityOfFail value="50, 75, 100">
+      <!--Percent chance of failure at each difficulty (easy rider, bucking bronco, and crazy cowboy) 1-100-->
+    </kProbabilityOfFail>
+    <kPercentPerLevel value="7.5">
+      <!--Percent to subtract from failure chance per Athletic level 1-100-->
+    </kPercentPerLevel>
+    <kPercentPerLevelEpicFail value="3">
+      <!--Percent to subtract from Epic Fail chance per Athletic level for epic fail chance 1-100-->
+    </kPercentPerLevelEpicFail>
+    <kBaseEpicFailChance value="40">
+      <!--Base percentage chance of epic fail given failure 1-100-->
+    </kBaseEpicFailChance>
+    <kReactionStaggerTimeInSimSeconds value="120">
+      <!--The watching sims will stagger their reactions by a random time up to this amount in sim seconds-->
+    </kReactionStaggerTimeInSimSeconds>
+    <kPositiveExitReactions value="Cheer, PumpFist">
+      <!--Possible reactions on successful exit.-->
+    </kPositiveExitReactions>
+    <kNegativeExitReactions value="LaughAt, PointLaugh, Boo">
+      <!--Possible reactions on fail exit.-->
+    </kNegativeExitReactions>
+    <kReactionPushTime value="5">
+      <!--The watching sims will attempt to begin a reaction every kReactionPushTime minutes-->
+    </kReactionPushTime>
+    <kSwimwearPercent value="30">
+      <!--The percent chance that a dramatic or inappropriate sim will change into swimwear before riding the bull. kSwimwearChance must be less than 100-->
+    </kSwimwearPercent>
+    <kAnimClumsyPercent value="20">
+      <!--Extra percentage chance of negative loops if sim is Clumsy 1-100-->
+    </kAnimClumsyPercent>
+    <kAnimUnluckyPercent value="20">
+      <!--Extra percentage chance of negative loops if sim is Unlucky 1-100-->
+    </kAnimUnluckyPercent>
+    <kAnimBaseWobblyPercent value="20, 30, 40">
+      <!--Base Wobbly anim percent chance for each level 1-100-->
+    </kAnimBaseWobblyPercent>
+    <kAnimBaseMediocrePercent value="20, 30, 40">
+      <!--Base Mediocre anim percent chance for each level, given not a wobbly anim 1-100-->
+    </kAnimBaseMediocrePercent>
+    <kAnimPercentPerLevel value="3">
+      <!--Percent chance per athletic skill level to lower chance of negative anims 1-100-->
+    </kAnimPercentPerLevel>
+  </Current_Tuning>
+</base>

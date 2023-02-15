@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPercentagePerMinute value="2.5">
+      <!--The percentage of work that is completed per a Sim minute.  If set to '2', the igloo would take 50 minutes to build.-->
+    </kPercentagePerMinute>
+    <kSocialPerMinute value="1.5">
+      <!--The amount of social a Sim will gain per minute when two Sims are building an igloo together.-->
+    </kSocialPerMinute>
+    <kAllWeatherChampPPMMultiplier value="1.5">
+      <!--The percentage per minute multiplier for All Weather Champion Sims..-->
+    </kAllWeatherChampPPMMultiplier>
+    <kNumIgloosToDisallowAutonomy value="2">
+      <!--int > 0: After this many Igloos are on the lot sims will stop autonomously choosing to make them until one melts bringing the number back below this tunable.-->
+    </kNumIgloosToDisallowAutonomy>
+  </Current_Tuning>
+</base>

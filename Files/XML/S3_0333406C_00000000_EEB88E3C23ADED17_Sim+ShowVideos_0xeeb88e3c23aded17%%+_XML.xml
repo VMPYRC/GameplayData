@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCriticalMotiveTypes value="Hunger, Bladder, Energy">
+      <!--Description:  Motive types that can be considered critical to end the social. Must match up to kCriticalMotiveValues-->
+    </kCriticalMotiveTypes>
+    <kCriticalMotiveValues value="-80, -80, -80">
+      <!--Description:  Motive values that can be considered critical to end the social. Must match up to kCriticalMotiveTypes-->
+    </kCriticalMotiveValues>
+    <kLTRFriendly value="3">
+      <!--Description:  LTR change on Friendly result-->
+    </kLTRFriendly>
+    <kLTRFunny value="3">
+      <!--Description:  LTR change on Funny result-->
+    </kLTRFunny>
+    <kLTRBoring value="0">
+      <!--Description:  LTR change on Boring result-->
+    </kLTRBoring>
+    <kLTRReject value="-3">
+      <!--Description:  LTR change on Reject-->
+    </kLTRReject>
+  </Current_Tuning>
+</base>

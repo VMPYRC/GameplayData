@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSocialRadiusUnpaired value="3">
+      <!--The distance in meters to which initiating Sims will route for data-driven socials that are tagged in the socialization spreadsheet as not requiring paired animations.-->
+    </kSocialRadiusUnpaired>
+    <kMoodThresholdFor1Favor value="20">
+      <!--Mood threshold increase if he has already done one favor today-->
+    </kMoodThresholdFor1Favor>
+    <kMoodThresholdFor2Favors value="40">
+      <!--Mood threshold increase if he has already done two favors today-->
+    </kMoodThresholdFor2Favors>
+    <kMoodThresholdFor3Favors value="80">
+      <!--Mood threshold increase if he has already done three favors today-->
+    </kMoodThresholdFor3Favors>
+    <kMoodThresholdFor4OrMoreFavors value="100">
+      <!--Mood threshold increase if he has already done four or more favors today-->
+    </kMoodThresholdFor4OrMoreFavors>
+    <kMoodThresholdForSignificantlyAbove value="20">
+      <!--If the Sim's mood is this much above the threshold, it counts as significantly above (and he will do extra enthusiastic cleaning or whatever)-->
+    </kMoodThresholdForSignificantlyAbove>
+    <kMinJealousReactionDistance value="2">
+      <!--Min route distance (in meters) that Sims route towards for JealousReaction-->
+    </kMinJealousReactionDistance>
+    <kMaxJealousReactionDistance value="4">
+      <!--Max route distance (in meters) that Sims route towards for JealousReaction-->
+    </kMaxJealousReactionDistance>
+    <kDaysSimCannotAdopt value="5">
+      <!--Number of days that an adult sim cannot adopt. This starts from the day Social worker has taken away at least one kid from your household. Positive float. Unit: Sim days. Initial GPE default 5.0f-->
+    </kDaysSimCannotAdopt>
+    <kBFFAutonomyMultiplier value="1.2">
+      <!--Range:  Autonomy multiplier.  Description:  Additional autonomy multiplier when a BFF considers using an object that another BFF is using.-->
+    </kBFFAutonomyMultiplier>
+    <kBFFDistanceForJealousy value="8">
+      <!--Range:  Distance.  Description:  Distance at which an ex-BFF will be jealous upon seeing the Sim make a new BFF.-->
+    </kBFFDistanceForJealousy>
+    <kSnubbedLikingPenalty value="-20">
+      <!--Range:  Negative floats.  Description:  Liking value that drops for a snubbed teen with all nearby teens.-->
+    </kSnubbedLikingPenalty>
+    <kSnubbedDistance value="8">
+      <!--Range:  Liking value.  Description:  Distance nearby teens have to be to lose relationship with a snubbed teen.-->
+    </kSnubbedDistance>
+    <kSnubbedInsultingSTCAmount value="50">
+      <!--Range:  Liking value.  Description:  How much nearby teens update the Insulting commodity after a snub.-->
+    </kSnubbedInsultingSTCAmount>
+    <kMinAskToBehaveDistance value="2">
+      <!--Min route distance (in meters) that Sims route towards for AskToBehave-->
+    </kMinAskToBehaveDistance>
+    <kMaxAskToBehaveDistance value="2">
+      <!--Max route distance (in meters) that Sims route towards for AskToBehave-->
+    </kMaxAskToBehaveDistance>
+    <kJealousyBetrayalMemoryDurationInHours value="48">
+      <!--The time (in Sim hours) for which Sims will remember romantic betrayals and be angry-->
+    </kJealousyBetrayalMemoryDurationInHours>
+    <kDesireToSocializeWithBetrayer value="3000">
+      <!--How much (in desire intensity: 0-1000) the Sim wants to socialize with his betrayer-->
+    </kDesireToSocializeWithBetrayer>
+    <kLikingThresholdForMarriageAvailability value="40">
+      <!--Range: Liking (-100 to 100). LTR threshold for Propose Marriage to be available-->
+    </kLikingThresholdForMarriageAvailability>
+    <kMinHoursToHoldRelationshipState value="48">
+      <!--Min number of sim hours before a relationship LTR state starts to decay-->
+    </kMinHoursToHoldRelationshipState>
+    <kNumDaysAfterWhichZeroRelationshipIsDropped value="3">
+      <!--If a relationship is zero for this many days, it will be removed altogether-->
+    </kNumDaysAfterWhichZeroRelationshipIsDropped>
+    <kFightLikingValue value="-20">
+      <!--Range:  Liking value.  Description:  Liking value below which the 'Fight' interaction becomes available.-->
+    </kFightLikingValue>
+    <kSlapLikingValue value="-10">
+      <!--Range:  Liking value.  Description:  Liking value below which the 'Slap' interaction becomes available.-->
+    </kSlapLikingValue>
+    <kYellAtLikingValue value="0">
+      <!--Range:  Liking value.  Description:  Liking value below which the 'YellAt' interaction becomes available.-->
+    </kYellAtLikingValue>
+    <kAskToBreakUpWithLikingValue value="60">
+      <!--Range:  Liking value.  Description:  Liking value below which the 'AskToBreakUpWith' interaction is unavailable.-->
+    </kAskToBreakUpWithLikingValue>
+    <kNPCRelationshipDecayMultiplier value="0.001">
+      <!--NPC relationships decay much slower than player relationships. This multiplier represents how much slower they decay-->
+    </kNPCRelationshipDecayMultiplier>
+    <kHoursBeforeGreetingWearsOff value="3">
+      <!--Time (in Sim hours) afer which the Sim has to be re-greeted-->
+    </kHoursBeforeGreetingWearsOff>
+    <kLikingThresholdToSitTogether value="20">
+      <!--Range:  Liking threshold below which sims will not sit together at picnic tables etc.-->
+    </kLikingThresholdToSitTogether>
+    <kSocialMultiplierForOutgoingSimsTalkingToAnyone value="1">
+      <!--Range: 0 - 3. Scoring multiplier for outgoing Sims to talk to anyone-->
+    </kSocialMultiplierForOutgoingSimsTalkingToAnyone>
+    <kSocialMultiplierForBabysitterTalkingToChildren value="1.5">
+      <!--Range: 0 - 3. Scoring multiplier for outgoing Sims to talk to anyone-->
+    </kSocialMultiplierForBabysitterTalkingToChildren>
+    <kSocialMultiplierForSameAgeBonding value="1.2">
+      <!--Range: 0 - 3. Scoring multiplier for Sims to talk to other Sims of the same age-->
+    </kSocialMultiplierForSameAgeBonding>
+    <kSocialMultiplierForGuestAtParty value="1.2">
+      <!--Range: 0 - 3. Scoring multiplier for guests at party to socialize-->
+    </kSocialMultiplierForGuestAtParty>
+    <kSocialMultiplierFOrGuestInVisit value="1.2">
+      <!--Range: 0 - 3. Scoring multiplier for outgoing Sims to talk to anyone-->
+    </kSocialMultiplierFOrGuestInVisit>
+    <kSTCDecayRateMultiplier value="0.6">
+      <!--How much STC value decays when leaving a conversation and during overnight decay. This is a multiplier on the value, so should be less than 1-->
+    </kSTCDecayRateMultiplier>
+    <kLikingIncreaseForSnobWhenComplimented value="5">
+      <!--LTR increase bonus when you compliment a snob-->
+    </kLikingIncreaseForSnobWhenComplimented>
+    <kAskForPromotionMinPerformanceSuccess value="75">
+      <!--Minimum job performance for Ask For Promotion success.-->
+    </kAskForPromotionMinPerformanceSuccess>
+    <kAskForPromotionMinPerformanceSuccessSchmoozer value="40">
+      <!--Minimum job performance for Ask For Promotion success for a schmoozer.-->
+    </kAskForPromotionMinPerformanceSuccessSchmoozer>
+    <kAskForRaiseMinPerformanceSuccess value="60">
+      <!--Minimum job performance for Ask For Raise success.-->
+    </kAskForRaiseMinPerformanceSuccess>
+    <kAskForRaiseMinPerformanceSuccessSchmoozer value="30">
+      <!--Minimum job performance for Ask For Raise success for a schmoozer.-->
+    </kAskForRaiseMinPerformanceSuccessSchmoozer>
+    <kPercentChanceOfLearningRandomTrait value="25">
+      <!--Percentage chance of learning a random trait from a social (only applies if the social has the LearnRandomTrait set)-->
+    </kPercentChanceOfLearningRandomTrait>
+    <kPercentChanceOfLearningRandomTraitIfCharismatic value="50">
+      <!--Percentage chance for a charismatic sim of learning a random trait from a social (only applies if the social has the LearnRandomTrait set)-->
+    </kPercentChanceOfLearningRandomTraitIfCharismatic>
+    <kBowGreetAtLikingValue value="0">
+      <!--Range:  Liking value.  Description:  Liking value at which Bow Greet animations become available.-->
+    </kBowGreetAtLikingValue>
+    <kDoubleCheekKissGreetAtLikingValue value="0">
+      <!--Range:  Liking value.  Description:  Liking value at which Double cheek Kiss Greet animations become available.-->
+    </kDoubleCheekKissGreetAtLikingValue>
+    <kChanceOfBowIfOnly1Sim value="0.5">
+      <!--Range:  0.0 - 1.0  Description:  Chance of doing Bow greet if only 1 sim has Asian trait-->
+    </kChanceOfBowIfOnly1Sim>
+    <kChanceOfDoubleCheekKissIfOnly1Sim value="0.5">
+      <!--Range:  0.0 - 1.0  Description:  Chance of doing Double cheek kiss greet if only 1 sim has French trait-->
+    </kChanceOfDoubleCheekKissIfOnly1Sim>
+    <kChanceOfAwkwardDoubleCheekKiss value="0.5">
+      <!--Range:  0.0 - 1.0  Description:  Chance of doing Awkward Double cheek kiss greet if that was the chosen greet.-->
+    </kChanceOfAwkwardDoubleCheekKiss>
+    <kChanceOfFastHandshakeOverKiss value="0.2">
+      <!--Range:  0.0 - 1.0  Description:  Chance of doing Fast Handshake instead of cheek kiss.-->
+    </kChanceOfFastHandshakeOverKiss>
+    <kLikingIncreaseForCompatibleSigns value="5">
+      <!--LTR increase bonus when you find compatible signs-->
+    </kLikingIncreaseForCompatibleSigns>
+    <kLikingIncreaseForSharedAlmaMater value="5">
+      <!--LTR increase bonus when you share Alma Mater-->
+    </kLikingIncreaseForSharedAlmaMater>
+    <kSocialMultiplierForSameSpeciesBonding value="1.5">
+      <!--Range: 0 - 3. Scoring multiplier for Sims to talk to other Sims of the same species-->
+    </kSocialMultiplierForSameSpeciesBonding>
+    <kSocialMultiplierForDogPersonBonding value="5.0">
+      <!--Range: 0 - 3. Scoring multiplier for Sims With Dog Person Trait to Socialize with Dogs-->
+    </kSocialMultiplierForDogPersonBonding>
+    <kSocialMultiplierForCatPersonBonding value="2.0">
+      <!--Range: 0 - 3. Scoring multiplier for Sims With Cat Person Trait to Socialize with Cats-->
+    </kSocialMultiplierForCatPersonBonding>
+    <kSocialMultiplierForEquestrianBonding value="1.2">
+      <!--Range: 0 - 3. Scoring multiplier for Sims With Equestrian Trait to Socialize with Horses-->
+    </kSocialMultiplierForEquestrianBonding>
+    <kLikingIncreaseForDivaWhenComplimented value="5">
+      <!--LTR increase bonus when you compliment a diva-->
+    </kLikingIncreaseForDivaWhenComplimented>
+    <kSocialButterflyGroupAndLowLTRConversationMultiplyer value="1.25">
+      <!--Chance a sim will want to join a group conversation multiplier. e.g. ConversationScore = ConversationScore * [multiplier]-->
+    </kSocialButterflyGroupAndLowLTRConversationMultiplyer>
+    <kSocialButterflyDesireToAlwaysSocialize value="15">
+      <!--Score Boost for Sims who have the Social Butterfly Trait-->
+    </kSocialButterflyDesireToAlwaysSocialize>
+    <kInnerBeautyConversationMultiplyer value="0.25">
+      <!--Chance a sim with Inner Beauty will want to join a group conversation multiplier. e.g. ConversationScore = ConversationScore * [multiplier]-->
+    </kInnerBeautyConversationMultiplyer>
+    <kSocialMultiplierToTalkWithIrresistibleSims value="50">
+      <!--Range: 0 - 3. Scoring multiplier for Sims to talk with irresistible Sims-->
+    </kSocialMultiplierToTalkWithIrresistibleSims>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

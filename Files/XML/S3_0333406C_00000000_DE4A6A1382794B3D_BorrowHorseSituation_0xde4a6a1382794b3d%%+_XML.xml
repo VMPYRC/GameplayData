@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHorseReturnTime value="23">
+      <!--Time each day that the horse has to be returned by.-->
+    </kHorseReturnTime>
+    <kHorseReturnTNSTime value="20">
+      <!--Time that the TNS should show warning the player to return the horse by the tunable time.-->
+    </kHorseReturnTNSTime>
+    <kHorseReturnHomeInterval value="30">
+      <!--Time in sim minutes that a horse will be pushed to return home if not being ridden.-->
+    </kHorseReturnHomeInterval>
+    <kHorseReturnLTRHitInterval value="60">
+      <!--Interval in sim minutes where a sim will lose LTR with the horse's household's family members.-->
+    </kHorseReturnLTRHitInterval>
+    <kHorseReturnLTRDelta value="-5">
+      <!--LTR Delta per interval that the rider will receive when the horse is not returned.-->
+    </kHorseReturnLTRDelta>
+  </Current_Tuning>
+</base>

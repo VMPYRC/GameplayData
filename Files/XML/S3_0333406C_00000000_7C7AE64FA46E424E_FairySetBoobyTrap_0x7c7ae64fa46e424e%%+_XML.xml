@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceForFailure value="0">
+      <!--Range [float]:  0.0 - 100.0  Description:  The chance that the fairy trapping will fail.-->
+    </kChanceForFailure>
+    <kChanceForFailureFairySkill value="30, 25, 21, 17, 14, 11, 8, 6, 4, 2, 0">
+      <!--Range [float]:  0.0 - 100.0  Description:  Additional Chance for fairy trapping failure based on fairy skill in addition to kChanceForFailure-->
+    </kChanceForFailureFairySkill>
+  </Current_Tuning>
+</base>

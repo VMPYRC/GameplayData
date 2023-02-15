@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAskQuestionTimeStart value="5">
+      <!--Range:  Sim minutes.  Description:  Starting range of time at which the interviewer will ask a question (gaussian distribution).-->
+    </kAskQuestionTimeStart>
+    <kAskQuestionTimeEnd value="15">
+      <!--Range:  Sim minutes.  Description:  Ending range of time at which the interviewer will ask a question  (gaussian distribution).-->
+    </kAskQuestionTimeEnd>
+    <kInteractionLength value="30">
+      <!--Range:  Sim minutes.  Description:  Duration of this interaction.-->
+    </kInteractionLength>
+  </Current_Tuning>
+</base>

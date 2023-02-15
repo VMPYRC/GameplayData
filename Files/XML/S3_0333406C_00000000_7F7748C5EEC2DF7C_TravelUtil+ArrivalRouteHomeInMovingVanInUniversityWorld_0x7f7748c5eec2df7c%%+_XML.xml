@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnteringUniversitySocialValue value="-50">
+      <!--This is the value that sims entering university world will have their social motives set to. Everyone gets lonely when they go to university right?-->
+    </kEnteringUniversitySocialValue>
+    <kFixTimeToWaitAndIdle value="1">
+      <!--The fixed, base amount of time in Sim Minutes that a Sim will Idle before pulling out their suit case and entering the house.-->
+    </kFixTimeToWaitAndIdle>
+    <kMinOfRandomTimeToWaitAndIdle value="0">
+      <!--The min amount of time additional time in Sim Minutes that a Sim will Idle before pulling out their suit case and entering the house. kFixTimeToWaitAndIdle + RandomValueBetween(kMinOfRandomTimeToWaitAndIdle, kMaxOfRandomTimeToWaitAndIdle) == Time To Idle.-->
+    </kMinOfRandomTimeToWaitAndIdle>
+    <kMaxOfRandomTimeToWaitAndIdle value="5">
+      <!--The max amount of time additional time in Sim Minutes that a Sim will Idle before pulling out their suit case and entering the house. kFixTimeToWaitAndIdle + RandomValueBetween(kMinOfRandomTimeToWaitAndIdle, kMaxOfRandomTimeToWaitAndIdle) == Time To Idle.-->
+    </kMaxOfRandomTimeToWaitAndIdle>
+    <kDoesSelectableSimsIdle value="True">
+      <!--Should the Player Selectable Sims Idle?-->
+    </kDoesSelectableSimsIdle>
+  </Current_Tuning>
+</base>

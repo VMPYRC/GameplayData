@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFailReactRadius value="15">
+      <!--Description:  radius of fail reaction-->
+    </kFailReactRadius>
+    <kNegativeReactionChance value="50">
+      <!--Description:  Chance of performing negative reacion to a failed dive per sim-->
+    </kNegativeReactionChance>
+    <kNegativeReactions value="Boo, PointLaugh, LaughAt">
+      <!--Range:  ReactionTypes[]  Description:  Reactions to play when somebody fails a dive-->
+    </kNegativeReactions>
+    <kMaximumNumberOfSimsInLine value="5">
+      <!--Range: Positive integers.  Description:  Maximum number of Sims that can wait in line.-->
+    </kMaximumNumberOfSimsInLine>
+    <kTimeToWaitInLine value="30">
+      <!--Range: Positive floats.  Description: Amount of Sim minutes a Sim will wait in line before timing out and exiting.-->
+    </kTimeToWaitInLine>
+    <kChildSplashSize value="4">
+      <!--Description:  radius of child splash-->
+    </kChildSplashSize>
+    <kAdultSplashSize value="6">
+      <!--Description:  radius of adult splash-->
+    </kAdultSplashSize>
+    <kLargeAdultSplashSize value="9">
+      <!--Description:  radius of large adult splash-->
+    </kLargeAdultSplashSize>
+    <kLargeAdultSize value="0.5">
+      <!--Description:  weight at which an TYAE is large-->
+    </kLargeAdultSize>
+    <kDivePathingMotiveDelta value="20">
+      <!--Range: Positive floats.  Description: Amount of fun gained when doing a dive when pathing-->
+    </kDivePathingMotiveDelta>
+    <kLineSlotMinDistance value="1">
+      <!--Distance from the dive's entry routing slot to the beginning of the head of the line. Initial GPE value: 1.0f-->
+    </kLineSlotMinDistance>
+    <kLineSlotMaxDistance value="4">
+      <!--Distance from the dive's entry routing slot to the end of the head of the line.  Initial GPE value: 2.0f-->
+    </kLineSlotMaxDistance>
+    <kLineStartSpacingFactor value="2">
+      <!--Spacing factor of routing options for line head. Positive float. Init GPE default: 2.0f-->
+    </kLineStartSpacingFactor>
+    <kLineStartAngle value="2.356194">
+      <!--The angle (width in radians) of the cone shape that represents the head of the line. Initial GPE value: 2.356194 (Pi *3 / 4).-->
+    </kLineStartAngle>
+    <kAlreadySwimmingScoreMultiplier value="2">
+      <!--Range: Positive floats.  Description: Score multiplier when already swimming-->
+    </kAlreadySwimmingScoreMultiplier>
+    <kSmallAdultSize value="-0.5">
+      <!--Description:  weight below which an TYAE is small-->
+    </kSmallAdultSize>
+    <kSmallAdultSplashSize value="5">
+      <!--Description:  radius of small adult splash-->
+    </kSmallAdultSplashSize>
+    <kLargeChildSplashSize value="6">
+      <!--Description:  radius of large child splash-->
+    </kLargeChildSplashSize>
+    <kLargeChildSize value="0.5">
+      <!--Description:  weight at which a Child is large-->
+    </kLargeChildSize>
+    <kMediumChildSplashSize value="5">
+      <!--Description:  radius of medium child splash-->
+    </kMediumChildSplashSize>
+    <kSmallChildSize value="-0.5">
+      <!--Description:  weight at which a Child is small-->
+    </kSmallChildSize>
+    <kFailureChances value="30, 10, 5">
+      <!--Range 0-100, [Low, Med, High] Chance of failing at dive for each respective skill level.-->
+    </kFailureChances>
+  </Current_Tuning>
+</base>

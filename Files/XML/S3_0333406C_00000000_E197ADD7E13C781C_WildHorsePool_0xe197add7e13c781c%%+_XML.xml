@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHerdBehaviorFrequency value="15">
+      <!--Frequency in SimMinutes that we should do herd behavior checks (ie, is the herd all near the lead horse)-->
+    </kHerdBehaviorFrequency>
+    <kMinTimeToChangeLots value="480">
+      <!--Minimum time (in sim minutes) the herd must stay on a lot before the lead horse changes locations-->
+    </kMinTimeToChangeLots>
+    <kChanceToChangeLots value="35">
+      <!--Chance of the herd changing lots when the herd behavior alarm is hit-->
+    </kChanceToChangeLots>
+  </Current_Tuning>
+</base>

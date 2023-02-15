@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTuningCanvas>
+      <ValuePerSkillLevel value="1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100">
+        <!--Description: The starting value of a painting at each skill level.-->
+      </ValuePerSkillLevel>
+      <MoneyPerNthPainting value="5">
+        <!--Number of simoleons to multiply N by to get experience contributer to value of painting where N is the Nth painting the sim has made-->
+      </MoneyPerNthPainting>
+      <RandomValueMultiplierMin value="1">
+        <!--Min random multipler applied to value at end of calculation-->
+      </RandomValueMultiplierMin>
+      <RandomValueMultiplierMax value="3">
+        <!--Max random multipler applied to value at end of calculation-->
+      </RandomValueMultiplierMax>
+      <AppreciationAtSkillLevelPerDay value="5">
+        <!--Number of Simoleons to multiply with the skill level of the painter at the time the made it, to add to paintings value every 48hours-->
+      </AppreciationAtSkillLevelPerDay>
+      <ThresholdForMinEnviornmentScore value="10">
+        <!--Smallest price to get Min enviornment score-->
+      </ThresholdForMinEnviornmentScore>
+      <ThresholdForMaxEnviornmentScore value="1000">
+        <!--Smallest price to get Max enviornment score-->
+      </ThresholdForMaxEnviornmentScore>
+      <MinEnviornmentValue value="0">
+        <!--Minimum Enviornment Score-->
+      </MinEnviornmentValue>
+      <MaxEnviornmentValue value="30">
+        <!--Maximum Enviornment Score-->
+      </MaxEnviornmentValue>
+    </kTuningCanvas>
+  </Current_Tuning>
+</base>

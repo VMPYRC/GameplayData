@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Fortune Telling</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1888</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>450</CompletionConditionId>
+      <InputNumber>10</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchCareerStartFunction</StartFunctionName>
+      <DisplayName>Join $Career</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Career</SubjectType>
+        <EnumName>FortuneTeller</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>JoinACareerCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>JoinACareerFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerHired</TriggerEvent>
+      <SubjectTypes>
+        <string>Career</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>1889</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>551</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>5</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchSimStartFunction</StartFunctionName>
+      <DisplayName>Perform Social Interaction</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>SocialCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>SocialFeedBackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <SocialName>Ask Sign</SocialName>
+      <IsSocialPrimitive>true</IsSocialPrimitive>
+      <TriggerEvent>kSocialInteraction</TriggerEvent>
+      <SubjectTypes>
+        <string>Sim</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>1891</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>346</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get fired</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetFiredFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>1892</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>345</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Quit job</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>HaveAJobCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>QuitJobFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/0f089665-ec56-4785-b8e0-1e580ce1ab4f:Name</NameKey>
+    <Name>Seeker of Signs</Name>
+    <SetName>Fortune Telling</SetName>
+    <ChallengeGuid>0f089665-ec56-4785-b8e0-1e580ce1ab4f</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(1888AndOP1889)</LogicString>
+    <FailureString>(1891OrOP1892)</FailureString>
+    <DescriptionKey>Gameplay/Challenges/0f089665-ec56-4785-b8e0-1e580ce1ab4f:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\fortunetelling_01 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>2325</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>552</CompletionConditionId>
+      <InputNumber>4</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or demoted to $Career level $n exactly</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Career</SubjectType>
+        <EnumName>FortuneTeller</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectTypes>
+        <string>Career</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2326</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>573</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>2</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform a Private Reading</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGavePrivateReading</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2329</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>346</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get fired</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetFiredFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2330</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>345</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Quit job</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>HaveAJobCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>QuitJobFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2332</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>552</CompletionConditionId>
+      <InputNumber>3</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or demoted to $Career level $n exactly</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Career</SubjectType>
+        <EnumName>FortuneTeller</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectTypes>
+        <string>Career</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2333</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>310</CompletionConditionId>
+      <InputNumber>5</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or Demoted to $Career level $n or higher</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Career</SubjectType>
+        <EnumName>FortuneTeller</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelGreaterThanOrEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectTypes>
+        <string>Career</string>
+      </SubjectTypes>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/3cdbe109-2b90-4b4c-beb0-cf97aa195246:Name</NameKey>
+    <Name>Talk to the Palm</Name>
+    <SetName>Fortune Telling</SetName>
+    <ChallengeGuid>3cdbe109-2b90-4b4c-beb0-cf97aa195246</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>(2325AndOP2326)</LogicString>
+    <FailureString>((2329OrOP2330)AndOP(2332AndOP2333))</FailureString>
+    <DescriptionKey>Gameplay/Challenges/3cdbe109-2b90-4b4c-beb0-cf97aa195246:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\fortunetelling_06 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_silver_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>2962</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>534</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Fulfill a promised $Wish</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Wish</SubjectType>
+        <UlongValue>203586899</UlongValue>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>DreamIDMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>true</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPromisedDreamCompleted</TriggerEvent>
+      <SubjectTypes>
+        <string>Wish</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2963</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/895a3368-e444-4623-9e5a-14f6fb81d129:Name</NameKey>
+    <Name>Mystic Mastery</Name>
+    <SetName>Fortune Telling</SetName>
+    <ChallengeGuid>895a3368-e444-4623-9e5a-14f6fb81d129</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>2962</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/895a3368-e444-4623-9e5a-14f6fb81d129:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\fortunetelling_05 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_silver_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>2998</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>552</CompletionConditionId>
+      <InputNumber>10</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName />
+      <DisplayName>Promoted or demoted to $Career level $n exactly</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Career</SubjectType>
+        <EnumName>FortuneTeller</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectTypes>
+        <string>Career</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2999</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>548</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName />
+      <DisplayName>Join $Branch of career</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Branch</SubjectType>
+        <KeyValue>ScamArtist</KeyValue>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>JoinBranchName</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+      <SubjectTypes>
+        <string>Branch</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3000</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>572</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>5</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Hold a Psychic Convention</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kHeldPsychicConvention</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3002</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>552</CompletionConditionId>
+      <InputNumber>9</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or demoted to $Career level $n exactly</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Career</SubjectType>
+        <EnumName>FortuneTeller</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectTypes>
+        <string>Career</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3004</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>346</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get fired</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetFiredFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3005</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>345</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Quit job</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>HaveAJobCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>QuitJobFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/8c134167-9434-46db-8223-996697f21fd5:Name</NameKey>
+    <Name>Psychic Sycophant</Name>
+    <SetName>Fortune Telling</SetName>
+    <ChallengeGuid>8c134167-9434-46db-8223-996697f21fd5</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>((2998AndOP2999)AndOP3000)</LogicString>
+    <FailureString>(3002AndOP(3004OrOP3005))</FailureString>
+    <DescriptionKey>Gameplay/Challenges/8c134167-9434-46db-8223-996697f21fd5:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\fortunetelling_02 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_gold_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>3040</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>552</CompletionConditionId>
+      <InputNumber>10</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or demoted to $Career level $n exactly</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Career</SubjectType>
+        <EnumName>FortuneTeller</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectTypes>
+        <string>Career</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3041</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>548</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Join $Branch of career</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Branch</SubjectType>
+        <KeyValue>Mystic</KeyValue>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>JoinBranchName</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+      <SubjectTypes>
+        <string>Branch</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3042</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>604</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>25</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Succeed at $Interaction</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Interaction</SubjectType>
+        <KeyValue>Sims3.Gameplay.ActorSystems.OccultFairy+BestowFairyGift+Definition</KeyValue>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SucceedAtInteractionFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kInteractionSuccess</TriggerEvent>
+      <SubjectTypes>
+        <string>Interaction</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3044</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>552</CompletionConditionId>
+      <InputNumber>9</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Promoted or demoted to $Career level $n exactly</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Career</SubjectType>
+        <EnumName>FortuneTeller</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+      <SubjectTypes>
+        <string>Career</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3046</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>346</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get fired</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetFiredFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3047</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>345</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Quit job</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>HaveAJobCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>QuitJobFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/903d7b07-91aa-4914-88fc-688f6c73464f:Name</NameKey>
+    <Name>Mischievous Tokens of Divinity</Name>
+    <SetName>Fortune Telling</SetName>
+    <ChallengeGuid>903d7b07-91aa-4914-88fc-688f6c73464f</ChallengeGuid>
+    <ExportVersion>3</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>((3040AndOP3041)AndOP3042)</LogicString>
+    <FailureString>(3044AndOP(3046OrOP3047))</FailureString>
+    <DescriptionKey>Gameplay/Challenges/903d7b07-91aa-4914-88fc-688f6c73464f:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\fortunetelling_03 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_gold_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>3910</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>534</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Fulfill a promised $Wish</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Wish</SubjectType>
+        <UlongValue>203586898</UlongValue>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>DreamIDMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>true</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPromisedDreamCompleted</TriggerEvent>
+      <SubjectTypes>
+        <string>Wish</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3911</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/f82d8d4b-1f6d-4df7-b3a8-99ef5de8b01d:Name</NameKey>
+    <Name>Celebratory Psychic</Name>
+    <SetName>Fortune Telling</SetName>
+    <ChallengeGuid>f82d8d4b-1f6d-4df7-b3a8-99ef5de8b01d</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>3910</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/f82d8d4b-1f6d-4df7-b3a8-99ef5de8b01d:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\fortunetelling_04 .png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_silver_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

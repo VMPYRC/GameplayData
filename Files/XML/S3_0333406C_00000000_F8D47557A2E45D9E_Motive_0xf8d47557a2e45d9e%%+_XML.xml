@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAdultFunLossPerSimHour value="7">
+      <!--Range: Positive integers.  Description:  When Sims are not in an interaction that gives fun, they will experience a natural Fun motive decay to zero.  This tunable defines the amount of fun motive that an adult Sim will lose per Sim hour when doing nothing.-->
+    </kAdultFunLossPerSimHour>
+    <kChildFunLossPerSimHour value="10">
+      <!--Range: Positive integers.  Description:  When Sims are not in an interaction that gives fun, they will experience a natural Fun motive decay to zero.  This tunable defines the amount of fun motive that a child Sim will lose per Sim hour when doing nothing.-->
+    </kChildFunLossPerSimHour>
+    <kAdultStressLossPerSimHour value="1">
+      <!--Range: Positive integers.  Description:  When Sims are not in an interaction that gives fun, they will experience a natural Fun motive decay to zero.  This tunable defines the amount of fun motive that an adult Sim will gain per Sim hour when doing nothing.-->
+    </kAdultStressLossPerSimHour>
+    <kChildStressLossPerSimHour value="4">
+      <!--Range: Positive integers.  Description:  When Sims are not in an interaction that gives fun, they will experience a natural Fun motive decay to zero.  This tunable defines the amount of fun motive that a child Sim will gain per Sim hour when doing nothing.-->
+    </kChildStressLossPerSimHour>
+    <kNeuroticTraitStressLossMultiplier value="0.65">
+      <!--Range: 0.0f to 1.0f.  Description:  Sims with the Neurotic trait will destress at a slower rate than normal Sims.  This tunable is the multiplier for the natural destress decay.-->
+    </kNeuroticTraitStressLossMultiplier>
+    <kPositiveContextSwitchFunGain value="2">
+      <!--Range: Positive floats.  Description:  When Sims experience a positive context switch during socialization with another Sim, both Sims will instantly gain fun at an amount defined by this tunable.-->
+    </kPositiveContextSwitchFunGain>
+    <kNegativeContextSwitchFunLoss value="-6">
+      <!--Range: Negative floats.  Description:  When Sims experience a negative context switch either by being the target of an intentionally negative social or by receiving a negative reaction to an intentionally positive social, the Sim will instantly lose fun at an amount defined by this tunable.-->
+    </kNegativeContextSwitchFunLoss>
+    <kRelaxingDestressAmount value="30">
+      <!--Range: Positive floats.  Description: Sims de-stress when they are in the relaxing posture.  This is the amount the Sim destresses in one Sim hour.-->
+    </kRelaxingDestressAmount>
+    <kBladderMultiplierWhileSleeping value="0.1667">
+      <!--Range: Positive floats.  Description:  Decay multiplier for bladder while sleeping.-->
+    </kBladderMultiplierWhileSleeping>
+    <kHungerMultiplierWhileSleeping value="1">
+      <!--Range: Positive floats.  Description:  Decay multiplier for hunger while sleeping.-->
+    </kHungerMultiplierWhileSleeping>
+    <kSwimmingInPoolFunAmount value="20">
+      <!--Range: Positive floats.  Description: Increase in fun per sim hour from swimming in pool posture.-->
+    </kSwimmingInPoolFunAmount>
+    <kHungerMotiveDistressForSocialWorker value="-90">
+      <!--Range: Negative floats.  Description:  Once a child or below sim reaches this threshold for hunger, social worker will be requested.-->
+    </kHungerMotiveDistressForSocialWorker>
+    <kSocialMotiveDistressForSocialWorker value="-100">
+      <!--Range: Negative floats.  Description:  Once a child or below sim reaches this threshold for social, social worker will be requested.-->
+    </kSocialMotiveDistressForSocialWorker>
+    <kNoSenseOfHumorTraitFunLossMultiplier value="0.5">
+      <!--Range: 0.0f to 1.0f.  Description:  Sims with the 'No Sense Of Humor' trait will lose fun at a slower rate than normal Sims.  This tunable is the multiplier for the natural fun decay.-->
+    </kNoSenseOfHumorTraitFunLossMultiplier>
+    <kFunMotiveArrowLimits value="-20, -11, -0.01, 0.01, 35, 80">
+      <!--Rate: Change per Sim hour.  Description:  Minimum delta per Sim hour to show 1 to 3 negative or positive arrows in the UI.-->
+    </kFunMotiveArrowLimits>
+    <kSocialMotiveArrowLimits value="-30, -20, -0.01, 0.01, 25, 100">
+      <!--Rate: Change per Sim hour.  Description:  Minimum delta per Sim hour to show 1 to 3 negative or positive arrows in the UI.-->
+    </kSocialMotiveArrowLimits>
+    <kHungerMotiveArrowLimits value="-40, -30, -0.01, 0.01, 5, 10">
+      <!--Rate: Change per Sim hour.  Description:  Minimum delta per Sim hour to show 1 to 3 negative or positive arrows in the UI.-->
+    </kHungerMotiveArrowLimits>
+    <kEnergyMotiveArrowLimits value="-20, -11, -0.01, 0.01, 16, 22">
+      <!--Rate: Change per Sim hour.  Description:  Minimum delta per Sim hour to show 1 to 3 negative or positive arrows in the UI.-->
+    </kEnergyMotiveArrowLimits>
+    <kBladderMotiveArrowLimits value="-40, -25,-0.01, 0.01, 20, 30">
+      <!--Rate: Change per Sim hour.  Description:  Minimum delta per Sim hour to show 1 to 3 negative or positive arrows in the UI.-->
+    </kBladderMotiveArrowLimits>
+    <kHygieneMotiveArrowLimits value="-50, -10, -0.01, 0.01, 10, 30">
+      <!--Rate: Change per Sim hour.  Description:  Minimum delta per Sim hour to show 1 to 3 negative or positive arrows in the UI.-->
+    </kHygieneMotiveArrowLimits>
+    <kSimMinutesBetweenArrowUpdates value=".25">
+      <!--Sim minutes between UI arrow updates-->
+    </kSimMinutesBetweenArrowUpdates>
+    <kRHSFunMoodRanges value="-100, -40, 0">
+      <!--Range:  Mood ranges.  Description:  [Back] Mood ranges that correspond with color linear interpolation changes for the right-hand side of the mood bar.-->
+    </kRHSFunMoodRanges>
+    <kRHSFunMoodColorRanges value="0, 1, 1, 0.169, 1, 1, 0.169,1,0.3">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the right hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kRHSFunMoodColorRanges>
+    <kLHSFunMoodRanges value="-75,-10, 75">
+      <!--Range:  Mood ranges.  Description:  [Fill] Mood ranges that correspond with color linear interpolation changes for the left-hand side of the mood bar.-->
+    </kLHSFunMoodRanges>
+    <kRHSEnergyMoodRanges value="-90, -70, -30">
+      <!--Range:  Mood ranges.  Description:  [Back] Mood ranges that correspond with color linear interpolation changes for the right-hand side of the mood bar.-->
+    </kRHSEnergyMoodRanges>
+    <kRHSEnergyMoodColorRanges value="0, 1, 1, 0.169, 1, 1, 0.169,1,0.3">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the right hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kRHSEnergyMoodColorRanges>
+    <kLHSEnergyMoodRanges value="-75, -40, 75">
+      <!--Range:  Mood ranges.  Description:  [Fill] Mood ranges that correspond with color linear interpolation changes for the left-hand side of the mood bar.-->
+    </kLHSEnergyMoodRanges>
+    <kRHSBladderMoodRanges value="-90, -70, -30">
+      <!--Range:  Mood ranges.  Description:  [Back] Mood ranges that correspond with color linear interpolation changes for the right-hand side of the mood bar.-->
+    </kRHSBladderMoodRanges>
+    <kRHSBladderMoodColorRanges value="0, 1, 1, 0.169, 1, 1, 0.169,1,0.3">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the right hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kRHSBladderMoodColorRanges>
+    <kLHSBladderMoodRanges value="-75,-40,75">
+      <!--Range:  Mood ranges.  Description:  [Fill] Mood ranges that correspond with color linear interpolation changes for the left-hand side of the mood bar.-->
+    </kLHSBladderMoodRanges>
+    <kRHSHungerMoodRanges value="-90, -50, 0">
+      <!--Range:  Mood ranges.  Description:  [Back] Mood ranges that correspond with color linear interpolation changes for the right-hand side of the mood bar.-->
+    </kRHSHungerMoodRanges>
+    <kRHSHungerMoodColorRanges value="0, 1, 1, 0.169, 1, 1, 0.169,1,0.3">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the right hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kRHSHungerMoodColorRanges>
+    <kLHSHungerMoodRanges value="-60,-40,75">
+      <!--Range:  Mood ranges.  Description:  [Fill] Mood ranges that correspond with color linear interpolation changes for the left-hand side of the mood bar.-->
+    </kLHSHungerMoodRanges>
+    <kRHSSocialMoodRanges value="-100,-70,-30">
+      <!--Range:  Mood ranges.  Description:  [Back] Mood ranges that correspond with color linear interpolation changes for the right-hand side of the mood bar.-->
+    </kRHSSocialMoodRanges>
+    <kRHSSocialMoodColorRanges value="0, 1, 1, 0.169, 1, 1, 0.169,1,0.3">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the right hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kRHSSocialMoodColorRanges>
+    <kLHSSocialMoodRanges value="-75,-40,75">
+      <!--Range:  Mood ranges.  Description:  [Fill] Mood ranges that correspond with color linear interpolation changes for the left-hand side of the mood bar.-->
+    </kLHSSocialMoodRanges>
+    <kRHSHygieneMoodRanges value="-90,-70,-30">
+      <!--Range:  Mood ranges.  Description:  [Back] Mood ranges that correspond with color linear interpolation changes for the right-hand side of the mood bar.-->
+    </kRHSHygieneMoodRanges>
+    <kRHSHygieneMoodColorRanges value="0, 1, 1, 0.169, 1, 1, 0.169,1,0.3">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the right hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kRHSHygieneMoodColorRanges>
+    <kLHSHygieneMoodRanges value="-75,-40,75">
+      <!--Range:  Mood ranges.  Description:  [Fill] Mood ranges that correspond with color linear interpolation changes for the left-hand side of the mood bar.-->
+    </kLHSHygieneMoodRanges>
+    <kSimMinutesNoDecayArrow value="4">
+      <!--Range: Sim minutes.  Description:  For normal decay, number of minutes that we don't show a UI arrow.-->
+    </kSimMinutesNoDecayArrow>
+    <kSimMinutesNoDecayTimeChance value="0.5">
+      <!--Range: Probability under 1.0f.  Description:  For normal decay, chance that a UI arrow displays for NoDecayLongerArrowTime instead of NoDecayShorterArrowTime.-->
+    </kSimMinutesNoDecayTimeChance>
+    <kSimMinutesNoDecayLongerArrowTime value="4">
+      <!--Range:  Sim minutes.  Description:  For normal decay, number of minutes that we show a UI arrow for (longer).-->
+    </kSimMinutesNoDecayLongerArrowTime>
+    <kSimMinutesNoDecayShorterArrowTime value="3">
+      <!--Range:  Sim minutes.  Description:  For normal decay, number of minutes that we show a UI arrow for (shorter).-->
+    </kSimMinutesNoDecayShorterArrowTime>
+    <kMotiveLerpValuePerSimMinute value="25">
+      <!--Range:  Motive change per Sim minutes.  Description:  For motive lerping, this is the most lerping we can do in a Sim minute.-->
+    </kMotiveLerpValuePerSimMinute>
+    <kFunMultiplierWhileSleeping value="0.25">
+      <!--Range: Positive floats.  Description:  Decay multiplier for fun while sleeping.-->
+    </kFunMultiplierWhileSleeping>
+    <kRHSFunAlphaRanges value="-40, 0">
+      <!--Range:  Mood alpha ranges.  Description:  [Back] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the fun motive bar.-->
+    </kRHSFunAlphaRanges>
+    <kRHSFunAlphaValueRanges value="1, 0.2">
+      <!--Range:  Mood alpha values.  Description:  [Back] Alpha values that correspond with alpha linear interpolation changes for the background fill of the fun motive bar.-->
+    </kRHSFunAlphaValueRanges>
+    <kLHSFunAlphaRanges value="-75,-25">
+      <!--Range:  Mood alpha ranges.  Description:  [Fill] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the fun motive bar.-->
+    </kLHSFunAlphaRanges>
+    <kRHSEnergyAlphaRanges value="-70,-30">
+      <!--Range:  Mood alpha ranges.  Description:  [Back] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the energy motive bar.-->
+    </kRHSEnergyAlphaRanges>
+    <kRHSEnergyAlphaValueRanges value="1,0.2">
+      <!--Range:  Mood alpha values.  Description:  [Back] Alpha values that correspond with alpha linear interpolation changes for the background fill of the energy motive bar.-->
+    </kRHSEnergyAlphaValueRanges>
+    <kLHSEnergyAlphaRanges value="10, 100">
+      <!--Range:  Mood alpha ranges.  Description:  [Fill] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the energy motive bar.-->
+    </kLHSEnergyAlphaRanges>
+    <kRHSBladderAlphaRanges value="-70,-30">
+      <!--Range:  Mood alpha ranges.  Description:  [Back] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the bladder motive bar.-->
+    </kRHSBladderAlphaRanges>
+    <kRHSBladderAlphaValueRanges value="1,0.2">
+      <!--Range:  Mood alpha values.  Description:  [Back] Alpha values that correspond with alpha linear interpolation changes for the background fill of the bladder motive bar.-->
+    </kRHSBladderAlphaValueRanges>
+    <kLHSBladderAlphaRanges value="10, 100">
+      <!--Range:  Mood alpha ranges.  Description:  [Fill] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the bladder motive bar.-->
+    </kLHSBladderAlphaRanges>
+    <kRHSHungerAlphaRanges value="-50,0">
+      <!--Range:  Mood alpha ranges.  Description:  [Back] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the hunger motive bar.-->
+    </kRHSHungerAlphaRanges>
+    <kRHSHungerAlphaValueRanges value="1,0.2">
+      <!--Range:  Mood alpha values.  Description:  [Back] Alpha values that correspond with alpha linear interpolation changes for the background fill of the hunger motive bar.-->
+    </kRHSHungerAlphaValueRanges>
+    <kLHSHungerAlphaRanges value="10, 100">
+      <!--Range:  Mood alpha ranges.  Description:  [Fill] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the hunger motive bar.-->
+    </kLHSHungerAlphaRanges>
+    <kRHSSocialAlphaRanges value="-70,-30">
+      <!--Range:  Mood alpha ranges.  Description:  [Back] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the social motive bar.-->
+    </kRHSSocialAlphaRanges>
+    <kRHSSocialAlphaValueRanges value="1,0.2">
+      <!--Range:  Mood alpha values.  Description:  [Back] Alpha values that correspond with alpha linear interpolation changes for the background fill of the social motive bar.-->
+    </kRHSSocialAlphaValueRanges>
+    <kLHSSocialAlphaRanges value="10, 100">
+      <!--Range:  Mood alpha ranges.  Description:  [Fill] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the social motive bar.-->
+    </kLHSSocialAlphaRanges>
+    <kRHSHygieneAlphaRanges value="-70,-30">
+      <!--Range:  Mood alpha ranges.  Description:  [Back] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the hygiene motive bar.-->
+    </kRHSHygieneAlphaRanges>
+    <kRHSHygieneAlphaValueRanges value="1,0.2">
+      <!--Range:  Mood alpha values.  Description:  [Back] Alpha values that correspond with alpha linear interpolation changes for the background fill of the hygiene motive bar.-->
+    </kRHSHygieneAlphaValueRanges>
+    <kLHSHygieneAlphaRanges value="10, 100">
+      <!--Range:  Mood alpha ranges.  Description:  [Fill] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the hygiene motive bar.-->
+    </kLHSHygieneAlphaRanges>
+    <kMaxMotiveTimeDelta value="1">
+      <!--Range: Sim hours.  Max time that auto-satisfy curve time will vary per Sim.-->
+    </kMaxMotiveTimeDelta>
+    <kHungerMinValueSimWhoCantStarve value="-95">
+      <!--If a Sim who can't temporarily die by starvation has their hunger fall below this value, we assign set it to it.  Example: Preganant Sims and Sims on the world lot.-->
+    </kHungerMinValueSimWhoCantStarve>
+    <kMaxUpdateHoursBeforeAutoSatisfy value="1">
+      <!--Maximum time in Sim hours beyond which we will use the autosatisfy curves rather than motive decay to compute the motives of a Sim.-->
+    </kMaxUpdateHoursBeforeAutoSatisfy>
+    <kLHSSimBotMoodColorRanges value="0.5783, 0.347, 0.5, 0.5783, 0.146, 0.90, 0.5783, 0.146, 0.937">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the left hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kLHSSimBotMoodColorRanges>
+    <kLHSMoodColorRanges value="0.333333, 0.35, 0.6, 0.333333, 0.9, 0.9, 0.3333, 1, 1">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the left hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kLHSMoodColorRanges>
+    <kLHSAlphaValueRanges value="1, 1">
+      <!--Range:  Mood alpha values.  Description:  [Fill] Alpha values that correspond with alpha linear interpolation changes for the background fill of the energy motive bar.-->
+    </kLHSAlphaValueRanges>
+    <kLHSVampireMoodColorRanges value="0.0, 0.0, 0.0, 0.79, 1.00, 0.49, 0.79, 1.00, 0.49">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the left hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kLHSVampireMoodColorRanges>
+    <kPotionBladderDecayMultiplier value="15">
+      <!--Range:  0.0 - Inf  Description:  Multiplier on rate of bladder decay after drinking a bladder potion-->
+    </kPotionBladderDecayMultiplier>
+    <kRHSDogDestructionMoodRanges value="-90,-70,-30">
+      <!--Range:  Mood ranges.  Description:  [Back] Mood ranges that correspond with color linear interpolation changes for the right-hand side of the mood bar.-->
+    </kRHSDogDestructionMoodRanges>
+    <kRHSDogDestructionMoodColorRanges value="0, 1, 1, 0.169, 1, 1, 0.169,1,0.3">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the right hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kRHSDogDestructionMoodColorRanges>
+    <kRHSDogDestructionAlphaRanges value="-70,-30">
+      <!--Range:  Mood alpha ranges.  Description:  [Back] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the bladder motive bar.-->
+    </kRHSDogDestructionAlphaRanges>
+    <kRHSDogDestructionAlphaValueRanges value="1,0.2">
+      <!--Range:  Mood alpha values.  Description:  [Back] Alpha values that correspond with alpha linear interpolation changes for the background fill of the bladder motive bar.-->
+    </kRHSDogDestructionAlphaValueRanges>
+    <kLHSDogDestructionMoodRanges value="-75,-40,75">
+      <!--Range:  Mood ranges.  Description:  [Fill] Mood ranges that correspond with color linear interpolation changes for the left-hand side of the mood bar.-->
+    </kLHSDogDestructionMoodRanges>
+    <kLHSDogDestructionAlphaRanges value="10, 100">
+      <!--Range:  Mood alpha ranges.  Description:  [Fill] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the bladder motive bar.-->
+    </kLHSDogDestructionAlphaRanges>
+    <kRHSCatScratchMoodRanges value="-90,-70,-30">
+      <!--Range:  Mood ranges.  Description:  [Back] Mood ranges that correspond with color linear interpolation changes for the right-hand side of the mood bar.-->
+    </kRHSCatScratchMoodRanges>
+    <kRHSCatScratchMoodColorRanges value="0, 1, 1, 0.169, 1, 1, 0.169,1,0.3">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the right hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kRHSCatScratchMoodColorRanges>
+    <kRHSCatScratchAlphaRanges value="-70,-30">
+      <!--Range:  Mood alpha ranges.  Description:  [Back] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the bladder motive bar.-->
+    </kRHSCatScratchAlphaRanges>
+    <kRHSCatScratchAlphaValueRanges value="1,0.2">
+      <!--Range:  Mood alpha values.  Description:  [Back] Alpha values that correspond with alpha linear interpolation changes for the background fill of the bladder motive bar.-->
+    </kRHSCatScratchAlphaValueRanges>
+    <kLHSCatScratchMoodRanges value="-75,-40,75">
+      <!--Range:  Mood ranges.  Description:  [Fill] Mood ranges that correspond with color linear interpolation changes for the left-hand side of the mood bar.-->
+    </kLHSCatScratchMoodRanges>
+    <kLHSCatScratchAlphaRanges value="10, 100">
+      <!--Range:  Mood alpha ranges.  Description:  [Fill] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the bladder motive bar.-->
+    </kLHSCatScratchAlphaRanges>
+    <kRHSHorseExerciseMoodRanges value="-90,-70,-30">
+      <!--Range:  Mood ranges.  Description:  [Back] Mood ranges that correspond with color linear interpolation changes for the right-hand side of the mood bar.-->
+    </kRHSHorseExerciseMoodRanges>
+    <kRHSHorseExerciseMoodColorRanges value="0, 1, 1, 0.169, 1, 1, 0.169,1,0.3">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the right hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kRHSHorseExerciseMoodColorRanges>
+    <kRHSHorseExerciseAlphaRanges value="-70,-30">
+      <!--Range:  Mood alpha ranges.  Description:  [Back] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the bladder motive bar.-->
+    </kRHSHorseExerciseAlphaRanges>
+    <kRHSHorseExerciseAlphaValueRanges value="1,0.2">
+      <!--Range:  Mood alpha values.  Description:  [Back] Alpha values that correspond with alpha linear interpolation changes for the background fill of the bladder motive bar.-->
+    </kRHSHorseExerciseAlphaValueRanges>
+    <kLHSHorseExerciseMoodRanges value="-75,-40,75">
+      <!--Range:  Mood ranges.  Description:  [Fill] Mood ranges that correspond with color linear interpolation changes for the left-hand side of the mood bar.-->
+    </kLHSHorseExerciseMoodRanges>
+    <kLHSHorseExerciseAlphaRanges value="10, 100">
+      <!--Range:  Mood alpha ranges.  Description:  [Fill] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the bladder motive bar.-->
+    </kLHSHorseExerciseAlphaRanges>
+    <kRHSHorseThirstMoodRanges value="-90,-70,-30">
+      <!--Range:  Mood ranges.  Description:  [Back] Mood ranges that correspond with color linear interpolation changes for the right-hand side of the mood bar.-->
+    </kRHSHorseThirstMoodRanges>
+    <kRHSHorseThirstMoodColorRanges value="0, 1, 1, 0.169, 1, 1, 0.169,1,0.3">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the right hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kRHSHorseThirstMoodColorRanges>
+    <kRHSHorseThirstAlphaRanges value="-70,-30">
+      <!--Range:  Mood alpha ranges.  Description:  [Back] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the bladder motive bar.-->
+    </kRHSHorseThirstAlphaRanges>
+    <kRHSHorseThirstAlphaValueRanges value="1,0.2">
+      <!--Range:  Mood alpha values.  Description:  [Back] Alpha values that correspond with alpha linear interpolation changes for the background fill of the bladder motive bar.-->
+    </kRHSHorseThirstAlphaValueRanges>
+    <kLHSHorseThirstMoodRanges value="-75,-40,75">
+      <!--Range:  Mood ranges.  Description:  [Fill] Mood ranges that correspond with color linear interpolation changes for the left-hand side of the mood bar.-->
+    </kLHSHorseThirstMoodRanges>
+    <kLHSHorseThirstAlphaRanges value="10, 100">
+      <!--Range:  Mood alpha ranges.  Description:  [Fill] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the bladder motive bar.-->
+    </kLHSHorseThirstAlphaRanges>
+    <kDogDestructionMotiveArrowLimits value="-50, -10, -0.01, 0.01, 10, 30">
+      <!--Rate: Change per Sim hour.  Description:  Minimum delta per Sim hour to show 1 to 3 negative or positive arrows in the UI.-->
+    </kDogDestructionMotiveArrowLimits>
+    <kCatScratchMotiveArrowLimits value="-50, -10, -0.01, 0.01, 10, 30">
+      <!--Rate: Change per Sim hour.  Description:  Minimum delta per Sim hour to show 1 to 3 negative or positive arrows in the UI.-->
+    </kCatScratchMotiveArrowLimits>
+    <kHorseExerciseMotiveArrowLimits value="-50, -10, -0.01, 0.01, 10, 30">
+      <!--Rate: Change per Sim hour.  Description:  Minimum delta per Sim hour to show 1 to 3 negative or positive arrows in the UI.-->
+    </kHorseExerciseMotiveArrowLimits>
+    <kHorseThirstMotiveArrowLimits value="-50, -10, -0.01, 0.01, 10, 30">
+      <!--Rate: Change per Sim hour.  Description:  Minimum delta per Sim hour to show 1 to 3 negative or positive arrows in the UI.-->
+    </kHorseThirstMotiveArrowLimits>
+    <kPetPregnancyBladderDecayMultiplier value="2">
+      <!--Range: Positive floats.  Description: Amount decay of bladder is multiplied by for pregnant pets.-->
+    </kPetPregnancyBladderDecayMultiplier>
+    <kPetPregnancyHungerDecayMultiplier value="2">
+      <!--Range: Positive floats.  Description: Amount decay of hunger is multiplied by for pregnant pets.-->
+    </kPetPregnancyHungerDecayMultiplier>
+    <kUnaturallyCleanDecayMultiplier value="0.25">
+      <!--Range: Positive floats.  Description:  Decay multiplier for hygiene while pet has unaturally clean buff.-->
+    </kUnaturallyCleanDecayMultiplier>
+    <kLHSUnicornMoodColorRanges value="0.6, 0.5, 0.6, 0.58, 0.5, 0.8, 0.55, 0.15, 1">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the left hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kLHSUnicornMoodColorRanges>
+    <kHorseExerciseIncreaseWalking value="0">
+      <!--How much we increase the horse's exercise motive by if they are walking-->
+    </kHorseExerciseIncreaseWalking>
+    <kHorseExerciseIncreaseTrotting value="1">
+      <!--How much we increase the horse's exercise motive by if they are trotting-->
+    </kHorseExerciseIncreaseTrotting>
+    <kHorseExerciseIncreaseGalloping value="2">
+      <!--How much we increase the horse's exercise motive by if they are galloping-->
+    </kHorseExerciseIncreaseGalloping>
+    <kPetHungerMotiveDistressForSocialWorker value="-90">
+      <!--Range: Negative floats.  Description:  Once a pet reaches this threshold for hunger, social worker will be requested.-->
+    </kPetHungerMotiveDistressForSocialWorker>
+    <kPetSocialMotiveDistressForSocialWorker value="-90">
+      <!--Range: Negative floats.  Description:  Once a pet reaches this threshold for social, social worker will be requested.-->
+    </kPetSocialMotiveDistressForSocialWorker>
+    <kLHSGenieMoodColorRanges value="0.683, 0.54, 0.5, 0.683, 0.54, 1, 0.683, 0.54, 1">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the left hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kLHSGenieMoodColorRanges>
+    <kMisunderstoodSocialMotiveAddValue value="-50">
+      <!--The Social motive value at which the Misunderstood buff is given to brooding sims-->
+    </kMisunderstoodSocialMotiveAddValue>
+    <kMisunderstoodSocialMotiveRemoveValue value="75">
+      <!--The Social motive value at which the Misunderstood buff is removed from brooding sims-->
+    </kMisunderstoodSocialMotiveRemoveValue>
+    <kSimColdTemperatureMotiveDistressForSocialWorker value="-90">
+      <!--Range: Negative floats.  Description:  Once a child or below sim reaches this threshold for cold sim temp, social worker will be requested.-->
+    </kSimColdTemperatureMotiveDistressForSocialWorker>
+    <kSimHotTemperatureMotiveDistressForSocialWorker value="90">
+      <!--Range: Negative floats.  Description:  Once a child or below sim reaches this threshold for hot sim temp, social worker will be requested.-->
+    </kSimHotTemperatureMotiveDistressForSocialWorker>
+    <kTemperatureMinValueSimWhoCantFreeze value="-90">
+      <!--If a Sim who can't temporarily die by freezing has their temperature fall below this value, we assign set it to it.  Example: Preganant Sims and Sims on the world lot.-->
+    </kTemperatureMinValueSimWhoCantFreeze>
+    <kLHSPlantSimMoodColorRanges value="0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the left hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kLHSPlantSimMoodColorRanges>
+    <kMotivesNotAffectedByStaticNeeds value="AcademicPerformance">
+      <!--These CommodityKinds are not affected by the Make Needs Static cheat-->
+    </kMotivesNotAffectedByStaticNeeds>
+    <kLHSMermaidMoodColorRanges value="0.63, 1, 0.5, 0.63, 1, 1, 0.63, 1, 1">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the left hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kLHSMermaidMoodColorRanges>
+    <kHydrationMinValueSimWhoCantDehydrate value="-80">
+      <!--If a Mermaid who can't temporarily die by dehydration has their dermal hydration fall below this value, we assign set it to it.  Example: Preganant Sims and Sims on the world lot.-->
+    </kHydrationMinValueSimWhoCantDehydrate>
+    <kSwimmingInUnchlorinatedResortPoolHygieneAmount value="-20">
+      <!--Range: Positive floats.  Description: Decrease in hygiene per sim hour from swimming in dechlorinated resort pool posture.-->
+    </kSwimmingInUnchlorinatedResortPoolHygieneAmount>
+    <kSwimmingInPoolFatigueAmount value="-50">
+      <!--Range: Positive floats.  Description: Decrease in fatigue per sim hour from swimming posture in a pool.-->
+    </kSwimmingInPoolFatigueAmount>
+    <kSwimmingInOceanFatigueAmount value="-5">
+      <!--Range: Positive floats.  Description: Decrease in fatigue per sim hour from swimming posture in the ocean.-->
+    </kSwimmingInOceanFatigueAmount>
+    <kSoothingSceneryFunAmount value="15">
+      <!--Range: Positive floats.  Description: Increase in fun per sim hour from having the Soothing Scenery moodlet.-->
+    </kSoothingSceneryFunAmount>
+    <kSoothingSceneryFunGainDisablePoint value="75">
+      <!--Range: Floats.  Description: If the commodity value is above this tunable value, then disable the increase in fun from having the Soothing Scenery moodlet.-->
+    </kSoothingSceneryFunGainDisablePoint>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kOutgoingTraitPositiveContextSwitchFunMultiplier value="1.5">
+      <!--Range: Positive floats above 1.0f.  Description:  Sims with the Outgoing trait gain more fun from positive context switches during socialization.  This tunable is the multiplier to the normal fun gain from positive context switches.-->
+      <!--deprecated on: 1/16/2008 11:51:52 AM-->
+    </kOutgoingTraitPositiveContextSwitchFunMultiplier>
+  </Deprecated_Tuning>
+</base>

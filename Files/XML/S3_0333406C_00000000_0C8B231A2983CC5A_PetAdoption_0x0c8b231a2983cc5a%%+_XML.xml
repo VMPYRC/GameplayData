@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRefreshNumber value="1, 3">
+      <!--Range of Pets number need to be removed-->
+    </kRefreshNumber>
+    <kNeighborLitterNumber value="1, 3">
+      <!--Range of Pets number will be available in a household to adopt from-->
+    </kNeighborLitterNumber>
+    <kNeighborLitterAddDays value="1, 1">
+      <!--How often to add a pet in the neighborhood, pick a day inside the range-->
+    </kNeighborLitterAddDays>
+    <kNeighborLitterRemoveDays value="3">
+      <!--How long the litter will exist in the neighborhood-->
+    </kNeighborLitterRemoveDays>
+    <kLTRThreshold value="20">
+      <!--If the litter household has someone has Threshold LTR with Active Household, they will call you-->
+    </kLTRThreshold>
+    <kLitterCallTimeOut value="30">
+      <!--Time out in minutes when litter household make call-->
+    </kLitterCallTimeOut>
+    <kPetTraitNum value="1, 3">
+      <!--Number of trait will given to an adopt pet-->
+    </kPetTraitNum>
+    <kMinPetNumberInPoolForAdoption value="2">
+      <!--Minimum number of pets in the pool available to adoption, same to every species-->
+    </kMinPetNumberInPoolForAdoption>
+    <kLTRIncreaseAfterAdopted value="10">
+      <!--When a pet is adopted to the household, give a LTR update-->
+    </kLTRIncreaseAfterAdopted>
+  </Current_Tuning>
+</base>

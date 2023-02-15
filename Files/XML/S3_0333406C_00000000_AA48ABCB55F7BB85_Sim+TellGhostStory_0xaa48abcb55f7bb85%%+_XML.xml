@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTellGhostStoryHangOutTimeBeforeStoryStarts value="1">
+      <!--Once the story teller has called all the participants, the sim waits for this duration before starting the story telling animations. Positive float. Units: Sim Minutes. Initial GPE default 30.-->
+    </kTellGhostStoryHangOutTimeBeforeStoryStarts>
+    <kTellGhostStoryDuration value="45, 60">
+      <!--We pick a random number between this bound of time to tell a ghost story. Positive floats. Index 0: Minimum. Index 1: Maximum. Units: Sim Minutes.-->
+    </kTellGhostStoryDuration>
+    <kGhostStoryCallDistanceSqr value="64">
+      <!--Positive float.  The maximum range squared that a sim can be from the story teller to be called into the story.  Only sims on the same lot will be called.-->
+    </kGhostStoryCallDistanceSqr>
+    <kGhostStoryCallSuccessChance value="0.50">
+      <!--Float in range 0 to 1.  The chance that an individual sim will be called into the ghost story.-->
+    </kGhostStoryCallSuccessChance>
+    <kSimMinutesBetweenLTRUpdates value="6">
+      <!--Positive float.  The number of sim minutes between LTR updates between ghost story listeners and the ghost story teller.-->
+    </kSimMinutesBetweenLTRUpdates>
+    <kGhostStoryLTRLikingDelta value="1">
+      <!--Positive float.  The amount of LTR liking increase between the story teller and each listener each time that it increases.-->
+    </kGhostStoryLTRLikingDelta>
+  </Current_Tuning>
+</base>

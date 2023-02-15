@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPercentLevelRehired value="0.5">
+      <!--the percent of your old level that you get rehired at if you quit then join a job again (rounded up in code)-->
+    </kPercentLevelRehired>
+    <kDemotionThreshold value="-50">
+      <!--Below this performance level a Sim starts to get a warning about being demoted or fired-->
+    </kDemotionThreshold>
+    <kDemotionWarningHours value="48">
+      <!--Number of hours Sim has to get performance above demotion threshold before being demoted.  He gets tested after this many hours and demoted if he isn't above threshold.-->
+    </kDemotionWarningHours>
+    <kDemotionStressPenalty value="-50">
+      <!--Should be negative: Amount of fun/stress a Sim loses when demoted-->
+    </kDemotionStressPenalty>
+    <kFiredStressPenalty value="-100">
+      <!--Should be negative: Amount of fun/stress a Sim loses when fired-->
+    </kFiredStressPenalty>
+    <kWorkaholicTraitMissingWorkStressPerHour value="-15">
+      <!--Should be negative: Amount of fun/stress a workaholic Sim loses per hour-->
+    </kWorkaholicTraitMissingWorkStressPerHour>
+    <kNumHoursEarlyCanShowUpForWork value="2">
+      <!--The number of hours early a Sim can show up for work and wait outside-->
+    </kNumHoursEarlyCanShowUpForWork>
+    <kWaitOneDayBeforeStartingJob value="True">
+      <!--If true, the sim will wait a day before starting a new job.-->
+    </kWaitOneDayBeforeStartingJob>
+    <kOverEmotionalSimChanceToCryOnPromotion value="0.5">
+      <!--Range: 0.0f to 1.0f.  Description:  This tunable is the percentage chance that an OverEmotional Sim will cry joyously after being promoted.-->
+    </kOverEmotionalSimChanceToCryOnPromotion>
+    <kPhoneCallTimeout value="20">
+      <!--Timeout of demotion / firing / warning calls in minutes-->
+    </kPhoneCallTimeout>
+    <kMinimumBossLevel value="5">
+      <!--Bosses must be at least this career level-->
+    </kMinimumBossLevel>
+    <kHoursBeforeStartCarpoolArrives value="1">
+      <!--Number of hours before career start time the carpool arrives. Also used for the max time the bus waits for kids after school.-->
+    </kHoursBeforeStartCarpoolArrives>
+    <kDemandRaiseMinDaysBetweenSuccess value="5">
+      <!--Minimum number of days that must pass between raise demands for a chance of success.-->
+    </kDemandRaiseMinDaysBetweenSuccess>
+    <kDemandRaiseMinPerformance value="25">
+      <!--Minimum job performance for a chance of success.-->
+    </kDemandRaiseMinPerformance>
+    <kDemandRaiseSuccessChance value="50">
+      <!--Demand Raise chance of success if min performance and days between demands conditions are met.-->
+    </kDemandRaiseSuccessChance>
+    <kDemandRaiseMinPerformanceLoss value="10">
+      <!--If demand raise fails, the minimum amount of performance that'll be lost.-->
+    </kDemandRaiseMinPerformanceLoss>
+    <kDemandRaiseMaxPerformanceLoss value="50">
+      <!--If demand raise fails, the minimum amount of performance that'll be lost.-->
+    </kDemandRaiseMaxPerformanceLoss>
+    <kDemandRaiseMinPerformanceForFiring value="-50">
+      <!--If demand raise fails, the minimum amount of performance for a chance at being fired.-->
+    </kDemandRaiseMinPerformanceForFiring>
+    <kDemandRaiseChanceForFiring value="50">
+      <!--If demand raise fails and minimum performance requirment is met, the chance the Sim will be fired.-->
+    </kDemandRaiseChanceForFiring>
+    <kMinHoursBetweenShiftsAfterPromotion value="8">
+      <!--If a Sim is promoted and their next shift starts in less time than this tunable, they will have the day off.-->
+    </kMinHoursBetweenShiftsAfterPromotion>
+    <kSimMinutesToConsiderSkippingWork value="30">
+      <!--The number of minutes after work was supposed to start to count the sim as skipping work.-->
+    </kSimMinutesToConsiderSkippingWork>
+    <kHolidayBonusDaysEmployeedRange value="1, 10">
+      <!--First value represents the days employeed to get kHolidayBonusDaysEmployeedPercentage[0], the second to get kHolidayBonusDaysEmployeedPercentage[1].  Will interpolate to get the in between values.-->
+    </kHolidayBonusDaysEmployeedRange>
+    <kHolidayBonusDaysEmployeedPercentage value="0.25, 2">
+      <!--The min and max perctage applied to the holiday bonus for days employeed.-->
+    </kHolidayBonusDaysEmployeedPercentage>
+    <kHolidayBonusPerformanceRange value="25, 100">
+      <!--Range: -100, 100.  First value represents the performance required to get kHolidayBonusPerformancePercentage[0], the second to get kHolidayBonusPerformancePercentage[1].  Will interpolate based off of the Sim's current performance.-->
+    </kHolidayBonusPerformanceRange>
+    <kHolidayBonusPerformancePercentage value="0.25, 2">
+      <!--The min and max perctage applied to the holiday bonus for days employeed.-->
+    </kHolidayBonusPerformancePercentage>
+    <kHolidayBonusSickDayRange value="0, 6">
+      <!--Range: -100, 100.  First value represents the performance required to get kHolidayBonusSickDayPercentage[0], the second to get kHolidayBonusSickDayPercentage[1].  Will interpolate based off of the Sim's current number of sick days.-->
+    </kHolidayBonusSickDayRange>
+    <kHolidayBonusSickDayPercentage value="2, 0">
+      <!--The min and max perctage applied to the holiday bonus for days employeed.-->
+    </kHolidayBonusSickDayPercentage>
+    <kHolidayBonusThresholds value="5, 7">
+      <!--A bonus percentage below the first value will be considered small, between the values average and above the second large.-->
+    </kHolidayBonusThresholds>
+    <kCareerBonusesForDegreeWithGradeOfA>
+      <kCareerLevelBonusFromDegree value="4">
+        <!--A bonus to career level for Sims with a completed degree that have a GPA of A.-->
+      </kCareerLevelBonusFromDegree>
+      <kBonusToCareerPay value="1.5">
+        <!--A bonus to base career pay for Sims with a completed degree.  This bonus is represented as a percent of a Sims base pay.  This tunable with value of 1.0f doubles the base pay for this level.-->
+      </kBonusToCareerPay>
+      <kBonusToCareerPerformance value="1.0">
+        <!--A bonus to base career performance for Sims with a completed degree.-->
+      </kBonusToCareerPerformance>
+    </kCareerBonusesForDegreeWithGradeOfA>
+    <kCareerBonusesForDegreeWithGradeOfB>
+      <kCareerLevelBonusFromDegree value="3">
+        <!--A bonus to career level for Sims with a completed degree that have a GPA of A.-->
+      </kCareerLevelBonusFromDegree>
+      <kBonusToCareerPay value="0.75">
+        <!--A bonus to base career pay for Sims with a completed degree.  This bonus is represented as a percent of a Sims base pay.  This tunable with value of 1.0f doubles the base pay for this level.-->
+      </kBonusToCareerPay>
+      <kBonusToCareerPerformance value="0.75">
+        <!--A bonus to base career performance for Sims with a completed degree.-->
+      </kBonusToCareerPerformance>
+    </kCareerBonusesForDegreeWithGradeOfB>
+    <kCareerBonusesForDegreeWithGradeOfC>
+      <kCareerLevelBonusFromDegree value="2">
+        <!--A bonus to career level for Sims with a completed degree that have a GPA of A.-->
+      </kCareerLevelBonusFromDegree>
+      <kBonusToCareerPay value="0.5">
+        <!--A bonus to base career pay for Sims with a completed degree.  This bonus is represented as a percent of a Sims base pay.  This tunable with value of 1.0f doubles the base pay for this level.-->
+      </kBonusToCareerPay>
+      <kBonusToCareerPerformance value="0.5">
+        <!--A bonus to base career performance for Sims with a completed degree.-->
+      </kBonusToCareerPerformance>
+    </kCareerBonusesForDegreeWithGradeOfC>
+    <kCareerBonusesForDegreeWithGradeOfD>
+      <kCareerLevelBonusFromDegree value="1">
+        <!--A bonus to career level for Sims with a completed degree that have a GPA of A.-->
+      </kCareerLevelBonusFromDegree>
+      <kBonusToCareerPay value="0.25">
+        <!--A bonus to base career pay for Sims with a completed degree.  This bonus is represented as a percent of a Sims base pay.  This tunable with value of 1.0f doubles the base pay for this level.-->
+      </kBonusToCareerPay>
+      <kBonusToCareerPerformance value="0.25">
+        <!--A bonus to base career performance for Sims with a completed degree.-->
+      </kBonusToCareerPerformance>
+    </kCareerBonusesForDegreeWithGradeOfD>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kMaxMetricsSupported value="4" />
+    <kWorkaholicMissingWorkStressPerHour value="-100">
+      <!-- deprecated on: 7/19/2007 8:07:47 PM-->
+    </kWorkaholicMissingWorkStressPerHour>
+    <kWorkplaceStressPerHour value="-50">
+      <!--deprecated on: 8/13/2007 11:57:11 AM-->
+    </kWorkplaceStressPerHour>
+  </Deprecated_Tuning>
+</base>

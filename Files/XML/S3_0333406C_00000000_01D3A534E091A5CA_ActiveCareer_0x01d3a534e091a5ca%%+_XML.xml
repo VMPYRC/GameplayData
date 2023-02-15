@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTemporaryTimeoutIncreaseForJob value="2">
+      <!--If the sim's job times out but you are on the same lot, we increase the timeout by these many hours. Positive float. Initial GPE default: 2f.-->
+    </kTemporaryTimeoutIncreaseForJob>
+    <kLostCustomerCallTimeOut value="20">
+      <!--How many Sim minutes the Sim's cell phone will ring when losing a random customer. Initial GPE default: 15f.-->
+    </kLostCustomerCallTimeOut>
+    <kWeeklyStipendHour value="12">
+      <!--The hour at which we provide the weekly stipend for active careers. Range: (0, 24). Initial GPE default: 12f.-->
+    </kWeeklyStipendHour>
+    <kWeeklyStipendDayOfTheWeek value="Sunday">
+      <!--The day when we provide the weekly stipend. Valid values: Enum DaysOfTheWeek. Initial GPE default: Sunday.-->
+    </kWeeklyStipendDayOfTheWeek>
+    <kPensionIncomePerDayMultiplier value="6">
+      <!--Multiplier used to calculate the retirement stipend. This number is multiplied by the average earnings-per-day achieved over the lifetime of the career.-->
+    </kPensionIncomePerDayMultiplier>
+    <kPayTypesThatCountTowardsPensionEarnings value="kCareerNormalPay, kCareerBonus, kCareerVacationPay">
+      <!--Types of pay that count towards the total used for calculating the weekly pension. (Each is an element from the GotPaidEvent.PayType enum.)-->
+    </kPayTypesThatCountTowardsPensionEarnings>
+  </Current_Tuning>
+</base>

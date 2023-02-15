@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteToReplaceRadiusMinimum value="0.7">
+      <!--Range:  0+  Description:  The minimum distance when replacing a Sim-->
+    </kRouteToReplaceRadiusMinimum>
+    <kRouteToReplaceRadiusMaximum value="2">
+      <!--Range:  0+  Description:  The maximum distance when replacing a Sim-->
+    </kRouteToReplaceRadiusMaximum>
+    <kRouteToReplaceRadiusPreferred value="1.5">
+      <!--Range:  0+  Description:  The preferred distance when replacing a Sim-->
+    </kRouteToReplaceRadiusPreferred>
+    <kRouteToReplaceAngle value="3.141593">
+      <!--Range:  0+  Description:  The available routing angle when replacing a Sim-->
+    </kRouteToReplaceAngle>
+    <kRouteAwayDistanceMinimum value="3">
+      <!--Range:  0+  Description:  The minimum distance the replaced Sim will route away-->
+    </kRouteAwayDistanceMinimum>
+    <kRouteAwayDistanceMaximum value="5">
+      <!--Range:  0+  Description:  The maximum distance the replaced Sim will route away-->
+    </kRouteAwayDistanceMaximum>
+  </Current_Tuning>
+</base>

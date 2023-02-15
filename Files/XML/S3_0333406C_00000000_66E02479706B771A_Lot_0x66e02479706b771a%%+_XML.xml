@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kInactiveLotSleepTicks value="30">
+      <!--The number of ticks that an inactive lot delays.-->
+    </kInactiveLotSleepTicks>
+    <kNumParkObjectsForBigPark value="10">
+      <!--The number of park-objects before the park counts as a big park.-->
+    </kNumParkObjectsForBigPark>
+    <kMinRestTimeOutsideRabbitHole value="10">
+      <!--Unit: Sim minutes. The min number of minutes a Sim will wait outside a rabbit hole after being inside.-->
+    </kMinRestTimeOutsideRabbitHole>
+    <kMaxRestTimeOutsideRabbitHole value="30">
+      <!--Unit: Sim minutes. The max number of minutes a Sim will wait outside a rabbit hole after being inside.-->
+    </kMaxRestTimeOutsideRabbitHole>
+    <kChanceOfBringingOtherPeopleToCommunityLot value="80">
+      <!--Unit: 0 - 100. The percentage chance of a Sim bringing other members of his household when going to a community lot-->
+    </kChanceOfBringingOtherPeopleToCommunityLot>
+    <kChanceOfGoingToCommunityLotByCar value="50">
+      <!--Unit: 0 - 100. The percentage chance of a Sim traveling by car to a venue-->
+    </kChanceOfGoingToCommunityLotByCar>
+    <kTimeToWaitForInstructions value="2">
+      <!--Unit: Sim hours. Amount of time sim will hang around the world lot without getting user directed interactions before going home.-->
+    </kTimeToWaitForInstructions>
+    <kMailCheckBeginTime value="6">
+      <!--The earliest time (in Sim hours) at which neighbors will check their mail-->
+    </kMailCheckBeginTime>
+    <kMailCheckEndTime value="22">
+      <!--The latest time (in Sim hours) at which neighbors will check their mail-->
+    </kMailCheckEndTime>
+    <kMailCheckTimerIncrease value="1">
+      <!--The time-delta(in Sim hours) between checking if the Sim should get his mail-->
+    </kMailCheckTimerIncrease>
+    <kEmptyTrashTimerIncrease value="1">
+      <!--The time-delta(in Sim hours) between checking if the Sim should empty his trash-->
+    </kEmptyTrashTimerIncrease>
+    <kEmptyTrashBeginTime value="6">
+      <!--The earliest time (in Sim hours) at which neighbors will empty their trash-->
+    </kEmptyTrashBeginTime>
+    <kEmptyTrashEndTime value="22">
+      <!--The latest time (in Sim hours) at which neighbors will empty their trash-->
+    </kEmptyTrashEndTime>
+    <kGardenOutsideTimerIncrease value="1">
+      <!--The time-delta(in Sim hours) between checking if the Sim should garden-->
+    </kGardenOutsideTimerIncrease>
+    <kGardenOutsideBeginTime value="6">
+      <!--The earliest time (in Sim hours) at which neighbors will garden-->
+    </kGardenOutsideBeginTime>
+    <kGardenOutsideEndTime value="22">
+      <!--The latest time (in Sim hours) at which neighbors will garden-->
+    </kGardenOutsideEndTime>
+    <kWeightForConsideringFrontDoorOnHigherFloors value="100">
+      <!--While finding the front door, any door at level x will have an additional weight of this tunable times x. Positive float. Constraint > 1. Initial GPE default 100f.-->
+    </kWeightForConsideringFrontDoorOnHigherFloors>
+    <kConeAngleWhenRoutingToDoor value="110">
+      <!--The angle in degrees around the door vector when routing to the door-->
+    </kConeAngleWhenRoutingToDoor>
+    <kTimeToWaitForInstructionsWhenInNegativeMood value="0.4">
+      <!--Unit: Sim hours. Amount of time sim will hang around the world lot without getting user directed interactions before going home when in a negative mood.-->
+    </kTimeToWaitForInstructionsWhenInNegativeMood>
+    <kMinTimeSinceLastVisitForActiveLot value="24">
+      <!--Min number of hours between autonomous visits to the player's lot-->
+    </kMinTimeSinceLastVisitForActiveLot>
+    <kMinTimeSinceLastVisitForNPCLot value="3">
+      <!--Min number of hours between autonomous visits to the player's lot-->
+    </kMinTimeSinceLastVisitForNPCLot>
+    <kMailboxRouteMin value="0">
+      <!--Min Distance to use when radial routing to the mailbox on a lot.-->
+    </kMailboxRouteMin>
+    <kMailboxRouteMax value="1">
+      <!--Max Distance to use when radial routing to the mailbox on a lot.-->
+    </kMailboxRouteMax>
+    <kAutonomousVisitFrequencyInDays value="3">
+      <!--The min number of days between a sim making consecutive autonomous visits to lots-->
+    </kAutonomousVisitFrequencyInDays>
+    <kFrontRoomInitialRoomDesiredWeight value="1">
+      <!--Pct [0...1] weight given to the inital room size.  Used in front door suitability.-->
+    </kFrontRoomInitialRoomDesiredWeight>
+    <kFrontRoomTotalWeight value="1">
+      <!--Pct [0...1] weight given to the total size of all rooms.  Used in front door suitability.-->
+    </kFrontRoomTotalWeight>
+    <kFrontRoomConnectedWeight value="1">
+      <!--Pct [0...1] weight given to the number of connected rooms.  Used in front door suitability.-->
+    </kFrontRoomConnectedWeight>
+    <kFrontRoomTotalQuadrantCount value="600">
+      <!--Max total size of all connected rooms, in quadrants.  Used in front door suitability.-->
+    </kFrontRoomTotalQuadrantCount>
+    <kFrontRoomMinTotalQuadrantCount value="15">
+      <!--Min total size of all connected rooms, in quadrants.  Used in front door suitability.-->
+    </kFrontRoomMinTotalQuadrantCount>
+    <kFrontRoomMinConnectedRoomCount value="0">
+      <!--Min number of connected rooms.  Used in front door suitability.-->
+    </kFrontRoomMinConnectedRoomCount>
+    <kFrontRoomInitialRoomDesiredQuadrantCount value="64">
+      <!--Prefer initial rooms of at least this size, in quadrants.  Used in front door suitability.-->
+    </kFrontRoomInitialRoomDesiredQuadrantCount>
+    <kFrontRoomDesiredConnectedRoomCount value="3">
+      <!--Prefer front rooms connected to at least this many other rooms.  Used in front door suitability.-->
+    </kFrontRoomDesiredConnectedRoomCount>
+    <kFrontRoomSuitabilityWeight value="0.75">
+      <!--Weighting given to suitability of a front room over distance of door to mailbox.  [0...1], where a value of 1 can override distance completely.-->
+    </kFrontRoomSuitabilityWeight>
+    <kNumArtObjectsToConstituteAnArtGallery value="16">
+      <!--The min number of arty objects needed on a venue before the game will think it is an art gallery-->
+    </kNumArtObjectsToConstituteAnArtGallery>
+    <kNumGraveyardObjectsToConstituteAGraveyard value="4">
+      <!--The min number of graveyard objects needed on a venue before the game will think it is graveyard-->
+    </kNumGraveyardObjectsToConstituteAGraveyard>
+    <kNumMausoleumsToConstituteAGraveyard value="1">
+      <!--The min number of mausoleums needed on a venue before the game will think it is graveyard-->
+    </kNumMausoleumsToConstituteAGraveyard>
+    <kNumFishingSpotsToConstituteAFishingVenue value="1">
+      <!--The min number of fishing spots needed on a venue before the game will think it is fishing venue-->
+    </kNumFishingSpotsToConstituteAFishingVenue>
+    <kNumBeachObjectsToConstituteABeach value="1">
+      <!--The min number of beach objects needed on a venue before the game will think it is a beach-->
+    </kNumBeachObjectsToConstituteABeach>
+    <kNumBookshelfsToConstituteALibrary value="12">
+      <!--The min number of bookshelfs needed on a venue before the game will think it is a library-->
+    </kNumBookshelfsToConstituteALibrary>
+    <kNumGymObjectsToConstituteAGym value="4">
+      <!--The min number of gym objects needed on a venue before the game will think it is a gym-->
+    </kNumGymObjectsToConstituteAGym>
+    <kNumParkObjectsToConstituteAPark value="3">
+      <!--The min number of park objects needed on a venue before the game will think it is a park-->
+    </kNumParkObjectsToConstituteAPark>
+    <kNumPoolsToConstituteASwimmingPool value="1">
+      <!--The min number of pools needed on a venue before the game will think it is a swimming pool-->
+    </kNumPoolsToConstituteASwimmingPool>
+    <kLotNamesDontRouteToFrontDoorChina value="EP01/World/China/LotName:ShangSimlaMarket">
+      <!--Range: Lot Name Array Description:  The names of the lots in China that we don't want sims to choose the front door as their location to route to when going to this lot.-->
+    </kLotNamesDontRouteToFrontDoorChina>
+    <kLotNamesDontRouteToFrontDoorEgypt value="EP01/World/Egypt/LotName:AlSimharaMarket">
+      <!--Range: Lot Name Array Description:  The names of the lots in Egypt that we don't want sims to choose the front door as their location to route to when going to this lot.-->
+    </kLotNamesDontRouteToFrontDoorEgypt>
+    <kLotNamesDontRouteToFrontDoorFrance value="EP01/World/France/LotName:LeCimetiereDesSims">
+      <!--Range: Lot Name Array Description:  The names of the lots in France that we don't want sims to choose the front door as their location to route to when going to this lot.-->
+    </kLotNamesDontRouteToFrontDoorFrance>
+    <kWeightForConsideringElectronicGates value="0.1">
+      <!--While finding the front door, any electronic gate will their suitability multiplied by this value.-->
+    </kWeightForConsideringElectronicGates>
+    <kPrankCooldownHours value="24">
+      <!--The number of hours that must pass before a lot can be pranked again.-->
+    </kPrankCooldownHours>
+    <kMailboxHorseRouteMin value="0">
+      <!--Min Distance to use when radial routing with horse to the mailbox on a lot.-->
+    </kMailboxHorseRouteMin>
+    <kMailboxHorseRouteMax value="5">
+      <!--Max Distance to use when radial routing with horse to the mailbox on a lot.-->
+    </kMailboxHorseRouteMax>
+    <kChanceOfBringingPetsToCommunityLot value="70">
+      <!--Unit: 0 - 100. The percentage chance of a Sim bringing a pet of his household when going to a community lot that allows them-->
+    </kChanceOfBringingPetsToCommunityLot>
+    <kEnchantmentEnvironmentBoost value="10">
+      <!--The amount that Enchant House improves the environment score-->
+    </kEnchantmentEnvironmentBoost>
+    <kEnchantmentDuration value="240">
+      <!--The duration of the Enchant House effects, in Sim minutes-->
+    </kEnchantmentDuration>
+    <kCheckEnchantmentInterval value="5">
+      <!--The duration between updates to check to see if the Enchant House effect is over-->
+    </kCheckEnchantmentInterval>
+    <kNumEnchantmentEffectsToSpawn value="10">
+      <!--The number of effects to spawn on each interval.-->
+    </kNumEnchantmentEffectsToSpawn>
+    <kNumZombiesToDance value="5">
+      <!--The number of Zombies on the lot before they start dancing-->
+    </kNumZombiesToDance>
+    <kSearchForZombieInterval value="3">
+      <!--Time interval between searching for zombie on the lot, in sim minutes-->
+    </kSearchForZombieInterval>
+    <kMetaAutonomyVenueTypesToPenalizeScoreInRainOrHail value="WinterFestival, SpringFestival, SummerFestival, FallFestival, BigPark, SmallPark, BeachVenue, FishingVenue, DogPark, CatJungle, Pool, ConstructionFestival, HorseRanch, Junkyard, Graveyard, MiscellaneousExpectingPeople">
+      <!--Venue types that should penalize the meta-autonomy score when it's raining or hailing.-->
+    </kMetaAutonomyVenueTypesToPenalizeScoreInRainOrHail>
+    <kkMetaAutonomyPenaltyScoreMultiplier value="0">
+      <!--For venues affected by kMetaAutonomyVenueTypesToPenalizeScoreInRainOrHail, what the score should be multiplied by after all other calculations.-->
+    </kkMetaAutonomyPenaltyScoreMultiplier>
+    <kApartmentLotRentMultiplier value="0.01">
+      <!--Range: (0.0-1.0) This value is multiplied by the cost of a lot (meaning cost of the empty lot and the value of all objects on the lot) to get the rent amount charged per week while living in an apartment lot.-->
+    </kApartmentLotRentMultiplier>
+    <kMetaAutonomyMultiplierAtCheckedInResort value="3">
+      <!--Meta autonomy multiplier to go to a resort where you are already checked in (for when you had to leave it for whatever reason)-->
+    </kMetaAutonomyMultiplierAtCheckedInResort>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

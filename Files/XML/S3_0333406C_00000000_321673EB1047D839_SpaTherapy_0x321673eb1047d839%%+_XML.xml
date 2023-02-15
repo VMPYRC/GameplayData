@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLtrThresholdForMassage value="20">
+      <!--LTR threshold between Therapist & Massagee for allowing massage interactions to appear in pie menu (otherwise greyed-out pie menu).  There are certain exemptions to this (e.g. STC between Therapist & Massagee is positive)-->
+    </kLtrThresholdForMassage>
+    <kStcThresholdForMassage value="100">
+      <!--STC threshold (for positive context) between Therapist & Massagee for allowing massage interactions to appear in pie menu (otherwise greyed-out pie menu).  If negative context then this value isn't considered.-->
+    </kStcThresholdForMassage>
+  </Current_Tuning>
+</base>

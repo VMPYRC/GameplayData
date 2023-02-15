@@ -1,0 +1,657 @@
+<?xml version="1.0"?>
+<ScienceComponent>
+<Outcomes>
+  <Key></Key>
+  <Outcome_Class>Sims3.Gameplay.ObjectComponents.ScienceComponent</Outcome_Class>
+  <Outcome_Method></Outcome_Method>
+  <Outcome_Export_Class>SimpleContext</Outcome_Export_Class>
+  <Outcome_Import></Outcome_Import>
+  <IsPositive>True</IsPositive>
+  <Chance>1</Chance>
+  <Min></Min>
+  <Max></Max>
+  <TNS></TNS>
+ </Outcomes>
+<Outcomes>
+  <Key>0x07ae6260</Key>
+  <Outcome_Method>SuccessEnvironmentBoost</Outcome_Method>
+  <Outcome_Import>ImportEnvironmentBoost</Outcome_Import>
+  <Chance>1.6</Chance>
+  <Min>50</Min>
+  <Max>200</Max>
+  <TNS>SuccessEnvironmentBoostMessage</TNS>
+ </Outcomes>
+<Outcomes>
+  <Key>0x07ae6261</Key>
+  <Outcome_Method>SuccessRandomUpgrade</Outcome_Method>
+  <Outcome_Import>ImportUpgrade</Outcome_Import>
+  <Chance>1.3</Chance>
+  <TNS>SuccessRandomUpgradeMessage</TNS>
+ </Outcomes>
+<Outcomes>
+  <Key>0x07ae6263</Key>
+  <Outcome_Method>SuccessUseMoodletAoe</Outcome_Method>
+  <Outcome_Import>ImportMoodlet</Outcome_Import>
+  <Chance>1.6</Chance>
+  <TNS>SuccessUseMoodletAoeMessage</TNS>
+ </Outcomes>
+<Outcomes>
+  <Key>0x07ae6264</Key>
+  <Outcome_Method>SuccessUseMoodletInUse</Outcome_Method>
+  <Outcome_Import>ImportMoodlet</Outcome_Import>
+  <Chance>1.6</Chance>
+  <TNS>SuccessUseMoodletInUseMessage</TNS>
+ </Outcomes>
+<Outcomes>
+  <Key>0x07ae6265</Key>
+  <Outcome_Method>SuccessUseSoundRandom</Outcome_Method>
+  <Outcome_Import>ImportSound</Outcome_Import>
+  <Chance>1.1</Chance>
+  <TNS>SuccessUseSoundRandomMessage</TNS>
+ </Outcomes>
+<Outcomes>
+  <Key>0x07ae6266</Key>
+  <Outcome_Method>SuccessUseSoundInUse</Outcome_Method>
+  <Outcome_Import>ImportSound</Outcome_Import>
+  <Chance>1.1</Chance>
+  <TNS>SuccessUseSoundInUseMessage</TNS>
+ </Outcomes>
+<Outcomes>
+  <Key>0x07ae6267</Key>
+  <Outcome_Method>FailureCatchOnFire</Outcome_Method>
+  <IsPositive>False</IsPositive>
+  <Chance>0.6</Chance>
+  <TNS>FailureCatchOnFireMessage</TNS>
+ </Outcomes>
+<Outcomes>
+  <Key>0x07ae6268</Key>
+  <Outcome_Method>FailureVanish</Outcome_Method>
+  <IsPositive>False</IsPositive>
+  <Chance>0.6</Chance>
+  <TNS>FailureVanishMessage</TNS>
+ </Outcomes>
+<Outcomes>
+  <Key>0x07ae6269</Key>
+  <Outcome_Method>FailureBreak</Outcome_Method>
+  <IsPositive>False</IsPositive>
+  <Chance>0.7</Chance>
+  <TNS>FailureBreakMessage</TNS>
+ </Outcomes>
+<Outcomes>
+  <Key>0x07ae626a</Key>
+  <Outcome_Method>FailureUseMoodletAoe</Outcome_Method>
+  <Outcome_Import>ImportMoodlet</Outcome_Import>
+  <IsPositive>False</IsPositive>
+  <Chance>0.8</Chance>
+  <TNS>FailureUseMoodletAoeMessage</TNS>
+ </Outcomes>
+<Outcomes>
+  <Key>0x07ae626b</Key>
+  <Outcome_Method>FailureUseMoodletInUse</Outcome_Method>
+  <Outcome_Import>ImportMoodlet</Outcome_Import>
+  <IsPositive>False</IsPositive>
+  <Chance>0.8</Chance>
+  <TNS>FailureUseMoodletInUseMessage</TNS>
+ </Outcomes>
+<Outcomes>
+  <Key>0x07ae626c</Key>
+  <Outcome_Method>FailureUseSoundRandom</Outcome_Method>
+  <Outcome_Import>ImportSound</Outcome_Import>
+  <IsPositive>False</IsPositive>
+  <Chance>0.6</Chance>
+  <TNS>FailureUseSoundRandomMessage</TNS>
+ </Outcomes>
+<Outcomes>
+  <Key>0x07ae626d</Key>
+  <Outcome_Method>FailureUseSoundInUse</Outcome_Method>
+  <Outcome_Import>ImportSound</Outcome_Import>
+  <IsPositive>False</IsPositive>
+  <Chance>0.6</Chance>
+  <TNS>FailureUseSoundInUseMessage</TNS>
+ </Outcomes>
+<Objects>
+  <Assembly>Sims3GameplayObjects</Assembly>
+  <ClassName></ClassName>
+  <AOE_Slots>FXJoint_Science_0</AOE_Slots>
+  <AOE_Size>Small</AOE_Size>
+  <InUse_Slots>FXJoint_Science_0</InUse_Slots>
+  <InUse_Size>Small</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Seating.Sofa</ClassName>
+  <AOE_Size>Large</AOE_Size>
+  <InUse_Slots>FXJoint_Science_1,FXJoint_Science_2,FXJoint_Science_3</InUse_Slots>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Counters.Counter</ClassName>
+  <AOE_Size>Large</AOE_Size>
+  <InUse_Slots>FXJoint_Science_1</InUse_Slots>
+  <InUse_Size>Small</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Appliances.HotBeverageMachine</ClassName>
+  <AOE_Size>Small</AOE_Size>
+  <InUse_Size>Small</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Appliances.Microwave</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Appliances.Grill</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Slots>FXJoint_Science_1</InUse_Slots>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Beds.BedSingle</ClassName>
+  <AOE_Size>Large</AOE_Size>
+  <InUse_Slots>FXJoint_Science_Use_Single_0,FXJoint_Science_Use_Single_1</InUse_Slots>
+  <InUse_Size>Large</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Beds.BedDouble</ClassName>
+  <AOE_Size>Large</AOE_Size>
+  <InUse_Slots>FXJoint_Science_Use_Double_0,FXJoint_Science_Use_Double_1,FXJoint_Science_Use_Double_2,FXJoint_Science_Use_Double_3</InUse_Slots>
+  <InUse_Size>Large</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Beds.Crib</ClassName>
+  <AOE_Size>Large</AOE_Size>
+  <InUse_Slots>FXJoint_Science_1</InUse_Slots>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Seating.ChairDining</ClassName>
+  <AOE_Size>Small</AOE_Size>
+  <InUse_Slots>FXJoint_Science_1</InUse_Slots>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Seating.ChairLiving</ClassName>
+  <AOE_Size>Small</AOE_Size>
+  <InUse_Slots>FXJoint_Science_1</InUse_Slots>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Seating.ChairLounge</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Seating.Loveseat</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Slots>FXJoint_Science_Use_0,FXJoint_Science_Use_1</InUse_Slots>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Electronics.ComputerCheap</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Electronics.ComputerExpensive</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Electronics.ComputerLaptop</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Tables.Desk</ClassName>
+  <AOE_Size>Large</AOE_Size>
+  <InUse_Slots>FXJoint_Science_1</InUse_Slots>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Appliances.Dishwasher</ClassName>
+  <AOE_Size>Large</AOE_Size>
+  <InUse_Size>Large</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Toys.DollHouse</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.HobbiesSkills.WorkoutBench</ClassName>
+  <AOE_Size>Large</AOE_Size>
+  <InUse_Slots>FXJoint_Science_1,FXJoint_Science_2</InUse_Slots>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.HobbiesSkills.Treadmill</ClassName>
+  <AOE_Size>Large</AOE_Size>
+  <InUse_Slots>FXJoint_Science_1,FXJoint_Science_2</InUse_Slots>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Environment.FirePit</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Appliances.FoodProcessor</ClassName>
+  <AOE_Size>Small</AOE_Size>
+  <InUse_Size>Small</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.HobbiesSkills.FoosballTable</ClassName>
+  <AOE_Size>Large</AOE_Size>
+  <InUse_Slots>FXJoint_Science_1,FXJoint_Science_2</InUse_Slots>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Appliances.Fridge</ClassName>
+  <AOE_Size>Tall</AOE_Size>
+  <InUse_Size>Tall</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Decorations.Flamingo</ClassName>
+  <AOE_Size>Small</AOE_Size>
+  <InUse_Size>Small</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Environment.GardenGnome</ClassName>
+  <AOE_Size>Small</AOE_Size>
+  <InUse_Size>Small</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Environment.MagicGnome</ClassName>
+  <AOE_Size>Small</AOE_Size>
+  <InUse_Size>Small</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Plumbing.Shower</ClassName>
+  <AOE_Size>Tall</AOE_Size>
+  <InUse_Size>Tall</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Electronics.StereoCheap</ClassName>
+  <AOE_Size>Small</AOE_Size>
+  <InUse_Size>Small</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Electronics.StereoMediocre</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Size>Large</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Electronics.StereoExpensive</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Size>Large</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Appliances.Stove</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Size>Large</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Plumbing.Toilet</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Toys.ToyBox</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Size>Large</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Electronics.TVCheap</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Size>Large</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Electronics.TVModerate</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Size>Large</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Electronics.TVExpensive</ClassName>
+  <AOE_Size>Medium</AOE_Size>
+  <InUse_Size>Large</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Electronics.TVWall</ClassName>
+  <AOE_Size>Large</AOE_Size>
+  <InUse_Slots>FXJoint_Science_1,FXJoint_Science_2</InUse_Slots>
+  <InUse_Size>Medium</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Electronics.TVModerateFlatscreen</ClassName>
+  <AOE_Size>Large</AOE_Size>
+  <InUse_Size>Large</InUse_Size>
+ </Objects>
+<Objects>
+  <ClassName>Sims3.Gameplay.Objects.Electronics.VideoGameSystem</ClassName>
+  <AOE_Size>Small</AOE_Size>
+  <InUse_Size>Small</InUse_Size>
+ </Objects>
+<Moodlets>
+  <Key></Key>
+  <Moodlet></Moodlet>
+  <IsPositive>True</IsPositive>
+  <Chance></Chance>
+  <AoE>True</AoE>
+  <AoE_Timeout>-1</AoE_Timeout>
+  <InUse>True</InUse>
+  <InUse_Timeout>-1</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f4c</Key>
+  <Moodlet>Attractive</Moodlet>
+  <Chance>1</Chance>
+  <InUse_Timeout>90</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f4d</Key>
+  <Moodlet>BeautifulVista</Moodlet>
+  <Chance>1</Chance>
+  <InUse_Timeout>60</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f4e</Key>
+  <Moodlet>CheeredUp</Moodlet>
+  <Chance>1</Chance>
+  <InUse_Timeout>90</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f4f</Key>
+  <Moodlet>FeelingLucky</Moodlet>
+  <Chance>1</Chance>
+  <InUse_Timeout>120</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f50</Key>
+  <Moodlet>NewCarSmell</Moodlet>
+  <Chance>1</Chance>
+  <InUse_Timeout>60</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f51</Key>
+  <Moodlet>NewStuff</Moodlet>
+  <Chance>1</Chance>
+  <InUse_Timeout>90</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f52</Key>
+  <Moodlet>OddlyPowerful</Moodlet>
+  <Chance>1</Chance>
+  <InUse_Timeout>120</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f53</Key>
+  <Moodlet>Tranquil</Moodlet>
+  <Chance>1</Chance>
+  <InUse_Timeout>120</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f54</Key>
+  <Moodlet>Fascinated</Moodlet>
+  <Chance>1</Chance>
+  <InUse_Timeout>90</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f55</Key>
+  <Moodlet>Winner</Moodlet>
+  <Chance>1</Chance>
+  <InUse_Timeout>120</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f56</Key>
+  <Moodlet>Inspired</Moodlet>
+  <Chance>1</Chance>
+  <InUse_Timeout>120</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f59</Key>
+  <Moodlet>Upset</Moodlet>
+  <IsPositive>False</IsPositive>
+  <Chance>1</Chance>
+  <InUse_Timeout>15</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f5a</Key>
+  <Moodlet>TastesLikeFridge</Moodlet>
+  <IsPositive>False</IsPositive>
+  <Chance>1</Chance>
+  <InUse_Timeout>30</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f5b</Key>
+  <Moodlet>StirCrazy</Moodlet>
+  <IsPositive>False</IsPositive>
+  <Chance>1</Chance>
+  <InUse_Timeout>45</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f5c</Key>
+  <Moodlet>Offended</Moodlet>
+  <IsPositive>False</IsPositive>
+  <Chance>1</Chance>
+  <InUse_Timeout>20</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f5d</Key>
+  <Moodlet>Horrified</Moodlet>
+  <IsPositive>False</IsPositive>
+  <Chance>1</Chance>
+  <InUse_Timeout>15</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f5e</Key>
+  <Moodlet>Disgusted</Moodlet>
+  <IsPositive>False</IsPositive>
+  <Chance>1</Chance>
+  <InUse_Timeout>15</InUse_Timeout>
+ </Moodlets>
+<Moodlets>
+  <Key>0x07ae5f5f</Key>
+  <Moodlet>BuzzCrashed</Moodlet>
+  <IsPositive>False</IsPositive>
+  <Chance>1</Chance>
+  <InUse_Timeout>30</InUse_Timeout>
+ </Moodlets>
+<Sounds>
+  <Key></Key>
+  <SoundName></SoundName>
+  <IsPositive>True</IsPositive>
+  <EffectAlso>True</EffectAlso>
+  <Chance>1</Chance>
+  <LoopMin>0</LoopMin>
+  <LoopMax>0</LoopMax>
+  <TriggerOnUse>True</TriggerOnUse>
+  <LoopWhileUsing>False</LoopWhileUsing>
+  <Random>True</Random>
+  <IntervalMin>15</IntervalMin>
+  <IntervalMax>35</IntervalMax>
+ </Sounds>
+<Sounds>
+  <Key>0x07ae5ef5</Key>
+  <SoundName>sci_area_neg</SoundName>
+  <IsPositive>False</IsPositive>
+  <LoopMin>10</LoopMin>
+  <LoopMax>20</LoopMax>
+  <TriggerOnUse>False</TriggerOnUse>
+ </Sounds>
+<Sounds>
+  <Key>0x07ae5ef6</Key>
+  <SoundName>sci_area_pos</SoundName>
+  <LoopMin>10</LoopMin>
+  <LoopMax>20</LoopMax>
+  <TriggerOnUse>False</TriggerOnUse>
+ </Sounds>
+<Sounds>
+  <Key>0x07ae5ef7</Key>
+  <SoundName>sci_useage_neg</SoundName>
+  <IsPositive>False</IsPositive>
+  <LoopWhileUsing>True</LoopWhileUsing>
+ </Sounds>
+<Sounds>
+  <Key>0x07ae5ef8</Key>
+  <SoundName>sci_useage_pos</SoundName>
+  <LoopWhileUsing>True</LoopWhileUsing>
+ </Sounds>
+<Effects>
+  <EffectName></EffectName>
+  <Size></Size>
+  <IsPositive></IsPositive>
+  <IsAoe></IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>scienceNegUseSmall</EffectName>
+  <Size>Small</Size>
+  <IsPositive>False</IsPositive>
+  <IsAoe>False</IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>scienceNegUseMedium</EffectName>
+  <Size>Medium</Size>
+  <IsPositive>False</IsPositive>
+  <IsAoe>False</IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>scienceNegUseLarge</EffectName>
+  <Size>Large</Size>
+  <IsPositive>False</IsPositive>
+  <IsAoe>False</IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>scienceNegUseTall</EffectName>
+  <Size>Tall</Size>
+  <IsPositive>False</IsPositive>
+  <IsAoe>False</IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>scienceNegAreaSmall</EffectName>
+  <Size>Small</Size>
+  <IsPositive>False</IsPositive>
+  <IsAoe>True</IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>scienceNegAreaMedium</EffectName>
+  <Size>Medium</Size>
+  <IsPositive>False</IsPositive>
+  <IsAoe>True</IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>scienceNegAreaLarge</EffectName>
+  <Size>Large</Size>
+  <IsPositive>False</IsPositive>
+  <IsAoe>True</IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>scienceNegAreaTall</EffectName>
+  <Size>Tall</Size>
+  <IsPositive>False</IsPositive>
+  <IsAoe>True</IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>sciencePosUseSmall</EffectName>
+  <Size>Small</Size>
+  <IsPositive>True</IsPositive>
+  <IsAoe>False</IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>sciencePosUseMedium</EffectName>
+  <Size>Medium</Size>
+  <IsPositive>True</IsPositive>
+  <IsAoe>False</IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>sciencePosUseLarge</EffectName>
+  <Size>Large</Size>
+  <IsPositive>True</IsPositive>
+  <IsAoe>False</IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>sciencePosUseTall</EffectName>
+  <Size>Tall</Size>
+  <IsPositive>True</IsPositive>
+  <IsAoe>False</IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>sciencePosAreaSmall</EffectName>
+  <Size>Small</Size>
+  <IsPositive>True</IsPositive>
+  <IsAoe>True</IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>sciencePosAreaMedium</EffectName>
+  <Size>Medium</Size>
+  <IsPositive>True</IsPositive>
+  <IsAoe>True</IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>sciencePosAreaLarge</EffectName>
+  <Size>Large</Size>
+  <IsPositive>True</IsPositive>
+  <IsAoe>True</IsAoe>
+ </Effects>
+<Effects>
+  <EffectName>sciencePosAreaTall</EffectName>
+  <Size>Tall</Size>
+  <IsPositive>True</IsPositive>
+  <IsAoe>True</IsAoe>
+ </Effects>
+<Sizes>
+  <Index></Index>
+  <Name></Name>
+ </Sizes>
+<Sizes>
+  <Index>0</Index>
+  <Name>Small</Name>
+ </Sizes>
+<Sizes>
+  <Index>1</Index>
+  <Name>Medium</Name>
+ </Sizes>
+<Sizes>
+  <Index>2</Index>
+  <Name>Large</Name>
+ </Sizes>
+<Sizes>
+  <Index>3</Index>
+  <Name>Tall</Name>
+ </Sizes>
+<Sizes>
+  <Index>4</Index>
+ </Sizes>
+<Sizes>
+  <Index>5</Index>
+ </Sizes>
+<Sizes>
+  <Index>6</Index>
+ </Sizes>
+<Sizes>
+  <Index>7</Index>
+ </Sizes>
+<Sizes>
+  <Index>8</Index>
+ </Sizes>
+<Sizes>
+  <Index>9</Index>
+ </Sizes>
+<Sizes>
+  <Index>10</Index>
+ </Sizes>
+<Sizes>
+  <Index>11</Index>
+ </Sizes>
+<Sizes>
+  <Index>12</Index>
+ </Sizes>
+<Sizes>
+  <Index>13</Index>
+ </Sizes>
+<Sizes>
+  <Index>14</Index>
+ </Sizes>
+<Sizes>
+  <Index>15</Index>
+ </Sizes>
+</ScienceComponent>

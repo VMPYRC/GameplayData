@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCameraLerpDuration value="2">
+      <!--Lerp duration to show sim teleport. Positive float. Initial GPE default: 2f-->
+    </kCameraLerpDuration>
+    <kCameraZoomAfterLerp value="8">
+      <!--Zoom at which the camera will focus on the sim after the teleport. Positive float. Initial GPE default: 8f-->
+    </kCameraZoomAfterLerp>
+    <kCameraPitchAfterLerp value="-30">
+      <!--Pitch at which the camera will focus on the sim after the teleport. Positive float. Initial GPE default: -30f-->
+    </kCameraPitchAfterLerp>
+    <kTimeoutTime value="15">
+      <!--Max amount of time in Sim minutes the interaction will stay in the queue without running before failing. Used in emergencies for Moving. Positive float. Initial GPE default: 15.0f-->
+    </kTimeoutTime>
+  </Current_Tuning>
+</base>

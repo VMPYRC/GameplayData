@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPetsTraitsThatShouldBeLoudWhileCarried value="NoisyPet, SkittishPet">
+      <!--List of traits that make the pet bark/meow more while being held.-->
+    </kPetsTraitsThatShouldBeLoudWhileCarried>
+    <kPetTraitsThatShouldNeverBarkWhileCarried value="QuietPet">
+      <!--List of traits that make the pet not bark/meow at all while being held.  Note that if the pet has traits in both the loud and quiet, they will always be quiet.-->
+    </kPetTraitsThatShouldNeverBarkWhileCarried>
+  </Current_Tuning>
+</base>

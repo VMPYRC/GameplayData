@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCleanableTuning>
+      <PristineCleanValue value="30">
+        <!--The value given when cleaning is completed by a neat Sim.  Should be greater than 0 which is what otehr sims clean to.-->
+      </PristineCleanValue>
+      <ChangeToDirtyState value="-30">
+        <!--Dirty level (Dirty Level range is -100 to 0)that will turn on the model's dirty state.-->
+      </ChangeToDirtyState>
+      <ChangeToVeryDirtyState value="-60">
+        <!--Dirty level that will turn on the model's very dirty state.-->
+      </ChangeToVeryDirtyState>
+      <DirtyIncPerUse value="6">
+        <!--The amount that get's subtracted from the dirty level each time the object is used.-->
+      </DirtyIncPerUse>
+      <DirtyThreshold value="-25">
+        <!--Dirty level of the object when Clean becomes available.-->
+      </DirtyThreshold>
+      <CleanDirtyDecPerMinute value="4">
+        <!--The amount that gets added to the dirty level every minute while cleaning.-->
+      </CleanDirtyDecPerMinute>
+      <UpgradeSelfCleaning>
+        <UpgradeTime value="360">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="3600">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="30">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="False">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeSelfCleaning>
+    </kCleanableTuning>
+    <kRepairableTuning>
+      <HoursUnbreakable value="24">
+        <!--How long until the object is allowed to check for breakage after being fixed or purchased.-->
+      </HoursUnbreakable>
+      <StartPercentChanceBreak value="5">
+        <!--Starting chance of object breaking when its used.-->
+      </StartPercentChanceBreak>
+      <PercentChanceBreakIncrease value="1">
+        <!--How much the chance of breakage increases each time the object is used (int, 1 to 100).-->
+      </PercentChanceBreakIncrease>
+      <PercentWhenReplaceAvailable value="15">
+        <!--What percent breakage chance the Replace interaction becomes available-->
+      </PercentWhenReplaceAvailable>
+      <RepairComplexity value="3">
+        <!--The level at which repair time reaches its minimum-->
+      </RepairComplexity>
+      <MinRepairTime value="20">
+        <!--Minimum amount of time in sim minutes that it takes to repair this object.  This time when skill level at or above RepairComplexity-->
+      </MinRepairTime>
+      <MaxRepairTime value="90">
+        <!--Maximum amount of time in sim minutes that it takes to repair this object.  Occurs at skill level 0.-->
+      </MaxRepairTime>
+      <RepairSkillGain value="1000">
+        <!--Rate of skill gain while repairing object in points per sim minute-->
+      </RepairSkillGain>
+      <UpgradeUnbreakable>
+        <UpgradeTime value="360">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="3600">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="30">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="False">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeUnbreakable>
+      <MinChanceOfElectrocution value="0">
+        <!--Minimum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs when skill level > = RepairComplexity-->
+      </MinChanceOfElectrocution>
+      <MaxChanceOfElectrocution value="0">
+        <!--Maximum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs at skill level 0.-->
+      </MaxChanceOfElectrocution>
+    </kRepairableTuning>
+    <kPuddleTuning>
+      <MaxNumPuddles value="10" />
+      <SpawnSpeedInMinutes value="45">
+        <!--Speed of puddle spawn in Sim Minutes.-->
+      </SpawnSpeedInMinutes>
+    </kPuddleTuning>
+    <kTimeUntilGiveUpWaitingInLine value="25">
+      <!--Number of Sim minutes Sim will wait in line to use All In One Bathroom before giving up-->
+    </kTimeUntilGiveUpWaitingInLine>
+    <kBabyMadeChance value="40">
+      <!--Range: 0-100. Chance of Sim getting Pregnant on TryForBaby.-->
+    </kBabyMadeChance>
+    <kLTRGainFromWoohooInAllInOneBathroom value="5">
+      <!--LTR Gain from woohoo in All In One Bathroom.-->
+    </kLTRGainFromWoohooInAllInOneBathroom>
+    <kChanceOfHydrophobicTrait value="15">
+      <!--Range:  0 - 100  Description:  Chance of baby being born with the Hydrophobic trait.-->
+    </kChanceOfHydrophobicTrait>
+    <kUseToiletTime value="5">
+      <!--Range:  int > 0 Description:  Num Sim minutes it takes sim to void bladder. Time will be compaired to how long it takes to fill hygiene and whichever is longer is how long interaction will last.-->
+    </kUseToiletTime>
+    <kEnvironmentallyConsciousShowerSpeedMultiplier value="1.5">
+      <!--How many times faster Environmentally Conscious Sims shower compared to normal Sims.-->
+    </kEnvironmentallyConsciousShowerSpeedMultiplier>
+    <kChanceOfSinging value="10">
+      <!--Range: 0-100. Chance of a sim without virtuoso trait singing in the shower-->
+    </kChanceOfSinging>
+    <kTimeoutRemainingForBladderEmergency value="30">
+      <!--If the hasToPee buff timeout has less time remaining than this in minutes, your Sim runs to the bathroom.-->
+    </kTimeoutRemainingForBladderEmergency>
+    <kMaximumNumberOfSimsInLine value="6">
+      <!--Range: Positive integers.  Description:  Maximum number of Sims that can wait in line to use Snowboard Half Pipe.-->
+    </kMaximumNumberOfSimsInLine>
+    <kLineSlotMinDistance value="1">
+      <!--Distance from the Bathrooms entry routing slot to the beginning of the head of the line.-->
+    </kLineSlotMinDistance>
+    <kLineSlotMaxDistance value="2">
+      <!--Distance from the Bathrooms's entry routing slot to the end of the head of the line.-->
+    </kLineSlotMaxDistance>
+    <kLineLength value="2">
+      <!--Total length of the line, measured from the end of the head of the line.-->
+    </kLineLength>
+    <kLineStartAngle value="2.356194">
+      <!--The angle (width in radians) of the cone shape that represents the head of the line. Initial GPE value: 2.356194 (Pi *3 / 4).-->
+    </kLineStartAngle>
+    <kLineAngle value="0.7853982">
+      <!--The angle (width in radians) of the cone shape that represents the line. Initial GPE value: 0.785375f (Pi / 4).-->
+    </kLineAngle>
+    <kLineStartSpacingFactor value="1">
+      <!--Spacing factor of routing options for line head. Positive float.-->
+    </kLineStartSpacingFactor>
+    <kLineSpacingFactor value="1">
+      <!--Spacing factor of routing options for line. Positive float. Init GPE default: 2.0f-->
+    </kLineSpacingFactor>
+    <kMinMaxRouteAwayWhenFinishedDist value="2, 4">
+      <!--Min/max distance sim should route away from the bathroom after using it b/c otherwise they stand in the way blocking others from using the object-->
+    </kMinMaxRouteAwayWhenFinishedDist>
+  </Current_Tuning>
+</base>

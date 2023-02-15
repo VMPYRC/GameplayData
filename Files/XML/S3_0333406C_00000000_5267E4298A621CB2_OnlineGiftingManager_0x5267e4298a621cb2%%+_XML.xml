@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGiftValueRangesForRewards value="150, 500">
+      <!--Range deviders for low/med/hi cost values. First value is the 0-x for low. The area between is mid. The second value and up is high.-->
+    </kGiftValueRangesForRewards>
+    <kBottomRewardForGifting value="600">
+      <!--Value: XXX Description:  Reward for bottom priced gifts.-->
+    </kBottomRewardForGifting>
+    <kMiddleRewardForGifting value="1600">
+      <!--Range:  0-XXX Description:  Reward for medium priced gifts.-->
+    </kMiddleRewardForGifting>
+    <kTopRewardForGifting value="3000">
+      <!--Range:  0-XXX Description:  Reward for top end gifts.-->
+    </kTopRewardForGifting>
+    <kGiftsPerResetPeriod value="5">
+      <!--Range:  0-XXX Description:  Gifts allowed per reset period. Default = 5-->
+    </kGiftsPerResetPeriod>
+    <kResetPeriod value="24">
+      <!--Range:  0-XXX Description:  Time period before gift count resets in hours. Default = 24-->
+    </kResetPeriod>
+    <kSimMinutesBeforeGiveGiftTutorial value="20">
+      <!--Range:  20-XXX Description: Number of sim minutes before the Give Gift tutorial fires after entering the world. Default = 20-->
+    </kSimMinutesBeforeGiveGiftTutorial>
+    <kSocialNetworkingSkillFromOnlineSocializing value="0">
+      <!--The amount of social networking skill the sim gets when sending a gift.-->
+    </kSocialNetworkingSkillFromOnlineSocializing>
+  </Current_Tuning>
+</base>

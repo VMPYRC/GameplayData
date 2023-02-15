@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHoursBeforeWakeupTimeToOversleep value="7">
+      <!--Range;  Sim hours.  Description:  Number of Sim hours before wakeup time at which a Sim will oversleep, even if fully rested.  Say wakeup time is 6a.m. and the Sim is at full energy at 2am.  Then if this tunable is set to 4, the Sim will oversleep.-->
+    </kHoursBeforeWakeupTimeToOversleep>
+    <kOversleepAmountInHours value="2">
+      <!--Range: 0.0f to 24.0f.  Description:  If a Sim is able to oversleep, it will attempt to oversleep by the amount specified by this variable (in terms of Sim hours).-->
+    </kOversleepAmountInHours>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kVarianceTimeBetweenTwitchAndSpark value="8">
+      <!--Range: Sim minutes.  Description:  random variance added to the malfunction ocurrance-->
+    </kVarianceTimeBetweenTwitchAndSpark>
+    <kMotiveBasedLowFrequency value="45">
+      <!--Range: Sim minutes.  Description:  Frequency of malfunction when maintence motive is at -80-->
+    </kMotiveBasedLowFrequency>
+    <kMotiveBasedHighFrequency value="25">
+      <!--Range: Sim minutes.  Description:  Frequency of malfunction when maintence motive is at -100-->
+    </kMotiveBasedHighFrequency>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAthleticTuning>
+      <DelayFatiguePercentagePerAthleticSkillLevel value="0.065">
+        <!--Range: 0.0f to 0.1f.  Description: As you use athletic game objects, your Sim has an increase in the Fatigue motive.  As your Sim gains Athletic skill, your Sim will be less fatigued.  This tunable is the fatigue gain percentage decrease per athletic skill level.-->
+      </DelayFatiguePercentagePerAthleticSkillLevel>
+      <AthleticTraitDestressMultiplier value="2">
+        <!--Range: Non-negative float.  Description:  Sims with the Athletic trait will distress at a faster rate than normal Sims while using athletic game objects.  This tunable is the multiplier to the normal destress rate.-->
+      </AthleticTraitDestressMultiplier>
+      <MinsToAddPumped value="120">
+        <!--Range: Positive floats.  Description: Number of Sim minutes in the 'Work Out' interaction in order to get the 'Pumped' buff.-->
+      </MinsToAddPumped>
+      <AthleticLevelToAddPumped value="3">
+        <!--Range: Positive integers.  Description:  Minimum Athletic skill level at which to get the 'Pumped' buff.-->
+      </AthleticLevelToAddPumped>
+      <CanTriggerAthleticTraitTip value="False">
+        <!--Type: bool.  Description:  If a sim has Athletic skill, this object will prompt a Trait tip.-->
+      </CanTriggerAthleticTraitTip>
+      <kLookAtThresholdForTrain value="40">
+        <!--Range: 0 to 100. Only objects of lookat interestingness above this value will be looked at while training sims-->
+      </kLookAtThresholdForTrain>
+    </kAthleticTuning>
+    <kIntervalLengthToTestChannelSpecificBenefits value="10">
+      <!--While the sim is looping in the Watch TV interaction, channel specific benefits will be tested only after this interval time. Positive int. Initial GPE value: 5-->
+    </kIntervalLengthToTestChannelSpecificBenefits>
+    <kChanceToLearnNewRecepie value="0.01">
+      <!--Chance to learn a new recipe while the sim is watching the skill channels. Positive float between 0 and 1.-->
+    </kChanceToLearnNewRecepie>
+    <kGameSessionDurationInSimMinutes value="60">
+      <!--Duration of alarm that triggers an end of game. One sim wins at the end of this session. Sims continue to play. Positive float. Units: Sim minutes. Default: 60.0-->
+    </kGameSessionDurationInSimMinutes>
+    <kLuckMultiplier value="2">
+      <!--Multiplier for making certain sim win/lose a game if the sim has Lucky/Unlucky trait. Used in score computed to select a winner for a video game. Positive Int. Range [1, 10]. Default: 2.-->
+    </kLuckMultiplier>
+    <kUpgradeBoostChannelTuning>
+      <UpgradeTime value="400">
+        <!--The amount of time it takes to do the upgrade in minutes-->
+      </UpgradeTime>
+      <SkillGainRate value="6800">
+        <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+      </SkillGainRate>
+      <BadFailureChance value="15">
+        <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+      </BadFailureChance>
+      <ShouldShockInPuddle value="True">
+        <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+      </ShouldShockInPuddle>
+    </kUpgradeBoostChannelTuning>
+    <kCouchPotatoTraitFunMultiplier value="1.5">
+      <!--Range: Positive floats above 1.0f.  Description: Multiplier for 'Couch Potato' Sims to gain fun when watching TV.-->
+    </kCouchPotatoTraitFunMultiplier>
+    <kRateOfSkillGainForVideoGame value="15">
+      <!--Rate of increase for Video Game skill. Positive float.-->
+    </kRateOfSkillGainForVideoGame>
+    <kAntiTVTraitTimeToGainDebuff value="10">
+      <!--Range: Positive floats.  Description: Time in Sim Minutes for an 'Anti-Tv' Sim to get 'Anti-TV' buff from watching TV.-->
+    </kAntiTVTraitTimeToGainDebuff>
+    <kDisturbSimsBroadcasterParams>
+      <PulseRadius value="10">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <PulseRepeatTime value="15">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human,Dog,LittleDog,Cat">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kDisturbSimsBroadcasterParams>
+    <kDaysToReachMuscularShape value=".75">
+      <!--Range: Positive floats.  Description:  The time in Sim days it takes a Sim to reach full muscular shape from the fully non-muscular shape.-->
+    </kDaysToReachMuscularShape>
+    <kDaysToReachCardioShape value=".65">
+      <!--Range: Positive floats.  Description:  The time in Sim days it takes a Sim to reach full cardio shape from the fully fat shape.-->
+    </kDaysToReachCardioShape>
+    <kLookAtInterestingnessWhenTurnedOn value="20">
+      <!--How interesting to look at this (range 0:100) when turned on-->
+    </kLookAtInterestingnessWhenTurnedOn>
+    <kLookAtInterestingnessWhenTurnedOff value="0">
+      <!--How interesting to look at this (range 0:100) when turned off-->
+    </kLookAtInterestingnessWhenTurnedOff>
+    <kSoundGainLowLevel value="0.25">
+      <!--Gain value for playing volume: Low. Positive float. Range [0, 1]. Initial GPE Default 0.25f-->
+    </kSoundGainLowLevel>
+    <kSoundGainMediumLevel value="0.6">
+      <!--Gain value for playing volume: Medium. Positive float. Range [0, 1]. Initial GPE Default 0.60f-->
+    </kSoundGainMediumLevel>
+    <kSoundGainHighLevel value="1">
+      <!--Gain value for playing volume: High. Positive float. Range [0, 1]. Initial GPE Default 1.0f-->
+    </kSoundGainHighLevel>
+    <sLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="0">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <DefaultInteractionLookAtThreshold value="10">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </sLookAtTuning>
+    <kMaximumConeLengthToWorkout value="7">
+      <!--Maximum radius of the arc/cone (in front of the TV) to find a spot to workout. Positive float. Initial GPE default: 4f-->
+    </kMaximumConeLengthToWorkout>
+    <kMaximumConeLengthToWatchTv value="7">
+      <!--Maximum radius of the arc/cone (in front of the TV) to find contending objects to sit/relax or to stand. Positive float. Initial GPE default: 6f-->
+    </kMaximumConeLengthToWatchTv>
+    <kMinimumDistanceToUseTv value="2">
+      <!--Minimum radius for the arc/cone (in front of the TV). Positive float. Should be less than the max counterparts :p. Keep at least 0.5 to avoid the effects to intersect with sims.-->
+    </kMinimumDistanceToUseTv>
+    <kConeAngleInFrontOfTvToFindObjects value="2.44">
+      <!--The arc/cone's angle for finding objects to sit/relax while watching TV. Units: Radians. Valid range [0, Pi]. Initial GPE Default: 3(Pi)/4.-->
+    </kConeAngleInFrontOfTvToFindObjects>
+    <kConeAngleInFrontOfTvToStandOrSitOnFloor value="1.178097">
+      <!--The arc/cone's angle for finding a suitable spot for a sim that will stand and watch TV or sit down on floor and play video games. Units: Radians. Valid range [0, Pi]. Initial GPE Default: 3(Pi)/8.-->
+    </kConeAngleInFrontOfTvToStandOrSitOnFloor>
+    <kConeAngleInFrontOfSittableObjects value="1.570796">
+      <!--The arc/cone's angle for a valid objects such that the TV is within this angle. Units: Radians. Valid range [0, Pi]. Initial GPE default: Pi/2-->
+    </kConeAngleInFrontOfSittableObjects>
+    <kLookAtInterestingnessWhenWatching value="45">
+      <!--How interesting to look at this (range 0:100) when your current interaction is watching it-->
+    </kLookAtInterestingnessWhenWatching>
+    <kNumMinutesToLookAtTVDuringSyncEvent value="6">
+      <!--For how many minutes the TV is madly interesting during a sync-event (should correspond to the max length of the sync event animation)-->
+    </kNumMinutesToLookAtTVDuringSyncEvent>
+    <kMinimumDistanceToWorkout value="1">
+      <!--Minimum radius for working out with the TV. Positive float. Should be less than the max counterparts :p. Keep at least 0.5 to avoid the effects to intersect with sims.-->
+    </kMinimumDistanceToWorkout>
+    <kProportionOfConeLengthToWorkoutToStartJigSearch value="0.3">
+      <!--Proportion of the kMaximumConeLengthToWorkout where the search for a workout position starts.  Valid range [0, 1].  Initial GPE default: 0.5-->
+    </kProportionOfConeLengthToWorkoutToStartJigSearch>
+    <kLookAtInterestingnessWhenPlayingVideogames value="90">
+      <!--How interesting to look at this (range 0:100) when your current interaction is playing video games on it-->
+    </kLookAtInterestingnessWhenPlayingVideogames>
+    <kRequiredFairySkillLevelRepair value="3">
+      <!--Minimum fairy skill level requirement for the fairy repair interaction-->
+    </kRequiredFairySkillLevelRepair>
+    <kBonusPartyScore value="2.5">
+      <!--Bonus value to add to party score for this object if being used by a sim at a party-->
+    </kBonusPartyScore>
+    <kNerdUnlockLevelThemeFour value="1">
+      <!--The unlock level of the nerd skill needed to play 4th video game theme-->
+    </kNerdUnlockLevelThemeFour>
+    <kNerdUnlockLevelThemeFive value="2">
+      <!--The unlock level of the nerd skill needed to play 5th video game theme-->
+    </kNerdUnlockLevelThemeFive>
+    <kNerdUnlockLevelThemeSix value="3">
+      <!--The unlock level of the nerd skill needed to play 6th video game theme-->
+    </kNerdUnlockLevelThemeSix>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kLookAtPriorityForTVWhichIsOn value="30">
+      <!--Range: 0 to 100.  Description: How important to look at a TV when it is on-->
+      <!--deprecated on: 1/9/2008 7:39:10 PM-->
+    </kLookAtPriorityForTVWhichIsOn>
+    <SkillLevelsPerMinute value="1">
+      <!--Range: Positive floats.  Description:  This tunable is the number of skill points that are gained per Sim minute.-->
+      <!--deprecated on: 1/29/2008 2:21:49 PM-->
+    </SkillLevelsPerMinute>
+    <HygieneDelta value="-200">
+      <!--Range: Negative integers.  Description:  This tunable is the amount the Hygiene motive decreases in one Sim hour while using this athletic object.-->
+      <!--deprecated on: 1/29/2008 2:21:49 PM-->
+    </HygieneDelta>
+    <FatigueDelta value="80">
+      <!--Range: Positive integers.  Description: This tunable is the amount the Fatigue motive increases in one Sim hour while using this athletic object.-->
+      <!--deprecated on: 1/29/2008 2:21:49 PM-->
+    </FatigueDelta>
+    <DestressPerSimHour value="100">
+      <!--Range: Non-negative integers.  Description: This tunable is the amount per Sim hour that this athletic object increases your Sim's Fun motive.  Since athletic game objects are destressors, they will never increase your Sim's fun level above 0.-->
+      <!--deprecated on: 1/29/2008 2:21:49 PM-->
+    </DestressPerSimHour>
+    <kAntiTVTraitMinutesForDebuff value="10">
+      <!--Range: Positive floats.  Description:  Number of Sim minutes that an 'Anti-TV' Sim can watch TV before getting 'Hates TV' buff.-->
+      <!--deprecated on: 1/29/2008 2:34:10 PM-->
+    </kAntiTVTraitMinutesForDebuff>
+    <kTvNoiseBroadcasterParams>
+      <PulseStartRadius value="3" />
+      <PulseEndRadius value="-1" />
+      <AffectBroadcasterRoomOnly value="True" />
+      <NumSimMinutesPerPulse value="20" />
+      <TimeToFullPulseExpansion value="0" />
+      <TimeDuration value="-1" />
+      <RequiresScoring value="True" />
+      <Exclusive value="False" />
+      <!--deprecated on: 2/1/2008 5:40:35 PM-->
+    </kTvNoiseBroadcasterParams>
+    <RequiresScoring value="True">
+      <!--Whether or not the broadcast interactions are scored by autonomy (TO BE DELETED BY REVANS)-->
+      <!--deprecated on: 2/7/2008 3:04:26 PM-->
+    </RequiresScoring>
+    <IsLifeThreatening value="False">
+      <!--Whether the reaction is responding to a life-threatening event (e.g. responding to fire)-->
+      <!--deprecated on: 3/13/2008 4:22:14 PM-->
+    </IsLifeThreatening>
+    <kLookAtPriorityForTvWhichIsOn value="30">
+      <!--Range: 0 to 100. Description: How important to look at a TV when it is on.-->
+      <!--deprecated on: 4/3/2008 3:45:46 PM-->
+    </kLookAtPriorityForTvWhichIsOn>
+  </Deprecated_Tuning>
+</base>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDiveTimePerLevel value="120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420">
+      <!--The amount of time, in Sim Minutes, the sim can scuba dive,  per dive level (0 - 10)-->
+    </kDiveTimePerLevel>
+    <kWaitToDiveTimePerLevel value="160, 150, 140, 130, 120, 110, 100, 90, 80, 70, 60">
+      <!--The amount of time, in Sim Minutes, the sim must wait before diving again, per dive level-->
+    </kWaitToDiveTimePerLevel>
+    <kScubaSkillPerMinute value="10">
+      <!--The amount of skill to give the Sim per minute.-->
+    </kScubaSkillPerMinute>
+    <kScubaEndScubaDiveIdleTime value="8">
+      <!--Unit: Sim minute; The amount of time to idle in the EndScubaDive interaction. default: 10-->
+    </kScubaEndScubaDiveIdleTime>
+  </Current_Tuning>
+</base>

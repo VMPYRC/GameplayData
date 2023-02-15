@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTotalServings value="10">
+      <!--Range: 0+ number of servings in JuiceKeg.-->
+    </kTotalServings>
+    <kFillCost value="5">
+      <!--Range: 0+  Description: cost to refill the JuiceKeg.-->
+    </kFillCost>
+    <kBonusPartyScore value="4.5">
+      <!--Bonus value to add to party score for this object if being used by a sim at a party-->
+    </kBonusPartyScore>
+    <kJuiceBeverageFoodUnits value="5">
+      <!--Number minutes it takes to drink a juice beverage.-->
+    </kJuiceBeverageFoodUnits>
+    <kTimeToDoKegStand value="10">
+      <!--Range: 0+ Time to do KegStand-->
+    </kTimeToDoKegStand>
+    <kOddsOfKegStandFailure value="25">
+      <!--Range: 0 - 100. Percent odds of failure doing a keg stand.-->
+    </kOddsOfKegStandFailure>
+    <kJuiceJuicedGainFromDrinking value="0">
+      <!--The amount of Juiced Motive gained when done drinking a Juice.-->
+    </kJuiceJuicedGainFromDrinking>
+    <kUpgradeAutoFillTuning>
+      <UpgradeTime value="160">
+        <!--The amount of time it takes to do the upgrade in minutes-->
+      </UpgradeTime>
+      <SkillGainRate value="1760">
+        <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+      </SkillGainRate>
+      <BadFailureChance value="100">
+        <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+      </BadFailureChance>
+      <ShouldShockInPuddle value="False">
+        <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+      </ShouldShockInPuddle>
+    </kUpgradeAutoFillTuning>
+    <kTimeToWaitToEvict value="15">
+      <!--Time to wait to evict a lower priority Sim from this object, in Sim minutes-->
+    </kTimeToWaitToEvict>
+  </Current_Tuning>
+</base>

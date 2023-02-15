@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumCollectablesFreeRangeScientist value="100">
+      <!--Range:  integer  Description:  Number of collectables to analyze for Free Range Scientist challenge.-->
+    </kNumCollectablesFreeRangeScientist>
+    <kNumExperimentsForExperiencedExperimentalist value="100">
+      <!--Range:  integer  Description:  Number of completed experiments required for Experienced Experimentalist challenge.-->
+    </kNumExperimentsForExperiencedExperimentalist>
+    <kSuccessRateBonusesFishing value="0, 0.04, 0.08, 0.12, 0.16, 0.2, 0.24, 0.28, 0.32, 0.36, 0.4">
+      <!--Range: 0-1  Description: Success chance bonus to fishing per skill level.-->
+    </kSuccessRateBonusesFishing>
+    <kSuccessRateBonusesGardening value="0, 0.04, 0.08, 0.12, 0.16, 0.2, 0.24, 0.28, 0.32, 0.36, 0.4">
+      <!--Range: 0-1  Description: The chance that a sim will find extra harvestables while harvesting.-->
+    </kSuccessRateBonusesGardening>
+    <kSuccessRateBonusesCollecting value="0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5">
+      <!--Range: 0-1  Description: Success chance modifier for catching insects.-->
+    </kSuccessRateBonusesCollecting>
+    <kCareerStartBonusPercent value="0.25">
+      <!--Range: 0-1  Description: Percent of science skill level to start Medical and Science careers.-->
+    </kCareerStartBonusPercent>
+    <kBonusCareerPerformance value="0.2">
+      <!--Range:  Positive  Description:  This is the percentage bonus that will be applied to performance for the Science and Medical career-->
+    </kBonusCareerPerformance>
+    <kBonusCareerSalary value="0.2">
+      <!--Range:  0 - 1  Description:  This is the percentage bonus that will be applied to salary for the Science and Medical career-->
+    </kBonusCareerSalary>
+    <kFishBonusWeight value="0, 0.01, 0.02, 0.04, 0.06, 0.09, 0.12, 0.15, 0.2, 0.25, 0.3">
+      <!--Range:  0 - 1  Description:  This bonus percantage will be applied to the weight(quality) of each fish that is caught-->
+    </kFishBonusWeight>
+    <kNumExtraHarvestables value="0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3">
+      <!--Range:  0 - 100  Description:  The number of extra harvestables that a science sim will find IF they find extras-->
+    </kNumExtraHarvestables>
+    <kQualityBoostRateGardening value="0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1">
+      <!--Range: 0-1  Description: The chance that harvested harvestables will be of a higher quality-->
+    </kQualityBoostRateGardening>
+    <kSeedQualityBonus value="0, 0.04, 0.08, 0.12, 0.16, 0.2, 0.24, 0.28, 0.32, 0.36, 0.4">
+      <!--Range: 0-1  Description: Quality multiplier for seeds-->
+    </kSeedQualityBonus>
+    <kClassScienceCost value="300">
+      <!--How much the Science class costs, in Simoleons-->
+    </kClassScienceCost>
+    <kClassScienceDuration value="120">
+      <!--How much the Science class lasts, in Sim minutes-->
+    </kClassScienceDuration>
+    <kCashForExperiencedExperimentalist value="10000">
+      <!--Range:  integer  Description:  Cash amount rewarded for completing Experienced Experimentalist Challenge-->
+    </kCashForExperiencedExperimentalist>
+    <kGrantedInsectTypes value="BeetleCockroach, BeetleLady">
+      <!--Description:  Array of InsectTypes that a sim will receive when reaching the minimum level for analyzing insects-->
+    </kGrantedInsectTypes>
+    <kGrantedRockGemMetalTypes value="Iron, Aqua">
+      <!--Description:  Array of RGMs that a sim will receive when they become able to analyze minerals-->
+    </kGrantedRockGemMetalTypes>
+    <kGrantedIngredientNames value="KonaBean, Peppermint">
+      <!--Description:  Array of Ingredient names that a sim will receive when they become able to analyze plants-->
+    </kGrantedIngredientNames>
+    <kGrantedFishTypes value="Anchovy, AlleyCatfish">
+      <!--Description:  Array of FishTypes that a sim will receive when they become able to analyze fish-->
+    </kGrantedFishTypes>
+    <kRockGemMetalBlacklist value="SpaceRockLarge, SpaceRockMedium">
+      <!--Description:  Array of RGMs that are blocked from being cloned from samples-->
+    </kRockGemMetalBlacklist>
+    <kIngredientBlacklist value="Pumpkin, Pumpkin Vine, Pomelo, Cherries, VampireFruit, Glow Orbs, Spotlight Mushrooms, Red Toadstools, Mycenas, Mandrake, Red Valerian, Wolfsbane, Ginseng, Wonderpetal, Buzzberry, Pomelo Tree, Cherry Tree, Vampire Plant, Ginseng Plant, Wonderpetal Plant, Buzzberry Plant">
+      <!--Description:  Array of Ingredient names that are blocked from being cloned or experimented on.-->
+    </kIngredientBlacklist>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="0" />
+      <MapTagFilterType value="PublicSpacesAndActivities,Work">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-35">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="50">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kInvestCost value="18000">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="40000">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="3000">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="6000">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="7000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="1000000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kCanInvestHere value="True">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kNpcExitFreq value="10">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kNighttimeLightSunsetDelta value="1">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kPreventLotPurchase value="True">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="True">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+    <kPercentChanceForPlay value="15">
+      <!--Percentage chance of a Play being selected as the random show on Friday, Saturday, or Sunday night-->
+    </kPercentChanceForPlay>
+    <kPercentChanceForSymphony value="15">
+      <!--Percentage chance of a Symphony being selected as the random show on Friday, Saturday, or Sunday night-->
+    </kPercentChanceForSymphony>
+    <kPercentChanceForConcert value="15">
+      <!--Percentage chance of a Concert being selected as the random show on Friday, Saturday, or Sunday night-->
+    </kPercentChanceForConcert>
+    <kHoursAfterShowToChangeFacade value="1">
+      <!--How many hours after a show ends should we update the visual state of the theater to reflect the next show? -->
+    </kHoursAfterShowToChangeFacade>
+    <kClassGuitarCost value="400">
+      <!--How much a Guitar class costs, in Simoleons-->
+    </kClassGuitarCost>
+    <kClassGuitarDuration value="60">
+      <!--How much a Guitar class lasts, in Sim minutes-->
+    </kClassGuitarDuration>
+    <kPerformConcertPayoff value="600">
+      <!--Range:  Simoleons.  Description:  Number of Simoleons earned when performing a concert.-->
+    </kPerformConcertPayoff>
+    <kPerformConcertPayoffVariance value="0.5">
+      <!--Range:  Float under 1.0f.  Description:  Percentage of variance in pay when performing a concert.-->
+    </kPerformConcertPayoffVariance>
+    <kVisitRabbitHoleTuning>
+      <VisitLength value="60">
+        <!--Visit length in minutes.-->
+      </VisitLength>
+      <VisitBoredomChanceChild value="15">
+        <!--Visit chance for boredom child.-->
+      </VisitBoredomChanceChild>
+      <VisitBoredomChanceTeen value="5">
+        <!--Visit chance for boredom teen.-->
+      </VisitBoredomChanceTeen>
+      <VisitBoredomChanceAdult value="10">
+        <!--Visit chance for boredom adult/edler.-->
+      </VisitBoredomChanceAdult>
+      <VisitWooHooLength value="25">
+        <!--Visit woohoo length in minutes.-->
+      </VisitWooHooLength>
+      <VisitWooHooCheckForCaught value="5">
+        <!--Visit woohoo check for being caught every X minutes.-->
+      </VisitWooHooCheckForCaught>
+      <VisitWooHooChanceForCaught value="2">
+        <!--Visit woohoo chance of being caught when 'VisitWooHooCheckForCaught' is hit.-->
+      </VisitWooHooChanceForCaught>
+      <VisitTryForBabySuccessRate value="50">
+        <!--Visit try for baby chance of success.-->
+      </VisitTryForBabySuccessRate>
+      <VisitTourGroupLTRGain value="2">
+        <!--Amount of LTR gain between people on a tour group every X minutes-->
+      </VisitTourGroupLTRGain>
+      <VisitTourGroupMinutesLTR value="20">
+        <!--Frequency of LTR gain while on a tour group-->
+      </VisitTourGroupMinutesLTR>
+      <WooHooingSTCIncrement value="25">
+        <!--The STC increment after WooHooing.-->
+      </WooHooingSTCIncrement>
+      <WooHooingLTRIncrement value="5">
+        <!--The LTR increment after WooHooing.-->
+      </WooHooingLTRIncrement>
+      <WooHooingFunDelta value="80">
+        <!--The Fun delta while WooHooing.-->
+      </WooHooingFunDelta>
+      <WooHooingSocialDelta value="125">
+        <!--The Social delta while WooHooing.-->
+      </WooHooingSocialDelta>
+      <WooHooingCommodity value="Amorous">
+        <!--Social STC after WooHooing.-->
+      </WooHooingCommodity>
+    </kVisitRabbitHoleTuning>
+    <kTheatreBroadcastParams>
+      <PulseRadius value="30">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <PulseRepeatTime value="10">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="Three">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kTheatreBroadcastParams>
+    <kPickupAwardInRabbitHoleTime value="20, 30, 5, 10">
+      <!--Range of times (in sim minutes) that the sim will be in the rabbit hole before receiving the award (1st pair of values), and then after (2nd pair)-->
+    </kPickupAwardInRabbitHoleTime>
+    <kFieldTripUnknownSkillWeighting value="0.2">
+      <!--weighting to improve in an instrument skill the sim doesn't know, vs 1.0 for a skill the sim does know-->
+    </kFieldTripUnknownSkillWeighting>
+    <kFieldTripDanceIncreaseShow value="130">
+      <!--How much Dance skill a sim gets per hour on a Show field trip-->
+    </kFieldTripDanceIncreaseShow>
+    <kFieldTripInstrumentIncreaseShow value="170">
+      <!--How much Instrument skill a sim gets per hour on a Show field trip-->
+    </kFieldTripInstrumentIncreaseShow>
+    <kFieldTripPerformanceIncreaseShow value="20">
+      <!--How much careerPerformace increase per hour on a Show field trip-->
+    </kFieldTripPerformanceIncreaseShow>
+    <kFieldTripFunIncreaseShow value="40">
+      <!--How much fun a sim gains per hour on a Show field trip-->
+    </kFieldTripFunIncreaseShow>
+    <kFieldTripTNSPercentagesShow value="0.33, 0.66">
+      <!--At what percentage points of the field trip should do a Show TNS-->
+    </kFieldTripTNSPercentagesShow>
+    <kFieldTripDanceIncreaseOpera value="70">
+      <!--How much Dance skill a sim gets per hour on an Opera field trip-->
+    </kFieldTripDanceIncreaseOpera>
+    <kFieldTripInstrumentIncreaseOpera value="345">
+      <!--How much Instrument skill a sim gets per hour on an Opera field trip-->
+    </kFieldTripInstrumentIncreaseOpera>
+    <kFieldTripPerformanceIncreaseOpera value="20">
+      <!--How much careerPerformace increase per hour on an Opera field trip-->
+    </kFieldTripPerformanceIncreaseOpera>
+    <kFieldTripFunIncreaseOpera value="30">
+      <!--How much fun a sim gains per hour on an Opera field trip-->
+    </kFieldTripFunIncreaseOpera>
+    <kFieldTripTNSPercentagesOpera value="0.33, 0.66">
+      <!--At what percentage points of the field trip should do an OperaTNS-->
+    </kFieldTripTNSPercentagesOpera>
+    <kFieldTripDanceIncreasePlay value="70">
+      <!--How much Dance skill a sim gets per hour on a Play field trip-->
+    </kFieldTripDanceIncreasePlay>
+    <kFieldTripInstrumentIncreasePlay value="70">
+      <!--How much Instrument skill a sim gets per hour on a Play field trip-->
+    </kFieldTripInstrumentIncreasePlay>
+    <kFieldTripPerformanceIncreasePlay value="20">
+      <!--How much careerPerformace increase per hour on a Play field trip-->
+    </kFieldTripPerformanceIncreasePlay>
+    <kFieldTripFunIncreasePlay value="40">
+      <!--How much fun a sim gains per hour on a Play field trip-->
+    </kFieldTripFunIncreasePlay>
+    <kFieldTripTNSPercentagesPlay value="0.33, 0.66">
+      <!--At what percentage points of the field trip should do a Play TNS-->
+    </kFieldTripTNSPercentagesPlay>
+    <kFieldTripDanceIncreaseBallet value="130">
+      <!--How much Dance skill a sim gets per hour on a Ballet field trip-->
+    </kFieldTripDanceIncreaseBallet>
+    <kFieldTripInstrumentIncreaseBallet value="345">
+      <!--How much Instrument skill a sim gets per hour on a Ballet field trip-->
+    </kFieldTripInstrumentIncreaseBallet>
+    <kFieldTripPerformanceIncreaseBallet value="20">
+      <!--How much careerPerformace increase per hour on a Ballet field trip-->
+    </kFieldTripPerformanceIncreaseBallet>
+    <kFieldTripFunIncreaseBallet value="30">
+      <!--How much fun a sim gains per hour on a Ballet field trip-->
+    </kFieldTripFunIncreaseBallet>
+    <kFieldTripTNSPercentagesBallet value="0.33, 0.66">
+      <!--At what percentage points of the field trip should do a Ballet TNS-->
+    </kFieldTripTNSPercentagesBallet>
+    <kFieldTripChildInstrumentIncreaseOpera value="10">
+      <!--How much Instrument skill a child gets per hour on an Opera field trip-->
+    </kFieldTripChildInstrumentIncreaseOpera>
+    <kFieldTripChildInstrumentIncreasePlay value="10">
+      <!--How much Instrument skill a child gets per hour on a Play field trip-->
+    </kFieldTripChildInstrumentIncreasePlay>
+    <kFieldTripChildInstrumentIncreaseBallet value="10">
+      <!--How much Instrument skill a child gets per hour on a Ballet field trip-->
+    </kFieldTripChildInstrumentIncreaseBallet>
+    <kFieldTripChildInstrumentIncreaseShow value="10">
+      <!--How much Instrument skill a child gets per hour on a Show field trip-->
+    </kFieldTripChildInstrumentIncreaseShow>
+    <kClassLaserHarpCost value="300">
+      <!--How much a Laser harp class costs, in Simoleons - Vi-->
+    </kClassLaserHarpCost>
+    <kClassLaserHarpDuration value="120">
+      <!--How much a Laser harp class lasts, in Sim minutes - Vi-->
+    </kClassLaserHarpDuration>
+  </Current_Tuning>
+</base>

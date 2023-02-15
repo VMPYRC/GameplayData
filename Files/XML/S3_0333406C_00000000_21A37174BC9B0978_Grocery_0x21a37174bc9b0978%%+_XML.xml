@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kShoppingTuning>
+      <OpenTime_UserDirected value="0">
+        <!--Range: Float 0.0 to 24.0. Description: Time the store opens for user directed use-->
+      </OpenTime_UserDirected>
+      <CloseTime_UserDirected value="24">
+        <!--Range: Float 0.0 to 24.0. Description: Time the store closes for user directed use-->
+      </CloseTime_UserDirected>
+      <OpenTime_Autonomous value="8">
+        <!--Range: Float 0.0 to 24.0. Description: Time the store opens for autonomous use-->
+      </OpenTime_Autonomous>
+      <CloseTime_Autonomous value="21">
+        <!--Range: Float 0.0 to 24.0. Description: Time the store closes for autonomous use-->
+      </CloseTime_Autonomous>
+      <PercentPriceModifier value="0">
+        <!--Range: int -100 to 100. Description: what percent of the catalog price to add to the item's price.  negative number decreases price-->
+      </PercentPriceModifier>
+      <PercentChanceOfSale value="5">
+        <!--Range: int 0 to 100. Description: Chance of the store having a sale. Store tests if it should have a sale every day unless a sale is already going on-->
+      </PercentChanceOfSale>
+      <MinSalePercentage value="35">
+        <!--Range: int 0 to 100 . Description: Min discount percentage for sale-->
+      </MinSalePercentage>
+      <MaxSalePercentage value="50">
+        <!--Range: int 0 to 100 and > Min. Description: Max discount percentage for sale-->
+      </MaxSalePercentage>
+      <MinNumSaleDays value="1">
+        <!--Range: Int > 0. Description: Min number of days the sale can lasts-->
+      </MinNumSaleDays>
+      <MaxNumSaleDays value="2">
+        <!--Range: Int > Min. Description: Max number of days the sale can last-->
+      </MaxNumSaleDays>
+      <SaleIncCap value="5">
+        <!--Range: int 0 to 100. Description: Forces sale percentage to be a multiple of this value.  Example if SaleIncCap = 5 then only things like 5, 10, 15, 20 will be chosen for the sale amount-->
+      </SaleIncCap>
+      <PutInFamilyInventory value="False">
+        <!--Bool: Description: True if you want all items bought at this store to be put in the customer's family inventory.  False if you want them put in the Individual Sim's inventory-->
+      </PutInFamilyInventory>
+      <CheckForSaleTimeOfDay value="9">
+        <!--What time of day (0.0 to 24.0) the store will test to see if it should trigger a sale-->
+      </CheckForSaleTimeOfDay>
+      <EmployeeDiscountPercent value="10">
+        <!--Employee discount percent.  This discount is given on every item (on top of any other discounts) if a Sim works in this rabbit hole.-->
+      </EmployeeDiscountPercent>
+    </kShoppingTuning>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="0" />
+      <MapTagFilterType value="PublicSpacesAndActivities">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-35">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="50">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kInvestCost value="7000">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="20000">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="1000">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="2000">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="2500">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="1000000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kCanInvestHere value="True">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kNpcExitFreq value="10">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kNighttimeLightSunsetDelta value="1">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kPreventLotPurchase value="True">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="True">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+    <kSellBackPriceModifier value="1.1">
+      <!--Price modifier to apply to items you sell back to the store. moneyback = curValue * kSellbackPriceModifier-->
+    </kSellBackPriceModifier>
+    <kClassFishingCost value="400">
+      <!--How much a Fishing class costs, in Simoleons-->
+    </kClassFishingCost>
+    <kClassFishingDuration value="60">
+      <!--How much a Fishing class lasts, in Sim minutes-->
+    </kClassFishingDuration>
+    <kQualityOfPurchesdIngredients value="Nice">
+      <!--Quality to assign to created ingredients bought at the store.-->
+    </kQualityOfPurchesdIngredients>
+    <kRaidRabbitHoleTuning>
+      <RaidLength value="60">
+        <!--The max amount of time the raid will last in Sim minutes.-->
+      </RaidLength>
+      <ReceiveItemEveryXMinutes value="10">
+        <!--The Sim will receive an item every X minutes during the raid.-->
+      </ReceiveItemEveryXMinutes>
+      <BustChance value="20">
+        <!--The chance the raid will be busted by the police.-->
+      </BustChance>
+      <RaidObjectType value="VampireFruit">
+        <!--The type of object the Sim will receive while raiding the rabbit hole.  This is taken from the RaidRabitHoleObjects enum.-->
+      </RaidObjectType>
+      <RaidBustTimeMin value="15">
+        <!--If BustChance is met, the earliest amount of time into the raid the bust will happen.-->
+      </RaidBustTimeMin>
+      <RaidBustTimeMax value="30">
+        <!--If BustChance is met, the greatest amount of time into the raid the bust will happen.  This needs to be less than RaidLength.-->
+      </RaidBustTimeMax>
+      <RaidTNSLocalizationKey value="Gameplay/ActorSystems/OccultVampire/RaidRabbitHole:GroceryTNS">
+        <!--The localization key for the raid TNSs.-->
+      </RaidTNSLocalizationKey>
+    </kRaidRabbitHoleTuning>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kEnvironmentMotiveScore>
+      <EnvironmentMotiveScore value="0" />
+      <!--deprecated on: 9/7/2007 3:07:21 PM-->
+    </kEnvironmentMotiveScore>
+  </Deprecated_Tuning>
+</base>

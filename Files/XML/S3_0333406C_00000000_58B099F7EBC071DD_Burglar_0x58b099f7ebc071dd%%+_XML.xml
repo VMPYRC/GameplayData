@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDelayBeforeLeaving value="0">
+      <!--Length of time (in hours) that repairman waits before leaving the lot, after his work is done-->
+    </kDelayBeforeLeaving>
+    <kStealingQuota value="0.05">
+      <!--Value of stealing quota, as percentage of total household worth. Should be between 0 and 1.-->
+    </kStealingQuota>
+    <kMaxValueOfStolenGoods value="20000">
+      <!--Max value of stolen goods, in Simoleans.-->
+    </kMaxValueOfStolenGoods>
+    <kMaxNumberOfObjectsToSteal value="10">
+      <!--The maximum number of objects the burgler can steal.-->
+    </kMaxNumberOfObjectsToSteal>
+    <kQuotaThreshold value="0.1">
+      <!--The percentage of our quota we can go over or under the quota to be considered done stealing. Should be between 0 and 1.-->
+    </kQuotaThreshold>
+    <kChanceOfBurglar value="0.025">
+      <!--The chance of a burglar appearing once everyone is asleep. Should be between 0 and 1.-->
+    </kChanceOfBurglar>
+    <kMaxHoursToShowUp value="4">
+      <!--The max number of hours after the last sim goes to sleep a burgler will show up. Actual time will be randomly chosen between 0 and this value.-->
+    </kMaxHoursToShowUp>
+    <kMinDaysBetweenBurgles value="4">
+      <!--The minimum number of days between burgles.-->
+    </kMinDaysBetweenBurgles>
+    <kBurglarReactionRelationshipHit value="-20">
+      <!--The amount a sim's relationship with the burglar decreases when he robs that sim's house.-->
+    </kBurglarReactionRelationshipHit>
+    <kSimoleansForOnePercentIncrease value="20000">
+      <!--For each kSimoleansForOnePercentIncrease dollars of household worth, the chance of a burglar spawning is increased by 1 percent.-->
+    </kSimoleansForOnePercentIncrease>
+    <kMaxBurglarSpawnChance value="0.1">
+      <!--The maximum chance of a burglar spawning. Range:[0,1]-->
+    </kMaxBurglarSpawnChance>
+    <kStealRouteRadius value="2">
+      <!--The route radius for the burglar's steal interaction.-->
+    </kStealRouteRadius>
+    <kServiceTuning>
+      <kMaxNumNPCsInPool value="2">
+        <!--Max num NPCs at once in service-->
+      </kMaxNumNPCsInPool>
+      <kCost value="0">
+        <!--Cost of service-->
+      </kCost>
+      <kIsEmergencyService value="False">
+        <!--If true this service charges kCost only if falsely called, otherwise free.-->
+      </kIsEmergencyService>
+      <kIsRecurrent value="False">
+        <!--Whether the service is recurrent (true) or one-off (false).  Recurrent services are the only type which can be cancelled through the phone dialog.-->
+      </kIsRecurrent>
+      <kAlwaysTryToSendSameSim value="True">
+        <!--Whether or not the service always tries to send the same NPC to a specific household-->
+      </kAlwaysTryToSendSameSim>
+    </kServiceTuning>
+    <kRelationshipToNotRobHouse value="75">
+      <!--The relationship required for the sim to not rob your house.-->
+    </kRelationshipToNotRobHouse>
+    <kEarliestBurgleTime value="21">
+      <!--The earliest time the burglar will burgle. Units: SimHours(Military), Type: Float, Range:  [0, 24).  Initial GPE value is 19 (7pm).-->
+    </kEarliestBurgleTime>
+    <kLatestBurgleTime value="2">
+      <!--The latest time the burglar will burgle. Units: SimHours(Military), Type: Float, Range:  [0, 24).  Initial GPE value is 0 (12am).  Note:  This is additive with kMaxHoursToShowUp. If you want the actual last time of the burglary to be 5am and the value of kMaxHoursToShowUp is 5, then this should be 0 (12am).-->
+    </kLatestBurgleTime>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

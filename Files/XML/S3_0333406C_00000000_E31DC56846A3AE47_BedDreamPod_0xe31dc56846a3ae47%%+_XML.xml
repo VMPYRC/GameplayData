@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kStartingDreamScoreValue value="40">
+      <!--Description:  The starting dream score value. This value is modified by FutureSkill level and Sim's Mood.-->
+    </kStartingDreamScoreValue>
+    <kMoodFulfilledDreamScoreMultiplier value="1.5">
+      <!--Description:  A multiplier applied to the starting dream score if the creating Sim's is in Fulfilled mood.-->
+    </kMoodFulfilledDreamScoreMultiplier>
+    <kMoodHappyDreamScoreMultiplier value="1.25">
+      <!--Description:  A multiplier applied to the starting dream score if the creating Sim's is in Happy mood.-->
+    </kMoodHappyDreamScoreMultiplier>
+    <kMoodUncomfortableDreamScoreMultiplier value="1">
+      <!--Description:  A multiplier applied to the starting dream score if the creating Sim's is in Uncomfortable mood.-->
+    </kMoodUncomfortableDreamScoreMultiplier>
+    <kMoodStressedDreamScoreMultiplier value="0.75">
+      <!--Description:  A multiplier applied to the starting dream score if the creating Sim's is in Stressed mood.-->
+    </kMoodStressedDreamScoreMultiplier>
+    <kMoodAngryDreamScoreMultiplier value="0.5">
+      <!--Description:  A multiplier applied to the starting dream score if the creating Sim's is in Angry mood.-->
+    </kMoodAngryDreamScoreMultiplier>
+    <kMinScoreForGoodDreamOutcome value="100">
+      <!--Description:  The min value of a dream score to receive a good dream outcome.-->
+    </kMinScoreForGoodDreamOutcome>
+    <kMinScoreForNeutralDreamOutcome value="50">
+      <!--Description:  The min value of a dream score to receive a neutral dream outcome.-->
+    </kMinScoreForNeutralDreamOutcome>
+    <kMinTimeBetweenSimUpdates value="5">
+      <!--Description:  The min amount of time in Sim min between dream updates.-->
+    </kMinTimeBetweenSimUpdates>
+    <kPositiveTraitDreamScoreMultiplier value="0.5">
+      <!--Description:  A value added to the dream score update value if a dreaming sim has the trait.-->
+    </kPositiveTraitDreamScoreMultiplier>
+    <kNegativeTraitDreamScoreMultiplier value="0.5">
+      <!--Description:  A value subtracted from the dream score update value if a dreaming sim has the trait.-->
+    </kNegativeTraitDreamScoreMultiplier>
+    <kMinPositiveInfluenceDreamScore value="4">
+      <!--Description:  The min value added to the dream score per update when a Sim is influencing a dream in a positive manor.-->
+    </kMinPositiveInfluenceDreamScore>
+    <kMinNegativeInfluenceDreamScore value="-4">
+      <!--Description:  The min value added to the dream score per update when a Sim is influencing a dream in a negative manor.-->
+    </kMinNegativeInfluenceDreamScore>
+    <kMaxPositiveInfluenceDreamScore value="8">
+      <!--Description:  The max value added to the dream score per update when a Sim is influencing a dream in a positive manor.-->
+    </kMaxPositiveInfluenceDreamScore>
+    <kMaxNegativeInfluenceDreamScore value="-8">
+      <!--Description:  The max value added to the dream score per update when a Sim is influencing a dream in a negative manor.-->
+    </kMaxNegativeInfluenceDreamScore>
+    <kPositivePipVfxName value="ep11DreamPodPlus_main">
+      <!--Description:  The name of the VFX to play when influencing a dream in a positive manor.-->
+    </kPositivePipVfxName>
+    <kNegativePipVfxName value="ep11DreamPodMinus_main">
+      <!--Description:  The name of the VFX to play when influencing a dream in a negative manor.-->
+    </kNegativePipVfxName>
+    <kTimeToWaitForOtherToArriveForSharedDreaming value="50">
+      <!--Time in Sim minute that a Sim will wait for his partner to arrive for shared dreaming-->
+    </kTimeToWaitForOtherToArriveForSharedDreaming>
+    <kForceFieldFadeInTime value="1">
+      <!--Time, in real-life seconds, over which the Force Field will fade in (or out)-->
+    </kForceFieldFadeInTime>
+    <kMaxNumberOfDreamsPerFutureLevel value="40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40">
+      <!--Description:  The max number of dreams available to a Sim at specific future skill levels.-->
+    </kMaxNumberOfDreamsPerFutureLevel>
+    <kVerticalOffsetOfDreamBalloon value="-0.45">
+      <!--Description:  The vertical offset of the thought balloon for dreams.-->
+    </kVerticalOffsetOfDreamBalloon>
+    <kMinDreamScoreUpdate value="-5">
+      <!--Description:  The min value added to the dream score per update when a Sim is dreaming.  Can be negative.-->
+    </kMinDreamScoreUpdate>
+    <kMaxDreamScoreUpdate value="5">
+      <!--Description:  The max value added to the dream score per update when a Sim is dreaming.-->
+    </kMaxDreamScoreUpdate>
+    <kVerticalOffsetOfPips value="-0.45">
+      <!--Description:  The vertical offset of the pips for dreams.-->
+    </kVerticalOffsetOfPips>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCheckForFallGnomeTime value="6">
+      <!--The number of sim hours between tries to create a fall gnome 0.0+-->
+    </kCheckForFallGnomeTime>
+    <kChanceForFallGnomeFromScarecrowOnLot value="0.02">
+      <!--The chance of a fall gnome spawning because of a scarecrow being on the lot. 0.0+-->
+    </kChanceForFallGnomeFromScarecrowOnLot>
+    <kChanceForFallGnomeFromDeadSim value="0.05">
+      <!--The chance of a fall gnome spawning because a selectable sim died. 0.0+-->
+    </kChanceForFallGnomeFromDeadSim>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeWitchFloat,magicGnomeWitchJump,magicGnomeWitchSurf,magicGnomeWitchSweep">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeWitchSleep">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeWitchFloat,magicGnomeWitchJump,magicGnomeWitchSurf">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeWitchFloat,magicGnomeWitchSweep">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeWitchSleep">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="magicGnomeWitchSleep">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="1">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kGnomeTuning>
+    <kWeightScarecrow value="2">
+      <!--The weight of scarecrow for attracting summer gnomes. 0.0+-->
+    </kWeightScarecrow>
+    <kWeightPumpkin value="2">
+      <!--The weight of pumpkin for attracting summer gnomes. 0.0+-->
+    </kWeightPumpkin>
+    <kWeightFirePit value="1">
+      <!--The weight of fire pit for attracting summer gnomes. 0.0+-->
+    </kWeightFirePit>
+    <kWeightLeafPile value="2">
+      <!--The weight of leaf pile for attracting summer gnomes. 0.0+-->
+    </kWeightLeafPile>
+  </Current_Tuning>
+</base>

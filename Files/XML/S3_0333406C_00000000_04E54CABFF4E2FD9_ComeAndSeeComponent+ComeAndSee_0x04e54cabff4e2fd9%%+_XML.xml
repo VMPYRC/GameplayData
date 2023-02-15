@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteRange value="0.5, 3">
+      <!--Range in meters (tiles) that Sim will route to in order to play reaction.  Format: (Min, Max).-->
+    </kRouteRange>
+    <kChancePositiveReaction value="80">
+      <!--Chance of a positive reaction assuming none of the 'automatically positive' scenarios (e.g. object can increase a skill the sim has, etc.) apply.  Range: 0 to 100-->
+    </kChancePositiveReaction>
+    <kNormalizedCommodityThreshold value="0.6">
+      <!--Range: 0 to 1.  If an object fulfills a need that the Sim has (i.e. above this threshold) then they will be hard-coded to react positively (assuming a good thing happened to the object, or react negatively if bad thing happened to the object).  This number is a normalized value of the difference between the current value of a Sim's motive and the max value of that motive.  Important: this value depends on the shape of the motive curves for each motive (so if a motive curve doesn't dip very low at its min y value then it's possible that motive can never be low enough to pass this threshold, thus that motive can never trigger this short circuit reaction).-->
+    </kNormalizedCommodityThreshold>
+    <kHighEnvironmentScoreThreshold value="30">
+      <!--Range: -100 to 100.-->
+    </kHighEnvironmentScoreThreshold>
+    <kAutonomyScoringMultiplier value="1, 1, 1, 1.2, 1.2, 1.5, 1">
+      <!--Autonomy scoring multiplier per ComeAndSee type.  Use 1.0 to use standard autonomy value, 1.5 for 50% higher, etc.  Format: (AddedFromCatalog, Charred, Burglar, RepoMan, Upgraded, Meteorite, NewMinorPet).-->
+    </kAutonomyScoringMultiplier>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

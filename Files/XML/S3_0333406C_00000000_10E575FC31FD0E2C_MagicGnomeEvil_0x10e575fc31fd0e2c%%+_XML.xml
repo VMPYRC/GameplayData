@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeEvilAngry, magicGnomeEvilSmile, magicGnomeEvilSpell, magicGnomeEvilThink">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeEvilLevitate">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeEvilThink">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeEvilLevitate">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeEvilAngry">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="2">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kGnomeTuning>
+    <kMeanActionWeights value="1, 5, 5, 5, 5, 5, 10">
+      <!--The weights for each mean action in this order: BreakSomething, MakePuddle, UnmakeBed, KnockOverTrash, CreateTrashPile, FrightenSim, FightGoodGnome.-->
+    </kMeanActionWeights>
+    <kChanceEvilBase value="0.4">
+      <!--The base chance that the gnome will choose to do an evil thing instead of the normal trickery.  Overrides the MagicGnomeBase kChanceSpecial. 0.0 - 1.0-->
+    </kChanceEvilBase>
+    <kEvilAddedPerKick value="0.1">
+      <!--The amount to add to the kChanceEvil each time the gnome gets kicked.-->
+    </kEvilAddedPerKick>
+    <kEvilChanceDecayPerDay value="0.1">
+      <!--The amount of decay, per sim day, of kChanceEvil.  0.0+-->
+    </kEvilChanceDecayPerDay>
+  </Current_Tuning>
+</base>

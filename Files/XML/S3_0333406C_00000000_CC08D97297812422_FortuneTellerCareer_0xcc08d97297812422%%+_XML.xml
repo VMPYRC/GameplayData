@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLevelNeededForPrivateReading value="2">
+      <!--Range:  0 - 100  Description:  The level that fortune tellers must be in order to use the Perform Private Reading interaction.-->
+    </kLevelNeededForPrivateReading>
+    <kPsychicConventionCooldownInDays value="3">
+      <!--  Description:  The number of days that must pass after starting a psychic convention before that sim can host another psychic convention.-->
+    </kPsychicConventionCooldownInDays>
+    <kPsychicConventionDuration value="360">
+      <!--Description:  The duration of a psychic convention, in sim minutes-->
+    </kPsychicConventionDuration>
+    <kPsychicConventionPayouts value="750, 1500, 5000, 10000">
+      <!-- Description:  The number of simoleons rewarded for each possible outcome of a psychic convention. -->
+    </kPsychicConventionPayouts>
+    <kMysticAuraParams>
+      <RelationshipToRunAway value="10">
+        <!--Max relationship level for a sim to run away-->
+      </RelationshipToRunAway>
+      <RunAwayTraits value="Excitable, Coward, Evil, Insane, SupernaturalSkeptic, MeanSpirited">
+        <!--The traits a sim must have to run away-->
+      </RunAwayTraits>
+      <BooOccupations value="Science">
+        <!--Occupations that will always have a negative reaction to this aura-->
+      </BooOccupations>
+      <BooTraits value="Good, Friendly, FamilyOriented">
+        <!--The traits a sim must have to boo-->
+      </BooTraits>
+      <CheerOccupations value="FortuneTeller">
+        <!--Occupations that will always have a positive reaction to this aura-->
+      </CheerOccupations>
+      <CheerTraits value="SupernaturalFanTrait, SpellcastingTalentTrait, FairyHiddenTrait, GenieHiddenTrait, Good, EasilyImpressed">
+        <!--The traits a sim must have to cheer-->
+      </CheerTraits>
+      <RelationshipToLose value="-3">
+        <!--How much relationship an opposed sim loses-->
+      </RelationshipToLose>
+      <RelationshipToGain value="5">
+        <!--How much relationship an aligned sim gains-->
+      </RelationshipToGain>
+      <VFXLength value="5">
+        <!--How long in sim minutes the aura should last.-->
+      </VFXLength>
+      <VFXDieLength value="5">
+        <!--The time it takes for the vfx to fade-->
+      </VFXDieLength>
+      <PositiveReactions value="Cheer, Wave">
+        <!--The ReactionTypes used positively-->
+      </PositiveReactions>
+      <NegativeReactions value="Boo">
+        <!--The ReactionTypes used negatively-->
+      </NegativeReactions>
+      <ReactionPriority value="Autonomous">
+        <!--The priority the boo and cheer reactions will be run at.-->
+      </ReactionPriority>
+      <RunAwayPriority value="NonCriticalNPCBehavior">
+        <!--Range:  Interaction priority levels.  Description:  The priority that the 'run away' interaction gets -->
+      </RunAwayPriority>
+    </kMysticAuraParams>
+    <kBasePsychicReadingChances value="60, 25, 10, 5">
+      <!--Description: The chances that a level 4 Fortune Teller would perform a private reading of each level. The first index is for Terrible readings.-->
+    </kBasePsychicReadingChances>
+    <kMaxMysticPsychicReadingChances value="5, 10, 35, 50">
+      <!--Description:  The chances that a Mystic at max level would perform a private reading of each level. The first index is for Terrible readings.-->
+    </kMaxMysticPsychicReadingChances>
+    <kMaxScamArtistPsychicReadingChances value="35, 30, 20, 15">
+      <!--Description:  The chances that a Scam Artist at max level would perform a private reading of each level. The first index is for Terrible readings.-->
+    </kMaxScamArtistPsychicReadingChances>
+    <kTerribleReadingBaseSimoleons value="15">
+      <!--Description: The base amount of simoleons to reward the fortune teller for a Terrible reading-->
+    </kTerribleReadingBaseSimoleons>
+    <kPassibleReadingBaseSimoleons value="35">
+      <!--Description: The base amount of simoleons to reward the fortune teller for a Passible reading-->
+    </kPassibleReadingBaseSimoleons>
+    <kGoodReadingBaseSimoleons value="70">
+      <!--Description: The base amount of simoleons to reward the fortune teller for a Good reading-->
+    </kGoodReadingBaseSimoleons>
+    <kGreatReadingBaseSimoleons value="150">
+      <!--Description: The base amount of simoleons to reward the fortune teller for a Great reading-->
+    </kGreatReadingBaseSimoleons>
+    <kMysticCareerMultipliers value="1.5, 1.75, 2, 2.5, 3">
+      <!--Description:  An array of multipliers, one for each level of the Mystic track, that will be multiplied by the simoleon reward from private readings.-->
+    </kMysticCareerMultipliers>
+    <kReadingAcceptanceChance value="0.6">
+      <!--Range: 0 - 1  Description:  The chance that a sim will accept a request for a private reading. (.6 means they will accept 60% of the time).-->
+    </kReadingAcceptanceChance>
+    <kReadingAcceptaceIncreasePerMysticLevel value="0.075">
+      <!--Range:  0 - 1  Description:  The per-level increase that Mystics will have added to kReadingAcceptance Chance. Only applies for levels of the Mystic branch, not total level.-->
+    </kReadingAcceptaceIncreasePerMysticLevel>
+    <kPrivateReadingCooldownHours value="8">
+      <!--Description:  The number of hours that must pass before you can ask a particular sim for a private reading again-->
+    </kPrivateReadingCooldownHours>
+    <kMysticPotionDiscountPercentage value="0.2">
+      <!--Range:  0 - 1  Description:  The percentage discount that high-level Mystics receive at the potion shop-->
+    </kMysticPotionDiscountPercentage>
+    <kMinMysticLevelForDiscount value="7">
+      <!--Range:  6 - 10  Description:  The level a Mystic must reach to receive the potion shop discount-->
+    </kMinMysticLevelForDiscount>
+  </Current_Tuning>
+</base>

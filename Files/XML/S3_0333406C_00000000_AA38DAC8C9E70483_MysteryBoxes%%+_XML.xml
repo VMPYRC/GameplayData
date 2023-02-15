@@ -1,0 +1,2583 @@
+<?xml version="1.0"?>
+<MysteryBoxes>
+<BoxList>
+  <Key></Key>
+  <Name></Name>
+  <Description></Description>
+  <CodeVersion>BaseGame</CodeVersion>
+  <OwnerVersion>BaseGame</OwnerVersion>
+  <Price></Price>
+  <Icon></Icon>
+  <MessageTagVersion>BaseGame</MessageTagVersion>
+  <Type>MysteryBox</Type>
+ </BoxList>
+<BoxList>
+  <Key>BaseGameBox</Key>
+  <Name>BaseGameBox</Name>
+  <Description>BaseGameBoxDesc</Description>
+  <Price>0</Price>
+  <Icon>GiftBox</Icon>
+ </BoxList>
+<BoxList>
+  <Key>PotionBox</Key>
+  <Name>PotionBox</Name>
+  <Description>PotionBoxDesc</Description>
+  <OwnerVersion>EP7</OwnerVersion>
+  <Price>0</Price>
+  <Icon>GiftBox_EP7</Icon>
+  <MessageTagVersion>EP7</MessageTagVersion>
+ </BoxList>
+<BoxList>
+  <Key>BasicCarePackage</Key>
+  <Name>BasicCarePackage</Name>
+  <Description>BasicCarePackageDesc</Description>
+  <CodeVersion>EP9</CodeVersion>
+  <Icon>CarePackageIcon1</Icon>
+  <Type>CarePackage</Type>
+ </BoxList>
+<BoxList>
+  <Key>ComfortCarePackage</Key>
+  <Name>ComfortCarePackage</Name>
+  <Description>ComfortCarePackageDesc</Description>
+  <CodeVersion>EP9</CodeVersion>
+  <Icon>CarePackageIcon2</Icon>
+  <Type>CarePackage</Type>
+ </BoxList>
+<BoxList>
+  <Key>LuxuriousCarePackage</Key>
+  <Name>LuxuriousCarePackage</Name>
+  <Description>LuxuriousCarePackageDesc</Description>
+  <CodeVersion>EP9</CodeVersion>
+  <Icon>CarePackageIcon3</Icon>
+  <Type>CarePackage</Type>
+ </BoxList>
+<BaseGameBox>
+  <InitData></InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight></Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>200</Amount>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>300</Amount>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>400</Amount>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>500</Amount>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>750</Amount>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>1250</Amount>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>2000</Amount>
+  <Weight>50</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>3500</Amount>
+  <Weight>35</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>6500</Amount>
+  <Weight>5</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>20000</Amount>
+  <Weight>1</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>RubberDucky</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>BubbleBath</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>MagicGnome</InitData>
+  <Type>Object</Type>
+  <Weight>5</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>FoodReplicator</InitData>
+  <Type>Object</Type>
+  <Weight>1</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>ShowerLoft</InitData>
+  <Type>Object</Type>
+  <Weight>50</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>StoveModern</InitData>
+  <Type>Object</Type>
+  <Weight>35</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>HotBeverageMachine</InitData>
+  <Type>Object</Type>
+  <Weight>65</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>BarbequeModerate</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>BedDoubleLuxury</InitData>
+  <Type>Object</Type>
+  <Weight>20</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>BedSingleContemporary</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>ChairLivingModern</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>ChairLivingColonial</InitData>
+  <Type>Object</Type>
+  <Weight>65</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>LoveseatDesigner</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>LoveseatExpensiveCamelBack</InitData>
+  <Type>Object</Type>
+  <Weight>65</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>ChairLoungeAdirondack</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>TelevisionWall1x2</InitData>
+  <Type>Object</Type>
+  <Weight>5</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>TVLCDFlatscreen</InitData>
+  <Type>Object</Type>
+  <Weight>50</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>TVModerate</InitData>
+  <Type>Object</Type>
+  <Weight>65</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>ComputerLaptop</InitData>
+  <Type>Object</Type>
+  <Weight>5</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>ComputerFlatScreen</InitData>
+  <Type>Object</Type>
+  <Weight>35</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>ComputerCheap</InitData>
+  <Type>Object</Type>
+  <Weight>65</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>StereoCheapContemporary</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>StereoExpensiveModern</InitData>
+  <Type>Object</Type>
+  <Weight>50</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>StereoModerateContemporary</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>PhoneTableModern</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>AlarmClockCheap</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>ClockWallContemporary</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>ExerciseTreadmill</InitData>
+  <Type>Object</Type>
+  <Weight>35</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>ExerciseMachine</InitData>
+  <Type>Object</Type>
+  <Weight>35</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>FoosballTable</InitData>
+  <Type>Object</Type>
+  <Weight>5</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>Football</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>Easel</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>ChessTable</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>TelescopeCheap</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>musicalInstrumentGuitar</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>FirePitValue</InitData>
+  <Type>Object</Type>
+  <Weight>65</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>LightingFloorModern</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>LightingFloorClubTorch</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>LightingTableModern</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>LightingTableLuxury</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>LightingTableLampFun</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>LightingCeilingCountry</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculpturePlantIvyBallTopiarySmall</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculptureAtriumFern</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculpturePlantPerennials</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculpturePlantFlowersBarrel</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculpturePlantFern</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculptureVaseSunflower</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculpturePlantPalm</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculptureTrellisWroughtIron</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculptureVaseModern</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>PaintingGoth</InitData>
+  <Type>Object</Type>
+  <Weight>65</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>PaintingPosterPopstarMale</InitData>
+  <Type>Object</Type>
+  <Weight>65</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>PaintingPosterPopstar</InitData>
+  <Type>Object</Type>
+  <Weight>65</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>PaintingLips</InitData>
+  <Type>Object</Type>
+  <Weight>65</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>PaintingTrypticMusic</InitData>
+  <Type>Object</Type>
+  <Weight>50</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>PaintingPhotoSeries</InitData>
+  <Type>Object</Type>
+  <Weight>50</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>PaintingFairytaleFantasy</InitData>
+  <Type>Object</Type>
+  <Weight>5</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>MirrorFloorCountry</InitData>
+  <Type>Object</Type>
+  <Weight>65</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>MirrorFloorModerate</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>Flamingo</InitData>
+  <Type>Object</Type>
+  <Weight>100</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>GardenGnome</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculptureGlobe</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculptureWallMask</InitData>
+  <Type>Object</Type>
+  <Weight>50</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculptureVenus</InitData>
+  <Type>Object</Type>
+  <Weight>35</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>FountainModern</InitData>
+  <Type>Object</Type>
+  <Weight>20</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculptureFigurePark</InitData>
+  <Type>Object</Type>
+  <Weight>1</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculptureFloorMuseum</InitData>
+  <Type>Object</Type>
+  <Weight>20</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculptureModernArt</InitData>
+  <Type>Object</Type>
+  <Weight>1</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>FountainLarge</InitData>
+  <Type>Object</Type>
+  <Weight>1</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>SculptureJetMemorial</InitData>
+  <Type>Object</Type>
+  <Weight>1</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>BookshelfModern</InitData>
+  <Type>Object</Type>
+  <Weight>50</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>CribExpensive</InitData>
+  <Type>Object</Type>
+  <Weight>35</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>HighChair</InitData>
+  <Type>Object</Type>
+  <Weight>35</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>ToyboxThemed</InitData>
+  <Type>Object</Type>
+  <Weight>50</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>ToyXylophone</InitData>
+  <Type>Object</Type>
+  <Weight>65</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>TeddyBear</InitData>
+  <Type>Object</Type>
+  <Weight>80</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>activityTableTurtle</InitData>
+  <Type>Object</Type>
+  <Weight>50</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>CarPickup2door</InitData>
+  <Type>Object</Type>
+  <Weight>20</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>CarVan4door</InitData>
+  <Type>Object</Type>
+  <Weight>20</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>CarSedan</InitData>
+  <Type>Object</Type>
+  <Weight>5</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>CarSports</InitData>
+  <Type>Object</Type>
+  <Weight>1</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>CarExpensive1</InitData>
+  <Type>Object</Type>
+  <Weight>1</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>BicycleAdultStreet</InitData>
+  <Type>Object</Type>
+  <Weight>50</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>TableCoffeeEndDesigner</InitData>
+  <Type>Object</Type>
+  <Weight>35</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>TableCoffeeDanishModern</InitData>
+  <Type>Object</Type>
+  <Weight>35</Weight>
+ </BaseGameBox>
+<BaseGameBox>
+  <InitData>TablePicnicBasic</InitData>
+  <Type>Object</Type>
+  <Weight>50</Weight>
+ </BaseGameBox>
+<PotionBox>
+  <InitData></InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight></Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </PotionBox>
+<PotionBox>
+  <InitData>BlissPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>100</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>NauseaPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>100</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>InvigoratingPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>100</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>SleepPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>75</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>TinyJarOfFriendshipPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>100</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>FumingJarOfDiscordPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>50</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>BeeAttackPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>75</Weight>
+  <CodeVersion>EP7</CodeVersion>
+ </PotionBox>
+<PotionBox>
+  <InitData>MelancholyPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>50</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>ZombifiedPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>75</Weight>
+  <CodeVersion>EP7</CodeVersion>
+ </PotionBox>
+<PotionBox>
+  <InitData>EnlightenmentPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>75</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>VampiricSunscreenPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>25</Weight>
+  <CodeVersion>EP7</CodeVersion>
+ </PotionBox>
+<PotionBox>
+  <InitData>AlchemicWeightLossPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>100</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>LargeAndInChargePotion</InitData>
+  <Type>Potion</Type>
+  <Weight>100</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>PotentBlissPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>75</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>SkillBoosterPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>75</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>PersonalityAdjusterPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>75</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>PotentSleepPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>50</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>ProcreationPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>50</Weight>
+  <CodeVersion>EP7</CodeVersion>
+ </PotionBox>
+<PotionBox>
+  <InitData>PotentMelancholyPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>35</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>PotentInvigoratePotion</InitData>
+  <Type>Potion</Type>
+  <Weight>50</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>OverflowingJarOfFriendshipPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>35</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>FulminatingJarOfDiscordPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>35</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>LiquidJobBoosterPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>50</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>PotentEnlightenmentPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>35</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>CurePotion</InitData>
+  <Type>Potion</Type>
+  <Weight>35</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>OppositePersonalityPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>15</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>BottledVampiresBitePotion</InitData>
+  <Type>Potion</Type>
+  <Weight>15</Weight>
+  <CodeVersion>EP7</CodeVersion>
+ </PotionBox>
+<PotionBox>
+  <InitData>PotentPersonalityAdjusterPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>15</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>AgeOfInstantPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>15</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>CloneDronePotion</InitData>
+  <Type>Potion</Type>
+  <Weight>5</Weight>
+  <CodeVersion>EP7</CodeVersion>
+ </PotionBox>
+<PotionBox>
+  <InitData>BottledCurseOfTheLycanPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>15</Weight>
+  <CodeVersion>EP7</CodeVersion>
+ </PotionBox>
+<PotionBox>
+  <InitData>PermaZombifiedPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>5</Weight>
+  <CodeVersion>EP7</CodeVersion>
+ </PotionBox>
+<PotionBox>
+  <InitData>BottledWaterOfYouthPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>15</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>PotentSkillBoosterPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>35</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>AddWitchOccultPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>15</Weight>
+  <CodeVersion>EP7</CodeVersion>
+ </PotionBox>
+<PotionBox>
+  <InitData>OriginOfTheTragicClownPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>5</Weight>
+  <CodeVersion>EP7</CodeVersion>
+ </PotionBox>
+<PotionBox>
+  <InitData>MidasTouchPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>5</Weight>
+  <CodeVersion>EP7</CodeVersion>
+ </PotionBox>
+<PotionBox>
+  <InitData>WishEnhancingSerumPotion</InitData>
+  <Type>Potion</Type>
+  <Weight>5</Weight>
+ </PotionBox>
+<PotionBox>
+  <InitData>BlessingOfTheFaePotion</InitData>
+  <Type>Potion</Type>
+  <Weight>15</Weight>
+  <CodeVersion>EP7</CodeVersion>
+ </PotionBox>
+<BasicCarePackage>
+  <InitData></InitData>
+  <Type>Object</Type>
+  <Amount></Amount>
+  <Weight></Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>GlunkaClassic,Random,Cash,sculptureFloorUnivRamen</InitData>
+  <Type>Soda,CandyBar,Cash,Object</Type>
+  <Amount>1,1,50,1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>TheNewGlunka,Random,Cash,shelfWallDormBooks1x1</InitData>
+  <Type>Soda,CandyBar,Cash,Object</Type>
+  <Amount>1,1,100,1</Amount>
+  <Weight>99</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>MountainRunoff,Random,Cash</InitData>
+  <Type>Soda,CandyBar,Cash,Object</Type>
+  <Amount>1,1,250</Amount>
+  <Weight>98</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>CitrusOxide,Random,Cash</InitData>
+  <Type>Soda,CandyBar,Cash,Object</Type>
+  <Amount>1,1,500</Amount>
+  <Weight>97</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>AllFizz,Random,Cash</InitData>
+  <Type>Soda,CandyBar,Cash,Object</Type>
+  <Amount>1,1,1000</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>DietGlunkaCola,Random,Cash,sculptureFloorUnivRamen</InitData>
+  <Type>Soda,CandyBar,Cash,Object</Type>
+  <Amount>1,1,50,1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>DietGlunkaCola,Random,Cash,shelfWallDormCrates1x1</InitData>
+  <Type>Soda,CandyBar,Cash,Object</Type>
+  <Amount>1,1,100,1</Amount>
+  <Weight>99</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>DietGlunkaCola,Random,Cash,sculptureWallUniversityBanner</InitData>
+  <Type>Soda,CandyBar,Cash,Object</Type>
+  <Amount>1,1,250,1</Amount>
+  <Weight>98</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>DietMountainRunoff,Random,Cash,sculptureFloorUnivChestSports</InitData>
+  <Type>Soda,CandyBar,Cash,Object</Type>
+  <Amount>1,1,500,1</Amount>
+  <Weight>97</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>DietMountainRunoff,Random,Cash,sculptureCeilingUnivPennantsTileable2x1</InitData>
+  <Type>Soda,CandyBar,Cash,Object</Type>
+  <Amount>1,1,1000,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>AllFizz,Random,Cash,sculptureFloorUnivRamen</InitData>
+  <Type>Soda,CandyBar,Cash,Object</Type>
+  <Amount>1,1,50,1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>CitrusOxide,Random,Cash,sculptureTableUnivHalfPaint</InitData>
+  <Type>Soda,CandyBar,Cash,Object</Type>
+  <Amount>1,1,100,1</Amount>
+  <Weight>99</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>GlunkaClassic,Random,Cash,sculptureTableUnivPaintbrushes</InitData>
+  <Type>Soda,CandyBar,Cash,Object</Type>
+  <Amount>1,1,250,1</Amount>
+  <Weight>98</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>GlunkaClassic,Random,Cash,sculptureTableUnivCanvasPile</InitData>
+  <Type>Soda,CandyBar,Cash,Object</Type>
+  <Amount>1,1,500,1</Amount>
+  <Weight>97</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>AllFizz,Random,Cash,pedestalUnivSculpter</InitData>
+  <Type>Soda,CandyBar,Cash,Object</Type>
+  <Amount>1,1,1000,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>DietGlunkaCola,TheNewGlunka,GlunkaClassic,AllFizz</InitData>
+  <Type>Soda,Soda,Soda,Soda</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,BaseGame</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>MountainRunoff,DietMountainRunoff,CitrusOxide,AllFizz</InitData>
+  <Type>Soda,Soda,Soda,Soda</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,BaseGame</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>Random,Random,Random,Random</InitData>
+  <Type>Soda,Soda,Soda,Soda</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>5</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,BaseGame</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>ChunkyNougatSurprise,ChunkyNougatSurprise,ChunkyNougatSurprise,ChunkyNougatSurprise</InitData>
+  <Type>CandyBar,CandyBar,CandyBar,CandyBar</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,BaseGame</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>ChunkyNougatSurprise,GooeyNutLog,CarmelCrunch,ChocolatePBDiscs</InitData>
+  <Type>CandyBar,CandyBar,CandyBar,CandyBar</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,BaseGame</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>GooeyNutLog,Sblonked,BallardBites,RollieLoellieCakes</InitData>
+  <Type>CandyBar,CandyBar,CandyBar,CandyBar</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,BaseGame</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>Random,Random,Random,Random</InitData>
+  <Type>CandyBar,CandyBar,CandyBar,CandyBar</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>5</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,BaseGame</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>GoldenCanSoda,DietMountainRunoff,DietGlunkaCola,AllFizz</InitData>
+  <Type>Soda,Soda,Soda,Soda</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>1</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,BaseGame</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>LillyLonkaGoldenBar,CarmelCrunch,BallardBites,GooeyNutLog</InitData>
+  <Type>CandyBar,CandyBar,CandyBar,CandyBar</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>1</Weight>
+  <CodeVersion>BaseGame,BaseGame,BaseGame,BaseGame</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>shelfWallUnivToystandTileable</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallUnivOars2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallUnivMolecule</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureTableUnivToybox</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureTableUnivRobotarm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureTableUnivParticleMachine</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureTableUnivOpenComputer</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureTableUnivGriffin</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureTableUnivBust</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureFloorUnivDisplaycase</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureFloorUnivCutout</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureOrientationVertical</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>shelfWallUnivDorm2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>shelfWallUnivDorm2x1,shelfWallUnivDorm2x1</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>65</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallUnivTileable2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallUnivTileable2x1,sculptureWallUnivTileable2x1</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>65</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallUnivTileable2x1,sculptureWallUnivTileable2x1,sculptureWallUnivTileable2x1,sculptureWallUnivTileable2x1</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>35</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallUnivShelfBottlesTileable</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallUnivShelfBottlesTileable,sculptureWallUnivShelfBottlesTileable</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>45</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallUnivProtestSigns2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallUnivPhotosPinned2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallUnivJock</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallUnivHeart2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallUnivFrames</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallUnivFlagLlama2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallUnivCrestNeon</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallUnivBulletinBoard2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallPennantsTileable</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallPennantsTileable,sculptureWallPennantsTileable</InitData>
+  <Type>Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureWallPennantsTileable,sculptureWallPennantsTileable,sculptureWallPennantsTileable</InitData>
+  <Type>Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>45</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureTableUnivFigure</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureTableUnivCanvasPile</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureCeilingUnivPennantsTileable2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureCeilingUnivPennantsTileable2x1,sculptureCeilingUnivPennantsTileable2x1</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureCeilingUnivPennantsTileable2x1,sculptureCeilingUnivPennantsTileable2x1,sculptureCeilingUnivPennantsTileable2x1</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>45</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>pedestalUnivSculpter</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>mirrorWallUnivDoll</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>65</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculpturePlumBobEP9</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>1</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureFigureSchool</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>1</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>computerUniv</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>1</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>computerLaptopModern</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>1</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>bonFire</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>2</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>megaphone</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>lightingTableDorm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>lightingFloorDorm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>lightingFloorUnivArtLamp2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>lightingTableUnivDrafting</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>lightingTableUnivSports</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>lightingFloorUnivVintage</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>lightingTableUnivDuck</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>juiceKeg</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>hamperUniv</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>trashcanUniv</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>90</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureFloorUnivRamen</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>155</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureFloorUnivRamen,sculptureFloorUnivRamen</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>92</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </BasicCarePackage>
+<BasicCarePackage>
+  <InitData>sculptureFloorUnivRamen,sculptureFloorUnivRamen,sculptureFloorUnivRamen,sculptureFloorUnivRamen</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>7</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </BasicCarePackage>
+<LuxuriousCarePackage>
+  <InitData></InitData>
+  <Type>Object</Type>
+  <Amount></Amount>
+  <Weight></Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>arcadeMachineCowboy,AllFizz</InitData>
+  <Type>Object,Soda</Type>
+  <Amount>1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>arcadeTableVintage,GlunkaClassic</InitData>
+  <Type>Object,Soda</Type>
+  <Amount>1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>arcadeMachineZombie,CitrusOxide</InitData>
+  <Type>Object,Soda</Type>
+  <Amount>1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>arcadeMachineUFO,TheNewGlunka</InitData>
+  <Type>Object,Soda</Type>
+  <Amount>1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>arcadeMachineCowboy,arcadeTableVintage,arcadeMachineZombie,arcadeMachineUFO</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>1</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>VideoGameSystem,VRGoggles</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>BaseGame,BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>stereoSurfaceUnivRadio,computerUniv</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>30</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>scienceStation,Whiteboard</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>bonFire,juiceKeg</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>50</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>bowlingLane,pingPongTable</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>foosballTableCollege,kickyBagSoccer</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>50</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>poolTableCollegiate</InitData>
+  <Type>Object,Cash</Type>
+  <Amount>1250</Amount>
+  <Weight>35</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>kickyBagCollege,kickyBagSoccer</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>50</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Football,flyingDisc,kickyBagCollege,kickyBagSoccer</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>BaseGame,EP9,EP9,EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>podiumClassic,Whiteboard</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>65</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>megaphone,podiumClassic</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>55</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>sketchbook,easelUniv</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>easelUniv,graffitiArtDuffelBag</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>65</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>graffitiArtDuffelBag,sketchbook</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>barBarista</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>PhotoBoothCollege</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>brainEnhancingMachineCollege</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>computerLaptopModern</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>101</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>computeRUniv</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>clockWallUnivScoreboard2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>stereoTowerUnivRecordPlayer</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>tvUnivJock</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>stereoSurfaceUnivRadio</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>bowlingLane</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>pingPongTable</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>scienceStation</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>megaphone</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>graffitiArtDuffelBag</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>mobileRadioStation</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Whiteboard</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>businessPlanner</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>sketchbook</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>anatomySkeleton</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>easelUniv</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>25</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>250</Amount>
+  <Weight>50</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>500</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>1000</Amount>
+  <Weight>15</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>2500</Amount>
+  <Weight>5</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>200</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>300</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>400</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>500</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>750</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>1250</Amount>
+  <Weight>80</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>2000</Amount>
+  <Weight>50</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>3500</Amount>
+  <Weight>35</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>6500</Amount>
+  <Weight>5</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>Cash</InitData>
+  <Type>Cash</Type>
+  <Amount>20000</Amount>
+  <Weight>1</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>RubberDucky</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>BubbleBath</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>100</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>MagicGnome</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>5</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>FoodReplicator</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>1</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>ShowerLoft</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>50</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>carTruckMoving</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>1</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<LuxuriousCarePackage>
+  <InitData>forbiddenfruit</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>1</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </LuxuriousCarePackage>
+<ComfortCarePackage>
+  <InitData></InitData>
+  <Type>Object</Type>
+  <Amount></Amount>
+  <Weight></Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedMurphyDouble,dresserTallDorm</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedMurphyDouble,tableEndUnivDoll,lightingTableUnivSports</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedMurphyDouble,dresserTallDorm,tableEndUnivDoll,lightingTableUnivSports</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedDoubleDorm,DresserModern</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,BaseGame</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedDoubleDorm,tableEndUnivGlobe,LightingTableClubContemporary</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9,BaseGame</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedDoubleDorm,DresserModern,tableEndUnivGlobe,LightingTableClubContemporary</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9,BaseGame,EP9,BaseGame</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedSingleDorm,tableEndDorm</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedSingleDorm,tableEndDorm,lightingTableUnivDuck</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedSingleDorm,bedSingleDorm,tableEndDorm,lightingTableUnivDuck</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedBunkDormThumbnail,bedBunkDormThumbnail</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedBunkDormLoftThumbnail,deskDormSimple,lightingTableDorm</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedBunkDormThumbnail,bedBunkDormLoftThumbnail,deskDormSimple,lightingTableDorm</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>BedSingleModern,tableEndUnivRack</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>BaseGame,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>BedSingleModern,tableEndUnivRack,lightingTableUnivDuck</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>BaseGame,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>BedSingleModern,BedSingleModern,tableEndUnivRack,lightingTableUnivDuck</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>BaseGame,EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>BedDoubleModern,lightingFloorDorm</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>BaseGame,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>BedDoubleModern,DresserMediumLuxury,lightingTableDorm</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>BaseGame,BaseGame,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>BedDoubleModern,DresserMediumLuxury,lightingTableDorm,lightingFloorDorm</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>BaseGame,BaseGame,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>vendingMachineDrink,vendingMachineCandy</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>vendingMachineDrink,vendingMachineCandy,refrigeratorMiniCollege</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>5</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>vendingMachineCombo,vendingMachineDrink,vendingMachineCandy,refrigeratorMiniCollege</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>1</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>deskOpenSidesCenterUnivDrafting,chairDiningUnivWorkdesk</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>deskOpenSidesCenterUnivDrafting,chairDiningUnivWorkdesk,trashcanUniv</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bookshelfUnivIndustrial2x1,deskOpenSidesCenterUnivDrafting,chairDiningUnivWorkdesk,trashcanUniv</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>deskOpenSidesCenterUniv2x1,chairDiningUnivTuft</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>deskOpenSidesCenterUniv2x1,bookshelfUnivTilable2x1,chairDiningUnivTuft</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>deskOpenSidesCenterUniv2x1,bookshelfUnivTilable2x1,chairDiningUnivTuft,rugUnivClub2x1</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>deskDorm,chairDiningUnivDorm</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bookshelfDorm2x1,deskDorm,chairDiningUnivDorm</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bookshelfDorm2x1,deskDorm,chairDiningUnivDorm,trashcanUniv</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bookshelfDorm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>deskOpenSidesCenterUnivDorm,bookshelfDorm,ChairDiningCountryCushion</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>50</Weight>
+  <CodeVersion>EP9,EP9,BaseGame</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>deskOpenSidesCenterUnivDorm,bookshelfDorm,ChairDiningCountryCushion,hamperUniv</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9,BaseGame,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>deskOpenSidesCenterUnivDorm,ChairDiningCountryCushion</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,BaseGame</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>deskDormSimple,chairDiningUnivPaint</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>lightingFloorUnivArtLamp2x1,deskDormSimple,chairDiningUnivPaint</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>lightingFloorUnivArtLamp2x1,deskDormSimple,chairDiningUnivPaint,bookshelfCrates2x1</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>tvUnivJock,chairDiningUnivTailgate</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>tvUnivJock,rugUnivBrainiac2x2,chairDiningUnivTailgate</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>tvUnivJock,rugUnivBrainiac2x2,chairDiningUnivTailgate,chairDiningUnivDorm</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairLivingUnivReading,lightingFloorUnivVintage</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>sofaUnivReading,chairLivingUnivReading,rugUnivClub2x1</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>sofaUnivReading,chairLivingUnivReading,rugUnivClub2x1,lightingFloorUnivVintage</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>loveseatCrates,tableCoffeeUnivChest2x1</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairLivingCrates,loveseatCrates,tableCoffeeUnivChest2x1</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairLivingCrates,loveseatCrates,tableCoffeeUnivChest2x1,rugUnivPaintedTarp2x3</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairLivingTaped,chairDiningUnivPaint</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairLivingTaped,rugUnivBrainiac2x2,lightingFloorDorm</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairLivingTaped,chairDiningUnivPaint,rugUnivBrainiac2x2,lightingFloorDorm</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>sofaDorm,tableCoffeeDorm2x1</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>sofaDorm,tableCoffeeDorm2x1,rugUnivSports2x3</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>sofaDorm,chairLivingDorm,tableCoffeeDorm2x1,rugUnivSports2x3</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9,EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairDiningUnivTuft,TableCoffeeEndDesigner</InitData>
+  <Type>Object,Object</Type>
+  <Amount>1,1</Amount>
+  <Weight>75</Weight>
+  <CodeVersion>EP9,BaseGame</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>loveseatUnivTuft,chairDiningUnivTuft,rugUnivSports2x2</InitData>
+  <Type>Object,Object,Object</Type>
+  <Amount>1,1,1</Amount>
+  <Weight>25</Weight>
+  <CodeVersion>EP9,EP9,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>loveseatUnivTuft,chairDiningUnivTuft,TableCoffeeEndDesigner,rugUnivSports2x2</InitData>
+  <Type>Object,Object,Object,Object</Type>
+  <Amount>1,1,1,1</Amount>
+  <Weight>10</Weight>
+  <CodeVersion>EP9,EP9,BaseGame,EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedBunkDormLoftThumbnail</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedBunkDormThumbnail</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedDoubleDorm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>BedDoubleModern</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedMurphyDouble</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bedSingleDorm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>BedSingleModern</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bookshelfCrates2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bookshelfDorm2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bookshelfUnivIndustrial2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>bookshelfUnivTilable2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>ChairDiningCountryCushion</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairDiningUnivDorm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairDiningUnivPaint</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairDiningUnivTailgate</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairDiningUnivTuft</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairDiningUnivWorkdesk</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairLivingCrates</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairLivingDorm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairLivingTaped</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>chairLivingUnivReading</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>deskDorm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>deskDormSimple</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>deskOpenSidesCenterUniv2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>deskOpenSidesCenterUnivDorm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>deskOpenSidesCenterUnivDrafting</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>DresserMediumLuxury</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>DresserModern</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>dresserTallDorm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>lightingFloorDorm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>lightingFloorUnivArtLamp2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>lightingFloorUnivVintage</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>LightingTableClubContemporary</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>lightingTableDorm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>lightingTableUnivDuck</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>lightingTableUnivSports</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>loveseatCrates</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>loveseatUnivTuft</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>refrigeratorMiniCollege</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>rugUnivBrainiac2x2</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>rugUnivClub2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>rugUnivPaintedTarp2x3</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>rugUnivSports2x2</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>rugUnivSports2x3</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>sofaDorm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>sofaUnivReading</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>tableCoffeeDorm2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>TableCoffeeEndDesigner</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>BaseGame</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>tableCoffeeUnivChest2x1</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>tableEndDorm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>tableEndUnivDoll</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>tableEndUnivGlobe</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>tableEndUnivRack</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>tvUnivJock</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>vendingMachineCandy</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>5</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>vendingMachineCombo</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>5</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>vendingMachineDrink</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>5</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>dresserTallDorm</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>tableEndUnivDoll</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+<ComfortCarePackage>
+  <InitData>lightingTableUnivSports</InitData>
+  <Type>Object</Type>
+  <Amount>1</Amount>
+  <Weight>150</Weight>
+  <CodeVersion>EP9</CodeVersion>
+ </ComfortCarePackage>
+</MysteryBoxes>

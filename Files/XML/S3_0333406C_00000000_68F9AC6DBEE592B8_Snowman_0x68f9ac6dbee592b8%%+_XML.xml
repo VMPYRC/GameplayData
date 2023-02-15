@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPatSnowmanTime value="15, 10, 5">
+      <!--[Bottom, Middle, Top] Num sim minutes pat animations must play before building the next tier of snowman-->
+    </kPatSnowmanTime>
+    <kReactToDestroySnowmanBroadcastParams>
+      <PulseRadius value="8">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="5">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kReactToDestroySnowmanBroadcastParams>
+    <kLTRToIncreaseDestroyChance value="-50">
+      <!--LTR below which a sim is more likely to choose to do the destroy snowman interaction-->
+    </kLTRToIncreaseDestroyChance>
+    <kDestroyScoringMultiplier value="5">
+      <!--Scoring multiplier applied to Destroy snowman interaction if relationship between destroyer and maker is below tunable level-->
+    </kDestroyScoringMultiplier>
+    <kChanceToPushFightAfterDestroy value="75">
+      <!--Range[0-100] Chance of pushing fight interaction between sim that made snowman and sim that destroyed it if sim that made it is nearby when its destroyed-->
+    </kChanceToPushFightAfterDestroy>
+    <kLTRDecreaseForDestroy value="-10">
+      <!--Range [int < 0] Amount of LTR to add to relationship between destroyer and sim who made snowman if maker is reacting-->
+    </kLTRDecreaseForDestroy>
+    <kLTRToReactPositiveToDestroySnowman value="0">
+      <!--LTR between Destroyer and observer above which observer will react positively to snowman being destroyed and below which will act negatively-->
+    </kLTRToReactPositiveToDestroySnowman>
+    <kChewScratchTimeMinMax value="10, 15">
+      <!--[Min,Max] Num Sim Mins a pet will chew/scratch object for. Actual will be randomly picked between the 2-->
+    </kChewScratchTimeMinMax>
+    <kLargeDogScratchMinRoutingDistance value="0.1">
+      <!--Range: Positive Float. Description: Min distance away from Snowman that adult/elder large dogs will route to for scratch/chew interaction.-->
+    </kLargeDogScratchMinRoutingDistance>
+    <kLittleDogScratchMinRoutingDistance value="0.1">
+      <!--Range: Positive Floats. Description: Min distance away from Snowman that adult/elder little dogs will route to for scratch/chew interaction.-->
+    </kLittleDogScratchMinRoutingDistance>
+    <kPuppyScratchMinRoutingDistance value="0.1">
+      <!--Range: Positive Floats. Description: Min distance away from Snowman that puppies will route to for scratch/chew interaction.-->
+    </kPuppyScratchMinRoutingDistance>
+    <kCatScratchMinRoutingDistance value="0.1">
+      <!--Range: Positive Floats. Description: Min distance away from Snowman that adult/elder cats will route to for scratch/chew interaction.-->
+    </kCatScratchMinRoutingDistance>
+    <kKittenScratchMinRoutingDistance value="0.1">
+      <!--Range: Positive Floats. Description: Min distance away from Snowman that kittens will route to for scratch/chew interaction.-->
+    </kKittenScratchMinRoutingDistance>
+    <kFullyMeltedAmount value="100">
+      <!--Positive float.  How many points of melting before snowman is replaced with a puddle-->
+    </kFullyMeltedAmount>
+    <kMeltingPoints value="40, 80">
+      <!--Range 0-kFullyMeltedAmount, [Slightly Melted, Mostly Melted] How many points of melting before snowman switches to each visual state-->
+    </kMeltingPoints>
+    <kChanceDiscoverNewType value="50">
+      <!--Range[0-100] Chance of sim discovering a new type when making snowman-->
+    </kChanceDiscoverNewType>
+    <kTraitsToLearnAlienSnowman value="Insane, ComputerWhiz">
+      <!--Sims with these traits have tunable chance to learn Alien Snowman-->
+    </kTraitsToLearnAlienSnowman>
+    <kChanceDiscoverAlienSnowmanFromTraits value="50">
+      <!--Range[0-100] Chance of sims with tuned traits kTraitsToLearnAlienSnowman learning to make Snowman of type Alien-->
+    </kChanceDiscoverAlienSnowmanFromTraits>
+    <kTraitsToLearnClownSnowman value="Grumpy, HatesOutdoors">
+      <!--Sims with these traits have tunable chance to learn Clown Snowman-->
+    </kTraitsToLearnClownSnowman>
+    <kChanceDiscoverClownSnowmanFromTraits value="50">
+      <!--Range[0-100] Chance of sims with tuned traits kTraitsToLearnClownSnowman learning to make Snowman of type Tragic Clown-->
+    </kChanceDiscoverClownSnowmanFromTraits>
+    <kMoodThresholdToLearnClownSnowman value="-40">
+      <!--If sim's Mood level is below this level when finishing the snowman they can learn how to make the Tragic Clown Snowman-->
+    </kMoodThresholdToLearnClownSnowman>
+    <kTraitsToLearnReaperSnowman value="Unlucky, Evil">
+      <!--Sims with these traits have tunable chance to learn Reaper Snowman-->
+    </kTraitsToLearnReaperSnowman>
+    <kChanceDiscoverReaperSnowmanFromTraits value="50">
+      <!--Range[0-100] Chance of sims with tuned traits kTraitsToLearnReaperSnowman learning to make Snowman of type Grim Reaper-->
+    </kChanceDiscoverReaperSnowmanFromTraits>
+    <kChanceElderDiscoverReaperSnowman value="50">
+      <!--Range[0-100] Chance of Elder sims learning to make Snowman of type Grim Reaper, chance is added to existing trait and tombstone chances-->
+    </kChanceElderDiscoverReaperSnowman>
+    <kNumTombstonesDiscoverReaperSnowman value="1">
+      <!--Range int > 0: When finishing snowman if this Number of tombstones/urns are on the lot and/or sim's inventory, sim might learn Grim Reaper Snowman-->
+    </kNumTombstonesDiscoverReaperSnowman>
+    <kTraitsToLearnEvilSnowman value="Daredevil, Evil, MeanSpirited, HotHeaded, Pyromaniac">
+      <!--Sims with these traits have tunable chance to learn Evil Snowman-->
+    </kTraitsToLearnEvilSnowman>
+    <kChanceDiscoverEvilSnowmanFromTraits value="50">
+      <!--Range[0-100] Chance of sims with tuned traits kTraitsToLearnEvilSnowman learning to make Snowman of type Evil-->
+    </kChanceDiscoverEvilSnowmanFromTraits>
+    <kTraitsToLearnHockeySnowman value="Athletic, LovesTheOutdoors">
+      <!--Sims with these traits have tunable chance to learn Hockey Snowman-->
+    </kTraitsToLearnHockeySnowman>
+    <kChanceDiscoverHockeySnowmanFromTraits value="50">
+      <!--Range[0-100] Chance of sims with tuned traits kTraitsToLearnHockeySnowman learning to make Snowman of type Hockey-->
+    </kChanceDiscoverHockeySnowmanFromTraits>
+    <kChanceDiscoverHockeySnowmanFromRink value="25">
+      <!--Range[0-100] Chance of sim learning how to make hockey snowman if there is an ice rink on the lot-->
+    </kChanceDiscoverHockeySnowmanFromRink>
+    <kPatSnowmanTimeAllWeatherChamp value="7, 5, 3">
+      <!--[Bottom, Middle, Top] Num sim minutes pat animations must play before building the next tier of snowman for All Weather Champions-->
+    </kPatSnowmanTimeAllWeatherChamp>
+    <kNumSnowmenToDisallowAutonomy value="4">
+      <!--int > 0: After this many snowmen are on the lot sims will stop autonomously choosing to build snowmen until one melts bringing the number back below this tunable.-->
+    </kNumSnowmenToDisallowAutonomy>
+    <kTimeProgressMultiplierForHelper value="2">
+      <!--Range: Floats > 1. Description: If 2 sims are working on the snowman this multiplier is applied to amount of time that has passed each time we update the progress made on the snowman.-->
+    </kTimeProgressMultiplierForHelper>
+    <kDiscoveryWeights value="10, 5, 1, 5, 1, 5">
+      <!--[Classic, Evil, Alien, Clown, Reaper, Hockey]: Normal weighted chance of discovering new snowman type.  Weight will be 0 if already discovered-->
+    </kDiscoveryWeights>
+    <kDiscoveryWeightOverrideAlien value="50">
+      <!--Discovery Weight for Alien if Sim is Alien.  Replaces kDiscoveryWeights for type alien-->
+    </kDiscoveryWeightOverrideAlien>
+    <kDiscoveryWeightOverrideClown value="50">
+      <!--Discovery Weight for Tragic Clown if Mood below kMoodThresholdToLearnClownSnowman.  Replaces kDiscoveryWeights for type Clown-->
+    </kDiscoveryWeightOverrideClown>
+    <kDiscoveryWeightOverrideReaper value="50">
+      <!--Discovery Weight for Reaper if Sim has part time job at Mausoleum.  Replaces kDiscoveryWeights for type Reaper-->
+    </kDiscoveryWeightOverrideReaper>
+  </Current_Tuning>
+</base>

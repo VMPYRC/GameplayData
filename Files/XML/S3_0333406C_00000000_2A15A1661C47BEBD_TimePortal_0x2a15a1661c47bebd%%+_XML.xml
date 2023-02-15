@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPortalUnstableTimer value="480">
+      <!--Range: Positive Float.  Length in minutes before unstable portal returns to a stable state-->
+    </kPortalUnstableTimer>
+    <kChanceOfSicknessOnFail value="0, 40, 30, 20, 10, 6, 5, 4, 3, 0, 0">
+      <!--Range: 0-100.  Description: Chance of getting a Time Travel Sickness buff on fail based upon Future skill level.-->
+    </kChanceOfSicknessOnFail>
+    <kSicknessBuffs value="Nauseous, Scared, TimeParadoxSickness">
+      <!--Range: Buffs.  Description: Time Travel sickness buffs Sim might get on Travel fail.-->
+    </kSicknessBuffs>
+    <kPortalChargedTimer value="180">
+      <!--Range: Positive Float.  Length in minutes before charged portal returns to a uncharged state-->
+    </kPortalChargedTimer>
+    <kPortalActivateTimer value="1">
+      <!--Range: Positive Float.  Description: Delay in minutes to allow Activate VFX to mask off to on Geometry change.-->
+    </kPortalActivateTimer>
+    <kPortalIntroStartTime value="10">
+      <!--Range: Positive int.  Description: Hour of the first Sunday in which the Portal Intro Sequence should begin.-->
+    </kPortalIntroStartTime>
+    <kOpportunityDelayTime value="15">
+      <!--Range: Positive Float.  Time in Sim minutes from when the portal starts appearing until the Opportunity appears-->
+    </kOpportunityDelayTime>
+    <kDoCameraZoom value="True">
+      <!--Boolean to toggle the forced camera zoom to the mascot on a player's home lot. true means do the zoom-->
+    </kDoCameraZoom>
+    <kCameraLerpTime value="2">
+      <!--The number of seconds it will take to zoom the camera to the portal. The lower this number, the faster the camera moves.-->
+    </kCameraLerpTime>
+    <kSicknessBuffsDumpsterLand value="Scared, Nauseous, TimeParadoxSickness">
+      <!--Range: Buffs.  Description: Time Travel sickness buffs Sim might get on Travel fail for Dumpster Land. - PAB-->
+    </kSicknessBuffsDumpsterLand>
+    <kSicknessBuffsRainbowLand value="Scared, Nauseous, TimeParadoxSickness">
+      <!--Range: Buffs.  Description: Time Travel sickness buffs Sim might get on Travel fail for Rainbow Land. - PAB-->
+    </kSicknessBuffsRainbowLand>
+    <kCameraShakeDistanceRange value="10, 100">
+      <!--Range: positive floats [min, max]. If the camera distance is closer than the first value, the camera will shake at full intensity.  It will linearly decrease until the second value.  If the camera is further than the second value, it will shake at minimum intensity.-->
+    </kCameraShakeDistanceRange>
+    <kCameraIntensityRange value="0.01, 1">
+      <!--Range: positive floats [min, max]. The min/max intensity that the camera should shake.  If the minimum value is not 0, the camera will shake that much regardless of how far away it is.-->
+    </kCameraIntensityRange>
+    <kCameraShakeDuration value="3">
+      <!--Range: positive floats in sim minutes. The camera will shake for this duration when a Sim comes out of the Portal.-->
+    </kCameraShakeDuration>
+    <kMinPortalRange value="2">
+      <!--Range: Float.  Description: Min range for sim to route near portal for travel - PAB-->
+    </kMinPortalRange>
+    <kMaxPortalRange value="5">
+      <!--Range: Float.  Description: Max range for sim to route near portal for travel - PAB-->
+    </kMaxPortalRange>
+    <kBannedOpportunities value="EP11_Trigger_DystopiaFuture, EP11_Trigger_DystopiaFuture2, EP11_Trigger_DystopiaFuture3, EP11_Trigger_DystopiaFuture4, EP11_Trigger_UtopiaFuture, EP11_Trigger_UtopiaFuture2, EP11_Trigger_UtopiaFuture3, EP11_Trigger_UtopiaFuture4, EP11_Undo_DystopiaFuture, EP11_Undo_UtopiaFuture, EP11_HelpingTheTimeTraveler01, EP11_HelpingTheTimeTraveler02">
+      <!--Range: OpportunityNames.  Description: Opportunities not allowed when traveling to the future.  If a Sim has one of these, a modified travel modal will warn that the Opportunity will be lost if they proceed. - JThummel-->
+    </kBannedOpportunities>
+    <kSurpriseDist value="25">
+      <!--Sims within this distance have a chance of being surprised when the portal appears or a Sim comes through it.  In meters.-->
+    </kSurpriseDist>
+    <kChanceOfSurpriseFromArrive value="100">
+      <!--Range: 0-100.  Description: Percent chance that a nearby Sim will be surprised by other Sim arriving through portal.-->
+    </kChanceOfSurpriseFromArrive>
+  </Current_Tuning>
+</base>

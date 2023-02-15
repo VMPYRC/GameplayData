@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDryTime value="700">
+      <!--The number of Sim minutes it takes clothes to dry on the clothesline-->
+    </kDryTime>
+    <kCleanSheetsBuffTimeInHrs value="72">
+      <!--The number of Sim hours all beds should give the Clean Sheets Buff for-->
+    </kCleanSheetsBuffTimeInHrs>
+    <kDryTimeOutside value="330">
+      <!--The number of Sim minutes it takes clothes to dry on the clothesline if it is outside-->
+    </kDryTimeOutside>
+    <kTimeForFirstPuddle value="10">
+      <!--How long until the very first puddle should show up in Sim minutes-->
+    </kTimeForFirstPuddle>
+    <kTimePerPuddle value="3000">
+      <!--How long between puddles drops in Sim minutes-->
+    </kTimePerPuddle>
+    <kFreshClothingBuffTimeInHrs value="96">
+      <!--The number of Sim hours all beds should give the Fresh Clothing Buff for-->
+    </kFreshClothingBuffTimeInHrs>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAfterschoolActivityLength value="2">
+      <!--How long after school activities last in hours-->
+    </kAfterschoolActivityLength>
+    <kDaysBeforeAgingTrigger value="3">
+      <!--Number of days before aging up a recital will be triggered-->
+    </kDaysBeforeAgingTrigger>
+    <kSkillGainRateAthletic value="15, 11.25, 11.25, 11.25, 11.25, 11.25, 11.25, 11.25, 11.25, 11.25">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRateAthletic>
+    <kSkillGainRateBallet value="1, 1, 1, 1, 1, 1, 1, 1, 1, 1">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRateBallet>
+    <kSkillGainRateBassGuitar value="10, 7.5, 6.66, 6.66, 6.66, 6.66, 6.66, 6.66, 6.66, 6.66">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRateBassGuitar>
+    <kSkillGainRateCharisma value="15, 11.25, 10, 10, 10, 10, 10, 10, 10, 10">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRateCharisma>
+    <kSkillGainRateDrums value="10, 7.5, 6.66, 6.66, 6.66, 6.66, 6.66, 6.66, 6.66, 6.66">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRateDrums>
+    <kSkillGainRateFishing value="10, 7.5, 6.66, 6.66, 6.66, 6.66, 6.66, 6.66, 6.66, 6.66">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRateFishing>
+    <kSkillGainRateGuitar value="15, 11.25, 10, 10, 10, 10, 10, 10, 10, 10">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRateGuitar>
+    <kSkillGainRateHandiness value="12.5, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRateHandiness>
+    <kSkillGainRateHomework value="21.6, 20.3, 9.45, 5, 5, 5, 5, 5, 5, 5">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRateHomework>
+    <kSkillGainRateLogic value="15, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5, 12.5">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRateLogic>
+    <kSkillGainRatePainting value="15, 16.875, 13, 13, 13, 13, 13, 13, 13, 13">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRatePainting>
+    <kSkillGainRatePhotography value="5, 5.6, 4.2, 4.2, 4.2, 4.2, 4.2, 4.2, 4.2, 4.2">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRatePhotography>
+    <kSkillGainRatePiano value="10, 7.5, 6.66, 6.66, 6.66, 6.66, 6.66, 6.66, 6.66, 6.66">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRatePiano>
+    <kSkillGainRateScouting value="1, 1, 1, 1, 1, 1, 1, 1, 1, 1">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRateScouting>
+    <kSkillGainRateSculpting value="12, 12, 12, 12, 12, 12, 12, 12, 12, 12">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRateSculpting>
+    <kSkillGainRateWriting value="15, 13, 13, 13, 13, 13, 13, 13, 13, 13">
+      <!--Skill gain rate in points per sim minute for this skill, per level-->
+    </kSkillGainRateWriting>
+    <kPercentageOfAgeForTeenAudition value="60">
+      <!--Percentage of the total stage length for the teen age when auditions should start being offered. (occurs after the next activity session is completed)-->
+    </kPercentageOfAgeForTeenAudition>
+    <kBufferTimeBetweenActivityAndJobStarting value="0.9">
+      <!--Number of hours after any activity were we disallow taking a job that starts during this time. This is to give the teen enough time to get to work without penalty.-->
+    </kBufferTimeBetweenActivityAndJobStarting>
+    <kBalletDays value="Monday, Tuesday, Thursday">
+      <!--Day of the week for this activity-->
+    </kBalletDays>
+    <kScoutsDays value="Monday, Tuesday, Thursday">
+      <!--Day of the week for this activity-->
+    </kScoutsDays>
+    <kMusicClubDays value="Monday, Wednesday">
+      <!--Day of the week for this activity-->
+    </kMusicClubDays>
+    <kArtClubDays value="Monday, Thursday">
+      <!--Day of the week for this activity-->
+    </kArtClubDays>
+    <kNewspaperClubDays value="Wednesday, Friday">
+      <!--Day of the week for this activity-->
+    </kNewspaperClubDays>
+    <kStudyClubDays value="Tuesday, Thursday">
+      <!--Day of the week for this activity-->
+    </kStudyClubDays>
+    <kDebateDays value="Monday, Wednesday">
+      <!--Day of the week for this activity-->
+    </kDebateDays>
+    <kDramaClubDays value="Tuesday, Friday">
+      <!--Day of the week for this activity-->
+    </kDramaClubDays>
+    <kShopClubDays value="Tuesday, Wednesday">
+      <!--Day of the week for this activity-->
+    </kShopClubDays>
+    <kSportsClubDays value="Thursday, Friday">
+      <!--Day of the week for this activity-->
+    </kSportsClubDays>
+    <kChildSkillLevelRequiredForAudition value="2">
+      <!--Skill level required for a child to be offered an audition opportunity.-->
+    </kChildSkillLevelRequiredForAudition>
+    <kMinChildSkillRateDivisor value="1">
+      <!--Min value that child activity skill gain will be divided by, based on age slider settings. See Veronica or John for more info before adjusting this. Roughly: The mininum number of weeks a child activity will last.-->
+    </kMinChildSkillRateDivisor>
+    <kMaxChildSkillRateDivisor value="4">
+      <!--Max value that child activity skill gain will be divided by, based on age slider settings. See Veronica or John for more info before adjusting this. Roughly: The maximum number of weeks a child activity will last.-->
+    </kMaxChildSkillRateDivisor>
+  </Current_Tuning>
+</base>

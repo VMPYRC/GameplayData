@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAutonomousFoodTypeWeights value="5, 0, 2, 3">
+      <!--[Food, Hot Drink, Cold Drink, IceCream] When an NPC autonomously chooses to get food from the concessions stand these weights effect the odds of picking each food type.-->
+    </kAutonomousFoodTypeWeights>
+    <kTempChangePerSipHotDrink value="2">
+      <!--Positive Float: Amount to modify Sim temperature by each time they take a sip of a hot drink bought at the concessions stand.-->
+    </kTempChangePerSipHotDrink>
+    <kTempChangePerSipColdDrink value="-2">
+      <!--Negative Float: Amount to modify Sim temperature by each time they take a sip of a cold drink bought at the concessions stand.-->
+    </kTempChangePerSipColdDrink>
+    <kMinMaxWanderBeforeDrink value="3, 6">
+      <!--Range floats > 0: Description:  Min/Max distance sim will wander away after buying a drink before taking first sip-->
+    </kMinMaxWanderBeforeDrink>
+    <kHungerToDisallowDrinks value="20">
+      <!--Float [-100 to 100]: When sim's hunger is below this number and they autonomously buy from the stand they will only pick Food items and not drinks-->
+    </kHungerToDisallowDrinks>
+    <kResortUpkeepCostPerQuality value="15, 25, 50">
+      <!--Range: > 0 [low, med, high], Resort Upkeep cost for food stand per food/drink quality it can be set to-->
+    </kResortUpkeepCostPerQuality>
+    <kResortScorePerQuality value="15, 25, 50">
+      <!--Range: > 0 [low, med, high], Resort Score for food stand per food/drink quality it can be set to-->
+    </kResortScorePerQuality>
+    <kNumReviewEntiresPerQuality value="10, 10, 10">
+      <!--Range [low, med, high] food/drink quality set: Number of loc entries matching loc key entries Gameplay/Objects/Miscellaneous/ResortFoodStand:ReviewText<Low,Med,High>.-->
+    </kNumReviewEntiresPerQuality>
+    <kShiftCosts value="25, 25, 50">
+      <!--cost for each shift.  Day, night, graveyard-->
+    </kShiftCosts>
+    <kSimsServedCapacity value="10000">
+      <!--number of Sims a stand can satisfy-->
+    </kSimsServedCapacity>
+    <kShiftScore value="25, 25, 25">
+      <!--score for each shift.  Day, night, graveyard-->
+    </kShiftScore>
+  </Current_Tuning>
+</base>

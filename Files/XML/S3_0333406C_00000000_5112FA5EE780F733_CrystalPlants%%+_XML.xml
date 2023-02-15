@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<CrystalPlants>
+<Spawners>
+  <SpawnerClassName></SpawnerClassName>
+  <Spawns>Neutral</Spawns>
+  <Probability>1</Probability>
+  <MaxSpawnCapacity>3</MaxSpawnCapacity>
+  <SpawnMinTime>0.5</SpawnMinTime>
+  <SpawnMaxTime>2</SpawnMaxTime>
+  <SpawnChance>0.9</SpawnChance>
+  <DeleteUntaken>2</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.CrystalPlantSpawner1</SpawnerClassName>
+  <Spawns>Kindness, Laughter, Love, Rage, Neutral</Spawns>
+  <Probability>4, 7, 7, 5, 9</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>9</SpawnMinTime>
+  <SpawnMaxTime>18</SpawnMaxTime>
+  <SpawnChance>0.3</SpawnChance>
+  <DeleteUntaken>120</DeleteUntaken>
+ </Spawners>
+</CrystalPlants>

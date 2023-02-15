@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAnnoyedTimeHourStartEnd value="21,5">
+      <!--The starting and ending hour for neighbors to come over and complain about the noise.  These values should span across midnight.-->
+    </kAnnoyedTimeHourStartEnd>
+    <kOffLotComplainChance value="45">
+      <!--Percentage chance that an off lot sim will route over and complain.-->
+    </kOffLotComplainChance>
+    <kRoutingRadius value="3">
+      <!--Distance away from the miner that the sims will route to to complain.-->
+    </kRoutingRadius>
+    <kComplainReactionCommodity value="Steamed">
+      <!--The commodity to affect when this interaction is run.-->
+    </kComplainReactionCommodity>
+    <kComplainReactionCommodityValue value="-45">
+      <!--The value to change the Commodity when this interaction is run.-->
+    </kComplainReactionCommodityValue>
+  </Current_Tuning>
+</base>

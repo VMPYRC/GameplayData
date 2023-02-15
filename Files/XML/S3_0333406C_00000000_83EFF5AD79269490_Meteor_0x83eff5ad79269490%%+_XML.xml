@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMeteorReactionBroadcastParams>
+      <PulseRadius value="75">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <PulseRepeatTime value="5">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="False">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human, Horse, Cat, Dog, LittleDog, Deer, Raccoon">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kMeteorReactionBroadcastParams>
+    <kMeteorLifetime value="30">
+      <!--The time in sim minutes between the initial trigger of the meteor event to its impact.-->
+    </kMeteorLifetime>
+    <kMeteorCraterRadius value="3.5">
+      <!--Everything within this radius will be deleted.-->
+    </kMeteorCraterRadius>
+    <kMeteorBlastZoneRadius value="14">
+      <!--Everything within this radius will be singed, burned, or detonated.-->
+    </kMeteorBlastZoneRadius>
+    <kFiresSpawned value="5, 10">
+      <!--Range of fires to spawn.-->
+    </kFiresSpawned>
+    <kSmallMeteoritesSpawned value="1, 4">
+      <!--Range of small meteorites to spawn.-->
+    </kSmallMeteoritesSpawned>
+    <kMediumMeteoritesSpawned value="1, 4">
+      <!--Range of medium meteorites to spawn.-->
+    </kMediumMeteoritesSpawned>
+    <kCringeAnimationTime value="5">
+      <!--The time in sim minutes before impact that sims should start playing the cringe animations if they're in the blast zone.-->
+    </kCringeAnimationTime>
+    <kRandomMeteorIntervalTime value="60">
+      <!--Time, in minutes, to wait before rolling to see if we randomly spawn a meteor.-->
+    </kRandomMeteorIntervalTime>
+    <kRandomMeteorChance value="0.0001">
+      <!--Percent chance (between 0 and 1) of the sim triggering a meteor to fall at his or her position while outside.-->
+    </kRandomMeteorChance>
+    <kRandomMeteorChanceUsingTelescope value="0.001">
+      <!--Percent chance (between 0 and 1) of the sim triggering a meteor to fall at his or her position while using a telescope outside.-->
+    </kRandomMeteorChanceUsingTelescope>
+    <kMeteorCraterDepth value="1.25">
+      <!--How deep to dig terrain.-->
+    </kMeteorCraterDepth>
+    <kMeteorNotificationCameraLerp>
+      <Time value="1">
+        <!--Time in seconds the camera movement should take.-->
+      </Time>
+      <Zoom value="6">
+        <!--Distance in meters from the target point the camera should float.-->
+      </Zoom>
+      <Pitch value="-45">
+        <!--Angle from the horizon the camera should point down from.  Negative values are the camera above the horizon, looking down.-->
+      </Pitch>
+      <Yaw value="-100">
+        <!--Angle about the target the camera should point from. Positive values are clockwise around the target (to the right-hand side) from the target's point of view.  Valid range: [-90, 90]-->
+      </Yaw>
+      <Swing value="True">
+        <!--Determines whether the camera should swing down to look at the ground if currently in look at sky mode.  Valid range: [0, 360)-->
+      </Swing>
+    </kMeteorNotificationCameraLerp>
+    <kMeteorShadowTuningValues value="2, 0.3, 0.01, 0.5">
+      <!--Parameters for the meteor shadow - { end scale, velocity fraction, acceleration factor, rotation speed }-->
+    </kMeteorShadowTuningValues>
+    <kCameraShakeDistanceRange value="10, 100">
+      <!--If the camera distance is closer than the first value, the camera will shake at full intensity.  It will linearly decrease until the second value.  If the camera is further than the second value, it won't shake at all.-->
+    </kCameraShakeDistanceRange>
+    <kCameraIntensityRange value="0.01, 0.6">
+      <!--The min/max intensity that the camera should shake.  If the minimum value is not 0, the camera will shake that much regardless of how far away it is.-->
+    </kCameraIntensityRange>
+    <kCameraShakeDuration value="2">
+      <!--The duration of the camera shake in seconds.-->
+    </kCameraShakeDuration>
+    <kChanceToDetonate value="10">
+      <!--Positive float 0-100.0f. The chance for a game object to detonate. Meteors always detonate, but lightning uses this tunable.-->
+    </kChanceToDetonate>
+  </Current_Tuning>
+</base>

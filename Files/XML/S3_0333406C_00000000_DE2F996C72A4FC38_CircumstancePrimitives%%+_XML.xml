@@ -1,0 +1,5682 @@
+<?xml version="1.0"?>
+<CircumstancePrimitives>
+<Sheet1>
+  <Name></Name>
+  <Id></Id>
+  <Category></Category>
+  <TriggerEvent></TriggerEvent>
+  <SubjectType>None</SubjectType>
+  <IsSocialPrimitive>False</IsSocialPrimitive>
+  <AcceptsNumber>False</AcceptsNumber>
+  <SatisfiableByThirdParty>False</SatisfiableByThirdParty>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <CallCheckFunctionOnTarget>False</CallCheckFunctionOnTarget>
+  <CheckFunction></CheckFunction>
+  <FeedbackFunction></FeedbackFunction>
+  <SpeciesAvailability>Human</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Adopt a child</Name>
+  <Id>0</Id>
+  <Category>Family</Category>
+  <TriggerEvent>kAdoptedChild</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Attend a protest</Name>
+  <Id>1</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kAttendedProtest</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Bathe</Name>
+  <Id>2</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kEventTakeBath</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Be a winner! For once in my life!</Name>
+  <Id>3</Id>
+  <Category>Traits</Category>
+  <TriggerEvent>kGameWon</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Be in a fire</Name>
+  <Id>4</Id>
+  <Category>Paranormal and Disasters</Category>
+  <TriggerEvent>kWasInvolvedInAFire</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Be in friendly context</Name>
+  <Id>5</Id>
+  <Category>Socials, Hand Entered</Category>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Be robbed</Name>
+  <Id>6</Id>
+  <Category>Paranormal and Disasters</Category>
+  <TriggerEvent>kWasRobbed</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Buy A Couch</Name>
+  <Id>7</Id>
+  <Category>Tutorial</Category>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Buy something on sale</Name>
+  <Id>8</Id>
+  <Category>Objects and Money</Category>
+  <TriggerEvent>kBoughtSomethingOnSale</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Buy something with a coupon</Name>
+  <Id>9</Id>
+  <Category>Objects and Money</Category>
+  <TriggerEvent>kBoughtSomethingWithACoupon</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Catch an Insect</Name>
+  <Id>10</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kCaughtBug</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Check self out in mirror</Name>
+  <Id>11</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kCheckedSelfOutInMirror</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Clean something</Name>
+  <Id>12</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kCleanedObject</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Clean up dishes</Name>
+  <Id>13</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kWashedOneDish</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Come home from school</Name>
+  <Id>14</Id>
+  <Category>Miscellaneous Events</Category>
+  <TriggerEvent>kFinishedSchool</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Come home from work</Name>
+  <Id>15</Id>
+  <Category>Miscellaneous Events</Category>
+  <TriggerEvent>kFinishedWork</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Complete a Tomb (Formerly Fully Explore)</Name>
+  <Id>16</Id>
+  <Category>Tombs and Relics (EP1)</Category>
+  <TriggerEvent>kSimFullyExploredTombForFirstTime</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Defeat the mummy</Name>
+  <Id>17</Id>
+  <Category>Tombs and Relics (EP1)</Category>
+  <TriggerEvent>kDefeatedMummy</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Discover a star</Name>
+  <Id>18</Id>
+  <Category>Logic</Category>
+  <TriggerEvent>kDiscoveredStar</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Discover conspiracy</Name>
+  <Id>19</Id>
+  <Category>Traits</Category>
+  <TriggerEvent>kDiscoveredConspiracy</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Drink some nectar</Name>
+  <Id>21</Id>
+  <Category>Nectar (EP1)</Category>
+  <TriggerEvent>kDrankNectar</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Earn some money</Name>
+  <Id>22</Id>
+  <Category>Objects and Money</Category>
+  <TriggerEvent>kGotPaid</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Eat a goodluck fortune cookie</Name>
+  <Id>23</Id>
+  <Category>Travel (EP1)</Category>
+  <TriggerEvent>kAteAGoodFortuneCookie</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Eat a mummy snack</Name>
+  <Id>24</Id>
+  <Category>Playable Mummies (EP1)</Category>
+  <TriggerEvent>kAteMummySnack</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Eat at a restuarant</Name>
+  <Id>25</Id>
+  <Category>Venues and Rabbitholes</Category>
+  <TriggerEvent>kAteAtRestaurant</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Explore a dive well</Name>
+  <Id>26</Id>
+  <Category>Tombs and Relics (EP1)</Category>
+  <TriggerEvent>kExploredDiveWell</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Find a hidden door</Name>
+  <Id>27</Id>
+  <Category>Tombs and Relics (EP1)</Category>
+  <TriggerEvent>kFoundHiddenDoor</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Find a relic</Name>
+  <Id>28</Id>
+  <Category>Tombs and Relics (EP1)</Category>
+  <TriggerEvent>kAcquiredRelic</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Find a rock</Name>
+  <Id>29</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kCollectedRock</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Find a hidden door</Name>
+  <Id>30</Id>
+  <Category>Tombs and Relics (EP1)</Category>
+  <TriggerEvent>kFoundHiddenDoor</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Find a relic</Name>
+  <Id>31</Id>
+  <Category>Tombs and Relics (EP1)</Category>
+  <TriggerEvent>kAcquiredRelic</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Find a rock</Name>
+  <Id>32</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kCollectedRock</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Find own place</Name>
+  <Id>33</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kMovedHousehold</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Find some ancient coins</Name>
+  <Id>34</Id>
+  <Category>Tombs and Relics (EP1)</Category>
+  <TriggerEvent>kFoundAncientCoins</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Find some phat lewtz</Name>
+  <Id>35</Id>
+  <Category>Tombs and Relics (EP1)</Category>
+  <TriggerEvent>kLooted</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Find some seeds</Name>
+  <Id>36</Id>
+  <Category>Gardening</Category>
+  <TriggerEvent>kSeedTaken</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Finish current painting</Name>
+  <Id>37</Id>
+  <Category>Painting</Category>
+  <TriggerEvent>kFinishedPainting</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Fire starts at home</Name>
+  <Id>38</Id>
+  <Category>Paranormal and Disasters</Category>
+  <TriggerEvent>kHadFireAtHome</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Freak out</Name>
+  <Id>39</Id>
+  <Category>Traits</Category>
+  <TriggerEvent>kFreakedOut</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Garden</Name>
+  <Id>40</Id>
+  <Category>Gardening</Category>
+  <TriggerEvent>kGardened</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Get a massage</Name>
+  <Id>41</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kGotMassage</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Get bait</Name>
+  <Id>42</Id>
+  <Category>Fishing</Category>
+  <SubjectType>Harvestable</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Get demoted</Name>
+  <Id>43</Id>
+  <Category>Career</Category>
+  <TriggerEvent>kCareerDemotion</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Get live bait</Name>
+  <Id>44</Id>
+  <Category>Fishing</Category>
+  <SubjectType>Fish</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Give birth</Name>
+  <Id>45</Id>
+  <Category>Pregnancy</Category>
+  <TriggerEvent>kHadBaby</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Go exploring in a tomb</Name>
+  <Id>46</Id>
+  <Category>Tombs and Relics (EP1)</Category>
+  <TriggerEvent>kSimEnterSpecificTombRoom</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Go swimming</Name>
+  <Id>47</Id>
+  <Category>Athletic and Fitness</Category>
+  <TriggerEvent>kSwimming</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Go to sleep</Name>
+  <Id>48</Id>
+  <Category>Miscellaneous Events</Category>
+  <TriggerEvent>kSimFellAsleep</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Hack</Name>
+  <Id>49</Id>
+  <Category>Traits</Category>
+  <TriggerEvent>kHacked</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Late for work</Name>
+  <Id>50</Id>
+  <Category>Career</Category>
+  <TriggerEvent>kNotAtWork</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Make some nectar</Name>
+  <Id>51</Id>
+  <Category>Nectar (EP1)</Category>
+  <TriggerEvent>kMadeNectar</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Make the bed</Name>
+  <Id>52</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kMadeBed</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Meditate</Name>
+  <Id>53</Id>
+  <Category>Martial Arts (EP1)</Category>
+  <TriggerEvent>kMeditated</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Mop</Name>
+  <Id>54</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kMopped</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Never Satisfied</Name>
+  <Id>55</Id>
+  <Category>Specialized</Category>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Newspaper Delivered</Name>
+  <Id>56</Id>
+  <Category>Miscellaneous Events</Category>
+  <TriggerEvent>kNewspaperDelivered</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Open a treasure chest</Name>
+  <Id>57</Id>
+  <Category>Tombs and Relics (EP1)</Category>
+  <TriggerEvent>kOpenedTreasureChest</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Paint something</Name>
+  <Id>58</Id>
+  <Category>Painting</Category>
+  <TriggerEvent>kPainted</TriggerEvent>
+  <SubjectType>Object</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Party begins</Name>
+  <Id>59</Id>
+  <Category>Parties</Category>
+  <TriggerEvent>kPartyBegan</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Pass a restaurant</Name>
+  <Id>60</Id>
+  <Category>Venues and Rabbitholes</Category>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play chess</Name>
+  <Id>61</Id>
+  <Category>Logic</Category>
+  <TriggerEvent>kPlayedChess</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play video or computer games</Name>
+  <Id>62</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kPlayedVideoOrComputerGame</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play with fire</Name>
+  <Id>63</Id>
+  <Category>Paranormal and Disasters</Category>
+  <TriggerEvent>kPlayedWithFire</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play with toy</Name>
+  <Id>64</Id>
+  <Category>Children</Category>
+  <TriggerEvent>kPlayedWithToy</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Practice speech</Name>
+  <Id>65</Id>
+  <Category>Miscellaneous Events</Category>
+  <TriggerEvent>kPracticedSpeech</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Put out a Sim on fire</Name>
+  <Id>66</Id>
+  <Category>Paranormal and Disasters</Category>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Scrap current painting</Name>
+  <Id>67</Id>
+  <Category>Painting</Category>
+  <TriggerEvent>kScrappedPainting</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>See a full trashcan</Name>
+  <Id>68</Id>
+  <Category>Miscellaneous Events</Category>
+  <TriggerEvent>kSawFullTrashCan</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>See a puddle or burnt spot</Name>
+  <Id>69</Id>
+  <Category>Miscellaneous Events</Category>
+  <TriggerEvent>kSawPuddleOrBurntSpot</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>See trash pile</Name>
+  <Id>70</Id>
+  <Category>Miscellaneous Events</Category>
+  <TriggerEvent>kSawTrashPile</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>See unmade bed</Name>
+  <Id>71</Id>
+  <Category>Miscellaneous Events</Category>
+  <TriggerEvent>kSawUnmadeBed</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Sibling joins family</Name>
+  <Id>72</Id>
+  <Category>Family</Category>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Sit on Couch</Name>
+  <Id>73</Id>
+  <Category>Tutorial</Category>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Slack off at work</Name>
+  <Id>74</Id>
+  <Category>Career</Category>
+  <TriggerEvent>kCareerSlackOff</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Start a novel</Name>
+  <Id>75</Id>
+  <Category>Writing</Category>
+  <TriggerEvent>kStartedWritingNovel</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Start a painting</Name>
+  <Id>76</Id>
+  <Category>Painting</Category>
+  <TriggerEvent>kStartedPainting</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Start having dirtiness score</Name>
+  <Id>77</Id>
+  <Category>Miscellaneous Events</Category>
+  <TriggerEvent>kHasNegativeEnvironmentScore</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Start working out</Name>
+  <Id>78</Id>
+  <Category>Athletic and Fitness</Category>
+  <TriggerEvent>kWorkedOut</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Take a bubble bath</Name>
+  <Id>79</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kTookBubbleBath</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Talk to self</Name>
+  <Id>80</Id>
+  <Category>Traits</Category>
+  <TriggerEvent>kTalkedToSelf</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Use telescope</Name>
+  <Id>81</Id>
+  <Category>Logic</Category>
+  <TriggerEvent>kUsedTelescope</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Workout until fatigued</Name>
+  <Id>82</Id>
+  <Category>Athletic and Fitness</Category>
+  <TriggerEvent>kWorkoutFatigued</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Write a novel</Name>
+  <Id>83</Id>
+  <Category>Writing</Category>
+  <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Inventing - Salvage a Broken Object</Name>
+  <Id>84</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kSalvageBrokenObject</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Inventing - Discover a new Blueprint</Name>
+  <Id>85</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kDiscoveredNewInvention</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Inventing - Collect Some Scrap</Name>
+  <Id>86</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kCollectedSomeScrap</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Inventing - Loot a Junk Pile</Name>
+  <Id>87</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kLootAJunkPile</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Inventing - Salvage a burned item</Name>
+  <Id>88</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kSalvageBurnedObject</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Miner - Mine up something</Name>
+  <Id>89</Id>
+  <Category>Objects and Money (EP2)</Category>
+  <TriggerEvent>kMinedUpObject</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Miner - Go on a Mining Adventure!</Name>
+  <Id>90</Id>
+  <Category>Objects and Money (EP2)</Category>
+  <TriggerEvent>kMiningAdventure</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Time Machine - Travel to the Past</Name>
+  <Id>91</Id>
+  <Category>Objects and Money (EP2)</Category>
+  <TriggerEvent>kTimeMachineTravelPast</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Time Machine - Travel to the Future</Name>
+  <Id>92</Id>
+  <Category>Objects and Money (EP2)</Category>
+  <TriggerEvent>kTimeMachineTravelFuture</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Sim Kubb - Play Sim Kubb</Name>
+  <Id>93</Id>
+  <Category>Objects and Money (EP2)</Category>
+  <TriggerEvent>kPlayedGnubb</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Trampoline - Play on a Trampoline</Name>
+  <Id>94</Id>
+  <Category>Objects and Money (EP2)</Category>
+  <TriggerEvent>kJumpedOnTrampoline</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Interior Designer - Research Interior Design</Name>
+  <Id>95</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kResearchedInteriorDesign</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Firefighter - Handle an emergency</Name>
+  <Id>96</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kFirefighterHandleEmergencies</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>AC - Start a Business</Name>
+  <Id>97</Id>
+  <Category>Career (EP2)</Category>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>AC - Gain a Recurring Customer</Name>
+  <Id>98</Id>
+  <Category>Career (EP2)</Category>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>AC - Gain $n Recurring Customers</Name>
+  <Id>99</Id>
+  <Category>Career (EP2)</Category>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Maid - Clean a Customer's Home</Name>
+  <Id>100</Id>
+  <Category>Career (EP2)</Category>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Maid - Do Laundry</Name>
+  <Id>101</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kDidLaundry</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Find a gem</Name>
+  <Id>102</Id>
+  <Category>Misc Interactions (EP2)</Category>
+  <TriggerEvent>kCollectedGem</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Cut a gem</Name>
+  <Id>103</Id>
+  <Category>Misc Interactions (EP2)</Category>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Find some Metal</Name>
+  <Id>104</Id>
+  <Category>Misc Interactions (EP2)</Category>
+  <TriggerEvent>kCollectedMetal</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Smelt some Metal</Name>
+  <Id>105</Id>
+  <Category>Misc Interactions (EP2)</Category>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Education - Give a Lecture</Name>
+  <Id>106</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kGaveEducationLecture</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Sell something in the consignment store</Name>
+  <Id>107</Id>
+  <Category>Consignment Store</Category>
+  <TriggerEvent>kSoldConsignedObject</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Buy something from the consignment store</Name>
+  <Id>108</Id>
+  <Category>Consignment Store</Category>
+  <TriggerEvent>kBoughtConsignedObject</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>*Have more than $n customers as a maid</Name>
+  <Id>109</Id>
+  <Category>Lifetime Dreams (EP2)</Category>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Medical - Give a Free Health Clinic</Name>
+  <Id>110</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kHeldSuccessfulFreeClinic</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Medical - Innoculate Sims</Name>
+  <Id>111</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kHeldSuccessfulVaccinationSession</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>AC - Do a  JobType when it happens</Name>
+  <Id>112</Id>
+  <Category>Career (EP2)</Category>
+  <SubjectType>Career</SubjectType>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>AC - Do a  JobType of a specific $Career</Name>
+  <Id>113</Id>
+  <Category>Career (EP2)</Category>
+  <SubjectType>Career</SubjectType>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Write a Screenplay</Name>
+  <Id>114</Id>
+  <Category>Acting Career (EP3)</Category>
+  <TriggerEvent>kWroteScreenplay</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Sell a Screenplay</Name>
+  <Id>115</Id>
+  <Category>Acting Career (EP3)</Category>
+  <TriggerEvent>kSoldScreenplay</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Promote New Movie</Name>
+  <Id>116</Id>
+  <Category>Acting Career - Profession Expansion (EP3)</Category>
+  <TriggerEvent>kPromotedNewMovie</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Shoot B-Roll Footage</Name>
+  <Id>117</Id>
+  <Category>Acting Career - Profession Expansion (EP3)</Category>
+  <TriggerEvent>kShotBRollFootage</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Meet a compatible sign</Name>
+  <Id>118</Id>
+  <Category>Astrological Signs (EP3)</Category>
+  <TriggerEvent>kMetCompatibleSign</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Mix A Drink</Name>
+  <Id>119</Id>
+  <Category>Bartending (EP3)</Category>
+  <TriggerEvent>kMixedDrink</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Moonlight at a Bar</Name>
+  <Id>120</Id>
+  <Category>Bartending (EP3)</Category>
+  <TriggerEvent>kWorkedAsBartender</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Create a New Drink</Name>
+  <Id>121</Id>
+  <Category>Bartending (EP3)</Category>
+  <TriggerEvent>kCreatedDrink</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play the bass</Name>
+  <Id>122</Id>
+  <Category>Bass (EP3)</Category>
+  <TriggerEvent>kPlayedBassGuitar</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Show off Your Moves (Bass)</Name>
+  <Id>123</Id>
+  <Category>Bass (EP3)</Category>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Win a Game of Darts</Name>
+  <Id>124</Id>
+  <Category>Dartboard (EP3)</Category>
+  <TriggerEvent>kWonDartGame</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play Darts</Name>
+  <Id>125</Id>
+  <Category>Dartboard (EP3)</Category>
+  <TriggerEvent>kPlayDarts</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Lose Darts</Name>
+  <Id>126</Id>
+  <Category>Dartboard (EP3)</Category>
+  <TriggerEvent>kLostDartGame</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play the drums</Name>
+  <Id>127</Id>
+  <Category>Drums (EP3)</Category>
+  <TriggerEvent>kPlayedDrums</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Show off Your Moves (Drums)</Name>
+  <Id>128</Id>
+  <Category>Drums (EP3)</Category>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Ride in Elevator</Name>
+  <Id>129</Id>
+  <Category>Elevator (EP3)</Category>
+  <TriggerEvent>kRideInElevator</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Have a Great Group Night</Name>
+  <Id>130</Id>
+  <Category>Grouping (EP3)</Category>
+  <TriggerEvent>kHaveGreatGrouping</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Form a Group</Name>
+  <Id>131</Id>
+  <Category>Grouping (EP3)</Category>
+  <TriggerEvent>kGroupingWithSim</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Show off Your Moves (Guitar)</Name>
+  <Id>132</Id>
+  <Category>Guitar (EP3)</Category>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Go Hot Tubbing</Name>
+  <Id>133</Id>
+  <Category>Hot Tubs (EP3)</Category>
+  <TriggerEvent>kGoHotTubbing</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Have a Celebrity attend a Party</Name>
+  <Id>134</Id>
+  <Category>Party Updates (EP3) - Misc (EP3)</Category>
+  <TriggerEvent>kPartyCelebArrivedOnLot</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play the piano</Name>
+  <Id>135</Id>
+  <Category>Piano (EP3)</Category>
+  <TriggerEvent>kPlayedPiano</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Show off Your Moves (Piano)</Name>
+  <Id>136</Id>
+  <Category>Piano (EP3)</Category>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Sneak Past a Bouncer</Name>
+  <Id>137</Id>
+  <Category>Role - Bouncer  (EP3)</Category>
+  <TriggerEvent>kSnuckPastBouncer</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Get Rejected By Bouncer</Name>
+  <Id>138</Id>
+  <Category>Role - Bouncer  (EP3)</Category>
+  <TriggerEvent>kBouncerDeniedAccess</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Win a Game of Shuffleboard</Name>
+  <Id>139</Id>
+  <Category>Shuffleboard (EP3)</Category>
+  <TriggerEvent>kWonShuffleboardGame</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play Shuffleboard</Name>
+  <Id>140</Id>
+  <Category>Shuffleboard (EP3)</Category>
+  <TriggerEvent>kPlayedShuffleboard</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Bribe Bouncer to Get In</Name>
+  <Id>141</Id>
+  <Category>Velvet Rope (EP3)</Category>
+  <TriggerEvent>kBribeBouncerSuccess</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>See Indoor Velvet Rope</Name>
+  <Id>142</Id>
+  <Category>Velvet Rope (EP3)</Category>
+  <TriggerEvent>kSawIndoorRopes</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Have a Drink / Order a Drink</Name>
+  <Id>143</Id>
+  <Category>Venues (EP3)</Category>
+  <TriggerEvent>kHadADrink</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Get in a Bar Brawl</Name>
+  <Id>144</Id>
+  <Category>Venues (EP3)</Category>
+  <TriggerEvent>kGotInABarBrawl</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Win a Bar Brawl</Name>
+  <Id>145</Id>
+  <Category>Venues (EP3)</Category>
+  <TriggerEvent>kWonABarBrawl</TriggerEvent>
+  <RequiredProductVersions>EP3</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play in Treehouse</Name>
+  <Id>146</Id>
+  <Category>Misc Interactions (EP4)</Category>
+  <TriggerEvent>kPlayedInTreehouse</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Wear a Costume</Name>
+  <Id>147</Id>
+  <Category>Costume Chest (EP4)</Category>
+  <TriggerEvent>kWearACostume</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play in a Costume</Name>
+  <Id>148</Id>
+  <Category>Costume Chest (EP4)</Category>
+  <TriggerEvent>kPlayInACostume</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Dye/Cut Hair</Name>
+  <Id>149</Id>
+  <Category>Midlife Crisis</Category>
+  <TriggerEvent>kChangeHairstyle</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Move Houses</Name>
+  <Id>150</Id>
+  <Category>Midlife Crisis</Category>
+  <TriggerEvent>kMovedHouses</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Change Outfit</Name>
+  <Id>151</Id>
+  <Category>Midlife Crisis</Category>
+  <TriggerEvent>kChangeOutfit</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Get A Makeover</Name>
+  <Id>152</Id>
+  <Category>Midlife Crisis</Category>
+  <TriggerEvent>kGotMakeover</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Become Self-Employed</Name>
+  <Id>153</Id>
+  <Category>Midlife Crisis</Category>
+  <TriggerEvent>kBecomeSelfEmployed</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Slide on a Water Slide</Name>
+  <Id>154</Id>
+  <Category>Water Slide (EP4)</Category>
+  <TriggerEvent>kSlideOnWaterSlide</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Pull a Prank</Name>
+  <Id>155</Id>
+  <Category>Pranks and Traps (EP4)</Category>
+  <TriggerEvent>kPullPrank</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Set a Booby Trap</Name>
+  <Id>156</Id>
+  <Category>Pranks and Traps (EP4)</Category>
+  <TriggerEvent>kSetBoobyTrap</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Prank the School</Name>
+  <Id>157</Id>
+  <Category>Pranks and Traps (EP4)</Category>
+  <TriggerEvent>kPrankSchool</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Plant a Stink Bomb</Name>
+  <Id>158</Id>
+  <Category>Pranks and Traps (EP4)</Category>
+  <TriggerEvent>kUseStinkBomb</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Go on a Field Trip</Name>
+  <Id>159</Id>
+  <Category>School</Category>
+  <TriggerEvent>kWentOnFieldTrip</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Harass Everyone</Name>
+  <Id>160</Id>
+  <Category>Elder Cane (EP4)</Category>
+  <TriggerEvent>kHarassWithCane</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Cut the Cake</Name>
+  <Id>161</Id>
+  <Category>Wedding Cake</Category>
+  <TriggerEvent>kCutWeddingCake</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Discover a Potion</Name>
+  <Id>162</Id>
+  <Category>Chemistry Lab</Category>
+  <TriggerEvent>kDiscoveredAPotion</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Make a Potion</Name>
+  <Id>163</Id>
+  <Category>Chemistry Lab</Category>
+  <TriggerEvent>kMadeAPotion</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Get a Wedding Gift</Name>
+  <Id>164</Id>
+  <Category>Post Marriage Improvements</Category>
+  <TriggerEvent>kGotWeddingGift</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Go To Prom</Name>
+  <Id>165</Id>
+  <Category>Prom (EP4)</Category>
+  <TriggerEvent>kWentToProm</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Mauled by a Bear</Name>
+  <Id>166</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kGotMauledByBear</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Got Cured by the Sphinx</Name>
+  <Id>167</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kCuredByTheSphinx</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Burn $Meal</Name>
+  <Id>168</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kBurntMeal</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Had a Picnic</Name>
+  <Id>169</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kHadAPicnic</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Collect a Spirit</Name>
+  <Id>170</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kGhostHunterCaptureXSpirits</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Banish a Ghost</Name>
+  <Id>171</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kBanishedGhost</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Dodge Trap</Name>
+  <Id>172</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kDodgedTrap</TriggerEvent>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Explore the Mausoleum</Name>
+  <Id>173</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kExploredTheMausoleum</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Destroy Topiary</Name>
+  <Id>174</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kDestroyedTopiary</TriggerEvent>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Get Trapped in Elevator Doors</Name>
+  <Id>175</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kGotTrappedInElevatorDoors</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Be Saved by a Deathflower</Name>
+  <Id>176</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kGotSavedByDeathFlower</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Eat a Lifefruit</Name>
+  <Id>177</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kAteLifefruit</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Pee self</Name>
+  <Id>178</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kBladderFailure</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Vomit</Name>
+  <Id>179</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kVomited</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>$sim Is Taken By the Social Worker</Name>
+  <Id>180</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kChildTakenBySocialWorker</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Failed at Making a Move</Name>
+  <Id>181</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kFailedAtMakingAMove</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Fall in the Pool</Name>
+  <Id>182</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kFellInPool</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Fall from the Treadmill</Name>
+  <Id>183</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kFellOnTreadmill</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Go for a Stroll using Stroller</Name>
+  <Id>184</Id>
+  <Category>Family</Category>
+  <TriggerEvent>kWentOnStrollWithUsingStroller</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Read a Sim to Sleep</Name>
+  <Id>185</Id>
+  <Category>Family</Category>
+  <TriggerEvent>kReadToSleep</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Be Read to Sleep</Name>
+  <Id>186</Id>
+  <Category>Family</Category>
+  <TriggerEvent>kReadToSleep</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Started Having a Mood Swing</Name>
+  <Id>187</Id>
+  <Category>Teen Mood Swings (EP4)</Category>
+  <TriggerEvent>kStartHavingTeenMoodSwing</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play Hopscotch</Name>
+  <Id>188</Id>
+  <Category>Hopscotch (EP4)</Category>
+  <TriggerEvent>kPlayHopscotch</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Win a Game of Hopscotch</Name>
+  <Id>189</Id>
+  <Category>Hopscotch (EP4)</Category>
+  <TriggerEvent>kWonHopscotch</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Ride a Playground Ride</Name>
+  <Id>190</Id>
+  <Category>Playground Rides</Category>
+  <TriggerEvent>kRideSpringRider</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Learn to Drive</Name>
+  <Id>191</Id>
+  <Category>Family</Category>
+  <TriggerEvent>kTeenLearningToDrive</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Finish Learning to Drive</Name>
+  <Id>192</Id>
+  <Category>Family</Category>
+  <TriggerEvent>kTeenLearnedToDrive</TriggerEvent>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Use a Potty Chair on Your Own</Name>
+  <Id>193</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kUsedPottyChair</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Get Pregnant (pet version)</Name>
+  <Id>194</Id>
+  <Category>Pet Pregnancy</Category>
+  <TriggerEvent>kFindOutPetPregnant</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Animals</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Had Litter</Name>
+  <Id>195</Id>
+  <Category>Pet Pregnancy</Category>
+  <TriggerEvent>kPetHadOffspring</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs,Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Had Foal</Name>
+  <Id>196</Id>
+  <Category>Pet Pregnancy</Category>
+  <TriggerEvent>kPetHadOffspring</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Horses</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Eat Food</Name>
+  <Id>197</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kAteFromPetBowl</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Fill Pet Bowl</Name>
+  <Id>198</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kFilledPetBowl</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Saw Empty Pet Bowl</Name>
+  <Id>199</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kSawEmptyPetBowl</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Drink From Toilet</Name>
+  <Id>200</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kDrankFromToilet</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Play in Toilet Bowl</Name>
+  <Id>201</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kPlayedInToilet</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Groom Self</Name>
+  <Id>202</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kCatGroomSelf</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Run Around</Name>
+  <Id>203</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kRunAround</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Animals</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Run Jumping Course</Name>
+  <Id>204</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kRanJumpingCourse</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Human,Horses</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Gained Reinforcement Trait</Name>
+  <Id>205</Id>
+  <Category>Pet Memories</Category>
+  <TriggerEvent>kGainedReinforcementTrait</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Animals</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Lose Reinforcement Trait</Name>
+  <Id>206</Id>
+  <Category>Pet Memories</Category>
+  <TriggerEvent>kLoseReinforcementTrait</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Animals</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>ReplaceScratchingPost</Name>
+  <Id>207</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kReplaceScratchingPost</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>ScratchScratchingPost</Name>
+  <Id>208</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kScratchScratchingPost</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Dog Dig Hole</Name>
+  <Id>209</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kDogDigHole</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Learn All Tricks</Name>
+  <Id>210</Id>
+  <Category>Dog Tricks (EP5)</Category>
+  <TriggerEvent>kAllTricksLearned</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Be Adopted</Name>
+  <Id>211</Id>
+  <Category>Pet Adoption (EP5)</Category>
+  <TriggerEvent>kPetAdoption</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Animals</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Winny</Name>
+  <Id>212</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kHorseWinny</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Horses</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Graze</Name>
+  <Id>213</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kHorseGraze</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Horses</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Watch Fish In Bowl</Name>
+  <Id>214</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kWatchFishInBowl</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Howl Along</Name>
+  <Id>215</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kPetSingAlong</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Yowl Along</Name>
+  <Id>216</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kPetSingAlong</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Tap Hoof</Name>
+  <Id>217</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kPetSingAlong</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Horses</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Eat Trash Pile</Name>
+  <Id>218</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kEatTrashPile</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Play In Trash Pile</Name>
+  <Id>219</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kPlayInTrashPile</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Dig Through Garbage</Name>
+  <Id>220</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kDigThroughGarbage</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Play With Cat Dancer Toy</Name>
+  <Id>221</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kPlayWithCatDancerToy</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Cats,Human</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Chase Mailman</Name>
+  <Id>222</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kChaseMailman</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs,Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Catch Burglar</Name>
+  <Id>223</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kCatchBurglar</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs,Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>PlayWithCatToy</Name>
+  <Id>224</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kPlayWithCatToy</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>CarryCatToy</Name>
+  <Id>225</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kCarryCatToy</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>NudgeCatToy</Name>
+  <Id>226</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kNudgeCatToy</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>WatchCatPlayWithCatToy</Name>
+  <Id>227</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kWatchCatPlayWithCatToy</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Survey Cat Condo</Name>
+  <Id>228</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kSurveyCatCondo</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Scratch On Cat Condo</Name>
+  <Id>229</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kScratchOnCatCondo</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Eat Hay</Name>
+  <Id>230</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kAteHay</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AH,EH</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Buy a Horse</Name>
+  <Id>231</Id>
+  <Category>Horse</Category>
+  <TriggerEvent>kBuyHorse</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Sell Horse</Name>
+  <Id>232</Id>
+  <Category>Horse</Category>
+  <TriggerEvent>kSellHorse</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Be Bottle fed</Name>
+  <Id>233</Id>
+  <Category>Horse</Category>
+  <TriggerEvent>kFoalBottleFedBySim</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>CH</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Shoo Stray</Name>
+  <Id>234</Id>
+  <Category>Stray Pets (EP5)</Category>
+  <TriggerEvent>kShooedStray</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Exorcised A Ghost</Name>
+  <Id>235</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kExorcisedGhost</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs,Cats,Horses</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Scared A Ghost</Name>
+  <Id>236</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kScaredGhost</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs,Cats,Horses</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Chase Ball!</Name>
+  <Id>237</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kDogChasedBall</TriggerEvent>
+  <SubjectType>Pet</SubjectType>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AD,ED,AL,EL</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Pet a Wild Horse</Name>
+  <Id>238</Id>
+  <Category>Socialization</Category>
+  <TriggerEvent>kPetWildHorse</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Adopt a Wild Horse</Name>
+  <Id>239</Id>
+  <Category>Socialization</Category>
+  <TriggerEvent>kAdoptWildHorse</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>See a Wild Horse Pet</Name>
+  <Id>240</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kSeeWildHorsePet</TriggerEvent>
+  <SubjectType>Pet</SubjectType>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs,Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Watch a Wild Horse Pet</Name>
+  <Id>241</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kWatchWildHorsePet</TriggerEvent>
+  <SubjectType>Pet</SubjectType>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs,Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Shoo Off Furniture</Name>
+  <Id>242</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kShooPetFromFurniture</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Human</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Piggy pet eat something. Anything. (Cat/Dog)</Name>
+  <Id>243</Id>
+  <Category>Pet Traits (EP5)</Category>
+  <TriggerEvent>kPiggyPetAteSomething</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs,Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Train For Racing</Name>
+  <Id>244</Id>
+  <Category>Horse</Category>
+  <TriggerEvent>kTrainedForRacing</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Horses</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Cat Play In Tub</Name>
+  <Id>245</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kCatPlayInTub</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Fill Water Trough</Name>
+  <Id>246</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kFillWaterTrough</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Human</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Upgrade Water Trough</Name>
+  <Id>247</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kUpgradeWaterTrough</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Human</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Drink From Water Trough</Name>
+  <Id>248</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kDrinkFromWaterTrough</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Horses</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Get Thrown by Horse</Name>
+  <Id>249</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kThrownFromHorse</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Doggy Swim</Name>
+  <Id>250</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kSwimming</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AD,ED,AL,EL</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Cat Hunting Go Hunting</Name>
+  <Id>251</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kGoHuntingCat</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AC,EC</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Cat Hunting Go Fishing</Name>
+  <Id>252</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kGoFishingCat</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AC,EC</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Guard Home</Name>
+  <Id>253</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kGuardHome</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Cats,AllDogs</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Watch Ants</Name>
+  <Id>254</Id>
+  <Category>Minor Pets (EP5)</Category>
+  <TriggerEvent>kWatchAnts</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Steal Food Pet</Name>
+  <Id>255</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kStealFoodPet</TriggerEvent>
+  <SubjectType>Pet</SubjectType>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Lick SaltLick</Name>
+  <Id>256</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kLickedSaltLick</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Teach Hunting Skill to $Pet</Name>
+  <Id>257</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kHuntingTaughtToHunt</TriggerEvent>
+  <SubjectType>Pet</SubjectType>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Tell $Dog to Dig Up Something</Name>
+  <Id>258</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kHuntingAskToFindSomething</TriggerEvent>
+  <SubjectType>Pet</SubjectType>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Have $Pet Fetch a Date</Name>
+  <Id>259</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kHuntingHadPetFetchDate</TriggerEvent>
+  <SubjectType>Pet</SubjectType>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Dig Up Something</Name>
+  <Id>260</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kHuntingDugUpSomething</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Find A Gem</Name>
+  <Id>261</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kHuntingFoundGem</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Find A Metal</Name>
+  <Id>262</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kHuntingFoundMetal</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Find A Rock</Name>
+  <Id>263</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kHuntingFoundRock</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Find Something Special</Name>
+  <Id>264</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kHuntingFoundSpecial</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Fetch a Date</Name>
+  <Id>265</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kHuntingFetchedDate</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Lie Down</Name>
+  <Id>266</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kLieDown</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs,Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Horse Nap</Name>
+  <Id>267</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kHorseNap</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Horses</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Feed a Horse by Hand for the First Time</Name>
+  <Id>268</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kFeedHorseByHand</TriggerEvent>
+  <SubjectType>Pet</SubjectType>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Drink From Pond</Name>
+  <Id>269</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kDrinkFromPond</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>Animals</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>Play in Puddle</Name>
+  <Id>270</Id>
+  <Category>Pets (EP5)</Category>
+  <TriggerEvent>kPlayInPuddle</TriggerEvent>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailability>AllDogs,Cats</SpeciesAvailability>
+ </Sheet1>
+<Sheet1>
+  <Name>$n unique workouts</Name>
+  <Id>271</Id>
+  <Category>Athletic and Fitness</Category>
+  <TriggerEvent>kWorkoutComplete</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Break $n boards</Name>
+  <Id>272</Id>
+  <Category>Martial Arts (EP1)</Category>
+  <TriggerEvent>kBrokeBoard</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Brush teeth $n times</Name>
+  <Id>273</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kBrushedTeeth</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Catch $n fish</Name>
+  <Id>274</Id>
+  <Category>Fishing</Category>
+  <TriggerEvent>kCaughtFish</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have $n more children</Name>
+  <Id>275</Id>
+  <Category>Family</Category>
+  <TriggerEvent>kNewOffspring</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Paint $n paintings</Name>
+  <Id>276</Id>
+  <Category>Painting</Category>
+  <TriggerEvent>kFinishedPainting</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Take $n photos</Name>
+  <Id>277</Id>
+  <Category>Photography (EP1)</Category>
+  <TriggerEvent>kTookPhoto</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Wash hands $n times</Name>
+  <Id>278</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kWashedHands</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Win $n games</Name>
+  <Id>279</Id>
+  <Category>Socials, Hand Entered</Category>
+  <TriggerEvent>kGameWon</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Inventing - Detonate $n objects</Name>
+  <Id>280</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kDetonatedObject</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Firefighter - Save $n Sims from death</Name>
+  <Id>281</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kFirefighterSaveSims</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Firefighter - Handle $n emergencies</Name>
+  <Id>282</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kFirefighterHandleEmergencies</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Firefighter - Put out $n fires</Name>
+  <Id>283</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kFirefighterPutOutFire</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Education - Give $n Lectures</Name>
+  <Id>284</Id>
+  <Category>Career (EP2)</Category>
+  <TriggerEvent>kGaveEducationLecture</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP2</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Pull $n Pranks</Name>
+  <Id>289</Id>
+  <Category>Pranks and Traps (EP4)</Category>
+  <TriggerEvent>kPullPrank</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Set $n Booby Traps</Name>
+  <Id>290</Id>
+  <Category>Pranks and Traps (EP4)</Category>
+  <TriggerEvent>kSetBoobyTrap</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Plant $n Stink Bombs</Name>
+  <Id>291</Id>
+  <Category>Pranks and Traps (EP4)</Category>
+  <TriggerEvent>kUseStinkBomb</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP4</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Find relic worth at least $n simoleons</Name>
+  <Id>292</Id>
+  <Category>Travel (EP1)</Category>
+  <TriggerEvent>kAcquiredRelic</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+  <FeedbackFunction>ValueFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Paint a painting worth at least $n simoleons</Name>
+  <Id>293</Id>
+  <Category>Painting</Category>
+  <TriggerEvent>kFinishedPainting</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>ValueFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Ride in Car Worth More than $n Simoleons</Name>
+  <Id>294</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kUsedVehicle</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>ValueFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Find $n simoleons more worth of relics</Name>
+  <Id>295</Id>
+  <Category>Tombs and Relics (EP1)</Category>
+  <TriggerEvent>kAcquiredRelic</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+  <FeedbackFunction>ValueCountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Practice $Skill</Name>
+  <Id>296</Id>
+  <Category>Skills</Category>
+  <TriggerEvent>kPracticedSkill</TriggerEvent>
+  <SubjectType>Skill</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <CheckFunction>ImproveAtSkillCheckFunction</CheckFunction>
+  <FeedbackFunction>SkillMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have $Buff</Name>
+  <Id>299</Id>
+  <Category>Buffs</Category>
+  <TriggerEvent>kGotBuff</TriggerEvent>
+  <SubjectType>Buff</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>GetBuffFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Catch a $Fish</Name>
+  <Id>300</Id>
+  <Category>Fishing</Category>
+  <TriggerEvent>kCaughtFish</TriggerEvent>
+  <SubjectType>Fish</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>CatchAFishFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Begin socializing with $Sim</Name>
+  <Id>302</Id>
+  <Category>Dating</Category>
+  <TriggerEvent>kSocialInteraction</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <CheckFunction>BeginSocializingWithSimCheckFunction</CheckFunction>
+  <FeedbackFunction>SocializeFeedBackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Visit a $RabbitHole</Name>
+  <Id>303</Id>
+  <Category>Venues and Rabbitholes</Category>
+  <TriggerEvent>kReceivedRabbitHoleTreatment</TriggerEvent>
+  <SubjectType>RabbitHole</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>GoToRabbitHoleFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Visit $World</Name>
+  <Id>304</Id>
+  <Category>Travel</Category>
+  <TriggerEvent>kLeftForVacation</TriggerEvent>
+  <SubjectType>World</SubjectType>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+  <FeedbackFunction>VisitWorldFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Buy a vacation home in $World</Name>
+  <Id>305</Id>
+  <Category>Travel</Category>
+  <TriggerEvent>kBoughtLocationHome</TriggerEvent>
+  <SubjectType>World</SubjectType>
+  <RequiredProductVersions>EP1</RequiredProductVersions>
+  <FeedbackFunction>BuyVacationHomeInWorldFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Experience $Service</Name>
+  <Id>306</Id>
+  <Category>Services</Category>
+  <TriggerEvent>kOrderedService</TriggerEvent>
+  <SubjectType>Service</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>OrderServiceFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Owner Has $Trait</Name>
+  <Id>307</Id>
+  <Category>Traits</Category>
+  <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+  <SubjectType>Trait</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>HaveTraitFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Eat a mean containing $Ingredient*</Name>
+  <Id>309</Id>
+  <Category>Cooking</Category>
+  <TriggerEvent>kAteMeal</TriggerEvent>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>EatStuSurpriseMadeWithIngredients</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Promoted or Demoted to $Career level $n or higher</Name>
+  <Id>310</Id>
+  <Category>Career</Category>
+  <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>CareerLevelGreaterThanOrEqualToN</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Complete $Challenge</Name>
+  <Id>311</Id>
+  <Category>Connected</Category>
+  <TriggerEvent>kCompletedChallenge</TriggerEvent>
+  <SubjectType>ChallengeId</SubjectType>
+  <RequiredProductVersions>BaseGame</RequiredProductVersions>
+  <FeedbackFunction>CompleteChallengeFeedback</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*$n net worth</Name>
+  <Id>312</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kFamilyFundsChanged</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>NNetWorthMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>NNetWorthMajorDreamFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*$n simoleons in cash</Name>
+  <Id>313</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kSimHeartbeat</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>NSimoleonsInCashMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>NSimoleonsInCashMajorDreamFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*$n simoleons per week in royalties</Name>
+  <Id>314</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>NSimoleonsPerWeekInRoyaltiesMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>MakeAtLeastNSimoleansAWeekInRoyaltiesFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Boyfriend/Girlfriend $n different Sims</Name>
+  <Id>315</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kRelationshipInteractionBitAdded</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>BoyfriendOrGirlfriendNDifferentSimsMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>BoyfriendOrGirlfriendNDifferentSimsMajorDreamFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Charisma and Guitar L10</Name>
+  <Id>316</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kSkillLevelUp</TriggerEvent>
+  <CheckFunction>CharismaAndGutarL10MajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>CharismaAndGuitarLevel10FeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Have $n different perfect fish in bowls</Name>
+  <Id>317</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kPutFishInFishbowl</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>HaveNPerfectFishInFishbowlsMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>HaveNDifferentPerfectFishInBowlsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Have $n friends or better</Name>
+  <Id>318</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>HaveNFriendsOrBetterMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>HaveNFrindsOrBetterFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Have at least $n different perfect plants</Name>
+  <Id>319</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kGrewPlantToMaturity</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>HaveNDifferentPerfectPlantsMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>HaveNDifferentPerfectPlantsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Know every cooking recipe</Name>
+  <Id>320</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kLearnedRecipe</TriggerEvent>
+  <CheckFunction>KnowEveryCookingRecipieMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>LearnAllRecipiesFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Level 10 music (rock branch)</Name>
+  <Id>321</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>Level10OfMusicRockBranchMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>Level10MusicRockBranchFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Level 10 music (symphonic branch)</Name>
+  <Id>322</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>Level10OfMusicSymphonicBranchMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>Level10MusicSymphonicBranchFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Level 10 of criminal (evil branch)</Name>
+  <Id>323</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>Level10OfCriminalEvilBranchMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>Level10CriminalEvilBranchFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Level 10 of criminal (Thief branch)</Name>
+  <Id>324</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>Level10OfCriminalThiefBranchMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>Level10CriminalThiefBranchFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Level 10 of culinary</Name>
+  <Id>325</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>Level10OfCulinaryMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>CareerLevelGreaterThanOrEqualToN</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Level 10 of journalism career</Name>
+  <Id>326</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>Level10OfJournalismMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>CareerLevelGreaterThanOrEqualToN</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Level 10 of law enforcement (forensic)</Name>
+  <Id>327</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>Level10OfLawEnforcementForensicBranchMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>Level10LawEnforcementForensicBranchFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Level 10 of law enforcement (special agent)</Name>
+  <Id>328</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>Level10OfLawEnforcementSpecialAgentBranchMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>Level10LawEnforcementSpecialAgentBranchFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Level 10 of medical career</Name>
+  <Id>329</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>Level10OfMedicalMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>CareerLevelGreaterThanOrEqualToN</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Level 10 of military career</Name>
+  <Id>330</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>Level10OfMilitaryMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>CareerLevelGreaterThanOrEqualToN</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Level 10 political career</Name>
+  <Id>331</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>Level10OfPoliticalMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>CareerLevelGreaterThanOrEqualToN</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Level 8 of business career</Name>
+  <Id>332</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>Level8OfBusinessMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>CareerLevelGreaterThanOrEqualToN</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Level 9 prof sports career</Name>
+  <Id>333</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>Level9OfProSportsMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>CareerLevelGreaterThanOrEqualToN</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Level 9 science career</Name>
+  <Id>334</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>Level9OfScienceMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>CareerLevelGreaterThanOrEqualToN</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Logic and athletic L10</Name>
+  <Id>335</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kSkillLevelUp</TriggerEvent>
+  <CheckFunction>LogicAndAthleticL10MajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>LogicAndAthleticLevel10FeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Logic and handiness L10</Name>
+  <Id>336</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kSkillLevelUp</TriggerEvent>
+  <CheckFunction>LogicAndHandinesL10MajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>LogicAndHandinessLevel10FeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Logic skill L10 and chess master rank</Name>
+  <Id>337</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kSimHeartbeat</TriggerEvent>
+  <CheckFunction>LogicL10AndChessMasterRankMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>LogicSkillLevel10AndChessMasterFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Marry a rich Sim and see their ghost</Name>
+  <Id>338</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kMarriedAndSawSim</TriggerEvent>
+  <FeedbackFunction>MarryARichSimAndSeeTheirGhostFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Painting and guitar L10</Name>
+  <Id>339</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kSkillLevelUp</TriggerEvent>
+  <CheckFunction>PaintingAndGuitarL10MajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>PaintingAndGuitarLevel10FeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Painting and writing L10</Name>
+  <Id>340</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kSkillLevelUp</TriggerEvent>
+  <CheckFunction>PaintingAndWritingL10MajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>PaintingAndWritingLevel10FeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Raise $n children from baby to Teen</Name>
+  <Id>341</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kGotChildAndAgeTransition</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>RaiseNChildrenFromBabyToYoungAdultCheckFunction</CheckFunction>
+  <FeedbackFunction>RaiseNChildrenFromBabyToYoungAdultFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Reach level 10 in $n skills</Name>
+  <Id>342</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kSkillLevelUp</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>ReachLevel10InNSkillsMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>ReachLevel10inNSkillsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>*Reach level 5 in 4 careers</Name>
+  <Id>343</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kCareerDataChanged</TriggerEvent>
+  <CheckFunction>ReachLevel5In4CareersMajorDreamCheckFunction</CheckFunction>
+  <FeedbackFunction>ReachLevel5In4CareersFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Buy a $Category</Name>
+  <Id>344</Id>
+  <Category>Objects and Money</Category>
+  <TriggerEvent>kBoughtObject</TriggerEvent>
+  <SubjectType>ObjectCategory</SubjectType>
+  <CheckFunction>BuyACategoryCheckFunction</CheckFunction>
+  <FeedbackFunction>ObjectMatchesCategoryFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Quit job</Name>
+  <Id>345</Id>
+  <Category>Career</Category>
+  <TriggerEvent>kLeftJob</TriggerEvent>
+  <CheckFunction>HaveAJobCheckFunction</CheckFunction>
+  <FeedbackFunction>QuitJobFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Get fired</Name>
+  <Id>346</Id>
+  <Category>Career</Category>
+  <TriggerEvent>kLeftJob</TriggerEvent>
+  <FeedbackFunction>GetFiredFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Become friends with boss</Name>
+  <Id>347</Id>
+  <Category>Career</Category>
+  <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+  <CheckFunction>BecomeFriendsWithBossCheckFunction</CheckFunction>
+  <FeedbackFunction>BecomeFriendsWithBossFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Clean the Dusty Old Lamp</Name>
+  <Id>348</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kCleanLamp</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>IsGenieLampFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Has Lamp</Name>
+  <Id>349</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kInventoryObjectAdded</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>IsGenieLampFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Wish for Fortune</Name>
+  <Id>350</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kWishForFortune</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Wish for Beauty</Name>
+  <Id>351</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kWishForBeauty</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Wish for a Long Life</Name>
+  <Id>352</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kWishForLongLife</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Wish for Happiness</Name>
+  <Id>353</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kWishForHappiness</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Wish for a Large Family</Name>
+  <Id>354</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kWishForLargeFamily</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Wish for Love</Name>
+  <Id>355</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kWishForLove</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Wish for World Peace</Name>
+  <Id>356</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kWishForWorldPeace</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Wish for World Misery</Name>
+  <Id>357</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kWishForWorldMisery</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Free the Genie</Name>
+  <Id>358</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kGrantedWishToFreeGenie</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Is Genie</Name>
+  <Id>359</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kMetSim</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>IsGenieFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Ensorcel $Sim</Name>
+  <Id>360</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kEnsorcelSim</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Clean Self</Name>
+  <Id>361</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kCleanSelf</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Clean $Sim</Name>
+  <Id>362</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kCleanSim</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Remove $Sim</Name>
+  <Id>363</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kRemoveSim</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Summon Food</Name>
+  <Id>364</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kSummonFood</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Enchant Room</Name>
+  <Id>365</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kEnchantRoom</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Win a game of pool</Name>
+  <Id>369</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kWinGameOfPool</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Learn trickshot Xylophone</Name>
+  <Id>370</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kLearnTrickShotXylophone</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Learn trickshot Cup</Name>
+  <Id>371</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kLearnTrickShotCup</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Learn trickshot EP6Trick2</Name>
+  <Id>372</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kLearnTrickShotEP6Trick1</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Learn trickshot EP6Trick1</Name>
+  <Id>373</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kLearnTrickShotEP6Trick2</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play A Four Player Game Of Pool</Name>
+  <Id>374</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kPlayAFourPlayerGameOfPool</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play a game of Pool Alone</Name>
+  <Id>375</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kPlayPoolAlone</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Sing at a Karaoke Machine</Name>
+  <Id>376</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kSingKaraoke</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Sing Karaoke With $Sim</Name>
+  <Id>377</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kSingKaraokeWith</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Ride Mechanical Bull on Easy</Name>
+  <Id>378</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kRideMechanicalBullOnEasyRider</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Ride Mechanical Bull on Medium</Name>
+  <Id>379</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kRideMechanicalBullOnBuckingBronco</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Ride Mechanical Bull on Hard</Name>
+  <Id>380</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kRideMechanicalBullOnCrazyCowboy</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Order a Juice</Name>
+  <Id>381</Id>
+  <Category>(EP6) Proprieter</Category>
+  <TriggerEvent>kOrderAJuiceFromProprietor</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Buy a Round for Everyone</Name>
+  <Id>382</Id>
+  <Category>(EP6) Proprieter</Category>
+  <TriggerEvent>kBuyARoundForEveryoneFromProprietor</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Order a Juice for $Sim</Name>
+  <Id>383</Id>
+  <Category>(EP6) Proprieter</Category>
+  <TriggerEvent>kOrderAJuiceForSimFromPropreitor</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Order Juice $n Times</Name>
+  <Id>384</Id>
+  <Category>(EP6) Proprieter</Category>
+  <TriggerEvent>kOrderAJuiceFromProprietor</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform as $Career at GigHome</Name>
+  <Id>385</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>PerformanceShowFeedbackFunctionGigHome</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform as $Career at GigPark</Name>
+  <Id>386</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>PerformanceShowFeedbackFunctionGigPark</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform as $Career at GigBistro</Name>
+  <Id>387</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>PerformanceShowFeedbackFunctionGigBistro</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform as $Career at GigHangout</Name>
+  <Id>388</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>PerformanceShowFeedbackFunctionGigHangout</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform as $Career at GigPrivate</Name>
+  <Id>389</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>PerformanceShowFeedbackFunctionGigPrivate</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform as $Career at GigBigShow</Name>
+  <Id>390</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>PerformanceShowFeedbackFunctionGigBigShow</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Dance To DJ Music</Name>
+  <Id>391</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kDanceToDJMusic</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play Track On DJ Booth</Name>
+  <Id>392</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kPlayTrackOnDJBooth</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Earn $n in tips with your DJ Booth</Name>
+  <Id>393</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kEarnXTipsWithYourDJBooth</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>EarnXTipsWithDJBoothFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Give $Sim a Track Mix</Name>
+  <Id>394</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kGiveSimATrackMix</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Talk About DJ Skills to $Sim</Name>
+  <Id>395</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kTalkAboutDJSkills</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Sell a Remix Album</Name>
+  <Id>396</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kSellRemixAlbum</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Make $n Selling Remix Albums</Name>
+  <Id>397</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kMakeXSellingRemixAlbums</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>MakeXSellingRemixAlbumsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Play Some Golf at $Category</Name>
+  <Id>398</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kGolfPlaySomeGolf</TriggerEvent>
+  <SubjectType>ObjectCategory</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>ObjectMatchesCategoryFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Break a Driving Range Record at $Category</Name>
+  <Id>400</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kGolfBreakTeeRecord</TriggerEvent>
+  <SubjectType>ObjectCategory</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>GolfNotRecordHolderCheckFunction</CheckFunction>
+  <FeedbackFunction>ObjectMatchesCategoryFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have Diva Trait</Name>
+  <Id>402</Id>
+  <Category>(EP6) Traits</Category>
+  <TriggerEvent>kTraitGained</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>HaveDivaTraitCheckFunction</CheckFunction>
+  <FeedbackFunction>HaveDivaTraitFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Score $n Points in a Skee Ball game</Name>
+  <Id>403</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kSkeeBallScore</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>ScoreNPointsInSkeeBallFeedback</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Ressurect $Sim</Name>
+  <Id>404</Id>
+  <Category>Genie</Category>
+  <TriggerEvent>kResurrectedSim</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>See a Home Gig</Name>
+  <Id>405</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kWatchGig</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimAtGigHome</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>See a Park Gig</Name>
+  <Id>406</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kWatchGig</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimAtGigPark</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>See a Bistro Gig</Name>
+  <Id>407</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kWatchGig</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimAtGigBistro</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>See a Hangout Gig</Name>
+  <Id>408</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kWatchGig</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimAtGigHangout</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>See a Private Gig</Name>
+  <Id>409</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kWatchGig</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimAtGigPrivate</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>See a Big Show Gig</Name>
+  <Id>410</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kWatchGig</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimAtGigBigShow</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Go to Home Gig</Name>
+  <Id>411</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kEventSimMovedToLot</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>VisitAHomeGigCheckFunction</CheckFunction>
+  <FeedbackFunction>VisitAHomeGigFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Go to Park Gig</Name>
+  <Id>412</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kEventSimMovedToLot</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>VisitAParkGigCheckFunction</CheckFunction>
+  <FeedbackFunction>VisitAParkGigFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Go to Bistro Gig</Name>
+  <Id>413</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kEventSimMovedToLot</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>VisitABistroGigCheckFunction</CheckFunction>
+  <FeedbackFunction>VisitABistroGigFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Go to Hangout Gig</Name>
+  <Id>414</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kEventSimMovedToLot</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>VisitAHangoutGigCheckFunction</CheckFunction>
+  <FeedbackFunction>VisitAHangoutGigFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Go to Private Gig</Name>
+  <Id>415</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kEventSimMovedToLot</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>VisitAPrivateGigCheckFunction</CheckFunction>
+  <FeedbackFunction>VisitAPrivateGigFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Go to Big Show Gig</Name>
+  <Id>416</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kEventSimMovedToLot</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>VisitABigShowGigCheckFunction</CheckFunction>
+  <FeedbackFunction>VisitABigShowGigFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Put out $n Snack Bowls</Name>
+  <Id>417</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kPutOutSnackBowl</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform for Tips as a Magician</Name>
+  <Id>418</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kPerformForTipsAsMagician</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>MagicianOccupationCheck</CheckFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform for Tips as a Singer</Name>
+  <Id>419</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kPerformForTipsAsSinger</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>SingerOccupationCheck</CheckFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform for Tips as a Performance Artist</Name>
+  <Id>420</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kPerformForTipsAsPerformanceArtist</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>PerformanceArtistOccupationCheck</CheckFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Earn $n simoleons through tipping (Magician)</Name>
+  <Id>421</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kGotTips</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>MagicianOccupationCheck</CheckFunction>
+  <FeedbackFunction>EarnNSimoleansFromTipsAsMagicianFeedback</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Earn $n simoleons through tipping (Singer)</Name>
+  <Id>422</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kGotTips</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>SingerOccupationCheck</CheckFunction>
+  <FeedbackFunction>EarnNSimoleansFromTipsAsSingerFeedback</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Earn $n simoleons through tipping (PerformanceArtist)</Name>
+  <Id>423</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kGotTips</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>PerformanceArtistOccupationCheck</CheckFunction>
+  <FeedbackFunction>EarnNSimoleansFromTipsAsPerformanceArtistFeedback</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have a Legendary Gig</Name>
+  <Id>424</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>GigIsLegendaryFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have $n Legendary Gigs</Name>
+  <Id>425</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>GigIsLegendaryFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have an Excellent Gig</Name>
+  <Id>426</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>GigIsExcellentFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have $n Excellent Gigs</Name>
+  <Id>427</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>GigIsExcellentFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have a Great Gig</Name>
+  <Id>428</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>GigIsGreatFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have $n Great Gigs</Name>
+  <Id>429</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>GigIsGreatFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Buy $n Stage Props</Name>
+  <Id>430</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kBoughtObject</TriggerEvent>
+  <SubjectType>Object</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>BuyAStagePropFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Get a Steady Gig</Name>
+  <Id>431</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kReceivedSteadyGig</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Get $n Steady Gigs</Name>
+  <Id>432</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kReceivedSteadyGig</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Ride the Electro Dance Shpere</Name>
+  <Id>433</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kRideEDS</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play a game on the Cocktail Arcade machine</Name>
+  <Id>434</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kPlayArcade</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Play a 2player game on the Cocktail Arcade Machine</Name>
+  <Id>435</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kPlayArcade2P</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Take Photo in photo booth</Name>
+  <Id>436</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kTakenPhotoInPhotoBooth</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Take Photo in photobooth with $Sim</Name>
+  <Id>437</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kTakenPhotoInPhotoBooth</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Woohoo in photobooth</Name>
+  <Id>438</Id>
+  <Category>(EP6) Objects</Category>
+  <TriggerEvent>kWoohooInPhotoBooth</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Have Natural Born Performer Trait</Name>
+  <Id>439</Id>
+  <Category>(EP6) Traits</Category>
+  <TriggerEvent>kTraitGained</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>HaveNaturalPerformerTraitCheckFunction</CheckFunction>
+  <FeedbackFunction>HaveNaturalPerformerTraitFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have Social Butterfly Trait</Name>
+  <Id>440</Id>
+  <Category>(EP6) Traits</Category>
+  <TriggerEvent>kTraitGained</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>HaveSocialButterflyTraitCheckFunction</CheckFunction>
+  <FeedbackFunction>HaveSocialButterflyTraitFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Learn $n Tofu Recipes</Name>
+  <Id>441</Id>
+  <Category>Tofu</Category>
+  <TriggerEvent>kLearnTofuRecipe</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>LearnedXTofuRecipesFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform $n $Trick</Name>
+  <Id>442</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kPerformedTrick</TriggerEvent>
+  <SubjectType>Trick</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>TrickMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform $n $Song</Name>
+  <Id>443</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kPerformedSong</TriggerEvent>
+  <SubjectType>Song</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SongMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform $n gigs as a Magician in $JobType</Name>
+  <Id>444</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <SubjectType>JobType</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimIsAMagicianAndJobTypeMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform $n gigs as a PerformanceArtist in $JobType</Name>
+  <Id>445</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <SubjectType>JobType</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimIsAPerformanceArtistAndJobTypeMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform $n gigs as a Singer in $JobType</Name>
+  <Id>446</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <SubjectType>JobType</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimIsASingerAndJobTypeMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform $n $JobType</Name>
+  <Id>447</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <SubjectType>JobType</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>JobTypeMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Promised Lifetime Wish</Name>
+  <Id>448</Id>
+  <Category>Lifetime Wish</Category>
+  <TriggerEvent>kPromisedLifetimeDream</TriggerEvent>
+  <FeedbackFunction>PromisedLifetimeWishFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Earn $n simoleons</Name>
+  <Id>449</Id>
+  <Category>Objects and Money</Category>
+  <TriggerEvent>kGotPaid</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>EarnNSimoleonsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Join $Career</Name>
+  <Id>450</Id>
+  <Category>Career</Category>
+  <TriggerEvent>kEventCareerHired</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>False</AcceptsNumber>
+  <CheckFunction>JoinACareerCheckFunction</CheckFunction>
+  <FeedbackFunction>JoinACareerFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have $n grandchildren (total)</Name>
+  <Id>451</Id>
+  <Category>Family</Category>
+  <TriggerEvent>kChildBornOrAdopted</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <CheckFunction>HaveNTotalGrandchildrenCheckFunction</CheckFunction>
+  <FeedbackFunction>HaveNTotalGrandchildrenFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Workout for $n hours</Name>
+  <Id>452</Id>
+  <Category>Athletic and Fitness</Category>
+  <TriggerEvent>kWorkedOut</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>WorkoutForNHoursFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Go to Jail</Name>
+  <Id>453</Id>
+  <Category>Memories</Category>
+  <TriggerEvent>kSimCommittedDisgracefulAction</TriggerEvent>
+  <FeedbackFunction>IsArrestedFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Steal candy from a baby</Name>
+  <Id>454</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kStoleCandyFromBaby</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <CheckFunction>StealCandyFromABabyCheckFunction</CheckFunction>
+  <FeedbackFunction>SimMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Serve a perfect $Meal</Name>
+  <Id>455</Id>
+  <Category>Cooking</Category>
+  <TriggerEvent>kCookedMeal</TriggerEvent>
+  <SubjectType>Meal</SubjectType>
+  <CheckFunction>BaseMealCheckFunction</CheckFunction>
+  <FeedbackFunction>ServeAPerfectMealFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Visit the public pool</Name>
+  <Id>456</Id>
+  <Category>Venues and Rabbitholes</Category>
+  <TriggerEvent>kEventSimMovedToLot</TriggerEvent>
+  <CheckFunction>PublicPoolExistsInWorldCheckFunction</CheckFunction>
+  <FeedbackFunction>VisitThePublicPoolFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Tell Intriguing News Story</Name>
+  <Id>463</Id>
+  <Category>Socialization</Category>
+  <TriggerEvent>kSocialInteraction</TriggerEvent>
+  <IsSocialPrimitive>True</IsSocialPrimitive>
+  <CheckFunction>SocialCheckFunction</CheckFunction>
+  <FeedbackFunction>SocialFeedBackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Serve a great $Meal</Name>
+  <Id>464</Id>
+  <Category>Cooking</Category>
+  <TriggerEvent>kCookedMeal</TriggerEvent>
+  <SubjectType>Meal</SubjectType>
+  <CheckFunction>BaseMealCheckFunction</CheckFunction>
+  <FeedbackFunction>ServeAGreatMealFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Clean $Category</Name>
+  <Id>465</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kCleanedObject</TriggerEvent>
+  <SubjectType>ObjectCategory</SubjectType>
+  <CheckFunction>CleanObjectCheckFunction</CheckFunction>
+  <FeedbackFunction>ObjectMatchesCategoryFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Paint a portrait of $sim</Name>
+  <Id>466</Id>
+  <Category>Painting</Category>
+  <TriggerEvent>kFinishedPainting</TriggerEvent>
+  <FeedbackFunction>PaintAPortraitOfSimFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have read $n unique books</Name>
+  <Id>467</Id>
+  <Category>Objects and Money</Category>
+  <TriggerEvent>kReadBook</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>ReadNUniqueBooksCheckFunction</CheckFunction>
+  <FeedbackFunction>ReadNUniqueBooksFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Write $n best-sellers total</Name>
+  <Id>468</Id>
+  <Category>Writing</Category>
+  <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>WriteNBestSellersCheckFunction</CheckFunction>
+  <FeedbackFunction>WriteNBestSellersFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Write $n novels total</Name>
+  <Id>469</Id>
+  <Category>Writing</Category>
+  <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>WriteNNovelsCheckFunction</CheckFunction>
+  <FeedbackFunction>WriteNNovelsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Write a best-seller</Name>
+  <Id>470</Id>
+  <Category>Writing</Category>
+  <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+  <FeedbackFunction>WriteABestSellerFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Write a biography about $sim</Name>
+  <Id>471</Id>
+  <Category>Writing</Category>
+  <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+  <FeedbackFunction>WriteABiographyAboutSimFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Write a masterpiece</Name>
+  <Id>472</Id>
+  <Category>Writing</Category>
+  <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+  <FeedbackFunction>WriteAMasterpieceFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Write a novel worth at least $n simoleons a week in royalties</Name>
+  <Id>473</Id>
+  <Category>Writing</Category>
+  <TriggerEvent>kWroteBookWithRoyaltyAmount</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>WriteANovelWorthAtLeastNSimoleansAWeekInRoyaltiesFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Write a $BookGenre novel</Name>
+  <Id>474</Id>
+  <Category>Writing</Category>
+  <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+  <SubjectType>BookGenre</SubjectType>
+  <FeedbackFunction>WriteAGenreBookFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Write a science fiction novel</Name>
+  <Id>475</Id>
+  <Category>Writing</Category>
+  <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+  <FeedbackFunction>WriteASciFiNovelFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Write an auto-biography</Name>
+  <Id>476</Id>
+  <Category>Writing</Category>
+  <TriggerEvent>kWroteBookOfGenre</TriggerEvent>
+  <FeedbackFunction>WriteAnAutobiographyFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>$Sim is a baby</Name>
+  <Id>477</Id>
+  <Category>Ages and Aging</Category>
+  <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <CheckFunction>SimIsABabyCheckFunction</CheckFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>$Sim is a toddler</Name>
+  <Id>478</Id>
+  <Category>Ages and Aging</Category>
+  <TriggerEvent>kSimAgeTransition</TriggerEvent>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <CheckFunction>SimIsAToddlerCheckFunction</CheckFunction>
+  <FeedbackFunction>BecomeAToddlerFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Become enemies with $Sim</Name>
+  <Id>479</Id>
+  <Category>Socials, Hand Entered</Category>
+  <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <CheckFunction>BeEnemyWithSimCheckFunction</CheckFunction>
+  <FeedbackFunction>BeEnemyWithSimFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have $n enemies</Name>
+  <Id>480</Id>
+  <Category>Socials, Hand Entered</Category>
+  <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <CheckFunction>HaveNEnemiesCheckFunction</CheckFunction>
+  <FeedbackFunction>HaveNEnemiesFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Imply Mother is a Llama</Name>
+  <Id>481</Id>
+  <Category>Socialization</Category>
+  <TriggerEvent>kSocialInteraction</TriggerEvent>
+  <IsSocialPrimitive>True</IsSocialPrimitive>
+  <CheckFunction>SocialCheckFunction</CheckFunction>
+  <FeedbackFunction>SocialFeedBackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Scare $Sim</Name>
+  <Id>482</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kScaredSim</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <CheckFunction>ScareSimCheckFunction</CheckFunction>
+  <FeedbackFunction>SimMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Do mean social</Name>
+  <Id>483</Id>
+  <Category>Socials, Hand Entered</Category>
+  <TriggerEvent>kDidMeanSocial</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <CheckFunction>DoAMeanSocialCheckFunction</CheckFunction>
+  <FeedbackFunction>SimMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Win a fight</Name>
+  <Id>484</Id>
+  <Category>Socials, Hand Entered</Category>
+  <TriggerEvent>kSocialInteraction</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <CheckFunction>FightCheckFunction</CheckFunction>
+  <FeedbackFunction>WinAFightFeedBackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Jog $n meters</Name>
+  <Id>485</Id>
+  <Category>Athletic and Fitness</Category>
+  <TriggerEvent>kJoggingTimeAdded</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>JogNMetersFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Do a cardio workout for $n sim minutes</Name>
+  <Id>486</Id>
+  <Category>Athletic and Fitness</Category>
+  <TriggerEvent>kCardioTimeAdded</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>WorkoutForNHoursFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Do a strength workout for $n sim minutes</Name>
+  <Id>487</Id>
+  <Category>Athletic and Fitness</Category>
+  <TriggerEvent>kStrengthTimeAdded</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>WorkoutForNHoursFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Learn the recipe for $Meal</Name>
+  <Id>488</Id>
+  <Category>Cooking</Category>
+  <TriggerEvent>kLearnedRecipe</TriggerEvent>
+  <SubjectType>Meal</SubjectType>
+  <CheckFunction>LearnANewRecipieCheckFunction</CheckFunction>
+  <FeedbackFunction>LearnANewRecipieFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Cook $Meal with perfect ingredients</Name>
+  <Id>489</Id>
+  <Category>Cooking</Category>
+  <TriggerEvent>kCookedMeal</TriggerEvent>
+  <SubjectType>Meal</SubjectType>
+  <CheckFunction>BaseMealCheckFunction</CheckFunction>
+  <FeedbackFunction>CookAMealWithPerfectIngredientsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Upgrade $n objects</Name>
+  <Id>490</Id>
+  <Category>Handiness</Category>
+  <TriggerEvent>kUpgradedObject</TriggerEvent>
+  <CheckFunction>UpgradeNObjectsCheckFunction</CheckFunction>
+  <FeedbackFunction>UpgradeNObjectsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Upgrade $Category</Name>
+  <Id>491</Id>
+  <Category>Handiness</Category>
+  <TriggerEvent>kUpgradedObject</TriggerEvent>
+  <SubjectType>ObjectCategory</SubjectType>
+  <FeedbackFunction>ObjectMatchesCategoryFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Talk About Celestial Object</Name>
+  <Id>492</Id>
+  <Category>Socialization</Category>
+  <TriggerEvent>kSocialInteraction</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <IsSocialPrimitive>True</IsSocialPrimitive>
+  <CheckFunction>SocialCheckFunction</CheckFunction>
+  <FeedbackFunction>SocialFeedBackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Tutor $Sim for school</Name>
+  <Id>493</Id>
+  <Category>Logic</Category>
+  <TriggerEvent>kTutoredSim</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <CheckFunction>TutorSimForSchoolCheckFunction</CheckFunction>
+  <FeedbackFunction>SimMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Tutor sim in $Skill</Name>
+  <Id>494</Id>
+  <Category>Logic</Category>
+  <TriggerEvent>kTutoredSimInSkill</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <FeedbackFunction>SkillMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Win $n ranked chess matches in a row</Name>
+  <Id>495</Id>
+  <Category>Logic</Category>
+  <TriggerEvent>kPlayedRankedChessMatch</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>WinNRankedChessMatchesInARowFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Talk to self</Name>
+  <Id>496</Id>
+  <Category>Traits</Category>
+  <TriggerEvent>kTalkedToSelf</TriggerEvent>
+ </Sheet1>
+<Sheet1>
+  <Name>Propose Truce</Name>
+  <Id>497</Id>
+  <Category>Socialization</Category>
+  <TriggerEvent>kSocialInteraction</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <IsSocialPrimitive>True</IsSocialPrimitive>
+  <CheckFunction>SocialCheckFunction</CheckFunction>
+  <FeedbackFunction>SocialFeedBackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Donate $n Simoleons to Undermine Charity</Name>
+  <Id>498</Id>
+  <Category>Traits</Category>
+  <TriggerEvent>kDonatedToUndermineCharity</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>DonateToUndermineCharityCheckFunction</CheckFunction>
+  <FeedbackFunction>DonateNSimoleonsToUndermineCharityFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Donate $n simoleans to charity</Name>
+  <Id>499</Id>
+  <Category>Traits</Category>
+  <TriggerEvent>kDonatedToCharity</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>DonateToCharityCheckFunction</CheckFunction>
+  <FeedbackFunction>DonateNSimoleonsToCharityFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Make $n simoleons from hacking</Name>
+  <Id>500</Id>
+  <Category>Traits</Category>
+  <TriggerEvent>kHacked</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>MakeNSimoleonsFromHackingFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Order pizza</Name>
+  <Id>501</Id>
+  <Category>Objects and Money</Category>
+  <TriggerEvent>kOrderedService</TriggerEvent>
+  <CheckFunction>OrderPizzaCheckFunction</CheckFunction>
+  <FeedbackFunction>OrderPizzaFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Return stolen $Category</Name>
+  <Id>502</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kReturnedStolenObject</TriggerEvent>
+  <SubjectType>ObjectCategory</SubjectType>
+  <CheckFunction>ReturnStolenObjectCheckFunction</CheckFunction>
+  <FeedbackFunction>ObjectMatchesCategoryFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Host a Sim at $JobType</Name>
+  <Id>503</Id>
+  <Category>Passport (EP6)</Category>
+  <TriggerEvent>kSocialFeatureEventID</TriggerEvent>
+  <SubjectType>JobType</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>HostSimAtVenueCheckFunction</CheckFunction>
+  <FeedbackFunction>HostedSimPerformedAtVenueFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Host $n Sims</Name>
+  <Id>504</Id>
+  <Category>Passport (EP6)</Category>
+  <TriggerEvent>kSocialFeatureEventID</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>HostNSimsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform at a Passport Friend's $JobType</Name>
+  <Id>505</Id>
+  <Category>Passport (EP6)</Category>
+  <TriggerEvent>kSocialFeatureEventID</TriggerEvent>
+  <SubjectType>JobType</SubjectType>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>SimHasPerformanceOccupationCheckFunction</CheckFunction>
+  <FeedbackFunction>SimPerformedAtVenueFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Host a Singer at $JobType</Name>
+  <Id>506</Id>
+  <Category>Passport (EP6)</Category>
+  <TriggerEvent>kSocialFeatureEventID</TriggerEvent>
+  <SubjectType>JobType</SubjectType>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>HostSimAtVenueCheckFunction</CheckFunction>
+  <FeedbackFunction>HostSingerAtVenueFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Host a Magician at $JobType</Name>
+  <Id>507</Id>
+  <Category>Passport (EP6)</Category>
+  <TriggerEvent>kSocialFeatureEventID</TriggerEvent>
+  <SubjectType>JobType</SubjectType>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>HostSimAtVenueCheckFunction</CheckFunction>
+  <FeedbackFunction>HostMagicianAtVenueFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Host a Performance Artist at $JobType</Name>
+  <Id>508</Id>
+  <Category>Passport (EP6)</Category>
+  <TriggerEvent>kSocialFeatureEventID</TriggerEvent>
+  <SubjectType>JobType</SubjectType>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>HostSimAtVenueCheckFunction</CheckFunction>
+  <FeedbackFunction>HostPerformanceArtistAtVenueFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Host a Sim in all venues</Name>
+  <Id>509</Id>
+  <Category>Passport (EP6)</Category>
+  <TriggerEvent>kSocialFeatureEventID</TriggerEvent>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>HostSimAtVenueCheckFunction</CheckFunction>
+  <FeedbackFunction>HostASimInAllVenuesFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have Vegetarian Trait</Name>
+  <Id>510</Id>
+  <Category>Traits</Category>
+  <TriggerEvent>kTraitGained</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>HaveVegetarianTrait</CheckFunction>
+  <FeedbackFunction>HaveVegetarianTraitFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Play $n Games of Domino</Name>
+  <Id>511</Id>
+  <Category>Dominos Table (EP6)</Category>
+  <TriggerEvent>kPlayDomino</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Play Domino With $Sim</Name>
+  <Id>512</Id>
+  <Category>Dominos Table (EP6)</Category>
+  <TriggerEvent>kPlayDominoWith</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Play 4 Player Domonio</Name>
+  <Id>513</Id>
+  <Category>Dominos Table (EP6)</Category>
+  <TriggerEvent>kPlayDomino4P</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>$Sim's Passport Show Started</Name>
+  <Id>514</Id>
+  <Category>Performance Venue (EP6)</Category>
+  <TriggerEvent>kPassportShowStarted</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Challenge $Sim to Simfest Duel</Name>
+  <Id>515</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kChallengeToSimfest</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Heckle $Sim</Name>
+  <Id>516</Id>
+  <Category>Socialization (EP6)</Category>
+  <TriggerEvent>kHeckleSim</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SimMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform From Tips on Pool Table and Make $n Simoleans</Name>
+  <Id>517</Id>
+  <Category>PoolTable</Category>
+  <TriggerEvent>kGotTips</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>EarnNSimoleansFromTipsPerformingTrickShotsFeedback</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform Cup Trick Shot</Name>
+  <Id>518</Id>
+  <Category>PoolTable</Category>
+  <TriggerEvent>kPoolTableCupTrick</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform Xylophone Trick Shot</Name>
+  <Id>519</Id>
+  <Category>PoolTable</Category>
+  <TriggerEvent>kPoolTableXylophoneTrick</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform EP6 Trick 1</Name>
+  <Id>520</Id>
+  <Category>PoolTable</Category>
+  <TriggerEvent>kPoolTableEP6Trick1</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform EP6 Trick 2</Name>
+  <Id>521</Id>
+  <Category>PoolTable</Category>
+  <TriggerEvent>kPoolTableEP6Trick2</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Compliment Self</Name>
+  <Id>522</Id>
+  <Category>Socialization (EP6)</Category>
+  <TriggerEvent>kComplimentSelf</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Request Compliment</Name>
+  <Id>523</Id>
+  <Category>Socialization (EP6)</Category>
+  <TriggerEvent>kSocialInteraction</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <IsSocialPrimitive>True</IsSocialPrimitive>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>SocialCheckFunction</CheckFunction>
+  <FeedbackFunction>SocialFeedBackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Accuse of Being Diva</Name>
+  <Id>524</Id>
+  <Category>Socialization (EP6)</Category>
+  <TriggerEvent>kSocialInteraction</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <IsSocialPrimitive>True</IsSocialPrimitive>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <CheckFunction>SocialCheckFunction</CheckFunction>
+  <FeedbackFunction>SocialFeedBackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Solicit Gig</Name>
+  <Id>525</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kSolicitedGig</TriggerEvent>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Sell $n Singer Albums</Name>
+  <Id>526</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kSoldSingerAlbum</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>CountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Visit the art gallery</Name>
+  <Id>527</Id>
+  <Category>Venues and Rabbitholes</Category>
+  <TriggerEvent>kEventSimMovedToLot</TriggerEvent>
+  <CheckFunction>ArtGalleryExistsInWorldCheckFunction</CheckFunction>
+  <FeedbackFunction>VisitTheArtGalleryFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Win a Park SimFest Show as $Career</Name>
+  <Id>528</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kWinSimFest</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>ParkSimFestFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Win a Bistro SimFest Show as $Career</Name>
+  <Id>529</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kWinSimFest</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>BistroSimFestFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Win a Performance Club SimFest Show as $Career</Name>
+  <Id>530</Id>
+  <Category>Career (EP6)</Category>
+  <TriggerEvent>kWinSimFest</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>PerformanceClubSimFestFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Tutor Sim</Name>
+  <Id>531</Id>
+  <Category>Socialization</Category>
+  <TriggerEvent>kSocialInteraction</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <IsSocialPrimitive>True</IsSocialPrimitive>
+  <CheckFunction>SocialCheckFunction</CheckFunction>
+  <FeedbackFunction>SocialFeedBackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Repair a $Category</Name>
+  <Id>532</Id>
+  <Category>Handiness</Category>
+  <TriggerEvent>kRepairedObject</TriggerEvent>
+  <SubjectType>ObjectCategory</SubjectType>
+  <FeedbackFunction>ObjectMatchesCategoryFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Workout for $n hours straight</Name>
+  <Id>533</Id>
+  <Category>Athletic and Fitness</Category>
+  <TriggerEvent>kWorkedOut</TriggerEvent>
+  <FeedbackFunction>WorkoutForNHoursStraightFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Fulfill a promised $Wish</Name>
+  <Id>534</Id>
+  <Category>Dreams And Promises</Category>
+  <TriggerEvent>kPromisedDreamCompleted</TriggerEvent>
+  <SubjectType>Wish</SubjectType>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <FeedbackFunction>DreamIDMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Hire a maid</Name>
+  <Id>535</Id>
+  <Category>Objects and Money</Category>
+  <TriggerEvent>kOrderedService</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <CheckFunction>HireAMaidCheckFunction</CheckFunction>
+  <FeedbackFunction>HireMaidFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Hire a babysitter</Name>
+  <Id>536</Id>
+  <Category>Family</Category>
+  <TriggerEvent>kOrderedService</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <FeedbackFunction>HireBabySitterFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Lose a fight</Name>
+  <Id>537</Id>
+  <Category>Socials, Hand Entered</Category>
+  <TriggerEvent>kSocialInteraction</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <CheckFunction>FightCheckFunction</CheckFunction>
+  <FeedbackFunction>LoseAFightFeedBackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Get a raise</Name>
+  <Id>538</Id>
+  <Category>Career</Category>
+  <TriggerEvent>kCareerGotRaise</TriggerEvent>
+  <CheckFunction>HasNonSkillBasedCareer</CheckFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Interview</Name>
+  <Id>539</Id>
+  <Category>Socialization</Category>
+  <TriggerEvent>kSocialInteraction</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <CheckFunction>SocialCheckFunction</CheckFunction>
+  <FeedbackFunction>SocialFeedBackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Scrap current novel</Name>
+  <Id>540</Id>
+  <Category>Writing</Category>
+  <TriggerEvent>kScrappedNovel</TriggerEvent>
+  <CheckFunction>CurrentlyHasANovelInProgressCheckFunction</CheckFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Is Playable Ghost</Name>
+  <Id>541</Id>
+  <Category>Family</Category>
+  <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+  <FeedbackFunction>OwnerIsPlayableGhostFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Boast About Bicycle</Name>
+  <Id>542</Id>
+  <Category>Socialization</Category>
+  <TriggerEvent>kSocialInteraction</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <CheckFunction>SocialCheckFunction</CheckFunction>
+  <FeedbackFunction>SocialFeedBackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>See the fiery ghost of $Sim</Name>
+  <Id>543</Id>
+  <Category>Paranormal and Disasters</Category>
+  <TriggerEvent>kSawSim</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <CheckFunction>DefaultDeadSimCheckFunction</CheckFunction>
+  <FeedbackFunction>SeeFireyGhostOfSimFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>See the ghost of $Sim</Name>
+  <Id>544</Id>
+  <Category>Paranormal and Disasters</Category>
+  <TriggerEvent>kSawSim</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <CheckFunction>DefaultDeadSimCheckFunction</CheckFunction>
+  <FeedbackFunction>SeeGhostOfSimFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Become friends with all coworkers</Name>
+  <Id>545</Id>
+  <Category>Career</Category>
+  <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+  <FeedbackFunction>BecomeFriendsWithAllCoworkersFeedBackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Question</Name>
+  <Id>546</Id>
+  <Category>Socialization</Category>
+  <TriggerEvent>kSocialInteraction</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <IsSocialPrimitive>True</IsSocialPrimitive>
+  <CheckFunction>SocialCheckFunction</CheckFunction>
+  <FeedbackFunction>SocialFeedBackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>WooHoo in Box of Mystery with $Sim</Name>
+  <Id>547</Id>
+  <Category>Box of Mystery</Category>
+  <TriggerEvent>kWooHooed</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <FeedbackFunction>WoohooInBoxOfMysteryFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Join $Branch of career</Name>
+  <Id>548</Id>
+  <Category>Career</Category>
+  <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+  <SubjectType>Branch</SubjectType>
+  <FeedbackFunction>JoinBranchName</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Had a $GigQuality Gig</Name>
+  <Id>549</Id>
+  <Category>(EP6) Shows</Category>
+  <TriggerEvent>kCompletedGig</TriggerEvent>
+  <SubjectType>GigQuality</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>GigWasSpecifiedQuality</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Visit $Lot</Name>
+  <Id>550</Id>
+  <Category>Venues and Rabbitholes</Category>
+  <TriggerEvent>kEventSimMovedToLot</TriggerEvent>
+  <SubjectType>Lot</SubjectType>
+  <CheckFunction>VenueTypeExistsInWorldCheckFunction</CheckFunction>
+  <FeedbackFunction>VisitALotTypeFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform Social Interaction</Name>
+  <Id>551</Id>
+  <Category>Socialization</Category>
+  <TriggerEvent>kSocialInteraction</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <IsSocialPrimitive>True</IsSocialPrimitive>
+  <CheckFunction>SocialCheckFunction</CheckFunction>
+  <FeedbackFunction>SocialFeedBackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Promoted or demoted to $Career level $n exactly</Name>
+  <Id>552</Id>
+  <Category>Career</Category>
+  <TriggerEvent>kEventCareerPromoteOrDemote</TriggerEvent>
+  <SubjectType>Career</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>CareerLevelEqualToN</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform $SocialFeature $n times</Name>
+  <Id>553</Id>
+  <Category>Social Features</Category>
+  <TriggerEvent>kSocialFeatureEventID</TriggerEvent>
+  <SubjectType>SocialFeature</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SocialFeatureNTimesFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Is $Occult</Name>
+  <Id>554</Id>
+  <Category>Occult</Category>
+  <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <CheckFunction>SimIsOccultCheckFunction</CheckFunction>
+  <FeedbackFunction>CheckFunctionAutoSatisfiesFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Restored Sim's Ghost</Name>
+  <Id>555</Id>
+  <Category>Occult</Category>
+  <TriggerEvent>kRestoredGhost</TriggerEvent>
+  <FeedbackFunction>DefaultFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Had a Ghost Baby</Name>
+  <Id>556</Id>
+  <Category>Occult, Pregnancy</Category>
+  <TriggerEvent>kHadGhostBaby</TriggerEvent>
+  <FeedbackFunction>DefaultFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Fail $Trick</Name>
+  <Id>557</Id>
+  <Category>Career(EP6)</Category>
+  <TriggerEvent>kPerformedTrick</TriggerEvent>
+  <SubjectType>Trick</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>FailedTrickFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Succeed at $Trick</Name>
+  <Id>558</Id>
+  <Category>Career(EP6)</Category>
+  <TriggerEvent>kPerformedTrick</TriggerEvent>
+  <SubjectType>Trick</SubjectType>
+  <RequiredProductVersions>EP6</RequiredProductVersions>
+  <FeedbackFunction>SucceededAtTrickFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Go to $Lot on Broom</Name>
+  <Id>559</Id>
+  <Category>EP7</Category>
+  <TriggerEvent>kRideBroomToLot</TriggerEvent>
+  <SubjectType>Lot</SubjectType>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>VisitALotByBroomFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Marry An $Occult</Name>
+  <Id>560</Id>
+  <Category>EP7</Category>
+  <TriggerEvent>kMarriage</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>MarryOccultFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Successfully Make Out With $Occult</Name>
+  <Id>561</Id>
+  <Category>EP7</Category>
+  <TriggerEvent>kSimKissed</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>MakeOutWithOccultFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Break Up With $Occult</Name>
+  <Id>562</Id>
+  <Category>EP7</Category>
+  <TriggerEvent>kBreakUp</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>BreakUpWithOccultFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Earn $n in Tips from playing an instrument as an $Occult</Name>
+  <Id>563</Id>
+  <Category>EP7</Category>
+  <TriggerEvent>kGotTips</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>EarnTipsAsOccult</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Send a gift to a friend</Name>
+  <Id>564</Id>
+  <Category>Social Features</Category>
+  <TriggerEvent>kSocialFeatureEventID</TriggerEvent>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <FeedbackFunction>SendAGiftToAFriendFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Turn a Sim into a Vampire</Name>
+  <Id>565</Id>
+  <Category>Occult</Category>
+  <TriggerEvent>kTurnedSim</TriggerEvent>
+ </Sheet1>
+<Sheet1>
+  <Name>Eat $Harvestable</Name>
+  <Id>566</Id>
+  <Category>Occult</Category>
+  <TriggerEvent>kEatIngredient</TriggerEvent>
+  <SubjectType>Harvestable</SubjectType>
+  <FeedbackFunction>HarvestableMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Spend $n hours outdoors in the daytime</Name>
+  <Id>567</Id>
+  <Category>Occult</Category>
+  <TriggerEvent>kVampireInSun</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>VampireBeInSunForNHoursFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Make a Sim think about you</Name>
+  <Id>568</Id>
+  <Category>Occult</Category>
+  <TriggerEvent>kMadeSimThinkOfMe</TriggerEvent>
+ </Sheet1>
+<Sheet1>
+  <Name>Hunt a Sim</Name>
+  <Id>569</Id>
+  <Category>Occult</Category>
+  <TriggerEvent>kVampireHunted</TriggerEvent>
+ </Sheet1>
+<Sheet1>
+  <Name>Drink from $Occult</Name>
+  <Id>570</Id>
+  <Category>Occult</Category>
+  <TriggerEvent>kVampireDrankFromSim</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <FeedbackFunction>TargetMatchesOccultTypeFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Win a prize from an Arcade Claw Machine</Name>
+  <Id>571</Id>
+  <Category>EP7</Category>
+  <TriggerEvent>kUseClawMachine</TriggerEvent>
+  <FeedbackFunction>ClawMachineWinPrizeFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Hold a Psychic Convention</Name>
+  <Id>572</Id>
+  <Category>EP7,Career,FortuneTeller</Category>
+  <TriggerEvent>kHeldPsychicConvention</TriggerEvent>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Perform a Private Reading</Name>
+  <Id>573</Id>
+  <Category>EP7,Career,FortuneTeller</Category>
+  <TriggerEvent>kGavePrivateReading</TriggerEvent>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Use Magic Fate Ball</Name>
+  <Id>574</Id>
+  <Category>EP7,MagicFateBall</Category>
+  <TriggerEvent>kQuestionFateBall</TriggerEvent>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Turn a Sim into a Toad</Name>
+  <Id>575</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kCastToadify</TriggerEvent>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Start a fire with a spell</Name>
+  <Id>576</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kFireBlastStartedFire</TriggerEvent>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Cast a Charm</Name>
+  <Id>577</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kCastCharm</TriggerEvent>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Die from casting a spell</Name>
+  <Id>578</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kDiedFromCastingSpell</TriggerEvent>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Earn $n in tips from casting spells</Name>
+  <Id>579</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kGotTipsFromSpellcasting</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>EarnTipsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Ride Broom to $n different Lots</Name>
+  <Id>580</Id>
+  <Category>MagicBroom,EP7</Category>
+  <TriggerEvent>kRideBroomToLot</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>VisitNLotsByBroom</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Earn $n in tips from magic broom arena stuntshow</Name>
+  <Id>581</Id>
+  <Category>MagicBroom,EP7</Category>
+  <TriggerEvent>kGotTips</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>EarnTipsStuntShowFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Go for $n rides in a magic broom arena</Name>
+  <Id>582</Id>
+  <Category>MagicBroom,EP7</Category>
+  <TriggerEvent>kMagicBroomArenaRide</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>MagicBroomArenaRideFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Own $n Simoleons in Ingots</Name>
+  <Id>583</Id>
+  <Category>Gatherer, EP7</Category>
+  <TriggerEvent>kOwnSimoleonsInIngots</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <CheckFunction>OwnNSimoleonsInIngotsCheckFunction</CheckFunction>
+  <FeedbackFunction>OwnNSimoleonsInIngotsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Own $n Simoleons in Cut Gems</Name>
+  <Id>584</Id>
+  <Category>Gatherer, EP7</Category>
+  <TriggerEvent>kOwnSimoleonsInCutGems</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <CheckFunction>OwnNSimoleonsInCutGemsCheckFunction</CheckFunction>
+  <FeedbackFunction>OwnNSimoleonsInCutGemsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Brood for $n hours</Name>
+  <Id>585</Id>
+  <Category>BroodingTrait,EP7</Category>
+  <TriggerEvent>kBrood</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>BroodNHoursFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Contemplate the meaning of meaning</Name>
+  <Id>586</Id>
+  <Category>BroodingTrait,EP7</Category>
+  <TriggerEvent>kContemplateMeaning</TriggerEvent>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Create $n Alchemy Objects</Name>
+  <Id>587</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kCreateAlchemyObject</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <CheckFunction>CanCreateAlchemyObject</CheckFunction>
+  <FeedbackFunction>CreateNAlchemyObjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Create $n $AlchemyObject</Name>
+  <Id>588</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kCreateAlchemyObject</TriggerEvent>
+  <SubjectType>AlchemyObject</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <CheckFunction>CanCreateAlchemyObject</CheckFunction>
+  <FeedbackFunction>CreateNAlchemyObjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Use an Alchemy Object</Name>
+  <Id>589</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kUseAlchemyObject</TriggerEvent>
+  <CheckFunction>CanUseAlchemyObjectOnSelf</CheckFunction>
+  <FeedbackFunction>UseAlchemyObjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Use $n Alchemy Objects</Name>
+  <Id>590</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kUseAlchemyObject</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>CanUseAlchemyObjectOnSelf</CheckFunction>
+  <FeedbackFunction>UseNAlchemyObjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Use $n $AlchemyObject</Name>
+  <Id>591</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kUseAlchemyObject</TriggerEvent>
+  <SubjectType>AlchemyObject</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>CanUseAlchemyObjectOnSelf</CheckFunction>
+  <FeedbackFunction>UseNAlchemyObjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Use $AlchemyObject</Name>
+  <Id>592</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kUseAlchemyObject</TriggerEvent>
+  <SubjectType>AlchemyObject</SubjectType>
+  <CheckFunction>CanUseAlchemyObjectOnSelf</CheckFunction>
+  <FeedbackFunction>UseAlchemyObjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Throw $AlchemyObject at another Sim</Name>
+  <Id>593</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kUseAlchemyObject</TriggerEvent>
+  <SubjectType>AlchemyObject</SubjectType>
+  <CheckFunction>UseAlchemyObjectOnAnotherCheckFunction</CheckFunction>
+  <FeedbackFunction>ThrowAlchemyObjectAtOthersFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Throw $n $AlchemyObject at other Sims</Name>
+  <Id>594</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kUseAlchemyObject</TriggerEvent>
+  <SubjectType>AlchemyObject</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <CheckFunction>UseAlchemyObjectOnAnotherCheckFunction</CheckFunction>
+  <FeedbackFunction>ThrowNAlchemyObjectAtOthersFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Turn Sim into $Occult using an Alchemy Object</Name>
+  <Id>595</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kTurnedThroughAlchemy</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <FeedbackFunction>TurnAnotherSimUsingAlchemyObjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Turn $n Sims into Supernaturals using Alchemy Objects</Name>
+  <Id>596</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kTurnedThroughAlchemy</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>TurnNSimsUsingAlchemyObjectsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Cure $n Supernatural Sims using Alchemy Objects</Name>
+  <Id>597</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kCuredThroughAlchemy</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>CureNSimsUsingAlchemyObjectsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Learn a New Alchemy Recipe</Name>
+  <Id>598</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kLearnAlchemyObject</TriggerEvent>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <CheckFunction>CanLearnAlchemyObject</CheckFunction>
+  <FeedbackFunction>LearnAlchemyObjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Learn $AlchemyObject Recipe</Name>
+  <Id>599</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kLearnAlchemyObject</TriggerEvent>
+  <SubjectType>AlchemyObject</SubjectType>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <CheckFunction>CanLearnAlchemyObject</CheckFunction>
+  <FeedbackFunction>LearnAlchemyObjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Trick a Sim</Name>
+  <Id>600</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kFairyTrickedSim</TriggerEvent>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Bloom a plant</Name>
+  <Id>601</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kBloomPlant</TriggerEvent>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Bestow a gift</Name>
+  <Id>602</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kGaveAFairyGift</TriggerEvent>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Socialize with an $Occult</Name>
+  <Id>603</Id>
+  <Category>Socialization,EP7</Category>
+  <TriggerEvent>kSocialInteraction</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>IsTargetSubjectOccultFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Succeed at $Interaction</Name>
+  <Id>604</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kInteractionSuccess</TriggerEvent>
+  <SubjectType>Interaction</SubjectType>
+  <FeedbackFunction>SucceedAtInteractionFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Catch $n butterflies</Name>
+  <Id>605</Id>
+  <Category>Gatherer, EP7</Category>
+  <TriggerEvent>kCaughtButterflies</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>CatchNButterfliesFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Analyze $n space rocks</Name>
+  <Id>607</Id>
+  <Category>Gatherer, EP7</Category>
+  <TriggerEvent>kAnalyzeSpaceRocks</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>AnalyzeNSpaceRocksFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Pick Up $n Seeds</Name>
+  <Id>608</Id>
+  <Category>Gatherer, EP7</Category>
+  <TriggerEvent>kPickedUpSeeds</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>CollectNSeedsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Catch $n Beetles</Name>
+  <Id>609</Id>
+  <Category>Gatherer, EP7</Category>
+  <TriggerEvent>kPickedUpBeetles</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>CatchNBeetlesFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Collect $n Gems</Name>
+  <Id>610</Id>
+  <Category>Gatherer, EP7</Category>
+  <TriggerEvent>kCollectedGems</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>CollectNGemsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Get $n Metals Smelted</Name>
+  <Id>611</Id>
+  <Category>Gatherer, EP7</Category>
+  <TriggerEvent>kGetMetalsSmelted</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>GetNMetalsSmeltedFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Get a $GemCut Gem</Name>
+  <Id>612</Id>
+  <Category>Gatherer, EP7</Category>
+  <TriggerEvent>kGetNCutGems</TriggerEvent>
+  <SubjectType>GemCut</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>GetGemCutGemFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>WooHoo in $RabbitHole</Name>
+  <Id>613</Id>
+  <Category>Rabbitholes</Category>
+  <TriggerEvent>kWooHooed</TriggerEvent>
+  <SubjectType>RabbitHole</SubjectType>
+  <FeedbackFunction>RomanceInRabbitHoleFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Makeout in $RabbitHole</Name>
+  <Id>614</Id>
+  <Category>Rabbitholes</Category>
+  <TriggerEvent>kMadeOut</TriggerEvent>
+  <SubjectType>RabbitHole</SubjectType>
+  <FeedbackFunction>RomanceInRabbitHoleFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Create $AlchemyObject</Name>
+  <Id>615</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kCreateAlchemyObject</TriggerEvent>
+  <SubjectType>AlchemyObject</SubjectType>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <CheckFunction>CanCreateAlchemyObject</CheckFunction>
+  <FeedbackFunction>CreateAlchemyObjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Bloom $n plants</Name>
+  <Id>616</Id>
+  <Category>Spellcraft and Alchemy</Category>
+  <TriggerEvent>kBloomPlant</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>BloomNPlantsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have $n $Occult friends or better  (Make a new friend)</Name>
+  <Id>617</Id>
+  <Category>Socialization</Category>
+  <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>HasNOccultFriendsOrBetterFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have $n $Occult friends or better (Transform friend)</Name>
+  <Id>618</Id>
+  <Category>Socialization</Category>
+  <TriggerEvent>kBecameOccult</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <FeedbackFunction>HasNOccultFriendsOrBetterFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have $n $Occult enemies or worse (Make a new enemy)</Name>
+  <Id>619</Id>
+  <Category>Socialization</Category>
+  <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>HasNOccultEnemiesOrWorseFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have $n $Occult enemies or worse (Transform enemy)</Name>
+  <Id>620</Id>
+  <Category>Socialization</Category>
+  <TriggerEvent>kBecameOccult</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <FeedbackFunction>HasNOccultEnemiesOrWorseFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Smelt a $MetalName</Name>
+  <Id>621</Id>
+  <Category>Collecting</Category>
+  <TriggerEvent>kGetMetalsSmelted</TriggerEvent>
+  <SubjectType>MetalName</SubjectType>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>SmeltMetalNameFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Cut a $GemName</Name>
+  <Id>622</Id>
+  <Category>Collecting</Category>
+  <TriggerEvent>kGetNCutGems</TriggerEvent>
+  <SubjectType>GemName</SubjectType>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>CutGemNameFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Win a Gardening Competition</Name>
+  <Id>623</Id>
+  <Category>Venues and Rabbitholes</Category>
+  <TriggerEvent>kWinGardeningCompetition</TriggerEvent>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <CheckFunction>ArboretumExistsInWorldCheckFunction</CheckFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Owner Is Female</Name>
+  <Id>624</Id>
+  <Category>Miscellaneous</Category>
+  <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+  <FeedbackFunction>OwnerIsFemaleFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Owner Is Male</Name>
+  <Id>625</Id>
+  <Category>Miscellaneous</Category>
+  <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+  <FeedbackFunction>OwnerIsMaleFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Partner is $Occult (New partner)</Name>
+  <Id>626</Id>
+  <Category>Occult</Category>
+  <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <FeedbackFunction>PartnerIsOccultFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Partner is $Occult (Transform partner)</Name>
+  <Id>627</Id>
+  <Category>Occult</Category>
+  <TriggerEvent>kBecameOccult</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <FeedbackFunction>PartnerIsOccultFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Complete $Opportunity</Name>
+  <Id>628</Id>
+  <Category>Opportunities</Category>
+  <TriggerEvent>kOpportunityCompleted</TriggerEvent>
+  <SubjectType>Opportunity</SubjectType>
+  <FeedbackFunction>CompleteOpportunityFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Earn $n from selling $Harvestable (No Grocery Bonus)</Name>
+  <Id>629</Id>
+  <Category>Harvestables</Category>
+  <TriggerEvent>kSoldObject</TriggerEvent>
+  <SubjectType>Harvestable</SubjectType>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>MadeNSimoleonsFromSellingIngredient</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Weed a plant</Name>
+  <Id>630</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kWeededPlant</TriggerEvent>
+ </Sheet1>
+<Sheet1>
+  <Name>Harvest a Harvestable of $Quality</Name>
+  <Id>631</Id>
+  <Category>Harvestables</Category>
+  <TriggerEvent>kHarvestedHarvestable</TriggerEvent>
+  <SubjectType>Quality</SubjectType>
+  <FeedbackFunction>HarvestableQualityMatchesSubjectQualityFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Harvest a $Harvestable</Name>
+  <Id>632</Id>
+  <Category>Harvestables</Category>
+  <TriggerEvent>kHarvestedHarvestable</TriggerEvent>
+  <SubjectType>Harvestable</SubjectType>
+  <FeedbackFunction>PlantMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Plant a $Harvestable</Name>
+  <Id>633</Id>
+  <Category>Gardening</Category>
+  <TriggerEvent>kPlantedObject</TriggerEvent>
+  <SubjectType>Harvestable</SubjectType>
+  <FeedbackFunction>PlantMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have an $Occult child</Name>
+  <Id>634</Id>
+  <Category>Occult</Category>
+  <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <FeedbackFunction>HaveOccultOffspringFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Be married to an $Occult</Name>
+  <Id>635</Id>
+  <Category>Occult</Category>
+  <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <FeedbackFunction>BeMarriedToOccultFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Donate $n worth of Insects</Name>
+  <Id>636</Id>
+  <Category>Insects</Category>
+  <TriggerEvent>kDonatedInsectToScience</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>DonateNSimoleonsOfInsectsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Give a fairy gift</Name>
+  <Id>637</Id>
+  <Category>Occult</Category>
+  <TriggerEvent>kGaveAFairyGift</TriggerEvent>
+ </Sheet1>
+<Sheet1>
+  <Name>Harvest a $Quality $Harvestable</Name>
+  <Id>638</Id>
+  <Category>Gardening, Harvestables</Category>
+  <TriggerEvent>kHarvestedHarvestable</TriggerEvent>
+  <SubjectType>Quality,Harvestable</SubjectType>
+  <FeedbackFunction>HarvestQualityHarvestableMultiFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Get a $GemCut Gem cut with Gem Cutting Machine</Name>
+  <Id>639</Id>
+  <Category>Gatherer, EP7</Category>
+  <TriggerEvent>kGetNCutGems</TriggerEvent>
+  <SubjectType>GemCut</SubjectType>
+  <RequiredProductVersions>EP7</RequiredProductVersions>
+  <FeedbackFunction>GetGemCutFromMachineFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Owner is $Age</Name>
+  <Id>640</Id>
+  <Category>Aging</Category>
+  <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+  <SubjectType>Age</SubjectType>
+  <FeedbackFunction>OwnerIsAgeFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Owner is $Age or older</Name>
+  <Id>641</Id>
+  <Category>Aging</Category>
+  <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+  <SubjectType>Age</SubjectType>
+  <FeedbackFunction>OwnerIsAgeOrOlderFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Owner is $Age or younger</Name>
+  <Id>642</Id>
+  <Category>Aging</Category>
+  <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+  <SubjectType>Age</SubjectType>
+  <FeedbackFunction>OwnerIsAgeOrYoungerFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Earn $n from selling harvestables (With Grocery Bonus)</Name>
+  <Id>643</Id>
+  <Category>Harvestables</Category>
+  <TriggerEvent>kSoldProduce</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <FeedbackFunction>MadeNSimoleonsFromSellingAnyIngredient</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Kiss Under Mistletoe</Name>
+  <Id>235230411</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kKissedUnderMistletoe</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Grill With Snow On The Ground</Name>
+  <Id>235230766</Id>
+  <Category>Weather</Category>
+  <TriggerEvent>kGrilled</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+  <FeedbackFunction>IsSnowOnTheGroundFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Swin In The Ocean During Winter</Name>
+  <Id>235230770</Id>
+  <Category>Weather</Category>
+  <TriggerEvent>kSwimming</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+  <FeedbackFunction>IsWinterFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Throw A Pool Party During Winter</Name>
+  <Id>235230773</Id>
+  <Category>Weather</Category>
+  <TriggerEvent>kSchedulePoolParty</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+  <FeedbackFunction>IsWinterFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Collect Festival Tickets</Name>
+  <Id>235230778</Id>
+  <Category>Festivals</Category>
+  <TriggerEvent>kCollectedFestivalTickets</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Cash In Festival Tickets</Name>
+  <Id>235230781</Id>
+  <Category>Festivals</Category>
+  <TriggerEvent>kRedeemFestivalTickets</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Win Hot Dog Eating Contest</Name>
+  <Id>235230917</Id>
+  <Category>Festivals</Category>
+  <TriggerEvent>kWinHotdogContest</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Win Pie Eating Contest</Name>
+  <Id>235230920</Id>
+  <Category>Festivals</Category>
+  <TriggerEvent>kWinPieContest</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Carve A Pumpkin</Name>
+  <Id>235230922</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kCarvedPumpkin</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Smash A Pumpkin</Name>
+  <Id>235230926</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kStompedPumpkin</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Build An Igloo</Name>
+  <Id>235230929</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kBuiltIgloo</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Build A Snowman</Name>
+  <Id>235230932</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kBuiltSnowman</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Make A Snow Angel</Name>
+  <Id>235230940</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kMadeSnowAngel</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Throw Gift Party</Name>
+  <Id>235230950</Id>
+  <Category>Parties (EP8)</Category>
+  <TriggerEvent>kGiftGivingPartyScheduled</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Throw Costume Party</Name>
+  <Id>235230953</Id>
+  <Category>Parties (EP8)</Category>
+  <TriggerEvent>kCostumePartyScheduled</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Throw Feast Party</Name>
+  <Id>235230957</Id>
+  <Category>Parties (EP8)</Category>
+  <TriggerEvent>kFeastPartyScheduled</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Throw Pool Party</Name>
+  <Id>235230961</Id>
+  <Category>Parties (EP8)</Category>
+  <TriggerEvent>kSchedulePoolParty</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>WooHoo In Leaf Pile</Name>
+  <Id>235230964</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kWoohooInLeafPile</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>WooHoo In Igloo</Name>
+  <Id>235230967</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kWooHooed</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+  <FeedbackFunction>IsInIglooFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Died From Fire</Name>
+  <Id>235230971</Id>
+  <Category>Death (EP8)</Category>
+  <TriggerEvent>kSimDied</TriggerEvent>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <FeedbackFunction>DiedByFireFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Died From Cold</Name>
+  <Id>235230973</Id>
+  <Category>Death (EP8)</Category>
+  <TriggerEvent>kSimDied</TriggerEvent>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <FeedbackFunction>DiedByColdFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Cannonball Off Diving Board</Name>
+  <Id>235230976</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kCannonballInPool</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Win At Bobbing For Apples</Name>
+  <Id>235230979</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kWinAppleBobbingContest</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Win At Horseshoes</Name>
+  <Id>235230982</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kWinHorseshoes</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Win Snow Ball Fight</Name>
+  <Id>235230985</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kWinSnowballFight</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Win Water Balloon Fight</Name>
+  <Id>235230988</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kWinWaterBalloonFight</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Tour Haunted House</Name>
+  <Id>235230991</Id>
+  <Category>Festivals</Category>
+  <TriggerEvent>kBravedHauntedHouse</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Get Face Painted</Name>
+  <Id>235230993</Id>
+  <Category>Festivals</Category>
+  <TriggerEvent>kHaveFacePainted</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Eat A Snow Cone</Name>
+  <Id>235230996</Id>
+  <Category>Festivals</Category>
+  <TriggerEvent>kEatSnowCone</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Dance At Spring Festival</Name>
+  <Id>235230999</Id>
+  <Category>Festivals</Category>
+  <TriggerEvent>kDanceAtSpringFestival</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Win Spring Festival</Name>
+  <Id>235231002</Id>
+  <Category>Festivals</Category>
+  <TriggerEvent>kWinSpringFestival</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Reach A Wedding Anniversary</Name>
+  <Id>235231005</Id>
+  <Category>Family (EP8)</Category>
+  <TriggerEvent>kWeddingAnniversary</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Have A Tan For Several Days In A Row</Name>
+  <Id>235231007</Id>
+  <Category>Weather</Category>
+  <TriggerEvent>kBronzed</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Get Stuffed At Feast Party</Name>
+  <Id>235231010</Id>
+  <Category>Parties (EP8)</Category>
+  <TriggerEvent>kGotBuff</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+  <FeedbackFunction>GetStuffedBuffAtFeastPartyFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Set Off A Firework</Name>
+  <Id>235231013</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kSetOffAnyFirework</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Trick Or Treat</Name>
+  <Id>235231016</Id>
+  <Category>Socialization (EP8)</Category>
+  <TriggerEvent>kWentTrickOrTreating</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Take Holiday Photo</Name>
+  <Id>235231019</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kTookHolidayGreetingCardPhoto</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Share Holiday Photo</Name>
+  <Id>235231021</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kSharedHolidayGreetingCardPhoto</TriggerEvent>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Call In Sick To Work</Name>
+  <Id>235231024</Id>
+  <Category>Career (EP8)</Category>
+  <TriggerEvent>kCallInSick</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Find Any Egg In Egg Hunt</Name>
+  <Id>235231028</Id>
+  <Category>Festivals</Category>
+  <TriggerEvent>kFoundAnyEgg</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Collect A Wild Flower</Name>
+  <Id>235231031</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kCollectedWildFlower</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Attend Summer Festival</Name>
+  <Id>235231033</Id>
+  <Category>Festivals</Category>
+  <TriggerEvent>kAttendedSummerFestival</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Attend Spring Festival</Name>
+  <Id>235231037</Id>
+  <Category>Festivals</Category>
+  <TriggerEvent>kAttendedSpringFestival</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Attend Winter Festival</Name>
+  <Id>235231039</Id>
+  <Category>Festivals</Category>
+  <TriggerEvent>kAttendedWinterFestival</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Attend Fall Festival</Name>
+  <Id>235231042</Id>
+  <Category>Festivals</Category>
+  <TriggerEvent>kAttendedFallFestival</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Place Blueprints</Name>
+  <Id>235231046</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kPlacedBlueprint</TriggerEvent>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Have All Seasonal Gnomes</Name>
+  <Id>235231050</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kReceivedSeasonalGnome</TriggerEvent>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+  <FeedbackFunction>HasAllSeasonalGnomesFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Use Weather Machine</Name>
+  <Id>235231053</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kUsedWeatherMachine</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Meet An Alien</Name>
+  <Id>235231055</Id>
+  <Category>Aliens (EP8)</Category>
+  <TriggerEvent>kMetSim</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+  <FeedbackFunction>IsAlienFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Woohoo With An Alien</Name>
+  <Id>235231058</Id>
+  <Category>Aliens (EP8)</Category>
+  <TriggerEvent>kWooHooed</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <FeedbackFunction>IsAlienFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have An Alien Baby</Name>
+  <Id>235231060</Id>
+  <Category>Aliens (EP8)</Category>
+  <TriggerEvent>kHadBaby</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+  <FeedbackFunction>HadAlienBabyFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Abduct A Sim</Name>
+  <Id>235231063</Id>
+  <Category>Aliens (EP8)</Category>
+  <TriggerEvent>kAbductSimUFO</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Invade A Community Lot</Name>
+  <Id>235231066</Id>
+  <Category>Aliens (EP8)</Category>
+  <TriggerEvent>kInvadeCommunityLotUFO</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Go To Space</Name>
+  <Id>235231069</Id>
+  <Category>Aliens (EP8)</Category>
+  <TriggerEvent>kTravelToSpaceUFO</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Send Love Letter</Name>
+  <Id>235231072</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kSendLoveLetterToSim</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Receive Love Letter</Name>
+  <Id>235231074</Id>
+  <Category>Objects (EP8)</Category>
+  <TriggerEvent>kGetLoveLetterFromSim</TriggerEvent>
+  <RequiredProductVersions>EP8</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Complete $n Ground Murals</Name>
+  <Id>644</Id>
+  <Category>Street Art</Category>
+  <TriggerEvent>kCompletedGroundMural</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>GenericChallengeCountFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Complete $n Wall Murals</Name>
+  <Id>645</Id>
+  <Category>Street Art</Category>
+  <TriggerEvent>kCompletedWallMural</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>GenericChallengeCountFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Complete $n Ground Mural Masterpieces</Name>
+  <Id>646</Id>
+  <Category>Street Art</Category>
+  <TriggerEvent>kCompletedGroundMural</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>GenericChallengeCountFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Complete $n Wall Mural Masterpieces</Name>
+  <Id>647</Id>
+  <Category>Street Art</Category>
+  <TriggerEvent>kCompletedWallMural</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>GenericChallengeCountFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Clean up Graffiti $n Times</Name>
+  <Id>648</Id>
+  <Category>Street Art</Category>
+  <TriggerEvent>kCleanUpGraffiti</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>GenericChallengeCountFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>$n epic science fails</Name>
+  <Id>649</Id>
+  <Category>Science Skill</Category>
+  <TriggerEvent>kEpicScienceFail</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>EpicScienceFailFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Earn $n simoleons for correlating data</Name>
+  <Id>650</Id>
+  <Category>Science Skill</Category>
+  <TriggerEvent>kEarnedSimoleonsFromData</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>EarnedSimoleonsFromDataFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Add $Harvestable to Meal(Herbs Only)</Name>
+  <Id>651</Id>
+  <Category>Gardening</Category>
+  <TriggerEvent>kAddedHerbToFood</TriggerEvent>
+  <SubjectType>Harvestable</SubjectType>
+  <AcceptsNumber>False</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>HarvestableMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Add $Harvestable to Bonfire(Herbs Only)</Name>
+  <Id>652</Id>
+  <Category>Gardening</Category>
+  <TriggerEvent>kAddedHerbToBonfire</TriggerEvent>
+  <SubjectType>Harvestable</SubjectType>
+  <AcceptsNumber>False</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>HarvestableMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Photosynthesize $n times</Name>
+  <Id>653</Id>
+  <Category>Plant Sim</Category>
+  <TriggerEvent>kPhotosynthesize</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>GenericChallengeCountFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Flower Kiss $n Sims</Name>
+  <Id>654</Id>
+  <Category>Plant Sim</Category>
+  <TriggerEvent>kFlowerKiss</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>GenericChallengeCountFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Eat $n Plantables</Name>
+  <Id>655</Id>
+  <Category>Plant Sim</Category>
+  <TriggerEvent>kEatIngredient</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>EatPlantCountFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Sell a Blog for $n Simoleans</Name>
+  <Id>656</Id>
+  <Category>SocialNetworking Skill</Category>
+  <TriggerEvent>kBlogSellForSimoleans</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>MakeXFromABlogApp</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Sell $n different 5-Star blogs</Name>
+  <Id>657</Id>
+  <Category>SocialNetworking Skill</Category>
+  <TriggerEvent>kBlogSell</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>SellNFiveStarBlogs</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have created a 5-Star blog of each type</Name>
+  <Id>658</Id>
+  <Category>SocialNetworking Skill</Category>
+  <TriggerEvent>kCreatedFiveStarBlogEachType</TriggerEvent>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Work At Home $n Times</Name>
+  <Id>659</Id>
+  <Category>Career,GameDeveloper</Category>
+  <TriggerEvent>kGameDevWorkAtHome</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>GenericChallengeCountFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Attend $n Video Game Conventions</Name>
+  <Id>660</Id>
+  <Category>Career,GameDeveloper</Category>
+  <TriggerEvent>kGameDevAttendVideoGameConvention</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>GenericChallengeCountFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Spend $n simoleans at Barista Bar Then Crunch At Work</Name>
+  <Id>661</Id>
+  <Category>Career,GameDeveloper</Category>
+  <TriggerEvent>kGameDevBarThenCrunch</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>BaristaBarWorkCrunch</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Complete $AcademicDegreeName Degree</Name>
+  <Id>662</Id>
+  <Category>Career</Category>
+  <TriggerEvent>kCommittedDegreeProgress</TriggerEvent>
+  <SubjectType>AcademicDegreeName</SubjectType>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>CompleteADegree</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Complete Opportunity of $OpportunityType</Name>
+  <Id>663</Id>
+  <Category>Opportunities</Category>
+  <TriggerEvent>kOpportunityCompleted</TriggerEvent>
+  <SubjectType>OpportunityType</SubjectType>
+  <FeedbackFunction>CompletedOpportunityOfType</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Clone $Sim from sample</Name>
+  <Id>664</Id>
+  <Category>Science Skill</Category>
+  <TriggerEvent>kClonedSim</TriggerEvent>
+  <SubjectType>Sim</SubjectType>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>SimDescriptionMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Present Business Plan $n times</Name>
+  <Id>665</Id>
+  <Category>Career</Category>
+  <TriggerEvent>kPresentedBusinessPlan</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+  <FeedbackFunction>GenericChallengeCountFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Play Online Game</Name>
+  <Id>667</Id>
+  <Category>Misc Interactions</Category>
+  <TriggerEvent>kPlayedOnlineGame</TriggerEvent>
+  <RequiredProductVersions>EP9</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Open an EP10 Treasure Chest</Name>
+  <Id>255796809</Id>
+  <Category>Objects (EP10)</Category>
+  <TriggerEvent>kOpenEP10TreasureChest</TriggerEvent>
+  <RequiredProductVersions>EP10</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Find an Uncharted Island</Name>
+  <Id>255796821</Id>
+  <Category>Islands (EP10)</Category>
+  <TriggerEvent>kDiscoveredUnchartedIsland</TriggerEvent>
+  <RequiredProductVersions>EP10</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Collect a $SeashellType</Name>
+  <Id>255796857</Id>
+  <Category>Collecting (EP10)</Category>
+  <TriggerEvent>kShellCollected</TriggerEvent>
+  <SubjectType>SeashellType</SubjectType>
+  <RequiredProductVersions>EP10</RequiredProductVersions>
+  <FeedbackFunction>SeashellTypeMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Collect a $SeashellRarity Seashell</Name>
+  <Id>255796864</Id>
+  <Category>Collecting (EP10)</Category>
+  <TriggerEvent>kShellCollected</TriggerEvent>
+  <SubjectType>SeashellRarity</SubjectType>
+  <RequiredProductVersions>EP10</RequiredProductVersions>
+  <FeedbackFunction>SeashellRarityMatchesSubjectFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Throw Party on a Houseboat</Name>
+  <Id>255799469</Id>
+  <Category>Parties (EP10)</Category>
+  <TriggerEvent>kPartyBegan</TriggerEvent>
+  <RequiredProductVersions>EP10</RequiredProductVersions>
+  <FeedbackFunction>PartyLotIsHouseboatLotFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have an $n Star Resort or Higher</Name>
+  <Id>255800039</Id>
+  <Category>Resorts (EP10)</Category>
+  <TriggerEvent>kResortRatingUpdated</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP10</RequiredProductVersions>
+  <FeedbackFunction>ResortIsNStarsOrHigherFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have an $n Star Resort (exactly)</Name>
+  <Id>255800666</Id>
+  <Category>Resorts (EP10)</Category>
+  <TriggerEvent>kResortRatingUpdated</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP10</RequiredProductVersions>
+  <FeedbackFunction>ResortIsNStarsFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Woohoo with $Occult</Name>
+  <Id>256050823</Id>
+  <Category>Socials</Category>
+  <TriggerEvent>kWooHooed</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <FeedbackFunction>IsTargetSubjectOccultFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Move a single-sim household onto a private island</Name>
+  <Id>256053485</Id>
+  <Category>Islands (EP10)</Category>
+  <TriggerEvent>kMovedIntoLot</TriggerEvent>
+  <SatisfiableByThirdParty>True</SatisfiableByThirdParty>
+  <RequiredProductVersions>EP10</RequiredProductVersions>
+  <FeedbackFunction>HermitCrabFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Have an $n Star Resort or Lower</Name>
+  <Id>256145919</Id>
+  <Category>Resorts (EP10)</Category>
+  <TriggerEvent>kResortRatingUpdated</TriggerEvent>
+  <AcceptsNumber>True</AcceptsNumber>
+  <RequiredProductVersions>EP10</RequiredProductVersions>
+  <FeedbackFunction>ResortIsNStarsOrLowerFeedbackFunction</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Win a fight with a shark</Name>
+  <Id>256145923</Id>
+  <Category>Islands (EP10)</Category>
+  <TriggerEvent>kWonFightWithShark</TriggerEvent>
+  <RequiredProductVersions>EP10</RequiredProductVersions>
+ </Sheet1>
+<Sheet1>
+  <Name>Give Birth to $Occult Baby</Name>
+  <Id>261239019</Id>
+  <Category>Occult</Category>
+  <TriggerEvent>kHadBaby</TriggerEvent>
+  <SubjectType>Occult</SubjectType>
+  <FeedbackFunction>NewBabyIsOccult</FeedbackFunction>
+ </Sheet1>
+<Sheet1>
+  <Name>Complete scorching fire walk</Name>
+  <Id>262113193</Id>
+  <Category>Resorts (EP10)</Category>
+  <TriggerEvent>kSoleSurvivorAchievement</TriggerEvent>
+  <RequiredProductVersions>EP10</RequiredProductVersions>
+ </Sheet1>
+</CircumstancePrimitives>

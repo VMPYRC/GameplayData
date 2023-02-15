@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kWidgetTuning>
+      <TuningView>
+        <MinDistanceToView value="1">
+          <!--Minimum Distance at which the Sim will watch the painting. Positive float.-->
+        </MinDistanceToView>
+        <MaxDistanceToView value="1.5">
+          <!--Maximum Distance at which the Sim will watch the painting. Positive float.-->
+        </MaxDistanceToView>
+      </TuningView>
+      <EnvironmentTuning>
+        <EnvironmentScore value="1">
+          <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+        </EnvironmentScore>
+      </EnvironmentTuning>
+      <EnvironmentMultiplier value="3,6">
+        <!--Environment multiplier for this type of widget.  Format: (multiplierForImproved, multiplierforMasterful).  Set either of these to 1 to have no effect.-->
+      </EnvironmentMultiplier>
+      <CostMultiplier value="2.5,4">
+        <!--Cost multiplier for this type of widget.  Format: (multiplierForImproved, multiplierforMasterful).  Set either of these to 1 to have no effect.-->
+      </CostMultiplier>
+      <OnDurationInMinutes value="15,45">
+        <!--Amount of time this type of widget is in its 'on' state (i.e. animating) before transitioning to 'off'.  Format: (minOnMinutes, maxOnMinutes).  A number between these 2 values is randomly chosen each time the widget is turned on.  FYI, these numbers are only valid when the Widget is animating on its own (i.e. the Player has *not* explicitly set the Widget to 'on' via the immediate interactions).-->
+      </OnDurationInMinutes>
+      <OffDurationInMinutes value="15,25">
+        <!--Amount of time this type of widget is in its 'off' state (i.e. non-animating) before transitioning to 'on'.  Format: (minOffMinutes, maxOffMinutes).  A number between these 2 values is randomly chosen each time the widget is turned off.-->
+      </OffDurationInMinutes>
+    </kWidgetTuning>
+  </Current_Tuning>
+</base>

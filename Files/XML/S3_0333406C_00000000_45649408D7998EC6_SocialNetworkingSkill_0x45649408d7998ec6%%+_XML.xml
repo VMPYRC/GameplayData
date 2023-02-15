@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumberBlogBaron value="5">
+      <!--The number of blogs to sell to become a blog baron-->
+    </kNumberBlogBaron>
+    <kNumberProfessionalGreetings value="25">
+      <!--The number of sims to meet with the Sim Finder to become a professional greeter-->
+    </kNumberProfessionalGreetings>
+    <kNumberMatchmaker value="30">
+      <!--The number of sims to modify the relationship of with the transmogrify app to become a match maker-->
+    </kNumberMatchmaker>
+    <kLevelChangeBlogType value="3">
+      <!--The level required for the Change Blog type button to be enabled-->
+    </kLevelChangeBlogType>
+    <kMinFollowerDecreaseFromChangeBlogType value="0.30">
+      <!--The minimum percentage change in followers for changing blog types-->
+    </kMinFollowerDecreaseFromChangeBlogType>
+    <kMaxFollowerDecreaseFromChangeBlogType value="0.30">
+      <!--The maximum percentage change in followers for changing blog types-->
+    </kMaxFollowerDecreaseFromChangeBlogType>
+    <kSkillGainForPostingBlogs value="250">
+      <!--The skill gain from posting blogs-->
+    </kSkillGainForPostingBlogs>
+    <kSkillRequiredForPersonalBlog value="1">
+      <!--The skill required to write a personal blog-->
+    </kSkillRequiredForPersonalBlog>
+    <kSkillRequiredForReviewerBlog value="3">
+      <!--The skill required to write a reviewer blog-->
+    </kSkillRequiredForReviewerBlog>
+    <kSkillRequiredForNewsBlog value="5">
+      <!--The skill required to write a news blog-->
+    </kSkillRequiredForNewsBlog>
+    <kSimFinderSocialNetworkingSkill value="400">
+      <!--Social networking skill granted for using the sim finder-->
+    </kSimFinderSocialNetworkingSkill>
+    <kNumberPersonalFluffNames value="8">
+      <!--Number of personal fluff names-->
+    </kNumberPersonalFluffNames>
+    <kNumberPersonalTopicNames value="2">
+      <!--Number of personal topic names-->
+    </kNumberPersonalTopicNames>
+    <kNumberReviewerFluffNames value="8">
+      <!--Number of reviewer fluff names-->
+    </kNumberReviewerFluffNames>
+    <kNumberReviewerTopicNames value="2">
+      <!--Number of reviewer topic names-->
+    </kNumberReviewerTopicNames>
+    <kNumberNewsFluffNames value="8">
+      <!--Number of news fluff names-->
+    </kNumberNewsFluffNames>
+    <kNumberNewsTopicNames value="2">
+      <!--Number of news topic names-->
+    </kNumberNewsTopicNames>
+    <kBackgroundNames value="blog_background01, blog_background02, blog_background03">
+      <!--Background Image names for the blog types: Personal, Reviewer, News (These need to be base game)-->
+    </kBackgroundNames>
+    <kFollowerBonusThreshold value="49, 299, 499, 1249">
+      <!--Follower bonus tooltip thresholds. There needs to be a HAL string Gameplay/Blog/Tooltip:Follower[0-n] for each threshold. Max needs to be last-->
+    </kFollowerBonusThreshold>
+    <kFollowerStarsThreshold value="20, 50, 150, 300, 500, 750, 1000, 1250, 1500, 2000">
+      <!--Follower star rating. There needs to be a ten of these for five star blog with half increment stars.-->
+    </kFollowerStarsThreshold>
+    <kMinNumberNewFollowersFromPost value="-10">
+      <!--Min Number of new followers from a post-->
+    </kMinNumberNewFollowersFromPost>
+    <kMaxNumberNewFollowersFromPost value="15">
+      <!--Max Number of new followers from a post-->
+    </kMaxNumberNewFollowersFromPost>
+    <kMinNumberMinsForFollowerDecay value="360">
+      <!--Min Number of mins before we loose the followers from slow decay rates-->
+    </kMinNumberMinsForFollowerDecay>
+    <kMaxNumberMinsForFollowerDecay value="720">
+      <!--Max  Number of mins before we loose the followers from slow decay rates-->
+    </kMaxNumberMinsForFollowerDecay>
+    <kMinNumberOfFollowersToLooseFromSlowDecay value="0">
+      <!--Min Number of followers to loose from the slow decay-->
+    </kMinNumberOfFollowersToLooseFromSlowDecay>
+    <kMaxNumberOfFollowersToLooseFromSlowDecay value="8">
+      <!--Max Number of followers to loose from the slow decay-->
+    </kMaxNumberOfFollowersToLooseFromSlowDecay>
+    <kMinNumberMinsForNotPosting value="2880">
+      <!--Min Number of mins before we loose the followers from not posting-->
+    </kMinNumberMinsForNotPosting>
+    <kMaxNumberMinsForNotPosting value="4320">
+      <!--Max  Number of mins before we loose the followers from not posting-->
+    </kMaxNumberMinsForNotPosting>
+    <kMinNumberOfFollowersToLooseFromNotPosting value="8">
+      <!--Min Number of followers to loose from the slow decay-->
+    </kMinNumberOfFollowersToLooseFromNotPosting>
+    <kMaxNumberOfFollowersToLooseFromNotPosting value="60">
+      <!--Max Number of followers to loose from the slow decay-->
+    </kMaxNumberOfFollowersToLooseFromNotPosting>
+    <kFollowerEffectInfluence value="500">
+      <!--Range 1+ :The follower count divisor for follower effects on improved social group influence-->
+    </kFollowerEffectInfluence>
+    <kFollowerEffectProtests value="300">
+      <!--Range 1+ :The follower count divisor for follower effects when scheduling protests. Note max attendance score is 100.-->
+    </kFollowerEffectProtests>
+    <kFollowerEffectDonations value="20000">
+      <!--Range 1+ :The follower count divisor for follower effects when collecting donations and buyouts-->
+    </kFollowerEffectDonations>
+    <kMinFollowersSocialiteSkillPersonal value="0">
+      <!--The min number of followers gained from the socialite skill on a personal blog-->
+    </kMinFollowersSocialiteSkillPersonal>
+    <kMaxFollowersSocialiteSkillPersonal value="0">
+      <!--The max number of followers gained from the socialite skill on a personal blog-->
+    </kMaxFollowersSocialiteSkillPersonal>
+    <kMinFollowersRebelSkillReviewer value="0">
+      <!--The min number of followers gained from the rebel skill on a reviewer blog-->
+    </kMinFollowersRebelSkillReviewer>
+    <kMaxFollowersRebelSkillReviewer value="0">
+      <!--The max number of followers gained from the rebel skill on a reviewer blog-->
+    </kMaxFollowersRebelSkillReviewer>
+    <kMinFollowersNerdSkillNews value="0">
+      <!--The min number of followers gained from the nerd skill on a news blog-->
+    </kMinFollowersNerdSkillNews>
+    <kMaxFollowersNerdSkillNews value="0">
+      <!--The max number of followers gained from the nerd skill on a news blog-->
+    </kMaxFollowersNerdSkillNews>
+    <kPersonalTraitsFollowers value="Irresistible, Charismatic, Flirty, Friendly, PartyAnimal, HopelessRomantic, ComputerWhiz, Loner, MeanSpirited">
+      <!--Description:  Traits that will add followers to a personal blog.-->
+    </kPersonalTraitsFollowers>
+    <kPersonalValuesFollowersMax value="3, 3, 3, 3, 3, 3, 3, -3, -3">
+      <!--Description:  Max added follower values for the traits that will add followers to a personal blog-->
+    </kPersonalValuesFollowersMax>
+    <kPersonalValuesFollowersMin value="0, 0, 0, 0, 0, 0, 0, 0, 0">
+      <!--Description:  Min added follower values for the traits that will add followers to a personal blog-->
+    </kPersonalValuesFollowersMin>
+    <kReviewerTraitsFollowers value="Artistic, EasilyImpressed, AvantGarde, Perfectionist, Schmoozer, Frugal, ComputerWhiz, Slob, CouchPotato">
+      <!--Description:  Traits that will add followers to a reviewer blog.-->
+    </kReviewerTraitsFollowers>
+    <kReviewerValuesFollowersMax value="3, 3, 3, 3, 3, 3,3, -3, -3">
+      <!--Description:  Max added follower values for the traits that will add followers to a reviewer blog-->
+    </kReviewerValuesFollowersMax>
+    <kReviewerValuesFollowersMin value="0, 0, 0, 0, 0, 0, 0, 0, 0">
+      <!--Description:  Min added follower values for the traits that will add followers to a reviewer blog-->
+    </kReviewerValuesFollowersMin>
+    <kNewsTraitsFollowers value="Bookworm, Brave, Daredevil, Genius, Lucky, Ambitious, ComputerWhiz, CouchPotato">
+      <!--Description:  Traits that will add followers to a news blog.-->
+    </kNewsTraitsFollowers>
+    <kNewsValuesFollowersMax value="3, 3, 3, 3, 3, 3, 3, -3">
+      <!--Description:  Max added follower values for the traits that will add followers to a news blog-->
+    </kNewsValuesFollowersMax>
+    <kNewsValuesFollowersMin value="0, 0, 0, 0, 0, 0, 0, 0">
+      <!--Description:  Min added follower values for the traits that will add followers to a news blog-->
+    </kNewsValuesFollowersMin>
+    <kMinFollowersGottaBlogAboutBuff value="15">
+      <!--The min number of followers gained when a post is made with the gotta blog about buff-->
+    </kMinFollowersGottaBlogAboutBuff>
+    <kMaxFollowersGottaBlogAboutBuff value="40">
+      <!--The max number of followers gained when a post is made with the gotta blog about buff-->
+    </kMaxFollowersGottaBlogAboutBuff>
+    <kChancePerPostToGetBloggedOut value="15">
+      <!--Range 0-100: The chance per post that the blogger will get the blogged out buff-->
+    </kChancePerPostToGetBloggedOut>
+    <kReducedChanceToGetBloggedOut value="0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9">
+      <!--Range 0-100: The reduction in the chance per post that the blogger will get the blogged out buff when the blogger has the Social Networking Skill-->
+    </kReducedChanceToGetBloggedOut>
+    <kChancePerPostToGetBloggedOutFromTimer value="7">
+      <!--Range 0-100: The increased chance to get blogged out if the blogged out timer is running when we post-->
+    </kChancePerPostToGetBloggedOutFromTimer>
+    <kMinNumberMinsForBloggedOut value="30">
+      <!--Min Number of mins before we increase the percentage to become blogged out-->
+    </kMinNumberMinsForBloggedOut>
+    <kMaxNumberMinsForBloggedOut value="30">
+      <!--Max  Number of mins before we increase the percentage to become blogged out-->
+    </kMaxNumberMinsForBloggedOut>
+    <kMinNumberFollowersLostFromBloggedOut value="5">
+      <!--Min Number of followers to loose from blogging when the sim is blogged out-->
+    </kMinNumberFollowersLostFromBloggedOut>
+    <kMaxNumberFollowersLostFromBloggedOut value="25">
+      <!--Max  Number of followers to loose from blogging when the sim is blogged out-->
+    </kMaxNumberFollowersLostFromBloggedOut>
+    <kMinFollowerChangeForSocialNetworking value="0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8">
+      <!--The change in the min value to add followers for posting when the sim has the Social Networking Skill-->
+    </kMinFollowerChangeForSocialNetworking>
+    <kMaxFollowerChangeForSocialNetworking value="0, 0, 2, 4, 6, 8, 10, 12, 14, 17, 20">
+      <!--The change in the max value to add followers for posting when the sim has the Social Networking Skill-->
+    </kMaxFollowerChangeForSocialNetworking>
+    <kMinNumberFollowersFromWritingSkill value="0">
+      <!--Min Number sims to add as followers if we have the writing skill-->
+    </kMinNumberFollowersFromWritingSkill>
+    <kMaxNumberFollowersFromWritingSkill value="10">
+      <!--Max Number sims to add as followers if we have the writing skill-->
+    </kMaxNumberFollowersFromWritingSkill>
+    <kMinNumberFollowersFromJournalismCareer value="0">
+      <!--Min Number sims to add as followers if we have the journalism career-->
+    </kMinNumberFollowersFromJournalismCareer>
+    <kMaxNumberFollowersFromJournalismCareer value="0">
+      <!--Max Number sims to add as followers if we have the journalism career-->
+    </kMaxNumberFollowersFromJournalismCareer>
+    <kFollowerQualityValues value="-10, -5, 1, 8, 16, 30">
+      <!--Post quality threshold values. Followers less than the lowest value are Offensive. Followers greater than the last value are Amazing. This array has one less element for these bound conditions.: Offensive, Terrible, Bad, Okay, Good, Great, Amazing-->
+    </kFollowerQualityValues>
+    <kChanceForDonationFromTheMail value="0">
+      <!--Range 0-100: The chance that we will get a donation when the mail is delivered-->
+    </kChanceForDonationFromTheMail>
+    <kFollowerThresholdIncreasedDonationChance value="0, 20, 50, 150, 300, 500, 750, 1000, 1250, 1500, 2000">
+      <!--The follower thresholds for an increased chance for a donation based on followers count. Values are in kFollowerValuesIncreasedDonationChance-->
+    </kFollowerThresholdIncreasedDonationChance>
+    <kFollowerValuesIncreasedDonationChance value="0, 0, 35, 40, 45, 50, 55, 60, 65, 70, 75">
+      <!--Range 0-100: The  increased chances for a donation based on followers count for the kFollowerThresholdIncreasedDonationChance-->
+    </kFollowerValuesIncreasedDonationChance>
+    <kMinNumberSimoleansFromDonation value="6">
+      <!--Min number of Simoleans to receive from a donation.-->
+    </kMinNumberSimoleansFromDonation>
+    <kMaxNumberSimoleansFromDonation value="25">
+      <!--Max number of Simoleans to receive from a donation.-->
+    </kMaxNumberSimoleansFromDonation>
+    <kFollowerThresholdIncreasedDonationPayout value="0, 20, 50, 150, 300, 500, 750, 1000, 1250, 1500, 2000">
+      <!--The follower thresholds for an increased max donation amount. Values are in kFollowerValuesIncreasedDonationPayout-->
+    </kFollowerThresholdIncreasedDonationPayout>
+    <kFollowerValuesIncreasedDonationPayout value="0, 0, 15, 30, 50, 100, 150, 200, 300, 500,750">
+      <!--Range 0-100: The  increased chances for a donation based on followers count for the kFollowerThresholdIncreasedDonationPayout-->
+    </kFollowerValuesIncreasedDonationPayout>
+    <kChanceForBuyoutFromTheMail value="40">
+      <!--Range 0-100: The chance that we will get an offer to buy out or blog-->
+    </kChanceForBuyoutFromTheMail>
+    <kMinNumberSimoleansFromBuyout value="2000">
+      <!--Min number of Simoleans to receive from a buyout.-->
+    </kMinNumberSimoleansFromBuyout>
+    <kMaxNumberSimoleansFromBuyout value="4000">
+      <!--Max number of Simoleans to receive from a buyout.-->
+    </kMaxNumberSimoleansFromBuyout>
+    <kStarRatingThresholdIncreasedBuyoutPayout value="0, 0, 0, 0, 0, 0, 0, 0, 4, 4.5, 5">
+      <!--The follower thresholds for an increased min/max buyout amount. Values are in kStarRatingValuesIncreasedBuyoutPayout-->
+    </kStarRatingThresholdIncreasedBuyoutPayout>
+    <kStarRatingValuesIncreasedBuyoutPayout value="0, 0, 0, 0, 0, 0, 0, 0, 0, 1500, 3000">
+      <!--Range 0-100: The  increased min/max values for a buyout based on followers count for the kStarRatingThresholdIncreasedBuyoutPayout-->
+    </kStarRatingValuesIncreasedBuyoutPayout>
+    <kMinPercentFollowersLikePhoto value="0.1">
+      <!--Range 0-1: Min percentage of current follows that will like a photo when uploaded.-->
+    </kMinPercentFollowersLikePhoto>
+    <kMaxPercentFollowersLikePhoto value="1.0">
+      <!--Range 0-1: Max percentage of current follows that will like a photo when uploaded.-->
+    </kMaxPercentFollowersLikePhoto>
+    <kFollowerThresholdCareerBooster value="300, 750, 1250">
+      <!--the career booster threshold based on the number of followers-->
+    </kFollowerThresholdCareerBooster>
+    <kFollowerValueCareerBooster value="2, 3, 4">
+      <!--the career booster value based on each level-->
+    </kFollowerValueCareerBooster>
+    <kMinNumberOfFollowersForBonusCareerChoice value="300">
+      <!--The min number of followers needed to unlock an additional career choice in find Job and UploadResume interactions.-->
+    </kMinNumberOfFollowersForBonusCareerChoice>
+    <kNumGeneralTickerStrings value="4">
+      <!--Range: Int 1+ : Number of general purpose ticker strings.  Entered as Gameplay/Miscellaneous/SmartPhoneApps:TickerGeneral_N-->
+    </kNumGeneralTickerStrings>
+    <kNumThemeTickerStrings value="2">
+      <!--Range: Int 1+ : Number of personal blog ticker strings.  Entered as Gameplay/Miscellaneous/SmartPhoneApps:Ticker(Theme)_N-->
+    </kNumThemeTickerStrings>
+    <kMinNumberFollowersForBuyoutChance value="1250">
+      <!--Min number of followers required to have a any buyout chance-->
+    </kMinNumberFollowersForBuyoutChance>
+    <kMinScalerForPIPs value="1">
+      <!--The minimum value for the scaler on the PIPs effects based on Camera Distance-->
+    </kMinScalerForPIPs>
+    <kMaxScalerForPIPs value="6">
+      <!--The maximum value for the scaler on the PIPs effects based on Camera Distance-->
+    </kMaxScalerForPIPs>
+  </Current_Tuning>
+</base>

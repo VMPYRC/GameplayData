@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinTimeBeforeBlinking value="30">
+      <!--Range: Sim minutes.  Description:  Min time before possibly blinking - PAB.-->
+    </kMinTimeBeforeBlinking>
+    <kMaxTimeBeforeBlinking value="120">
+      <!--Range: Sim minutes.  Description:  Max time before possibly blinking - PAB.-->
+    </kMaxTimeBeforeBlinking>
+    <kPercentageChanceOfBlinking value="25">
+      <!--Percentage: 0-100 Description:  Percentage chance of blinking - PAB.-->
+    </kPercentageChanceOfBlinking>
+    <kFadeOutTime value="0.3">
+      <!--Range: seconds:  time it takes to fade out sim - PAB.-->
+    </kFadeOutTime>
+    <kFadeInTime value="0.3">
+      <!--Range: seconds:  time it takes to fade in sim - PAB.-->
+    </kFadeInTime>
+  </Current_Tuning>
+</base>

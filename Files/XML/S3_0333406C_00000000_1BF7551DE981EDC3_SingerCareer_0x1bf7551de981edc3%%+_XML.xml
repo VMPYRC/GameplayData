@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTalkAboutVocalSkillsUnlockLevel value="5">
+      <!--The Level at which the Talk About Vocal Skills interaction becomes available-->
+    </kTalkAboutVocalSkillsUnlockLevel>
+    <kSellAlbumUnlockLevel value="4">
+      <!--The Level at which the Sell Album interaction becomes available-->
+    </kSellAlbumUnlockLevel>
+    <kSellAlbumPrice value="25">
+      <!--Number of Simoleons a singer receives when selling an album-->
+    </kSellAlbumPrice>
+    <kSellAlbumCooldown value="48">
+      <!--Minimum time after buying an album before the same Sim can buy another album (in Sim hours)-->
+    </kSellAlbumCooldown>
+    <kClientBooksGigLevelMultiplier value="5">
+      <!--The career level contribution to the 'client books gig?' calculation.  A value of 10 means a client is 10% more likely to book a gig for each career level-->
+    </kClientBooksGigLevelMultiplier>
+    <kTalkAboutVocalSkillsXP value="15">
+      <!--Experience gained for Talking About Vocal Skills-->
+    </kTalkAboutVocalSkillsXP>
+    <kXPforSellingAlbum value="8">
+      <!--Experience earned for selling an album-->
+    </kXPforSellingAlbum>
+    <kWatchBroadcasterParams>
+      <PulseRadius value="20">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="20">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kWatchBroadcasterParams>
+    <kTrickBroadcasterParams>
+      <PulseRadius value="12">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="20">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kTrickBroadcasterParams>
+    <kSingerBonusLevel value="8">
+      <!--Range:  Career level.  Description:  Career level in either branch at which the Sim gets a bonus added to performing tricks, making listeners always react positively and have fun.-->
+    </kSingerBonusLevel>
+    <kMaxSongLength value="85">
+      <!--The maximum length of a song, in sim minutes.-->
+    </kMaxSongLength>
+    <kEasySkill value="100">
+      <!--Range: 0 - infinity, Description: Points To Learn Easy SingAGrams-->
+    </kEasySkill>
+    <kMediumSkill value="200">
+      <!--Range: 0 - infinity, Description: Points To Learn Medium SingAGrams-->
+    </kMediumSkill>
+    <kHardSkill value="300">
+      <!--Range: 0 - infinity, Description: Points To Learn Hard SingAGrams-->
+    </kHardSkill>
+    <kChanceToFail value="25">
+      <!--Chance to Fail SingAGram 0-100-->
+    </kChanceToFail>
+    <kChanceToEpicFail value="35">
+      <!--This is the chance to Epic Fail *if* regular fail has already fired 0-100-->
+    </kChanceToEpicFail>
+    <kStartChanceToFailDuringPractice value="65">
+      <!--Chance To Fail When Starting To learn new SingAGram 0-100-->
+    </kStartChanceToFailDuringPractice>
+    <kMinChanceToFail value="10">
+      <!--As they get better they will not drop below this chance of failure 0-100-->
+    </kMinChanceToFail>
+    <kSingagramFailureMultiplier value="0.3">
+      <!--If the singer performs the wrong sing-a-gram, or fails it, their xp and money rewards will be multiplied by this number.  e.g. if this number is .3, they will get 30% of normal rewards-->
+    </kSingagramFailureMultiplier>
+    <kCelebrationEvents value="kCareerNewJob, kCareerGotRaise, kSimAgeTransition, kSearchedGalaxy, kStoppedWorkingOut, kThrewFundraiser, kThrewParty, kCareerRetired, kFinishedHomework, kFinishedSchool">
+      <!--These events will trigger a Celebration Sing-a-Gram-->
+    </kCelebrationEvents>
+    <kCheerUpEvents value="kCareerDemotion, kCareerFired, kRecievedMeanSocial, kWasRobbed, kSimGettingOld, kMournedSim, kLostProSportsGame, kLowFamilyFunds, kSimPassedOut, kCaughtSimCheatingOnMe, kStartMidlifeCrisis">
+      <!--These events will trigger a Cheer Up Sing-a-Gram-->
+    </kCheerUpEvents>
+    <kRomanticEvents value="kMarriage, kHadFirstKiss, kHadFirstRomance, kFlirting, kAskedOnDate, kHadFirstWoohoo, kWooHooed, kGuitarSerenaded">
+      <!--These events will trigger a Romantic Sing-a-Gram-->
+    </kRomanticEvents>
+    <kYouAreSpecialEvents value="kBladderFailure, kDidMeanSocial, kHadBaby, kCareerOpportunity_StayedLate, kAchievedMaximumFitness, kRaisedTonsOfMoney, kWonProSportsGame">
+      <!--These events will trigger a You Are Special Sing-a-Gram-->
+    </kYouAreSpecialEvents>
+    <kCelebrationSpawnTimes value="15, 16, 17, 20, 0, 0, 0, 0, 0, 16">
+      <!--Hours that correspond to the EventTypes in kCelebrationEvents.  Zero means the sing-a-gram will spawn immediately when the event happens.  Otherwise, it will wait until the specified hour of day.-->
+    </kCelebrationSpawnTimes>
+    <kCheerUpSpawnTimes value="18, 19, 0, 8, 10, 0, 0, 0, 0, 0, 14">
+      <!--Hours that correspond to the EventTypes in kCheerUpEvents.  Zero means the sing-a-gram will spawn immediately when the event happens.  Otherwise, it will wait until the specified hour of day.-->
+    </kCheerUpSpawnTimes>
+    <kRomanticSpawnTimes value="17, 0, 0, 0, 0, 0, 0, 0">
+      <!--Hours that correspond to the EventTypes in kRomanticEvents.  Zero means the sing-a-gram will spawn immediately when the event happens.  Otherwise, it will wait until the specified hour of day.-->
+    </kRomanticSpawnTimes>
+    <kYouAreSpecialSpawnTimes value="0, 0, 0, 0, 0, 0, 0">
+      <!--Hours that correspond to the EventTypes in kYouAreSpecialEvents.  Zero means the sing-a-gram will spawn immediately when the event happens.  Otherwise, it will wait until the specified hour of day.-->
+    </kYouAreSpecialSpawnTimes>
+    <kSegmentsBetweenBreaks value="1">
+      <!--When a song is running autonomously, this many Verse/Chorus segments will run between each Song Boost interaction-->
+    </kSegmentsBetweenBreaks>
+    <kSongUnlockLevels value="0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10">
+      <!--Order is Invalid, ThreeChordRock, Disco, Surprise, RockBallad, CountryPopBallad, Rock, LoungeJazz, HipHop, PowerBallad, PopDance-->
+    </kSongUnlockLevels>
+    <kNumLastNames value="50">
+      <!--Number of Last Names in string database-->
+    </kNumLastNames>
+    <kNumMaleFirstNames value="50">
+      <!--Number of Male First Names in string database-->
+    </kNumMaleFirstNames>
+    <kNumFemaleFirstNames value="50">
+      <!--Number of Female First Names in string database-->
+    </kNumFemaleFirstNames>
+    <kAutographLevel value="6">
+      <!--Level at which ask for autograph interaction is available-->
+    </kAutographLevel>
+    <kImprovedSingagramLevel value="5">
+      <!--Career level at which Sing-a-gram audio switches to a more professional-sounding version-->
+    </kImprovedSingagramLevel>
+    <kTrickTuning>
+      <LevelToProvideEnjoyingPerformanceBuff value="5">
+        <!--Range: Int [0,10]. Skill level at which sims listening will get the Enjoying tricks Buff.-->
+      </LevelToProvideEnjoyingPerformanceBuff>
+      <MoodScoreForEnjoyingPerformance value="10">
+        <!--Range: Positive int. How much mood score the Enjoying tricks buff will give.-->
+      </MoodScoreForEnjoyingPerformance>
+      <MoodScoreBonusPerLevelAboveRequirement value="5">
+        <!--Range: Positive int. How much additional mood score to give per skill level above LevelToProvideEnjoyingTricksBuff.-->
+      </MoodScoreBonusPerLevelAboveRequirement>
+      <TimePerTipTest value="5">
+        <!--Time in minutes between tests of whether or not a Sim should tip.-->
+      </TimePerTipTest>
+      <ChanceOfTipPerCareerLevel value="0.05, 0.1, 0.1, 0.1, 0.15, 0.15, 0.15, 0.15, 0.2, 0.25, 0.3">
+        <!--Range: [0..1] Description:  percent chance of being tipped per career level-->
+      </ChanceOfTipPerCareerLevel>
+      <ChanceOfTipPerSkillLevel value="0.05, 0.1, 0.1, 0.1, 0.15, 0.15, 0.15, 0.15, 0.2, 0.25, 0.3">
+        <!--Range: [0..1] Description:  percent chance of being tipped per skill level-->
+      </ChanceOfTipPerSkillLevel>
+      <MoreLikelyToTipMultiplier value="2">
+        <!--Sims who are more likely to tip get this added to base chance.-->
+      </MoreLikelyToTipMultiplier>
+      <TraitsMoreLikelyToTip value="EasilyImpressed, Good">
+        <!--Sims who are more likely to tip.-->
+      </TraitsMoreLikelyToTip>
+      <LessLikelyToTipMultiplier value="0.75">
+        <!--Sims who are less likely to tip get this added to base chance.-->
+      </LessLikelyToTipMultiplier>
+      <TraitsLessLikelyToTip value="Evil, Frugal, Snob">
+        <!--Sims who are less likely to tip.-->
+      </TraitsLessLikelyToTip>
+      <LikingIncreaseForWatchPlaying value="5">
+        <!--Liking increase from watching on perform for tips.-->
+      </LikingIncreaseForWatchPlaying>
+      <MinutesForLikingGain value="30">
+        <!--Sim minutes of watching before a liking increase will occur for perform for tips-->
+      </MinutesForLikingGain>
+      <ReasonsNotToAllowTips value="HigherPriorityNext, BuffFailureState">
+        <!--Exit Reasons which will keep the Sim from getting tips at the end of this interaction.-->
+      </ReasonsNotToAllowTips>
+      <LongestTimeMinutesPerformerWaitsForTips value="15">
+        <!--The longest possible time in minutes that a performer sim will wait for final tips when finished performing for tips.-->
+      </LongestTimeMinutesPerformerWaitsForTips>
+      <PerformForTipsXPEarnedPerMinute value="0.15">
+        <!--At end of Perform for Tips, amount of XP awarded per minute spent performing for tips-->
+      </PerformForTipsXPEarnedPerMinute>
+      <PerformForTipsConeAngleToWatch value="2.0">
+        <!--[PerformForTips Watch] Range in Radians. Cone angle allowed for sim watching game.-->
+      </PerformForTipsConeAngleToWatch>
+      <PerformForTipsMinRadiusToWatch value="2.0">
+        <!--[PerformForTips Watch] The minimum distance away from the performer viewers will watch from.-->
+      </PerformForTipsMinRadiusToWatch>
+      <PerformForTipsPreferredRadiusToWatch value="3.5">
+        <!--[PerformForTips Watch] The preferred distance away from the performer viewers will watch from.-->
+      </PerformForTipsPreferredRadiusToWatch>
+      <PerformForTipsMaxRadiusToWatch value="5.5">
+        <!--[PerformForTips Watch] The maximum distance away from the performer viewers will watch from.-->
+      </PerformForTipsMaxRadiusToWatch>
+      <PerformForTipsMinCareerLevel value="1">
+        <!--The minimum career level before the sim can Perform for Tips-->
+      </PerformForTipsMinCareerLevel>
+      <TipMoneyPerLevel value="10">
+        <!--Base Amount of money given per tipper per performer's career level-->
+      </TipMoneyPerLevel>
+      <BaseChanceOfNegativeReaction value="0.25">
+        <!--[PerformForTips Watch] The base chance that spectators will play negative reactions-->
+      </BaseChanceOfNegativeReaction>
+      <ReactionMultiplierForNegativeLTR value="2">
+        <!--[PerformForTips Watch] if spectator has negative LTR with performer, multiplier to the chance that the spectator will play a negative reaction-->
+      </ReactionMultiplierForNegativeLTR>
+      <ReactionMultiplierForInnapropriateness value="1.5">
+        <!--[PerformForTips Watch] if spectator has inappropriate or insane trait, multiplier to the chance that the spectator will play a negative reaction-->
+      </ReactionMultiplierForInnapropriateness>
+      <PerformForTipsSkillAwardPerMinute value="0.15">
+        <!--At end of Perform for Tips, amount of associated skill points awarded per minute spent performing for tips-->
+      </PerformForTipsSkillAwardPerMinute>
+    </kTrickTuning>
+    <kSongCanUseGuitar value="False, True, False, True, True, True, True, False, False, False, False">
+      <!--Uses same order as kSongUnlockLevels-->
+    </kSongCanUseGuitar>
+    <kPositiveTraits value="Diva, SocialButterfly, Ambitious, NaturalBornPerformer, Charismatic, Virtuoso">
+      <!--Positive trait bonuses-->
+    </kPositiveTraits>
+    <kPositiveBonuses value="0.2, 0.1, 0.1, 0.3, 0.1, 0.25">
+      <!--Positive bonus percentage-->
+    </kPositiveBonuses>
+    <kNegativeTraits value="AbsentMinded, Clumsy, Coward, Loser">
+      <!--Negative trait bonuses-->
+    </kNegativeTraits>
+    <kNegativeBonuses value="-0.1, -0.2, -0.2, -0.2">
+      <!--Negative bonus percentage-->
+    </kNegativeBonuses>
+    <kTalkAboutVocalSkillsFailXP value="4.5">
+      <!--Experience gained for failing to talk About Vocal Skills-->
+    </kTalkAboutVocalSkillsFailXP>
+    <kXPforSellingAlbumFail value="2.4">
+      <!--Experience earned for failing to sell an album-->
+    </kXPforSellingAlbumFail>
+    <kXPPerSongSegment value="8">
+      <!--Career XP granted for each segment of Perform Song.  Can be awarded between 2 and 5 times per song.-->
+    </kXPPerSongSegment>
+    <kSegmentBoostProgress value="0.02">
+      <!--Bonus to performance meter on doing segment interaction. Range 0 - 1-->
+    </kSegmentBoostProgress>
+  </Current_Tuning>
+</base>

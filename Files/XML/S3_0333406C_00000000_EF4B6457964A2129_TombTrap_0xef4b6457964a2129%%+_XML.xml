@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFireRateMinutesOn value="0, 3, 3, 4, 4, 5, 5, 1, 1, 1, 1, 1">
+      <!--Range: Sim Minutes.  Amount of time for the trap to stay firing.  If this is 0, the trap will fire non-stop.-->
+    </kFireRateMinutesOn>
+    <kFireRateMinutesOff value="1, 3, 5, 4, 6, 5, 8, 3, 4, 5, 6, 7">
+      <!--Range: Sim Minutes.  Amount of time for the trap to be off for in between firing.-->
+    </kFireRateMinutesOff>
+    <kChanceWaterTrapCreatesPuddle value="1" />
+    <kMinimumDistanceToWanderOffOfTrap value="2">
+      <!--Range: Meters.  Minimum distance a sim will wander off the trap if they get stuck on one.-->
+    </kMinimumDistanceToWanderOffOfTrap>
+    <kMaximumDistanceToWanderOffOfTrap value="5">
+      <!--Range: Meters.  Maximum distance a sim will wander off the trap if they get stuck on one.-->
+    </kMaximumDistanceToWanderOffOfTrap>
+    <kChanceSimYellsAtTrapBase value="0.3" />
+    <kChanceSimYellsAtTrapTrait value="0.5">
+      <!--Chance for sims with kComplainTraits to complain.-->
+    </kChanceSimYellsAtTrapTrait>
+    <kSimYellsAtTrapTraits value="NoSenseOfHumor, MeanSpirited, HotHeaded">
+      <!--List of traits that makes the sim more likely to yell at the trap.-->
+    </kSimYellsAtTrapTraits>
+    <kFearBuffMoodValues value="0, -15, -15, -15, 0">
+      <!--Mood value for the fear buff per trap type.  The order is (None, Fire, Darts, Electricity, Water)-->
+    </kFearBuffMoodValues>
+    <kMinutesPerCheckConstantFiringTrap value="5">
+      <!--Range: Sim Minutes.  Amount of time a constantly firing trap will check for changes (e.g. puddles on top of it, etc.)-->
+    </kMinutesPerCheckConstantFiringTrap>
+    <kMinimumDistanceToRunOffOfTrap value="0">
+      <!--Range: Meters.  Minimum distance a sim will run off the trap if they get caught by one.-->
+    </kMinimumDistanceToRunOffOfTrap>
+    <kMaximumDistanceToRunOffOfTrap value="2">
+      <!--Range: Meters.  Maximum distance a sim will run off the trap if they get caught by one.-->
+    </kMaximumDistanceToRunOffOfTrap>
+    <kMinimumMinutesToCreatePuddle value="30" />
+  </Current_Tuning>
+</base>

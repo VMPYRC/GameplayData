@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHoursBeforeAutonomyPushesToGoWork value="1">
+      <!--In case we do not have a history of time taken by sim to reach work, autonomy runs an alarm to send the sim to work. Initial GPE default 1.0f-->
+    </kHoursBeforeAutonomyPushesToGoWork>
+    <kChanceToIgnoreCooldownChances value="0, 0, 0, 0.2, 0.5, 1">
+      <!--The chance we will ignore job cooldown for each fallback.  This allows people to get jobs even in small worlds or with eight Sims in the same occupation in the same household, but keeps the distribution of jobs better in regular worlds.  Initial GPE default '0, 0, 0, 0.2f, 0.5f, 1'-->
+    </kChanceToIgnoreCooldownChances>
+    <kJobCooldownListLength value="30">
+      <!--The number of past jobs we remember accross all Sims to avoid creating similar ones too soon. Initial GPE default 30-->
+    </kJobCooldownListLength>
+    <kRetirementCelebrationBroadcasterParams>
+      <PulseRadius value="30">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <PulseRepeatTime value="5">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="20">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="True">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="Cheer, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kRetirementCelebrationBroadcasterParams>
+    <kRetirementCelebrationOwnerSimTuning>
+      <InteractionNameLocalizationKey value="Gameplay/Excel/Idles/Reactions:CheerInteractionName" />
+      <AllowAutonomous value="True" />
+      <Priority value="High" />
+      <CancellableByPlayer value="True" />
+      <Hidden value="False" />
+      <CelebrateAnimations value="Idle, Clap" />
+      <CelebrateAnimationWeights value="1, 5" />
+      <CelebrateAnimationTimes value="5, 5" />
+      <Reactions value="" />
+      <ReactionWeights value="" />
+      <SignImages value="SignPicketYeti" />
+      <RouteToTarget value="True" />
+    </kRetirementCelebrationOwnerSimTuning>
+    <kRetirementCelebrationWitnessTuning>
+      <InteractionNameLocalizationKey value="Gameplay/Excel/Idles/Reactions:CheerInteractionName" />
+      <AllowAutonomous value="True" />
+      <Priority value="High" />
+      <CancellableByPlayer value="True" />
+      <Hidden value="False" />
+      <CelebrateAnimations value="Clap, Cheer, ThrowConfetti, HoldSign, HoldBalloon" />
+      <CelebrateAnimationWeights value="1, 1, 1, 1, 0" />
+      <CelebrateAnimationTimes value="5, 5, 10, 10, 5" />
+      <Reactions value="" />
+      <ReactionWeights value="" />
+      <SignImages value="SignPicketYeti" />
+      <RouteToTarget value="True" />
+    </kRetirementCelebrationWitnessTuning>
+    <kSimBotMinDaysOnJobForRetirement value="20">
+      <!--The number of days a SimBot must be on a job in order to be able to retire from it.-->
+    </kSimBotMinDaysOnJobForRetirement>
+    <kWorkAnniveraryBonusPay value="1000">
+      <!--The amount of bonus pay given to a sim on their work anniversary-->
+    </kWorkAnniveraryBonusPay>
+    <kFakeSickDayCaughtPerfChange value="-25">
+      <!--The change in performance if a Sim is caught calling in fake sick to work.-->
+    </kFakeSickDayCaughtPerfChange>
+    <kFakeSickDayLesserChanceTraits value="Workaholic, OfficeHero, Lucky">
+      <!--If a Sim has any of these traits, will be subtracted from their chance of getting caught.-->
+    </kFakeSickDayLesserChanceTraits>
+    <kFakeSickDayGreaterChanceTraits value="AbsentMinded, Loser, Unlucky">
+      <!--If a Sim has any of these traits, will be added to their chance of getting caught.-->
+    </kFakeSickDayGreaterChanceTraits>
+    <kFakeSickDayCaughtChanceBase value="0.1">
+      <!--Range: 0.0 - 1.0.  The base chance a Sim who called in fake sick to work will get caught.  This check is done once at the end of the work day.-->
+    </kFakeSickDayCaughtChanceBase>
+    <kFakeSickDayCaughtChanceLeftHomeMod value="0.2">
+      <!--Range: 0.0 - 1.0.  This value will be added to the Sim's chance if they leave their home lot during their work hours.-->
+    </kFakeSickDayCaughtChanceLeftHomeMod>
+    <kFakeSickDayCaughtChanceTraitMod value="0.05">
+      <!--Range: 0.0 - 1.0.  This value will be added/subtracted to the Sim's chance of being caught if they have any traits in kFakeSickDayLesserChanceTraits or kFakeSickDayGreaterChanceTraits.-->
+    </kFakeSickDayCaughtChanceTraitMod>
+    <kFakeSickDayCaughtChanceNumSickDaysMod value="0.02">
+      <!--Range: 0.0 - 1.0.  This value will be multiplied by the Sims existing number of sick days taken (fake or real) and added to their caught chance.  This value will be capped at kFakeSickDayCaughtChanceNumSickDaysModCap.-->
+    </kFakeSickDayCaughtChanceNumSickDaysMod>
+    <kFakeSickDayCaughtChanceNumSickDaysModCap value="0.2">
+      <!--Range: 0.0 - 1.0.  The modifier for number of existing sick days will not exceed this value.-->
+    </kFakeSickDayCaughtChanceNumSickDaysModCap>
+  </Current_Tuning>
+</base>

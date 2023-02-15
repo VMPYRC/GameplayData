@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLTRIncreaseOnSuccess value="2">
+      <!--Positive number that will be added to LTR-->
+    </kLTRIncreaseOnSuccess>
+    <kLTRDecreaseOnFail value="2">
+      <!--Positive Number that will be subtracted from LTR-->
+    </kLTRDecreaseOnFail>
+    <kPerformanceChange value="0.1">
+      <!--Benefit (or penalty) of succesfully (or unsuccessfully) performing a trick-->
+    </kPerformanceChange>
+    <kChanceOfSuccessBase value="75">
+      <!--Base change of success-->
+    </kChanceOfSuccessBase>
+    <kChanceOfSuccessBonusTraits value="20">
+      <!--Bonus chance of success if matching traits-->
+    </kChanceOfSuccessBonusTraits>
+    <kFunForStagePerformers value="30">
+      <!--Fun points to give to performer and participant-->
+    </kFunForStagePerformers>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeToSuctionGhost value="10">
+      <!--Range:  0+  Description:  The time, in Sim minutes, it takes for the Sim to suction the ghost before succeeding or failing-->
+    </kTimeToSuctionGhost>
+    <kFailureChanceUnluckyMultiplier value="1.2">
+      <!--Range:  0+  Description:  The chance of failure multiplier for Unlucky Sims-->
+    </kFailureChanceUnluckyMultiplier>
+    <kFailureChanceLoserMultiplier value="1.2">
+      <!--Range:  0+  Description:  The chance of failure multiplier for Loser Sims-->
+    </kFailureChanceLoserMultiplier>
+    <kRelationshipChangeOnFailure value="-10">
+      <!--Range:  0-  Description:  The relationship hit when the Sim fails to banish the ghost-->
+    </kRelationshipChangeOnFailure>
+    <kFailureChanceAtMin value="0.3">
+      <!--Range:  0+  Description:  The chance that the interaction will fail at Ghost Hunter level 0-->
+    </kFailureChanceAtMin>
+    <kFailureChanceAtMax value="0">
+      <!--Range:  0+  Description:  The chance that the interaction will fail at Ghost Hunter max level-->
+    </kFailureChanceAtMax>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+<RealEstate>
+<Venues>
+  <VenueType>kCommercialUndefined</VenueType>
+  <BaseCost>-1</BaseCost>
+  <WeeklyIncomes>0,0,0</WeeklyIncomes>
+  <UpgradeValues>0,0,0</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kFishingSpot</VenueType>
+  <BaseCost>10000</BaseCost>
+  <WeeklyIncomes>1000,1850,3650</WeeklyIncomes>
+  <UpgradeValues>10000,15000,23000</UpgradeValues>
+  <RequiredObjectsLevel2>PicnicTable,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>PicnicTable,2|Toilet,1|Sink,1</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kBigPark</VenueType>
+  <BaseCost>12000</BaseCost>
+  <WeeklyIncomes>1250,2300,4600</WeeklyIncomes>
+  <UpgradeValues>12000,18000,28000</UpgradeValues>
+  <RequiredObjectsLevel1>PicnicTable,1|Grill,1|Sink,1|Toilet,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>SwingSet,1|PicnicTable,3|Sink,2|Toilet,2|Grill,2</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>SwingSet,2|PicnicTable,4|Grill,4|Sink,2|Toilet,2</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kBeach</VenueType>
+  <BaseCost>15000</BaseCost>
+  <WeeklyIncomes>1650,3000,5850</WeeklyIncomes>
+  <UpgradeValues>15000,22000,34000</UpgradeValues>
+  <RequiredObjectsLevel2>LoungeChair,3|PicnicTable,1|Grill,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>LoungeChair,5|PicnicTable,2|Grill,2|Sink,1|Toilet,1</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kGraveyard</VenueType>
+  <BaseCost>25000</BaseCost>
+  <WeeklyIncomes>2650,4600,9000</WeeklyIncomes>
+  <UpgradeValues>25000,35000,55000</UpgradeValues>
+  <RequiredObjectsLevel1>Mausoleum,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Mausoleum,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Mausoleum,2</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kPool</VenueType>
+  <BaseCost>30000</BaseCost>
+  <WeeklyIncomes>3300,5800,11000</WeeklyIncomes>
+  <UpgradeValues>30000,42000,67000</UpgradeValues>
+  <RequiredObjectsLevel1>PoolLadder,1|LoungeChair,1|Sink,1|Toilet,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>PoolLadder,2|LoungeChair,3|Sink,2|Toilet,2</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>PoolLadder,3|LoungeChair,6|Sink,2|Toilet,2</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kLibrary</VenueType>
+  <BaseCost>35000</BaseCost>
+  <WeeklyIncomes>4000,7000,13250</WeeklyIncomes>
+  <UpgradeValues>35000,50000,80000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,1|Toilet,1|Bookshelf,3|Desk,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,2|Toilet,2|Bookshelf,6|Desk,2</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,2|Toilet,2|Bookshelf,12|Desk,4|ChildToy,1|ToddlerToy,1</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kHangout</VenueType>
+  <BaseCost>50000</BaseCost>
+  <WeeklyIncomes>5800,12750,25000</WeeklyIncomes>
+  <UpgradeValues>50000,85000,155000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,1|Toilet,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,2|Toilet,2</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,2|Toilet,2</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kGym</VenueType>
+  <BaseCost>70000</BaseCost>
+  <WeeklyIncomes>8250,17000,31000</WeeklyIncomes>
+  <UpgradeValues>70000,110000,190000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,2|Toilet,2|ExerciseMachine,2|Stereo,1|Bathing,2</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,4|Toilet,4|ExerciseMachine,6|Stereo,2|Bathing,4</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,4|Toilet,4|ExerciseMachine,8|Stereo,2|Bathing,4</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kArtGallery</VenueType>
+  <BaseCost>80000</BaseCost>
+  <WeeklyIncomes>9500,20000,36500</WeeklyIncomes>
+  <UpgradeValues>80000,130000,220000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,1|Toilet,1|PaintingOrSculpture,4</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,2|Toilet,2|PaintingOrSculpture,8</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,2|Toilet,2|PaintingOrSculpture,16</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP2_Laundromat</VenueType>
+  <BaseCost>11000</BaseCost>
+  <WeeklyIncomes>1100,2000,4300</WeeklyIncomes>
+  <UpgradeValues>11000,16500,25500</UpgradeValues>
+  <RequiredObjectsLevel1>Washer,2|Dryer,2|Sink,1|Toilet,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Washer,4|Dryer,4|Sink,2|Toilet,2</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Washer,6|Dryer,6|Sink,2|Toilet,2</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP2_ConsignmentStore</VenueType>
+  <BaseCost>27000</BaseCost>
+  <WeeklyIncomes>2750,4750,10000</WeeklyIncomes>
+  <UpgradeValues>27000,38500,61500</UpgradeValues>
+  <RequiredObjectsLevel1>ConsignmentRegister,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>ConsignmentRegister,1|Toilet,1|Sink,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>ConsignmentRegister,1|Sink,2|Toilet,2</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP1_ChineseGarden</VenueType>
+  <BaseCost>32500</BaseCost>
+  <WeeklyIncomes>3400,6250,12500</WeeklyIncomes>
+  <UpgradeValues>32500,46500,74000</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP1_Dojo</VenueType>
+  <BaseCost>37500</BaseCost>
+  <WeeklyIncomes>4000,7300,14750</WeeklyIncomes>
+  <UpgradeValues>37500,53500,86000</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP1_Nectary</VenueType>
+  <BaseCost>75000</BaseCost>
+  <WeeklyIncomes>9000,18750,35000</WeeklyIncomes>
+  <UpgradeValues>75000,120000,205000</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP3_DiveBarSports</VenueType>
+  <BaseCost>10000</BaseCost>
+  <WeeklyIncomes>1000,1850,3650</WeeklyIncomes>
+  <UpgradeValues>10000,15000,23000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,1|Toilet,1|ProfessionalBar,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,1|Toilet,1|ProfessionalBar,1|TV,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,2|Toilet,2|ProfessionalBar,1|TV,2</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP3_DiveBarIrish</VenueType>
+  <BaseCost>9000</BaseCost>
+  <WeeklyIncomes>1000,1600,3400</WeeklyIncomes>
+  <UpgradeValues>9000,13000,20000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,1|Toilet,1|ProfessionalBar,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,1|Toilet,1|ProfessionalBar,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,1|Toilet,1|ProfessionalBar,1</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP3_DiveBarCriminal</VenueType>
+  <BaseCost>8000</BaseCost>
+  <WeeklyIncomes>900,1400,3000</WeeklyIncomes>
+  <UpgradeValues>8000,11000,18000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,1|Toilet,1|ProfessionalBar,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,1|Toilet,1|ProfessionalBar,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,1|Toilet,1|ProfessionalBar,1</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP3_CocktailLoungeAsian</VenueType>
+  <BaseCost>70000</BaseCost>
+  <WeeklyIncomes>8250,16000,28000</WeeklyIncomes>
+  <UpgradeValues>70000,100000,170000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,2|Toilet,2|ProfessionalBar,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,2|Toilet,2|ProfessionalBar,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,3|Toilet,3|ProfessionalBar,2</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP3_CocktailLoungeVampire</VenueType>
+  <BaseCost>55000</BaseCost>
+  <WeeklyIncomes>6500,17000,30000</WeeklyIncomes>
+  <UpgradeValues>55000,95000,175000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,2|Toilet,2|ProfessionalBar,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,2|Toilet,2|ProfessionalBar,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,3|Toilet,3|ProfessionalBar,2</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP3_CocktailLoungeCelebrity</VenueType>
+  <BaseCost>70000</BaseCost>
+  <WeeklyIncomes>8250,21000,37000</WeeklyIncomes>
+  <UpgradeValues>70000,120000,230000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,2|Toilet,2|ProfessionalBar,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,2|Toilet,2|ProfessionalBar,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,3|Toilet,3|ProfessionalBar,2</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP3_DanceClubRave</VenueType>
+  <BaseCost>30000</BaseCost>
+  <WeeklyIncomes>3300,5800,11000</WeeklyIncomes>
+  <UpgradeValues>30000,42000,67000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,1|Toilet,1|ProfessionalBar,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,2|Toilet,2|ProfessionalBar,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,2|Toilet,2|ProfessionalBar,1</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP3_DanceClubPool</VenueType>
+  <BaseCost>50000</BaseCost>
+  <WeeklyIncomes>5800,12750,25000</WeeklyIncomes>
+  <UpgradeValues>50000,85000,155000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,1|Toilet,1|ProfessionalBar,1|PoolLadder,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,2|Toilet,2|ProfessionalBar,1|PoolLadder,1|HotTub,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,2|Toilet,2|ProfessionalBar,1|PoolLadder,1|HotTub,2</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP3_DanceClubLiveMusic</VenueType>
+  <BaseCost>40000</BaseCost>
+  <WeeklyIncomes>5000,8000,16000</WeeklyIncomes>
+  <UpgradeValues>40000,63000,93000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,1|Toilet,1|ProfessionalBar,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,2|Toilet,2|ProfessionalBar,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,3|Toilet,3|ProfessionalBar,1</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP5_DogPark</VenueType>
+  <BaseCost>12000</BaseCost>
+  <WeeklyIncomes>1250,2300,4600</WeeklyIncomes>
+  <UpgradeValues>12000,18000,28000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,1|Toilet,1|PetBowl,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,2|Toilet,2|PetBowl,2|DogBall,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,3|Toilet,3|PetBowl,3|DogBall,1|PicnicTable,2|Grill,2</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP5_CatJungle</VenueType>
+  <BaseCost>12000</BaseCost>
+  <WeeklyIncomes>1250,2300,4600</WeeklyIncomes>
+  <UpgradeValues>12000,18000,28000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,1|Toilet,1|PetBowl,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,2|Toilet,2|PetBowl,2|ScratchingPost,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,3|Toilet,3|PetBowl,3|ScratchingPost,1|PicnicTable,2|Grill,2</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP5_HorseRanch</VenueType>
+  <BaseCost>15000</BaseCost>
+  <WeeklyIncomes>1650,3000,5850</WeeklyIncomes>
+  <UpgradeValues>15000,22000,34000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,1|Toilet,1|HitchingPost,1|WaterTrough,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,2|Toilet,2|SaltLick,1|HitchingPost,2|WaterTrough,2</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,3|Toilet,3|SaltLick,2|HitchingPost,3|WaterTrough,3|PicnicTable,2|Grill,1|AllHorseJumps,3</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP6_Bistro</VenueType>
+  <BaseCost>9000</BaseCost>
+  <WeeklyIncomes>1000,1600,3400</WeeklyIncomes>
+  <UpgradeValues>9000,13000,20000</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP6_PerformanceClub</VenueType>
+  <BaseCost>30000</BaseCost>
+  <WeeklyIncomes>3300,5800,11000</WeeklyIncomes>
+  <UpgradeValues>30000,42000,67000</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP6_PrivateVenue</VenueType>
+  <BaseCost>55000</BaseCost>
+  <WeeklyIncomes>6500,17000,30000</WeeklyIncomes>
+  <UpgradeValues>55000,95000,175000</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP7_WerewolfBar</VenueType>
+  <BaseCost>9000</BaseCost>
+  <WeeklyIncomes>1000,1600,3400</WeeklyIncomes>
+  <UpgradeValues>9000,13000,20000</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,1|Toilet,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,1|Toilet,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,1|Toilet,1</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP7_PotionShopConsignmentStore</VenueType>
+  <BaseCost>35000</BaseCost>
+  <WeeklyIncomes>2750,4750,10000</WeeklyIncomes>
+  <UpgradeValues>27000,38500,61500</UpgradeValues>
+  <RequiredObjectsLevel1>Sink,1|Toilet,1</RequiredObjectsLevel1>
+  <RequiredObjectsLevel2>Sink,1|Toilet,1</RequiredObjectsLevel2>
+  <RequiredObjectsLevel3>Sink,1|Toilet,1</RequiredObjectsLevel3>
+ </Venues>
+<Venues>
+  <VenueType>kEP9_RebelHangout</VenueType>
+  <BaseCost>9000</BaseCost>
+  <WeeklyIncomes>1000,1600,3400</WeeklyIncomes>
+  <UpgradeValues>9000,13000,20000</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP9_UniversityHangout</VenueType>
+  <BaseCost>8000</BaseCost>
+  <WeeklyIncomes>900,1400,3000</WeeklyIncomes>
+  <UpgradeValues>8000,11000,18000</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP9_NerdShop</VenueType>
+  <BaseCost>10000</BaseCost>
+  <WeeklyIncomes>1000,1850,3650</WeeklyIncomes>
+  <UpgradeValues>10000,15000,23000</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP9_Arcade</VenueType>
+  <BaseCost>8000</BaseCost>
+  <WeeklyIncomes>900,1400,3000</WeeklyIncomes>
+  <UpgradeValues>8000,11000,18000</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP9_CoffeeShop</VenueType>
+  <BaseCost>10000</BaseCost>
+  <WeeklyIncomes>1000,1850,3650</WeeklyIncomes>
+  <UpgradeValues>10000,15000,23000</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP11_BotEmporium</VenueType>
+  <BaseCost>27000</BaseCost>
+  <WeeklyIncomes>2750,4750,10000</WeeklyIncomes>
+  <UpgradeValues>27000,38500,61500</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP11_Cafeteria</VenueType>
+  <BaseCost>8000</BaseCost>
+  <WeeklyIncomes>900,1400,3000</WeeklyIncomes>
+  <UpgradeValues>8000,11000,18000</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP11_GalleryShop</VenueType>
+  <BaseCost>10000</BaseCost>
+  <WeeklyIncomes>2750,4750,10000</WeeklyIncomes>
+  <UpgradeValues>27000,38500,61500</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP11_RecreationPark</VenueType>
+  <BaseCost>12000</BaseCost>
+  <WeeklyIncomes>1250,2300,4600</WeeklyIncomes>
+  <UpgradeValues>12000,18000,28000</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP11_FutureBar</VenueType>
+  <BaseCost>15000</BaseCost>
+  <WeeklyIncomes>3300,5800,11000</WeeklyIncomes>
+  <UpgradeValues>30000,42000,67000</UpgradeValues>
+ </Venues>
+<Venues>
+  <VenueType>kEP10_Resort</VenueType>
+  <BaseCost>10</BaseCost>
+  <WeeklyIncomes>0,0,0</WeeklyIncomes>
+  <UpgradeValues>0,0,0</UpgradeValues>
+ </Venues>
+</RealEstate>

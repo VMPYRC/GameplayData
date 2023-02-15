@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCarTuning>
+      <Speed value="18">
+        <!--Car speed in meters / second (second = Sim minute).-->
+      </Speed>
+      <Acceleration value="5">
+        <!--Car acceleration in meters / second^2 (second = Sim minute).-->
+      </Acceleration>
+    </kCarTuning>
+    <kBillReductionPercentage value="0.05">
+      <!--Range:  0 - 1  Description:  Percent reduction of bills.  We only use the upgrade or the normal.  They do not work together. (.05 will reduce your total bills by 5%)-->
+    </kBillReductionPercentage>
+    <kMinViewDistance value="2">
+      <!--Range:  0 - ?  Description:  Min view distance-->
+    </kMinViewDistance>
+    <kMaxViewDistance value="3">
+      <!--Range:  0 - ?  Description:  Max view distance-->
+    </kMaxViewDistance>
+  </Current_Tuning>
+</base>

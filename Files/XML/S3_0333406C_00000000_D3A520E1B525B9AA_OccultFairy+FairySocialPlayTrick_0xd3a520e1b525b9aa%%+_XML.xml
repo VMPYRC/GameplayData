@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBaseChanceToAcceptSocial value="30">
+      <!--Range [float]:  0.0 - 100.0  Description:  The base chance that the target will 'accept' the social.-->
+    </kBaseChanceToAcceptSocial>
+    <kLowestPossibleChanceToAcceptSocial value="5">
+      <!--Range [float]:  0.0 - 100.0  Description:  The minimal chance that the target will 'accept' the social.  Traits will not take the chance to accept below this value.-->
+    </kLowestPossibleChanceToAcceptSocial>
+    <kHighestPossibleChanceToAcceptSocial value="90">
+      <!--Range [float]:  0.0 - 100.0  Description:  The maximum chance that the target will 'accept' the social.  Traits will not take teh chance to accept above this value.-->
+    </kHighestPossibleChanceToAcceptSocial>
+    <kActorTraitsThatEncourageAcceptanceOfSocial value="">
+      <!--Type: TraitNames  Description:  An array of traits on the Actor [Fairy], that increase the chance of target 'accepting' the social-->
+    </kActorTraitsThatEncourageAcceptanceOfSocial>
+    <kActorChanceModifierForTraitsThatEncourageAcceptance value="5">
+      <!--Range [float]:  0.0 - 100.0  Description:  The amount by which Actor traits increase the chance that the target will 'accept' the social.-->
+    </kActorChanceModifierForTraitsThatEncourageAcceptance>
+    <kActorTraitsThatDiscourageAcceptanceOfSocial value="">
+      <!--Type: TraitNames  Description:  An array of traits on the Actor [Fairy], that decrease the chance of target 'accepting' the social-->
+    </kActorTraitsThatDiscourageAcceptanceOfSocial>
+    <kActorChanceModifierForTraitsThatDiscourageAcceptance value="5">
+      <!--Range [float]:  0.0 - 100.0  Description:  The amount by which Actor traits decrease the chance that the target will 'accept' the social.-->
+    </kActorChanceModifierForTraitsThatDiscourageAcceptance>
+    <kTargetTraitsThatEncourageAcceptanceOfSocial value="Evil, GoodSenseOfHumor, Insane, PartyAnimal, Slob">
+      <!--Type: TraitNames  Description:  An array of traits on the Target [Sim Fairy is trying to socialize with], that increase the chance of target 'accepting' the social-->
+    </kTargetTraitsThatEncourageAcceptanceOfSocial>
+    <kTargetChanceModifierForTraitsThatEncourageAcceptance value="20">
+      <!--Range [float]:  0.0 - 100.0  Description:  The amount by which Target traits increase the chance that the target will 'accept' the social.-->
+    </kTargetChanceModifierForTraitsThatEncourageAcceptance>
+    <kTargetTraitsThatDiscourageAcceptanceOfSocial value="Grumpy, Loser, MeanSpirited, Neurotic, NoSenseOfHumor, OverEmotional, Perfectionist, Snob">
+      <!--Type: TraitNames  Description:  An array of traits on the Target [Sim Fairy is trying to socialize with], that decrease the chance of target 'accepting' the social-->
+    </kTargetTraitsThatDiscourageAcceptanceOfSocial>
+    <kTargetChanceModifierForTraitsThatDiscourageAcceptance value="5">
+      <!--Range [float]:  0.0 - 100.0  Description:  The amount by which Target traits that decrease the chance that the target will 'accept' the social.-->
+    </kTargetChanceModifierForTraitsThatDiscourageAcceptance>
+    <kTargetFunChangeAmount value="20">
+      <!--Range: Positive integers. Description:   Target Fun motive award/penalty for accept/reject respectively.-->
+    </kTargetFunChangeAmount>
+    <kPlayTrickLTRIncrease value="4">
+      <!--LTR increase/decrease for accept/reject of the play trick social.-->
+    </kPlayTrickLTRIncrease>
+    <kPlayTrickSocialDelta value="12">
+      <!--Positive float.  The Social gain for both the actor and the target if social is accepted.-->
+    </kPlayTrickSocialDelta>
+    <kChanceForEmbarrassedSkivvies value="20">
+      <!--Range [float]:  0.0 - 100.0  Description:  The chance that the target will target will get an embarrassed moodlet when skivvies is performed.-->
+    </kChanceForEmbarrassedSkivvies>
+    <kTargetTraitsForEmbarrassedSkivvies value="Coward, Diva, Neurotic, NeverNude, Perfectionist, Shy, Snob, Unlucky">
+      <!--Type: TraitNames  Description:  An array of traits on the Target, that guarantee embarrassed moodlet with Skivvies trick.-->
+    </kTargetTraitsForEmbarrassedSkivvies>
+    <kChanceForNauseousTummy value="20">
+      <!--Range [float]:  0.0 - 100.0  Description:  The chance that the target will get a nauseous moodlet when tummy twister is performed.-->
+    </kChanceForNauseousTummy>
+    <kChanceForHotHeadFullBodySmoke value="20">
+      <!--Range [float]:  0.0 - 100.0  Description:  The chance that the target will emit smoke from entire body when hot head is performed.-->
+    </kChanceForHotHeadFullBodySmoke>
+    <kFairyActorFunChangeAmount value="25">
+      <!--Range: Positive integers. Description:   Actor Fun motive award for doing a fairy trick.-->
+    </kFairyActorFunChangeAmount>
+    <kChanceForSuccess value="75">
+      <!--Range [float]:  0.0 - 100.0  Description:  The chance that the trick will succeed as planned.-->
+    </kChanceForSuccess>
+    <kChanceForSuccessFairySkill value="0, 4, 7, 10, 13, 15, 17, 19, 21, 23, 25">
+      <!--Range [float]:  0.0 - 100.0  Description:  Additional Chance for success based on fairy skill in addition to kChanceForSuccess-->
+    </kChanceForSuccessFairySkill>
+    <kTrickAvailableLevel value="0, 6, 0, 4">
+      <!--Minimum level requirement for each fairy tricks in the enum list: ChatteringTeeth, Skivvies, HotHead, TummyTwister-->
+    </kTrickAvailableLevel>
+    <kRequiredleLevelForFlightOfFelicity value="1">
+      <!--Minimum level requirement for Flight of Felicity-->
+    </kRequiredleLevelForFlightOfFelicity>
+    <kRequiredleLevelForGoldenToad value="7">
+      <!--Minimum level requirement for Golden Toad-->
+    </kRequiredleLevelForGoldenToad>
+    <kRequiredleLevelForInnerBeauty value="10">
+      <!--Minimum level requirement for Inner Beauty-->
+    </kRequiredleLevelForInnerBeauty>
+  </Current_Tuning>
+</base>

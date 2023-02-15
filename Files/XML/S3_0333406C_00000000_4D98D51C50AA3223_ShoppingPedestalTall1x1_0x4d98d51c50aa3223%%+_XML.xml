@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPedestalRoutingTuningClass>
+      <kMinRouteRange value="0.65">
+        <!--Description:  The min range that a Sim will route toward the Pedestal.  Used as a param in the radial route code.-->
+      </kMinRouteRange>
+      <kMaxRouteRange value="1">
+        <!--Description:  The max range that a Sim will route toward the Pedestal.  Used as a param in the radial route code.-->
+      </kMaxRouteRange>
+    </kPedestalRoutingTuningClass>
+    <kObjectSwapEffectName value="ep11ShopAppearSm_main">
+      <!--Name of the VFX effect to play at specified location.-->
+    </kObjectSwapEffectName>
+  </Current_Tuning>
+</base>

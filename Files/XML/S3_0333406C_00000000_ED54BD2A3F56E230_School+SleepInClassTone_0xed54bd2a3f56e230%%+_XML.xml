@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnergyPerSimHour value="20">
+      <!--Range: 0 to 100.0f.  Description:  This tunable value is the amount of energy the Sim will gain per hour while using the 'sleep in ready room' tone.-->
+    </kEnergyPerSimHour>
+    <kPerformanceModifier value="-2" />
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kDetentionChanceIncreasePerMinute value="0.5">
+      <!--Environment hit for a fresh trash pile.-->
+      <!--deprecated on: 3/26/2008 11:11:52 AM-->
+    </kDetentionChanceIncreasePerMinute>
+  </Deprecated_Tuning>
+</base>

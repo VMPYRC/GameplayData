@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kConeAngle value="3.769911">
+      <!--The arc/cone's angle for finding a suitable spot for a sim to watch. Units: Radians. Valid range [0, Pi]. Initial GPE Default: 6(Pi)/5.-->
+    </kConeAngle>
+    <kWatchRouteMinDistance value="1.5">
+      <!--Range:  1.0 - Inf  Description: Minimum distance a sim will route to the scarecrow when they're watching.-->
+    </kWatchRouteMinDistance>
+    <kWatchRouteMaxDistance value="4">
+      <!--Range:  1.0 - Inf  Description: Max distance a sim will route to the scarecrow when they're watching.-->
+    </kWatchRouteMaxDistance>
+    <kWatchRoutePreferredDistance value="2.5">
+      <!--Range:  1.0 - Inf  Description: Preferred distance a sim will route to the scarecrow when they're watching.-->
+    </kWatchRoutePreferredDistance>
+    <kMinRandomAnim value="30">
+      <!--Range:  1.0 - Inf  Description: Min time between random scarecrow animations (scare or run)-->
+    </kMinRandomAnim>
+    <kMaxRandomAnim value="60">
+      <!--Range:  1.0 - Inf  Description: Max time between random scarecrow animations (scare or run)-->
+    </kMaxRandomAnim>
+    <kMaxDistanceToStartle value="8">
+      <!--Range:  1.0 - Inf  Description: Max distance to scare animals when doing the scare animation.-->
+    </kMaxDistanceToStartle>
+    <kBirdPanicTime value="10">
+      <!--Range:  1.0 - Inf  Description: Length of time in minutes for birds to be in their panic state following a scarecrow animation.-->
+    </kBirdPanicTime>
+    <kMaxTimeToWatchScarecrow value="120">
+      <!--Range:  1.0 - Inf  Description: Max length of time in sim minutes that a sim will spend watching the scarecrow.-->
+    </kMaxTimeToWatchScarecrow>
+  </Current_Tuning>
+</base>

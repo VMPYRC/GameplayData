@@ -1,0 +1,2796 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Downloadable Challenges</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>86</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>344525470628758208</EnumValue>
+      <StringEnumValue>HonorStudent</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>87</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/094bbb6e-54b3-4a3a-a3eb-fa275295ff87:Name</NameKey>
+    <Name>Become an Honor Student</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>094bbb6e-54b3-4a3a-a3eb-fa275295ff87</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>86</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/094bbb6e-54b3-4a3a-a3eb-fa275295ff87:Description</DescriptionKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>90</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>91</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/09fb5c91-a4cf-4c00-a4e6-80d764a5ed9b:Name</NameKey>
+    <Name>Complete All Private Venue Passport Challenges</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>09fb5c91-a4cf-4c00-a4e6-80d764a5ed9b</ChallengeGuid>
+    <ChallengeType>Passport</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>90</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/09fb5c91-a4cf-4c00-a4e6-80d764a5ed9b:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>Traits</ThemeKey>
+    <ThemeKey>Wealth</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</IncompleteBadgeImage>
+    <UnlockCodeReward>placeholdercode1</UnlockCodeReward>
+    <CrossroadsPointsReward>100</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>150</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>307</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Trait</DisplayName>
+      <EnumValue>13271263770231522800</EnumValue>
+      <StringEnumValue>Snob</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>HaveTraitCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>HaveTraitFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kTraitGained</TriggerEvent>
+      <SubjectType>Trait</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>151</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>18577447584728592</EnumValue>
+      <StringEnumValue>IAmBeautiful</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>152</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/11845557-89dc-4484-a6ad-888da13b7c02:Name</NameKey>
+    <Name>Have a Snob realize how beautiful they are.</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>11845557-89dc-4484-a6ad-888da13b7c02</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(150AndOP151)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/11845557-89dc-4484-a6ad-888da13b7c02:Description</DescriptionKey>
+    <ThemeKey>Traits</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>zh_TW</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>188</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>189</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/1465f619-14f5-484f-817b-f0de4e2cebbf:Name</NameKey>
+    <Name>Find the Magician Gnome</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>1465f619-14f5-484f-817b-f0de4e2cebbf</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>188</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/1465f619-14f5-484f-817b-f0de4e2cebbf:Description</DescriptionKey>
+    <ThemeKey>Social</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>214</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>344525470628757888</EnumValue>
+      <StringEnumValue>CalmedDown</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>215</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/1ba646cd-3a79-4403-9d00-892c968690f9:Name</NameKey>
+    <Name>Be Calmed Down after getting angry</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>1ba646cd-3a79-4403-9d00-892c968690f9</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>214</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/1ba646cd-3a79-4403-9d00-892c968690f9:Description</DescriptionKey>
+    <ThemeKey>Social</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>zh_TW</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>218</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>18</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Discover a star</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kDiscoveredStar</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>219</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/1c2951e1-83fd-49b4-96fa-bd910079bb3b:Name</NameKey>
+    <Name>Discover a Star</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>1c2951e1-83fd-49b4-96fa-bd910079bb3b</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>218</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/1c2951e1-83fd-49b4-96fa-bd910079bb3b:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>238</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>239</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/1dce9adc-2d36-4387-97cb-d653e113eff9:Name</NameKey>
+    <Name>Complete all Park Venue Passport Challenges</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>1dce9adc-2d36-4387-97cb-d653e113eff9</ChallengeGuid>
+    <ChallengeType>Passport</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>238</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/1dce9adc-2d36-4387-97cb-d653e113eff9:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>Family</ThemeKey>
+    <ThemeKey>Seasonal</ThemeKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</IncompleteBadgeImage>
+    <UnlockCodeReward>placeholdercode</UnlockCodeReward>
+    <CrossroadsPointsReward>100</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>249</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>250</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>251</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>253</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>254</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>255</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/1e30fb95-1ca9-464a-90b9-511b7118002c:Name</NameKey>
+    <Name>As a Triple agent</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>1e30fb95-1ca9-464a-90b9-511b7118002c</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(((249AndOP250)AndOP251)AndOP(253AndOP254))</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/1e30fb95-1ca9-464a-90b9-511b7118002c:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>266</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>267</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/1ff86e11-9258-46f8-8bad-069ebcc7be21:Name</NameKey>
+    <Name>Complete all Bistro Venue Passport Challenges</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>1ff86e11-9258-46f8-8bad-069ebcc7be21</ChallengeGuid>
+    <ChallengeType>Passport</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>266</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/1ff86e11-9258-46f8-8bad-069ebcc7be21:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</IncompleteBadgeImage>
+    <UnlockCodeReward>placeholdercode1</UnlockCodeReward>
+    <CrossroadsPointsReward>100</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>270</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>10086937383331885984</EnumValue>
+      <StringEnumValue>ThrewLameParty</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>271</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/1ffa9e89-a17d-449e-b162-1ac3968b1950:Name</NameKey>
+    <Name>Throw a Lame Party</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>1ffa9e89-a17d-449e-b162-1ac3968b1950</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>270</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/1ffa9e89-a17d-449e-b162-1ac3968b1950:Description</DescriptionKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>zh_TW</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>287</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>307</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Trait</DisplayName>
+      <EnumValue>344525470744996608</EnumValue>
+      <StringEnumValue>Unlucky</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>HaveTraitCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>HaveTraitFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kTraitGained</TriggerEvent>
+      <SubjectType>Trait</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>288</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>38</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Fire starts at home</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kHadFireAtHome</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>289</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>307</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Trait</DisplayName>
+      <EnumValue>344525470744996528</EnumValue>
+      <StringEnumValue>Lucky</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>HaveTraitCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>HaveTraitFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kTraitGained</TriggerEvent>
+      <SubjectType>Trait</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/2230c9f8-2da8-4baf-9290-3f2e99347026:Name</NameKey>
+    <Name>Have a Fire in your home start due to being unlucky</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>2230c9f8-2da8-4baf-9290-3f2e99347026</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(287AndOP288)</LogicString>
+    <FailureString>289</FailureString>
+    <DescriptionKey>Gameplay/Challenges/2230c9f8-2da8-4baf-9290-3f2e99347026:Description</DescriptionKey>
+    <ThemeKey>Traits</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>zh_TW</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>410</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>344</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>30</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Buy a $Category</DisplayName>
+      <KeyValue>WallMountedSpeaker</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName>BuyACategoryCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>ObjectMatchesCategoryFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kBoughtObject</TriggerEvent>
+      <SubjectType>ObjectCategory</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>411</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/3ac70a38-a354-4798-be44-1f2df238c7f3:Name</NameKey>
+    <Name>Buy 30 Speakers for house</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>3ac70a38-a354-4798-be44-1f2df238c7f3</ChallengeGuid>
+    <ChallengeType>Household</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>410</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/3ac70a38-a354-4798-be44-1f2df238c7f3:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>433</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>434</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/432d0502-8900-4199-b93b-6bc5e4eaa9a7:Name</NameKey>
+    <Name>Complete All Hangout Venue Passport Challenges</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>432d0502-8900-4199-b93b-6bc5e4eaa9a7</ChallengeGuid>
+    <ChallengeType>Passport</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>433</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/432d0502-8900-4199-b93b-6bc5e4eaa9a7:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>Family</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>Seasonal</ThemeKey>
+    <ThemeKey>Wealth</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</IncompleteBadgeImage>
+    <UnlockCodeReward>placeholdercode</UnlockCodeReward>
+    <CrossroadsPointsReward>100</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>642</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>310</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Career at level $n</DisplayName>
+      <EnumValue>18577542249709136</EnumValue>
+      <StringEnumValue>SingerCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CareerLevelGreaterThanOrEqualToN</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kEventCareerPromotion</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>643</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>390</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform as $Career at GigBigShow</DisplayName>
+      <EnumValue>18577542249709136</EnumValue>
+      <StringEnumValue>SingerCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PerformanceShowFeedbackFunctionGigBigShow</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>645</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>389</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform as $Career at GigPrivate</DisplayName>
+      <EnumValue>18577542249709136</EnumValue>
+      <StringEnumValue>SingerCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PerformanceShowFeedbackFunctionGigPrivate</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>646</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>388</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform as $Career at GigHangout</DisplayName>
+      <EnumValue>18577542249709136</EnumValue>
+      <StringEnumValue>SingerCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PerformanceShowFeedbackFunctionGigHangout</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>648</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>387</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform as $Career at GigBistro</DisplayName>
+      <EnumValue>18577542249709136</EnumValue>
+      <StringEnumValue>SingerCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PerformanceShowFeedbackFunctionGigBistro</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>649</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>386</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Perform as $Career at GigPark</DisplayName>
+      <EnumValue>18577542249709136</EnumValue>
+      <StringEnumValue>SingerCareer</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PerformanceShowFeedbackFunctionGigPark</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCompletedGig</TriggerEvent>
+      <SubjectType>Career</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>651</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>345</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Quit job</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>HaveAJobCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>QuitJobFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>652</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>346</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get fired</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetFiredFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kLeftJob</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/63d8e73e-88f3-4430-a5fa-3db5935ace0c:Name</NameKey>
+    <Name>Perform a Singer Show on every Venue</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>63d8e73e-88f3-4430-a5fa-3db5935ace0c</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>(((642AndOP643)AndOP(645AndOP646))AndOP(648AndOP649))</LogicString>
+    <FailureString>(651AndOP652)</FailureString>
+    <DescriptionKey>Gameplay/Challenges/63d8e73e-88f3-4430-a5fa-3db5935ace0c:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP6</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>655</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>656</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/648b2037-7d1d-445a-b0c6-b2ca0c01bbcf:Name</NameKey>
+    <Name>100 Perfect Desserts</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>648b2037-7d1d-445a-b0c6-b2ca0c01bbcf</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>655</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/648b2037-7d1d-445a-b0c6-b2ca0c01bbcf:Description</DescriptionKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>667</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>293</CompletionConditionId>
+      <InputNumber>100</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Paint a painting worth at least $n simoleons</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ValueFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kFinishedPainting</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>668</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/6902fccf-be8d-4b19-8b75-11236116996a:Name</NameKey>
+    <Name>Paint a Painting worth at least 3500</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>6902fccf-be8d-4b19-8b75-11236116996a</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>667</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/6902fccf-be8d-4b19-8b75-11236116996a:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>zh_TW</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>692</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>10086937382061335568</EnumValue>
+      <StringEnumValue>Stressed</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>693</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/6d585738-57a1-4ea4-83c4-682efd61344e:Name</NameKey>
+    <Name>Get Stressed out</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>6d585738-57a1-4ea4-83c4-682efd61344e</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>692</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/6d585738-57a1-4ea4-83c4-682efd61344e:Description</DescriptionKey>
+    <ThemeKey>Social</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>6</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>696</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>344525476271691488</EnumValue>
+      <StringEnumValue>AntiTV</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>697</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/6db24082-4876-4caf-94a1-c93424e1822b:Name</NameKey>
+    <Name>Share the gift of Technology with a Technopohe</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>6db24082-4876-4caf-94a1-c93424e1822b</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>696</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/6db24082-4876-4caf-94a1-c93424e1822b:Description</DescriptionKey>
+    <ThemeKey>Traits</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>751</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>752</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/754481bd-f117-49ac-9b55-348a81303f2d:Name</NameKey>
+    <Name>Complete All Performance Artist Passport Challenges</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>754481bd-f117-49ac-9b55-348a81303f2d</ChallengeGuid>
+    <ChallengeType>Passport</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>751</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/754481bd-f117-49ac-9b55-348a81303f2d:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>Traits</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</IncompleteBadgeImage>
+    <UnlockCodeReward>placeholdercode</UnlockCodeReward>
+    <CrossroadsPointsReward>100</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>755</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>756</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/75bcba42-7369-41f8-a8ef-83da6e0a24a1:Name</NameKey>
+    <Name>Complete All Magician Passport Challenges</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>75bcba42-7369-41f8-a8ef-83da6e0a24a1</ChallengeGuid>
+    <ChallengeType>Passport</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>755</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/75bcba42-7369-41f8-a8ef-83da6e0a24a1:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>Social</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</IncompleteBadgeImage>
+    <UnlockCodeReward>placeholdercode1</UnlockCodeReward>
+    <CrossroadsPointsReward>100</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>810</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>344525470628758176</EnumValue>
+      <StringEnumValue>GotAGoodDeal</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>811</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>307</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Trait</DisplayName>
+      <EnumValue>13271263770231522032</EnumValue>
+      <StringEnumValue>Frugal</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>HaveTraitCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>HaveTraitFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kTraitGained</TriggerEvent>
+      <SubjectType>Trait</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>812</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/8621cd4b-b07e-456f-80cb-5113388ccf4a:Name</NameKey>
+    <Name>Get a Good Deal by being Frugal</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>8621cd4b-b07e-456f-80cb-5113388ccf4a</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(810AndOP811)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/8621cd4b-b07e-456f-80cb-5113388ccf4a:Description</DescriptionKey>
+    <ThemeKey>Traits</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>877</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>8118019941275607936</EnumValue>
+      <StringEnumValue>VRVictory</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>878</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/8d84a3ef-148f-4406-bc0e-634dbd21ea0a:Name</NameKey>
+    <Name>Experience a SimLife Goggles Victory</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>8d84a3ef-148f-4406-bc0e-634dbd21ea0a</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>877</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/8d84a3ef-148f-4406-bc0e-634dbd21ea0a:Description</DescriptionKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>927</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>344525470628758304</EnumValue>
+      <StringEnumValue>NewlyEngaged</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>928</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/9ac9f2fd-6ba3-4bea-90c2-f6f2e21fc10b:Name</NameKey>
+    <Name>Get Engaged</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>9ac9f2fd-6ba3-4bea-90c2-f6f2e21fc10b</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>927</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/9ac9f2fd-6ba3-4bea-90c2-f6f2e21fc10b:Description</DescriptionKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>da_DK</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>931</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>932</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/9b392976-ea09-4a73-a557-bc1319c701da:Name</NameKey>
+    <Name>Complete All Big Show Venue Passport Challenges</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>9b392976-ea09-4a73-a557-bc1319c701da</ChallengeGuid>
+    <ChallengeType>Passport</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>931</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/9b392976-ea09-4a73-a557-bc1319c701da:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>Family</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>Traits</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</IncompleteBadgeImage>
+    <UnlockCodeReward>placeholdercode1</UnlockCodeReward>
+    <CrossroadsPointsReward>100</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>955</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>344525470628758192</EnumValue>
+      <StringEnumValue>StuffTaken</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>956</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/9e1501f0-2173-4f0e-8bbb-459d7eeb14f5:Name</NameKey>
+    <Name>Have something stolen or repossed</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>9e1501f0-2173-4f0e-8bbb-459d7eeb14f5</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>955</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/9e1501f0-2173-4f0e-8bbb-459d7eeb14f5:Description</DescriptionKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>984</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>985</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/a6328ea9-ef73-4752-90fc-2c5a467bb298:Name</NameKey>
+    <Name>Learn 15 unique upgrades</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>a6328ea9-ef73-4752-90fc-2c5a467bb298</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>984</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/a6328ea9-ef73-4752-90fc-2c5a467bb298:Description</DescriptionKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>994</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>48</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Go to sleep</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSimFellAsleep</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>995</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>13271263770231523728</EnumValue>
+      <StringEnumValue>Starving</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>996</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>13271263770231523808</EnumValue>
+      <StringEnumValue>VeryHungry</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/a88041c8-5330-4d07-ae94-0e978027e1ed:Name</NameKey>
+    <Name>Go to sleep while starving</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>a88041c8-5330-4d07-ae94-0e978027e1ed</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(994AndOP995)</LogicString>
+    <FailureString>996</FailureString>
+    <DescriptionKey>Gameplay/Challenges/a88041c8-5330-4d07-ae94-0e978027e1ed:Description</DescriptionKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1025</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>344525470628758432</EnumValue>
+      <StringEnumValue>TheLifeOfTheParty</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1026</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/aeaefe20-a38a-40d0-a698-232f5fb5be73:Name</NameKey>
+    <Name>Be the Life of the Party</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>aeaefe20-a38a-40d0-a698-232f5fb5be73</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>1025</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/aeaefe20-a38a-40d0-a698-232f5fb5be73:Description</DescriptionKey>
+    <ThemeKey>Traits</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1134</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>293</CompletionConditionId>
+      <InputNumber>100</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Paint a painting worth at least $n simoleons</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ValueFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kFinishedPainting</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1135</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/bc6d2cfd-2b6f-47d1-ba63-859725ee014a:Name</NameKey>
+    <Name>Paint a Painting worth at least 2000</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>bc6d2cfd-2b6f-47d1-ba63-859725ee014a</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>1134</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/bc6d2cfd-2b6f-47d1-ba63-859725ee014a:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1150</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>344525470628758032</EnumValue>
+      <StringEnumValue>EnjoyingSolitude</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1152</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>296</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Practice $Skill</DisplayName>
+      <EnumValue>10</EnumValue>
+      <StringEnumValue>Guitar</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>ImproveAtSkillCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>SkillMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPracticedSkill</TriggerEvent>
+      <SubjectType>Skill</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1153</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>62</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Play video or computer games</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPlayedVideoOrComputerGame</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1156</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>61</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Play chess</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPlayedChess</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1157</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>40</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Garden</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGardened</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1159</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>276</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Paint $n paintings</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CountFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kFinishedPainting</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1160</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>78</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Start working out</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kWorkedOut</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1161</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>344525470628758464</EnumValue>
+      <StringEnumValue>TooManyPeople</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/be5b54fd-c604-4d36-a532-ace5c594df4d:Name</NameKey>
+    <Name>As a Loner get away from the crowd to Paint, Garden, Play Chess, Play video Games, Practice the Guitar and Workout</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>be5b54fd-c604-4d36-a532-ace5c594df4d</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>((1150AndOP(1152AndOP1153))AndOP((1156AndOP1157)AndOP(1159AndOP1160)))</LogicString>
+    <FailureString>1161</FailureString>
+    <DescriptionKey>Gameplay/Challenges/be5b54fd-c604-4d36-a532-ace5c594df4d:Description</DescriptionKey>
+    <ThemeKey>Traits</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>zh_TW</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1168</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>10086937396456399824</EnumValue>
+      <StringEnumValue>FeelingCalm</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1169</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/c21aa115-7f24-4f52-9cc2-9cc0ddb655e7:Name</NameKey>
+    <Name>Give the Calm feeling to a Neurotic Sim</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>c21aa115-7f24-4f52-9cc2-9cc0ddb655e7</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>1168</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/c21aa115-7f24-4f52-9cc2-9cc0ddb655e7:Description</DescriptionKey>
+    <ThemeKey>Traits</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1304</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>1305</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/d0a3fb3a-9560-4b4f-ab61-79643438e758:Name</NameKey>
+    <Name>Complete All Singer Passport Challenges</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>d0a3fb3a-9560-4b4f-ab61-79643438e758</ChallengeGuid>
+    <ChallengeType>Passport</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>1304</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/d0a3fb3a-9560-4b4f-ab61-79643438e758:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>Children</ThemeKey>
+    <ThemeKey>Family</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>C:\Users\TLewis\Desktop\Placeholder.png</IncompleteBadgeImage>
+    <UnlockCodeReward>placeholdercode</UnlockCodeReward>
+    <CrossroadsPointsReward>100</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1308</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>18247741396075807296</EnumValue>
+      <StringEnumValue>CompletelyAtEase</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1309</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/d0c09253-30e3-42ef-9d8a-497f914fbc10:Name</NameKey>
+    <Name>Try a Day Spa Package</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>d0c09253-30e3-42ef-9d8a-497f914fbc10</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>1308</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/d0c09253-30e3-42ef-9d8a-497f914fbc10:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1317</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>10086937396695583392</EnumValue>
+      <StringEnumValue>Impressed</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1319</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>76</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Start a painting</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kStartedPainting</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1320</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>37</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Finish current painting</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kFinishedPainting</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1323</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>1324</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>1325</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>67</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Scrap current painting</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kScrappedPainting</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/d55b885c-1385-4a7a-a65b-a6975c5eb0d6:Name</NameKey>
+    <Name>Become Inspired then Make a new painting</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>d55b885c-1385-4a7a-a65b-a6975c5eb0d6</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>(1317AndOP(1319AndOP1320))</LogicString>
+    <FailureString>((1323AndOP1324)OrOP1325)</FailureString>
+    <DescriptionKey>Gameplay/Challenges/d55b885c-1385-4a7a-a65b-a6975c5eb0d6:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>zh_TW</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1328</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>1329</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/d8acde09-3feb-4442-bb02-3b5489bc0c0d:Name</NameKey>
+    <Name>Enchanting Words</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>d8acde09-3feb-4442-bb02-3b5489bc0c0d</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>1328</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/d8acde09-3feb-4442-bb02-3b5489bc0c0d:Description</DescriptionKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1381</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>344525470628757984</EnumValue>
+      <StringEnumValue>Detention</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1382</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/e16af83a-1aab-4b16-bb43-b6159851c9c8:Name</NameKey>
+    <Name>Have a Student be Sent to Detention</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>e16af83a-1aab-4b16-bb43-b6159851c9c8</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>1381</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/e16af83a-1aab-4b16-bb43-b6159851c9c8:Description</DescriptionKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1413</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>10086937393521271696</EnumValue>
+      <StringEnumValue>NewFriend</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1414</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/e63678de-02e6-4c08-980d-3cd9dc8a101a:Name</NameKey>
+    <Name>Make a New Friend</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>e63678de-02e6-4c08-980d-3cd9dc8a101a</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>1413</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/e63678de-02e6-4c08-980d-3cd9dc8a101a:Description</DescriptionKey>
+    <ThemeKey>Social</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1431</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>344525470628758000</EnumValue>
+      <StringEnumValue>DivineMeal</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1432</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/e9444d42-cb35-4c8b-a006-7a98229b53ac:Name</NameKey>
+    <Name>Taste a Divine Meal</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>e9444d42-cb35-4c8b-a006-7a98229b53ac</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>1431</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/e9444d42-cb35-4c8b-a006-7a98229b53ac:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>da_DK</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>C:\Users\cballard\Pictures\Link NES.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_silver_template.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1464</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>13279145083137868272</EnumValue>
+      <StringEnumValue>GarlicBreath</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1465</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>1467</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>13271263770231523440</EnumValue>
+      <StringEnumValue>MintyBreath</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1468</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>273</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Brush teeth $n times</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CountFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kBrushedTeeth</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/ee8ffd3b-5ca9-4753-aa27-2dcd37d42e3a:Name</NameKey>
+    <Name>Kiss a Sim while having Bad Breath</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>ee8ffd3b-5ca9-4753-aa27-2dcd37d42e3a</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(1464AndOP1465)</LogicString>
+    <FailureString>(1467OrOP1468)</FailureString>
+    <DescriptionKey>Gameplay/Challenges/ee8ffd3b-5ca9-4753-aa27-2dcd37d42e3a:Description</DescriptionKey>
+    <ThemeKey>Social</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>zh_TW</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1471</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>276</CompletionConditionId>
+      <InputNumber>40</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Paint $n paintings</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CountFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kFinishedPainting</TriggerEvent>
+      <SubjectType>None</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1472</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/f239cea7-4a82-4aeb-b733-ec794255b6db:Name</NameKey>
+    <Name>Paint 40 Paintings</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>f239cea7-4a82-4aeb-b733-ec794255b6db</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>1471</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/f239cea7-4a82-4aeb-b733-ec794255b6db:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>da_DK</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1520</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <Circumstance>
+      <Id>1521</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/f977184e-1950-4b38-b80f-af317cf779b0:Name</NameKey>
+    <Name>Spend 100 hours Tutoring othe Sims for Skills</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>f977184e-1950-4b38-b80f-af317cf779b0</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>1520</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/f977184e-1950-4b38-b80f-af317cf779b0:Description</DescriptionKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1556</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <EnumValue>10086937387051192944</EnumValue>
+      <StringEnumValue>Hydrophobic</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName>GetBuffCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+      <SubjectType>Buff</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1557</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/fe185e29-26f9-46d4-a262-676c555c81d6:Name</NameKey>
+    <Name>Try to cure Hyrophobia by swimming</Name>
+    <SetName>Downloadable Challenges</SetName>
+    <ChallengeGuid>fe185e29-26f9-46d4-a262-676c555c81d6</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>1556</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/fe185e29-26f9-46d4-a262-676c555c81d6:Description</DescriptionKey>
+    <ThemeKey>Traits</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage>http://na.llnet.sims3store.cdn.ea.com/u/f/sims/sims3/sims3store/mygoodies/badges_FB4MMBunnyWithTrophy/Thumbnail_64x64.png</CompleteBadgeImage>
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+</ChallengeSetData>

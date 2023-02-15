@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHoursToTreeReset value="4">
+      <!--Range: Positive Float.  Description: Hours until the tree automatically switches to a new type of fruit.-->
+    </kHoursToTreeReset>
+    <kFunGainFromAdmire value="10, 30">
+      <!--Range: All Floats.  Description: Fun boost from 'Admire' interaction. [Indifferent, Fascinated]-->
+    </kFunGainFromAdmire>
+    <kAbundanceHourRange value="1, 3">
+      <!--Range: [0,24].  Description: Hours of the day between which the Abundance fruit can appear.-->
+    </kAbundanceHourRange>
+    <kChanceOfImbueSuccess value="80">
+      <!--Range: [0,100].  Description: Chance that the Imbue interaction succeeds in setting next fruit.-->
+    </kChanceOfImbueSuccess>
+    <kFireflyPixieStartTime value="23">
+      <!--Range: [0,24].  Description: Hour of the day that the Firefly/Pixie VFX begin.-->
+    </kFireflyPixieStartTime>
+    <kFireflyPixieDuration value="4">
+      <!--Range: Positive Float.  Description: Duration in hours of Firefly/Pixie VFX.-->
+    </kFireflyPixieDuration>
+    <kChanceOfFireflyShow value="20">
+      <!--Range: [0,100]  Description: Chance of a Firefly show appearing at night.-->
+    </kChanceOfFireflyShow>
+    <kChanceOfPixieShow value="25">
+      <!--Range: [0,100]  Description: Chance of a Pixie show appearing at night.-->
+    </kChanceOfPixieShow>
+    <kEnergyDrainFromImbue value="30">
+      <!--Range: All Floats.  Description: Energy drain from running 'Imbue' interaction.-->
+    </kEnergyDrainFromImbue>
+    <kAOERadius value="4">
+      <!--Range: Positive Float.  Description: Size of the Area of Effect around tree.-->
+    </kAOERadius>
+    <kFireflyFunBump value="30">
+      <!--Range: Float.  Description: Fun bonus given to Sims near tree during Firefly show.-->
+    </kFireflyFunBump>
+    <kFireflyFunBumpPlus value="15">
+      <!--Range: Float.  Description: Extra Firefly Fun bonus added to/removed from Sims with certain traits.-->
+    </kFireflyFunBumpPlus>
+    <kPixieFunBump value="40">
+      <!--Range: Float.  Description: Fun bonus given to Sims near tree during Pixie show.-->
+    </kPixieFunBump>
+    <kPixieFunBumpPlus value="5">
+      <!--Range: Float.  Description: Extra Pixie Fun bonus added to/removed from Sims with certain traits.-->
+    </kPixieFunBumpPlus>
+    <kFruitMotiveBonuses value="20, 20, 20, 20, 20">
+      <!--Range: Float.  Description: Motive bonuses when near tree. [Hunger(Harvest), Energy(Mind), Hygiene(Body), Fun(Soul), Random(Abundance)]-->
+    </kFruitMotiveBonuses>
+    <kFruitSkillBonuses value="1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1">
+      <!--Range: Float.  Description: Skill bonuses, as percentage points needed for level gain.-->
+    </kFruitSkillBonuses>
+    <kEatFruitHungerBonus value="20">
+      <!--Range: Float.  Description: Hunger gain from eating any Fruit of Prosperity.-->
+    </kEatFruitHungerBonus>
+    <kChanceOfFascinationFromTree value="30">
+      <!--Range: [0,100]  Description: Chance of getting the 'Fascinated' moodlet from admiring the tree.-->
+    </kChanceOfFascinationFromTree>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="20">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="0">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <DefaultInteractionLookAtThreshold value="-1">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </kLookAtTuning>
+  </Current_Tuning>
+</base>

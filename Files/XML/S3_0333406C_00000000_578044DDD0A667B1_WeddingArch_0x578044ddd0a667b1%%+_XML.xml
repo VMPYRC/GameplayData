@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kConeAngleInFrontOfArchToFindObjects value="2.356194">
+      <!--The arc/cone's angle for finding objects to sit while watching the wedding. Units: Radians. Valid range [0, Pi]. Initial GPE Default: 3(Pi)/4.-->
+    </kConeAngleInFrontOfArchToFindObjects>
+    <kConeAngleInFrontOfSittableObjects value="1.570796">
+      <!--The arc/cone's angle for a valid objects such that the Arch is within this angle. Units: Radians. Valid range [0, Pi]. Initial GPE default: Pi/2-->
+    </kConeAngleInFrontOfSittableObjects>
+    <kResortUpkeepCost value="50">
+      <!--Upkeep cost on a resort-->
+    </kResortUpkeepCost>
+    <kResortScore value="50">
+      <!--Score on a resort-->
+    </kResortScore>
+    <kSimsServedCapacity value="10000">
+      <!--sims served on a resort-->
+    </kSimsServedCapacity>
+    <kReviewBaseString value="Gameplay/Objects/Decorations/WeddingArch:ReviewText">
+      <!--Base string for reviews-->
+    </kReviewBaseString>
+    <kReviewCount value="0">
+      <!--Number of  reviews-->
+    </kReviewCount>
+  </Current_Tuning>
+</base>

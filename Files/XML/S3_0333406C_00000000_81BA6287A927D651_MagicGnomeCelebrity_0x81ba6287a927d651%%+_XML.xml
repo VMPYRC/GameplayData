@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeCelebrityStance1,magicGnomeCelebrityStance2,magicGnomeCelebrityStance3,magicGnomeCelebrityStance4,magicGnomeCelebrityStance5,magicGnomeCelebrityStance6">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeCelebrityStance1,magicGnomeCelebrityStance2,magicGnomeCelebrityStance3,magicGnomeCelebrityStance4,magicGnomeCelebrityStance5,magicGnomeCelebrityStance6">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeCelebrityStance6">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeCelebrityStance5">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeCelebrityStance1,magicGnomeCelebrityStance2,magicGnomeCelebrityStance3,magicGnomeCelebrityStance4,magicGnomeCelebrityStance5,magicGnomeCelebrityStance6">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="magicGnomeCelebrityStance2,magicGnomeCelebrityStance6">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="2">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kGnomeTuning>
+    <kDesireForHotTubs value="3">
+      <!--OBJECT DESIREABILITY: score multiplier for hot tubs.-->
+    </kDesireForHotTubs>
+    <kDesireForExpensiveCars value="2.5">
+      <!--OBJECT DESIREABILITY: score multiplier for Expensive Cars.-->
+    </kDesireForExpensiveCars>
+    <kExpensiveCarCatalogCostThreshold value="10000">
+      <!--OBJECT DESIREABILITY: How much a car's catalog cost has to be before it's considered expensive.-->
+    </kExpensiveCarCatalogCostThreshold>
+    <kDesireForBars value="2.5">
+      <!--OBJECT DESIREABILITY: score multiplier for Bars.-->
+    </kDesireForBars>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLevelReqForInkBlotTest value="1">
+      <!--Range:  integer  Description:  Science Skill level required to perform Ink Blot Test.-->
+    </kLevelReqForInkBlotTest>
+    <kCardCount value="5">
+      <!--Range:  float  Description:  The number of cards that will be shown.-->
+    </kCardCount>
+    <kInformationLearnedChance value="0.1">
+      <!--Range:  0 - 1  Description:  This is the chance (for each card shown) that the actor will uncover information about the target-->
+    </kInformationLearnedChance>
+    <kScienceSkillGain value="0">
+      <!--Description:  The number of science skill points that the actor will gain at the end of the interaction.-->
+    </kScienceSkillGain>
+    <kCharismaSkillGain value="100">
+      <!--Description:  The number of charisma skill points that the actor will gain at the end of the interaction-->
+    </kCharismaSkillGain>
+    <kInfoLearnedChancePerLevel value="0.015">
+      <!--Range:  0-1  Description:  This is the amount that will be added to kInformationLearnedChance for each level that the sim has in the Science skill-->
+    </kInfoLearnedChancePerLevel>
+  </Current_Tuning>
+</base>

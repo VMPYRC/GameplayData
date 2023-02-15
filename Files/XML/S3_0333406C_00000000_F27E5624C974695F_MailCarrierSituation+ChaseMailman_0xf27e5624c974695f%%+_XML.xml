@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChaseLength value="3, 7">
+      <!--The dog will chase the mailman for a random number of minutes within this range.  Note the mailmans route is not guaranteed to last this long, in which case the dog will stop earlier.-->
+    </kChaseLength>
+    <kLTRLoss value="10">
+      <!--How much the LTR Liking between the dog and mailman will go down after the chase.-->
+    </kLTRLoss>
+  </Current_Tuning>
+</base>

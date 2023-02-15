@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDistanceToDestinationSoSimWillDrive value="110">
+      <!--Distance threshold to a sim's destination before he will drive.-->
+    </kDistanceToDestinationSoSimWillDrive>
+    <kGlobalCarSpeedMultiplier value="1">
+      <!--Car speed multiplier applied to all cars.-->
+    </kGlobalCarSpeedMultiplier>
+    <kCarHeadlightOffSunriseTimeDelta value="-1">
+      <!--Hour delta from world defined sunrise at which car headlights turn off.-->
+    </kCarHeadlightOffSunriseTimeDelta>
+    <kCarHeadlightOnSunsetTimeDelta value="1">
+      <!--Hour delta from world defined sunset at which car headlights turn on.-->
+    </kCarHeadlightOnSunsetTimeDelta>
+    <kDistanceToDestinationSoSimWillDriveInEgypt value="50">
+      <!--Distance threshold to a sim's destination before he will drive in Egypt.-->
+    </kDistanceToDestinationSoSimWillDriveInEgypt>
+    <kDistanceToDestinationSoSimWillDriveInChina value="50">
+      <!--Distance threshold to a sim's destination before he will drive in China.-->
+    </kDistanceToDestinationSoSimWillDriveInChina>
+    <kDistanceToDestinationSoSimWillDriveInFrance value="50">
+      <!--Distance threshold to a sim's destination before he will drive in France.-->
+    </kDistanceToDestinationSoSimWillDriveInFrance>
+    <kDistanceToDestinationSoSimWillDriveInDowntownWorld value="110">
+      <!--Distance threshold to a sim's destination before he will drive in a Downtown World.-->
+    </kDistanceToDestinationSoSimWillDriveInDowntownWorld>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Fishing</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>789</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412845608331141792</EnumValue>
+      <StringEnumValue>Minnow</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>791</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514048</EnumValue>
+      <StringEnumValue>Goldfish</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>792</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514096</EnumValue>
+      <StringEnumValue>RainbowTrout</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>795</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514160</EnumValue>
+      <StringEnumValue>Piranha</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>796</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514224</EnumValue>
+      <StringEnumValue>BlackGoldfish</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>797</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514272</EnumValue>
+      <StringEnumValue>VampireFish</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>798</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/830c76ff-e42f-421b-88b8-90995cb72db0:Name</NameKey>
+    <Name>Catch the Fresh Water only fish, Minnow, GoldFish,RainbowTrout, Piranha,Black Goldfish,VampireFish</Name>
+    <SetName>Fishing</SetName>
+    <ChallengeGuid>830c76ff-e42f-421b-88b8-90995cb72db0</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>((789AndOP(791AndOP792))AndOP((795AndOP796)AndOP797))</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/830c76ff-e42f-421b-88b8-90995cb72db0:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>884</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514320</EnumValue>
+      <StringEnumValue>Deathfish</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>885</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/8f773a7d-921f-4099-bb57-b335d1366914:Name</NameKey>
+    <Name>Catch a Deathfish</Name>
+    <SetName>Fishing</SetName>
+    <ChallengeGuid>8f773a7d-921f-4099-bb57-b335d1366914</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>884</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/8f773a7d-921f-4099-bb57-b335d1366914:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1011</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514304</EnumValue>
+      <StringEnumValue>Lobster</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1012</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514256</EnumValue>
+      <StringEnumValue>AngelFish</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1014</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514240</EnumValue>
+      <StringEnumValue>Shark</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1015</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514208</EnumValue>
+      <StringEnumValue>Salmon</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1018</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514176</EnumValue>
+      <StringEnumValue>SiameseCatfish</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1019</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514112</EnumValue>
+      <StringEnumValue>RedHerring</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1020</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514064</EnumValue>
+      <StringEnumValue>AlleyCatfish</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1021</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/ab445961-92e9-4aa2-a8a8-faa0ab27db61:Name</NameKey>
+    <Name>Catch the Salt or Freshwater Fish, AlleyCatfish,Reh Herring, Siamese Catfish,Salmon,Shark,Angel,Lobster</Name>
+    <SetName>Fishing</SetName>
+    <ChallengeGuid>ab445961-92e9-4aa2-a8a8-faa0ab27db61</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>(((1011AndOP1012)AndOP(1014AndOP1015))AndOP((1018AndOP1019)AndOP1020))</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/ab445961-92e9-4aa2-a8a8-faa0ab27db61:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1271</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>44</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Get live bait</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent />
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1272</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/cfe8bb10-d7d5-486d-9889-19c10d19a176:Name</NameKey>
+    <Name>Collect Live Bait</Name>
+    <SetName>Fishing</SetName>
+    <ChallengeGuid>cfe8bb10-d7d5-486d-9889-19c10d19a176</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>1271</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/cfe8bb10-d7d5-486d-9889-19c10d19a176:Description</DescriptionKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <LocaleId>da_DK</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1534</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514032</EnumValue>
+      <StringEnumValue>Anchovy</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1536</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514192</EnumValue>
+      <StringEnumValue>Blowfish</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1537</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514352</EnumValue>
+      <StringEnumValue>Swordfish</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1540</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514128</EnumValue>
+      <StringEnumValue>Tuna</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1541</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514144</EnumValue>
+      <StringEnumValue>TragicClownfish</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1542</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514080</EnumValue>
+      <StringEnumValue>Jellyfish</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1543</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/f9a8f5c5-4872-4511-be9f-c90097df3ef2:Name</NameKey>
+    <Name>Catch the Saltwater only fish Anchovy, Jellyfish, Tuna,Clownfish and Swordfish</Name>
+    <SetName>Fishing</SetName>
+    <ChallengeGuid>f9a8f5c5-4872-4511-be9f-c90097df3ef2</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>((1534AndOP(1536AndOP1537))AndOP((1540AndOP1541)AndOP1542))</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/f9a8f5c5-4872-4511-be9f-c90097df3ef2:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>da_DK</LocaleId>
+    <LocaleId>zh_TW</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1567</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>300</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Catch a $Fish</DisplayName>
+      <EnumValue>6412844508819514288</EnumValue>
+      <StringEnumValue>RobotFish</StringEnumValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>CatchAFishFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kCaughtFish</TriggerEvent>
+      <SubjectType>Fish</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>1568</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/ffc5e906-1681-46a5-b15b-d3f317cbae94:Name</NameKey>
+    <Name>Catch a Robot Fish</Name>
+    <SetName>Fishing</SetName>
+    <ChallengeGuid>ffc5e906-1681-46a5-b15b-d3f317cbae94</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>1567</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/ffc5e906-1681-46a5-b15b-d3f317cbae94:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <LocaleId>cs_CZ</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>false</UsesLocalImages>
+    <CompleteBadgeImage />
+    <IncompleteBadgeImage />
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms />
+  </DynamicChallengeData>
+</ChallengeSetData>

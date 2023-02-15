@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinRouteRadius value="2">
+      <!--Range:  Positive floats. Description: Min route distance for scarer.-->
+    </kMinRouteRadius>
+    <kMaxRouteRadius value="5">
+      <!--Range:  Positive floats. Description: Max route distance for scarer.-->
+    </kMaxRouteRadius>
+    <kRouteAngle value="70">
+      <!--Range:  Positive floats. Description: Route angle for scarer.-->
+    </kRouteAngle>
+    <kMinTip value="10">
+      <!--Range:  0-1000  Description:  What is the minimal value a tip should be?-->
+    </kMinTip>
+    <kMaxTip value="75">
+      <!--Range:  0-1000  Description:  What is the max value a tip should be?-->
+    </kMaxTip>
+  </Current_Tuning>
+</base>

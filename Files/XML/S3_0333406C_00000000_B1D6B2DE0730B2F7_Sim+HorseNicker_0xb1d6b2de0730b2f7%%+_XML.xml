@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAutonomyLTRThreshold value="40">
+      <!--The LTR threshold of the other horse to winny back-->
+    </kAutonomyLTRThreshold>
+    <kLTRHit value="1">
+      <!--The LTR value to add on each Nicker-->
+    </kLTRHit>
+    <kWinnyMotiveThreshold value="5">
+      <!--The threshold of winny motive, if the current motive is higher than this number, will prevent autonomy winny-->
+    </kWinnyMotiveThreshold>
+    <kDistanceAvailable value="20">
+      <!--The interact will not be available if a sim is further than this distance-->
+    </kDistanceAvailable>
+  </Current_Tuning>
+</base>

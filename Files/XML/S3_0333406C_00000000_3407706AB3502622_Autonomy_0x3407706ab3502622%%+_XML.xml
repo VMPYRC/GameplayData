@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kInterruptabilityFactor value="0.1" />
+    <kMinInterruptabilityRatio value="2" />
+    <kMaxDistanceForLocalAutonomy value="50" />
+    <kShowLocalAutonomyRadius value="false" />
+    <kMinTimeToDisplayTrait value="0.01">
+      <!--Min time (in Sim hours) to display trait-->
+    </kMinTimeToDisplayTrait>
+    <kRandomness value="0.2">
+      <!--Amount of randomness in choosing an interaction to do.  Range: 0 -> 1 (0 means no randomness, 1 means scoring is irrelevant-->
+    </kRandomness>
+    <kMinWalkTime value="0.01">
+      <!--Range: Sim minutes. The min number of minutes that the Sim thinks the interaction can take-->
+    </kMinWalkTime>
+    <kProportionOfTopScore value="0.85">
+      <!--Float (0.5 - 1) representing what proportion of top-scoring interactions will be considered when running FindBestObject-->
+    </kProportionOfTopScore>
+    <kHungerThresholdForGoingHome value="-36">
+      <!--Float (-100 to 100) Hunger value below which sims will autonomously go home-->
+    </kHungerThresholdForGoingHome>
+    <kEnergyThresholdForGoingHome value="-60">
+      <!--Float (-100 to 100) Energy value below which sims will autonomously go home-->
+    </kEnergyThresholdForGoingHome>
+    <kBladderThresholdForGoingHome value="-50">
+      <!--Float (-100 to 100) Bladder value below which sims will autonomously go home-->
+    </kBladderThresholdForGoingHome>
+    <kTimeoutForFunOrStressInteractions value="3">
+      <!--Time (in Sim hours) after which Sims will exit fun and stress interactions when running meta-autonomy-->
+    </kTimeoutForFunOrStressInteractions>
+    <kAutonomyDelayAfterUserCancellation value="10">
+      <!--Frequency (in minutes) of running autonomy after user-cancellation-->
+    </kAutonomyDelayAfterUserCancellation>
+    <kDistanceThresholdForClosestLot value="100">
+      <!--Max distance in meters for closest lot to consider when running autonomy on the world lot-->
+    </kDistanceThresholdForClosestLot>
+    <kChooseSimToSocializeWithMultiplierWhenAlreadyDoingSomething value="0.1">
+      <!--Range: 0 - 1. Multiplier to discourage sims from choosing to talk to sims who are already doing something-->
+    </kChooseSimToSocializeWithMultiplierWhenAlreadyDoingSomething>
+    <kInteractionTimeBeforeConsideringFunExit value="2.4">
+      <!--FunExit is not considered until the interaction has been running for this long (in Sim hours)-->
+    </kInteractionTimeBeforeConsideringFunExit>
+    <kAutonomyDelayNormal value="5">
+      <!--Frequency (in minutes) of running autonomy if fully on-screen-->
+    </kAutonomyDelayNormal>
+    <kAutonomyDelayDuringSocializing value="10">
+      <!--Frequency (in minutes) of running autonomy during socializing (keep this long because the user will be reading the many social options)-->
+    </kAutonomyDelayDuringSocializing>
+    <kMaxTimeForLowLODInteractionDuringTheDay value="360">
+      <!--Unit: Sim Minutes. After this period of time, low LOD Sims will exit out of any interaction (during the day)-->
+    </kMaxTimeForLowLODInteractionDuringTheDay>
+    <kMaxTimeForLowLODInteractionDuringTheNight value="180">
+      <!--Unit: Sim Minutes. After this period of time, low LOD Sims will exit out of any interaction (during the night)-->
+    </kMaxTimeForLowLODInteractionDuringTheNight>
+    <kLowLODBeginDayTime value="5">
+      <!--Unit: Sim hours. What counts as the beginning of the day for low LOD sims when considering how long before exiting out-->
+    </kLowLODBeginDayTime>
+    <kLowLODEndDayTime value="23">
+      <!--Unit: Sim hours. What counts as the end of the day for low LOD sims when considering how long before exiting out-->
+    </kLowLODEndDayTime>
+    <kHomeworkScoringMultiplierWhenOutside value="0.01">
+      <!--Range: 0 - 1. Multiplier to discourage sims from choosing to do homework when outside-->
+    </kHomeworkScoringMultiplierWhenOutside>
+    <kBubbledUpAutonomyMultiplier value="0.16">
+      <!--Range: 0 - 1. How much bubbled-up ads compare to real ads. This should be less than 1 to reflect the fact that going somewhere else takes a long time. (It takes an hour plus the time lost getting to where we currently are plus the time to do the interaction (typically one hour). So the total time lost by the interaction is 3 hours rather than 1, so the multiplier should be no higher than 0.33 to reflect this)-->
+    </kBubbledUpAutonomyMultiplier>
+    <kHoursAfterWhichBubbledUpScoreIsMax value="3">
+      <!--Range: Sim hours. The number of hours a Sim has to have been staying at the lot after which bubbled-up scores are maxed-->
+    </kHoursAfterWhichBubbledUpScoreIsMax>
+    <kAutonomyLTRToScoreMultiplier value="0.1">
+      <!--Range: 0 - 1. How LTR score is converted into a scoring increase when deciding whether to sit next to people I know (a multiplier of 0.1 means that an LTR score of 100 (the max) would turn into an increase of 10-->
+    </kAutonomyLTRToScoreMultiplier>
+    <kDesireToGoToSleepWhenSleepy value="200">
+      <!--Range: desire intensity. The score for going to sleep during bed-time when the Sim has not actually got a debuff on him, but should sleep anyway.-->
+    </kDesireToGoToSleepWhenSleepy>
+    <kEnergyThresholdBelowWhichTheyWantToSleepWhenSleepyDuringTheirBedTime value="50">
+      <!--Range: -100 to 100. The Energy value below which they will want to go to sleep (but at a reduced intensity). From this level to sleepy, the Sim will consider sleeping even if they don't have a sleepy moddlet.-->
+    </kEnergyThresholdBelowWhichTheyWantToSleepWhenSleepyDuringTheirBedTime>
+    <kAutonomyPublicAreaPenaltyMultiplier value="0.5">
+      <!--modifier for lowering score of interactions leaving private area/going to public area over private area when going to a lot-->
+    </kAutonomyPublicAreaPenaltyMultiplier>
+    <kPreferSeatedSocialsMultiplier value="2">
+      <!--multiplier to prefer seated socials when one of the sims is seated-->
+    </kPreferSeatedSocialsMultiplier>
+    <kVampireDaylightOutdoorMultiplier value="0.15">
+      <!--The advertising multiplier for vampires on objects that are outside during daylight hours.-->
+    </kVampireDaylightOutdoorMultiplier>
+    <kHomeworkScoringMultiplierWhenAdmonished value="4">
+      <!--Positive multiplier to encourage admonished children (a daycare interaction) to do their homework-->
+    </kHomeworkScoringMultiplierWhenAdmonished>
+    <kAutonomyDelayWhileMounted value="10">
+      <!--Frequency (in minutes) of running autonomy while either being ridden (as a horse) or riding a horse (as a sim)-->
+    </kAutonomyDelayWhileMounted>
+    <kAllowEvenIfNotAllowedInRoomAutonomousMultiplier value="0.1">
+      <!--Range: positive floats. Multiplier applied for interactions marked AllowEvenIfNotAllowedInRoomAutonomous if the actor is not allowed in the room of the target-->
+    </kAllowEvenIfNotAllowedInRoomAutonomousMultiplier>
+    <kSocialThatWillCauseDismountMultiplier value="0">
+      <!--Range: positive floats. Multiplier applied to socials that will result in a Sim dismounting its horse.-->
+    </kSocialThatWillCauseDismountMultiplier>
+    <kSimTemperatureColdThresholdForGoingHome value="-85">
+      <!--Float (-100 to 0) Sim temperature value below which sims will autonomously go home from being too cold-->
+    </kSimTemperatureColdThresholdForGoingHome>
+    <kSimTemperatureHotThresholdForGoingHome value="85">
+      <!--Float (0 to 100) Sim temperature value above which sims will autonomously go home from being too hot-->
+    </kSimTemperatureHotThresholdForGoingHome>
+    <kLoinsBurningAdvMultiplier value="5">
+      <!--Range: Float > 0. Description: Autonomy multiplier for romantic socials if sim has Loins Burning Buff.-->
+    </kLoinsBurningAdvMultiplier>
+    <kLoinsFreezingAdvMultiplier value="0.2">
+      <!--Range: Float between 0 & 1. Description: Autonomy multiplier for romantic socials if sim has Loins Freezing Buff.-->
+    </kLoinsFreezingAdvMultiplier>
+    <kLoinsBurningSocialLikingBonus value="20">
+      <!--Positive float.  The small LTR Liking bonus given to Sims with Loins Burning buff if Action data is romantic. Increases chance of accepting romantic socials-->
+    </kLoinsBurningSocialLikingBonus>
+    <kLoinsBurningSocialMoodBonus value="20">
+      <!--Positive int.  The small Mood bonus given to Sims with Loins Burning buff if Action data is romantic. Increases chance of accepting romantic socials-->
+    </kLoinsBurningSocialMoodBonus>
+    <kLoinsFreezingSocialLikingBonus value="-10">
+      <!--Negative float.  The small LTR Liking bonus given to Sims with Loins Freezing buff if Action data is romantic. Decreases chance of accepting romantic socials-->
+    </kLoinsFreezingSocialLikingBonus>
+    <kLoinsFreezingSocialMoodBonus value="-10">
+      <!--Negatvie int.  The small Mood bonus given to Sims with Loins Freezing buff if Action data is romantic. Decreases chance of accepting romantic socials-->
+    </kLoinsFreezingSocialMoodBonus>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kMaxMotivePeturbation value="0.1">
+      <!--deprecated on: 8/22/2007 10:14:58 AM-->
+    </kMaxMotivePeturbation>
+    <kMaxAutonomyScore value="1E+08">
+      <!--deprecated on: 10/12/2007 8:28:22 AM-->
+    </kMaxAutonomyScore>
+    <kRestrictMetaAutonomyType value="Selectable">
+      <!--deprecated on: 3/4/2008 3:38:58 PM-->
+    </kRestrictMetaAutonomyType>
+    <kRestrictLocalAutonomyType value="NoRestriction">
+      <!--deprecated on: 3/4/2008 3:38:58 PM-->
+    </kRestrictLocalAutonomyType>
+  </Deprecated_Tuning>
+</base>

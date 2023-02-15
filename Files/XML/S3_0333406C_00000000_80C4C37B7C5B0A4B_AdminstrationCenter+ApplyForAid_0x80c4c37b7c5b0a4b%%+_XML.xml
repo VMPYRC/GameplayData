@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLenghtOfTimeInRabbitHole value="30">
+      <!--Time in sim minutes that the sim will be in the Rabbit hole-->
+    </kLenghtOfTimeInRabbitHole>
+    <kLenghtOfTimeForCooldown value="1440">
+      <!--Time in sim minutes that the interaction need to cooldown-->
+    </kLenghtOfTimeForCooldown>
+    <kMinAcademicPerformance value="35">
+      <!--Range (0 to 100) The minimum amount of academic performance(current grade) to be considered for aid-->
+    </kMinAcademicPerformance>
+    <kAcademicPerformanceJitter value="10">
+      <!--Range (0 to 100) The max amount to jitter the academic performance(current grade) to be considered for aid-->
+    </kAcademicPerformanceJitter>
+    <kSimoleonMultiplier value="50">
+      <!--Float, number of Simoleons * Academic performance that the sim is granted-->
+    </kSimoleonMultiplier>
+  </Current_Tuning>
+</base>

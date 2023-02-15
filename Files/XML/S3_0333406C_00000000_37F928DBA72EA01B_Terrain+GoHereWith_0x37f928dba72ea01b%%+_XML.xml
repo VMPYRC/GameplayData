@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGoHereWithOnLotAvailableDistance value="30">
+      <!--The distance from the center of the Sims current lot at which "Go Here With" becomes available if the Sim is on a lot.  Otherwise kGoHereWithOffLotAvailableDistance is used.-->
+    </kGoHereWithOnLotAvailableDistance>
+    <kGoHereWithOffLotAvailableDistance value="10">
+      <!--The distance from the center of the Sim at which "Go Here With" becomes available if the Sim is on the world lot. Otherwise kGoHereWithOnLotAvailableDistance is used.-->
+    </kGoHereWithOffLotAvailableDistance>
+    <kMaxDistanceForGoHereWith value="40">
+      <!--The max distance from the actor to the target sims to be eligible for Go Here With.-->
+    </kMaxDistanceForGoHereWith>
+    <kLikingValueToBeEligibleForGoHereWith value="20">
+      <!--The minimum amount of liking you can have to do GoHereWith with someone not in your family.-->
+    </kLikingValueToBeEligibleForGoHereWith>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+  </Deprecated_Tuning>
+</base>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRoutingDistance value="1.5">
+      <!--Range:  0+  Description:  The routing distance to interact with the GiftPile-->
+    </kRoutingDistance>
+    <kInitialCount value="8">
+      <!--Range:  0+  Description:  The initial number of presets-->
+    </kInitialCount>
+    <kMedStateCount value="7">
+      <!--Range:  0+  Description:  The min number of presents for med state-->
+    </kMedStateCount>
+    <kHighStateCount value="12">
+      <!--Range:  0+  Description:  The min number of presents for high state-->
+    </kHighStateCount>
+    <kBadGiftOdds value="0.15">
+      <!--Range:  0-1:  odds of getting bad gift-->
+    </kBadGiftOdds>
+    <kLuckyOddsDelta value="0.05">
+      <!--Range:  0-1:  odds delta if has lucky trait-->
+    </kLuckyOddsDelta>
+    <kUnluckyOddsDelta value="-0.05">
+      <!--Range:  0-1:  odds delta if has unlucky trait-->
+    </kUnluckyOddsDelta>
+    <kTraitGiftOdds value="0.25">
+      <!--Range:  0-1:  odds of getting trait gift-->
+    </kTraitGiftOdds>
+    <kAgeGiftOdds value="0.9">
+      <!--Range:  0-1:  odds of getting Age gift (remaining odds after bad/trai/age = odds of general gift)-->
+    </kAgeGiftOdds>
+    <kMinSitOnFloorWatchDistance value="3">
+      <!--Range:  0+:  minimum sit on floor distance-->
+    </kMinSitOnFloorWatchDistance>
+    <kMaxSitOnFloorWatchDistance value="5">
+      <!--Range:  0+:  maximum sit on floor distance-->
+    </kMaxSitOnFloorWatchDistance>
+    <kMinStandingWatchDistance value="4">
+      <!--Range:  0+:  minimum stand distance-->
+    </kMinStandingWatchDistance>
+    <kMaxStandingWatchDistance value="10">
+      <!--Range:  0+:  maximum stand distance-->
+    </kMaxStandingWatchDistance>
+    <kMaxChairWatchDistance value="10">
+      <!--Range:  0+:  maximum distance to watch while sitting in chair-->
+    </kMaxChairWatchDistance>
+    <kMaxCallOverDistance value="5">
+      <!--Range:  0+:  maximum distance from object to stand when when calling to open gifts.-->
+    </kMaxCallOverDistance>
+    <kMinCallOverDistance value="2">
+      <!--Range:  0+:  minimum distance to watch while sitting in chair-->
+    </kMinCallOverDistance>
+    <kMaxTimeToWaitToStart value="30">
+      <!--Range:  0+:  max time to wait to open gifts in minutes-->
+    </kMaxTimeToWaitToStart>
+    <kReactToGoodGift value="Cheer, Excited">
+      <!--Range:  ReactionTypes[]  Description:  Reactions to play when a good gift is opened-->
+    </kReactToGoodGift>
+    <kReactToBadGift value="LaughAt, PointLaugh">
+      <!--Range:  ReactionTypes[]  Description:  Reactions to play when a bad gift is opened-->
+    </kReactToBadGift>
+    <kBoxGeometryStates value="giftBoxCylinder, giftBoxSmall, giftBoxRectangle">
+      <!--Range:  string[]  Description:  Geometry states for the gift boxes-->
+    </kBoxGeometryStates>
+    <kBoxMaterialStates value="GiftColor1, GiftColor2, GiftColor3, GiftColor4">
+      <!--Range:  string[]  Description:  Material states for the gift boxes-->
+    </kBoxMaterialStates>
+    <kValueToBeGreatGift value="200">
+      <!--The value at which a gift must be valued in order to be considered a GREAT gift. 0.0+-->
+    </kValueToBeGreatGift>
+  </Current_Tuning>
+</base>

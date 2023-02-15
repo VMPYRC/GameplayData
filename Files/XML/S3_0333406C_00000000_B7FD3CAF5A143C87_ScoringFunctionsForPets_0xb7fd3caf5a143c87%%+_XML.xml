@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinEnergyMultiplier value="0.25">
+      <!--Minimum multiplier returned by the scoring function for pet Energy. Range: float less than 1.0. This is so sims will still consider doing certain interactions to pets even if the pet has decently high energy-->
+    </kMinEnergyMultiplier>
+    <kMinHygieneMultiplier value="0.1">
+      <!--Minimum multiplier returned by the scoring function for pet Hygiene. Range: float less than 1.0. This is so sims will still consider doing certain interactions to pets even if the pet has decently high hygiene-->
+    </kMinHygieneMultiplier>
+    <kMinHungerMultiplier value="0.1">
+      <!--Minimum multiplier returned by the scoring function for pet Hunger. Best to leave it below 1.0. This is so sims will still consider doing certain interactions to pets even if the pet is full. Try keeping this low, otherwise pets might repeatedly reject feeding them treats-->
+    </kMinHungerMultiplier>
+    <kMinSocialMultiplier value="0.5">
+      <!--Minimum multiplier returned by the scoring function for pet Social. Best to leave it below 1.0. This is so sims will still consider doing certain interactions to pets even if the pet has full social-->
+    </kMinSocialMultiplier>
+  </Current_Tuning>
+</base>

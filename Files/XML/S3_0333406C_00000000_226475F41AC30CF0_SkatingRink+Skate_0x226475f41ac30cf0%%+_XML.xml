@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxTimeToWaitForOpenning value="10">
+      <!--[float] The maximum amount of time, in sim minutes, a sim should wait for an openning to start skating before just barging in like a jerk. 0.0+-->
+    </kMaxTimeToWaitForOpenning>
+    <kSkillRequiredForFastSkating value="2">
+      <!--[int] The minimum skating skill required to skate like a pro (skate fast, do spins in the middle, etc). 0 - 10-->
+    </kSkillRequiredForFastSkating>
+    <kSkillIncreasePerRouteUpdate value="5">
+      <!--[float] The amount of skill increase per route update. 0.0+-->
+    </kSkillIncreasePerRouteUpdate>
+    <kIntervalToUpdateSkaterMotives value="2">
+      <!--[float] This is the interval (roughly in sim seconds) that the sim's motives will update while skating. This is also the interval at which we will roll the dice to see if slow skaters should stumble. 0.0+-->
+    </kIntervalToUpdateSkaterMotives>
+    <kChanceToStumble value="0.3, 0.01">
+      <!--[float] The min and max chance a noob skater will stumble.  We will roll the dice every kIntervalToUpdateSkatersMotives and see if we should stumble. 0.0 - 1.0-->
+    </kChanceToStumble>
+    <kMaxWaitTimeForCouplesSpin value="60">
+      <!--[float] The maximum amount of time, in sim mintues, a sim should wait for the couples spin partner before giving up. 0.0+-->
+    </kMaxWaitTimeForCouplesSpin>
+    <kChanceForCouplesSpinToFall value="0.3">
+      <!--[float] The chance to fall down while doing a couples spin. 0.0 - 1.0-->
+    </kChanceForCouplesSpinToFall>
+    <kMinMaxTimeToSkateAutonomously value="60, 120">
+      <!--[float] The min/max amount of time, in sim minutes, a sim will skate autonomously. 0.0 - 1.0-->
+    </kMinMaxTimeToSkateAutonomously>
+    <kTimeToSingleSpin value="8">
+      <!--[float] The amount of time, in sim mintues, a sim should spin before being done. 0.0+-->
+    </kTimeToSingleSpin>
+    <kTimeToCouplesSpin value="10">
+      <!--[float] The amount of time, in sim mintues, sims should couple spin before being done. 0.0+-->
+    </kTimeToCouplesSpin>
+    <kSkillIncreaseWhileSpinning value="30">
+      <!--[float] The amount of skill increase while spinning. 0.0+-->
+    </kSkillIncreaseWhileSpinning>
+    <kFunMotiveWhileSpinning value="2.0">
+      <!--[float] The amount of fun motive to gain while spinning. 0.0+-->
+    </kFunMotiveWhileSpinning>
+    <kSocialMotivePerRouteUpdate value="2.0">
+      <!--[float] The amount of social motive to gain per route update. 0.0+-->
+    </kSocialMotivePerRouteUpdate>
+    <kSocialMotiveWhileSpinning value="2.0">
+      <!--[float] The amount of social motive to gain while spinning. 0.0+-->
+    </kSocialMotiveWhileSpinning>
+    <kRelationshipGainWhileSpinningWith value="2.0">
+      <!--[float] The amount of relationship to gain while spinning with another sim. 0.0+-->
+    </kRelationshipGainWhileSpinningWith>
+    <kAutonomousChanceToSpin value="0.3">
+      <!--[float] The chance of a sim autonomously spinning. 0.0 - 1.0-->
+    </kAutonomousChanceToSpin>
+    <kTimeToCheckForAutonomousSpinningAndBackwardSkating value="5">
+      <!--[float] The amount of time, in sim minutes, between checking if sims should autonomously spin/spin with/skate backward. 0.0+-->
+    </kTimeToCheckForAutonomousSpinningAndBackwardSkating>
+    <kAutonomousChanceToSpinWith value="0.3">
+      <!--[float] The chance of a sim autonomously spinning with someone. 0.0 - 1.0-->
+    </kAutonomousChanceToSpinWith>
+    <kAutonomousChanceToSkateBackwards value="0.3">
+      <!--[float] The chance of a sim autonomously skating backwards. 0.0 - 1.0-->
+    </kAutonomousChanceToSkateBackwards>
+    <kTimeToAutonomouslySkateBackward value="15">
+      <!--[float] The time, in sim minutes, to autonomously skate backward before going back to forwards. 0.0+-->
+    </kTimeToAutonomouslySkateBackward>
+    <kSkillRequiredForSpin value="3, 4, 5, 6">
+      <!--[int] The minimum skating skill required to perform spins in this order: Novice, Normal, Skilled, Expert. 0 - 10-->
+    </kSkillRequiredForSpin>
+    <kFunMotivePerRouteUpdate value="2">
+      <!--[float] The amount of fun motive to gain while skating. 0.0+-->
+    </kFunMotivePerRouteUpdate>
+    <kSkillRequiredForSkatingBackward value="4">
+      <!--[int] The minimum skating skill required to skate backwards. 0 - 10-->
+    </kSkillRequiredForSkatingBackward>
+  </Current_Tuning>
+</base>

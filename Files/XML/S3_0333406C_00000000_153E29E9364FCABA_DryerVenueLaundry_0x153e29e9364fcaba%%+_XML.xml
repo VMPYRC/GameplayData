@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDryerTuning>
+      <DryTime value="45">
+        <!--The number of Sim minutes it takes the Dryer to finish Drying Clothes-->
+      </DryTime>
+      <CleanSheetsBuffTimeInHrs value="120">
+        <!--The number of Sim hours all beds should give the Clean Sheets Buff for-->
+      </CleanSheetsBuffTimeInHrs>
+      <FreshClothingBuffTimeInHrs value="120">
+        <!--How long, in Sim hours, Sims will be able to receive the Fresh Clothing buff-->
+      </FreshClothingBuffTimeInHrs>
+      <FreshClothingBuffIsVeryFresh value="True">
+        <!--Range:  True/False  Description:  True, if this dryer contributes to generating a Very Fresh Clothing buff. False otherwise.-->
+      </FreshClothingBuffIsVeryFresh>
+      <kLaundryApplianceTuning>
+        <kMultiplierWealthy value="1.0">
+          <!--Scoring multiplier for Wealthy Sims-->
+        </kMultiplierWealthy>
+        <kMultiplierFrugal value="0.75">
+          <!--Scoring multiplier for Frugal Sims-->
+        </kMultiplierFrugal>
+        <kMultiplierSnob value="1.0">
+          <!--Scoring multiplier for Snob Sims-->
+        </kMultiplierSnob>
+        <kMultiplierLovesTheOutdoors value="1.2">
+          <!--Scoring multiplier for Loves the Outdoors Sims-->
+        </kMultiplierLovesTheOutdoors>
+        <kMultiplierNeat value=".90">
+          <!--Scoring multiplier for Neat Sims-->
+        </kMultiplierNeat>
+        <kMultiplierSlob value=".75">
+          <!--Scoring multiplier for Slob Sims-->
+        </kMultiplierSlob>
+      </kLaundryApplianceTuning>
+    </kDryerTuning>
+  </Current_Tuning>
+</base>

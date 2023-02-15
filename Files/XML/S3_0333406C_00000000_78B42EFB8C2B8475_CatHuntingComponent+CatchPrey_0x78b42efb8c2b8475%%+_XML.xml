@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kInitialRouteDistance value="5">
+      <!--Distance cat should route to prey before cat hunkers down and starts stalking prey.-->
+    </kInitialRouteDistance>
+    <kFightLength value="5">
+      <!--Num sim minutes fight loop lasts.-->
+    </kFightLength>
+    <kHungerThreshold value="-50">
+      <!--If cats hunger is below this value and they successfully cat the prey they will eat it.-->
+    </kHungerThreshold>
+    <kMinMaxChanceCatchPrey value="30, 80">
+      <!--Range 0-100, Min/Max chance of cat catching prey. The actual chance is linearly interpolated between these 2 values based on sim's skill level and coresponding skill level tuning of the prey-->
+    </kMinMaxChanceCatchPrey>
+    <kFailureOutcomeWeights value="1, 1, 1, 1">
+      <!--Base Weighting for failure outcomes [Scared, PreyGone, FailureObject], any of these weights can be overriden on a trait basis by the coresponding tunables.-->
+    </kFailureOutcomeWeights>
+    <kScaredOutcomeOverrideTraits value="AdventurousPet, SkittishPet">
+      <!--Trait overrides for Scared outcome.-->
+    </kScaredOutcomeOverrideTraits>
+    <kScaredOutcomeOverrideWeights value="0, 3">
+      <!--Weighting override for Scared outcome for coresponding tuned traits.-->
+    </kScaredOutcomeOverrideWeights>
+    <kPreyGoneOutcomeOverrideTraits value="CluelessPet">
+      <!--Trait overrides for PreyGone outcome.-->
+    </kPreyGoneOutcomeOverrideTraits>
+    <kPreyGoneOutcomeOverrideWeights value="3">
+      <!--Weighting override for PreyGone outcome for coresponding tuned traits.-->
+    </kPreyGoneOutcomeOverrideWeights>
+    <kFailureObjectOutcomeOverrideTraits value="AggressivePet, HunterPet">
+      <!--Trait overrides for catch Failure Object outcome.-->
+    </kFailureObjectOutcomeOverrideTraits>
+    <kFailureObjectOutcomeOverrideWeights value="3, 3">
+      <!--Weighting override for catch Failure Object outcome for coresponding tuned traits.-->
+    </kFailureObjectOutcomeOverrideWeights>
+    <kEatPreyHungerGain value="25">
+      <!--Hunger Gain from Eating prey-->
+    </kEatPreyHungerGain>
+    <kIncreasedCatchChanceCreepyCrawling value="10, 20">
+      <!--Range 0-100, [Rare,Extra Rare] additional chances of catching rare and extra rare beetles if pet has Skill Lifetime opp Creeping and Crawling-->
+    </kIncreasedCatchChanceCreepyCrawling>
+  </Current_Tuning>
+</base>

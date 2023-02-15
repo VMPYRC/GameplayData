@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeLaundryHeadStand, magicGnomeLaundryLookOut, magicGnomeLaundrySit">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeLaundryLying">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeLaundryFunnyFace, magicGnomeLaundryLookOut">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeLaundrySit">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeLaundryLying, magicGnomeLaundrySit">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kWeightExpensive value="2">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+      <kNoKickPoses value="magicGnomeLaundryLying, magicGnomeLaundrySit">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+    </kGnomeTuning>
+    <kDesireForWasher value="15">
+      <!--OBJECT DESIREABILITY: score multiplier for washers.-->
+    </kDesireForWasher>
+    <kDesireForDryer value="15">
+      <!--OBJECT DESIREABILITY: score multiplier for Dryers.-->
+    </kDesireForDryer>
+    <kDesireForClothesline value="10">
+      <!--OBJECT DESIREABILITY: score multiplier for Clotheslines.-->
+    </kDesireForClothesline>
+    <kDesireForClothingPiles value="10">
+      <!--OBJECT DESIREABILITY: score multiplier for ClothingPiles.-->
+    </kDesireForClothingPiles>
+    <kDesireForHampers value="5">
+      <!--OBJECT DESIREABILITY: score multiplier for Hampers.-->
+    </kDesireForHampers>
+    <kDesireForKidsRoomObjects value="5">
+      <!--OBJECT DESIREABILITY: score multiplier for kids room objects.-->
+    </kDesireForKidsRoomObjects>
+  </Current_Tuning>
+</base>

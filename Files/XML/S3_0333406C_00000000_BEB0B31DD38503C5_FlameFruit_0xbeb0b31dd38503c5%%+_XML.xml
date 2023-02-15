@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBenefitDurationHours value="1, 1, 2, 4, 8, 16, 24, 32, 40, 54">
+      <!--Amount of hours (starting when the Flame Fruit is harvested) for which the Flame Fruit exhibits benefits (env score, vfx) based on the quality level of the Flame Fruit.  Format: (Horrifying, Putrid, Foul, Bad, Neutral, Nice, VeryNice, Great, Excellent, Outstanding).  Perfect quality flame fruits never lose their benefits (and hence have no entry in this tuning variable).-->
+    </kBenefitDurationHours>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="10">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kMinQualityForFlameVfx value="Great">
+      <!--Flame Fruits of this quality level and higher will occasionally have flame vfx playing (until the Flame Fruit's 'benefits' period expires).-->
+    </kMinQualityForFlameVfx>
+    <kFlameVfxDuration value="3,10">
+      <!--Number of Sim Minutes that the Flame VFX stays on for.  Actual value is a random float between these two numbers.  Format: (Min, Max).-->
+    </kFlameVfxDuration>
+    <kFlameVfxSpacing value="5, 15">
+      <!--Number of Sim Minutes between successive Flame VFX.  Actual value used is a random float between these two numbers.  Format: (Min, Max).-->
+    </kFlameVfxSpacing>
+  </Current_Tuning>
+</base>

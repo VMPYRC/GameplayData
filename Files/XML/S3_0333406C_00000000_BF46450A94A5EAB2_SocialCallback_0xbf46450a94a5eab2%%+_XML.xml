@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMassageDestressAmountPerHour value="50">
+      <!--Range: Stress loss per hour.  Description:  Receiving a massage causes this much stress loss per hour.-->
+    </kMassageDestressAmountPerHour>
+    <kBreakUpLTRFromBeingAsked value="-20">
+      <!--LTR hit for sims that break up from being asked by another sim.-->
+    </kBreakUpLTRFromBeingAsked>
+    <kWitnessDivorceThreshold value="30">
+      <!--How high your liking needs to be with one of the divorcees to get the witnessed divorce debuff .-->
+    </kWitnessDivorceThreshold>
+    <kTombMummyAttackBaseVictoryChance value=".5">
+      <!--Tomb Mummy Attack: Base chance for mummy victory. Value: 0.0 - 1.0-->
+    </kTombMummyAttackBaseVictoryChance>
+    <kTombMummyAttackMummysCurseChance value="0.2">
+      <!--Tomb Mummy Attack: If the mummy wins the attack, the chance the loser will get mummys curse. If this chance fails, the loser will be knocked out.  Value: 0.0 - 1.0-->
+    </kTombMummyAttackMummysCurseChance>
+    <kTombMummyAttackReturnToSarcophagusChance value="1.0">
+      <!--Tomb Mummy Attack: If the mummy wins the attack, the chance it'll return to its sarcophagus.  If chance fails, the mummy will wander.  Value: 0.0 - 1.0-->
+    </kTombMummyAttackReturnToSarcophagusChance>
+    <kTombMummyAttackFearBuffMoodValue value="-30">
+      <!--Range: Negative integer. Strength of the fear buff after losing a fight with the mummy.-->
+    </kTombMummyAttackFearBuffMoodValue>
+    <kBeFriskyFunGain value="40">
+      <!--Fun gain for accepting Be Frisky interaction-->
+    </kBeFriskyFunGain>
+    <kFeedTreatChanceHack value="30">
+      <!--Chance of pet with piggy trait hacking after feed treat social-->
+    </kFeedTreatChanceHack>
+    <kFeedTreatHungerGain value="20">
+      <!--Hunger Gain from Feed Treat social-->
+    </kFeedTreatHungerGain>
+    <kFeedTreatFunGain value="10">
+      <!--Fun Gain from Feed Treat social-->
+    </kFeedTreatFunGain>
+    <kFeedTreatSocialMultiplierMotiveRange value="-60, 0">
+      <!--Range [-100,100] Hunger Motive score at which to apply corresponding scoring multiplier-->
+    </kFeedTreatSocialMultiplierMotiveRange>
+    <kFeedTreatSocialMultiplierScoreRange value="450, 5">
+      <!--Range [0,1+] Social score multiplier to apply at corresponding Hunger motive levels-->
+    </kFeedTreatSocialMultiplierScoreRange>
+    <kRubBellyChanceStretch value="30">
+      <!--Chance of Stretching after Rub Belly Social-->
+    </kRubBellyChanceStretch>
+    <kLickSimFunGain value="20">
+      <!--Fun Gain for pet from Lick Sim social-->
+    </kLickSimFunGain>
+    <kLickSimHygieneGain value="20">
+      <!--Hygiene Gain for sim from Lick Sim social-->
+    </kLickSimHygieneGain>
+    <kBrushPetHygieneGain value="50">
+      <!--Hygiene Gain for Pet from being brushed-->
+    </kBrushPetHygieneGain>
+    <kTugOfWarEnergyCommodityUpdate>
+      <mMultiplier value="1" />
+      <mLocked value="False" />
+      <mActualValue value="-25" />
+      <mUpdateType value="ContinuousFlow" />
+      <mTimeDependsOnCommodityFilling value="False" />
+      <mUpdateEvenOnFailure value="True" />
+      <mUpdateAboveAndBelowZero value="Either" />
+      <CommodityIsMeantForReinforcement value="False" />
+    </kTugOfWarEnergyCommodityUpdate>
+    <kFeedHarvestableWildFriendUpdateAmount value="25">
+      <!--Amount that a successful feed harvestable interaction increases wildlife friend skilll-->
+    </kFeedHarvestableWildFriendUpdateAmount>
+    <kBrushPetHairballCountDelta value="-4">
+      <!--Amount the hairball count decreases on a brushed cat.-->
+    </kBrushPetHairballCountDelta>
+    <kChanceToddlerCryingAfterTackle value="0.6">
+      <!--Range 0-1. Chance of toddler crying after tackle interaction-->
+    </kChanceToddlerCryingAfterTackle>
+    <kCryingAfterTackleDuration value="10">
+      <!--Time for toddler to cry if they do so after tackle interaction-->
+    </kCryingAfterTackleDuration>
+    <kChanceSimUpsetAfterTackle value="0.6">
+      <!--Range 0-1. Chance of sim upset after tackle interaction-->
+    </kChanceSimUpsetAfterTackle>
+    <kTackleSimFunGain value="15">
+      <!--Fun Gain for pet from tackle Sim social-->
+    </kTackleSimFunGain>
+    <kChanceCluelessDogBringOldNewspaperWhenAsked value="70">
+      <!--Range: 0 - 100. Chance clueless dogs will bring old newspaper when Asked To Bring Newspaper.-->
+    </kChanceCluelessDogBringOldNewspaperWhenAsked>
+    <kChanceDogBringOldNewspaperWhenAsked value="10">
+      <!--Range: 0 - 100. Chance non-clueless non-genius dogs will bring old newspaper when Asked To Bring Newspaper.-->
+    </kChanceDogBringOldNewspaperWhenAsked>
+    <kPlayHaveFunMotiveFunGain value="25">
+      <!--Fun Gain for pet and sim from play have fun social-->
+    </kPlayHaveFunMotiveFunGain>
+    <kIntimidateFunGain value="16">
+      <!--Fun Gain for a Vampire who successfully Intimidates-->
+    </kIntimidateFunGain>
+    <kIntimidateVampireIntimidateBackChance value="75">
+      <!--Range: 0 - 100. Chance that a vampire who gets Intimidated will Intimidate the first vampire back-->
+    </kIntimidateVampireIntimidateBackChance>
+    <kIntimidateEnemyFightChance value="80">
+      <!--Range: 0 - 100. Chance that an enemy who gets Intimidated will start a Fight-->
+    </kIntimidateEnemyFightChance>
+    <kIntimidateTerrifyTraits value="Coward, Excitable, Insane, Neurotic, OverEmotional, Unlucky">
+      <!--Traits that cause a target to get Terrified instead of Scared when Intimidated-->
+    </kIntimidateTerrifyTraits>
+    <kNumberOfFairyDustJarsGranted value="3">
+      <!--Number of jars of fairy dust granted when requested. From 1 to this number randomly.-->
+    </kNumberOfFairyDustJarsGranted>
+    <kChanceCreepedOutPromiseToProtect value="10">
+      <!--Range: 0 - 100. Chance of getting Creeped Out debuff on Promise To Protect Rejection.-->
+    </kChanceCreepedOutPromiseToProtect>
+    <kChanceEmbarassedAskToBeProtected value="10">
+      <!--Range: 0 - 100. Chance of getting Embarassed debuff on Ask To Be Protected Rejection.-->
+    </kChanceEmbarassedAskToBeProtected>
+    <kNerdSocialInfluenceIncrease value="150">
+      <!--Range: 0+.  Description: Social Influence bonus for nerd socials.-->
+    </kNerdSocialInfluenceIncrease>
+    <kNerdSocialInfluenceDecrease value="-100">
+      <!--Range: 0+.  Description: Social Influence penalty for nerd socials.-->
+    </kNerdSocialInfluenceDecrease>
+    <kSocialiteSocialInfluenceIncrease value="150">
+      <!--Range: 0+.  Description: Social Influence bonus for socialite socials.-->
+    </kSocialiteSocialInfluenceIncrease>
+    <kSocialiteSocialInfluenceDecrease value="-100">
+      <!--Range: 0+.  Description: Social Influence penalty for socialite socials.-->
+    </kSocialiteSocialInfluenceDecrease>
+    <kRebelSocialInfluenceIncrease value="150">
+      <!--Range: 0+.  Description: Social Influence bonus for rebel socials.-->
+    </kRebelSocialInfluenceIncrease>
+    <kRebelSocialInfluenceDecrease value="-100">
+      <!--Range: 0+.  Description: Social Influence penalty for rebel socials.-->
+    </kRebelSocialInfluenceDecrease>
+    <kTargetSocialInfluenceLevel value="1">
+      <!--Range: 0+.  Description: Level of social influence skill the target must be at for Social Influence to be modified for the AddSocial Influence proc functions.-->
+    </kTargetSocialInfluenceLevel>
+    <kTestAnswersPrice value="250">
+      <!--Range: 0+.  Description: Amount of Simoleons charged when selling test answers.-->
+    </kTestAnswersPrice>
+    <kInfluenceLevelThresholdX value="1">
+      <!--Influence level threshold for the target sim. If the target's hightest influence is above it then actor gets +Influence of that type.-->
+    </kInfluenceLevelThresholdX>
+    <kInfluenceLevelThresholdY value="5">
+      <!--Influence level threshold for the target sim. If the target's hightest influence is above it then actor gets ++Influence of that type.-->
+    </kInfluenceLevelThresholdY>
+    <kInfluenceToAddX value="200">
+      <!--Influence points to add to the Actor. If the target's hightest influence is above kInfluenceThresholdX-->
+    </kInfluenceToAddX>
+    <kInfluenceToAddY value="300">
+      <!--Influence points to add to the Actor. If the target's hightest influence is above kInfluenceThresholdY-->
+    </kInfluenceToAddY>
+    <kSchoolCheerBonfireBonusPartyScore value="5">
+      <!--Range: 0+  Description: Bonus value to add to bonfire party score when doing a school cheer at a bonfire party.-->
+    </kSchoolCheerBonfireBonusPartyScore>
+    <kTuneUpMinReward value="1, 1, 5, 5, 10, 10, 20, 20, 30, 30, 50">
+      <!--Description: When performing tuneup, this is the lowest reward a sim can get in simoleons.-->
+    </kTuneUpMinReward>
+    <kTuneUpMaxReward value="10, 15, 25, 40, 55, 75, 100, 125, 150, 200, 250">
+      <!--Description: When performing tuneup, this is the highest reward a sim can get in simoleons.-->
+    </kTuneUpMaxReward>
+    <kTuneUpSkillReward value="0">
+      <!--Description: How much skill gains do we earn for performing a Tune Up.-->
+    </kTuneUpSkillReward>
+    <kUpgradeChipSlotsSkillReward value="350">
+      <!--Description: How much skill gains do we earn for performing Upgrade Chip Slots.-->
+    </kUpgradeChipSlotsSkillReward>
+    <kTuneUpMaintenanceGains value="200">
+      <!--Range:  0.0f to 100.0f  Description:  The rate at which a servobot gains maintenance from the tune up social.-->
+    </kTuneUpMaintenanceGains>
+    <kTuneUpBotBuildingGaims value="25">
+      <!--Range:  0.0f to 100.0f  Description:  The rate at which a person gains Bot Building Skill from the tune up social.-->
+    </kTuneUpBotBuildingGaims>
+    <kOfferBugSkillGain value="100">
+      <!--Range: Positive Float.  Description: Bug-Eating Skill gained from eating a bug in the Offer Bug social.-->
+    </kOfferBugSkillGain>
+    <kChanceToUpgrade value="0.3">
+      <!--Range: 0.0f - 1.0f Description: Chance of increasing a bots quality level when performing a tune up.-->
+    </kChanceToUpgrade>
+    <kProTuneUpMaintenanceGains value="300">
+      <!--Range:  0.0f to 100.0f  Description:  The rate at which a servobot gains maintenance from the PRO tune up social.-->
+    </kProTuneUpMaintenanceGains>
+    <kProTuneUpBotBuildingGains value="30">
+      <!--Range:  0.0f to 100.0f  Description:  The rate at which a person gains Bot Building Skill from the PRO tune up social.-->
+    </kProTuneUpBotBuildingGains>
+    <kProTuneUpSkillReward value="40">
+      <!--Range: 0.0f+ Description: How much skill gains do we earn for performing a PRO Tune Up.-->
+    </kProTuneUpSkillReward>
+    <kProTuneUpCareerXPReward value="0">
+      <!--Range: 0.0f+ Description: How much career XP gain do we earn for performing a PRO Tune Up.-->
+    </kProTuneUpCareerXPReward>
+    <kShareSpriteSkillReward value="80">
+      <!--Range: 0.0f+  Description: How much Future Skill is earned from a successful Share Sprite social.-->
+    </kShareSpriteSkillReward>
+    <kAskSpriteSkillReward value="80">
+      <!--Range: 0.0f+  Description: How much Future Skill is earned from a successful Ask for Sprite social.-->
+    </kAskSpriteSkillReward>
+    <kShowOffSpriteSkillReward value="40">
+      <!--Range: 0.0f+  Description: How much Future Skill is earned from a successful Show-off Sprite social.-->
+    </kShowOffSpriteSkillReward>
+    <kGetToKnowSpriteSkillReward value="40">
+      <!--Range: 0.0f+  Description: Rate at which Future Skill is earned per minute during a successful Get To Know Sprite social.-->
+    </kGetToKnowSpriteSkillReward>
+    <kProTuneUpCashBonusMultiplier value="2">
+      <!--Range: 0.0f+ Description: Multiplier for cash earned when performing a PRO Tune Up.-->
+    </kProTuneUpCashBonusMultiplier>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

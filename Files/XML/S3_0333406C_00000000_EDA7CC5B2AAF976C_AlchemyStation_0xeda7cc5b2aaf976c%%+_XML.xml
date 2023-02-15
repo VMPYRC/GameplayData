@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinLevelToMixPotion value="1">
+      <!--Minimum Spellcraft skill level for player to be able to mix potion-->
+    </kMinLevelToMixPotion>
+    <kMinSkillLevelToCreateTwoItems value="6">
+      <!--Minimum Spellcraft skill level for player to possibly create two items for the price of one when creating items-->
+    </kMinSkillLevelToCreateTwoItems>
+    <kMinSkillLevelToCreateThreeItems value="10">
+      <!--Minimum Spellcraft skill level for player to possibly create three items for the price of one when creating items-->
+    </kMinSkillLevelToCreateThreeItems>
+    <kChanceOfCreatingTwoItems value="0.3">
+      <!--Range: 0-1.0f; Percent chance of player creating two items for the price of one if the Sim is higher than skill level in kMinSkillLevelToCreateTwoItems-->
+    </kChanceOfCreatingTwoItems>
+    <kChanceOfCreatingThreeItems value="0.3">
+      <!--Range: 0-1.0f; Percent chance of player creating three items for the price of one if the Sim is higher than skill level in kMinSkillLevelToCreateThreeItems-->
+    </kChanceOfCreatingThreeItems>
+    <kCreationTime value="45, 45, 42.5, 40, 37.5, 35, 32.5, 30, 27.5, 25, 22.5">
+      <!--Range: Positive floats; Amount of time in Sim minutes that it will take to craft this item at each Spellcraft skill level 0 - 10-->
+    </kCreationTime>
+    <kCreationChanceOfSuccess value="0, 0.6, 0.7, 0.8, 0.8, 0.85, 0.85, 0.9, 0.95, 0.98, 0.99">
+      <!--Range: 0-1.0f; Percent chance of successfully creating items at each Spellcraft skill level 0 - 10, Implies chance of failure.-->
+    </kCreationChanceOfSuccess>
+    <kCreationChanceOfCriticalFailure value="0, 0.25, 0.25, 0.25, 0.20, 0.20, 0.20, 0.15, 0.15, 0.15, 0.1">
+      <!--Range: 0-1.0f; Percent chance of a critical failure if the Sim already failed to create craft the item. Specified for each Spellcraft skill levels 0 - 10-->
+    </kCreationChanceOfCriticalFailure>
+    <kChanceBonusPerQualityLevel value="0.01">
+      <!--Range: 0-1.0f; For each level of quality from an ingredient, this is the percent chance bonus for creating multiple potions; Modifies kChanceOfCreatingTwoItems and kChanceOfCreatingThreeItems-->
+    </kChanceBonusPerQualityLevel>
+  </Current_Tuning>
+</base>

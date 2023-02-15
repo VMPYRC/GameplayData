@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCookingSkillForAmbrosia value="10">
+      <!--The cooking skill level required to make Ambrosia.-->
+    </kCookingSkillForAmbrosia>
+    <kGardeningSkillForAmbrosia value="10">
+      <!--The gardening skill level required to make Ambrosia.-->
+    </kGardeningSkillForAmbrosia>
+    <kFishingSkillForAmbrosia value="10">
+      <!--The fishing skill level required to make Ambrosia.-->
+    </kFishingSkillForAmbrosia>
+    <kAmbrosiaAgingRewindPercentage value="0.2">
+      <!--The percentage of the sim's current aging state the sim will win back after their age state is reset. Should be between 0 and 1.-->
+    </kAmbrosiaAgingRewindPercentage>
+    <kAmbrosiaGhostEatScore value="2.5">
+      <!--The scoring multiplier for Ambrosia for ghosts.-->
+    </kAmbrosiaGhostEatScore>
+    <kNonAmbrosiaGhostEatScore value="0.5">
+      <!--The scoring multiplier for non-Ambrosia foods for ghosts.-->
+    </kNonAmbrosiaGhostEatScore>
+    <kFridgeRestockingPriceMarkupPercentage value="50">
+      <!--This is the markup items are if you buy them through the fridge restocking interface rather than at the store.-->
+    </kFridgeRestockingPriceMarkupPercentage>
+    <kFridgeQualityOfIngredientsPurchased value="Neutral">
+      <!--Quality to assign to created ingredients bought through the Fridge.-->
+    </kFridgeQualityOfIngredientsPurchased>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

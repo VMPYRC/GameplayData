@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumSlices value="8">
+      <!--The number of slices in this cake. Positive int. Initial GPE value: 8.-->
+    </kNumSlices>
+    <kNumSlicesHalfGone value="6">
+      <!--The number of slices left when the cake looks half gone. Positive int. Initial GPE value: 5.-->
+    </kNumSlicesHalfGone>
+    <kNumFoodPointsForCake value="5">
+      <!--The number of food points given by cake. This will affect sims' interest in eating it. Positive int. Initial GPE value: 5. Keep low as the sim should not finish the cake before they can celebrate the birthday.-->
+    </kNumFoodPointsForCake>
+    <kChanceToCatchFire value="0.02">
+      <!--[Preferred GPE Default: 0.50f - flip a coin to decide between getting old and burning to death.] Chance for causing fire onces sim blows candles. Positive float. Range [0, 1]. Initial GPE Default: 0.02f.-->
+    </kChanceToCatchFire>
+    <kTimeToWaitForOthers value="15">
+      <!--Sim minutes spent waiting for others to come over. Positive float. Initial GPE default: 20.0f-->
+    </kTimeToWaitForOthers>
+    <sLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="1">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <!--deprecated on: 4/4/2008 11:33:52 AM-->
+      <DefaultInteractionLookAtThreshold value="-1">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </sLookAtTuning>
+    <kCakeTimeToNextFoodSpoilageStage value="48">
+      <!--The time for how long cake takes to spoil, in hours.-->
+    </kCakeTimeToNextFoodSpoilageStage>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+  </Deprecated_Tuning>
+</base>

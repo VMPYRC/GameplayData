@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDurationSimMinutes value="10">
+      <!--Positive float.  The number of sim minutes to run the attack loop.-->
+    </kDurationSimMinutes>
+    <kScaredToDeathChance value="0.2">
+      <!--Float in range 0 to 1.  Chance the bird will die of fright.-->
+    </kScaredToDeathChance>
+    <kBirdEnergyDelta value="20">
+      <!--Int in range 0 to -100.  The amount of energy the bird loses from being attacked.-->
+    </kBirdEnergyDelta>
+    <kCatFunDelta value="50">
+      <!--Positive float.  The amount of fun the cat gets from attacking the bird.-->
+    </kCatFunDelta>
+    <kBirdTalkFrequencySimMinutes value="4">
+      <!--Positive float.  The number of sim minutes between each time the bird talks.-->
+    </kBirdTalkFrequencySimMinutes>
+    <kAnimalExpertDeathChanceMultiplier value="0.1">
+      <!--Positive float.  Multiplier of the death chance if household has Animal Expert Sim. The lower the multiplier is, the lower the chance for the bird to die-->
+    </kAnimalExpertDeathChanceMultiplier>
+    <kCatCatchesBirdInTreeChance value="0.2, 0.5">
+      <!--2 floats in range 0 to 1.  Index 0 - Chance a normal Cat will catch a Bird in a Tree.  Index 1 - Chance a Hunter Cat will catch a Bird in a Tree.-->
+    </kCatCatchesBirdInTreeChance>
+  </Current_Tuning>
+</base>

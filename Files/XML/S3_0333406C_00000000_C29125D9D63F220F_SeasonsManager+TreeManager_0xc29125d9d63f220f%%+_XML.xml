@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFallColorChangeEndTime value="0.2">
+      <!--At what % way through Fall leaves turn completely brown.-->
+    </kFallColorChangeEndTime>
+    <kFallLeavesStartTime value="0.2">
+      <!--At what % way through Fall leaves start falling.-->
+    </kFallLeavesStartTime>
+    <kFallLeavesEndTime value="0.9">
+      <!--At what % way through Fall leaves completely fallen.-->
+    </kFallLeavesEndTime>
+    <kSpringLeavesRegrowTime value="0.5">
+      <!--At what % way through Spring leaves completely regrow.-->
+    </kSpringLeavesRegrowTime>
+    <kMinHoursForFullCycle value="8">
+      <!--Minimum time for trees to go through a complete cycle of losing leaves and regrowing. So if Fall is disabled and we go straight from Summer to Winter, leaves will drop in half this time.-->
+    </kMinHoursForFullCycle>
+    <kHoursLeavesGatherOnGround value="10, 12">
+      <!--[Min,max] hours between leaves gathering on the ground. The time is chosen per lot in this range.-->
+    </kHoursLeavesGatherOnGround>
+    <kLeavesGatherAmount value="0.15, 0.2">
+      <!--[Min,max] of how much leaves gather on the ground each time. 1 is max coverage.-->
+    </kLeavesGatherAmount>
+    <kLeavesLossAmount value="0.5, 0.6">
+      <!--[Min,max] of how much leaves are removed from ground outside of Fall. 1 is max coverage.-->
+    </kLeavesLossAmount>
+  </Current_Tuning>
+</base>

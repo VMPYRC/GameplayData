@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSoundBroadcastParams>
+      <PulseRadius value="12">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <PulseRepeatTime value="10">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="True">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="True">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kSoundBroadcastParams>
+    <kSoundBroadcastWiredSpeakers>
+      <PulseRadius value="64">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <PulseRepeatTime value="15">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="True">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="True">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kSoundBroadcastWiredSpeakers>
+    <kAthleticTuning>
+      <DelayFatiguePercentagePerAthleticSkillLevel value="0.065">
+        <!--Range: 0.0f to 0.1f.  Description: As you use athletic game objects, your Sim has an increase in the Fatigue motive.  As your Sim gains Athletic skill, your Sim will be less fatigued.  This tunable is the fatigue gain percentage decrease per athletic skill level.-->
+      </DelayFatiguePercentagePerAthleticSkillLevel>
+      <AthleticTraitDestressMultiplier value="2">
+        <!--Range: Non-negative float.  Description:  Sims with the Athletic trait will distress at a faster rate than normal Sims while using athletic game objects.  This tunable is the multiplier to the normal destress rate.-->
+      </AthleticTraitDestressMultiplier>
+      <MinsToAddPumped value="120">
+        <!--Range: Positive floats.  Description: Number of Sim minutes in the 'Work Out' interaction in order to get the 'Pumped' buff.-->
+      </MinsToAddPumped>
+      <AthleticLevelToAddPumped value="3">
+        <!--Range: Positive integers.  Description:  Minimum Athletic skill level at which to get the 'Pumped' buff.-->
+      </AthleticLevelToAddPumped>
+      <CanTriggerAthleticTraitTip value="False">
+        <!--Type: bool.  Description:  If a sim has Athletic skill, this object will prompt a Trait tip.-->
+      </CanTriggerAthleticTraitTip>
+      <kLookAtThresholdForTrain value="20">
+        <!--Range: 0 to 100. Only objects of lookat interestingness above this value will be looked at while training sims-->
+      </kLookAtThresholdForTrain>
+    </kAthleticTuning>
+    <kDaysToReachMuscularShape value=".75">
+      <!--Range: Positive floats.  Description:  The time in Sim days it takes a Sim to reach full muscular shape from the fully non-muscular shape.-->
+    </kDaysToReachMuscularShape>
+    <kDaysToReachCardioShape value=".65">
+      <!--Range: Positive floats.  Description:  The time in Sim days it takes a Sim to reach full cardio shape from the fully fat shape.-->
+    </kDaysToReachCardioShape>
+    <kRateOfSkillGainForDancing value="4.2">
+      <!--Rate of increase for Dance skill. Positive float.-->
+    </kRateOfSkillGainForDancing>
+    <kSimMinutesBeforeChangingDancePose value="20">
+      <!--The dance pose changes after so many sim minutes. Positive float. Initial GPE value: 20.0f-->
+    </kSimMinutesBeforeChangingDancePose>
+    <kMinDistanceToUse value="2">
+      <!--Min distance from the stereo to work out or dance. Positive float. Init GPE default: 2.0f-->
+    </kMinDistanceToUse>
+    <kMaxDistanceToUse value="7">
+      <!--Max distance from the stereo to turn on or off. Positive float. Init GPE default: 4.0f. Constraint: >= the min counterpart.-->
+    </kMaxDistanceToUse>
+    <kLookAtInterestingnessWhenTurnedOn value="20">
+      <!--How interesting to look at this (range 0:100) when turned on-->
+    </kLookAtInterestingnessWhenTurnedOn>
+    <kLookAtInterestingnessWhenTurnedOff value="3">
+      <!--How interesting to look at this (range 0:100) when turned off-->
+    </kLookAtInterestingnessWhenTurnedOff>
+    <kSoundGainLowLevel value="0.25">
+      <!--Gain value for playing volume: Low. Positive float. Range [0, 1]. Initial GPE Default 0.25f-->
+    </kSoundGainLowLevel>
+    <kSoundGainMediumLevel value="0.6">
+      <!--Gain value for playing volume: Medium. Positive float. Range [0, 1]. Initial GPE Default 0.60f-->
+    </kSoundGainMediumLevel>
+    <kSoundGainHighLevel value="1">
+      <!--Gain value for playing volume: High. Positive float. Range [0, 1]. Initial GPE Default 1.0f-->
+    </kSoundGainHighLevel>
+    <kChanceForSimUsingTileToTileAnimation value="0.1">
+      <!--Chance that the sim would play tile to tile animation. Keep it low! Positive float. Range [0, 1]. Initial GPE value: 0.1f-->
+    </kChanceForSimUsingTileToTileAnimation>
+    <kConeAngleForFailsafeWorkoutPosition value="2.2">
+      <!--Cone angle for failsafe stereo workout routing position.  Positive float (in radians). Init GPE default: 2.2f-->
+    </kConeAngleForFailsafeWorkoutPosition>
+    <kSpacingFactorForFailsafeWorkoutPosition value="6">
+      <!--Spacing factor for failsafe stereo workout routing position.  Positive float.  Init GP default: 6.0f-->
+    </kSpacingFactorForFailsafeWorkoutPosition>
+    <kMaxDistanceToUseForWorkOutOrDance value="6">
+      <!--Max distance from the stereo to work out or dance. Positive float. Init GPE default: 5.0f. Constraint: >= the min counterpart.-->
+    </kMaxDistanceToUseForWorkOutOrDance>
+    <kLtrDecreaseAfterRejectingDanceTogether value="-2">
+      <!--After the sims reject dance together, this is the LTR decrease. Negative float. Initial GPE default: -2f.-->
+    </kLtrDecreaseAfterRejectingDanceTogether>
+    <kFrequencyToUpdateLtrDuringDanceTogether value="10">
+      <!--Frequency at which we expect the liking to increase during Dance Together. Positive float. Units: Sim Minutes. Initial GPE default: 5f.-->
+    </kFrequencyToUpdateLtrDuringDanceTogether>
+    <kLtrIncreaseDuringDanceTogether value="1">
+      <!--During dance together, we provide this increase in the liking for a given frequency. Positive float. Initial GPE default: 3f.-->
+    </kLtrIncreaseDuringDanceTogether>
+    <kRateOfSkillGainForClubDancing value="4.2">
+      <!--Rate of increase for Club Dance skill. Positive float.-->
+    </kRateOfSkillGainForClubDancing>
+    <kBonusRateOfSkillGainForDancing value="0.8">
+      <!--Bonus rate of increase (additive) for when the Sim's current dance skill (Club or Dance) is below the other one. Positive float.-->
+    </kBonusRateOfSkillGainForDancing>
+    <kClubDanceAtHomeSkillThreshold value="1">
+      <!--Club dance skill level at which the Sim gains the ability to club dance at home. Club Dance skill is on the range of [0,2]. Setting this as -1 will always enable unteraction. 0 will require the sim to have club danced at least once, and 3 and above disallows the option completely.-->
+    </kClubDanceAtHomeSkillThreshold>
+    <kSmustleSkillThreshold value="1">
+      <!--Club dance skill level at which the Sim gains the ability to do the Smustle. Range [0, 2]-->
+    </kSmustleSkillThreshold>
+    <kSmustleIfNormal value="25">
+      <!--Percentage chance that a sim will do the Smustle if autonomy pushes a normal dance interaction. (0:100)-->
+    </kSmustleIfNormal>
+    <kRequiredFairySkillLevelRepair value="3">
+      <!--Minimum fairy skill level requirement for the fairy repair interaction-->
+    </kRequiredFairySkillLevelRepair>
+    <kBroadcasterParams>
+      <PulseRadius value="45">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="false">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="5">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="Two">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="8">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kBroadcasterParams>
+    <kZombieDanceDuration value="120">
+      <!--The duration of Zombie dance (Minutes)-->
+    </kZombieDanceDuration>
+    <kZombieDanceCooldown value="10080">
+      <!--The cooldown time of Zombie dance (Minutes)-->
+    </kZombieDanceCooldown>
+    <kChanceToRotateWhileSlowDancing value="0.002">
+      <!--The chance for couples to rotate while slow dancing. 0.0 - 1.0-->
+    </kChanceToRotateWhileSlowDancing>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kMinDistanceToWorkout value="2">
+      <!--Min distance from the stereo to work out. Positive float. Init GPE default: 2.0f-->
+      <!--deprecated on: 2/22/2008 6:24:50 PM-->
+    </kMinDistanceToWorkout>
+    <kMaxDistanceToWorkout value="4">
+      <!--Max distance from the stereo to work out. Positive float. Init GPE default: 4.0f. Constraint: >= the min counterpart.-->
+      <!--deprecated on: 2/22/2008 6:24:50 PM-->
+    </kMaxDistanceToWorkout>
+    <IsLifeThreatening value="False">
+      <!--Whether the reaction is responding to a life-threatening event (e.g. responding to fire)-->
+      <!--deprecated on: 3/13/2008 4:22:13 PM-->
+    </IsLifeThreatening>
+    <IsLifeThreatening value="False">
+      <!--Whether the reaction is responding to a life-threatening event (e.g. responding to fire)-->
+      <!--deprecated on: 3/13/2008 4:22:13 PM-->
+    </IsLifeThreatening>
+    <sLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="0">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <!--deprecated on: 4/3/2008 2:13:27 PM-->
+    </sLookAtTuning>
+  </Deprecated_Tuning>
+</base>

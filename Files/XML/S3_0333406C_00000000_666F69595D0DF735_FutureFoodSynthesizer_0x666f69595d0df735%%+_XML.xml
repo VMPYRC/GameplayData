@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaximumNumberOfSimsInLine value="3">
+      <!--Range: Positive integers.  Description:  Maximum number of Sims that can wait in line - PAB-->
+    </kMaximumNumberOfSimsInLine>
+    <kTimeToWaitInLine value="15">
+      <!--Range: Positive floats.  Description: Amount of Sim minutes a Sim will wait in line before timing out and exiting - PAB-->
+    </kTimeToWaitInLine>
+    <kImproveMealQualitySkillLevels value="2, 4, 7, 9">
+      <!--Range: Int 0 - 10.  Description:  An array specifying the skill levels needed to allow meal quality improvement - PAB-->
+    </kImproveMealQualitySkillLevels>
+    <kQualityLevelsForImproveQuality value="Nice, Great, Outstanding, Perfect">
+      <!--Quality levels associated with each increase in 'Improve Quality' levels - PAB-->
+    </kQualityLevelsForImproveQuality>
+    <kProgramRecipeTime value="60">
+      <!--Range 0 -x: The max amount of time a Sim will program recipe for - PAB-->
+    </kProgramRecipeTime>
+    <kImproveQualityTime value="60">
+      <!--Range 0 - x: The max amount of time a Sim will improve quality for - PAB-->
+    </kImproveQualityTime>
+    <kMinFromTableDistance value="2">
+      <!--Description:  Minimum distance from a table sim will route to when idling around - PAB-->
+    </kMinFromTableDistance>
+    <kMaxFromTableDistance value="5">
+      <!--Description:  Maximum distance from a table sim will route to when idling around - PAB-->
+    </kMaxFromTableDistance>
+    <kMaxWaitTimeForFood value="60">
+      <!--Description:  Maximum time that sim will wait at a table for food once ordered (timeout) - PAB-->
+    </kMaxWaitTimeForFood>
+    <kMinFromSynthDistance value="2">
+      <!--Description:  Minimum distance from his synthesizer sim will route to when idling around - PAB-->
+    </kMinFromSynthDistance>
+    <kMaxFromSynthDistance value="5">
+      <!--Description:  Maximum distance from his synthesizer sim will route to when idling around - PAB-->
+    </kMaxFromSynthDistance>
+    <kFailChance value="40, 35, 30, 25, 20, 15, 15, 10, 5, 0, 0">
+      <!--Range 0-100: Chance of being sprayed (per skill level) - PAB-->
+    </kFailChance>
+    <kUnlockSkills value="1, 3, 5, 6, 8">
+      <!--Range 0-10: Skill levels for unlocking food items (FruitBobs, SphereOfDestiny, ChocolateMiniGnome, NutritionCube, StatuesqueSurprise)- PAB-->
+    </kUnlockSkills>
+  </Current_Tuning>
+</base>

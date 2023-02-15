@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinWanderDistance value="7">
+      <!--The min distance the Sim will try to wander from the bag after setting it on fire.-->
+    </kMinWanderDistance>
+    <kMaxWanderDistance value="12">
+      <!--The max distance the Sim will try to wander from the bag after setting it on fire.-->
+    </kMaxWanderDistance>
+    <kGiggleDuration value="30">
+      <!--The max amount of time a Sim will giggle after they set the bag on fire and ran away.  Note this should be long enough to provide enough time for the Prankee to route outside and look around.  Also, once they Prankee reacts the Prankster will stop giggleing regardless if the max time was reached.-->
+    </kGiggleDuration>
+    <kMinRouteToDoorDistance value="1">
+      <!--The min distance the Sim will try to route to the door before finding a place to put the bag on the ground.  The Sim will prefer the closest distance.-->
+    </kMinRouteToDoorDistance>
+    <kMaxRouteToDoorDistance value="5">
+      <!--The max distance the Sim will try to route to the door before finding a place to put the bag on the ground.  The Sim will prefer the closest distance.-->
+    </kMaxRouteToDoorDistance>
+  </Current_Tuning>
+</base>

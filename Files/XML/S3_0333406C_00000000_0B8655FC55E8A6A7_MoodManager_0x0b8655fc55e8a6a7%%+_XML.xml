@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMoodMinValue value="-100" />
+    <kMoodStrongNegativeValue value="-50" />
+    <kMoodWeakNegativeValue value="-10" />
+    <kMoodFairValue value="10" />
+    <kMoodHappyValue value="25" />
+    <kMoodVeryHappyValue value="75" />
+    <kLookAtInterestingnessForMood value="0, 5, 20, 5, 20, 5, 20, 20, 40, 0, 0, 0, 0" />
+    <kBaseLifetimeHappinessIncrement value=".3">
+      <!--Base amount lifetime happiness increases per Sim minute when mood is >= kMoodMaxValue-->
+    </kBaseLifetimeHappinessIncrement>
+    <kExtraLifetimeHappinessIncrement value=".007">
+      <!--Extra amount lifetime happiness increases per Sim minute per mood unit above kMoodMaxValue-->
+    </kExtraLifetimeHappinessIncrement>
+    <kMoodSuperBarStart value="50">
+      <!--Range:  Mood value.  Description:  Mood value at which the super mood bar starts.-->
+    </kMoodSuperBarStart>
+    <kMoodSuperBarEnd value="150">
+      <!--Range:  Mood value.  Description:  Mood value at which the super mood bar ends. This is the maximum Mood value.-->
+    </kMoodSuperBarEnd>
+    <kMoodSkillModifierInSuperMood value="0.01">
+      <!--Range: Positive float values.  Description:  Percentage skill gain rate increase for each mood point in the super mood bar.  If mood is currently 50, then super mood = 50 - 25 == 25.  That means if you tune this to 0.1, 25 * 0.1 = 2.5 which translates to 250% increase skill gain.-->
+    </kMoodSkillModifierInSuperMood>
+    <kMoodSkillModifierInNegativeMood value="0.0075">
+      <!--Range: Positive float values.  Description:  Percentage skill gain rate decrease for each mood point below 0.  If mood is currently -50 and this tunable is 0.01 then 0.01 * -50 = -.5 which means a 50% reduction in skill gain rate.-->
+    </kMoodSkillModifierInNegativeMood>
+    <kColorForWorstMood>
+      <x value="0" />
+      <y value="0" />
+      <z value="0" />
+    </kColorForWorstMood>
+    <kRHSMoodRanges value="-70,-20,0,20">
+      <!--Range:  Mood ranges.  Description:  [Back] Mood ranges that correspond with color linear interpolation changes for the right-hand side of the mood bar.-->
+    </kRHSMoodRanges>
+    <kRHSMoodColorRanges value="0, .85, .9, 0.169, 1, .95, 0.169,1,.6, 0.169,1,.25">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the right hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kRHSMoodColorRanges>
+    <kLHSMoodRanges value="-35,-25, 49, 50">
+      <!--Range:  Mood ranges.  Description:  [Fill] Mood ranges that correspond with color linear interpolation changes for the left-hand side of the mood bar.-->
+    </kLHSMoodRanges>
+    <kLHSMoodColorRanges value="0.333333,0.35,0.65,0.333333,0.55,0.75, 0.3333, 1, .9, 0.3333, 1, .9">
+      <!--Range:  Mood color ranges.  Description:  Mood colors that correspond with the mood ranges specified for the left hand side of the mood bar.  Must be specified as triplets of HSV values.  Please don't specify one that can't convert back into RGB, that will make me sad.-->
+    </kLHSMoodColorRanges>
+    <kMoodBarLerpPerSimMinute value="50">
+      <!--Range:  Mood value.  Description:  Maximal amount of mood change that can happen per Sim minute.  This is so buffs cause the mood bar to lerp up and down.-->
+    </kMoodBarLerpPerSimMinute>
+    <kRHSAlphaRanges value="-70,-20,0,10">
+      <!--Range:  Mood alpha ranges.  Description:  [Back] Alpha ranges that correspond with alpha linear interpolation changes for the background fill of the mood bar.-->
+    </kRHSAlphaRanges>
+    <kRHSAlphaValueRanges value="1,1,.3,.2">
+      <!--Range:  Mood alpha values.  Description:  [Back] Alpha values that correspond with alpha linear interpolation changes for the background fill of the mood bar.-->
+    </kRHSAlphaValueRanges>
+    <kLHSAlphaRanges value="50, 100">
+      <!--Range:  Mood alpha ranges.  Description:  [Fill] Alpha ranges that correspond with alpha linear interpolation changes for the foreground fill of the mood bar.-->
+    </kLHSAlphaRanges>
+    <kLHSAlphaValueRanges value="1, 1">
+      <!--Range:  Mood alpha values.  Description:  [Fill] Alpha values that correspond with alpha linear interpolation changes for the foreground fill of the mood bar.-->
+    </kLHSAlphaValueRanges>
+    <kSkewerAlphaForMotiveDistress value="1">
+      <!--Range:  Alpha value.  Description:  Alpha value for the Sim skewer portrait when the Sim is in motive distress (exhausted, starving, really has to pee).-->
+    </kSkewerAlphaForMotiveDistress>
+    <kSkewerAlphaForMotiveProblems value="1">
+      <!--Range:  Alpha value.  Description:  Alpha value for the Sim skewer portrait when the Sim is in motive problems (tired, very hungry, has to pee).-->
+    </kSkewerAlphaForMotiveProblems>
+    <kPlumbbobMoodRanges value="-50, -30, -10">
+      <!--Range:  Mood ranges.  Description:  Plumbbob mood value ranges which will correspond with distinct colors.-->
+    </kPlumbbobMoodRanges>
+    <kPlumbbobColorRanges value="1, 0, 0, 1, 0.45, 0, 1, 0.64, 0, 0, 1, 0">
+      <!--Range:  RGB values.  Description:  Plumbbob RGB color values for the ranges specified.-->
+    </kPlumbbobColorRanges>
+    <kPlumbbobColorChangeTime value="0.5">
+      <!--Range:  Real-time seconds.  Description:  Number of real-time seconds it takes for the plumbbob to change color.  Tuning to 0.5f = 500ms.-->
+    </kPlumbbobColorChangeTime>
+    <kSkewerColorForMotiveDistress value="0.87,0.53,0.067">
+      <!--Range:  RGB value.  Description:  RGB color for the Sim skewer portrait when the Sim is in motive distress (exhausted, starving, really has to pee).-->
+    </kSkewerColorForMotiveDistress>
+    <kSkewerColorForMotiveProblems value="0.89,0.9,0.01">
+      <!--Range:  RGB value.  Description:  RGB color for the Sim skewer portrait when the Sim is in motive problems (tired, very hungry, has to pee).-->
+    </kSkewerColorForMotiveProblems>
+    <kBackOrFillMoodValue value="-14">
+      <!--Range:  Mood value.  Description:  Mood value at which we start using the background color instead of the fill color.-->
+    </kBackOrFillMoodValue>
+    <kSkewerColorForEnsorcelled value="0.8, 0.5, 1">
+      <!--Range:  RGB value.  Description:  RGB color for the Sim skewer portrait when the Sim is Ensorcelled-->
+    </kSkewerColorForEnsorcelled>
+    <kPlumbbobEnsorcelledColor value="0.73, 0.2, 1">
+      <!--Range:  RGB value.  Description: Plumbbob RGB color for an Ensorcelled Sim-->
+    </kPlumbbobEnsorcelledColor>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

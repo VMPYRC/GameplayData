@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kReactionChanceFailureHotHeaded value="0.4">
+      <!--Range:  0.0 - 1.0  Description:  The chance that Hot Headed Sims will slap the tattoo artist on failures-->
+    </kReactionChanceFailureHotHeaded>
+    <kReactionChanceFailureArtistic value="0.3">
+      <!--Range:  0.0 - 1.0  Description:  The chance Artistic Sims will cry on failure-->
+    </kReactionChanceFailureArtistic>
+    <kReactionChanceSuccessArtistic value="0.9">
+      <!--Range:  0.0 - 1.0  Description:  The chance Artistic Sims will have a positive reaction on success-->
+    </kReactionChanceSuccessArtistic>
+    <kReactionChanceFailureSnob value="0.8">
+      <!--Range:  0.0 - 1.0  Description:  The chance Snob Sims will yell at the tattoo artist on failure-->
+    </kReactionChanceFailureSnob>
+    <kReactionChanceSuccessSnob value="0.7">
+      <!--Range:  0.0 - 1.0  Description:  The chance Snob Sims will yawn at the tattoo artist on success-->
+    </kReactionChanceSuccessSnob>
+    <kReactionChanceFailureCantStandArt value="0.7">
+      <!--Range:  0.0 - 1.0  Description:  The chance Sims who Can't Stand Art will have a distressed reaction on failure-->
+    </kReactionChanceFailureCantStandArt>
+    <kReactionChanceSuccessCantStandArt value="0.5">
+      <!--Range:  0.0 - 1.0  Description:  The chance Sims who Can' Stand Art will have a so-so reaction on succcess-->
+    </kReactionChanceSuccessCantStandArt>
+    <kReactionChanceSuccessEasilyImpressed value="0.7">
+      <!--Range:  0.0 - 1.0  Description:  The chance Easily Impressed Sims will love the tattoo on success-->
+    </kReactionChanceSuccessEasilyImpressed>
+    <kReactionChanceFailureUnlucky value="0.8">
+      <!--Range:  0.0 - 1.0  Description:  The chance Unlucky Sims will have the Why Me reaction on failure-->
+    </kReactionChanceFailureUnlucky>
+    <kReactionChanceSuccessExcitable value="0.6">
+      <!--Range:  0.0 - 1.0  Description:  The chance Excitable Sims will cheer on success-->
+    </kReactionChanceSuccessExcitable>
+    <kReactionChanceCoward value="0.3">
+      <!--Range:  0.0 - 1.0  Description:  The chance Coward Sims will faint on either success or failure-->
+    </kReactionChanceCoward>
+    <kTimeToRemoveTattoos value="15">
+      <!--Range:  0+  Description:  The time it takes, in Sim minutes, to remove all tattoos-->
+    </kTimeToRemoveTattoos>
+    <kScaredChance value="0.3">
+      <!--Range:  0+  Description:  The chance that Sims will be scared while getting a tattoo-->
+    </kScaredChance>
+    <kScaredChanceMultiplierDaredevil value="0">
+      <!--Range:  0+  Description:  The scared chance multiplier for Daredevil Sims-->
+    </kScaredChanceMultiplierDaredevil>
+    <kScaredChanceMultiplierDisciplined value="0.1">
+      <!--Range:  0+  Description:  The scared chance multiplier for Disciplined Sims-->
+    </kScaredChanceMultiplierDisciplined>
+    <kScaredChanceMultiplierBrave value="0.1">
+      <!--Range:  0+  Description:  The scared chance multiplier for Brave Sims-->
+    </kScaredChanceMultiplierBrave>
+    <kScaredChanceMultiplierInsane value="1.5">
+      <!--Range:  0+  Description:  The scared chance multiplier for Insane Sims-->
+    </kScaredChanceMultiplierInsane>
+    <kScaredChanceMultiplierCoward value="100.0">
+      <!--Range:  0+  Description:  The scared chance multiplier for Coward Sims-->
+    </kScaredChanceMultiplierCoward>
+    <kTimeToPrepareSelfTattoo value="6">
+      <!--Range:  0+  Description:  The time, in Sim minutes, a Sim uses the control before tattooing themselves-->
+    </kTimeToPrepareSelfTattoo>
+    <kTimeAtWhichToPerformAction value="0.9">
+      <!--Range:  0.0 - 1.0  Description:  At which percentage of the total animation time do we display CAS or remove tattoos-->
+    </kTimeAtWhichToPerformAction>
+    <kScaredChanceMultiplierTechnophobe value="100.0">
+      <!--Range:  0+  Description:  The scared chance multiplier for Technophobe Sims-->
+    </kScaredChanceMultiplierTechnophobe>
+    <kRequiredFairySkillLevelRepair value="3">
+      <!--Minimum fairy skill level requirement for the fairy repair interaction-->
+    </kRequiredFairySkillLevelRepair>
+  </Current_Tuning>
+</base>

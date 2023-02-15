@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteRadiusToPickUp value="0.5">
+      <!--Distance away from the backpack that the sim will route to in order to pick it up.-->
+    </kRouteRadiusToPickUp>
+    <kMinimumDistanceToUseBackpack value="3">
+      <!--Minimum distance (squared) of a route that a sim should pull out their backpack.-->
+    </kMinimumDistanceToUseBackpack>
+    <kBackpackMedatorInstanceNames value="backpackCollege, backpackCollegeNPC1, backpackCollegeNPC2">
+      <!--Comma-Separated List of Backpack Medator Instance Names that will be used when giving random backpacks-->
+    </kBackpackMedatorInstanceNames>
+  </Current_Tuning>
+</base>

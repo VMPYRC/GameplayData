@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<Seasons>
+<Temperature>
+  <Season></Season>
+  <MorningMin>0</MorningMin>
+  <MorningMax>0</MorningMax>
+  <NoonMin>0</NoonMin>
+  <NoonMax>0</NoonMax>
+  <EveningMin>0</EveningMin>
+  <EveningMax>0</EveningMax>
+  <NightMin>0</NightMin>
+  <NightMax>0</NightMax>
+ </Temperature>
+<Temperature>
+  <Season>Summer</Season>
+  <MorningMin>60</MorningMin>
+  <MorningMax>80</MorningMax>
+  <NoonMin>70</NoonMin>
+  <NoonMax>100</NoonMax>
+  <EveningMin>60</EveningMin>
+  <EveningMax>80</EveningMax>
+  <NightMin>50</NightMin>
+  <NightMax>70</NightMax>
+ </Temperature>
+<Temperature>
+  <Season>Fall</Season>
+  <MorningMin>25</MorningMin>
+  <MorningMax>70</MorningMax>
+  <NoonMin>40</NoonMin>
+  <NoonMax>80</NoonMax>
+  <EveningMin>25</EveningMin>
+  <EveningMax>65</EveningMax>
+  <NightMin>20</NightMin>
+  <NightMax>50</NightMax>
+ </Temperature>
+<Temperature>
+  <Season>Winter</Season>
+  <MorningMin>10</MorningMin>
+  <MorningMax>35</MorningMax>
+  <NoonMin>10</NoonMin>
+  <NoonMax>45</NoonMax>
+  <EveningMin>10</EveningMin>
+  <EveningMax>35</EveningMax>
+  <NightMin>0</NightMin>
+  <NightMax>35</NightMax>
+ </Temperature>
+<Temperature>
+  <Season>Spring</Season>
+  <MorningMin>25</MorningMin>
+  <MorningMax>70</MorningMax>
+  <NoonMin>40</NoonMin>
+  <NoonMax>80</NoonMax>
+  <EveningMin>25</EveningMin>
+  <EveningMax>65</EveningMax>
+  <NightMin>20</NightMin>
+  <NightMax>50</NightMax>
+ </Temperature>
+<FreezeMeltRate>
+  <Temperature></Temperature>
+  <FreezeMeltRate></FreezeMeltRate>
+ </FreezeMeltRate>
+<FreezeMeltRate>
+  <Temperature>0</Temperature>
+  <FreezeMeltRate>-100</FreezeMeltRate>
+ </FreezeMeltRate>
+<FreezeMeltRate>
+  <Temperature>32</Temperature>
+  <FreezeMeltRate>0</FreezeMeltRate>
+ </FreezeMeltRate>
+<FreezeMeltRate>
+  <Temperature>70</Temperature>
+  <FreezeMeltRate>30</FreezeMeltRate>
+ </FreezeMeltRate>
+<FreezeMeltRate>
+  <Temperature>100</Temperature>
+  <FreezeMeltRate>100</FreezeMeltRate>
+ </FreezeMeltRate>
+<SunnyTuning>
+  <Season></Season>
+  <Weight>0</Weight>
+  <MinLength>0</MinLength>
+  <MaxLength>24</MaxLength>
+  <MinTemp>-1000</MinTemp>
+  <MaxTemp>1000</MaxTemp>
+ </SunnyTuning>
+<SunnyTuning>
+  <Season>Summer</Season>
+  <Weight>5</Weight>
+  <MinLength>12</MinLength>
+  <MaxLength>12</MaxLength>
+ </SunnyTuning>
+<SunnyTuning>
+  <Season>Fall</Season>
+  <Weight>4</Weight>
+  <MinLength>6</MinLength>
+  <MaxLength>12</MaxLength>
+ </SunnyTuning>
+<SunnyTuning>
+  <Season>Winter</Season>
+  <Weight>4</Weight>
+  <MinLength>3</MinLength>
+  <MaxLength>6</MaxLength>
+ </SunnyTuning>
+<SunnyTuning>
+  <Season>Spring</Season>
+  <Weight>3</Weight>
+  <MinLength>6</MinLength>
+  <MaxLength>12</MaxLength>
+ </SunnyTuning>
+<RainTuning>
+  <Season></Season>
+  <Weight>0</Weight>
+  <MinLength>0</MinLength>
+  <MaxLength>24</MaxLength>
+  <MinTemp>-1000</MinTemp>
+  <MaxTemp>1000</MaxTemp>
+  <LightWeight>1</LightWeight>
+  <ModerateWeight>1</ModerateWeight>
+  <HeavyWeight>1</HeavyWeight>
+  <MinTransitionTime>0.25</MinTransitionTime>
+  <MaxTransitionTime>1</MaxTransitionTime>
+  <NumIntensityChangeWeights>1,1,1,1,1,1</NumIntensityChangeWeights>
+  <MinIntensityDuration>1</MinIntensityDuration>
+ </RainTuning>
+<RainTuning>
+  <Season>Summer</Season>
+  <Weight>1</Weight>
+  <MaxLength>6</MaxLength>
+  <MinTemp>30</MinTemp>
+  <LightWeight>3</LightWeight>
+  <MaxTransitionTime>0.75</MaxTransitionTime>
+ </RainTuning>
+<RainTuning>
+  <Season>Fall</Season>
+  <Weight>4</Weight>
+  <MinLength>3</MinLength>
+  <MaxLength>12</MaxLength>
+  <MinTemp>30</MinTemp>
+  <HeavyWeight>2</HeavyWeight>
+  <MaxTransitionTime>0.75</MaxTransitionTime>
+  <NumIntensityChangeWeights>1,2,3</NumIntensityChangeWeights>
+ </RainTuning>
+<RainTuning>
+  <Season>Winter</Season>
+  <Weight>0</Weight>
+  <MaxLength>3</MaxLength>
+  <MinTemp>30</MinTemp>
+  <MaxTransitionTime>0.75</MaxTransitionTime>
+ </RainTuning>
+<RainTuning>
+  <Season>Spring</Season>
+  <Weight>2</Weight>
+  <MinLength>3</MinLength>
+  <MaxLength>12</MaxLength>
+  <MinTemp>30</MinTemp>
+  <HeavyWeight>3</HeavyWeight>
+  <MaxTransitionTime>0.75</MaxTransitionTime>
+  <NumIntensityChangeWeights>1,3,3,3</NumIntensityChangeWeights>
+ </RainTuning>
+<SnowTuning>
+  <Season></Season>
+  <Weight>0</Weight>
+  <MinLength>0</MinLength>
+  <MaxLength>24</MaxLength>
+  <MinTemp>-1000</MinTemp>
+  <MaxTemp>1000</MaxTemp>
+  <LightWeight>1</LightWeight>
+  <ModerateWeight>1</ModerateWeight>
+  <HeavyWeight>1</HeavyWeight>
+  <MinTransitionTime>0.25</MinTransitionTime>
+  <MaxTransitionTime>1</MaxTransitionTime>
+  <NumIntensityChangeWeights>1,1,1,1,1,1</NumIntensityChangeWeights>
+  <MinIntensityDuration>1</MinIntensityDuration>
+ </SnowTuning>
+<SnowTuning>
+  <Season>Summer</Season>
+  <Weight>0</Weight>
+  <MaxLength>3</MaxLength>
+  <MaxTemp>40</MaxTemp>
+  <ModerateWeight>0</ModerateWeight>
+  <HeavyWeight>0</HeavyWeight>
+  <MaxTransitionTime>0.75</MaxTransitionTime>
+  <NumIntensityChangeWeights>1</NumIntensityChangeWeights>
+ </SnowTuning>
+<SnowTuning>
+  <Season>Fall</Season>
+  <Weight>0</Weight>
+  <MaxLength>6</MaxLength>
+  <MaxTemp>40</MaxTemp>
+  <LightWeight>3</LightWeight>
+  <MaxTransitionTime>0.75</MaxTransitionTime>
+  <NumIntensityChangeWeights>1,2,3</NumIntensityChangeWeights>
+ </SnowTuning>
+<SnowTuning>
+  <Season>Winter</Season>
+  <Weight>6</Weight>
+  <MinLength>6</MinLength>
+  <MaxLength>18</MaxLength>
+  <MaxTemp>40</MaxTemp>
+  <ModerateWeight>3</ModerateWeight>
+  <HeavyWeight>2</HeavyWeight>
+  <MaxTransitionTime>0.75</MaxTransitionTime>
+  <NumIntensityChangeWeights>1,2,5,5,4</NumIntensityChangeWeights>
+ </SnowTuning>
+<SnowTuning>
+  <Season>Spring</Season>
+  <Weight>1</Weight>
+  <MaxLength>6</MaxLength>
+  <MaxTemp>40</MaxTemp>
+  <LightWeight>3</LightWeight>
+  <MaxTransitionTime>0.75</MaxTransitionTime>
+  <NumIntensityChangeWeights>3,1,1</NumIntensityChangeWeights>
+ </SnowTuning>
+<FogTuning>
+  <Season></Season>
+  <Weight>0</Weight>
+  <MinLength>0</MinLength>
+  <MaxLength>24</MaxLength>
+  <MinTemp>-1000</MinTemp>
+  <MaxTemp>1000</MaxTemp>
+ </FogTuning>
+<FogTuning>
+  <Season>Summer</Season>
+  <Weight>0</Weight>
+  <MaxLength>6</MaxLength>
+  <MaxTemp>50</MaxTemp>
+ </FogTuning>
+<FogTuning>
+  <Season>Fall</Season>
+  <Weight>4</Weight>
+  <MaxLength>6</MaxLength>
+  <MaxTemp>50</MaxTemp>
+ </FogTuning>
+<FogTuning>
+  <Season>Winter</Season>
+  <Weight>1</Weight>
+  <MaxLength>6</MaxLength>
+  <MaxTemp>50</MaxTemp>
+ </FogTuning>
+<FogTuning>
+  <Season>Spring</Season>
+  <Weight>2</Weight>
+  <MaxLength>6</MaxLength>
+  <MaxTemp>50</MaxTemp>
+ </FogTuning>
+<HailTuning>
+  <Season></Season>
+  <Weight>0</Weight>
+  <MinLength>0</MinLength>
+  <MaxLength>24</MaxLength>
+  <MinTemp>-1000</MinTemp>
+  <MaxTemp>1000</MaxTemp>
+ </HailTuning>
+<HailTuning>
+  <Season>Summer</Season>
+  <Weight>1</Weight>
+  <MaxLength>3</MaxLength>
+  <MinTemp>30</MinTemp>
+  <MaxTemp>70</MaxTemp>
+ </HailTuning>
+<HailTuning>
+  <Season>Fall</Season>
+  <Weight>1</Weight>
+  <MaxLength>3</MaxLength>
+  <MinTemp>30</MinTemp>
+  <MaxTemp>70</MaxTemp>
+ </HailTuning>
+<HailTuning>
+  <Season>Winter</Season>
+  <Weight>0</Weight>
+  <MaxLength>3</MaxLength>
+  <MinTemp>30</MinTemp>
+  <MaxTemp>70</MaxTemp>
+ </HailTuning>
+<HailTuning>
+  <Season>Spring</Season>
+  <Weight>1</Weight>
+  <MaxLength>3</MaxLength>
+  <MinTemp>30</MinTemp>
+  <MaxTemp>70</MaxTemp>
+ </HailTuning>
+<BewitchingRainTuning>
+  <Season></Season>
+  <Weight>0</Weight>
+  <MinLength>0</MinLength>
+  <MaxLength>24</MaxLength>
+  <MinTemp>-1000</MinTemp>
+  <MaxTemp>1000</MaxTemp>
+ </BewitchingRainTuning>
+<BewitchingRainTuning>
+  <Season>Summer</Season>
+  <Weight>0</Weight>
+  <MaxLength>3</MaxLength>
+ </BewitchingRainTuning>
+<BewitchingRainTuning>
+  <Season>Fall</Season>
+  <Weight>0</Weight>
+  <MaxLength>3</MaxLength>
+ </BewitchingRainTuning>
+<BewitchingRainTuning>
+  <Season>Winter</Season>
+  <Weight>0</Weight>
+  <MaxLength>3</MaxLength>
+ </BewitchingRainTuning>
+<BewitchingRainTuning>
+  <Season>Spring</Season>
+  <Weight>0</Weight>
+  <MaxLength>3</MaxLength>
+ </BewitchingRainTuning>
+<RevivingSprinkleTuning>
+  <Season></Season>
+  <Weight>0</Weight>
+  <MinLength>0</MinLength>
+  <MaxLength>24</MaxLength>
+  <MinTemp>-1000</MinTemp>
+  <MaxTemp>1000</MaxTemp>
+ </RevivingSprinkleTuning>
+<RevivingSprinkleTuning>
+  <Season>Summer</Season>
+  <Weight>0</Weight>
+  <MaxLength>3</MaxLength>
+ </RevivingSprinkleTuning>
+<RevivingSprinkleTuning>
+  <Season>Fall</Season>
+  <Weight>0</Weight>
+  <MaxLength>3</MaxLength>
+ </RevivingSprinkleTuning>
+<RevivingSprinkleTuning>
+  <Season>Winter</Season>
+  <Weight>0</Weight>
+  <MaxLength>3</MaxLength>
+ </RevivingSprinkleTuning>
+<RevivingSprinkleTuning>
+  <Season>Spring</Season>
+  <Weight>0</Weight>
+  <MaxLength>3</MaxLength>
+ </RevivingSprinkleTuning>
+</Seasons>

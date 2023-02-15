@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPushSimsCheckDistance value="4">
+      <!--Description: The routing distance at which Sims will attempt to push Sims away from the route destination.  The distance is in meters (along the route, not straight line distance).-->
+    </kPushSimsCheckDistance>
+    <kPushSimsAwayDistanceMin value="0.6">
+      <!--Description: The min distance away to which pushed sims (and smaller animals) will route.  The distance is in meters.-->
+    </kPushSimsAwayDistanceMin>
+    <kPushSimsAwayDistanceMax value="2.5">
+      <!--Description: The max distance away to which pushed sims (and smaller animals) will route.  The distance is in meters.-->
+    </kPushSimsAwayDistanceMax>
+    <kIgnoreAllObstaclesDuration value="15">
+      <!--Description: The length of time in sim minutes for which a sim, once triggered, will ignore all obstacles along his path.-->
+    </kIgnoreAllObstaclesDuration>
+    <kDefaultStandAndWaitDuration value="20">
+      <!--Description: The length of time in sim minutes for which a sim will stand stopped, attempting to resolve obstacles.-->
+    </kDefaultStandAndWaitDuration>
+    <kMinimumPostPushStandAndWaitDuration value="1.5">
+      <!--Description: The minimum length of time a sim will stand and wait after being pushed-->
+    </kMinimumPostPushStandAndWaitDuration>
+    <kMaximumPostPushStandAndWaitDuration value="5">
+      <!--Description: The maximum length of time a sim will stand and wait after being pushed-->
+    </kMaximumPostPushStandAndWaitDuration>
+    <kDefaultImmuneToPushesDuration value="15">
+      <!--Description: The default length of time in sim minutes for which a sim, once triggered, will be immune to pushing.-->
+    </kDefaultImmuneToPushesDuration>
+    <kOnEmergencyGetAwayRouteStartedImmuneToPushesDuration value="15">
+      <!--Description: The length of time in sim minutes for which a sim will be immune to pushing when starting an 'emergency get-away' route.-->
+    </kOnEmergencyGetAwayRouteStartedImmuneToPushesDuration>
+    <kOnRouteStartedImmuneToPushesDuration value="5">
+      <!--Description: The length of time in sim minutes for which a sim, upon starting a normal route, will be immune to pushing.-->
+    </kOnRouteStartedImmuneToPushesDuration>
+    <kEndOfPortalInvicibilityDuration value="10">
+      <!--Description: The length of time in sim minutes for which a sim will ignore all obstacles along his path, if there are obstacles present when he finishes a portal.-->
+    </kEndOfPortalInvicibilityDuration>
+    <kAvoidanceReplanCheckFrequencyMin value="2">
+      <!--Description: The minimum frequency (in cycles) at which sims may try to replan while standing and waiting-->
+    </kAvoidanceReplanCheckFrequencyMin>
+    <kAvoidanceReplanCheckFrequencyMax value="3">
+      <!--Description: The maximum frequency (in cycles) at which sims may try to replan while standing and waiting-->
+    </kAvoidanceReplanCheckFrequencyMax>
+    <kAvoidanceReplanCheckOffsetMax value="2">
+      <!--Description: The maximum check offset (in cycles) at which sims may try to replan while standing and waiting-->
+    </kAvoidanceReplanCheckOffsetMax>
+    <kTotalSimMinutesToWaitForSimsToBePushed value="15">
+      <!--Description: The total number of minutes a sim will wait for other sims to get out of the way when trying to push them.-->
+    </kTotalSimMinutesToWaitForSimsToBePushed>
+    <kPushSimsAwayDistanceFromFootprintMin value="1.25">
+      <!--Description: The min distance away to which pushed sims (and smaller animals) will route from a footprint.  The distance is in meters.-->
+    </kPushSimsAwayDistanceFromFootprintMin>
+    <kWalkStylePriorities value="SpeedboatWaterskiExpertB, SpeedboatWaterskiTerribleB, BoatWindSurfBoard, BoatWindSurfBoardFail, BoatWindSurfBoardTrick1, BoatWindSurfBoardTrick2, BoatWindSurfBoardTrick3, BoatWindSurfBoardTrick4, Sailboat, HouseboatObjectRun, HouseboatObjectWalk, RowboatDriverLeft, RowboatDriverRight, RowboatSingleDriver, Jetski, JetskiFast, Speedboat, SpeedboatFast, SpeedboatWaterski, SpeedboatWaterskiFast, SpeedboatWaterskiExpert, SpeedboatWaterskiTerrible, SpeedboatWaterskiFall, RollerSkateBackward, RollerSkate, RollerSkateSlowPostStumble2, RollerSkateSlowPostStumble, RollerSkateSlow, IceSkateBackward, IceSkate, IceSkateSlowPostStumble2, IceSkateSlowPostStumble, IceSkateSlow, CautiousWalkPondPostStumble, CautiousWalkPond, MermaidDive, ScubaDive, LifeguardSwim, Snorkel, MermaidSwim, RescuedSwim, SwimInPool, RunWade, Wade, UnicornGallopFastest, UnicornGallopFaster, UnicornRun, StartleRun, StartleTrot, StartleWalk, PetStumbleRun, PetStumbleWalk, PetGallopFastest, PetGallopFaster, CatStalk, DogBallWalk, PetRun, PetTrot, PetWalk, AdultSimWalksDog, BirdFlyAround, RideHorseGallopFastestUnstable, RideHorseGallopFasterUnstable, RideHorseRunUnstable, RideHorseTrotUnstable, RideHorseWalkUnstable, RideHorseGallopFastest, RideHorseGallopFaster, RideHorseRun, RideHorseTrot, RideHorseWalk, Crawl, RideHoverboard, RideHoverboard_Wobbly, TombMummyWalk, MummyWalk, GenieRun, VampireRun, WerewolfRun, FairyRun, ZombieFastWalk, FrankenSimRun, FrankenSimWalk, FireFighterWalk, StreakerRun, RobotBipedRun, RobotHoverRun, RobotBipedWalk, RobotHoverWalk, GhostWalk, DeathWalk, OnFire, MeanChasedRun, PlayChasedRun, PlayChaseRun, StrollerWalk, BackpackWalk, BackpackRun, SouthernGentleman, ElderCaneWalk, ElderCaneRun, ElderWalk, LifeguardRun, ForceWalk, ForceRun, Sneak, Pregnant, ImaginaryFriendsRun, FastRun, Run, Stomp, WonderlandSimRun, FastJog, Jog, FastWalk, ImaginaryFriendsWalk, StrideOfPrideWalk, MascotWalk, WalkOfShameWalk, WalkFall, WalkTrip, Walk, WerewolfWalk, ZombieWalk, WonderlandSimWalk, Dinosaur, Astronaut, Prince, Princess, AutoSelect">
+      <!--This list defines the precedence that the various walk styles take over each other. Please have a GPE review your changes.  Please have SwimInPool at the top of the list.-->
+    </kWalkStylePriorities>
+    <kDistanceMustSaveInOrderToUseSubway value="15">
+      <!--Approximate distance (in as the bird flies meters) that the route must save in order for the sim to choose using the subway.-->
+    </kDistanceMustSaveInOrderToUseSubway>
+    <kNPCSubwayUseChance value="0">
+      <!--Chance an NPC will consider using the subway on their route. 0-1-->
+    </kNPCSubwayUseChance>
+    <kPushHorsesAwayDistanceMin value="3.5">
+      <!--Description: The min distance away to which pushed horses will route.  The distance is in meters.-->
+    </kPushHorsesAwayDistanceMin>
+    <kPushHorsesAwayDistanceMax value="5">
+      <!--Description: The max distance away to which pushed horses will route.  The distance is in meters.-->
+    </kPushHorsesAwayDistanceMax>
+    <kPushFoalsAwayDistanceMin value="2.5">
+      <!--Description: The min distance away to which pushed foals will route.  The distance is in meters.-->
+    </kPushFoalsAwayDistanceMin>
+    <kPushFoalsAwayDistanceMax value="4.5">
+      <!--Description: The max distance away to which pushed foals will route.  The distance is in meters.-->
+    </kPushFoalsAwayDistanceMax>
+    <kPushDogsAwayDistanceMin value="1.5">
+      <!--Description: The min distance away to which pushed large dogs will route.  The distance is in meters.-->
+    </kPushDogsAwayDistanceMin>
+    <kPushDogsAwayDistanceMax value="3">
+      <!--Description: The max distance away to which pushed large dogs will route.  The distance is in meters.-->
+    </kPushDogsAwayDistanceMax>
+    <kHorseGallopingSpeed value="10.188, 11.914, 14.137">
+      <!--Speed in meters per sim minutes for each gallopping speed [Gallop, GallopFaster, GallopFastest]-->
+    </kHorseGallopingSpeed>
+    <kHorseRacingSkillGainWhileGallopingUnRidden value="10">
+      <!--Amount to increase racing skill when not ridden-->
+    </kHorseRacingSkillGainWhileGallopingUnRidden>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

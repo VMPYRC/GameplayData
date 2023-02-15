@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPathLengthTuning>
+      <fTotalLengthTarget value="30">
+        <!--The target total length of the run around path in meters.-->
+      </fTotalLengthTarget>
+      <fSubPathLengthMin value="4">
+        <!--The minimum length of a sub path in meters.-->
+      </fSubPathLengthMin>
+      <fSubPathLengthMax value="12">
+        <!--The maximum length of a sub path in meters.-->
+      </fSubPathLengthMax>
+      <fSubPathDirectionChangeConeAngleDegrees value="80">
+        <!--The maximum angle deviation of a sub path in degrees.-->
+      </fSubPathDirectionChangeConeAngleDegrees>
+    </kPathLengthTuning>
+    <kMinDistanceRange value="1, 8">
+      <!--The min distance a Sim will snorkel between breaks.-->
+    </kMinDistanceRange>
+    <kMaxDistanceRange value="10, 12">
+      <!--The max distance a Sim will snorkel between breaks.-->
+    </kMaxDistanceRange>
+    <kCheckForObjectInterval value="20, 25">
+      <!--This is the interval range (roughly in Sim minutes) that we check to see if the Sim should find an object.-->
+    </kCheckForObjectInterval>
+    <kObjectTypeWeights value="5, 25, 65, 5, 1">
+      <!--The weights for getting a paritcular object type: Rock, Gem, Shell, Object, Gnome-->
+    </kObjectTypeWeights>
+    <kRocks value="SpaceRockSmall">
+      <!--When a Sim finds and object and the type is Rocks, these are the possible options.-->
+    </kRocks>
+    <kGems value="Aqua, Smoky, Ruby, Emerald">
+      <!--When a Sim finds and object and the type is Gems, these are the possible options.-->
+    </kGems>
+    <kObjects value="RubberDucky, ToyBoat, toyLochNess, TeddyBear, Flamingo">
+      <!--When a Sim finds an object, these are the possible options (base game medator instance names).-->
+    </kObjects>
+    <kObjectChance value="0.08, 0.15">
+      <!--The chance a Sim will find an object while in a pool.  First value represents Diving Skill Level 1, the second Level 10.-->
+    </kObjectChance>
+    <kSkillGainRate value="5, 3">
+      <!--SCUBA Diving Skill gain rate.  First value is for ocean, second for pools.-->
+    </kSkillGainRate>
+    <kSeaShells value="Scallop, Cowry, Nautilus">
+      <!--When a Sim finds and object and the type is Sea Shell, these are the possible options.-->
+    </kSeaShells>
+    <kPondPathLengthTuning>
+      <fTotalLengthTarget value="15">
+        <!--The target total length of the run around path in meters.-->
+      </fTotalLengthTarget>
+      <fSubPathLengthMin value="2">
+        <!--The minimum length of a sub path in meters.-->
+      </fSubPathLengthMin>
+      <fSubPathLengthMax value="4">
+        <!--The maximum length of a sub path in meters.-->
+      </fSubPathLengthMax>
+      <fSubPathDirectionChangeConeAngleDegrees value="80">
+        <!--The maximum angle deviation of a sub path in degrees.-->
+      </fSubPathDirectionChangeConeAngleDegrees>
+    </kPondPathLengthTuning>
+  </Current_Tuning>
+</base>

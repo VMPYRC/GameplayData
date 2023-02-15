@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxNumChancesToGetToLot value="4">
+      <!--The max number of times that a guest will try to get to the Lot where the Hosted Situation is occurring before giving up-->
+    </kMaxNumChancesToGetToLot>
+    <kMinHostedSituationDuration value="2">
+      <!--Min duration (in Sim hours) of a Hosted Situation (e.g. Party, Foreign Visitors Situation).-->
+    </kMinHostedSituationDuration>
+    <kTimeToLeaveHostedSituation value="2">
+      <!--After a Sim is told to leave, they're given a grace period to get off the lot, and are still considered in the current guest count. (hours). talk to CGast before changing this from being 2-->
+    </kTimeToLeaveHostedSituation>
+    <kPenaltyForEarlyDeparture value="-50">
+      <!--Penalty for Leaving a Hosted Situation early (e.g. not invited in, or left because in very bad negative mood).-->
+    </kPenaltyForEarlyDeparture>
+  </Current_Tuning>
+</base>

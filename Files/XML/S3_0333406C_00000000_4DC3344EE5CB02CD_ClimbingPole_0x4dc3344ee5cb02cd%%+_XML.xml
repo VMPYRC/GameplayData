@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFrequencyToSwitchPosition value="60">
+      <!--kFrequencyToSwitchPosition: 0 - 100, how often Sim is likely to switch positions-->
+    </kFrequencyToSwitchPosition>
+    <kPerformanceSegmentInSimMinutes value="10">
+      <!--kPerformanceSegmentInSimMinutes: time performance segment lasts (on one part of pole)-->
+    </kPerformanceSegmentInSimMinutes>
+    <kNumPerformanceSegments value="2">
+      <!--kNumPerformanceSegments: num of performance segments to play-->
+    </kNumPerformanceSegments>
+    <kNumPerformanceSegmentsRandomElement value="2">
+      <!--kNumPerformanceSegmentsRandomElement: max randomized num performance segments to play in addition to base-->
+    </kNumPerformanceSegmentsRandomElement>
+    <kSkilLLevelNeededForHighClimb value="4">
+      <!--kSkilLLevelNeededForHighClimb: Skill level needed for Sim to climb to top of pole-->
+    </kSkilLLevelNeededForHighClimb>
+    <kChanceOfFinishingWithFlip value="50">
+      <!--kChanceOfFinishingWithFlip: % chance that Sim will climb to the top to finish the performance if he is allowed to-->
+    </kChanceOfFinishingWithFlip>
+    <kMaximumNumberOfSimsInLine value="3">
+      <!--kMaximumNumberOfSimsInLine: Maximum number of sims that should wait around before using this object.-->
+    </kMaximumNumberOfSimsInLine>
+    <kTimeToWaitInLine value="15">
+      <!--kTimeToWaitInLine: Amount of Sim minutes a Sim will wait in line before timing out and exiting.-->
+    </kTimeToWaitInLine>
+    <kLoseGripAddedPercentage value="15">
+      <!--kLoseGripAddedPercentage: Scale percentage for how often Sim will lose grip (also based on Skill Level.. (0 - 100% likely, 10 - 0% likely)-->
+    </kLoseGripAddedPercentage>
+  </Current_Tuning>
+</base>

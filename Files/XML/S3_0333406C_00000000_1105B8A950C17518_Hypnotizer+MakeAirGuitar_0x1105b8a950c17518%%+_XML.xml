@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFailChance value="20">
+      <!--Percent chance that interaction fails.  GPE default 20-->
+    </kFailChance>
+    <kFailsChanceLuckyBonus value="-5">
+      <!--Percent chance that interaction fails, modifier for lucky.  GPE default -5 (making 15% chance of failure).-->
+    </kFailsChanceLuckyBonus>
+    <kFailChanceUnluckyBonus value="10">
+      <!--Percent chance that interaction fails, modifier for unlucky.  GPE default 10 (making 30% chance of failure)-->
+    </kFailChanceUnluckyBonus>
+    <kEpicFailChance value="50">
+      <!--Percent chance that failed interaction fails epically.  GPE default 50-->
+    </kEpicFailChance>
+    <kEpicFailsChanceLuckyBonus value="-5">
+      <!--Percent chance that interaction fails, modifier for lucky.  GPE default -20 (making 30% chance of failure being epic failure).-->
+    </kEpicFailsChanceLuckyBonus>
+    <kEpicFailChanceUnluckyBonus value="10">
+      <!--Percent chance that interaction fails, modifier for unlucky.  GPE default 30 (making 80% chance of failure being epic failure).-->
+    </kEpicFailChanceUnluckyBonus>
+    <kFailsBonusIfMatchingTraits value="-15">
+      <!--Percent chance improvement for success if traits match.  GPE default -15 (making 5% chance of failure)-->
+    </kFailsBonusIfMatchingTraits>
+    <kSuccessFunForTarget value="30">
+      <!--On success, how much fun they get.  GPE default 30-->
+    </kSuccessFunForTarget>
+    <kSuccessRelationshipChange value="15">
+      <!--On success, how much should relationship change.  GPE default 30-->
+    </kSuccessRelationshipChange>
+    <kEpicFailChanceSick value="25">
+      <!--Percent chance epic fail makes them vomit.  GPE default 25-->
+    </kEpicFailChanceSick>
+    <kGuitarSkillBoost value="800">
+      <!--Amount to boost the guitar skill on success-->
+    </kGuitarSkillBoost>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DreamTree Version="1">
+  <Category>EP5</Category>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>1164850929</Id>
+    <ParentId>2535810318</ParentId>
+    <PrototypeId>202586907</PrototypeId>
+    <Center>
+      <X>-1020</X>
+      <Y>-1917</Y>
+    </Center>
+    <NextDreamSelectionProbability>25</NextDreamSelectionProbability>
+    <DreamVisible>false</DreamVisible>
+    <Repeatable>true</Repeatable>
+    <TimeBetweenRepeats>24</TimeBetweenRepeats>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits />
+    <Relationships />
+    <InheritSubject>true</InheritSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>1238835928</Id>
+    <ParentId>3493167568</ParentId>
+    <PrototypeId>202586859</PrototypeId>
+    <Center>
+      <X>-767</X>
+      <Y>-1629</Y>
+    </Center>
+    <NextDreamSelectionProbability>50</NextDreamSelectionProbability>
+    <FulfillmentScore>75</FulfillmentScore>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits>
+      <SelectedTrait>
+        <Trait>AggressivePet</Trait>
+        <Required>false</Required>
+        <Excluded>true</Excluded>
+      </SelectedTrait>
+    </Traits>
+    <Relationships />
+    <InheritSubject>true</InheritSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="SocializationNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>1966517004</Id>
+    <ParentId>1164850929</ParentId>
+    <PrototypeId>202586754</PrototypeId>
+    <Center>
+      <X>-896</X>
+      <Y>-1964</Y>
+    </Center>
+    <FulfillmentScore>25</FulfillmentScore>
+    <MaxAdvertisement>275</MaxAdvertisement>
+    <MinRelationship>40</MinRelationship>
+    <MaxRelationship>100</MaxRelationship>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits />
+    <Relationships>
+      <string>Best Friend</string>
+      <string>Friend</string>
+      <string>Good Friend</string>
+    </Relationships>
+    <RelationshipWeight>100</RelationshipWeight>
+    <InheritSubject>true</InheritSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="SocializationNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>2428056793</Id>
+    <ParentId>2535810318</ParentId>
+    <PrototypeId>202586777</PrototypeId>
+    <Center>
+      <X>-1137</X>
+      <Y>-1629</Y>
+    </Center>
+    <FulfillmentScore>15</FulfillmentScore>
+    <MinAdvertisement>50</MinAdvertisement>
+    <MinRelationship>-60</MinRelationship>
+    <MaxRelationship>100</MaxRelationship>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits>
+      <SelectedTrait>
+        <Trait>AggressivePet</Trait>
+        <Required>false</Required>
+        <Excluded>true</Excluded>
+      </SelectedTrait>
+      <SelectedTrait>
+        <Trait>ShyPet</Trait>
+        <Required>false</Required>
+        <Excluded>true</Excluded>
+      </SelectedTrait>
+      <SelectedTrait>
+        <Trait>NervousPet</Trait>
+        <Required>false</Required>
+        <Excluded>true</Excluded>
+      </SelectedTrait>
+    </Traits>
+    <Relationships>
+      <string>Acquaintance</string>
+    </Relationships>
+    <RelationshipWeight>100</RelationshipWeight>
+    <InheritSubject>true</InheritSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="SocializationNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>2494034471</Id>
+    <ParentId>1164850929</ParentId>
+    <PrototypeId>202586777</PrototypeId>
+    <Center>
+      <X>-1125</X>
+      <Y>-1830</Y>
+    </Center>
+    <FulfillmentScore>15</FulfillmentScore>
+    <MaxAdvertisement>125</MaxAdvertisement>
+    <MinRelationship>-60</MinRelationship>
+    <MaxRelationship>10</MaxRelationship>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits>
+      <SelectedTrait>
+        <Trait>ShyPet</Trait>
+        <Required>false</Required>
+        <Excluded>true</Excluded>
+      </SelectedTrait>
+    </Traits>
+    <Relationships>
+      <string>Acquaintance</string>
+      <string>Best Friend</string>
+      <string>Friend</string>
+      <string>Good Friend</string>
+    </Relationships>
+    <RelationshipWeight>100</RelationshipWeight>
+    <InheritSubject>true</InheritSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>2535810318</Id>
+    <ParentId>2847035751</ParentId>
+    <PrototypeId>202586887</PrototypeId>
+    <Center>
+      <X>-1017</X>
+      <Y>-1628</Y>
+    </Center>
+    <DreamVisible>false</DreamVisible>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits />
+    <Relationships />
+    <InheritSubject>true</InheritSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="SocializationNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>2801311245</Id>
+    <ParentId>1164850929</ParentId>
+    <PrototypeId>202586779</PrototypeId>
+    <Center>
+      <X>-1133</X>
+      <Y>-1973</Y>
+    </Center>
+    <FulfillmentScore>15</FulfillmentScore>
+    <MaxAdvertisement>150</MaxAdvertisement>
+    <RelationshipZeroCheck>true</RelationshipZeroCheck>
+    <MinRelationship>-40</MinRelationship>
+    <MaxRelationship>20</MaxRelationship>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits>
+      <SelectedTrait>
+        <Trait>ShyPet</Trait>
+        <Required>false</Required>
+        <Excluded>true</Excluded>
+      </SelectedTrait>
+    </Traits>
+    <Relationships>
+      <string>Acquaintance</string>
+      <string>Best Friend</string>
+      <string>Friend</string>
+      <string>Good Friend</string>
+    </Relationships>
+    <RelationshipWeight>100</RelationshipWeight>
+    <InheritSubject>true</InheritSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>2847035751</Id>
+    <ParentId>2847035751</ParentId>
+    <IsRoot>true</IsRoot>
+    <PrototypeId>202586693</PrototypeId>
+    <Center>
+      <X>-1019</X>
+      <Y>-1488</Y>
+    </Center>
+    <DreamVisible>false</DreamVisible>
+    <FulfillmentScore>30</FulfillmentScore>
+    <PotentialStartNode>true</PotentialStartNode>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits />
+    <Relationships />
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>3493167568</Id>
+    <ParentId>2535810318</ParentId>
+    <PrototypeId>202586858</PrototypeId>
+    <Center>
+      <X>-886</X>
+      <Y>-1629</Y>
+    </Center>
+    <DreamVisible>false</DreamVisible>
+    <FulfillmentScore>45</FulfillmentScore>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits />
+    <Relationships />
+    <InheritSubject>true</InheritSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="DreamNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>3833818291</Id>
+    <ParentId>1164850929</ParentId>
+    <PrototypeId>202586910</PrototypeId>
+    <Center>
+      <X>-1023</X>
+      <Y>-2045</Y>
+    </Center>
+    <FulfillmentScore>5</FulfillmentScore>
+    <MaxAdvertisement>225</MaxAdvertisement>
+    <MinRelationship>20</MinRelationship>
+    <MaxRelationship>100</MaxRelationship>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits>
+      <SelectedTrait>
+        <Trait>QuietPet</Trait>
+        <Required>false</Required>
+        <Excluded>true</Excluded>
+      </SelectedTrait>
+    </Traits>
+    <Relationships>
+      <string>Best Friend</string>
+      <string>Best Friends Forever</string>
+      <string>Friend</string>
+      <string>Good Friend</string>
+    </Relationships>
+    <RelationshipWeight>100</RelationshipWeight>
+    <InheritSubject>true</InheritSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="SocializationNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>3981477912</Id>
+    <ParentId>1238835928</ParentId>
+    <PrototypeId>202586754</PrototypeId>
+    <Center>
+      <X>-640</X>
+      <Y>-1631</Y>
+    </Center>
+    <FulfillmentScore>25</FulfillmentScore>
+    <MaxAdvertisement>275</MaxAdvertisement>
+    <MinRelationship>40</MinRelationship>
+    <MaxRelationship>100</MaxRelationship>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits />
+    <Relationships>
+      <string>Best Friend</string>
+      <string>Friend</string>
+      <string>Good Friend</string>
+    </Relationships>
+    <RelationshipWeight>100</RelationshipWeight>
+    <InheritSubject>true</InheritSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <InstanceNode d2p1:type="SocializationNodeInstance" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>4246766224</Id>
+    <ParentId>1164850929</ParentId>
+    <PrototypeId>202586761</PrototypeId>
+    <Center>
+      <X>-931</X>
+      <Y>-1828</Y>
+    </Center>
+    <FulfillmentScore>25</FulfillmentScore>
+    <MaxAdvertisement>250</MaxAdvertisement>
+    <MinRelationship>-5</MinRelationship>
+    <MaxRelationship>-100</MaxRelationship>
+    <AgeGroups />
+    <MoodFlavors />
+    <Careers />
+    <Skills />
+    <Traits>
+      <SelectedTrait>
+        <Trait>FriendlyPet</Trait>
+        <Required>false</Required>
+        <Excluded>true</Excluded>
+      </SelectedTrait>
+    </Traits>
+    <Relationships>
+      <string>Acquaintance</string>
+      <string>Disliked</string>
+      <string>Enemy</string>
+    </Relationships>
+    <RelationshipWeight>100</RelationshipWeight>
+    <InheritSubject>true</InheritSubject>
+    <LocalizationKeyDescriptionOverride>
+      <StringKey />
+    </LocalizationKeyDescriptionOverride>
+    <LocalizationKeyGenericOverride>
+      <StringKey />
+    </LocalizationKeyGenericOverride>
+    <LocalizationKeyMaleOverride>
+      <StringKey />
+    </LocalizationKeyMaleOverride>
+    <LocalizationKeyFemaleOverride>
+      <StringKey />
+    </LocalizationKeyFemaleOverride>
+  </InstanceNode>
+  <Name>Horse - Horse to Cat Social</Name>
+  <RequiredProductVersions>EP5</RequiredProductVersions>
+  <SpeciesAvailablilty>Horse</SpeciesAvailablilty>
+  <TreeHash>3493023872</TreeHash>
+</DreamTree>

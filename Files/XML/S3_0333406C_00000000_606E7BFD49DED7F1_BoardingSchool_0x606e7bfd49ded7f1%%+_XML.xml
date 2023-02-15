@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kWeightsToPlaceCall value="80, 20">
+      <!--Weights to place call. Index 0: Sims with parental relationship (child calling parent). Index 1: Sims without parental relationship (child calling sibling). Positive float array.-->
+    </kWeightsToPlaceCall>
+    <kLTRChangeHomesickDenied value="-2">
+      <!--The LTR change when a homesick call is denied.-->
+    </kLTRChangeHomesickDenied>
+    <kLTRChangeNeedMoneyDenied value="-5">
+      <!--The LTR change when a need money call is denied.-->
+    </kLTRChangeNeedMoneyDenied>
+    <kPhoneCallChances value="20, 40, 50">
+      <!--Need Money, Homesick, Reward-->
+    </kPhoneCallChances>
+    <kLTRChangeNeedMoneyAccepted value="10">
+      <!--The LTR change when a need money call is accepted.-->
+    </kLTRChangeNeedMoneyAccepted>
+  </Current_Tuning>
+</base>

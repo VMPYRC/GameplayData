@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="14">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kBookshelfTuning>
+      <NumStartingBooks value="4" />
+      <StartBookMaxValue value="150" />
+      <StateChangeHalf value="5" />
+      <StateChangeFull value="10" />
+      <MinGeneralBooksForLibraryBookShelves value="3" />
+      <MaxGeneralBooksForLibraryBookShelves value="10" />
+    </kBookshelfTuning>
+  </Current_Tuning>
+</base>

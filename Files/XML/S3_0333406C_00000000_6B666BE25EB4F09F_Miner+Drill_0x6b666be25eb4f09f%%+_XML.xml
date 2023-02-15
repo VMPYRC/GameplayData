@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDrillHolePercentIncrement value="9">
+      <!--Percentage we should progress through the drill hole each time we check for an outcome.-->
+    </kDrillHolePercentIncrement>
+    <kDrillLoopCheckTime value="30">
+      <!--Time between checking for different drill outcomes in sim minutes.-->
+    </kDrillLoopCheckTime>
+    <kWeightedOutcome value="78,45,30,10,10,25,12,8,25,15">
+      <!--Weighted outcome during each roll.  Format: {nothing, lp gem, mp gem, hp gem, rock, metal, large object, gnome, scrap, adventure}-->
+    </kWeightedOutcome>
+    <kLargeObjectList value="ChairDiningPatioPlastic,MicrowaveCheap,StoveCheap,AlarmClockCheap,TableEndDeckAdirondack,TableEndCountry,StereoCheapContemporary,ChairLivingDesigner,TableCoffeeClub1x1,LoveseatDesigner,LightingTableLampFun,LightingTableCountry">
+      <!--A comma-separated list of medator keys that are used to create the large objects the sim has a chance of getting.-->
+    </kLargeObjectList>
+    <kScrapMinMax value="5,25">
+      <!--The minimum and maximum amount of scrap that gets spawned if we roll to spawn scrap.-->
+    </kScrapMinMax>
+    <kMetalList value="Silver,Gold,Palladium,Plutonium,Mercury,Platinum,Copper,Mummitomium,Titanium,Iridium">
+      <!--List of metals to select.-->
+    </kMetalList>
+    <kMetalProductVersionList value="BaseGame,BaseGame,BaseGame,BaseGame,EP1,EP1,EP1,EP1,EP1,EP1,EP1">
+      <!--List of expansion packs to pull from.  Note that there has to be some entries from base game.-->
+    </kMetalProductVersionList>
+    <kMetalWeights value="60,40,30,5,20,20,30,5,5,5">
+      <!--Corresponding weights to how often a metal gets selected.-->
+    </kMetalWeights>
+    <kGemPriceThreshold value="40, 180">
+      <!--Thresholds to determine gem type.  Low priced gems are between 0 and the first value.  Medium priced gems are between the first and second values.  High priced gems are higher than the second value.-->
+    </kGemPriceThreshold>
+    <kWeightedOutcomeMaster value="40,6,25,25,5,25,20,15,20,20">
+      <!--Weighted outcome during each roll if the drill is a 'Master' quality drill.  Format: {nothing, lp gem, mp gem, hp gem, rock, metal, large object, gnome, scrap, adventure}-->
+    </kWeightedOutcomeMaster>
+  </Current_Tuning>
+</base>

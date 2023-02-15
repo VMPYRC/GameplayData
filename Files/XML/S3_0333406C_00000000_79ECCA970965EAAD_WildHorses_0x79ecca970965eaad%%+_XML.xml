@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDefaultLotWeight value="1">
+      <!--Default weight for a lot, for choosing wild horse behavior-->
+    </kDefaultLotWeight>
+    <kDefaultPopulatedLotWeight value="0">
+      <!--Default weight for populated lot, for choosing wild horse behavior (0 would make wild horses ignore lots w/o friends of the herd)-->
+    </kDefaultPopulatedLotWeight>
+    <kFriendOfTheHerdLotWeightIncrease value="2">
+      <!--Weight increase of a given lot for wild horse behavior for every sim with 'Friend of the Herd'-->
+    </kFriendOfTheHerdLotWeightIncrease>
+    <kPreferredCommercialLots value="kBigPark, kSmallPark, kBeach, kFishingSpot">
+      <!--List of lot types. Wild Horses will prefer to go to these lots-->
+    </kPreferredCommercialLots>
+    <kPreferredCommercialLotWeights value="2, 2, 16, 24">
+      <!--List of floats. Must be same length as kPreferredCommercialLots. This is relative weights each of the preferred lots have. Ones with higher weight will be visited more often.-->
+    </kPreferredCommercialLotWeights>
+    <kVisitCommercialLotMultiplier value="1">
+      <!--Range: Positive floats. Overall multiplier applied to commercial lots. If not a preferred commercial lot-->
+    </kVisitCommercialLotMultiplier>
+    <kVisitResidentialLotMultiplier value="1">
+      <!--Range: Positive floats. Overall multiplier applied to residential lots.-->
+    </kVisitResidentialLotMultiplier>
+  </Current_Tuning>
+</base>

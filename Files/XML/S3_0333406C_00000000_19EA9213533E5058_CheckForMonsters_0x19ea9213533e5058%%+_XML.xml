@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMonsterUnderBedChance value="60">
+      <!--Range:  0 - 100  Description:  This is the base chance that a sim will find a monster under the bed when checking.-->
+    </kMonsterUnderBedChance>
+    <kIncreasedTerrifiedChanceTraits value="Coward, Neurotic, EasilyImpressed, SupernaturalSkeptic">
+      <!--Description:  A list of TraitNames that will cause the sim to be more likely to become Terrified after finding a monster.-->
+    </kIncreasedTerrifiedChanceTraits>
+    <kIncreasedTerrifiedChanceAmount value="20">
+      <!--Range:  0 - 100  Description:  An additive bonus to kMonsterTerrifiesChance for sims with traits in kIncreasedTerrifiedChanceTraits.-->
+    </kIncreasedTerrifiedChanceAmount>
+    <kMonsterTerrifiesChance value="50">
+      <!--Range:  0 - 100  Description:  The base chance that sims who find monsters will gain the Terrified buff-->
+    </kMonsterTerrifiesChance>
+  </Current_Tuning>
+</base>

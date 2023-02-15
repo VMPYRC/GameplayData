@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNormalCookTimeSpeedMultiplier value="4">
+      <!--This multiplies the speed of cooking, so take the normal cook time and divide it by this. For example, if this is 2.0, cook time will be twice as fast because you'll divide it by 2.-->
+    </kNormalCookTimeSpeedMultiplier>
+    <kPositiveFoodQualityMultiplier value="0.5">
+      <!--This multiplies the quality of the food, but is meant to only be a decrease in quality, so the number should be in the range of [0.0, 1.0].  If the food quality is positive, it gets multiplied by this value.-->
+    </kPositiveFoodQualityMultiplier>
+    <kFasterCookingTuning>
+      <UpgradeTuning>
+        <UpgradeTime value="240">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="4080">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="15">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="True">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeTuning>
+      <CookSpeedMultiplier value="8">
+        <!--Cooking time multiplier if this microwave is upgraded.-->
+      </CookSpeedMultiplier>
+    </kFasterCookingTuning>
+    <kMaximumNumberOfSimsInLine value="3">
+      <!--Range: Positive integers.  Description:  Maximum number of Sims that can wait in line.-->
+    </kMaximumNumberOfSimsInLine>
+    <kTimeToWaitInLine value="20">
+      <!--Range: Positive floats.  Description: Amount of Sim minutes a Sim will wait in line before timing out and exiting.-->
+    </kTimeToWaitInLine>
+    <kInUseMultiplier value="0.5">
+      <!--Range: [0, 1] Multiplier on the score of microwaves that are in use-->
+    </kInUseMultiplier>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <UpgradeComplexity value="1">
+      <!--The initial level a Sim can perform an upgrade.  Also the level when he has the max chance of failure-->
+      <!--deprecated on: 1/7/2008 7:09:13 PM-->
+    </UpgradeComplexity>
+  </Deprecated_Tuning>
+</base>

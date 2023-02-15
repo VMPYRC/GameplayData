@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kVictoryPartyParams>
+      <PreparationTime value="2">
+        <!--How long the host will prepare before the party starts (in hours)-->
+      </PreparationTime>
+      <PercentageChanceOfBringingAFriend value="30">
+        <!--Percentage chance (0 to 100) of bringing a friend along to the party-->
+      </PercentageChanceOfBringingAFriend>
+      <MinPartyTime value="2">
+        <!--Min length of party (in hours): Sims will not leave until this many hours after they arrive (unless motive distress)-->
+      </MinPartyTime>
+      <ChanceOfBringingFood value="90">
+        <!--Percentage chance of bringing food-->
+      </ChanceOfBringingFood>
+      <HourAtWhichChildrenGoHome value="22">
+        <!--Time (in 24 hours) at which children (and their parents) will leave the party-->
+      </HourAtWhichChildrenGoHome>
+      <InitialDesireToSocialize value="1000" />
+      <RatioOfMoodToLikingChangeWhenLeavingParty value="0.1">
+        <!--Ratio of mood -> liking update when leaving the party (0.1 means that mood of +90 is turned into +9 liking)-->
+      </RatioOfMoodToLikingChangeWhenLeavingParty>
+      <HoursBeforePartyToInvite value="1">
+        <!--How Many Hours before the Party Start the Host invites Guests to Start coming over-->
+      </HoursBeforePartyToInvite>
+      <MinutesPerLeavingCheck value="15">
+        <!--How Often the Party Checks if people should leave the party. Minutes-->
+      </MinutesPerLeavingCheck>
+      <RelToTimeMod value="0.01">
+        <!--This changes Rel to a scale of 0-200, multiplies it by this number, and adds you min party time to get how long you'll stay to start. Hours-->
+      </RelToTimeMod>
+      <MoodToTimeMod value="0.01">
+        <!--Each MinutesPerLeavingCheck you get an additional Your Mood * MoodToTimeMod Minutes to stay-->
+      </MoodToTimeMod>
+    </kVictoryPartyParams>
+    <kObjectsNeededForParty value="chair">
+      <!--Medator Instance Names (comma separated) of the items needed to be on lot to increase party score for this type of party.-->
+    </kObjectsNeededForParty>
+    <kObjectsOnLotBonus value="10">
+      <!--Party Score increase for having needed items on lot.-->
+    </kObjectsOnLotBonus>
+    <kSkillIncreaseNerd value="10">
+      <!--Skill increase for throwing the party (Nerd)-->
+    </kSkillIncreaseNerd>
+    <kSkillIncreaseSocialite value="10">
+      <!--Skill increase for throwing the party (Socialite)-->
+    </kSkillIncreaseSocialite>
+    <kSkillIncreaseRebel value="10">
+      <!--Skill increase for throwing the party (Rebel)-->
+    </kSkillIncreaseRebel>
+    <kSocializingScoreBonusMultiplier value="2">
+      <!--Party Score bonus for overall LTR increase with guests from socializing (multiplier)-->
+    </kSocializingScoreBonusMultiplier>
+    <kSkillIncreaseNerdAttending value="10">
+      <!--Skill increase for attending the party (Nerd)-->
+    </kSkillIncreaseNerdAttending>
+    <kSkillIncreaseSocialiteAttending value="10">
+      <!--Skill increase for attending the party (Socialite)-->
+    </kSkillIncreaseSocialiteAttending>
+    <kSkillIncreaseRebelAttending value="10">
+      <!--Skill increase for attending the party (Rebel)-->
+    </kSkillIncreaseRebelAttending>
+  </Current_Tuning>
+</base>

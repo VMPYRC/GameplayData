@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFailChance value="20">
+      <!--Percent chance that interaction fails.  GPE default 20-->
+    </kFailChance>
+    <kFailsChanceLuckyBonus value="-5">
+      <!--Percent chance that interaction fails, modifier for lucky.  GPE default -5 (making 15% chance of failure).-->
+    </kFailsChanceLuckyBonus>
+    <kFailChanceUnluckyBonus value="10">
+      <!--Percent chance that interaction fails, modifier for unlucky.  GPE default 10 (making 30% chance of failure)-->
+    </kFailChanceUnluckyBonus>
+    <kFailsBonusIfMatchingTraits value="-15">
+      <!--Percent chance improvement for success if matching traits.  GPE default -15 (making 5% chance of failure)-->
+    </kFailsBonusIfMatchingTraits>
+    <kSuccessFunForTarget value="30">
+      <!--On success, how much fun they get.  GPE default 30-->
+    </kSuccessFunForTarget>
+    <kSuccessRelationshipChange value="20">
+      <!--On success, how much should relationship change.  GPE default 30-->
+    </kSuccessRelationshipChange>
+    <kFailRelationshipChange value="-15">
+      <!--On fail, how much should relationship change.  GPE default -30-->
+    </kFailRelationshipChange>
+  </Current_Tuning>
+</base>

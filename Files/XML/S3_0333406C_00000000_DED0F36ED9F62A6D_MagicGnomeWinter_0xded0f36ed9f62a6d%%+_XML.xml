@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCheckForWinterGnomeTime value="6">
+      <!--The number of sim hours between tries to create a winter gnome due to a  0.0+-->
+    </kCheckForWinterGnomeTime>
+    <kChanceOnGnomeFromSnowman value="0.01">
+      <!--The chance to get a winter gnome if there is a snowman on the lot.  0.0 - 1.0-->
+    </kChanceOnGnomeFromSnowman>
+    <kChanceOnGnomeFromHeavySnow value="0.01">
+      <!--The chance to get a winter gnome if there is heavy snow.  0.0 - 1.0-->
+    </kChanceOnGnomeFromHeavySnow>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeSnowmanFlex,magicGnomeSnowmanLaugh">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeSnowmanLounge,magicGnomeSnowmanAngel">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeSnowmanFlex,magicGnomeSnowmanYell">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeSnowmanLounge">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeSnowmanAngel">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="magicGnomeSnowmanLounge,magicGnomeSnowmanAngel">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="1">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kGnomeTuning>
+    <kWeightSnowman value="2">
+      <!--The weight of snowman for attracting summer gnomes. 0.0+-->
+    </kWeightSnowman>
+    <kWeightIgloo value="2">
+      <!--The weight of igloo for attracting summer gnomes. 0.0+-->
+    </kWeightIgloo>
+    <kWeightSnowAngel value="2">
+      <!--The weight of snow angel for attracting summer gnomes. 0.0+-->
+    </kWeightSnowAngel>
+    <kWeightSnowConeMachine value="2">
+      <!--The weight of snow cone machine for attracting summer gnomes. 0.0+-->
+    </kWeightSnowConeMachine>
+  </Current_Tuning>
+</base>

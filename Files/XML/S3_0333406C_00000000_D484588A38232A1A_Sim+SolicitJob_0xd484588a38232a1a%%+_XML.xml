@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSolicitJobMinLTRLikingAccept value="-40">
+      <!--If the LTR liking between the two Sim's is >= to this value, soliciting a job will succeed.-->
+    </kSolicitJobMinLTRLikingAccept>
+    <kSolicitJobMinLTRLikingAcceptNeedsAssessed value="-80">
+      <!--If the LTR liking between the two Sim's is >= to this value and the player has 'assessed the needs' of the target, soliciting a job will succeed.-->
+    </kSolicitJobMinLTRLikingAcceptNeedsAssessed>
+    <kSolicitJobLevel value="3">
+      <!--Career level at which can start soliciting-->
+    </kSolicitJobLevel>
+  </Current_Tuning>
+</base>

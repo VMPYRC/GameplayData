@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumberOfQuestionLoops value="3">
+      <!--The number of trivia question loops-->
+    </kNumberOfQuestionLoops>
+    <kLTRLostSteamed value="-4">
+      <!--Range < 0.0: LTR lost for a steamed result.-->
+    </kLTRLostSteamed>
+    <kLTRLostAwkward value="-2">
+      <!--Range < 0.0: LTR lost for a awkward result.-->
+    </kLTRLostAwkward>
+    <kLTRGainedFriendly value="3">
+      <!--Range > 0.0: LTR gained for a friendly result.-->
+    </kLTRGainedFriendly>
+    <kNerdInfluenceGainedFriendly value="100">
+      <!--Range > 0.0: Nerd influence skill gained from a friendly result.-->
+    </kNerdInfluenceGainedFriendly>
+    <kBaseChanceToBeCorrect value="20">
+      <!--Range > 0.0: The base chance to be correct.-->
+    </kBaseChanceToBeCorrect>
+    <kIncreasedNerdChanceToBeCorrect value="4">
+      <!--Range > 0.0: The increased chance for a nerd to be correct. This is multiplied by the nerd skill level.-->
+    </kIncreasedNerdChanceToBeCorrect>
+    <kIncreasedScientistChanceToBeCorrect value="3">
+      <!--Range > 0.0: The increased chance for a scientist to be correct. This is multiplied by the science skill level.-->
+    </kIncreasedScientistChanceToBeCorrect>
+    <kIncreasedLogicalChanceToBeCorrect value="3">
+      <!--Range > 0.0: The increased chance for a sim with logic skill to be correct. This is multiplied by the logic skill level.-->
+    </kIncreasedLogicalChanceToBeCorrect>
+    <kIncreasedWriterChanceToBeCorrect value="2">
+      <!--Range > 0.0: The increased chance for a sim with writing skill to be correct. This is multiplied by the writing skill level.-->
+    </kIncreasedWriterChanceToBeCorrect>
+    <kIncreasedBooksReadChanceToBeCorrect value="1">
+      <!--Range > 0.0: The increased chance for each book the sim has read to be correct. This is multiplied by each book read.-->
+    </kIncreasedBooksReadChanceToBeCorrect>
+    <kNerdUnlockLevel value="2">
+      <!--The level of nerd unlock to allow this interaction.-->
+    </kNerdUnlockLevel>
+  </Current_Tuning>
+</base>

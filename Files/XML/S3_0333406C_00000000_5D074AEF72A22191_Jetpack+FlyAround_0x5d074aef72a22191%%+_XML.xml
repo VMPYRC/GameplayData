@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNormalDuration value="35">
+      <!--FlyAround will normally last this long, in Sim Minutes-->
+    </kNormalDuration>
+    <kConfidentFutureSkillLevel value="4">
+      <!--Sims with this level of future skill (or higher) will use the medium-skill animations-->
+    </kConfidentFutureSkillLevel>
+    <kMaxDeathChance value="25">
+      <!--Death chance will never go higher than this. Range: 0-100-->
+    </kMaxDeathChance>
+    <kFailChance value="50, 45, 40, 35, 30, 15, 10, 5, 3, 0, 0">
+      <!--Percent chance of normal (non-fatal) failure, by future skill level-->
+    </kFailChance>
+    <kNauseousChance value="90, 80, 70, 50, 20, 10, 0, 0, 0, 0, 0">
+      <!--Percent chance of getting the Nauseous buff, by future skill level-->
+    </kNauseousChance>
+    <kFirstTimeDeathChance value="1">
+      <!--Chance of dying the first time a Sim Flies Around (without the Free Flying buff). Range: 0-100-->
+    </kFirstTimeDeathChance>
+    <kCumulativeDeathChance value="3">
+      <!--Cumulative chance of dying that is added each time the Sim does this interaction while already having the Free Flying buff. Range: 0-100-->
+    </kCumulativeDeathChance>
+    <kExpertFutureSkillLevel value="6">
+      <!--Sims with this level of future skill (or higher) will use the high-skill animations-->
+    </kExpertFutureSkillLevel>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFriendlyChanceToGainLTR value="0.6">
+      <!--Chance that a friendly result will allow the actor to gain LTR with a random sim.-->
+    </kFriendlyChanceToGainLTR>
+    <kFriendlyTargetLTRToBeEligible value="35">
+      <!--This is the LTR required on the random sim to be eligible for an LTR gain with a friendly reaction.-->
+    </kFriendlyTargetLTRToBeEligible>
+    <kMinFriendlyRandomLTRGiven value="5">
+      <!--This is the min LTR that is granted on a friendly result to a random sim.-->
+    </kMinFriendlyRandomLTRGiven>
+    <kMaxFriendlyRandomLTRGiven value="10">
+      <!--This is the max LTR that is granted on a friendly result to a random sim.-->
+    </kMaxFriendlyRandomLTRGiven>
+    <kMinFriendlyLTRGiven value="10">
+      <!--This is the min LTR that is granted on a friendly result to both sims.-->
+    </kMinFriendlyLTRGiven>
+    <kMaxFriendlyLTRGiven value="30">
+      <!--This is the max LTR that is granted on a friendly result to both sims.-->
+    </kMaxFriendlyLTRGiven>
+    <kFriendlyChanceToGainSkill value="0.6">
+      <!--Chance that a friendly result will allow the actor to gain skill.-->
+    </kFriendlyChanceToGainSkill>
+    <kMinFriendlySkillGiven value="100">
+      <!--This is the min skill gain that is granted on a friendly result.-->
+    </kMinFriendlySkillGiven>
+    <kMaxFriendlySkillGiven value="400">
+      <!--This is the max skill gain that is granted on a friendly result.-->
+    </kMaxFriendlySkillGiven>
+    <kMinFriendlySocialGiven value="30">
+      <!--This is the min social gain that is granted on a friendly result.-->
+    </kMinFriendlySocialGiven>
+    <kMaxFriendlySocialGiven value="50">
+      <!--This is the max social gain that is granted on a friendly result.-->
+    </kMaxFriendlySocialGiven>
+    <kMinFriendlyNerdInfluenceGiven value="100">
+      <!--This is the min nerd influence gain that is granted on a friendly result.-->
+    </kMinFriendlyNerdInfluenceGiven>
+    <kMaxFriendlyNerdInfluenceGiven value="200">
+      <!--This is the max nerd influence gain that is granted on a friendly result.-->
+    </kMaxFriendlyNerdInfluenceGiven>
+    <kAwkwardChanceForResultToOccur value="0.75">
+      <!--Chance that a awkward result will allow one of the results to occur.-->
+    </kAwkwardChanceForResultToOccur>
+    <kAwkwardTargetLTRToBeEligible value="55">
+      <!--This is the LTR required on the random sim to be eligible for an LTR gain with an awkward reaction.-->
+    </kAwkwardTargetLTRToBeEligible>
+    <kMinAwkwardLTRGiven value="5">
+      <!--This is the min LTR that is granted on a awkward result.-->
+    </kMinAwkwardLTRGiven>
+    <kMaxAwkwardLTRGiven value="10">
+      <!--This is the max LTR that is granted on a awkward result.-->
+    </kMaxAwkwardLTRGiven>
+    <kMinAwkwardSocialGiven value="30">
+      <!--This is the min social gain that is granted on a awkward result.-->
+    </kMinAwkwardSocialGiven>
+    <kMaxAwkwardSocialGiven value="50">
+      <!--This is the max social gain that is granted on a awkward result.-->
+    </kMaxAwkwardSocialGiven>
+    <kMinSteamedLTRLost value="-3">
+      <!--This is the min LTR that is lost on a steamed result.-->
+    </kMinSteamedLTRLost>
+    <kMaxSteamedLTRLost value="-5">
+      <!--This is the max LTR that is lost on a steamed result.-->
+    </kMaxSteamedLTRLost>
+    <kMinAwkwardSkillGiven value="50">
+      <!--This is the min skill gain that is granted on a awkward result.-->
+    </kMinAwkwardSkillGiven>
+    <kMaxAwkwardSkillGiven value="250">
+      <!--This is the max skill gain that is granted on a awkward result.-->
+    </kMaxAwkwardSkillGiven>
+    <kAwkwardActorLevel value="3">
+      <!--The level of Actor's nerd influence to prevent this from being awkward.-->
+    </kAwkwardActorLevel>
+    <kAwkwardTargetLevel value="1">
+      <!--The level of Target's nerd influence to prevent this from being awkward.-->
+    </kAwkwardTargetLevel>
+    <kNerdUnlockLevel value="3">
+      <!--The level of Actors nerd unlock level to allow this interaction.-->
+    </kNerdUnlockLevel>
+  </Current_Tuning>
+</base>

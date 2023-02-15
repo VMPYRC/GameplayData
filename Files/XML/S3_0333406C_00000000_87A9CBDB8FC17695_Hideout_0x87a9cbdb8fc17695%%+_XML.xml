@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="0" />
+      <MapTagFilterType value="Work">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-35">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="50">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kInvestCost value="15000">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="35000">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="2500">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="4000">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="6000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="1000000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kCanInvestHere value="True">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kNpcExitFreq value="10">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kNighttimeLightSunsetDelta value="24">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kPreventLotPurchase value="True">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="True">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+    <kVisualStateChangeTime_Default value="6">
+      <!--What hour of the day you want the Hideout's Default lighting to start.-->
+    </kVisualStateChangeTime_Default>
+    <kVisualStateChangeTime_ManyLights value="19">
+      <!--What hour of the day you want the Hideout's lighting to start having Many Lights.-->
+    </kVisualStateChangeTime_ManyLights>
+    <kRaidCriminalDuration value="90">
+      <!--Length of the time stage for interaction 'Raid Criminals'. Units: Sim minutes. Positive float. Initial GPE default: 90f-->
+    </kRaidCriminalDuration>
+    <kThresholdBetweenFailureAndMildSuccess value="0.5">
+      <!--Score below this number will provide increased chances of failure in Raid Criminal interaction. Range [0, 3). Positive float. Unitless number. Initial GPE default: 0.5f-->
+    </kThresholdBetweenFailureAndMildSuccess>
+    <kThresholdBetweenMildSuccessAndSuccess value="1.7">
+      <!--Score above this number will provide increased chances of success in Raid Criminal interaction. Range [0, 3). Positive float. Unitless number. Constraint: > kThresholdBetweenFailureAndMildSuccess. Initial GPE default: 1.7f-->
+    </kThresholdBetweenMildSuccessAndSuccess>
+    <kChanceOfRandomResult value="0.15">
+      <!--We do not want Raid Criminal interaction be deterministic. If this chance is satisfied we provide some stochasticity to the result. Range [0, 1]. Positive float. Initial GPE default: 0.20f-->
+    </kChanceOfRandomResult>
+    <kMildSuccessAtRaidReward value="350">
+      <!--Money reward for Mild success at a raid. Positive float. Initial GPE default: 200-->
+    </kMildSuccessAtRaidReward>
+    <kHugeSuccessAtRaidReward value="1500">
+      <!--Money reward for huge success at a raid. Positive float. Initial GPE default: 900-->
+    </kHugeSuccessAtRaidReward>
+    <kMinimumDurationBetweenCriminalRaids value="60">
+      <!--Number of hours till Law Enforcement career sims cannot Raid Criminals on the given warehouse. Units: Sim hours. Positive float. Initial GPE default: 48f-->
+    </kMinimumDurationBetweenCriminalRaids>
+    <kFreedConvictRewardDuration value="2">
+      <!--Number of days sim has to collect reward if they freed convicts using the miner. Units: Sim days. Positive float. Initial GPE default: 2f-->
+    </kFreedConvictRewardDuration>
+    <kPickUpJobDuration value="30">
+      <!--Length of the time stage for interaction 'PickUpSideJOb'. Units: Sim minutes. Positive float. Initial GPE default: 10f-->
+    </kPickUpJobDuration>
+    <kAdvancedArtTrainingDuration value="30">
+      <!--Length of the time stage for interaction 'AdvancedArtTraining'. Units: Sim minutes. Positive float. Initial GPE default: 10f-->
+    </kAdvancedArtTrainingDuration>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

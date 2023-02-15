@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeCavemanWonder,magicGnomeCavemanClubBroken,magicGnomeCavemanSad">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeCavemanRelax">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeCavemanWonder,magicGnomeCavemanAttack">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeCavemanRelax">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeCavemanRelax,magicGnomeCavemanSad,magicGnomeCavemanClubBroken">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kWeightExpensive value="1.5">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+      <kNoKickPoses value="magicGnomeCavemanRelax">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+    </kGnomeTuning>
+    <kDesireForOutside value="3">
+      <!--OBJECT DESIREABILITY: score multiplier for outside objects.-->
+    </kDesireForOutside>
+    <kDesireForFood value="4">
+      <!--OBJECT DESIREABILITY: score multiplier for food objects.-->
+    </kDesireForFood>
+    <kDesireForPlants value="2">
+      <!--OBJECT DESIREABILITY: score multiplier for plants.-->
+    </kDesireForPlants>
+  </Current_Tuning>
+</base>

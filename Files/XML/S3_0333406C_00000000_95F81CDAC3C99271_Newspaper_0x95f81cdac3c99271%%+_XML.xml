@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFindJobNumJobsOpportunitiesPerDay value="3" />
+    <kFindJobNumMinutesBetweenOffer value="3" />
+    <kLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="0">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <DefaultInteractionLookAtThreshold value="45">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </kLookAtTuning>
+    <kEnvironmentOldNewspaper value="-10">
+      <!--Environment hit for an old newspaper.-->
+    </kEnvironmentOldNewspaper>
+    <kFindActiveCareerNumJobsOpportunitiesPerDay value="6" />
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

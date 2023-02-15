@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinMaxAutonomousDist value="3, 8">
+      <!--Min/Max Distance to route to and do Stalk for prey if done autonomously.-->
+    </kMinMaxAutonomousDist>
+    <kMinMaxWanderAndSniffTime value="10, 15">
+      <!--Min/Max amount of time in sim mins to have cat wander around and sniff at random locations before rolling dice for success/failure.-->
+    </kMinMaxWanderAndSniffTime>
+    <kMinMaxWanderDist value="3, 8">
+      <!--Min/Max Distance to route each time cat wanders during wander/sniff behavior.-->
+    </kMinMaxWanderDist>
+    <kMinMaxChanceFindPrey value="30, 80">
+      <!--Range 0-100, Min/Max chance of cat succesfully finding prey linearly interpolated based on cat's hunting skill level.-->
+    </kMinMaxChanceFindPrey>
+    <kMinMaxWanderAndSniffTimeIfHomingWhiskers value="2, 7">
+      <!--If Cat has HomingWhiskers skill lifetime opp, these values are used instead of kMinMaxWanderAndSniffTime-->
+    </kMinMaxWanderAndSniffTimeIfHomingWhiskers>
+    <kAddedBeetleWeightCreepyCrawling value="10, 5">
+      <!--[Rare, Extra Rare] Additional prey weighting applied to rare and extra rare beetles if cat has Creeping & Crawling skill lifetime opp.-->
+    </kAddedBeetleWeightCreepyCrawling>
+  </Current_Tuning>
+</base>

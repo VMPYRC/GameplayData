@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="0" />
+      <MapTagFilterType value="Work">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-35">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="50">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kInvestCost value="0">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="0">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="0">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="0">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="0">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="0">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kCanInvestHere value="False">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kNpcExitFreq value="10">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kNighttimeLightSunsetDelta value="1">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kPreventLotPurchase value="True">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="True">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+    <kJailTimeMinutes value="360">
+      <!--How many minutes a Sim will stay in Jail if caught by the po-po.-->
+    </kJailTimeMinutes>
+    <kJailEnvironmentMotiveScore value="0">
+      <!--Environment score while in jail for a non-criminal.-->
+    </kJailEnvironmentMotiveScore>
+    <kJailEnvironmentMotiveScoreCriminal value="0">
+      <!--Environment score while in jail for a criminal.-->
+    </kJailEnvironmentMotiveScoreCriminal>
+    <kConvictCoolDownTime value="3">
+      <!--Time in sim days before the player can trigger a convict again.-->
+    </kConvictCoolDownTime>
+    <kFieldTripAthleticIncrease value="345">
+      <!--How much Athletic skill a sim gets per hour on a field trip-->
+    </kFieldTripAthleticIncrease>
+    <kFieldTripPerformanceIncrease value="20">
+      <!--How much careerPerformace increase per hour on a field trip-->
+    </kFieldTripPerformanceIncrease>
+    <kFieldTripFunIncrease value="40">
+      <!--How much fun a sim gains per hour on a field trip-->
+    </kFieldTripFunIncrease>
+    <kFieldTripTNSPercentages value="0.33, 0.66">
+      <!--At what percentage points of the field trip should do a TNS-->
+    </kFieldTripTNSPercentages>
+    <kFieldTripChildAthleticIncrease value="30">
+      <!--How much Athletic skill a child gets per hour on a field trip-->
+    </kFieldTripChildAthleticIncrease>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

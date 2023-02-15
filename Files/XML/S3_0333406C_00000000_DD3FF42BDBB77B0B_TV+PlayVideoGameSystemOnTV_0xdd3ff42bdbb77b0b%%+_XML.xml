@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSimMinutesBeforeApplyingLTR value="15">
+      <!--Sim Minutes that need to elapse before we apply the LTR points.-->
+    </kSimMinutesBeforeApplyingLTR>
+    <kSocialMotiveGainWhileOnline value="15">
+      <!--Rate of Social gain while playing video games online.-->
+    </kSocialMotiveGainWhileOnline>
+    <kPointsSkillGainForArcadeSkill value="2.5">
+      <!--Points increase for arcade when playing any games. Positive float.-->
+    </kPointsSkillGainForArcadeSkill>
+    <kSimMinutesBeforeApplyingArcadeSkill value="30">
+      <!--Sim Minutes that need to elapse before we apply the hidden arcade skill points.-->
+    </kSimMinutesBeforeApplyingArcadeSkill>
+    <kLTRGainedOnlineWith value="3">
+      <!--Range > 0.0: LTR gained playing video games online.-->
+    </kLTRGainedOnlineWith>
+  </Current_Tuning>
+</base>

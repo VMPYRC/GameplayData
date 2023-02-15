@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <sNumRememberedLookAts value="5">
+      <!--How many LookAts the Sim will remember seeing-->
+    </sNumRememberedLookAts>
+    <sProportionOfScoreLostIfRecentlySeen value="0.25">
+      <!--Proportion (between 0 and 1) of the Interestingness that can be lost if the object has been seen recently-->
+    </sProportionOfScoreLostIfRecentlySeen>
+    <sNumMinutesBeforeLookAtCountsAsNeverSeen value="120">
+      <!--The time after which the LookAt counts as if it had never been seen (and hence time penalty is 0)-->
+    </sNumMinutesBeforeLookAtCountsAsNeverSeen>
+    <sNumMinutesBeforeReturningToLookAt value="5">
+      <!--The min time before a Sim can return to look at the same object (in minutes)-->
+    </sNumMinutesBeforeReturningToLookAt>
+    <sProportionLostForObjectsBehindYou value="0.9">
+      <!--Proportion (between 0 and 1) of the score that is lost if the object is behind you (if the Sim is idling - if he isn't idling, he cannot look at things behind him)-->
+    </sProportionLostForObjectsBehindYou>
+    <kTimeNotSeenForWave value="1440">
+      <!--Range:  Sim minutes.  Description:  Number of Sim minutes if two Sims haven't seen each other that they will wave to each other.-->
+    </kTimeNotSeenForWave>
+    <kAcceptableDistance value="8">
+      <!--The distance (in meters) below which lookat distance multiplier is 1-->
+    </kAcceptableDistance>
+    <kUnacceptableDistance value="16">
+      <!--The distance (in meters) above which lookat distance multiplier is 0-->
+    </kUnacceptableDistance>
+    <sMinLookAtLengthBeforeTimeDecayInMinutes value="3">
+      <!--Min time (in minutes) that the interestingness of the LookAt on an object will remain constant before it will a time-decay-->
+    </sMinLookAtLengthBeforeTimeDecayInMinutes>
+    <sMaxLookAtLengthBeforeTimeDecayInMinutes value="4.5">
+      <!--Max time (in minutes) that the interestingness of the LookAt on an object will remain constant before it will a time-decay-->
+    </sMaxLookAtLengthBeforeTimeDecayInMinutes>
+    <kInterruptInterestingness value="30">
+      <!--The interestingness threshold which things have to be above before they interrupt the current lookat-->
+    </kInterruptInterestingness>
+    <sMinLookAtLengthBeforeTimeDecayInMinutesForNeuroticSims value="0.5">
+      <!--Min time (in minutes) that the interestingness of the LookAt will remain constant before it will a time-decay for neurotic Sims-->
+    </sMinLookAtLengthBeforeTimeDecayInMinutesForNeuroticSims>
+    <sMaxLookAtLengthBeforeTimeDecayInMinutesForNeuroticSims value="1">
+      <!--Max time (in minutes) that the interestingness of the LookAt will remain constant before it will a time-decay for neurotic Sims-->
+    </sMaxLookAtLengthBeforeTimeDecayInMinutesForNeuroticSims>
+    <sMinLookAtSimLengthBeforeTimeDecayInMinutes value="3">
+      <!--Min time (in minutes) that the interestingness of the LookAt on a Sim will remain constant before it will a time-decay-->
+    </sMinLookAtSimLengthBeforeTimeDecayInMinutes>
+    <sMaxLookAtSimLengthBeforeTimeDecayInMinutes value="4.5">
+      <!--Max time (in minutes) that the interestingness of the LookAt in a Sim will remain constant before it will a time-decay-->
+    </sMaxLookAtSimLengthBeforeTimeDecayInMinutes>
+    <sMinLookAtLengthBeforeTimeDecayInMinutesForWalkingSims value="1">
+      <!--Min time (in minutes) that the interestingness of the LookAt will remain constant before it will a time-decay for Sims who are walking-->
+    </sMinLookAtLengthBeforeTimeDecayInMinutesForWalkingSims>
+    <sMaxLookAtLengthBeforeTimeDecayInMinutesForWalkingSims value="3">
+      <!--Max time (in minutes) that the interestingness of the LookAt will remain constant before it will a time-decay for Sims who are walking-->
+    </sMaxLookAtLengthBeforeTimeDecayInMinutesForWalkingSims>
+    <kRoutingTargetLookAtInterestingness value="50">
+      <!--The interestingness which is added to an object when you are routing towards it-->
+    </kRoutingTargetLookAtInterestingness>
+    <kHumanLookAt>
+      <RightTiltness value="0">
+        <!--Degrees of rotation that the head can turn (in the z axis) while turning to a LookAt target-->
+      </RightTiltness>
+      <LookTowardsCurveRate value="7">
+        <!--Degrees of rotation that the head can dip while turning to a LookAt target-->
+      </LookTowardsCurveRate>
+      <LookTowardsSpeed value="150">
+        <!--Speed of turn towards LookAt target (in degrees per second)-->
+      </LookTowardsSpeed>
+      <LookAwaySpeed value="150">
+        <!--Speed of turn away from LookAt target (in degrees per second)-->
+      </LookAwaySpeed>
+      <AttenuatorPitch value="1">
+        <!--The proportion of the joint limit max that will be used (between 0 and 1)-->
+      </AttenuatorPitch>
+      <AttenuatorYaw value="1">
+        <!--The proportion of the joint limit max that will be used (between 0 and 1)-->
+      </AttenuatorYaw>
+      <DotProductThresholdForBehindObjects value="0.3">
+        <!--If the dot product to the target is below this, it counts as behind you-->
+      </DotProductThresholdForBehindObjects>
+    </kHumanLookAt>
+    <kDogLookAt>
+      <RightTiltness value="0">
+        <!--Degrees of rotation that the head can turn (in the z axis) while turning to a LookAt target-->
+      </RightTiltness>
+      <LookTowardsCurveRate value="7">
+        <!--Degrees of rotation that the head can dip while turning to a LookAt target-->
+      </LookTowardsCurveRate>
+      <LookTowardsSpeed value="150">
+        <!--Speed of turn towards LookAt target (in degrees per second)-->
+      </LookTowardsSpeed>
+      <LookAwaySpeed value="150">
+        <!--Speed of turn away from LookAt target (in degrees per second)-->
+      </LookAwaySpeed>
+      <AttenuatorPitch value="1">
+        <!--The proportion of the joint limit max that will be used (between 0 and 1)-->
+      </AttenuatorPitch>
+      <AttenuatorYaw value="1">
+        <!--The proportion of the joint limit max that will be used (between 0 and 1)-->
+      </AttenuatorYaw>
+      <DotProductThresholdForBehindObjects value="0.3">
+        <!--If the dot product to the target is below this, it counts as behind you-->
+      </DotProductThresholdForBehindObjects>
+    </kDogLookAt>
+    <kLittleDogLookAt>
+      <RightTiltness value="0">
+        <!--Degrees of rotation that the head can turn (in the z axis) while turning to a LookAt target-->
+      </RightTiltness>
+      <LookTowardsCurveRate value="7">
+        <!--Degrees of rotation that the head can dip while turning to a LookAt target-->
+      </LookTowardsCurveRate>
+      <LookTowardsSpeed value="150">
+        <!--Speed of turn towards LookAt target (in degrees per second)-->
+      </LookTowardsSpeed>
+      <LookAwaySpeed value="150">
+        <!--Speed of turn away from LookAt target (in degrees per second)-->
+      </LookAwaySpeed>
+      <AttenuatorPitch value="1">
+        <!--The proportion of the joint limit max that will be used (between 0 and 1)-->
+      </AttenuatorPitch>
+      <AttenuatorYaw value="1">
+        <!--The proportion of the joint limit max that will be used (between 0 and 1)-->
+      </AttenuatorYaw>
+      <DotProductThresholdForBehindObjects value="0.3">
+        <!--If the dot product to the target is below this, it counts as behind you-->
+      </DotProductThresholdForBehindObjects>
+    </kLittleDogLookAt>
+    <kCatLookAt>
+      <RightTiltness value="0">
+        <!--Degrees of rotation that the head can turn (in the z axis) while turning to a LookAt target-->
+      </RightTiltness>
+      <LookTowardsCurveRate value="7">
+        <!--Degrees of rotation that the head can dip while turning to a LookAt target-->
+      </LookTowardsCurveRate>
+      <LookTowardsSpeed value="150">
+        <!--Speed of turn towards LookAt target (in degrees per second)-->
+      </LookTowardsSpeed>
+      <LookAwaySpeed value="150">
+        <!--Speed of turn away from LookAt target (in degrees per second)-->
+      </LookAwaySpeed>
+      <AttenuatorPitch value="1">
+        <!--The proportion of the joint limit max that will be used (between 0 and 1)-->
+      </AttenuatorPitch>
+      <AttenuatorYaw value="1">
+        <!--The proportion of the joint limit max that will be used (between 0 and 1)-->
+      </AttenuatorYaw>
+      <DotProductThresholdForBehindObjects value="0.3">
+        <!--If the dot product to the target is below this, it counts as behind you-->
+      </DotProductThresholdForBehindObjects>
+    </kCatLookAt>
+    <kHorseLookAt>
+      <RightTiltness value="0">
+        <!--Degrees of rotation that the head can turn (in the z axis) while turning to a LookAt target-->
+      </RightTiltness>
+      <LookTowardsCurveRate value="7">
+        <!--Degrees of rotation that the head can dip while turning to a LookAt target-->
+      </LookTowardsCurveRate>
+      <LookTowardsSpeed value="150">
+        <!--Speed of turn towards LookAt target (in degrees per second)-->
+      </LookTowardsSpeed>
+      <LookAwaySpeed value="150">
+        <!--Speed of turn away from LookAt target (in degrees per second)-->
+      </LookAwaySpeed>
+      <AttenuatorPitch value="1">
+        <!--The proportion of the joint limit max that will be used (between 0 and 1)-->
+      </AttenuatorPitch>
+      <AttenuatorYaw value="1">
+        <!--The proportion of the joint limit max that will be used (between 0 and 1)-->
+      </AttenuatorYaw>
+      <DotProductThresholdForBehindObjects value="0.3">
+        <!--If the dot product to the target is below this, it counts as behind you-->
+      </DotProductThresholdForBehindObjects>
+    </kHorseLookAt>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

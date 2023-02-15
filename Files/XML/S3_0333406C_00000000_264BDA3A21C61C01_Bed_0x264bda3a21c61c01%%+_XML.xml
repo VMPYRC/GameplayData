@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToMakeBed value="0">
+      <!--Range: 0.0f to 1.0f.  Description: Percentage chance that the Sim will make the bed after sleeping in it.-->
+    </kChanceToMakeBed>
+    <kEnvironmentPenaltyForMadeBed value="-10">
+      <!--Range: Negative integer values.  Description: Environment penalty if the bed is not fully made (either side).-->
+    </kEnvironmentPenaltyForMadeBed>
+    <kBabyMadeChance value="75">
+      <!--Range: 0-100. Chance of Sim getting Pregnant on TryForBaby.-->
+    </kBabyMadeChance>
+    <kBedUseVisitorPrivlageThreshold value="2">
+      <!--Range: 1 to 4 (currently).  Description: If the relationship value between two Sims is higher than or equal to this tunable, they will agree to relax or sleep in the same bed.-->
+    </kBedUseVisitorPrivlageThreshold>
+    <kMinutesForUnmadeBedToBeDirty value="30">
+      <!--Range:  Sim minutes.  Description:  Number of minutes after which a bed is left unmade that it is considered 'dirty'-->
+    </kMinutesForUnmadeBedToBeDirty>
+    <kTimeToWaitForOtherToArriveForCuddling value="50">
+      <!--Time in Sim minute that a Sim will wait for his partner to arrive for cuddling-->
+    </kTimeToWaitForOtherToArriveForCuddling>
+    <kDistanceToStandFromBedWhenShooingPet value="1, 4">
+      <!--Positive floats.  The minimum and maximum distance a Human will stand from a bed while shooing a pet off the bed.  This is to allow the pet room to jump down.-->
+    </kDistanceToStandFromBedWhenShooingPet>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kEnvironmentBoostForMadeBed value="5">
+      <!--Range: Positive integer values.  Description: Environment boost if the bed is fully made (both sides).-->
+      <!--deprecated on: 10/4/2007 7:43:57 PM-->
+    </kEnvironmentBoostForMadeBed>
+    <kSleepLikingGate value="80">
+      <!--Range: -100 to 100.  Description: If the relationship value between two Sims is higher than this tunable, they will agree to sleep in the same bed.-->
+      <!--deprecated on: 12/19/2007 6:23:25 PM-->
+    </kSleepLikingGate>
+    <kSleepRelationshipGate value="Spouse">
+      <!--Range: Any values from the LTR enumeration.  Description: If the relationship status between two Sims is higher than this status, they will agree to sleep in the same bed.-->
+      <!--deprecated on: 12/19/2007 6:23:25 PM-->
+    </kSleepRelationshipGate>
+    <kRelaxLikingGate value="30">
+      <!--Range: -100 to 100.  Description: If the relationship value between two Sims is higher than this tunable, they will agree to relax in the same bed.-->
+      <!--deprecated on: 12/19/2007 6:23:25 PM-->
+    </kRelaxLikingGate>
+    <kRelaxRelationshipGate value="Friend">
+      <!--Range: Any values from the LTR enumeration.  Description: If the relationship status between two Sims is higher than this status, they will agree to relax in the same bed.-->
+      <!--deprecated on: 12/19/2007 6:23:25 PM-->
+    </kRelaxRelationshipGate>
+    <kRomanceUseLikingGate value="40">
+      <!--Range: -100 to 100.  Description: If the relationship value between two Sims is higher than this tunable, they will agree to relax or sleep in the same bed.-->
+      <!--deprecated on: 12/20/2007 10:08:13 AM-->
+    </kRomanceUseLikingGate>
+    <kRomanceUseRelationshipGate value="Friend">
+      <!--Range: Any values from the LTR enumeration.  Description: If the relationship status between two Sims is this or higher, they will agree to relax or sleep in the same bed.-->
+      <!--deprecated on: 12/20/2007 10:08:13 AM-->
+    </kRomanceUseRelationshipGate>
+    <kWooHooUseLikingGate value="30">
+      <!--Range: -100 to 100.  Description: If the relationship value between two Sims is higher than this tunable, they will agree to relax or sleep in the same bed.-->
+      <!--deprecated on: 12/20/2007 10:08:13 AM-->
+    </kWooHooUseLikingGate>
+    <kWooHooUseRelationshipGate value="Friend">
+      <!--Range: Any values from the LTR enumeration.  Description: If the relationship status between two Sims is this or higher, they will agree to relax or sleep in the same bed.-->
+      <!--deprecated on: 12/20/2007 10:08:13 AM-->
+    </kWooHooUseRelationshipGate>
+    <ObsessedWithComputerTraitScore value="0">
+      <!--Range: Any float value.  Description:  Sims with the 'Obsessed with X' Trait will get an environment bonus from rooms that contain the object that Sim is obsessed with.  This tunable is an additive amount of environment bonus for Sims with the 'Obsessed with X' trait. This amount is expected to be positive but does not have to be.-->
+      <!--deprecated on: 1/16/2008 11:52:03 AM-->
+    </ObsessedWithComputerTraitScore>
+    <ObsessedWithTVTraitScore value="0">
+      <!--Range: Any float value.  Description:  Sims with the 'Obsessed with X' Trait will get an environment bonus from rooms that contain the object that Sim is obsessed with.  This tunable is an additive amount of environment bonus for Sims with the 'Obsessed with X' trait. This amount is expected to be positive but does not have to be.-->
+      <!--deprecated on: 1/16/2008 11:52:03 AM-->
+    </ObsessedWithTVTraitScore>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+      <!--deprecated on: 12/10/2007 4:00:56 PM-->
+      <!--deprecated on: 2/14/2008 11:20:26 AM-->
+      <!--deprecated on: 3/7/2008 3:59:11 PM-->
+    </kEnvironmentTuning>
+    <kChanceToMakeBed value="0.5">
+      <!--Range: 0.0f to 1.0f.  Description: Percentage chance that the Sim will make the bed after sleeping in it.-->
+      <!--deprecated on: 3/7/2008 3:59:11 PM-->
+    </kChanceToMakeBed>
+    <kEnvironmentPenaltyForMadeBed value="-15">
+      <!--Range: Negative integer values.  Description: Environment penalty if the bed is not fully made (either side).-->
+      <!--deprecated on: 3/7/2008 3:59:11 PM-->
+    </kEnvironmentPenaltyForMadeBed>
+    <kPlaceHolderTuning>
+      <WellRestedStrength value="15">
+        <!--Mood score added by the well rested buff given by the bed. Only trigerred if value is greater than 0.-->
+      </WellRestedStrength>
+      <ComfyBuffStrength value="25">
+        <!--Mood score added by comfy buff.-->
+      </ComfyBuffStrength>
+      <GivesBadNightsSleep value="False">
+        <!--Can this bed give you the Bad Nights Sleep buff?-->
+      </GivesBadNightsSleep>
+      <!--deprecated on: 2/14/2008 11:20:26 AM-->
+      <!--deprecated on: 3/7/2008 3:59:11 PM-->
+    </kPlaceHolderTuning>
+  </Deprecated_Tuning>
+</base>

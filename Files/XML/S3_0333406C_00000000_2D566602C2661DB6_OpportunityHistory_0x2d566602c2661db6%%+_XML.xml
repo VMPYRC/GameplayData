@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSimDaysToRememberUserRejection value="5">
+      <!--Range:  Sim days.  Description:  Number of Sim days we should remember that a user rejected an opportunity.-->
+    </kSimDaysToRememberUserRejection>
+    <kUserRejectedOpportunityWeightMultiplier value="0.25">
+      <!--Range:  Float multiplier.  Description:  Multiplier on the probability of opportunities to get picked if they have been user-rejected.-->
+    </kUserRejectedOpportunityWeightMultiplier>
+  </Current_Tuning>
+</base>

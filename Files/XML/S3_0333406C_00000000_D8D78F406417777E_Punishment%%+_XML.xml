@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<Punishment>
+<DeviantBehavior>
+  <DeviantBehaviorType></DeviantBehaviorType>
+  <TroublePoints></TroublePoints>
+  <BuffOrigin></BuffOrigin>
+ </DeviantBehavior>
+<DeviantBehavior>
+  <DeviantBehaviorType>BadGrades</DeviantBehaviorType>
+  <TroublePoints>40</TroublePoints>
+  <BuffOrigin>FromBadGrades</BuffOrigin>
+ </DeviantBehavior>
+<DeviantBehavior>
+  <DeviantBehaviorType>MissingSchool</DeviantBehaviorType>
+  <TroublePoints>20</TroublePoints>
+  <BuffOrigin>FromSkippingSchool</BuffOrigin>
+ </DeviantBehavior>
+<DeviantBehavior>
+  <DeviantBehaviorType>MissingWork</DeviantBehaviorType>
+  <TroublePoints>20</TroublePoints>
+  <BuffOrigin>FromMissingWork</BuffOrigin>
+ </DeviantBehavior>
+<DeviantBehavior>
+  <DeviantBehaviorType>Fight</DeviantBehaviorType>
+  <TroublePoints>40</TroublePoints>
+  <BuffOrigin>FromFightInPublic</BuffOrigin>
+ </DeviantBehavior>
+<DeviantBehavior>
+  <DeviantBehaviorType>SetupBoobyTrap</DeviantBehaviorType>
+  <TroublePoints>20</TroublePoints>
+  <BuffOrigin>FromSettingBoobyTrap</BuffOrigin>
+ </DeviantBehavior>
+<DeviantBehavior>
+  <DeviantBehaviorType>CopPickupCurfew</DeviantBehaviorType>
+  <TroublePoints>80</TroublePoints>
+  <BuffOrigin>FromBreakingCurfew</BuffOrigin>
+ </DeviantBehavior>
+<DeviantBehavior>
+  <DeviantBehaviorType>CopPickupPrankInTown</DeviantBehaviorType>
+  <TroublePoints>60</TroublePoints>
+  <BuffOrigin>FromPrankInTown</BuffOrigin>
+ </DeviantBehavior>
+<DeviantBehavior>
+  <DeviantBehaviorType>HouseTrashed</DeviantBehaviorType>
+  <TroublePoints>80</TroublePoints>
+  <BuffOrigin>FromHouseTrashed</BuffOrigin>
+ </DeviantBehavior>
+<DeviantBehavior>
+  <DeviantBehaviorType>UsedBannedObject</DeviantBehaviorType>
+  <TroublePoints>10</TroublePoints>
+  <BuffOrigin>FromUsingBannedObject</BuffOrigin>
+ </DeviantBehavior>
+<DeviantBehavior>
+  <DeviantBehaviorType>BreakTimeOut</DeviantBehaviorType>
+  <TroublePoints>10</TroublePoints>
+  <BuffOrigin>FromBreakingTimeOut</BuffOrigin>
+ </DeviantBehavior>
+<DeviantBehavior>
+  <DeviantBehaviorType>SnuckOut</DeviantBehaviorType>
+  <TroublePoints>10</TroublePoints>
+  <BuffOrigin>FromSneakingOut</BuffOrigin>
+ </DeviantBehavior>
+<DeviantBehavior>
+  <DeviantBehaviorType>SmashingDollhouse</DeviantBehaviorType>
+  <TroublePoints>20</TroublePoints>
+  <BuffOrigin>FromSmashingDollhouse</BuffOrigin>
+ </DeviantBehavior>
+<BanFunObject>
+  <BannedFunObjectType></BannedFunObjectType>
+  <BuffTextKey></BuffTextKey>
+  <TNSKey></TNSKey>
+  <Age></Age>
+ </BanFunObject>
+<BanFunObject>
+  <BannedFunObjectType>TV</BannedFunObjectType>
+  <BuffTextKey>TVBuffText</BuffTextKey>
+  <TNSKey>TVTnsText</TNSKey>
+  <Age>C,T</Age>
+ </BanFunObject>
+<BanFunObject>
+  <BannedFunObjectType>Computer</BannedFunObjectType>
+  <BuffTextKey>ComputerBuffText</BuffTextKey>
+  <TNSKey>ComputerTnsText</TNSKey>
+  <Age>C,T</Age>
+ </BanFunObject>
+<BanFunObject>
+  <BannedFunObjectType>VideoGameSystem</BannedFunObjectType>
+  <BuffTextKey>VideoGameSystemBuffText</BuffTextKey>
+  <TNSKey>VideoGameSystemTnsText</TNSKey>
+  <Age>C,T</Age>
+ </BanFunObject>
+<BanFunObject>
+  <BannedFunObjectType>Foosball</BannedFunObjectType>
+  <BuffTextKey>FoosballBuffText</BuffTextKey>
+  <TNSKey>FoosballTnsText</TNSKey>
+  <Age>T</Age>
+ </BanFunObject>
+<BanFunObject>
+  <BannedFunObjectType>PlayGroundObjects</BannedFunObjectType>
+  <BuffTextKey>PlayGroundObjectsBuffText</BuffTextKey>
+  <TNSKey>PlayGroundObjectsTnsText</TNSKey>
+  <Age>C</Age>
+ </BanFunObject>
+<BanFunObject>
+  <BannedFunObjectType>VRGoggles</BannedFunObjectType>
+  <BuffTextKey>VRGogglesBuffText</BuffTextKey>
+  <TNSKey>VRGogglesTnsText</TNSKey>
+  <Age>T</Age>
+ </BanFunObject>
+<BanFunObject>
+  <BannedFunObjectType>DollHouse</BannedFunObjectType>
+  <BuffTextKey>DollHouseBuffText</BuffTextKey>
+  <TNSKey>DollHouseTnsText</TNSKey>
+  <Age>C</Age>
+ </BanFunObject>
+<BanFunObject>
+  <BannedFunObjectType>Trampoline</BannedFunObjectType>
+  <BuffTextKey>TrampolineBuffText</BuffTextKey>
+  <TNSKey>TrampolineTnsText</TNSKey>
+  <Age>C,T</Age>
+ </BanFunObject>
+<BanFunObject>
+  <BannedFunObjectType>Gnubb</BannedFunObjectType>
+  <BuffTextKey>GnubbBuffText</BuffTextKey>
+  <TNSKey>GnubbTnsText</TNSKey>
+  <Age>C,T</Age>
+ </BanFunObject>
+<BanFunObject>
+  <BannedFunObjectType>Darts</BannedFunObjectType>
+  <BuffTextKey>DartsBuffText</BuffTextKey>
+  <TNSKey>DartsTnsText</TNSKey>
+  <Age>T</Age>
+ </BanFunObject>
+<BanFunObject>
+  <BannedFunObjectType>Shuffleboard</BannedFunObjectType>
+  <BuffTextKey>ShuffleboardBuffText</BuffTextKey>
+  <TNSKey>ShuffleboardTnsText</TNSKey>
+  <Age>T</Age>
+ </BanFunObject>
+<BanFunObject>
+  <BannedFunObjectType>ArcadeMachine</BannedFunObjectType>
+  <BuffTextKey>ArcadeMachineBuffText</BuffTextKey>
+  <TNSKey>ArcadeMachineTnsText</TNSKey>
+  <Age>C,T</Age>
+ </BanFunObject>
+<BanFunObject>
+  <BannedFunObjectType>Treehouse</BannedFunObjectType>
+  <BuffTextKey>TreehouseBuffText</BuffTextKey>
+  <TNSKey>TreehouseTnsText</TNSKey>
+  <Age>C</Age>
+ </BanFunObject>
+<AbsolvingAction>
+  <AbsolvingActionType></AbsolvingActionType>
+  <TroublePointsRemoved></TroublePointsRemoved>
+ </AbsolvingAction>
+<AbsolvingAction>
+  <AbsolvingActionType>DoingDishes</AbsolvingActionType>
+  <TroublePointsRemoved>10</TroublePointsRemoved>
+ </AbsolvingAction>
+<AbsolvingAction>
+  <AbsolvingActionType>CleaningHouseholdObjects</AbsolvingActionType>
+  <TroublePointsRemoved>20</TroublePointsRemoved>
+ </AbsolvingAction>
+<AbsolvingAction>
+  <AbsolvingActionType>TakingOutTrash</AbsolvingActionType>
+  <TroublePointsRemoved>10</TroublePointsRemoved>
+ </AbsolvingAction>
+<AbsolvingAction>
+  <AbsolvingActionType>DoingLaundry</AbsolvingActionType>
+  <TroublePointsRemoved>10</TroublePointsRemoved>
+ </AbsolvingAction>
+<AbsolvingAction>
+  <AbsolvingActionType>BrushingTeeth</AbsolvingActionType>
+  <TroublePointsRemoved>5</TroublePointsRemoved>
+ </AbsolvingAction>
+<AbsolvingAction>
+  <AbsolvingActionType>MakingBed</AbsolvingActionType>
+  <TroublePointsRemoved>5</TroublePointsRemoved>
+ </AbsolvingAction>
+<AbsolvingAction>
+  <AbsolvingActionType>DoingHomework</AbsolvingActionType>
+  <TroublePointsRemoved>15</TroublePointsRemoved>
+ </AbsolvingAction>
+<AbsolvingAction>
+  <AbsolvingActionType>HelpingOthersWithHomework</AbsolvingActionType>
+  <TroublePointsRemoved>20</TroublePointsRemoved>
+ </AbsolvingAction>
+<AbsolvingAction>
+  <AbsolvingActionType>CookingGroupServingOfFood</AbsolvingActionType>
+  <TroublePointsRemoved>20</TroublePointsRemoved>
+ </AbsolvingAction>
+</Punishment>

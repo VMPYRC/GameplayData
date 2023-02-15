@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kConeAngle value="2.513274">
+      <!--The arc/cone's angle for finding a suitable spot for a sim to watch. Units: Radians. Valid range [0, Pi]. Initial GPE Default: 4(Pi)/5.-->
+    </kConeAngle>
+    <kWatchRouteDistances value="1.5, 5, 2.5">
+      <!--Range:  1.0 - Inf  Description: Min/Max/Preferred distances a sim will route away from the stand when they're watching.-->
+    </kWatchRouteDistances>
+    <kGetReadyTime value="5">
+      <!--Range:  1.0 - Inf  Description: How long the Get Ready phase lasts, right before the start. This should be short, as it puts sims in the get ready animation. No other sims can join during this time.-->
+    </kGetReadyTime>
+    <kContestResetTime value="120">
+      <!--Range:  1.0 - Inf  Description: How long after the contest ends until it is ready for a new one.-->
+    </kContestResetTime>
+    <kNumFestivalTicketsForWinning value="25">
+      <!--Range:  1 - Inf  Description: Number of festival tickets the winner gets.-->
+    </kNumFestivalTicketsForWinning>
+    <kNumFestivalTicketsForNotWinning value="5">
+      <!--Range:  1 - Inf  Description: Number of festival tickets the non winners get.-->
+    </kNumFestivalTicketsForNotWinning>
+    <kChanceForGermyBuff value="50">
+      <!--Range:  1.0 - Inf  Description: Chance for sims to get the germy buff if another sim in the contest has it.-->
+    </kChanceForGermyBuff>
+    <kMaxTimeBetweenApples value="15">
+      <!--Range:  1.0 - Inf  Description: Theoretical max time between apples. The actual time will almost always be quite a bit less, as it uses RandomChanceRamped(). See John W. for explanation.-->
+    </kMaxTimeBetweenApples>
+    <kMaxTimeBetweenApplesForUnluckyTraitSims value="30">
+      <!--Range:  1.0 - Inf  Description: Must be higher than kMaxTimeBetweenApples in order to be a penalty-->
+    </kMaxTimeBetweenApplesForUnluckyTraitSims>
+    <kNumApplesToWin value="5">
+      <!--Range:  1 - Inf  Description: How many apples it takes to win the contest.-->
+    </kNumApplesToWin>
+    <kPreContestTime value="30">
+      <!--Range:  1.0 - Inf  Description: How long in Sim minutes from the second sim joining a contest (i.e. routing is complete) until the contest starts. This time is used to allow other sims to join and wait for their routing to occur.-->
+    </kPreContestTime>
+    <kScoringMultiplierWhenContestIsStarting value="3">
+      <!--Range: 1.0 - Inf  Description: Autonomy scoring multiplier for the participate interaction, to encourage sims to join contests that are in the starting stage.-->
+    </kScoringMultiplierWhenContestIsStarting>
+    <kTimeToWaitForOthers value="30">
+      <!--Range:  1.0 - Inf  Description: How many sim minutes to wait for another sim to join the contest before giving up, when there is only one sim waiting.-->
+    </kTimeToWaitForOthers>
+  </Current_Tuning>
+</base>

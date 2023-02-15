@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinDistanceToView value=".5">
+      <!--Minimum Distance at which the sim would perform View Object interaction. Positive float.-->
+    </kMinDistanceToView>
+    <kMaxDistanceToView value="1">
+      <!--Maximum Distance at which the sim would perform View Object interaction. Positive float.-->
+    </kMaxDistanceToView>
+    <kLunarLightIntensity value="2, 0.5, 1, 1.5, 0, 1.5, 1, 0.5">
+      <!--Light intensity for mon phases: kFullMoon, kWaxingCrescent, kFirstQuarter, kWaxingGibbous, kNewMoon, kWaningGibbous, kThirdQuarter, kWaningCrescent,-->
+    </kLunarLightIntensity>
+  </Current_Tuning>
+</base>

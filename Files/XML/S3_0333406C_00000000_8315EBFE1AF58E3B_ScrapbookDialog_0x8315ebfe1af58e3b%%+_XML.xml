@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSharedMemoriesThresholds value="0, 1, 5, 10, 25, 50, 100, 200">
+      <!--Range:  int[]  Description:  Thermoeter tresholds to guide how fast it fills up-->
+    </kSharedMemoriesThresholds>
+    <kSharedMemoriesTresholdSoundHigh value="7">
+      <!--Range:  0+  Description:  Threshold index required for playing the high level sting-->
+    </kSharedMemoriesTresholdSoundHigh>
+    <kSharedMemoriesTresholdSoundMedium value="4">
+      <!--Range:  0+  Description:  Threshold index required for playing the medium level sting-->
+    </kSharedMemoriesTresholdSoundMedium>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHarvestableQualityRandomDistributionRange value="0.15" />
+    <kHarvestInteractionTuning>
+      <kInteractionSkillLevel value="0">
+        <!--The level at which the Sim unlocks this gardening interaction.-->
+      </kInteractionSkillLevel>
+      <kTimeMin value="3">
+        <!--The time a Sim of maximum skill will take to complete the gardening interaction.-->
+      </kTimeMin>
+      <kTimeMax value="20">
+        <!--The time a Sim of minimum skill will take to complete the gardening interaction.-->
+      </kTimeMax>
+      <kTimeBonusMinSkill value="0">
+        <!--The minimum skill a Sim must obtain to get bonuses on the interaction time.  Until the Sim has greater skill than this value, they will always take kTimeMax.-->
+      </kTimeBonusMinSkill>
+    </kHarvestInteractionTuning>
+    <kHarvestableQualityBoost value="0, 0.035, 0.075">
+      <!--Harvestable quality boost by growth performance.  Format: (Average growth performance, Good growth performance, Great growth performance).-->
+    </kHarvestableQualityBoost>
+    <kCostMultiplierForPlantables value="0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.5, 2, 2.5, 3, 4">
+      <!--Cost multiplier for harvestables.  Format: (Horrifying, Putrid, Foul, Bad, Neutral, Nice, VeryNice, Great, Excellent, Outstanding, Perfect).-->
+    </kCostMultiplierForPlantables>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kHarvestableQualityBaseImprovement value="0.091">
+      <!--deprecated on: 7/29/2007 2:11:13 PM-->
+    </kHarvestableQualityBaseImprovement>
+    <kHarvestableQualityPerformanceMultiplierMin value="-2">
+      <!--deprecated on: 7/29/2007 2:11:13 PM-->
+    </kHarvestableQualityPerformanceMultiplierMin>
+    <kHarvestableQualityPerformanceMultiplierMax value="2">
+      <!--deprecated on: 7/29/2007 2:11:13 PM-->
+    </kHarvestableQualityPerformanceMultiplierMax>
+    <kHarvestableQualityPerformanceMultiplierMinToMaxInterpolationSpeed value="2">
+      <!--deprecated on: 7/29/2007 2:11:13 PM-->
+    </kHarvestableQualityPerformanceMultiplierMinToMaxInterpolationSpeed>
+    <kHarvestableQualityPerformanceMultiplierAdditional value="0.01">
+      <!--deprecated on: 7/29/2007 2:11:13 PM-->
+    </kHarvestableQualityPerformanceMultiplierAdditional>
+    <kHarvestableDropTimeMin value="2">
+      <!--deprecated on: 2/5/2008 10:05:47 AM-->
+    </kHarvestableDropTimeMin>
+    <kHarvestableDropTimeMax value="5">
+      <!--deprecated on: 2/5/2008 10:05:47 AM-->
+    </kHarvestableDropTimeMax>
+    <kHarvestableDropQualityLoss value="0.1">
+      <!--deprecated on: 2/5/2008 10:05:47 AM-->
+    </kHarvestableDropQualityLoss>
+    <kHarvestStateDurationMin value="2">
+      <!--In Sim Days-->
+      <!--deprecated on: 2/17/2008 9:38:56 PM-->
+    </kHarvestStateDurationMin>
+    <kHarvestStateDurationMax value="5">
+      <!--In Sim Days-->
+      <!--deprecated on: 2/17/2008 9:38:56 PM-->
+    </kHarvestStateDurationMax>
+    <kLifetimeHarvestables value="20">
+      <!--Number of harvestables that a harvestable plant will produce in its lifetime (after which point it will no longer produce any harvestables).-->
+      <!--deprecated on: 2/17/2008 9:38:56 PM-->
+    </kLifetimeHarvestables>
+  </Deprecated_Tuning>
+</base>

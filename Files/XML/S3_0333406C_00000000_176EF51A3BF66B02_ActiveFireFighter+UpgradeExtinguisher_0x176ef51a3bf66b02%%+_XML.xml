@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <UpgradeTime value="160">
+      <!--The amount of time it takes to do the upgrade in minutes-->
+    </UpgradeTime>
+    <SkillGainRate value="1760">
+      <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+    </SkillGainRate>
+    <kUpgradeGlow value="Weak">
+      <!--Glow on progress meter during upgrade. (None, Weak, Strong)-->
+    </kUpgradeGlow>
+  </Current_Tuning>
+</base>

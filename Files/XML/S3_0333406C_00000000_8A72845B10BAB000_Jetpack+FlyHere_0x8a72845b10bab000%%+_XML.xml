@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFailChance value="35, 30, 25, 20, 15, 10, 7, 3, 1, 0, 0">
+      <!--Percent chance of crash landing, by future skill level-->
+    </kFailChance>
+    <kSuperCoolChance value="0, 0, 0, 0, 0, 0, 20, 40, 55, 70, 85">
+      <!--Percent chance of doing a super-cool landing, by future skill level-->
+    </kSuperCoolChance>
+    <kAdditionalFallChanceTraits value="AntiTV, Unlucky, Clumsy">
+      <!--Increase kFallChance if the Sim has any of these traits-->
+    </kAdditionalFallChanceTraits>
+    <kAdditionalFallChanceAmounts value="10, 10, 10">
+      <!--Percent added to kFallChance if the Sim has any of the kAdditionalFallChanceTraits. (0-100)-->
+    </kAdditionalFallChanceAmounts>
+  </Current_Tuning>
+</base>

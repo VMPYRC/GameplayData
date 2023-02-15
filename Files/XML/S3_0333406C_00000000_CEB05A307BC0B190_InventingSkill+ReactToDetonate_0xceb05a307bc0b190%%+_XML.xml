@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLtrIncrease value="-2">
+      <!--Increase in LTR Due to detonation-->
+    </kLtrIncrease>
+    <kStcFromDetonate value="Steamed">
+      <!--Target STC due to detonation.  Must be Valid STC enum value-->
+    </kStcFromDetonate>
+    <kStcValueFromDetonate value="-50">
+      <!--Target STC value due to detonation-->
+    </kStcValueFromDetonate>
+    <kMinRunAwayRadius value="5">
+      <!--Minimum Distance sim should run away from the object being detonated.-->
+    </kMinRunAwayRadius>
+    <kMaxRunAwayRadius value="11">
+      <!--Maximum Distance sim should run away from the object being detonated.-->
+    </kMaxRunAwayRadius>
+  </Current_Tuning>
+</base>

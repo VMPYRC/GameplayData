@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <sLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="0">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <DefaultInteractionLookAtThreshold value="45">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </sLookAtTuning>
+    <sMaxCatchRange value="3">
+      <!--When catching an insect we do a 'route to radial range' instead of to a single point (to minimize the chance of route failure, e.g. if insect cluster happens to spawn in between two bushes that have footprints).  We *try* to route to the exact position of the insect cluster but if it's blocked we'll actually route some distance away.  This tuning var dictates how far away (at most) we'll try (in tiles).  Tuning this too small will increase the chance of route failure.  Tuning this too large will make the 'Catch' interaction look weird in situations where the insect cluster is really blocked significantly on all sides (i.e. sim will look like they're picking up an insect that spawned from out of nowhere despite the insect cluster being *way over there*!).  We should also consider the size of outdoor objects (e.g. large trees/bushes, dumpsters?) when tuning this.  Eyeballing the insect cluster vfx, we probably don't want this larger than 3 or 4 (unless we're ok with things looking bad in the name of functionality).-->
+    </sMaxCatchRange>
+  </Current_Tuning>
+</base>

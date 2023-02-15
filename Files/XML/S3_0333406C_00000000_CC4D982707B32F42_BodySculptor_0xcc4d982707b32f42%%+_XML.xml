@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPowerLevelPercentages value="0.2, 0.5, 1">
+      <!--List of three 0-1 decimals: the percentage the device will move the user towards the chosen extreme at each power level (low, medium, and high.)-->
+    </kPowerLevelPercentages>
+    <kRechargeTimes value="60, 90, 120">
+      <!--List of three ints: the number of minutes the device will take to recharge after being used at each power level (low, medium, and high.)-->
+    </kRechargeTimes>
+    <kRunTimes value="3, 6, 9">
+      <!--List of three ints: the number of minutes the device will take to change the Sim at each power level (low, medium, and high.)-->
+    </kRunTimes>
+    <kChancesOfFailure value="0.05, 0.1, 0.2">
+      <!--List of three 0-1 decimals: the chance the device will fail at each power level (low, medium, and high.)-->
+    </kChancesOfFailure>
+    <kSocialFailureStc value="Awkward">
+      <!--STC to use when one Sim gets another to use the device and it fails.-->
+    </kSocialFailureStc>
+    <kSocialFailureStcDelta value="-25">
+      <!--STC delta to use when one Sim gets another to use the device and it fails.-->
+    </kSocialFailureStcDelta>
+    <kSocialFailureLtrDelta value="-15">
+      <!--LTR delta to use when one Sim gets another to use the device and it fails.-->
+    </kSocialFailureLtrDelta>
+  </Current_Tuning>
+</base>

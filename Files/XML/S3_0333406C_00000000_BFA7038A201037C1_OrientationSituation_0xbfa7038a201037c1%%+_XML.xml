@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDurationOfOrientation value="8">
+      <!--Duration of Orientation in Sim Hours-->
+    </kDurationOfOrientation>
+    <kScheduleHour value="12">
+      <!--Hour Orientation will start-->
+    </kScheduleHour>
+    <kOrientationLotId value="6765814354669559648">
+      <!--Lotid For the Quad. This is pulled out of worldbuilder-->
+    </kOrientationLotId>
+    <kNumberOfProfessorsToFillLot value="2">
+      <!--Number of Professors to force show up if not enough sims show up to the lot. Professors Take Priority to show up before students.-->
+    </kNumberOfProfessorsToFillLot>
+    <kNumberOfStudentsToFillLot value="5">
+      <!--Number of Students to force show up if not enough sims show up to the lot-->
+    </kNumberOfStudentsToFillLot>
+    <kSummonMascotViaService value="False">
+      <!--Summon Mascot Service to Lot.-->
+    </kSummonMascotViaService>
+    <kDurationAfterOrientationTillCleanup value="6">
+      <!--Duration after Orientation ends that the orientation objects will be cleaned up.-->
+    </kDurationAfterOrientationTillCleanup>
+  </Current_Tuning>
+</base>

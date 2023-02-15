@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFlyMoveDefaultSpeed value="30" />
+    <kFlyMoveBoostSpeed value="60" />
+    <kFlyZoomDefaultSpeed value="30" />
+    <kFlyZoomBoostSpeed value="60" />
+    <kFlyTurnDefaultSpeed value="45" />
+    <kFlyTurnBoostSpeed value="90" />
+    <kFlyMinZoom value="0" />
+    <kFlyMaxZoom value="192" />
+    <kFlyConstantHeight value="False" />
+    <kMainDecayTrans value="0.015">
+      <!--This value controls the exponential decay applied to movement velocity after user input stops.  It should be between 0 and 1.  For example a value of 0.2 means that after one second, the speed will be at 20% of its starting value.-->
+    </kMainDecayTrans>
+    <kMainDecayRot value="0.003">
+      <!--This value controls the exponential decay applied to rotation velocity after user input stops.  It should be between 0 and 1.  For example a value of 0.2 means that after one second, the speed will be at 20% of its starting value.-->
+    </kMainDecayRot>
+    <kMainDecayZoom value="0.05">
+      <!--This value controls the exponential decay applied to zoom velocity after user input stops.  It should be between 0 and 1.  For example a value of 0.2 means that after one second, the speed will be at 20% of its starting value.-->
+    </kMainDecayZoom>
+    <kMainVelTransScale value="50">
+      <!--The movement velocity is multiplied by this amount when at the farthest zoom level-->
+    </kMainVelTransScale>
+    <kMainVelZoomScale value="900">
+      <!--The zoom velocity is multiplied by this amount when at the farthest zoom level-->
+    </kMainVelZoomScale>
+    <kMainTargetHeight value=".92" />
+    <kMainMinPosHeight value=".5" />
+    <kMainAllowLookAtSky value="True" />
+    <kMainLerpFromSkyDuration value="0.5">
+      <!--This value controls the length of the lerp from the sky target back to the ground target when the user zooms while looking at the sky-->
+    </kMainLerpFromSkyDuration>
+    <kTargetMoveDefaultSpeed value="14" />
+    <kTargetMoveBoostSpeed value="-12">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kTargetMoveBoostSpeed>
+    <kTargetZoomDefaultSpeed value="30" />
+    <kTargetZoomBoostSpeed value="60">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kTargetZoomBoostSpeed>
+    <kTargetTurnDefaultSpeed value="45" />
+    <kTargetTurnBoostSpeed value="90">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kTargetTurnBoostSpeed>
+    <kTargetPitchInPlaceSpeed value="40" />
+    <kTargetDoZoomPitching value="False" />
+    <kTargetMinZoom value="2" />
+    <kTargetMaxZoom value="192" />
+    <kTargetMinAltitude value="-85" />
+    <kTargetMaxAltitude value="85" />
+    <kTargetTargetHeight value="1.75" />
+    <kTargetMinPosHeight value="0.5" />
+    <kTargetZoomRadiusAtZeroPitch value="-1" />
+    <kTargetPitchInPlaceAngle value="0" />
+    <kMainFOVDegrees value="45" />
+    <kMainZoom1 value="3.125">
+      <!--SunsetValley: This defines the minimum zoom distance-->
+    </kMainZoom1>
+    <kMainZoom2 value="10" />
+    <kMainZoom3 value="110">
+      <!--This defines be the maximum zoom distance before going to map view-->
+    </kMainZoom3>
+    <kMainZoom4 value="750">
+      <!--This defines be the map view zoom distance-->
+    </kMainZoom4>
+    <kMainPitch1 value="0">
+      <!--This is the maximum allowable pitch (how far up the camera is looking) before switching to look at sky mode at the minimum zoom distance-->
+    </kMainPitch1>
+    <kMainPitch2 value="-13" />
+    <kMainPitch3 value="-20">
+      <!--This is the maximum allowable pitch (how far up the camera is looking) before switching to look at sky mode at the maximum regular zoom distance-->
+    </kMainPitch3>
+    <kMainPitch4 value="-55">
+      <!--This is the maximum allowable pitch (how far up the camera is looking) before switching to look at sky mode at the map view zoom distance-->
+    </kMainPitch4>
+    <kMainMinTetherDistanceSim value="20">
+      <!--The tether distance for sims at the min zoom level-->
+    </kMainMinTetherDistanceSim>
+    <kMainMaxTetherDistanceSim value="300">
+      <!--The tether distance for sims at the max zoom level-->
+    </kMainMaxTetherDistanceSim>
+    <kMainMinTetherDistanceLot value="2">
+      <!--The tether distance for lots at the min zoom level-->
+    </kMainMinTetherDistanceLot>
+    <kMainMaxTetherDistanceLot value="2">
+      <!--The tether distance for lots at the max zoom level-->
+    </kMainMaxTetherDistanceLot>
+    <kMainTetherSlowDownDistanceSim value="2">
+      <!--How far from the tether distance does the camera start slowing down (when tethered to sim)-->
+    </kMainTetherSlowDownDistanceSim>
+    <kMainTetherSlowDownDistanceLot value="2">
+      <!--How far from the tether distance does the camera start slowing down (when tethered to lot)-->
+    </kMainTetherSlowDownDistanceLot>
+    <kMainHeightSpringConstant value="15">
+      <!--Spring constant for the spring used to smooth out camera's vertical motion-->
+    </kMainHeightSpringConstant>
+    <kMainHeightDampingConstant value="10">
+      <!--Damping constant for the spring used to smooth out camera's vertical motion-->
+    </kMainHeightDampingConstant>
+    <kMainMaxAngleUp1 value="0">
+      <!--This defines how far up the camera can look at the minimum zoom distance-->
+    </kMainMaxAngleUp1>
+    <kMainMaxAngleUp2 value="0" />
+    <kMainMaxAngleUp3 value="0">
+      <!--This defines how far up the camera can look at the maximum regular zoom distance-->
+    </kMainMaxAngleUp3>
+    <kMainMaxAngleUp4 value="-55">
+      <!--This defines how far up the camera can look at the map view zoom distance-->
+    </kMainMaxAngleUp4>
+    <kMainMaxAngleDown1 value="-85">
+      <!--This defines how far down the camera can look at the minimum zoom distance-->
+    </kMainMaxAngleDown1>
+    <kMainMaxAngleDown2 value="-85" />
+    <kMainMaxAngleDown3 value="-85">
+      <!--This defines how far down the camera can look at the maximum regular zoom distance-->
+    </kMainMaxAngleDown3>
+    <kMainMaxAngleDown4 value="-55">
+      <!--This defines how far down the camera can look at the map view zoom distance-->
+    </kMainMaxAngleDown4>
+    <kMainHeightAtWhichVisibilityUpdatesStop value="200">
+      <!--Threshold for distance between the camera position and the terrain height at camera target. Once this is crossed, the visibility updates stop. Positive float.-->
+    </kMainHeightAtWhichVisibilityUpdatesStop>
+    <kMainLerpDurationToActiveHousehold value="5">
+      <!--Duration for camera lerping to the Active household (whenever we change the active household). Small, positive float value.-->
+    </kMainLerpDurationToActiveHousehold>
+    <kMainLerpDurationForBuildBuyLotVisibility value="2">
+      <!--Duration for camera lerping to the new Active Lot (i.e. the new visible lot) when someone enters the build/buy mode. Small, positive float value.-->
+    </kMainLerpDurationForBuildBuyLotVisibility>
+    <kMainMinZoomStopDistance value="1.5">
+      <!--How far from the min zoom limit does the zoom speed start slowing to a stop-->
+    </kMainMinZoomStopDistance>
+    <kMainMaxZoomStopDistance value="50">
+      <!--How far from the max zoom limit does the zoom speed start slowing to a stop-->
+    </kMainMaxZoomStopDistance>
+    <kSimViewZoom value="17" />
+    <kSimViewPitch value="-35" />
+    <kLotViewZoom value="50">
+      <!--This is for the active viewable lot's view. This need not be the active household's lot.-->
+    </kLotViewZoom>
+    <kLotViewPitch value="-35">
+      <!--This is for the active viewable lot's view. This need not be the active household's lot.-->
+    </kLotViewPitch>
+    <kMainRoutableEdgeStopTime value="0.4">
+      <!--Controls the amount of time the camera takes to stop at the edge of the routable region-->
+    </kMainRoutableEdgeStopTime>
+    <kMainKeyboardMoveDefaultSpeed value="3.5">
+      <!--The scrolling speed for the keyboard-->
+    </kMainKeyboardMoveDefaultSpeed>
+    <kMainKeyboardMoveBoostSpeed value="10">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainKeyboardMoveBoostSpeed>
+    <kMainMouseMoveDefaultSpeed value="0.013">
+      <!--The scrolling speed for the mouse-->
+    </kMainMouseMoveDefaultSpeed>
+    <kMainMouseMoveBoostSpeed value="0.05">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainMouseMoveBoostSpeed>
+    <kMainControllerMoveDefaultSpeed value="3.5">
+      <!--The scrolling speed for the controller-->
+    </kMainControllerMoveDefaultSpeed>
+    <kMainControllerMoveBoostSpeed value="5">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainControllerMoveBoostSpeed>
+    <kMainUIMoveDefaultSpeed value="3.5">
+      <!--The scrolling speed for the UI-->
+    </kMainUIMoveDefaultSpeed>
+    <kMainUIMoveBoostSpeed value="10">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainUIMoveBoostSpeed>
+    <kMainKeyboardPitchDefaultSpeed value="50">
+      <!--How fast the camera rotates up and down using keyboard-->
+    </kMainKeyboardPitchDefaultSpeed>
+    <kMainKeyboardPitchBoostSpeed value="100">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainKeyboardPitchBoostSpeed>
+    <kMainMousePitchDefaultSpeed value="0.04">
+      <!--How fast the camera rotates up and down using mouse-->
+    </kMainMousePitchDefaultSpeed>
+    <kMainMousePitchBoostSpeed value="0.1">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainMousePitchBoostSpeed>
+    <kMainControllerPitchDefaultSpeed value="50">
+      <!--How fast the camera rotates up and down using controller-->
+    </kMainControllerPitchDefaultSpeed>
+    <kMainControllerPitchBoostSpeed value="100">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainControllerPitchBoostSpeed>
+    <kMainUIPitchDefaultSpeed value="50">
+      <!--How fast the camera rotates up and down using UI-->
+    </kMainUIPitchDefaultSpeed>
+    <kMainUIPitchBoostSpeed value="100">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainUIPitchBoostSpeed>
+    <kMainKeyboardYawDefaultSpeed value="70">
+      <!--How fast the camera rotates side to side using keyboard-->
+    </kMainKeyboardYawDefaultSpeed>
+    <kMainKeyboardYawBoostSpeed value="140">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainKeyboardYawBoostSpeed>
+    <kMainMouseYawDefaultSpeed value="0.09">
+      <!--How fast the camera rotates side to side using mouse-->
+    </kMainMouseYawDefaultSpeed>
+    <kMainMouseYawBoostSpeed value="0.2">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainMouseYawBoostSpeed>
+    <kMainControllerYawDefaultSpeed value="70">
+      <!--How fast the camera rotates side to side using controller-->
+    </kMainControllerYawDefaultSpeed>
+    <kMainControllerYawBoostSpeed value="140">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainControllerYawBoostSpeed>
+    <kMainUIYawDefaultSpeed value="70">
+      <!--How fast the camera rotates side to side using UI-->
+    </kMainUIYawDefaultSpeed>
+    <kMainUIYawBoostSpeed value="140">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainUIYawBoostSpeed>
+    <kSimViewButtonFollowsSim value="True">
+      <!--Determines whether the Sim view button in the HUD should follow the currently selected sim (irrespective of where the sim is in a rabbithole or regular lot.-->
+    </kSimViewButtonFollowsSim>
+    <kLotViewButtonFollowsSim value="False">
+      <!--Determines whether the lot view mode should follow the currently selected sim-->
+    </kLotViewButtonFollowsSim>
+    <kMainDefaultBuildBuyZoom value="30">
+      <!--Default zoom level when entering build/buy mode.-->
+    </kMainDefaultBuildBuyZoom>
+    <kMainDefaultBuildBuyPitchDegrees value="-45">
+      <!--Default pitch when entering build/buy mode.-->
+    </kMainDefaultBuildBuyPitchDegrees>
+    <kMainLongDistanceLerpMinDistance value="80">
+      <!--The minimum lerp distance needed to activate the long distance lerp.-->
+    </kMainLongDistanceLerpMinDistance>
+    <kMainLongDistanceLerpTimeAtMinDistance value="3.5">
+      <!--Duration (in seconds) of a long distance lerp covering minDistance.-->
+    </kMainLongDistanceLerpTimeAtMinDistance>
+    <kMainLongDistanceLerpTimeIncreasePerMeter value="0.002">
+      <!--Seconds by which the long distance lerp duration increases for each meter beyond minDistance.-->
+    </kMainLongDistanceLerpTimeIncreasePerMeter>
+    <kMainLongDistanceLerpMaxHeight value="500">
+      <!--Maximum height that can be achieved during long distance lerp.-->
+    </kMainLongDistanceLerpMaxHeight>
+    <kMainLongDistanceLerpEaseInExponentUp value="5">
+      <!--Controls the ease-in/out of the height during the period of ascent.  > 1: ease-out (camera ascends rapidly then flattens out); = 1: linear; < 1: ease-in (camera ascends gradually, then picks up speed)-->
+    </kMainLongDistanceLerpEaseInExponentUp>
+    <kMainLongDistanceLerpEaseInExponentDown value="2">
+      <!--Controls the ease-in/out of the height during the period of descent.  > 1: ease-out (camera descends rapidly then flattens out); = 1: linear; < 1: ease-in (camera descends gradually, then picks up speed)-->
+    </kMainLongDistanceLerpEaseInExponentDown>
+    <kMainKeyboardZoomInDefaultSpeed value="0.8">
+      <!--The zoom in speed for the keyboard-->
+    </kMainKeyboardZoomInDefaultSpeed>
+    <kMainKeyboardZoomInBoostSpeed value="8">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainKeyboardZoomInBoostSpeed>
+    <kMainMouseZoomInDefaultSpeed value="0.6">
+      <!--The zoom in speed for the mouse-->
+    </kMainMouseZoomInDefaultSpeed>
+    <kMainMouseZoomInBoostSpeed value="4">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainMouseZoomInBoostSpeed>
+    <kMainControllerZoomInDefaultSpeed value="1.5">
+      <!--The zoom in speed for the controller-->
+    </kMainControllerZoomInDefaultSpeed>
+    <kMainControllerZoomInBoostSpeed value="4">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainControllerZoomInBoostSpeed>
+    <kMainUIZoomInDefaultSpeed value="0.6">
+      <!--The zoom in speed for the UI-->
+    </kMainUIZoomInDefaultSpeed>
+    <kMainUIZoomInBoostSpeed value="4">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainUIZoomInBoostSpeed>
+    <kMainKeyboardZoomOutDefaultSpeed value="0.8">
+      <!--The zoom out speed for the keyboard-->
+    </kMainKeyboardZoomOutDefaultSpeed>
+    <kMainKeyboardZoomOutBoostSpeed value="8">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainKeyboardZoomOutBoostSpeed>
+    <kMainMouseZoomOutDefaultSpeed value="0.8">
+      <!--The zoom out speed for the mouse-->
+    </kMainMouseZoomOutDefaultSpeed>
+    <kMainMouseZoomOutBoostSpeed value="4">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainMouseZoomOutBoostSpeed>
+    <kMainControllerZoomOutDefaultSpeed value="1.5">
+      <!--The zoom out speed for the controller-->
+    </kMainControllerZoomOutDefaultSpeed>
+    <kMainControllerZoomOutBoostSpeed value="4">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainControllerZoomOutBoostSpeed>
+    <kMainUIZoomOutDefaultSpeed value="0.8">
+      <!--The zoom out speed for the UI-->
+    </kMainUIZoomOutDefaultSpeed>
+    <kMainUIZoomOutBoostSpeed value="4">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+    </kMainUIZoomOutBoostSpeed>
+    <kMainLongDistanceHeightAtMinDistance value="200">
+      <!--Height reached by a long distance lerp covering minDistance.-->
+    </kMainLongDistanceHeightAtMinDistance>
+    <kMainLongDistanceLerpHeightIncreasePerMeter value="1">
+      <!--Meters by which the long distance lerp height increases for each meter beyond minDistance.-->
+    </kMainLongDistanceLerpHeightIncreasePerMeter>
+    <kMainLongDistanceLerpVelocityUp value="350">
+      <!--Vertical velocity (m/s) of long distance lerp during ascent.-->
+    </kMainLongDistanceLerpVelocityUp>
+    <kMainLongDistanceLerpVelocityDown value="100">
+      <!--Vertical velocity (m/s) of long distance lerp during descent.-->
+    </kMainLongDistanceLerpVelocityDown>
+    <kHouseViewZoom value="17">
+      <!--This is for the active household's view.-->
+    </kHouseViewZoom>
+    <kHouseViewPitch value="-35">
+      <!--This is for the active household's view.-->
+    </kHouseViewPitch>
+    <kHouseViewButtonFollowsSim value="False">
+      <!--Determines whether the house view button in the HUD should follow the currently selected sim-->
+    </kHouseViewButtonFollowsSim>
+    <kZoomAfterExitFromMapView value="30">
+      <!--Zoom after the player exits from Map View.-->
+    </kZoomAfterExitFromMapView>
+    <kPitchAfterExitFromMapView value="-35">
+      <!--Pitch after the player exits from Map View.-->
+    </kPitchAfterExitFromMapView>
+    <kActiveLotEvaluationPeriod value="60">
+      <!--Time in simulation ticks after which we re-evaluate the active lot even if nothing changed-->
+    </kActiveLotEvaluationPeriod>
+    <kMainHeightSpringMinClamp value=".3">
+      <!--Minimum velocity clamp for vertical ascent/descent (m/s).  Used to limit slow vertical creep of the camera when it nears its target.-->
+    </kMainHeightSpringMinClamp>
+    <kMainTargetToPositionHeightRatioTerrain value="0.6">
+      <!--Ratio used for taking the weighted average between the camera target and position height, when the position is over world terrain.  If this average height is less than the terrain height
+underneath the camera position, the position and target are shifted up by the difference.  Must be between 0 and 1.  If 0, this is the old behavior
+where the target's height is unaffected by the terrain under the position.  If 1, the target's height can never be less than the terrain height under
+the position.-->
+    </kMainTargetToPositionHeightRatioTerrain>
+    <kMainTargetToPositionHeightRatioLot value="1">
+      <!--Ratio used for taking the weighted average between the camera target and position height, when the position is over a lot.  If this average height is less than the terrain height
+underneath the camera position, the position and target are shifted up by the difference.  Must be between 0 and 1.  If 0, this is the old behavior
+where the target's height is unaffected by the terrain under the position.  If 1, the target's height can never be less than the terrain height under
+the position.-->
+    </kMainTargetToPositionHeightRatioLot>
+    <kDefaultLerpDuration value="1">
+      <!--Default duration supplied to our lerps. Positive float. Initial GPE default: 1f.-->
+    </kDefaultLerpDuration>
+    <kLotBoundaryTolerance value="5">
+      <!--Lot boundary tolerance to use when focusing on a lot for build/buy.-->
+    </kLotBoundaryTolerance>
+    <kMainHeightSpringConstantFollow value="40">
+      <!--Spring constant for the spring used to smooth out camera's vertical motion when in follow mode-->
+    </kMainHeightSpringConstantFollow>
+    <kMainHeightDampingConstantFollow value="10">
+      <!--Damping constant for the spring used to smooth out camera's vertical motion when in follow mode-->
+    </kMainHeightDampingConstantFollow>
+    <kMainZoom1China value="3.125">
+      <!--China: This defines the minimum zoom distance-->
+    </kMainZoom1China>
+    <kMainZoom2China value="10" />
+    <kMainZoom3China value="110">
+      <!--China: This defines be the maximum zoom distance before going to map view-->
+    </kMainZoom3China>
+    <kMainZoom4China value="750">
+      <!--China: This defines be the map view zoom distance-->
+    </kMainZoom4China>
+    <kMainZoom1Egypt value="3.125">
+      <!--Egypt: This defines the minimum zoom distance-->
+    </kMainZoom1Egypt>
+    <kMainZoom2Egypt value="10" />
+    <kMainZoom3Egypt value="110">
+      <!--Egypt: This defines be the maximum zoom distance before going to map view-->
+    </kMainZoom3Egypt>
+    <kMainZoom4Egypt value="750">
+      <!--Egypt: This defines be the map view zoom distance-->
+    </kMainZoom4Egypt>
+    <kMainZoom1France value="3.125">
+      <!--France: This defines the minimum zoom distance-->
+    </kMainZoom1France>
+    <kMainZoom2France value="10" />
+    <kMainZoom3France value="110">
+      <!--France: This defines be the maximum zoom distance before going to map view-->
+    </kMainZoom3France>
+    <kMainZoom4France value="750">
+      <!--France: This defines be the map view zoom distance-->
+    </kMainZoom4France>
+    <kEditInGameZoom1 value="2.5">
+      <!--Edit in game: This defines the minimum zoom distance-->
+    </kEditInGameZoom1>
+    <kEditInGameZoom2 value="7" />
+    <kEditInGameZoom3 value="900">
+      <!--This defines be the maximum zoom distance before going to map view for edit in game-->
+    </kEditInGameZoom3>
+    <kEditInGameZoom4 value="950">
+      <!--This defines be the map view zoom distance for edit in game-->
+    </kEditInGameZoom4>
+    <kMainZoom1Island value="3.125">
+      <!--Island: This defines the minimum zoom distance-->
+    </kMainZoom1Island>
+    <kMainZoom2Island value="10" />
+    <kMainZoom3Island value="110">
+      <!--Island: This defines be the maximum zoom distance before going to map view-->
+    </kMainZoom3Island>
+    <kMainZoom4Island value="1000">
+      <!--Island: This defines be the map view zoom distance-->
+    </kMainZoom4Island>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kMoveDefaultSpeed value="14">
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kMoveDefaultSpeed>
+    <kMoveBoostSpeed value="-12">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kMoveBoostSpeed>
+    <kZoomDefaultSpeed value="30">
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kZoomDefaultSpeed>
+    <kZoomBoostSpeed value="60">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kZoomBoostSpeed>
+    <kTurnDefaultSpeed value="45">
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kTurnDefaultSpeed>
+    <kTurnBoostSpeed value="90">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kTurnBoostSpeed>
+    <kPitchInPlaceSpeed value="40">
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kPitchInPlaceSpeed>
+    <kDoZoomPitching value="False">
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kDoZoomPitching>
+    <kMinZoom value=".5">
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kMinZoom>
+    <kMaxZoom value="2500">
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kMaxZoom>
+    <kMinAltitude value="-85">
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kMinAltitude>
+    <kMaxAltitude value="85">
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kMaxAltitude>
+    <kTargetHeight value="1.75">
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kTargetHeight>
+    <kMinPosHeight value="0.5">
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kMinPosHeight>
+    <kZoomRadiusAtZeroPitch value="-1">
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kZoomRadiusAtZeroPitch>
+    <kPitchInPlaceAngle value="0">
+      <!--deprecated on: 10/4/2007 4:25:00 PM-->
+    </kPitchInPlaceAngle>
+    <kMainMinPitch value="-85">
+      <!--deprecated on: 10/22/2007 6:08:21 PM-->
+    </kMainMinPitch>
+    <kMainMaxPitch value="85">
+      <!--deprecated on: 10/22/2007 6:08:21 PM-->
+    </kMainMaxPitch>
+    <kMainMaxStopTimeTrans value="0.5">
+      <!--The maximum amount of time within which camera translation must stop-->
+      <!--deprecated on: 11/1/2007 4:33:15 PM-->
+    </kMainMaxStopTimeTrans>
+    <kMainMaxStopTimeRot value="0.3">
+      <!--The maximum amount of time within which camera rotation must stop-->
+      <!--deprecated on: 11/1/2007 4:33:15 PM-->
+    </kMainMaxStopTimeRot>
+    <kMainMaxStopTimeZoom value="0.75">
+      <!--The maximum amount of time within which camera zoom must stop-->
+      <!--deprecated on: 11/1/2007 4:33:15 PM-->
+    </kMainMaxStopTimeZoom>
+    <kMainMinZoom value="2.5">
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainMinZoom>
+    <kMainMaxZoom value="350">
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainMaxZoom>
+    <kMainZoom0 value="-10">
+      <!--These values define six control points for the pitch curve spline (the first and last points define tangents - the values in the middle are actual points on the curve).-->
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainZoom0>
+    <kMainZoom5 value="400">
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainZoom5>
+    <kMainPitch0 value="0">
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainPitch0>
+    <kMainPitch5 value="-50">
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainPitch5>
+    <kMainPitchMaxAbsolute0 value="35">
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainPitchMaxAbsolute0>
+    <kMainPitchMaxAbsolute1 value="35">
+      <!--This should be the absolute maximum allowable pitch at the minimum zoom distance-->
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainPitchMaxAbsolute1>
+    <kMainPitchMaxAbsolute2 value="25">
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainPitchMaxAbsolute2>
+    <kMainPitchMaxAbsolute3 value="20">
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainPitchMaxAbsolute3>
+    <kMainPitchMaxAbsolute4 value="15">
+      <!--This should be the absolute maximum allowable pitch at the maximum zoom distance-->
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainPitchMaxAbsolute4>
+    <kMainPitchMaxAbsolute5 value="15">
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainPitchMaxAbsolute5>
+    <kMainPitchMinAbsolute0 value="-85">
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainPitchMinAbsolute0>
+    <kMainPitchMinAbsolute1 value="-85">
+      <!--This should be the absolute minimum allowable pitch at the minimum zoom distance-->
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainPitchMinAbsolute1>
+    <kMainPitchMinAbsolute2 value="-85">
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainPitchMinAbsolute2>
+    <kMainPitchMinAbsolute3 value="-85">
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainPitchMinAbsolute3>
+    <kMainPitchMinAbsolute4 value="-85">
+      <!--This should be the absolute minimum allowable pitch at the maximum zoom distance-->
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainPitchMinAbsolute4>
+    <kMainPitchMinAbsolute5 value="-85">
+      <!--deprecated on: 11/2/2007 9:55:06 AM-->
+    </kMainPitchMinAbsolute5>
+    <kMainTurnDefaultSpeed value="3">
+      <!--deprecated on: 2/18/2008 10:05:30 AM-->
+    </kMainTurnDefaultSpeed>
+    <kMainTurnBoostSpeed value="10">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+      <!--deprecated on: 2/18/2008 10:05:30 AM-->
+    </kMainTurnBoostSpeed>
+    <kMainMoveDefaultSpeed value="2.5">
+      <!--deprecated on: 3/17/2008 9:59:59 AM-->
+    </kMainMoveDefaultSpeed>
+    <kMainMoveBoostSpeed value="5">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+      <!--deprecated on: 3/17/2008 9:59:59 AM-->
+    </kMainMoveBoostSpeed>
+    <kMainZoomDefaultSpeed value="1.5">
+      <!--deprecated on: 3/17/2008 9:59:59 AM-->
+    </kMainZoomDefaultSpeed>
+    <kMainZoomBoostSpeed value="4">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+      <!--deprecated on: 3/17/2008 9:59:59 AM-->
+    </kMainZoomBoostSpeed>
+    <kMainPitchDefaultSpeed value="3">
+      <!--How fast the camera rotates up and down-->
+      <!--deprecated on: 3/17/2008 9:59:59 AM-->
+    </kMainPitchDefaultSpeed>
+    <kMainPitchBoostSpeed value="10">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+      <!--deprecated on: 3/17/2008 9:59:59 AM-->
+    </kMainPitchBoostSpeed>
+    <kMainYawDefaultSpeed value="5">
+      <!--How fast the camera rotates side to side-->
+      <!--deprecated on: 3/17/2008 9:59:59 AM-->
+    </kMainYawDefaultSpeed>
+    <kMainYawBoostSpeed value="20">
+      <!--This value is added to default when shift is held down to get the speed when shift is held down-->
+      <!--deprecated on: 3/17/2008 9:59:59 AM-->
+    </kMainYawBoostSpeed>
+    <kMainKeyboardScale value="2">
+      <!--Scale applied to all keyboard camera input-->
+      <!--deprecated on: 3/17/2008 9:59:59 AM-->
+    </kMainKeyboardScale>
+    <kMainControllerScale value="1">
+      <!--Scale applied to all controller camera input-->
+      <!--deprecated on: 3/17/2008 9:59:59 AM-->
+    </kMainControllerScale>
+    <kMainMouseScale value="0.01">
+      <!--Scale applied to all mouse camera input-->
+      <!--deprecated on: 3/17/2008 9:59:59 AM-->
+    </kMainMouseScale>
+    <kMainUIScale value="1">
+      <!--Scale applied to all UI camera input-->
+      <!--deprecated on: 3/17/2008 9:59:59 AM-->
+    </kMainUIScale>
+  </Deprecated_Tuning>
+</base>

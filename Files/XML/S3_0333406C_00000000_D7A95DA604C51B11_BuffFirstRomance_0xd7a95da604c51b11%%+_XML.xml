@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBonusToRomanticSTC value="200">
+      <!--Range: 0 to 200 (or maximum commodity value of Romantic).  Description:  When a Sim with the First Romance buff initiates a conversation with his or her partner Sim also with the First Romance buff (the two must be 'romance', 'fiancee', or 'spouse') then the STC receives a Romance bonus to help them start in a Romantic context.-->
+    </kBonusToRomanticSTC>
+    <kTimeToRefreshContext value="60">
+      <!--Range: Sim minutes.  Description:  How frequently the two Sims in love will refresh their STC to flirty or higher when they are not in conversation with each other.-->
+    </kTimeToRefreshContext>
+    <kFirstRomanceBuffMultiplierForRomance value="1.5">
+      <!--Range: Float values above 1.0f.  Description:  If either Sim in a conversation has the 'First Romance' buff, the positive outcome of the flirty or romantic social will have a greater effect on the LTR between the two sims (increases the liking value more).-->
+    </kFirstRomanceBuffMultiplierForRomance>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

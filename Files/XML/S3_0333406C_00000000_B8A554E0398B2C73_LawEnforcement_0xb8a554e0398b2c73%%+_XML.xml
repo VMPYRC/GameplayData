@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHoursToWorkWhenPaged value="4">
+      <!--Hours (integer > 0) required to work when paged.-->
+    </kHoursToWorkWhenPaged>
+    <kMaxBeeperEventsPerWeek value="3">
+      <!--Maximum number (integer > 0) of times a sim can be paged per week.-->
+    </kMaxBeeperEventsPerWeek>
+    <kChanceOfBeeperGoingOff value="50">
+      <!--Percentage chance (float 0-100) of being paged on a particular day after work.-->
+    </kChanceOfBeeperGoingOff>
+    <kLtrLikingIncreaseWithCoworkersAndBoss value="10">
+      <!--Range: Positive floats. Description: Promotion reward given for level 1.-->
+    </kLtrLikingIncreaseWithCoworkersAndBoss>
+    <kPerformanceIncreaseReportedCriminal value="15">
+      <!--Performance increase for reporting a criminal or klepto.-->
+    </kPerformanceIncreaseReportedCriminal>
+    <kWindowForRememberingReports value="7">
+      <!--Number of days you want to remember the police reports written per work day.-->
+    </kWindowForRememberingReports>
+    <kCompletionRateReport value="1.11">
+      <!--Report compeletion rate per Sim minute.-->
+    </kCompletionRateReport>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+  </Deprecated_Tuning>
+</base>

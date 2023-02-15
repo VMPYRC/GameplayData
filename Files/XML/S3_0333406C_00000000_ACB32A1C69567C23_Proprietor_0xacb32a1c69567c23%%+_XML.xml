@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kProprietorStartTimeDelta value="1">
+      <!--Range:  0+  Description:  The time, in Sim hours, the Proprietor will show up at a venue before the opening time-->
+    </kProprietorStartTimeDelta>
+    <kProprietorEndTimeDelta value="1">
+      <!--Range:  0+  Description:  The time, in Sim hours, the Proprietor will leave a venue before closing time-->
+    </kProprietorEndTimeDelta>
+    <kMaxPerformanceTimeInHours value="2">
+      <!--Range:  0+  Description:  The maximum time, in Sim hours, that a SimFest performer can perform-->
+    </kMaxPerformanceTimeInHours>
+    <kAwardCeremonyHoursBeforeClose value="4">
+      <!--Range:  0+  Description:  The number of hours before closing time to start the SimFest Award Ceremony-->
+    </kAwardCeremonyHoursBeforeClose>
+  </Current_Tuning>
+</base>

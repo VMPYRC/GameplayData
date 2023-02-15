@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLHGain value="5">
+      <!--Life time happiness gain from spreading the Spread the Happiness buff.-->
+    </kLHGain>
+    <kSyncTimeout value="10">
+      <!--The maximum timeout in Sim minutes the actor will wait to sync up with another Sim before giving up and just hugging self-->
+    </kSyncTimeout>
+    <kEffectRadius value="10">
+      <!--The effect range in meters of witnessing the HugSomeone.-->
+    </kEffectRadius>
+    <kAffectBroadcasterRoomOnly value="True">
+      <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+    </kAffectBroadcasterRoomOnly>
+  </Current_Tuning>
+</base>

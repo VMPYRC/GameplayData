@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSkillLevelForSchoolTutor value="5">
+      <!--Logic skill level sim must be at to do tutor school interaction-->
+    </kSkillLevelForSchoolTutor>
+    <kBaseSchoolPerformancePointsPerHour value="5">
+      <!--Base Number of school performance points to add per hour-->
+    </kBaseSchoolPerformancePointsPerHour>
+    <kSchoolPointsToAddPerLevelIncrement value="1">
+      <!--Number of school performance points to add for each logic skill level after the one you need to do tutor interaction-->
+    </kSchoolPointsToAddPerLevelIncrement>
+    <kBaseHomeworkCompletePercentPerMin value="0">
+      <!--Base homework completionRate to add to sim's existing total completion rate in percent complete per Sim min-->
+    </kBaseHomeworkCompletePercentPerMin>
+    <kHomeworkCompletePercentToAddPerLevelIncrement value=".1111">
+      <!--Additional homework completion percent to add to kBaseHomeworkCompletePercentPerMin for each level-->
+    </kHomeworkCompletePercentToAddPerLevelIncrement>
+    <kBaseSkillGainMod value="0">
+      <!--Starting skill gain rate mod to apply to skills if Sim has the logic skill-->
+    </kBaseSkillGainMod>
+    <kSkillGainModPerLevelUp value=".033">
+      <!--Skill Gain rate mod to add to skills for each level of logic skill the sim has-->
+    </kSkillGainModPerLevelUp>
+    <kTournamentGamesWinsToImproveRank value="2, 4, 8, 12, 15">
+      <!--Number of wins over in a tournament needed to level up in Chess Ranking. Right now we assume 6 ranks (0 to 5). Make sure this list has at least 1 number (that'll maintain at least 2 levels of ranks). Positive increasing set of integers. NOTE: If you change the size of this array, talk with Manu (or some GPE).-->
+    </kTournamentGamesWinsToImproveRank>
+    <kNumDiscoveriesForCelestialExplorer value="20">
+      <!--Number of celestial objects Sim needs to discover to gain the title of Celestial Explorer-->
+    </kNumDiscoveriesForCelestialExplorer>
+    <kNumHoursForTeacherExtraordinaire value="20">
+      <!--Number of hours a Sim needs to tutor to gain the title of Teacher Extraordinaire-->
+    </kNumHoursForTeacherExtraordinaire>
+    <kTutorRateBonusForTeacherExtraordinaire value="2">
+      <!--Rate multiplier to apply to mCurSchoolPerformanceRate if Sim is a Teacher Extraordinaire-->
+    </kTutorRateBonusForTeacherExtraordinaire>
+    <kNumHoursForSkillTeacherExtraordinaire value="30">
+      <!--Number of hours a Sim needs to tutor skills to gain the title of Skill Teacher Extraordinaire-->
+    </kNumHoursForSkillTeacherExtraordinaire>
+    <kTutorRateBonusForSkillTeacherExtraordinaire value="1.4">
+      <!--Rate multiplier to apply to existing skill gain rate if tutor is a Skill Teacher Extraordinaire-->
+    </kTutorRateBonusForSkillTeacherExtraordinaire>
+    <kToddlerSkillBonusCap value="4">
+      <!--Maximum number of skill points to award due to toddler development activities.-->
+    </kToddlerSkillBonusCap>
+    <kChessSkillForOpponentPerRank value="1, 2, 3, 4, 5, 6">
+      <!--Chess skill of opponents per rank. Right now we assume 6 ranks (0 to 5). Right now we assume 6 ranks (0 to 5). Make sure this list has at least 1 number (that'll maintain at least 2 levels of ranks). Positive increasing set of integers. NOTE: If you change the size of this array, talk with Manu (or some GPE).-->
+    </kChessSkillForOpponentPerRank>
+    <kMaxVarienceInSkillLevelForChessOpponent value="1">
+      <!--How much a particular Sims chess and logic skill vary off of the tunable arrays-->
+    </kMaxVarienceInSkillLevelForChessOpponent>
+    <kRankForEldersToBeScoredHigher value="3">
+      <!--How much we score elders higher for tournament-->
+    </kRankForEldersToBeScoredHigher>
+    <kScoreEldersHigher value="2">
+      <!--How much we score elders higher for tournament-->
+    </kScoreEldersHigher>
+    <kIncreaseInAffinityForOpponentsWithLogicSkill value="2">
+      <!--If the candidate opponent has Logic skill, his score increases by this amount. Positive int. Initial GPE default: 2f.-->
+    </kIncreaseInAffinityForOpponentsWithLogicSkill>
+    <kTutorSkillLtrIncreaseRate value="5">
+      <!--TutorInSkill: Rate at which to increase LTR relationship between sims when tutoring a sim in a skill in points per sim hour-->
+    </kTutorSkillLtrIncreaseRate>
+    <kTutorHomeworkLtrIncreaseRate value="5">
+      <!--TutorInHomework: Rate at which to increase LTR relationship between sims when tutoring a sim with their homework per sim hour-->
+    </kTutorHomeworkLtrIncreaseRate>
+    <kDominoesSkillForOpponentPerRank value="1, 2, 3, 4, 5, 6">
+      <!--Range:  6 Ranks (0-5)  Description:  Dominoes Skill of opponents per rank.-->
+    </kDominoesSkillForOpponentPerRank>
+    <kMaxVarienceInSkillLevelForDominoesOpponent value="2">
+      <!--How much a particular Sims dominoes and logic skill vary off of the tunable arrays-->
+    </kMaxVarienceInSkillLevelForDominoesOpponent>
+  </Current_Tuning>
+</base>

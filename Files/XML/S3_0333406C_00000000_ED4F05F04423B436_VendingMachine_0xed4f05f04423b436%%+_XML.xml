@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kStockAmount value="500">
+      <!--kStockAmount: Value to stock up the vending machine with-->
+    </kStockAmount>
+    <kFoodPrice value="10">
+      <!--kFoodPrice: Price of unit of food from the vending machine-->
+    </kFoodPrice>
+    <kFoodStuckChance value="0.5">
+      <!--kFoodStuckChance: Multiplier - Chance that food item will get stuck (General) 1.0 = 50/50-->
+    </kFoodStuckChance>
+    <kFoodStuckChanceLoser value="2">
+      <!--kFoodStuckChanceLoser: Multiplier - Chance that food item will get stuck (Loser Trait) 1.0 = 50/50-->
+    </kFoodStuckChanceLoser>
+    <kFoodStuckChanceLucky value="0.1">
+      <!--kFoodStuckChanceLucky: Multiplier - Chance that food item will get stuck (Lucky Trait) 1.0 = 50/50-->
+    </kFoodStuckChanceLucky>
+    <kKickFailRate value="30">
+      <!--kKickFailRate: (0 - 100%) how often the kick will fail-->
+    </kKickFailRate>
+    <kKickGetLucky value="0.1">
+      <!--kKickGetLucky: Multiplier - how often the kick will produce something if there was none stuck already-->
+    </kKickGetLucky>
+  </Current_Tuning>
+</base>

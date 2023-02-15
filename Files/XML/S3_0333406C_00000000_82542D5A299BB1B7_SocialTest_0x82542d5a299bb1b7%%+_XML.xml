@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTalkAboutWeatherTimeOut value="12">
+      <!--Number of sim hours after a weather type has stopped at which Talk about that weather type is no longer available-->
+    </kTalkAboutWeatherTimeOut>
+    <kTalkAboutColdTempGate value="40">
+      <!--Current temperature must less than or equal to this value for Talk About Cold social to be available.  Min temp is 0-->
+    </kTalkAboutColdTempGate>
+    <kTalkAboutHeatTempGate value="80">
+      <!--Current temperature must greater than or equal to this value for Talk About Heat social to be available.-->
+    </kTalkAboutHeatTempGate>
+    <kChanceOfSociallyAwkwardSocials value="25">
+      <!--Range: 0+.  Description: Chance of getting socially awkward socials-->
+    </kChanceOfSociallyAwkwardSocials>
+    <kGreatSuccessChanceRate value="75">
+      <!--Success rate for GreatSuccessChance.-->
+    </kGreatSuccessChanceRate>
+    <kSuaveIrresistibleSuccessRate value="80">
+      <!--Success rate for SuaveSuccessChance when you have Irresistible Trait.-->
+    </kSuaveIrresistibleSuccessRate>
+    <kSuaveCharismaticSuccessRate value="90">
+      <!--Success rate for SuaveSuccessChance when you have Irresistible & Charismatic Trait.-->
+    </kSuaveCharismaticSuccessRate>
+    <kChanceToFailTuneUp value="0.7, 0.725, 0.75, 0.775, 0.8, 0.825, 0.85, 0.875, 0.9, 0.925, 0.95, 0.98">
+      <!--Range: 0.0 - 1.0. Description: Chance to fail tune up based on botBuildingSkillLevel-->
+    </kChanceToFailTuneUp>
+    <kFutureSkillRequiredJetpackKiss value="2">
+      <!--Range: 0-10.  Description: Future Skill level required to run Jetpack Kiss.-->
+    </kFutureSkillRequiredJetpackKiss>
+    <kFutureSkillRequiredJetpackSlowDance value="6">
+      <!--Range: 0-10.  Description: Future Skill level required to run Jetpack Slow-Dance.-->
+    </kFutureSkillRequiredJetpackSlowDance>
+    <kFutureSkillRequiredJetpackFlyAroundWith value="2">
+      <!--Range: 0-10.  Description: Future Skill level required to run Jetpack Fly Around With-->
+    </kFutureSkillRequiredJetpackFlyAroundWith>
+    <kFutureSkillRequiredJetpackWoohoo value="4">
+      <!--Range: 0-10.  Description: Future Skill level required to run Jetpack Woohoo.-->
+    </kFutureSkillRequiredJetpackWoohoo>
+    <kMinMaintenenceToAutoTuneUp value="-50">
+      <!--Range: -100.0f - 100.0f.  Description: Highest Maintenence level requred to Auto do Tune Up socials.-->
+    </kMinMaintenenceToAutoTuneUp>
+  </Current_Tuning>
+</base>

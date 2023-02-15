@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDelayBeforeLeaving value=".15">
+      <!--Length of time (in hours) that repairman waits before leaving the lot, after his work is done. Default 0.5f-->
+    </kDelayBeforeLeaving>
+    <kExtraWaitTimeAfterSocializing value="0.5">
+      <!--Extra time (in hours) to wait before leaving if the service NPC is socialized with.-->
+    </kExtraWaitTimeAfterSocializing>
+    <kNumTilesPerFirefighter value="4">
+      <!--Number of tiles that we think a Firefighter will extinguish. Positive integer. Higher number means lower number of Firefighters will appear.-->
+    </kNumTilesPerFirefighter>
+    <kServiceTuning>
+      <kMaxNumNPCsInPool value="3">
+        <!--Max num NPCs at once in service-->
+      </kMaxNumNPCsInPool>
+      <kCost value="500">
+        <!--Cost of service-->
+      </kCost>
+      <kIsEmergencyService value="True">
+        <!--If true this service charges kCost only if falsely called, otherwise free.-->
+      </kIsEmergencyService>
+      <kIsRecurrent value="False">
+        <!--Whether the service is recurrent (true) or one-off (false).  Recurrent services are the only type which can be cancelled through the phone dialog.-->
+      </kIsRecurrent>
+      <kAlwaysTryToSendSameSim value="True">
+        <!--Whether or not the service always tries to send the same NPC to a specific household-->
+      </kAlwaysTryToSendSameSim>
+    </kServiceTuning>
+    <kMinimumFailTNSDelayTime value="600">
+      <!--Minimum amount of time (in ticks) in between displaying a 'Cannot reach burning object' TNS.  Default is 600 ticks.-->
+    </kMinimumFailTNSDelayTime>
+    <kFirePutOutLeewayTime value="0.5">
+      <!--Amount of time (in hours) to allow after a fire is put out and still have the service be free.  Default is half an hour.-->
+    </kFirePutOutLeewayTime>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

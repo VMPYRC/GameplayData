@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPaintTimeCanvasSmall value="180">
+      <!--How long it takes to paint a small canvas painting.-->
+    </kPaintTimeCanvasSmall>
+    <kPaintTimeCanvasMedium value="300">
+      <!--How long it takes to paint a medium canvas painting.-->
+    </kPaintTimeCanvasMedium>
+    <kPaintTimeCanvasLarge value="480">
+      <!--How long it takes to paint a large canvas painting.-->
+    </kPaintTimeCanvasLarge>
+    <kTimeToFirstStage value="1">
+      <!--How Long it takes to switch to the first visual progress in sims mins-->
+    </kTimeToFirstStage>
+    <kDabbleModifier value="1.5">
+      <!--Multiplier applied to existing canavas size time estimates when doing Dabble interaction-->
+    </kDabbleModifier>
+    <kPracticePaintSkillLevel value="4">
+      <!--The skill level at which the pie menu will say paint instead of practice-->
+    </kPracticePaintSkillLevel>
+    <sLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="0">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <DefaultInteractionLookAtThreshold value="45">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </sLookAtTuning>
+    <kPaintTimePortraitMultiplier value="1.5">
+      <!--How much longer it takes to paint a portrait.  The normal time is multiplied by this value.-->
+    </kPaintTimePortraitMultiplier>
+    <kChanceOfPaintingInArtGallery value="0.2">
+      <!--The chance that your painting will make it to the art gallery when sold-->
+    </kChanceOfPaintingInArtGallery>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

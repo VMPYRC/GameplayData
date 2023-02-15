@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kConeAngleInFrontStoryTellerToStandOrSitOnFloor value="2.094">
+      <!--Angle in front of story teller (where the participants prefer to sit). Positive float. Units: Radians. Initial GPE default 2.094 (i.e. 120 degrees).-->
+    </kConeAngleInFrontStoryTellerToStandOrSitOnFloor>
+    <kDistanceFromStoryTeller value="2, 2, 8">
+      <!--Positive floats.  kDistanceFromStoryTeller[0] is the minimum distance for sitting/standing in front of the story teller, [1] is the maximum distance for sitting in front of the story teller and [2] is the maximum distance for standing in front of the story teller.-->
+    </kDistanceFromStoryTeller>
+    <kBaseReactionChance value="0.3">
+      <!--The base chance that a ghost story participant will have a special reaction at the end of the story. Positive floats. Index 0: Minimum. Index 1: Maximum.-->
+    </kBaseReactionChance>
+    <kReactionCharismaMultipler value="0.07">
+      <!--The amount the story teller's charisma level increases the chance that a ghost story participant will have a special reaction at the end of the story. Positive floats. Index 0: Minimum. Index 1: Maximum.-->
+    </kReactionCharismaMultipler>
+  </Current_Tuning>
+</base>

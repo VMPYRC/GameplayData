@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCancellablePercentage value="0.75">
+      <!--How long through the eat/drink it is still cancellable. Range: [0,1]-->
+    </kCancellablePercentage>
+    <kBaseChanceToMeetNewSim value="0.25">
+      <!--The base chance the sim will meet someone when getting drinks alone. Final value is influences by traits. Range: [0,1]-->
+    </kBaseChanceToMeetNewSim>
+    <kBaseChanceForFriendlyContext value="0.25">
+      <!--If the sim meets someone new, the base chance they will be put in a friendly STC. Final value is influences by traits. Range: [0,1]-->
+    </kBaseChanceForFriendlyContext>
+    <kBaseChanceForFlirtyContext value="0.1">
+      <!--If the sim meets someone new, the base chance they will be put in a flirty STC. Final value is influences by traits. Range: [0,1]-->
+    </kBaseChanceForFlirtyContext>
+    <kMinRelationshipNewSim value="25">
+      <!--Minimum amount of added relationship with sims you randomly meet when getting drinks.-->
+    </kMinRelationshipNewSim>
+    <kMaxRelationshipNewSim value="40">
+      <!--Maximium amount of added relationship with sims you randomly meet when getting drinks.-->
+    </kMaxRelationshipNewSim>
+    <kMinRelationshipKnownSim value="15">
+      <!--Minimum amount of added relationship with a sim you already know when getting drinks.-->
+    </kMinRelationshipKnownSim>
+    <kMaxRelationshipKnownSim value="30">
+      <!--Maximium amount of added relationship with a sim you already know when getting drinks.-->
+    </kMaxRelationshipKnownSim>
+    <kClassCookingCost value="400">
+      <!--How much a Cooking class costs, in Simoleons-->
+    </kClassCookingCost>
+    <kClassCookingDuration value="60">
+      <!--How long a Cooking class lasts, in Sim minutes-->
+    </kClassCookingDuration>
+    <kCheckForDivingWorkTuning>
+      <AvailableOpportunities value="EP10_SkillUnderwaterDiving_SeaLife1, EP10_SkillUnderwaterDiving_SeaLife2, EP10_SkillUnderwaterDiving_SeaLife3">
+        <!--Which EP10 SCUBA Diving Opportunities are available at the rabbit hole.-->
+      </AvailableOpportunities>
+    </kCheckForDivingWorkTuning>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kVisualStateChangeTime_FewLights value="18">
+      <!--What hour of the day you want the Restaurant's lighting to start having Few Lights.-->
+      <!--deprecated on: 3/20/2008 5:59:45 PM-->
+    </kVisualStateChangeTime_FewLights>
+  </Deprecated_Tuning>
+</base>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHorribleScore value="-20">
+      <!--Scoring for "Horrible" traits.  Valid range [-100, 100].-->
+    </kHorribleScore>
+    <kHoursToCheckForDesiredItem value="4">
+      <!--Range:  Sim hours.  Description:  Hours for Sims to check for desired objects to have thought balloons about.-->
+    </kHoursToCheckForDesiredItem>
+    <kTraitsForYoungAdultAndOlder value="5">
+      <!--Range:  Integer.  Description:  Number of traits allowed for Young Adult and older.-->
+    </kTraitsForYoungAdultAndOlder>
+    <kTraitsForTeens value="4">
+      <!--Range:  Integer.  Description:  Number of traits allowed for Teens.-->
+    </kTraitsForTeens>
+    <kTraitsForChildren value="3">
+      <!--Range:  Integer.  Description:  Number of traits allowed for Children.-->
+    </kTraitsForChildren>
+    <kTraitsForBabiesAndToddlers value="2">
+      <!--Range:  Integer.  Description:  Number of traits allowed for Babies and Toddlers.-->
+    </kTraitsForBabiesAndToddlers>
+    <kFallbackTraits value="Ambitious, Artistic, Athletic, Brave, BookWorm, Charismatic, Clumsy, ComputerWhiz, Excitable, FamilyOriented, Genius, Good, GoodSenseOfHumor, GreatKisser, GreenThumb, Handy, HopelessRomantic, Loner, LovesTheOutdoors, Lucky, Mooch, NaturalCook, Neat, OverEmotional, PartyAnimal, Perfectionist, Schmoozer, Virtuoso">
+      <!--Description: List of BaseGame traits we will randomly choose from to replace EP traits when that EP is uninstalled.-->
+    </kFallbackTraits>
+    <kOccultTraitsToKeepWhenClearIdentity value="VampireHiddenTrait, UnicornHiddenTrait, MummyHiddenTrait, FrankensteinHiddenTrait, ImaginaryFriendHiddenTrait, GenieHiddenTrait, LycanthropyHuman, LycanthropyWerewolf, FairyHiddenTrait, WitchHiddenTrait, GhostHiddenTrait">
+      <!--Description: Traits that should not be cleared when clearing idendtity in CAS.-->
+    </kOccultTraitsToKeepWhenClearIdentity>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

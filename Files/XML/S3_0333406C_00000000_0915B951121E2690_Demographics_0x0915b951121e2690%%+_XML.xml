@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDemographicChoiceTemperature value="5">
+      <!--Range: [1, 100] Higher values increase the randomness when choosing which demographic to improve-->
+    </kDemographicChoiceTemperature>
+    <kNumDemographicDraws value="10">
+      <!--Range: [1, Infinity] The number of times we select a demographic to improve-->
+    </kNumDemographicDraws>
+    <kNumActionsPerDemographic value="8">
+      <!--Range: [1, Infinity] The number of actions we consider per demographic-->
+    </kNumActionsPerDemographic>
+    <kActionScoreTemperature value="1">
+      <!--Range: [1, 100] Higher values increase the randomness when choosing which action to perform-->
+    </kActionScoreTemperature>
+    <kActionsScoreFriction value="0.004,0.01">
+      <!--Range: [0, 1] <Min,Max> range of the friction that an action must overcome to be considered-->
+    </kActionsScoreFriction>
+    <kSelectedDemographicAttenuation value="0.5">
+      <!--Range: [0, 1] A multiplier applied to the error of a demographic each time it is selected, to encourage attempting to solve multiple demographics-->
+    </kSelectedDemographicAttenuation>
+    <kDemographicValueBias value="0.0">
+      <!--Range: [0, 1] Bias to apply to tuned demographic values-->
+    </kDemographicValueBias>
+    <kChanceOfRandomHistogramAction value="0.2">
+      <!--Chance of simply choosing a random action for a histogram demographic rather then trying to calculate the optimal direction-->
+    </kChanceOfRandomHistogramAction>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

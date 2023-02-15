@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDelayBeforeLeaving value=".15">
+      <!--Length of time (in hours) that policeman waits before leaving the lot, after his work is done-->
+    </kDelayBeforeLeaving>
+    <kPoliceFightModifier value="0.25">
+      <!--Should be between 0 and 1. The amount to skew the chance the policeman will win a fight with a burglar.-->
+    </kPoliceFightModifier>
+    <kMaxNumRooms value="5">
+      <!--The max number of rooms the policeman will 'search' when looking for the burglar.-->
+    </kMaxNumRooms>
+    <kFollowDelay value="5">
+      <!--The delay in sim minutes before the police follows the burglar to his car after arresting him.-->
+    </kFollowDelay>
+    <kRewardAmount value="500">
+      <!--The reward in simoleans that the sim gets for defeating a burglar.-->
+    </kRewardAmount>
+    <kTimeBetweenCurfewChecks value="30">
+      <!--How often in sim minutes we do a curfew check where we may spawn a police officer to round up the hooligans.-->
+    </kTimeBetweenCurfewChecks>
+    <kChanceOfPoliceSpawnAfterCurfew value="0.80">
+      <!--The chance a police officer will spawn during the tunable time (kTimeBetweenCurfewChecks) period. Range: [0,1]-->
+    </kChanceOfPoliceSpawnAfterCurfew>
+    <kDistanceToGetTeensOnWorldLot value="45">
+      <!--The max distance the police will try to round up teens when he is called to the world lot.-->
+    </kDistanceToGetTeensOnWorldLot>
+    <kMaxNumFightFailures value="4">
+      <!--DESIGNER NOTE: If you tune this to 3 or above - talk to the nearest friendly GPE! GPE NOTE: In case the Fight social fails all the time, a high value for this tunable will cause a stack overflow. Description: The max number of fight failures before the policeman gives up and leaves. Positive int. Initial GPE Default: 2.-->
+    </kMaxNumFightFailures>
+    <kExtraWaitTimeAfterSocializing value="0.5">
+      <!--Extra time (in hours) to wait before leaving if the service NPC is socialized with.-->
+    </kExtraWaitTimeAfterSocializing>
+    <kPoliceDriveTime value="5.0">
+      <!--Time in sim minutes it takes for the police to get to your lot when there is a burglar.-->
+    </kPoliceDriveTime>
+    <kServiceTuning>
+      <kMaxNumNPCsInPool value="2">
+        <!--Max num NPCs at once in service-->
+      </kMaxNumNPCsInPool>
+      <kCost value="500">
+        <!--Cost of service-->
+      </kCost>
+      <kIsEmergencyService value="True">
+        <!--If true this service charges kCost only if falsely called, otherwise free.-->
+      </kIsEmergencyService>
+      <kIsRecurrent value="False">
+        <!--Whether the service is recurrent (true) or one-off (false).  Recurrent services are the only type which can be cancelled through the phone dialog.-->
+      </kIsRecurrent>
+      <kAlwaysTryToSendSameSim value="True">
+        <!--Whether or not the service always tries to send the same NPC to a specific household-->
+      </kAlwaysTryToSendSameSim>
+    </kServiceTuning>
+    <kChanceOfPoliceSpawnAfterCurfewRebellious value="0.01">
+      <!--The chance a police officer will spawn during the tunable time (kTimeBetweenCurfewChecks) period for a rebellious Sim. Range: [0,1]-->
+    </kChanceOfPoliceSpawnAfterCurfewRebellious>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

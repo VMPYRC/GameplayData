@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceThrowHard value="50">
+      <!--Percent chance of using hard throw if availible-->
+    </kChanceThrowHard>
+    <kSkillLevelToUnlockMediumChanceOfCatch value="3">
+      <!--Athletic skill level at which the Sim's chance of catching changes to Medium-->
+    </kSkillLevelToUnlockMediumChanceOfCatch>
+    <kSkillLevelToUnlockHighChanceOfCatch value="6">
+      <!--Athletic skill level at which the Sim's chance of catching changes to High-->
+    </kSkillLevelToUnlockHighChanceOfCatch>
+    <kMaxDistanceToAsk value="30">
+      <!--The maximum distance to look for people to play with-->
+    </kMaxDistanceToAsk>
+    <kPlayCatchRelationshipSTCDelta value="75">
+      <!--Friendly STC, per hour, for Play Catch-->
+    </kPlayCatchRelationshipSTCDelta>
+    <kPlayCatchRelationshipLTRDelta value="2">
+      <!--LTR gain, per hour, for Play Catch-->
+    </kPlayCatchRelationshipLTRDelta>
+    <kPlayCatchAutonomousThresholdDistance value="10">
+      <!--Likelihood distance beyond which multiplier is applied-->
+    </kPlayCatchAutonomousThresholdDistance>
+    <kPlayCatchAutonomousDistanceMultiplier value="0.5">
+      <!--Likelihood multiplier for Sims beyond a certain distance-->
+    </kPlayCatchAutonomousDistanceMultiplier>
+    <sLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="0">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <DefaultInteractionLookAtThreshold value="120">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </sLookAtTuning>
+    <kPlayCatchThrowMedianSkills value="0, 4, 7, 9">
+      <!--The median skill for different throws-->
+    </kPlayCatchThrowMedianSkills>
+    <kPlayCatchThrowSkillOffsetClamp value="3">
+      <!--No throw animation whose median skill is this many units away from the Sim's skill level will be played-->
+    </kPlayCatchThrowSkillOffsetClamp>
+    <kPlayCatchThrowSpreadFactor value="1.3">
+      <!--Multiplier on the weight function, could also be how evenly your butter covers your bread-->
+    </kPlayCatchThrowSpreadFactor>
+    <kPlayCatchThrowInitialWeights value="1, 1.2, 1.2, 1">
+      <!--Initial weights of what throw animation to play-->
+    </kPlayCatchThrowInitialWeights>
+    <kPlayCatchCatchMultiplier value="0.9">
+      <!--Range: 0.0 to 1.0.  Description: Probability of catching a ball based on skill ratio multiplier-->
+    </kPlayCatchCatchMultiplier>
+    <kPlayCatchThrowMultiplier value="0.5">
+      <!--Throw strength addition to thrower's skill level multiplier-->
+    </kPlayCatchThrowMultiplier>
+    <kPlayCatchCatchMinumumChance value="0.2">
+      <!--The minumum chance there is to catch a ball-->
+    </kPlayCatchCatchMinumumChance>
+  </Current_Tuning>
+</base>

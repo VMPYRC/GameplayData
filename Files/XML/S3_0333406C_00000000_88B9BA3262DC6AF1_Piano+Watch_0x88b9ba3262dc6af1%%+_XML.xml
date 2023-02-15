@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kWatchTuning>
+      <TimePerTipTest value="5">
+        <!--Time in minutes between tests of whether or not a Sim should tip.-->
+      </TimePerTipTest>
+      <ChanceOfTipPerLevel value="0, 0, 0, 0, 0.2, 0.22, 0.25, 0.3, 0.32, 0.34, 0.4">
+        <!--Chance of tips at each level of music skill.  This is the base chance modulated by otehr factors.-->
+      </ChanceOfTipPerLevel>
+      <MoreLikelyToTipMultiplier value="1.3">
+        <!--Sims who are more likely to tip get this added to base chance.-->
+      </MoreLikelyToTipMultiplier>
+      <TraitsMoreLikelyToTip value="EasilyImpressed, Good">
+        <!--Sims who are more likely to tip.-->
+      </TraitsMoreLikelyToTip>
+      <LessLikelyToTipMultiplier value="0.5">
+        <!--Sims who are less likely to tip get this added to base chance.-->
+      </LessLikelyToTipMultiplier>
+      <TraitsLessLikelyToTip value="Evil, Frugal, Snob">
+        <!--Sims who are less likely to tip.-->
+      </TraitsLessLikelyToTip>
+      <MoneyPerLevel value="3">
+        <!--BaseTip per level of music skill you are.-->
+      </MoneyPerLevel>
+      <MoneyPerCompositionPlayed value="2">
+        <!--Additional money given per composition played.-->
+      </MoneyPerCompositionPlayed>
+      <LikingIncreaseForWatchPlaying value="3">
+        <!--Liking increase from watching.-->
+      </LikingIncreaseForWatchPlaying>
+      <MinutesForLikingGain value="30">
+        <!--Sim minutes of watching before a liking increase will occur.-->
+      </MinutesForLikingGain>
+    </kWatchTuning>
+  </Current_Tuning>
+</base>

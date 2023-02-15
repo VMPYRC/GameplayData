@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBathDuration value="0.30">
+      <!--Approximate duration (sim hours) of bath to go from empty needs to full needs.-->
+    </kBathDuration>
+    <kFailChance value="20">
+      <!--Odds that the baby changing will fail (pee or powder fail)-->
+    </kFailChance>
+    <kPowderChance value="50">
+      <!--Chance that a sim will attempt to powder the baby after changing-->
+    </kPowderChance>
+    <kBathingRelationshipPerSimMinute value="5">
+      <!--Amount to change the relationship when bathing a child-->
+    </kBathingRelationshipPerSimMinute>
+    <kBathingFunForChildPerSimMinute value="20">
+      <!--Amount to change fun when bathing a child-->
+    </kBathingFunForChildPerSimMinute>
+    <kChangingLTR value="10">
+      <!--LTR for changing clothes-->
+    </kChangingLTR>
+    <kNewHygineAfterGettingPeedOn value="-75">
+      <!--New hygine after getting peed on, the values is for both the child and the adult.-->
+    </kNewHygineAfterGettingPeedOn>
+    <kAdultHygineHitAfterPowderExplosion value="-50">
+      <!--On powder failure, how much of a hygine hit to give the adult.-->
+    </kAdultHygineHitAfterPowderExplosion>
+  </Current_Tuning>
+</base>

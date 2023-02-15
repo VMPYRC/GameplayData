@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <SkillLevelForStylinMoodlet value="8">
+      <!--Sims receiving a makeover which they react positively to from a Sim with Styling Skill Level of this value or higher will receive the Stylin' Moodlet.  Also used in 'Makeover Self' interaction.-->
+    </SkillLevelForStylinMoodlet>
+    <kRelationshipChangeForNegativeCustomerReaction value="-10">
+      <!--Relationship change between the styler Sim and the customer Sim for a makeover after which the customer reacts negatively (note: not the same thing as 'makeover failure' case).  Valid values: Any number (negative for relationship hit, positive for relationship gain).-->
+    </kRelationshipChangeForNegativeCustomerReaction>
+    <kPaymentCooldownHoursOfferMakeover value="24">
+      <!--Number of Sim hours after a Sim pays for a user-directed 'Offer Makeover To' before they will pay again.-->
+    </kPaymentCooldownHoursOfferMakeover>
+    <kBasePaymentOfferMakeoverNoStylingSkill value="30">
+      <!--Base payment the Sim doing the styling receives for the 'Offer Makeover To' interaction if they don't have the Styling Skill.-->
+    </kBasePaymentOfferMakeoverNoStylingSkill>
+    <kBasePaymentOfferMakeoverPerStylingSkillLevel value="30, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75">
+      <!--Base payment the Sim doing the styling receives for the 'Offer Makeover To' interaction for Styling Skill levels 0 through 10.-->
+    </kBasePaymentOfferMakeoverPerStylingSkillLevel>
+    <kBonusPaymentOfferMakeoverPerCustomerReaction value="10, 5, 0">
+      <!--Bonus payment the Sim doing the styling receives for the 'Offer Makeover To' interaction for the customer reaction types. Format: (bonusForPositiveReaction, bonusForNeutralReaction, bonusForNegativeReaction).-->
+    </kBonusPaymentOfferMakeoverPerCustomerReaction>
+    <kBonusPaymentOfferMakeoverStylistCareer value="20">
+      <!--Bonus payment the Sim doing the styling receives for the 'Offer Makeover To' interaction if they're in the Stylist career.-->
+    </kBonusPaymentOfferMakeoverStylistCareer>
+    <kLtrThresholdForMakeover value="-80">
+      <!--LTR threshold between Styler & Stylee for allowing makeover interactions to appear in pie menu (otherwise greyed-out pie menu).  There are certain exemptions to this (e.g. Stylees who are the makeover target of a Stylist career Job, STC between Styler & Stylee is positive, Styler is the NPC Stylist, etc.).-->
+    </kLtrThresholdForMakeover>
+    <kStcThresholdForMakeover value="-80">
+      <!--STC threshold (for positive context) between Styler & Stylee for allowing makeover interactions to appear in pie menu (otherwise greyed-out pie menu).  If negative context then this value isn't considered.-->
+    </kStcThresholdForMakeover>
+    <kMakeoverFailureChancesPerStylingSkillLevelNPC value="0.2, 0.2, 0.2, 0.2, 0.2, 0.15, 0.15, 015, 0.15, 0.15, 0.1">
+      <!--When both Sims are NPCs.  Chances of makeover failure (normal failure and epic failure combined) for Styling Skill (of Sim doing the styling) levels 0 through 10.  When both Sims are NPCs.  Valid ranges: 0 to 1.-->
+    </kMakeoverFailureChancesPerStylingSkillLevelNPC>
+    <kMakeoverFailureChancesPerStylingSkillLevel value="0.4, 0.35, 0.3, 0.25, 0.2, 0.15, 0.1, 0.05, 0.03, 0.02, 0.01">
+      <!--Chances of makeover failure (normal failure and epic failure combined) for Styling Skill (of Sim doing the styling) levels 0 through 10.  When the Styler and/or Stylee is playable.  Valid ranges: 0 to 1.-->
+    </kMakeoverFailureChancesPerStylingSkillLevel>
+    <kMakeoverFailureChanceNoStylingSkillNPC value="0.2">
+      <!--Chance of makeover failure (normal failure and epic failure combined) when Sim doing the styling does not have the Styling Skill.  When both Sims are NPCs.  Valid range: 0 to 1.-->
+    </kMakeoverFailureChanceNoStylingSkillNPC>
+    <kMakeoverFailureChanceNoStylingSkill value="0.4">
+      <!--Chance of makeover failure (normal failure and epic failure combined) when Sim doing the styling does not have the Styling Skill.  When the Styler and/or Stylee is playable.  Valid range: 0 to 1.-->
+    </kMakeoverFailureChanceNoStylingSkill>
+    <kCustomerReactionWeightsEpicFailureMakeoverNPC value="-100, -100, 100">
+      <!--Weighted probabilities of how a customer will react to an *epic failure* makeover.  When both Sims are NPCs.  Can add up to any value.  Valid values: Any number 0 and up.  Format: (weightPositiveReaction, weightNeutralReaction, weightNegativeReaction).-->
+    </kCustomerReactionWeightsEpicFailureMakeoverNPC>
+    <kCustomerReactionWeightsGoodMakeoverNPC value="65, 35, 10">
+      <!--Weighted probabilities of how a customer will react to a *successful* makeover.  When both Sims are NPCs.  Can add up to any value.  Valid values: Any number 0 and up.  Format: (weightPositiveReaction, weightNeutralReaction, weightNegativeReaction).-->
+    </kCustomerReactionWeightsGoodMakeoverNPC>
+    <kCustomerReactionWeightsEpicFailureMakeover value="-100, -100, 100">
+      <!--Weighted probabilities of how a customer will react to an *epic failure* makeover.  When the Styler and/or Stylee is playable.  Can add up to any value.  Valid values: Any number 0 and up.  Format: (weightPositiveReaction, weightNeutralReaction, weightNegativeReaction).-->
+    </kCustomerReactionWeightsEpicFailureMakeover>
+    <kCustomerReactionWeightsGoodMakeover value="65, 35, 0">
+      <!--Weighted probabilities of how a customer will react to a *successful* makeover.  When the Styler and/or Stylee is playable.  Can add up to any value.  Valid values: Any number 0 and up.  Format: (weightPositiveReaction, weightNeutralReaction, weightNegativeReaction).-->
+    </kCustomerReactionWeightsGoodMakeover>
+    <kArtisticTraitReactionWeightsBonus value="20, 10, 0">
+      <!--Additional weighting values for Artistic customers' reactions.  Use positive numbers to increase weighting, negative numbers to decrease weighting, or zero to leave weighting unaffected.  Format: (bonusWeightPositiveReaction, bonusWeightNeutralReaction, bonusWeightNegativeReaction).-->
+    </kArtisticTraitReactionWeightsBonus>
+    <kSnobTraitReactionWeightsBonus value="0, 0, 70">
+      <!--Additional weighting values for Snob customers' reactions.  Use positive numbers to increase weighting, negative numbers to decrease weighting, or zero to leave weighting unaffected.  Format: (bonusWeightPositiveReaction, bonusWeightNeutralReaction, bonusWeightNegativeReaction).-->
+    </kSnobTraitReactionWeightsBonus>
+    <kDivaTraitReactionWeightsBonus value="0, 0, 70">
+      <!--Additional weighting values for Diva customers' reactions.  Use positive numbers to increase weighting, negative numbers to decrease weighting, or zero to leave weighting unaffected.  Format: (bonusWeightPositiveReaction, bonusWeightNeutralReaction, bonusWeightNegativeReaction).-->
+    </kDivaTraitReactionWeightsBonus>
+    <kStylerReactionWeightsNegativeStyleeReaction value="0, 30, 70">
+      <!--Weighted probabilities of how a Sim who just styled another Sim will react when the styled Sim has a negative reaction.  Can add up to any value.  Valid values: Any number 0 and up.  Format: (weightPositiveReaction, weightNeutralReaction, weightEmbarrassedReaction).-->
+    </kStylerReactionWeightsNegativeStyleeReaction>
+    <kStylerReactionWeightsNeutralStyleeReaction value="30, 60, 10">
+      <!--Weighted probabilities of how a Sim who just styled another Sim will react when the styled Sim has a neutral reaction.  Can add up to any value.  Valid values: Any number 0 and up.  Format: (weightPositiveReaction, weightNeutralReaction, weightEmbarrassedReaction).-->
+    </kStylerReactionWeightsNeutralStyleeReaction>
+    <kStylerReactionWeightsPositiveStyleeReaction value="80, 20, 0">
+      <!--Weighted probabilities of how a Sim who just styled another Sim will react when the styled Sim has a positive reaction.  Can add up to any value.  Valid values: Any number 0 and up.  Format: (weightPositiveReaction, weightNeutralReaction, weightEmbarrassedReaction).-->
+    </kStylerReactionWeightsPositiveStyleeReaction>
+    <kRelationshipChangeForFailingToSatisfyJobRequirements value="-5">
+      <!--Relationship change between Stylist (active career) Sim and the customer Sim (who is the active career Job target for a makeover) if CAS is exited without the Player having fulfilled all the Job requirements.  Valid values: Any number (negative for relationship hit, positive for relationship gain).-->
+    </kRelationshipChangeForFailingToSatisfyJobRequirements>
+    <kMakeoverEpicVsNormalFailureChance value="0.15">
+      <!--Once we've determined that a makeover will be a failure, we do another roll to determine whether it will be an epic failure or normal failure.  This value governs that roll.  Valid range: 0 to 1 (where 0 is always normal failure, 1 is always epic failure).-->
+    </kMakeoverEpicVsNormalFailureChance>
+    <kCustomerReactionWeightsNormalFailureMakeoverNPC value="0, 15, 40">
+      <!--Weighted probabilities of how a customer will react to a *normal failure* makeover.  When both Sims are NPCs.  Can add up to any value.  Valid values: Any number 0 and up.  Format: (weightPositiveReaction, weightNeutralReaction, weightNegativeReaction).-->
+    </kCustomerReactionWeightsNormalFailureMakeoverNPC>
+    <kCustomerReactionWeightsNormalFailureMakeover value="0, 15, 40">
+      <!--Weighted probabilities of how a customer will react to a *normal failure* makeover.  When the Styler and/or Stylee is playable.  Can add up to any value.  Valid values: Any number 0 and up.  Format: (weightPositiveReaction, weightNeutralReaction, weightNegativeReaction).-->
+    </kCustomerReactionWeightsNormalFailureMakeover>
+    <kEasilyImpressedTraitReactionWeightsBonus value="70, -45, -40">
+      <!--Additional weighting values for Easily Impressed customers' reactions.  Use positive numbers to increase weighting, negative numbers to decrease weighting, or zero to leave weighting unaffected.  Format: (bonusWeightPositiveReaction, bonusWeightNeutralReaction, bonusWeightNegativeReaction).-->
+    </kEasilyImpressedTraitReactionWeightsBonus>
+    <kStylistCareerExperienceMultiplier value="0.01">
+      <!--Multiplier of payment that gets added to career exp if a stylist-->
+    </kStylistCareerExperienceMultiplier>
+  </Current_Tuning>
+</base>

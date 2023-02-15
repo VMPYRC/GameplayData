@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRoamTime value="60">
+      <!--The amount of time that bonehilda will roam around the house before she returns to her coffin. Sim Minutes-->
+    </kRoamTime>
+    <kDurationOfBonehildaRest value="60">
+      <!--The Amount of time bonehilda will remain in her coffin before she starts looking for work again when she is still active. Sim Minutes-->
+    </kDurationOfBonehildaRest>
+    <kMinRoamDistance value="3">
+      <!--The Min Units to Roam away when looking for work.  If this is too high then rooms that are too close she won't route into and she might not route right.-->
+    </kMinRoamDistance>
+    <kMaxRoamDistance value="10">
+      <!--The Max Units to Roam away when looking for work.  If this is too low then bonehilda won't route to a room that is too far away.  That being said she will only move 1 room (go though 1 door) when looking for work.  Anything above 10 seemed to start causing problems.-->
+    </kMaxRoamDistance>
+    <kAlarmFireRate value="15">
+      <!--How Often she looks for work.  Enough time to not hit gameplay performance, but not enough time for Bonehilda to fire regular autonomy if there is nothing to do.-->
+    </kAlarmFireRate>
+  </Current_Tuning>
+</base>

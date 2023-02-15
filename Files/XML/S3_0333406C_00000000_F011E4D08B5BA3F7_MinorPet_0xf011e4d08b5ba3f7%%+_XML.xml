@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceForeignInsectSpawnerSpawnsPet value="0.25">
+      <!--Range 0.0 - 1.0.  The chance a foreign insect spawner will attempt to spawn a minor pet instead of the normally spawned objects.-->
+    </kChanceForeignInsectSpawnerSpawnsPet>
+    <kChanceForeignRGMSpawnerSpawnsPet value="0.25">
+      <!--Range 0.0 - 1.0.  The chance a foreign rock/gem/metal spawner will attempt to spawn a minor pet instead of the normally spawned objects.-->
+    </kChanceForeignRGMSpawnerSpawnsPet>
+    <kChanceForeignSeedSpawnerSpawnsPet value="0.25">
+      <!--Range 0.0 - 1.0.  The chance a foreign seed spawner will attempt to spawn a minor pet instead of the normally spawned objects.-->
+    </kChanceForeignSeedSpawnerSpawnsPet>
+    <kNumHoursAllowedDead value="48">
+      <!--Once a pet is dead, this is the number of Sim hours it will be kept around before being destroyed.  Once destroyed, the 'Mourn' interaction will no longer be available.-->
+    </kNumHoursAllowedDead>
+    <kMinorPetsAllowedInWildEP5World value="10, 25, 35, 40">
+      <!--Number of wild pets at which we will cap the production from spawners in shipped EP5 world. 4 values. { Low, Mid, Max, Uber }.-->
+    </kMinorPetsAllowedInWildEP5World>
+    <kMinorPetsAllowedInWildNonEP5Worlds value="10, 15, 15, 20">
+      <!--Number of wild pets at which we will cap the production from spawners in non EP5 world. 4 values. { Low, Mid, Max, Uber }.-->
+    </kMinorPetsAllowedInWildNonEP5Worlds>
+  </Current_Tuning>
+</base>

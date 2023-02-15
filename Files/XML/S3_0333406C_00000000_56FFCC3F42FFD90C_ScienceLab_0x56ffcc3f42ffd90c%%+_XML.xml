@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="0" />
+      <MapTagFilterType value="Work">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-35">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="100">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kInvestCost value="40000">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="100000">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="7900">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="15000">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="20000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="1000000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kCanInvestHere value="True">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kNpcExitFreq value="10">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kNighttimeLightSunsetDelta value="1">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kPreventLotPurchase value="True">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="True">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+    <kClassGardeningCost value="400">
+      <!--How much a Gardening class costs, in Simoleons-->
+    </kClassGardeningCost>
+    <kClassGardeningDuration value="60">
+      <!--How much a Gardening class lasts, in Sim minutes-->
+    </kClassGardeningDuration>
+    <kClassLogicCost value="400">
+      <!--How much a Logic class costs, in Simoleons-->
+    </kClassLogicCost>
+    <kClassLogicDuration value="60">
+      <!--How much a Logic class lasts, in Sim minutes-->
+    </kClassLogicDuration>
+    <kVisitRabbitHoleTuning>
+      <VisitLength value="60">
+        <!--Visit length in minutes.-->
+      </VisitLength>
+      <VisitBoredomChanceChild value="15">
+        <!--Visit chance for boredom child.-->
+      </VisitBoredomChanceChild>
+      <VisitBoredomChanceTeen value="35">
+        <!--Visit chance for boredom teen.-->
+      </VisitBoredomChanceTeen>
+      <VisitBoredomChanceAdult value="10">
+        <!--Visit chance for boredom adult/edler.-->
+      </VisitBoredomChanceAdult>
+      <VisitWooHooLength value="25">
+        <!--Visit woohoo length in minutes.-->
+      </VisitWooHooLength>
+      <VisitWooHooCheckForCaught value="5">
+        <!--Visit woohoo check for being caught every X minutes.-->
+      </VisitWooHooCheckForCaught>
+      <VisitWooHooChanceForCaught value="2">
+        <!--Visit woohoo chance of being caught when 'VisitWooHooCheckForCaught' is hit.-->
+      </VisitWooHooChanceForCaught>
+      <VisitTryForBabySuccessRate value="50">
+        <!--Visit try for baby chance of success.-->
+      </VisitTryForBabySuccessRate>
+      <VisitTourGroupLTRGain value="2">
+        <!--Amount of LTR gain between people on a tour group every X minutes-->
+      </VisitTourGroupLTRGain>
+      <VisitTourGroupMinutesLTR value="20">
+        <!--Frequency of LTR gain while on a tour group-->
+      </VisitTourGroupMinutesLTR>
+      <WooHooingSTCIncrement value="25">
+        <!--The STC increment after WooHooing.-->
+      </WooHooingSTCIncrement>
+      <WooHooingLTRIncrement value="5">
+        <!--The LTR increment after WooHooing.-->
+      </WooHooingLTRIncrement>
+      <WooHooingFunDelta value="80">
+        <!--The Fun delta while WooHooing.-->
+      </WooHooingFunDelta>
+      <WooHooingSocialDelta value="125">
+        <!--The Social delta while WooHooing.-->
+      </WooHooingSocialDelta>
+      <WooHooingCommodity value="Amorous">
+        <!--Social STC after WooHooing.-->
+      </WooHooingCommodity>
+    </kVisitRabbitHoleTuning>
+    <kFieldTripGardeningIncrease value="345">
+      <!--How much Gardening skill a sim gets per hour on a field trip-->
+    </kFieldTripGardeningIncrease>
+    <kFieldTripFishingIncrease value="345">
+      <!--How much Fishing skill a sim gets per hour on a field trip-->
+    </kFieldTripFishingIncrease>
+    <kFieldTripPerformanceIncrease value="20">
+      <!--How much careerPerformace increase per hour on a field trip-->
+    </kFieldTripPerformanceIncrease>
+    <kFieldTripFunIncrease value="40">
+      <!--How much fun a sim gains per hour on a field trip-->
+    </kFieldTripFunIncrease>
+    <kFieldTripTNSPercentages value="0.33, 0.66">
+      <!--At what percentage points of the field trip should do a TNS-->
+    </kFieldTripTNSPercentages>
+    <kFieldTripChildGardeningIncrease value="30">
+      <!--How much Gardening skill a child gets per hour on a field trip-->
+    </kFieldTripChildGardeningIncrease>
+    <kStealSpaceRocksTuning>
+      <HoursAvailable value="20, 6">
+        <!--The hours of the day the interaction is available.  First number represents start time, second end time.-->
+      </HoursAvailable>
+      <InteractionLength value="60">
+        <!--The max amount of time the interaction will last in Sim minutes.-->
+      </InteractionLength>
+      <ReceiveItemEveryXMinutes value="15">
+        <!--The Sim will receive an item every X minutes during the raid.-->
+      </ReceiveItemEveryXMinutes>
+      <SpaceRockWeights value="0.65, 0.3, 0.05">
+        <!--Range: 0.0 - 1.0. Description: Weighted List of probabilities for space rock types. Values represent Small, Medium and Large.-->
+      </SpaceRockWeights>
+      <BustChance value="20">
+        <!--The chance the interaction will be busted by the police.-->
+      </BustChance>
+      <BustTimeMin value="15">
+        <!--If BustChance is met, the earliest amount of time into the raid the bust will happen.-->
+      </BustTimeMin>
+      <BustTimeMax value="30">
+        <!--If BustChance is met, the greatest amount of time into the raid the bust will happen.  This needs to be less than RaidLength.-->
+      </BustTimeMax>
+      <TNSLocalizationKey value="Gameplay/ActorSystems/Alien/StealSpaceRocks:ScienceLabTNS">
+        <!--The localization key for the Steal Space Rocks interaction TNSs.-->
+      </TNSLocalizationKey>
+    </kStealSpaceRocksTuning>
+    <kCheckForDivingWorkTuning>
+      <AvailableOpportunities value="EP10_SkillUnderwaterDiving_Seashells1, EP10_SkillUnderwaterDiving_Seashells2, EP10_SkillUnderwaterDiving_Caves1, EP10_SkillUnderwaterDiving_Caves2">
+        <!--Which EP10 SCUBA Diving Opportunities are available at the rabbit hole.-->
+      </AvailableOpportunities>
+    </kCheckForDivingWorkTuning>
+    <kClassScubaDuration value="60">
+      <!--How long a scuba class lasts, in Sim minutes-->
+    </kClassScubaDuration>
+    <kClassScubaCost value="400">
+      <!--How much a scuba class costs, in Simoleons-->
+    </kClassScubaCost>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kWorkHardStressPerSimHour value="-10">
+      <!--This value is additive.  It will be combined with the regular job's stress level-->
+    </kWorkHardStressPerSimHour>
+    <kOverworkedStressLimit value="-40">
+      <!--Range: Motive value.  Description:  Fun/Stress motive value below which the Sim gets overworked.  If a Sim has the overworked buff, he/she cannot select the 'work hard' tone.  Should be higher than the stress limit.-->
+    </kOverworkedStressLimit>
+    <kWorkHardMoodLimit value="-50">
+      <!--Range: Mood value.  Description:  Minimum amount of mood for a Sim to select this tone.-->
+    </kWorkHardMoodLimit>
+    <kWorkaholicTraitStressMultiplier value="0.75" />
+    <kWorkHardExtraMoney value="3">
+      <!--extra money per hour earned while working hard-->
+    </kWorkHardExtraMoney>
+  </Current_Tuning>
+</base>

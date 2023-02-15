@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLookGoodMirrosUpgradeTuning>
+      <UpgradeTime value="240">
+        <!--The amount of time it takes to do the upgrade in minutes-->
+      </UpgradeTime>
+      <SkillGainRate value="2400">
+        <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+      </SkillGainRate>
+      <BadFailureChance value="5">
+        <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+      </BadFailureChance>
+      <ShouldShockInPuddle value="False">
+        <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+      </ShouldShockInPuddle>
+    </kLookGoodMirrosUpgradeTuning>
+    <kMakeoverDurationInMinutes value="5">
+      <!--Number of Sim minutes the makeover loop animations are played for.-->
+    </kMakeoverDurationInMinutes>
+    <kNpcStylistMakeoverCost value="175">
+      <!--Number of Simoleons that NPC Stylists charge for a makeover.-->
+    </kNpcStylistMakeoverCost>
+    <kUpgradeReactionWeightsBonus value="25, 0, -30">
+      <!--Additional weighting values for customers' reactions when using a Styling Station with Look-Good Mirrors Upgrade.  Use positive numbers to increase weighting, negative numbers to decrease weighting, or zero to leave weighting unaffected.  Format: (bonusWeightPositiveReaction, bonusWeightNeutralReaction, bonusWeightNegativeReaction).-->
+    </kUpgradeReactionWeightsBonus>
+    <kSparkleVfxFrequency value="30">
+      <!--Number of Sim minutes between sparkle VFX (when the Styling Station has the Look Good Mirrors upgrade).-->
+    </kSparkleVfxFrequency>
+    <kNPCMakeoverDurationInMinutes value="20">
+      <!--Number of Sim minutes the makeover loop animations are played when an NPC is makingover another NPC.-->
+    </kNPCMakeoverDurationInMinutes>
+  </Current_Tuning>
+</base>

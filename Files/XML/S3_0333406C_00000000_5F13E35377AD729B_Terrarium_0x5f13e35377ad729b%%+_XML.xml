@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLookAtInterestingnessDuringInteractions value="75">
+      <!--Interestingness of Terrarium (only used during 'Watch' and 'Examine' interactions).  Setting this too low will make Sims that are Watching/Examining the Terrarium potentially look away at Sims walking nearby, etc. which will look lame.-->
+    </kLookAtInterestingnessDuringInteractions>
+    <kDonateToSciencePriceMultiplier value="1.2, 1.5">
+      <!--Amount extra that donating insects to the Science Lab will give compared to deleting with the Hand Tool.  Format: (MinMultiplier, MaxMultiplier).  A random number in this range is chosen (gaussian distribution) for each new insect caught.-->
+    </kDonateToSciencePriceMultiplier>
+    <kEnvironmentPerValue value="0.05">
+      <!--Range:  ???  Description:  Environment boost per $ value.-->
+    </kEnvironmentPerValue>
+    <kMaxEnvironment value="40">
+      <!--Range:  ???  Description:  Max Enviorenment contribution of a single insect.-->
+    </kMaxEnvironment>
+    <kWatchTerrariumMaxTimeInMinutes value="25">
+      <!--Max time that a Sim will watch the terrarium-->
+    </kWatchTerrariumMaxTimeInMinutes>
+    <kChanceToSuccessfullyReverseEngineerNanite value="0.75, 0.6, 0.45">
+      <!--Percent chance to reverse engineer a common, uncommon, rare nanite : float : Range[0-1]-->
+    </kChanceToSuccessfullyReverseEngineerNanite>
+    <kSkillBoostPercent value="0.05">
+      <!--Increase in chance to succeed per level of skill : float-->
+    </kSkillBoostPercent>
+    <kChanceToSucceedCap value="0.99, 0.95, 0.9">
+      <!--Max chance to reverse engineer a common, uncommon, rare nanite-->
+    </kChanceToSucceedCap>
+    <kReverseEngineerLoopTime value="10">
+      <!--Time to loop in reverse engineering : float-->
+    </kReverseEngineerLoopTime>
+  </Current_Tuning>
+</base>

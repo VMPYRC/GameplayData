@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kJuiceKeggerPartyParams>
+      <PreparationTime value="2">
+        <!--How long the host will prepare before the party starts (in hours)-->
+      </PreparationTime>
+      <PercentageChanceOfBringingAFriend value="30">
+        <!--Percentage chance (0 to 100) of bringing a friend along to the party-->
+      </PercentageChanceOfBringingAFriend>
+      <MinPartyTime value="0.5">
+        <!--Min length of party (in hours): Sims will not leave until this many hours after they arrive (unless motive distress)-->
+      </MinPartyTime>
+      <ChanceOfBringingFood value="25">
+        <!--Percentage chance of bringing food-->
+      </ChanceOfBringingFood>
+      <HourAtWhichChildrenGoHome value="22">
+        <!--Time (in 24 hours) at which children (and their parents) will leave the party-->
+      </HourAtWhichChildrenGoHome>
+      <InitialDesireToSocialize value="50" />
+      <RatioOfMoodToLikingChangeWhenLeavingParty value="0.25">
+        <!--Ratio of mood -> liking update when leaving the party (0.1 means that mood of +90 is turned into +9 liking)-->
+      </RatioOfMoodToLikingChangeWhenLeavingParty>
+      <HoursBeforePartyToInvite value="1">
+        <!--How Many Hours before the Party Start the Host invites Guests to Start coming over-->
+      </HoursBeforePartyToInvite>
+      <MinutesPerLeavingCheck value="5">
+        <!--How Often the Party Checks if people should leave the party. Minutes-->
+      </MinutesPerLeavingCheck>
+      <RelToTimeMod value="0.05">
+        <!--This changes Rel to a scale of 0-200, multiplies it by this number, and adds you min party time to get how long you'll stay to start. Hours-->
+      </RelToTimeMod>
+      <MoodToTimeMod value="0.045">
+        <!--Each MinutesPerLeavingCheck you get an additional Your Mood * MoodToTimeMod Minutes to stay-->
+      </MoodToTimeMod>
+    </kJuiceKeggerPartyParams>
+    <kObjectsOnLotBonus value="20">
+      <!--Party Score increase for having needed items on lot.-->
+    </kObjectsOnLotBonus>
+    <kSkillIncreaseNerd value="0">
+      <!--Skill increase for throwing the party (Nerd)-->
+    </kSkillIncreaseNerd>
+    <kSkillIncreaseSocialite value="100">
+      <!--Skill increase for throwing the party (Socialite)-->
+    </kSkillIncreaseSocialite>
+    <kSkillIncreaseRebel value="0">
+      <!--Skill increase for throwing the party (Rebel)-->
+    </kSkillIncreaseRebel>
+    <kSocializingScoreBonusMultiplier value="1.2">
+      <!--Party Score bonus for overall LTR increase with guests from socializing (multiplier)-->
+    </kSocializingScoreBonusMultiplier>
+    <kHoursForPoliceRecurringCheck value="2">
+      <!--Range:  0 - 100  Description:  Time in hours for check on police arrival-->
+    </kHoursForPoliceRecurringCheck>
+    <kMinMaxHoursForJuiceKeggerParty value="0, 7">
+      <!--Range:  0 - x  Description:  Min and max amount of hours in a party to have full chance for police to come-->
+    </kMinMaxHoursForJuiceKeggerParty>
+    <kMinMaxPeopleForJuiceKeggerParty value="0, 10">
+      <!--Range:  0 - x Description:  Min and max amount of people in a party to have full chance for police to come-->
+    </kMinMaxPeopleForJuiceKeggerParty>
+    <kPhoneCallTimeout value="20">
+      <!--Timeout of police call / friend calls in minutes-->
+    </kPhoneCallTimeout>
+    <kHoursAfterCheckForPoliceArrival value="1">
+      <!--Range:  0 - 100  Description:  Time in hours after the TNS for the police to go to the lot-->
+    </kHoursAfterCheckForPoliceArrival>
+    <kPoliceChanceCalculationWeights value="15, 1, 1">
+      <!--Array of floats: [basechance, length, people]  Description:  Weights for People in the party and Length of the party for Police Chance calculation. Should not be zero.-->
+    </kPoliceChanceCalculationWeights>
+    <kPoliceBaseChance value="0.2">
+      <!--Base Chance for police to arrive-->
+    </kPoliceBaseChance>
+    <kPoliceJoinPartyChance value="60">
+      <!--Chance cop will join the party-->
+    </kPoliceJoinPartyChance>
+    <kHoursForJuiceKegCheck value="0.5">
+      <!--Range:  0 - 100  Description:  Time in hours for check that juice keg has juice-->
+    </kHoursForJuiceKegCheck>
+    <kPercentageMultiplierForObjectsBreaking value="40">
+      <!--Range:  0 - 100  Description:  % chance that each object may break while party is on-->
+    </kPercentageMultiplierForObjectsBreaking>
+    <kTimeUntilSimsComplainAboutNoJuice value="0.5">
+      <!--Range: 0 - 100 Time in hours until Sims start to complain about keg being out of juice-->
+    </kTimeUntilSimsComplainAboutNoJuice>
+    <kTimeUntilSimsLeaveWhenNoJuice value="1.5">
+      <!--Range: 0 - 100 Time in hours until Sims start to leave if the keg is out of juice-->
+    </kTimeUntilSimsLeaveWhenNoJuice>
+    <kSkillIncreaseNerdAttending value="0">
+      <!--Skill increase for attending the party (Nerd)-->
+    </kSkillIncreaseNerdAttending>
+    <kSkillIncreaseSocialiteAttending value="50">
+      <!--Skill increase for attending the party (Socialite)-->
+    </kSkillIncreaseSocialiteAttending>
+    <kSkillIncreaseRebelAttending value="0">
+      <!--Skill increase for attending the party (Rebel)-->
+    </kSkillIncreaseRebelAttending>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLowAmbienceThreshold value="3">
+      <!--Range: Positive integer. Description: If the population of the room meets this threshold, low population ambience will play in the room.-->
+    </kLowAmbienceThreshold>
+    <kHighAmbienceThreshold value="8">
+      <!--Range: Positive integer. Description: If the population of the room meets this threshold, high population ambience will play in the room.-->
+    </kHighAmbienceThreshold>
+    <kMidAmbienceThreshold value="6">
+      <!--Range: Positive integer. Description: If the population of the room meets this threshold, medium population ambience will play in the room.-->
+    </kMidAmbienceThreshold>
+    <kDiveBarAmbienceSoundStrings value="bar_amb_dive_lo, bar_amb_dive_med, bar_amb_dive_high">
+      <!--Ambience sounds for Dive Bar. From left to right is {low, medium, high} population ambiences.-->
+    </kDiveBarAmbienceSoundStrings>
+    <kDanceClubAmbienceSoundStrings value="bar_amb_dance_lo, bar_amb_dance_med, bar_amb_dance_high">
+      <!--Ambience sounds for Dance Club. From left to right is {low, medium, high} population ambiences.-->
+    </kDanceClubAmbienceSoundStrings>
+    <kCocktailLoungeAmbienceSoundStrings value="bar_amb_lounge_lo, bar_amb_lounge_med, bar_amb_lounge_high">
+      <!--Ambience sounds for Cocktail Lounge. From left to right is {low, medium, high} population ambiences.-->
+    </kCocktailLoungeAmbienceSoundStrings>
+  </Current_Tuning>
+</base>

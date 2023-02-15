@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToHaveNightmare value="0.1">
+      <!--The chance a sim will have a nightmare instead of a dream. (0.0 - 1.0)-->
+    </kChanceToHaveNightmare>
+    <kHoursToFulfillDream value="12">
+      <!--The amount of time, in SimHours, a sim has to fulfill the dream.-->
+    </kHoursToFulfillDream>
+    <kHoursRequiredToDream value="4">
+      <!--The amount of time, in SimHours, a sim has to dream in order to be allowed to have the dream come true.-->
+    </kHoursRequiredToDream>
+    <kPromKingQueenAddedWeight value="30">
+      <!--The amount to add to the PromKing/Queen weight when dreaming about being the King/Queen. (0.0 +)-->
+    </kPromKingQueenAddedWeight>
+    <kAddedConsecutiveDaysWithA value="2">
+      <!--Increasing chances of being Valedictorian.  The number of days to add to the sims consecutive days with an A-->
+    </kAddedConsecutiveDaysWithA>
+  </Current_Tuning>
+</base>

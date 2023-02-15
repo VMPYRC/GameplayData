@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteSpeed value="0.25" />
+    <kAutonomyMultiplierForObjectSelectionWhenInUse value="0.2">
+      <!--When object is in use, autonomy will multiply the score to pick this object by this factor. Positive float between 0 (do not pick object in use) and 1 (object in use should not effect autonomy).-->
+    </kAutonomyMultiplierForObjectSelectionWhenInUse>
+    <kGlobalObjectFadeTime value=".35">
+      <!--Number of real-time seconds that objects will fade in/out over.-->
+    </kGlobalObjectFadeTime>
+    <sBaseLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="0">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <DefaultInteractionLookAtThreshold value="35">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </sBaseLookAtTuning>
+    <kInitialDepreciation value="0.15">
+      <!--Percentage of intial value an object depreciates once purchased (0-1).-->
+    </kInitialDepreciation>
+    <kDailyDepreciation value="0.1">
+      <!--Percentage of intial value an object depreciates each day (0-1).-->
+    </kDailyDepreciation>
+    <kDepreciationLimit value="0.4">
+      <!--Maximum percentage of intial value an object can have due to depreciation (0-1).-->
+    </kDepreciationLimit>
+    <kInitialStoreDepreciation value="0.15">
+      <!--Percentage of intial value an object depreciates once purchased (0-1).-->
+    </kInitialStoreDepreciation>
+    <kCeilingClipThreshold value="0.02">
+      <!--Positive float - vertical distance, such that (if indoors) objects whose bounding boxes come within this vertical distance of the floor above are counted as clipping the ceiling.-->
+    </kCeilingClipThreshold>
+    <kRadiusForCommonInteractionObjects value="20">
+      <!--Range:  1 - ???  Description:  Radius in meters a Sim looks for an object to run a common interaction on.-->
+    </kRadiusForCommonInteractionObjects>
+    <kSitAdditionalPercentPerComfyPoint value="0.02">
+      <!--For global 'Sit' interaction to make Sims more likely to autonomously choose to sit on objects with higher Comfy scores.  Each point of Comfy score that a sittable object has is multiplied by this value, and that is added to 1.0 to get the sitting multiplier due to Comfy.-->
+    </kSitAdditionalPercentPerComfyPoint>
+    <kAutonomyMultiplierForJoiningInWithOthers value="1.2">
+      <!--When object supports more than one actor, this is the multiplier on the autonomy score to encourage people to act together.-->
+    </kAutonomyMultiplierForJoiningInWithOthers>
+    <kAutonomyMultiplierForJoiningInWithDislikedSim value="0.1">
+      <!--When object being used by a sim who the actor dislikes, autonomy will multiply the score to pick this object by this factor. This should be significantly less than 1-->
+    </kAutonomyMultiplierForJoiningInWithDislikedSim>
+    <kKleptoRespawnTimeDays value="8">
+      <!--Number of days until a kleptomaniac swiped object is respawned.-->
+    </kKleptoRespawnTimeDays>
+    <kBlockingTimeToTestOut value="4">
+      <!--The length of time (in Sim minutes) that a Sim will not autonomously consider an object after he (or someone else) has failed to interact with it-->
+    </kBlockingTimeToTestOut>
+    <kBlockingTimeToLowerScore value="15">
+      <!--The length of time (in Sim minutes) that a Sim will lower the score of autonomous interactions on the object after he (or someone else) has failed to interact with it. This should be longer than kBlockingTimeToTestOut-->
+    </kBlockingTimeToLowerScore>
+    <kAutonomyMultiplierForObjectSelectionWhenSomeSimIsRouting value="0.9">
+      <!--When someone is routing to the object and the object is not in use, autonomy will multiply the score to pick this object by this factor. Positive float between 0 (do not consider object) and 1 (someone routing to the object should not effect autonomy). Initial GPE Default: 0.90f-->
+    </kAutonomyMultiplierForObjectSelectionWhenSomeSimIsRouting>
+    <kStolenObjectPriceAttenuationThreshold value="865">
+      <!--The marginal value a stolen object has over this threshold is multiplied by kStolenObjectPriceAttenuation-->
+    </kStolenObjectPriceAttenuationThreshold>
+    <kStolenObjectPriceAttenuation value="0.06">
+      <!--Multiplier on the portion of the value of a stolen object over the threshold [0-1].-->
+    </kStolenObjectPriceAttenuation>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <sLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="1">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <!--deprecated on: 4/4/2008 11:38:40 AM-->
+    </sLookAtTuning>
+  </Deprecated_Tuning>
+</base>

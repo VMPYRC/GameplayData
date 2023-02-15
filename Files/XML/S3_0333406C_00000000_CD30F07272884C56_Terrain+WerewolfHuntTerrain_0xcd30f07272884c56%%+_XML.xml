@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHuntingBalloons value="balloon_metal, balloon_emerald, balloon_rock, balloon_ladybug, balloon_beetles">
+      <!--List of possible hunting thought balloons-->
+    </kHuntingBalloons>
+    <kInsectRarity value="100, 15, 1, 1">
+      <!--Description:  Weight for finding a particular quality Insect {Common, Uncommon, Rare, ExtraordinarilyUnusual}. Does not have to equal 100 percent.-->
+    </kInsectRarity>
+    <kMetalRarity value="100, 15, 1">
+      <!--Description:  Weight for finding a particular priced Metal {Low, Medium, High}. Does not have to equal 100 percent.-->
+    </kMetalRarity>
+    <kMetalPriceThreshold value="0, 100, 500, 3.402823E+38">
+      <!--Thresholds to determine gem price and type.  Low priced gems are between first and second values.  Medium priced gems are between the second and third values.  High priced gems are are between the third and fourth values.-->
+    </kMetalPriceThreshold>
+    <kGemRarity value="100, 15, 1">
+      <!--Description:  Weight for finding a particular priced Gem {Low, Medium, High}. Does not have to equal 100 percent.-->
+    </kGemRarity>
+    <kGemPriceThreshold value="0, 100, 500, 3.402823E+38">
+      <!--Thresholds to determine gem price and type.  Low priced gems are between first and second values.  Medium priced gems are between the second and third values.  High priced gems are are between the third and fourth values.-->
+    </kGemPriceThreshold>
+    <kMaxObjectsFound value="1,1,1,2,2,2,3,3,3,4,4">
+      <!--Range: 1-4; Description:  Max number of objects that might be found. Per level; Lvels 0-10-->
+    </kMaxObjectsFound>
+    <kBaseFindChance value="1.0">
+      <!--Range: [0.0 - 1.0] Description:  Base chance to find something irregardless of any modifiers.-->
+    </kBaseFindChance>
+    <kFindChanceLevelModifier value="0.75, 0.775, 0.8, 0.825, 0.85, 0.875, 0.9, 0.925, 0.95, 0.95, 0.95">
+      <!--Range: [> 1.0] Description: Modifier applied to the base chance as a multiplication factor. Levels[0-10]-->
+    </kFindChanceLevelModifier>
+    <kBonusForPackHunt value="0.15">
+      <!--Range: [0.0 - 1.0] Description: Increase to base chance if hunting in pack-->
+    </kBonusForPackHunt>
+    <kValidTerrainTypes value="Default, Dirt01, Dirt02, Grass01, Grass02, Sand01, Sand02">
+      <!--Valid terrain types for werewolf hunt.-->
+    </kValidTerrainTypes>
+    <kMinimumDistanceToWander value="5">
+      <!--Minimum distance for werewolf to wander while hunting-->
+    </kMinimumDistanceToWander>
+    <kMaximumDistanceToWander value="45">
+      <!--Maximum distance for werewolf to wander while hunting-->
+    </kMaximumDistanceToWander>
+    <kMinimumTimeToWander value="20">
+      <!--Minimum time for werewolf to wander while hunting in sim minutes-->
+    </kMinimumTimeToWander>
+    <kMaximumTimeToWander value="45">
+      <!--Maximum time for werewolf to wander while hunting in sim minutes-->
+    </kMaximumTimeToWander>
+    <kAllowNonCurrentLots value="True">
+      <!--If true the werewolf will wander off the current lot for the hunt-->
+    </kAllowNonCurrentLots>
+    <kWeightChangePerLevel value="0, 2, 4, 7, 10, 13, 16, 19, 22, 26, 30">
+      <!--The change in weights as the levels pass for lycanthropy skill.  e.g. if weights are 100,100,100 and we set it a level to 25 our weights change to 75,100,125-->
+    </kWeightChangePerLevel>
+    <kHunterStormBuffHuntingRarityWeightModifier value="-25, 25, 50, 10">
+      <!--Range: positive ints length 4. see WerewolfHuntTerrain's gem rarity, metal rarity, and insect rarity tuning. Description:  with the hunters storm buff, weight of finding each rarity type (common, uncommon, rare, extraordinary) is increased by the corresponding number. if rarity value has less than 4 numbers (like rockgemmetal), the first 3 numbers are used.-->
+    </kHunterStormBuffHuntingRarityWeightModifier>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBaseOutcomeWeights value="1, 1, 1, 1">
+      <!--Base Weighting for these outcomes [Fight, ChaseAgain, ReverseRole, Scold], Note Humans can only chase again or scold and pets wont scold.-->
+    </kBaseOutcomeWeights>
+    <kFightOutcomeOverrideTraits value="AggressivePet, ShyPet, SkittishPet,HunterPet">
+      <!--Trait overrides for Fight outcome.-->
+    </kFightOutcomeOverrideTraits>
+    <kFightOutcomeOverrideWeights value="3, 0, 0, 2">
+      <!--Weighting override for fight outcome for coresponding tuned traits.-->
+    </kFightOutcomeOverrideWeights>
+    <kChaseAgainOutcomeOverrideTraits value="ShyPet, Coward, Brave, LazyPet, Loser">
+      <!--Trait overrides for Chase again outcome.-->
+    </kChaseAgainOutcomeOverrideTraits>
+    <kChaseAgainOutcomeOverrideWeights value="3, 3, 0, 1, 2">
+      <!--Weighting override for Chase again outcome for coresponding tuned traits.-->
+    </kChaseAgainOutcomeOverrideWeights>
+    <kReverseRoleOutcomeOverrideTraits value="AggressivePet, ShyPet, LazyPet, HunterPet">
+      <!--Trait overrides for ReverseRole outcome.-->
+    </kReverseRoleOutcomeOverrideTraits>
+    <kReverseRoleOutcomeOverrideWeights value="3, 1, 0, 2">
+      <!--Weighting override for Reverse Role outcome for coresponding tuned traits.-->
+    </kReverseRoleOutcomeOverrideWeights>
+    <kScoldOutcomeOverrideTraits value="Coward, Brave, HotHeaded, Evil, MeanSpirited, Loser">
+      <!--Trait overrides for Scold outcome.-->
+    </kScoldOutcomeOverrideTraits>
+    <kScoldOutcomeOverrideWeights value="1, 2, 3, 3, 3, 0">
+      <!--Weighting override for scold outcome for coresponding tuned traits.-->
+    </kScoldOutcomeOverrideWeights>
+    <kBaseChancePushMeanChase value="10">
+      <!--Base chanse of pushing mean chase social after Bark AT, Hiss, Growl At, Pounce.-->
+    </kBaseChancePushMeanChase>
+    <kChancePushMeanChaseOverrideTraits value="FriendlyPet, SkittishPet, ShyPet, AggressivePet, MeanPet, HunterPet">
+      <!--Trait overrides for Chance of pushing mean chase social after Bark AT, Hiss, Growl AT, Pounce.-->
+    </kChancePushMeanChaseOverrideTraits>
+    <kChancePushMeanChaseOverrideChances value="0, 0, 0, 30, 30, 15">
+      <!--Range 0-100: Chance override for pusing for mean chase for coresponding tuned traits.-->
+    </kChancePushMeanChaseOverrideChances>
+    <kMaxNumLoops value="3">
+      <!--Max number of times this interaction can be pushed again.-->
+    </kMaxNumLoops>
+    <kSocialTuningScoreWeight value="1">
+      <!--Weighting of Social tuning when autonomously choosing to do this interaction-->
+    </kSocialTuningScoreWeight>
+    <kInteractionTuningScoreWeight value="1">
+      <!--Weighting of Interaction tuning tool tuning when autonomously choosing to do this interaction-->
+    </kInteractionTuningScoreWeight>
+  </Current_Tuning>
+</base>

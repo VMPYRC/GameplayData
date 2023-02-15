@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMoneyJarThresholds value="10, 50">
+      <!--Money jar thresholds.  [0, 1st) - empty [1st, 2nd) - some money [2nd, max) - full.  Also used as the reaction thresholds for the 'collect money' interaction.-->
+    </kMoneyJarThresholds>
+    <kRouteAwayRange value="3, 10">
+      <!--RouteAwayRange - Min/Max range customers will route away after an interaction.-->
+    </kRouteAwayRange>
+    <kFoodSpoilTimeInHours value="48">
+      <!--FoodSpoilTimeInHours - Time in hours after food is placed on the bake sale table that it spoils.-->
+    </kFoodSpoilTimeInHours>
+    <kAutonomousTendTimeRange value="3, 6">
+      <!--AutonomousTendTimeRange - Min/Max range sims will autonomously tend a bake sale table.-->
+    </kAutonomousTendTimeRange>
+    <kMetaAutonomyDesiredRadius value="15">
+      <!--MetaAutonomyDesiredRadius - Radius around the bake sale table that should adhere to metaautonomy venue tuning (eg. if desired number of sims is within this radius, no other sims will show up).-->
+    </kMetaAutonomyDesiredRadius>
+    <kAutonomyDisabledRange value="0.5, 2">
+      <!--AutonomyDisabledRange - Min/Max range in sim hours that tender sim will have autonomy disabled while tending.  The actual time will be determined by a random Gaussian Distribution between these two values.-->
+    </kAutonomyDisabledRange>
+  </Current_Tuning>
+</base>

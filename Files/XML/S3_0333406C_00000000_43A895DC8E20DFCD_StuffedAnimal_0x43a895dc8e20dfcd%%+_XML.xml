@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kChildishEnvironmentScore value="15">
+      <!--Range: Environment score.  Description:  Childish environment score provided to babies, toddlers, children, or Sims with the Childish trait.-->
+    </kChildishEnvironmentScore>
+    <kTalkThroughRelationshipSTCDelta value="75">
+      <!--Friendly STC, per hour, for Talking Through and Being Talked Through-->
+    </kTalkThroughRelationshipSTCDelta>
+    <kTalkThroughRelationshipLTRDelta value="12">
+      <!--LTR gain, per hour, for Talking Through and Being Talked Through-->
+    </kTalkThroughRelationshipLTRDelta>
+    <kTalkThroughNegativeThreshold value="-15">
+      <!--Range: -100.0 to 100.0.  Description: Relationship level under which reactions are negative-->
+    </kTalkThroughNegativeThreshold>
+    <kTalkThroughPositiveThreshold value="20">
+      <!--Range: -100.0 to 100.0.  Description: Relationship level above which reactions are positive-->
+    </kTalkThroughPositiveThreshold>
+    <kPlayWithTimeToRemoveLonelyDebuff value="5">
+      <!--Range: Positive floats.  Description: Time in Sim Minutes for the Lonely debuff to be removed by the Play With interaction-->
+    </kPlayWithTimeToRemoveLonelyDebuff>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

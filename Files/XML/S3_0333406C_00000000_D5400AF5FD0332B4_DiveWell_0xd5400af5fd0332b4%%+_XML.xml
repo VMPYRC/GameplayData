@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFallInChanceBase value="0.05">
+      <!--Range: Float [0,1]. Base chance of falling in the well.-->
+    </kFallInChanceBase>
+    <kFallInChanceTrait value="0.25">
+      <!--Range: Float [0,1]. Chance for sims with kFallInTraits to fall in.-->
+    </kFallInChanceTrait>
+    <kFallInTraits value="Clumsy, Childish">
+      <!--List of traits that makes the sim more likely to fall into the dive well.-->
+    </kFallInTraits>
+    <kComplainChanceBase value="0.05">
+      <!--Range: Float [0,1]. Base chance of complaining before diving.-->
+    </kComplainChanceBase>
+    <kComplainChanceTrait value="0.3">
+      <!--Range: Float [0,1]. Chance for sims with kComplainTraits to complain.-->
+    </kComplainChanceTrait>
+    <kComplainTraits value="Coward, Hydrophobic">
+      <!--List of traits that makes the sim more likely to complain before diving.-->
+    </kComplainTraits>
+  </Current_Tuning>
+</base>

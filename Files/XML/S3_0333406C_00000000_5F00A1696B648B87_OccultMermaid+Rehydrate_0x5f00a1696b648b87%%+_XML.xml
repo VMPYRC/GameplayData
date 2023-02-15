@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDermalHydrationAddedFromRehydrate value="50">
+      <!--Range: positive floats. Amount of temperature added to frozen sim-->
+    </kDermalHydrationAddedFromRehydrate>
+    <kRouteDistanceMinMax value="1.1, 1.3">
+      <!--Range: positive floats [min, max]. The min and max of radial route distance to the frozen sim.-->
+    </kRouteDistanceMinMax>
+    <kAskedToRehydrateAcceptTraits value="Good, Friendly">
+      <!--If Asked To Rehydrate: If the Sim has any of these traits, they will always accept.-->
+    </kAskedToRehydrateAcceptTraits>
+    <kAskedToRehydrateRejectLTR value="-50">
+      <!--If Asked To Rehydrate: If the Sim's LTR is <= to this value they will reject.-->
+    </kAskedToRehydrateRejectLTR>
+    <kAskedToRehydrateRejectLTRChange value="-5">
+      <!--If Asked To Rehydrate: If rejected, the LTR between Sims will be updated by this amount.-->
+    </kAskedToRehydrateRejectLTRChange>
+    <kAskedToRehydrateRejectTraits value="Evil, MeanSpirited">
+      <!--If Asked To Rehydrate: If the Sim has any of these traits, they will reject.-->
+    </kAskedToRehydrateRejectTraits>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCloudinessRandomizeInterval value="3, 5">
+      <!--Float. {Min, max} hours between randomizing cloudiness params.-->
+    </kCloudinessRandomizeInterval>
+    <kCloudinessRateOfChange value="0.25, 1">
+      <!--Float. {Min, max} rate of changes per hour for cloudiness. 1 is max cloudiness, so a value of .5 will mean going from no clouds to max cloudiness will take at least 2 hours.-->
+    </kCloudinessRateOfChange>
+    <kCloudinessPrecipitationLeadTime value="1, 3">
+      <!--Float, {Min, max} hours before precipitation that clouds start gathering.-->
+    </kCloudinessPrecipitationLeadTime>
+    <kCloudinessLeadAmount value="0.5, 0.5">
+      <!--Float, {Min, max} Less than 1. cloud cover when precipitation starts.-->
+    </kCloudinessLeadAmount>
+    <kPrecipitationReactionTimeout value="30">
+      <!--Float. Sims will try to react to precipitation when it starts. In the event they can't react immediately, the reaction request will timeout in this period. This is only for the initial weather start reaction - weather-specific idles will still be valid throughout the entire weather event.-->
+    </kPrecipitationReactionTimeout>
+    <kWeatherPredictionAccuracy value="1">
+      <!--Range: 0-1. The accuracy of check weather prediction. If 0, the weather report will always be wrong, and at 1, it will always be right.-->
+    </kWeatherPredictionAccuracy>
+    <kTemperaturePredictionError value="5">
+      <!--Range: Positive float. A random +- modifier applied to min/max temp in check weather, to get some variation. This should not be too large.-->
+    </kTemperaturePredictionError>
+    <kMaxCloudiness value="3">
+      <!--Range: Positive float. Max amount of cloudiness the target cloudiness can be.-->
+    </kMaxCloudiness>
+    <kDurationThresholdToInfluenceWeatherReport value="2">
+      <!--Range: 0-Inf. Threshold for duration a weather event to influence the weather report. See DT#123540-->
+    </kDurationThresholdToInfluenceWeatherReport>
+    <kWindIntensityForWavyFlags value="Heavy">
+      <!--The minimum WindIntensity at which flags will change to their windy state. (None, Light, Moderate, Heavy)-->
+    </kWindIntensityForWavyFlags>
+  </Current_Tuning>
+</base>

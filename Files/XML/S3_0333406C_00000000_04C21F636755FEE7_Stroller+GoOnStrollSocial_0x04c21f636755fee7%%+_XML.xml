@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinDistanceToLookForLotToRouteTo value="0" />
+    <kMaxDistanceToLookForLotToRouteTo value="360" />
+    <kPreferredDistanceRoutePerSegment value="40" />
+    <kLotChoiceRandomnessFactor value="2">
+      <!--How much more likely we will choose a lot at the optimal distance over one at the farthest distance.-->
+    </kLotChoiceRandomnessFactor>
+    <kTimeToStrollInMinutes value="120" />
+    <kTimeToAddBuffInMinutes value="45" />
+    <kRelationshipSTC value="Friendly">
+      <!--Social STC for this interaction.-->
+    </kRelationshipSTC>
+    <kRelationshipDeltaSTC value="35">
+      <!--STC delta per Sim hour.-->
+    </kRelationshipDeltaSTC>
+    <kRelationshipDeltaLTR value="5">
+      <!--LTR delta per Sim hour.-->
+    </kRelationshipDeltaLTR>
+    <kToddlerCommodityKinds value="Social, Fun, Energy">
+      <!--Commodity output kinds for toddler.-->
+    </kToddlerCommodityKinds>
+    <kToddlerCommodityDeltas value="50, 50, 5">
+      <!--Commodity output values (per hour) for toddler.-->
+    </kToddlerCommodityDeltas>
+  </Current_Tuning>
+</base>

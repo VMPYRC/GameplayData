@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSpawnDiameter value="6">
+      <!--The diameter (in tiles) around the junkyard spawner we'll try to place the junked object within.-->
+    </kSpawnDiameter>
+    <kInvalidSpawnDiameter value="8">
+      <!--The diameter (in tiles, disregarding elevation difference) around junkyard spawner we'll consider a spawned junked object placement invalid.  NOTE: This should be tuned with consideration of what the 'kSpawnDiameter' tuning var is set to (this var should not be set any lower than 'kSpawnDiameter' but can be greater than 'kSpawnDiameter' if desired).-->
+    </kInvalidSpawnDiameter>
+  </Current_Tuning>
+</base>

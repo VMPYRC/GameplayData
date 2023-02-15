@@ -1,0 +1,1739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Occults (EP7)</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>53</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>624</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Owner Is Female</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>OwnerIsFemaleFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>54</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>626</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Partner is $Occult (New partner)</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Vampire</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PartnerIsOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>56</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>561</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Successfully Make Out With $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Vampire</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>MakeOutWithOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSimKissed</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>57</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>562</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Break Up With $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Vampire</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>BreakUpWithOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kBreakUp</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>60</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>626</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Partner is $Occult (New partner)</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Werewolf</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PartnerIsOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>61</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>561</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Successfully Make Out With $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Werewolf</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>MakeOutWithOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSimKissed</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>63</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>562</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Break Up With $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Werewolf</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>BreakUpWithOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kBreakUp</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>64</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>560</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Marry An $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Vampire</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>MarryOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kMarriage</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>67</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>554</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchSimStartFunction</StartFunctionName>
+      <DisplayName>Is $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>All</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>SimIsOccultCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>CheckFunctionAutoSatisfiesFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>68</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>554</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchSimStartFunction</StartFunctionName>
+      <DisplayName>Is $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>All</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>SimIsOccultCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>CheckFunctionAutoSatisfiesFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>70</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>554</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchSimStartFunction</StartFunctionName>
+      <DisplayName>Is $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>All</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>SimIsOccultCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>CheckFunctionAutoSatisfiesFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>71</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>554</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchSimStartFunction</StartFunctionName>
+      <DisplayName>Is $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>All</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>SimIsOccultCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>CheckFunctionAutoSatisfiesFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/040299ad-982d-4ce2-bcc3-43dad21bbd9c:Name</NameKey>
+    <Name>Swan Dive</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>040299ad-982d-4ce2-bcc3-43dad21bbd9c</ChallengeGuid>
+    <ExportVersion>10</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>(((53AndOP54)AndOP(56ThenOP57))ThenOP((60ThenOP61)ThenOP(63ThenOP64)))</LogicString>
+    <FailureString>((67OrOP68)OrOP(70OrOP71))</FailureString>
+    <DescriptionKey>Gameplay/Challenges/040299ad-982d-4ce2-bcc3-43dad21bbd9c:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\romance_53.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_gold_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>121</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>568</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>15</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Make a Sim think about you</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kMadeSimThinkOfMe</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>122</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/0e8adc01-b39c-48df-965e-46715e765186:Name</NameKey>
+    <Name>Master of Seduction</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>0e8adc01-b39c-48df-965e-46715e765186</ChallengeGuid>
+    <ExportVersion>9</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>121</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/0e8adc01-b39c-48df-965e-46715e765186:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\vampire_39.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_silver_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>406</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>617</CompletionConditionId>
+      <InputNumber>8</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $n $Occult friends or better  (Make a new friend)</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Fairy</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>HasNOccultFriendsOrBetterFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>407</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>554</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Is $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Fairy</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>SimIsOccultCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>CheckFunctionAutoSatisfiesFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>408</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/2491d648-b921-42e0-a7a1-2abc603e76e8:Name</NameKey>
+    <Name>The Fairy House Party Party</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>2491d648-b921-42e0-a7a1-2abc603e76e8</ChallengeGuid>
+    <ExportVersion>8</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>(406AndOP407)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/2491d648-b921-42e0-a7a1-2abc603e76e8:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\friendship_36.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_silver_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>758</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>561</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Successfully Make Out With $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Werewolf</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>MakeOutWithOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSimKissed</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>759</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>561</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Successfully Make Out With $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Fairy</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>MakeOutWithOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSimKissed</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>760</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>561</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Successfully Make Out With $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Ghost</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>MakeOutWithOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSimKissed</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>762</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>561</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Successfully Make Out With $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Vampire</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>MakeOutWithOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSimKissed</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>764</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>561</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Successfully Make Out With $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Witch</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>MakeOutWithOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSimKissed</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>765</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>561</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Successfully Make Out With $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>All</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>MakeOutWithOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSimKissed</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>766</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/54321f93-c99d-4316-b95c-ed68f16303a3:Name</NameKey>
+    <Name>All Things Great and Small</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>54321f93-c99d-4316-b95c-ed68f16303a3</ChallengeGuid>
+    <ExportVersion>9</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(((758AndOP759)AndOP760)AndOP(762AndOP(764AndOP765)))</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/54321f93-c99d-4316-b95c-ed68f16303a3:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\romance_49.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>771</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>619</CompletionConditionId>
+      <InputNumber>8</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $n $Occult enemies or worse (Make a new enemy)</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Fairy</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>HasNOccultEnemiesOrWorseFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>772</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>554</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Is $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Witch</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>SimIsOccultCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>CheckFunctionAutoSatisfiesFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>773</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/55b074ee-49e7-46d2-b51f-c600173c64fa:Name</NameKey>
+    <Name>I Don't Believe in Fairies</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>55b074ee-49e7-46d2-b51f-c600173c64fa</ChallengeGuid>
+    <ExportVersion>8</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>(771AndOP772)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/55b074ee-49e7-46d2-b51f-c600173c64fa:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\enemies_35.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_silver_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>868</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>565</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>8</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Turn a Sim into a Vampire</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kTurnedSim</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>869</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/63456137-bef7-46ca-b41f-eb13fdad5d8f:Name</NameKey>
+    <Name>Brood Sire</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>63456137-bef7-46ca-b41f-eb13fdad5d8f</ChallengeGuid>
+    <ExportVersion>8</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>868</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/63456137-bef7-46ca-b41f-eb13fdad5d8f:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\vampire_38.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_silver_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1003</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>617</CompletionConditionId>
+      <InputNumber>5</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $n $Occult friends or better  (Make a new friend)</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Vampire</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>HasNOccultFriendsOrBetterFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1004</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>554</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Is $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Vampire</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>SimIsOccultCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>CheckFunctionAutoSatisfiesFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1005</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/7884876b-7f2d-47f2-8118-0fd9858f9640:Name</NameKey>
+    <Name>Glitter Groupies</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>7884876b-7f2d-47f2-8118-0fd9858f9640</ChallengeGuid>
+    <ExportVersion>8</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(1003AndOP1004)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/7884876b-7f2d-47f2-8118-0fd9858f9640:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\friendship_51.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1048</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>619</CompletionConditionId>
+      <InputNumber>8</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $n $Occult enemies or worse (Make a new enemy)</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Witch</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>HasNOccultEnemiesOrWorseFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1049</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>554</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Is $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Fairy</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>SimIsOccultCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>CheckFunctionAutoSatisfiesFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1050</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/7bec8f73-729a-4310-9238-56ebad6df0f9:Name</NameKey>
+    <Name>Unnatural Enemies</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>7bec8f73-729a-4310-9238-56ebad6df0f9</ChallengeGuid>
+    <ExportVersion>8</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(1048AndOP1049)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/7bec8f73-729a-4310-9238-56ebad6df0f9:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\enemies_34.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_silver_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1055</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>617</CompletionConditionId>
+      <InputNumber>8</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $n $Occult friends or better  (Make a new friend)</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Witch</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>HasNOccultFriendsOrBetterFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1056</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>554</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Is $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Witch</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>SimIsOccultCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>CheckFunctionAutoSatisfiesFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1057</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/7ddb58c3-1ac1-42ea-afbb-da876a01eaf9:Name</NameKey>
+    <Name>Covenant</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>7ddb58c3-1ac1-42ea-afbb-da876a01eaf9</ChallengeGuid>
+    <ExportVersion>9</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>(1055AndOP1056)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/7ddb58c3-1ac1-42ea-afbb-da876a01eaf9:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\friendship_37.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_silver_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1363</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>562</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>14</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Break Up With $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Fairy</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>BreakUpWithOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kBreakUp</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1364</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>626</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>30</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Partner is $Occult (New partner)</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Fairy</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PartnerIsOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1365</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>624</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Owner Is Female</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>OwnerIsFemaleFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>1366</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/a7a072d5-4aef-47e8-80fe-0644214a9a1d:Name</NameKey>
+    <Name>1 Girl, 15 Fairy Companions</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>a7a072d5-4aef-47e8-80fe-0644214a9a1d</ChallengeGuid>
+    <ExportVersion>9</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>((1363AndOP1364)AndOP1365)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/a7a072d5-4aef-47e8-80fe-0644214a9a1d:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\romance_62.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_silver_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1582</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>634</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have an $Occult child</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Fairy</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>HaveOccultOffspringFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1583</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>634</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have an $Occult child</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Ghost</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>HaveOccultOffspringFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1584</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>634</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have an $Occult child</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Werewolf</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>HaveOccultOffspringFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1586</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>635</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Be married to an $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Vampire</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>BeMarriedToOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1588</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>554</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Is $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Witch</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>SimIsOccultCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>CheckFunctionAutoSatisfiesFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1589</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>580</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName />
+      <DisplayName>Ride Broom to $n different Lots</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>VisitNLotsByBroom</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRideBroomToLot</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>1590</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/c4fc5a4f-b38d-4346-9d2f-c5c797ffaae0:Name</NameKey>
+    <Name>Monster Mash</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>c4fc5a4f-b38d-4346-9d2f-c5c797ffaae0</ChallengeGuid>
+    <ExportVersion>17</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(((1582AndOP1583)AndOP1584)AndOP(1586AndOP(1588AndOP1589)))</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/c4fc5a4f-b38d-4346-9d2f-c5c797ffaae0:Description</DescriptionKey>
+    <ThemeKey>Family</ThemeKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <ThemeKey>Time-Sensitive</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>true</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>3000-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\multiple_59.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1814</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>554</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Is $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Werewolf</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>SimIsOccultCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>CheckFunctionAutoSatisfiesFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1816</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>635</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Be married to an $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Vampire</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>BeMarriedToOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1817</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Buff</SubjectType>
+        <EnumName>JustMarried</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1818</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/dffe68e4-2cbc-45da-a6d3-321e06a19319:Name</NameKey>
+    <Name>Where Opposites Attract</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>dffe68e4-2cbc-45da-a6d3-321e06a19319</ChallengeGuid>
+    <ExportVersion>9</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>(1814AndOP(1816AndOP1817))</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/dffe68e4-2cbc-45da-a6d3-321e06a19319:Description</DescriptionKey>
+    <ThemeKey>Family</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\werewolf_55.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1828</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>307</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Owner Has $Trait</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Trait</SubjectType>
+        <EnumName>SupernaturalFanTrait</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>HaveTraitFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1829</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>617</CompletionConditionId>
+      <InputNumber>3</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $n $Occult friends or better  (Make a new friend)</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Werewolf</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>HasNOccultFriendsOrBetterFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1832</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>617</CompletionConditionId>
+      <InputNumber>3</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $n $Occult friends or better  (Make a new friend)</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Vampire</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>HasNOccultFriendsOrBetterFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1833</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>617</CompletionConditionId>
+      <InputNumber>3</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $n $Occult friends or better  (Make a new friend)</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Witch</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>HasNOccultFriendsOrBetterFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1835</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>617</CompletionConditionId>
+      <InputNumber>3</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $n $Occult friends or better  (Make a new friend)</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Fairy</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>HasNOccultFriendsOrBetterFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1836</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>617</CompletionConditionId>
+      <InputNumber>3</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $n $Occult friends or better  (Make a new friend)</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Ghost</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>HasNOccultFriendsOrBetterFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1837</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/e05a271b-9d66-49d2-b261-d8e3bfddb515:Name</NameKey>
+    <Name>The Odd Bunch</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>e05a271b-9d66-49d2-b261-d8e3bfddb515</ChallengeGuid>
+    <ExportVersion>11</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>((1828AndOP1829)AndOP((1832AndOP1833)AndOP(1835AndOP1836)))</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/e05a271b-9d66-49d2-b261-d8e3bfddb515:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernaturalFan_54.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>1973</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>604</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>30</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Succeed at $Interaction</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Interaction</SubjectType>
+        <KeyValue>Sims3.Gameplay.Objects.FoodObjects.EatRaw+Definition</KeyValue>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SucceedAtInteractionFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kInteractionSuccess</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>1974</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/f3fd7abd-8567-4b36-9163-3ff2dd8ec698:Name</NameKey>
+    <Name>Meatatarian</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>f3fd7abd-8567-4b36-9163-3ff2dd8ec698</ChallengeGuid>
+    <ExportVersion>8</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>1973</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/f3fd7abd-8567-4b36-9163-3ff2dd8ec698:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\werewolf_58.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_silver_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>2031</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>562</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>14</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Break Up With $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Witch</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>BreakUpWithOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kBreakUp</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>2032</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>626</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>30</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Partner is $Occult (New partner)</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Witch</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PartnerIsOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRelationshipLTRChanged</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>2033</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>625</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Owner Is Male</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>OwnerIsMaleFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kChallengeCircumstanceFulfilled</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>2034</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/f9e2b1fb-a245-4ed9-93a7-9f48f0be7a92:Name</NameKey>
+    <Name>1 Boy, 15 Magical Constorts</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>f9e2b1fb-a245-4ed9-93a7-9f48f0be7a92</ChallengeGuid>
+    <ExportVersion>8</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>((2031AndOP2032)AndOP2033)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/f9e2b1fb-a245-4ed9-93a7-9f48f0be7a92:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>Relationship</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\romance_63.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_silver_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>2037</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>604</CompletionConditionId>
+      <InputNumber>3</InputNumber>
+      <NecessaryCompletions>10</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Succeed at $Interaction</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Interaction</SubjectType>
+        <KeyValue>Sims3.Gameplay.Objects.Environment.GardenGnome+KickGnome+Definition</KeyValue>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SucceedAtInteractionFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kInteractionSuccess</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>2038</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/fb8cd215-c3b9-4501-abc7-0bba0be470d0:Name</NameKey>
+    <Name>And Your Little Gnome Too</Name>
+    <SetName>Occults (EP7)</SetName>
+    <ChallengeGuid>fb8cd215-c3b9-4501-abc7-0bba0be470d0</ChallengeGuid>
+    <ExportVersion>8</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>2037</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/fb8cd215-c3b9-4501-abc7-0bba0be470d0:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\witch_56.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_bronze_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

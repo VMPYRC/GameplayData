@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinPassToAllowSwitchingLots value="75">
+      <!--Range:  float  Description:  Time before allow traveler sim to try to change lot - CMB-->
+    </kMinPassToAllowSwitchingLots>
+    <kChanceToGoToWasteland value="0.4">
+      <!--Range:  0-1  Description:  Chance go to the wasteland - CMB-->
+    </kChanceToGoToWasteland>
+    <kTimeToGoBackToBaseCamp value="5">
+      <!--Range:  float  Description:  time to go back to base camp - CMB-->
+    </kTimeToGoBackToBaseCamp>
+    <kTimeToReleaseFromBaseCamp value="21">
+      <!--Range:  float  Description:  time to go back to base camp - CMB-->
+    </kTimeToReleaseFromBaseCamp>
+    <kChanceToGoToRecreationPark value="0.3">
+      <!--Range:  0-1  Description:  Chance go to the RecreationPark - CMB-->
+    </kChanceToGoToRecreationPark>
+  </Current_Tuning>
+</base>

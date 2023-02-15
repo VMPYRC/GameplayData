@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="40">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kTimeToWaitForOthers value="30">
+      <!--Sim minutes spent waiting for others to come over. Positive float. Initial GPE default: 40.0f-->
+    </kTimeToWaitForOthers>
+    <kTimeToReadFortune value="4">
+      <!--Sim minutes to read from the crystal ball.  Positive float.  Initial GPE default: 4.0f-->
+    </kTimeToReadFortune>
+    <kChanceOfGoodFortune value="70">
+      <!--Chance of getting good fortune (buff or gift).  Positive float from 0 to 100.  Initial GPE default: 65-->
+    </kChanceOfGoodFortune>
+    <kChanceOfGoodBonusForLucky value="25">
+      <!--Increased chance of getting good fortune for naturally lucky sims.  Positive float from 0 to 100.  Initial GPE default: 15-->
+    </kChanceOfGoodBonusForLucky>
+    <kChanceOfGoodPenaltyForUnlucky value="25">
+      <!--Reduced chance of getting good fortune for naturally unlucky sims.  Positive float from 0 to 100.  Initial GPE default: 15-->
+    </kChanceOfGoodPenaltyForUnlucky>
+    <kChanceOfGoodCooldownPenalty value="5">
+      <!--Cooldown reduced chance of getting good fortune after repeated use (commulative).  Positive float from 0 to 100.  Initial GPE default: 15-->
+    </kChanceOfGoodCooldownPenalty>
+    <kCooldownDuration value="12">
+      <!--Cooldown timeout in sim hours.  Positive float. Initial GPE default: 24-->
+    </kCooldownDuration>
+    <kMaxGiftsToGive value="3">
+      <!--Maximum number of gifts to give.  Positive integer.  Initial GPE default: 1-->
+    </kMaxGiftsToGive>
+    <kLTRAccueOfBS value="-10">
+      <!--The amount the relationship changes after accused of false fortune. Range: -100 to 100.  Initial GPE default: -20-->
+    </kLTRAccueOfBS>
+    <kLTRBeliveFortune value="15">
+      <!--The amount the relationship changes after believing fortune.  Range: -100 to 100.  Initial GPE default: 30-->
+    </kLTRBeliveFortune>
+    <kSpellSuccessEnchant value="70">
+      <!--SpellSuccess: Chance for Enchant Spell to Succeed.  Float chance representing percentage of Success-->
+    </kSpellSuccessEnchant>
+    <kEnchantmentCooldownTime value="6">
+      <!--Enchantment Effect Duration.  time until the enchantment disappears by itself.  Simhours. GPE default 5.0f.-->
+    </kEnchantmentCooldownTime>
+    <kChanceOfGiftGeneric value="16">
+      <!--Chance of getting generic gift when having a good fortune.  Positive float from 0 to 100.  All good odds must total less than 100, remaining chance is lucky fortune.  Initial GPE default: 15-->
+    </kChanceOfGiftGeneric>
+    <kChanceOfGiftMoney value="2">
+      <!--Chance of getting money plant when having a good fortune.  Positive float from 0 to 100.  All good odds must total less than 100, remaining chance is lucky fortune.  Initial GPE default: 0-->
+    </kChanceOfGiftMoney>
+    <kChanceOfGiftLifeFruit value="2">
+      <!--Chance of getting life fruit when having a good fortune.  Positive float from 0 to 100.  All good odds must total less than 100, remaining chance is lucky fortune.  Initial GPE default: 3-->
+    </kChanceOfGiftLifeFruit>
+    <kChanceOfGiftDeathFlower value="2">
+      <!--Chance of getting death flower when having a good fortune.  Positive float from 0 to 100.  All good odds must total less than 100, remaining chance is lucky fortune.  Initial GPE default: 3-->
+    </kChanceOfGiftDeathFlower>
+    <kChanceAccuseOfBS value="15">
+      <!--Chance to accuse of BS.  GPE default 15.0f.-->
+    </kChanceAccuseOfBS>
+    <kRelationshipSuffersChance value="15">
+      <!--Chance of getting randomly chosen relationship reduced when having a bad fortune.  Positive float from 0 to 100.  All bad odds must total less than 100, remaining chance is unlucky fortune.  Initial GPE default: 15-->
+    </kRelationshipSuffersChance>
+    <kRelationshipSuffersDelay value="4.3">
+      <!--How long to wait before making a random relationship suffers.  Simhours. GPE default 5.0f.-->
+    </kRelationshipSuffersDelay>
+    <kRelationshipSuffersAmount value="-15">
+      <!--Amount to harm LTR.  Range: -100 to 100. GPE default -45.0f.-->
+    </kRelationshipSuffersAmount>
+    <kRelationshipSuffersCount value="4">
+      <!--How many times to make a random relationship suffers.  Simhours. GPE default 4.-->
+    </kRelationshipSuffersCount>
+    <kFamilyRelationshipSuffersChance value="15">
+      <!--Chance of getting randomly chosen family member relationship reduced when having a bad fortune.  Positive float from 0 to 100.  All bad odds must total less than 100, remaining chance is unlucky fortune.  Initial GPE default: 15-->
+    </kFamilyRelationshipSuffersChance>
+    <kFamilyRelationshipSuffersDelay value="5.3">
+      <!--How long to wait before making a family relationship suffers.  Simhours. GPE default 5.0f.-->
+    </kFamilyRelationshipSuffersDelay>
+    <kFamilyRelationshipSuffersCount value="4">
+      <!--How many times to make a family relationship suffers.  Simhours. GPE default 4.-->
+    </kFamilyRelationshipSuffersCount>
+    <kFamilyRelationshipSuffersAmount value="-15">
+      <!--Amount to harm LTR.  Range: -100 to 100. GPE default -45.0f.-->
+    </kFamilyRelationshipSuffersAmount>
+    <kGradesSuffersChance value="15">
+      <!--Chance of getting school performance reduced when having a bad fortune.  Must be in school.  Positive float from 0 to 100.  All bad odds must total less than 100, remaining chance is unlucky fortune.  Initial GPE default: 15-->
+    </kGradesSuffersChance>
+    <kGradesSuffersDelay value="5">
+      <!--How long to wait before making a random relationship suffers.  Simhours. GPE default 5.0f.-->
+    </kGradesSuffersDelay>
+    <kGradesSuffersAmount value="-15">
+      <!--Amount to harm school career. Range: -100 to 100. GPE default -45.0f.-->
+    </kGradesSuffersAmount>
+    <kGradesSuffersCount value="4">
+      <!--How many times to make school career suffer.  Simhours. GPE default 4.-->
+    </kGradesSuffersCount>
+    <kAddFriendChance value="15">
+      <!--Chance of getting a new friend when having a good fortune.  Positive float from 0 to 100.  All good odds must total less than 100, remaining chance is lucky fortune.  Initial GPE default: 15-->
+    </kAddFriendChance>
+    <kAddFriendDelay value="5">
+      <!--How long to wait before adding a new friend.  Simhours. GPE default 5.0f.-->
+    </kAddFriendDelay>
+    <kFortuneDrainChance value="15">
+      <!--Chance of getting a your fortune drain away for a bad fortune.  Positive float from 0 to 100.  All bad odds must total less than 100, remaining chance is lucky fortune.  Initial GPE default: 15-->
+    </kFortuneDrainChance>
+    <kFortuneDrainDelay value="5">
+      <!--How long to wait before fortune drain.  Simhours. GPE default 5.0f.-->
+    </kFortuneDrainDelay>
+    <kFortuneDrainCount value="4">
+      <!--How many times to make school career suffer.  Simhours. GPE default 4.-->
+    </kFortuneDrainCount>
+    <kFortuneDrainMinSimoleans value="-1000">
+      <!--Fortune drain most negative number simoleans to drain.  Negative int. GPE default -1000.-->
+    </kFortuneDrainMinSimoleans>
+    <kFortuneDrainMaxSimoleans value="-100">
+      <!--Fortune drain least negative number simoleans to drain.  Negative int. GPE default -100.-->
+    </kFortuneDrainMaxSimoleans>
+    <kOpportunityChance value="15">
+      <!--Chance of getting opportunity for a good fortune.  Positive float from 0 to 100.  All good odds must total less than 100, remaining chance is lucky fortune.  Initial GPE default: 15-->
+    </kOpportunityChance>
+    <kOpportunityDelay value="2.5">
+      <!--How long to wait before opportunity.  Simhours. GPE default 5.0f.-->
+    </kOpportunityDelay>
+    <kCareerEventChance value="15">
+      <!--Chance of getting career event for a good fortune.  Positive float from 0 to 100.  All good odds must total less than 100, remaining chance is lucky fortune.  Initial GPE default: 15-->
+    </kCareerEventChance>
+    <kCareerEventDelay value="5">
+      <!--How long to wait before career event.  Simhours. GPE default 5.0f.-->
+    </kCareerEventDelay>
+    <kFriendVisitChance value="15">
+      <!--Chance of getting friend visit for a good fortune.  Positive float from 0 to 100.  All good odds must total less than 100, remaining chance is lucky fortune.  Initial GPE default: 15-->
+    </kFriendVisitChance>
+    <kFriendVisitDelay value="3.5">
+      <!--How long to wait before friend visit event.  Simhours. GPE default 5.0f.-->
+    </kFriendVisitDelay>
+    <kFortuneTellerPerformance value="10">
+      <!--Performance boost to FortuneTeller career per sim hour of using the crystal ball-->
+    </kFortuneTellerPerformance>
+  </Current_Tuning>
+</base>

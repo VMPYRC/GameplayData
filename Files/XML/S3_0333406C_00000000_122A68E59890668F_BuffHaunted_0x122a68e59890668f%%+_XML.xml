@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinTimeForGhost value="2">
+      <!--Range: Positive float below kMaxTimeForGhost.  Description:  Min time to wait before spawning a ghost in sim hours.-->
+    </kMinTimeForGhost>
+    <kMaxTimeForGhost value="6">
+      <!--Range: Positive float above kMinTimeForGhost.  Description:  Max time to wait before spawning a ghost in sim hours.-->
+    </kMaxTimeForGhost>
+    <kMinDespawnTimeForGhost value="1">
+      <!--Range: Positive float below kMaxDespawnTimeForGhost.  Description:  Min time to wait before de-spawning a ghost in sim hours.-->
+    </kMinDespawnTimeForGhost>
+    <kMaxDespawnTimeForGhost value="4">
+      <!--Range: Positive float above kMinDespawnTimeForGhost.  Description:  Max time to wait before de-spawning a ghost in sim hours.-->
+    </kMaxDespawnTimeForGhost>
+    <kChanceForScaredOrTerrified value="0.5">
+      <!--Range: Positive float 0.0-1.0.  Description:  The chance the haunted sim will be terrified or scared.-->
+    </kChanceForScaredOrTerrified>
+    <kTraitsForTerrified value="Coward, Excitable, Insane, Neurotic, OverEmotional, Unlucky">
+      <!--Description:  Traits that will make the Scared a Terrified mood let.-->
+    </kTraitsForTerrified>
+    <kRequiredEnergyForSimToWakeUp value="-50">
+      <!--Float in range 0 to 100.  The minimum energy the sim must have to be woken up at all.-->
+    </kRequiredEnergyForSimToWakeUp>
+    <kGhostsSocialMotive value="-80">
+      <!--Float in range -100 to 100.  The social motive the ghost will drop to when haunting a sim.-->
+    </kGhostsSocialMotive>
+    <kGhostAwakeSleeperTime value="15">
+      <!--Range: Positive float.  The number of sim minutes the ghost will wait for the sleepers to awake.-->
+    </kGhostAwakeSleeperTime>
+    <kGhostScareSleeperChance value="0.3">
+      <!--Range: Positive float 0.0-1.0.  The chance the ghost will scare the sleeping sim while waiting to awaken.-->
+    </kGhostScareSleeperChance>
+  </Current_Tuning>
+</base>

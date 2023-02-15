@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="0" />
+      <MapTagFilterType value="Work">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-35">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="90">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kInvestCost value="18000">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="40000">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="3000">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="6000">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="7000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="1000000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kCanInvestHere value="True">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kNpcExitFreq value="10">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kNighttimeLightSunsetDelta value="1">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kPreventLotPurchase value="True">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="True">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+    <kSimMinutesSpentInRabbitHoleToPrank value="60">
+      <!--Time spent by sim inside the rabbithole to play a fake prank. Units: Sim minutes. Positive float. Initial GPE default: 60.0f-->
+    </kSimMinutesSpentInRabbitHoleToPrank>
+    <kClassWritingCost value="400">
+      <!--How much a Writing class costs, in Simoleons-->
+    </kClassWritingCost>
+    <kClassWritingDuration value="60">
+      <!--How much a Writing class lasts, in Sim minutes-->
+    </kClassWritingDuration>
+    <kClassSocialNetworkingCost value="500">
+      <!--Type : Integer  Description:  The cost of the Social Networking class at this rabbithole.-->
+    </kClassSocialNetworkingCost>
+    <kClassSocialNetworkingDuration value="60">
+      <!--Type : Float  Description:  The length of time in Sim Minutes to complete the Social Networking class.-->
+    </kClassSocialNetworkingDuration>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kMinMoodToHoldMeeting value="20">
+      <!--Min mood value to be able to hold a meeting in Business rabbithole. Range: [-100, 100]. Initial GPE Default: 20-->
+      <!--deprecated on: 4/22/2008 3:08:02 PM-->
+    </kMinMoodToHoldMeeting>
+  </Deprecated_Tuning>
+</base>

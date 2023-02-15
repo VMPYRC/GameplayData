@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAmountOfBonusPerformance value="20">
+      <!--Performance gain for doing 'do independent expt'. Positive float. Unit: same as the one used by Career.mPerformance.-->
+    </kAmountOfBonusPerformance>
+    <kTimeSpentInDoExptToGainBenefit value="12">
+      <!--Sim hours spent in 'do independent expt' tone to get a some benefit. Positive float. Unit: Sim hours.-->
+    </kTimeSpentInDoExptToGainBenefit>
+    <kChanceOfGettingPromotionFromDoIndependentExpt value="0.9">
+      <!--Chance of getting a promotion. Positive float. Constraint: A number higher than the tunable for performance bonus but at most 1f. If you tune it to 1f, there is be no chance of no benefit. Unit: Sim hours.-->
+    </kChanceOfGettingPromotionFromDoIndependentExpt>
+    <kChanceOfGettingPerformanceBonusFromDoIndependentExpt value="0.8">
+      <!--Chance of getting a performance gain while performing 'do independent expt' tone. Constraint: if this number is 1, then the chance for promotion and benefit being awarded will not exist. Positive float. Range: [0, 1].-->
+    </kChanceOfGettingPerformanceBonusFromDoIndependentExpt>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

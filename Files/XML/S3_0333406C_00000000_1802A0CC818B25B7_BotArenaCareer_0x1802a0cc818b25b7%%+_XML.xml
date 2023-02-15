@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNewHoloPetUnlock value="5">
+      <!--Range (Inclusive) 0 - 10: Description: Level the bot arena career unlocks a new holo pet object.-->
+    </kNewHoloPetUnlock>
+    <kProTuneUpUnlock value="6">
+      <!--Range (Inclusive) 0 - 10: Description: Level the bot arena career unlocks the professional tune up interaction.-->
+    </kProTuneUpUnlock>
+    <kOverseeCompetitionUnlock value="10">
+      <!--Range (Inclusive) 0 - 10: Description: Level the bot arena career unlocks the oversee competition interaction.-->
+    </kOverseeCompetitionUnlock>
+    <kPromoteCompetitionUnlock value="6">
+      <!--Range (Inclusive) 0 - 10: Description: Level the bot arena career unlocks the promote upcoming competition interaction.-->
+    </kPromoteCompetitionUnlock>
+    <kScoutRobotTributeUnlock value="10">
+      <!--Range (Inclusive) 0 - 10: Description: Level the bot arena career unlocks the scout robot tribute interaction.-->
+    </kScoutRobotTributeUnlock>
+    <kScoutRobotTributeChipSlotAward value="20">
+      <!--Range 0+: Description: Multiplier award for each chip trait slot the bot has when triggering a successful result on the scout robot tribute array.-->
+    </kScoutRobotTributeChipSlotAward>
+    <kScoutRobotTributeBotLevelValues value="150, 200, 225, 240, 260, 275, 300, 325, 350, 400, 500">
+      <!--Description: Array of 11 values for each bot level that will add simoleans when triggering a successful result on the scout robot tribute array.-->
+    </kScoutRobotTributeBotLevelValues>
+    <kScoutRobotTributeMoodAxisValues value="49, 50, 41, 46, 36, 57">
+      <!--MoodAxis: {None, Happy, Stressed, Uncomfortable, Angry, Fulfilled} Description: Array of six values for each mood axis that will add simoleans when triggering a successful result on the scout robot tribute array.-->
+    </kScoutRobotTributeMoodAxisValues>
+    <kScoutRobotTributeChips value="ArtisticAlgorithms, Sentience, Professional, FearOfHumans, MoodAdjuster, Efficient, HoloProjector">
+      <!--Description: Array of trait chip names that will add simolean value when triggering a successful result on the scout robot tribute array. Must match kScoutRobotTributeChipValues in length-->
+    </kScoutRobotTributeChips>
+    <kScoutRobotTributeChipValues value="65, 151, 63, -100, 15, 37, 87">
+      <!--Description: Array of values for each trait chip named that will add simoleans when triggering a successful result on the scout robot tribute array. Must match kScoutRobotTributeChips in length.-->
+    </kScoutRobotTributeChipValues>
+  </Current_Tuning>
+</base>

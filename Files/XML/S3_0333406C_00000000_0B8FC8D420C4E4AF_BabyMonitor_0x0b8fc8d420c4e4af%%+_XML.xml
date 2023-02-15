@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRoutingDistance value="1">
+      <!--Proximity that a baby will route toward-->
+    </kRoutingDistance>
+    <kAnswerCallRelationLTRChange value="5">
+      <!--Increase to LTR when answering a baby monitor call-->
+    </kAnswerCallRelationLTRChange>
+    <kPeekabooChanceToPlayInsteadOfGrownupInteraction value="70">
+      <!--Peekaboo.  Chance that two toddlers in the same room will play peekabo instead of calling an adult.-->
+    </kPeekabooChanceToPlayInsteadOfGrownupInteraction>
+    <kPeekabooSimMinutesBetweenLTRUpdates value="5">
+      <!--Peekaboo. Number of sim minutes between LTR updates between the two sims.-->
+    </kPeekabooSimMinutesBetweenLTRUpdates>
+    <kPeekabooLTRLikingDelta value="10">
+      <!--Peekaboo.  The amount of LTR liking increase between the two sims each time that it increases.-->
+    </kPeekabooLTRLikingDelta>
+    <kAutonomousCooldownTime value="50">
+      <!--Time before autonomy can trigger it again, in sim minutes-->
+    </kAutonomousCooldownTime>
+    <kFakeBabyAutonomyRefresh value="10">
+      <!--Time to do fake autonomy checks for baby, in sim minutes-->
+    </kFakeBabyAutonomyRefresh>
+    <kPeekabooDuration value="60">
+      <!--Duration of peekaboo game in minutes.-->
+    </kPeekabooDuration>
+  </Current_Tuning>
+</base>

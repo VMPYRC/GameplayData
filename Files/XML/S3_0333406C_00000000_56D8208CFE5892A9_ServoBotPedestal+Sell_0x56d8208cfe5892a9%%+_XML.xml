@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLTRPortrait value="20">
+      <!--Range -100 to 100: Description:  The tunable LTR threshold above or equal to which the servo bot will display thought bubble of the sim selling them.-->
+    </kLTRPortrait>
+    <kLTRLaugh value="-20">
+      <!--Range -100 to 100: Description:  The tunable LTR threshold below or equal to which the sim selling the servo bot will utter an evil laugh.-->
+    </kLTRLaugh>
+    <kTraitsEvilSimToLaughWhileSelling value="MeanSpirited, Evil, Grumpy, AntiTV">
+      <!--Array of TraitNames. List of traits that will cause the sim selling the bot to laugh at it.-->
+    </kTraitsEvilSimToLaughWhileSelling>
+  </Current_Tuning>
+</base>

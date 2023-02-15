@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kOutsideRouteOffsetMinLengthMultiplier value="0.15">
+      <!--Range: positive floats < 1. (GPE default = 015) multiplier on the length of the shortest side of the rectangle of skating space to calculate the OutsideRouteOffset-->
+    </kOutsideRouteOffsetMinLengthMultiplier>
+    <kOutsideRouteRadiusMinLengthMultiplier value="0.2">
+      <!--Range: positive floats < 1. (GPE default = 0.2) multiplier on the length of the shortest side of the rectangle of skating space to calculate the OutsideRouteRadius-->
+    </kOutsideRouteRadiusMinLengthMultiplier>
+    <kMinPondWidthAndHeightBeforeSkatable value="6">
+      <!--Range: positive floats. Minimum rectangle width and height placeable on a pond before sims can skate on it.-->
+    </kMinPondWidthAndHeightBeforeSkatable>
+    <kMinPondWidthAndHeightForInnerRoute value="10">
+      <!--Range: positive floats. For the max rectangle that can fix on a pond, the rectangle's width and height have to be at least this number before there can be an inner route.-->
+    </kMinPondWidthAndHeightForInnerRoute>
+    <kInsideRouteOffsetMinLengthMultiplier value="0.3">
+      <!--Range: positive floats < 1. (GPE default = 0.35) multiplier on the length of the shortest side of the rectangle of skating space to calculate the InsideRouteOffset-->
+    </kInsideRouteOffsetMinLengthMultiplier>
+    <kCircumferenceMultiplierForMaxSkatersInsideRoute value="0.05">
+      <!--Range: positive floats < 1. (GPE default = 0.05) multiplier on the circumference to calculate max number of people that can be in the inside route -->
+    </kCircumferenceMultiplierForMaxSkatersInsideRoute>
+    <kCircumferenceMultiplierForMaxSkatersOutsideRoute value="0.06667">
+      <!--Range: positive floats < 1. (GPE default = 0.06667) multiplier on the circumference to calculate max number of people that can be in the outside route-->
+    </kCircumferenceMultiplierForMaxSkatersOutsideRoute>
+  </Current_Tuning>
+</base>

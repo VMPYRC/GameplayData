@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumberOfTimesForHydrophobicDogToRouteToOtherSlots value="2, 3">
+      <!--Number of slots that a Hydrophobic dog will route before jumping in.-->
+    </kNumberOfTimesForHydrophobicDogToRouteToOtherSlots>
+    <kChanceToShowHydrophobicThoughtBalloon value="1">
+      <!--Chance that a hydrophobic dog will show the hates swimming icon after routing to edge of pool.-->
+    </kChanceToShowHydrophobicThoughtBalloon>
+    <kEnergyThresholdForSwimming value="-50">
+      <!--If the dog has an energy level lower than this value they cannot swim in the pool.-->
+    </kEnergyThresholdForSwimming>
+    <kBaseChanceToDoCorgiFlop value="0.2">
+      <!--Base Chance of doing a corgi flop entry-->
+    </kBaseChanceToDoCorgiFlop>
+    <kIncreasedChanceToDoCorgiFlop value="0.6">
+      <!--New chance that kTraitsThatAreMoreLikelyToCorgiFlop traits will do the corgi flop entry.-->
+    </kIncreasedChanceToDoCorgiFlop>
+    <kTraitsThatNeverCorgiFlop value="AdventurousPet, AgilePet">
+      <!--List of traits that never corgi flop.-->
+    </kTraitsThatNeverCorgiFlop>
+    <kTraitsThatAreMoreLikelyToCorgiFlop value="ShyPet, SkittishPet, CluelessPet">
+      <!--List of traits that have an increased chance to corgi flop.-->
+    </kTraitsThatAreMoreLikelyToCorgiFlop>
+    <kTraitsThatAlwaysCorgiFlop value="HydrophobicPet">
+      <!--List of traits that will always corgi flop.-->
+    </kTraitsThatAlwaysCorgiFlop>
+  </Current_Tuning>
+</base>

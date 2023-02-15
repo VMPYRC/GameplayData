@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnergyThresholdForSleepCat value="60">
+      <!--Range: -100 to 100.  Description:  Cat's energy level must be below this number to do the sleep interaction.-->
+    </kEnergyThresholdForSleepCat>
+    <kEnergyThresholdForSleepDog value="40">
+      <!--Range: -100 to 100.  Description:  Dog's energy level must be below this number to do the sleep interaction.-->
+    </kEnergyThresholdForSleepDog>
+    <kNapTimeMinMax value="15, 30">
+      <!--Min/Max amount of time in sim mins pets should nap. Actual time will be randomly picked between min/max-->
+    </kNapTimeMinMax>
+    <kNightmareLength value="10, 15">
+      <!--Min/Max amount of time in sim mins a nightmare lasts. Actual time will be randomly picked between min/max-->
+    </kNightmareLength>
+  </Current_Tuning>
+</base>

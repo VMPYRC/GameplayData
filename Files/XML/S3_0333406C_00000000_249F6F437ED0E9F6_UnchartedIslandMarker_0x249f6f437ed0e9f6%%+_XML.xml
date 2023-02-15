@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEffectNames value="ep10HiddenIsland0, ep10HiddenIsland1, ep10HiddenIsland2, ep10HiddenIsland3, ep10HiddenIsland4, ep10HiddenIsland5, ep10HiddenIsland6, ep10HiddenIsland7, ep10HiddenIslandFiller0, ep10HiddenIslandFiller1, ep10HiddenIslandFiller2">
+      <!--List of fog effect names.-->
+    </kEffectNames>
+    <kCameraLerpTime value="2">
+      <!--Time it takes to lerp to the island being discovered.-->
+    </kCameraLerpTime>
+    <kExplorersRewardTimeInterval value="5">
+      <!--Time interval between checking for Sims discovering Explorer's Reward, in Sim minutes.-->
+    </kExplorersRewardTimeInterval>
+    <kExplorersRewardRadius value="125">
+      <!--Discovery radius for Explorer's Reward.-->
+    </kExplorersRewardRadius>
+    <kEffectRadiuses value="75, 75, 125, 200, 125, 200, 100, 75, 0, 0, 0">
+      <!--Effect radiuses. Keep in sync with kEffectNames's length-->
+    </kEffectRadiuses>
+    <kFadeIncrement value="0.01">
+      <!--Amount of fade per increment-->
+    </kFadeIncrement>
+    <kFadeDuration value="5">
+      <!--Time of fade in minutes-->
+    </kFadeDuration>
+  </Current_Tuning>
+</base>

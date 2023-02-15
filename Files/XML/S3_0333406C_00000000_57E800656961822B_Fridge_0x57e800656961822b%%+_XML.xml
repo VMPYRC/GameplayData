@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentScoreAdjustmentWithSpoiledFood value="-10">
+      <!--This is the amount the environment score is reduced if the fridge has spoiled food in it. Should be negative.-->
+    </kEnvironmentScoreAdjustmentWithSpoiledFood>
+    <kMaximumNumberOfSimsInLine value="3">
+      <!--Range: Positive integers.  Description:  Maximum number of Sims that can wait in line.-->
+    </kMaximumNumberOfSimsInLine>
+    <kTimeToWaitInLine value="20">
+      <!--Range: Positive floats.  Description: Amount of Sim minutes a Sim will wait in line before timing out and exiting.-->
+    </kTimeToWaitInLine>
+    <sLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="0">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <DefaultInteractionLookAtThreshold value="120">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </sLookAtTuning>
+    <kSnacksToExclude value="EP9Brownie, foodSnackCookie, foodSnackDonutEP09, EP9Bagel, EP9Muffin, EP9KeyLimePie, EP9CheeseDanish, FoodBirthdayCakeSlice, EP9Empanada, EnergyDrink, ColdOne, EP9SnackRamen, EP9SnackBreakfastBurrito, EP9SnackPopcorn, EP9SnackCurryWurst, EP9SnackPizza">
+      <!--Array of Strings. Medator names of snacks to exclude from mini fridge-->
+    </kSnacksToExclude>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

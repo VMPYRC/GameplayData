@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTrickUnlockLevel value="6, 7, 8">
+      <!--Performance Level at which trick 1, 2 and 3 is unlocked respectively-->
+    </kTrickUnlockLevel>
+    <kChanceOfEpicSuccess value="50">
+      <!--Chance of Epic Success. Range 0 - 100-->
+    </kChanceOfEpicSuccess>
+    <kChanceOfEpicFailure value="1">
+      <!--Chance of Epic Failure. Range 0 - 100-->
+    </kChanceOfEpicFailure>
+    <kTrickSuccess value="0.025">
+      <!--Bonus to performance meter on doing the Perform trick success. Range 0 - 1-->
+    </kTrickSuccess>
+    <kTrickEpicSuccess value="0.025">
+      <!--Bonus to performance meter on doing the Perform Epic success. Range 0 - 1-->
+    </kTrickEpicSuccess>
+    <kTrickEpicFail value="0.045">
+      <!--Additional De-bonus to performance meter on doing the Perform trick epic failure. Range 0 - 1-->
+    </kTrickEpicFail>
+    <kXPforTrick value="20">
+      <!--Experience earned for performing a trick-->
+    </kXPforTrick>
+    <kXPforFailingTrick value="6">
+      <!--Experience earned for failing a trick-->
+    </kXPforFailingTrick>
+  </Current_Tuning>
+</base>

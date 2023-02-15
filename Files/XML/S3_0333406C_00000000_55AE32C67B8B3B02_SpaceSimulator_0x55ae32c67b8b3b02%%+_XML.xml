@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinDistanceToMoveAwayFromSimulator value="1">
+      <!--The minimum distance a sim will move away when rejected-->
+    </kMinDistanceToMoveAwayFromSimulator>
+    <kMaxDistanceToMoveAwayFromSimulator value="3">
+      <!--The maximum distance a sim will move away when rejected-->
+    </kMaxDistanceToMoveAwayFromSimulator>
+    <kMaxDistanceToConsiderSimToRideWith value="10">
+      <!--Maximum distance to consider Sim to ride with-->
+    </kMaxDistanceToConsiderSimToRideWith>
+    <kRideWithValue value="10">
+      <!--LTR value needed for a Sim to Ride With-->
+    </kRideWithValue>
+    <kCostOfRide value="10">
+      <!--Range:  0 - x  Description:  Cost of a ride in Simoleans-->
+    </kCostOfRide>
+    <kChanceOfPuking value="50">
+      <!--Range: 0 - 100% - Chance that Sim will puke after ludicrous ride-->
+    </kChanceOfPuking>
+    <kCheerRadius value="50">
+      <!--Range: 0 - x - Distance from ride that Sims will cheer after ride-->
+    </kCheerRadius>
+    <kCheerStaggerTime value="0.5">
+      <!--Range: 0 - x - Reaction staggering time for people watching-->
+    </kCheerStaggerTime>
+    <kTimeOutTime value="5">
+      <!--Range: 0 - x - Timeout for other Sim to join me on the ride-->
+    </kTimeOutTime>
+    <kTimeRideLasts value="5">
+      <!--Range: 0 - x - Time ride lasts-->
+    </kTimeRideLasts>
+    <kLtrAfterRide value="2">
+      <!--Value to increase LTR after ride-->
+    </kLtrAfterRide>
+  </Current_Tuning>
+</base>

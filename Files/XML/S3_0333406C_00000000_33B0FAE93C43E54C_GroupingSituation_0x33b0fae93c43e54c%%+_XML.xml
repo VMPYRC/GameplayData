@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxMotiveValue value="10">
+      <!--Range:  50-100  Description:  Max value set for motive (hunger,bladder)-->
+    </kMaxMotiveValue>
+    <kMinMoodLevelForUnHappyExit value="-20">
+      <!--Range:  -100 to -1 Description:  This is min mood threshhold for exiting group-->
+    </kMinMoodLevelForUnHappyExit>
+    <kkMinMoodLevelForHappyExit value="30">
+      <!--Range:  0 - 100  Description:  This is the min threshhold for a happy exit-->
+    </kkMinMoodLevelForHappyExit>
+    <kLTRLoss value="-8">
+      <!--Range:    Description:  LTR value active sims will lose when npc leaves unhappy-->
+    </kLTRLoss>
+    <kLTRGain value="11">
+      <!--Range:    Description:  LTR value active sims will gain when npc leaves happy-->
+    </kLTRGain>
+    <kNumHoursBeforeWorkToLeaveGroup value="4">
+      <!--Range:  float  Description:  Number Hours until work beofe sim leaves group-->
+    </kNumHoursBeforeWorkToLeaveGroup>
+    <kMinEnergyBeforeLeavingGroup value="-50">
+      <!--Range:  float  Description:  Min Energy level before sim leaves group-->
+    </kMinEnergyBeforeLeavingGroup>
+    <kShortTermCommoditiesToExit value="Creepy, Insulting, Awkward, Steamed">
+      <!--Short Term Commodity that sims have with relationship with each other will force sim to leave group..Look at CommodityTable tab in Socializing.xls for valid types-->
+    </kShortTermCommoditiesToExit>
+    <kMaxMotiveForUnhappyExit value="-80">
+      <!--Range:  -100 to 100  Description:  Max value for a core motive that will result in unhappy exit-->
+    </kMaxMotiveForUnhappyExit>
+    <kScoringMulitplierForGroup value="7">
+      <!--Range:  0 - 10  Description:  Multiplier added to Autonomy scoring-->
+    </kScoringMulitplierForGroup>
+    <kSTCConsideredTooRomantic value="Seductive, Hot">
+      <!--Description:  STC to be considered to show too romantic dialog-->
+    </kSTCConsideredTooRomantic>
+    <kRadiusToFollowLeader value="3">
+      <!--Range:  float  Description:  Radius sim will follow leader-->
+    </kRadiusToFollowLeader>
+    <kMinMustRemainInGroup value="60">
+      <!--Range:  float (minutes)  Description:  if sim leaves the group before this time, sim will leave unhappy-->
+    </kMinMustRemainInGroup>
+    <kMinTillShowingTnsAgain value="90">
+      <!--Range:  Greater than 0  Description:  Minutes before showing tns when joining-->
+    </kMinTillShowingTnsAgain>
+    <kMinTillUnhappySimCanGroupAgain value="2880">
+      <!--Range:  In Minutes  Description:  How much time must pass before sim a can group with another sim Bif sim B had left unhappy-->
+    </kMinTillUnhappySimCanGroupAgain>
+    <kNumSimBeforeLonerQuits value="4">
+      <!--Range:  int  Description:  Number of sims before loner sim quits group-->
+    </kNumSimBeforeLonerQuits>
+    <kMaxNumberSims value="8">
+      <!--Range:  2-8  Description:  The max number of sims allowed in group-->
+    </kMaxNumberSims>
+    <kMinimumTimeForSuccessfulDate value="3">
+      <!--Range:  int  (hours) Description:  Hours required since the date started to have a succesful date-->
+    </kMinimumTimeForSuccessfulDate>
+    <kBadDateCooldownTime value="4">
+      <!--Range:  int (hours)  Description:  Hours required for cooldown to ask for date after a bad date-->
+    </kBadDateCooldownTime>
+    <kDateRomanticSocialMultiplier value="2">
+      <!--Multiplier: 1 - x : Multiplier for advertising romantic socials to be added when on a date-->
+    </kDateRomanticSocialMultiplier>
+    <kPdaVisibilityRadius value="12">
+      <!--This is the range around the PDA-ing sims that is used for finding the other sim as the audience for a PDA with someone while being on a date. Positive float. Initial GPE default: 10f.-->
+    </kPdaVisibilityRadius>
+    <kMinDateMoodLevelForUnHappyExit value="-40">
+      <!--Range:  -100 to -1 Description:  This is min mood threshhold for exiting group-->
+    </kMinDateMoodLevelForUnHappyExit>
+    <kMinDateMoodLevelForHappyExit value="40">
+      <!--Range:  0 - 100  Description:  This is the min threshhold for a happy exit-->
+    </kMinDateMoodLevelForHappyExit>
+    <kMaxDateMotiveForUnhappyExit value="-60">
+      <!--Range:  -100 to 100  Description:  Max value for a core motive that will result in unhappy exit-->
+    </kMaxDateMotiveForUnhappyExit>
+    <kMaxDateMotiveValue value="10">
+      <!--Range:  50-100  Description:  Max value set for motive (hunger,bladder)-->
+    </kMaxDateMotiveValue>
+    <kDateLTRLoss value="-15">
+      <!--Range:    Description:  LTR value active sims will lose when npc leaves unhappy-->
+    </kDateLTRLoss>
+    <kDateLTRGain value="15">
+      <!--Range:    Description:  LTR value active sims will gain when npc leaves happy-->
+    </kDateLTRGain>
+    <kIrresistibleTraitDateAcceptanceChance value="95">
+      <!--Range: 0 - 100  Description: Chance that a Sim with the Irresistible trait will be have data proposal accepted.-->
+    </kIrresistibleTraitDateAcceptanceChance>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPuddleTuning>
+      <MaxNumPuddles value="10" />
+      <SpawnSpeedInMinutes value="45">
+        <!--Speed of puddle spawn in Sim Minutes.-->
+      </SpawnSpeedInMinutes>
+    </kPuddleTuning>
+    <kTimeToWaitForBath value="15">
+      <!--Amount of time to wait for a bath, in Sim minutes-->
+    </kTimeToWaitForBath>
+    <kMinimumTimeInBath value="0.1">
+      <!--Minimum amount of time in sim min's sim stays in the tub regardless of if their hygine is at max. NO NOT SET TO 0-->
+    </kMinimumTimeInBath>
+    <kMinimumTimeForScubaAdventure value="30">
+      <!--Minimum amount of time in sim min's sim stays in the tub doing the Scuba Adventure regardless of if their hygiene is at max. NO NOT SET TO 0-->
+    </kMinimumTimeForScubaAdventure>
+    <kRequiredFairySkillLevelRepair value="3">
+      <!--Minimum fairy skill level requirement for the fairy repair interaction-->
+    </kRequiredFairySkillLevelRepair>
+    <kPlantSimHygieneModifier value="1">
+      <!--Hygiene motive modifier for PlantSim taking a bath-->
+    </kPlantSimHygieneModifier>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kMinutesPassedPerPuddle value="15">
+      <!--deprecated on: 11/28/2007 9:11:57 AM-->
+    </kMinutesPassedPerPuddle>
+    <kPuddlesToCreateWhenBroken value="4">
+      <!--deprecated on: 11/30/2007 10:18:49 AM-->
+    </kPuddlesToCreateWhenBroken>
+    <kPuddleSpawnSpeed value="15">
+      <!--Speed of puddle spawn in Sim Minutes.-->
+      <!--deprecated on: 11/30/2007 10:18:49 AM-->
+    </kPuddleSpawnSpeed>
+  </Deprecated_Tuning>
+</base>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceOfSummonOccult value="10">
+      <!--Probability of Summmoning Spell for creating an occult.  Float chance representing percentage of Success-->
+    </kChanceOfSummonOccult>
+    <kEnchantSpellTimeInbetween value="15">
+      <!--Enchant: How long between enchatment animations in Sim minutes-->
+    </kEnchantSpellTimeInbetween>
+    <kEnchantSpellMaxRepeat value="15">
+      <!--Enchant: Max number of times the enchant animation is played on a spellbook-->
+    </kEnchantSpellMaxRepeat>
+    <kUnleashAnimaleDuration value="10">
+      <!--UnleashAnimale: Number of Sim minutes for the cursed sim to play animations-->
+    </kUnleashAnimaleDuration>
+    <kSpellSuccessSummon value="30">
+      <!--SpellSuccess: Chance for Summon Spell to Succeed.  Float chance representing percentage of Success-->
+    </kSpellSuccessSummon>
+    <kSpellSuccessSummonRelation value="30">
+      <!--SpellSuccess: Chance for SummonRelation Spell to Succeed.  Float chance representing percentage of Success-->
+    </kSpellSuccessSummonRelation>
+    <kSpellSuccessMoodElevatus value="25">
+      <!--SpellSuccess: Chance for MoodElevatus Spell to Succeed.  Float chance representing percentage of Success-->
+    </kSpellSuccessMoodElevatus>
+    <kSpellSuccessUnleashAnimale value="25">
+      <!--SpellSuccess: Chance for UnleashAnimale Spell to Succeed.  Float chance representing percentage of Success-->
+    </kSpellSuccessUnleashAnimale>
+    <kSpellSuccessEnchant value="50">
+      <!--SpellSuccess: Chance for Enchant Spell to Succeed.  Float chance representing percentage of Success-->
+    </kSpellSuccessEnchant>
+    <kUnleashAnimaleCurseSuccess value="65">
+      <!--UnleashAnimale: Probability that the curse will work whenever the curse callback is called on a curse sim. Float chance representing percentage of Success-->
+    </kUnleashAnimaleCurseSuccess>
+    <kUnleashBladderDrop value="-90">
+      <!--Bladder drop value on Spell unleash: Value between -100 to 100 to set the bladder motive for all sims cursed-->
+    </kUnleashBladderDrop>
+    <kReviewSpellTime value="10">
+      <!--Sim minutes spent looping the review spells animation. Positive float. Initial GPE default: 10.0f-->
+    </kReviewSpellTime>
+    <kSpellLTRIncrease value="15">
+      <!--Mood Elevatus Spell: Liking increase for all sims int he room-->
+    </kSpellLTRIncrease>
+    <kEnviromentScore value="50">
+      <!--Enviroment Score-->
+    </kEnviromentScore>
+    <kReviewSpellBonus value="30">
+      <!--Bonus Chance for Reviewed Spell.  Float value, GPE default 30.0f-->
+    </kReviewSpellBonus>
+    <kCastSpellEpicFailureChance value="25">
+      <!--Chance of an Epic Failure when a spell is cast.  Float value, GPE default 30.0f-->
+    </kCastSpellEpicFailureChance>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHoursBeforeStartCarpoolArrives value="1">
+      <!--Number of hours before career start time the carpool arrives.-->
+    </kHoursBeforeStartCarpoolArrives>
+    <kFirefighterExtinguishFireSpeedMultiplier value="0.5">
+      <!--Range: Positive floats under 1.0f.  Description: Sims with firefighting career have shorter  (less than 1.0f means time is shortened).-->
+    </kFirefighterExtinguishFireSpeedMultiplier>
+    <kFirefighterUpgradedExtinguishFireSpeedMultiplier value="0.4">
+      <!--Range: Positive floats under 1.0f.  Description: Sims with firefighting career and have upgraded extinguisher have shorter  (less than 1.0f means time is shortened).-->
+    </kFirefighterUpgradedExtinguishFireSpeedMultiplier>
+    <kNumHoursEarlyCanShowUpForWork value="2">
+      <!--The number of hours early a Sim can show up for work and wait outside-->
+    </kNumHoursEarlyCanShowUpForWork>
+    <kMinNumCoworkers value="3">
+      <!--The min number of coworkes job can have-->
+    </kMinNumCoworkers>
+    <kMaxNumCoworkers value="4">
+      <!--The max number of coworkes job can have-->
+    </kMaxNumCoworkers>
+    <kTimeoutForGratefulSimCall value="15">
+      <!--Range:  float  Description:  Timeout for grateful sim call-->
+    </kTimeoutForGratefulSimCall>
+    <kHoursTillSimCalls value="5">
+      <!--Range:  float  Description: hours after completion of job a sim calls firefighter-->
+    </kHoursTillSimCalls>
+    <kRelIncFromGratefulSim value="5">
+      <!--Range:  float  Description: LTR increase when grateful sim calls to thank you-->
+    </kRelIncFromGratefulSim>
+    <kJobTimeOutTime value="5">
+      <!--Range:  float  Description:  Num Hours before job times out if sim is not on the lot-->
+    </kJobTimeOutTime>
+    <kReturnToStationInXMinutes value="20">
+      <!--Range:  float  Description:  Num minutes after job sim will then return home-->
+    </kReturnToStationInXMinutes>
+    <kMinLevelForFirefighterNpc value="3">
+      <!--Range:  0 - max  Description:  The minimum level that Firefighter NPCs will have when becoming active-->
+    </kMinLevelForFirefighterNpc>
+    <kMaxLevelForFirefighterNpc value="5">
+      <!--Range:  0 - max  Description:  The maximum level that Firefighter NPCs will have when becomeing active-->
+    </kMaxLevelForFirefighterNpc>
+    <kFireFighterTraitObjectsStealPerDay value="3">
+      <!--Range: Number of objects.  Description:  Number of objects an active firefighter Sim is allowed to swipe per day.-->
+    </kFireFighterTraitObjectsStealPerDay>
+    <kMinutesTillSimGoToEmergency value="30">
+      <!--Range:  float  Description:  Minutes before sim gets pushed to go to emergency-->
+    </kMinutesTillSimGoToEmergency>
+    <kCoworkerStartTime value="6">
+      <!--Range:  float  Description:  THis is used to determine when a coworker should go to work-->
+    </kCoworkerStartTime>
+    <kCoWorkerEndTime value="2">
+      <!--Range:  float  Description:  This is used to determine when a coworker should go home-->
+    </kCoWorkerEndTime>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,912 @@
+<?xml version="1.0"?>
+<Rewards>
+<DreamRewards>
+  <SKU>BaseGame</SKU>
+  <RegisteredSKU>Undefined</RegisteredSKU>
+  <DreamName></DreamName>
+  <Reward0></Reward0>
+  <Reward1></Reward1>
+  <NotificationId>None</NotificationId>
+ </DreamRewards>
+<OccupationRewards>
+  <SKU>BaseGame</SKU>
+  <RegisteredSKU>Undefined</RegisteredSKU>
+  <Comment></Comment>
+  <GUID></GUID>
+  <Occupation></Occupation>
+  <MinLevel>0</MinLevel>
+  <Type></Type>
+  <Key></Key>
+  <Count>1</Count>
+  <XP></XP>
+  <Instance></Instance>
+  <StyleOrColor></StyleOrColor>
+  <NameKey>GenericAwardNameName</NameKey>
+  <DeliveryMethod></DeliveryMethod>
+  <NotifyMessageKey>DefaultRewardTns</NotifyMessageKey>
+  <AwardNameMessageKey>GenericAwardNameMessage</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,500</Reward0>
+  <Reward1>MedatorInstance,CertificateReward:EP1,1,Cooking</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Rescue 2 Sims</Comment>
+  <GUID>0x099e81fc</GUID>
+  <Occupation>Firefighter</Occupation>
+  <Type>Event</Type>
+  <Key>kFirefighterSaveSims</Key>
+  <Count>2</Count>
+  <XP>100</XP>
+  <Instance>sculptureRewardHonorTrophy</Instance>
+  <StyleOrColor>style7</StyleOrColor>
+  <NameKey>AwardNameFirefighterTrophyHonor</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationFirefighterTrophyHonor</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationFirefighterTrophyHonor</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,100</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardHonorTrophy:EP2,1,style7</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Rescue 10 Sims</Comment>
+  <GUID>0x099e81fd</GUID>
+  <Occupation>Firefighter</Occupation>
+  <Type>Event</Type>
+  <Key>kFirefighterSaveSims</Key>
+  <Count>10</Count>
+  <XP>200</XP>
+  <Instance>sculptureRewardMedal</Instance>
+  <StyleOrColor>style_1</StyleOrColor>
+  <NameKey>AwardNameFirefighterMedal1</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationFirefighterMedal1</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationFirefighterMedal1</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,200</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardMedal:EP2,1,style_1</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Complete Gnome Invasion</Comment>
+  <GUID>0x099e81fe</GUID>
+  <Occupation>Firefighter</Occupation>
+  <Type>Job</Type>
+  <Key>GnomeInvasion</Key>
+  <Count>1</Count>
+  <XP>100</XP>
+  <Instance>sculptureRewardValorTrophy</Instance>
+  <StyleOrColor>style_2</StyleOrColor>
+  <NameKey>AwardNameFirefighterTrophyValor</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationFirefighterTrophyValor</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationFirefighterTrophyValor</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,100</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardValorTrophy:EP2,1,style_2</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Complete Epic Science Building Scenario</Comment>
+  <GUID>0x099e81ff</GUID>
+  <Occupation>Firefighter</Occupation>
+  <Type>Job</Type>
+  <Key>EpicScienceRescue</Key>
+  <Count>1</Count>
+  <XP>250</XP>
+  <Instance>sculptureRewardHeroTrophy</Instance>
+  <StyleOrColor>style_2</StyleOrColor>
+  <NameKey>AwardNameFirefighterTrophyHero</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationFirefighterTrophyHero</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationFirefighterTrophyHero</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,250</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardHeroTrophy:EP2,1,style_2</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Complete Epic Hospital Scenario</Comment>
+  <GUID>0x099e8200</GUID>
+  <Occupation>Firefighter</Occupation>
+  <Type>Job</Type>
+  <Key>EpicHospitalRescue</Key>
+  <Count>1</Count>
+  <XP>250</XP>
+  <Instance>sculptureRewardMedal2</Instance>
+  <StyleOrColor>style_1</StyleOrColor>
+  <NameKey>AwardNameFirefighterMedal2</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationFirefighterMedal2</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationFirefighterMedal2</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,250</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardMedal2:EP2,1,style_1</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Complete Epic Criminal Building Scenario</Comment>
+  <GUID>0x099e8201</GUID>
+  <Occupation>Firefighter</Occupation>
+  <Type>Job</Type>
+  <Key>EpicCriminalRescue</Key>
+  <Count>1</Count>
+  <XP>250</XP>
+  <Instance>sculptureRewardRibbon</Instance>
+  <StyleOrColor>ribbonFirefighter</StyleOrColor>
+  <NameKey>AwardNameFirefighterRibbonBravery</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationFirefighterRibbonBravery</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationFirefighterRibbonBravery</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,250</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardRibbon:EP2,1,ribbonFirefighter</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Reach Level 10</Comment>
+  <GUID>0x099e8202</GUID>
+  <Occupation>Firefighter</Occupation>
+  <MinLevel>10</MinLevel>
+  <Type>Event</Type>
+  <Key>kActiveCareerAdvanceLevel</Key>
+  <Count>1</Count>
+  <XP>100</XP>
+  <Instance>sculptureRewardKeyCity</Instance>
+  <StyleOrColor>keyCity_1</StyleOrColor>
+  <NameKey>AwardNameFirefighterKey2City</NameKey>
+  <DeliveryMethod>Ceremony</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationFirefighterKey2City</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationFirefighterKey2City</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,100</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardKeyCity:EP2,1,keyCity_1</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Save 12 Sims at Level 10</Comment>
+  <GUID>0x099e8203</GUID>
+  <Occupation>Firefighter</Occupation>
+  <MinLevel>10</MinLevel>
+  <Type>Event</Type>
+  <Key>kFirefighterSaveSims</Key>
+  <Count>12</Count>
+  <XP>400</XP>
+  <Instance>sculptureRewardFirefighter</Instance>
+  <NameKey>AwardNameFirefighterSpecial</NameKey>
+  <DeliveryMethod>Ceremony</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationFirefighterSpecial</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationFirefighterSpecial</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,400</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardFirefighter:EP2,1,</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Solve 3 Cases</Comment>
+  <GUID>0x099e8205</GUID>
+  <Occupation>PrivateEye</Occupation>
+  <Type>Event</Type>
+  <Key>kSolvedCase</Key>
+  <Count>3</Count>
+  <XP>50</XP>
+  <Instance>sculptureRewardHonorTrophy</Instance>
+  <StyleOrColor>style2</StyleOrColor>
+  <NameKey>AwardNamePrivateEyeTrophyHonor</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationPrivateEyeTrophyHonor</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationPrivateEyeTrophyHonor</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,50</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardHonorTrophy:EP2,1,style2</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Solve 3 Missing Sim Cases</Comment>
+  <GUID>0x099e8206</GUID>
+  <Occupation>PrivateEye</Occupation>
+  <Type>Opportunity</Type>
+  <Key>EP2_Case_MissingGirlfriend6, EP2_Case_MissingFriendA5, EP2_Case_MissingFriendB5</Key>
+  <Count>3</Count>
+  <XP>200</XP>
+  <Instance>sculptureRewardHeroTrophy</Instance>
+  <StyleOrColor>style_3</StyleOrColor>
+  <NameKey>AwardNamePrivateEyeTrophyHero</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationPrivateEyeTrophyHero</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationPrivateEyeTrophyHero</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,200</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardHeroTrophy:EP2,1,style_3</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Solve Great Jewel Heist Case</Comment>
+  <GUID>0x099e8207</GUID>
+  <Occupation>PrivateEye</Occupation>
+  <Type>Opportunity</Type>
+  <Key>EP2_Case_StolenRing7</Key>
+  <Count>1</Count>
+  <XP>100</XP>
+  <Instance>sculptureRewardMedal</Instance>
+  <StyleOrColor>style_2</StyleOrColor>
+  <NameKey>AwardNamePrivateEyeMedal1</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationPrivateEyeMedal1</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationPrivateEyeMedal1</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,100</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardMedal:EP2,1,style_2</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Solve Rogue Cop Case</Comment>
+  <GUID>0x099e8208</GUID>
+  <Occupation>PrivateEye</Occupation>
+  <Type>Opportunity</Type>
+  <Key>EP2_Case_RogueCop10</Key>
+  <Count>1</Count>
+  <XP>100</XP>
+  <Instance>sculptureRewardMedal2</Instance>
+  <StyleOrColor>style_2</StyleOrColor>
+  <NameKey>AwardNamePrivateEyeMedal2</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationPrivateEyeMedal2</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationPrivateEyeMedal2</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,100</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardMedal2:EP2,1,style_2</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Solve Fish Kid Case</Comment>
+  <GUID>0x099e8209</GUID>
+  <Occupation>PrivateEye</Occupation>
+  <Type>Opportunity</Type>
+  <Key>EP2_Case_FishKid12</Key>
+  <Count>1</Count>
+  <XP>100</XP>
+  <Instance>sculptureRewardRibbon</Instance>
+  <StyleOrColor>ribbonDetective</StyleOrColor>
+  <NameKey>AwardNamePrivateEyeRibbonBravery</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationPrivateEyeRibbonBravery</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationPrivateEyeRibbonBravery</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,100</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardRibbon:EP2,1,ribbonDetective</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Reach Level 10</Comment>
+  <GUID>0x099e820a</GUID>
+  <Occupation>PrivateEye</Occupation>
+  <MinLevel>10</MinLevel>
+  <Type>Event</Type>
+  <Key>kActiveCareerAdvanceLevel</Key>
+  <Count>1</Count>
+  <XP>100</XP>
+  <Instance>sculptureRewardKeyCity</Instance>
+  <StyleOrColor>keyCity_7</StyleOrColor>
+  <NameKey>AwardNamePrivateEyeKey2City</NameKey>
+  <DeliveryMethod>Ceremony</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationPrivateEyeKey2City</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationPrivateEyeKey2City</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,100</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardKeyCity:EP2,1,keyCity_7</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Solve 5 Cases at Level 10</Comment>
+  <GUID>0x099e820b</GUID>
+  <Occupation>PrivateEye</Occupation>
+  <MinLevel>10</MinLevel>
+  <Type>Event</Type>
+  <Key>kSolvedCase</Key>
+  <Count>5</Count>
+  <XP>300</XP>
+  <Instance>sculptureRewardPrivateEye</Instance>
+  <NameKey>AwardNamePrivateEyeSpecial</NameKey>
+  <DeliveryMethod>Ceremony</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationPrivateEyeSpecial</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationPrivateEyeSpecial</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,300</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardPrivateEye:EP2,1,</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Complete 3 Innoculation Jobs</Comment>
+  <GUID>0x099e8235</GUID>
+  <Occupation>Medical</Occupation>
+  <Type>Job</Type>
+  <Key>Innoculation</Key>
+  <Count>3</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardHonorTrophy</Instance>
+  <StyleOrColor>style9</StyleOrColor>
+  <NameKey>AwardNameMedicalTrophyHonor</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationMedicalTrophyHonor</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationMedicalTrophyHonor</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardHonorTrophy:EP2,1,style9</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Complete 10 Building Emergencies</Comment>
+  <GUID>0x099e8236</GUID>
+  <Occupation>Medical</Occupation>
+  <Type>Job</Type>
+  <Key>GenericMedicalRabbitHoleJob, SpecificMedicalRabbitholeJob1, SpecificMedicalRabbitholeJob2, SpecificMedicalRabbitholeJob3</Key>
+  <Count>10</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardValorTrophy</Instance>
+  <StyleOrColor>style_3</StyleOrColor>
+  <NameKey>AwardNameMedicalTrophyValor</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationMedicalTrophyValor</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationMedicalTrophyValor</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardValorTrophy:EP2,1,style_3</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Diagnose 40 Sims</Comment>
+  <GUID>0x099e8237</GUID>
+  <Occupation>Medical</Occupation>
+  <Type>Job</Type>
+  <Key>FreeClinic, HouseCall</Key>
+  <Count>40</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardMedal</Instance>
+  <StyleOrColor>style_3</StyleOrColor>
+  <NameKey>AwardNameMedicalMedal1</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationMedicalMedal1</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationMedicalMedal1</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardMedal:EP2,1,style_3</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Help 10 Sims in "Local Emergencies"</Comment>
+  <GUID>0x099e8238</GUID>
+  <Occupation>Medical</Occupation>
+  <Type>Event</Type>
+  <Key>kDoctorHelpedSimInMedicalEmergency</Key>
+  <Count>10</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardMedal2</Instance>
+  <StyleOrColor>style_3</StyleOrColor>
+  <NameKey>AwardNameMedicalMedal2</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationMedicalMedal2</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationMedicalMedal2</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardMedal2:EP2,1,style_3</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Reach Level 10</Comment>
+  <GUID>0x099e8239</GUID>
+  <Occupation>Medical</Occupation>
+  <MinLevel>10</MinLevel>
+  <Type>Event</Type>
+  <Key>kActiveCareerAdvanceLevel</Key>
+  <Count>1</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardKeyCity</Instance>
+  <StyleOrColor>keyCity_8</StyleOrColor>
+  <NameKey>AwardNameMedicalKey2City</NameKey>
+  <DeliveryMethod>Ceremony</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationMedicalKey2City</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationMedicalKey2City</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardKeyCity:EP2,1,keyCity_8</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Complete 5 Free Health Clinics at Level 10</Comment>
+  <GUID>0x099e823a</GUID>
+  <Occupation>Medical</Occupation>
+  <MinLevel>10</MinLevel>
+  <Type>Job</Type>
+  <Key>FreeClinic</Key>
+  <Count>5</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardDoctor</Instance>
+  <NameKey>AwardNameMedicalSpecial</NameKey>
+  <DeliveryMethod>Ceremony</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationMedicalSpecial</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationMedicalSpecial</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardDoctor:EP2,1,</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Capture 15 Spirits</Comment>
+  <GUID>0x099e823c</GUID>
+  <Occupation>GhostHunter</Occupation>
+  <Type>Event</Type>
+  <Key>kGhostHunterCaptureXSpirits</Key>
+  <Count>15</Count>
+  <XP>100</XP>
+  <Instance>sculptureRewardHonorTrophy</Instance>
+  <StyleOrColor>style3</StyleOrColor>
+  <NameKey>AwardNameGhostHunterTrophyHonor</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationGhostHunterTrophyHonor</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationGhostHunterTrophyHonor</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,100</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardHonorTrophy:EP2,1,style2</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Capture 75 Spirits</Comment>
+  <GUID>0x099e823d</GUID>
+  <Occupation>GhostHunter</Occupation>
+  <Type>Event</Type>
+  <Key>kGhostHunterCaptureXSpirits</Key>
+  <Count>75</Count>
+  <XP>200</XP>
+  <Instance>sculptureRewardMedal</Instance>
+  <StyleOrColor>style_4</StyleOrColor>
+  <NameKey>AwardNameGhostHunterMedal1</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationGhostHunterMedal1</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationGhostHunterMedal1</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,200</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardMedal:EP2,1,style_4</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Capture 150 Spirits</Comment>
+  <GUID>0x099e823e</GUID>
+  <Occupation>GhostHunter</Occupation>
+  <Type>Event</Type>
+  <Key>kGhostHunterCaptureXSpirits</Key>
+  <Count>150</Count>
+  <XP>300</XP>
+  <Instance>sculptureRewardRibbon</Instance>
+  <StyleOrColor>ribbonGhostHunter</StyleOrColor>
+  <NameKey>AwardNameGhostHunterRibbonBravery</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationGhostHunterRibbonBravery</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationGhostHunterRibbonBravery</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,300</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardRibbon:EP2,1,ribbonGhostHunter</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Deal with 7 Building Incidents</Comment>
+  <GUID>0x099e823f</GUID>
+  <Occupation>GhostHunter</Occupation>
+  <Type>Job</Type>
+  <Key>SpiritInvasion, RabbitHoleInvestigation, PosessedObjects, GhostInvasion, GhostlyPresence</Key>
+  <Count>7</Count>
+  <XP>150</XP>
+  <Instance>sculptureRewardMedal2</Instance>
+  <StyleOrColor>style_4</StyleOrColor>
+  <NameKey>AwardNameGhostHunterMedal2</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationGhostHunterMedal2</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationGhostHunterMedal2</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,150</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardMedal2:EP2,1,style_4</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Reach Level 10</Comment>
+  <GUID>0x099e8240</GUID>
+  <Occupation>GhostHunter</Occupation>
+  <MinLevel>10</MinLevel>
+  <Type>Event</Type>
+  <Key>kActiveCareerAdvanceLevel</Key>
+  <Count>1</Count>
+  <XP>150</XP>
+  <Instance>sculptureRewardKeyCity</Instance>
+  <StyleOrColor>keyCity_5</StyleOrColor>
+  <NameKey>AwardNameGhostHunterKey2City</NameKey>
+  <DeliveryMethod>Ceremony</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationGhostHunterKey2City</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationGhostHunterKey2City</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,150</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardKeyCity:EP2,1,keyCity_5</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Capture 25 Spirits at Level 10</Comment>
+  <GUID>0x099e8241</GUID>
+  <Occupation>GhostHunter</Occupation>
+  <MinLevel>10</MinLevel>
+  <Type>Event</Type>
+  <Key>kGhostHunterCaptureXSpirits</Key>
+  <Count>25</Count>
+  <XP>300</XP>
+  <Instance>sculptureRewardGhosthunter</Instance>
+  <NameKey>AwardNameGhostHunterSpecial</NameKey>
+  <DeliveryMethod>Ceremony</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationGhostHunterSpecial</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationGhostHunterSpecial</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,300</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardGhosthunter:EP2,1,</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Make Over 10 Sims</Comment>
+  <GUID>0x099e8243</GUID>
+  <Occupation>Stylist</Occupation>
+  <Type>AnyJob</Type>
+  <Count>10</Count>
+  <XP>100</XP>
+  <Instance>sculptureRewardHonorTrophy</Instance>
+  <StyleOrColor>style5</StyleOrColor>
+  <NameKey>AwardNameStylistTrophyHonor</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationStylistTrophyHonor</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationStylistTrophyHonor</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,100</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardHonorTrophy:EP2,1,style5</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Make Over 50 Sims</Comment>
+  <GUID>0x099e8244</GUID>
+  <Occupation>Stylist</Occupation>
+  <Type>AnyJob</Type>
+  <Count>50</Count>
+  <XP>200</XP>
+  <Instance>sculptureRewardRibbon</Instance>
+  <StyleOrColor>ribbonStylist</StyleOrColor>
+  <NameKey>AwardNameStylistRibbonBravery</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationStylistRibbonBravery</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationStylistRibbonBravery</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,200</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardRibbon:EP2,1,ribbonStylist</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Make Over 100 Sims</Comment>
+  <GUID>0x099e8245</GUID>
+  <Occupation>Stylist</Occupation>
+  <Type>AnyJob</Type>
+  <Count>100</Count>
+  <XP>300</XP>
+  <Instance>sculptureRewardMedal2</Instance>
+  <StyleOrColor>style_5</StyleOrColor>
+  <NameKey>AwardNameStylistMedal2</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationStylistMedal2</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationStylistMedal2</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,300</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardMedal2:EP2,1,style_5</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Reach Level 10</Comment>
+  <GUID>0x099e8246</GUID>
+  <Occupation>Stylist</Occupation>
+  <MinLevel>10</MinLevel>
+  <Type>Event</Type>
+  <Key>kActiveCareerAdvanceLevel</Key>
+  <Count>1</Count>
+  <XP>100</XP>
+  <Instance>sculptureRewardKeyCity</Instance>
+  <StyleOrColor>keyCity_3</StyleOrColor>
+  <NameKey>AwardNameStylistKey2City</NameKey>
+  <DeliveryMethod>Ceremony</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationStylistKey2City</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationStylistKey2City</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,100</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardKeyCity:EP2,1,keyCity_3</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Make Over 25 Sims at Level 10</Comment>
+  <GUID>0x099e8247</GUID>
+  <Occupation>Stylist</Occupation>
+  <MinLevel>10</MinLevel>
+  <Type>AnyJob</Type>
+  <Count>25</Count>
+  <XP>400</XP>
+  <Instance>sculptureRewardStylist</Instance>
+  <NameKey>AwardNameStylistSpecial</NameKey>
+  <DeliveryMethod>Ceremony</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationStylistSpecial</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationStylistSpecial</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,400</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardStylist:EP2,1,</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Complete 5 Jobs</Comment>
+  <GUID>0x099e8249</GUID>
+  <Occupation>InteriorDesigner</Occupation>
+  <Type>AnyJob</Type>
+  <Count>5</Count>
+  <XP>100</XP>
+  <Instance>sculptureRewardHonorTrophy</Instance>
+  <StyleOrColor>style6</StyleOrColor>
+  <NameKey>AwardNameInteriorDesignerTrophyHonor</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationInteriorDesignerTrophyHonor</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationInteriorDesignerTrophyHonor</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,100</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardHonorTrophy:EP2,1,style6</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Complete 25 Jobs</Comment>
+  <GUID>0x099e8250</GUID>
+  <Occupation>InteriorDesigner</Occupation>
+  <Type>AnyJob</Type>
+  <Count>25</Count>
+  <XP>200</XP>
+  <Instance>sculptureRewardValorTrophy</Instance>
+  <StyleOrColor>style_1</StyleOrColor>
+  <NameKey>AwardNameInteriorDesignerTrophyValor</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationInteriorDesignerTrophyValor</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationInteriorDesignerTrophyValor</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,200</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardValorTrophy:EP2,1,style_1</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Complete 50 Jobs</Comment>
+  <GUID>0x099e8251</GUID>
+  <Occupation>InteriorDesigner</Occupation>
+  <Type>AnyJob</Type>
+  <Count>50</Count>
+  <XP>300</XP>
+  <Instance>sculptureRewardMedal2</Instance>
+  <StyleOrColor>style_6</StyleOrColor>
+  <NameKey>AwardNameInteriorDesignerMedal2</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationInteriorDesignerMedal2</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationInteriorDesignerMedal2</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,300</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardMedal2:EP2,1,style_6</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Reach Level 10</Comment>
+  <GUID>0x099e8252</GUID>
+  <Occupation>InteriorDesigner</Occupation>
+  <MinLevel>10</MinLevel>
+  <Type>Event</Type>
+  <Key>kActiveCareerAdvanceLevel</Key>
+  <Count>1</Count>
+  <XP>100</XP>
+  <Instance>sculptureRewardKeyCity</Instance>
+  <StyleOrColor>keyCity_2</StyleOrColor>
+  <NameKey>AwardNameInteriorDesignerKey2City</NameKey>
+  <DeliveryMethod>Ceremony</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationInteriorDesignerKey2City</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationInteriorDesignerKey2City</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,100</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardKeyCity:EP2,1,keyCity_2</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Complete 15 Jobs at Level 10</Comment>
+  <GUID>0x099e8253</GUID>
+  <Occupation>InteriorDesigner</Occupation>
+  <MinLevel>10</MinLevel>
+  <Type>AnyJob</Type>
+  <Count>15</Count>
+  <XP>500</XP>
+  <Instance>sculptureRewardInteriorDesigner</Instance>
+  <NameKey>AwardNameInteriorDesignerSpecial</NameKey>
+  <DeliveryMethod>Ceremony</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationInteriorDesignerSpecial</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationInteriorDesignerSpecial</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,500</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardInteriorDesigner:EP2,1,</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Make 10 Widgets</Comment>
+  <GUID>0x09a77e27</GUID>
+  <Occupation>Inventor</Occupation>
+  <Type>Event</Type>
+  <Key>kInventorMadeWidget</Key>
+  <Count>10</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardHonorTrophy</Instance>
+  <StyleOrColor>style8</StyleOrColor>
+  <NameKey>AwardNameInventorTrophyHonor</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationInventorTrophyHonor</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationInventorTrophyHonor</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardHonorTrophy:EP2,1,style8</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Make 50 Widgets</Comment>
+  <GUID>0x09a77e33</GUID>
+  <Occupation>Inventor</Occupation>
+  <Type>Event</Type>
+  <Key>kInventorMadeWidget</Key>
+  <Count>50</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardMedal2</Instance>
+  <StyleOrColor>style_8</StyleOrColor>
+  <NameKey>AwardNameInventorMedal2</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationInventorMedal2</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationInventorMedal2</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardMedal2:EP2,1,style_8</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Invent a Time Machine</Comment>
+  <GUID>0x09a77e36</GUID>
+  <Occupation>Inventor</Occupation>
+  <Type>Event</Type>
+  <Key>kInventorMadeTimeMachine</Key>
+  <Count>1</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardMedal</Instance>
+  <StyleOrColor>style_5</StyleOrColor>
+  <NameKey>AwardNameInventorMedal1</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationInventorMedal1</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationInventorMedal1</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardMedal:EP2,1,style_5</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Reach Level 10</Comment>
+  <GUID>0x09a77e38</GUID>
+  <Occupation>Inventor</Occupation>
+  <MinLevel>10</MinLevel>
+  <Type>Event</Type>
+  <Key>kActiveCareerAdvanceLevel</Key>
+  <Count>1</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardKeyCity</Instance>
+  <StyleOrColor>keyCity_6</StyleOrColor>
+  <NameKey>AwardNameInventorKey2City</NameKey>
+  <DeliveryMethod>Ceremony</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationInventorKey2City</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationInventorKey2City</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardKeyCity:EP2,1,keyCity_6</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Make 15 Inventions at Level 10</Comment>
+  <GUID>0x09a77e3b</GUID>
+  <Occupation>Inventor</Occupation>
+  <MinLevel>10</MinLevel>
+  <Type>Event</Type>
+  <Key>kCreatedInvention</Key>
+  <Count>15</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardInventor</Instance>
+  <NameKey>AwardNameInventorSpecial</NameKey>
+  <DeliveryMethod>Ceremony</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationInventorSpecial</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationInventorSpecial</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardInventor:EP2,1,</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Make $25K from Writing</Comment>
+  <GUID>0x09a77e3d</GUID>
+  <Occupation>Writer</Occupation>
+  <Type>Event</Type>
+  <Key>kSkilledCareerMadeAGrand</Key>
+  <Count>25</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardHonorTrophy</Instance>
+  <StyleOrColor>style4</StyleOrColor>
+  <NameKey>AwardNameWriterTrophyHonor</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationWriterTrophyHonor</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationWriterTrophyHonor</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardHonorTrophy:EP2,1,style4</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Make $25K from Painting</Comment>
+  <GUID>0x09a77e40</GUID>
+  <Occupation>Painter</Occupation>
+  <Type>Event</Type>
+  <Key>kSkilledCareerMadeAGrand</Key>
+  <Count>25</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardRibbon</Instance>
+  <StyleOrColor>ribbonArtist</StyleOrColor>
+  <NameKey>AwardNamePainterRibbonBravery</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationPainterRibbonBravery</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationPainterRibbonBravery</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardRibbon:EP2,1,ribbonArtist</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Make $25K from Gardening</Comment>
+  <GUID>0x09a77e42</GUID>
+  <Occupation>Gardener</Occupation>
+  <Type>Event</Type>
+  <Key>kSkilledCareerMadeAGrand</Key>
+  <Count>25</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardHeroTrophy</Instance>
+  <StyleOrColor>style_1</StyleOrColor>
+  <NameKey>AwardNameGardenerTrophyHero</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationGardenerTrophyHero</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationGardenerTrophyHero</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardHeroTrophy:EP2,1,style_1</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Make $25K from Fishing</Comment>
+  <GUID>0x09a77e45</GUID>
+  <Occupation>Fisher</Occupation>
+  <Type>Event</Type>
+  <Key>kSkilledCareerMadeAGrand</Key>
+  <Count>25</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardMedal</Instance>
+  <StyleOrColor>style_6</StyleOrColor>
+  <NameKey>AwardNameFisherMedal2</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationFisherMedal2</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationFisherMedal2</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardMedal:EP2,1,style_6</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Make $25K from Sculpting</Comment>
+  <GUID>0x09a77e47</GUID>
+  <Occupation>Sculptor</Occupation>
+  <Type>Event</Type>
+  <Key>kSkilledCareerMadeAGrand</Key>
+  <Count>25</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardMedal2</Instance>
+  <StyleOrColor>style_7</StyleOrColor>
+  <NameKey>AwardNameSculptorMedal1</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationSculptorMedal1</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationSculptorMedal1</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardMedal2:EP2,1,style_7</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Make $25K from Photography</Comment>
+  <GUID>0x09a77e4a</GUID>
+  <Occupation>Photographer</Occupation>
+  <Type>Event</Type>
+  <Key>kSkilledCareerMadeAGrand</Key>
+  <Count>25</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardKeyCity</Instance>
+  <StyleOrColor>keyCity_4</StyleOrColor>
+  <NameKey>AwardNamePhotographerKey2City</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationPhotographerKey2City</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationPhotographerKey2City</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardKeyCity:EP2,1,keyCity_4</Reward1>
+ </OccupationRewards>
+<OccupationRewards>
+  <SKU>EP2</SKU>
+  <Comment>Make $25K from Nectar Making</Comment>
+  <GUID>0x09c863d8</GUID>
+  <Occupation>NectarMaker</Occupation>
+  <Type>Event</Type>
+  <Key>kSkilledCareerMadeAGrand</Key>
+  <Count>25</Count>
+  <XP>0</XP>
+  <Instance>sculptureRewardHonorTrophy</Instance>
+  <StyleOrColor>style1</StyleOrColor>
+  <NameKey>AwardNameNectarMakerTrophyHonor</NameKey>
+  <DeliveryMethod>PickUp</DeliveryMethod>
+  <NotifyMessageKey>AwardNotificationNectarMakerTrophyHonor</NotifyMessageKey>
+  <AwardNameMessageKey>AwardPresentationNectarMakerTrophyHonor</AwardNameMessageKey>
+  <Reward0>ActiveCareerPerformance,0</Reward0>
+  <Reward1>MedatorInstance,sculptureRewardHonorTrophy:EP2,1,style1</Reward1>
+ </OccupationRewards>
+</Rewards>

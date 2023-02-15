@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSpiritAgeWeights value="2, 1, 0.25">
+      <!--Spirit Age Tuning.-->
+    </kSpiritAgeWeights>
+    <kCaptureSpiritBaseLength value="5">
+      <!--How long it'll take a level 1 Ghost Hunter to capture a spirit.  This time will be modified based on the Sim's current career level and the value of kGhostGunInteractionLengthMaxLevel-->
+    </kCaptureSpiritBaseLength>
+    <kSpiritMinutesBeforeMoveMin value="60">
+      <!--The minimum number of minutes a spirit will idle before moving locations when on the world lot.-->
+    </kSpiritMinutesBeforeMoveMin>
+    <kSpiritMinutesBeforeMoveMax value="120">
+      <!--The max number of minutes a spirit will idle before moving locations when on the world lot.-->
+    </kSpiritMinutesBeforeMoveMax>
+    <kSpiritAgeValueMultipliers value="0.5, 1, 1.5">
+      <!--Spirit Age Value Multipliers. Using the base value definied in Spirits.xls, these values are applied to a spirit to determine its value.  The first value is for young spirits, second for old and third for ancient.-->
+    </kSpiritAgeValueMultipliers>
+    <kSpiritMinutesBeforeMoveNonWorldLotMin value="35">
+      <!--The minimum number of minutes a spirit will idle before moving locations when on commercial/residential lots.-->
+    </kSpiritMinutesBeforeMoveNonWorldLotMin>
+    <kSpiritMinutesBeforeMoveNonWorldLotMax value="50">
+      <!--The max number of minutes a spirit will idle before moving locations when on commercial/residential lots.-->
+    </kSpiritMinutesBeforeMoveNonWorldLotMax>
+    <kSpiritInvasionMChanceToAllowOutside value="0.2">
+      <!--Range: 0.0 - 1.0.  During a spirit invasion, this is the chance a spirit has that it'll be allowed to go outside when finding a new spot on the lot.-->
+    </kSpiritInvasionMChanceToAllowOutside>
+  </Current_Tuning>
+</base>

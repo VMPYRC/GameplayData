@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCostumeChangeDayRange value="1, 5">
+      <!--Time in working days between costume changes when the sim is on the acting branch.-->
+    </kCostumeChangeDayRange>
+    <kScreenplayPageRange value="50, 150">
+      <!--Min and max number of pages a screenplay is.-->
+    </kScreenplayPageRange>
+    <kIconicRabbitHoleCareerLevelOutfitRange value="8, 10">
+      <!--Range of rabbithole careers that the research acting job will randomly choose from when researching a role at a rabbithole.-->
+    </kIconicRabbitHoleCareerLevelOutfitRange>
+    <kVelvetRopeBonusCareerLevel value="6">
+      <!--When sims reach this career level or higher, they will have a celebrity level increase of kVelvetRopeCelebrityLevelBoost when trying to get past velvet ropes.-->
+    </kVelvetRopeBonusCareerLevel>
+    <kVelvetRopeCelebrityLevelBoost value="1">
+      <!--When trying to get past velvet ropes, film career sims level kVelvetRopeBonusCareerLevel or higher will have their celebrity level boosted by this amount.-->
+    </kVelvetRopeCelebrityLevelBoost>
+    <kWritingSkillLevelPerScreenplay value="0, 8, 6, 4, 2">
+      <!--Minimum writing skill needed to write {ActionScreenplay, DramaScreenplay, IndieScreenplay, RomanticComedyScreenplay, SciFiScreenplay} in that order.-->
+    </kWritingSkillLevelPerScreenplay>
+    <kScreenplayFilmCareerLevel value="8">
+      <!--Minimum film career level to start writing screenplays.-->
+    </kScreenplayFilmCareerLevel>
+  </Current_Tuning>
+</base>

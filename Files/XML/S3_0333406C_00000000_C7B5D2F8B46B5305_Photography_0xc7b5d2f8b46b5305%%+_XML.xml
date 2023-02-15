@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxPhotosInSimInventory value="999" />
+    <kBaseCostToTakeNonSkillPhoto value="0" />
+    <kBaseCostToTakeSkillPhoto value="10" />
+    <kAllowSimsWithoutSkillToUseKeyboardShortcut value="True" />
+    <kBaseSkillGainPerPhoto value="1" />
+    <kBaseValuePerPhoto value="5" />
+    <kFirstShotOfTheDaySkillGainMultiplier value="0.5" />
+    <kFirstShotOfTheDayValueMultiplier value="0.5" />
+    <kEnabledPhotographStyles value="PhotoPlain, PhotoSepia, PhotoGray, PhotoVignette" />
+    <kEnabledPhotographSizes value="Small, Medium, Large, Panorama, SmartPhone, SmartPhoneHorizontal" />
+    <kBadPhotoValueMultiplier value="0.1" />
+    <kOppPhotogSubjectsCapturedForAward value="75">
+      <!--Lifetime Opportunity: Photog: number of unique captured subjects required.-->
+    </kOppPhotogSubjectsCapturedForAward>
+    <kOppLandmarksCapturedForAward value="10">
+      <!--Lifetime Opportunity: Architecture Eye: number of unique captured landmarks required.-->
+    </kOppLandmarksCapturedForAward>
+    <kOppLandmarksValueMultiplier value="2">
+      <!--Lifetime Opportunity: Architecture Eye: value multiplier for pictures of landmarks.-->
+    </kOppLandmarksValueMultiplier>
+    <kOppSimsCapturedForAward value="50">
+      <!--Lifetime Opportunity: Human Form Expert: number of unique captured Sims required.-->
+    </kOppSimsCapturedForAward>
+    <kOppHumanFormExpertLTRGain value="20">
+      <!--Lifetime Opportunity: Human Form Expert: gain in LTR with photographed Sims.-->
+    </kOppHumanFormExpertLTRGain>
+    <kOppStrangersCapturedForAward value="60">
+      <!--Lifetime Opportunity: Paparazzi: number of unique captured strangers required.-->
+    </kOppStrangersCapturedForAward>
+    <kOppPaparazziValueMultiplier value="2">
+      <!--Lifetime Opportunity: Paparazzi: value multiplier for pictures of strangers.-->
+    </kOppPaparazziValueMultiplier>
+    <kSkillJournalNameTakenColor value="4278223168">
+      <!--Override color for the subject name in the skill journal if you have taken the picture.-->
+    </kSkillJournalNameTakenColor>
+    <kOppShutternutCollectionsCompletedForAward value="5">
+      <!--Lifetime Opportunity: Shutternut: number of completed collections required.-->
+    </kOppShutternutCollectionsCompletedForAward>
+    <kAncientCoinsPerBonusSubjectCaptured value="2" />
+    <kLifetimeOppPhotogMultiplier value="1.25" />
+  </Current_Tuning>
+</base>

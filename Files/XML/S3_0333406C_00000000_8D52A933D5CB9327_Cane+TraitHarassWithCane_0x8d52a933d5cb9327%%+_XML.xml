@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFrugalValueThreshold value="500, 1000">
+      <!--Value threshold of objects that a frugal sim will harass.  Threshold is randomly chosen between these two values each time the interaction is run.  If the value of an object is greater than the threshold, the sim will route over an complain about it.-->
+    </kFrugalValueThreshold>
+    <kObjectSearchRadius value="20">
+      <!--Objects within this radius of the sim will be selected for the sim to complain about.-->
+    </kObjectSearchRadius>
+    <kObjectFallbackRouteRadius value="0, 4">
+      <!--Radial route min/max that the sim will try to route to if the find good location route fails.-->
+    </kObjectFallbackRouteRadius>
+  </Current_Tuning>
+</base>

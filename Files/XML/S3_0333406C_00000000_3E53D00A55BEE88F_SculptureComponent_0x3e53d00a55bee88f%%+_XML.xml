@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <MinDistanceToView value="2">
+      <!--Minimum Distance at which the Sim will watch the sculpture. Positive float.-->
+    </MinDistanceToView>
+    <MaxDistanceToView value="3">
+      <!--Maximum Distance at which the Sim will watch the sculpture. Positive float.-->
+    </MaxDistanceToView>
+    <kAppreciationMultiplierForDeadSims value="2">
+      <!--Multiplier applied to daily appreciation if the sculptor is Dead-->
+    </kAppreciationMultiplierForDeadSims>
+    <kBonusForScultporsDeath value="2500">
+      <!--Number of Simoleons to add to sculpture value when the sculptor dies-->
+    </kBonusForScultporsDeath>
+    <kDailyAppreciationPercent value="0.02">
+      <!--Percentage of initial value to appreciate every day-->
+    </kDailyAppreciationPercent>
+    <kIceMeltToBlock value="40">
+      <!--Time (in hours) until the ice sculpture melts the first time-->
+    </kIceMeltToBlock>
+    <kIceMeltToGone value="16">
+      <!--Time (in hours) until the ice sculpture melts completly (after melting to a block)-->
+    </kIceMeltToGone>
+    <kNumPuddlesMeltToHeap value="2">
+      <!--Number of puddles to create when melting into a heap of ice (from the original sculpture)-->
+    </kNumPuddlesMeltToHeap>
+    <kNumPuddlesMeltToNothing value="1">
+      <!--Number of puddles to create when melting into to nothing (from a heap)-->
+    </kNumPuddlesMeltToNothing>
+    <kValueMultiplierForEnvironmentScore value="0.03">
+      <!--To calculate the environment score, the value of the sculpture is multiplied by this multiplier-->
+    </kValueMultiplierForEnvironmentScore>
+    <kArtsyEnvironmentScoreBonus value="10">
+      <!--Environment score bonus (added to the score) for artisitic or savvy sculptor sims (only get it once)-->
+    </kArtsyEnvironmentScoreBonus>
+    <kNumDefaultSculptureNames value="47">
+      <!--Number of different strings in the database for sculpture names-->
+    </kNumDefaultSculptureNames>
+    <kNumSculptureTexturesPerMaterial value="3">
+      <!--Number of different textures we have per material-->
+    </kNumSculptureTexturesPerMaterial>
+    <kMediumValueThreshold value="100">
+      <!--Description:  The value threshold to get the medium value level TNS on finishing a sculpture-->
+    </kMediumValueThreshold>
+    <kHighValueThreshold value="1000">
+      <!--Description:  The value threshold to get the high value level TNS on finishing a sculpture-->
+    </kHighValueThreshold>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinDaysToOpportunity value="1">
+      <!--The minimum number of days between opportunity calls.-->
+    </kMinDaysToOpportunity>
+    <kMaxDaysToOpportunity value="3">
+      <!--The maximum number of days between opportunity calls.-->
+    </kMaxDaysToOpportunity>
+    <kPhoneCallTimeout value="40">
+      <!--Timeout of opportunity calls in minutes-->
+    </kPhoneCallTimeout>
+    <kNumLocationBasedOpportunities value="2">
+      <!--The number of location-based opportunities to choose per week.-->
+    </kNumLocationBasedOpportunities>
+    <kHourToChooseLocationBasedOpportunities value="8.2">
+      <!--The hour of the day on Sunday to choose new location-based opportunities.-->
+    </kHourToChooseLocationBasedOpportunities>
+    <kGoToRouteRadius value="3">
+      <!--The radial distance the player sim will attempt to route to the target sim when using the 'Go To' maptag interaction when the target is on the world lot.-->
+    </kGoToRouteRadius>
+    <kMinDaysToOpportunityOnVacation value="1">
+      <!--The minimum number of days between opportunity calls when on vacation.-->
+    </kMinDaysToOpportunityOnVacation>
+    <kMaxDaysToOpportunityOnVacation value="2">
+      <!--The maximum number of days between opportunity calls when on vacation.-->
+    </kMaxDaysToOpportunityOnVacation>
+    <kMaxNumOpportunityCallsPerDay value="2, 3, 2">
+      <!--Max number of opportunity calls that will occur during a given day (reset at midnight). Each opp type {Career, Skill, Special} has its own limit.-->
+    </kMaxNumOpportunityCallsPerDay>
+    <kLocationBasedPetOpportunityChanceMultiplier value="5">
+      <!--Chance multiplier on location based pet opportunities.-->
+    </kLocationBasedPetOpportunityChanceMultiplier>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHungerFillAmount value="75">
+      <!--Range:  0 - 100  Description:  The amount of Hunger that Soda satisfies-->
+    </kHungerFillAmount>
+    <kGoldenVoucherSimoleonReward value="1000">
+      <!--Range:  0 - 1  Description:  This is the number of simoleons that Lily Lonka's Voucher awards the sim-->
+    </kGoldenVoucherSimoleonReward>
+    <kCandyBarWeights value="85, 65, 85, 35, 5, 85, 35, 65">
+      <!--List of floats representing the random weight of each candy bar type.  ChunkyNougatSurprise, GooeyNutLog, CarmelCrunch, ChocolatePBDiscs, LillyLonkaGoldenBar, Sblonked, BallardBites, RollieLoellieCakes-->
+    </kCandyBarWeights>
+    <kDisgustingCandyBarNauseousChance value="0.65">
+      <!--Range:  0 - 1  Description:  This is the chance that a disgusting candy bar will give the sim the Nauseous buff-->
+    </kDisgustingCandyBarNauseousChance>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLifeguardEventRepeat value="15">
+      <!--Time for the repeating alarm to trigger a lifeguard event during a job.-->
+    </kLifeguardEventRepeat>
+    <kLifeguardEventStart value="10">
+      <!--Time for the repeating alarm start triggering events when job is initialized.-->
+    </kLifeguardEventStart>
+    <kChanceOfEventHappening value="75">
+      <!--Probability of an event happening when event alarm gets called.  This is mostly for making events more random.-->
+    </kChanceOfEventHappening>
+  </Current_Tuning>
+</base>

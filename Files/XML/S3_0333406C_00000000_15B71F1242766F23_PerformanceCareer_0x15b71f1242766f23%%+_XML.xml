@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kClientBooksGigBaseChance value="60">
+      <!--Base chance (0 to 100) of a client booking the Gig ('client books gig?' calculation).-->
+    </kClientBooksGigBaseChance>
+    <kClientBooksGigSkillMultiplier value="5">
+      <!--The skill level contribution to the 'client books gig?' calculation.  We multiply the skill level (which is typically a number between 0 and 10) by this value.-->
+    </kClientBooksGigSkillMultiplier>
+    <kClientBooksGigStcPositiveMultiplier value="0.05">
+      <!--The STC contribution to the 'client books gig?'' calculation when the STC is in a positive context.  We multiply the STC value (which is typically a number between 0 and 10000, with the second tier usually starting around 100 or 150, and the third tier usually starting around 200 or 300, see Socializing.xls) by this value.  You should probably specify a positive value here.-->
+    </kClientBooksGigStcPositiveMultiplier>
+    <kClientBooksGigStcNegativeMultiplier value="0">
+      <!--The STC contribution to the 'client books gig?' calculation when the STC is in a negative context.  We multiply the STC value (which is typically a number between 0 and 10000, with the second tier usually starting around 100 or 150, and the third tier usually starting around 200 or 300, see Socializing.xls) by this value.  You should probably specify a negative (or zero) value here.-->
+    </kClientBooksGigStcNegativeMultiplier>
+    <kClientBooksGigLtrPositiveMultiplier value="0.1">
+      <!--The LTR contribution to the 'client books gig?' calculation when the LTR Liking value is positive.  We multiply the LTR value (see Socializing.xls for LTR thresholds) by this value.  You should probably specify a positive value here.-->
+    </kClientBooksGigLtrPositiveMultiplier>
+    <kClientBooksGigLtrNegativeMultiplier value="0">
+      <!--The LTR contribution to the 'client books gig?' calculation when the LTR Liking value is negative.  We multiply the LTR value (see Socializing.xls for LTR thresholds) by this value.  You should probably specify a negative (or zero) value here.-->
+    </kClientBooksGigLtrNegativeMultiplier>
+    <kStartTimeToNotifyOfGigs value="11">
+      <!--The earliest hour of day at which a performer Sim will get calls asking them to perform gigs-->
+    </kStartTimeToNotifyOfGigs>
+    <kEndTimeToNotifyOfGigs value="12">
+      <!--The latest hour of day at which a performer Sim will get calls asking them to perform gigs-->
+    </kEndTimeToNotifyOfGigs>
+    <kGigWindowStart value="16">
+      <!--The earliest hour of day at which gigs can start-->
+    </kGigWindowStart>
+    <kGigWindowEnd value="20">
+      <!--The latest hour of day at which gigs can start-->
+    </kGigWindowEnd>
+    <kSolicitationCooldownTime value="24">
+      <!--If you have solicited a Sim within this many hours, they will always reject further solicitations-->
+    </kSolicitationCooldownTime>
+    <kLearnTrick value="5">
+      <!--Range:  0 - 100  Description:  This tunable sets the amount of practice required to learn a Trick-->
+    </kLearnTrick>
+    <kTrickSkillCap value="100">
+      <!--Range:  0 - 100  Description:  This tunable sets the maximum skill a sim can have in any Trick-->
+    </kTrickSkillCap>
+    <kFailChance value="0.5, 0.4, 0.35, 0.3, 0.275, 0.25, 0.225, 0.2, 0.15, 0.125, 0.025">
+      <!--Range: [0..1] Description:  percent chance of a fail when attempting tricks checked per update loop, skill levels 0-10-->
+    </kFailChance>
+    <kRareFailChance value="0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5">
+      <!--Range:  [0..1]  Description:  percent chance of a rare fail when attempting tricks checked per update loop, skill levels 0-10-->
+    </kRareFailChance>
+    <kRareSuccessChance value="5">
+      <!--Range:  0 - 100  Description:  percent chance of a rare success when attempting tricks-->
+    </kRareSuccessChance>
+    <kClumsyPenalty value="0.1">
+      <!--Range: [0..1] Description: the penalty percent added to fail chances for being clumsy-->
+    </kClumsyPenalty>
+    <kGigDurationMin value="3">
+      <!--All gigs are at least this long (in Sim Hours)-->
+    </kGigDurationMin>
+    <kGigDurationMax value="3">
+      <!--Gigs cannot be longer than this (in Sim Hours)-->
+    </kGigDurationMax>
+    <kForceStartGigMinutes value="1">
+      <!--This many Sim minutes after a gig's scheduled start time, the Sim will automatically start the show if they haven't already-->
+    </kForceStartGigMinutes>
+    <kSteadyGigChances value="0, 0, 5, 25, 50">
+      <!--Chance to get a steady gig after performing at a venue.  These numbers correspond to Performance Results, e.g. the first number in this array is your chance to get a steady gig if you had a Poor performance, the last number is the chance when you had a Legendary performance.  The chance is a percentage: 100 is a 100% chance of getting a steady gig.-->
+    </kSteadyGigChances>
+    <kPointsPerSimMinute value="1">
+      <!--Range 0 - 100, Description: This is how fast they learn the trick.-->
+    </kPointsPerSimMinute>
+    <kStageTime value="10">
+      <!--Time that the interaction will last if it is loopable-->
+    </kStageTime>
+    <kXPforSoliciting value="15">
+      <!--Experience earned for soliciting a gig-->
+    </kXPforSoliciting>
+    <kChangeOfHeckleFail value=".1">
+      <!--Chance that being Heckled leads to failure on next interaction-->
+    </kChangeOfHeckleFail>
+    <kMinLevelToChallengeToPerformanceDuel value="2">
+      <!--The minimum career level a Sim must be before he can challenge another to a Performance Duel-->
+    </kMinLevelToChallengeToPerformanceDuel>
+    <kXPforSolicitingFail value="5">
+      <!--Experience earned for failing to solicit a gig-->
+    </kXPforSolicitingFail>
+    <kEmbarrassedBuffDuration value="10">
+      <!--Embarrassed Buff Duration in Sim Minutes-->
+    </kEmbarrassedBuffDuration>
+    <kEmbarrassedBuffAffect value="-10">
+      <!--Embarrassed Buff Affect this should be a negative whole number-->
+    </kEmbarrassedBuffAffect>
+    <kLevelForALimoRide value="8">
+      <!--The level that performers are escorted in a limo-->
+    </kLevelForALimoRide>
+  </Current_Tuning>
+</base>

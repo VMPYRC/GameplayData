@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDurationSimMinutes value="60">
+      <!--Positive float.  The number of sim minutes to run the teach loop.-->
+    </kDurationSimMinutes>
+    <kCharismaModifierPerLevel value="0.04">
+      <!--Positive float.  The progress modifier per level the sim has in the Charisma skill.-->
+    </kCharismaModifierPerLevel>
+    <kCharismaPointsGained value="200">
+      <!--Positive float.  The number of Charisma Skill points to gain from teaching a bird to talk.-->
+    </kCharismaPointsGained>
+    <kLTRLikingDelta value="2">
+      <!--Positive float.  The amount of LTR liking increase each time the human talks to the bird.-->
+    </kLTRLikingDelta>
+    <kSocialDelta value="30">
+      <!--Positive float.  The Social gain for the human is kSocialDelta * kSocialDeltaModifierPerSpeechType * <number of speech types known>-->
+    </kSocialDelta>
+    <kSocialDeltaModifierPerSpeechType value="2">
+      <!--Positive float.  The Social gain for the human is kSocialDelta * kSocialDeltaModifierPerSpeechType * <number of speech types known>-->
+    </kSocialDeltaModifierPerSpeechType>
+  </Current_Tuning>
+</base>

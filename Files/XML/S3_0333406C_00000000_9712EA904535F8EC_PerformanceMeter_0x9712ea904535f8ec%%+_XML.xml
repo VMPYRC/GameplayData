@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRepeatBonus value=".5">
+      <!--Factor by which additive bonus is reduced for repeating an interaction-->
+    </kRepeatBonus>
+    <kDecayRate value="0.0">
+      <!--Rate at which to decay PM per 'x' ticks-->
+    </kDecayRate>
+    <kSampleRate value="60">
+      <!--Number of sim seconds at which scoring is sampled for calculating performance result-->
+    </kSampleRate>
+    <kSkillScoreThresholdPerformer value="0.2, 0.4, 0.65, 0.85, 0.85">
+      <!--Range 0-1: Threshold of Score needed to get for Performance - poor,standard,great,excellent and Legendary-->
+    </kSkillScoreThresholdPerformer>
+    <kSkillScoreThresholdEntertainer value="0.2, 0.4, 0.65, 0.85, 0.85">
+      <!--Range 0-1: Threshold of Score needed to get for Entertainer - poor,standard,great,excellent and Legendary-->
+    </kSkillScoreThresholdEntertainer>
+    <kSkillScoreThresholdMagic value="0.2, 0.4, 0.65, 0.85, 0.85">
+      <!--Range 0-1: Threshold of Score needed to get for Magic - poor,standard,great,excellent and Legendary-->
+    </kSkillScoreThresholdMagic>
+    <kSkillMultiplierPerformer value="0, 0.5, 0.7, 1.0, 1.5, 2.0, 2.5, 3.0, 3.6, 4.3, 5.0 ">
+      <!--Range 0-1: PMO score multiplier for the Performer-->
+    </kSkillMultiplierPerformer>
+    <kSkillMultiplierEntertainer value="0, 0.54, 0.69, 1.09, 1.49, 2.04, 2.58, 3.08, 3.58, 4.08, 4.67 ">
+      <!--Range 0-1: PMO score multiplier for the Entertainer-->
+    </kSkillMultiplierEntertainer>
+    <kSkillMultiplierMagic value="0, 0.35, 0.42, 0.71, 1.43, 1.9, 2.37, 2.54, 3.15, 3.75, 4.36 ">
+      <!--Range 0-1: PMO score multiplier for the Magic-->
+    </kSkillMultiplierMagic>
+    <kRateOfChange value="0.05">
+      <!--Range 0-1: Rate of catchup on the performance meter interpolation. Lower values make it catch up slower-->
+    </kRateOfChange>
+    <kClampPerformanceMeterChange value="0.05">
+      <!--Range 0-1: Minimum value at which performance meter changes take multiple frames-->
+    </kClampPerformanceMeterChange>
+    <kShowPerformanceMeterTime value="120,120,120,120">
+      <!--Time for which to display the performance meter. Unit: Sim Minutes-->
+    </kShowPerformanceMeterTime>
+    <kAudienceReactionThresholds value="0, 0.15, 0.35, 0.55, 0.85">
+      <!--Value of meter at which Audience reaction changes to the next level. Total of five values for four levels starting with 0 ending on 1 always.Range 0-1-->
+    </kAudienceReactionThresholds>
+    <kEngagingBonus value="0.05">
+      <!--Additional bonus added for having bought the Engaging Trait from lifetime rewards. 0 - 1-->
+    </kEngagingBonus>
+    <kNaturalPerformanceChance value="0.8">
+      <!--Chance that mistakes or negative updates to Performance meter are ignored. Range: 0 - 1-->
+    </kNaturalPerformanceChance>
+    <kNaturalPerformancePercentModifier value=".15">
+      <!--When the meter goes down it goes down a x% less. When the meter goes up it goes up a x% more than normal-->
+    </kNaturalPerformancePercentModifier>
+    <kVenueBonusTuning value="0, 2.5, 1.5, 1, 0.5, 0.0,">
+      <!--Venue bonus for GigHome, GigPark, GigBistro, GigHangout, GigPrivate, GigBigShow, respectively.Range 0-1-->
+    </kVenueBonusTuning>
+    <kDebonusForAutonomousInteractions value=".80">
+      <!--Range 0-1: Multiplier de-bonus for interactions that are autonomously fired-->
+    </kDebonusForAutonomousInteractions>
+    <kCareerLevelPerformerInitial value="0, 0, 0.1, 0.15, 0.18, 0.21, 0.23, 0.25, 0.27, 0.30, 0.35">
+      <!--Range 0-1: Starting Flat pmo score additive for the Performer based on career level. Levels 0-10-->
+    </kCareerLevelPerformerInitial>
+    <kCareerLevelEntertainerInitial value="0, 0, 0.05, 0.07, 0.09, 0.11, 0.13, 0.15, 0.17, 0.20, 0.25">
+      <!--Range 0-1: Starting Flat PMO additive for the Entertainer based on career level Levels 0-10-->
+    </kCareerLevelEntertainerInitial>
+    <kCareerLevelMagicInitial value="0, 0, 0.1, 0.15, 0.18, 0.21, 0.23, 0.25, 0.27, 0.30, 0.35">
+      <!--Range 0-1: Starting Flat PMO score additive for the Magician based on career level Levels 0-10-->
+    </kCareerLevelMagicInitial>
+    <kShowPerformanceTNSTime value="90">
+      <!--Time to test performance for doing poorly TNS. Unit: Sim Minutes-->
+    </kShowPerformanceTNSTime>
+  </Current_Tuning>
+</base>

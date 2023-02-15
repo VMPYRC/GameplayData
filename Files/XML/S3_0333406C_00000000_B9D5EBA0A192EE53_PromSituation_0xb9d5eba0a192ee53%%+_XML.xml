@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumberOfDaysForAnnouncement value="3">
+      <!--Range:  0 - 6  Description:  The number of Sim days between announcing Prom and the actual event occuring-->
+    </kNumberOfDaysForAnnouncement>
+    <kTimeOfEventStart value="18">
+      <!--Range:  0 - 24  Description:  The time at which Prom starts-->
+    </kTimeOfEventStart>
+    <kTimeForCarpoolPickup value="1">
+      <!--Range:  0+  Description:  The time, in hours, before the event start when the Limo picks up Sims-->
+    </kTimeForCarpoolPickup>
+    <kCarpoolType value="CarLimoWhite">
+      <!--Range:  NpcCars  Description:  The type of car that will pick up Sims for Prom-->
+    </kCarpoolType>
+    <kEventWeightNewRomance value="5">
+      <!--Range:  0+  Description:  The weight of the New Romance event-->
+    </kEventWeightNewRomance>
+    <kEventWeightSealTheDeal value="5">
+      <!--Range:  0+  Description:  The weight of the Seal the Deal event-->
+    </kEventWeightSealTheDeal>
+    <kEventWeightSealTheDealLtrMultiplier value="0.75">
+      <!--Range:  0+  Description:  The multiplier applied per Rel point for the Seal the Deal event-->
+    </kEventWeightSealTheDealLtrMultiplier>
+    <kEventWeightFirstKiss value="15">
+      <!--Range:  0+  Description:  The weight of the First Kiss event-->
+    </kEventWeightFirstKiss>
+    <kEventWeightPromKingOrQueen value="0">
+      <!--Range:  0+  Description:  The weight of the Prom King and Prom Queen events-->
+    </kEventWeightPromKingOrQueen>
+    <kEventWeightPromKingOrQueenFriendMultiplier value="5">
+      <!--Range:  0+  Description:  The multiplier applied to the number of Friends for the Prom King/Queen event-->
+    </kEventWeightPromKingOrQueenFriendMultiplier>
+    <kEventWeightDenied value="5">
+      <!--Range:  0+  Description:  The weight of the Denied event-->
+    </kEventWeightDenied>
+    <kEventWeightDitched value="5">
+      <!--Range:  0+  Description:  The weight of the Ditched event-->
+    </kEventWeightDitched>
+    <kEventWeightDitchedLtrMultiplier value="-0.5">
+      <!--Range:  0+  Description:  The multiplier applied per Rel point for the Ditched event-->
+    </kEventWeightDitchedLtrMultiplier>
+    <kEventWeightFight value="5">
+      <!--Range:  0+  Description:  The weight of the Fight event-->
+    </kEventWeightFight>
+    <kEventWeightVarious value="20">
+      <!--Range:  0+  Description:  The weight of the Various event-->
+    </kEventWeightVarious>
+    <kEventRomanticSuccessTraits value="GreatKisser, Flirty, Charismatic">
+      <!--Range:  TraitNames[]  Description:  The traits that increase the weight of the Romantic events-->
+    </kEventRomanticSuccessTraits>
+    <kEventPromKingOrQueenTraits value="Charismatic, Ambitious, Friendly">
+      <!--Range:  TraitNames[]  Description:  The traits that increase the weight of the Prom King or Queen events-->
+    </kEventPromKingOrQueenTraits>
+    <kEventRomanticUnsuccessTraits value="Loser, Unflirty, Unlucky">
+      <!--Range:  TraitNames[]  Description:  The traits that increase the weight of the Ditched/Denied events-->
+    </kEventRomanticUnsuccessTraits>
+    <kEventFightsTraits value="HotHeaded, Insane, MeanSpirited">
+      <!--Range:  TraitNames[]  Description:  The traits that increase the weight of the Fight event-->
+    </kEventFightsTraits>
+    <kEventWeightTraitBonus value="2">
+      <!--Range:  0+  Description:  The weight increase per trait-->
+    </kEventWeightTraitBonus>
+    <kEventLtrChangeDitched value="-15">
+      <!--Range:  -100 - 100  Description:  LTR change when running the Ditched event-->
+    </kEventLtrChangeDitched>
+    <kEventLtrChangeNewRomance value="10">
+      <!--Range:  -100 - 100  Description:  LTR change when running the New Romance event-->
+    </kEventLtrChangeNewRomance>
+    <kEventLtrChangeSealTheDealAccept value="20">
+      <!--Range:  -100 - 100  Description:  LTR change when accepting the Seal the Deal event-->
+    </kEventLtrChangeSealTheDealAccept>
+    <kEventLtrChangeSealTheDealReject value="-10">
+      <!--Range:  -100 - 100  Description:  LTR change when rejecting the Seal the Deal event-->
+    </kEventLtrChangeSealTheDealReject>
+    <kEventLtrChangeFirstKiss value="20">
+      <!--Range:  -100 - 100  Description:  LTR change when running the First Kiss event-->
+    </kEventLtrChangeFirstKiss>
+    <kEventInterval value="30">
+      <!--Range:  0+  Description:  The interval, in Sim minutes, between events, per Actor-->
+    </kEventInterval>
+    <kPromptLtrChangeAccept value="15">
+      <!--Range:  -100 - 100  Description:  The LTR change when accepting an NPC date-->
+    </kPromptLtrChangeAccept>
+    <kPromptLtrChangeReject value="-5">
+      <!--Range:  -100 - 100  Description:  The LTR change when rejecting an NPC date-->
+    </kPromptLtrChangeReject>
+    <kChanceOfSchedulingProm value="0.50">
+      <!--Range:  0 - 1  Description:  The chance, per day, that Prom is scheduled-->
+    </kChanceOfSchedulingProm>
+    <kCooldownTime value="14">
+      <!--Range:  0+  Description:  The cooldown, in Sim days, between Proms-->
+    </kCooldownTime>
+    <kTimeOfEventAnnouncement value="13">
+      <!--Range:  0 - 24  Description:  The time at which Prom is announced-->
+    </kTimeOfEventAnnouncement>
+    <kTimeToPushDates value="2">
+      <!--Range:  0+  Description:  The time, in hours, before the event start when dates are pushed to the active houehold's lot-->
+    </kTimeToPushDates>
+    <kTimeToShowReminder value="3">
+      <!--Range:  0+  Description:  The time, in hours, before the event start when a reminder TNS is shown-->
+    </kTimeToShowReminder>
+    <kNumberOfPosesSolo value="3">
+      <!--Range:  0+  Description:  The number of solo poses for prom pictures-->
+    </kNumberOfPosesSolo>
+    <kNumberOfPosesCouple value="2">
+      <!--Range:  0+  Description:  The number of couple poses for prom pictures-->
+    </kNumberOfPosesCouple>
+    <kPoseLtrComfortable value="50">
+      <!--Range:  0+  Description:  The LTR level required for the comfortable pose-->
+    </kPoseLtrComfortable>
+    <kPoseLtrTooComfortable value="75">
+      <!--Range:  0+  Description:  The LTR level required for the too comfortable pose-->
+    </kPoseLtrTooComfortable>
+    <kTimeOfEventEnd value="22">
+      <!--Range:  0 - 24  Description:  The time at which Prom ends-->
+    </kTimeOfEventEnd>
+    <kNpcsPushedPerBatch value="6">
+      <!--Range:  0+  Description:  How many NPC Teens are pushed to prom, per batch-->
+    </kNpcsPushedPerBatch>
+    <kNpcsPushedInterval value="20">
+      <!--Range:  0+  Description:  The time, in Sim minutes, between batches of NPC Teens being pushed to prom-->
+    </kNpcsPushedInterval>
+    <kTimeToPushNpcs value="1">
+      <!--Range:  0+  Description:  The time, in hours before the prom starts, to push NPC Teens to the prom's location-->
+    </kTimeToPushNpcs>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kInitialFamilyFunds value="20000">
+      <!--The starting funds for a household-->
+    </kInitialFamilyFunds>
+    <kWorryinglyLowFamilyFunds value="500">
+      <!--Sims start worrying about lack of money when funds get below this value-->
+    </kWorryinglyLowFamilyFunds>
+    <kImpressivelyHighFamilyFunds value="30000">
+      <!--Others start gossiping about how much money a Sim has when funds get above this value-->
+    </kImpressivelyHighFamilyFunds>
+    <kNumServingsOnStartup value="3">
+      <!--How many servings of level 0 ingredients each fridge gets on startup, or when the active household changes.-->
+    </kNumServingsOnStartup>
+    <kHoursToCheckForSocialWorkerTrigger value="4">
+      <!--Once we have shown a TNS saying that you need to take care of the kids, we wait for this duration and then check for the motive levels of all the kids. Units: Sim Hours. Positive float. Initial GPE Default: 4.-->
+    </kHoursToCheckForSocialWorkerTrigger>
+    <kHoursReTriggerRepoman value="24">
+      <!--Repoman was interrupted (e.g. due to fire). We re-trigger repoman in this many sim hours after he leaves. Units: Sim Hours. Positive float. Initial GPE Default: 24.-->
+    </kHoursReTriggerRepoman>
+    <kOnVacationTriggerTime value="10">
+      <!--Range:  0+  Description:  The time, in Sim minutes, after which the On Vacation event is sent-->
+    </kOnVacationTriggerTime>
+    <kFundsOverflowTnsCooldownTime value="1440">
+      <!--Range:  0+  Description:  The cooldown time, in Sim minutes, for the family funds overlow TNS-->
+    </kFundsOverflowTnsCooldownTime>
+    <kMinFamilyFunds value="500">
+      <!--The minimum funds for a household-->
+    </kMinFamilyFunds>
+    <kVirtualHomeAssignmentWeightPenaltyPerSlotFilled value="1">
+      <!--Weight penalty for each virtual slot filled on a lot when looking for a buildable shell to place a household-->
+    </kVirtualHomeAssignmentWeightPenaltyPerSlotFilled>
+    <kVirtualHomeAssignmentWeightPenaltyPerOrderOffofFamilyFundsOrder value="1">
+      <!--Weight penalty for each location out of order (family funds vs. lot cost) when looking for a buildable shell to place a household-->
+    </kVirtualHomeAssignmentWeightPenaltyPerOrderOffofFamilyFundsOrder>
+    <kMinutesToBeConsideredLitterMates value="10">
+      <!--Range:  Minutes  Description:  If another pet gets added to the household within this tunable amount of time : Default 2 then they are considered litter mates-->
+    </kMinutesToBeConsideredLitterMates>
+    <kTimeAtUnivTutorial value="12">
+      <!--Time (in sim hours) when the Tutorial for At University to be triggered-->
+    </kTimeAtUnivTutorial>
+    <kTimeDormsTutorial value="13">
+      <!--Time (in sim hours) when the Tutorial for Dorms to be triggered-->
+    </kTimeDormsTutorial>
+    <kWhenReportCardArrives value="8">
+      <!--Hour at which report card will arrive-->
+    </kWhenReportCardArrives>
+    <kWhenOneDayLeftTNSAppears value="21">
+      <!--Hour at which the one day left TNS appears, on Friday-->
+    </kWhenOneDayLeftTNSAppears>
+    <kWhenOneHourLeftTNSAppears value="19">
+      <!--Hour at which final warning TNS appears-->
+    </kWhenOneHourLeftTNSAppears>
+    <kWhenSimsStartLeaving value="21">
+      <!--Hour at which Sims start getting into the moving van to leave the University World-->
+    </kWhenSimsStartLeaving>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

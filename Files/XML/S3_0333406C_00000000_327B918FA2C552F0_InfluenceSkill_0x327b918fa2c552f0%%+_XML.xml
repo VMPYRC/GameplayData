@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDisableSkillDecay value="False">
+      <!--For Testing Only - Compiled out in Release : This is a boolean to turn off the skill decay for testing.-->
+    </kDisableSkillDecay>
+    <kMinSkillChangeToShowPips value="1">
+      <!--Minimum amount the skill needs to change to warrent showing the skill gain pips.-->
+    </kMinSkillChangeToShowPips>
+    <kNumberOfHALActivities value="20">
+      <!--The number of HAL strings for activities for each of the influence skills.-->
+    </kNumberOfHALActivities>
+    <kNumberOfDisplayedActivities value="3">
+      <!--The number activity strings we are displaying in the UI.-->
+    </kNumberOfDisplayedActivities>
+  </Current_Tuning>
+</base>

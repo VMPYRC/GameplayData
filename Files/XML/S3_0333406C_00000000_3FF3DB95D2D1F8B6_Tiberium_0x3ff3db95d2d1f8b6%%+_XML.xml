@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kVfxFrequency value="0.1,0.4">
+      <!--How often the Tiberium sparkle Vfx plays in Sim hours.  Format: (min, max).  These are float values.-->
+    </kVfxFrequency>
+    <kRegularToLargeGrowthTime value="20, 28">
+      <!--How long it takes for a regular-sized Tiberium to turn into a large-sized Tiberium.  Format: (minSimHours, maxSimHours).  These are float values.-->
+    </kRegularToLargeGrowthTime>
+    <kRegularToLargeRetryFrequency value="10, 14">
+      <!--How often we re-attempt to turn the Tiberium into the large size if our first attempt fails (e.g. due to Tiberium in use, in Sim inventory, in location that can't accomodate bigger-sized Tiberium, etc.).  Format: (minSimHours, maxSimHours).  These are float values.-->
+    </kRegularToLargeRetryFrequency>
+  </Current_Tuning>
+</base>

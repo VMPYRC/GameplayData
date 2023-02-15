@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNPCPlayerSimRadius value="30">
+      <!--Radius to check for player controlled sims.  If a player controlled sim is found, the NPC dismount alarm will reset.-->
+    </kNPCPlayerSimRadius>
+    <kNPCDismountInitialTimeRange value="180, 240">
+      <!--Time in sim minutes before an NPC will initially dismount a horse.-->
+    </kNPCDismountInitialTimeRange>
+    <kNPCDismountRefreshTimeRange value="30, 45">
+      <!--Time in sim minutes before an NPC will dismount a horse after initial time has expired, and sim is in range.-->
+    </kNPCDismountRefreshTimeRange>
+  </Current_Tuning>
+</base>

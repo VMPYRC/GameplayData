@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinTimeToPlayInitially value="7">
+      <!--Range: Positive float. The minimum amount of time in sim minutes the sim plays initially, before anything happens.-->
+    </kMinTimeToPlayInitially>
+    <kMaxTimeToPlayInitially value="12">
+      <!--Range: Positive float. The maximum amount of time in sim minutes the sim plays initially, before anything happens.-->
+    </kMaxTimeToPlayInitially>
+    <kSnakeChanceLowSkill value="0.1">
+      <!--Range: Float [0,1]. Chance the snake will appear for a low-skill sim.-->
+    </kSnakeChanceLowSkill>
+    <kSnakeChanceMedSkill value=".5">
+      <!--Range: Float [0,1]. Chance the snake will appear for a medium-skill sim.-->
+    </kSnakeChanceMedSkill>
+    <kChanceHurtHand value="0.1">
+      <!--Range: Float [0,1]. Chance the snake will bite the sim when he is reaching in the basket.-->
+    </kChanceHurtHand>
+    <kChanceSnakeKissMedSkill value="0.2">
+      <!--Range: Float [0,1]. Chance a medium-skill sim will attempt a snake kiss.-->
+    </kChanceSnakeKissMedSkill>
+    <kChanceSnakeKissSuccessMedSkill value="0.3">
+      <!--Range: Float [0,1]. Chance a medium-skill sim will succeed at a snake kiss.-->
+    </kChanceSnakeKissSuccessMedSkill>
+    <kChanceSnakeKissEpicFailMedSkill value="0.7">
+      <!--Range: Float [0,1]. Chance a medium-skill sim will epic fail at a snake kiss.-->
+    </kChanceSnakeKissEpicFailMedSkill>
+    <kChanceSnakeKissHighSkill value="0.4">
+      <!--Range: Float [0,1]. Chance a high-skill sim will attempt a snake kiss.-->
+    </kChanceSnakeKissHighSkill>
+    <kChanceSnakeKissSuccessHighSkill value=".75">
+      <!--Range: Float [0,1]. Chance a high-skill sim will succeed at a snake kiss.-->
+    </kChanceSnakeKissSuccessHighSkill>
+    <kChanceSnakeKissEpicFailHighSkill value=".2">
+      <!--Range: Float [0,1]. Chance a high-skill sim will epic fail at a snake kiss.-->
+    </kChanceSnakeKissEpicFailHighSkill>
+    <kChanceMagic value="0.2">
+      <!--Range: Float [0,1]. Chance a high-skill sim will get magic (gnome, teddy bear, butterflies) instead of a snake.-->
+    </kChanceMagic>
+    <kSnakeKissMoodValueGarter value="20">
+      <!--Range: Positive int. Mood value from Snake Kiss buff from garter snake.-->
+    </kSnakeKissMoodValueGarter>
+    <kSnakeKissMoodValueCobra value="35">
+      <!--Range: Positive int. Mood value from Snake Kiss buff from cobra.-->
+    </kSnakeKissMoodValueCobra>
+  </Current_Tuning>
+</base>

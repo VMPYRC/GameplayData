@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumberOfEggsToPlaceMin value="10">
+      <!--Minimum number of eggs to try to place each day when eggs respawn on the Spring Festival lot.-->
+    </kNumberOfEggsToPlaceMin>
+    <kNumberOfEggsToPlaceMax value="20">
+      <!--Maximum number of eggs to try to place each day when eggs respawn on the Spring Festival lot.-->
+    </kNumberOfEggsToPlaceMax>
+    <kHourForRespawn value="5">
+      <!--Float, Hour of the day that the eggs will spawn.-->
+    </kHourForRespawn>
+    <kDaysBeforeEndOfSeasonThreshold value="0.5">
+      <!--Float, Number of days (or fraction of a day) before the end of the season where the eggs will no longer spawn-->
+    </kDaysBeforeEndOfSeasonThreshold>
+    <kMaxedFunChanceToQuit value="5">
+      <!--Float, Chance for a sim with maxed fun motive to stop searching for eggs each time they try to wander to a new location.-->
+    </kMaxedFunChanceToQuit>
+  </Current_Tuning>
+</base>

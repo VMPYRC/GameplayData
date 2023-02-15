@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSkillLevelForExpertAnimations value="10">
+      <!--Range: (0-10).  Description:  Skill level at which a Sim is doing 'Expert' animations.-->
+    </kSkillLevelForExpertAnimations>
+    <kSkillLevelForSkilledAnimations value="8">
+      <!--Range: (0-10).  Description:  Skill level at which a Sim is doing 'Skilled' animations.-->
+    </kSkillLevelForSkilledAnimations>
+    <kSkillLevelForNormalAnimations value="4">
+      <!--Range: (0-10).  Description:  Skill level at which a Sim is doing 'Normal' animations.-->
+    </kSkillLevelForNormalAnimations>
+    <kSkillLevelForNoviceAnimations value="2">
+      <!--Range: (0-10).  Description:  Skill level at which a Sim is doing 'Novice' animations.-->
+    </kSkillLevelForNoviceAnimations>
+    <kSkillLevelBumpMultiplierForFairies value="1">
+      <!--Range: (0 ...).  Description:  Fairy acquiring 'Fairy skills' speed multiplier.-->
+    </kSkillLevelBumpMultiplierForFairies>
+    <kFairySkills value="Gardening, Painting, Sculpting, Dancing, Entertainer, Guitar, BassGuitar, Drums, Piano">
+      <!--Fairy Skills that have multiplier.-->
+    </kFairySkills>
+    <kVGnomeBotSkillMultiplierBoost value="0.75">
+      <!--Modifier for bot making skill when Vgnome is nearby (0.25 = 25% faster) - PAB-->
+    </kVGnomeBotSkillMultiplierBoost>
+    <kVGnomeFutureSkillMultiplierBoost value="0.75">
+      <!--Modifier for future skill when Vgnome is nearby (0.25 = 25% faster) - PAB-->
+    </kVGnomeFutureSkillMultiplierBoost>
+    <kMaxGnomeDistance value="15">
+      <!--Max distance for a Vgnome nearby to have an effect on the sim's skill multipliers - PAB-->
+    </kMaxGnomeDistance>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

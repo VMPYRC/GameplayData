@@ -1,0 +1,991 @@
+<?xml version="1.0"?>
+<Celebrity>
+<Levels>
+  <Level></Level>
+  <Points></Points>
+  <Name></Name>
+  <Description></Description>
+  <LevelUpTns></LevelUpTns>
+  <LevelUpSting></LevelUpSting>
+  <LevelUpVfx></LevelUpVfx>
+  <FreebieChance></FreebieChance>
+  <DiscountChance></DiscountChance>
+ </Levels>
+<Levels>
+  <Level>0</Level>
+  <Points>100</Points>
+  <FreebieChance>0</FreebieChance>
+  <DiscountChance>0</DiscountChance>
+ </Levels>
+<Levels>
+  <Level>1</Level>
+  <Points>1500</Points>
+  <Name>Level1</Name>
+  <Description>Level1Description</Description>
+  <LevelUpTns>Level1Tns</LevelUpTns>
+  <LevelUpVfx>ep3CelebrityStar1</LevelUpVfx>
+  <FreebieChance>0</FreebieChance>
+  <DiscountChance>0.2</DiscountChance>
+ </Levels>
+<Levels>
+  <Level>2</Level>
+  <Points>2000</Points>
+  <Name>Level2</Name>
+  <Description>Level2Description</Description>
+  <LevelUpTns>Level2Tns</LevelUpTns>
+  <LevelUpVfx>ep3CelebrityStar2</LevelUpVfx>
+  <FreebieChance>0.1</FreebieChance>
+  <DiscountChance>0.35</DiscountChance>
+ </Levels>
+<Levels>
+  <Level>3</Level>
+  <Points>4000</Points>
+  <Name>Level3</Name>
+  <Description>Level3Description</Description>
+  <LevelUpTns>Level3Tns</LevelUpTns>
+  <LevelUpVfx>ep3CelebrityStar3</LevelUpVfx>
+  <FreebieChance>0.15</FreebieChance>
+  <DiscountChance>0.5</DiscountChance>
+ </Levels>
+<Levels>
+  <Level>4</Level>
+  <Points>6000</Points>
+  <Name>Level4</Name>
+  <Description>Level4Description</Description>
+  <LevelUpTns>Level4Tns</LevelUpTns>
+  <LevelUpVfx>ep3CelebrityStar4</LevelUpVfx>
+  <FreebieChance>0.2</FreebieChance>
+  <DiscountChance>0.6</DiscountChance>
+ </Levels>
+<Levels>
+  <Level>5</Level>
+  <Points>10000</Points>
+  <Name>Level5</Name>
+  <Description>Level5Description</Description>
+  <LevelUpTns>Level5Tns</LevelUpTns>
+  <LevelUpVfx>ep3CelebrityStar5</LevelUpVfx>
+  <FreebieChance>0.25</FreebieChance>
+  <DiscountChance>0.7</DiscountChance>
+ </Levels>
+<RelationshipBenefits>
+  <LTR></LTR>
+  <Points></Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Stranger</LTR>
+  <Points>0</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Acquaintance</LTR>
+  <Points>0</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Disliked</LTR>
+  <Points>0</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Distant Friend</LTR>
+  <Points>0</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Friend</LTR>
+  <Points>1000</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Good Friend</LTR>
+  <Points>500</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Best Friend</LTR>
+  <Points>1000</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Old Friend</LTR>
+  <Points>0</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Best Friends Forever</LTR>
+  <Points>1500</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Romantic Interest</LTR>
+  <Points>1100</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Ex Spouse</LTR>
+  <Points>0</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Ex</LTR>
+  <Points>0</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Enemy</LTR>
+  <Points>0</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Old Enemies</LTR>
+  <Points>0</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Partner</LTR>
+  <Points>1750</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Fiancee</LTR>
+  <Points>2000</Points>
+ </RelationshipBenefits>
+<RelationshipBenefits>
+  <LTR>Spouse</LTR>
+  <Points>3000</Points>
+ </RelationshipBenefits>
+<ImpressPoints>
+  <Metric></Metric>
+  <Level></Level>
+  <ImpressPointsCelebrityLevel1></ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax></ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Skill</Metric>
+  <Level>1</Level>
+  <ImpressPointsCelebrityLevel1>40</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>3</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Skill</Metric>
+  <Level>2</Level>
+  <ImpressPointsCelebrityLevel1>45</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>8</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Skill</Metric>
+  <Level>3</Level>
+  <ImpressPointsCelebrityLevel1>50</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>13</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Skill</Metric>
+  <Level>4</Level>
+  <ImpressPointsCelebrityLevel1>55</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>20</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Skill</Metric>
+  <Level>5</Level>
+  <ImpressPointsCelebrityLevel1>60</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>22</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Skill</Metric>
+  <Level>6</Level>
+  <ImpressPointsCelebrityLevel1>65</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>25</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Skill</Metric>
+  <Level>7</Level>
+  <ImpressPointsCelebrityLevel1>70</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>30</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Skill</Metric>
+  <Level>8</Level>
+  <ImpressPointsCelebrityLevel1>75</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>42</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Skill</Metric>
+  <Level>9</Level>
+  <ImpressPointsCelebrityLevel1>80</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>50</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Skill</Metric>
+  <Level>10</Level>
+  <ImpressPointsCelebrityLevel1>85</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>65</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Occupation</Metric>
+  <Level>1</Level>
+  <ImpressPointsCelebrityLevel1>40</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>3</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Occupation</Metric>
+  <Level>2</Level>
+  <ImpressPointsCelebrityLevel1>45</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>8</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Occupation</Metric>
+  <Level>3</Level>
+  <ImpressPointsCelebrityLevel1>50</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>13</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Occupation</Metric>
+  <Level>4</Level>
+  <ImpressPointsCelebrityLevel1>55</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>20</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Occupation</Metric>
+  <Level>5</Level>
+  <ImpressPointsCelebrityLevel1>60</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>22</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Occupation</Metric>
+  <Level>6</Level>
+  <ImpressPointsCelebrityLevel1>65</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>25</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Occupation</Metric>
+  <Level>7</Level>
+  <ImpressPointsCelebrityLevel1>70</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>30</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Occupation</Metric>
+  <Level>8</Level>
+  <ImpressPointsCelebrityLevel1>75</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>42</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Occupation</Metric>
+  <Level>9</Level>
+  <ImpressPointsCelebrityLevel1>80</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>50</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Occupation</Metric>
+  <Level>10</Level>
+  <ImpressPointsCelebrityLevel1>85</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>65</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Wealth</Metric>
+  <Level>5000</Level>
+  <ImpressPointsCelebrityLevel1>0</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>0</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Wealth</Metric>
+  <Level>10000</Level>
+  <ImpressPointsCelebrityLevel1>40</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>15</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Wealth</Metric>
+  <Level>15000</Level>
+  <ImpressPointsCelebrityLevel1>45</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>20</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Wealth</Metric>
+  <Level>20000</Level>
+  <ImpressPointsCelebrityLevel1>50</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>25</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Wealth</Metric>
+  <Level>25000</Level>
+  <ImpressPointsCelebrityLevel1>55</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>30</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Wealth</Metric>
+  <Level>30000</Level>
+  <ImpressPointsCelebrityLevel1>60</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>35</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Wealth</Metric>
+  <Level>35000</Level>
+  <ImpressPointsCelebrityLevel1>65</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>40</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressPoints>
+  <Metric>Wealth</Metric>
+  <Level>MaxValue</Level>
+  <ImpressPointsCelebrityLevel1>70</ImpressPointsCelebrityLevel1>
+  <ImpressPointsCelebrityLevelMax>55</ImpressPointsCelebrityLevelMax>
+ </ImpressPoints>
+<ImpressTraits>
+  <Trait></Trait>
+  <MetricValue></MetricValue>
+  <Metric></Metric>
+  <BonusImpressPointsFromTrait></BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>EasilyImpressed</Trait>
+  <MetricValue>Athletic</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Charisma</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Cooking</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Fishing</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Gardening</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Guitar</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Handiness</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Logic</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Painting</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Writing</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>BassGuitar</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Piano</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Drums</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Photography</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Inventing</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Sculpting</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Angler</Trait>
+  <MetricValue>Fishing</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Virtuoso</Trait>
+  <MetricValue>Guitar</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>BassGuitar</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Piano</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Drums</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Artistic</Trait>
+  <MetricValue>Painting</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Athletic</Trait>
+  <MetricValue>Athletic</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Bookworm</Trait>
+  <MetricValue>Writing</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Charismatic</Trait>
+  <MetricValue>Charisma</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Genius</Trait>
+  <MetricValue>Logic</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>GreenThumb</Trait>
+  <MetricValue>Gardening</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Handy</Trait>
+  <MetricValue>Handiness</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>NaturalCook</Trait>
+  <MetricValue>Cooking</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>PhotographersEye</Trait>
+  <MetricValue>Photography</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Eccentric</Trait>
+  <MetricValue>Inventing</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>SavvySculptor</Trait>
+  <MetricValue>Sculpting</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>CantStandArt</Trait>
+  <MetricValue>Painting</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>x</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Sculpting</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>x</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Photography</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>x</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>HatesOutdoors</Trait>
+  <MetricValue>Gardening</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>x</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Fishing</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>x</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Loner</Trait>
+  <MetricValue>Charisma</MetricValue>
+  <Metric>Skill</Metric>
+  <BonusImpressPointsFromTrait>x</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>NaturalCook</Trait>
+  <MetricValue>Culinary</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Athletic</Trait>
+  <MetricValue>ProfessionalSports</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Evil</Trait>
+  <MetricValue>Criminal</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Kleptomaniac</Trait>
+  <MetricValue>Criminal</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Good</Trait>
+  <MetricValue>LawEnforcement</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Virtuoso</Trait>
+  <MetricValue>Music</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Brave</Trait>
+  <MetricValue>Military</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Genius</Trait>
+  <MetricValue>Science</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Xfactor</Trait>
+  <MetricValue>Film</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>25</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>EasilyImpressed</Trait>
+  <MetricValue>Medical</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Criminal</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Political</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Culinary</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>LawEnforcement</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Music</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Military</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Science</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Journalism</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Business</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>ProfessionalSports</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Education</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <MetricValue>Film</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>CouchPotato</Trait>
+  <MetricValue>ProfessionalSports</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>x</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Kleptomaniac</Trait>
+  <MetricValue>LawEnforcement</MetricValue>
+  <Metric>Occupation</Metric>
+  <BonusImpressPointsFromTrait>x</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>EasilyImpressed</Trait>
+  <Metric>Wealth</Metric>
+  <BonusImpressPointsFromTrait>10</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<ImpressTraits>
+  <Trait>Snob</Trait>
+  <Metric>Wealth</Metric>
+  <BonusImpressPointsFromTrait>-5</BonusImpressPointsFromTrait>
+ </ImpressTraits>
+<FreeStuff>
+  <CelebrityLevel>1</CelebrityLevel>
+  <MedatorName></MedatorName>
+  <ProductVersion>BaseGame</ProductVersion>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>1</CelebrityLevel>
+  <MedatorName>SculptureWallMountedFish</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>1</CelebrityLevel>
+  <MedatorName>sculptureRoofWeatherVaneRoosterCF</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>1</CelebrityLevel>
+  <MedatorName>PaintingAnimalGiraffe</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>1</CelebrityLevel>
+  <MedatorName>FireplaceToolRack</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>1</CelebrityLevel>
+  <MedatorName>ClutterTablePaperTowelRoll</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>1</CelebrityLevel>
+  <MedatorName>SculpturePlantPerennials</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>2</CelebrityLevel>
+  <MedatorName>RugTraditionalSquare4x4</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>2</CelebrityLevel>
+  <MedatorName>DishwasherStainless</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>2</CelebrityLevel>
+  <MedatorName>TelescopeCheap</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>2</CelebrityLevel>
+  <MedatorName>DresserMediumColonial</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>3</CelebrityLevel>
+  <MedatorName>BarbequeGrillGrand</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>3</CelebrityLevel>
+  <MedatorName>LoveseatExpensiveCamelBack</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>3</CelebrityLevel>
+  <MedatorName>StoveModern</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>3</CelebrityLevel>
+  <MedatorName>RefrigeratorModern </MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>3</CelebrityLevel>
+  <MedatorName>BookshelfTraditionalHigh3x1</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>4</CelebrityLevel>
+  <MedatorName>RefrigeratorModern </MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>4</CelebrityLevel>
+  <MedatorName>BookshelfTraditionalHigh3x1</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>4</CelebrityLevel>
+  <MedatorName>BathtubModern</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>4</CelebrityLevel>
+  <MedatorName>ToiletExpensive</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>4</CelebrityLevel>
+  <MedatorName>fountainLoungeLit2x1</MedatorName>
+  <ProductVersion>EP3</ProductVersion>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>4</CelebrityLevel>
+  <MedatorName>BedDoubleColonial</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>4</CelebrityLevel>
+  <MedatorName>BedDoubleContemporary</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>4</CelebrityLevel>
+  <MedatorName>ComputerLaptop</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>4</CelebrityLevel>
+  <MedatorName>hotTubSmall</MedatorName>
+  <ProductVersion>EP3</ProductVersion>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>4</CelebrityLevel>
+  <MedatorName>TelevisionWall1x2</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>5</CelebrityLevel>
+  <MedatorName>CarSports</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>5</CelebrityLevel>
+  <MedatorName>CarExpensive1</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>5</CelebrityLevel>
+  <MedatorName>CarExpensive2</MedatorName>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>5</CelebrityLevel>
+  <MedatorName>FoosballTable</MedatorName>
+  <WeightedProbability>5</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>5</CelebrityLevel>
+  <MedatorName>magicGnomeCelebrity</MedatorName>
+  <ProductVersion>EP3</ProductVersion>
+  <WeightedProbability>1</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>5</CelebrityLevel>
+  <MedatorName>fishTankWallDigital5x1</MedatorName>
+  <ProductVersion>EP3</ProductVersion>
+  <WeightedProbability>2</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>5</CelebrityLevel>
+  <MedatorName>VRGoggles</MedatorName>
+  <WeightedProbability>2</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>5</CelebrityLevel>
+  <MedatorName>hotTubGrotto</MedatorName>
+  <ProductVersion>EP3</ProductVersion>
+  <WeightedProbability>3</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>5</CelebrityLevel>
+  <MedatorName>PianoGrand</MedatorName>
+  <ProductVersion>EP3</ProductVersion>
+  <WeightedProbability>5</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>5</CelebrityLevel>
+  <MedatorName>HotTubGrottoCeleb</MedatorName>
+  <ProductVersion>EP3</ProductVersion>
+  <WeightedProbability>4</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>5</CelebrityLevel>
+  <MedatorName>carCelebGift</MedatorName>
+  <ProductVersion>EP3</ProductVersion>
+  <WeightedProbability>2</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>5</CelebrityLevel>
+  <MedatorName>guitarCelebGift</MedatorName>
+  <ProductVersion>EP3</ProductVersion>
+  <WeightedProbability>4</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>5</CelebrityLevel>
+  <MedatorName>bedDoubleCeleb</MedatorName>
+  <ProductVersion>EP3</ProductVersion>
+  <WeightedProbability>4</WeightedProbability>
+ </FreeStuff>
+<FreeStuff>
+  <CelebrityLevel>5</CelebrityLevel>
+  <MedatorName>tvWallCeleb3x1</MedatorName>
+  <ProductVersion>EP3</ProductVersion>
+  <WeightedProbability>4</WeightedProbability>
+ </FreeStuff>
+<DisgracefulActions>
+  <DisgracefulAction>Invalid</DisgracefulAction>
+  <Chance>0</Chance>
+  <TNS>None</TNS>
+  <Origin>None</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>FightInPublic</DisgracefulAction>
+  <Chance>0.4</Chance>
+  <TNS>DisgraceFightInPublic</TNS>
+  <Origin>FromFightInPublic</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>Cheating</DisgracefulAction>
+  <Chance>0.4</Chance>
+  <TNS>DisgraceCheating</TNS>
+  <Origin>FromCheating</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>Divorce</DisgracefulAction>
+  <Chance>0.75</Chance>
+  <TNS>DisgraceDivorce</TNS>
+  <Origin>FromDivorce</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>JobSetback</DisgracefulAction>
+  <Chance>0.4</Chance>
+  <TNS>DisgraceJobSetback</TNS>
+  <Origin>FromJobSetback</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>CaughtRummaging</DisgracefulAction>
+  <Chance>0.6</Chance>
+  <TNS>DisgraceCaughtRummaging</TNS>
+  <Origin>FromCaughtRummaging</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>Arrested</DisgracefulAction>
+  <Chance>0.75</Chance>
+  <TNS>DisgraceArrested</TNS>
+  <Origin>FromArrested</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>ChildOutOfMarriage</DisgracefulAction>
+  <Chance>0.4</Chance>
+  <TNS>DisgraceChildOutOfMarriage</TNS>
+  <Origin>FromChildOutOfMarriage</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>CaughtSneakingIntoClub</DisgracefulAction>
+  <Chance>0.5</Chance>
+  <TNS>DisgraceCaughtSneakingIntoClub</TNS>
+  <Origin>FromCaughtSneakingIntoClub</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>DetonatingSmashing</DisgracefulAction>
+  <Chance>0.6</Chance>
+  <TNS>DisgraceDetonatingSmashing</TNS>
+  <Origin>FromDetonatingSmashing</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>WooHooInPublic</DisgracefulAction>
+  <Chance>0.4</Chance>
+  <TNS>DisgraceWooHooInPublic</TNS>
+  <Origin>FromWooHooInPublic</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>WooHooWithOccult</DisgracefulAction>
+  <Chance>0.2</Chance>
+  <TNS>DisgraceWooHooWithOccult</TNS>
+  <Origin>FromWooHooWithOccult</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>BiteSomeoneInPublic</DisgracefulAction>
+  <Chance>0.6</Chance>
+  <TNS>DisgraceBiteSomeoneInPublic</TNS>
+  <Origin>FromBiteSomeoneInPublic</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>GetReposessed</DisgracefulAction>
+  <Chance>0.75</Chance>
+  <TNS>DisgraceGetReposessed</TNS>
+  <Origin>FromRepossession</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>ChildTaken</DisgracefulAction>
+  <Chance>0.75</Chance>
+  <TNS>DisgraceChildTaken</TNS>
+  <Origin>FromChildTaken</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>PeeingSelf</DisgracefulAction>
+  <Chance>0.75</Chance>
+  <TNS>DisgracePeeingSelf</TNS>
+  <Origin>FromPeeingSelf</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>PassingOut</DisgracefulAction>
+  <Chance>0.75</Chance>
+  <TNS>DisgracePassingOut</TNS>
+  <Origin>FromPassingOut</Origin>
+ </DisgracefulActions>
+<DisgracefulActions>
+  <DisgracefulAction>FalselyAccused</DisgracefulAction>
+  <Chance>1</Chance>
+  <TNS>DisgraceFalselyAccused</TNS>
+  <Origin>FromFalselyAccused</Origin>
+ </DisgracefulActions>
+</Celebrity>

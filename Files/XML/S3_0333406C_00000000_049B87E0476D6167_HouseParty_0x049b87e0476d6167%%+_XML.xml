@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHousePartyParams>
+      <PreparationTime value="2">
+        <!--How long the host will prepare before the party starts (in hours)-->
+      </PreparationTime>
+      <PercentageChanceOfBringingAFriend value="30">
+        <!--Percentage chance (0 to 100) of bringing a friend along to the party-->
+      </PercentageChanceOfBringingAFriend>
+      <MinPartyTime value="2">
+        <!--Min length of party (in hours): Sims will not leave until this many hours after they arrive (unless motive distress)-->
+      </MinPartyTime>
+      <ChanceOfBringingFood value="25">
+        <!--Percentage chance of bringing food-->
+      </ChanceOfBringingFood>
+      <HourAtWhichChildrenGoHome value="22">
+        <!--Time (in 24 hours) at which children (and their parents) will leave the party-->
+      </HourAtWhichChildrenGoHome>
+      <InitialDesireToSocialize value="50" />
+      <RatioOfMoodToLikingChangeWhenLeavingParty value=".15">
+        <!--Ratio of mood -> liking update when leaving the party (0.1 means that mood of +90 is turned into +9 liking)-->
+      </RatioOfMoodToLikingChangeWhenLeavingParty>
+      <HoursBeforePartyToInvite value="1">
+        <!--How Many Hours before the Party Start the Host invites Guests to Start coming over-->
+      </HoursBeforePartyToInvite>
+      <MinutesPerLeavingCheck value="15">
+        <!--How Often the Party Checks if people should leave the party. Minutes-->
+      </MinutesPerLeavingCheck>
+      <RelToTimeMod value="0.01">
+        <!--This changes Rel to a scale of 0-200, multiplies it by this number, and adds you min party time to get how long you'll stay to start. Hours-->
+      </RelToTimeMod>
+      <MoodToTimeMod value=".045">
+        <!--Each MinutesPerLeavingCheck you get an additional Your Mood * MoodToTimeMod Minutes to stay-->
+      </MoodToTimeMod>
+    </kHousePartyParams>
+    <kThrewGreatPartyBuffMoodRequirement value="65">
+      <!--Range: Mood value.  Description:  If the average mood value of guests as they leave the party is greater than this tunable, the host gets the 'Threw a Great Party' buff.-->
+    </kThrewGreatPartyBuffMoodRequirement>
+    <kThrewLamePartyBuffMoodRequirement value="10">
+      <!--Range: Mood value.  Description:  If the average mood value of guests as they leave the party is less than this tunable, the host (only if Party Animal) gets the 'Threw a Lame Party' buff. (base parties only)-->
+    </kThrewLamePartyBuffMoodRequirement>
+    <kLTRMinToInvite value="-25">
+      <!--Range: Liking value. Description: Min LTR Required to invite someone to a party.-->
+    </kLTRMinToInvite>
+    <kChanceToComeAtMinLTR value="25">
+      <!--Range: [0,100]. Description: Chance that a sim at the min LTR value will show up if invited.-->
+    </kChanceToComeAtMinLTR>
+    <kChanceToComeAtMaxLTR value="250">
+      <!--Range: [0,100]. Description: Chance that a sim at the max LTR value will show up if invited. Note: 'max' is just below Friend. Friends and above always come.-->
+    </kChanceToComeAtMaxLTR>
+    <kMoodIncreaseForEachCelebrity value="2, 4, 6, 8, 10">
+      <!--Increase to average party mood for each NPC Celebrity Sim that attends a selectable Sim's party. Format: (moodIncreasePerLevel1Celebrity, moodIncreasePerLevel2Celebrity, moodIncreasePerLevel3Celebrity, moodIncreasePerLevel4Celebrity, moodIncreasePerLevel5Celebrity).-->
+    </kMoodIncreaseForEachCelebrity>
+    <kChanceForInvitationToNpcParty value=".40">
+      <!--If the player threw a great party, then we perform a random roll to determine whether the active household will receive an invitation to an NPC Party the following day.  This tuning var is the success chance of that roll.  Valid values: 0 to 1.-->
+    </kChanceForInvitationToNpcParty>
+    <kNpcHostMaxNumCelebrityLevelsAbove value="1">
+      <!--If we're going to force an NPC Party tomorrow due to the great house party thrown by a selectable Sim then this is the number of celebrity levels above the highest-celebrity level guest that we'll use in choosing an NPC host.-->
+    </kNpcHostMaxNumCelebrityLevelsAbove>
+    <kThrewAmazingPartyBuffMoodRequirement value="90">
+      <!--Range: Mood value.  Description:  If the average mood value of guests as they leave the party is less than this tunable, the host gets the 'Threw an Amazing Party' buff.-->
+    </kThrewAmazingPartyBuffMoodRequirement>
+    <kThrewKillerPartyBuffMoodRequirement value="120">
+      <!--Range: Mood value.  Description:  If the average mood value of guests as they leave the party is less than this tunable, the host gets the 'Threw a Killer Party' buff.-->
+    </kThrewKillerPartyBuffMoodRequirement>
+    <kThrewRagingPartyBuffMoodRequirement value="150">
+      <!--Range: Mood value.  Description:  If the average mood value of guests as they leave the party is less than this tunable, the host gets the 'Threw a Raging Party' buff.-->
+    </kThrewRagingPartyBuffMoodRequirement>
+    <kBonusScorePerSim value="5">
+      <!--Bonus score per Sim that attended party.-->
+    </kBonusScorePerSim>
+    <kThrewLamePartyBuffMoodRequirementEP9 value="64">
+      <!--Range: Mood value.  Description:  If the average mood value of guests as they leave the party is less than this tunable, the host (only if Party Animal) gets the 'Threw a Lame Party' buff (EP9 parties only).-->
+    </kThrewLamePartyBuffMoodRequirementEP9>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <sInitialDesireToSocializeWithHost value="1000">
+      <!--deprecated on: 3/5/2008 4:59:25 PM-->
+    </sInitialDesireToSocializeWithHost>
+    <sInitialDesireToSocialize value="1000">
+      <!--deprecated on: 3/14/2008 7:07:39 PM-->
+    </sInitialDesireToSocialize>
+    <sPreparationTime value="2">
+      <!--How long the host will prepare before the party starts (in hours)-->
+      <!--deprecated on: 3/14/2008 7:07:39 PM-->
+    </sPreparationTime>
+    <sMaxPartyTime value="6">
+      <!--Max length of party (in hours) between first guest arriving and last guest leaving-->
+      <!--deprecated on: 3/14/2008 7:07:39 PM-->
+    </sMaxPartyTime>
+    <sMinPartyTime value="2">
+      <!--Min length of party (in hours): Sims will not leave until this many hours after first guest arrives (unless motive distress)-->
+      <!--deprecated on: 3/14/2008 7:07:39 PM-->
+    </sMinPartyTime>
+    <sChanceOfLeavingMoodIncrease value="20">
+      <!--Percentage increase (between 0 and 100) of chance of leaving if guest is in bad mood-->
+      <!--deprecated on: 3/14/2008 7:07:39 PM-->
+    </sChanceOfLeavingMoodIncrease>
+    <kChanceOfBringingFood value="90">
+      <!--Percentage chance of bringing food-->
+      <!--deprecated on: 3/14/2008 7:07:39 PM-->
+    </kChanceOfBringingFood>
+    <sHourAtWhichChildrenGoHome value="22">
+      <!--Time (in 24 hours) at which children (and their parents) will leave the party-->
+      <!--deprecated on: 3/14/2008 7:07:39 PM-->
+    </sHourAtWhichChildrenGoHome>
+    <sPercentageChanceOfBringingAFriend value="30">
+      <!--Percentage chance (0 to 100) of bringing a friend along to the party-->
+      <!--deprecated on: 3/14/2008 7:07:39 PM-->
+    </sPercentageChanceOfBringingAFriend>
+  </Deprecated_Tuning>
+</base>

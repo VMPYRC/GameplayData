@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteToHighRelSimRange value="1, 5">
+      <!--The range the pregnant pet will route to the highest rel sim in the household.-->
+    </kRouteToHighRelSimRange>
+    <kInitialChildParentRelLikingRange value="35, 50">
+      <!--A liking will be randomly selected between these two values to update the liking between newborn pet and parent.-->
+    </kInitialChildParentRelLikingRange>
+    <kDistressTotalLength value="10">
+      <!--How long the mother will play the distressed animation in total before stopping being distressed. For dogs and cats, this is how long they will stay lying down.-->
+    </kDistressTotalLength>
+    <kDistressLengthBeforeSpawnNewborns value="5">
+      <!--How long we have mother distress before we spawn the newborns. Less than kGiveBirthDistressLoopLength.-->
+    </kDistressLengthBeforeSpawnNewborns>
+  </Current_Tuning>
+</base>

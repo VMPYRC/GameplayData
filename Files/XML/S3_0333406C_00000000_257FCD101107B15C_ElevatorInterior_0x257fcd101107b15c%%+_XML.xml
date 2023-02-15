@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinutesToHoldElevator value="5">
+      <!--Time in sim minutes to wait between sims before sending off the elevator.-->
+    </kMinutesToHoldElevator>
+    <kElevatorGiveupTime value="25">
+      <!--Time in sim minutes to wait for the elevator to free before giving up on route.-->
+    </kElevatorGiveupTime>
+    <kElevatorToElevatorPortalCost value="4">
+      <!--Time in sim minutes to wait for the elevator to free before giving up on route.-->
+    </kElevatorToElevatorPortalCost>
+    <kElevatorSimQueueWaitBeforeTeleportSkipTime value="15">
+      <!--Time in sim minutes we wait in line for the elevator before we try to teleport rather than route in.-->
+    </kElevatorSimQueueWaitBeforeTeleportSkipTime>
+  </Current_Tuning>
+</base>

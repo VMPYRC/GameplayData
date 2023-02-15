@@ -1,0 +1,2145 @@
+<?xml version="1.0"?>
+<Fishing>
+<Fish>
+  <Name></Name>
+  <Description></Description>
+  <Hex>0</Hex>
+  <WaterTypes>All</WaterTypes>
+  <Bait>All Bait</Bait>
+  <Level>1</Level>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>10</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>100</MinPrice>
+  <MaxPrice>1000</MaxPrice>
+  <SkillPoints>30</SkillPoints>
+  <MedatorName></MedatorName>
+  <EffectSize></EffectSize>
+  <Ingredient_Key></Ingredient_Key>
+  <Model_Name></Model_Name>
+  <Fertilizer_Value></Fertilizer_Value>
+  <Fertilizer_Days></Fertilizer_Days>
+  <CanBuyFromStore></CanBuyFromStore>
+  <FishBowlMaterialState></FishBowlMaterialState>
+  <CodeVersion>BaseGame</CodeVersion>
+  <DataVersion>BaseGame</DataVersion>
+  <RequiredWorld>Undefined</RequiredWorld>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>0</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <EdibleRawAnimation></EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>Minnow</Name>
+  <Description>MinnowDesc</Description>
+  <Hex>Minnow</Hex>
+  <WaterTypes>2</WaterTypes>
+  <Bait>Apple</Bait>
+  <Level>0</Level>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>0.5</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>5</MinPrice>
+  <MaxPrice>11</MaxPrice>
+  <SkillPoints>120</SkillPoints>
+  <MedatorName>fishMinnow</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Minnow</Ingredient_Key>
+  <Model_Name>fishMinnow</Model_Name>
+  <Fertilizer_Value>10</Fertilizer_Value>
+  <Fertilizer_Days>4</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlMinnow</FishBowlMaterialState>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>Anchovy</Name>
+  <Description>AnchovyDesc</Description>
+  <Hex>Anchovy</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Bait>Tomato</Bait>
+  <Level>0</Level>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>0.5</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>5</MinPrice>
+  <MaxPrice>11</MaxPrice>
+  <SkillPoints>120</SkillPoints>
+  <MedatorName>fishAnchovy</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Anchovy</Ingredient_Key>
+  <Model_Name>fishAnchovy</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>True</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlAnchovy</FishBowlMaterialState>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>Goldfish</Name>
+  <Description>GoldfishDesc</Description>
+  <Hex>Goldfish</Hex>
+  <WaterTypes>3</WaterTypes>
+  <Bait>Lettuce</Bait>
+  <Level>1</Level>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>2</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>6</MinPrice>
+  <MaxPrice>16</MaxPrice>
+  <SkillPoints>132</SkillPoints>
+  <MedatorName>fishGoldfish</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>Goldfish</Ingredient_Key>
+  <Model_Name>fishGoldfish</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>True</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlGoldFish</FishBowlMaterialState>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <EdibleRawAnimation>ingredient4</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>AlleyCatfish</Name>
+  <Description>AlleyCatfishDesc</Description>
+  <Hex>AlleyCatfish</Hex>
+  <WaterTypes>6</WaterTypes>
+  <Bait>Cheese</Bait>
+  <Level>1</Level>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>5</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>6</MinPrice>
+  <MaxPrice>20</MaxPrice>
+  <SkillPoints>132</SkillPoints>
+  <MedatorName>fishAlleyCatfish</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>AlleyCatfish</Ingredient_Key>
+  <Model_Name>fishAlleyCatfish</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>True</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlAlleyCatfish</FishBowlMaterialState>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <EdibleRawAnimation>ingredient3</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>Jellyfish</Name>
+  <Description>JellyfishDesc</Description>
+  <Hex>Jellyfish</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Bait>Grapes</Bait>
+  <Level>2</Level>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>10</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>8</MinPrice>
+  <MaxPrice>19</MaxPrice>
+  <SkillPoints>140</SkillPoints>
+  <MedatorName>fishJellyfish</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Jellyfish</Ingredient_Key>
+  <Model_Name>fishJellyfish</Model_Name>
+  <Fertilizer_Value>10</Fertilizer_Value>
+  <Fertilizer_Days>4</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlJellyfish</FishBowlMaterialState>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <EdibleRawAnimation>ingredient1</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>RainbowTrout</Name>
+  <Description>RainbowTroutDesc</Description>
+  <Hex>RainbowTrout</Hex>
+  <WaterTypes>2</WaterTypes>
+  <Bait>Egg</Bait>
+  <Level>2</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>10</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>9</MinPrice>
+  <MaxPrice>18</MaxPrice>
+  <SkillPoints>140</SkillPoints>
+  <MedatorName>fishRainbowTrout</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>RainbowTrout</Ingredient_Key>
+  <Model_Name>fishRainbowTrout</Model_Name>
+  <Fertilizer_Value>8</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>True</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlRainbowTrout</FishBowlMaterialState>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <EdibleRawAnimation>fish7</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>RedHerring</Name>
+  <Description>RedHerringDesc</Description>
+  <Hex>RedHerring</Hex>
+  <WaterTypes>6</WaterTypes>
+  <Bait>Hot Dogs</Bait>
+  <Level>3</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>10</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>5</MinPrice>
+  <MaxPrice>5</MaxPrice>
+  <SkillPoints>160</SkillPoints>
+  <MedatorName>fishRedHerring</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>RedHerring</Ingredient_Key>
+  <Model_Name>fishRedHerring</Model_Name>
+  <Fertilizer_Value>15</Fertilizer_Value>
+  <Fertilizer_Days>4</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlRedHerring</FishBowlMaterialState>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>2</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <EdibleRawAnimation>ingredient2</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>Tuna</Name>
+  <Description>TunaDesc</Description>
+  <Hex>Tuna</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Bait>Onion</Bait>
+  <Level>3</Level>
+  <MinWeight>2</MinWeight>
+  <MaxWeight>40</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>11</MinPrice>
+  <MaxPrice>25</MaxPrice>
+  <SkillPoints>160</SkillPoints>
+  <MedatorName>fishTuna</MedatorName>
+  <EffectSize>Large</EffectSize>
+  <Ingredient_Key>Tuna</Ingredient_Key>
+  <Model_Name>fishTuna</Model_Name>
+  <Fertilizer_Value>10</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>True</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlTuna</FishBowlMaterialState>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>2</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <EdibleRawAnimation>fish</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>TragicClownfish</Name>
+  <Description>TragicClownfishDesc</Description>
+  <Hex>TragicClownfish</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Bait>Watermelon</Bait>
+  <Level>4</Level>
+  <MinWeight>5</MinWeight>
+  <MaxWeight>15</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>14</MinPrice>
+  <MaxPrice>30</MaxPrice>
+  <SkillPoints>185</SkillPoints>
+  <MedatorName>fishTragicClownfish</MedatorName>
+  <EffectSize>Large</EffectSize>
+  <Ingredient_Key>TragicClownfish</Ingredient_Key>
+  <Model_Name>fishTragicClownfish</Model_Name>
+  <Fertilizer_Value>15</Fertilizer_Value>
+  <Fertilizer_Days>4</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlTragicClownfish</FishBowlMaterialState>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <EdibleRawAnimation>fish4</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>SiameseCatfish</Name>
+  <Description>SiameseCatfishDesc</Description>
+  <Hex>SiameseCatfish</Hex>
+  <WaterTypes>6</WaterTypes>
+  <Bait>Bell Pepper</Bait>
+  <Level>4</Level>
+  <MinWeight>5</MinWeight>
+  <MaxWeight>40</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>13</MinPrice>
+  <MaxPrice>32</MaxPrice>
+  <SkillPoints>185</SkillPoints>
+  <MedatorName>fishSiameseCatfish</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>SiameseCatfish</Ingredient_Key>
+  <Model_Name>fishSiameseCatfish</Model_Name>
+  <Fertilizer_Value>15</Fertilizer_Value>
+  <Fertilizer_Days>4</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlSiamesesCatfish</FishBowlMaterialState>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <EdibleRawAnimation>fish</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>Piranha</Name>
+  <Description>PiranhaDesc</Description>
+  <Hex>Piranha</Hex>
+  <WaterTypes>2</WaterTypes>
+  <Bait>Minnow</Bait>
+  <Level>5</Level>
+  <MinWeight>3</MinWeight>
+  <MaxWeight>25</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>14</MinPrice>
+  <MaxPrice>41</MaxPrice>
+  <SkillPoints>220</SkillPoints>
+  <MedatorName>fishPiranha</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Piranha</Ingredient_Key>
+  <Model_Name>fishPiranha</Model_Name>
+  <Fertilizer_Value>15</Fertilizer_Value>
+  <Fertilizer_Days>4</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlPiranha</FishBowlMaterialState>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>4</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <EdibleRawAnimation>fish</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>Blowfish</Name>
+  <Description>BlowfishDesc</Description>
+  <Hex>Blowfish</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Bait>Potato</Bait>
+  <Level>5</Level>
+  <MinWeight>5</MinWeight>
+  <MaxWeight>40</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>13</MinPrice>
+  <MaxPrice>47</MaxPrice>
+  <SkillPoints>220</SkillPoints>
+  <MedatorName>fishBlowfish</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>Blowfish</Ingredient_Key>
+  <Model_Name>fishBlowfish</Model_Name>
+  <Fertilizer_Value>15</Fertilizer_Value>
+  <Fertilizer_Days>4</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlBlowfish</FishBowlMaterialState>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>4</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>Salmon</Name>
+  <Description>SalmonDesc</Description>
+  <Hex>Salmon</Hex>
+  <WaterTypes>6</WaterTypes>
+  <Bait>Lime</Bait>
+  <Level>6</Level>
+  <MinWeight>10</MinWeight>
+  <MaxWeight>50</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>14</MinPrice>
+  <MaxPrice>45</MaxPrice>
+  <SkillPoints>255</SkillPoints>
+  <MedatorName>fishSalmon</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Salmon</Ingredient_Key>
+  <Model_Name>fishSalmon</Model_Name>
+  <Fertilizer_Value>12</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>True</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlSalmon</FishBowlMaterialState>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>5</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <EdibleRawAnimation>fish</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>BlackGoldfish</Name>
+  <Description>BlackGoldfishDesc</Description>
+  <Hex>BlackGoldfish</Hex>
+  <WaterTypes>2</WaterTypes>
+  <Bait>Goldfish</Bait>
+  <Level>6</Level>
+  <MinWeight>5</MinWeight>
+  <MaxWeight>25</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>16</MinPrice>
+  <MaxPrice>49</MaxPrice>
+  <SkillPoints>255</SkillPoints>
+  <MedatorName>fishBlackGoldfish</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>BlackGoldfish</Ingredient_Key>
+  <Model_Name>fishBlackGoldfish</Model_Name>
+  <Fertilizer_Value>12</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlBlackGoldfish</FishBowlMaterialState>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>5</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <EdibleRawAnimation>fish8</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>Shark</Name>
+  <Description>SharkDesc</Description>
+  <Hex>Shark</Hex>
+  <WaterTypes>7</WaterTypes>
+  <Bait>RedHerring</Bait>
+  <Level>7</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>150</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>7</MinPrice>
+  <MaxPrice>70</MaxPrice>
+  <SkillPoints>295</SkillPoints>
+  <MedatorName>fishShark</MedatorName>
+  <EffectSize>Large</EffectSize>
+  <Ingredient_Key>Shark</Ingredient_Key>
+  <Model_Name>fishShark</Model_Name>
+  <Fertilizer_Value>20</Fertilizer_Value>
+  <Fertilizer_Days>4</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlShark</FishBowlMaterialState>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>6</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <EdibleRawAnimation>fish2</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>Swordfish</Name>
+  <Description>SwordfishDesc</Description>
+  <Hex>Swordfish</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Bait>Anchovy</Bait>
+  <Level>7</Level>
+  <MinWeight>20</MinWeight>
+  <MaxWeight>60</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>17</MinPrice>
+  <MaxPrice>60</MaxPrice>
+  <SkillPoints>295</SkillPoints>
+  <MedatorName>fishSwordfish</MedatorName>
+  <EffectSize>Large</EffectSize>
+  <Ingredient_Key>Swordfish</Ingredient_Key>
+  <Model_Name>fishSwordfish</Model_Name>
+  <Fertilizer_Value>12</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>True</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlSwordfish</FishBowlMaterialState>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>6</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <EdibleRawAnimation>fish1</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>Angelfish</Name>
+  <Description>AngelFishDesc</Description>
+  <Hex>AngelFish</Hex>
+  <WaterTypes>6</WaterTypes>
+  <Bait>AlleyCatfish</Bait>
+  <Level>8</Level>
+  <MinWeight>2</MinWeight>
+  <MaxWeight>60</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>21</MinPrice>
+  <MaxPrice>85</MaxPrice>
+  <SkillPoints>340</SkillPoints>
+  <MedatorName>fishAngelfish</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>Angelfish</Ingredient_Key>
+  <Model_Name>fishAngelfish</Model_Name>
+  <Fertilizer_Value>25</Fertilizer_Value>
+  <Fertilizer_Days>4</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlAngelfish</FishBowlMaterialState>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>7</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <EdibleRawAnimation>ingredient5</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>Vampirefish</Name>
+  <Description>VampireFishDesc</Description>
+  <Hex>VampireFish</Hex>
+  <WaterTypes>2</WaterTypes>
+  <Bait>Garlic</Bait>
+  <Level>8</Level>
+  <MinWeight>25</MinWeight>
+  <MaxWeight>80</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>55</MinPrice>
+  <MaxPrice>225</MaxPrice>
+  <SkillPoints>1000</SkillPoints>
+  <MedatorName>fishVampireFish</MedatorName>
+  <EffectSize>Large</EffectSize>
+  <Ingredient_Key>Vampirefish</Ingredient_Key>
+  <Model_Name>fishVampireFish</Model_Name>
+  <Fertilizer_Value>25</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlVampirefish</FishBowlMaterialState>
+  <Rarity>Rare</Rarity>
+  <MinHuntSkillLevel>7</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <EdibleRawAnimation>fish3</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>Robotfish</Name>
+  <Description>RobotFishDesc</Description>
+  <Hex>RobotFish</Hex>
+  <WaterTypes>2</WaterTypes>
+  <Bait>Piranha</Bait>
+  <Level>9</Level>
+  <MinWeight>250</MinWeight>
+  <MaxWeight>1000</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>50</MinPrice>
+  <MaxPrice>275</MaxPrice>
+  <SkillPoints>1000</SkillPoints>
+  <MedatorName>fishRobotFish</MedatorName>
+  <EffectSize>Large</EffectSize>
+  <Ingredient_Key>Robotfish</Ingredient_Key>
+  <Model_Name>fishRobotFish</Model_Name>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlRobotfish</FishBowlMaterialState>
+  <Rarity>Rare</Rarity>
+  <MinHuntSkillLevel>8</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>Lobster</Name>
+  <Description>LobsterDesc</Description>
+  <Hex>Lobster</Hex>
+  <WaterTypes>6</WaterTypes>
+  <Bait>Tuna</Bait>
+  <Level>9</Level>
+  <MinWeight>5</MinWeight>
+  <MaxWeight>50</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>25</MinPrice>
+  <MaxPrice>120</MaxPrice>
+  <SkillPoints>400</SkillPoints>
+  <MedatorName>fishLobster</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Lobster</Ingredient_Key>
+  <Model_Name>fishLobster</Model_Name>
+  <Fertilizer_Value>20</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>True</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlLobster</FishBowlMaterialState>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>8</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <EdibleRawAnimation>fish5</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>Deathfish</Name>
+  <Description>DeathfishDesc</Description>
+  <Hex>Deathfish</Hex>
+  <WaterTypes>2</WaterTypes>
+  <Bait>Angelfish</Bait>
+  <Level>10</Level>
+  <MinWeight>20</MinWeight>
+  <MaxWeight>80</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>200</MinPrice>
+  <MaxPrice>1000</MaxPrice>
+  <SkillPoints>1500</SkillPoints>
+  <MedatorName>fishDeathfish</MedatorName>
+  <EffectSize>Large</EffectSize>
+  <Ingredient_Key>Deathfish</Ingredient_Key>
+  <Model_Name>fishDeathfish</Model_Name>
+  <Fertilizer_Value>-200</Fertilizer_Value>
+  <Fertilizer_Days>4</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlDeathfish</FishBowlMaterialState>
+  <Rarity>Rare</Rarity>
+  <MinHuntSkillLevel>9</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>MummyFish</Name>
+  <Description>MummyFishDesc</Description>
+  <Hex>MummyFish</Hex>
+  <WaterTypes>2</WaterTypes>
+  <Bait>Pomegranate</Bait>
+  <Level>8</Level>
+  <MinWeight>25</MinWeight>
+  <MaxWeight>80</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>50</MinPrice>
+  <MaxPrice>280</MaxPrice>
+  <SkillPoints>1200</SkillPoints>
+  <MedatorName>fishMummyFish</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>MummyFish</Ingredient_Key>
+  <Model_Name>fishMummy</Model_Name>
+  <Fertilizer_Value>25</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlVampirefish</FishBowlMaterialState>
+  <CodeVersion>EP1</CodeVersion>
+  <DataVersion>EP1</DataVersion>
+  <RequiredWorld>Egypt</RequiredWorld>
+  <Rarity>Rare</Rarity>
+  <MinHuntSkillLevel>7</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>4</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>Crocodile</Name>
+  <Description>CrocodileDesc</Description>
+  <Hex>Crocodile</Hex>
+  <WaterTypes>7</WaterTypes>
+  <Bait>SiameseCatfish</Bait>
+  <Level>4</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>400</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>14</MinPrice>
+  <MaxPrice>40</MaxPrice>
+  <SkillPoints>220</SkillPoints>
+  <MedatorName>fishCrocodile</MedatorName>
+  <EffectSize>Large</EffectSize>
+  <Ingredient_Key>Crocodile</Ingredient_Key>
+  <Model_Name>fishCrocodile</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>True</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlPiranha</FishBowlMaterialState>
+  <CodeVersion>EP1</CodeVersion>
+  <DataVersion>EP1</DataVersion>
+  <RequiredWorld>Egypt</RequiredWorld>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>5</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>Crawfish</Name>
+  <Description>CrawfishDesc</Description>
+  <Hex>Crawfish</Hex>
+  <WaterTypes>7</WaterTypes>
+  <Bait>Frogs</Bait>
+  <Level>5</Level>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>3</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>15</MinPrice>
+  <MaxPrice>45</MaxPrice>
+  <SkillPoints>245</SkillPoints>
+  <MedatorName>fishCrawfish</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Crawfish</Ingredient_Key>
+  <Model_Name>fishCrawfish</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>True</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlLobster</FishBowlMaterialState>
+  <CodeVersion>EP1</CodeVersion>
+  <DataVersion>EP1</DataVersion>
+  <RequiredWorld>France</RequiredWorld>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>4</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>Frogs</Name>
+  <Description>FrogsDesc</Description>
+  <Hex>Frogs</Hex>
+  <WaterTypes>3</WaterTypes>
+  <Bait>Grapes Char</Bait>
+  <Level>0</Level>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>1</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>6</MinPrice>
+  <MaxPrice>13</MaxPrice>
+  <SkillPoints>145</SkillPoints>
+  <MedatorName>fishFrogs</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Frogs</Ingredient_Key>
+  <Model_Name>fishFrog</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlTuna</FishBowlMaterialState>
+  <CodeVersion>EP1</CodeVersion>
+  <DataVersion>EP1</DataVersion>
+  <RequiredWorld>France</RequiredWorld>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>DragonFish</Name>
+  <Description>DragonFishDesc</Description>
+  <Hex>DragonFish</Hex>
+  <WaterTypes>2</WaterTypes>
+  <Bait>TanchoKoi</Bait>
+  <Level>9</Level>
+  <MinWeight>40</MinWeight>
+  <MaxWeight>150</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>60</MinPrice>
+  <MaxPrice>300</MaxPrice>
+  <SkillPoints>1300</SkillPoints>
+  <MedatorName>fishDragonFish</MedatorName>
+  <EffectSize>Large</EffectSize>
+  <Ingredient_Key>DragonFish</Ingredient_Key>
+  <Model_Name>fishDragon</Model_Name>
+  <Fertilizer_Value>25</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlTragicClownfish</FishBowlMaterialState>
+  <CodeVersion>EP1</CodeVersion>
+  <DataVersion>EP1</DataVersion>
+  <RequiredWorld>China</RequiredWorld>
+  <Rarity>Rare</Rarity>
+  <MinHuntSkillLevel>8</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>DoitsuKoi</Name>
+  <Description>DoitsuKoiDesc</Description>
+  <Hex>DoitsuKoi</Hex>
+  <WaterTypes>3</WaterTypes>
+  <Bait>Pomelo</Bait>
+  <Level>0</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>25</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>7</MinPrice>
+  <MaxPrice>14</MaxPrice>
+  <SkillPoints>140</SkillPoints>
+  <MedatorName>fishDoitsuKoi</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>DoitsuKoi</Ingredient_Key>
+  <Model_Name>fishKoiDoitsu</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>True</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlGoldFish</FishBowlMaterialState>
+  <CodeVersion>EP1</CodeVersion>
+  <DataVersion>EP1</DataVersion>
+  <RequiredWorld>China</RequiredWorld>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <EdibleRawAnimation>fish</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>KawarimonoKoi</Name>
+  <Description>KawarimonoKoiDesc</Description>
+  <Hex>KawarimonoKoi</Hex>
+  <WaterTypes>3</WaterTypes>
+  <Bait>Plum</Bait>
+  <Level>3</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>25</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>14</MinPrice>
+  <MaxPrice>28</MaxPrice>
+  <SkillPoints>185</SkillPoints>
+  <MedatorName>fishKawarimonoKoi</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>KawarimonoKoi</Ingredient_Key>
+  <Model_Name>fishKoiKawarimono</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>True</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlSalmon</FishBowlMaterialState>
+  <CodeVersion>EP1</CodeVersion>
+  <DataVersion>EP1</DataVersion>
+  <RequiredWorld>China</RequiredWorld>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>2</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <EdibleRawAnimation>fish</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>OchibaKoi</Name>
+  <Description>OchibaKoiDesc</Description>
+  <Hex>OchibaKoi</Hex>
+  <WaterTypes>3</WaterTypes>
+  <Bait>Pomelo</Bait>
+  <Level>5</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>50</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>20</MinPrice>
+  <MaxPrice>65</MaxPrice>
+  <SkillPoints>250</SkillPoints>
+  <MedatorName>fishOchibaKoi</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>OchibaKoi</Ingredient_Key>
+  <Model_Name>fishKoiOchiba</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlRainbowTrout</FishBowlMaterialState>
+  <CodeVersion>EP1</CodeVersion>
+  <DataVersion>EP1</DataVersion>
+  <RequiredWorld>China</RequiredWorld>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>4</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <EdibleRawAnimation>fish</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>TanchoKoi</Name>
+  <Description>TanchoKoiDesc</Description>
+  <Hex>TanchoKoi</Hex>
+  <WaterTypes>3</WaterTypes>
+  <Bait>Plum</Bait>
+  <Level>7</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>50</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>25</MinPrice>
+  <MaxPrice>90</MaxPrice>
+  <SkillPoints>340</SkillPoints>
+  <MedatorName>fishTanchoKoi</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>TanchoKoi</Ingredient_Key>
+  <Model_Name>fishKoiTancho</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlAlleyCatfish</FishBowlMaterialState>
+  <CodeVersion>EP1</CodeVersion>
+  <DataVersion>EP1</DataVersion>
+  <RequiredWorld>China</RequiredWorld>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>6</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <EdibleRawAnimation>fish</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>Snails</Name>
+  <Description>SnailsDesc</Description>
+  <Hex>Snails</Hex>
+  <WaterTypes>7</WaterTypes>
+  <Bait>Grapes Mer</Bait>
+  <Level>3</Level>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>1</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>8</MinPrice>
+  <MaxPrice>20</MaxPrice>
+  <SkillPoints>175</SkillPoints>
+  <MedatorName>fishSnails</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Snails</Ingredient_Key>
+  <Model_Name>fishSnail</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlRobotfish</FishBowlMaterialState>
+  <CodeVersion>EP1</CodeVersion>
+  <DataVersion>EP1</DataVersion>
+  <RequiredWorld>France</RequiredWorld>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>2</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>KissingGourami</Name>
+  <Description>KissingGouramiDesc</Description>
+  <Hex>KissingGourami</Hex>
+  <WaterTypes>7</WaterTypes>
+  <Bait>Goldfish</Bait>
+  <Level>4</Level>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>15</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>8</MinPrice>
+  <MaxPrice>52</MaxPrice>
+  <SkillPoints>185</SkillPoints>
+  <MedatorName>fishKissingGourami</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>KissingGourami</Ingredient_Key>
+  <Model_Name>fishKissingGourami</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>True</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlRainbowTrout</FishBowlMaterialState>
+  <CodeVersion>EP3</CodeVersion>
+  <DataVersion>EP3</DataVersion>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>SewerTrilobite</Name>
+  <Description>SewerTrilobiteDesc</Description>
+  <Hex>SewerTrilobite</Hex>
+  <WaterTypes>7</WaterTypes>
+  <Bait>Minnow</Bait>
+  <Level>6</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>100</MaxWeight>
+  <OverMax>True</OverMax>
+  <MinPrice>35</MinPrice>
+  <MaxPrice>75</MaxPrice>
+  <SkillPoints>255</SkillPoints>
+  <MedatorName>fishSewerTrilobite</MedatorName>
+  <EffectSize>Large</EffectSize>
+  <Ingredient_Key>SewerTrilobite</Ingredient_Key>
+  <Model_Name>fishSewerTrilobite</Model_Name>
+  <Fertilizer_Value>15</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlShark</FishBowlMaterialState>
+  <CodeVersion>EP3</CodeVersion>
+  <DataVersion>EP3</DataVersion>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>5</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>SeaSludge</Name>
+  <Description>SeaSludgeDesc</Description>
+  <Hex>SeaSludge</Hex>
+  <WaterTypes>7</WaterTypes>
+  <Bait>Hot Dogs</Bait>
+  <Level>2</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>100</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>11</MinPrice>
+  <MaxPrice>22</MaxPrice>
+  <SkillPoints>132</SkillPoints>
+  <MedatorName>fishSeaSludge</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>SeaSludge</Ingredient_Key>
+  <Model_Name>fishSeaSludge</Model_Name>
+  <Fertilizer_Value>25</Fertilizer_Value>
+  <Fertilizer_Days>4</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlBlowfish</FishBowlMaterialState>
+  <CodeVersion>EP3</CodeVersion>
+  <DataVersion>EP3</DataVersion>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>StarfishPurple</Name>
+  <Description>StarfishPurpleDesc</Description>
+  <Hex>StarFishPurple</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Bait>Tofu</Bait>
+  <Level>5</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>40</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>16</MinPrice>
+  <MaxPrice>76</MaxPrice>
+  <SkillPoints>295</SkillPoints>
+  <MedatorName>fishStarfishLinckia</MedatorName>
+  <EffectSize>Large</EffectSize>
+  <Ingredient_Key>StarfishPurple</Ingredient_Key>
+  <Model_Name>fishStarfishLinckia</Model_Name>
+  <Fertilizer_Value>15</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlSalmon</FishBowlMaterialState>
+  <CodeVersion>EP6</CodeVersion>
+  <DataVersion>EP6</DataVersion>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>5</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>StarfishOrange</Name>
+  <Description>StarfishOrangeDesc</Description>
+  <Hex>StarFishOrange</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Bait>Tofu</Bait>
+  <Level>1</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>25</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>8</MinPrice>
+  <MaxPrice>42</MaxPrice>
+  <SkillPoints>160</SkillPoints>
+  <MedatorName>fishStarfishBat</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>StarfishOrange</Ingredient_Key>
+  <Model_Name>fishStarfishBat</Model_Name>
+  <Fertilizer_Value>10</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>True</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlBlowfish</FishBowlMaterialState>
+  <CodeVersion>EP6</CodeVersion>
+  <DataVersion>EP6</DataVersion>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>StarfishSilver</Name>
+  <Description>StarfishSilverDesc</Description>
+  <Hex>StarFishSilver</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Bait>Tofu</Bait>
+  <Level>10</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>80</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>50</MinPrice>
+  <MaxPrice>400</MaxPrice>
+  <SkillPoints>400</SkillPoints>
+  <MedatorName>fishStarfishNinja</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>StarfishSilver</Ingredient_Key>
+  <Model_Name>fishStarfishNinja</Model_Name>
+  <Fertilizer_Value>20</Fertilizer_Value>
+  <Fertilizer_Days>4</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlRobotfish</FishBowlMaterialState>
+  <CodeVersion>EP6</CodeVersion>
+  <DataVersion>EP6</DataVersion>
+  <Rarity>Rare</Rarity>
+  <MinHuntSkillLevel>9</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>Toad</Name>
+  <Description>ToadDesc</Description>
+  <Hex>Toad</Hex>
+  <WaterTypes>3</WaterTypes>
+  <Bait>Red Toadstools</Bait>
+  <Level>1</Level>
+  <MinWeight>0.4</MinWeight>
+  <MaxWeight>2</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>8</MinPrice>
+  <MaxPrice>20</MaxPrice>
+  <SkillPoints>120</SkillPoints>
+  <MedatorName>fishToad</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Toad</Ingredient_Key>
+  <Model_Name>fishToad</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlTuna</FishBowlMaterialState>
+  <CodeVersion>EP7</CodeVersion>
+  <DataVersion>EP7</DataVersion>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>LuminousSalamander</Name>
+  <Description>LuminousSalamanderDesc</Description>
+  <Hex>LuminousSalamander</Hex>
+  <WaterTypes>7</WaterTypes>
+  <Bait>Mycenas</Bait>
+  <Level>4</Level>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>1</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>20</MinPrice>
+  <MaxPrice>90</MaxPrice>
+  <SkillPoints>220</SkillPoints>
+  <MedatorName>fishLuminousSalamander</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>LuminousSalamander</Ingredient_Key>
+  <Model_Name>fishLuminousSalamander</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlLobster</FishBowlMaterialState>
+  <CodeVersion>EP7</CodeVersion>
+  <DataVersion>EP7</DataVersion>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <EdibleRawAnimation>fish6</EdibleRawAnimation>
+ </Fish>
+<Fish>
+  <Name>FairyDamsel</Name>
+  <Description>FairyDamselDesc</Description>
+  <Hex>FairyDamsel</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Bait>Glow Orbs</Bait>
+  <Level>8</Level>
+  <MinWeight>4</MinWeight>
+  <MaxWeight>65</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>50</MinPrice>
+  <MaxPrice>300</MaxPrice>
+  <SkillPoints>400</SkillPoints>
+  <MedatorName>fishFairyDamsel</MedatorName>
+  <EffectSize>Medium</EffectSize>
+  <Ingredient_Key>FairyDamsel</Ingredient_Key>
+  <Model_Name>fishFairyDamsel</Model_Name>
+  <Fertilizer_Value>10</Fertilizer_Value>
+  <Fertilizer_Days>4</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlRainbowTrout</FishBowlMaterialState>
+  <CodeVersion>EP7</CodeVersion>
+  <DataVersion>EP7</DataVersion>
+  <Rarity>Rare</Rarity>
+  <MinHuntSkillLevel>5</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>SeaUrchin</Name>
+  <Description>SeaUrchinDesc</Description>
+  <Hex>SeaUrchin</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Level>1</Level>
+  <MinWeight>0.4</MinWeight>
+  <MaxWeight>2</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>13</MinPrice>
+  <MaxPrice>19</MaxPrice>
+  <SkillPoints>0</SkillPoints>
+  <MedatorName>fishSeaurchin</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>SeaUrchin</Ingredient_Key>
+  <Model_Name>fishSeaurchin</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlTuna</FishBowlMaterialState>
+  <CodeVersion>EP10</CodeVersion>
+  <DataVersion>EP10</DataVersion>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>0</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>0</MaxHuntSkillLevel>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>Anemone</Name>
+  <Description>AnemoneDesc</Description>
+  <Hex>Anemone</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Level>1</Level>
+  <MinWeight>0.4</MinWeight>
+  <MaxWeight>2</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>25</MinPrice>
+  <MaxPrice>38</MaxPrice>
+  <SkillPoints>0</SkillPoints>
+  <MedatorName>fishAnemone</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Anemone</Ingredient_Key>
+  <Model_Name>fishAnemone</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlTuna</FishBowlMaterialState>
+  <CodeVersion>EP10</CodeVersion>
+  <DataVersion>EP10</DataVersion>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>0</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>0</MaxHuntSkillLevel>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>Polyp</Name>
+  <Description>PolypDesc</Description>
+  <Hex>Polyp</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Level>1</Level>
+  <MinWeight>0.4</MinWeight>
+  <MaxWeight>2</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>44</MinPrice>
+  <MaxPrice>63</MaxPrice>
+  <SkillPoints>0</SkillPoints>
+  <MedatorName>fishPolyp</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Polyp</Ingredient_Key>
+  <Model_Name>fishPolyp</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlTuna</FishBowlMaterialState>
+  <CodeVersion>EP10</CodeVersion>
+  <DataVersion>EP10</DataVersion>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>0</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>0</MaxHuntSkillLevel>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>HermitCrab</Name>
+  <Description>HermitCrabDesc</Description>
+  <Hex>HermitCrab</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Level>4</Level>
+  <MinWeight>0.4</MinWeight>
+  <MaxWeight>2</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>156</MinPrice>
+  <MaxPrice>188</MaxPrice>
+  <SkillPoints>0</SkillPoints>
+  <MedatorName>FishHermitCrab</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>HermitCrab</Ingredient_Key>
+  <Model_Name>FishHermitCrab</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlTuna</FishBowlMaterialState>
+  <CodeVersion>EP10</CodeVersion>
+  <DataVersion>EP10</DataVersion>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>0</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>0</MaxHuntSkillLevel>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>Octopus</Name>
+  <Description>OctopusDesc</Description>
+  <Hex>Octopus</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Level>4</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>10</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>375</MinPrice>
+  <MaxPrice>438</MaxPrice>
+  <SkillPoints>0</SkillPoints>
+  <MedatorName>FishOctopus</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Octopus</Ingredient_Key>
+  <Model_Name>FishOctopus</Model_Name>
+  <Fertilizer_Value>10</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlTuna</FishBowlMaterialState>
+  <CodeVersion>EP10</CodeVersion>
+  <DataVersion>EP10</DataVersion>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>0</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>0</MaxHuntSkillLevel>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>Squid</Name>
+  <Description>SquidDesc</Description>
+  <Hex>Squid</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Level>7</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>10</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>500</MinPrice>
+  <MaxPrice>563</MaxPrice>
+  <SkillPoints>0</SkillPoints>
+  <MedatorName>FishSquid</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Squid</Ingredient_Key>
+  <Model_Name>FishSquid</Model_Name>
+  <Fertilizer_Value>10</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlTuna</FishBowlMaterialState>
+  <CodeVersion>EP10</CodeVersion>
+  <DataVersion>EP10</DataVersion>
+  <Rarity>Uncommon</Rarity>
+  <MinHuntSkillLevel>0</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>0</MaxHuntSkillLevel>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>Eel</Name>
+  <Description>EelDesc</Description>
+  <Hex>Eel</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Level>7</Level>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>10</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>813</MinPrice>
+  <MaxPrice>875</MaxPrice>
+  <SkillPoints>0</SkillPoints>
+  <MedatorName>FishEel</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Eel</Ingredient_Key>
+  <Model_Name>FishEel</Model_Name>
+  <Fertilizer_Value>15</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlTuna</FishBowlMaterialState>
+  <CodeVersion>EP10</CodeVersion>
+  <DataVersion>EP10</DataVersion>
+  <Rarity>Rare</Rarity>
+  <MinHuntSkillLevel>0</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>0</MaxHuntSkillLevel>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>Seahorse</Name>
+  <Description>SeahorseDesc</Description>
+  <Hex>Seahorse</Hex>
+  <WaterTypes>4</WaterTypes>
+  <Level>9</Level>
+  <MinWeight>0.4</MinWeight>
+  <MaxWeight>2</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>1063</MinPrice>
+  <MaxPrice>1250</MaxPrice>
+  <SkillPoints>0</SkillPoints>
+  <MedatorName>FishSeahorse</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>Seahorse</Ingredient_Key>
+  <Model_Name>FishSeahorse</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlTuna</FishBowlMaterialState>
+  <CodeVersion>EP10</CodeVersion>
+  <DataVersion>EP10</DataVersion>
+  <Rarity>Rare</Rarity>
+  <MinHuntSkillLevel>0</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>0</MaxHuntSkillLevel>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>ThreeEyedFish</Name>
+  <Description>ThreeEyedFishDesc</Description>
+  <Hex>ThreeEyedFish</Hex>
+  <WaterTypes>7</WaterTypes>
+  <Bait>Apple</Bait>
+  <Level>0</Level>
+  <MinWeight>2</MinWeight>
+  <MaxWeight>10</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>5</MinPrice>
+  <MaxPrice>25</MaxPrice>
+  <SkillPoints>120</SkillPoints>
+  <MedatorName>Fish3Eyed</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>ThreeEyedFish</Ingredient_Key>
+  <Model_Name>Fish3Eyed</Model_Name>
+  <Fertilizer_Value>10</Fertilizer_Value>
+  <Fertilizer_Days>4</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlThreeEyedFish</FishBowlMaterialState>
+  <CodeVersion>EP11</CodeVersion>
+  <DataVersion>EP11</DataVersion>
+  <RequiredWorld>FutureWorld</RequiredWorld>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+ </Fish>
+<Fish>
+  <Name>RainbowSnail</Name>
+  <Description>RainbowSnailDesc</Description>
+  <Hex>RainbowSnail</Hex>
+  <WaterTypes>7</WaterTypes>
+  <Bait>Lime</Bait>
+  <Level>0</Level>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>5</MaxWeight>
+  <OverMax>False</OverMax>
+  <MinPrice>15</MinPrice>
+  <MaxPrice>50</MaxPrice>
+  <SkillPoints>175</SkillPoints>
+  <MedatorName>FishRainbowSnail</MedatorName>
+  <EffectSize>Small</EffectSize>
+  <Ingredient_Key>RainbowSnail</Ingredient_Key>
+  <Model_Name>fishSnailRainbow</Model_Name>
+  <Fertilizer_Value>5</Fertilizer_Value>
+  <Fertilizer_Days>3</Fertilizer_Days>
+  <CanBuyFromStore>False</CanBuyFromStore>
+  <FishBowlMaterialState>fishBowlRainbowTrout</FishBowlMaterialState>
+  <CodeVersion>EP11</CodeVersion>
+  <DataVersion>EP11</DataVersion>
+  <RequiredWorld>FutureWorld</RequiredWorld>
+  <Rarity>Common</Rarity>
+  <MinHuntSkillLevel>2</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+ </Fish>
+<Spawner>
+  <SpawnerClassName></SpawnerClassName>
+  <InactiveFish>Minnow</InactiveFish>
+  <InactiveProbability>1</InactiveProbability>
+  <AvgLength>30</AvgLength>
+  <MaxRange>1</MaxRange>
+  <ActiveMaxFish>0</ActiveMaxFish>
+  <ActiveFish></ActiveFish>
+  <ActiveProbability></ActiveProbability>
+  <ActiveVfx></ActiveVfx>
+  <HourActive>-1</HourActive>
+  <HourDepletionStarts>-1</HourDepletionStarts>
+  <HourInactive>-1</HourInactive>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner1</SpawnerClassName>
+  <InactiveFish>None, Box,  Anchovy, Jellyfish, RedHerring, Blowfish, Salmon, Swordfish, StarFishOrange</InactiveFish>
+  <InactiveProbability>8,2,10,15,10,5,14,15,4</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>10</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box,  Anchovy, Jellyfish, RedHerring,Blowfish, Salmon, Swordfish, StarFishOrange</ActiveFish>
+  <ActiveProbability>10,2,10,15,10,10,20,25,10</ActiveProbability>
+  <ActiveVfx>fishanchovyactive, fishanchovyactive, fishblowfishactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner2</SpawnerClassName>
+  <InactiveFish>None, Box,  Anchovy, Jellyfish, RedHerring,Tuna, TragicClownfish, Shark, Lobster</InactiveFish>
+  <InactiveProbability>8,2,10,9,10,15,5,5,10</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>10</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box,  Anchovy, Jellyfish, RedHerring,Tuna, TragicClownfish, Shark, Lobster</ActiveFish>
+  <ActiveProbability>10,2,10,9,10,15,10,15,20</ActiveProbability>
+  <ActiveVfx>fishTunaactive,fishtragicclownfishactive,fishsharkactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner3</SpawnerClassName>
+  <InactiveFish>None, Box,  AlleyCatfish, RedHerring,TragicClownfish, Tuna, SiameseCatfish, Shark, Lobster, StarFishPurple, LuminousSalamander</InactiveFish>
+  <InactiveProbability>8, 2, 15, 10, 5, 10, 15, 11, 10, 8, 8</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>10</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box,  AlleyCatfish, RedHerring,Tuna, TragicClownfish, SiameseCatfish, Shark, Lobster, StarFishPurple,LuminousSalamander</ActiveFish>
+  <ActiveProbability>10, 2, 25, 5, 10, 6, 25, 15, 10, 15, 15</ActiveProbability>
+  <ActiveVfx>fishsharkactive, fishalleycatfishactive, fishsiamesecatfishactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner4</SpawnerClassName>
+  <InactiveFish>None, Box,  Jellyfish, RedHerring,Blowfish, Angelfish, Swordfish, LuminousSalamander</InactiveFish>
+  <InactiveProbability>8, 2, 15, 10, 15, 10, 15, 15</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>10</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box,  Jellyfish, RedHerring,Blowfish, Angelfish, Swordfish,LuminousSalamander,FairyDamsel</ActiveFish>
+  <ActiveProbability>10, 2, 25, 5, 25, 15, 25,15,5</ActiveProbability>
+  <ActiveVfx>fishblowfishactive, fishjellyfishactive, fishjellyfishactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner5</SpawnerClassName>
+  <InactiveFish>None, Box, RedHerring, TragicClownfish, Blowfish, Shark, Angelfish, StarFishSilver, LuminousSalamander, FairyDamsel</InactiveFish>
+  <InactiveProbability>10, 1, 5, 15, 10, 15, 15, 5, 5, 10</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>10</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, RedHerring, TragicClownfish, Blowfish, Shark, Angelfish, StarFishSilver, LuminousSalamander, FairyDamsel</ActiveFish>
+  <ActiveProbability>10, 1, 5, 25, 15, 25, 25, 5, 10, 25</ActiveProbability>
+  <ActiveVfx>fishblowfishactive, fishsharkactive, fishtragicclownfishactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner6</SpawnerClassName>
+  <InactiveFish>None,Box,  Minnow, Goldfish, RainbowTrout, RedHerring,SiameseCatfish, BlackGoldfish, Toad</InactiveFish>
+  <InactiveProbability>8, 2, 10, 9, 15, 10, 5, 10, 10</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None,Box,  Minnow, Goldfish, RainbowTrout, RedHerring,SiameseCatfish, BlackGoldfish,Toad</ActiveFish>
+  <ActiveProbability>10, 2, 10, 15, 20,10, 10, 15, 15</ActiveProbability>
+  <ActiveVfx>fishminnowactive, fishsiamesecatfishactive, fishblackgoldfishactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner7</SpawnerClassName>
+  <InactiveFish>None, Box,  Minnow, Goldfish, RedHerring,Salmon, Angelfish, Lobster, Toad</InactiveFish>
+  <InactiveProbability>8, 2, 10, 10, 10, 15, 5, 5, 10</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box,  Minnow, Goldfish, RedHerring,Salmon, Angelfish, Lobster, Toad</ActiveFish>
+  <ActiveProbability>10, 2, 15, 20, 10, 25, 10, 10, 15</ActiveProbability>
+  <ActiveVfx>fishangelfishactive, fishgoldfishactive, fishminnowactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner8</SpawnerClassName>
+  <InactiveFish>None,Box, Goldfish, RainbowTrout, RedHerring,Piranha, Shark, Lobster, LuminousSalamander</InactiveFish>
+  <InactiveProbability>8, 2, 10, 15, 5, 20, 5, 11, 10</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None,Box, Goldfish, RainbowTrout, RedHerring,Piranha, Shark, Lobster, LuminousSalamander</ActiveFish>
+  <ActiveProbability>10, 2, 10, 15, 5, 30, 20, 30, 15</ActiveProbability>
+  <ActiveVfx>fishgoldfishactive, fishgoldfishactive, fishsharkactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner9</SpawnerClassName>
+  <InactiveFish>None,Box, AlleyCatfish, RainbowTrout, RedHerring,Salmon, Angelfish, LuminousSalamander,Toad</InactiveFish>
+  <InactiveProbability>8, 2, 15, 15, 5, 10, 15, 10, 5</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None,Box, AlleyCatfish, RainbowTrout, RedHerring,Salmon, Angelfish, LuminousSalamander,Toad</ActiveFish>
+  <ActiveProbability>10, 2,  20, 15, 5, 10, 25, 30,10</ActiveProbability>
+  <ActiveVfx>fishsalmonactive, fishangelfishactive, fishalleycatfishactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner10</SpawnerClassName>
+  <InactiveFish>None,Box,RedHerring, Piranha, BlackGoldfish, Shark, Angelfish, Vampirefish, Lobster</InactiveFish>
+  <InactiveProbability>8, 1, 5, 20, 10, 11, 25, 2, 10</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None,Box,RedHerring, Piranha, BlackGoldfish, Shark, Angelfish, Vampirefish, Lobster</ActiveFish>
+  <ActiveProbability>10, 1, 5, 20, 10, 11, 25, 5, 15</ActiveProbability>
+  <ActiveVfx>fishsharkactive, fishpiranhaactive, fishpiranhaactive,</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner11</SpawnerClassName>
+  <InactiveFish>None, Box, RedHerring, BlackGoldfish, VampireFish, RobotFish</InactiveFish>
+  <InactiveProbability>60, 4, 40, 50, 2, 5</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, RedHerring, BlackGoldfish, VampireFish, RobotFish</ActiveFish>
+  <ActiveProbability>10, 3, 40, 50, 5, 10</ActiveProbability>
+  <ActiveVfx>fishredherringactive, fishblackgoldfishactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner12</SpawnerClassName>
+  <InactiveFish>None,Box,RedHerring, VampireFish</InactiveFish>
+  <InactiveProbability>100, 5,40, 5</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None,Box,VampireFish, Deathfish</ActiveFish>
+  <ActiveProbability>50, 2, 5, 10</ActiveProbability>
+  <ActiveVfx>fishdeathfishactive</ActiveVfx>
+  <HourActive>0</HourActive>
+  <HourDepletionStarts>0</HourDepletionStarts>
+  <HourInactive>5</HourInactive>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner13</SpawnerClassName>
+  <InactiveFish>None, Box, Minnow, Goldfish, RainbowTrout, RedHerring, Salmon</InactiveFish>
+  <InactiveProbability>15,2,10,10,10,5,10</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>46</MaxRange>
+  <HourActive>-1</HourActive>
+  <HourDepletionStarts>-1</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner14</SpawnerClassName>
+  <InactiveFish>None, Box, Anchovy, Jellyfish, RedHerring, Tuna, Salmon, Swordfish,TragicClownfish</InactiveFish>
+  <InactiveProbability>15,2,10,10,5,10,10,10,3</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>46</MaxRange>
+  <HourActive>-1</HourActive>
+  <HourDepletionStarts>-1</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner15</SpawnerClassName>
+  <InactiveFish>None, Box, Frogs, AlleyCatfish, RedHerring,SiameseCatfish, Crocodile, Toad</InactiveFish>
+  <InactiveProbability>8,2,15,15,10,5,11,15</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, Frogs, AlleyCatfish, RedHerring,SiameseCatfish, Crocodile, Toad</ActiveFish>
+  <ActiveProbability>10,2,15,20,10,10,20,15</ActiveProbability>
+  <ActiveVfx>fishfrogactive, fishalleycatfishactive, fishcrocodileactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner16</SpawnerClassName>
+  <InactiveFish>None, Box, Frogs, AlleyCatfish, RedHerring, SiameseCatfish, Crocodile, Toad</InactiveFish>
+  <InactiveProbability>8,2,5,15,5,11,15,5</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, Frogs, AlleyCatfish, RedHerring, SiameseCatfish, Crocodile, Toad</ActiveFish>
+  <ActiveProbability>10,2,5,20,5,16,20,5</ActiveProbability>
+  <ActiveVfx>fishalleycatfishactive, fishsiamesecatfishactive, fishcrocodileactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner17</SpawnerClassName>
+  <InactiveFish>None, Box, AlleyCatfish, RedHerring,SiameseCatfish, Salmon, Crocodile</InactiveFish>
+  <InactiveProbability>8,2,15,10,10,11,15</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>10</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, AlleyCatfish, RedHerring,SiameseCatfish, Salmon, Crocodile</ActiveFish>
+  <ActiveProbability>10,2,20,10,15,20,25</ActiveProbability>
+  <ActiveVfx>fishalleycatfishactive, fishsalmonactive, fishcrocodileactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner18</SpawnerClassName>
+  <InactiveFish>None, Box, AlleyCatfish, RedHerring, SiameseCatfish, Salmon, Crocodile, Lobster</InactiveFish>
+  <InactiveProbability>8,2,10,5,15,10,20,15</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>10</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, AlleyCatfish, RedHerring, SiameseCatfish, Salmon, Crocodile, Lobster</ActiveFish>
+  <ActiveProbability>10,2,15,5,25,15,40,20</ActiveProbability>
+  <ActiveVfx>fishsiamesecatfishactive, fishcrocodileactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner19</SpawnerClassName>
+  <InactiveFish>None, Box, MummyFish</InactiveFish>
+  <InactiveProbability>100, 4, 20</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, MummyFish</ActiveFish>
+  <ActiveProbability>50, 1, 35</ActiveProbability>
+  <ActiveVfx>fishmummyfishactive, fishmummyfishactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner20</SpawnerClassName>
+  <InactiveFish>None, Box, DoitsuKoi, Goldfish, RedHerring, KawarimonoKoi, Angelfish</InactiveFish>
+  <InactiveProbability>8,2,15,10,15,15,5</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, DoitsuKoi, Goldfish, RedHerring, KawarimonoKoi, Angelfish</ActiveFish>
+  <ActiveProbability>10,2,20,10,25,20,10</ActiveProbability>
+  <ActiveVfx>fishdoitsuikoiactive, fishredherringactive, fishkawarimmonokoiactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner21</SpawnerClassName>
+  <InactiveFish>None, Box, RedHerring, KawarimonoKoi, OchibaKoi, BlackGoldfish, Angelfish</InactiveFish>
+  <InactiveProbability>8,2,5,10,15,15,11</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, RedHerring, KawarimonoKoi, OchibaKoi, BlackGoldfish, Angelfish</ActiveFish>
+  <ActiveProbability>10,2,5,15,25,25,16</ActiveProbability>
+  <ActiveVfx>fishochibakoiactive, fishblackgoldfishactive, fishangelfishactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner22</SpawnerClassName>
+  <InactiveFish>None, Box, RedHerring, KawarimonoKoi, OchibaKoi, BlackGoldfish, TanchoKoi, DragonFish</InactiveFish>
+  <InactiveProbability>8,2,5,15,10,15,11,1</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, RedHerring, KawarimonoKoi, OchibaKoi, BlackGoldfish, TanchoKoi, DragonFish</ActiveFish>
+  <ActiveProbability>10,2,5,25,15,25,21,3</ActiveProbability>
+  <ActiveVfx>fishkawarimonokoiactive, fishblackgoldfishactive, fishtanchokoiactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner23</SpawnerClassName>
+  <InactiveFish>None, Box, Goldfish, KawarimonoKoi, TanchoKoi</InactiveFish>
+  <InactiveProbability>15,1,25,15,11</InactiveProbability>
+  <AvgLength>90</AvgLength>
+  <MaxRange>3</MaxRange>
+  <HourActive>-1</HourActive>
+  <HourDepletionStarts>-1</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner24</SpawnerClassName>
+  <InactiveFish>None, Box, DoitsuKoi, OchibaKoi, TanchoKoi</InactiveFish>
+  <InactiveProbability>15,1,15,15,11</InactiveProbability>
+  <AvgLength>90</AvgLength>
+  <MaxRange>3</MaxRange>
+  <HourActive>-1</HourActive>
+  <HourDepletionStarts>-1</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner25</SpawnerClassName>
+  <InactiveFish>None, Box, TanchoKoi, DragonFish</InactiveFish>
+  <InactiveProbability>100,4,20,20</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, TanchoKoi, DragonFish</ActiveFish>
+  <ActiveProbability>50,2,25,25</ActiveProbability>
+  <ActiveVfx>fishtanchokoiactive, fishdragonfishactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner26</SpawnerClassName>
+  <InactiveFish>None, Box, Frogs, RainbowTrout, RedHerring, Snails, Crawfish, Toad</InactiveFish>
+  <InactiveProbability>8,2,15,15,15,10,5,15</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, Frogs, RainbowTrout, RedHerring, Snails, Crawfish, Toad</ActiveFish>
+  <ActiveProbability>10,2,25,25,15,14,9,25</ActiveProbability>
+  <ActiveVfx>fishfrogsactive, fishrainbowtroutactive, fishredherringactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner27</SpawnerClassName>
+  <InactiveFish>None, Box, Frogs, RainbowTrout, RedHerring, Snails, Crawfish, Toad</InactiveFish>
+  <InactiveProbability>8,2,15,10,15,15,5,15</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, Frogs, RainbowTrout, RedHerring, Snails, Crawfish, Toad</ActiveFish>
+  <ActiveProbability>10,2,25,15,25,25,10,25</ActiveProbability>
+  <ActiveVfx>fishfrogsactive, fishredherringactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner28</SpawnerClassName>
+  <InactiveFish>None, Box, Frogs, RainbowTrout, RedHerring, Snails, Crawfish, BlackGoldfish, Toad</InactiveFish>
+  <InactiveProbability>8,2,10,15,5,15,15,5,10</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, Frogs, RainbowTrout, RedHerring, Snails, Crawfish, BlackGoldfish, Toad</ActiveFish>
+  <ActiveProbability>10,2,15,25,10,25,25,10,15</ActiveProbability>
+  <ActiveVfx>fishrainbowtroutactive, fishredherringactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner29</SpawnerClassName>
+  <InactiveFish>None, Box, Frogs, RedHerring, Snails, Crawfish, BlackGoldfish, Toad</InactiveFish>
+  <InactiveProbability>8,2,10,5,15,15,15,10</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, Frogs, RedHerring, Snails, Crawfish, BlackGoldfish, Toad</ActiveFish>
+  <ActiveProbability>10,2,15,5,25,25,25,15</ActiveProbability>
+  <ActiveVfx>fishfrogsactive, fishredherringactive, fishblackgoldfishactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner30</SpawnerClassName>
+  <InactiveFish>None, Box, Frogs, Minnow, Toad</InactiveFish>
+  <InactiveProbability>5,5,25,15,5</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, Frogs, Minnow, Toad</ActiveFish>
+  <ActiveProbability>3,10,35,15,35</ActiveProbability>
+  <ActiveVfx>fishfrogsactive, fishminnowactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner32</SpawnerClassName>
+  <InactiveFish>None, Box,  Minnow, Goldfish, RainbowTrout, RedHerring,SiameseCatfish, BlackGoldfish, KissingGourami</InactiveFish>
+  <InactiveProbability>8, 2,  10, 9, 15, 10,5, 10, 15</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box,  Minnow, Goldfish, RainbowTrout, RedHerring,SiameseCatfish, BlackGoldfish, KissingGourami</ActiveFish>
+  <ActiveProbability>8, 2,  10, 9, 15, 10,5, 15, 30</ActiveProbability>
+  <ActiveVfx>fishblackgoldfishactive, fishkissinggouramiactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner33</SpawnerClassName>
+  <InactiveFish>None, Box,  Anchovy, Jellyfish, RedHerring,Tuna, TragicClownfish, Shark, Lobster, SewerTrilobite</InactiveFish>
+  <InactiveProbability>8,2,10,9,10,15,5,5,10, 15</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box,  Anchovy, Jellyfish, RedHerring,Tuna, TragicClownfish, Shark, Lobster, SewerTrilobite</ActiveFish>
+  <ActiveProbability>8,2,10,9,10,15,5,5,15, 30</ActiveProbability>
+  <ActiveVfx>fishsharkactive, fishtunaactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner34</SpawnerClassName>
+  <InactiveFish>None, Box,  Anchovy, Jellyfish, RedHerring, Blowfish, Salmon, Swordfish, SeaSludge</InactiveFish>
+  <InactiveProbability>8,2,10,15,10,5,14,15, 15</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box,  Anchovy, Jellyfish, RedHerring, Blowfish, Salmon, Swordfish, SeaSludge</ActiveFish>
+  <ActiveProbability>8,2,10,15,10,5,14,20, 30</ActiveProbability>
+  <ActiveVfx>fishsalmonactive, fishswordfishactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner35</SpawnerClassName>
+  <InactiveFish>None, Box,  ThreeEyedFish, Lobster, AlleyCatfish</InactiveFish>
+  <InactiveProbability>5,5,25,15,15</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box,  ThreeEyedFish, Lobster, AlleyCatfish</ActiveFish>
+  <ActiveProbability>3,10,35,15,15</ActiveProbability>
+  <ActiveVfx>fishThreeEyedFishactive, fishTrashActive, fishalleycatfishactive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<Spawner>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Fishing.FishingSpawner36</SpawnerClassName>
+  <InactiveFish>None, Box, Goldfish, RainbowTrout, RainbowSnail</InactiveFish>
+  <InactiveProbability>8,2,15,5,15</InactiveProbability>
+  <AvgLength>60</AvgLength>
+  <MaxRange>5</MaxRange>
+  <ActiveMaxFish>6</ActiveMaxFish>
+  <ActiveFish>None, Box, Goldfish, RainbowTrout, RainbowSnail</ActiveFish>
+  <ActiveProbability>3,2,15,15,25</ActiveProbability>
+  <ActiveVfx>fishgoldfishactive, fishrainbowtroutactive, fishRainbowSnailActive</ActiveVfx>
+  <HourActive>4</HourActive>
+  <HourDepletionStarts>6</HourDepletionStarts>
+ </Spawner>
+<GlobalSpawner>
+  <WaterAffected>7</WaterAffected>
+  <Fish>Minnow</Fish>
+  <Probability>1</Probability>
+  <AvgLength>60</AvgLength>
+  <WorldName></WorldName>
+ </GlobalSpawner>
+<GlobalSpawner>
+  <WaterAffected>1</WaterAffected>
+  <Fish>None, Box, Minnow, Goldfish, TragicClownFish, BlackGoldfish, Shark, Toad</Fish>
+  <Probability>50,2, 10, 10, 5, 5, 1, 10</Probability>
+  <AvgLength>60</AvgLength>
+  <WorldName>SunsetValley</WorldName>
+ </GlobalSpawner>
+<GlobalSpawner>
+  <WaterAffected>2</WaterAffected>
+  <Fish>None, Box, Minnow, Goldfish, RainbowTrout, RedHerring, Salmon, KissingGourami, Toad</Fish>
+  <Probability>15,2,10,10,10,5,10, 8, 10</Probability>
+  <AvgLength>60</AvgLength>
+  <WorldName>SunsetValley</WorldName>
+ </GlobalSpawner>
+<GlobalSpawner>
+  <WaterAffected>4</WaterAffected>
+  <Fish>None, Box, Anchovy, Jellyfish, RedHerring, Tuna, Salmon, Swordfish,TragicClownfish, SewerTrilobite, SeaSludge</Fish>
+  <Probability>15,2,10,10,5,10,10,10,3, 8, 8</Probability>
+  <AvgLength>60</AvgLength>
+  <WorldName>SunsetValley</WorldName>
+ </GlobalSpawner>
+<GlobalSpawner>
+  <WaterAffected>2</WaterAffected>
+  <Fish>None, Box, Minnow, AlleyCatfish,RedHerring, Crocodile, LuminousSalamander</Fish>
+  <Probability>15,2,10,10,5,7,7</Probability>
+  <AvgLength>60</AvgLength>
+  <WorldName>Egypt</WorldName>
+ </GlobalSpawner>
+<GlobalSpawner>
+  <WaterAffected>4</WaterAffected>
+  <Fish>None, Box, Minnow, AlleyCatfish,RedHerring,Salmon,Crocodile</Fish>
+  <Probability>15,2,10,10,5,10,7</Probability>
+  <AvgLength>60</AvgLength>
+  <WorldName>Egypt</WorldName>
+ </GlobalSpawner>
+<GlobalSpawner>
+  <WaterAffected>2</WaterAffected>
+  <Fish>None, Box,Goldfish, RedHerring,DoitsuKoi,KawarimonoKoi,LuminousSalamander</Fish>
+  <Probability>15,2,10,5,10,10,10</Probability>
+  <AvgLength>60</AvgLength>
+  <WorldName>China</WorldName>
+ </GlobalSpawner>
+<GlobalSpawner>
+  <WaterAffected>4</WaterAffected>
+  <Fish>None, Box,Goldfish, RedHerring,DoitsuKoi,KawarimonoKoi</Fish>
+  <Probability>15,2,10,5,10,10</Probability>
+  <AvgLength>60</AvgLength>
+  <WorldName>China</WorldName>
+ </GlobalSpawner>
+<GlobalSpawner>
+  <WaterAffected>2</WaterAffected>
+  <Fish>None, Box, Minnow, RainbowTrout, RedHerring, Frogs, Snails, Toad</Fish>
+  <Probability>15,2,10,10,5,10,10,5</Probability>
+  <AvgLength>60</AvgLength>
+  <WorldName>France</WorldName>
+ </GlobalSpawner>
+<GlobalSpawner>
+  <WaterAffected>4</WaterAffected>
+  <Fish>None, Box, Minnow, RainbowTrout, RedHerring, Frogs, Snails, LuminousSalamander</Fish>
+  <Probability>15,2,10,10,5,10,10,10</Probability>
+  <AvgLength>60</AvgLength>
+  <WorldName>France</WorldName>
+ </GlobalSpawner>
+<BoxItems>
+  <ItemDbName></ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>1</RelativeProbability>
+  <AllowedWorldType>Undefined</AllowedWorldType>
+  <AllowedWorldNames></AllowedWorldNames>
+  <ProductVersion></ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>ComputerLaptop</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>6</RelativeProbability>
+  <ProductVersion>BaseGame</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>RubberDucky</ItemDbName>
+  <Happy>False</Happy>
+  <RelativeProbability>40</RelativeProbability>
+  <ProductVersion>BaseGame</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>musicalInstrumentGuitar</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>13</RelativeProbability>
+  <ProductVersion>BaseGame</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>BubbleBath</ItemDbName>
+  <Happy>False</Happy>
+  <RelativeProbability>32</RelativeProbability>
+  <ProductVersion>BaseGame</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>CandleSingle</ItemDbName>
+  <Happy>False</Happy>
+  <RelativeProbability>32</RelativeProbability>
+  <ProductVersion>BaseGame</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>FoodBirthdayCake</ItemDbName>
+  <Happy>False</Happy>
+  <RelativeProbability>32</RelativeProbability>
+  <ProductVersion>BaseGame</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>StereoCheapContemporary</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>13</RelativeProbability>
+  <ProductVersion>BaseGame</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>FlameFruit</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>8</RelativeProbability>
+  <ProductVersion>BaseGame</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>DeathFlower</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>12</RelativeProbability>
+  <ProductVersion>BaseGame</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>MoneyTreeSeed</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>10</RelativeProbability>
+  <ProductVersion>BaseGame</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>OmniPlantSeed</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>0</RelativeProbability>
+  <ProductVersion>BaseGame</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>GardenGnome</ItemDbName>
+  <Happy>False</Happy>
+  <RelativeProbability>20</RelativeProbability>
+  <ProductVersion>BaseGame</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>MagicGnome</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>12</RelativeProbability>
+  <AllowedWorldType>Base</AllowedWorldType>
+  <ProductVersion>BaseGame</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>MagicGnomeEgypt</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>12</RelativeProbability>
+  <AllowedWorldNames>Egypt</AllowedWorldNames>
+  <ProductVersion>EP1</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>MagicGnomeChina</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>12</RelativeProbability>
+  <AllowedWorldNames>China</AllowedWorldNames>
+  <ProductVersion>EP1</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>MagicGnomeFrance</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>12</RelativeProbability>
+  <AllowedWorldNames>France</AllowedWorldNames>
+  <ProductVersion>EP1</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>ARMummySnacks</ItemDbName>
+  <Happy>False</Happy>
+  <RelativeProbability>18</RelativeProbability>
+  <AllowedWorldType>Vacation</AllowedWorldType>
+  <ProductVersion>EP1</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>ARSandsOfUnderstanding</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>18</RelativeProbability>
+  <AllowedWorldType>Vacation</AllowedWorldType>
+  <ProductVersion>EP1</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>ARSkeletonKey</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>14</RelativeProbability>
+  <AllowedWorldType>Vacation</AllowedWorldType>
+  <ProductVersion>EP1</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>ARMasterThiefsCoin</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>4</RelativeProbability>
+  <AllowedWorldType>Vacation</AllowedWorldType>
+  <ProductVersion>EP1</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>ARLiquidCouragePotion</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>18</RelativeProbability>
+  <AllowedWorldType>Vacation</AllowedWorldType>
+  <ProductVersion>EP1</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>ARTearOfHorus</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>2</RelativeProbability>
+  <AllowedWorldNames>Egypt</AllowedWorldNames>
+  <ProductVersion>EP1</ProductVersion>
+ </BoxItems>
+<BoxItems>
+  <ItemDbName>AREscapeDust</ItemDbName>
+  <Happy>True</Happy>
+  <RelativeProbability>20</RelativeProbability>
+  <ProductVersion>EP1</ProductVersion>
+ </BoxItems>
+</Fishing>

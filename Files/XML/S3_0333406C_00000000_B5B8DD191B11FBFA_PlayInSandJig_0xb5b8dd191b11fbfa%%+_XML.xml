@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRewardInfos value="ToyBoat, ToyRabbit, ToyRocket, ToyPony, ToyCar, Flamingo, GardenGnome, BaseBall, ShowerInACan:EP1, teddyBearMummy:EP1, sculptureAlienToy:EP2, magicGnomeCaveman:EP2, sculptureWallDiveMenu:EP3, magicGnomeVampire:EP3, canePlain:EP4, cameraVideoCheap:EP4" />
+    <kRewardChances value="10, 10, 10, 10, 10, 3, 1, 5, 3, 1, 3, 1, 3, 1, 3, 1" />
+    <kChanceDiscoverFromInventory value="0.8" />
+    <kChanceDiscoverSomethingWhilePlayingInSand value="0.15" />
+    <kMinimumTimeToFindBuriedObjects value="0" />
+    <kMaximumTimeToFindBuriedObjects value="15" />
+    <kMaximumTimeToSpendPlayingInSand value="1440" />
+    <kMinTimeUntilNextEntropyTransition value="180">
+      <!--Range: Float; Minimum random number of minutes before sandcastles built on sand terrain will start to fade-->
+    </kMinTimeUntilNextEntropyTransition>
+    <kMaxTimeUntilNextEntropyTransition value="240">
+      <!--Range: Float; Maximum random number of minutes before sandcastles built on sand terrain will start to fade-->
+    </kMaxTimeUntilNextEntropyTransition>
+  </Current_Tuning>
+</base>

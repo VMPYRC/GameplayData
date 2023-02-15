@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLazyPetScoreMultiplier value="0.7">
+      <!--Range:  float  Description:  Score Multiplier for lazy pets-->
+    </kLazyPetScoreMultiplier>
+    <kFriendlyPetScoreMultiplier value="1.3">
+      <!--Range:  float  Description:  Score Multiplier for friendly pets-->
+    </kFriendlyPetScoreMultiplier>
+    <kIndependentPetScoreMultiplier value="0.75">
+      <!--Range:  float  Description:  Score Multiplier for independent pets-->
+    </kIndependentPetScoreMultiplier>
+    <kMinutesBeforeAddingLtr value="15">
+      <!--Range:  float  Description:  Amount of time in sim minutes before giving ltr gain-->
+    </kMinutesBeforeAddingLtr>
+    <kLTRIncrease value="2">
+      <!--Range:  float  Description:  Ltr given after x amount of time-->
+    </kLTRIncrease>
+    <kLTRDecrease value="-2">
+      <!--Range:  float  Description:  Ltr given if pet rejects-->
+    </kLTRDecrease>
+    <kTimeRangeToSit value="30, 60">
+      <!--Range:  float  Description:  Time range for a pet to sit in the sim's lap while being pet.-->
+    </kTimeRangeToSit>
+    <kSimFunMultiplier value="1.5">
+      <!--Range:  float  Description:  Fun multiplier given to sims with the animallover, catperson, or dogperson traits.-->
+    </kSimFunMultiplier>
+  </Current_Tuning>
+</base>

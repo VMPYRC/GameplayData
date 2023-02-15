@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFailChance value="10">
+      <!--Percent chance that hypnosis fails.  GPE default 10-->
+    </kFailChance>
+    <kFailsChanceLuckyBonus value="-5">
+      <!--Percent chance that hypnosis fails, modifier for lucky.  GPE default -5 (making 5% chance of failure).-->
+    </kFailsChanceLuckyBonus>
+    <kFailChanceUnluckyBonus value="10">
+      <!--Percent chance that hypnosis fails, modifier for unlucky.  GPE default 10 (making 20% chance of failure)-->
+    </kFailChanceUnluckyBonus>
+    <kFailTargetFunBonus value="10">
+      <!--How much fun the target gets when hypnotize fails.  GPE default 10-->
+    </kFailTargetFunBonus>
+  </Current_Tuning>
+</base>

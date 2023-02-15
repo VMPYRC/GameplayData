@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceOfJuicePongSuccess value="0.3">
+      <!--Chance Of JuicePong Success-->
+    </kChanceOfJuicePongSuccess>
+    <kChanceOfJuicePongEpicFail value="0.075">
+      <!--Chance Of JuicePong Epic Fail when already in a fail case-->
+    </kChanceOfJuicePongEpicFail>
+    <kPingPongSkillAdditivePerformer value="0, 0.1, 0.2, 0.35, 0.45, 0.6, 0, 0, 0, 0, 0">
+      <!--Range 0-1: kChance addition for JuicePong for based on Pingpong skill-->
+    </kPingPongSkillAdditivePerformer>
+    <kJuicySuccessReduction value="0.05">
+      <!--Range 0-1: Additive decrease in chance of success from A little bit juiced buff-->
+    </kJuicySuccessReduction>
+    <kWinScore value="11">
+      <!--Number points a sim needs to score to win a game of pingpong-->
+    </kWinScore>
+    <kSkillLevelHighAnims value="3">
+      <!--[Play] Skill level to start using High set of skill animations-->
+    </kSkillLevelHighAnims>
+    <kMinWatchDistance value="3">
+      <!--Minimum distance a sim will stand away from the pingpong table to watch.-->
+    </kMinWatchDistance>
+    <kMaxWatchDistance value="3.25">
+      <!--Maximum distance a sim will stand away from the pingpong table  to watch.-->
+    </kMaxWatchDistance>
+    <kSuperJuicedSuccessReduction value="0.15">
+      <!--Range 0-1: Additive decrease in chance of success from SuperJuiced buff-->
+    </kSuperJuicedSuccessReduction>
+    <kSmashLevel value="2">
+      <!--Level of PingPong skill at which a sim will smash it-->
+    </kSmashLevel>
+    <kSmashReturnLevel value="5">
+      <!--Level of PingPong skill at which a sim will return a smash it-->
+    </kSmashReturnLevel>
+    <kLowSkillMinRally value="0">
+      <!--Min rallies used for low skill sims.-->
+    </kLowSkillMinRally>
+    <kLowSkillMaxRally value="3">
+      <!--Max ralies used for low skill sims-->
+    </kLowSkillMaxRally>
+    <kHighSkillMinRally value="3">
+      <!--Min rallies used for high skill sims-->
+    </kHighSkillMinRally>
+    <kHighSkillMaxRally value="6">
+      <!--Max rallies used for high skill sims-->
+    </kHighSkillMaxRally>
+    <kJuicedIncreasePerDrink value="35">
+      <!--How much should we increase the juiced value-->
+    </kJuicedIncreasePerDrink>
+  </Current_Tuning>
+</base>

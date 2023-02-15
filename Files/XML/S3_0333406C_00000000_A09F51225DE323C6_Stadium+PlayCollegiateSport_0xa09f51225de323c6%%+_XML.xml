@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLenghtOfTimeInRabbitHole value="120">
+      <!--Time in sim minutes that the sim will be in the Rabbit hole donating giggles-->
+    </kLenghtOfTimeInRabbitHole>
+    <kMinEnergyToPlay value="-50">
+      <!--Float:  This is the minimun energy the sim should have to be able to play-->
+    </kMinEnergyToPlay>
+    <kBuffsThatMayBeAwarded value="">
+      <!--BuffNames[]  Description:  List of buffs that may be awarded-->
+    </kBuffsThatMayBeAwarded>
+    <kDaysToPlayGame value="Monday, Tuesday,Wednesday, Thursday, Friday">
+      <!--Range:  Days of the week.  Description:  Days of the week on which a Sim will play a sports game.-->
+    </kDaysToPlayGame>
+    <kGameStartTime value="18">
+      <!--Range:  Sim time.  Description:  Time of day when a sports game allows entry (game begins later).  (0.0f - 24.0f) scale.-->
+    </kGameStartTime>
+    <kGameKickoffMinutes value="45">
+      <!--Range:  Sim minutes.  Description:  Number of minutes after a game start time at which the game actually kicks off and score begins simulating.-->
+    </kGameKickoffMinutes>
+    <kGameLength value="3">
+      <!--Range:  Sim hours.  Description:  Number of hours that a game lasts for.-->
+    </kGameLength>
+  </Current_Tuning>
+</base>

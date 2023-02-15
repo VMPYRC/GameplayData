@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kResortTuning>
+      <kQualityCount value="1">
+        <!--number of qualities-->
+      </kQualityCount>
+      <kQualityCost value="1000, 10000, 1000000">
+        <!--quality cost-->
+      </kQualityCost>
+      <kQualityMultipliers value="1, 1, 1">
+        <!--quality based motive scale-->
+      </kQualityMultipliers>
+      <kPamperedOdds value="0, 0.2, 0.5">
+        <!--Odds of pampered [0-1]-->
+      </kPamperedOdds>
+      <kAmbientSounds value="rhole_tower_a_oneshot, rhole_tower_b_oneshot, rhole_tower_c_oneshot">
+        <!--Ambient Sound-->
+      </kAmbientSounds>
+      <kAmbientSoundsLoop value="resortBeachStage01, rhole_tower_b_loop, rhole_tower_c_loop">
+        <!--Ambient Sound Loop-->
+      </kAmbientSoundsLoop>
+      <kVisualStates value="resortSmall, resortSmall, resortSmall">
+        <!--Visual State-->
+      </kVisualStates>
+      <kUpgradeVFX value="ep10HiddenCaveBubbles, ep10HiddenCaveBubbles, ep10HiddenCaveBubbles">
+        <!--Upgrade VFX-->
+      </kUpgradeVFX>
+      <kWooHooVFX value="ep10ResortTowerWoohooPetals, ep10ResortTowerWoohooPetals, ep10ResortTowerWoohooPetals">
+        <!--WooHoo VFX for each Resort Visual State-->
+      </kWooHooVFX>
+      <kMaptagIcon value="hud_mt_i_resorttower, hud_mt_i_resorttower, hud_mt_i_resorttower">
+        <!--Maptag Icon-->
+      </kMaptagIcon>
+      <kThumbnailIcon value="w_buy_resort_tower, w_buy_resort_tower, w_buy_resort_tower">
+        <!--Thumbnail Icon-->
+      </kThumbnailIcon>
+      <kAnimationType value="businessandjournalismrabbithole">
+        <!--Animation Type-->
+      </kAnimationType>
+      <kAnimationTypeProductVersion value="BaseGame">
+        <!--Animation Type ProductVersion-->
+      </kAnimationTypeProductVersion>
+      <kUpgradeDelay value="1">
+        <!--UpgradeDelay: Delay in minutes from start of VFX until building should actually be upgraded-->
+      </kUpgradeDelay>
+      <kUpkeepCost value="40, 40, 40">
+        <!--Upkeep Cost-->
+      </kUpkeepCost>
+      <kRoomServiceUpkeepCost value="25, 25, 50">
+        <!--Additional cost with roomservice-->
+      </kRoomServiceUpkeepCost>
+      <kMaxOccupancy value="9, 9, 9">
+        <!--Max Occupancy-->
+      </kMaxOccupancy>
+      <kScore value="0, 0, 0">
+        <!--Score-->
+      </kScore>
+      <kRoomServiceScore value="25, 25, 50">
+        <!--Additional Score for roomservice-->
+      </kRoomServiceScore>
+      <kNoRoomServiceCommentBase value="Gameplay/Objects/RabbitHoles/ResortTower:NoRoomService">
+        <!--base comment string with no roomservice or spa-->
+      </kNoRoomServiceCommentBase>
+      <kNoRoomServiceCommentCount value="1">
+        <!--Number of no room service or spa comments-->
+      </kNoRoomServiceCommentCount>
+      <kRoomServiceCommentBase value="Gameplay/Objects/RabbitHoles/ResortTower:RoomService">
+        <!--base comment string with roomservice (but no spa)-->
+      </kRoomServiceCommentBase>
+      <kRoomServiceCommentCount value="1">
+        <!--Number of room service comments (without spa)-->
+      </kRoomServiceCommentCount>
+      <kSpaServicesCommentBase value="Gameplay/Objects/RabbitHoles/ResortTower:SpaServices">
+        <!--base comment string with spa (but no room service)-->
+      </kSpaServicesCommentBase>
+      <kSpaServicesCommentCount value="1">
+        <!--Number of spa service comments (without room service)-->
+      </kSpaServicesCommentCount>
+      <kAllServicesCommentBase value="Gameplay/Objects/RabbitHoles/ResortTower:AllServices">
+        <!--base comment string with both room service and spa-->
+      </kAllServicesCommentBase>
+      <kAllServicesCommentCount value="2">
+        <!--Number of full service comments (Spa and Room Service)-->
+      </kAllServicesCommentCount>
+      <kSpaServicesLevelReq value="2">
+        <!--Range: 0-2    Level the resort tower must be in order to enable spa services-->
+      </kSpaServicesLevelReq>
+      <kSpaServicesScore value="40, 40, 40">
+        <!--Additional Score for DaySpa services. Values indexed less than kSpaServicesLevelReq are ignored.-->
+      </kSpaServicesScore>
+      <kSpaServicesUpkeepCost value="350, 350, 350">
+        <!--Additional cost with of Spa Services. Values indexed less than kSpaServicesLevelReq are ignored.-->
+      </kSpaServicesUpkeepCost>
+      <kResortColorPrefixes value="ResortColor1, ResortColor2, ResortColor3">
+        <!--Resort Color Prefixes-->
+      </kResortColorPrefixes>
+      <kResortColorLocalizationKeys value="BeachColor1Key, ResortColor2Key, ResortColor3Key">
+        <!--Resort Color Localization Keys-->
+      </kResortColorLocalizationKeys>
+    </kResortTuning>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="75" />
+      <MapTagFilterType value="Work">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-60">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="100">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kCanInvestHere value="False">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kInvestCost value="200">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="1000">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="50">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="200">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="500">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="3000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kNpcExitFreq value="15">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kNighttimeLightSunsetDelta value="1">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kPreventLotPurchase value="False">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="False">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="False">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+  </Current_Tuning>
+</base>

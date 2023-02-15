@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAttractionGift>
+      <GiftBuyCategories value="kBuyCategoryDecor">
+        <!--Range:  BuildBuyProduct.eBuyCategory[]  Description:  Buy Categories we can pick gifts from-->
+      </GiftBuyCategories>
+      <GiftBuySubCategories value="kBuySubCategorySculptures, kBuySubCategoryPaintingsAndPosters, kBuySubCategoryPlants">
+        <!--Range:  BuildBuyProduct.eBuySubCategory[]  Description:  Buy Sub Categories we can pick gifts from-->
+      </GiftBuySubCategories>
+      <GiftBuySubCategories2 value="">
+        <!--Range:  BuildBuyProduct.eBuySubCategory2[]  Description:  Buy Sub Categories we can pick gifts from sub category set 2-->
+      </GiftBuySubCategories2>
+      <GiftBuyRoomSubCategories value="kBuyRoomSubCategoryPaintingsAndPostersForGrownUps, kBuyRoomSubCategoryPlants">
+        <!--BuildBuyProduct.eBuyRoomSubCategory[]  Description:  Buy Room sub categories we can pick gifts from-->
+      </GiftBuyRoomSubCategories>
+      <CanGiveRepeats value="True">
+        <!--True if allowed to get the same gift more than once.  False if should only give each gift once-->
+      </CanGiveRepeats>
+    </kAttractionGift>
+  </Current_Tuning>
+</base>

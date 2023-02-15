@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kInteractionTime value="60">
+      <!--Range:  Sim minutes.  Description:  How long it takes a Sim to overclock a computer.-->
+    </kInteractionTime>
+    <kChanceToBreak value="0.25">
+      <!--Range:  Float under 1.0f.  Description:  Chance of a Sim to break the computer when overclocking it. Chance to succeed is 1 - (break chance) - (nothing chance).-->
+    </kChanceToBreak>
+    <kChanceToDoNothing value="0.25">
+      <!--Range:  Float under 1.0f.  Description:  Chance of a Sim to do nothing to the computer when overclocking it. Chance to succeed is 1 - (break chance) - (nothing chance).-->
+    </kChanceToDoNothing>
+  </Current_Tuning>
+</base>

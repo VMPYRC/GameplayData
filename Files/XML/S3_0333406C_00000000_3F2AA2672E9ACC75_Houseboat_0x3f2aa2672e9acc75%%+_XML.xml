@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNpcMovePortDailyChance value="0.15">
+      <!--0-1f. Chance per day for an NPC household to move ports.-->
+    </kNpcMovePortDailyChance>
+    <kNpcMovePortEarliestTime value="8">
+      <!--Earliest hour of day for npc moving port.-->
+    </kNpcMovePortEarliestTime>
+    <kNpcMovePortLatestTime value="20">
+      <!--Latest hour of day for npc moving port.-->
+    </kNpcMovePortLatestTime>
+    <kLtrForNpcAcceptRequestToChangePort value="1">
+      <!--LTR threshold for NPC to accept a request to Change Port (aka social Ask To Change Port).-->
+    </kLtrForNpcAcceptRequestToChangePort>
+    <kAutopilotQueueMax value="8">
+      <!--Max queuable autopilot orders.-->
+    </kAutopilotQueueMax>
+    <kBoatToHouseboatMinRadius value="8">
+      <!--When taking a boat to the houseboat, this is the min distance away from the back of the houseboat the boat will be before the Sim disembarks the boat and moves to the houseboat-->
+    </kBoatToHouseboatMinRadius>
+    <kBoatToHouseboatMaxRadius value="20">
+      <!--When taking a boat to the houseboat, this is the max distance away from the back of the houseboat the boat will be before the Sim disembarks the boat and moves to the houseboat-->
+    </kBoatToHouseboatMaxRadius>
+  </Current_Tuning>
+</base>

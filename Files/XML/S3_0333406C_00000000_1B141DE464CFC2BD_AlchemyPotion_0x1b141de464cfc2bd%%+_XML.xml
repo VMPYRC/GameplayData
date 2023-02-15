@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kMysteriousDrinkMedatorProductVersion value="BaseGame">
+      <!--Product Version for the Medator Instance used to create the the mysterious drink during the MixAlchemyPotionIntoDrink interaction-->
+    </kMysteriousDrinkMedatorProductVersion>
+    <kMysteriousDrinkMedatorInstanceName value="AlchemyPotionMysteriousDrink">
+      <!--Medator Instance Name used to create the mysterious drink during the MixAlchemyPotionIntoDrink interaction-->
+    </kMysteriousDrinkMedatorInstanceName>
+    <kMysteriousDrinkModelProductVersion value="BaseGame">
+      <!--Product Version for the Model used to create the the mysterious drink during the MixAlchemyPotionIntoDrink interaction-->
+    </kMysteriousDrinkModelProductVersion>
+    <kMysteriousDrinkModelName value="glassBar">
+      <!--Model Name for the newly created mysterious drink from the MixAlchemyPotionIntoDrink interaction. Overrides the Object File in the Mysterious Drink Medator Instance-->
+    </kMysteriousDrinkModelName>
+    <kMysteriousDrinkGeometryStateName value="drinkNoPick">
+      <!--Geometry State for the newly created mysterious drink from the MixAlchemyPotionIntoDrink interaction-->
+    </kMysteriousDrinkGeometryStateName>
+    <kMysteriousDrinkMaterialStateName value="drinkClear">
+      <!--Material State for the newly created mysterious drink from the MixAlchemyPotionIntoDrink interaction-->
+    </kMysteriousDrinkMaterialStateName>
+    <kCurableBuffs value="ToadSim, TragicClown, PermaZombie, Zombie">
+      <!--List of transform buffs that needs to be checked when using Cure Potion. It is just a list of names and will not affect how the potion works.-->
+    </kCurableBuffs>
+    <kCurableBuffsMinor value="ToadSim, TragicClown, PermaZombie, Zombie">
+      <!--List of transform buffs that needs to be checked when using Minor Cure Potion. It is just a list of names and will not affect how the potion works.-->
+    </kCurableBuffsMinor>
+  </Current_Tuning>
+</base>

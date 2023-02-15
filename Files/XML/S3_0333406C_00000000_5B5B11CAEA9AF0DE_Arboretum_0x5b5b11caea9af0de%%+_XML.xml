@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="0" />
+      <MapTagFilterType value="PublicSpacesAndActivities">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-35">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="50">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kCanInvestHere value="False">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kInvestCost value="1000">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="8000">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="50">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="200">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="5000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="5000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kNpcExitFreq value="10">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kNighttimeLightSunsetDelta value="1">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kPreventLotPurchase value="True">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="True">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+    <kVisitRabbitHoleTuning>
+      <VisitLength value="60">
+        <!--Visit length in minutes.-->
+      </VisitLength>
+      <VisitBoredomChanceChild value="25">
+        <!--Visit chance for boredom child.-->
+      </VisitBoredomChanceChild>
+      <VisitBoredomChanceTeen value="20">
+        <!--Visit chance for boredom teen.-->
+      </VisitBoredomChanceTeen>
+      <VisitBoredomChanceAdult value="10">
+        <!--Visit chance for boredom adult/edler.-->
+      </VisitBoredomChanceAdult>
+      <VisitWooHooLength value="25">
+        <!--Visit woohoo length in minutes.-->
+      </VisitWooHooLength>
+      <VisitWooHooCheckForCaught value="5">
+        <!--Visit woohoo check for being caught every X minutes.-->
+      </VisitWooHooCheckForCaught>
+      <VisitWooHooChanceForCaught value="2">
+        <!--Visit woohoo chance of being caught when 'VisitWooHooCheckForCaught' is hit.-->
+      </VisitWooHooChanceForCaught>
+      <VisitTryForBabySuccessRate value="50">
+        <!--Visit try for baby chance of success.-->
+      </VisitTryForBabySuccessRate>
+      <VisitTourGroupLTRGain value="2">
+        <!--Amount of LTR gain between people on a tour group every X minutes-->
+      </VisitTourGroupLTRGain>
+      <VisitTourGroupMinutesLTR value="20">
+        <!--Frequency of LTR gain while on a tour group-->
+      </VisitTourGroupMinutesLTR>
+      <WooHooingCommodity value="Amorous">
+        <!--Social STC after WooHooing.-->
+      </WooHooingCommodity>
+      <WooHooingSTCIncrement value="25">
+        <!--The STC increment after WooHooing.-->
+      </WooHooingSTCIncrement>
+      <WooHooingLTRIncrement value="5">
+        <!--The LTR increment after WooHooing.-->
+      </WooHooingLTRIncrement>
+      <WooHooingFunDelta value="80">
+        <!--The Fun delta while WooHooing.-->
+      </WooHooingFunDelta>
+      <WooHooingSocialDelta value="125">
+        <!--The Social delta while WooHooing.-->
+      </WooHooingSocialDelta>
+    </kVisitRabbitHoleTuning>
+    <kCompetitionStartHour value="12">
+      <!--float. The hour of the day to start the Gardening Competition-->
+    </kCompetitionStartHour>
+    <kCompetitionDuration value="3">
+      <!--float. Number of Sim hours the Gardening Competition will last-->
+    </kCompetitionDuration>
+    <kCompetitionPrizeMoney value="1000, 800, 500, 350, 250, 150, 75, 50">
+      <!--Array of Integers. Number of Simoleans for placing in the Gardening Competition in order of award placement (1st place to 8th place)-->
+    </kCompetitionPrizeMoney>
+    <kFirstPlaceTrophyMedatorName value="sculptureRewardTrophyGardening:EP7">
+      <!--Medator Name and Product Version of the object that is awarded to the First Place winner of the Gardening Competition-->
+    </kFirstPlaceTrophyMedatorName>
+    <kNumberOfContestants value="12">
+      <!--Positive Integer. Gardening Competition. The number of contestants the gardening competition will always have-->
+    </kNumberOfContestants>
+    <kCompetitionResultsRandomFactorMin value="0.75">
+      <!--float. Gardening Competition. The minimum value used to determine a random multiplier on the final score-->
+    </kCompetitionResultsRandomFactorMin>
+    <kCompetitionResultsRandomFactorMax value="1.5">
+      <!--float. Gardening Competition. The minimum value used to determine a random multiplier on the final score-->
+    </kCompetitionResultsRandomFactorMax>
+    <kDefaultAmbientSounds value="rhole_arbor_chime_norm_oneshot, rhole_arbor_twinkle_norm_oneshot">
+      <!--Array of Strings. The names of the default Arboretum ambient sounds played when a Sim enters the Arboretum-->
+    </kDefaultAmbientSounds>
+    <kChanceForBecomeFairyOpportunity value="4">
+      <!--float, 0.0-100.0. Chance you will get the Become A Fairy opportunity when Searching for Fairies.-->
+    </kChanceForBecomeFairyOpportunity>
+    <kCompetitionQualityAdultMultiplier value="1.075">
+      <!--float. Gardening Competition. Multiplier on the harvestable quality score of a player adult Sim-->
+    </kCompetitionQualityAdultMultiplier>
+    <kCompetitionGardeningSkillAdultMultiplier value="1.125">
+      <!--float. Gardening Competition. Multiplier on the gardening skill level score of a player adult Sim-->
+    </kCompetitionGardeningSkillAdultMultiplier>
+    <kCompetitionQualityChildMultiplier value="1.125">
+      <!--float. Gardening Competition. Multiplier on the score for harvestable quality of a player child Sim-->
+    </kCompetitionQualityChildMultiplier>
+    <kCompetitionGardeningSkillChildMultiplier value="1.175">
+      <!--float. Gardening Competition. Multiplier on the random value used to simulate gardening skill level score of a player child Sim-->
+    </kCompetitionGardeningSkillChildMultiplier>
+    <kCompetitionChildGardeningSkillChildMultiplier value="1.05">
+      <!--float. Gardening Competition. Multiplier on the child gardening skill level score of a player child Sim-->
+    </kCompetitionChildGardeningSkillChildMultiplier>
+    <kCompetitionQualityFakeAdultMultiplier value="0.9">
+      <!--float. Gardening Competition. Multiplier on the score for harvestable quality of a fake adult Sim-->
+    </kCompetitionQualityFakeAdultMultiplier>
+    <kCompetitionGardeningSkillFakeAdultMultiplier value="1">
+      <!--float. Gardening Competition. Multiplier on the random value used to simulate gardening skill level score of a fake adult Sim-->
+    </kCompetitionGardeningSkillFakeAdultMultiplier>
+    <kCompetitionQualityFakeChildMultiplier value="1">
+      <!--float. Gardening Competition. Multiplier on the random value used to simulate score for harvestable quality of a fake child Sim-->
+    </kCompetitionQualityFakeChildMultiplier>
+    <kCompetitionGardeningSkillFakeChildMultiplier value="1.1">
+      <!--float. Gardening Competition. Multiplier on the random value used to simulate gardening skill level score of a fake child Sim-->
+    </kCompetitionGardeningSkillFakeChildMultiplier>
+    <kCompetitionChildGardeningSkillFakeChildMultiplier value="1.025">
+      <!--float. Gardening Competition. Multiplier on the random value used to simulate child gardening skill level score of a fake child Sim-->
+    </kCompetitionChildGardeningSkillFakeChildMultiplier>
+    <kChanceOfFakeCompetitorBeingChild value="0.2">
+      <!--float 0-1. Gardening Competition. The chance of a fake competitor being a child-->
+    </kChanceOfFakeCompetitorBeingChild>
+  </Current_Tuning>
+</base>

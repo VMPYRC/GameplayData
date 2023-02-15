@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToGetNauseousBuff value="65">
+      <!--The chance the pet will get the nauseous buff after eating the trash. 0.0 - 1.0-->
+    </kChanceToGetNauseousBuff>
+    <kMinutesToRunInteraction value="10">
+      <!--The amount of time this interaction should last, in sim minutes.  0.0+-->
+    </kMinutesToRunInteraction>
+    <kLargeRouteDistanceToTrashPile value="0.1, 0.4, 0.4">
+      <!--Adult Large Dog - The routing distance for small, medium, and large trash piles, respectively.-->
+    </kLargeRouteDistanceToTrashPile>
+    <kMediumRouteDistanceToTrashPile value="0.5, 0.7, 0.9">
+      <!--Adult Small Dog & Cats - The routing distance for small, medium, and large trash piles, respectively.-->
+    </kMediumRouteDistanceToTrashPile>
+    <kSmallRouteDistanceToTrashPile value="0.5, 0.7, 0.9">
+      <!--Puppies - The routing distance for small, medium, and large trash piles, respectively.-->
+    </kSmallRouteDistanceToTrashPile>
+  </Current_Tuning>
+</base>

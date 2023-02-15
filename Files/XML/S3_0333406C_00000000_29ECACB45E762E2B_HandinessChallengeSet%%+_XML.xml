@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Handiness</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>140</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>532</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>30</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Repair a $Category</DisplayName>
+      <KeyValue>Toilet</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ObjectMatchesCategoryFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRepairedObject</TriggerEvent>
+      <SubjectType>ObjectCategory</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>141</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>532</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>20</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Repair a $Category</DisplayName>
+      <KeyValue>Sink</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ObjectMatchesCategoryFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRepairedObject</TriggerEvent>
+      <SubjectType>ObjectCategory</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>143</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>532</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>20</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Repair a $Category</DisplayName>
+      <KeyValue>Bathtub</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ObjectMatchesCategoryFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRepairedObject</TriggerEvent>
+      <SubjectType>ObjectCategory</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>144</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>532</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>20</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Repair a $Category</DisplayName>
+      <KeyValue>Shower</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ObjectMatchesCategoryFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRepairedObject</TriggerEvent>
+      <SubjectType>ObjectCategory</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>145</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/1458572e-65af-48a4-84cd-0383fef9530c:Name</NameKey>
+    <Name>Serious Plumbing</Name>
+    <SetName>Handiness</SetName>
+    <ChallengeGuid>1458572e-65af-48a4-84cd-0383fef9530c</ChallengeGuid>
+    <ChallengeType>Player</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>((140AndOP141)AndOP(143AndOP144))</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/1458572e-65af-48a4-84cd-0383fef9530c:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\handiness_120.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_gold_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>427</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>491</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>100</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchCategoryStartFunction</StartFunctionName>
+      <DisplayName>Upgrade $Category</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ObjectMatchesCategoryFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kUpgradedObject</TriggerEvent>
+      <SubjectType>ObjectCategory</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>428</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/49089427-29ee-4a0a-95c2-adf8daf0752a:Name</NameKey>
+    <Name>Upgrade Utopia</Name>
+    <SetName>Handiness</SetName>
+    <ChallengeGuid>49089427-29ee-4a0a-95c2-adf8daf0752a</ChallengeGuid>
+    <ChallengeType>Player</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>427</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/49089427-29ee-4a0a-95c2-adf8daf0752a:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\handiness_119.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_platinum_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>828</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>532</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>25</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Repair a $Category</DisplayName>
+      <KeyValue>TV</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ObjectMatchesCategoryFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRepairedObject</TriggerEvent>
+      <SubjectType>ObjectCategory</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>829</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>532</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>30</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Repair a $Category</DisplayName>
+      <KeyValue>Stereo</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ObjectMatchesCategoryFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRepairedObject</TriggerEvent>
+      <SubjectType>ObjectCategory</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>831</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>532</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>20</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Repair a $Category</DisplayName>
+      <KeyValue>Computer</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ObjectMatchesCategoryFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRepairedObject</TriggerEvent>
+      <SubjectType>ObjectCategory</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>832</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>532</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>15</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Repair a $Category</DisplayName>
+      <KeyValue>Dishwasher</KeyValue>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ObjectMatchesCategoryFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kRepairedObject</TriggerEvent>
+      <SubjectType>ObjectCategory</SubjectType>
+    </Circumstance>
+    <Circumstance>
+      <Id>833</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/899dba3b-5e49-476f-8195-5007d800598c:Name</NameKey>
+    <Name>Shocking Breakdowns</Name>
+    <SetName>Handiness</SetName>
+    <ChallengeGuid>899dba3b-5e49-476f-8195-5007d800598c</ChallengeGuid>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>((828AndOP829)AndOP(831AndOP832))</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/899dba3b-5e49-476f-8195-5007d800598c:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>BaseGame</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-31T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\handiness_121.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP6\Visual Development\Concepts\UI\badge_delivery\All icons\blank_gold_template2.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>BaseGame</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

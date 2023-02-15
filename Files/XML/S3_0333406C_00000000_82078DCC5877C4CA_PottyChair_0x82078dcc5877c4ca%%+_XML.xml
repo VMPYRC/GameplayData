@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kVolumeForEmptyInteraction value="1">
+      <!--Range: Positive integers.  Description:  Number of uses after which the potty chair can be emptied.-->
+    </kVolumeForEmptyInteraction>
+    <kNeedsToBeEmptiedEnvironmentScorePenalty value="-30">
+      <!--Range: 0 - 100.  Description:  Negative environment penalty when there is an unemptied potty chair.-->
+    </kNeedsToBeEmptiedEnvironmentScorePenalty>
+    <kVolumeForPuddles value="2">
+      <!--Range: Number of uses.  Description:  Number of uses after which using the potty chair will result in puddles.-->
+    </kVolumeForPuddles>
+    <kPottyTimeLength value="25">
+      <!--Range: Sim minutes.  Description:  Amount of time a toddler spends on the potty chair.-->
+    </kPottyTimeLength>
+    <kPottyTrainToddlerGainRate value="550">
+      <!--Range: Skill gain per hour.  Description:  Potty Train skill points for the toddler per hour.-->
+    </kPottyTrainToddlerGainRate>
+    <kPottyTrainToddlerMinimumMood value="0">
+      <!--Range: Mood value.  Description:  Minimum mood value of toddler to accept potty training.-->
+    </kPottyTrainToddlerMinimumMood>
+    <kPottyBagTrashUnits value="1">
+      <!--Range: Trash units.  Description:  Number of trash units a potty bag counts for when thrown away in a trashcan.-->
+    </kPottyBagTrashUnits>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kMinutesToThrowTrash value="60">
+      <!--Range: Sim minutes.  Description:  Amount of time to keep trying to throw away trash in case of route failure.  Afterwards, just deal with by putting in inventory.-->
+      <!--deprecated on: 3/14/2008 5:25:27 PM-->
+    </kMinutesToThrowTrash>
+  </Deprecated_Tuning>
+</base>

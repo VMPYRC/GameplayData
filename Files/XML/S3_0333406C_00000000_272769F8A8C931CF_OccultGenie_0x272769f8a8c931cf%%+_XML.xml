@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMoneyGainedByWishing value="100000">
+      <!--How much money is granted by the WishFortune interaction.-->
+    </kMoneyGainedByWishing>
+    <kChanceToGetExtraWish value="5">
+      <!--Percent chance to get an extra wish 0 - 100.-->
+    </kChanceToGetExtraWish>
+    <kMaxEnsorcelDistance value="3">
+      <!--How close a genie needs to get before s/he can ensorcel a Sim-->
+    </kMaxEnsorcelDistance>
+    <kLikingLevel value="-100">
+      <!--The minimum level of liking of sim that is included in the Make Sim Love Me wish.  (-100 to 100)-->
+    </kLikingLevel>
+    <kStcUpdateMultiplerForAmorousContextsFromWishForBeauty value="1.4">
+      <!--If sims has wish for beauty and he/she has an STC update in Amorous context, we apply this multipler to the update. Positive float. > 1 to make the score higher. Initial GPE default: 1.4f-->
+    </kStcUpdateMultiplerForAmorousContextsFromWishForBeauty>
+    <kChanceToGetWorldPeaceBuff value="25">
+      <!--Chance of person waking with the world peace/misery buff 0 - 100.  Default 5.0-->
+    </kChanceToGetWorldPeaceBuff>
+    <kMinLTRValueToUnlockFreeGenieWish value="GoodFriend">
+      <!--The minimum LTR enum value for the Free Genie wish to be available (this includes this value and above).  Default is GoodFriend.-->
+    </kMinLTRValueToUnlockFreeGenieWish>
+    <kMaxMagicPoints value="100">
+      <!--Maximum magic points the genie can have-->
+    </kMaxMagicPoints>
+    <kPowerShortageMagicPoints value="60">
+      <!--Threshold of points where the horse will get the PowerShortage Buff-->
+    </kPowerShortageMagicPoints>
+    <kUsedMagicPointsTimeout value="30">
+      <!--Timeout(in simminutes) for UsedMagicPoints state to restore magic points-->
+    </kUsedMagicPointsTimeout>
+  </Current_Tuning>
+</base>

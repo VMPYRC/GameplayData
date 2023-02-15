@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kOutsideFaintDistance value="4">
+      <!--If outside- distance away from fire to be before forcing fainting-->
+    </kOutsideFaintDistance>
+    <kNormalFaintDistance value="8">
+      <!--Distance away from fire to be before forcing fainting-->
+    </kNormalFaintDistance>
+    <kPetStartleOutsideDistance value="3">
+      <!--If outside- distance away from fire to be before forcing fainting-->
+    </kPetStartleOutsideDistance>
+    <kPetStartleInsideDistance value="10">
+      <!--Distance away from fire to be before forcing fainting-->
+    </kPetStartleInsideDistance>
+    <kCatStartleChance value="0.3">
+      <!--float 0-1, chance to startle, if not, will try hide under furniture-->
+    </kCatStartleChance>
+    <kDogBarkingChance value="0.6">
+      <!--float 0-1, if not bark, will coward and run away-->
+    </kDogBarkingChance>
+    <kDogBarkingDistance value="0.5">
+      <!--float, the distance a dog should bark to the fire -->
+    </kDogBarkingDistance>
+    <kHumanFollowChance value="1.0">
+      <!--float 0-1, the distance a dog should bark to the fire -->
+    </kHumanFollowChance>
+    <kHorseStartleChance value="1.0">
+      <!--float 0-1, if not startle, will run away-->
+    </kHorseStartleChance>
+  </Current_Tuning>
+</base>

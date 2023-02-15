@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHighTuning>
+      <LowSuccessGain value="200">
+        <!--Skill gain: Low Success-->
+      </LowSuccessGain>
+      <HighSuccessGain value="200">
+        <!--Skill gain: High Success-->
+      </HighSuccessGain>
+      <RiderLowSuccessGain value="20">
+        <!--Rider Skill gain: Low Success-->
+      </RiderLowSuccessGain>
+      <RiderHighSuccessGain value="20">
+        <!--Rider Skill gain: High Success-->
+      </RiderHighSuccessGain>
+      <HighSuccessChances value="0, 0, 0, 0, 0, 0.1, 0.3, 0.4, 0.6, 0.8, 0.9">
+        <!--High Success Chance Per Level. 0.0f to 1.0f 1.0f for cavaletti-->
+      </HighSuccessChances>
+      <LowSuccessChances value="0, 0, 0.05, 0.1, 0.3, 0.3, 0.2, 0.2, 0.1, 0.05, 0.05">
+        <!--Low Success Chance Per Level. 0.0f to 1.0f 0.0f for cavaletti-->
+      </LowSuccessChances>
+      <RideSkillModifier value="0, 0, 0.05, 0.05, 0.1, 0.1, 0.15, 0.15, 0.2, 0.2, 0.25">
+        <!--Ride skill modifier per level (subtract from random roll)-->
+      </RideSkillModifier>
+      <FatigueModifiers value="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0">
+        <!--Fatigue modifier Per Level-->
+      </FatigueModifiers>
+      <HatesJumpingModifier value="0.2">
+        <!--Hates Jumping modier (add to random roll, 0 for cavaletti)-->
+      </HatesJumpingModifier>
+      <MoodModifier value="0.002">
+        <!--Multiplied by average mood of horse & rider (-100 to 150) then subtracted from random roll.  0 for cavaletti-->
+      </MoodModifier>
+      <HighSuccessAnimAlways value="False">
+        <!--Always use high success animation if horse successfully routes through-->
+      </HighSuccessAnimAlways>
+      <SimCatchesFireOnLowSuccess value="False">
+        <!--Sim catches fire if rolls a low success-->
+      </SimCatchesFireOnLowSuccess>
+      <AmbientVFXName value="">
+        <!--name of VFX to use for ambient fires, etc.-->
+      </AmbientVFXName>
+      <HighSuccessJumpVFXNames value="">
+        <!--List of names of VFX to use when horse starts jump with high success-->
+      </HighSuccessJumpVFXNames>
+      <HighSuccessJumpVFXxEvents value="">
+        <!--List of matching xEvents for VFX to use when horse starts jump with high success-->
+      </HighSuccessJumpVFXxEvents>
+      <LowSuccessJumpVFXNames value="ep5HorseKickTripleBarClassic">
+        <!--List of names of VFX to use when horse starts jump with low success-->
+      </LowSuccessJumpVFXNames>
+      <LowSuccessJumpVFXxEvents value="107">
+        <!--List of matching xEvents for VFX to use when horse starts jump with low success-->
+      </LowSuccessJumpVFXxEvents>
+      <FailJumpVFXNames value="">
+        <!--List of names of VFX to use when horse fails to jump-->
+      </FailJumpVFXNames>
+      <FailJumpVFXxEvents value="">
+        <!--List of matching xEvents for VFX to use when horse fails to jump-->
+      </FailJumpVFXxEvents>
+    </kHighTuning>
+    <kLowTuning>
+      <LowSuccessGain value="150">
+        <!--Skill gain: Low Success-->
+      </LowSuccessGain>
+      <HighSuccessGain value="150">
+        <!--Skill gain: High Success-->
+      </HighSuccessGain>
+      <RiderLowSuccessGain value="20">
+        <!--Rider Skill gain: Low Success-->
+      </RiderLowSuccessGain>
+      <RiderHighSuccessGain value="20">
+        <!--Rider Skill gain: High Success-->
+      </RiderHighSuccessGain>
+      <HighSuccessChances value="0, 0, 0, 0.1, 0.3, 0.4, 0.6, 0.8, 0.9, 0.9, 0.9">
+        <!--High Success Chance Per Level. 0.0f to 1.0f 1.0f for cavaletti-->
+      </HighSuccessChances>
+      <LowSuccessChances value="0, 0.1, 0.3, 0.3, 0.2, 0.2, 0.1, 0.05, 0.05, 0.05, 0.05">
+        <!--Low Success Chance Per Level. 0.0f to 1.0f 0.0f for cavaletti-->
+      </LowSuccessChances>
+      <RideSkillModifier value="0, 0, 0.05, 0.05, 0.1, 0.1, 0.15, 0.15, 0.2, 0.2, 0.25">
+        <!--Ride skill modifier per level (subtract from random roll)-->
+      </RideSkillModifier>
+      <FatigueModifiers value="1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0">
+        <!--Fatigue modifier Per Level-->
+      </FatigueModifiers>
+      <HatesJumpingModifier value="0.2">
+        <!--Hates Jumping modier (add to random roll, 0 for cavaletti)-->
+      </HatesJumpingModifier>
+      <MoodModifier value="0.002">
+        <!--Multiplied by average mood of horse & rider (-100 to 150) then subtracted from random roll.  0 for cavaletti-->
+      </MoodModifier>
+      <HighSuccessAnimAlways value="False">
+        <!--Always use high success animation if horse successfully routes through-->
+      </HighSuccessAnimAlways>
+      <SimCatchesFireOnLowSuccess value="False">
+        <!--Sim catches fire if rolls a low success-->
+      </SimCatchesFireOnLowSuccess>
+      <AmbientVFXName value="">
+        <!--name of VFX to use for ambient fires, etc.-->
+      </AmbientVFXName>
+      <HighSuccessJumpVFXNames value="">
+        <!--List of names of VFX to use when horse starts jump with high success-->
+      </HighSuccessJumpVFXNames>
+      <HighSuccessJumpVFXxEvents value="">
+        <!--List of matching xEvents for VFX to use when horse starts jump with high success-->
+      </HighSuccessJumpVFXxEvents>
+      <LowSuccessJumpVFXNames value="ep5HorseKickTripleBarClassic">
+        <!--List of names of VFX to use when horse starts jump with low success-->
+      </LowSuccessJumpVFXNames>
+      <LowSuccessJumpVFXxEvents value="107">
+        <!--List of matching xEvents for VFX to use when horse starts jump with low success-->
+      </LowSuccessJumpVFXxEvents>
+      <FailJumpVFXNames value="">
+        <!--List of names of VFX to use when horse fails to jump-->
+      </FailJumpVFXNames>
+      <FailJumpVFXxEvents value="">
+        <!--List of matching xEvents for VFX to use when horse fails to jump-->
+      </FailJumpVFXxEvents>
+    </kLowTuning>
+  </Current_Tuning>
+</base>

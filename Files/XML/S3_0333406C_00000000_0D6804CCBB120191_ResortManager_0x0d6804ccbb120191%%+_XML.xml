@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kStarThresholds value="0, 50, 200, 400, 650, 1000">
+      <!--Threshold for different star ratings, starting at 0 star-->
+    </kStarThresholds>
+    <kMaxUpwardSpeed value="50, 100, 100, 125, 200, 200">
+      <!--Max upward speed *per day* for different current star ratings, starting at 0 star-->
+    </kMaxUpwardSpeed>
+    <kMaxDownwardSpeed value="-25, -50, -100, -200, -200, -200">
+      <!--Max downward speed *per day* for different current star ratings, starting at 0 star-->
+    </kMaxDownwardSpeed>
+    <kDaysBetweenUpkeep value="1">
+      <!--Days between upkeep-->
+    </kDaysBetweenUpkeep>
+    <kFullScoringOccupancy value="10000">
+      <!--Occupancy at which objects give 100% score, i.e. if Occupancy is 2x this number, hotel will need twice the objects to get full score-->
+    </kFullScoringOccupancy>
+    <kPricingPercentOfBreakEven value="0.5, 0.4, 0.3">
+      <!--[Range: 0 - 1] percent capacity required for resort to break even at low, medium, and high pricing-->
+    </kPricingPercentOfBreakEven>
+    <kHalfCapacityPricing value="25, 60, 85, 125, 160, 200">
+      <!--50 percent capacity pricing at 6 star points (0 to 5)-->
+    </kHalfCapacityPricing>
+    <kOccupancyFluctuation value="0.1">
+      <!--occupancy fluctuation-->
+    </kOccupancyFluctuation>
+    <kMinOccupancy value="0.2">
+      <!--Minimum occupancy percent-->
+    </kMinOccupancy>
+    <kMinPercentPrice value="3">
+      <!--percent of expected price that it reaches min occupancy.  Should be > 1.0f-->
+    </kMinPercentPrice>
+    <kMaxPercentPrice value="0.75">
+      <!--percent of expected price that it reaches 100 percent capacity.  Should be < 1.0f-->
+    </kMaxPercentPrice>
+    <kBrokenPenalty value="20">
+      <!--score penalty per broken object-->
+    </kBrokenPenalty>
+    <kDirtyPenalty value="20">
+      <!--score penalty per dirty object-->
+    </kDirtyPenalty>
+    <kGymObjectsRequired value="4">
+      <!--gym objects required at default occupancy-->
+    </kGymObjectsRequired>
+    <kGymBonus value="75">
+      <!--gym bonus-->
+    </kGymBonus>
+    <kArtObjectsRequired value="10">
+      <!--art objects required at default occupancy-->
+    </kArtObjectsRequired>
+    <kArtBonus value="75">
+      <!--art bonus-->
+    </kArtBonus>
+    <kUpkeepTime value="7">
+      <!--Hour of the day to do the upkeep/payout-->
+    </kUpkeepTime>
+    <kMaintenanceWages value="25, 50, 100">
+      <!--Per period wages for maintenance workers (first to last)-->
+    </kMaintenanceWages>
+    <kMaintenanceScoring value="25, 25, 25">
+      <!--Scoring per maintenance worker-->
+    </kMaintenanceScoring>
+    <kMaxMaintenanceWorkers value="3">
+      <!--Max number of maintenance type personnel-->
+    </kMaxMaintenanceWorkers>
+    <kIntervalBetweenMaintenanceChecks value="1">
+      <!--Interval between maintenance checks (in hours)-->
+    </kIntervalBetweenMaintenanceChecks>
+    <kMaintenanceChance value="0.4, 0.75, 1">
+      <!--Odds that maintenance worker instantiates and heads out to work, low to high 0-1-->
+    </kMaintenanceChance>
+    <kMaxReviewAge value="3">
+      <!--Max Age of Reviews-->
+    </kMaxReviewAge>
+    <kMinNewReviews value="1">
+      <!--Min new reviews per day-->
+    </kMinNewReviews>
+    <kMaxNewReviews value="3">
+      <!--Max new reviews per day-->
+    </kMaxNewReviews>
+    <kMaxReviewBullets value="3">
+      <!--Max review bullets-->
+    </kMaxReviewBullets>
+    <kBestObjectOdds value="0.1">
+      <!--Odds of bullet referencing best scoring object-->
+    </kBestObjectOdds>
+    <kWorstObjectOdds value="0.05">
+      <!--Odds of bullet referencing worst scoring object-->
+    </kWorstObjectOdds>
+    <kNoGymString value="Ui/Caption/ResortReviewDialog:NoGym">
+      <!--No Gym base string-->
+    </kNoGymString>
+    <kNoGymCount value="10">
+      <!--No Gym string count-->
+    </kNoGymCount>
+    <kGymString value="Ui/Caption/ResortReviewDialog:Gym">
+      <!--Gym base string-->
+    </kGymString>
+    <kGymCount value="12">
+      <!--Gym string count-->
+    </kGymCount>
+    <kNoArtString value="Ui/Caption/ResortReviewDialog:NoArt">
+      <!--No Art base string-->
+    </kNoArtString>
+    <kNoArtCount value="10">
+      <!--No Art string count-->
+    </kNoArtCount>
+    <kArtString value="Ui/Caption/ResortReviewDialog:Art">
+      <!--Art base string-->
+    </kArtString>
+    <kArtCount value="10">
+      <!--Art string count-->
+    </kArtCount>
+    <kBrokenDirtyThreshold value="5">
+      <!--Threshold above which can get broken/dirty reviews-->
+    </kBrokenDirtyThreshold>
+    <kBrokenDirtyString value="Ui/Caption/ResortReviewDialog:BrokenDirty">
+      <!--Broken & Dirty string-->
+    </kBrokenDirtyString>
+    <kBrokenDirtyCount value="16">
+      <!--Broken & Dirty string count-->
+    </kBrokenDirtyCount>
+    <kMissingAmenityBase value="Ui/Caption/ResortReviewDialog/MissingAmenity:">
+      <!--Missing Amenity Type Base string-->
+    </kMissingAmenityBase>
+    <kMissingAmenityBaseCount value="10, 10, 10, 5, 10, 6, 10, 10, 10, 0, 0, 10, 10, 10, 10, 10, 0">
+      <!--Missing Amenity Type Base count-->
+    </kMissingAmenityBaseCount>
+    <kBreakfastTime value="8">
+      <!--Hour of the day to send NPCs to breakfast.-->
+    </kBreakfastTime>
+    <kLunchTime value="12">
+      <!--Hour of the day to send NPCs to lunch.-->
+    </kLunchTime>
+    <kDinnerTime value="18">
+      <!--Hour of the day to send NPCs to dinner.-->
+    </kDinnerTime>
+    <kAverageEnvironmentScoreRequired value="20">
+      <!--average environment score required to get a positive outcome-->
+    </kAverageEnvironmentScoreRequired>
+    <kNPCWeddingChance value="1.0">
+      <!--Range: 0-1.0; Chance per day that there will be an NPC wedding if there is an arch on the resort.-->
+    </kNPCWeddingChance>
+    <kNPCWeddingEarliestHourOfDay value="9">
+      <!--Range: 0-24; Earliest hour that an NPC wedding will be pushed.-->
+    </kNPCWeddingEarliestHourOfDay>
+    <kNPCWeddingLatestHourOfDay value="20">
+      <!--Range: 0-24; Latest hour that an NPC wedding will be pushed.-->
+    </kNPCWeddingLatestHourOfDay>
+    <kNPCWeddingPartySize value="4">
+      <!--Default: 4; Number of sims that will be created to watch the NPC wedding.-->
+    </kNPCWeddingPartySize>
+    <kNPCWeddingDelay value="35">
+      <!--Default: 30; Number of minutes to wait before pushing the wedding situation after spawning wedding party. Extend this number if the wedding party is having trouble spawning from the resort towers in time for the ceremony.-->
+    </kNPCWeddingDelay>
+    <kMoonlightStaffingThreshold value="0.5">
+      <!--Range:  0 - 1  Description: If a player-sim moonlights at a resort object for at least this fraction of a shift, then we count that shift as being fully staffed for resort rating.-->
+    </kMoonlightStaffingThreshold>
+    <kIncrediblePoolSpaceThreshold value="2.25">
+      <!--If (number of pool lanes) / (number of occupants) is above this value, you have Incredible Pool Space-->
+    </kIncrediblePoolSpaceThreshold>
+    <kIncrediblePoolSpaceScoreBonus value="50">
+      <!--Resort score bonus for when your resort has Incredible Pool Space-->
+    </kIncrediblePoolSpaceScoreBonus>
+    <kInsufficientPoolSpaceScorePenalty value="-10">
+      <!--Resort score penalty for when your resort has Insufficient Pool Space (make this negative)-->
+    </kInsufficientPoolSpaceScorePenalty>
+    <kInsufficientPoolThreshold value="0.5">
+      <!--If (number of pool lanes) / (number of occupants) is below this value, you have Insufficient Pool Space-->
+    </kInsufficientPoolThreshold>
+    <kInsufficientPoolString value="Ui/Caption/ResortReviewDialog:InsufficientPool">
+      <!--Pools are insufficient string-->
+    </kInsufficientPoolString>
+    <kInsufficientPoolCount value="10">
+      <!--Pools are insufficient string count -->
+    </kInsufficientPoolCount>
+    <kIncrediblePoolSpaceString value="Ui/Caption/ResortReviewDialog:IncrediblePoolSpace">
+      <!--Incredible pool space string-->
+    </kIncrediblePoolSpaceString>
+    <kIncrediblePoolSpaceCount value="10">
+      <!--Incredible pool space string count -->
+    </kIncrediblePoolSpaceCount>
+    <kNiceCleanThreshold value="5">
+      <!--Threshold below which can get nice/clean review-->
+    </kNiceCleanThreshold>
+    <kBargainPriceString value="Ui/Caption/ResortReviewDialog/BargainPrice:">
+      <!--Bargain price string-->
+    </kBargainPriceString>
+    <kBargainPriceCount value="10">
+      <!--Bargain price string count-->
+    </kBargainPriceCount>
+    <kFairPriceString value="Ui/Caption/ResortReviewDialog/FairPrice:">
+      <!--Fair price string-->
+    </kFairPriceString>
+    <kFairPriceCount value="10">
+      <!--Fair price string count-->
+    </kFairPriceCount>
+    <kExpensivePriceString value="Ui/Caption/ResortReviewDialog/ExpensivePrice:">
+      <!--Expensive price string-->
+    </kExpensivePriceString>
+    <kExpensivePriceCount value="10">
+      <!--Expensive price string count-->
+    </kExpensivePriceCount>
+    <kFeedbacAlarmkMinBetweenEvents value="10">
+      <!--Lower bound of the random interval to spawn a thought bubble feedback. (Sim Minutes)-->
+    </kFeedbacAlarmkMinBetweenEvents>
+    <kFeedbackMaxBetweenEvents value="30">
+      <!--Upper bound of the random interval to spawn a thought bubble feedback. (Sim Minutes) -->
+    </kFeedbackMaxBetweenEvents>
+    <kMaintenanceInterval value="300">
+      <!--Maintenance interval to degrade objects, spawn garbage, etc. (Sim Minutes)-->
+    </kMaintenanceInterval>
+    <kChanceToGetDirty value="5, 5, 5, 5">
+      <!--Chance for objects to get dirty at different maintenance level (None, Low, Medium, High)-->
+    </kChanceToGetDirty>
+    <kChanceToSpawnGarbage value="15, 15, 15, 15">
+      <!--Chance to spawn garbages at different maintenance level (None, Low, Medium, High)-->
+    </kChanceToSpawnGarbage>
+    <kSpawnGarbageMin value="1, 1, 1, 1">
+      <!--Lower bound of number of garbage to spawn at different maintenance level (None, Low, Medium, High)-->
+    </kSpawnGarbageMin>
+    <kSpawnGarbageMax value="2, 2, 2, 2">
+      <!--Upper bound of number of garbage to spawn at different maintenance level (None, Low, Medium, High)-->
+    </kSpawnGarbageMax>
+    <kMaxNumGarbages value="20">
+      <!--Max number of garbage piles on the resort-->
+    </kMaxNumGarbages>
+    <kChanceToSpawnRoaches value="8, 8, 8, 8">
+      <!--Chance to add roaches at different maintenance level (None, Low, Medium, High)-->
+    </kChanceToSpawnRoaches>
+    <kSpawnRoachesMin value="1, 1, 1, 1">
+      <!--Lower bound of number of roaches to spawn at different maintenance level (None, Low, Medium, High)-->
+    </kSpawnRoachesMin>
+    <kSpawnRoachesMax value="2, 2, 2, 2">
+      <!--Upper bound of number of roaches to spawn at different maintenance level (None, Low, Medium, High)-->
+    </kSpawnRoachesMax>
+    <kChanceToBecomeNauseous value="1, 1, 1, 1">
+      <!--Chance for resort guest to get nauseous buff at different maintenance level (None, Low, Medium, High)-->
+    </kChanceToBecomeNauseous>
+    <kMaxNumInsectSpawner value="10">
+      <!--Max number of insect spawners on the resort-->
+    </kMaxNumInsectSpawner>
+    <kMaintenanceThreshold value="300, 500, 600">
+      <!--Maintenance level threshold (Low, Medium, High)-->
+    </kMaintenanceThreshold>
+    <kRoachInfestationString value="Ui/Caption/ResortReviewDialog/Roachinfestation:">
+      <!--Roach infestation string-->
+    </kRoachInfestationString>
+    <kRoachInfestationStringCount value="5">
+      <!--Roach infestation count-->
+    </kRoachInfestationStringCount>
+    <kRoachInfestationPenaltyPerSpawner value="10">
+      <!--Roach infestation penalty-->
+    </kRoachInfestationPenaltyPerSpawner>
+    <kNumRoachesThreshold value="1">
+      <!--Threshold above which people starts to complain about roaches-->
+    </kNumRoachesThreshold>
+    <kNumGarbagePilesThreshold value="5">
+      <!--Threshold above which people starts to complain about garbage pile-->
+    </kNumGarbagePilesThreshold>
+    <kGarbagePileString value="Ui/Caption/ResortReviewDialog/GarbagePile:">
+      <!--Garbage pile string-->
+    </kGarbagePileString>
+    <kGarbagePileStringCount value="5">
+      <!--Garbage pile count-->
+    </kGarbagePileStringCount>
+    <kGarbagePenaltyPerPile value="10">
+      <!--Garbage pile penalty-->
+    </kGarbagePenaltyPerPile>
+    <kChanceToBreak value="5, 5, 5, 5">
+      <!--Chance for objects to break at different maintenance level (None, Low, Medium, High)-->
+    </kChanceToBreak>
+    <kPoolObjectsRequired value="2">
+      <!--pool objects required at default occupancy-->
+    </kPoolObjectsRequired>
+    <kNoPoolString value="Ui/Caption/ResortReviewDialog:NoPool">
+      <!--No Pool base string-->
+    </kNoPoolString>
+    <kNoPoolCount value="10">
+      <!--No Pool string count-->
+    </kNoPoolCount>
+    <kBoastedString value="Ui/Caption/ResortReviewDialog:Boasted">
+      <!--Boasted base string-->
+    </kBoastedString>
+    <kBoastedCount value="10">
+      <!--Boasted string count-->
+    </kBoastedCount>
+    <kBoastedCountPerDay value="5">
+      <!--The number of boasts per day, at which a review could use kBoastedString-->
+    </kBoastedCountPerDay>
+    <kLandscapingObjectRequired value="50">
+      <!--Landscaping object required-->
+    </kLandscapingObjectRequired>
+    <kLandscapingBonus value="75">
+      <!--Landscaping bonus-->
+    </kLandscapingBonus>
+    <kLandscapingString value="Ui/Caption/ResortReviewDialog:Landscaping">
+      <!--Landscaping string-->
+    </kLandscapingString>
+    <kLandscapingCount value="3">
+      <!--Landscaping count-->
+    </kLandscapingCount>
+    <kLandscapingObjectRequired value="50">
+      <!--Landscaping object required-->
+    </kLandscapingObjectRequired>
+    <kLuxuriantLandscapingObjects value="75">
+      <!--Luxuriant landscaping objects -->
+    </kLuxuriantLandscapingObjects>
+    <kLandscapingBonus value="75">
+      <!--Landscaping bonus-->
+    </kLandscapingBonus>
+    <kNotEnoughLandscapingString value="Ui/Caption/ResortReviewDialog:NotEnoughLandscaping">
+      <!--Not enough landscaping string-->
+    </kNotEnoughLandscapingString>
+    <kNotEnoughLandscapingCount value="5">
+      <!--Not enough landscaping count-->
+    </kNotEnoughLandscapingCount>
+    <kLandscapingString value="Ui/Caption/ResortReviewDialog:Landscaping">
+      <!--Landscaping string-->
+    </kLandscapingString>
+    <kLandscapingCount value="3">
+      <!--Landscaping count-->
+    </kLandscapingCount>
+    <kLuxuriantLandscapingString value="Ui/Caption/ResortReviewDialog:LuxuriantLandscaping">
+      <!--Luxuriant landscaping string-->
+    </kLuxuriantLandscapingString>
+    <kLuxuriantLandscapingCount value="5">
+      <!--Luxuriant landscaping count-->
+    </kLuxuriantLandscapingCount>
+    <kInsufficientAmenityBase value="Ui/Caption/ResortReviewDialog/InsufficientAmenity:">
+      <!--Insufficient Amenity Type Base string-->
+    </kInsufficientAmenityBase>
+    <kInsufficientAmenityBaseCount value="0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 5, 5, 5, 0">
+      <!--Insufficient Amenity Type Base count-->
+    </kInsufficientAmenityBaseCount>
+    <kSufficientAmenityBase value="Ui/Caption/ResortReviewDialog/SufficientAmenity:">
+      <!--Sufficient Amenity Type Base string-->
+    </kSufficientAmenityBase>
+    <kSufficientAmenityBaseCount value="0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 3, 0, 3, 3, 3, 0">
+      <!--Sufficient Amenity Type Base count-->
+    </kSufficientAmenityBaseCount>
+    <kMaxNumBrokenObjects value="10">
+      <!--Max number of broken objects-->
+    </kMaxNumBrokenObjects>
+    <kMaxNumDirtyObjects value="10">
+      <!--Max number of dirty objects-->
+    </kMaxNumDirtyObjects>
+    <kPoolObjectBonus value="75">
+      <!--Pool object bonus-->
+    </kPoolObjectBonus>
+    <kNiceCleanString value="Ui/Caption/ResortReviewDialog:Clean">
+      <!--Nice & Clean string-->
+    </kNiceCleanString>
+    <kNiceCleanCount value="10">
+      <!--Nice & Clean string count-->
+    </kNiceCleanCount>
+    <kPartiallyInSeaString value="Ui/Caption/ResortReviewDialog:PartiallyInSea">
+      <!--Partially In sea string-->
+    </kPartiallyInSeaString>
+    <kPartiallyInSeaCount value="10">
+      <!--Partially In Sea count-->
+    </kPartiallyInSeaCount>
+    <kPartiallyInSeaBoost value="75">
+      <!--Partially In Sea boost-->
+    </kPartiallyInSeaBoost>
+    <kFreeLotId value="644859535197899088">
+      <!--Free lot Id-->
+    </kFreeLotId>
+    <kPoolSpaceString value="Ui/Caption/ResortReviewDialog:Pool">
+      <!--Pool base string-->
+    </kPoolSpaceString>
+    <kPoolSpaceCount value="10">
+      <!--Pool string count-->
+    </kPoolSpaceCount>
+    <kIncrediblePoolSpaceMaxCap value="80">
+      <!--if number of pool lanes is above this value, you'll get incredible pool space regardless of number of occupants-->
+    </kIncrediblePoolSpaceMaxCap>
+  </Current_Tuning>
+</base>

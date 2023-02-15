@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLevelCriticalSuccesOneAvailable value="2">
+      <!--Level that the critical success one result is available - if you change this check the weight values at this level-->
+    </kLevelCriticalSuccesOneAvailable>
+    <kLevelCriticalSuccesTwoAvailable value="4">
+      <!--Level that the critical success two result is available - if you change this check the weight values at this level-->
+    </kLevelCriticalSuccesTwoAvailable>
+    <kMakeItGrooveFailChance value="0.0, 0.5, 0.4, 0.3, 0.2, 0.1">
+      <!--Range: [0..1] Description:  weight (does not have to equal 100) chance of a Fail when attempting make it groove, skill levels 0-5-->
+    </kMakeItGrooveFailChance>
+    <kMakeItGrooveSuccessOneChance value="0.0, 0.5, 0.6, 0.7, 0.8, 0.9">
+      <!--Range: [0..1] Description:  weight (does not have to equal 100) chance of a Success ONE when attempting make it groove, skill levels 0-5-->
+    </kMakeItGrooveSuccessOneChance>
+    <kMakeItGrooveSuccessTwoChance value="0.0, 0.5, 0.6, 0.7, 0.8, 0.9">
+      <!--Range: [0..1] Description:  weight (does not have to equal 100) chance of a Success TWO when attempting make it groove, skill levels 0-5-->
+    </kMakeItGrooveSuccessTwoChance>
+    <kMakeItGrooveCirticalSuccessOneChance value="0, 0, 0.4, 0.5, 0.7, 0.9">
+      <!--Range: [0..1] Description:  weight (does not have to equal 100) chance of a Critical Success ONE when attempting make it groove, skill levels 0-5-->
+    </kMakeItGrooveCirticalSuccessOneChance>
+    <kMakeItGrooveCirticalSuccessTwoChance value="0, 0, 0, 0, 0.5, 0.9">
+      <!--Range: [0..1] Description:  weight (does not have to equal 100) chance of a Critical Success TWO when attempting make it groove, skill levels 0-5-->
+    </kMakeItGrooveCirticalSuccessTwoChance>
+    <kMinNumberOfSimsToPushMakeItGrooveResultInteractions value="2, 3, 5, 7, 10">
+      <!--Description: Range: Greater 0 AND Less that MAX. Min Number of Sims to Push Make It Groove result Interactions Failed, Success1, Success2, Critical1, Critical2-->
+    </kMinNumberOfSimsToPushMakeItGrooveResultInteractions>
+    <kMaxNumberOfSimsToPushMakeItGrooveResultInteractions value="4, 6, 10, 15, 20">
+      <!--Description: Range: Greater 0 and Greater than MIN. Max Number of Sims to Push Make It Groove result Interactions Failed, Success1, Success2, Critical1, Critical2-->
+    </kMaxNumberOfSimsToPushMakeItGrooveResultInteractions>
+    <kMakeItGrooveLevel value="1">
+      <!--Description: Level that the Make It Groove Interaction becomes available-->
+    </kMakeItGrooveLevel>
+  </Current_Tuning>
+</base>

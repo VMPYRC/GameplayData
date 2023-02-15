@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kWooHooLTRAcceptRegardlessofMood value="65">
+      <!--Assuming the two Sims can be romantic, if the LTR is >= than this value this, the Sim will be in the Sim Picker for WooHoo.-->
+    </kWooHooLTRAcceptRegardlessofMood>
+    <kWooHooLTRAcceptIfInGoodMood value="40">
+      <!--Assuming the two Sims can be romantic, if the LTR is >= than this value this, the Sim will be in the Sim Picker for WooHoo if their mood is >= kWooHooMinMood.-->
+    </kWooHooLTRAcceptIfInGoodMood>
+    <kWooHooMinMood value="10">
+      <!--This is the mood requirement for kWooHooLTRAcceptIfInGoodMood.-->
+    </kWooHooMinMood>
+    <kBabyMadeChance value="65">
+      <!--Range: 0-100. Chance of Sim getting Pregnant on TryForBaby.-->
+    </kBabyMadeChance>
+    <kWooHooFailureChance value="0.15">
+      <!--Chance of failure (0-1) of the WooHoo interaction.-->
+    </kWooHooFailureChance>
+    <kWooHooRejectRelHit value="-6">
+      <!--Relationship hit between sims on WooHoo reject.-->
+    </kWooHooRejectRelHit>
+    <kLastOutFailureChance value="0.1">
+      <!--Chance of failure (0-1) of the last sim exiting (doors will close on them).-->
+    </kLastOutFailureChance>
+    <kRoutingRange value="0, 3">
+      <!--Range the sim will route away from the elevator when routing to a specific elevator.-->
+    </kRoutingRange>
+    <kRoutingConeAngle value="135">
+      <!--Angle of the cone that the sim will route away from the elevator (in degrees).-->
+    </kRoutingConeAngle>
+    <kDefaultEffectsTime value="2">
+      <!--Time in sim minutes that we should wait while displaying default elevator effects.-->
+    </kDefaultEffectsTime>
+    <kLongEffectsTime value="3">
+      <!--Time in sim minutes that we should wait while displaying the arrive elevator effect.-->
+    </kLongEffectsTime>
+    <kWooHooSyncTime value="30">
+      <!--Time in sim minutes that a sim will wait for syncing up during the woohoo interaction.  Used for gathering sims on different floors.-->
+    </kWooHooSyncTime>
+    <kMaxSimsInElevatorLine value="12">
+      <!--Maximum number of sims that should be waiting in line for the elevator.-->
+    </kMaxSimsInElevatorLine>
+    <kElevatorDoorOpenTimeoutTime value="30">
+      <!--The elevator door can sometimes remain open if a sim has cancelled their route in. This is the amount of time before the door will close on its own.-->
+    </kElevatorDoorOpenTimeoutTime>
+    <kWooHooFailWaitTime value="1, 1">
+      <!--Time in sim minutes that the elevator will remained closed during a woohoo fail after sims enter.  Gaussian distribution.-->
+    </kWooHooFailWaitTime>
+    <kWooHooFailKickerOutWaitTime value="1, 3">
+      <!--Time in sim minutes that the elevator will remained closed after a woohoo fail to give time for the kicked out sim to route away.  Gaussian distribution.-->
+    </kWooHooFailKickerOutWaitTime>
+    <kWooHooAcceptRelIncrease value="5">
+      <!--Relationship increase between sims on WooHoo accept.-->
+    </kWooHooAcceptRelIncrease>
+  </Current_Tuning>
+</base>

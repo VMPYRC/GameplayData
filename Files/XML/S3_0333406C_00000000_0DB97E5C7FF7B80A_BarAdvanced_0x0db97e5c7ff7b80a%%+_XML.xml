@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGiveupTimeDefault value="120">
+      <!--Range:  0+  Description:  The default wait time to be served, in Sim minutes-->
+    </kGiveupTimeDefault>
+    <kBuyARoundBroadcasterParams>
+      <PulseRadius value="25">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <PulseRepeatTime value="-1">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="False">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="False">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kBuyARoundBroadcasterParams>
+    <kEatingSurfaceTuning>
+      <EatingSurfaceScoreMultiplier value="1">
+        <!--The normal eating surface score is multiplied by this value.-->
+      </EatingSurfaceScoreMultiplier>
+      <EatingSurfaceScoreMultiplierNoFoodSlots value="0.9">
+        <!--The normal eating surface score is multiplied by this value if there are no free food slots and the food can be put down to eat.-->
+      </EatingSurfaceScoreMultiplierNoFoodSlots>
+    </kEatingSurfaceTuning>
+    <kBladderDecayPerDrink value="-3">
+      <!--Range:  0-  Description:  The Bladder motive delta when taking a sip of juice-->
+    </kBladderDecayPerDrink>
+    <kBuyARoundReactions value="Cheer, PumpFist">
+      <!--Range:  ReactionType[]  Description:  Appropriate reactions when another Sim buys you a free drink-->
+    </kBuyARoundReactions>
+    <kMaximumNumberOfIngredients value="2">
+      <!--Range:  0+  Description:  The maximum number of ingredients that can be used when mixing a drink-->
+    </kMaximumNumberOfIngredients>
+    <kDurationOfDisabledAutonomy value="6">
+      <!--Range:  0+  Description:  The time, in Sim hours, that autonomy is disabled for selectable Sims when managing the bar-->
+    </kDurationOfDisabledAutonomy>
+    <kGiveupTimeMultiplierCelebrityMinimum value="0.9">
+      <!--Range:  0+  Description:  The wait time multiplier for Level 1 celebrities-->
+    </kGiveupTimeMultiplierCelebrityMinimum>
+    <kGiveupTimeMultiplierCelebrityMaximum value="0.65">
+      <!--Range:  0+  Description:  The wait time multiplier for Max Level celebrities-->
+    </kGiveupTimeMultiplierCelebrityMaximum>
+    <kGiveupTimeMultiplierSnob value="0.8">
+      <!--Range:  0+  Description:  The wait time multiplier for Snob Sims-->
+    </kGiveupTimeMultiplierSnob>
+    <kCelebrityImpressPointsForBuyingADrinkForCelebrity value="30">
+      <!--Range:  0+  Description:  The amount of celebrity impress points we award sims for buying a drink for a celebrity.-->
+    </kCelebrityImpressPointsForBuyingADrinkForCelebrity>
+    <kCelebrityImpressPointsForBuyingARoundOfDrinks value="50">
+      <!--Range:  0+  Description:  The amount of celebrity impress points we award sims for buying a round of drinks.-->
+    </kCelebrityImpressPointsForBuyingARoundOfDrinks>
+    <kBartenderLookAtInterestingess value="85">
+      <!--Range:  0+  Description:  The look-at interestingness of the bartender when ordering or practicing-->
+    </kBartenderLookAtInterestingess>
+    <kGiveupTimeInitial value="90">
+      <!--Range:  0+  Description:  The time, in Sim minutes, Sims will wait for the bartender to aknowledge them and take their request-->
+    </kGiveupTimeInitial>
+    <kResortDrinkPrices value="5, 8, 12">
+      <!--The price of each resort drink in order from low quality to high quality.-->
+    </kResortDrinkPrices>
+    <kResortScoreForDrinks value="10, 20, 40">
+      <!--The added resort score the bar will give for each drink in order from low quality to high quality.-->
+    </kResortScoreForDrinks>
+    <kResortDrinkUpkeepCost value="10, 20, 40">
+      <!--The added upkeep cost of the bar based on drink in order from low quality to high quality.-->
+    </kResortDrinkUpkeepCost>
+    <kResortReviewLowBase value="Gameplay/Objects/Miscellaneous/ResortBar:LowQuality">
+      <!--Base review string for low quality drinks.-->
+    </kResortReviewLowBase>
+    <kResortReviewLowCount value="10">
+      <!--number of low quality drink strings-->
+    </kResortReviewLowCount>
+    <kResortReviewMediumBase value="Gameplay/Objects/Miscellaneous/ResortBar:MediumQuality">
+      <!--Base review string for high quality drinks.-->
+    </kResortReviewMediumBase>
+    <kResortReviewMediumCount value="10">
+      <!--number of medium quality drink strings-->
+    </kResortReviewMediumCount>
+    <kResortReviewHighBase value="Gameplay/Objects/Miscellaneous/ResortBar:HighQuality">
+      <!--Base review string for high quality drinks.-->
+    </kResortReviewHighBase>
+    <kResortReviewHighCount value="10">
+      <!--number of high quality drink strings-->
+    </kResortReviewHighCount>
+    <kSimsServedCapacity value="50">
+      <!--number of Sims a bar can satisfy-->
+    </kSimsServedCapacity>
+  </Current_Tuning>
+</base>

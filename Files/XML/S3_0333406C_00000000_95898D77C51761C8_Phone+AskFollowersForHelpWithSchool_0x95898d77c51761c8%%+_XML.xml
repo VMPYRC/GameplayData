@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSocialNetworkingSkillRequired value="1">
+      <!--The minimum level of Social Networking Skill required-->
+    </kSocialNetworkingSkillRequired>
+    <kMinFollowersRequired value="1">
+      <!--The minimum number of followers required-->
+    </kMinFollowersRequired>
+    <kFollowerThresholdIncreasedAcademicPerformance value="20, 50, 150, 300, 500, 750, 1000, 1250, 1500, 2000">
+      <!--The follower thresholds for an increased academic performance multiplier-->
+    </kFollowerThresholdIncreasedAcademicPerformance>
+    <kFollowerValuesIncreasedAcademicPerformance value="1.05, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0">
+      <!--Range 0-100: The increased academic performance values for followers.-->
+    </kFollowerValuesIncreasedAcademicPerformance>
+    <kMinMinsBeforeWeCanAskAgain value="480">
+      <!--The min timeout in sim minutes before we can use this interaction again-->
+    </kMinMinsBeforeWeCanAskAgain>
+    <kMaxMinsBeforeWeCanAskAgain value="480">
+      <!--The max timeout in sim minutes before we can use this interaction again-->
+    </kMaxMinsBeforeWeCanAskAgain>
+  </Current_Tuning>
+</base>

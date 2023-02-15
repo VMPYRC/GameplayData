@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCommonWildMinMaxCount value="2, 4">
+      <!--Description: Min [0] and Max [1] trait chips a common wild nanite should create-->
+    </kCommonWildMinMaxCount>
+    <kCommonCreatedMinMaxCount value="0, 2">
+      <!--Description: Min [0] and Max [1] trait chips a common created nanite should create-->
+    </kCommonCreatedMinMaxCount>
+    <kUncommonWildMinMaxCount value="2, 4">
+      <!--Description: Min [0] and Max [1] trait chips an uncommon wild nanite should create-->
+    </kUncommonWildMinMaxCount>
+    <kUncommonCreatedMinMaxCount value="0, 2">
+      <!--Description: Min [0] and Max [1] trait chips an uncommon created nanite should create-->
+    </kUncommonCreatedMinMaxCount>
+    <kRareWildMinMaxCount value="2, 4">
+      <!--Description: Min [0] and Max [1] trait chips a rare wild nanite should create-->
+    </kRareWildMinMaxCount>
+    <kRareCreatedMinMaxCount value="0, 2">
+      <!--Description: Min [0] and Max [1] trait chips a rare created nanite should create-->
+    </kRareCreatedMinMaxCount>
+    <kRareLargeChance value="0.3">
+      <!--Range: 0.0f - 1.0f Description: Chance of getting a large chip from a rare nanite.-->
+    </kRareLargeChance>
+    <kRareMediumChance value="0.5">
+      <!--Range: 0.0f - 1.0f Description: Chance of getting a medium chip from a rare nanite.-->
+    </kRareMediumChance>
+    <kMediumUncommonChance value="0.5">
+      <!--Range: 0.0f - 1.0f Description: Chance of getting a medium chip from an uncommon nanite.-->
+    </kMediumUncommonChance>
+    <kBotFanFailureReduction value="0.25">
+      <!--Range: 0.0f - 1.0f Description: Bot Fan Trait reduces failure chance by this amount..-->
+    </kBotFanFailureReduction>
+  </Current_Tuning>
+</base>

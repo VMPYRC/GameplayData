@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMultiplierForEmigratingKnownHousehold value="0.1">
+      <!--[Range: [0,Inf] Score multiplier for permanently moving out a household that has relationships with the active household-->
+    </kMultiplierForEmigratingKnownHousehold>
+    <kMultiplierForEmigratingProtectedHousehold value="0">
+      <!--[Range: [0,Inf] Score multiplier for permanently moving out a household that is protected- suggested 0 or very very small-->
+    </kMultiplierForEmigratingProtectedHousehold>
+    <kMultiplierForEmigratingAcademicCareerProfessorHousehold value="0.25">
+      <!--[Range: [0,Inf] Score multiplier for permanently moving out a household contains an Academic Career Professor-->
+    </kMultiplierForEmigratingAcademicCareerProfessorHousehold>
+  </Current_Tuning>
+</base>

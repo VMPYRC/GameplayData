@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kImprovementTimes value="60, 120, 240">
+      <!--Range:  float  Description:  Minutes required foreach improvement level-->
+    </kImprovementTimes>
+    <kHandinessSkillGainRate value="15">
+      <!--Range:  0+  Description:  The Handiness gain per Sim minute.-->
+    </kHandinessSkillGainRate>
+    <kIsSkillMeterVisible value="False">
+      <!--Range:  true/false  Description:  True, to show the skill meter, false otherwise.-->
+    </kIsSkillMeterVisible>
+    <kCarLevel0Tuning>
+      <Speed value="18">
+        <!--Car speed in meters / second (second = Sim minute).-->
+      </Speed>
+      <Acceleration value="5">
+        <!--Car acceleration in meters / second^2 (second = Sim minute).-->
+      </Acceleration>
+    </kCarLevel0Tuning>
+    <kCarLevel1Tuning>
+      <Speed value="30">
+        <!--Car speed in meters / second (second = Sim minute).-->
+      </Speed>
+      <Acceleration value="10">
+        <!--Car acceleration in meters / second^2 (second = Sim minute).-->
+      </Acceleration>
+    </kCarLevel1Tuning>
+    <kCarLevel2Tuning>
+      <Speed value="50">
+        <!--Car speed in meters / second (second = Sim minute).-->
+      </Speed>
+      <Acceleration value="15">
+        <!--Car acceleration in meters / second^2 (second = Sim minute).-->
+      </Acceleration>
+    </kCarLevel2Tuning>
+    <kCarLevel3Tuning>
+      <Speed value="75">
+        <!--Car speed in meters / second (second = Sim minute).-->
+      </Speed>
+      <Acceleration value="20">
+        <!--Car acceleration in meters / second^2 (second = Sim minute).-->
+      </Acceleration>
+    </kCarLevel3Tuning>
+    <kMaintenanceTuning>
+      <kPercentDecayPerHour value="1">
+        <!--How much the maintence will go down in an hour, a percentage-->
+      </kPercentDecayPerHour>
+      <kPercentRepairPerHour value="50">
+        <!--Rate at which you raise the maintenance level.-->
+      </kPercentRepairPerHour>
+      <kHandinessSkillGainPerHour value="15">
+        <!--Rate at which your sim gets handiness skill while maintanining-->
+      </kHandinessSkillGainPerHour>
+      <kShowTnsLevel value="30">
+        <!--when the maintenence level folls below this value you'll get a TNS-->
+      </kShowTnsLevel>
+      <kFullMaintanceAddition value="20">
+        <!--Description:  This is maintence level addition added if sim maintains to 100 percent-->
+      </kFullMaintanceAddition>
+    </kMaintenanceTuning>
+    <kMainteneceSpeedMultiplier value="0.5">
+      <!--This mutliplier affects the speed of the fire engine relative to its maintenece.  If it's at 0, then it's multiplied biy this, 100, then it's normal speed. In between it's lerped between the two-->
+    </kMainteneceSpeedMultiplier>
+    <kMainteneceAccelerationMultiplier value="0.5">
+      <!--This mutliplier affects the acceleration of the fire engine relative to its maintenece.  If it's at 0, then it's multiplied biy this, 100, then it's normal acceleration. In between it's lerped between the two-->
+    </kMainteneceAccelerationMultiplier>
+    <kPoorlyMaintainedEngineSoundThreshold value="50">
+      <!--Range:  0 - 100  Description:  When the fire engine's maintenence falls below this it starts making the crappy engine sound-->
+    </kPoorlyMaintainedEngineSoundThreshold>
+  </Current_Tuning>
+</base>

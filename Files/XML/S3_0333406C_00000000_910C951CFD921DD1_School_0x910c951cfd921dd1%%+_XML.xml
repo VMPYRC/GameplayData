@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFieldTripChance value="0.5">
+      <!--Chance of a field trip-->
+    </kFieldTripChance>
+    <kFieldTripDelayMinutes value="30">
+      <!--delay (in Minutes) for field trip to start after school starts (Note:  Triggers adult to begin trip to school if not educator)-->
+    </kFieldTripDelayMinutes>
+    <kHourToShowGraduationMessage value="6.5">
+      <!--Range: positive decimal values less than 24.  Description: hour of day message about graduation should be shown to the player.-->
+    </kHourToShowGraduationMessage>
+    <kHourToHoldGraduation value="10.5">
+      <!--Range: positive decimal values less than 24.  Description: hour of day graduation will be forced.-->
+    </kHourToHoldGraduation>
+    <kGraduationLength value="120">
+      <!--Range: positive decimal values less than 24.  Description: Length (in minutes) of Graduation Ceremony.-->
+    </kGraduationLength>
+    <kGraduationWaitLength value="60">
+      <!--Range: Description: Time to wait for other graduates to show in minutes.-->
+    </kGraduationWaitLength>
+    <kMinDaysBetweenChildFieldTripRequests value="2">
+      <!--Minimum days between field trip requests-->
+    </kMinDaysBetweenChildFieldTripRequests>
+    <kMinDaysBetweenTeenFieldTripRequests value="4">
+      <!--Minimum days between field trip requests-->
+    </kMinDaysBetweenTeenFieldTripRequests>
+    <kSnowDayTimeWindow value="8">
+      <!--Range: positive float Description: Amount of time in hours before sims wake up in the morning, in which heavy snow occured, for it is considered a snow day.-->
+    </kSnowDayTimeWindow>
+    <kEnrollUnivTutorialDelayMinutes value="30">
+      <!--delay (in Minutes) after which Enroll to University lesson is triggered-->
+    </kEnrollUnivTutorialDelayMinutes>
+  </Current_Tuning>
+</base>

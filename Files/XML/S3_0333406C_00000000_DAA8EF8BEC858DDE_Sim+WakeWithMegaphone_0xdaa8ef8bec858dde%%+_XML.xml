@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinRouteToBedDistance value="1">
+      <!--Positive float.  Min distance to be away from the bed when doing the wake.-->
+    </kMinRouteToBedDistance>
+    <kMaxRouteToBedDistance value="2">
+      <!--Positive float.  Max distance to be away from the bed when doing the wake.-->
+    </kMaxRouteToBedDistance>
+    <kMinRouteAwayFromBedDistance value="0">
+      <!--Positive float.  Min distance to run away from the bed after doing the wake.-->
+    </kMinRouteAwayFromBedDistance>
+    <kMaxRouteAwayFromBedDistance value="0">
+      <!--Positive float.  Max distance to run away from the bed after doing the wake.-->
+    </kMaxRouteAwayFromBedDistance>
+  </Current_Tuning>
+</base>

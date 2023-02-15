@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="0" />
+      <MapTagFilterType value="PublicSpacesAndActivities">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-60">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="175">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kCanInvestHere value="True">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kInvestCost value="35000">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="80000">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="6800">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="13000">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="15000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="1000000">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kNpcExitFreq value="10">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kNighttimeLightSunsetDelta value="1">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kPreventLotPurchase value="True">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="True">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+    <kClassRidingCost value="500">
+      <!--Range:  Simoleons.  Description:  Cost for a Riding class.-->
+    </kClassRidingCost>
+    <kClassRidingDuration value="120">
+      <!--Range:  minutes.  Description:  Length of a Riding Class-->
+    </kClassRidingDuration>
+    <kElderHorsePenalty value="2">
+      <!--Range: Description: Penalty given with for Elder Horses-->
+    </kElderHorsePenalty>
+    <kTimeBetweenLegs value="5">
+      <!--Minutes: Time that has passes in sim minutes between each leg of the competition-->
+    </kTimeBetweenLegs>
+    <kPlayerCompetitionLength value="80">
+      <!--Minutes: Total time of competition for sim that is entering an equestrian competition-->
+    </kPlayerCompetitionLength>
+    <kNumberOfCompetitors value="12">
+      <!--Number: Number of Competitors value. Keep consistent with EquestrianCenter.xls-->
+    </kNumberOfCompetitors>
+    <kDebugShowCompetitionLegTNS value="False">
+      <!--Bool : (Debug) Show Leg Score-->
+    </kDebugShowCompetitionLegTNS>
+    <kTimeBeforeCompetitionStartsAfterEntering value="10">
+      <!--Minutes: Minutes before the race starts after entering the competition-->
+    </kTimeBeforeCompetitionStartsAfterEntering>
+    <kToneSuccessChance value="0.8, 0.5, 0.35">
+      <!--Chance Array:  [0-1, 0-1, 0-1].  Description:  Chance of success [Steady Pace Tone, Take Risks Tone, Go For Broke Tone]-->
+    </kToneSuccessChance>
+    <kToneBonus value="1, 8, 16">
+      <!--Bonus ArrayRange  Description:  Bonus given with [Steady Pace Tone, Take Risks Tone, Go For Broke Tone]-->
+    </kToneBonus>
+    <kTonePenalty value="0, 8, 16">
+      <!--Range  Description:  Penalty given with [Steady Pace Tone, Take Risks Tone, Go For Broke Tone]-->
+    </kTonePenalty>
+    <kSkillPointsAdded value="900, 900, 900">
+      <!--Float: Skill points added to sim after competition [Racing, Riding, Jumping]-->
+    </kSkillPointsAdded>
+    <kPetTraitBonus value="2, 2">
+      <!--int: Bonus given if the horse is [Fast , agile]-->
+    </kPetTraitBonus>
+    <kPetTraitPenalty value="2, 2">
+      <!--int: Penalty given if the horse is [lazy, hates jumping]-->
+    </kPetTraitPenalty>
+    <kEveningShowDays value="Wednesday, Saturday">
+      <!--Flag field. Evening Show Days: Please add the values: None = 0, Sunday = 1, Monday = 2, Tuesday = 4, Wednesday = 8, Thursday = 16, Friday = 32, Saturday = 64,  All = ~None-->
+    </kEveningShowDays>
+    <kMatineeShowDays value="Sunday">
+      <!--Flag field. Matinee Show days: Please add the values: None = 0, Sunday = 1, Monday = 2, Tuesday = 4, Wednesday = 8, Thursday = 16, Friday = 32, Saturday = 64,  All = ~None-->
+    </kMatineeShowDays>
+    <kPositionsForFinishTypes value="7, 2, 1">
+      <!--Position Ranges for giving [Poor Finish Max place, StandardFinish Max Place, Victory-->
+    </kPositionsForFinishTypes>
+    <kOfferStallionInteractionLength value="30">
+      <!--Minutes: Delay for interaction when stallion is being offered as stud-->
+    </kOfferStallionInteractionLength>
+    <kOfferStallionValueMultiplier value="0.2">
+      <!--Range: 0-1 : Multiplier for horse cost to get his stallion cost-->
+    </kOfferStallionValueMultiplier>
+    <kOfferStallionMotiveThreshold value="0">
+      <!--Range: -100 - 100 : Motive theshold for cooldown-->
+    </kOfferStallionMotiveThreshold>
+    <kHorseSellPriceTNSValue value="5000, 10000">
+      <!--Price ranges for showing bad, medium and high sell price Tns [max value of min purchase price, max value of medium purchase price] -->
+    </kHorseSellPriceTNSValue>
+    <kMoodScoreMultiplier value="0.1">
+      <!--Multiplier for Moods to be added as a score at the end of the race-->
+    </kMoodScoreMultiplier>
+    <kSellHorseInteractionLength value="5">
+      <!--Minutes: minutes. Description: Sim minutes in the Sell Horse interaction before leaving-->
+    </kSellHorseInteractionLength>
+    <kRelationshipBoostOnBuy value="10">
+      <!--Range: -100,100 : LTR liking added to the relationship between the rider and the horse when he buys it-->
+    </kRelationshipBoostOnBuy>
+    <kBuyHorseInteractionLength value="5">
+      <!--Range: minutes. Description: Sim minutes in the Buy Horse interaction before leaving-->
+    </kBuyHorseInteractionLength>
+    <kBreedMareInteractionLength value="60">
+      <!--Minutes: minutes. Description: Sim minutes in the Breed Mare interaction before leaving-->
+    </kBreedMareInteractionLength>
+    <kWatchEquestrianCompetitionInteractionLength value="60">
+      <!--Range:  minutes.  Description:  Length of a show-->
+    </kWatchEquestrianCompetitionInteractionLength>
+    <kShowPrice value="200">
+      <!--Range:  simoleons.  Description:  price of show-->
+    </kShowPrice>
+    <kRiderCommoditiesToFreeze value="Bladder, Hunger, Fun, Social">
+      <!--Array of motives to be frozen for Sim while in equestrian Competition-->
+    </kRiderCommoditiesToFreeze>
+    <kHorseCommoditiesToFreeze value="Bladder, Hunger, HorseThirst, HorseExercise, Social">
+      <!--Array of motives to be frozen for Horse while in equestrian Competition-->
+    </kHorseCommoditiesToFreeze>
+    <kTimeAfterCompetitionForUI value="10">
+      <!--Minutes: Minutes before the race starts after entering the competition-->
+    </kTimeAfterCompetitionForUI>
+  </Current_Tuning>
+</base>

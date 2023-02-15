@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomePetDogSit, magicGnomePetDogStill">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomePetDogRest">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomePetDogPlay, magicGnomePetDogSit, magicGnomePetDogStill">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomePetDogSit, magicGnomePetDogStill">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomePetDogRest, magicGnomePetDogSit">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="magicGnomePetDogPlay, magicGnomePetDogStill, magicGnomePetDogRest, magicGnomePetDogSit">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="1">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kGnomeTuning>
+    <kChancePerBFDog value="0.07">
+      <!--The chance, per best friend dog, that a dog gnome will spawn.-->
+    </kChancePerBFDog>
+    <kCheckForDogGnomeTime value="24">
+      <!--Hour of day the alarm will check to see if a dog gnome should be created 0.0 - 24.0-->
+    </kCheckForDogGnomeTime>
+  </Current_Tuning>
+</base>

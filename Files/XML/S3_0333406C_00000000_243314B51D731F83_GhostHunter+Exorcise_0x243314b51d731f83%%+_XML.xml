@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeToExorcise value="5">
+      <!--Range:  0+  Description:  The time it takes, in Sim minutes, to exorcise an object-->
+    </kTimeToExorcise>
+    <kFailureChanceUnluckyMultiplier value="1.2">
+      <!--Range:  0+  Description:  The chance of failure multiplier for Unlucky Sims-->
+    </kFailureChanceUnluckyMultiplier>
+    <kFailureChanceLoserMultiplier value="1.2">
+      <!--Range:  0+  Description:  The chance of failure multiplier for Loser Sims-->
+    </kFailureChanceLoserMultiplier>
+    <kRoutingDistancePreferred value="3">
+      <!--Range:  0+  Description:  The preferred routing distance to exorcise an object-->
+    </kRoutingDistancePreferred>
+    <kRoutingDistanceMinimum value="1">
+      <!--Range:  0+  Description:  The minimum routing distance to exorcise an object-->
+    </kRoutingDistanceMinimum>
+    <kRoutingDistanceMaximum value="4">
+      <!--Range:  0+  Description:  The maximum routing distance to exorcise an object-->
+    </kRoutingDistanceMaximum>
+    <kFailureChanceAtMin value="0.3">
+      <!--Range:  0+  Description:  The chance that the interaction will fail at Ghost Hunter level 0-->
+    </kFailureChanceAtMin>
+    <kFailureChanceAtMax value="0">
+      <!--Range:  0+  Description:  The chance that the interaction will fail at Ghost Hunter max level-->
+    </kFailureChanceAtMax>
+  </Current_Tuning>
+</base>

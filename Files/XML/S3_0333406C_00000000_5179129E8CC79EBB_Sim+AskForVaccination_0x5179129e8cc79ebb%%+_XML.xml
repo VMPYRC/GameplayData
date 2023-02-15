@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTetherDistance value="5">
+      <!--Distance (in tiles) that each Sim in the crowd will allow the Vaccinator to route away before trying to route closer.-->
+    </kTetherDistance>
+    <kRouteRange value="2, 3">
+      <!--Route range (in tiles) that each Sim in the crowd will use when routing closer to the Vaccinator when their distance apart exceeds the Tether distance.  Format: (MinDistance, MaxDistance).-->
+    </kRouteRange>
+    <kVaccinationSessionWaitForVaccinatorToArriveDuration value="60, 120">
+      <!--Time (in Sim minutes) that vaccination-seeking Sim will wait for Vaccinator Sim to arrive before giving up & being released to autonomy.  Specifying too short of a time will cause vaccination-seeking Sims to leave before the Vaccinator Sim routes to the vaccination location, specifying too long of a time will cause vaccination-seeking Sims to hang around waiting longer than seems right when the Vaccinator Sim routes fails/cancels the session before arriving.  Format: (MinTime, MaxTime).-->
+    </kVaccinationSessionWaitForVaccinatorToArriveDuration>
+    <kState0Duration value="10, 50">
+      <!--Time (in Sim minutes) that Sim entering 'Ask for Vaccination' will stay in State 0 (the first state) for.  While in this state the Sim seeking a vaccination only plays excited anims.  Once this stage expires the Sim seeking the vaccination will enter State 1.  Format: (MinTime, MaxTime).  A random number (gaussian) in this range is chosen for each new 'Ask for Vaccination' interaction.-->
+    </kState0Duration>
+    <kState1Duration value="10, 30">
+      <!--Time (in Sim minutes) that Sim will stay in State 1 (the middle state) for.  While in this state the Sim seeking a vaccination randomly plays both excited and impatient anims.  Once this stage expires the Sim seeking the vaccination will enter State 2.  Format: (MinTime, MaxTime).  A random number (gaussian) in this range is chosen for each new 'Ask for Vaccination' interaction.-->
+    </kState1Duration>
+    <kState2Duration value="10, 50">
+      <!--Time (in Sim minutes) that Sim will stay in State 2 (the last state) for.  While in this state the Sim seeking a vaccination only plays impatient anims.  Once this state expires the Sim seeking the vaccination gives up & leaves.  Format: (MinTime, MaxTime).  A random number (gaussian) in this range is chosen for each new 'Ask for Vaccination' interaction.-->
+    </kState2Duration>
+    <kLookAtInterestingnessForVaccinator value="70">
+      <!--Range: 0 to 100.  Description: How interesting sims think the Vaccinator Sim is to look at.-->
+    </kLookAtInterestingnessForVaccinator>
+    <kFailedToGetVaccinationLtrLikingPenalty value="-15">
+      <!--Range:  Liking value (should probably be negative).  Description:  Liking value (LTR) that drops when a Sim fails to get a Vaccination (due to waiting too long, or being outright denied).-->
+    </kFailedToGetVaccinationLtrLikingPenalty>
+    <kFailedToGetVaccinationStcInsultingDelta value="40">
+      <!--Range: should probably be positive.  Description: Amount of STC for Insulting commodity upon failure to obtain vaccination.-->
+    </kFailedToGetVaccinationStcInsultingDelta>
+    <kTimerToShowBalloonAgain value="14">
+      <!--Sim minutes between when each thought balloon of asking for a vaccination appears.-->
+    </kTimerToShowBalloonAgain>
+    <kExcitedAnims value="a_soc_idle_neutral_admire_x, a_soc_idle_neutral_friendly_x, a_soc_idle_neutral_handSwinging_x, a_soc_idle_neutral_lookShoe_x, a_soc_idle_neutral_shrugNod_x, a_soc_idle_neutral_scratchFace_x, a_soc_idle_scratchNeck">
+      <!--Animations to use while waiting for arrival of Dr.-->
+    </kExcitedAnims>
+    <kImpatientAnims value="a_soc_idle_neutral_boredLookAtWatch, a_react_annoyed_sigh_standing_x, a_react_watch_distressed_standing_x, a_react_whyMe_standing_x, a_react_bored_x, a_react_bored2_x">
+      <!--Animations to use when getting bored/tired of waiting.-->
+    </kImpatientAnims>
+    <kFailedReactions value="Cry, CryModerate, TantrumMild, TantrumIntense, Boo, ViewHate, Shrug">
+      <!--Reactions to use when giving up-->
+    </kFailedReactions>
+  </Current_Tuning>
+</base>

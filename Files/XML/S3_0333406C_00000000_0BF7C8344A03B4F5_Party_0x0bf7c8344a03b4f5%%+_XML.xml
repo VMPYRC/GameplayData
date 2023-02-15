@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kWeekdayPartyStartHour value="18, 20">
+      <!--Reasonable range in start time for a weekday party (in 24 hour units; [min, max])-->
+    </kWeekdayPartyStartHour>
+    <kWeekendPartyStartHour value="12, 20">
+      <!--Reasonable range in start time for a weekend party (in 24 hour units; [min, max])-->
+    </kWeekendPartyStartHour>
+    <kPartyLeadTimeDays value="1">
+      <!--A party must be scheduled at least this many number of days in advance-->
+    </kPartyLeadTimeDays>
+    <kChanceOfAddingADayIfNotWeekend value="75">
+      <!--Range: [0, 100] Chance of pushing out the start date for the party by a day if it isn't scheduled for a weekend-->
+    </kChanceOfAddingADayIfNotWeekend>
+    <kNumInvitedGuests value="3, 8">
+      <!--How many guests should be invited to the party [min, max]-->
+    </kNumInvitedGuests>
+    <kChanceOfHostingOffLot value="10">
+      <!--Range: [0, 100] Chance of hosting this party off-lot-->
+    </kChanceOfHostingOffLot>
+    <kHoursToStartRentBeforePartyStart value="2">
+      <!--How long before the start of a party should a lot be rented-->
+    </kHoursToStartRentBeforePartyStart>
+    <kScoringMultiplierForNearHostAtParty value="1">
+      <!--Range: percentage increase to scoring multiplier (0 to 10). How much more (as a multiplier) the interaction will score if it is in the same room as the host during a party-->
+    </kScoringMultiplierForNearHostAtParty>
+  </Current_Tuning>
+</base>

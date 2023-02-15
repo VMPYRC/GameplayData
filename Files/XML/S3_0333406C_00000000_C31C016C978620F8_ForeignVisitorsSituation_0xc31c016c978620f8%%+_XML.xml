@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kForeignVisitorsParams>
+      <PreparationTime value="10">
+        <!--How long the host will prepare before the party starts (in hours)-->
+      </PreparationTime>
+      <PercentageChanceOfBringingAFriend value="0">
+        <!--Percentage chance (0 to 100) of bringing a friend along to the party-->
+      </PercentageChanceOfBringingAFriend>
+      <MinPartyTime value="60">
+        <!--Min length of party (in hours): Sims will not leave until this many hours after they arrive (unless motive distress)-->
+      </MinPartyTime>
+      <ChanceOfBringingFood value="0">
+        <!--Percentage chance of bringing food-->
+      </ChanceOfBringingFood>
+      <HourAtWhichChildrenGoHome value="22">
+        <!--Time (in 24 hours) at which children (and their parents) will leave the party-->
+      </HourAtWhichChildrenGoHome>
+      <InitialDesireToSocialize value="50" />
+      <RatioOfMoodToLikingChangeWhenLeavingParty value=".2">
+        <!--Ratio of mood -> liking update when leaving the party (0.1 means that mood of +90 is turned into +9 liking)-->
+      </RatioOfMoodToLikingChangeWhenLeavingParty>
+      <HoursBeforePartyToInvite value="0.25">
+        <!--How Many Hours before the Party Start the Host invites Guests to Start coming over-->
+      </HoursBeforePartyToInvite>
+      <MinutesPerLeavingCheck value="1440">
+        <!--How Often the Party Checks if people should leave the party. Minutes-->
+      </MinutesPerLeavingCheck>
+      <RelToTimeMod value="0.01">
+        <!--This changes Rel to a scale of 0-200, multiplies it by this number, and adds you min party time to get how long you'll stay to start. Hours-->
+      </RelToTimeMod>
+      <MoodToTimeMod value="0.01">
+        <!--Each MinutesPerLeavingCheck you get an additional Your Mood * MoodToTimeMod Minutes to stay-->
+      </MoodToTimeMod>
+    </kForeignVisitorsParams>
+    <kMinutesPerForeignVisitOverCheck value="15">
+      <!--How often the Foreign Visitors Situation checks if all the foreign guests have left. Minutes-->
+    </kMinutesPerForeignVisitOverCheck>
+    <kRetryInviteGuestsNoHostsHomeFrequency value="15">
+      <!--When no hosts are at home (e.g. at work) when the foreign visitors are scheduled to arrive we delay the visitors' instantiation.  When this happens, this tunable determines how frequently we keep checking whether a Host has returned (at which point we'll instantiate the foreign visitors off-screen and have them route to the Host's Lot). In Sim Minutes.  DO NOT TUNE THIS GREATER THAN 55 BECAUSE WE'RE HARD-CODING THE GIVE-UP TIME TO 11:00 PM.-->
+    </kRetryInviteGuestsNoHostsHomeFrequency>
+  </Current_Tuning>
+</base>

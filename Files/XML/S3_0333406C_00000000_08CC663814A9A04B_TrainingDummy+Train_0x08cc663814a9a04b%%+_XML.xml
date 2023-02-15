@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinTrainRadius value="1.5">
+      <!--Minimum radius the trainer should try to route to the dummy.-->
+    </kMinTrainRadius>
+    <kMaxTrainRadius value="2">
+      <!--Maximum radius the trainer should try to route to the dummy.-->
+    </kMaxTrainRadius>
+    <kMartialArtsSkillMultiplierOfTrainedSim value="1.5">
+      <!--Range: Positive floats.  Description:  When a Sim trains another Sim, the trained Sim's Martial arts skill rate increase will go up by the multiplier dictated by this tunable.-->
+    </kMartialArtsSkillMultiplierOfTrainedSim>
+    <kBodyShapeMultiplierOfTrainedSim value="1.5">
+      <!--Range: Positive floats.  Description:  When a Sim trains another Sim, the trained Sim's body shape rate change will go up by the multiplier dictated by this tunable.-->
+    </kBodyShapeMultiplierOfTrainedSim>
+    <kTrainerRouteAngle value="3.490659">
+      <!--In Radians.  The size of the angle trainer can route around the dummy where 0 deg is facing away from the students's routing slot.-->
+    </kTrainerRouteAngle>
+  </Current_Tuning>
+</base>

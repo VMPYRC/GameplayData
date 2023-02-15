@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kViewTuning>
+      <MinDistanceToView value="1">
+        <!--Minimum Distance at which the Sim will watch the painting. Positive float.-->
+      </MinDistanceToView>
+      <MaxDistanceToView value="2">
+        <!--Maximum Distance at which the Sim will watch the painting. Positive float.-->
+      </MaxDistanceToView>
+    </kViewTuning>
+    <kFadeTimer value="2">
+      <!--Description:  The time the painting itself fades in/out while changing geo in Sim minutes.-->
+    </kFadeTimer>
+    <kFadeOpacity value="0.1">
+      <!--Range 0.0f-1.0f, Description: The amount of opacity the painting will have when it fades out.-->
+    </kFadeOpacity>
+  </Current_Tuning>
+</base>

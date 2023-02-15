@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMoodCheckFrequency value="10">
+      <!--Length in minutes before trying to check for mood level. Default 10 minutes, Keeping this high so game performance is not adversely affected-->
+    </kMoodCheckFrequency>
+    <kMinimumMoodValueToAvoidRegularFailure value="-33">
+      <!--Minimum mood necessary to avoid failure. Range: (-100, 100). Initial GPE Default: -20.-->
+    </kMinimumMoodValueToAvoidRegularFailure>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinDistanceToCheckBoard value="1">
+      <!--Range:  0 - 100  Description:  Min Distance to view board-->
+    </kMinDistanceToCheckBoard>
+    <kMaxDistanceToCheckBoard value="2">
+      <!--Range:  0 - 100  Description:  Max Distance to view board-->
+    </kMaxDistanceToCheckBoard>
+    <kConeAngleInFrontOfBoardToCheck value="2.5">
+      <!--The arc/cone's angle for finding a suitable spot for a sim that will stand and check the board. Units: Radians. Valid range [0, Pi]. Initial GPE Default: 3(Pi)/8.-->
+    </kConeAngleInFrontOfBoardToCheck>
+  </Current_Tuning>
+</base>

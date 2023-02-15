@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPortalCost value="1">
+      <!--Float. Cost of using portal.-->
+    </kPortalCost>
+    <kMaxNumSimsInLine value="7">
+      <!--Int. How many Sims can wait to use ladder.-->
+    </kMaxNumSimsInLine>
+    <kMaxWaitTime value="30">
+      <!--Float. Max Sims minutes a Sim will wait in line to use ladder.-->
+    </kMaxWaitTime>
+    <kTraitsThatAvoidLadders value="CouchPotato, Coward">
+      <!--Traits that avoid using ladders.-->
+    </kTraitsThatAvoidLadders>
+  </Current_Tuning>
+</base>

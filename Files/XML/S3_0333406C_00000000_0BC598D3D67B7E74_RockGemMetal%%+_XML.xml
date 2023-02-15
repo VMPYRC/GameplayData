@@ -1,0 +1,1888 @@
+<?xml version="1.0"?>
+<RockGemMetal>
+<Metals>
+  <Name></Name>
+  <Description></Description>
+  <Hex>0</Hex>
+  <CodeVersion>BaseGame</CodeVersion>
+  <RequiredWorld></RequiredWorld>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>10</MaxWeight>
+  <MinPrice>100</MinPrice>
+  <MaxPrice>1000</MaxPrice>
+  <MedatorName></MedatorName>
+  <LookAtInterest>20</LookAtInterest>
+  <RockMaterialName></RockMaterialName>
+  <BarMaterialName></BarMaterialName>
+  <RegisterChance></RegisterChance>
+  <RegisterValue></RegisterValue>
+  <RegisterMinAmountToSpawn></RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn></RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>0</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <BonusWeightAfterLifetimeOpp>0</BonusWeightAfterLifetimeOpp>
+  <Rarity></Rarity>
+ </Metals>
+<Metals>
+  <Name>Iron</Name>
+  <Description>IronDesc</Description>
+  <Hex>Iron</Hex>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>52</MaxWeight>
+  <MinPrice>7</MinPrice>
+  <MaxPrice>20</MaxPrice>
+  <MedatorName>Metal</MedatorName>
+  <LookAtInterest>5</LookAtInterest>
+  <RockMaterialName>metalRockIron</RockMaterialName>
+  <BarMaterialName>metalBarIron</BarMaterialName>
+  <RegisterChance>5</RegisterChance>
+  <RegisterValue>14</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>3</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <Rarity>Common</Rarity>
+ </Metals>
+<Metals>
+  <Name>Silver</Name>
+  <Description>SilverDesc</Description>
+  <Hex>Silver</Hex>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>52</MaxWeight>
+  <MinPrice>25</MinPrice>
+  <MaxPrice>35</MaxPrice>
+  <MedatorName>Metal</MedatorName>
+  <LookAtInterest>10</LookAtInterest>
+  <RockMaterialName>metalRockSilver</RockMaterialName>
+  <BarMaterialName>metalBarSilver</BarMaterialName>
+  <RegisterChance>5</RegisterChance>
+  <RegisterValue>30</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>3</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <Rarity>Common</Rarity>
+ </Metals>
+<Metals>
+  <Name>Gold</Name>
+  <Description>GoldDesc</Description>
+  <Hex>Gold</Hex>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>52</MaxWeight>
+  <MinPrice>40</MinPrice>
+  <MaxPrice>120</MaxPrice>
+  <MedatorName>Metal</MedatorName>
+  <LookAtInterest>15</LookAtInterest>
+  <RockMaterialName>metalRockGold</RockMaterialName>
+  <BarMaterialName>metalBarGold</BarMaterialName>
+  <RegisterChance>60</RegisterChance>
+  <RegisterValue>80</RegisterValue>
+  <RegisterMinAmountToSpawn>2</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>5</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Uncommon</Rarity>
+ </Metals>
+<Metals>
+  <Name>Palladium</Name>
+  <Description>PalladiumDesc</Description>
+  <Hex>Palladium</Hex>
+  <MinWeight>80</MinWeight>
+  <MaxWeight>300</MaxWeight>
+  <MinPrice>300</MinPrice>
+  <MaxPrice>500</MaxPrice>
+  <MedatorName>Metal</MedatorName>
+  <LookAtInterest>20</LookAtInterest>
+  <RockMaterialName>metalRockPalladium</RockMaterialName>
+  <BarMaterialName>metalBarPalladium</BarMaterialName>
+  <RegisterChance>2</RegisterChance>
+  <RegisterValue>400</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>2</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Rare</Rarity>
+ </Metals>
+<Metals>
+  <Name>Plutonium</Name>
+  <Description>PlutoniumDesc</Description>
+  <Hex>Plutonium</Hex>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>5</MaxWeight>
+  <MinPrice>1000</MinPrice>
+  <MaxPrice>1800</MaxPrice>
+  <MedatorName>Metal</MedatorName>
+  <LookAtInterest>45</LookAtInterest>
+  <RockMaterialName>metalRockMystery</RockMaterialName>
+  <BarMaterialName>metalBarMystery</BarMaterialName>
+  <RegisterChance>1</RegisterChance>
+  <RegisterValue>1400</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>1</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>5</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <BonusWeightAfterLifetimeOpp>5</BonusWeightAfterLifetimeOpp>
+  <Rarity>Rare</Rarity>
+ </Metals>
+<Metals>
+  <Name>Mercury</Name>
+  <Description>MercuryDesc</Description>
+  <Hex>Mercury</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <RequiredWorld>China</RequiredWorld>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>52</MaxWeight>
+  <MinPrice>100</MinPrice>
+  <MaxPrice>400</MaxPrice>
+  <MedatorName>Mercury</MedatorName>
+  <RockMaterialName>metalRockMercury</RockMaterialName>
+  <RegisterChance>75</RegisterChance>
+  <RegisterValue>250</RegisterValue>
+  <RegisterMinAmountToSpawn>2</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>4</RegisterMaxAmountToSpawn>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+  <Rarity>Uncommon</Rarity>
+ </Metals>
+<Metals>
+  <Name>Platinum</Name>
+  <Description>PlatinumDesc</Description>
+  <Hex>Platinum</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <RequiredWorld>China</RequiredWorld>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>52</MaxWeight>
+  <MinPrice>250</MinPrice>
+  <MaxPrice>336</MaxPrice>
+  <MedatorName>Metal</MedatorName>
+  <RockMaterialName>metalRockPlatinum</RockMaterialName>
+  <BarMaterialName>metalBarPlatinum</BarMaterialName>
+  <RegisterChance>75</RegisterChance>
+  <RegisterValue>293</RegisterValue>
+  <RegisterMinAmountToSpawn>2</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>5</RegisterMaxAmountToSpawn>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+  <Rarity>Uncommon</Rarity>
+ </Metals>
+<Metals>
+  <Name>Copper</Name>
+  <Description>CopperDesc</Description>
+  <Hex>Copper</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <RequiredWorld>Egypt</RequiredWorld>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>52</MaxWeight>
+  <MinPrice>15</MinPrice>
+  <MaxPrice>31</MaxPrice>
+  <MedatorName>Metal</MedatorName>
+  <LookAtInterest>5</LookAtInterest>
+  <RockMaterialName>metalRockCopper</RockMaterialName>
+  <BarMaterialName>metalBarCopper</BarMaterialName>
+  <RegisterChance>75</RegisterChance>
+  <RegisterValue>23</RegisterValue>
+  <RegisterMinAmountToSpawn>2</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>5</RegisterMaxAmountToSpawn>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+  <Rarity>Common</Rarity>
+ </Metals>
+<Metals>
+  <Name>Mummitomium</Name>
+  <Description>MummitomiumDesc</Description>
+  <Hex>Mummitomium</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <RequiredWorld>Egypt</RequiredWorld>
+  <MinWeight>150</MinWeight>
+  <MaxWeight>450</MaxWeight>
+  <MinPrice>750</MinPrice>
+  <MaxPrice>1200</MaxPrice>
+  <MedatorName>Metal</MedatorName>
+  <LookAtInterest>45</LookAtInterest>
+  <RockMaterialName>metalRockMummitomium</RockMaterialName>
+  <BarMaterialName>metalBarMummitomium</BarMaterialName>
+  <RegisterChance>50</RegisterChance>
+  <RegisterValue>975</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>3</RegisterMaxAmountToSpawn>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+  <Rarity>Rare</Rarity>
+ </Metals>
+<Metals>
+  <Name>Titanium</Name>
+  <Description>TitaniumDesc</Description>
+  <Hex>Titanium</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <RequiredWorld>France</RequiredWorld>
+  <MinWeight>75</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>450</MinPrice>
+  <MaxPrice>700</MaxPrice>
+  <MedatorName>Metal</MedatorName>
+  <RockMaterialName>metalRockTitanium</RockMaterialName>
+  <BarMaterialName>metalBarTitanium</BarMaterialName>
+  <RegisterChance>75</RegisterChance>
+  <RegisterValue>575</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>5</RegisterMaxAmountToSpawn>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+  <Rarity>Rare</Rarity>
+ </Metals>
+<Metals>
+  <Name>Iridium</Name>
+  <Description>IridiumDesc</Description>
+  <Hex>Iridium</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <RequiredWorld>France</RequiredWorld>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>11</MaxWeight>
+  <MinPrice>75</MinPrice>
+  <MaxPrice>155</MaxPrice>
+  <MedatorName>Metal</MedatorName>
+  <RockMaterialName>metalRockIridium</RockMaterialName>
+  <BarMaterialName>metalBarIridium</BarMaterialName>
+  <RegisterChance>50</RegisterChance>
+  <RegisterValue>115</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>4</RegisterMaxAmountToSpawn>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+  <Rarity>Uncommon</Rarity>
+ </Metals>
+<Metals>
+  <Name>Supernovium</Name>
+  <Description>SupernoviumDesc</Description>
+  <Hex>Supernovium</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <MinWeight>35000</MinWeight>
+  <MaxWeight>55000</MaxWeight>
+  <MinPrice>3500</MinPrice>
+  <MaxPrice>5500</MaxPrice>
+  <MedatorName>Metal</MedatorName>
+  <LookAtInterest>45</LookAtInterest>
+  <RockMaterialName>metalRockSupernovium</RockMaterialName>
+  <BarMaterialName>metalBarSupernovium</BarMaterialName>
+  <RegisterChance>1</RegisterChance>
+  <RegisterValue>3000</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>1</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>5</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <BonusWeightAfterLifetimeOpp>5</BonusWeightAfterLifetimeOpp>
+  <Rarity>Rare</Rarity>
+ </Metals>
+<Metals>
+  <Name>Compendium</Name>
+  <Description>CompendiumDesc</Description>
+  <Hex>Compendium</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <MinWeight>1100</MinWeight>
+  <MaxWeight>5500</MaxWeight>
+  <MedatorName>Metal</MedatorName>
+  <LookAtInterest>45</LookAtInterest>
+  <RockMaterialName>metalRockCompendium</RockMaterialName>
+  <BarMaterialName>metalBarCompendium</BarMaterialName>
+  <RegisterChance>0</RegisterChance>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>1</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>5</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <BonusWeightAfterLifetimeOpp>5</BonusWeightAfterLifetimeOpp>
+  <Rarity>Rare</Rarity>
+ </Metals>
+<Metals>
+  <Name>Woohooium</Name>
+  <Description>WoohooiumDesc</Description>
+  <Hex>Woohooium</Hex>
+  <CodeVersion>EP2</CodeVersion>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>52</MaxWeight>
+  <MinPrice>500</MinPrice>
+  <MaxPrice>750</MaxPrice>
+  <MedatorName>Metal</MedatorName>
+  <LookAtInterest>45</LookAtInterest>
+  <RockMaterialName>metalRockWoohooium</RockMaterialName>
+  <BarMaterialName>metalBarWoohooium</BarMaterialName>
+  <RegisterChance>5</RegisterChance>
+  <RegisterValue>1100</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>1</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Rare</Rarity>
+ </Metals>
+<Metals>
+  <Name>TungstenCarbide</Name>
+  <Description>TungstenCarbideDesc</Description>
+  <Hex>TungstenCarbide</Hex>
+  <CodeVersion>EP3</CodeVersion>
+  <MinWeight>100</MinWeight>
+  <MaxWeight>1095</MaxWeight>
+  <MinPrice>35</MinPrice>
+  <MaxPrice>70</MaxPrice>
+  <MedatorName>Metal</MedatorName>
+  <LookAtInterest>10</LookAtInterest>
+  <RockMaterialName>metalRockTungstenCarbide</RockMaterialName>
+  <BarMaterialName>metalBarTungstenCarbide</BarMaterialName>
+  <RegisterChance>15</RegisterChance>
+  <RegisterValue>75</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>4</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <Rarity>Common</Rarity>
+ </Metals>
+<Metals>
+  <Name>CarbonSteel</Name>
+  <Description>CarbonSteelDesc</Description>
+  <Hex>CarbonSteel</Hex>
+  <CodeVersion>EP3</CodeVersion>
+  <MinWeight>100</MinWeight>
+  <MaxWeight>1095</MaxWeight>
+  <MinPrice>120</MinPrice>
+  <MaxPrice>300</MaxPrice>
+  <MedatorName>Metal</MedatorName>
+  <LookAtInterest>15</LookAtInterest>
+  <RockMaterialName>metalRockCarbonSteel</RockMaterialName>
+  <BarMaterialName>metalBarCarbonSteel</BarMaterialName>
+  <RegisterChance>15</RegisterChance>
+  <RegisterValue>350</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>4</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Common</Rarity>
+ </Metals>
+<Gems>
+  <Name></Name>
+  <Description></Description>
+  <Hex></Hex>
+  <CodeVersion>BaseGame</CodeVersion>
+  <RequiredWorld></RequiredWorld>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>10</MaxWeight>
+  <MinPrice>100</MinPrice>
+  <MaxPrice>1000</MaxPrice>
+  <MedatorName></MedatorName>
+  <LookAtInterest>20</LookAtInterest>
+  <RockMaterialName></RockMaterialName>
+  <GemMaterialName></GemMaterialName>
+  <RegisterChance></RegisterChance>
+  <RegisterValue></RegisterValue>
+  <RegisterMinAmountToSpawn></RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn></RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>0</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <BonusWeightAfterLifetimeOpp>0</BonusWeightAfterLifetimeOpp>
+  <Rarity></Rarity>
+ </Gems>
+<Gems>
+  <Name>Aqua</Name>
+  <Description>AquaDesc</Description>
+  <Hex>Aqua</Hex>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>9</MinPrice>
+  <MaxPrice>21</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>10</LookAtInterest>
+  <RockMaterialName>gemRockAqua</RockMaterialName>
+  <GemMaterialName>gemCutAqua</GemMaterialName>
+  <RegisterChance>0</RegisterChance>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <Rarity>Common</Rarity>
+ </Gems>
+<Gems>
+  <Name>Smoky</Name>
+  <Description>SmokyDesc</Description>
+  <Hex>Smoky</Hex>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>15</MinPrice>
+  <MaxPrice>25</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>10</LookAtInterest>
+  <RockMaterialName>gemRockSmoky</RockMaterialName>
+  <GemMaterialName>gemCutSmoky</GemMaterialName>
+  <RegisterChance>0</RegisterChance>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <Rarity>Common</Rarity>
+ </Gems>
+<Gems>
+  <Name>Emerald</Name>
+  <Description>EmeraldDesc</Description>
+  <Hex>Emerald</Hex>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>20</MinPrice>
+  <MaxPrice>30</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>15</LookAtInterest>
+  <RockMaterialName>gemRockEmerald</RockMaterialName>
+  <GemMaterialName>gemCutEmerald</GemMaterialName>
+  <RegisterChance>0</RegisterChance>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <Rarity>Common</Rarity>
+ </Gems>
+<Gems>
+  <Name>Ruby</Name>
+  <Description>RubyDesc</Description>
+  <Hex>Ruby</Hex>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>25</MinPrice>
+  <MaxPrice>35</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>15</LookAtInterest>
+  <RockMaterialName>gemRockRuby</RockMaterialName>
+  <GemMaterialName>gemCutRuby</GemMaterialName>
+  <RegisterChance>0</RegisterChance>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <Rarity>Common</Rarity>
+ </Gems>
+<Gems>
+  <Name>Yellow</Name>
+  <Description>YellowDesc</Description>
+  <Hex>Yellow</Hex>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>35</MinPrice>
+  <MaxPrice>60</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>20</LookAtInterest>
+  <RockMaterialName>gemRockYellow</RockMaterialName>
+  <GemMaterialName>gemCutYellow</GemMaterialName>
+  <RegisterChance>0</RegisterChance>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <Rarity>Uncommon</Rarity>
+ </Gems>
+<Gems>
+  <Name>Tanzanite</Name>
+  <Description>TanzaniteDesc</Description>
+  <Hex>Tanzanite</Hex>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>65</MinPrice>
+  <MaxPrice>95</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>25</LookAtInterest>
+  <RockMaterialName>gemRockTanzanite</RockMaterialName>
+  <GemMaterialName>gemCutTanzanite</GemMaterialName>
+  <RegisterChance>0</RegisterChance>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <Rarity>Uncommon</Rarity>
+ </Gems>
+<Gems>
+  <Name>Diamond</Name>
+  <Description>DiamondDesc</Description>
+  <Hex>Diamond</Hex>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>100</MinPrice>
+  <MaxPrice>200</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>30</LookAtInterest>
+  <RockMaterialName>gemRockDiamond</RockMaterialName>
+  <GemMaterialName>gemCutDiamond</GemMaterialName>
+  <RegisterChance>5</RegisterChance>
+  <RegisterValue>150</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>3</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Rare</Rarity>
+ </Gems>
+<Gems>
+  <Name>Rainbow</Name>
+  <Description>RainbowDesc</Description>
+  <Hex>Rainbow</Hex>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>450</MinPrice>
+  <MaxPrice>700</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>40</LookAtInterest>
+  <RockMaterialName>gemRockRainbow</RockMaterialName>
+  <GemMaterialName>gemCutRainbow</GemMaterialName>
+  <RegisterChance>3</RegisterChance>
+  <RegisterValue>575</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>2</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Rare</Rarity>
+ </Gems>
+<Gems>
+  <Name>Crazy</Name>
+  <Description>CrazyDesc</Description>
+  <Hex>Crazy</Hex>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>150</MinPrice>
+  <MaxPrice>350</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>35</LookAtInterest>
+  <RockMaterialName>gemRockCrazy</RockMaterialName>
+  <GemMaterialName>gemCutCrazy</GemMaterialName>
+  <RegisterChance>2</RegisterChance>
+  <RegisterValue>250</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>2</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Rare</Rarity>
+ </Gems>
+<Gems>
+  <Name>Pink</Name>
+  <Description>PinkDesc</Description>
+  <Hex>Pink</Hex>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>1200</MinPrice>
+  <MaxPrice>1650</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>45</LookAtInterest>
+  <RockMaterialName>gemRockPink</RockMaterialName>
+  <GemMaterialName>gemCutPink</GemMaterialName>
+  <RegisterChance>1</RegisterChance>
+  <RegisterValue>1425</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>1</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>5</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <BonusWeightAfterLifetimeOpp>5</BonusWeightAfterLifetimeOpp>
+  <Rarity>Rare</Rarity>
+ </Gems>
+<Gems>
+  <Name>Alabaster</Name>
+  <Description>AlabasterDesc</Description>
+  <Hex>Alabaster</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <RequiredWorld>Egypt</RequiredWorld>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>9</MinPrice>
+  <MaxPrice>55</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>10</LookAtInterest>
+  <RockMaterialName>gemRockAlabaster</RockMaterialName>
+  <GemMaterialName>gemCutAlabaster</GemMaterialName>
+  <RegisterChance>50</RegisterChance>
+  <RegisterValue>32</RegisterValue>
+  <RegisterMinAmountToSpawn>2</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>4</RegisterMaxAmountToSpawn>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+  <Rarity>Common</Rarity>
+ </Gems>
+<Gems>
+  <Name>Turquoise</Name>
+  <Description>TurquoiseDesc</Description>
+  <Hex>Turquoise</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <RequiredWorld>Egypt</RequiredWorld>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>60</MinPrice>
+  <MaxPrice>70</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>15</LookAtInterest>
+  <RockMaterialName>gemRockTurquoise</RockMaterialName>
+  <GemMaterialName>gemCutTurquoise</GemMaterialName>
+  <RegisterChance>80</RegisterChance>
+  <RegisterValue>65</RegisterValue>
+  <RegisterMinAmountToSpawn>2</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>5</RegisterMaxAmountToSpawn>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+  <Rarity>Uncommon</Rarity>
+ </Gems>
+<Gems>
+  <Name>Lazuli</Name>
+  <Description>LazuliDesc</Description>
+  <Hex>Lazuli</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <RequiredWorld>China</RequiredWorld>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>12</MinPrice>
+  <MaxPrice>30</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>10</LookAtInterest>
+  <RockMaterialName>gemRockLazuli</RockMaterialName>
+  <GemMaterialName>gemCutLazuli</GemMaterialName>
+  <RegisterChance>70</RegisterChance>
+  <RegisterValue>21</RegisterValue>
+  <RegisterMinAmountToSpawn>2</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>5</RegisterMaxAmountToSpawn>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+  <Rarity>Common</Rarity>
+ </Gems>
+<Gems>
+  <Name>Jade</Name>
+  <Description>JadeDesc</Description>
+  <Hex>Jade</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <RequiredWorld>China</RequiredWorld>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>120</MinPrice>
+  <MaxPrice>240</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>20</LookAtInterest>
+  <RockMaterialName>gemRockJade</RockMaterialName>
+  <GemMaterialName>gemCutJade</GemMaterialName>
+  <RegisterChance>50</RegisterChance>
+  <RegisterValue>180</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>3</RegisterMaxAmountToSpawn>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+  <Rarity>Rare</Rarity>
+ </Gems>
+<Gems>
+  <Name>Amethyst</Name>
+  <Description>AmethystDesc</Description>
+  <Hex>Amethyst</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <RequiredWorld>France</RequiredWorld>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>18</MinPrice>
+  <MaxPrice>24</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>10</LookAtInterest>
+  <RockMaterialName>gemRockAmethyst</RockMaterialName>
+  <GemMaterialName>gemCutAmethyst</GemMaterialName>
+  <RegisterChance>50</RegisterChance>
+  <RegisterValue>21</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>5</RegisterMaxAmountToSpawn>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+  <Rarity>Common</Rarity>
+ </Gems>
+<Gems>
+  <Name>Citrine</Name>
+  <Description>CitrineDesc</Description>
+  <Hex>Citrine</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <RequiredWorld>France</RequiredWorld>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>35</MinPrice>
+  <MaxPrice>53</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>15</LookAtInterest>
+  <RockMaterialName>gemRockCitrine</RockMaterialName>
+  <GemMaterialName>gemCutCitrine</GemMaterialName>
+  <RegisterChance>50</RegisterChance>
+  <RegisterValue>44</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>4</RegisterMaxAmountToSpawn>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+  <Rarity>Uncommon</Rarity>
+ </Gems>
+<Gems>
+  <Name>Opal</Name>
+  <Description>OpalDesc</Description>
+  <Hex>Opal</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <RequiredWorld>France</RequiredWorld>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>55</MaxWeight>
+  <MinPrice>350</MinPrice>
+  <MaxPrice>520</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>25</LookAtInterest>
+  <RockMaterialName>gemRockOpal</RockMaterialName>
+  <GemMaterialName>gemCutOpal</GemMaterialName>
+  <RegisterChance>15</RegisterChance>
+  <RegisterValue>435</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>3</RegisterMaxAmountToSpawn>
+  <MinHuntWeight>0</MinHuntWeight>
+  <MaxHuntWeight>0</MaxHuntWeight>
+  <Rarity>Rare</Rarity>
+ </Gems>
+<Gems>
+  <Name>Soulpeace</Name>
+  <Description>SoulpeaceDesc</Description>
+  <Hex>Soulpeace</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>11</MaxWeight>
+  <MinPrice>1450</MinPrice>
+  <MaxPrice>2100</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>45</LookAtInterest>
+  <RockMaterialName>gemRockSoulpeace</RockMaterialName>
+  <GemMaterialName>gemCutSoulpeace</GemMaterialName>
+  <RegisterChance>1</RegisterChance>
+  <RegisterValue>1775</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>1</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>5</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <BonusWeightAfterLifetimeOpp>5</BonusWeightAfterLifetimeOpp>
+  <Rarity>Rare</Rarity>
+ </Gems>
+<Gems>
+  <Name>Geode</Name>
+  <Description>GeodeDesc</Description>
+  <Hex>Geode</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <MinWeight>10</MinWeight>
+  <MaxWeight>25</MaxWeight>
+  <MinPrice>15</MinPrice>
+  <MaxPrice>120</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>20</LookAtInterest>
+  <RockMaterialName>gemRockGeode</RockMaterialName>
+  <GemMaterialName>gemCutGeode</GemMaterialName>
+  <RegisterChance>35</RegisterChance>
+  <RegisterValue>68</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>3</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Uncommon</Rarity>
+ </Gems>
+<Gems>
+  <Name>Septarian</Name>
+  <Description>SeptarianDesc</Description>
+  <Hex>Septarian</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <MinWeight>10</MinWeight>
+  <MaxWeight>25</MaxWeight>
+  <MinPrice>50</MinPrice>
+  <MaxPrice>350</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>20</LookAtInterest>
+  <RockMaterialName>gemRockSeptarian</RockMaterialName>
+  <GemMaterialName>gemCutSeptarian</GemMaterialName>
+  <RegisterChance>15</RegisterChance>
+  <RegisterValue>200</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>2</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Rare</Rarity>
+ </Gems>
+<Gems>
+  <Name>Quartz</Name>
+  <Description>QuartzDesc</Description>
+  <Hex>Quartz</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <MinWeight>60</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>10</MinPrice>
+  <MaxPrice>18</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>10</LookAtInterest>
+  <RockMaterialName>gemRockQuartz</RockMaterialName>
+  <GemMaterialName>gemCutQuartz</GemMaterialName>
+  <RegisterChance>50</RegisterChance>
+  <RegisterValue>14</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>2</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <Rarity>Common</Rarity>
+ </Gems>
+<Gems>
+  <Name>Tiberium</Name>
+  <Description>TiberiumDesc</Description>
+  <Hex>Tiberium</Hex>
+  <CodeVersion>EP1</CodeVersion>
+  <MinWeight>60</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>75</MinPrice>
+  <MaxPrice>125</MaxPrice>
+  <MedatorName>Tiberium</MedatorName>
+  <LookAtInterest>45</LookAtInterest>
+  <RockMaterialName>gemRockTiberium</RockMaterialName>
+  <GemMaterialName>gemCutTiberium</GemMaterialName>
+  <RegisterChance>2</RegisterChance>
+  <RegisterValue>100</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>3</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Rare</Rarity>
+ </Gems>
+<Gems>
+  <Name>FluoritePalmstone</Name>
+  <Description>FluoritePalmStoneDesc</Description>
+  <Hex>FluoritePalmstone</Hex>
+  <CodeVersion>EP2</CodeVersion>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>300</MinPrice>
+  <MaxPrice>500</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>25</LookAtInterest>
+  <RockMaterialName>gemRockPalmstone</RockMaterialName>
+  <GemMaterialName>gemCutPalmstone</GemMaterialName>
+  <RegisterChance>5</RegisterChance>
+  <RegisterValue>600</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>2</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Rare</Rarity>
+ </Gems>
+<Gems>
+  <Name>Smithsonite</Name>
+  <Description>SmithsoniteDesc</Description>
+  <Hex>Smithsonite</Hex>
+  <CodeVersion>EP3</CodeVersion>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>31</MinPrice>
+  <MaxPrice>71</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>20</LookAtInterest>
+  <RockMaterialName>gemRockSmithsonite</RockMaterialName>
+  <GemMaterialName>gemCutSmithsonite</GemMaterialName>
+  <RegisterChance>0</RegisterChance>
+  <RegisterValue>90</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>2</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <Rarity>Uncommon</Rarity>
+ </Gems>
+<Gems>
+  <Name>VampiresEye</Name>
+  <Description>VampiresEyeDesc</Description>
+  <Hex>VampiresEye</Hex>
+  <CodeVersion>EP3</CodeVersion>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>220</MinPrice>
+  <MaxPrice>375</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>35</LookAtInterest>
+  <RockMaterialName>gemRockVampireEye</RockMaterialName>
+  <GemMaterialName>gemCutVampireEye</GemMaterialName>
+  <RegisterChance>0</RegisterChance>
+  <RegisterValue>400</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>2</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Rare</Rarity>
+ </Gems>
+<Gems>
+  <Name>Bloodstone</Name>
+  <Description>BloodstoneDesc</Description>
+  <Hex>Bloodstone</Hex>
+  <CodeVersion>EP7</CodeVersion>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>35</MinPrice>
+  <MaxPrice>105</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>25</LookAtInterest>
+  <RockMaterialName>gemRockBloodstone</RockMaterialName>
+  <GemMaterialName>gemCutBloodstone</GemMaterialName>
+  <RegisterChance>0</RegisterChance>
+  <RegisterValue>70</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>2</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Uncommon</Rarity>
+ </Gems>
+<Gems>
+  <Name>Sunstone</Name>
+  <Description>SunstoneDesc</Description>
+  <Hex>Sunstone</Hex>
+  <CodeVersion>EP7</CodeVersion>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>330</MinPrice>
+  <MaxPrice>720</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>30</LookAtInterest>
+  <RockMaterialName>gemRockSun</RockMaterialName>
+  <GemMaterialName>gemCutSun</GemMaterialName>
+  <RegisterChance>0</RegisterChance>
+  <RegisterValue>425</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>2</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Rare</Rarity>
+ </Gems>
+<Gems>
+  <Name>Moonstone</Name>
+  <Description>MoonstoneDesc</Description>
+  <Hex>Moonstone</Hex>
+  <CodeVersion>EP7</CodeVersion>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>105</MaxWeight>
+  <MinPrice>375</MinPrice>
+  <MaxPrice>855</MaxPrice>
+  <MedatorName>Gem</MedatorName>
+  <LookAtInterest>30</LookAtInterest>
+  <RockMaterialName>gemRockMoon</RockMaterialName>
+  <GemMaterialName>gemCutMoon</GemMaterialName>
+  <RegisterChance>0</RegisterChance>
+  <RegisterValue>515</RegisterValue>
+  <RegisterMinAmountToSpawn>1</RegisterMinAmountToSpawn>
+  <RegisterMaxAmountToSpawn>2</RegisterMaxAmountToSpawn>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Rare</Rarity>
+ </Gems>
+<Gems>
+  <Description>Alabaster, Turquoise, Lazuli, Jade, Amethyst, Citrine, Opal, Soulpeace, Geode, Septarian, Quartz, Tiberium, Aqua, Smoky, Emerald, Ruby, Yellow, Tanzanite, Diamond,  Rainbow, Crazy,  Pink, Bloodstone, Sunstone, Moonstone</Description>
+ </Gems>
+<GemCuts>
+  <Name></Name>
+  <cutString>0</cutString>
+  <CodeVersion>BaseGame</CodeVersion>
+  <Multiplier>1.5</Multiplier>
+  <Cuts>5</Cuts>
+  <Cost>100</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>Emerald</Name>
+  <cutString>Emerald</cutString>
+  <Multiplier>1.25</Multiplier>
+  <Cuts>0</Cuts>
+  <Cost>10</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>Oval</Name>
+  <cutString>Oval</cutString>
+  <Multiplier>1.5</Multiplier>
+  <Cuts>4</Cuts>
+  <Cost>20</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>Pear</Name>
+  <cutString>Pear</cutString>
+  <Multiplier>1.75</Multiplier>
+  <Cuts>8</Cuts>
+  <Cost>35</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>Plumbbob</Name>
+  <cutString>Plumbbob</cutString>
+  <Multiplier>2</Multiplier>
+  <Cuts>16</Cuts>
+  <Cost>50</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>Marquis</Name>
+  <cutString>Marquis</cutString>
+  <Multiplier>2.3</Multiplier>
+  <Cuts>30</Cuts>
+  <Cost>75</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>Crystalball</Name>
+  <cutString>Crystalball</cutString>
+  <Multiplier>2.6</Multiplier>
+  <Cuts>45</Cuts>
+  <Cost>100</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>Brilliant</Name>
+  <cutString>Brilliant</cutString>
+  <Multiplier>3.5</Multiplier>
+  <Cuts>60</Cuts>
+  <Cost>250</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>Heart</Name>
+  <cutString>Heart</cutString>
+  <Multiplier>5</Multiplier>
+  <Cuts>1000</Cuts>
+  <Cost>1000</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>Star</Name>
+  <cutString>Star</cutString>
+  <Multiplier>4</Multiplier>
+  <Cuts>75</Cuts>
+  <Cost>400</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>Split</Name>
+  <cutString>Split</cutString>
+  <CodeVersion>EP1</CodeVersion>
+  <Multiplier>2.4</Multiplier>
+  <Cuts>0</Cuts>
+  <Cost>45</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>Tiberium</Name>
+  <cutString>Tiberium</cutString>
+  <CodeVersion>EP1</CodeVersion>
+  <Multiplier>69</Multiplier>
+  <Cuts>0</Cuts>
+  <Cost>6500</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>Skull</Name>
+  <cutString>Skull</cutString>
+  <CodeVersion>EP1</CodeVersion>
+  <Multiplier>10</Multiplier>
+  <Cuts>0</Cuts>
+  <Cost>0</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>SculptorsEgg</Name>
+  <cutString>Egg</cutString>
+  <CodeVersion>EP2</CodeVersion>
+  <Multiplier>3</Multiplier>
+  <Cuts>0</Cuts>
+  <Cost>175</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>Gemdust</Name>
+  <cutString>Gemdust</cutString>
+  <CodeVersion>EP7</CodeVersion>
+  <Multiplier>0.25</Multiplier>
+  <Cuts>0</Cuts>
+  <Cost>5</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>Sun</Name>
+  <cutString>Sun</cutString>
+  <CodeVersion>EP7</CodeVersion>
+  <Multiplier>5</Multiplier>
+  <Cuts>100</Cuts>
+  <Cost>600</Cost>
+ </GemCuts>
+<GemCuts>
+  <Name>Moon</Name>
+  <cutString>Moon</cutString>
+  <CodeVersion>EP7</CodeVersion>
+  <Multiplier>5</Multiplier>
+  <Cuts>100</Cuts>
+  <Cost>600</Cost>
+ </GemCuts>
+<Rocks>
+  <Name></Name>
+  <Description></Description>
+  <Hex>0</Hex>
+  <MinWeight>0.1</MinWeight>
+  <MaxWeight>10</MaxWeight>
+  <MinPrice>100</MinPrice>
+  <MaxPrice>1000</MaxPrice>
+  <MedatorName></MedatorName>
+  <LookAtInterest>20</LookAtInterest>
+  <MinHuntSkillLevel>0</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <BonusWeightAfterLifetimeOpp>0</BonusWeightAfterLifetimeOpp>
+  <Rarity></Rarity>
+ </Rocks>
+<Rocks>
+  <Name>SmallRock</Name>
+  <Description>SmallRockDesc</Description>
+  <Hex>SpaceRockSmall</Hex>
+  <MinWeight>1</MinWeight>
+  <MaxWeight>65</MaxWeight>
+  <MinPrice>10</MinPrice>
+  <MaxPrice>30</MaxPrice>
+  <MedatorName>meteorMedium</MedatorName>
+  <LookAtInterest>10</LookAtInterest>
+  <MinHuntSkillLevel>1</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>10</MinHuntWeight>
+  <MaxHuntWeight>1</MaxHuntWeight>
+  <Rarity>Common</Rarity>
+ </Rocks>
+<Rocks>
+  <Name>MediumRock</Name>
+  <Description>MediumRockDesc</Description>
+  <Hex>SpaceRockMedium</Hex>
+  <MinWeight>100</MinWeight>
+  <MaxWeight>1050</MaxWeight>
+  <MinPrice>50</MinPrice>
+  <MaxPrice>200</MaxPrice>
+  <MedatorName>meteorLarge</MedatorName>
+  <LookAtInterest>25</LookAtInterest>
+  <MinHuntSkillLevel>3</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <Rarity>Common</Rarity>
+ </Rocks>
+<Rocks>
+  <Name>LargeRock</Name>
+  <Description>LargeRockDesc</Description>
+  <Hex>SpaceRockLarge</Hex>
+  <MinWeight>50000</MinWeight>
+  <MaxWeight>1001000</MaxWeight>
+  <MinPrice>2000</MinPrice>
+  <MaxPrice>4500</MaxPrice>
+  <MedatorName>meteorHuge</MedatorName>
+  <LookAtInterest>45</LookAtInterest>
+  <MinHuntSkillLevel>5</MinHuntSkillLevel>
+  <MaxHuntSkillLevel>10</MaxHuntSkillLevel>
+  <MinHuntWeight>1</MinHuntWeight>
+  <MaxHuntWeight>10</MaxHuntWeight>
+  <BonusWeightAfterLifetimeOpp>5</BonusWeightAfterLifetimeOpp>
+  <Rarity>Common</Rarity>
+ </Rocks>
+<RockNames>
+  <Name></Name>
+  <ValueMultiplier></ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>SpecialMazzadrayte</Name>
+  <ValueMultiplier>2.1</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>SpecialRodiekceous</Name>
+  <ValueMultiplier>2</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>SpecialDukeadite</Name>
+  <ValueMultiplier>2.2</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>SpecialHolmberic</Name>
+  <ValueMultiplier>1.8</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>SpecialCusterousGossticite</Name>
+  <ValueMultiplier>1.9</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>SpecialBellacite</Name>
+  <ValueMultiplier>1.6</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>SpecialPearsonite</Name>
+  <ValueMultiplier>2.1</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>SpecialLlamatite</Name>
+  <ValueMultiplier>2</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>SpecialSporecite</Name>
+  <ValueMultiplier>1.7</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Howardite</Name>
+  <ValueMultiplier>0.7</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Eucrite</Name>
+  <ValueMultiplier>0.8</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Diogenite</Name>
+  <ValueMultiplier>0.9</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Shergottite</Name>
+  <ValueMultiplier>1</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Nakhlite</Name>
+  <ValueMultiplier>1.1</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Chassignite</Name>
+  <ValueMultiplier>1.2</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Lunar</Name>
+  <ValueMultiplier>1.3</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Aubrite</Name>
+  <ValueMultiplier>1.4</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Acapulcoite</Name>
+  <ValueMultiplier>0.7</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Lodranite</Name>
+  <ValueMultiplier>0.8</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Ureilite</Name>
+  <ValueMultiplier>0.9</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Angrite</Name>
+  <ValueMultiplier>1</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Brachinite</Name>
+  <ValueMultiplier>1.2</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Winonaite</Name>
+  <ValueMultiplier>1.3</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Hexahedrite</Name>
+  <ValueMultiplier>1.6</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Octahedrite</Name>
+  <ValueMultiplier>1.8</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Ataxite</Name>
+  <ValueMultiplier>1.5</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Pallasite</Name>
+  <ValueMultiplier>4</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Mesosiderite</Name>
+  <ValueMultiplier>10</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Rumurutite</Name>
+  <ValueMultiplier>3</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>CarbonaceousChondrite</Name>
+  <ValueMultiplier>5</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>OrdinaryChondrite</Name>
+  <ValueMultiplier>0.5</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>EnstatiteChondrite</Name>
+  <ValueMultiplier>6</ValueMultiplier>
+ </RockNames>
+<RockNames>
+  <Name>Kamasite</Name>
+  <ValueMultiplier>1.75</ValueMultiplier>
+ </RockNames>
+<Spawners>
+  <SpawnerClassName></SpawnerClassName>
+  <Spawns>Iron</Spawns>
+  <Probability>1</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>0.5</SpawnMinTime>
+  <SpawnMaxTime>2</SpawnMaxTime>
+  <SpawnChance>0.9</SpawnChance>
+  <DeleteUntaken>2</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner1</SpawnerClassName>
+  <Spawns>Iron, Silver, Gold</Spawns>
+  <Probability>25,3,1</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>50</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>25</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner2</SpawnerClassName>
+  <Spawns>Iron, Silver, Gold</Spawns>
+  <Probability>1,25,2</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>50</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>30</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner3</SpawnerClassName>
+  <Spawns>Iron, Silver, Gold</Spawns>
+  <Probability>1,1,20</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>50</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>22</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner4</SpawnerClassName>
+  <Spawns>Iron, Silver, Gold</Spawns>
+  <Probability>9,3,1</Probability>
+  <MaxSpawnCapacity>3</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>50</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>25</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner5</SpawnerClassName>
+  <Spawns>Iron, Silver, Gold, Palladium</Spawns>
+  <Probability>1,3,4,1</Probability>
+  <MaxSpawnCapacity>3</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>50</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>26</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner6</SpawnerClassName>
+  <Spawns>Silver, Gold, Palladium, Plutonium</Spawns>
+  <Probability>1,1,7,1</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>50</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>28</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner7</SpawnerClassName>
+  <Spawns>SpaceRockSmall</Spawns>
+  <Probability>1</Probability>
+  <MaxSpawnCapacity>3</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>50</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>31</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner8</SpawnerClassName>
+  <Spawns>SpaceRockMedium</Spawns>
+  <Probability>1</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>50</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>33</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner9</SpawnerClassName>
+  <Spawns>SpaceRockSmall, SpaceRockMedium</Spawns>
+  <Probability>5,1</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>50</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>20</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner10</SpawnerClassName>
+  <Spawns>SpaceRockSmall, SpaceRockMedium, SpaceRockLarge</Spawns>
+  <Probability>10,90,1</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>50</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>50</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner11</SpawnerClassName>
+  <Spawns>Aqua</Spawns>
+  <Probability>1</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>40</SpawnMinTime>
+  <SpawnMaxTime>80</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>25</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner12</SpawnerClassName>
+  <Spawns>Aqua, Emerald, Yellow, Diamond, Bloodstone</Spawns>
+  <Probability>7,5,2,1,1</Probability>
+  <MaxSpawnCapacity>3</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>35</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>25</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner13</SpawnerClassName>
+  <Spawns>Smoky, Ruby, Yellow, Tanzanite, Bloodstone</Spawns>
+  <Probability>7,5,2,1,1</Probability>
+  <MaxSpawnCapacity>3</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>35</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>40</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner14</SpawnerClassName>
+  <Spawns>Aqua, Smoky, Diamond,  Crazy, Bloodstone, Moonstone, Sunstone</Spawns>
+  <Probability>4,3,3,2,3,2,1</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>35</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>30</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner15</SpawnerClassName>
+  <Spawns>Emerald, Ruby, Yellow, Tanzanite,  Crazy, Bloodstone, Moonstone, Sunstone</Spawns>
+  <Probability>1,2,4,2,2,3,1,2</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>35</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>28</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner16</SpawnerClassName>
+  <Spawns>Yellow, Tanzanite, Diamond, Rainbow, Moonstone, Sunstone, Bloodstone</Spawns>
+  <Probability>1,2,2,1,3,2,1</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>35</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>30</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner17</SpawnerClassName>
+  <Spawns>Ruby, Tanzanite, Diamond,  Pink, Moonstone, Sunstone, Bloodstone</Spawns>
+  <Probability>1,2,3,1,2,3,1</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>35</SpawnMaxTime>
+  <SpawnChance>0.25</SpawnChance>
+  <DeleteUntaken>30</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner18</SpawnerClassName>
+  <Spawns>Alabaster, Smoky</Spawns>
+  <Probability>4, 1</Probability>
+  <MaxSpawnCapacity>3</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>25</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner19</SpawnerClassName>
+  <Spawns>Turquoise, Aqua, Tanzanite</Spawns>
+  <Probability>5, 2, 1</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>30</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner20</SpawnerClassName>
+  <Spawns>Alabaster, Turquoise, Quartz, Aqua, Smoky, Rainbow</Spawns>
+  <Probability>5, 5, 5, 3, 2, 2</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>32</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner21</SpawnerClassName>
+  <Spawns>Lazuli, Emerald</Spawns>
+  <Probability>3, 5</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>21</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner22</SpawnerClassName>
+  <Spawns>Jade, Quartz, Crazy</Spawns>
+  <Probability>3, 7, 2</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>40</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner23</SpawnerClassName>
+  <Spawns>Lazuli, Jade, Quartz, Yellow, Diamond</Spawns>
+  <Probability>1, 1, 1, 1, 1</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>30</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner24</SpawnerClassName>
+  <Spawns>Amethyst, Citrine, Ruby</Spawns>
+  <Probability>6, 1, 1</Probability>
+  <MaxSpawnCapacity>3</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>32</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner25</SpawnerClassName>
+  <Spawns>Amethyst, Citrine, Yellow,  Pink</Spawns>
+  <Probability>4, 15, 4, 1</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>22</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner26</SpawnerClassName>
+  <Spawns>Amethyst, Opal</Spawns>
+  <Probability>2, 1</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>33</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner27</SpawnerClassName>
+  <Spawns>Amethyst, Citrine, Opal</Spawns>
+  <Probability>5, 3, 1</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>25</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner28</SpawnerClassName>
+  <Spawns>Quartz, Diamond,  Rainbow</Spawns>
+  <Probability>15, 3, 2</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>26</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner33</SpawnerClassName>
+  <Spawns>Quartz, Tiberium, Aqua</Spawns>
+  <Probability>5, 1, 3</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>27</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner34</SpawnerClassName>
+  <Spawns>Quartz, Tiberium, Tanzanite, Crazy</Spawns>
+  <Probability>1, 5, 2, 3</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>28</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner32</SpawnerClassName>
+  <Spawns>Soulpeace, Diamond,  Rainbow</Spawns>
+  <Probability>3, 2, 1</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>29</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner29</SpawnerClassName>
+  <Spawns>Geode, Septarian</Spawns>
+  <Probability>5, 1</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>30</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner30</SpawnerClassName>
+  <Spawns>Geode, Septarian</Spawns>
+  <Probability>1, 1</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>40</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner31</SpawnerClassName>
+  <Spawns>Geode, Septarian</Spawns>
+  <Probability>1, 5</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>42</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner35</SpawnerClassName>
+  <Spawns>Silver, Gold, Copper, Mummitomium</Spawns>
+  <Probability>3, 5, 45, 1</Probability>
+  <MaxSpawnCapacity>3</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>25</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner36</SpawnerClassName>
+  <Spawns>Iron, Copper, Mummitomium</Spawns>
+  <Probability>1, 1, 1</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.6</SpawnChance>
+  <DeleteUntaken>30</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner37</SpawnerClassName>
+  <Spawns>Iron, Silver, Gold, Copper, Mummitomium</Spawns>
+  <Probability>10, 10, 10, 20, 2</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>32</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner38</SpawnerClassName>
+  <Spawns>Gold, Palladium, Copper, Mummitomium</Spawns>
+  <Probability>30, 10, 5, 3</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>21</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner39</SpawnerClassName>
+  <Spawns>Copper, Silver, Platinum</Spawns>
+  <Probability>1, 1, 4</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>40</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner40</SpawnerClassName>
+  <Spawns>Silver, Plutonium, Mercury</Spawns>
+  <Probability>3, 1, 10</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>30</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner41</SpawnerClassName>
+  <Spawns>Copper, Silver, Gold, Palladium, Mercury, Platinum</Spawns>
+  <Probability>3, 3, 3, 1, 3, 1</Probability>
+  <MaxSpawnCapacity>3</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>32</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner42</SpawnerClassName>
+  <Spawns>Gold, Plutonium, Mercury, Platinum</Spawns>
+  <Probability>5, 1, 7, 5</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>22</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner43</SpawnerClassName>
+  <Spawns>Titanium</Spawns>
+  <Probability>1</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>33</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner44</SpawnerClassName>
+  <Spawns>Iridium</Spawns>
+  <Probability>1</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>40</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner45</SpawnerClassName>
+  <Spawns>Silver, Gold, Titanium, Iridium</Spawns>
+  <Probability>2, 4, 5, 2</Probability>
+  <MaxSpawnCapacity>3</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>30</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner46</SpawnerClassName>
+  <Spawns>Gold, Palladium, Titanium, Iridium</Spawns>
+  <Probability>2, 4, 6, 7</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>32</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner47</SpawnerClassName>
+  <Spawns>Compendium</Spawns>
+  <Probability>1</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>32</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner48</SpawnerClassName>
+  <Spawns>Supernovium</Spawns>
+  <Probability>1</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>21</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner49</SpawnerClassName>
+  <Spawns>Smithsonite,  Aqua, Smoky, Emerald, Ruby, Yellow, Tanzanite, Diamond</Spawns>
+  <Probability>10, 1, 1, 1, 1, 1, 1, 1</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>35</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>30</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner50</SpawnerClassName>
+  <Spawns>VampiresEye,  Rainbow, Crazy,  Pink</Spawns>
+  <Probability>12, 1, 2, 1</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>35</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>28</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner51</SpawnerClassName>
+  <Spawns>Iron, Silver, TungstenCarbide, CarbonSteel</Spawns>
+  <Probability>2, 2, 10, 1</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>50</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>31</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawner52</SpawnerClassName>
+  <Spawns>Gold, Palladium, Plutonium, TungstenCarbide, CarbonSteel</Spawns>
+  <Probability>5, 3, 2, 5, 10</Probability>
+  <MaxSpawnCapacity>1</MaxSpawnCapacity>
+  <SpawnMinTime>14</SpawnMinTime>
+  <SpawnMaxTime>50</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>33</DeleteUntaken>
+ </Spawners>
+<Spawners>
+  <SpawnerClassName>Sims3.Gameplay.Objects.Spawners.RockGemMetalSpawnerAlchemy</SpawnerClassName>
+  <Spawns>Tanzanite, Smoky, Diamond,  Emerald, Bloodstone, Ruby, Yellow, Moonstone, Sunstone, Iron, Silver, Gold</Spawns>
+  <Probability>4,10,3,10,5,7,5,1,1,8,5,3</Probability>
+  <MaxSpawnCapacity>2</MaxSpawnCapacity>
+  <SpawnMinTime>11</SpawnMinTime>
+  <SpawnMaxTime>26</SpawnMaxTime>
+  <SpawnChance>0.5</SpawnChance>
+  <DeleteUntaken>30</DeleteUntaken>
+ </Spawners>
+</RockGemMetal>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPlayOnPlaygroundDuration value="40">
+      <!--Range:  0+  Description:  The time, in Sim minutes, Sim will play on this object when doing Play on Playground-->
+    </kPlayOnPlaygroundDuration>
+    <kNumberOfOccupants value="4">
+      <!--Range:  0+  Description:  The maximum number of Sims that can use the treehouse at once-->
+    </kNumberOfOccupants>
+    <kTryForBabySuccessChance value="50">
+      <!--Range:  0 - 100  Description:  The base chance that Try for Baby is successful-->
+    </kTryForBabySuccessChance>
+    <kGiveupTimeForSyncedInteractions value="40">
+      <!--Range:  0+  Description:  The timeout time, in Sim minutes, for synchronized interactions-->
+    </kGiveupTimeForSyncedInteractions>
+    <kDumpWaterOnScoreLtrMultiplier value="-0.2">
+      <!--Range:  0-  Description:  The scoring multiplier for autonomous water dumping applied to LTR-->
+    </kDumpWaterOnScoreLtrMultiplier>
+    <kApproximateRoutingDistanceMinimum value="3">
+      <!--Range:  0+  Description:  The minimum routing distance to route from the ladder to allow adults to climb down-->
+    </kApproximateRoutingDistanceMinimum>
+    <kApproximateRoutingDistanceMaximum value="5">
+      <!--Range:  0+  Description:  The maximum routing distance to route from the ladder to allow adults to climb down-->
+    </kApproximateRoutingDistanceMaximum>
+    <kTimeLightsOffDelta value="0">
+      <!--Range:  0+  Description:  The time, relative to sunrise, when lights are turned off-->
+    </kTimeLightsOffDelta>
+    <kTimeLightsOnDelta value="0">
+      <!--Range:  0+  Description:  The time, relative to sunset, when lights are turned on-->
+    </kTimeLightsOnDelta>
+  </Current_Tuning>
+</base>

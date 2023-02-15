@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteTimePerLevel value="0.35">
+      <!--In Sim hours.  This value is added to route time estimates during interaction scoring.  Added as many times as the difference in house levels between Actor & Target.-->
+    </kRouteTimePerLevel>
+    <kRouteDistancePerHourEstimate value="150">
+      <!--In meters per hour. Autonomy's estimate of how fast a Sim can route (used to calculate route-time attenuation)-->
+    </kRouteDistancePerHourEstimate>
+    <kRouteDistancePenaltyForObjectInInventory value="20">
+      <!--The distance autonomy considers an item in the inventory to be-->
+    </kRouteDistancePenaltyForObjectInInventory>
+    <kDiscourageTraitScore value="-50">
+      <!--Range:  Motive intensity.  Description:  Negative intensity value to add to the score of an interaction if it outputs to a conflicting trait to one that your Sim has.  For example,  Slob Sims shouldn't want to autonomously choose interactions that output the Neat Trait commodity.-->
+    </kDiscourageTraitScore>
+    <kRouteTimePerLevelOnDowntownCommunityLots value="0.75">
+      <!--In Sim hours.  This value is added to route time estimates during interaction scoring.  Added as many times as the difference in levels between actor and target on downtown commercial lots.-->
+    </kRouteTimePerLevelOnDowntownCommunityLots>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCountToAddBuff value="12">
+      <!--Hairball count at which Hairball buff is added-->
+    </kCountToAddBuff>
+    <kCountIfTimeout value="5">
+      <!--What to set hairball count to if buff times out before cat vomits-->
+    </kCountIfTimeout>
+    <kBaseChanceVomit value="10">
+      <!--Chance of vomiting when cat has Hairball count of kCountToAddBuff-->
+    </kBaseChanceVomit>
+    <kAdditionalVomitChancePerCount value="6">
+      <!--How much additional chance to add to vomit chance for each hairball count over kCountToAddBuff-->
+    </kAdditionalVomitChancePerCount>
+    <kTimeToFirstHack value="10">
+      <!--Num sim minutes after hairball buff is added to do first hack-->
+    </kTimeToFirstHack>
+    <kTimeBetweenHacks value="25">
+      <!--Num sim minutes between hacks after the first one-->
+    </kTimeBetweenHacks>
+  </Current_Tuning>
+</base>

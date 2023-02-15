@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="0" />
+      <MapTagFilterType value="None">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-35">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="40">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kInvestCost value="0">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="0">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="0">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="0">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="0">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="0">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kCanInvestHere value="False">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kNpcExitFreq value="10">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kNighttimeLightSunsetDelta value="24">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kPreventLotPurchase value="False">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="False">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+    <kExploreMinBetweenEvents value="20">
+      <!--Explore: Minimum amount of time between events.-->
+    </kExploreMinBetweenEvents>
+    <kExploreMaxBetweenEvents value="50">
+      <!--Explore: Maximum amount of time between events.-->
+    </kExploreMaxBetweenEvents>
+    <kExploreHorrifiedMaulingChance value="25">
+      <!--Explore: Percent chance if Sim is horrified that it's from a bear mauling.-->
+    </kExploreHorrifiedMaulingChance>
+    <kExploreItemChanceRGM value="35">
+      <!--Explore: Percent chance for a random rock, gem or metal.  If the items do not add up to 100, the remaining chance will be fore a rubber duck.-->
+    </kExploreItemChanceRGM>
+    <kExploreItemChanceSeed value="35">
+      <!--Explore: Percent chance for a random seed.  If the items do not add up to 100, the remaining chance will be fore a rubber duck.-->
+    </kExploreItemChanceSeed>
+    <kExploreItemChanceBook value="20">
+      <!--Explore: Percent chance for random book.  If the items do not add up to 100, the remaining chance will be fore a rubber duck.-->
+    </kExploreItemChanceBook>
+    <kVisitRabbitHoleTuning>
+      <VisitLength value="60">
+        <!--Visit length in minutes.-->
+      </VisitLength>
+      <VisitBoredomChanceChild value="10">
+        <!--Visit chance for boredom child.-->
+      </VisitBoredomChanceChild>
+      <VisitBoredomChanceTeen value="5">
+        <!--Visit chance for boredom teen.-->
+      </VisitBoredomChanceTeen>
+      <VisitBoredomChanceAdult value="2">
+        <!--Visit chance for boredom adult/edler.-->
+      </VisitBoredomChanceAdult>
+      <VisitWooHooLength value="25">
+        <!--Visit woohoo length in minutes.-->
+      </VisitWooHooLength>
+      <VisitWooHooCheckForCaught value="5">
+        <!--Visit woohoo check for being caught every X minutes.-->
+      </VisitWooHooCheckForCaught>
+      <VisitWooHooChanceForCaught value="2">
+        <!--Visit woohoo chance of being caught when 'VisitWooHooCheckForCaught' is hit.-->
+      </VisitWooHooChanceForCaught>
+      <VisitTryForBabySuccessRate value="50">
+        <!--Visit try for baby chance of success.-->
+      </VisitTryForBabySuccessRate>
+      <VisitTourGroupLTRGain value="2">
+        <!--Amount of LTR gain between people on a tour group every X minutes-->
+      </VisitTourGroupLTRGain>
+      <VisitTourGroupMinutesLTR value="20">
+        <!--Frequency of LTR gain while on a tour group-->
+      </VisitTourGroupMinutesLTR>
+      <WooHooingSTCIncrement value="25">
+        <!--The STC increment after WooHooing.-->
+      </WooHooingSTCIncrement>
+      <WooHooingLTRIncrement value="5">
+        <!--The LTR increment after WooHooing.-->
+      </WooHooingLTRIncrement>
+      <WooHooingFunDelta value="80">
+        <!--The Fun delta while WooHooing.-->
+      </WooHooingFunDelta>
+      <WooHooingSocialDelta value="125">
+        <!--The Social delta while WooHooing.-->
+      </WooHooingSocialDelta>
+      <WooHooingCommodity value="Amorous">
+        <!--Social STC after WooHooing.-->
+      </WooHooingCommodity>
+    </kVisitRabbitHoleTuning>
+    <kFieldTripPerformanceIncrease value="20">
+      <!--How much careerPerformace increase per hour on a field trip-->
+    </kFieldTripPerformanceIncrease>
+    <kFieldTripFunIncrease value="30">
+      <!--How much fun a sim gains per hour on a field trip-->
+    </kFieldTripFunIncrease>
+    <kGhostSpawnDelay value="10">
+      <!--Frequency in minutes of ghost spawn check-->
+    </kGhostSpawnDelay>
+    <kGhostSpawnChance value="0.1">
+      <!--chance of ghost spawn check-->
+    </kGhostSpawnChance>
+    <kFieldTripTNSPercentages value="0.33, 0.66">
+      <!--At what percentage points of the field trip should do a TNS-->
+    </kFieldTripTNSPercentages>
+    <kExploreGenieLampChance value="3">
+      <!--Explore: Percent chance if Sim find Genie Lamp.  If the items do not add up to 100, the remaining chance will be fore a rubber duck.-->
+    </kExploreGenieLampChance>
+  </Current_Tuning>
+</base>

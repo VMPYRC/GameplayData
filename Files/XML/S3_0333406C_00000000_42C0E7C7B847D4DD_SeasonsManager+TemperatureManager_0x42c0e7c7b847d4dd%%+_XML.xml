@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHeatWaveCutoff value="90">
+      <!--Heat wave cutoff temperature above which it shows up as a heat wave in the UI-->
+    </kHeatWaveCutoff>
+    <kColdWaveCutoff value="20">
+      <!--Cold wave cutoff temperature below which it shows up as a cold wave in the UI-->
+    </kColdWaveCutoff>
+    <kExtremeColdThreshold value="32">
+      <!--World temperature below this starts extreme cold effects.-->
+    </kExtremeColdThreshold>
+    <kHeatShimmerThresholds value="90, 100">
+      <!--Temperature thresholds when heat shimmer shows in the distance. First number is when it starts showing, second is when it's at max strength-->
+    </kHeatShimmerThresholds>
+    <kHeatShimmerDistances value="1000, 700">
+      <!--Max,Min distance for heat shimmer. As temperature gets higher, heat shimmer moves closer. Don't make the min distance too close to camera as there's an ugly cutoff.-->
+    </kHeatShimmerDistances>
+    <kMaxVariationChange value="0.5">
+      <!--Max daily change in temperature variation. Max of 1f.-->
+    </kMaxVariationChange>
+    <kMaximumTempuratureChangePerHour value="10">
+      <!--Range: positive floats. How much temperature can change per hour. Set to 0 if you want instantaneous change (not recommended).-->
+    </kMaximumTempuratureChangePerHour>
+    <kShimmerDropPerHour value="-600">
+      <!--Range: negative floats. How much heat shimmer distance can drop per hour. Set to 0 if you want instantaneous change (not recommended).-->
+    </kShimmerDropPerHour>
+    <kSunnyShimmerIncreasePerHour value="300">
+      <!--Range: positive floats. How much heat shimmer distance can increase per hour when it's still sunny. Set to 0 if you want instantaneous change (not recommended).-->
+    </kSunnyShimmerIncreasePerHour>
+    <kBadWeatherShimmerIncreasePerHour value="1200">
+      <!--Range: positive floats. How much heat shimmer distance can increase per hour when it isn't sunny (i.e. rain). Set to 0 if you want instantaneous change (not recommended).-->
+    </kBadWeatherShimmerIncreasePerHour>
+  </Current_Tuning>
+</base>

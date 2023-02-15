@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kQualityForSated value="VeryNice">
+      <!--If the vampire fruit's quality is >= to this value, the vampire will get the Sated buff after eating.-->
+    </kQualityForSated>
+    <kQualityForSanguineSnack value="Outstanding">
+      <!--This value should be greater than the value in kQualityForSated. If the vampire fruit's quality is >= to this value, the vampire will get the Sanguine Snack instead of Sated buff after eating.-->
+    </kQualityForSanguineSnack>
+    <kVampireFruitCountInNpcInventory value="3">
+      <!--Each night we ensure that NPC vampires have at least this number of Vampire fruits in their inventories. Positive integer. Initial GPE Default: 3.-->
+    </kVampireFruitCountInNpcInventory>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBadTraits value="Clumsy, Unlucky">
+      <!--kBadTraits: List of bad traits that will use the bad trait fail chance tuning.-->
+    </kBadTraits>
+    <kBadTraitFailChance value="80">
+      <!--kBadTraitFailChance: Range: 0 - 100 Percent chance that a sim with any of bad traits will fail during one loop of the climb up interaction.-->
+    </kBadTraitFailChance>
+    <kAthleticSkillFailChance value="75, 65, 55, 45, 35, 25, 15, 5, 0">
+      <!--kAthleticFailChance: Range: 0 - 100 Percent chance that a sim with the given athletic skill level will fail during one loop of the climb up interaction.-->
+    </kAthleticSkillFailChance>
+    <kMartialArtsNeverFailLevel value="7">
+      <!--kMartialArtsNeverFailLevel: Range: 0 - 9 Martial arts skill level at which the sim never fails when trying to climb up.-->
+    </kMartialArtsNeverFailLevel>
+    <kSuccessReactionThreshold value="50">
+      <!--kSuccessReactionThreshold: Range: 0 - 100 Sims with a failure chance greater than this value should display a happy reaction upon successfully climbing a pole.-->
+    </kSuccessReactionThreshold>
+    <kSuccessReactions value="WipeBrow, PumpFist, Cheer">
+      <!--kSuccessReactions: If the sim has a fail chance greater than kSuccessReactionThreshold they will play one of these reactions after reaching the top.-->
+    </kSuccessReactions>
+  </Current_Tuning>
+</base>

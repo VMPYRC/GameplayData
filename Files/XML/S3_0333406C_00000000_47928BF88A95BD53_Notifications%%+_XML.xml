@@ -1,0 +1,4306 @@
+<?xml version="1.0"?>
+<Notifications>
+<Notifications>
+  <CaptionKey></CaptionKey>
+  <ActorIcon></ActorIcon>
+  <TargetIcon></TargetIcon>
+  <Style>kSimTalking</Style>
+  <ColorOverride>0xFFFFFFFF</ColorOverride>
+  <SwapActorTarget>False</SwapActorTarget>
+  <ConnectionType>kDefault</ConnectionType>
+  <ButtonKey></ButtonKey>
+  <Button2Key></Button2Key>
+  <Closeable>True</Closeable>
+  <TimeOut>8</TimeOut>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Unknown</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SimTalkingExampleTNS</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ColorOverride>0xFFFFFFFF</ColorOverride>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Closeable>True</Closeable>
+  <TimeOut>-1</TimeOut>
+  <ProductVersion>EP1</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SystemMessageExampleTNS</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ColorOverride>0xFFFFFFFF</ColorOverride>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Closeable>False</Closeable>
+  <TimeOut>10</TimeOut>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CustomMessageExampleSpeechTNS</CaptionKey>
+  <Style>kCustom</Style>
+  <ColorOverride>0xFF00FFFF</ColorOverride>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Closeable>True</Closeable>
+  <TimeOut>-1</TimeOut>
+  <ProductVersion>BaseGame</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CustomMessageSystemAndButtonExampleTNS</CaptionKey>
+  <ActorIcon>tns_icon_bulb</ActorIcon>
+  <TargetIcon>tns_icon_bulb</TargetIcon>
+  <Style>kCustom</Style>
+  <ColorOverride>0xFFFFFF00</ColorOverride>
+  <ConnectionType>kSystem</ConnectionType>
+  <ButtonKey>TNSButtonText</ButtonKey>
+  <Button2Key>TNSButton2Text</Button2Key>
+  <Closeable>True</Closeable>
+  <TimeOut>-1</TimeOut>
+  <ProductVersion>BaseGame</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GameMessagePositiveExampleTNS</CaptionKey>
+  <ActorIcon>tns_icon_warning</ActorIcon>
+  <Style>kGameMessagePositive</Style>
+  <ColorOverride>0xFFFFFF00</ColorOverride>
+  <ConnectionType>kSystem</ConnectionType>
+  <ButtonKey>TNSButtonText</ButtonKey>
+  <Button2Key>TNSButton2Text</Button2Key>
+  <Closeable>True</Closeable>
+  <TimeOut>0</TimeOut>
+  <ProductVersion>BaseGame</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GameMessageNegativeExampleTNS</CaptionKey>
+  <ActorIcon>tns_icon_warning</ActorIcon>
+  <TargetIcon>tns_icon_warning</TargetIcon>
+  <Style>kGameMessageNegative</Style>
+  <ColorOverride>0xFFFFFF00</ColorOverride>
+  <ConnectionType>kSystem</ConnectionType>
+  <Closeable>True</Closeable>
+  <TimeOut>0</TimeOut>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Lessons</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DebugAlertExampleTNS</CaptionKey>
+  <ActorIcon>tns_icon_warning</ActorIcon>
+  <TargetIcon>tns_icon_warning</TargetIcon>
+  <Style>kDebugAlert</Style>
+  <ColorOverride>0xFFFFFF00</ColorOverride>
+  <ConnectionType>kDefault</ConnectionType>
+  <Closeable>True</Closeable>
+  <TimeOut>0</TimeOut>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DefaultArgumentExampleTNS</CaptionKey>
+  <Style>kDebugAlert</Style>
+  <ColorOverride>0xFFFFFF00</ColorOverride>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Closeable>True</Closeable>
+  <TimeOut>0</TimeOut>
+  <ProductVersion>BaseGame</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CallIntelligenceAgencyGoOnHold</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>InventOutOfScrap</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>InventEverythingDiscovered</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>inventDiscoveredSomething</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>InventMakeInventionMade</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>InventMakeOutOfScrap</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>InteriorDesignerAcceptRenovation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ButtonKey>InteriorDesignerAcceptRenovationBeginRenovationButton</ButtonKey>
+  <Button2Key>InteriorDesignerAcceptRenovationVisitLotButton</Button2Key>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BribeFailTNSNotEnoughMoney</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>StakeoutWritenReportComplete</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaccinationTiredOfWaiting</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DiagnosisTiredOfWaiting</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DiagnosisResultText</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>InventGnomeFinishedInvention</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>InventGnomeMadeDuringMake</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>InventGnomeMadeDuringInvent</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FoundScrapDuringRummage</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GiveMedicalAttentionSuccess</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GiveMedicalAttentionFailure</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PrivateEyeBeatUpForInfoFail</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PrivateEyeGarbageNotifyCanBlackmail</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PrivateEyeMailNotifyCanBlackmail</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GotMagicLaundryGnome</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>InteriorDesignerWaitingForClientsToExitLot</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PrivateEyeBlackmailSuccess</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PrivateEyeBlackmailFail</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ReadyForFollowUpExam</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PhoneFollowUpFinish</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FollowUpExamConfirm</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FollowUpExamFail</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FollowUpExamOk</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FollowUpExamIll</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MoneyRewardForExperimentalDrugs</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TargetTalkingExperimentalDrugsFillMotives</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TargetTalkingExperimentalDrugsCheer</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TargetTalkingExperimentalDrugsHug</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TargetTalkingExperimentalDrugsShrug</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TargetTalkingExperimentalDrugsBarfs</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TargetTalkingExperimentalDrugsKnockedOut</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TargetTalkingExperimentalFire</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EarthquakeNextEmergencyTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ButtonKey>GotoNextEarthquakeEmergency</ButtonKey>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AllEarthquakeJobsCompleted</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>InteriorDesignerTakeMeasurementsTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DraftingTableSketchesInInventory</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CommunityDetonateDamageWarning</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CommunityDetonateDamageLevelLow</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CommunityDetonateDamageLevelMedium</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CommunityDetonateDamageLevelHigh</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CommunityDetonateNotCaught</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ExitMakeMysteryInventionDueToOpportunityCanceled</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MedicalVaccinationJobCompleteTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MedicalGenericJobCompleteTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MedicalScienceJobCompleteTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MedicalCityHallJobCompleteTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MedicalCriminalJobCompleteTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MedicalFreeClinicJobCompleteTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MedicalHouseCallJobCompleteTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>RenovationCompleteOnMyWayMessage</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SpiritInvasionCompletion</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>RabbitHoleInvestigationCompletion</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PosessedObjectsCompletion</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GhostInvasionCompletion</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GhostlyPresenceCompletion</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>JobIntroductionFromCustomer</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>JobIntroductionFromSystem</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ScrapMovedToFamilyInventory</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DeclinedPhotoMessage</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>StylistJobUnexpectedError</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NewActiveCareerJob</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>PerformJobButton</ButtonKey>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PayWeeklyStipendForActiveCareer</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SculptingIceGoblinFailure</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AssessNeedsAccepted</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AssessNeedsRejected</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NewRealEstateSystem</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PrivateEyeCaughtBreakingIn</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>EP2</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CompatibleSign</CaptionKey>
+  <ActorIcon>w_meetacompatible_sign</ActorIcon>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LearnedSign</CaptionKey>
+  <ActorIcon>Sign</ActorIcon>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GroupingAccepted</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GroupingSoftRejectWork</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GroupingSoftRejectEnergy</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GroupingSoftRejectDefault</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GroupingHardRejectNegativeSTC</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GroupingHardRejectEnemy</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CelebrityGreetAccepted</CaptionKey>
+  <Style>kCelebrityUpdate</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CelebrityImpressed</CaptionKey>
+  <Style>kCelebrityUpdate</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CelebrityGreetRejectNice</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CelebrityGreetRejectMean</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ShuffleboardWin</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ShuffleboardTie</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ShuffleboardLoss</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GroupingLookAtRomanceLater</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ThisIsHotSpot</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ThisIsDeadZone</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CallboxVisitorCall</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ButtonKey>BuzzIn</ButtonKey>
+  <Button2Key>Ignore</Button2Key>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CallboxSimNotHome</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ConnectionType>kSystem</ConnectionType>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CallboxComeOnUp</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CallboxImComingDown</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GroupingAlreadyStarted</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CompatibleCelebrity</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LearnedCelebrity</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ElectronicGateNobodyHome</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ElectronicGateSimLetIn</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ElectronicGateDontKnow</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BandAskToFormFail</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FilmCareerAward</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MuggedInSubwayTNS</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ImpressCelebrityPieMenuCooldown</CaptionKey>
+  <Style>kCelebrityUpdate</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BandInviteToJoinJamFailed</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CallOverPaparazziSuccess</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CallOverPaparazziFailure</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DartboardWin</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DartboardTie</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DartboardLoss</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NpcPartyInvitation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>ViewNpcPartyInvitation</ButtonKey>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NpcPartyStartingSoon</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>AttendNpcParty</ButtonKey>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NpcPartyOverRomanticStc</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NpcPartyOverNeutralAndPositiveStc</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NpcPartyOverNegativeStc</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MissedNpcParty</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CrashNpcPartySuccess</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CrashNpcPartyFail</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CelebrityDiscountTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CelebrityFreebieTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>InvitationPhoneCallToNpcParty</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ButtonKey>AttendNpcParty</ButtonKey>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceFightInPublic</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceCheating</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceDivorce</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceJobSetback</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceCaughtRummaging</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceArrested</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceChildOutOfMarriage</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceCaughtSneakingIntoClub</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceDetonatingSmashing</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceWooHooInPublic</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceWooHooWithOccult</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceBiteSomeoneInPublic</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceGetReposessed</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceChildTaken</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgracePeeingSelf</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgracePassingOut</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceFalselyAccused</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceBouncerRejected</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceBouncerRejectedBribe</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisgraceNoDiscount</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GossipCelebritySkill</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GossipCelebrityNoInfo</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GossipCelebrityTrait</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PayOffPaparazziSuccess</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DeflectScandalSuccess</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DeflectScandalFailure</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SueForSlanderSuccess</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SueForSlanderFailure</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GossipCelebrityCooldown</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FormBandAccepted</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VenueClosed</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VenueClosedNoName</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GroupingLonerSoftRejectTns</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SkinnyDippingClothesHidden</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DispelRumorsSuccess</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>InappropriateNotLeaving</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GroupingBadTimeOutBefore</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BandMemberHeadingToLot</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FailToFormBandFromRel</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PTFilmUpgradeToFilm</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FilmGenericJobCompleteTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP3</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MidLifeCrisisStart</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MidLifeCrisisSupreme</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MidLifeCrisisPleasant</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MidLifeCrisisBarely</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MidLifeCrisisUnfulfilled</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MidLifeCrisisEndByTreatment</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FieldTripOver</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ScienceLabFieldTripOne</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ScienceLabFieldTripTwo</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BistroFieldTripOne</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BistroFieldTripTwo</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MausoleumFieldTripOne</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MausoleumFieldTripTwo</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PoliceFieldTripOne</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PoliceFieldTripTwo</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TheaterFieldTripOne</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TheaterFieldTripTwo</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DiscoverPotionFail</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DiscoverPotionSucceed</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DiscoverPotionDiscoveredAllPotions</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DiscoverPotionNeedMoreLogic</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TeenPartyFriendSuggestion</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ButtonKey>ThrowParty</ButtonKey>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ParentsReturning</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ParentsReturningEarly</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AdvancedGraduationWarning</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GraduationWarning</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GraduationInfo</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DiplomaView</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ValedictorianView</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LearnedDifferentAlmaMater</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LearnedSameAlmaMater</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TeenPartyPoliceComing</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TeenPartyPoliceCallingParents</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TeenPartyPoliceNotCallingParents</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SandboxFoundObject</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SandboxBuryObject</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AskForHandAccept</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AskForHandReject</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SimHasFaithfulReputation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SimHasEternallyFaithfulReputation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SimHasCheaterReputation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SimHasDirtbagReputation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SimHasSlimeballReputation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TnsTextForReputationFaithful</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TnsTextForReputationEternallyFaithful</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TnsTextForReputationCheater</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TnsTextForReputationDirtbag</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TnsTextForReputationSlimeball</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TnsTextForReputationNaughty</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TnsTextForReputationManipulator</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TnsTextForReputationCasanova</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TnsTextForReputationExploringTheirOptions</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TnsTextForReputationPlayer</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TnsTextForReputationDonJuan</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SimHasBegunSnubbing</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LevelOneRomanceReachedWarning</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SimHasCasanovaReputation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kSystem</ConnectionType>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SimHasManipulatorReputation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kSystem</ConnectionType>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SimHasNaughtyReputation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kSystem</ConnectionType>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SlumberPartyTimeForBed</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SlumberPartyCantFindPlaceToSleep</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GotWeddingGiftTNS</CaptionKey>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FirstSnubTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GroupingChangedToDate</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LowPunishmentScold</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SimHasDonJuanReputation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SimHasPlayerReputation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SimHasExploringTheirOptionsReputation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MediumLowPunishmentScold</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>HighPunishmentScold</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TriedSneakingOutScold</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BegForForgivenessSuccess</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BegForForgivenessFailure</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GotDaycareCustomerGiftTNS</CaptionKey>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PushedToAttendGraduationTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>HopscotchOneSimWon</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>HopscotchTwoSimsWon</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>HopscotchThreeSimsWon</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>HopscotchFourSimsWon</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FieldTripOverMausoleum</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FieldTripOverPoliceStation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FieldTripOverRestaurant</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FieldTripOverScienceLab</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FieldTripOverTheatre</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FieldTripSkipped</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GhostStoryPunchLines</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MadeHomeMovie</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ViewFlowersTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SignUpForAfterschoolActivityTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WhereIsTheDaycareCaregiverTNS</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ScoutingSkillLevelOneTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ScoutingSkillLevelTwoTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ScoutingSkillLevelThreeTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BalletSkillLevelOneTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BalletSkillLevelTwoTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BalletSkillLevelThreeTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FieldTripRewardBistro</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FieldTripRewardGraveyard</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FieldTripRewardPoliceStation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FieldTripRewardScienceLab</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FieldTripRewardTheatre</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CleanedSlateNotice</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AgeFreezePotionReceivedTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MidLifeCrisisUnfulfilledOneWish</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CloneMeVoucherReceivedTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ReadToSleepRejectMotivesTNS</CaptionKey>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MysteriousDrinkFailureTNS</CaptionKey>
+  <ActorIcon>w_science_career</ActorIcon>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LearnToDriveNoCarAvailable</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>HadBadDreamTNS</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VideoRecordExitReasonTNS</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AgeFreezePotionUsedTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AfterschoolActivityRecitalTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LotFrontSet</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LotFrontUnset</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DateDisabledForCooldown</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AfterschoolActivityGotPaintingTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP4</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CloneMeVoucherPetReceivedTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PetPregnancyFoundOutCatPregnantTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kSystem</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PetPregnancyFoundOutDogPregnantTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kSystem</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PetPregnancyFoundOutHorsePregnantTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kSystem</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PetPregnancyCatHadLitterTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <SwapActorTarget>True</SwapActorTarget>
+  <ConnectionType>kSystem</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PetPregnancyDogHadLitterTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kSystem</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PetAutonomousBFFTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kSystem</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PetUserSelectedBFFTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kSystem</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PetPregnancyCatSingleKittenTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kSystem</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PetPregnancyDogSinglePuppyTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kSystem</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FoalMissingMotherTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FoalStoppedMissingMotherTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterLeftBeforeFinish</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterPoorFinish</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterStandardFinish</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterVictory</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterStartRacingBeginner</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterStartRacingAdvanced</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterStartRacingInternational</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterStartJumpingBeginner</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterStartJumpingAdvanced</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterStartJumpingInternational</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterStartCrossCountryBeginner</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterStartCrossCountryAdvanced</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterStartCrossCountryInternational</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CheckLitterSucceedTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CheckLitterFailTNS</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AdoptPetConfirmTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AdoptPetArriveTNS</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AdoptLitterTNS</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AdoptPetHouseholdFullFailTNS</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LitterBornInTheWorldTNS</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PetPutUpBringAwayTNS</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterTrophyTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterHighPriceSellTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterMediumPriceSellTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EquestrianCenterLowPriceSellTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PetFreakOutAtSimTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ViewCaughtPrey</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BirdTeachSpeechTypeTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ChaseNotEnoughSpaceTNS</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>HorseKickNotEnoughSpaceTNS</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UntrainedHorseIsTrainedTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FeedTreatSkittishPetRejectTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FeedTreatNotHungryPetRejectTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AllowStrayCatsTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisallowStrayCatsTNS</CaptionKey>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AllowStrayDogsTNS</CaptionKey>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisallowStrayDogsTNS</CaptionKey>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AllowStrayWildlifeTNS</CaptionKey>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisallowStrayWildlifeTNS</CaptionKey>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisallowStrayWildHorseTNS</CaptionKey>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisallowStrayDeerTNS</CaptionKey>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DisallowStrayRaccoonTNS</CaptionKey>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PlasticSurgeryCancelledTNS</CaptionKey>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BirdFlyAwayTNS</CaptionKey>
+  <ProductVersion>EP5</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SingagramCompleteTNS</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP6</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SingerGigCompleteTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP6</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ObjectLostAndReplacedTNS</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP6</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PerformanceLowTNS</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP6</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ProprietorTipTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP6</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ProprietorThanksForTipTNS</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP6</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ProprietoryBadDrinkTipReminderTNS</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP6</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MagicianGigCompleteTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP6</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GenieLampGiftFromPerformanceTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP6</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SummonGenieTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ChallengeCompleteTNS</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSystem</ConnectionType>
+  <ButtonKey>ViewChallengeOnWall</ButtonKey>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Connected</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NewChallengesAvailableTNS</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSystem</ConnectionType>
+  <ButtonKey>ViewNewChallenges</ButtonKey>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Connected</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PassportCancelledTNS</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP6</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PassportJobReadyToStartTNS</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ButtonKey>GoToShow</ButtonKey>
+  <ProductVersion>EP6</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GigTonightRejectTNS</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>EP6</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GigTonightAcceptTNS</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>EP6</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PassportSimReturnedTNS</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP6</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BitSimTNS</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BittenTNS</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WerewolfHuntSoloNothingTNS</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WereWolfWakeup</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OrbOfAnswersYes</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OrbOfAnswersNo</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OrbOfAnswersUncertain</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OrbOfAnswersMotherload</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ArcadeClawMachinePrize</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultGenericHistoryTNS0</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultGenericHistoryTNS1</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultGenericHistoryTNS2</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultGenericHistoryTNS3</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultGenericHistoryTNS4</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultMoonlightFallsHistoryTNS0</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultMoonlightFallsHistoryTNS1</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultMoonlightFallsHistoryTNS2</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultMoonlightFallsHistoryTNS3</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultMoonlightFallsHistoryTNS4</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultBeginOccultResearchTns</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchMummyLoreTns0</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchMummyLoreTns1</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchMummyLoreTns2</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchFrankensteinLoreTns0</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchFrankensteinLoreTns1</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchFrankensteinLoreTns2</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchVampireLoreTns0</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchVampireLoreTns1</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchVampireLoreTns2</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchImaginaryFriendLoreTns0</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchImaginaryFriendLoreTns1</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchImaginaryFriendLoreTns2</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchUnicornLoreTns0</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchUnicornLoreTns1</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchUnicornLoreTns2</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchGenieLoreTns0</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchGenieLoreTns1</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchGenieLoreTns2</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchWerewolfLoreTns0</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchWerewolfLoreTns1</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchWerewolfLoreTns2</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchFairyLoreTns0</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchFairyLoreTns1</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchFairyLoreTns2</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchWitchLoreTns0</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchWitchLoreTns1</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultResearchWitchLoreTns2</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultSuccessfullyFinishOccultResearchTns</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>VaultFailureFinishOccultResearchTns</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MaidQuitBonehilda</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ArcadeClawMachinePrizeGem</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PracticeHuntFoundInsectTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WerewolfHuntOneTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WerewolfHuntTwoTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WerewolfHuntThreeTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WerewolfHuntFourTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP7</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SpringFestivalTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SummerFestivalTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FallFestivalTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WinterFestivalTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SnowDaySchoolTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WorkAnniversaryTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WeddingAnniversaryTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FirefighterWorkAnniversaryTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SickDayTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GotSickTNS</CaptionKey>
+  <ActorIcon>w_got_sick</ActorIcon>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FluShotTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AllergyShotTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CallInSickApprovedTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NotEnoughSimoleanssForAllergyShotTNS</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NotEnoughSimoleanssForFluShotTNS</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SpringDanceKingTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SpringDanceQueenTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GoodGiftPersonalInventory</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GoodGiftFamilyInventory</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BadGiftPersonalInventory</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BadGiftFamilyInventory</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NotEnoughSpaceToBuildSnowman</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SummerHolidayWarning</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SummerHolidayStarting</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WinterHolidayWarning</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WinterHolidayStarting</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SpringHolidayWarning</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SpringHolidayStarting</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FallHolidayWarning</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FallHolidayStarting</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EggHuntLastEggOfDay</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EggHuntLastEggOfSeason</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>HorseshoesWinnerTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FireworksBundlesOnSale</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NotEnoughSpaceToMakeSnowAngel</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EndOfBallFightGameTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FailedToAbductTNS</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AbductNotEnoughSpace</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EatingContestVegetarianTNS</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EatingContestStuffedTNS</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PieEatingContestWinTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>HotdogEatingContestWinTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AppleBobbingContestWinTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>HauntedHouseFlavorTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LoveLetterResponseAccept</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LoveLetterResponseReject</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LoveLetterSpontaneousNoRomanticState</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LoveLetterSpontaneousMediumRomantic</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LoveLetterSpontaneousHighRomantic</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NpcPoolPartyInvitation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>ViewNpcPoolPartyInvitation</ButtonKey>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NpcHousePartyInvitation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>ViewNpcHousePartyInvitation</ButtonKey>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NpcFeastPartyInvitation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>ViewNpcFeastPartyInvitation</ButtonKey>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NpcCostumePartyInvitation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>ViewNpcCostumePartyInvitation</ButtonKey>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AttractionGiftTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BallFightCantPlaceJigTNS</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EvilGnomeInMail</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WeatherStoneAppearTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ButtonKey>ViewWeatherStoneLocation</ButtonKey>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WeatherStoneBewitchingRainSuccessTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WeatherStoneEclipsingFogSuccessTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WeatherStoneRevivingSprinkleSuccessTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WeatherStoneHuntersStormSuccessTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WeatherStoneNormalFailureTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>WeatherStoneExtremeFailureTNS</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AnniversaryViewTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AnniversaryViewFirefighterTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>KissingBoothMoneyEarnedTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AttractivePhysical</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AttractiveTrait</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AttractiveCareer</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AttractiveSkill</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AttractiveOccult</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AttractiveCelebrity</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AttractiveAstro</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AttractiveMoney</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AttractiveAttractive</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AttractiveBuffs</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OnlineDatePositive</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OnlineDateNegative</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OnlineDateNegativeBody</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>InvadeNotEnoughSpace</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>InvadeNoLotsWithEnoughSpace</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP8</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BowlingLaneScoreTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <Closeable>True</Closeable>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ImprovedProtestAboutToBeginTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <Closeable>True</Closeable>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>JuiceKeggerPartyPoliceComingTNS</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>JuiceKeggerPartyPoliceWarningTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>JuiceKeggerPartyPoliceBreakupTNS</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>JuiceKeggerSimsLeavingDueToEmptyKegTNS</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>JuiceKeggerSimsLeavingDueToNoKegTNS</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NpcPartyInvitationBonfire</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>ViewNpcPartyInvitation</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NpcPartyInvitationJuiceKegger</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>ViewNpcPartyInvitation</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NpcPartyInvitationMasqueradeBall</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>ViewNpcPartyInvitation</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NpcPartyInvitationTailgatingParty</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>ViewNpcPartyInvitation</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NpcPartyInvitationVictoryParty</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>ViewNpcPartyInvitation</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NpcPartyInvitationVideoGameLANParty</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>ViewNpcPartyInvitation</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BonfirePartySimsLeavingDueToBonfireOutTNS</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BonfirePartySimsLeavingDueToNoBonfireTNS</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LearnedOneSocialCircle</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LearnedTwoSocialCircles</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LearnedThreeSocialCircles</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>Ep9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CollegeGraduationInvitation</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>ViewGraduationInvitation</ButtonKey>
+  <ProductVersion>Ep9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CollegeGraduationWarning</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>Ep9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CollegeGraduationInfo</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>Ep9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>DumpsterDiveItem</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UniversityDiplomaView</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AskForTestAnswersSuccess</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AskForTestAnswersNeutral</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AskForTestAnswersFail</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OfferTestAnswersSuccess</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OfferTestAnswersNeutral</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OfferTestAnswersFail</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OfferTestAnswersForKissSuccess</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OfferTestAnswersForKissNeutral</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OfferTestAnswersForKissFail</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ImprovedProtestOutcomeVictoryTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ImprovedProtestOutcomeLostMomentumTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ImprovedProtestOutcomePoliceBreakupTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CollegeGraduationStarting</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OrientationStarting</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SellTestAnswersSuccess</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SellTestAnswersNeutral</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SellTestAnswersFail</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FirstCourseStartingSoon</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NoProfessorsOnLot</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ScheduledAnImprovedProtest</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ImprovedProtestSucceeding</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ImprovedProtestSlowingDown</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ImprovedProtestFailing</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GotCaughtCheating</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeBusinessA</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeBusinessB</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeBusinessC</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeBusinessD</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeTechnologyA</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeTechnologyB</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeTechnologyC</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeTechnologyD</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeScienceA</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeScienceB</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeScienceC</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeScienceD</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeFineArtsA</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeFineArtsB</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeFineArtsC</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeFineArtsD</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeCommunicationsA</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeCommunicationsB</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeCommunicationsC</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumeCommunicationsD</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumePhysEdA</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumePhysEdB</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumePhysEdC</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UploadResumePhysEdD</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ButtonKey>UploadResumeNow</ButtonKey>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ImprovedProtestCause_PeopleAreNotHappyEnough</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ImprovedProtestCause_PeopleAreTooPoor</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ImprovedProtestCause_WorldResourcesTooLow</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ImprovedProtestCause_Underskilled</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ImprovedProtestCause_HarshGradingAtUniversity</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NoSimsOnLotForGroupStudy</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NoTagBag</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CourseLocationDestroyed</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ForcedToLeaveUniversity</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LearnedSameAlmaMater_University</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LearnedDifferentAlmaMater_University</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LearnedUniversityAlmaMater</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NerdInfluenceSkillBoostFromLHR</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SocialiteInfluenceSkillBoostFromLHR</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>RebelInfluenceSkillBoostFromLHR</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MakeShiftFurniture</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BustedPerformingStreetArt</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BustedStreaking</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP9</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UnderwaterCaveTunnelBlocked</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UnderwaterCaveTunnelInsufficientSkill</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UnderwaterCaveTunnelNewLotFoundObjectSummary</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UnderwaterCaveTunnelNewLotSummary</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UnderwaterCaveTunnelTraveledFoundObjectSummary</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UnderwaterCaveTunnelTraveledSummary</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UnderwaterCaveTunnelFoundObjectSummary</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UnderwaterCaveTunnelFoundSummary</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UnderwaterCaveFoundObjectSummary</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>UnderwaterCaveSummary</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ResortNoTowerError</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ResortUnprofitableError</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ResortBankruptError</CaptionKey>
+  <Style>KGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ResortProfits</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ButtonKey>CollectFund</ButtonKey>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>BeachSurveyTNS</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EP10TreasureChestOpenFailure</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EP10TreasureChestOpenSuccess</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>NoLongerCheckedInResort</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CollectedKelp</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LifeguardComplain</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>KrakenInsurance</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>KDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FoundAirInCave</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>KDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MosquitoRepellentUsed</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LifeguardFlirt</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LifeguardMtMGood</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LifeguardMtMBad</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FurnitureMovedToFamilyInventory</CaptionKey>
+  <ActorIcon>tns_items_in_inventory</ActorIcon>
+  <Style>kCustom</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>FoundSpecialMessageInABottle</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OnViewPlumbobPainting</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ResortOneDayWarning</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>MosquitoRepellentInsufficentFunds</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>OccultEatMermaidicKelp</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CantPlaceBeachTowel</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ExploreCaveMustSurface</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>LifeguardThank</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>AskAboutDiveLotsTNS</CaptionKey>
+  <Style>kSimTalking</Style>
+  <ConnectionType>kSpeech</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Chatty</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>CouldNotPlaceJigInOcean</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ConnectionType>kDefault</ConnectionType>
+  <ProductVersion>EP10</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>RobotExplainFunction</CaptionKey>
+  <ProductVersion>EP11</ProductVersion>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ServoBotArenaLeftBeforeFinish</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ServoBotArenaPoorFinish</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ServoBotArenaStandardFinish</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ServoBotArenaVictory</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ServoBotArenaVictoryPlusChip</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ServoBotArenaStartBattleBeginner</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ServoBotArenaStartBattleAdvanced</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ServoBotArenaStartBattleInternational</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ServoBotArenaStartBuildingBeginner</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ServoBotArenaStartBuildingAdvanced</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ServoBotArenaStartBuildingInternational</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ServoBotArenaStartActingBeginner</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ServoBotArenaStartActingAdvanced</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ServoBotArenaStartActingInternational</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PedestalObjectToPersonalInventory</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PedestalObjectToFamilyInventory</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>PedestalObjectToFutureFamilyInventory</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>TimePortalTimeContinuumReset</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>GotLifetimeHappinessPointsFromLoad</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ProductVersion>BaseGame</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>HoloPetCheckMoodLow</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>HoloPetCheckMoodMedium</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>HoloPetCheckMoodHigh</CaptionKey>
+  <Style>kSystemMessage</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>ExperimentedWithZeroG</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>EncounterOnSimulonV</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SummaryOfEverythingFoundOnSimulonV</CaptionKey>
+  <Style>kGameMessagePositive</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+<Notifications>
+  <CaptionKey>SummaryOfNothingFoundOnSimulonV</CaptionKey>
+  <Style>kGameMessageNegative</Style>
+  <ProductVersion>EP11</ProductVersion>
+  <Category>Information</Category>
+ </Notifications>
+</Notifications>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFoalHungerMotiveRejectThreshold value="30">
+      <!--Float. A foal will reject being bottlefed if its hunger motive is above this value. Hunger can be in the range of [-100,100], and -81 is considered starving.-->
+    </kFoalHungerMotiveRejectThreshold>
+    <kFoalHungerGainPerMinute value="5">
+      <!--Float. How much hunger is recovered per Sim Minute.-->
+    </kFoalHungerGainPerMinute>
+    <kLtrGainPerSimMinute value="0.5">
+      <!--Float. How much LTR is gained per Sim Minute.-->
+    </kLtrGainPerSimMinute>
+  </Current_Tuning>
+</base>

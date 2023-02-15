@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRubbleExcavationRequierementForLifetimeOpp value="10">
+      <!--Description:  Number of rubble piles you need to excavate to become a rubble excavator-->
+    </kRubbleExcavationRequierementForLifetimeOpp>
+    <kWellExploredRequirementForLifetimeOpp value="10">
+      <!--Description:  Number of Wells you need to explore to get the well spelunker lifetime opp-->
+    </kWellExploredRequirementForLifetimeOpp>
+    <kDisarmRequirementForHazmatLifetimeOpp value="10">
+      <!--Description:  Number of traps the sim needs to disarm before they get the hazmat lifetime opp-->
+    </kDisarmRequirementForHazmatLifetimeOpp>
+    <kRubbleExcavatorRewardSpeedUpMultiplier value="0.35">
+      <!--RDescription:  After you get the excavator reward you excavate rubble piles this much faster-->
+    </kRubbleExcavatorRewardSpeedUpMultiplier>
+    <kWellSpelunkerSpeedUpMultiplier value="0.8">
+      <!--Range: Percentage (0-1 type)  Description:  Diving in wells rate inrease, takes the base time and multiplies it by this factor-->
+    </kWellSpelunkerSpeedUpMultiplier>
+    <kHazmatSimSetOffTrapMultiplier value="0.8">
+      <!--Range: Percentage (0-1 type)    Description: percent chance of setting of a trap takes the base vaule and multiplies it by this-->
+    </kHazmatSimSetOffTrapMultiplier>
+  </Current_Tuning>
+</base>

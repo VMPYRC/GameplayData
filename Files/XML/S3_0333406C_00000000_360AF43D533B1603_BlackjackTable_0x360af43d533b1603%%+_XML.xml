@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLowStakes value="100">
+      <!--Range: Positive int. Buy-in amount when playing low stakes.-->
+    </kLowStakes>
+    <kMediumStakes value="500">
+      <!--Range: Positive int. Buy-in amount when playing medium stakes.-->
+    </kMediumStakes>
+    <kHighStakes value="1000">
+      <!--Range: Positive int. Buy-in amount when playing high stakes.-->
+    </kHighStakes>
+    <kWinningOdds value="30, 33, 36, 40, 45, 50, 55, 60, 65, 70, 75">
+      <!--Blackjack odds based on skill level-->
+    </kWinningOdds>
+    <kPushOdds value="12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12">
+      <!--Blackjack odds based on skill level-->
+    </kPushOdds>
+    <kLoseOdds value="70, 67, 64, 60, 55, 50, 45, 40, 35, 30, 25">
+      <!--Blackjack odds based on skill level-->
+    </kLoseOdds>
+    <kBlackjackOdds value="7, 8, 9, 10, 11,12, 13, 14, 15, 16, 17">
+      <!--Blackjack odds based on skill level-->
+    </kBlackjackOdds>
+    <kBetMax value="1.5">
+      <!--Multiplier for big bets-->
+    </kBetMax>
+    <kBetMin value="0.8">
+      <!--Multiplier for small bets-->
+    </kBetMin>
+    <kChanceOfDrawingExtraCard value="60">
+      <!--Percent chance of drawing an extra card during the round-->
+    </kChanceOfDrawingExtraCard>
+    <kDealerBlackjackPercent value="6">
+      <!--Percent of time dealer gets blackjack-->
+    </kDealerBlackjackPercent>
+    <kDealerBustPercent value="40">
+      <!--Percent of time dealer goes bust-->
+    </kDealerBustPercent>
+    <kGamblingGainPerSimMinute value="7">
+      <!--Rate gambling skill increases every sim minute.  GPE Default: 30-->
+    </kGamblingGainPerSimMinute>
+    <kMinutesToPlay value="360">
+      <!--Minutes to play before being done, barring stress exits-->
+    </kMinutesToPlay>
+    <kChanceOfGoodHack value="75">
+      <!--Percent of time hacking table results in better results-->
+    </kChanceOfGoodHack>
+    <kHackDuration value="720">
+      <!--Duration of hack in sim minutes.  GPE Default 1440 = 1 sim day-->
+    </kHackDuration>
+    <kWatchRadius value="2">
+      <!--Maximum meters away to stand to watch the table-->
+    </kWatchRadius>
+    <kWatchTimeBeforeRecting value="10">
+      <!--Minutes to watch before cheering or harassing.  -->
+    </kWatchTimeBeforeRecting>
+    <kOddsIncreaseForCardCounting value="10">
+      <!--Odds increase when successfully counting cards-->
+    </kOddsIncreaseForCardCounting>
+    <kOddsChangeForLuckySims value="10">
+      <!--Odds increase/decrease for lucky/unlucky sims-->
+    </kOddsChangeForLuckySims>
+    <kOddsChangeForHackedTable value="25">
+      <!--Odds increase/decrease for hacked table-->
+    </kOddsChangeForHackedTable>
+    <kMoodPartyScoreModifier value="1">
+      <!--Party score change when someone wins a hand-->
+    </kMoodPartyScoreModifier>
+    <kSocialGain value="50">
+      <!--Social motive increase when used with another sim-->
+    </kSocialGain>
+    <kMegaStakes value="10000">
+      <!--Range: Positive int. Buy-in amount when playing high stakes.-->
+    </kMegaStakes>
+    <kChanceOfFailedSabotage value="30">
+      <!--Percent of time sabotage table fails-->
+    </kChanceOfFailedSabotage>
+    <kChanceOfShock value="20">
+      <!--Odds of getting electrocuted while hacking-->
+    </kChanceOfShock>
+  </Current_Tuning>
+</base>

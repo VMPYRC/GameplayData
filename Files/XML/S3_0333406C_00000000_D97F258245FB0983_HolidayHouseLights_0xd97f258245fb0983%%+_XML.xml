@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPercentageOfLotsToGetLights value="0.25, 0.5, 0.75, 0.9">
+      <!--The percentage non-player lots that will get lights, based on system performance. Low, Medium, High, Uber. 0.0 - 1.0-->
+    </kPercentageOfLotsToGetLights>
+    <kChanceOfGettingMulticoloredLights value="0.4">
+      <!--The chance of a non-player lot getting multicolored lights. If this fails they will just get white lights. 0.0 - 1.0-->
+    </kChanceOfGettingMulticoloredLights>
+    <kChanceOfGettingHangingLights value="0.3">
+      <!--The chance of a non-player lot getting hanging lights. If this fails they will just get normal strip lights. 0.0 - 1.0-->
+    </kChanceOfGettingHangingLights>
+    <kHoursToApplyAllLights value="12">
+      <!--The amount of time, in sim hours, before all holiday house lights should be applied to the world. 0.0+-->
+    </kHoursToApplyAllLights>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHaveNNectarBottlesWorthMSimoleonsNumberOfBottles value="50">
+      <!--Range:  0+  Description:  Bottomless Nectar Cellar, amount of bottles necessary-->
+    </kHaveNNectarBottlesWorthMSimoleonsNumberOfBottles>
+    <kHaveNNectarBottlesWorthMSimoleonsValueOfBottles value="10000">
+      <!--Range:  0+  Description:  Bottomless Nectar Cellar, total value of all bottles necessary-->
+    </kHaveNNectarBottlesWorthMSimoleonsValueOfBottles>
+    <kHavePhotoraphsWorthNSimoleonsValueOfPhotographs value="25000">
+      <!--Range:  0+  Description:  World-Class Gallery, total value of all photos necessary-->
+    </kHavePhotoraphsWorthNSimoleonsValueOfPhotographs>
+    <kHavePhotoraphsWorthNSimoleonsPhotographsPerWorld value="10">
+      <!--Range:  0+  Description:  World-Class Gallaery, number of photos per world necessary-->
+    </kHavePhotoraphsWorthNSimoleonsPhotographsPerWorld>
+    <kWatchTvMinumumTimeToSatisfy value="15">
+      <!--Range:  Positive floats  Description:  The amount of time to watch Tv that satisfies the dream-->
+    </kWatchTvMinumumTimeToSatisfy>
+    <kBecomeFatTreshold value="0.8">
+      <!--When the sim's weight component goes above this BecomeFat dream will be satisfied-->
+    </kBecomeFatTreshold>
+    <kBecomeStrongTreshold value="0.8">
+      <!--When the sim's fitness component goes above this strong dream will be satisfied-->
+    </kBecomeStrongTreshold>
+    <kBecomeMoreMuscularDelta value="0.25">
+      <!--When a sim's fitness changes by this much (or they max out) become more muscular satisfies-->
+    </kBecomeMoreMuscularDelta>
+    <kBecomeThinTreshold value="-0.8">
+      <!--When the sim's weight component goes Below this thin Will be satisfied-->
+    </kBecomeThinTreshold>
+    <kBecomeThinnerDelta value="-0.5">
+      <!--When a sim's Weight changes by this much (or they max out) become more thinner satisfies-->
+    </kBecomeThinnerDelta>
+    <kJustBeFreindsRelationShipThreshold value="25">
+      <!--Range:  -100 - 100  Description:  When the sim's Ltr value goes above this then they will comelete the Just be friends dream-->
+    </kJustBeFreindsRelationShipThreshold>
+    <kMinimumWorkoutTime value="0.5">
+      <!--Description:  Number of hours you need to workout/do Cardio/strenghth before those dreams are completed-->
+    </kMinimumWorkoutTime>
+    <kMinimumMinutesToSatisfyJog value="15">
+      <!--Description:  Number of minutes a sim has to be jogging before satisfying the Go Jogging dream, this can be accumulated through several Jog here interactions-->
+    </kMinimumMinutesToSatisfyJog>
+    <kMinumumMinutesToSatisfyWorkAtHome value="15">
+      <!--Description:  Minuts you need to work from home before work at home satisfies-->
+    </kMinumumMinutesToSatisfyWorkAtHome>
+    <kMinimunMinutesToSatisfyGoFishing value="15">
+      <!--Description:  Minuts you need be fishing before go fishing satisfies-->
+    </kMinimunMinutesToSatisfyGoFishing>
+    <kMinimumNumberOfNectarRacksToConstituteCellar value="1">
+      <!--Range:  0+  Description:  The amount of nectar racks in basements which constitute a nectar cellar-->
+    </kMinimumNumberOfNectarRacksToConstituteCellar>
+    <kVisitFrenchCafeLotName value="EP01/World/France/LotName:MonEndroitPrefere">
+      <!--Range:  Lot Name  Description:  The name of the lot to satisfy Visit French Cafe-->
+    </kVisitFrenchCafeLotName>
+    <kVisitTerracottaArmyLotName value="EP01/World/China/LotName:TheTerracottaArmy">
+      <!--Range:  Lot Name  Description:  The name of the lot to satisfy Visit Terracotta Army-->
+    </kVisitTerracottaArmyLotName>
+    <kVisitTempleOfHeavenLotName value="EP01/World/China/LotName:TheTempleofHeaven">
+      <!--Range:  Lot Name  Description:  The name of the lot to satisfy Visit Temple of Heaven-->
+    </kVisitTempleOfHeavenLotName>
+    <kVisitTempleOfQueenHatshepsutLotName value="EP01/World/Egypt/LotName:TheTempleofQueenHatshepsut">
+      <!--Range:  Lot Name  Description:  The name of the lot to satisfy Visit Temple of Queen Hatshepsut-->
+    </kVisitTempleOfQueenHatshepsutLotName>
+    <kVisitForbiddenCityLotNames value="EP01/World/China/LotAddress:EmperorLot1, EP01/World/China/LotAddress:EmperorLot2">
+      <!--Range:  Lot Name Array  Description:  The names of the lots to satisfy Visit Forbidden City-->
+    </kVisitForbiddenCityLotNames>
+    <sNumAnimalsForAnimalRescuer value="4" />
+    <kSimoleonsForJockeyLifetimeWish value="10000">
+      <!--Lifetime wish jockey: Number of simoleons needed to fulfill this lifetime wish-->
+    </kSimoleonsForJockeyLifetimeWish>
+    <kSimoleonsForEarnXTipsWithDJBooth value="1">
+      <!--Lifetime wish Earn X Tips With DJ Booth: Number of simoleons needed to fulfill this lifetime wish-->
+    </kSimoleonsForEarnXTipsWithDJBooth>
+    <kSimoleonsForMakeXSellingRemixAlbums value="1">
+      <!--Lifetime wish Make X Selling Remix Albums: Number of simoleons needed to fulfill this lifetime wish-->
+    </kSimoleonsForMakeXSellingRemixAlbums>
+  </Current_Tuning>
+</base>

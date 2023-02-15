@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCleanableTuning>
+      <ChangeToDirtyState value="-40">
+        <!--Dirty level (Dirty Level range is -100 to 0)that will turn on the model's dirty state.-->
+      </ChangeToDirtyState>
+      <ChangeToVeryDirtyState value="-60">
+        <!--Dirty level that will turn on the model's very dirty state.-->
+      </ChangeToVeryDirtyState>
+      <DirtyIncPerUse value="0">
+        <!--The amount that get's subtracted from the dirty level each time the object is used.-->
+      </DirtyIncPerUse>
+      <DirtyThreshold value="-60">
+        <!--Dirty level of the object when Clean becomes available.-->
+      </DirtyThreshold>
+      <CleanDirtyDecPerMinute value="4">
+        <!--The amount that gets added to the dirty level every minute while cleaning.-->
+      </CleanDirtyDecPerMinute>
+      <UpgradeSelfCleaning>
+        <UpgradeTime value="240">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="2640">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="50">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="False">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeSelfCleaning>
+      <PristineCleanValue value="30">
+        <!--The value given when cleaning is completed by a neat Sim.  Should be greater than 0 which is what otehr sims clean to.-->
+      </PristineCleanValue>
+    </kCleanableTuning>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <UpgradeComplexity value="7">
+      <!--The initial level a Sim can perform an upgrade.  Also the level when he has the max chance of failure-->
+      <!--deprecated on: 1/7/2008 7:09:14 PM-->
+    </UpgradeComplexity>
+    <CleanHygieneLossPerMinute value="1">
+      <!--How much hygiene the Sim will lose per minute while cleaning.-->
+      <!--deprecated on: 1/28/2008 2:42:01 PM-->
+    </CleanHygieneLossPerMinute>
+    <NumSimMinutesPerDirtyPulse value="10">
+      <!--Number of sim minutes between pulses of the Dirty ReactionBroadcaster-->
+      <!--deprecated on: 2/7/2008 11:40:08 AM-->
+    </NumSimMinutesPerDirtyPulse>
+    <DirtyBroadcasterStartRadius value="100">
+      <!--Start Radius of Dirty ReactionBroadcaster-->
+      <!--deprecated on: 2/7/2008 11:40:08 AM-->
+    </DirtyBroadcasterStartRadius>
+    <DirtyBroadcasterEndRadius value="100">
+      <!--End Radius of Dirty ReactionBroadcaster-->
+      <!--deprecated on: 2/7/2008 11:40:08 AM-->
+    </DirtyBroadcasterEndRadius>
+    <DirtyBroadcasterTimeToFullPulseExpansion value="5">
+      <!--Number of sim minutes until Dirty ReactionBroadcaster becomes full-->
+      <!--deprecated on: 2/7/2008 11:40:08 AM-->
+    </DirtyBroadcasterTimeToFullPulseExpansion>
+  </Deprecated_Tuning>
+</base>

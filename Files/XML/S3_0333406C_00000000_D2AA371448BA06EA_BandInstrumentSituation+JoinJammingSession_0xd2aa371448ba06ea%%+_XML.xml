@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumMinBeforeTryingAgain value="5">
+      <!--Num Sim minutes to wait before trying to join jam again-->
+    </kNumMinBeforeTryingAgain>
+    <kMaxNumJoinJamFailsForNPCs value="4">
+      <!--Num join jams to push before giving up (for NPCs)-->
+    </kMaxNumJoinJamFailsForNPCs>
+    <kMaxNumJoinJamFailsForSelectableSims value="2">
+      <!--Num join jams to push before giving up (for selectable Sims)-->
+    </kMaxNumJoinJamFailsForSelectableSims>
+  </Current_Tuning>
+</base>

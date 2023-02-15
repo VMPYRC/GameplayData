@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDistanceToStartleForMediumChance value="8">
+      <!--Range:  0 - 100  Description:  Distance in which for medium chance to startle deer-->
+    </kDistanceToStartleForMediumChance>
+    <kDistanceToStartleHighChance value="4">
+      <!--Range:  0 - 100  Description:  Distance in which for High chance to startle deer-->
+    </kDistanceToStartleHighChance>
+    <kChanceForMediumStartle value="50">
+      <!--Range:  0 - 100  Description:  Chance to startle at medium distance-->
+    </kChanceForMediumStartle>
+    <kChanceForHighStartle value="95">
+      <!--Range:  0 - 100  Description:  Chance to startle at high distance-->
+    </kChanceForHighStartle>
+    <kWildlifeFriendDecrementFromChanceToStartleMin value="20">
+      <!--Range:  0 - 100. Description:  if Sim has wildlife trait how much to decrement chance to startle. Linear Interpolation based on sim's wildlife friend skill. this is the min.-->
+    </kWildlifeFriendDecrementFromChanceToStartleMin>
+    <kWildlifeFriendDecrementFromChanceToStartleMax value="100">
+      <!--Range:  0 - 100. Description:  if Sim has wildlife trait how much to decrement chance to startle. Linear Interpolation based on sim's wildlife friend skill. this is the max.-->
+    </kWildlifeFriendDecrementFromChanceToStartleMax>
+  </Current_Tuning>
+</base>

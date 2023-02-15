@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kReputationMaximum value="8000">
+      <!--Range:  0+  Description:  The maximum reputation level-->
+    </kReputationMaximum>
+    <kReputationMinimum value="-200">
+      <!--Range:  0-  Description:  The minimum reputation level-->
+    </kReputationMinimum>
+    <kReputationLevels value="6000, 2500, 1000, 200, 0, -20, -50, -100, -150">
+      <!--Range:  Array of ints  Description:  Define the thresholds for reputation levels-->
+    </kReputationLevels>
+    <kReputationNames value="Impressive, Excellent, Good, Decent, Neutral, Shady, Bad, Disgusting, RockBottom">
+      <!--Range:  Array of strings  Description:  Define the level names for reputation levels-->
+    </kReputationNames>
+    <kLifetimeOpportunityReputationTarget value="8000">
+      <!--Range:  0+  Description:  The required reputation to achieve the Reputation Lifetime Opportunity-->
+    </kLifetimeOpportunityReputationTarget>
+    <kLifetimeOpportunityItemsSoldTarget value="150">
+      <!--Range:  0+  Description:  The required number of items sold to achieve the Sell X Items Lifetime Opportunity-->
+    </kLifetimeOpportunityItemsSoldTarget>
+    <kLifetimeOpportunityMoneyMadeTarget value="25000">
+      <!--Range:  0+  Description:  The required amount of money made to achieve the Make X Simoleons Lifetime Opportunity-->
+    </kLifetimeOpportunityMoneyMadeTarget>
+  </Current_Tuning>
+</base>

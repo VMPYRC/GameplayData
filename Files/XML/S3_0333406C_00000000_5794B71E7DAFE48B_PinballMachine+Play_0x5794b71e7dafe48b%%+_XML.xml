@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceOfLosingBall value="0.1">
+      <!--Float in range 0 to 1.  The chance of losing the ball on each loop of the play pinball animations.-->
+    </kChanceOfLosingBall>
+    <kChanceOfTilt value="0.1">
+      <!--Float in range 0 to 1.  The chance that a sim will try to tilt.-->
+    </kChanceOfTilt>
+    <kChanceOfTiltFail value="0.1, 0.5">
+      <!--Floats in range 0 to 1.  Index 0 - The chance of a normal sim failing a tilt.  Index 1 - The chance of an unlucky sim failing a tilt.-->
+    </kChanceOfTiltFail>
+    <kRateOfSkillGainForVideoGame value="15">
+      <!--Positive float.  Rate of increase for Video Game skill.-->
+    </kRateOfSkillGainForVideoGame>
+    <kLTRLikingDelta value="5">
+      <!--Positive float.  The amount to increase the LTR Liking between the players at the end of a two player game.-->
+    </kLTRLikingDelta>
+    <kConeRadiusMinMax value="2, 3.5">
+      <!--Positive floats.  The minimum and maximum distance the watcher can stand from the machine while watching.-->
+    </kConeRadiusMinMax>
+  </Current_Tuning>
+</base>

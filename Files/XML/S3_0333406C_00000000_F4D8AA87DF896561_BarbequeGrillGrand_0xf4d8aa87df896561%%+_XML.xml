@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGrillTuning>
+      <ChanceOfRandomFireAfterFailure value="1">
+        <!--The chance of a fire *if* it has already been decided the sim will fail randomly.-->
+      </ChanceOfRandomFireAfterFailure>
+      <ChanceOfRandomFailureMultiplier value="1.2">
+        <!--The chance of a random failure at the end of cooking (either burning or fire.-->
+      </ChanceOfRandomFailureMultiplier>
+      <ApplianceBonusFoodPoints value="20">
+        <!--A food point bonus for this grill variety.-->
+      </ApplianceBonusFoodPoints>
+      <CanCatchFire value="True">
+        <!--Set to true if this grill can catch fire.-->
+      </CanCatchFire>
+      <CanBurn value="True">
+        <!--Set to true if this grill can burn food.-->
+      </CanBurn>
+      <MinutesUntilBurning value="10">
+        <!--The minutes the sim has to overcook food on this grill until it burns.-->
+      </MinutesUntilBurning>
+      <MinutesUntilFire value="25">
+        <!--The minutes the sim has to overcook food on this grill until it catches fire.-->
+      </MinutesUntilFire>
+      <CookSpeedMultiplier value="1.2">
+        <!--A multiplier applied to the cooking speed. Higher == faster.-->
+      </CookSpeedMultiplier>
+      <EnvironmentScoreHitWhenGrillingInside value="-10">
+        <!--The environment score penalty applied if this grill is used for cooking inside.-->
+      </EnvironmentScoreHitWhenGrillingInside>
+    </kGrillTuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+  </Current_Tuning>
+</base>

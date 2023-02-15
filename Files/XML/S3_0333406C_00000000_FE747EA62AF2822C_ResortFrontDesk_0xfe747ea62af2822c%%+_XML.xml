@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaximumNumberOfSimsInLine value="6">
+      <!--Range: Positive integers.  Description:  Maximum number of Sims that can wait in line at a time for a particular booth.-->
+    </kMaximumNumberOfSimsInLine>
+    <kTimeToWaitInLine value="90">
+      <!--Range: Positive floats.  Description: Amount of Sim minutes a Sim will wait in line to be kissed before timing out and exiting.-->
+    </kTimeToWaitInLine>
+    <kChanceNeutralStandIdle value="50">
+      <!--Range: Positive floats (0-100).  Description: Chance that a front desk attendant will decide to do standing idles instead of tending idles. (tending idles are idles are the special hands on desk idles).-->
+    </kChanceNeutralStandIdle>
+    <kShiftCosts value="25, 25, 50">
+      <!--cost for each shift.  Day, night, graveyard-->
+    </kShiftCosts>
+    <kShiftScore value="25, 25, 25">
+      <!--score for each shift.  Day, night, graveyard-->
+    </kShiftScore>
+    <kNoDayShiftBase value="Gameplay/Objects/Miscellaneous/ResortFrontDesk:NoDayShift">
+      <!--base review string for no day shift-->
+    </kNoDayShiftBase>
+    <kNoDayShiftCount value="10">
+      <!--number of no day shift strings-->
+    </kNoDayShiftCount>
+    <kNoNightShiftBase value="Gameplay/Objects/Miscellaneous/ResortFrontDesk:NoNightShift">
+      <!--base review string for no night shift-->
+    </kNoNightShiftBase>
+    <kNoNightShiftCount value="10">
+      <!--number of no night shift strings-->
+    </kNoNightShiftCount>
+    <kNoGraveyardShiftBase value="Gameplay/Objects/Miscellaneous/ResortFrontDesk:NoGraveyardShift">
+      <!--base review string for no graveyard shift-->
+    </kNoGraveyardShiftBase>
+    <kNoGraveyardShiftCount value="10">
+      <!--number of no graveyard shift strings-->
+    </kNoGraveyardShiftCount>
+    <kSimsServedCapacity value="10000">
+      <!--number of Sims a front desk can satisfy-->
+    </kSimsServedCapacity>
+    <kMosquitoSprayCost value="80">
+      <!--Cost of Mosquito Spray if purchased at the resort front desk.  Please make sure cost makes sense compaired to price in medator-->
+    </kMosquitoSprayCost>
+    <kVIPChance value="0.2">
+      <!--Random chance for NPC to check into VIP rooms-->
+    </kVIPChance>
+    <kVIPPriceMultiplier value="1.5">
+      <!--Price Multiplier for VIP room-->
+    </kVIPPriceMultiplier>
+    <kLineSlotMinDistance value="1">
+      <!--Distance from the desks's entry routing slot to the beginning of the head of the line. Initial GPE value: 1.0f-->
+    </kLineSlotMinDistance>
+    <kLineSlotMaxDistance value="2">
+      <!--Distance from the desks's entry routing slot to the end of the head of the line.  Initial GPE value: 2.0f-->
+    </kLineSlotMaxDistance>
+    <kLineStartAngle value="2.356194">
+      <!--The angle (width in radians) of the cone shape that represents the head of the line. Initial GPE value: 2.356194 (Pi *3 / 4).-->
+    </kLineStartAngle>
+    <kLineStartSpacingFactor value="2">
+      <!--Spacing factor of routing options for line head. Positive float. Init GPE default: 2.0f-->
+    </kLineStartSpacingFactor>
+    <kMaxNumSimToCheckinWith value="7">
+      <!--Max number of people you can check in with-->
+    </kMaxNumSimToCheckinWith>
+    <kMinWaitingDistance value="1.6">
+      <!--Minimum waiting distance to the front desk for the Sim-->
+    </kMinWaitingDistance>
+    <kMaxWaitingDistance value="5">
+      <!--Maximum waiting distance to the front desk for the Sim-->
+    </kMaxWaitingDistance>
+    <kConeAngleForRouting value="2.0">
+      <!--Angle of the routing area in front of the front desk (in radius)-->
+    </kConeAngleForRouting>
+    <kSpacingFactorRouting value="6">
+      <!--Spacing factor for routing position.  Positive float.  Init GP default: 6.0f-->
+    </kSpacingFactorRouting>
+  </Current_Tuning>
+</base>

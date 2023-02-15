@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBuildingsAtSkill0 value="StarLow, CastleLow, TowerLow" />
+    <kBuildingsAtSkill1 value="CastleLow, BucketsLow, TowerLow, HeadMed" />
+    <kBuildingsAtSkill2 value="BucketsLow, OctopusMed, HeadMed, WhaleMed" />
+    <kBuildingsAtSkill3 value="CastleHigh, OctopusMed, WhaleMed" />
+    <kBuildingsAtSkill4 value="CastleHigh, Castle2High, FreezerBunnyMed, WhaleMed, OctopusMed" />
+    <kMinBuildLoopsToNextStage value="1, 1, 6">
+      <!--Minimum number of loops of animation before the building advances to the next stage of completion or the sculpture is destroyed.  Three elements: { initial to midpoint, midpoint to final, final to destruction}.-->
+    </kMinBuildLoopsToNextStage>
+    <kMaxBuildLoopsToNextStage value="1, 1, 8">
+      <!--Minimum number of loops of animation before the building advances to the next stage of completion or the sculpture is destroyed.  Three elements: { initial to midpoint, midpoint to final, final to destruction}.-->
+    </kMaxBuildLoopsToNextStage>
+    <kTallBuildings value="CastleHigh, Castle2High">
+      <!--List of buildings that are considered 'tall' for purposes of animation.-->
+    </kTallBuildings>
+  </Current_Tuning>
+</base>

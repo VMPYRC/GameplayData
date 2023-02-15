@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="0">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kTuningDanceFloor>
+      <Length value="6">
+        <!--Length of the side of the dance floor. Assumes the dance floor is square-shaped.-->
+      </Length>
+      <Capacity value="10">
+        <!--Max number of sims that can dance on this floor.-->
+      </Capacity>
+    </kTuningDanceFloor>
+    <kNumHoursDancingThreshold value="1">
+      <!--Range: Positive float.  Description: Number of hours an active sim has to have danced on the spring festival lot to be considered for King/Queen-->
+    </kNumHoursDancingThreshold>
+    <kBaseChanceToBePicked value="20">
+      <!--Range: Positive float.  Description: Base chance to be picked as King/Queen after passing the threshold.-->
+    </kBaseChanceToBePicked>
+    <kBonusPerHourDancing value="20">
+      <!--Range: Positive float.  Description: Chance per additional hour sim has spent dancing on the spring festival lot.-->
+    </kBonusPerHourDancing>
+    <kFestivalTicketsForWinning value="250">
+      <!--Range: Positive int.  Description: Number of festival tickets player gets for winning the Spring Festival Dance King/Queen.-->
+    </kFestivalTicketsForWinning>
+  </Current_Tuning>
+</base>

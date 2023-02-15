@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFailChance value="5">
+      <!--kFailChance: Range: 0 - 100 Percent chance that a regular sim will fail the slide down interaction.-->
+    </kFailChance>
+    <kBadTraitFailChance value="25">
+      <!--kBadTraitFailChance: Range: 0 - 100 Percent chance that a sim with any of the bad traits will fail the slide down interaction.-->
+    </kBadTraitFailChance>
+    <kBadTraits value="Clumsy, Unlucky">
+      <!--kBadTraits: List of bad traits that will use the bad trait fail chance tuning.-->
+    </kBadTraits>
+    <kReactionTraits value="Coward">
+      <!--kReactionTraits: If the sim has one of the following traits, they perform pre and post pole reactions.-->
+    </kReactionTraits>
+    <kPrePoleReactions value="Scared, TraitCoward, TraitCoward2">
+      <!--kPrePoleReactions: If the sim has one of the reaction traits, they will play one of these reactions after routing to the pole, but before using it.-->
+    </kPrePoleReactions>
+    <kSuccessReactions value="WipeBrow, PumpFist, Cheer">
+      <!--kSuccessReactions: If the sim has one of the reaction traits, they will play one of these reactions after reaching the bottom.-->
+    </kSuccessReactions>
+  </Current_Tuning>
+</base>

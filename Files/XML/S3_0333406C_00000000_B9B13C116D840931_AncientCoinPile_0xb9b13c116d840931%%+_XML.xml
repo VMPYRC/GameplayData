@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kVerySmallMinMax value="5,18">
+      <!--Min/max number of coins pile might give for very small pile-->
+    </kVerySmallMinMax>
+    <kSmallMinMax value="22,40">
+      <!--Min/max number of coins pile might give for small pile-->
+    </kSmallMinMax>
+    <kLargeMinMax value="50,95">
+      <!--Min/max number of coins pile might give for large pile-->
+    </kLargeMinMax>
+    <kVeryLargeMinMax value="100,202">
+      <!--Min/max number of coins pile might give for very large pile-->
+    </kVeryLargeMinMax>
+    <kRouteDistance value="0.7">
+      <!--Range:  float  Description:  Route distance for collection-->
+    </kRouteDistance>
+  </Current_Tuning>
+</base>

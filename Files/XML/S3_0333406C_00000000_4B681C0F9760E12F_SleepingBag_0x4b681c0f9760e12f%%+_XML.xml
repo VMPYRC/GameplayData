@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSleepMultiplerWhenOwnedBedIsOnLot value="0.4">
+      <!--If a sim is already on a lot that has the owned bed, then we reduce the autonomy score to sleep on a sleeping bag by this multipler. Positive float < 1. Initial GPE Default: 0.50f.-->
+    </kSleepMultiplerWhenOwnedBedIsOnLot>
+    <kSleepMultiplerForOwnedSleepingBag value="1.5">
+      <!--When autonomy scores for sleeping on an owned sleeping bag, we scale the score using this multipler. Positive float > 1. Initial GPE Default: 1.50f.-->
+    </kSleepMultiplerForOwnedSleepingBag>
+  </Current_Tuning>
+</base>

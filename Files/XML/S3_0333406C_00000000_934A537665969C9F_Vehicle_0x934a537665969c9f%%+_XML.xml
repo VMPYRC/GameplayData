@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLookAtInterestingnessWhenMoving value="20">
+      <!--How interesting to look at this (range 0:100) when turned on-->
+    </kLookAtInterestingnessWhenMoving>
+    <kLookAtInterestingnessWhenNotMoving value="5">
+      <!--How interesting to look at this (range 0:100) when turned off-->
+    </kLookAtInterestingnessWhenNotMoving>
+    <kVehicleGetInRadius value="3.5">
+      <!--Size of radius when routing to the car (goHereWith, carpools, etc)-->
+    </kVehicleGetInRadius>
+    <kPrePutInDistance value="10">
+      <!--Distance away from a car a sim can be before they will try and route to get into the car.-->
+    </kPrePutInDistance>
+    <kRidesToBecomeFriends value="60">
+      <!--Range:  0 - ?  Description:  Number of times a sim has to ride in a car to get relationship with it.-->
+    </kRidesToBecomeFriends>
+    <kRidesToBecomeFriendsForEnthusiast value="8">
+      <!--Range:  0 - ?  Description:  Number of times a sim has to ride in a car to get relationship with it when they are a vehicle enthusiast.-->
+    </kRidesToBecomeFriendsForEnthusiast>
+    <kPrePutInDistanceForBoat value="15">
+      <!--Distance away from a boat a sim can be before they will try and route to get into the boat.-->
+    </kPrePutInDistanceForBoat>
+  </Current_Tuning>
+</base>

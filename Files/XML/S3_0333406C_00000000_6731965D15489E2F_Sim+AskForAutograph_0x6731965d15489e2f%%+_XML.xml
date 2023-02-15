@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTetherDistance value="6">
+      <!--Distance (in tiles) that each Sim in the crowd will allow the Autographer to route away before trying to route closer.-->
+    </kTetherDistance>
+    <kRouteRange value="2, 3">
+      <!--Route range (in tiles) that each Sim in the crowd will use when routing closer to the Autographer when their distance apart exceeds the Tether distance.  Format: (MinDistance, MaxDistance).-->
+    </kRouteRange>
+    <kState0Duration value="20, 40">
+      <!--Time (in Sim minutes) that Sim entering 'Ask for Autograph' will stay in State 0 (the first state) for.  While in this state the Sim seeking an autograph only plays excited anims.  Once this stage expires the Sim seeking the autograph will enter State 1.  Format: (MinTime, MaxTime).  A random number (gaussian) in this range is chosen for each new 'Ask for Autograph' interaction.-->
+    </kState0Duration>
+    <kState1Duration value="10, 20">
+      <!--Time (in Sim minutes) that Sim will stay in State 1 (the middle state) for.  While in this state the Sim seeking an autograph randomly plays both excited and impatient anims.  Once this stage expires the Sim seeking the autograph will enter State 2.  Format: (MinTime, MaxTime).  A random number (gaussian) in this range is chosen for each new 'Ask for Autograph' interaction.-->
+    </kState1Duration>
+    <kState2Duration value="10, 20">
+      <!--Time (in Sim minutes) that Sim will stay in State 2 (the last state) for.  While in this state the Sim seeking an autograph only plays impatient anims.  Once this state expires the Sim seeking the autograph gives up & leaves.  Format: (MinTime, MaxTime).  A random number (gaussian) in this range is chosen for each new 'Ask for Autograph' interaction.-->
+    </kState2Duration>
+    <kLookAtInterestingnessForAutographer value="70">
+      <!--Range: 0 to 100.  Description: How interesting Fans think the Autographer Sim is to look at.-->
+    </kLookAtInterestingnessForAutographer>
+    <kFailedToGetAutographLtrLikingPenalty value="-10">
+      <!--Range:  Liking value (should probably be negative).  Description:  Liking value (LTR) that drops when a Sim fails to get an autograph (due to waiting too long, or being outright denied).-->
+    </kFailedToGetAutographLtrLikingPenalty>
+    <kFailedToGetAutographStcInsultingDelta value="33">
+      <!--Range: should probably be positive.  Description: Amount of STC for Insulting commodity upon failure to obtain autograph.-->
+    </kFailedToGetAutographStcInsultingDelta>
+    <kAutographSessionWaitForAutographerToArriveDuration value="45, 75">
+      <!--Time (in Sim minutes) that autograph-seeking Sim will wait for Autographer Sim to arrive before giving up & being released to autonomy.  This variable is only used during the 'Hold Autograph Session' situation (not during stand-alone 'Ask For Autograph' interactions, like the kind that Celebrity Sims can push on other nearby Sims).  Specifying too short of a time will cause autograph-seeking Sims to leave before the Autographer Sim routes to the autographing location, specifying too long of a time will cause autograph-seeking Sims to hang around waiting longer than seems right when the Autographer Sim routes fails/cancels the session before arriving.  Format: (MinTime, MaxTime).-->
+    </kAutographSessionWaitForAutographerToArriveDuration>
+    <kTimerToShowBalloonAgain value="7">
+      <!--Sim minutes between when each thought balloon of asking for an autograph appears.-->
+    </kTimerToShowBalloonAgain>
+  </Current_Tuning>
+</base>

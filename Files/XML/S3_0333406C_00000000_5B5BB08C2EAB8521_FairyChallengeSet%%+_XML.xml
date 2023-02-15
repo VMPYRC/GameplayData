@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Fairy</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>298</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>551</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>8</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchSimStartFunction</StartFunctionName>
+      <DisplayName>Perform Social Interaction</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>SocialCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>SocialFeedBackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <SocialName>Fairy Bestow Golden Toad</SocialName>
+      <IsSocialPrimitive>true</IsSocialPrimitive>
+      <TriggerEvent>kSocialInteraction</TriggerEvent>
+      <SubjectTypes>
+        <string>Sim</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>299</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>551</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>8</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchSimStartFunction</StartFunctionName>
+      <DisplayName>Perform Social Interaction</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>SocialCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>SocialFeedBackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <SocialName>Fairy Bestow Inner Beauty</SocialName>
+      <IsSocialPrimitive>true</IsSocialPrimitive>
+      <TriggerEvent>kSocialInteraction</TriggerEvent>
+      <SubjectTypes>
+        <string>Sim</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>300</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>551</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>8</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchSimStartFunction</StartFunctionName>
+      <DisplayName>Perform Social Interaction</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName>SocialCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>SocialFeedBackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <SocialName>Fairy Bestow Flight of Felicity</SocialName>
+      <IsSocialPrimitive>true</IsSocialPrimitive>
+      <TriggerEvent>kSocialInteraction</TriggerEvent>
+      <SubjectTypes>
+        <string>Sim</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>301</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>299</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have $Buff</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Buff</SubjectType>
+        <EnumName>WellRested</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>GetBuffFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kGotBuff</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>302</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/1f0678aa-bfb3-4e40-948e-801384bdfefd:Name</NameKey>
+    <Name>Fairly Fine Gift Giver</Name>
+    <SetName>Fairy</SetName>
+    <ChallengeGuid>1f0678aa-bfb3-4e40-948e-801384bdfefd</ChallengeGuid>
+    <ExportVersion>12</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>(((298AndOP299)AndOP300)ThenOP301)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/1f0678aa-bfb3-4e40-948e-801384bdfefd:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\fairy_47.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_gold_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>371</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>600</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>50</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Trick a Sim</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kFairyTrickedSim</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>372</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/26b5094d-ab71-4285-8667-bfb4853340f7:Name</NameKey>
+    <Name>Trickathalon</Name>
+    <SetName>Fairy</SetName>
+    <ChallengeGuid>26b5094d-ab71-4285-8667-bfb4853340f7</ChallengeGuid>
+    <ExportVersion>11</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>371</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/26b5094d-ab71-4285-8667-bfb4853340f7:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <ThemeKey>EP7</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>NotUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\fairy_43.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>\\easl-studiofs01\SimsEP7\Visual\SuperNatural\Concepts\Badges\finished_png\supernatural_platinum_blank.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP7</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

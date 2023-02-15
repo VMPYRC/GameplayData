@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRangeOfRewardedCuriousDew value="1,4">
+      <!--Range: Ints.  Description: Range [min,max] of rewarded Curious Dew objects.-->
+    </kRangeOfRewardedCuriousDew>
+    <kChanceOfPickingSameColor value="25">
+      <!--Range: 0-100.  Description: Percentage chance the Curious Dew reward is the same color as the parent flower.-->
+    </kChanceOfPickingSameColor>
+    <kColorSelectionWeights value="5, 5, 5, 5,10, 5,10,10,12,18,15">
+      <!--Range: 0-100 (must add up to 100).  Description: Color selection weights [Pink,Red,Orange,Yellow,Green,Blue,Purple,Light Blue,Black,Clear,Rainbow].-->
+    </kColorSelectionWeights>
+  </Current_Tuning>
+</base>

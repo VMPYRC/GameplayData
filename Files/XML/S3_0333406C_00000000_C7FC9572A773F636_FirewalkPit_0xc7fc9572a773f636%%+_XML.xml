@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaximumNumberOfSimsInLine value="5">
+      <!--Range: Positive integers.  Description:  Maximum number of Sims that can wait in line to use Firewalk Pit.-->
+    </kMaximumNumberOfSimsInLine>
+    <kLineSlotMinDistance value="2">
+      <!--Distance from the Firewalk pit's entry routing slot to the beginning of the head of the line.-->
+    </kLineSlotMinDistance>
+    <kLineSlotMaxDistance value="4">
+      <!--Distance from the Firewalk pit's entry routing slot to the end of the head of the line.-->
+    </kLineSlotMaxDistance>
+    <kLineStartAngle value="2.356194">
+      <!--The angle (width in radians) of the cone shape that represents the head of the line. Initial GPE value: 2.356194 (Pi *3 / 4)-->
+    </kLineStartAngle>
+    <kLineStartSpacingFactor value="2">
+      <!--Spacing factor of routing options for line head. Positive float. Init GPE default: 2.0f-->
+    </kLineStartSpacingFactor>
+    <kTimeToWaitInLine value="120">
+      <!--Range: Positive floats.  Description: Num Sim minutes Sim will wait in line before timing out and exiting.-->
+    </kTimeToWaitInLine>
+    <kOutcomeWeightsForCoalTempCool value="1, 1, 2, 2">
+      <!--Range: float >= 0 [TotallyFail, Fail, Succeed, TotallySucceed]. Description: Weighted chance of outcome when coal temperature is Cool -->
+    </kOutcomeWeightsForCoalTempCool>
+    <kOutcomeWeightsForCoalTempHot value="1, 2, 2, 1">
+      <!--Range: float >= 0 [TotallyFail, Fail, Succeed, TotallySucceed]. Description: Weighted chance of outcome when coal temperature is Hot -->
+    </kOutcomeWeightsForCoalTempHot>
+    <kOutcomeWeightsForCoalTempScorching value="3, 2, 1, 1">
+      <!--Range: float >= 0 [TotallyFail, Fail, Succeed, TotallySucceed]. Description: Weighted chance of outcome when coal temperature is Scorching -->
+    </kOutcomeWeightsForCoalTempScorching>
+    <kOutcomeWeightsModAtMinSkillLevel value="4, 3, 2, 1">
+      <!--Range: float >= 0 [TotallyFail, Fail, Succeed, TotallySucceed]. Description: Modifier to Weighted chance of outcome at min Firewalk skill level.  actual weight is lineraly interpolated between kOutcomeWeightAtMinSkillLevel and kOutcomeWeightAtMaxSkillLevel-->
+    </kOutcomeWeightsModAtMinSkillLevel>
+    <kOutcomeWeightsModAtMaxSkillLevel value="1, 2, 3, 4">
+      <!--Range: float >= 0. [TotallyFail, Fail, Succeed, TotallySucceed] Description: Modifier to Weighted chance of outcome at Max Firewalk skill level.  actual weight is lineraly interpolated between kOutcomeWeightAtMinSkillLevel and kOutcomeWeightAtMaxSkillLevel.-->
+    </kOutcomeWeightsModAtMaxSkillLevel>
+    <kTraitOutcomeModifierTotallyFail value="Athletic, Brave, Pyromaniac, Coward, Clumsy">
+      <!--Description: List Sim traits that modify the chance of TOTALLY FAIL outcome. Modifier amount should be in corresponding tunable kTraitOutcomeModifierTotallyFailWeight-->
+    </kTraitOutcomeModifierTotallyFail>
+    <kTraitOutcomeModifierTotallyFailWeights value="-3, -3, -5, 3, 3">
+      <!--Range: float. Description: Weight modifier for outcome TOTALLY FAIL.  Should match entires in tunable kTraitOutcomeModifierTotallyFail-->
+    </kTraitOutcomeModifierTotallyFailWeights>
+    <kTraitOutcomeModifierFail value="Athletic, Brave, Pyromaniac, Coward, Clumsy">
+      <!--Description: List Sim traits that modify the chance of FAIL outcome. Modifier amount should be in corresponding tunable kTraitOutcomeModifierFailWeight-->
+    </kTraitOutcomeModifierFail>
+    <kTraitOutcomeModifierFailWeights value="-2, -1, -4, 2, 2">
+      <!--Range: float. Description: Weight modifier for outcome FAIL.  Should match entires in tunable kTraitOutcomeModifierFail-->
+    </kTraitOutcomeModifierFailWeights>
+    <kTraitOutcomeModifierSucceed value="Athletic, Brave, Pyromaniac, Coward, Clumsy">
+      <!--Description: List Sim traits that modify the chance of SUCCEED outcome. Modifier amount should be in corresponding tunable kTraitOutcomeModifierSucceedWeight-->
+    </kTraitOutcomeModifierSucceed>
+    <kTraitOutcomeModifierSucceedWeights value="2, 1, 2, -2, -2">
+      <!--Range: float. Description: Weight modifier for outcome SUCCEED.  Should match entires in tunable kTraitOutcomeModifierSucceed-->
+    </kTraitOutcomeModifierSucceedWeights>
+    <kTraitOutcomeModifierTotallySucceed value="Athletic, Brave, Pyromaniac, Coward, Clumsy">
+      <!--Description: List Sim traits that modify the chance of TOTALLY SUCCEED outcome. Modifier amount should be in corresponding tunable kTraitOutcomeModifierTotallySucceedWeight-->
+    </kTraitOutcomeModifierTotallySucceed>
+    <kTraitOutcomeModifierTotallySucceedWeights value="3, 2, 2, -2, -4">
+      <!--Range: float. Description: Weight modifier for outcome TOTALLY SUCCEED.  Should match entires in tunable kTraitOutcomeModifierTotallySucceed-->
+    </kTraitOutcomeModifierTotallySucceedWeights>
+    <kBaseChanceFlinch value="25, 40, 55">
+      <!--Range: 0-100. [Cool, Hot, Scorching] Description: Base Chance Sim will play flinching in pain reaction to testing the heat of coals for each respective temperature-->
+    </kBaseChanceFlinch>
+    <kChanceFlinchModifierFromOutcome value="30, 20, 0, -20">
+      <!--Range: -100 to 100 [TotallyFail, Fail, Succeed, TotallySucceed]. Description: Modifier to chance of playing flinching in pain reaction for each outcome type-->
+    </kChanceFlinchModifierFromOutcome>
+    <kChanceFlinchModifierTraits value="Athletic, Brave, Pyromaniac, Coward, Clumsy">
+      <!--Description: List Sim traits that modify the chance of playing flinch in pain reaction. Modifier amount should be in corresponding tunable kChanceFlinchModifierTraits-->
+    </kChanceFlinchModifierTraits>
+    <kChanceFlinchModifierWeights value="-10, -50, -100, 40, 0">
+      <!--Range: -100 to 100. Description: Weight modifier for outcome TOTALLY SUCCEED.  Should match entires in tunable kChanceFlinchModifierWeights-->
+    </kChanceFlinchModifierWeights>
+    <kBaseChanceCatchFire value="3, 2, 1, 0">
+      <!--Range: 0-100 [TotallyFail, Fail, Succeed, TotallySucceed]. Description: Base chance of sim catching fire after firewalking based on the outcome-->
+    </kBaseChanceCatchFire>
+    <kChanceCatchFireCoalTempModifier value="-10, 0, 1">
+      <!--Range: -100 to 100. [Cool, Hot, Scorching] Description: Modifier to chance of catching fire based on coal temperature fire pit is set to-->
+    </kChanceCatchFireCoalTempModifier>
+    <kChanceTestCoals value="30, 50, 75">
+      <!--Range: 0-100. [Cool, Hot, Scorching] Description: Chance Sim will decide to test the coals before walking for each respective temperature-->
+    </kChanceTestCoals>
+    <kResortUpkeepCost value="60">
+      <!--Range: > 0, Resort Upkeep cost for firewalk pit in a resort-->
+    </kResortUpkeepCost>
+    <kResortScore value="60">
+      <!--Range: > 0, Resort Score for firewalk pit in a resort-->
+    </kResortScore>
+    <kNumReviewEntires value="12">
+      <!--Range: Positive integers must match how many entires you have in localization with key Gameplay/Objects/Miscellaneous/FirewalkPit:ReviewText.-->
+    </kNumReviewEntires>
+    <kNumSimsToWatch value="3">
+      <!--Range int > 1: Number of sims required to be waiting in line to use the fire pit for Watch Interaction to become availible-->
+    </kNumSimsToWatch>
+    <kMinMaxWatchRouteRadius value="1, 3">
+      <!--Range: float > 0, [min,max] Description: Min, Max radial route distance to firewalk pit when watching-->
+    </kMinMaxWatchRouteRadius>
+    <kPlantSimMotiveChange value="-30">
+      <!--PlantSim motive change for doing Firewalk-->
+    </kPlantSimMotiveChange>
+    <kSimsServedCapacity value="50">
+      <!--number of Sims a firepit can satisfy-->
+    </kSimsServedCapacity>
+  </Current_Tuning>
+</base>

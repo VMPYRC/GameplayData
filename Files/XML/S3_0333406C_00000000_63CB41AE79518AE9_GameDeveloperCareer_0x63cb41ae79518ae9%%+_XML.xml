@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinLevelToWorkFromHome value="5">
+      <!--Tunable level to allow working from home interaction-->
+    </kMinLevelToWorkFromHome>
+    <kLevelRequiredForElectronicsDiscount value="7">
+      <!--Required level in the Game Dev career to get a discount on electronics in BuildBuy-->
+    </kLevelRequiredForElectronicsDiscount>
+    <kElectronicsDiscountFactor value="0.4">
+      <!--Discount factor applied to Electronics prices when Sim is at or above kLevelRequiredForElectronicsDiscount. Range: 0 (no discount) to 1 (free).-->
+    </kElectronicsDiscountFactor>
+    <kNerdUnlockLevelRequiredToJoin value="5">
+      <!--Unlock level of the InfluenceSkillNerd required to join this career. Int Range 0-5-->
+    </kNerdUnlockLevelRequiredToJoin>
+    <kGameConventionCooldownInDays value="2">
+      <!--Description:  The number of days that must pass after starting a game developer convention before that sim can host another game develop convention.-->
+    </kGameConventionCooldownInDays>
+    <kGameConventionDuration value="360">
+      <!--Description:  The duration of a game convention, in sim minutes-->
+    </kGameConventionDuration>
+    <kGameConventionPayouts value="1500, 3000, 6000, 9000">
+      <!-- Description:  The number of simoleons rewarded for each possible outcome of a game developer convention. -->
+    </kGameConventionPayouts>
+  </Current_Tuning>
+</base>

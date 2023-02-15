@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDistanceToStopOverlay value="2">
+      <!--Range:  Tiles.  Description:  Distance at which Sims should stop existing overlays.-->
+    </kDistanceToStopOverlay>
+    <kDistanceToTriggerOverlay value="4">
+      <!--Range:  Tiles.  Description:  Minimum distance at which Sims will start overlays.-->
+    </kDistanceToTriggerOverlay>
+    <kMaxMinutesToWaitForRouteLeadIn value="2">
+      <!--Range: [0, Inf]. Description: Maximum time to wait in minutes before aborting a route lead in.-->
+    </kMaxMinutesToWaitForRouteLeadIn>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinutesUntilSuccessfulScan value="5, 15">
+      <!--Description:  The min and max time in Sim minutes a Sim should scan the area before revealing spirits.-->
+    </kMinutesUntilSuccessfulScan>
+    <kScanRadius value="15">
+      <!--Description:  The min and max time in Sim minutes a Sim should scan the area before revealing spirits.-->
+    </kScanRadius>
+    <kXpGainNoSpirits value="5, 25">
+      <!--Description:  The XP Gain after a scan that revealed no spirits.  The first value is what career level 1 receives and the second for level 10.-->
+    </kXpGainNoSpirits>
+    <kXpGainSpiritsFound value="10, 50">
+      <!--Description:  The XP Gain after a scan that revealed one or more spirits.  The first value is what career level 1 receives and the second for level 10.-->
+    </kXpGainSpiritsFound>
+    <kMoneyNoSpirits value="0">
+      <!--Description:  The amount of money a Sim earns when a scan reveals one or more spirits.-->
+    </kMoneyNoSpirits>
+    <kMoneySpiritsFound value="25">
+      <!--Description:  The amount of money a Sim earns when a scan reveals one or more spirits.-->
+    </kMoneySpiritsFound>
+  </Current_Tuning>
+</base>

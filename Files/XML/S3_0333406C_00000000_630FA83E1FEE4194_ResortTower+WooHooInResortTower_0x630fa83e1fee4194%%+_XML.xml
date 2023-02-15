@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kWooHooLength value="30">
+      <!--Woohoo length in minutes.-->
+    </kWooHooLength>
+    <kTryForBabySuccessRate value="50">
+      <!--Try for baby chance of success. Percentage 0-100-->
+    </kTryForBabySuccessRate>
+    <kWooHooLTRAcceptRegardlessofMood value="80">
+      <!--Assuming the two Sims can be romantic, if the LTR is >= than this value this, the Sim will be in the Sim Picker for WooHoo.-->
+    </kWooHooLTRAcceptRegardlessofMood>
+    <kWooHooLTRAcceptIfInGoodMood value="60">
+      <!--Assuming the two Sims can be romantic, if the LTR is >= than this value this, the Sim will be in the Sim Picker for WooHoo if their mood is >= kWooHooMinMood.-->
+    </kWooHooLTRAcceptIfInGoodMood>
+    <kWooHooMinMood value="40">
+      <!--This is the mood requirement for kWooHooLTRAcceptIfInGoodMood.-->
+    </kWooHooMinMood>
+  </Current_Tuning>
+</base>

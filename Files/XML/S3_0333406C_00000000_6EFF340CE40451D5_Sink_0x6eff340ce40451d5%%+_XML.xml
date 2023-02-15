@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPuddleTuning>
+      <MaxNumPuddles value="10" />
+      <SpawnSpeedInMinutes value="45">
+        <!--Speed of puddle spawn in Sim Minutes.-->
+      </SpawnSpeedInMinutes>
+    </kPuddleTuning>
+    <kDisgustBroadcastParams>
+      <PulseRadius value="3">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <TimeToFullPulseExpansion value="1.0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <PulseRepeatTime value="15">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="Disgusted, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kDisgustBroadcastParams>
+    <kMaximumNumberOfSimsInLine value="3">
+      <!--Range: Positive integers.  Description:  Maximum number of Sims that can wait in line.-->
+    </kMaximumNumberOfSimsInLine>
+    <kTimeToWaitInLine value="20">
+      <!--Range: Positive floats.  Description: Amount of Sim minutes a Sim will wait in line before timing out and exiting.-->
+    </kTimeToWaitInLine>
+    <kLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="0">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <DefaultInteractionLookAtThreshold value="45">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </kLookAtTuning>
+    <kBrushTeethInBathroomMultiplier value="1">
+      <!--Score Multiplier to return for Brush Theeth for a sink that IS in the same room as a toilet.-->
+    </kBrushTeethInBathroomMultiplier>
+    <kBrushTeethNotBathroomMultiplier value="0.2">
+      <!--Score Multiplier to return for Brush Theeth for a sink that is NOT in the same room as a toilet.-->
+    </kBrushTeethNotBathroomMultiplier>
+    <kMinSpongeBathTime value="0.1">
+      <!--Minimum amount of time in sim min's sim stays in the sponge bath interaction regardless of if their hygine is at max.-->
+    </kMinSpongeBathTime>
+    <kBoobyTrapTuning>
+      <IsLooping value="False">
+        <!--Does the 'set trap' animation loop?.-->
+      </IsLooping>
+      <LoopMinutes value="10">
+        <!--If IsLooping, how long the loop should play in Sim minutes before the trap is set.-->
+      </LoopMinutes>
+      <PositivePrankTraits value="GoodSenseOfHumor, Friendly, Insane">
+        <!--If a Sim has any of these traits, they will receive the positive Pranked buff when they trigger the trap.-->
+      </PositivePrankTraits>
+      <SetBoobyTrapBroadcasterParams>
+        <PulseRadius value="3">
+          <!--The effect range of the broadcaster in meters.-->
+        </PulseRadius>
+        <AffectBroadcasterRoomOnly value="True">
+          <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+        </AffectBroadcasterRoomOnly>
+        <ReactorLineOfSight value="False">
+          <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+        </ReactorLineOfSight>
+        <PulseRepeatTime value="1">
+          <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+        </PulseRepeatTime>
+        <TimeToFullPulseExpansion value="0">
+          <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+        </TimeToFullPulseExpansion>
+        <TimeDuration value="-1">
+          <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+        </TimeDuration>
+        <InteractionProhibitsOverlay value="False">
+          <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+        </InteractionProhibitsOverlay>
+        <AutonomyLevelToReact value="One">
+          <!--The AutonomyLevel at which this reaction fires-->
+        </AutonomyLevelToReact>
+        <MaxSimsToProcessPerTick value="10">
+          <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+        </MaxSimsToProcessPerTick>
+        <ReactOnRepeatedEntry value="True">
+          <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+        </ReactOnRepeatedEntry>
+        <ReactToMultiplePulses value="True">
+          <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+        </ReactToMultiplePulses>
+        <SpeciesToEffect value="Human">
+          <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+        </SpeciesToEffect>
+        <ReactorCouldSeeCheck value="False">
+          <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+        </ReactorCouldSeeCheck>
+        <MountedSimsDoNonMountedBehavior value="True">
+          <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+        </MountedSimsDoNonMountedBehavior>
+        <MountedReactToMultiplePulses value="False">
+          <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+        </MountedReactToMultiplePulses>
+        <MountedReactionTypes value="None, None">
+          <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+        </MountedReactionTypes>
+      </SetBoobyTrapBroadcasterParams>
+    </kBoobyTrapTuning>
+    <kRequiredFairySkillLevelRepair value="3">
+      <!--Minimum fairy skill level requirement for the fairy repair interaction-->
+    </kRequiredFairySkillLevelRepair>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <RequiresScoring value="False">
+      <!--Whether or not the broadcast interactions are scored by autonomy (TO BE DELETED BY REVANS)-->
+      <!--deprecated on: 2/7/2008 3:04:26 PM-->
+    </RequiresScoring>
+    <IsLifeThreatening value="False">
+      <!--Whether the reaction is responding to a life-threatening event (e.g. responding to fire)-->
+      <!--deprecated on: 3/13/2008 4:22:15 PM-->
+    </IsLifeThreatening>
+  </Deprecated_Tuning>
+</base>

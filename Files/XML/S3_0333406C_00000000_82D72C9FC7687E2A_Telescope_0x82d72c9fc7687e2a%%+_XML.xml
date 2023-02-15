@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDaytimeStart value="5">
+      <!--0.00 - 24.00: What time of day 'Look Through' starts being the interaction Name-->
+    </kDaytimeStart>
+    <kNightTimeStart value="18">
+      <!--0.00 - 24.00: What time of day 'Stargaze' starts being the interaction Name-->
+    </kNightTimeStart>
+    <kMinTimeToTriggerThought value="10">
+      <!--Minimum number of sim minutes before triggering a thought balloon.-->
+    </kMinTimeToTriggerThought>
+    <kMaxTimeToTriggerThought value="20">
+      <!--Maximum number of sim minutes before triggering a thought balloon.-->
+    </kMaxTimeToTriggerThought>
+    <kMinTimeToFindInGalaxy value="60">
+      <!--Minimum amount of time it takes to find something during the Search Galaxy interaction-->
+    </kMinTimeToFindInGalaxy>
+    <kMaxTimeToFindInGalaxy value="180">
+      <!--Minimum amount of time it takes to find something during the Search Galaxy interaction-->
+    </kMaxTimeToFindInGalaxy>
+    <kChanceOfFindingSomethingNew value=".75">
+      <!--0-1, chance the sim will discover something new instead of an already named object-->
+    </kChanceOfFindingSomethingNew>
+    <kChanceOfCreating value="0.75, 0.1, 0.03, 0.04, 0.069, 0.001, 0.01">
+      <!--0-1 must add to 1, chance of creating each type in this order:Star,Satellite,Comet,Moon,Planet,Aurora,Galaxy-->
+    </kChanceOfCreating>
+    <kStarColorWeights value="12,8,6,3,1">
+      <!--Blue, White, Yellow, Orange, Red-->
+    </kStarColorWeights>
+    <kStarColorDifficulties value="3,4,5,8,11">
+      <!--Blue, White, Yellow, Orange, Red-->
+    </kStarColorDifficulties>
+    <kStarTypeWeights value="60,60,40,15,3,1">
+      <!--Dwarf, SubGiant, Giant, SuperGiant, Neutron, Pulsar-->
+    </kStarTypeWeights>
+    <kStarTypeDifficulties value="3,4,6,11,11,11">
+      <!--Dwarf, SubGiant, Giant, SuperGiant, Neutron, Pulsar-->
+    </kStarTypeDifficulties>
+    <kStarMassWeights value="26,25,16,9,6,2">
+      <!--Tiny, Small, Medium, Large, Huge, Ginormus-->
+    </kStarMassWeights>
+    <kStarMassDifficulties value="3,3,6,7,8,11">
+      <!--Tiny, Small, Medium, Large, Huge, Ginormus-->
+    </kStarMassDifficulties>
+    <kTypeValueMin value="25,300,250,150,10000,500,70,70,70,70,70,70,70,70,70">
+      <!--Minimum number of simoleans sim gets for finding each object respectively: Satellite,Comet,Moon,Planet,Aurora,Galaxy,GammaRay,ShootingStar,AsteroidBelt,EventHorizon,Nebula,StarConstellation,SuperNova,AlienLife,EndOfUniverse-->
+    </kTypeValueMin>
+    <kTypeValueMax value="75,500,450,350,10000,1500,80,80,80,80,80,80,80,80,80">
+      <!--Maximum number of simoleans sim gets for finding each object respectively: Satellite,Comet,Moon,Planet,Aurora,Galaxy,GammaRay,ShootingStar,AsteroidBelt,EventHorizon,Nebula,StarConstellation,SuperNova,AlienLife,EndOfUniverse-->
+    </kTypeValueMax>
+    <kStarColorValues value="5,20,100,350,750">
+      <!--Blue, White, Yellow, Orange, Red-->
+    </kStarColorValues>
+    <kStarTypeValues value="10,25,100,600,2000,5000">
+      <!--Dwarf, SubGiant, Giant, SuperGiant, Neutron, Pulsar-->
+    </kStarTypeValues>
+    <kStarMassValues value="10,15,50,200,500,900">
+      <!--Tiny, Small, Medium, Large, Huge, Ginormus-->
+    </kStarMassValues>
+    <kStarColorValueVariance value="0">
+      <!--Variant applied to kStarColorValues when calculating the star's value-->
+    </kStarColorValueVariance>
+    <kStarTypeValueVariance value="0">
+      <!--Variant applied to kStarTypeValues when calculating the star's value-->
+    </kStarTypeValueVariance>
+    <kStarMassValueVariance value="0">
+      <!--Variant applied to kStarMassValues when calculating the star's value-->
+    </kStarMassValueVariance>
+    <kSearchForSimsRadius value="200">
+      <!--Radius of how far you want to search for sims that the Sim will see through the telescope-->
+    </kSearchForSimsRadius>
+    <kSearchForObjectsRadius value="200">
+      <!--Radius of how far you want to search for sims that the Sim will see through the telescope-->
+    </kSearchForObjectsRadius>
+    <kReactionTypeChances value="25, 25, 25, 25">
+      <!--Surprised, Laugh, Wonderment, Disgust-->
+    </kReactionTypeChances>
+    <kChanceOfSeeingSim value="30">
+      <!--0-100 Percent chance of seeing a sim while looking/stargazing-->
+    </kChanceOfSeeingSim>
+    <kChanceOfSeeingObject value="40">
+      <!--0-100 Percent chance of seeing an object while looking/stargazing-->
+    </kChanceOfSeeingObject>
+    <kChanceOfNotReactingWhenStargazing value="10">
+      <!--0-100, Chance that the sim will not react when they see a star, planet, etc while doing the stargazing interaction-->
+    </kChanceOfNotReactingWhenStargazing>
+    <kChanceOfSeeingGhostIfTheyExist value="30">
+      <!--0-100 percent chance of seeing a ghost while stargazing provided there are ghosts within the kSearchForSimsRadius-->
+    </kChanceOfSeeingGhostIfTheyExist>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="10">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kNumSimLettersSubString value="3">
+      <!--Number of letters in Sim's name to use when checking if sim name is a subset of the star's name-->
+    </kNumSimLettersSubString>
+    <kValueModifier value="1.5">
+      <!--Modifier to apply to how much extra money you make off a discovery if you are a celestial explorer-->
+    </kValueModifier>
+    <kTimeToWaitToEvict value="15">
+      <!--Time to wait to evict a lower priority Sim from this object, in Sim minutes-->
+    </kTimeToWaitToEvict>
+    <kLogicSkillGainRateWhileSearchingGalaxy value="10">
+      <!--Logic skill gain rate in Points per Min when you are doing the SearchGalaxy interaction-->
+    </kLogicSkillGainRateWhileSearchingGalaxy>
+    <kNpcContinueSearchingGalaxyChance value="50">
+      <!--Percent chance that an npc sim will continue searching the galaxy after finding an already existing star-->
+    </kNpcContinueSearchingGalaxyChance>
+    <kPercentChanceFindFallingMeteoriteWhileSearchingGalaxy value="0.05">
+      <!--During Search Galaxy interaction, Percent chance (0-1) of seeing a falling meteorite-->
+    </kPercentChanceFindFallingMeteoriteWhileSearchingGalaxy>
+    <kChanceFallingMeteoriteIsHuge value="0.25">
+      <!--Percent chance size of the meteor that falls is Huge VS Large.-->
+    </kChanceFallingMeteoriteIsHuge>
+    <kPercentChanceFindFallingMeteoriteWhileStargazing value=".05">
+      <!--During Stargaze interaction, Percent chance (0-1) of seeing a falling meteorite-->
+    </kPercentChanceFindFallingMeteoriteWhileStargazing>
+    <kTimeToSpawnMeteorWhileStargazingMin value="30">
+      <!--Minimum time in sim minutes to create a space rock when the sim happens to discovers one while stargazing-->
+    </kTimeToSpawnMeteorWhileStargazingMin>
+    <kTimeToSpawnMeteorWhileStargazingMax value="120">
+      <!--Maximum time in sim minutes to create a space rock when the sim happens to discovers one while stargazing-->
+    </kTimeToSpawnMeteorWhileStargazingMax>
+    <kMeteorTimeOutLength value="24">
+      <!--Amount of time in sim hours since rocks creation to delete the rock if it has not been collected-->
+    </kMeteorTimeOutLength>
+    <kMaxLengthOfNamedDiscovery value="25">
+      <!--Maximum length the player can name a newly discovered celestial object.  MAKE sure this localized string is within this length.  Gameplay/Objects/HobbiesSkills/Telescope:DefaultDiscoveryName-->
+    </kMaxLengthOfNamedDiscovery>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kStarColorValueVarient value="10">
+      <!--Varient applied to kStarColorValues when calculating the star's value-->
+      <!--deprecated on: 4/16/2008 5:03:41 PM-->
+    </kStarColorValueVarient>
+    <kStarTypeValueVarient value="5">
+      <!--Varient applied to kStarTypeValues when calculating the star's value-->
+      <!--deprecated on: 4/16/2008 5:03:41 PM-->
+    </kStarTypeValueVarient>
+    <kStarMassValueVarient value="5">
+      <!--Varient applied to kStarMassValues when calculating the star's value-->
+      <!--deprecated on: 4/16/2008 5:03:41 PM-->
+    </kStarMassValueVarient>
+  </Deprecated_Tuning>
+</base>

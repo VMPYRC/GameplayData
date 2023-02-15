@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAutonomousFoodTypeWeights value="5, 2, 2, 5">
+      <!--[Food, Hot Drink, Cold Drink, IceCream] When an NPC autonomously chooses to get food from the concessions stand these weights effect the odds of picking each food type.-->
+    </kAutonomousFoodTypeWeights>
+    <kTempChangePerSipHotDrink value="2">
+      <!--Positive Float: Amount to modify Sim temperature by each time they take a sip of a hot drink bought at the concessions stand.-->
+    </kTempChangePerSipHotDrink>
+    <kTempChangePerSipColdDrink value="-2">
+      <!--Negative Float: Amount to modify Sim temperature by each time they take a sip of a cold drink bought at the concessions stand.-->
+    </kTempChangePerSipColdDrink>
+    <kMinMaxWanderBeforeDrink value="3, 6">
+      <!--Range floats > 0: Description:  Min/Max distance sim will wander away after buying a drink before taking first sip-->
+    </kMinMaxWanderBeforeDrink>
+    <kHungerToDisallowDrinks value="20">
+      <!--Float [-100 to 100]: When sim's hunger is below this number and they autonomously buy from the stand they will only pick Food items and not drinks-->
+    </kHungerToDisallowDrinks>
+  </Current_Tuning>
+</base>

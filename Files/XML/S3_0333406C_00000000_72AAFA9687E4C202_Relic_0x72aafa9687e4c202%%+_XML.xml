@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentPerValue value="0.01">
+      <!--Multiplier applied to relic's value to get its environment score.-->
+    </kEnvironmentPerValue>
+    <kMaxEnvironment value="15">
+      <!--Max environment score for relics-->
+    </kMaxEnvironment>
+    <kAgeCuttoffs value="999, 2500, 5000, 999999">
+      <!--Age Cutoffs for each age category: Contemporary, Old, Antique, Ancient. NOTE: Ancient cuttoff only applys to calculating value-->
+    </kAgeCuttoffs>
+    <kMinValueMultiplierPerAge value="0.4, 0.95, 1.1, 1.3">
+      <!--Min Value Multiplier Per age category: Contemporary, Old, Antique, Ancient-->
+    </kMinValueMultiplierPerAge>
+    <kMaxValueMultiplierPerAge value="0.75, 1.05, 1.25, 1.5">
+      <!--Max Value Multiplier per age category: Contemporary, Old, Antique, Ancient-->
+    </kMaxValueMultiplierPerAge>
+    <kToolTipColorForAge value="4291868823, 4283262416, 4286914256, 4291830206">
+      <!--Color of title part of tooltip for relic if age is Contemporary, Old, Antique, Ancient.-->
+    </kToolTipColorForAge>
+    <kUnknownAgeToolTipColor value="4291256675">
+      <!--Color of title part of tooltip for relic if age is unknown.-->
+    </kUnknownAgeToolTipColor>
+    <kMinDistanceToView value="1">
+      <!--Minimum Distance at which the Sim will view the relic. Positive float.-->
+    </kMinDistanceToView>
+    <kMaxDistanceToView value="3">
+      <!--Maximum Distance at which the Sim will view the relic. Positive float.-->
+    </kMaxDistanceToView>
+  </Current_Tuning>
+</base>

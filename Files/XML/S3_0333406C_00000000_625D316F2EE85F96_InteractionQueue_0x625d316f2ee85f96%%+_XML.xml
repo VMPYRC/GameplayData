@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxMinutesRemainingNotToAutosolve value="15">
+      <!--Float: If the number of minutes remaining in the interaction is <= to this, the Sim will not exit to autosolve.-->
+    </kMaxMinutesRemainingNotToAutosolve>
+    <kFunInteractionReturnThreshold value="95">
+      <!--Float: If the Sim is in an interaction using fun exit and their fun is >= to this value, they will not return to this interaction if interrupted-->
+    </kFunInteractionReturnThreshold>
+    <kUserMaxLength value="8">
+      <!--Range:  1-10  Description:  Number of visible interactions the player can enqueue.-->
+    </kUserMaxLength>
+    <kApplyLocalToddlerCareRulesToUserDirectedActions value="False" />
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

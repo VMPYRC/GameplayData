@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDelayShort value="4">
+      <!--Range: 0-100 (decimals o.k.), Description: This represents the time in sim minutes that the delay between turn on / off. E.G. 1 minute on, then 1 minute off.-->
+    </kDelayShort>
+    <kDelayLong value="6">
+      <!--Range: 0-100 (decimals o.k.), Description: This represents the time in sim minutes that the delay between turn on / off. E.G. 5 minute on, then 5 minute off.-->
+    </kDelayLong>
+    <kOneShotDuration value="240">
+      <!--Duration in sim seconds of a Stage Effect Fire.  E.g. Shoot out fire for 30 seconds then resume previous setup-->
+    </kOneShotDuration>
+  </Current_Tuning>
+</base>

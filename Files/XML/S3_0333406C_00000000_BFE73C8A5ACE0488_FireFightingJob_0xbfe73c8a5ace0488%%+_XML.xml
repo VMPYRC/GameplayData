@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinToAddToInitialTime value="15">
+      <!--Number of minutes to add when fire was discovered by a bad alarm-->
+    </kMinToAddToInitialTime>
+    <kMinSizeRoomForSmallFire value="10">
+      <!--Range:  uint Description:  Min size in Tile quadrants small fire can go into-->
+    </kMinSizeRoomForSmallFire>
+    <kChanceToReceiveThanksCall value="60">
+      <!--Range:  1-100  Description:  Chance will get a phone call later that night-->
+    </kChanceToReceiveThanksCall>
+    <kXpLoseForJobFailing value="-120">
+      <!--Range:  float  Description:  XP lose for missing a job-->
+    </kXpLoseForJobFailing>
+    <kEarthquakeCameraShakeDuration value="4">
+      <!--How long to shake the camera when there is an earthquake.-->
+    </kEarthquakeCameraShakeDuration>
+    <kEarthquakeCameraShakeIntensity value="1">
+      <!--Camera Shake Intensity-->
+    </kEarthquakeCameraShakeIntensity>
+    <kMainteneceInitalTimeDelay value="30">
+      <!--Number of minutes to add based on the maintence level of the alarm, lerps between this and 0 minutes for a perfectly maintained alarm-->
+    </kMainteneceInitalTimeDelay>
+    <kNumEarthquakeJobsToCreate value="3">
+      <!--Number of Earthquake jobs to spawn-->
+    </kNumEarthquakeJobsToCreate>
+    <kEarthquakeTimeUntilTNS value="4">
+      <!--Sim Minutes: TimeDelay between camera shake and first TNS popping up when an earthquake happens.-->
+    </kEarthquakeTimeUntilTNS>
+    <kEarthquakeTimeUntilAlarms value="3">
+      <!--Sim Minutes: Time delay between earthquake TNS and alarms going off.-->
+    </kEarthquakeTimeUntilAlarms>
+  </Current_Tuning>
+</base>

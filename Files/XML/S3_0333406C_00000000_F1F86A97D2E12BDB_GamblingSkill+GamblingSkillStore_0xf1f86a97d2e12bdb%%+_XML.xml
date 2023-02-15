@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDistractionChangeMultiplierAfterWin value="0.9">
+      <!--Multiplier when winning.  GPE default:90%-->
+    </kDistractionChangeMultiplierAfterWin>
+    <kDistractionChangeAfterLoss value="2.0">
+      <!--Added value after loss.  GPE default 2-->
+    </kDistractionChangeAfterLoss>
+    <kDistractionChangeAfterAnnoyance value="10.0">
+      <!--Added value after annoying sim.  GPE default 10-->
+    </kDistractionChangeAfterAnnoyance>
+    <kWinningStreakThreshold value="50">
+      <!--percent threshold to be on a winning streak-->
+    </kWinningStreakThreshold>
+    <kWinningThreshold value="25">
+      <!--percent threshold to be winning-->
+    </kWinningThreshold>
+    <kLosingThreshold value="-25">
+      <!--percent threshold to be losing-->
+    </kLosingThreshold>
+    <kLosingStreakThreshold value="-50">
+      <!--percent threshold to be on losing streak-->
+    </kLosingStreakThreshold>
+    <kNumGamesInStreak value="8">
+      <!--Streak length-->
+    </kNumGamesInStreak>
+    <kDistractionMoodletThreshold value="30">
+      <!--Level needed to become distracted or get the ego boost-->
+    </kDistractionMoodletThreshold>
+    <kAnnoyedMoodletThreshold value="50">
+      <!--Level needed to become annoyed rather than distracted-->
+    </kAnnoyedMoodletThreshold>
+  </Current_Tuning>
+</base>

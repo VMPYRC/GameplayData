@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kExitVenueAlarmRepeatTime value="7">
+      <!--Range:  0+  Description:  How often the exit venue alarm repeats for pushing guests to leave a closed venue (in mins).-->
+    </kExitVenueAlarmRepeatTime>
+    <kTimeBeforeVenueOpenWhenAllowedToVisit value="1">
+      <!--Range:  0+  Description:  Time in hours before a venue opens when the visit lot option is not greyed out-->
+    </kTimeBeforeVenueOpenWhenAllowedToVisit>
+    <kChanceNPCImmediatelyGoesHomeAfterVenueCloses value="50">
+      <!--Range:  0+  Description: Chance that an NPC will choose to immediately go home when the venue closes. Be aware that sims might be pushed to leave multiple times-->
+    </kChanceNPCImmediatelyGoesHomeAfterVenueCloses>
+    <kStaggeredExitTimeDelta value="1">
+      <!--Range:  0+  Description:  The time delta, in Sim hours, before closing when NPC Sims will start going home-->
+    </kStaggeredExitTimeDelta>
+    <kStaggeredExitTimeInterval value="10">
+      <!--Range:  0+  Description:  The time interval, in Sim minutes, when we will try to send NPC Sims home when close to closing time-->
+    </kStaggeredExitTimeInterval>
+    <kStaggeredExitChance value="0.5">
+      <!--Range:  0+  Description:  The chance that an NPC Sim will go home when close to closing time-->
+    </kStaggeredExitChance>
+    <kTimeOfPartyEnd value="6">
+      <!--Range:  0+  Description:  The time at which, even with parties going on, venues will close-->
+    </kTimeOfPartyEnd>
+    <kPartyEndCheckInterval value="30">
+      <!--Range:  0+  Description:  The interval, in Sim minutes, at which we check if a party has ended-->
+    </kPartyEndCheckInterval>
+  </Current_Tuning>
+</base>

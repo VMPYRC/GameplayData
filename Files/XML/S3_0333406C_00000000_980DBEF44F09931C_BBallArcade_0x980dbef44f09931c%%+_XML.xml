@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGameLengthInMinutes value="30">
+      <!--Length of game in sim minutes-->
+    </kGameLengthInMinutes>
+    <kBasketOdds value="15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70">
+      <!--Odds of making baskets at various skill levels-->
+    </kBasketOdds>
+    <kMaxDistanceBetwenArcades value="10">
+      <!--Positive float. Max distance second arcade can to be to compete. In meters-->
+    </kMaxDistanceBetwenArcades>
+    <kMaxTimeWaitForRace value="10">
+      <!--Time to wait for another player-->
+    </kMaxTimeWaitForRace>
+    <kChallengeGameSocialBoost value="20">
+      <!--Social bump to give for completing a game challenge against opponent.-->
+    </kChallengeGameSocialBoost>
+    <kChallengeGameRelationshipBoost value="10">
+      <!--Relationship bump to give for completing a challenge against opponent.-->
+    </kChallengeGameRelationshipBoost>
+    <kScoreStreakLength value="3">
+      <!--Streak length to get on fire buff-->
+    </kScoreStreakLength>
+    <kScoreToWinSinglePlayer value="7">
+      <!--Minimum score to get sirens on single player-->
+    </kScoreToWinSinglePlayer>
+  </Current_Tuning>
+</base>

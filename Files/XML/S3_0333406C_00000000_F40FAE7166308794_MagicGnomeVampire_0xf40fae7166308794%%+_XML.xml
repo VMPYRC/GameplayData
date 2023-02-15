@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeVampireRisingSun,magicGnomeVampireSneak,magicGnomeVampireFly,magicGnomeVampireBloodFruit,magicGnomeVampireBite">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeVampireSlumber">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeVampireSneak,magicGnomeVampireBloodFruit,magicGnomeVampireBite">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeVampireFly">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeVampireSlumber">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="magicGnomeVampireRisingSun,magicGnomeVampireSneak">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="2">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kGnomeTuning>
+    <kDesireForSnugglesBear value="2.5">
+      <!--OBJECT DESIREABILITY: score multiplier for Snuggles WugglesWorth bears.-->
+    </kDesireForSnugglesBear>
+    <kTimeBeforeBearTurnsToVampire value="1.5">
+      <!--Amount of time in hours it takes for a snuggles wugglesworth bear to turn into a vampire after a gnome bites it-->
+    </kTimeBeforeBearTurnsToVampire>
+    <kTimeOfDayWhenGnomeVampireSpawns value="2">
+      <!--Hour during the day (24hour system) when we check if we should spawn a vampire gnome-->
+    </kTimeOfDayWhenGnomeVampireSpawns>
+    <kBloodFruitPlantsNeededForSpawn value="3">
+      <!--If you have this many bloodfruit plants in your yard, a vampire gnome has a chance to spawn if you don't already have one-->
+    </kBloodFruitPlantsNeededForSpawn>
+    <kBitePoses value="magicGnomeVampireBite">
+      <!--Bite poses - list of model names-->
+    </kBitePoses>
+    <kChanceGnomeVampireSpawns value="15">
+      <!--Chance a vampire gnome will spawn if you don't already have one and you have enough bloodfruit plants-->
+    </kChanceGnomeVampireSpawns>
+    <kOffsetFromSunrise value="0.2">
+      <!--Hours after sunrise when the vampire gnome will attempt to move indoors-->
+    </kOffsetFromSunrise>
+  </Current_Tuning>
+</base>

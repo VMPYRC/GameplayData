@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCarWaitingTimeRange value="5, 10">
+      <!--Range in sim minutes a car will wait before routing to a new location.-->
+    </kCarWaitingTimeRange>
+    <kCarDriveAroundTimeRange value="0.5, 1">
+      <!--Range in sim hours that a car will drive around for before getting destroyed.-->
+    </kCarDriveAroundTimeRange>
+    <kTrafficCheckTime value="0.1, 0.5">
+      <!--Range in sim hours that the traffic manager update will fire to create new cars for lots.-->
+    </kTrafficCheckTime>
+    <kAfterSpawnWaitTime value="100, 100">
+      <!--Random range in ticks that the simulator sleeps after creating a car.  Setting this range to be too small will cause choppy performance; setting it too high will cause cars to be created too slowly.-->
+    </kAfterSpawnWaitTime>
+  </Current_Tuning>
+</base>

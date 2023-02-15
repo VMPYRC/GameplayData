@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAngryGhostReactionCooldownTime value="10">
+      <!--Range:  0+  Description:  The cooldown time, in Sim minutes, to react to angry ghsots-->
+    </kAngryGhostReactionCooldownTime>
+    <kFaintChance value="0.2">
+      <!--Range:  0+  Description:  The chance to faint when you see an angry ghost-->
+    </kFaintChance>
+    <kFaintChanceMultiplierCoward value="4">
+      <!--Range:  0+  Description:  The chance to faint multiplier for Coward Sims-->
+    </kFaintChanceMultiplierCoward>
+    <kPositiveReactionChance value="0.5">
+      <!--Range:  0+  Description:  The chance that Daredevil, Childish, and Oddly Powerful Sims will have a positive reaction-->
+    </kPositiveReactionChance>
+    <kPositiveReactionMinimumMood value="0">
+      <!--Range:  -100 - 100  Description:  The minimum mood required to have a positive reaction to the ghost-->
+    </kPositiveReactionMinimumMood>
+    <kNotScaredChance value="0.7">
+      <!--Range:  0+  Description:  The chance that Daredevil and Brave Sims will not be scared by the ghost-->
+    </kNotScaredChance>
+  </Current_Tuning>
+</base>

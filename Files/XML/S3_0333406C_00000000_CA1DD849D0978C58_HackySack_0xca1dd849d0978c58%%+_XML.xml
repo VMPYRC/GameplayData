@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToDropSackWhilePlaying value="65, 55, 45, 40, 35, 30, 25, 20, 15, 10, 5">
+      <!--Chance to Fail while playing hacky sack based on Athletic Skill 0-10-->
+    </kChanceToDropSackWhilePlaying>
+    <kDurationOfHackyBeforeTryToPass value="5">
+      <!--Duration in Sim mins the Sim will hold onto the Hacky before they start trying to pass-->
+    </kDurationOfHackyBeforeTryToPass>
+    <kChanceToPassAfterDuration value="35">
+      <!--Percent Chance they will try and pass the hacky after the duration has passed.-->
+    </kChanceToPassAfterDuration>
+    <kDurationOfPlayAloneGame value="90">
+      <!--Duration of Play Alone Game in Sim Mins-->
+    </kDurationOfPlayAloneGame>
+    <kDurationOfPlayWithGame value="120">
+      <!--Duration of Game played with others-->
+    </kDurationOfPlayWithGame>
+    <kChanceToPassFail value="65, 55, 45, 40, 35, 30, 25, 20, 15, 10, 5">
+      <!--Chance to Fail passing based on Athletic Skill 0-10-->
+    </kChanceToPassFail>
+    <kChanceToEpicSuccess value="0, 0, 0, 0, 0, 0, 0, 5, 10, 15, 25">
+      <!--Chance to perform an epic success based on athletic skill 0-10-->
+    </kChanceToEpicSuccess>
+  </Current_Tuning>
+</base>

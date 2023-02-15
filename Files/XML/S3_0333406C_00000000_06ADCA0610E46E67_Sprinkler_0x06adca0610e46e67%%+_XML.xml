@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRangeOfSpray value="2.5">
+      <!--Range of spray is potentially tunable, although 3 works well (positive float - initial GP default 3).-->
+    </kRangeOfSpray>
+    <kReactionBroadcasterParams>
+      <PulseRadius value="3">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <PulseRepeatTime value="10">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kReactionBroadcasterParams>
+    <kUpgradeAutoWaterTuning>
+      <UpgradeTime value="160">
+        <!--The amount of time it takes to do the upgrade in minutes-->
+      </UpgradeTime>
+      <SkillGainRate value="1920">
+        <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+      </SkillGainRate>
+      <BadFailureChance value="50">
+        <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+      </BadFailureChance>
+      <ShouldShockInPuddle value="False">
+        <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+      </ShouldShockInPuddle>
+    </kUpgradeAutoWaterTuning>
+    <kAutoWaterTimeOfDay value="4">
+      <!--(Positive float, time of day - initial GP default 5) Time of day that the sprinkler turns on automatically, if upgraded.-->
+    </kAutoWaterTimeOfDay>
+    <kAutoWaterOffTimeOfDay value="7">
+      <!--(Positive float, time of day - initial GP default 6) Time of day that the sprinkler should turn off automatically, if upgraded.-->
+    </kAutoWaterOffTimeOfDay>
+    <kProcessPeriod value="3">
+      <!--(Positive float, minutes - initial GP default 3) Length of time after which the sprinkler should again enact its realtime processes.-->
+    </kProcessPeriod>
+    <kProcessDelay value="3">
+      <!--(Positive float, minutes - initial GP default 3) Length of time after being turned on at which sprinkler should first enact realtime processes (so that plants aren't immediately watered).-->
+    </kProcessDelay>
+    <kMultipleOfRangeToFlee value="1.2">
+      <!--(Positive float, multiplier - initial GP default 1.2) Multiple of spray range to which Sims flee the sprinkler.-->
+    </kMultipleOfRangeToFlee>
+    <kJumpMinutesMin value="10">
+      <!--Minimum number of game minutes between times a Sim will jump across the sprinkler. (positive int, GP default 10)-->
+    </kJumpMinutesMin>
+    <kJumpMinutesMax value="50">
+      <!--Maximum of game minutes between times a Sim will jump across the sprinkler. (positive int, GP default 50)-->
+    </kJumpMinutesMax>
+    <kMinPlayWithWaterToysTime value="15">
+      <!--Range:  0.0 - Inf  Description: Minimum amount of time in Sim Minutes Sim must stay on current water toy object before considering switching to another-->
+    </kMinPlayWithWaterToysTime>
+    <kChanceSwitchWaterToy value="75">
+      <!--Range:  0 - 100  Description:  Chance of Sim Switching to a different water toy once min time has been reached-->
+    </kChanceSwitchWaterToy>
+    <kTimeForLTRUpdate value="15">
+      <!--Amount of time, in sim minutes, between updates to LTR for sims playing on the sprinkler-->
+    </kTimeForLTRUpdate>
+    <kAmountForLTRUpdate value="2">
+      <!--Amount of LTR to gain every time the alarm is fired off-->
+    </kAmountForLTRUpdate>
+  </Current_Tuning>
+</base>

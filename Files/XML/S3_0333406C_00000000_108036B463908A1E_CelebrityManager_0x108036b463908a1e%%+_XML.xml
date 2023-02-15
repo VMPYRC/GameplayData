@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCelebrityPointsMultiplierForLtrUpdates value="2.25, 1.9, 1.6, 1.3, 1, 0.8, 0.5, 0.25, 0.1, 0.05, 0">
+      <!--This tunable represents a scaling for celebrity points gain based on a difference in the celebrity levels. This tunable needs to be of size (2 * HighestLevel + 1). The left end (0th index) represents the highest difference between sim X and Y's celebrity levels such that sim X is at level 0 and sim Y is at highest level. The right end (last index) represents the case when sim X is at the highest level and sim Y is at level 0. Units: float. This multiplier is applied to an unsigned interger number of points specified in RelationshipBenefits tab for Celebrities tuning and then we floor the values.-->
+    </kCelebrityPointsMultiplierForLtrUpdates>
+    <kCelebrityLevelDeltaForGreetAccept value="0">
+      <!--When running 'Greet Celebrity' interaction on a not-yet-impressed Celebrity Sim, the greet will be accepted if the two Sims are within this many Celebrity Levels of each other.-->
+    </kCelebrityLevelDeltaForGreetAccept>
+    <kTraitsForRejectMean value="MeanSpirited, Evil">
+      <!--When running 'Greet Celebrity' or a 'Try to Impress' interaction on a not-yet-impressed Celebrity Sim and we've determined the Celebrity will reject the greet, the Celebrity will do the 'mean reject' if they have any of these traits  (otherwise will do the 'nice reject').-->
+    </kTraitsForRejectMean>
+    <kMinimumDaysToOpportunity value="0">
+      <!--The minimum number of days between opportunity calls for Celebrities. Initial GPE Default: 0. Units: Positive integer.-->
+    </kMinimumDaysToOpportunity>
+    <kMaximumDaysToOpportunity value="1">
+      <!--The maximum number of days between opportunity calls for Celebrities. Initial GPE Default: 1. Units: Positive integer.-->
+    </kMaximumDaysToOpportunity>
+    <kFilmSimMultiplierStartingLevel value="4">
+      <!--If the sim is in the film career, and has a level of this value or higher, any celebrity points will be multiplied by kFilmSimCelebrityPointMultiplier.  Initial GPE Default: 4. Units: Positive int.-->
+    </kFilmSimMultiplierStartingLevel>
+    <kFilmSimCelebrityPointMultiplier value="1.1">
+      <!--Any time celebrity points are added to a sim with a film career level of kFilmSimMultiplierStartingLevel or higher, the points will be multiplied by this value. Initial GPE Default: 1.1. Units: Positive float.-->
+    </kFilmSimCelebrityPointMultiplier>
+    <kBaseChanceNearbySimReactsToCelebrity value="0.25">
+      <!--Base chance that a Sim (who enters a Celebrity's reaction broadcaster) will react in some way (e.g. take cell phone photo, etc).-->
+    </kBaseChanceNearbySimReactsToCelebrity>
+    <kBonusChanceNearbySimReactsToCelebrityFromCelebrityLevel value="0, 0.25">
+      <!--Bonus chance that a Sim (who enters a Celebrity's reaction broadcaster) will react in some way (e.g. take cell phone photo, etc) based on the Celebrity Level of the Celeb.  This value is added to the base chance to get the total chance.  Format: (bonusChanceAtMinCelebrityLevel, bonusChanceAtMaxCelebrityLevel).  Specify 0 for no effect, 0.5 for 50% additional chance, etc.  We'll linearly interpolate between these 2 values if the Celebrity Level falls between min & max.-->
+    </kBonusChanceNearbySimReactsToCelebrityFromCelebrityLevel>
+    <kMinCelebrityLevelForReactionToCelebrity value="4, 2, 3, 3">
+      <!--Celebrity Levels at which the various 'reactions to celebrities' become available.  Format: (minCelebLevelForAskForAutograph, minCelebLevelForStarStruck, minCelebLevelForTakeCellPhonePhotoSingleSim, minCelebLevelForTakeCellPhonePhotoPaired).-->
+    </kMinCelebrityLevelForReactionToCelebrity>
+    <kReactionToCelebrityRelativeWeights value="1, 5, 3, 1">
+      <!--Relative weightings of the various types of 'reactions to celebrities' (e.g. after we've determined a Sim in the broadcaster range of a Celebrity will react, these values determine which type of reaction they'll do).  Format: (relativeWeightAskForAutograph, relativeWeightStarStruck, relativeWeightTakeCellPhonePhotoSingleSim, relativeWeightTakeCellPhonePhotoPaired).-->
+    </kReactionToCelebrityRelativeWeights>
+    <kCelebrityLevelsApartForAutonomousSocialization value="1">
+      <!--Number of Celebrity Levels apart that two Sims can be before being allowed to socialize with each other (doesn't matter who initiates, could be the lower-celeb-level Sim or the higher-celeb-level Sim). Specify 0 to restrict socializing to Sims of the same Celebrity Level, specify 1 to allow socializing 1 level above or below you, etc.-->
+    </kCelebrityLevelsApartForAutonomousSocialization>
+    <kCelebrityPointsGiftedWhenYouImpressASim value="100">
+      <!--Whenever Sim X impresses Sim Y (or vice versa) they both get celebrity points if they are selectable. Positive integer. Initial GPE Default: 50.-->
+    </kCelebrityPointsGiftedWhenYouImpressASim>
+    <kXFactorCelebrityPointsForRelationshipMultipler value="1.15">
+      <!--Whenever a sim with XFactor trait gains celebrity points for impressing a sim or crossing LTR threshold with Celebrity, the sim gains scaled number of points. Positive float. Initial GPE Default: 2.2f.-->
+    </kXFactorCelebrityPointsForRelationshipMultipler>
+    <kFreeStuffAlarmFrequencyHours value="96, 84, 72, 60, 48">
+      <!--Frequency (in Sim hours) that the 'free stuff' alarm fires for a playable Celebrity Sim.  Format: (celebrityLevel1Hours, celebrityLevel2Hours, celebrityLevel3Hours, celebrityLevel4Hours, celebrityLevel5Hours).-->
+    </kFreeStuffAlarmFrequencyHours>
+    <kFreeStuffChance value="0.65, 0.7, 0.75, 0.8, 0.85">
+      <!--Chance (0 to 1) that we'll give the Celebrity Sim a free object whenever the 'free stuff' alarm fires.  Format: (celebrityLevel1Chance, celebrityLevel2Chance, celebrityLevel3Chance, celebrityLevel4Chance, celebrityLevel5Chance).-->
+    </kFreeStuffChance>
+    <kCallOverPaparazziMaxTries value="3">
+      <!--Max number of times using the call over paparazzi interaction before maxing out the failure chance.-->
+    </kCallOverPaparazziMaxTries>
+    <kCallOverPaparazziFailureChance value="0, 0.5">
+      <!--Chance of failing the call over paparazzi interpolated between 0 and kCallOverPaparazziMaxTries.-->
+    </kCallOverPaparazziFailureChance>
+    <kCallOverPaparazziResetTime value="5">
+      <!--Time of day that the CallOverPaparazzi count gets reset back to 0.-->
+    </kCallOverPaparazziResetTime>
+    <kMinMaxCelebrityDiscount value="0.5, 0.7">
+      <!--Range of new price percentage for celebrity discounted value, between 0.0 and 0.9-->
+    </kMinMaxCelebrityDiscount>
+    <kCelebrityMaxItemsFreebieAllowed value="8">
+      <!--Max number of items allowed for getting a celebrity freebie in a cart-->
+    </kCelebrityMaxItemsFreebieAllowed>
+    <kAbsoluteCelebrityImpressThreshold value="150">
+      <!--Using Impress socials adds Impress Points to a cumulative total per celebrity. Once we reach this threshold we claim that the celebrity has been impressed. Unsigned integer. Initial GPE default: 200.-->
+    </kAbsoluteCelebrityImpressThreshold>
+    <kXFactorBonusMultiplerForImpressSocials value="1.2">
+      <!--During the Impress socials, a sim with X Factor trait will scale the impress points by this fraction per social. Positive float. Initial GPE default: 1.5-->
+    </kXFactorBonusMultiplerForImpressSocials>
+    <kCelebrityImpressSocialAcceptThreshold value="30">
+      <!--Each time a sim attempts to impress a celebrity, the impress points being delivered to that sim is compared to this number to decide whether the celebrity plays an accept social animation. Positive float. Initial GPE default: 60.-->
+    </kCelebrityImpressSocialAcceptThreshold>
+    <kImpressAttemptCount value="6">
+      <!--Number of 'Try to Impress' attempts (within 'kImpressAttemptHours') to trigger a cooldown period (during which the 'Try to Impress' interaction in the pie menu is greyed out).-->
+    </kImpressAttemptCount>
+    <kImpressAttemptHours value="4">
+      <!--Number of Sim Hours within which 'kImpressAttemptCount' impress rejections must occur to be considered in a cooldown period (during which the 'Try to Impress' interaction in the pie menu is greyed out).-->
+    </kImpressAttemptHours>
+    <kDelayBeforeDisgracefulActionIsKnown value="360">
+      <!--Delay in minutes before Disgraceful Action becomes known.-->
+    </kDelayBeforeDisgracefulActionIsKnown>
+    <kLTRLostFromDisgrace value="10">
+      <!--LTR lost with relationships when Disgraced-->
+    </kLTRLostFromDisgrace>
+    <kCooldownAfterClearingName value="4320">
+      <!--Cooldown after clearing name (in minutes)-->
+    </kCooldownAfterClearingName>
+    <kFalselyAccuseTime value="9">
+      <!--Time of day that the FalselyAccused check is made.-->
+    </kFalselyAccuseTime>
+    <kFalselyAccuseMinDelay value="1440">
+      <!--Minimum time (in minutes) before accusation is made.-->
+    </kFalselyAccuseMinDelay>
+    <kFalselyAccuseMaxDelay value="2880">
+      <!--Maximum time (in minutes) before accusation is made.  Max 1440 (24 hours)-->
+    </kFalselyAccuseMaxDelay>
+    <kBaseAccusationChance value="0.01, 0.02, 0.03, 0.04, 0.05">
+      <!--Base chance (0 to 1) that that the celebrity will be falsely accused.  Format: (celebrityLevel1Chance, celebrityLevel2Chance, celebrityLevel3Chance, celebrityLevel4Chance, celebrityLevel5Chance).-->
+    </kBaseAccusationChance>
+    <kPerEnemyAccusationChance value="0.005, 0.005, 0.005, 0.005, 0.005">
+      <!--Per Enemy Chance (0 to 1) that that the celebrity will be falsely accused.  Format: (celebrityLevel1Chance, celebrityLevel2Chance, celebrityLevel3Chance, celebrityLevel4Chance, celebrityLevel5Chance).-->
+    </kPerEnemyAccusationChance>
+    <kMaxAccusationChance value="0.1, 0.15, 0.2, 0.25, 0.30">
+      <!--Max Chance (0 to 1) that that the celebrity will be falsely accused.  Format: (celebrityLevel1Chance, celebrityLevel2Chance, celebrityLevel3Chance, celebrityLevel4Chance, celebrityLevel5Chance).-->
+    </kMaxAccusationChance>
+    <kDisgracedBonusMultiplerForImpressSocials value="0.75">
+      <!--During the Impress socials, a sim with that's disgraced will scale the impress points by this fraction per social. Positive float. Initial GPE default: 0.75-->
+    </kDisgracedBonusMultiplerForImpressSocials>
+    <kMinimumTimeToDecayImpressCelebrityPoints value="3">
+      <!--This is the minimum number of sim hours that we wait before decaying the impress celebrity points. Units: Sim Hours. Positive float. Initial GPE Default: 1.-->
+    </kMinimumTimeToDecayImpressCelebrityPoints>
+    <kImpressCelebrityPointsLostPerSimHour value="5">
+      <!--For every sim hour past kMinimumTimeToDecayImpressCelebrityPoints, the sim loses these many impress points per sim hour. Positive float. Initial GPE Default: 30.-->
+    </kImpressCelebrityPointsLostPerSimHour>
+    <kMinimumTimeToPerformGigInteractionToGiftImpressPoints value="60">
+      <!--After this amount of time, we gift impress points to a sim performing gig. Positive float. Units: Sim Minutes. Initial GPE default: 30f.-->
+    </kMinimumTimeToPerformGigInteractionToGiftImpressPoints>
+    <kCelebrityImpressPointsForPerformingAGig value="30">
+      <!--The amount of celebrity impress points we award sim for each celebrity in the same lot. Positive float. Initial GPE default: 20.-->
+    </kCelebrityImpressPointsForPerformingAGig>
+    <kCelebrityImpressPointsForGrantingAccessInBar value="100">
+      <!--The amount of celebrity impress points we award sim for each celebrity we grant access in the bar. Positive float. Initial GPE default: 20.-->
+    </kCelebrityImpressPointsForGrantingAccessInBar>
+    <kSkillLevelForForceAddSkill value="2, 5">
+      <!--When we force add a random Skill to an NPC that has just been made a Celebrity, these values define the min/max Level of the Skill.  Format: (minSkillLevel, maxSkillLevel).-->
+    </kSkillLevelForForceAddSkill>
+    <kGiveCelebrityGossipCooldownHours value="2">
+      <!--Number of hours between asking for Celebrity Gossip from a specific Sim.  If the Sim is asked again within this cooldown then they will display a cooldown TNS (e.g. 'stop bugging me!').-->
+    </kGiveCelebrityGossipCooldownHours>
+    <kChanceThoughtBalloonImpressHint value="0.75">
+      <!--When an impress attempt 'fails' (i.e. small amount of impress points granted + unenthusiastic animation from celebrity) this is the chance we'll display a thought balloon above the celebrity with an icon of a random trait, occupation or skill he/she has.-->
+    </kChanceThoughtBalloonImpressHint>
+    <kDispelRumorsCooldownTimeInSimHours value="8">
+      <!--Time in sim hours before the sim can use the 'Dispel Rumors' interaction on the same sim.-->
+    </kDispelRumorsCooldownTimeInSimHours>
+    <kDispelRumorsSimMinutesBuffDecrement value="432">
+      <!--Time in sim minutes that the publicly disgraced buff will decrease when the player successfully carries out the dispel rumors social.-->
+    </kDispelRumorsSimMinutesBuffDecrement>
+    <kAskForAutographCooldownTimeInSimHours value="8">
+      <!--Time in sim hours before the sim can use the 'Ask for Autograph' interaction on the same sim.-->
+    </kAskForAutographCooldownTimeInSimHours>
+    <kTimeThresholdBetweenTwoTrackedBarVisitsAtSameLot value="480">
+      <!--When a celebrity visits the same bar, we will not update the bar visit statistic unless the time interval between the two visits is greater than this threshold. Positive float. Units: Sim Minutes. Initial GPE default: 60.-->
+    </kTimeThresholdBetweenTwoTrackedBarVisitsAtSameLot>
+    <kUnemploymentImpressCareerPoints value="40">
+      <!--Point added when you talk about unemployment to a celebrity that is unemployed. Units: Positive float.-->
+    </kUnemploymentImpressCareerPoints>
+    <kRepeatedImpressTopicPercentageDecreaser value="0.25">
+      <!--Porcentage of decreased score when a topic has been repeated. The higher the value, the less score the sim will get the next time it tries the same topic.-->
+    </kRepeatedImpressTopicPercentageDecreaser>
+  </Current_Tuning>
+</base>

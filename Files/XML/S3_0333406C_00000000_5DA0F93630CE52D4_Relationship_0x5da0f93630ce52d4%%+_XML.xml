@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumMinutesForPruningSocialAction value="30">
+      <!--Range:  0 - 100  Description:  Number of minutes before social action can be pruned and allowed to be used again-->
+    </kNumMinutesForPruningSocialAction>
+    <kBaseRandomAttraction value="0, 100">
+      <!--Range: Any float values where max > min  Description: [Min,Max] The range for the initial random value of attraction score.-->
+    </kBaseRandomAttraction>
+    <kTraitModifier value="30">
+      <!--Range: float Description: Modifier to attraction score. Bonus if matching traits, penalty if opposing traits.-->
+    </kTraitModifier>
+    <kCareerBonusPerLevel value="1">
+      <!--Range: positive float Description: Bonus multiplier per career level. i.e. level 7 would be 7 times this value. (Applies for each sim)-->
+    </kCareerBonusPerLevel>
+    <kSkillBonusPerLevel value="0.5">
+      <!--Range: positive float Description: Bonus multiplier per skill level. i.e. level 7 would be 7 times this value. (Applies for each sim)-->
+    </kSkillBonusPerLevel>
+    <kBonusForMatchingOccult value="30">
+      <!--Range: positive float Description: Bonus to attraction score when both sims have the same occult type.-->
+    </kBonusForMatchingOccult>
+    <kCelebrityBonusPerLevel value="2">
+      <!--Range: positive float Description: Bonus multiplier per Celebrity level. i.e. level 7 would be 7 times this value. (Applies for each sim)-->
+    </kCelebrityBonusPerLevel>
+    <kMatchingSignsBonus value="30">
+      <!--Range: positive float Description: Bonus for matching zodiac signs.-->
+    </kMatchingSignsBonus>
+    <kAttractedLTRChangeMultiplier value="1.25">
+      <!--Range: positive float Description: Multiplier to LTR gains for attracted sims.-->
+    </kAttractedLTRChangeMultiplier>
+    <kAttractionThreshold value="101">
+      <!--Range: positive float Description: AttractionScore threshold for these two sims being considered attracted to one another.-->
+    </kAttractionThreshold>
+    <kAttractedRomanticSocialChanceMultiplier value="1.3">
+      <!--Range: positive float Description: Multiplier to LTR gains for attracted sims.-->
+    </kAttractedRomanticSocialChanceMultiplier>
+    <kLikingBonusForAttractedSimsInRomanticSocials value="20">
+      <!--Range: positive float Description: Bonus added to the relationship's liking value when calculating the suitability of a romantic social.-->
+    </kLikingBonusForAttractedSimsInRomanticSocials>
+    <kPositiveBuffList value="FreshClothing, MintyBreath, NiceNails, SmoothSkin, SqueakyClean, VeryFreshClothing, EyeCandy, Stylin, StylinPermanent, Suntanned">
+      <!--Range: positive float Description: Bonus for having a buff in the bonus list (this is per sim, so if both sims have it, it gets applied twice)-->
+    </kPositiveBuffList>
+    <kNegativeBuffList value="GarlicBreath, Grungy, Singed, SingedElectricity, Smelly, Sunburnt, SprayTanBad, SprayTanDiscolored, SprayTanUneven">
+      <!--Range: positive float Description: Penalty for having a buff in the bonus list (this is per sim, so if both sims have it, it gets applied twice)-->
+    </kNegativeBuffList>
+    <kPerBuffModifier value="5">
+      <!--Range: positive float Description: Bonus/Penalty for having a buff in the bonus list (this is per sim, so if both sims have it, it gets applied twice)-->
+    </kPerBuffModifier>
+    <kAttractedMoneyAmounts value="20000, 75000, 150000">
+      <!--Range: positive ints Description: Thresholds for [low,med,high] attraction based on family funds.-->
+    </kAttractedMoneyAmounts>
+    <kAttractedMoneyBonuses value="2, 5, 10">
+      <!--Range: positive float Description: Bonuses for having a certain amount of family funds, determined by kAttractedMoneyAmounts.-->
+    </kAttractedMoneyBonuses>
+    <kAttractionLifetimeRewardBonus value="20">
+      <!--Range: positive float Description: Bonus for having the Attractive lifetime reward from base game.-->
+    </kAttractionLifetimeRewardBonus>
+  </Current_Tuning>
+</base>

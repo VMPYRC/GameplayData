@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumberOfObjectsForSale value="15">
+      <!--Range:  0+  Description:  The number of objects for sale at any given time-->
+    </kNumberOfObjectsForSale>
+    <kSaleProbabilitySkillYValues value="0.5, 0.75, 1">
+      <!--Range:  Array of 0+  Description:  Skill vs. Probability of sale Y values-->
+    </kSaleProbabilitySkillYValues>
+    <kSaleProbabilitySkillXValues value="0, 5, 10">
+      <!--Range:  Array of 0+  Description:  Skill vs. Probability of sale X values-->
+    </kSaleProbabilitySkillXValues>
+    <kSaleProbabilitySkillWeight value="0.25">
+      <!--Range:  0+  Description:  How much Skill affects the sale probability-->
+    </kSaleProbabilitySkillWeight>
+    <kSaleProbabilityValueYValues value="0.5, 0.7, 0.85, 1">
+      <!--Range:  Array of 0+  Description:  Value vs. Probability of sale Y values-->
+    </kSaleProbabilityValueYValues>
+    <kSaleProbabilityValueXValues value="50, 1250, 2500, 4000">
+      <!--Range:  Array of 0+  Description:  Value vs. Probability of sale X values-->
+    </kSaleProbabilityValueXValues>
+    <kSaleProbabilityValueWeight value="0.1">
+      <!--Range:  0+  Description:  How much Value affects the sale probability-->
+    </kSaleProbabilityValueWeight>
+    <kSaleProbabilityFrequencyYValues value="1, 0.9, 0">
+      <!--Range:  Array of 0+  Description:  Consign frequency vs. Probability of sale Y values-->
+    </kSaleProbabilityFrequencyYValues>
+    <kSaleProbabilityFrequencyXValues value="0, 3, 5">
+      <!--Range:  Array of 0+  Description:  Consign frequency vs. Probability of sale X values-->
+    </kSaleProbabilityFrequencyXValues>
+    <kSaleProbabilityFrequencyWeight value="0.3">
+      <!--Range:  0+  Description:  How much Frequency affects the sale probability-->
+    </kSaleProbabilityFrequencyWeight>
+    <kSaleProbabilityAgeYValues value="0, 0.3, 1">
+      <!--Range:  Array of 0+  Description:  Age vs. Probability of sale Y values-->
+    </kSaleProbabilityAgeYValues>
+    <kSaleProbabilityAgeXValues value="1, 3, 5">
+      <!--Range:  Array of 0+  Description:  Age vs. Probability of sale X values-->
+    </kSaleProbabilityAgeXValues>
+    <kSaleProbabilityAgeWeight value="0.4">
+      <!--Range:  0+  Description:  How much Age affects the sale probability-->
+    </kSaleProbabilityAgeWeight>
+    <kSaleProbabilityQualityYValues value="1, 0.75, 0.5">
+      <!--Range:  Array of 0+  Description:  Quality vs. Probability of sale Y values-->
+    </kSaleProbabilityQualityYValues>
+    <kSaleProbabilityQualityXValues value="1, 0.5, 0">
+      <!--Range:  Array of 0+  Description:  Quality vs. Probability of sale X values-->
+    </kSaleProbabilityQualityXValues>
+    <kSaleProbabilityQualityWeight value="0.1">
+      <!--Range:  0+  Description:  How much Quality affects the sale probability-->
+    </kSaleProbabilityQualityWeight>
+    <kTimeOfSale value="17">
+      <!--Range:  0-24  Description:  The time when the user is notified of sold/unsold consigned items-->
+    </kTimeOfSale>
+    <kDailyNumberOfAttemptsDecrement value="0.15">
+      <!--Range:  0+  Description:  Every day, the number of attempts at selling an object will decrease by this amount-->
+    </kDailyNumberOfAttemptsDecrement>
+    <kNumberOfAttemptsWarning value="3">
+      <!--Range:  0+  Description:  The number of attempts at selling an item that will trigger a TNS-->
+    </kNumberOfAttemptsWarning>
+    <kConsignmentLifespan value="5">
+      <!--Range:  0+  Description:  How long an item will remain be consigned for-->
+    </kConsignmentLifespan>
+    <kConsignmentPrices value="2, 1.7, 1.3, 1.1, 1">
+      <!--Range:  Array of 0+  Length:  kConsignmentLifespan  Description:  For every day in consignment, the normal sale price relative to the object's value-->
+    </kConsignmentPrices>
+    <kNumberOfTopSellingItems value="3">
+      <!--Range:  0+  Description:  The maximum number of bullet points when showing top selling items-->
+    </kNumberOfTopSellingItems>
+    <kQualityMinimumThreshold value="0.6">
+      <!--Range:  0+  Description:  The minimum quality necessary to receive positive feedback-->
+    </kQualityMinimumThreshold>
+    <kQualityMinimumChanceOfPositiveFeedback value="0.2">
+      <!--Range:  0+  Description:  The chance of getting a positive feedback at the minimum quality required-->
+    </kQualityMinimumChanceOfPositiveFeedback>
+    <kQualityMaximumChanceOfPositiveFeedback value="0.6">
+      <!--Range:  0+  Description:  The chance of getting a positive feedback at the maximum quality level-->
+    </kQualityMaximumChanceOfPositiveFeedback>
+    <kQualityVsReputationXValues value="0.0, 0.2, 0.5, 0.8, 0.9">
+      <!--Range:  Array of 0+  Description:  Quality vs. Reputation X values (Quality)-->
+    </kQualityVsReputationXValues>
+    <kQualityVsReputationYValues value="-10, 5, 25, 50, 100">
+      <!--Range:  Array of floats  Description:  Quality vs. Reputation Y values (Reputation)-->
+    </kQualityVsReputationYValues>
+    <kReputationBonusForPositiveFeedback value="50">
+      <!--Range:  0+  Description:  Reputation bonus when receiving a positive feedback mention-->
+    </kReputationBonusForPositiveFeedback>
+    <kReputationVsStoreFeeXValues value="200, 4000, 8000">
+      <!--Range:  Array of 0+  Description:  Store Fee vs. Reputation X value (Reputation)-->
+    </kReputationVsStoreFeeXValues>
+    <kReputationVsStoreFeeYValues value="0.10, 0.05, 0">
+      <!--Range:  Array of 0+  Description:  Store Fee vs. Reputation Y values (Store Fee)-->
+    </kReputationVsStoreFeeYValues>
+    <kReputationOpportunitySaleMultiplier value="1.15">
+      <!--Range:  0+  Description:  The sale chance multiplier for Sims with the Reputation lifetime opportunity-->
+    </kReputationOpportunitySaleMultiplier>
+    <kSellXItemsOpportunityReputationGainMultiplier value="1.15">
+      <!--Range:  0+  Description:  The reputation gain multiplier for Sims with the Sell X Items lifetime opportunity-->
+    </kSellXItemsOpportunityReputationGainMultiplier>
+    <kMakeXSimoleonsOpportunityConsignmentFeeMultiplier value="0.85">
+      <!--Range:  0+  Description:  The consignment fee multiplier for Sims with the Make X Simoleons lifetime opportunity-->
+    </kMakeXSimoleonsOpportunityConsignmentFeeMultiplier>
+    <kMadeGoodSaleThreshold value="1.4">
+      <!--Range:  0+  Description:  The price/value threshold that triggers the Made Good Sale buff-->
+    </kMadeGoodSaleThreshold>
+    <kGotGoodDealThreshold value="0.8">
+      <!--Range:  0+  Description:  The price value threshold that triggers the Got Good Deal or Feeling Cheap buff-->
+    </kGotGoodDealThreshold>
+    <kGotRippedOffThreshold value="1.2">
+      <!--Range:  0+  Description:  The price value threshold that triggers the Got Ripped Off buff-->
+    </kGotRippedOffThreshold>
+    <kFrugalThresholdModifier value="0.1">
+      <!--Range:  0+  Description:  The linear modifier for the Got Good Deal and Got Ripped Off thresholds for Frugal Sims-->
+    </kFrugalThresholdModifier>
+    <kMaximumNumberOfPlayerItemsDisplayed value="5">
+      <!--Range:  0+  Description:  The maximum number of user consigned item displayed in the sell list-->
+    </kMaximumNumberOfPlayerItemsDisplayed>
+    <kTimeOfMagicHour value="17">
+      <!--Range:  0-24  Description:  The time when the magic hour potion inventory changes-->
+    </kTimeOfMagicHour>
+    <kNumRotatingPotions value="5">
+      <!--Range:  0+  Description:  Number of rotating potions-->
+    </kNumRotatingPotions>
+    <kPotionChanceOnFullMoonModifier value="1.5">
+      <!--Range:  0+  Description:  Chance multiplier for selling potions on full moon-->
+    </kPotionChanceOnFullMoonModifier>
+    <kBonusForPotionsEtcMultiplier value="1.2">
+      <!--Range:  0+  Description:  Fee adjustmunt multiplier for Potions etc (replaces tunable bonus from design)-->
+    </kBonusForPotionsEtcMultiplier>
+    <kSelfEmployedAlchemistSalesBonusPerLevel value="1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2">
+      <!--Range:  Array of 11 floats  Description:  The price/value multiplier for a sim registered as self-employed alchemists per level of career.-->
+    </kSelfEmployedAlchemistSalesBonusPerLevel>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFunDelta value="0.25">
+      <!--Fun gaining delta when cat's in kittybag.-->
+    </kFunDelta>
+    <kAdventuresCatFunMultiplier value="1.2">
+      <!--Fun multiplier for adventures cat, bigger than 1.-->
+    </kAdventuresCatFunMultiplier>
+    <kLureAutonomousCooldown value="25">
+      <!--SimMinutes, After player cancels an autonomously queued up Lure interaction, cat must wait this many sim mins before trying to autonomously do it again.-->
+    </kLureAutonomousCooldown>
+    <kStayInBagCooldown value="45">
+      <!--SimMinutes, inside this time period cat will ignore the autonomy-->
+    </kStayInBagCooldown>
+  </Current_Tuning>
+</base>

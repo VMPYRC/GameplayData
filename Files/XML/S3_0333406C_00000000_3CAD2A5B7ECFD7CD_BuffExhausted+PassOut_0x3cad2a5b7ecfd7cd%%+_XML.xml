@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPassOutMinutes value="10">
+      <!--Range:  Sim minutes.  Description:  Number of minutes to pass out when motive failing for energy.-->
+    </kPassOutMinutes>
+    <kDistanceToReact value="10">
+      <!--Range:  Distance.  Description:  Distance at which Sims react to another Sim passing out.-->
+    </kDistanceToReact>
+    <kEnergyHitOnFailToKnockOut value="20">
+      <!--Energy hit for when a sim fails to be knocked out.-->
+    </kEnergyHitOnFailToKnockOut>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumMinsToLightsOut value="30">
+      <!--How many Sim Minutes to wait to turn off lights after last sim gets out of hot tub on a residential lot.-->
+    </kNumMinsToLightsOut>
+    <kTimeToTurnOnLightsDelta value="1">
+      <!--Hour delta from world defined sunset at which hot tub lights should turn on for community lots-->
+    </kTimeToTurnOnLightsDelta>
+    <kTimeToTurnOffLightsDelta value="0">
+      <!--Hour delta from world defined sunrise at which hot tub lights should turn off for community lots-->
+    </kTimeToTurnOffLightsDelta>
+    <kUpgradeImprovedJetsTuning>
+      <UpgradeTime value="300">
+        <!--The amount of time it takes to do the upgrade in minutes-->
+      </UpgradeTime>
+      <SkillGainRate value="5000">
+        <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+      </SkillGainRate>
+      <BadFailureChance value="35">
+        <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+      </BadFailureChance>
+      <ShouldShockInPuddle value="True">
+        <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+      </ShouldShockInPuddle>
+    </kUpgradeImprovedJetsTuning>
+    <kOooBubblesEffect value="15">
+      <!--OooBubbles effect without jet upgrades-->
+    </kOooBubblesEffect>
+    <kOooBubblesEffectWithUpgrade value="30">
+      <!--OooBubbles effect with jet upgrades-->
+    </kOooBubblesEffectWithUpgrade>
+    <kChanceOfSplashReactPositive value="0.75">
+      <!--Range: 0-1 Description: Chance of sim Reacting positive if they dont have any of the called out positive or negegative traits.-->
+    </kChanceOfSplashReactPositive>
+    <kChanceOfSplashBack value="0.3">
+      <!--Range: 0-1 Description: Chance of sim to splash back.-->
+    </kChanceOfSplashBack>
+    <kLtrSplashPositive value="1">
+      <!--Range: Positive number. Description: Increase in LTR Due to positive splash reaction-->
+    </kLtrSplashPositive>
+    <kLtrSplashNegative value="-3">
+      <!--Range: Negative number. Description: Decrease in LTR Due to negative splash reaction-->
+    </kLtrSplashNegative>
+    <kLTRForShoo value="15">
+      <!--LTR level at which you can shoo another sim out of the hottub-->
+    </kLTRForShoo>
+    <kRouteAwayDistanceMinimum value="1">
+      <!--Range:  0+  Description:  The minimum distance a sim getting out of the hottub without anything else in their queue will wonder away so they aren't standing on the routing slot looking dumb-->
+    </kRouteAwayDistanceMinimum>
+    <kRouteAwayDistanceMaximum value="3">
+      <!--Range:  0+  Description:  The minimum distance a sim getting out of the hottub without anything else in their queue will wonder away so they aren't standing on the routing slot looking dumb-->
+    </kRouteAwayDistanceMaximum>
+    <kCommodityFromSplashPositive value="Funny">
+      <!--Target commodity due to splashing.  Must be Valid commodity enum value-->
+    </kCommodityFromSplashPositive>
+    <kCommodityValueFromSplashPositive value="20">
+      <!--Target STC value due to splashing-->
+    </kCommodityValueFromSplashPositive>
+    <kCommodityFromSplashNegative value="Steamed">
+      <!--Target commodity due to splashing.  Must be Valid commodity enum value-->
+    </kCommodityFromSplashNegative>
+    <kCommodityValueFromSplashNegative value="-20">
+      <!--Target STC value due to splashing-->
+    </kCommodityValueFromSplashNegative>
+    <kRequiredFairySkillLevelRepair value="3">
+      <!--Minimum fairy skill level requirement for the fairy repair interaction-->
+    </kRequiredFairySkillLevelRepair>
+    <kSimTemperatureUpperCap value="40">
+      <!--Range: positive floats. When sims use the hottub, their sim temperature will increase until this cap-->
+    </kSimTemperatureUpperCap>
+    <kUpkeepCost value="60, 25">
+      <!--Range: positive floats. hot/tepid upkeep costs-->
+    </kUpkeepCost>
+    <kScore value="60, 25">
+      <!--Range: positive floats. hot/tepid score-->
+    </kScore>
+    <kReviewTextHotBase value="Sims3/Gameplay/Objects/Plumbing/HotTubBase:HotReviewText">
+      <!--Base string for hot hottub reviews-->
+    </kReviewTextHotBase>
+    <kReviewTextHotCount value="10">
+      <!--number of hot hottub reviews-->
+    </kReviewTextHotCount>
+    <kReviewTextTepidBase value="Sims3/Gameplay/Objects/Plumbing/HotTubBase:TepidReviewText">
+      <!--Base string for tepid hottub reviews-->
+    </kReviewTextTepidBase>
+    <kReviewTextTepidCount value="10">
+      <!--number of tepid hottub reviews-->
+    </kReviewTextTepidCount>
+    <kSimsServedCapacity value="50">
+      <!--number of Sims a hottub can satisfy-->
+    </kSimsServedCapacity>
+  </Current_Tuning>
+</base>

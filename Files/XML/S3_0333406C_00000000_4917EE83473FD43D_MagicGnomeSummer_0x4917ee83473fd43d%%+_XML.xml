@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCheckForSummerGnomeTime value="6">
+      <!--The number of sim hours between tries to create a summer gnome 0.0+-->
+    </kCheckForSummerGnomeTime>
+    <kTemperatureRequiredForSummerGnome value="90">
+      <!--The minimum temperature required to spawn a gnome. 0.0+-->
+    </kTemperatureRequiredForSummerGnome>
+    <kChanceOfSpawningOnHotDay value="0.02">
+      <!--The chance of a summer gnome spawning on a very hot day. 0.0 - 1.0-->
+    </kChanceOfSpawningOnHotDay>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeSummerPonder,magicGnomeSummerRun,magicGnomeSummerThumbsUp">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeSummerSit">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeSummerScope,magicGnomeSummerThumbsUp">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeSummerSit">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeSummerSit">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="1">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kGnomeTuning>
+    <kWeightGrill value="2">
+      <!--The weight of the grills for attracting summer gnomes. 0.0+-->
+    </kWeightGrill>
+    <kWeightFireworks value="2">
+      <!--The weight of fireworks for attracting summer gnomes. 0.0+-->
+    </kWeightFireworks>
+  </Current_Tuning>
+</base>

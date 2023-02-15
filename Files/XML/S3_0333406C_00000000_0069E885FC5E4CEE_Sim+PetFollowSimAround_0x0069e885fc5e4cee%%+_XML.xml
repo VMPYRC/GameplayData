@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kComplainingHungerLevel value="-50">
+      <!--Level the pet's hunger motive should be below before they start complaining-->
+    </kComplainingHungerLevel>
+    <kComplainingSocialLevel value="-75">
+      <!--Level the pet's social motive should be below before they start complaining-->
+    </kComplainingSocialLevel>
+    <kComplainingFunLevel value="-75">
+      <!--Level the pet's fun motive should be below before they start complaining-->
+    </kComplainingFunLevel>
+    <kDogFunMotiveSocials value="Tug Of War, Have Fun">
+      <!--List of possible socials to push for dog fun motive satisification-->
+    </kDogFunMotiveSocials>
+    <kCatFunMotiveSocials value="Have Fun">
+      <!--List of possible socials to push for cat fun motive satisification-->
+    </kCatFunMotiveSocials>
+    <kHorseFunMotiveSocials value="Pet On Floor">
+      <!--List of possible socials to push for horse fun motive satisification-->
+    </kHorseFunMotiveSocials>
+    <kTimeToFollowSim value="60">
+      <!--How long a pet should follow the Sim around once he enters the home, in minutes-->
+    </kTimeToFollowSim>
+    <kTimeBetweenReactionsSim value="10">
+      <!--How long should pass between reaction animations and thought balloons for motives low, in minutes-->
+    </kTimeBetweenReactionsSim>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBatteryLevelThresholds value="-50, 0, 85">
+      <!--3 Floats. Threshold for battery levels to display. Full power is displayed when the value is greater than the last number in the list.-->
+    </kBatteryLevelThresholds>
+    <kMaxQuickChargeTime value="60">
+      <!--Max Sim minutes for the robot to quick charge-->
+    </kMaxQuickChargeTime>
+  </Current_Tuning>
+</base>

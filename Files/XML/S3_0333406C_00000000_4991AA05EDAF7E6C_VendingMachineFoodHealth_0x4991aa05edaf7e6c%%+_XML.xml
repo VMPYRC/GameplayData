@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTuning>
+      <HungerGain value="0">
+        <!--Range: Positive float. How much hunger the sim should gain from eating this vending machine food.-->
+      </HungerGain>
+      <MealBuffStrength value="0">
+        <!--Range: Positive int. Strength of the Meal buff the sim gets form eating this. Reference Cooking tunables to see ranges for Good/Great/Amazing buffs. Set to 0 for no buff.-->
+      </MealBuffStrength>
+      <MealBuffDuration value="120">
+        <!--Range: Positive float. Duration of the Meal buff the sim gets form eating this. Reference Cooking tunables to see ranges for Good/Great/Amazing buffs.-->
+      </MealBuffDuration>
+      <kFatPercentageGainCandy value="0.05">
+        <!--Range: Fat percentage.  Description:  Fat percentage gain from eating Candy.  As demonstrated in the Sims 3 Trailer.-->
+      </kFatPercentageGainCandy>
+      <kFatPercentageGainHealthBar value="0">
+        <!--Range: Fat percentage.  Description:  Fat percentage gain from eating Health bars.  As demonstrated in the Sims 3 Trailer.-->
+      </kFatPercentageGainHealthBar>
+      <kFatPercentageGainDrink value="0.05">
+        <!--Range: Fat percentage.  Description:  Fat percentage gain from drinking drinks.  As demonstrated in the Sims 3 Trailer.-->
+      </kFatPercentageGainDrink>
+    </kTuning>
+  </Current_Tuning>
+</base>

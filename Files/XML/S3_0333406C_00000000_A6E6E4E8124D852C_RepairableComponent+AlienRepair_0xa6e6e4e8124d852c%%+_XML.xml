@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinBrainPower value="-80">
+      <!--The minimum amount of ABP in order to do alien repair.-->
+    </kMinBrainPower>
+    <kRadialRouteRange value="1, 3">
+      <!--The radial range the Alien will route to do the repair.-->
+    </kRadialRouteRange>
+    <kRepairTime value="5">
+      <!--How long the repair will take in Sim minutes.-->
+    </kRepairTime>
+    <kRepairReactions value="Cheer, PumpFist">
+      <!--The alien will play one of these reactions after repairing the object.-->
+    </kRepairReactions>
+  </Current_Tuning>
+</base>

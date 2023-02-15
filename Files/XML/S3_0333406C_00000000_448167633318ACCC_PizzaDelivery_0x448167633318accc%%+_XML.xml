@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kServiceLength value="0.75">
+      <!--Length of time (in hours) that pizza delivery waits at the door with the pizza before giving up and leaving-->
+    </kServiceLength>
+    <kDelayBeforeArriving value="0.5">
+      <!--Length of time (in hours) that pizza delivery guy waits before routing to lot-->
+    </kDelayBeforeArriving>
+    <kDelayBeforeLeaving value=".15">
+      <!--Length of time (in hours) that pizza delivery guy waits before leaving the lot, after the Receive Pizza interaction-->
+    </kDelayBeforeLeaving>
+    <kServiceTuning>
+      <kMaxNumNPCsInPool value="2">
+        <!--Max num NPCs at once in service-->
+      </kMaxNumNPCsInPool>
+      <kCost value="30">
+        <!--Cost of service-->
+      </kCost>
+      <kIsEmergencyService value="False">
+        <!--If true this service charges kCost only if falsely called, otherwise free.-->
+      </kIsEmergencyService>
+      <kIsRecurrent value="False">
+        <!--Whether the service is recurrent (true) or one-off (false).  Recurrent services are the only type which can be cancelled through the phone dialog.-->
+      </kIsRecurrent>
+      <kAlwaysTryToSendSameSim value="True">
+        <!--Whether or not the service always tries to send the same NPC to a specific household-->
+      </kAlwaysTryToSendSameSim>
+    </kServiceTuning>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

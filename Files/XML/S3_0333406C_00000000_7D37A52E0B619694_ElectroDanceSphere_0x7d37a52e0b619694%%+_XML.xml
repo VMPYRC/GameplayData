@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceOfEpicSpinFail value="0.1">
+      <!--Change of Epic Fail after regular fail. Range 0 - 1-->
+    </kChanceOfEpicSpinFail>
+    <kChanceOfMediumSpin value="0.20">
+      <!--While easy, chance of medium spin. Range 0 - 1-->
+    </kChanceOfMediumSpin>
+    <kChanceOfHardSpin value="0.15">
+      <!--While easy, chance of hard spin. Range 0 - 1-->
+    </kChanceOfHardSpin>
+    <kChanceOfMediumOnHard value="0.1">
+      <!--While hard, chance of medium spin. Range 0 - 1-->
+    </kChanceOfMediumOnHard>
+    <kSkillChanceofFail value="0.25, 0.23, 0.21, 0.19, 0.17, 0.15, 0.13, 0.11, 0.09, 0.07">
+      <!--Range 0-1: Tunable Chance of barfing as per athletic skill-->
+    </kSkillChanceofFail>
+    <kBroadcasterParams>
+      <PulseRadius value="5">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="20">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kBroadcasterParams>
+    <kReactionStaggerTimeInSimSeconds value="120">
+      <!--Reaction stagger time in sim seconds-->
+    </kReactionStaggerTimeInSimSeconds>
+    <kProbabilityOfFail value="30, 40, 50, 0">
+      <!--Percent chance of failure at each speed difficulty (Low, Medium, high, DimensionalGate) 1-100-->
+    </kProbabilityOfFail>
+    <kPercentPerLevel value="3">
+      <!--Percent to subtract from failure chance per Athletic level 1-100-->
+    </kPercentPerLevel>
+    <kMinWatchDistance value="3">
+      <!--Minimum distance a sim will stand away from the sphere to watch.-->
+    </kMinWatchDistance>
+    <kMaxWatchDistance value="3.25">
+      <!--Maximum distance a sim will stand away from the sphere to watch.-->
+    </kMaxWatchDistance>
+    <kPulseRadiusIncreasePerSkillLevel value="1">
+      <!--The amount the pulse radius increases for the broadcaster per level of athletic skill-->
+    </kPulseRadiusIncreasePerSkillLevel>
+    <kReactionPushTime value="4">
+      <!--The watching sims will attempt to begin a reaction every kReactionPushTime minutes-->
+    </kReactionPushTime>
+    <kWatchingReactions value="PointLaugh">
+      <!--Possible reactions while watching.-->
+    </kWatchingReactions>
+    <kPositiveExitReactions value="PumpFist">
+      <!--Possible reactions on successful exit.-->
+    </kPositiveExitReactions>
+    <kNegativeExitReactions value="LaughAt">
+      <!--Possible reactions on fail exit.-->
+    </kNegativeExitReactions>
+    <kSimsToProcessPerDifficultyLevel value="2">
+      <!--The extra amount of Sims to process per tick (for broadcaster) per level of difficulty-->
+    </kSimsToProcessPerDifficultyLevel>
+    <kRepairTuning>
+      <HoursUnbreakable value="24">
+        <!--How long until the object is allowed to check for breakage after being fixed or purchased.-->
+      </HoursUnbreakable>
+      <StartPercentChanceBreak value="5">
+        <!--Starting chance of object breaking when its used.-->
+      </StartPercentChanceBreak>
+      <PercentChanceBreakIncrease value="1">
+        <!--How much the chance of breakage increases each time the object is used (int, 1 to 100).-->
+      </PercentChanceBreakIncrease>
+      <PercentWhenReplaceAvailable value="50">
+        <!--What percent breakage chance the Replace interaction becomes available-->
+      </PercentWhenReplaceAvailable>
+      <RepairComplexity value="10">
+        <!--The level at which repair time reaches its minimum-->
+      </RepairComplexity>
+      <MinRepairTime value="30">
+        <!--Minimum amount of time in sim minutes that it takes to repair this object.  This time when skill level at or above RepairComplexity-->
+      </MinRepairTime>
+      <MaxRepairTime value="90">
+        <!--Maximum amount of time in sim minutes that it takes to repair this object.  Occurs at skill level 0.-->
+      </MaxRepairTime>
+      <RepairSkillGain value="2100">
+        <!--Rate of skill gain while repairing object in points per sim minute-->
+      </RepairSkillGain>
+      <UpgradeUnbreakable>
+        <UpgradeTime value="240">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="6400">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="20">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="True">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeUnbreakable>
+      <MinChanceOfElectrocution value="10">
+        <!--Minimum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs when skill level > = RepairComplexity-->
+      </MinChanceOfElectrocution>
+      <MaxChanceOfElectrocution value="40">
+        <!--Maximum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs at skill level 0.-->
+      </MaxChanceOfElectrocution>
+    </kRepairTuning>
+    <kHandinessLevelUnbreakable value="5">
+      <!--Handiness level at which Unbreakable will be available.-->
+    </kHandinessLevelUnbreakable>
+    <kHandinessLevelStabilizer value="8">
+      <!--Handiness level at which Inertial Stabilizer will be available.-->
+    </kHandinessLevelStabilizer>
+    <kUpgradeTuningStabilizer>
+      <UpgradeTime value="240">
+        <!--The amount of time it takes to do the upgrade in minutes-->
+      </UpgradeTime>
+      <SkillGainRate value="1760">
+        <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+      </SkillGainRate>
+      <BadFailureChance value="20">
+        <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+      </BadFailureChance>
+      <ShouldShockInPuddle value="True">
+        <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+      </ShouldShockInPuddle>
+    </kUpgradeTuningStabilizer>
+    <kSpinTimeLength value="30, 60, 90, 120">
+      <!--Time in sim minutes for a last to last for each difficulty (Low, Medium, High, DimensionalGate).-->
+    </kSpinTimeLength>
+    <kAdvantureMinBetweenEvents value="5">
+      <!--TextAdvanture: Minimum amount of time between events.-->
+    </kAdvantureMinBetweenEvents>
+    <kAdvantureMaxBetweenEvents value="5">
+      <!--TextAdvanture: Maximum amount of time between events.-->
+    </kAdvantureMaxBetweenEvents>
+    <kAdvantureItemChanceRGM value="30">
+      <!--TextAdvanture: Percent chance for a random rock, gem or metal.  If the items do not add up to 100, the remaining chance will be fore a rubber duck.-->
+    </kAdvantureItemChanceRGM>
+    <kAdvantureItemChanceSeed value="30">
+      <!--TextAdvanture: Percent chance for a random seed.  If the items do not add up to 100, the remaining chance will be fore a rubber duck.-->
+    </kAdvantureItemChanceSeed>
+    <kAdvantureItemChanceBook value="30">
+      <!--TextAdvanture: Percent chance for random book.  If the items do not add up to 100, the remaining chance will be fore a rubber duck.-->
+    </kAdvantureItemChanceBook>
+    <kAdvantureGenieLampChance value="8">
+      <!--TextAdvanture: Percent chance if Sim find Genie Lamp.  If the items do not add up to 100, the remaining chance will be fore a rubber duck.-->
+    </kAdvantureGenieLampChance>
+    <kUpgradeTuningDimensionalGate>
+      <UpgradeTime value="240">
+        <!--The amount of time it takes to do the upgrade in minutes-->
+      </UpgradeTime>
+      <SkillGainRate value="2400">
+        <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+      </SkillGainRate>
+      <BadFailureChance value="20">
+        <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+      </BadFailureChance>
+      <ShouldShockInPuddle value="True">
+        <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+      </ShouldShockInPuddle>
+    </kUpgradeTuningDimensionalGate>
+    <kHandinessLevelDimensionalGate value="10">
+      <!--Handiness level at which Dimensional Gate will be available.-->
+    </kHandinessLevelDimensionalGate>
+    <kChanceToGetNauseousAfterSucceed value="0.05">
+      <!--Percentage to get nauseous after succeed.-->
+    </kChanceToGetNauseousAfterSucceed>
+    <kChanceToGetNauseousAfterEjected value="0.25">
+      <!--Percentage to get nauseous after ejected.-->
+    </kChanceToGetNauseousAfterEjected>
+    <kSkillCheckWeight value=".8">
+      <!--TextAdvanture: Percent weight of skill check.-->
+    </kSkillCheckWeight>
+    <kMoodCheckWeight value=".15">
+      <!--TextAdvanture: Percent weight of Mood check.-->
+    </kMoodCheckWeight>
+    <kRandomCheck value=".05">
+      <!--TextAdvanture: Percent weight of Random check. -->
+    </kRandomCheck>
+    <kSkillCheckThreshold value="3, 4, 5">
+      <!--TextAdvanture: Skill check threshold. -->
+    </kSkillCheckThreshold>
+    <kMoodCheckThreshold value="10, 20, 30">
+      <!--TextAdvanture: Mood check threshold. -->
+    </kMoodCheckThreshold>
+    <kRandomBonus value="0.2">
+      <!--TextAdvanture: Percent weight of Lucky sim bonus.-->
+    </kRandomBonus>
+    <kHintChange value="0.25">
+      <!--TextAdvanture: Chance to get a hint if player fails -->
+    </kHintChange>
+    <kChanceOfSinged value="0.3">
+      <!--Chance to get electrocuted while riding a broken EDS-->
+    </kChanceOfSinged>
+    <kRequiredFairySkillLevelRepair value="3">
+      <!--Minimum fairy skill level requirement for the fairy repair interaction-->
+    </kRequiredFairySkillLevelRepair>
+  </Current_Tuning>
+</base>

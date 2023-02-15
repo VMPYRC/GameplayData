@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToWanderToATable value="40">
+      <!--Range: 1-100 Description:  This is the chance sim will wander to a table - PAB-->
+    </kChanceToWanderToATable>
+    <kChanceToWander value="40">
+      <!--Range: 1-100 Description:  This is the chance sim will wander randomly - PAB-->
+    </kChanceToWander>
+    <kMinWanderDistance value="2">
+      <!--Description:  When the sim wanders they will walk at least this far - PAB-->
+    </kMinWanderDistance>
+    <kMaxWanderDistance value="5">
+      <!--Description:  Maximum distance the sim will walk when they wander - PAB-->
+    </kMaxWanderDistance>
+    <kMinutesBetweenWanders value="20">
+      <!--Number of max sim minutes that the waiter should wait in between wanders. - PAB-->
+    </kMinutesBetweenWanders>
+  </Current_Tuning>
+</base>

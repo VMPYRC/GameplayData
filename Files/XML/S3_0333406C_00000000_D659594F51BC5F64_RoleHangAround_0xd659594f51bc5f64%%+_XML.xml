@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHangAroundDistanceMinimum value="1">
+      <!--Range:  0+  Description:  The minimum routing distance when hanging around the object-->
+    </kHangAroundDistanceMinimum>
+    <kHangAroundDistanceMaximum value="4">
+      <!--Range:  0+  Description:  The maximum routing distance when hanging around the object-->
+    </kHangAroundDistanceMaximum>
+    <kHangAroundDuration value="20">
+      <!--Range:  0+  Description:  The average time between hanging around and wandering-->
+    </kHangAroundDuration>
+    <kWanderDistanceMinimum value="3">
+      <!--Range:  0+  Description:  The minimum distance to wander away-->
+    </kWanderDistanceMinimum>
+    <kWanderDistanceMaximum value="9">
+      <!--Range:  0+  Description:  The maximum distance to wander away-->
+    </kWanderDistanceMaximum>
+    <kWanderDistanceThreshold value="12">
+      <!--Range:  0+  Description:  The distance from target that, when passed, will have the Sim hang around again-->
+    </kWanderDistanceThreshold>
+    <kWanderAmount value="2">
+      <!--Range:  0+  Description:  The number of times to wander before hanging around again-->
+    </kWanderAmount>
+    <kWanderDuration value="15">
+      <!--Range:  0+  Description:  The average time between instances of wander-->
+    </kWanderDuration>
+  </Current_Tuning>
+</base>

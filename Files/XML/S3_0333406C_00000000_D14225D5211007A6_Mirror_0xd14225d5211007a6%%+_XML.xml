@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <sLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="1">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <!--deprecated on: 4/4/2008 11:33:51 AM-->
+      <DefaultInteractionLookAtThreshold value="45">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </sLookAtTuning>
+    <kTimeToWaitInLine value="20">
+      <!--Range: Positive floats.  Description: Amount of Sim minutes a Sim will wait in line before timing out and exiting.-->
+    </kTimeToWaitInLine>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="15">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+      <ObsessedWithComputerTraitScore value="0">
+        <!--Range: Any float value.  Description:  Sims with the 'Obsessed with X' Trait will get an environment bonus from rooms that contain the object that Sim is obsessed with.  This tunable is an additive amount of environment bonus for Sims with the 'Obsessed with X' trait. This amount is expected to be positive but does not have to be.-->
+      </ObsessedWithComputerTraitScore>
+      <ObsessedWithTVTraitScore value="0">
+        <!--Range: Any float value.  Description:  Sims with the 'Obsessed with X' Trait will get an environment bonus from rooms that contain the object that Sim is obsessed with.  This tunable is an additive amount of environment bonus for Sims with the 'Obsessed with X' trait. This amount is expected to be positive but does not have to be.-->
+      </ObsessedWithTVTraitScore>
+      <!--deprecated on: 12/18/2007 3:39:51 PM-->
+    </kEnvironmentTuning>
+    <kStressBySpeechPractice value="-100">
+      <!--Rate indicating stress generated due to practicing speech. The rate is based on sim hours. Negative number.-->
+      <!--deprecated on: 1/25/2008 6:44:19 PM-->
+    </kStressBySpeechPractice>
+    <kFunWithPlayingWithMirror value="24">
+      <!--Rate indicating fun acquired while playing with mirror. The rate is based on sim hours. Positive number.-->
+      <!--deprecated on: 1/25/2008 6:44:19 PM-->
+    </kFunWithPlayingWithMirror>
+  </Deprecated_Tuning>
+</base>

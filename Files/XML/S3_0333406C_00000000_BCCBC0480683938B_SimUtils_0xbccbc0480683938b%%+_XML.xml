@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPercentChanceOfSingleParentHousehold value="8">
+      <!--Chance of single parent household, in percent-->
+    </kPercentChanceOfSingleParentHousehold>
+    <kPercentChanceOfSameSexHousehold value="2">
+      <!--Chance of same sex household, in percent-->
+    </kPercentChanceOfSameSexHousehold>
+    <kPercentChanceOfElderlyHousehold value="15">
+      <!--Chance of elderly household if childless, in percent-->
+    </kPercentChanceOfElderlyHousehold>
+    <kFamilyRelationshipRange value="30, 95">
+      <!--Range: [-100, 100] Min and max value for the relationship between newly created family members-->
+    </kFamilyRelationshipRange>
+    <kNumFamilyRelationshipUpdates value="2">
+      <!--Range: [1,x] The number of times that we update the relationship between family members.-->
+    </kNumFamilyRelationshipUpdates>
+    <kPercentChanceOfRoommatesHousehold value="25">
+      <!--Chance of a household being composed entirely of roommates, in percent-->
+    </kPercentChanceOfRoommatesHousehold>
+    <kRelationshipDistributionWithKids value="80, 5, 15">
+      <!--Relationship distribution for couples with kids [spouse, fiancee, partner]-->
+    </kRelationshipDistributionWithKids>
+    <kRelationshipDistributionWithoutKids value="35, 15, 50">
+      <!--Relationship distribution for couples with no kids [spouse, fiancee, partner]-->
+    </kRelationshipDistributionWithoutKids>
+    <kNumberMummyFamilyNames value="10">
+      <!--Number of mummy family names-->
+    </kNumberMummyFamilyNames>
+    <kNumberMummyMaleNames value="10">
+      <!--Number of mummy male names-->
+    </kNumberMummyMaleNames>
+    <kNumberMummyFemaleNames value="10">
+      <!--Number of mummy female names-->
+    </kNumberMummyFemaleNames>
+    <kLocaleSpecificNumberFamilyNames value="3127, 30, 30, 30">
+      <!--Number of family names: Default world, China, Egypt, France.-->
+    </kLocaleSpecificNumberFamilyNames>
+    <kLocaleSpecificNumberMaleGivenNames value="1037, 30, 30, 30">
+      <!--Number of male given names: Default world, China, Egypt, France.-->
+    </kLocaleSpecificNumberMaleGivenNames>
+    <kLocaleSpecificNumberFemaleGivenNames value="1010, 30, 30, 30">
+      <!--Number of female given names: Default world, China, Egypt, France.-->
+    </kLocaleSpecificNumberFemaleGivenNames>
+    <kDowntownPercentChanceOfElderlyHousehold value="5">
+      <!--Downtown world chance of elderly household if childless, in percent-->
+    </kDowntownPercentChanceOfElderlyHousehold>
+    <kDowntownPercentChanceOfRoommatesHousehold value="65">
+      <!--Downtown world chance of a household being composed entirely of roommates, in percent-->
+    </kDowntownPercentChanceOfRoommatesHousehold>
+    <kNumberAlienFamilyNames value="20">
+      <!--Number of alien family names-->
+    </kNumberAlienFamilyNames>
+    <kNumberAlienMaleNames value="30">
+      <!--Number of alien male names-->
+    </kNumberAlienMaleNames>
+    <kNumberAlienFemaleNames value="30">
+      <!--Number of alien female names-->
+    </kNumberAlienFemaleNames>
+    <kUniversityPercentChanceOfNonDormRoommatesHousehold value="80">
+      <!--Range: [0,100] University World chance of a non-dorm household being composed entirely of roommates, in percent-->
+    </kUniversityPercentChanceOfNonDormRoommatesHousehold>
+    <kNumberRobotMaleNames value="75">
+      <!--Number of robot male names-->
+    </kNumberRobotMaleNames>
+    <kNumberRobotFemaleNames value="75">
+      <!--Number of robot female names-->
+    </kNumberRobotFemaleNames>
+    <kFutureWorldChanceOfNonHeadSimBeingARobot value="20">
+      <!--Future World chance of a non-head-of-household Sim being a Robot, in 0-100 percent-->
+    </kFutureWorldChanceOfNonHeadSimBeingARobot>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

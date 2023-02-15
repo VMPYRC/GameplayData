@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="15">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kTuningDanceFloor>
+      <Length value="5">
+        <!--Length of the side of the dance floor. Assumes the dance floor is square-shaped.-->
+      </Length>
+      <Capacity value="10">
+        <!--Max number of sims that can dance on this floor.-->
+      </Capacity>
+    </kTuningDanceFloor>
+    <kDanceDurationInMinutes value="45">
+      <!--Duration of each dance in minutes.  Sims will be pushed to join the next dance.-->
+    </kDanceDurationInMinutes>
+    <kWaitForNextDanceChance value="75">
+      <!--Odds that a sim who completes this dance will queue up the next dance as well.-->
+    </kWaitForNextDanceChance>
+    <kWaitBetweenDancesMinutes value="2">
+      <!--Time to wait before trying to join the next dance-->
+    </kWaitBetweenDancesMinutes>
+    <kDanceSkillPerSimHour value="200">
+      <!--Dance skill to give per hour of dance-->
+    </kDanceSkillPerSimHour>
+    <kWatchMinDistance value="4">
+      <!--Minimum distance away from the floor to watch-->
+    </kWatchMinDistance>
+    <kWatchMaxDistance value="7">
+      <!--Maximum dinstance away from the floor to watch-->
+    </kWatchMaxDistance>
+    <kSocialPerHour value="400">
+      <!--Social benefit per hour when sims have a dance partner-->
+    </kSocialPerHour>
+    <kSlowDanceLtrPerHour value="5">
+      <!--LTR boost per hour of slow dancing together-->
+    </kSlowDanceLtrPerHour>
+    <kDanceFailRatePerSkill value="1.5">
+      <!--Dance failure rate per step per skill level away from 10.  (e.g. multiply by 5 for a level five dance skill, multiply by 10 for a zero-level dance skill)-->
+    </kDanceFailRatePerSkill>
+    <kClubDanceLowSkillLoops value="medSkill_loop1_x, medSkill_loop2_x">
+      <!--Low skill loops-->
+    </kClubDanceLowSkillLoops>
+    <kClubDanceMedSkillLoops value="highSkill_loop1_x, highSkill_loop2_x, medSkill_loop1_x, medSkill_loop2_x, medSkill_loop1_x, medSkill_loop2_x">
+      <!--Medium skill loops-->
+    </kClubDanceMedSkillLoops>
+    <kClubDanceHighSkillLoops value="highSkill_loop1_x, highSkill_loop2_x, highSkill_loop1_x, highSkill_loop2_x, medSkill_loop1_x, medSkill_loop2_x">
+      <!--High skill loops-->
+    </kClubDanceHighSkillLoops>
+  </Current_Tuning>
+</base>

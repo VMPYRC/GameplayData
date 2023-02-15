@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinMaxBalconyTime value="10, 20">
+      <!--Min/Max sims mins cat should sit on balcony-->
+    </kMinMaxBalconyTime>
+    <kMinMaxPlayWithToyTime value="20, 30">
+      <!--Min/Max sims mins cat should play with toy in a tube-->
+    </kMinMaxPlayWithToyTime>
+    <kActivityWeights value="4, 2, 4, 5">
+      <!--[Look Out, Walk Across, Sit on Balcony, Play With Toy] Weights for picking what to do among available parts-->
+    </kActivityWeights>
+    <kWatchPetBroadcastParams>
+      <PulseRadius value="10">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="20">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kWatchPetBroadcastParams>
+    <kDefaultChanceToWatchAndLaughAtPet value="20">
+      <!--Range 0-100: Default Chance Sim will react to pets playing on jungle gym-->
+    </kDefaultChanceToWatchAndLaughAtPet>
+    <kChanceToWatchAndLaughAtHouseholdPet value="80">
+      <!--Range 0-100: Chance Sim will react to pets playing on jungle gym if one of the cats on it is in their household-->
+    </kChanceToWatchAndLaughAtHouseholdPet>
+    <kTraitChanceToWatchAndLaughAtPet value="60">
+      <!--Range 0-100: Chance Sim's with Animal lover or cat person trait will react to pets playing on jungle gym-->
+    </kTraitChanceToWatchAndLaughAtPet>
+    <kMinMaxWaitTime value="5, 10">
+      <!--Sim Mins between attempts to do something in the jungle gym-->
+    </kMinMaxWaitTime>
+    <kMaxNumCats value="8">
+      <!--Max Number of Cats allowed on jungle gym at a time-->
+    </kMaxNumCats>
+    <kMinMaxInitialRouteRadius value="2, 3">
+      <!--How close to route to jungle gym before reserving a spot to use for enter/exit And/Or checking for being too full to enter-->
+    </kMinMaxInitialRouteRadius>
+  </Current_Tuning>
+</base>

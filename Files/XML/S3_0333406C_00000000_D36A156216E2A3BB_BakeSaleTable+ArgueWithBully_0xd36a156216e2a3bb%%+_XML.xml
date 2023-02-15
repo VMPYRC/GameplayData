@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAthleticSkillWeight value="0.5">
+      <!--Weight of the athletic skill in final fight outcome (0 - 1).-->
+    </kAthleticSkillWeight>
+    <kFightRandomChance value="0.25">
+      <!--Random chance of fighting bully (0 - 1)-->
+    </kFightRandomChance>
+    <kAlwaysFightTraits value="Daredevil, Adventurous">
+      <!--If the tender has these traits, he always fights.-->
+    </kAlwaysFightTraits>
+    <kNeverFightTraits value="Coward, Loser">
+      <!--If the tender has these traits, he never fights.-->
+    </kNeverFightTraits>
+    <kSTCToEffect value="Steamed">
+      <!--Relationship commodity to affect if the bully fights the sim.-->
+    </kSTCToEffect>
+    <kSTCDelta value="-300">
+      <!--How much to affect relationship if the bully fights the sim.-->
+    </kSTCDelta>
+    <kFinalOutcomeChance value="0.5">
+      <!--Random chance winning the final fight (0 - 1)-->
+    </kFinalOutcomeChance>
+    <kAthleticMinMaxChance value="0, 1">
+      <!--Weight of the athletic skill in final fight outcome (0 - 1).-->
+    </kAthleticMinMaxChance>
+  </Current_Tuning>
+</base>

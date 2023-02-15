@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTraitsToDemandAGift value="Ambitious, Childish, Daredevil, Evil, Grumpy, Inappropriate, Insane, Loser, MeanSpirited, Snob">
+      <!--Description:  Traits that will make the Request for gift a demand.-->
+    </kTraitsToDemandAGift>
+    <kRequestGiftWeights value="100, 50, 10">
+      <!--Description:  Weights for what kind of gift is bestowed by the fairy when it is a request. FlightFelicty, GoldenToad, InnerBeauty-->
+    </kRequestGiftWeights>
+    <kDemandGiftWeights value="100, 10">
+      <!--Description:  Weights for what kind of gift is bestowed by the fairy when it is a demand. InnerBeauty, GoldenToad-->
+    </kDemandGiftWeights>
+    <kChanceThatADemandWillBeBestowed value="0.5">
+      <!--Range 0.0 - 1.0 Description:  Chance that a gift will be bestowed when it is demanded.-->
+    </kChanceThatADemandWillBeBestowed>
+    <kExitAnimationHoldTime value="3">
+      <!--Time in Sim minutes to hold for the visibility animation callback - DO NOT TUNE UNLESS YOU ARE AN ANIMATOR-->
+    </kExitAnimationHoldTime>
+    <kHoveringFairiesInterval value="30">
+      <!--Time in Sim minutes for hovering fairies to reappear-->
+    </kHoveringFairiesInterval>
+    <kFairyAbilitiesTutorialDelay value="20">
+      <!--Range: 20-XXX. Description: Time that should pass before the Fairy Abilities tutorial should fire after a Fairy Sim is created in CAS.-->
+    </kFairyAbilitiesTutorialDelay>
+    <kFairySkillLevelRequiredCreative value="1">
+      <!--Minimum level of fairy skill required for Creative Aura-->
+    </kFairySkillLevelRequiredCreative>
+    <kFairySkillLevelRequiredBodyMind value="3">
+      <!--Minimum level of fairy skill required for Body and Mind Aura-->
+    </kFairySkillLevelRequiredBodyMind>
+    <kFairySkillLevelRequiredSoothing value="0">
+      <!--Minimum level of fairy skill required for Soothing Aura-->
+    </kFairySkillLevelRequiredSoothing>
+    <kFairySkillGainRateFromAuras value="600">
+      <!--Range: float; Description:  The number of skill points a fairy earns per hour while projecting auras.-->
+    </kFairySkillGainRateFromAuras>
+    <kFairyPowerDrainScalerForQueen value=".25">
+      <!--Range: 0 - XX; Description:  The relative amount of fairy power a King/Queen of the Fae will use for skills compared to a normal fairy.  1.0 is the same as normal fairies, 0.0 drains no power.-->
+    </kFairyPowerDrainScalerForQueen>
+  </Current_Tuning>
+</base>

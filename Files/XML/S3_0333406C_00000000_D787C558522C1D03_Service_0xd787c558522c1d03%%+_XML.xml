@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumDaysBeforeBirthdayToRemoveSim value="1">
+      <!--Number of Days before a service Sim's Birthday that we remove them from the pool. We don't want service NPCs aging before coming to work.-->
+    </kNumDaysBeforeBirthdayToRemoveSim>
+    <kMaxDistanceToRouteFromServiceCarToLotWithoutTeleporting value="30">
+      <!--If the Sim would route farther than this from the service car to the destination lot, the Sim will first teleport to a point on the route this far from the end of the route before routing.-->
+    </kMaxDistanceToRouteFromServiceCarToLotWithoutTeleporting>
+  </Current_Tuning>
+</base>

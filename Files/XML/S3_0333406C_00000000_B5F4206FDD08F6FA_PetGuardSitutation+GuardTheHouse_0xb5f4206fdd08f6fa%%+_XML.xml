@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNightTimeAutonomyMultiplier value="10">
+      <!--During the night, the interaction's autonomy score will be multiplied by this value.-->
+    </kNightTimeAutonomyMultiplier>
+    <kRegularBurglarSenseDistanceSquared value="100">
+      <!--Distance squared from a burglar that regular pets will detect a burglar.-->
+    </kRegularBurglarSenseDistanceSquared>
+    <kCluelessBurglarSenseDistanceSquared value="64">
+      <!--Distance squared from a burglar that clueless pets will detect a burglar.-->
+    </kCluelessBurglarSenseDistanceSquared>
+    <kChanceToSpawnBurglar value="0.1">
+      <!--Chance a burglar will get spawned while the pet is guarding.-->
+    </kChanceToSpawnBurglar>
+    <kTimeDelayBetweenTryingToSpawnBurglar value="45">
+      <!--Delay in sim minutes between trying to roll to spawn a burglar.-->
+    </kTimeDelayBetweenTryingToSpawnBurglar>
+    <kTimeToWaitInOneArea value="15">
+      <!--Time in sim minutes that a pet will wait in an area before routing to another area.-->
+    </kTimeToWaitInOneArea>
+    <kFrontDoorRadialRouteRange value="1, 3">
+      <!--Range a pet will route to the front door when starting the interaction.-->
+    </kFrontDoorRadialRouteRange>
+    <kFollowBurglarRadialRouteRange value="1, 4">
+      <!--Radial range that a pet will route to when chasing a burglar.-->
+    </kFollowBurglarRadialRouteRange>
+    <kPatrolRouteRange value="5, 15">
+      <!--Range that a pet will wander from after they're done waiting in an area.-->
+    </kPatrolRouteRange>
+    <kSimReactionRadius value="10">
+      <!--Radius in which a pet will react to a random sim.-->
+    </kSimReactionRadius>
+    <kSimReactionLTRThreshold value="-10">
+      <!--Sims with an LTR lower than this to the pet will get barked at.-->
+    </kSimReactionLTRThreshold>
+    <kCarReactionRadius value="30">
+      <!--Radius in which a pet will react to a random car.-->
+    </kCarReactionRadius>
+    <kDiscourageAreaSize value="2.0">
+      <!--Size of the route discourage footprint that gets added while a pet is guarding.-->
+    </kDiscourageAreaSize>
+    <kLazyPetSleepChance value="0.2">
+      <!--Chance a lazy pet will fall asleep after routing an area to guard.-->
+    </kLazyPetSleepChance>
+    <kCluelessPetBarkAtHouseChance value="0.2">
+      <!--Chance a clueless pet will face the house and bark at it.-->
+    </kCluelessPetBarkAtHouseChance>
+    <kBurglarFreakOutTimeRange value="5, 10">
+      <!--Time in sim minutes that a burglar will freak out at a barking pet.-->
+    </kBurglarFreakOutTimeRange>
+    <kChanceForBurglarToFreakOutAtBarkingPet value="0.75">
+      <!--Chance a burglar will freak out when a pet is chasing them.-->
+    </kChanceForBurglarToFreakOutAtBarkingPet>
+    <kChanceForBurglarToRunAwayAfterFreakOut value="0.75">
+      <!--Chance a burglar will run away after playing the freak out animations at a pet.  Otherwise, they will continue stealing.-->
+    </kChanceForBurglarToRunAwayAfterFreakOut>
+    <kChanceSitIncrementPerGuardStandLoop value="15">
+      <!--Range: positive floats 1-100. When a pet is standing while guarding, this is the chance that the pet will sit incremented per guard loop. So if the pet has been standing for 3 loops, the chance they'll sit will br 3x the value here. That way the longer they're standing, the more likely they'll sit.-->
+    </kChanceSitIncrementPerGuardStandLoop>
+    <kChanceStandIncrementPerGuardSitLoop value="5">
+      <!--Range: positive floats 1-100. When a pet is sitting while guarding, this is the chance that the pet will stand incremented per guard loop. So if the pet has been sitting for 3 loops, the chance they'll stand will be 3x the value here. That way the longer they're sitting, the more likely they'll stand.-->
+    </kChanceStandIncrementPerGuardSitLoop>
+    <kTimeRangeToGuardHouse value="60, 120">
+      <!--Time range in sim minutes to guard the house.-->
+    </kTimeRangeToGuardHouse>
+  </Current_Tuning>
+</base>

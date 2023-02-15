@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAmateurTries value="3">
+      <!--Range:  1 - ?  Description:  Number of times we will try to find a new rock type.-->
+    </kAmateurTries>
+    <kCollectorTries value="3">
+      <!--Range:  1 - ?  Description:  Number of times we will try to find a rock with higher multiplier than the minCollectorMultiplier.-->
+    </kCollectorTries>
+    <kCollectorMinMultiplier value="1.5">
+      <!--Range:  1 - ?  Description:  Minimum multiplier a rock can have to satisfy the collector condition.-->
+    </kCollectorMinMultiplier>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFishTankTuning>
+      <kMaximumNumberOfFish value="24">
+        <!--Range:  0+  Description:  The maximum number of fish that this tank can hold-->
+      </kMaximumNumberOfFish>
+      <kRoutingDistance value="2.5">
+        <!--Range:  0+  Description:  For interactions that don't require slots, the routing distance from the fish tank-->
+      </kRoutingDistance>
+    </kFishTankTuning>
+    <kReactionChance value="0.6">
+      <!--Range:  0.0 - 1.0  Description:  The chance that non-Grumpy Sims will react once the interaction is done-->
+    </kReactionChance>
+    <kNegativeReactions value="FacialDisgust, Boo, Annoyed, ViewHate">
+      <!--Array of negative reactions to play.-->
+    </kNegativeReactions>
+    <kEnvironmentTuning>
+      <EnvironmentScore value="30">
+        <!--Range: Any float value.  Description:  Each game object can define an environment score to contribute to the room environment score when Sims are in it.  It is expected that fancier, pretty objects will give a positive Environment score while dirty, ugly objects will give a negative Environment score.  The score contribution is defined by this tunable.-->
+      </EnvironmentScore>
+    </kEnvironmentTuning>
+    <kFishEnvironmentScoreMultiplier value="1.1">
+      <!--The amount of fish in the tank will be multiplied by this value and added to the base environment score.-->
+    </kFishEnvironmentScoreMultiplier>
+    <kCatWatchDistance value="1, 3">
+      <!--Range:  0.0+  Description:  The min and max distance at which a CAT should route to watch the fish tank.-->
+    </kCatWatchDistance>
+    <kKittenWatchDistance value="1, 3">
+      <!--Range:  0.0+  Description:  The min and max distance at which a KITTEN should route to watch the fish tank.-->
+    </kKittenWatchDistance>
+  </Current_Tuning>
+</base>

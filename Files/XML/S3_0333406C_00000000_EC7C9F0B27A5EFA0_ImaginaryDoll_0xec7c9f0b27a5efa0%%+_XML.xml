@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPlayMinutesBetweenRelationshipGain value="34">
+      <!--Float. How many Sim minutes between relationship gain.-->
+    </kPlayMinutesBetweenRelationshipGain>
+    <kPlayRelationshipGain value="2">
+      <!--Float. How much relationship is gained per every kPlayMinutesBetweenRelatioshipGain minutes.-->
+    </kPlayRelationshipGain>
+    <kRelationshipToddlerMax value="40">
+      <!--Float. Max relationship in Toddler state.-->
+    </kRelationshipToddlerMax>
+    <kRelationshipMax value="100">
+      <!--Float. Max relationship. Minimum is 0f.-->
+    </kRelationshipMax>
+    <kRelationshipThresholdToNameDoll value="0">
+      <!--Float. Relationship threshold before being able to name toy.-->
+    </kRelationshipThresholdToNameDoll>
+    <kChanceGenderOfDollWillMatchOwner value="0.75">
+      <!--Float. If player never sets gender on toy, this is the change it'll end up the same gender on going live.-->
+    </kChanceGenderOfDollWillMatchOwner>
+    <kRelationshipThresholdToTurnLive value="30">
+      <!--Float. Amount of relationship needed for doll to go Live when owner turns into a child.-->
+    </kRelationshipThresholdToTurnLive>
+    <kWarpTime value="23.5">
+      <!--Float, 24hr format. Earliest hour the doll can warp.-->
+    </kWarpTime>
+    <kWarpTimeWindowLength value="2">
+      <!--Float. How long the warp time window is open for. E.g. if kWarpTime is 23.5 (11:30pm) and this is 2, the doll will warp sometime between 11:30pm to 1:30am-->
+    </kWarpTimeWindowLength>
+    <kOwnerBedDesirability value="10">
+      <!--Float. Object desirability of owner's bed. The larger this number (> 1), the more likely the imaginary doll will warp to the owner's bed.-->
+    </kOwnerBedDesirability>
+    <kUsingOwnedDollAutonomyMultiplier value="5">
+      <!--Float. Autonomy Multiplier on Play With/Sing To when the Sim owns the doll.-->
+    </kUsingOwnedDollAutonomyMultiplier>
+    <kTurnRealCameraLerpParams>
+      <Time value="1">
+        <!--Time in seconds the camera movement should take.-->
+      </Time>
+      <Zoom value="6">
+        <!--Distance in meters from the target point the camera should float.-->
+      </Zoom>
+      <Pitch value="-45">
+        <!--Angle from the horizon the camera should point down from.  Negative values are the camera above the horizon, looking down.-->
+      </Pitch>
+      <Yaw value="-100">
+        <!--Angle about the target the camera should point from. Positive values are clockwise around the target (to the right-hand side) from the target's point of view.  Valid range: [-90, 90]-->
+      </Yaw>
+      <Swing value="True">
+        <!--Determines whether the camera should swing down to look at the ground if currently in look at sky mode.  Valid range: [0, 360)-->
+      </Swing>
+    </kTurnRealCameraLerpParams>
+    <kOpportunityCheckTimes value="10, 22">
+      <!--Float range. Range of hours in a day that the opportunity for turning imaginary friend real will be added (or attempted to).-->
+    </kOpportunityCheckTimes>
+    <kDailyRelationshipLossDueToNeglect value="5">
+      <!--Float. Amount of relationship lost per day with doll and imfr when neglected.-->
+    </kDailyRelationshipLossDueToNeglect>
+    <kDaysBeforeRemindingPlayerToLetDollTurnLive value="2">
+      <!--Int. Number of days between showing TNS reminding player to remove the doll from their inventory so it can turn live-->
+    </kDaysBeforeRemindingPlayerToLetDollTurnLive>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCarTuning>
+      <Speed value="55">
+        <!--Car speed in meters / second (second = Sim minute).-->
+      </Speed>
+      <Acceleration value="15">
+        <!--Car acceleration in meters / second^2 (second = Sim minute).-->
+      </Acceleration>
+    </kCarTuning>
+    <kHoverTuning>
+      <HoverEffectNames value="ep11HCRepo_main">
+        <!--Name of the VFX effect to play at specified location.-->
+      </HoverEffectNames>
+      <HoverEffectSlotNamess value="_FX_2">
+        <!--The VFX Slots that the hover effect(s) are parented to. These will be hashed by code into Slot enums.-->
+      </HoverEffectSlotNamess>
+    </kHoverTuning>
+    <kRainbowHoverTuning>
+      <HoverEffectSlotNamess value="_FX_2">
+        <!--The VFX Slots that the hover effect(s) are parented to. These will be hashed by code into Slot enums.-->
+      </HoverEffectSlotNamess>
+      <HoverEffectNames value="ep11HCRepoRain_main">
+        <!--Name of the VFX effect to play at specified location.-->
+      </HoverEffectNames>
+    </kRainbowHoverTuning>
+    <kDystopiaHoverTuning>
+      <HoverEffectSlotNamess value="_FX_2">
+        <!--The VFX Slots that the hover effect(s) are parented to. These will be hashed by code into Slot enums.-->
+      </HoverEffectSlotNamess>
+      <HoverEffectNames value="ep11HCRepoDyst_main">
+        <!--Name of the VFX effect to play at specified location.-->
+      </HoverEffectNames>
+    </kDystopiaHoverTuning>
+  </Current_Tuning>
+</base>

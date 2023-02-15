@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMultiplierForBuyHorsePoolTraits value="6">
+      <!--Range : float (1 - x).  Description: weight for the special traits that the horses in the buy horse pool should have.-->
+    </kMultiplierForBuyHorsePoolTraits>
+    <kMaxNumberOfTraits value="2, 4">
+      <!--Range : [Min, Max].  Description: min and max traits for the horses in the buy horse pool-->
+    </kMaxNumberOfTraits>
+    <kBuyHorseTraits value="AgilePet, FastPet, GeniusPet">
+      <!--Array : Horse TraitNames.  Description:list of traits that are more likely for the horses in the buy horse pool-->
+    </kBuyHorseTraits>
+    <kPureBreedChance value="0.8">
+      <!--float : Equestrian Horse pure breed chance for new pets-->
+    </kPureBreedChance>
+  </Current_Tuning>
+</base>

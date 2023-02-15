@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinDistanceForNewspaperDelivery value="3">
+      <!--Min distance from door/mailbox to drop newspaper (meters)-->
+    </kMinDistanceForNewspaperDelivery>
+    <kMaxDistanceForNewspaperDelivery value="9">
+      <!--Max distance from door/mailbox to drop newspaper (meters)-->
+    </kMaxDistanceForNewspaperDelivery>
+    <kMaxTriesRouteToFrontDoor value="2">
+      <!--Number of Times the Paperboy tries to get to the front door after a route failure-->
+    </kMaxTriesRouteToFrontDoor>
+    <kMaxTriesRouteToMailbox value="2">
+      <!--Number of Times the Paperboy tries to get to the Mailbox after failing to Get to the door-->
+    </kMaxTriesRouteToMailbox>
+    <kRouteFailTicksToWait value="30">
+      <!--Number of Ticks the Paperboy waits between route failures to try again-->
+    </kRouteFailTicksToWait>
+    <kMaxNumPapers value="5">
+      <!--The Maximum Number of Papers the Paperboy will allow on the lot before complaining about it.-->
+    </kMaxNumPapers>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinorPetTuning>
+      <CaptureRouteRange value="0.5, 1">
+        <!--The distance range used when routing to the pet to capture it.-->
+      </CaptureRouteRange>
+      <BehaviorAlarmCallbackFrequency value="5">
+        <!--How many Sim minutes between alarm callbacks.  This should be kept relatively low so the animation states can be checked frequently.-->
+      </BehaviorAlarmCallbackFrequency>
+      <BehaviorAlarmCallbackHungerRange value="1.5, 1.75">
+        <!--The hunger a pet will lose with each alarm callback.  Hunger's range is 0 - 100.-->
+      </BehaviorAlarmCallbackHungerRange>
+      <BehaviorAlarmCallbackEnergyLossRange value="1, 1.2">
+        <!--The energy a pet will lose with each alarm callback.  Energy's range is 0 - 100.-->
+      </BehaviorAlarmCallbackEnergyLossRange>
+      <BehaviorAlarmCallbackEnergyGainRange value="3, 3.5">
+        <!--The energy a pet will gain while sleeping with each alarm callback.-->
+      </BehaviorAlarmCallbackEnergyGainRange>
+      <BehaviorAlarmCallbackChanceToMoveAround value="0.25">
+        <!--If the pet is idle, the chance per alarm callback will enter the 'move around' state.  This should be higher for pets that should appear more active.-->
+      </BehaviorAlarmCallbackChanceToMoveAround>
+      <BehaviorAlarmCallbackChanceToReturnToIdle value="0.10">
+        <!--If the pet is moving around, the chance per alarm callback they will return to idling.  If BehaviorAlarmCallbackMoveAroundTimeLimit has been met, they will ignore this chance.-->
+      </BehaviorAlarmCallbackChanceToReturnToIdle>
+      <BehaviorAlarmCallbackMoveAroundTimeLimit value="15">
+        <!--The max amount of time the pet can be in the 'move around' state.  This should be >= BehaviorAlarmCallbackFrequency and will also be ignored if pet becomes hungry or sleep.-->
+      </BehaviorAlarmCallbackMoveAroundTimeLimit>
+      <InInventoryRunawayTime value="720">
+        <!--If the pet has remained in a Sim's inventory for this many minutes, there is a chance the pet will 'run away' with each alarm callback.-->
+      </InInventoryRunawayTime>
+      <InInventoryRunawayChance value="10">
+        <!--The percent chance the pet will run away.-->
+      </InInventoryRunawayChance>
+      <BaseLifetimeRange value="8, 12">
+        <!--The base lifetime for the pet type.  Aside from starvation, the pet be guaranteed to live a random number of days within this range.-->
+      </BaseLifetimeRange>
+      <ExtendedLifetimeRange value="2, 3">
+        <!--After the pet's base lifetime has passed, the pet will live a random number of days within this range.  If the pet is carried or played with, this range will reset allowing the pet to live eternally.-->
+      </ExtendedLifetimeRange>
+      <AnimalExpertLifetimeRange value="3, 5">
+        <!--If sim has the animal expert trait, add life span to caged animal-->
+      </AnimalExpertLifetimeRange>
+      <StarvationThreshold value="2">
+        <!--The number of days the pet can live without food.-->
+      </StarvationThreshold>
+      <StarvationExtraDayForAnimalExpert value="2">
+        <!--The extra number of days the pet can live without food, if sim has the animal expert trait-->
+      </StarvationExtraDayForAnimalExpert>
+      <EscapeTimeBeforeMovement value="10">
+        <!--Minimum number of minutes a pet will stay in the same position before attempting to move.-->
+      </EscapeTimeBeforeMovement>
+      <EscapeChangeRoomChance value="0.25">
+        <!--The chance a pet will move to a different room.-->
+      </EscapeChangeRoomChance>
+      <EscapeTimeBeforeDestruction value="12">
+        <!--Number of hours a pet can be escaped before we destroy them.  A value of -1 will let them wander about forever.-->
+      </EscapeTimeBeforeDestruction>
+      <BehaviorAlarmCallbackChanceToApproachGlass value="0.65">
+        <!--If the pet is idle, the chance per alarm callback will enter the 'approach glass' state.  This is a relatively short animation that has the pet approach and return to the idle position.  This should be higher for pets that should appear more active.-->
+      </BehaviorAlarmCallbackChanceToApproachGlass>
+    </kMinorPetTuning>
+  </Current_Tuning>
+</base>

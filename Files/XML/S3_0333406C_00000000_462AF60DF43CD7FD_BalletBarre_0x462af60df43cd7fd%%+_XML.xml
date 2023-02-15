@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAthleticTuning>
+      <kLookAtThresholdForTrain value="50">
+        <!--Range: 0 to 100. Only objects of lookat interestingness above this value will be looked at while training sims-->
+      </kLookAtThresholdForTrain>
+      <DelayFatiguePercentagePerAthleticSkillLevel value="0.05">
+        <!--Range: 0.0f to 0.1f.  Description: As you use athletic game objects, your Sim has an increase in the Fatigue motive.  As your Sim gains Athletic skill, your Sim will be less fatigued.  This tunable is the fatigue gain percentage decrease per athletic skill level.-->
+      </DelayFatiguePercentagePerAthleticSkillLevel>
+      <AthleticTraitDestressMultiplier value="2">
+        <!--Range: Non-negative float.  Description:  Sims with the Athletic trait will distress at a faster rate than normal Sims while using athletic game objects.  This tunable is the multiplier to the normal destress rate.-->
+      </AthleticTraitDestressMultiplier>
+      <MinsToAddPumped value="60">
+        <!--Range: Positive floats.  Description: Number of Sim minutes in the 'Work Out' interaction in order to get the 'Pumped' buff.-->
+      </MinsToAddPumped>
+      <AthleticLevelToAddPumped value="3">
+        <!--Range: Positive integers.  Description:  Minimum Athletic skill level at which to get the 'Pumped' buff.-->
+      </AthleticLevelToAddPumped>
+      <CanTriggerAthleticTraitTip value="False">
+        <!--Type: bool.  Description:  If a sim has Athletic skill, this object will prompt a Trait tip.-->
+      </CanTriggerAthleticTraitTip>
+    </kAthleticTuning>
+    <kDaysToReachMuscularShape value="1">
+      <!--Range: Positive floats.  Description:  The time in Sim days it takes a Sim to reach full muscular shape from the fully non-muscular shape.-->
+    </kDaysToReachMuscularShape>
+    <kDanceSkillPerSimHour value="200">
+      <!--Dance skill to gain every sim hour of dancing-->
+    </kDanceSkillPerSimHour>
+  </Current_Tuning>
+</base>

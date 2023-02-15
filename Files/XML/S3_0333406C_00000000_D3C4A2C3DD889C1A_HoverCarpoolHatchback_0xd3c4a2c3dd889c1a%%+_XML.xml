@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kHoverTuning>
+      <HoverEffectNames value="ep11HCHatchback_main">
+        <!--Name of the VFX effect to play at specified location.-->
+      </HoverEffectNames>
+      <HoverEffectSlotNamess value="_FX_2">
+        <!--The VFX Slots that the hover effect(s) are parented to. These will be hashed by code into Slot enums.-->
+      </HoverEffectSlotNamess>
+    </kHoverTuning>
+    <kRainbowHoverTuning>
+      <HoverEffectSlotNamess value="_FX_2">
+        <!--The VFX Slots that the hover effect(s) are parented to. These will be hashed by code into Slot enums.-->
+      </HoverEffectSlotNamess>
+      <HoverEffectNames value="ep11HCHatchbackRain_main">
+        <!--Name of the VFX effect to play at specified location.-->
+      </HoverEffectNames>
+    </kRainbowHoverTuning>
+    <kDystopiaHoverTuning>
+      <HoverEffectSlotNamess value="_FX_2">
+        <!--The VFX Slots that the hover effect(s) are parented to. These will be hashed by code into Slot enums.-->
+      </HoverEffectSlotNamess>
+      <HoverEffectNames value="ep11HCHatchbackDyst_main">
+        <!--Name of the VFX effect to play at specified location.-->
+      </HoverEffectNames>
+    </kDystopiaHoverTuning>
+  </Current_Tuning>
+</base>

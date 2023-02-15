@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMotiveDrain value="96">
+      <!--Amount that this spell drains from motives.  Range: 0-200-->
+    </kMotiveDrain>
+    <kRoutingDistance value="1">
+      <!--The radius to route to the clicked spot on the terrain. 0.0+-->
+    </kRoutingDistance>
+    <kTrashPilesCreatedOnEpicFail value="12">
+      <!--How many trash piles to create when this spell epic fails.  Increasing this number may cause a performance hit.-->
+    </kTrashPilesCreatedOnEpicFail>
+  </Current_Tuning>
+</base>

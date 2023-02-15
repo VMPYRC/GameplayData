@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSimMinutesToSleep value="30">
+      <!--Range:  Sim minutes.  Description:  Number of minutes to sleep while standing up when motive for energy is low.-->
+    </kSimMinutesToSleep>
+    <kChanceToPassOut value="15">
+      <!--Range [float]:  0.0f - 100.0f  Description:  The chance the sim will fall over, and perform the Passout interaction instead.-->
+    </kChanceToPassOut>
+  </Current_Tuning>
+</base>

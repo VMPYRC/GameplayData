@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kViewDistanceMin value="1.5">
+      <!--Range: Positive float values.  Description: The Sim routes to a radial range for the 'View Train Set' interaction, this variable defines the MINIMUM distance of that range.-->
+    </kViewDistanceMin>
+    <kViewDistanceMax value="2.5">
+      <!--Range: Positive float values.  Description: The Sim routes to a radial range for the 'View Train Set' interaction, this variable defines the MAXIMUM distance of that range.-->
+    </kViewDistanceMax>
+    <kFairyTrainRideTime value="60">
+      <!--Time a fairy rides the trainset. Units: Simminutes-->
+    </kFairyTrainRideTime>
+    <kTimeToWaitToEvict value="15">
+      <!--Time to wait to evict a lower priority fairy from this object, in Sim minutes-->
+    </kTimeToWaitToEvict>
+    <kMaxSimsInLine value="5">
+      <!--Maximum number of fairies that can wait in to ride the trainset-->
+    </kMaxSimsInLine>
+  </Current_Tuning>
+</base>

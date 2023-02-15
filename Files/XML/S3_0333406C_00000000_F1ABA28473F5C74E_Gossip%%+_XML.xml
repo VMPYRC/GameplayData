@@ -1,0 +1,525 @@
+<?xml version="1.0"?>
+<Gossip>
+<Data>
+  <Name></Name>
+  <Category></Category>
+  <Interestingness></Interestingness>
+  <TraitsWhichEncourage></TraitsWhichEncourage>
+  <TraitsWhichRestrict></TraitsWhichRestrict>
+ </Data>
+<Data>
+  <Name>BirthBaby</Name>
+  <Category>LifeChanging</Category>
+  <Interestingness>1000</Interestingness>
+  <TraitsWhichEncourage>DislikesChildren, FamilyOriented</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>BirthMommy</Name>
+  <Category>LifeChanging</Category>
+  <Interestingness>1000</Interestingness>
+  <TraitsWhichEncourage>DislikesChildren, FamilyOriented</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>Twins</Name>
+  <Category>LifeChanging</Category>
+  <Interestingness>1000</Interestingness>
+  <TraitsWhichEncourage>DislikesChildren, FamilyOriented</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>Triplets</Name>
+  <Category>LifeChanging</Category>
+  <Interestingness>1000</Interestingness>
+  <TraitsWhichEncourage>DislikesChildren, FamilyOriented</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>Adoption</Name>
+  <Category>LifeChanging</Category>
+  <Interestingness>1000</Interestingness>
+  <TraitsWhichEncourage>DislikesChildren, FamilyOriented</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>Death</Name>
+  <Category>LifeChanging</Category>
+  <Interestingness>1000</Interestingness>
+  <TraitsWhichEncourage>Evil, MeanSpirited</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>MovedIn</Name>
+  <Category>Location</Category>
+  <Interestingness>1000</Interestingness>
+ </Data>
+<Data>
+  <Name>MovedAway</Name>
+  <Category>Location</Category>
+  <Interestingness>1000</Interestingness>
+  <TraitsWhichEncourage>MeanSpirited</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>LotsOfMoney</Name>
+  <Category>Materialist</Category>
+  <Interestingness>500</Interestingness>
+  <TraitsWhichEncourage>Ambitious, Frugal, Snob</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>RanOutOfMoney</Name>
+  <Category>Materialist</Category>
+  <Interestingness>500</Interestingness>
+  <TraitsWhichEncourage>Ambitious, Evil, Frugal, MeanSpirited, Snob</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>Retirement</Name>
+  <Category>Career</Category>
+  <Interestingness>500</Interestingness>
+  <TraitsWhichEncourage>Workaholic</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>NewJob</Name>
+  <Category>Career</Category>
+  <Interestingness>500</Interestingness>
+  <TraitsWhichEncourage>Ambitious, Snob, Workaholic</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>GettingFired</Name>
+  <Category>Career</Category>
+  <Interestingness>250</Interestingness>
+  <TraitsWhichEncourage>Ambitious, Evil, Snob, MeanSpirited, Workaholic</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>GettingPromoted</Name>
+  <Category>Career</Category>
+  <Interestingness>250</Interestingness>
+  <TraitsWhichEncourage>Ambitious, Snob, Workaholic</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>Flirting</Name>
+  <Category>Social</Category>
+  <Interestingness>250</Interestingness>
+  <TraitsWhichEncourage>Flirty, HopelessRomantic</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>Insulted</Name>
+  <Category>Social</Category>
+  <Interestingness>250</Interestingness>
+  <TraitsWhichEncourage>Evil, MeanSpirited</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>HadAFightWith</Name>
+  <Category>Social</Category>
+  <Interestingness>250</Interestingness>
+  <TraitsWhichEncourage>Evil, MeanSpirited</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>WasUnfaithful</Name>
+  <Category>Social</Category>
+  <Interestingness>5000</Interestingness>
+  <TraitsWhichEncourage>CommitmentIssues, Evil, MeanSpirited</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>Engagement</Name>
+  <Category>Social</Category>
+  <Interestingness>1000</Interestingness>
+  <TraitsWhichEncourage>CommitmentIssues, FamilyOriented</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>Marriage</Name>
+  <Category>Social</Category>
+  <Interestingness>1000</Interestingness>
+  <TraitsWhichEncourage>CommitmentIssues, FamilyOriented, HopelessRomantic</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>MarriageOnTheRocks</Name>
+  <Category>Social</Category>
+  <Interestingness>1000</Interestingness>
+  <TraitsWhichEncourage>CommitmentIssues, Evil, FamilyOriented, Flirty, HopelessRomantic, MeanSpirited</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>SplitUp</Name>
+  <Category>Social</Category>
+  <Interestingness>1000</Interestingness>
+  <TraitsWhichEncourage>CommitmentIssues, FamilyOriented, Flirty, HopelessRomantic, MeanSpirited</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>BecameEnemies</Name>
+  <Category>Social</Category>
+  <Interestingness>1000</Interestingness>
+  <TraitsWhichEncourage>Evil, MeanSpirited</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>BladderFailure</Name>
+  <Category>Mishap</Category>
+  <Interestingness>250</Interestingness>
+  <TraitsWhichEncourage>Evil, MeanSpirited</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>Fire</Name>
+  <Category>Mishap</Category>
+  <Interestingness>500</Interestingness>
+  <TraitsWhichEncourage>Evil, MeanSpirited</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>Burglar</Name>
+  <Category>Mishap</Category>
+  <Interestingness>500</Interestingness>
+  <TraitsWhichEncourage>Evil, Snob</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>HousePartySoon</Name>
+  <Category>Future</Category>
+  <Interestingness>1000</Interestingness>
+  <TraitsWhichEncourage>PartyAnimal</TraitsWhichEncourage>
+  <TraitsWhichRestrict>MeanSpirited</TraitsWhichRestrict>
+ </Data>
+<Data>
+  <Name>OffLotPartySoon</Name>
+  <Category>Future</Category>
+  <Interestingness>1000</Interestingness>
+  <TraitsWhichEncourage>PartyAnimal</TraitsWhichEncourage>
+  <TraitsWhichRestrict>MeanSpirited</TraitsWhichRestrict>
+ </Data>
+<Data>
+  <Name>Untrue</Name>
+  <Category>Miscellaneous</Category>
+  <Interestingness>100</Interestingness>
+  <TraitsWhichEncourage>Insane</TraitsWhichEncourage>
+  <TraitsWhichRestrict>NoSenseOfHumor</TraitsWhichRestrict>
+ </Data>
+<Data>
+  <Name>HotSpotSelected</Name>
+  <Category>Miscellaneous</Category>
+  <Interestingness>9000</Interestingness>
+  <TraitsWhichEncourage>PartyAnimal, Flirty, LovesTheOutdoors, Charismatic</TraitsWhichEncourage>
+  <TraitsWhichRestrict>Snob, HatesOutdoors, CouchPotato</TraitsWhichRestrict>
+ </Data>
+<Data>
+  <Name>VisibleVirtuousRomance</Name>
+  <Category>Social</Category>
+  <Interestingness>2000</Interestingness>
+  <TraitsWhichEncourage>CommitmentIssues, FamilyOriented, HopelessRomantic</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>MultipleVisibleRomances</Name>
+  <Category>Social</Category>
+  <Interestingness>2000</Interestingness>
+  <TraitsWhichEncourage>CommitmentIssues, FamilyOriented, HopelessRomantic, Flirty, MeanSpirited</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>EternallyFaithful</Name>
+  <Category>Social</Category>
+  <Interestingness>2000</Interestingness>
+  <TraitsWhichEncourage>CommitmentIssues, FamilyOriented, HopelessRomantic</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>Casanova</Name>
+  <Category>Social</Category>
+  <Interestingness>2000</Interestingness>
+  <TraitsWhichEncourage>CommitmentIssues, FamilyOriented, HopelessRomantic, Flirty</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>DonJuan</Name>
+  <Category>Social</Category>
+  <Interestingness>2000</Interestingness>
+  <TraitsWhichEncourage>CommitmentIssues, FamilyOriented, HopelessRomantic, Flirty</TraitsWhichEncourage>
+ </Data>
+<Data>
+  <Name>Slimeball</Name>
+  <Category>Social</Category>
+  <Interestingness>2000</Interestingness>
+  <TraitsWhichEncourage>CommitmentIssues, FamilyOriented, HopelessRomantic, MeanSpirited</TraitsWhichEncourage>
+ </Data>
+<Text>
+  <Name></Name>
+  <Traits></Traits>
+  <Text></Text>
+ </Text>
+<Text>
+  <Name>BirthBaby</Name>
+  <Text>GossipBirth2</Text>
+ </Text>
+<Text>
+  <Name>BirthMommy</Name>
+  <Text>GossipBirth</Text>
+ </Text>
+<Text>
+  <Name>BirthMommy</Name>
+  <Traits>FamilyOriented</Traits>
+  <Text>GossipBirthGood</Text>
+ </Text>
+<Text>
+  <Name>BirthMommy</Name>
+  <Traits>DislikesChildren</Traits>
+  <Text>GossipBirthBad</Text>
+ </Text>
+<Text>
+  <Name>Twins</Name>
+  <Text>GossipTwins</Text>
+ </Text>
+<Text>
+  <Name>Twins</Name>
+  <Traits>FamilyOriented</Traits>
+  <Text>GossipTwinsGood</Text>
+ </Text>
+<Text>
+  <Name>Twins</Name>
+  <Traits>DislikesChildren</Traits>
+  <Text>GossipTwinsBad</Text>
+ </Text>
+<Text>
+  <Name>Triplets</Name>
+  <Text>GossipTriplets</Text>
+ </Text>
+<Text>
+  <Name>Triplets</Name>
+  <Traits>FamilyOriented</Traits>
+  <Text>GossipTripletsGood</Text>
+ </Text>
+<Text>
+  <Name>Triplets</Name>
+  <Traits>DislikesChildren</Traits>
+  <Text>GossipTripletsBad</Text>
+ </Text>
+<Text>
+  <Name>Adoption</Name>
+  <Text>GossipAdoption</Text>
+ </Text>
+<Text>
+  <Name>Adoption</Name>
+  <Traits>FamilyOriented</Traits>
+  <Text>GossipAdoptionGood</Text>
+ </Text>
+<Text>
+  <Name>Adoption</Name>
+  <Traits>DislikesChildren</Traits>
+  <Text>GossipAdoptionBad</Text>
+ </Text>
+<Text>
+  <Name>Death</Name>
+  <Text>GossipDeath</Text>
+ </Text>
+<Text>
+  <Name>Death</Name>
+  <Traits>Evil</Traits>
+  <Text>GossipDeathGloating</Text>
+ </Text>
+<Text>
+  <Name>MovedIn</Name>
+  <Text>GossipMovedIn</Text>
+ </Text>
+<Text>
+  <Name>MovedIn</Name>
+  <Traits>Evil, MeanSpirited</Traits>
+  <Text>GossipMovedInBad</Text>
+ </Text>
+<Text>
+  <Name>MovedAway</Name>
+  <Text>GossipMovedAway</Text>
+ </Text>
+<Text>
+  <Name>LotsOfMoney</Name>
+  <Text>GossipLotsOfMoney</Text>
+ </Text>
+<Text>
+  <Name>RanOutOfMoney</Name>
+  <Text>GossipRanOutOfMoney</Text>
+ </Text>
+<Text>
+  <Name>RanOutOfMoney</Name>
+  <Traits>Evil, MeanSpirited</Traits>
+  <Text>GossipRanOutOfMoneyBad</Text>
+ </Text>
+<Text>
+  <Name>Retirement</Name>
+  <Text>GossipRetirement</Text>
+ </Text>
+<Text>
+  <Name>NewJob</Name>
+  <Text>GossipNewJob</Text>
+ </Text>
+<Text>
+  <Name>GettingFired</Name>
+  <Text>GossipFired</Text>
+ </Text>
+<Text>
+  <Name>GettingFired</Name>
+  <Traits>Good</Traits>
+  <Text>GossipFiredSensitive</Text>
+ </Text>
+<Text>
+  <Name>GettingFired</Name>
+  <Traits>Evil, MeanSpirited</Traits>
+  <Text>GossipFiredGloating</Text>
+ </Text>
+<Text>
+  <Name>GettingPromoted</Name>
+  <Text>GossipPromoted</Text>
+ </Text>
+<Text>
+  <Name>GettingPromoted</Name>
+  <Traits>Snob, Workaholic</Traits>
+  <Text>GossipPromotedEffusive</Text>
+ </Text>
+<Text>
+  <Name>Flirting</Name>
+  <Text>GossipFlirting</Text>
+ </Text>
+<Text>
+  <Name>Flirting</Name>
+  <Text>GossipFlirting2</Text>
+ </Text>
+<Text>
+  <Name>Flirting</Name>
+  <Traits>Unflirty</Traits>
+  <Text>GossipFlirtingBad</Text>
+ </Text>
+<Text>
+  <Name>Insulted</Name>
+  <Text>GossipInsulted</Text>
+ </Text>
+<Text>
+  <Name>HadAFightWith</Name>
+  <Text>GossipFight</Text>
+ </Text>
+<Text>
+  <Name>WasUnfaithful</Name>
+  <Text>GossipUnfaithful</Text>
+ </Text>
+<Text>
+  <Name>WasUnfaithful</Name>
+  <Traits>Evil, MeanSpirited</Traits>
+  <Text>GossipUnfaithfulGloating</Text>
+ </Text>
+<Text>
+  <Name>Engagement</Name>
+  <Text>GossipEngagement</Text>
+ </Text>
+<Text>
+  <Name>Engagement</Name>
+  <Traits>HopelessRomantic</Traits>
+  <Text>GossipEngagementRomantic</Text>
+ </Text>
+<Text>
+  <Name>Engagement</Name>
+  <Traits>CommitmentIssues</Traits>
+  <Text>GossipEngagemenBad</Text>
+ </Text>
+<Text>
+  <Name>Marriage</Name>
+  <Text>GossipMarriage</Text>
+ </Text>
+<Text>
+  <Name>Marriage</Name>
+  <Traits>HopelessRomantic</Traits>
+  <Text>GossipMarriageRomantic</Text>
+ </Text>
+<Text>
+  <Name>Marriage</Name>
+  <Traits>CommitmentIssues</Traits>
+  <Text>GossipMarriageBad</Text>
+ </Text>
+<Text>
+  <Name>MarriageOnTheRocks</Name>
+  <Text>GossipMarriageBreakdown</Text>
+ </Text>
+<Text>
+  <Name>MarriageOnTheRocks</Name>
+  <Traits>Evil, MeanSpirited</Traits>
+  <Text>GossipMarriageBreakdownBad</Text>
+ </Text>
+<Text>
+  <Name>SplitUp</Name>
+  <Text>GossipSplitUp</Text>
+ </Text>
+<Text>
+  <Name>SplitUp</Name>
+  <Traits>Evil, MeanSpirited</Traits>
+  <Text>GossipSplitUpGloating</Text>
+ </Text>
+<Text>
+  <Name>BecameEnemies</Name>
+  <Text>GossipEnemies</Text>
+ </Text>
+<Text>
+  <Name>BladderFailure</Name>
+  <Text>GossipBladderFailure</Text>
+ </Text>
+<Text>
+  <Name>BladderFailure</Name>
+  <Traits>Evil, MeanSpirited</Traits>
+  <Text>GossipBladderFailureGloating</Text>
+ </Text>
+<Text>
+  <Name>Fire</Name>
+  <Text>GossipFire</Text>
+ </Text>
+<Text>
+  <Name>Fire</Name>
+  <Traits>Evil, MeanSpirited</Traits>
+  <Text>GossipFireGloating</Text>
+ </Text>
+<Text>
+  <Name>Burglar</Name>
+  <Text>GossipBurglar</Text>
+ </Text>
+<Text>
+  <Name>Burglar</Name>
+  <Traits>Evil, MeanSpirited</Traits>
+  <Text>GossipBurglarGloating</Text>
+ </Text>
+<Text>
+  <Name>HousePartySoon</Name>
+  <Text>GossipHousePartySoon</Text>
+ </Text>
+<Text>
+  <Name>HousePartySoon</Name>
+  <Traits>Loner, MeanSpirited</Traits>
+  <Text>GossipHousePartySoonBad</Text>
+ </Text>
+<Text>
+  <Name>OffLotPartySoon</Name>
+  <Text>GossipOffLotPartySoon</Text>
+ </Text>
+<Text>
+  <Name>OffLotPartySoon</Name>
+  <Traits>Loner, MeanSpirited</Traits>
+  <Text>GossipOffLotPartySoonBad</Text>
+ </Text>
+<Text>
+  <Name>Untrue</Name>
+  <Text>GossipUntrue1</Text>
+ </Text>
+<Text>
+  <Name>Untrue</Name>
+  <Text>GossipUntrue2</Text>
+ </Text>
+<Text>
+  <Name>Untrue</Name>
+  <Text>GossipUntrue3</Text>
+ </Text>
+<Text>
+  <Name>HotSpotSelected</Name>
+  <Text>GossipHotSpotSelected</Text>
+ </Text>
+<Text>
+  <Name>VisibleVirtuousRomance</Name>
+  <Text>GossipVisibleVirtuousRomance</Text>
+ </Text>
+<Text>
+  <Name>MultipleVisibleRomances</Name>
+  <Text>GossipMultipleVisibleRomances</Text>
+ </Text>
+<Text>
+  <Name>EternallyFaithful</Name>
+  <Text>GossipEternallyFaithful</Text>
+ </Text>
+<Text>
+  <Name>Casanova</Name>
+  <Text>GossipCasanova</Text>
+ </Text>
+<Text>
+  <Name>DonJuan</Name>
+  <Text>GossipDonJuan</Text>
+ </Text>
+<Text>
+  <Name>Slimeball</Name>
+  <Text>GossipSlimeball</Text>
+ </Text>
+</Gossip>

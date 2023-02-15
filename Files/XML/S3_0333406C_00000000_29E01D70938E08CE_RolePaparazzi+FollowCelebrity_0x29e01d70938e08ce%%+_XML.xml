@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kFollowCelebrityTimeRange value="30, 60">
+      <!--How long a paparazzi will follow the celebrity in sim minutes.-->
+    </kFollowCelebrityTimeRange>
+    <kFollowCelebrityTimeRangeIfCalled value="20, 60">
+      <!--How long a paparazzi will follow the celebrity in sim minutes if pushed from the CallOverPaparazzi interaction.-->
+    </kFollowCelebrityTimeRangeIfCalled>
+    <kFollowCelebrityRouteRange value="4, 8">
+      <!--Range away from a celebrity that the paparazzi should route before playing their idles.-->
+    </kFollowCelebrityRouteRange>
+    <kRefollowCelebrityRange value="8">
+      <!--Range that a paparazzi will route closer to the celebrity if the celebrity goes out of this range.-->
+    </kRefollowCelebrityRange>
+    <kPaparazziRouteCheckTime value="10">
+      <!--Time in sim minutes that the paparazzi will check if they should route closer to the sim or reorient themselves.-->
+    </kPaparazziRouteCheckTime>
+    <kIdleWeights value="2, 10, 5">
+      <!--Weights of paparazzi doing {loop idle, photograph, write notes}.-->
+    </kIdleWeights>
+    <kCelebrityPointsRange value="10, 20">
+      <!--Range of celebrity points gained when a paparazzi starts following the sim.-->
+    </kCelebrityPointsRange>
+    <kPaparazziWanderRange value="1,4">
+      <!--Range paparazzi should wander after reaching a sim.-->
+    </kPaparazziWanderRange>
+    <kPaparazziFailedIdleTicks value="250,800">
+      <!--Range of ticks a sim should sleep if they can't route close enough to the celebrity.  Used when paparazzi are waiting outside the house for the sim.-->
+    </kPaparazziFailedIdleTicks>
+    <kRabbitholeIdleWeights value="3, 0, 1">
+      <!--Weights of paparazzi doing {loop idle, photograph, write notes} while outside of a rabbithole.-->
+    </kRabbitholeIdleWeights>
+    <kPaparazziRabbitholeWanderRange value="1,4">
+      <!--Range paparazzi should wander after reaching a rabbit hole that a sim is in.-->
+    </kPaparazziRabbitholeWanderRange>
+  </Current_Tuning>
+</base>

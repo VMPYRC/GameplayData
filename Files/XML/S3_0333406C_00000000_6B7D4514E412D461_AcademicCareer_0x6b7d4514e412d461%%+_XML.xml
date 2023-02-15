@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCourseStartTimes value="8, 12, 16">
+      <!--The start time in Sim Hours for the courses throughout the day.-->
+    </kCourseStartTimes>
+    <kHoursBeforeCourseStartToDisplayMapTag value="1.5">
+      <!--How many hours before the course start do we show the map tag.-->
+    </kHoursBeforeCourseStartToDisplayMapTag>
+    <kUIUpdateMinInterval value="2">
+      <!--Minimum time in sim minutes between UI updates-->
+    </kUIUpdateMinInterval>
+    <kAskForExtraCreditRejectAcademicPerformanceLoss value="5">
+      <!--Amount of academic performance a sim will lose when being rejected after asking a professor for extra credit-->
+    </kAskForExtraCreditRejectAcademicPerformanceLoss>
+    <kRandomGradeAsPercentageMin value="70">
+      <!--Float 0-100. Minimum random grade as a percentage. Typically used for NPCs during story progression-->
+    </kRandomGradeAsPercentageMin>
+    <kRandomGradeAsPercentageMax value="100">
+      <!--Float 0-100. Maximum random grade as a percentage. Typically used for NPCs during story progression-->
+    </kRandomGradeAsPercentageMax>
+    <kHoursBeforeFirstCourseToDisplayTNS value="1.5">
+      <!--How many hours before the first course of the day to display the 'classes starting soon' TNS.-->
+    </kHoursBeforeFirstCourseToDisplayTNS>
+  </Current_Tuning>
+</base>

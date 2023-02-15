@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDaycareCustomerGift>
+      <GiftBuyCategories value="kBuyCategoryAppliances, kBuyCategoryComfort, kBuyCategoryDecor, kBuyCategoryElectronics, kBuyCategoryEntertainment">
+        <!--Range:  BuildBuyProduct.eBuyCategory[]  Description:  Buy Categories we can pick gifts from-->
+      </GiftBuyCategories>
+      <GiftBuySubCategories value="kBuySubCategorySmallAppliances, kBuySubCategoryHobbiesAndSkills, kBuySubCategorySportingGoods, kBuySubCategoryPaintingsAndPosters">
+        <!--Range:  BuildBuyProduct.eBuySubCategory[]  Description:  Buy Sub Categories we can pick gifts from-->
+      </GiftBuySubCategories>
+      <GiftBuyRoomSubCategories value="kBuyRoomSubCategorySmallAppliances, kBuyRoomSubCategoryHobbiesAndSkills, kBuyRoomSubCategoryIndoorActivities, kBuyRoomSubCategoryOutdoorActivities,  kBuyRoomSubCategoryPaintingsAndPostersForGrownUps, kBuyRoomSubCategoryVideoGames, kBuyRoomSubCategoryClocks">
+        <!--BuildBuyProduct.eBuyRoomSubCategory[]  Description:  Buy Room sub categories we can pick gifts from-->
+      </GiftBuyRoomSubCategories>
+      <GiftBuySubCategories2 value="">
+        <!--Range:  BuildBuyProduct.eBuySubCategory2[]  Description:  Buy Sub Categories we can pick gifts from sub category set 2-->
+      </GiftBuySubCategories2>
+      <CanGiveRepeats value="False">
+        <!--True if allowed to get the same gift more than once.  False if should only give each gift once-->
+      </CanGiveRepeats>
+    </kDaycareCustomerGift>
+  </Current_Tuning>
+</base>

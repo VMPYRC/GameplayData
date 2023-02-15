@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteDistanceMinMax value="0.5, 1">
+      <!--Range: positive floats [min, max]. The min and max of radial route distance to the frozen sim.-->
+    </kRouteDistanceMinMax>
+    <kTemperatureAddedPerThaw value="35">
+      <!--Range: positive floats. Amount of temperature added to frozen sim-->
+    </kTemperatureAddedPerThaw>
+    <kAskedToThawRejectLTR value="-20">
+      <!--If Asked To Thaw: If the Sim's LTR is <= to this value they will reject.-->
+    </kAskedToThawRejectLTR>
+    <kAskedToThawRejectTraits value="Evil, MeanSpirited">
+      <!--If Asked To Thaw: If the Sim has any of these traits, they will reject.-->
+    </kAskedToThawRejectTraits>
+    <kAskedToThawRejectLTRChange value="-10">
+      <!--If Asked To Thaw: If rejected, the LTR between Sims will be updated by this amount.-->
+    </kAskedToThawRejectLTRChange>
+    <kAskedToThawAcceptTraits value="Good, Friendly">
+      <!--If Asked To Thaw: If the Sim has any of these traits, they will always accept.-->
+    </kAskedToThawAcceptTraits>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAthleticTuning>
+      <DelayFatiguePercentagePerAthleticSkillLevel value="0.065">
+        <!--Range: 0.0f to 0.1f.  Description: As you use athletic game objects, your Sim has an increase in the Fatigue motive.  As your Sim gains Athletic skill, your Sim will be less fatigued.  This tunable is the fatigue gain percentage decrease per athletic skill level.-->
+      </DelayFatiguePercentagePerAthleticSkillLevel>
+      <AthleticTraitDestressMultiplier value="2">
+        <!--Range: Non-negative float.  Description:  Sims with the Athletic trait will distress at a faster rate than normal Sims while using athletic game objects.  This tunable is the multiplier to the normal destress rate.-->
+      </AthleticTraitDestressMultiplier>
+      <MinsToAddPumped value="120">
+        <!--Range: Positive floats.  Description: Number of Sim minutes in the 'Work Out' interaction in order to get the 'Pumped' buff.-->
+      </MinsToAddPumped>
+      <AthleticLevelToAddPumped value="3">
+        <!--Range: Positive integers.  Description:  Minimum Athletic skill level at which to get the 'Pumped' buff.-->
+      </AthleticLevelToAddPumped>
+      <CanTriggerAthleticTraitTip value="True">
+        <!--Type: bool.  Description:  If a sim has Athletic skill, this object will prompt a Trait tip.-->
+      </CanTriggerAthleticTraitTip>
+      <kLookAtThresholdForTrain value="50">
+        <!--Range: 0 to 100. Only objects of lookat interestingness above this value will be looked at while training sims-->
+      </kLookAtThresholdForTrain>
+    </kAthleticTuning>
+    <kDaysToReachCardioShape value=".5">
+      <!--Range: Positive floats.  Description:  The time in Sim days it takes a Sim to reach full cardio shape from the fully fat shape.-->
+    </kDaysToReachCardioShape>
+    <kAthleticSkillLevelToJog value="2">
+      <!--Range: Athletic Skill Level.  Description:  Skill level at which Sims will start doing 'Jog' (Medium-Level) animations.-->
+    </kAthleticSkillLevelToJog>
+    <kAthleticSkillLevelToRun value="6">
+      <!--Range: Athletic Skill Level.  Description:  Skill level at which Sims will start doing 'Run' (High-Level) animations.-->
+    </kAthleticSkillLevelToRun>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <MinsToAddSatisfied value="150">
+      <!--Range: Non-negative integers.  Description:  After a certain athletic skill level, your Sim will gain the Satisfied Buff after working out for a tunable amount of time (this tunable).-->
+      <!--deprecated on: 12/4/2007 2:21:35 PM-->
+    </MinsToAddSatisfied>
+    <SkillLevelsPerMinute value="15">
+      <!--Range: Positive floats.  Description:  This tunable is the number of skill points that are gained per Sim minute.-->
+      <!--deprecated on: 1/29/2008 2:24:45 PM-->
+    </SkillLevelsPerMinute>
+    <HygieneDelta value="-100">
+      <!--Range: Negative integers.  Description:  This tunable is the amount the Hygiene motive decreases in one Sim hour while using this athletic object.-->
+      <!--deprecated on: 1/29/2008 2:24:45 PM-->
+    </HygieneDelta>
+    <FatigueDelta value="100">
+      <!--Range: Positive integers.  Description: This tunable is the amount the Fatigue motive increases in one Sim hour while using this athletic object.-->
+      <!--deprecated on: 1/29/2008 2:24:45 PM-->
+    </FatigueDelta>
+    <DestressPerSimHour value="33">
+      <!--Range: Non-negative integers.  Description: This tunable is the amount per Sim hour that this athletic object increases your Sim's Fun motive.  Since athletic game objects are destressors, they will never increase your Sim's fun level above 0.-->
+      <!--deprecated on: 1/29/2008 2:24:45 PM-->
+    </DestressPerSimHour>
+  </Deprecated_Tuning>
+</base>

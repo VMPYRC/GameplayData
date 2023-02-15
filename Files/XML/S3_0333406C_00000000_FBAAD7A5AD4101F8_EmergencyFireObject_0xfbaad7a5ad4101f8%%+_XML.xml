@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSpreadFrequency value="20">
+      <!--Length in minutes of time between spread testing.-->
+    </kSpreadFrequency>
+    <kFloorSpreadChance value="25">
+      <!--0-100, Chance of fire spreading to a tile with no objects.-->
+    </kFloorSpreadChance>
+    <kObjectSpreadChance value="50">
+      <!--0-100, Chance of fire spreading to a tile with an object on it.-->
+    </kObjectSpreadChance>
+    <kFireSpreakMultiplier value="1.2">
+      <!--1.N, Multiplier applied to fire spread chance if the lot has a stove with a gas leak.-->
+    </kFireSpreakMultiplier>
+  </Current_Tuning>
+</base>

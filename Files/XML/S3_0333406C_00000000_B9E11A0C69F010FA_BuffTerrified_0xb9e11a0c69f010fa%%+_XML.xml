@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceToPeeHimself value="0.1">
+      <!--Chance for the Sim to pee himself, [0, 1]-->
+    </kChanceToPeeHimself>
+    <kChanceToPassOut value="0.24">
+      <!--Chance for the Sim to pass out, [0, 1]-->
+    </kChanceToPassOut>
+    <kChanceToFlee value="0.4">
+      <!--Chance for the Sim to flee, [0, 1] (calculated after Pee, Pass Out, and Freak Out)-->
+    </kChanceToFlee>
+    <kChanceToFreakOut value="0.32">
+      <!--Chance for the Sim to freak out, [0, 1]-->
+    </kChanceToFreakOut>
+    <kPositiveTraits value="Brave, Daredevil, Evil, Lucky">
+      <!--Traits that immune to the Pee and PassOut-->
+    </kPositiveTraits>
+    <kNegativeTraits value="Coward, Excitable, Insane, Neurotic, OverEmotional, Unlucky">
+      <!--Traits that prone to the Pee and PassOut-->
+    </kNegativeTraits>
+    <kChanceToRemoveBuff value="0.5">
+      <!--Chance to remove the buff for the positive traits (It is independent to the other probability)-->
+    </kChanceToRemoveBuff>
+    <kNegModifier value="1.25">
+      <!--Negative Traits modifier (multiply to the base probability)-->
+    </kNegModifier>
+    <kPosModifier value="0">
+      <!--Positive Traits modifier (multiply to the base probability)-->
+    </kPosModifier>
+    <kTraitsAlwaysFlee value="Coward, Dramatic, OverEmotional">
+      <!--Traits that always flee-->
+    </kTraitsAlwaysFlee>
+    <kTraitsNeverFlee value="Brave, Evil, Daredevil">
+      <!--Traits that never flee-->
+    </kTraitsNeverFlee>
+  </Current_Tuning>
+</base>

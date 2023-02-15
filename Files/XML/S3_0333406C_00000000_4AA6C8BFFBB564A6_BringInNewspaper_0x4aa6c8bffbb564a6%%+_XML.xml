@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCluelessDogBringOldNewspaperScore value="1.1">
+      <!--Autonomy scoring multiplier for clueless dogs getting old newspapers.-->
+    </kCluelessDogBringOldNewspaperScore>
+    <kDogBringOldNewspaperScore value="0.5">
+      <!--Autonomy scoring multiplier for all other dogs besides clueless and genius pets getting old newspapers-->
+    </kDogBringOldNewspaperScore>
+    <kRouteDistanceToHumanSim value="1, 2">
+      <!--2 positive floats. Min and Max distance we route to the sim we're bringing the newspaper to.-->
+    </kRouteDistanceToHumanSim>
+    <kLargeDogCarryRouteDistance value="0.4">
+      <!--Distance large dog routes to start the carrying of newspaper. Note: depends heavily on animation.-->
+    </kLargeDogCarryRouteDistance>
+    <kLittleDogCarryRouteDistance value="0.2">
+      <!--Distance little dog routes to start the carrying of newspaper. Note: depends heavily on animation.-->
+    </kLittleDogCarryRouteDistance>
+  </Current_Tuning>
+</base>

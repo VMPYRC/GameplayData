@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSwingDuration value="120">
+      <!--Range: Positive float. Duration in minutes that the swinging lasts.-->
+    </kSwingDuration>
+    <kChanceOfNapping value="10">
+      <!--Range: Float [0,100]. Weighted chance of falling asleep during slow swing, checked every 5 minutes.-->
+    </kChanceOfNapping>
+    <kChanceOfQueasy value="2">
+      <!--Range: Float [0,100]. Weighted chance of getting queasy moodlet during fast swing, checked every 5 minutes.-->
+    </kChanceOfQueasy>
+    <kWatchDuration value="10">
+      <!--Range: Positive float. Duration in minutes that the watch child interaction should last.-->
+    </kWatchDuration>
+    <kSlowSwingFunPerHour value="20">
+      <!--Range: Fun per Sim hour.  Description:  Amount of fun per hour a child gets when swinging slowly.-->
+    </kSlowSwingFunPerHour>
+    <kFastSwingFunPerHour value="30">
+      <!--Range: Fun per Sim hour.  Description:  Amount of fun per hour a child gets when swinging quickly.-->
+    </kFastSwingFunPerHour>
+    <kWatchSwingSocialPerHour value="60">
+      <!--Range: Social boost per hour. Description: Social motive delta when Sim is watching child in swing.-->
+    </kWatchSwingSocialPerHour>
+    <kPickupCryMultiplier value="2">
+      <!--Range: All Floats. Description: Autonomous Multiplier used for 'HoldChild' interaction when occupant is crying.-->
+    </kPickupCryMultiplier>
+    <kWatchChildInactiveMultiplier value="0.2">
+      <!--Range: All Floats. Description: Autonomous Multiplier used for 'WatchChild' interaction if Swing is inactive.-->
+    </kWatchChildInactiveMultiplier>
+    <kWatchChildActiveMultiplier value="0.8">
+      <!--Range: All Floats. Description: Autonomous Multiplier used for 'WatchChild' interaction if Swing is active.-->
+    </kWatchChildActiveMultiplier>
+    <kNappingEnergyPerHour value="25">
+      <!--Range: Energy boost per hour. Description: Energy motive delta when child is napping.-->
+    </kNappingEnergyPerHour>
+    <kOffMotiveBumpPerHour value="0.0">
+      <!--Range: Motive bump per Sim hour.  Description:  Amount of bump per hour for regular motives when not swinging.-->
+    </kOffMotiveBumpPerHour>
+    <kSlowMotiveBumpPerHour value="5">
+      <!--Range: Motive bump per Sim hour.  Description:  Amount of bump per hour for regular motives when swinging slowly.-->
+    </kSlowMotiveBumpPerHour>
+    <kFastMotiveBumpPerHour value="8">
+      <!--Range: Motive bump per Sim hour.  Description:  Amount of bump per hour fot regular motives when swinging quickly.-->
+    </kFastMotiveBumpPerHour>
+    <kOffNapEnergyThreshold value="-50">
+      <!--Range: [-100,100]. Description: Energy threshold at which child will take a nap when swing is stopped.-->
+    </kOffNapEnergyThreshold>
+    <kChanceOfLosingQueasy value="5">
+      <!--Range: Float [0,100]. Weighted chance of losing queasy moodlet during no/slow swing, checked every 5 minutes.-->
+    </kChanceOfLosingQueasy>
+    <kWatchSwingFunPerHour value="60">
+      <!--Range: Fun per Sim hour.  Description:  Fun motive delta when Sim is watching child in swing.-->
+    </kWatchSwingFunPerHour>
+  </Current_Tuning>
+</base>

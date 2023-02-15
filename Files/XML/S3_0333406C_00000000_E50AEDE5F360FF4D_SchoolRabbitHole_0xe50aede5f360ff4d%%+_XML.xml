@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRabbitHoleTuning>
+      <EnvironmentMotiveScore value="0" />
+      <MapTagFilterType value="Work">
+        <!--Filter type for this maptag- should be some combination of work and activities. See MapTagFilterType in MapTagController.cs.-->
+      </MapTagFilterType>
+      <CameraPitchOnRabbithole value="-35">
+        <!--Sets the camera pitch whenever this rabbithole is the target of a lerp-->
+      </CameraPitchOnRabbithole>
+      <CameraZoomOnRabbithole value="60">
+        <!--Sets the camera xoom whenever this rabbithole is the target of a lerp-->
+      </CameraZoomOnRabbithole>
+      <kInvestCost value="0">
+        <!--Description:  How much it costs to invest part of the rabbithole-->
+      </kInvestCost>
+      <kBuyoutCost value="0">
+        <!--Description:  How much it costs to buy out the rabbithole-->
+      </kBuyoutCost>
+      <kInvestmentReturnPerWeek value="0">
+        <!--Description:  Amount of money per week that this rabbithole makes at the investment level-->
+      </kInvestmentReturnPerWeek>
+      <kBuyoutReturnPerWeek value="0">
+        <!--Description:  Money the rabbithole makes per week when you buy it out-->
+      </kBuyoutReturnPerWeek>
+      <kInvestmentMaxHoldingAmount value="0">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when youre at the investment level-->
+      </kInvestmentMaxHoldingAmount>
+      <kBuyoutMaxHoldingAmount value="0">
+        <!--Description:  Max amount the rabbithole can hold (from investments) when it's bought out-->
+      </kBuyoutMaxHoldingAmount>
+      <kCanInvestHere value="False">
+        <!--Description:  Whether or not you can invest in this rabbithole, if it's false all the other investing tuning is ignored-->
+      </kCanInvestHere>
+      <kNpcExitFreq value="10">
+        <!--Range:  ???  Description:  Exit frequency in minutes for NPC sims leaving this rabbit hole.-->
+      </kNpcExitFreq>
+      <kNighttimeLightSunsetDelta value="1">
+        <!--Hour delta from world defined sunset at which nighttime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kNighttimeLightSunsetDelta>
+      <kDaytimeLightSunriseDelta value="0">
+        <!--Hour delta from world defined sunrise at which daytime rabbithole lights are used. 24 or greater means no visual states are used.-->
+      </kDaytimeLightSunriseDelta>
+      <kPreventLotPurchase value="True">
+        <!--if you can't purchase the lot if it has a rabbithole of this type on it-->
+      </kPreventLotPurchase>
+      <kHasMaptag value="True">
+        <!--if it has a maptag-->
+      </kHasMaptag>
+      <kReplaceLotMaptag value="True">
+        <!--if replaces the lot maptag-->
+      </kReplaceLotMaptag>
+    </kRabbitHoleTuning>
+    <kClassPaintingCost value="400">
+      <!--How much a Painting class costs, in Simoleons-->
+    </kClassPaintingCost>
+    <kClassPaintingDuration value="60">
+      <!--How much a Painting class lasts, in Sim minutes-->
+    </kClassPaintingDuration>
+    <kBellStart value="9">
+      <!--Time of day when the morning school bell rings (elemantary and high school will start at the same time.-->
+    </kBellStart>
+    <kBellEndHigh value="14">
+      <!--Time of day when the end bell rings for high school.-->
+    </kBellEndHigh>
+    <kBellEndElementary value="15">
+      <!--Time of day when the end bell rings for elemantary school.-->
+    </kBellEndElementary>
+    <kPrankMinTime value="20">
+      <!--Pranks: Minimum amount of time it will take a Sim to complete a prank.-->
+    </kPrankMinTime>
+    <kPrankMaxTime value="30">
+      <!--Pranks: Minimum amount of time it will take a Sim to complete a prank.-->
+    </kPrankMaxTime>
+    <kPrankCaughtBaseChance value="10">
+      <!--Pranks: The base chance a Sim will get caught doing a prank.-->
+    </kPrankCaughtBaseChance>
+    <kPrankCaughtNegativeTraits value="Unlucky, Clumsy">
+      <!--Pranks: A Sim's chance of being caught will increase for each of these traits they have.-->
+    </kPrankCaughtNegativeTraits>
+    <kPrankCaughtNegativeTraitChance value="5">
+      <!--Pranks: The chance a Sim will get caught will increase by this value for each 'negative' trait they have.-->
+    </kPrankCaughtNegativeTraitChance>
+    <kPrankCaughtPositiveTraits value="Lucky">
+      <!--Pranks: A Sim's chance of being caught will decrease for each of these traits they have.-->
+    </kPrankCaughtPositiveTraits>
+    <kPrankCaughtPositiveTraitChance value="5">
+      <!--Pranks: The chance a Sim will get caught will decrease by this value for each 'positive' trait they have.-->
+    </kPrankCaughtPositiveTraitChance>
+    <kPrankCaughtCheck value="5">
+      <!--Pranks: The frequency in Sim minutes which we check to see if a Sim should get caught.-->
+    </kPrankCaughtCheck>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

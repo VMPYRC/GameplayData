@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSchoolTuning>
+      <DetentionMinChance value="10">
+        <!--Minimum chance the Sim will get detention.  Must be greater than zero.-->
+      </DetentionMinChance>
+      <DetentionMaxChance value="500">
+        <!--If the Sim's DetentionChance reaches this level, they will get detention.-->
+      </DetentionMaxChance>
+      <DetentionChangeWorkHard value="0">
+        <!--The change to DetentionChance while a Sim is in Work Hard tone per Sim minute.-->
+      </DetentionChangeWorkHard>
+      <DetentionChangeSlackOff value=".25">
+        <!--The change to DetentionChance while a Sim is in Slack Off tone per Sim minute.-->
+      </DetentionChangeSlackOff>
+      <DetentionChangeSleepInClass value=".8">
+        <!--The change to DetentionChance while a Sim is in Sleep In Class tone per Sim minute.-->
+      </DetentionChangeSleepInClass>
+      <DetentionChangeWorkOnHomework value="0">
+        <!--The change to DetentionChance while a Sim is in Work On Homework tone per Sim minute.-->
+      </DetentionChangeWorkOnHomework>
+      <DetentionChangeTalkToFriends value="0">
+        <!--The change to DetentionChance while a Sim is in Talk To Friends tone per Sim minute.-->
+      </DetentionChangeTalkToFriends>
+      <DetentionChangeMeetFriends value="0">
+        <!--The change to DetentionChance while a Sim is in Meet New Friends tone per Sim minute.-->
+      </DetentionChangeMeetFriends>
+      <GradeThresholdA value="90">
+        <!--Performance level where grade level 'A' starts.  Any value >= this will result in an 'A'.-->
+      </GradeThresholdA>
+      <GradeThresholdF value="-90">
+        <!--Performance level where grade level 'F' starts.  Any value <= this will result in an 'F'.-->
+      </GradeThresholdF>
+      <DaysWithAForHonorRoll value="3">
+        <!--Number of consecutive days a Sim must have an 'A' to get the Honor Roll buff.-->
+      </DaysWithAForHonorRoll>
+      <GradeThresholdB value="30">
+        <!--Performance level where grade level 'B' starts.  Any value >= this and < GradeThresholdA will result in a 'B'.-->
+      </GradeThresholdB>
+      <GradeThresholdC value="-30">
+        <!--Performance level where grade level 'C' starts.  Any value >= this and < GradeThresholdB will result in a 'C'.-->
+      </GradeThresholdC>
+      <GradeThresholdD value="-90">
+        <!--Performance level where grade level 'D' starts.  Any value >= this and < GradeThresholdC will result in a 'D'.-->
+      </GradeThresholdD>
+      <BringSomeoneHomeChance value="15">
+        <!--Percent chance a Sim will try to bring a classmate home after school.-->
+      </BringSomeoneHomeChance>
+      <BringSomeoneHomeFriendChance value="75">
+        <!--If a Sim is trying to bring someone over, the percent chance they'll try to bring a friend.-->
+      </BringSomeoneHomeFriendChance>
+      <VisitSomeonesHouseChance value="15">
+        <!--Percent chance a Sim will be offered to visit a friend's house after school.-->
+      </VisitSomeonesHouseChance>
+      <VisitSomeonesHouseFriendChance value="75">
+        <!--If a Sim is going over to someone's hosue, the percent chance they'll try to be a friend.-->
+      </VisitSomeonesHouseFriendChance>
+      <DetentionChangeCheatedHomework value="1.1">
+        <!--The change to DetentionChance if a Sim cheated on their homework per Sim minute.-->
+      </DetentionChangeCheatedHomework>
+      <DetentionLengthInHours value="2">
+        <!--The number of hours detention will last.-->
+      </DetentionLengthInHours>
+      <kInitialLTRForSimAfterSchool value="10">
+        <!--Amount of LTR to initialize a relationship to when either a classmate of status stranger comes home with you after school or vice versa.-->
+      </kInitialLTRForSimAfterSchool>
+    </kSchoolTuning>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

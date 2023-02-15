@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxSimsPerTeam value="4">
+      <!--Description:  Max sims per team-->
+    </kMaxSimsPerTeam>
+    <kReactionBroadcasterParams>
+      <PulseRadius value="10">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <PulseRepeatTime value="100">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="2">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="False">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="False">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kReactionBroadcasterParams>
+    <kPlayReactionsPositive value="Awe, Watch, PumpFist">
+      <!--Description:  During the Play interaction, the positive reactions for Sims observing.-->
+    </kPlayReactionsPositive>
+    <kPlayReactionsMean value="Boo, LaughAt, PointLaugh">
+      <!--Description:  During the Play interaction, the mean reactions for Sims observing.-->
+    </kPlayReactionsMean>
+    <kPositiveResultSkillPoints value="20">
+      <!--Description:  Skill gain on good throw-->
+    </kPositiveResultSkillPoints>
+    <kNegativeResultSkillPoints value="20">
+      <!--Description:  Skill gain on bad throw-->
+    </kNegativeResultSkillPoints>
+    <kNumberOfRounds value="6">
+      <!--Description:  Number of rounds-->
+    </kNumberOfRounds>
+    <kPlayReactionsCheer value="Cheer">
+      <!--Description:  Reactions for winning round/game/good slide for our side/party animals/excitable sims-->
+    </kPlayReactionsCheer>
+    <kGoodMoodGreatSuccessMultiplier value="1.2">
+      <!--Description:  weight multiplier for Great success when in good mood-->
+    </kGoodMoodGreatSuccessMultiplier>
+    <kGoodMoodFailureMultiplier value="0.8">
+      <!--Description:  weight multiplier for failure when in good mood-->
+    </kGoodMoodFailureMultiplier>
+    <kAIPlaceWeighting value="10, 10, 15, 40">
+      <!--Description:  weighting by skill to place a puck in a free lane, as opposed to attempting to block or knock off-->
+    </kAIPlaceWeighting>
+    <kAIBlock1Weighting value="1, 1, 1, 1">
+      <!--Description:  weighting by skill to block friendly puck at position 1, as opposed to attempting to place or knock off, only better block will ever be checked-->
+    </kAIBlock1Weighting>
+    <kAIBlock2Weighting value="10, 20, 35, 50">
+      <!--Description:  weighting by skill to block friendly puck at position 2, as opposed to attempting to place or knock off, only better block will ever be checked-->
+    </kAIBlock2Weighting>
+    <kAIBlock3Weighting value="15, 40, 70, 100">
+      <!--Description:  weighting by skill to block friendly puck at position 3, as opposed to attempting to place or knock off, only best block will ever be checked-->
+    </kAIBlock3Weighting>
+    <kAIKnock1Weighting value="10, 10, 5, 1">
+      <!--Description:  weighting by skill to knock enemy puck at position 1, as opposed to attempting to place or block, only best knock will ever be checked-->
+    </kAIKnock1Weighting>
+    <kAIKnock2Weighting value="10, 30, 50, 60">
+      <!--Description:  weighting by skill to knock enemy puck at position 2, as opposed to attempting to place or block, only best knock will ever be checked-->
+    </kAIKnock2Weighting>
+    <kAIKnock3Weighting value="10, 50, 100, 200">
+      <!--Description:  weighting by skill to knock enemy puck at position 3, as opposed to attempting to place or block, only best knock will ever be checked-->
+    </kAIKnock3Weighting>
+    <kResultPlace1Weighting value="35, 30, 20, 10">
+      <!--Description:  weighting by skill place puck at 1 when attempting to place puck-->
+    </kResultPlace1Weighting>
+    <kResultPlace2Weighting value="20, 25, 40, 55">
+      <!--Description:  weighting by skill place puck at 2 when attempting to place puck-->
+    </kResultPlace2Weighting>
+    <kResultPlace3Weighting value="5, 15, 25, 35">
+      <!--Description:  weighting by skill place puck at 3 when attempting to place puck-->
+    </kResultPlace3Weighting>
+    <kResultPlaceMissWeighting value="40, 30, 15, 5">
+      <!--Description:  weighting by skill to miss when attempting to place puck-->
+    </kResultPlaceMissWeighting>
+    <kResultGreatBlockWeighting value="5, 5, 15, 20">
+      <!--Description:  weighting by skill to get great result when blocking-->
+    </kResultGreatBlockWeighting>
+    <kResultGoodBlockWeighting value="25, 35, 45, 55">
+      <!--Description:  weighting by skill to get good result when blocking-->
+    </kResultGoodBlockWeighting>
+    <kResultMissBlockWeighting value="50, 40, 25, 20">
+      <!--Description:  weighting by skill to get miss result when blocking-->
+    </kResultMissBlockWeighting>
+    <kResultHorribleBlockWeighting value="20, 20, 15, 5">
+      <!--Description:  weighting by skill to get horrible result when blocking-->
+    </kResultHorribleBlockWeighting>
+    <kResultGoodKnockWeighting value="15, 30, 40, 50">
+      <!--Description:  weighting by skill to get Good result when Knocking-->
+    </kResultGoodKnockWeighting>
+    <kResultBadKnockWeighting value="40, 25, 20, 15">
+      <!--Description:  weighting by skill to get bad result when knocking-->
+    </kResultBadKnockWeighting>
+    <kResultMissKnockWeighting value="25, 30, 30, 30">
+      <!--Description:  weighting by skill to get miss result when knocking-->
+    </kResultMissKnockWeighting>
+    <kResultHorribleKnockWeighting value="20, 15, 10, 5">
+      <!--Description:  weighting by skill to get horrible result when Knocking-->
+    </kResultHorribleKnockWeighting>
+    <kVictorySting value="sting_shuffleboard_win">
+      <!--Description:  sting for victory TNS-->
+    </kVictorySting>
+    <kReactionBroadcasterPetParams>
+      <PulseRadius value="3">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <PulseRepeatTime value="20">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Horse,Dog,LittleDog,Cat">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kReactionBroadcasterPetParams>
+  </Current_Tuning>
+</base>

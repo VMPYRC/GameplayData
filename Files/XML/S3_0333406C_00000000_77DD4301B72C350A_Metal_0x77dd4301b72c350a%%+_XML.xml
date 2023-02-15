@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTuning>
+      <kEnvironmentPerValue value="0.01" />
+      <kMaxEnvironment value="10" />
+      <kRouteDistance value="1.0" />
+      <kMinViewDistance value="2" />
+      <kMaxViewDistance value="3" />
+    </kTuning>
+    <kSmeltMultiplier value="1.75" />
+    <kWeightMultiplierForLargeMetals value="10">
+      <!--When a smelted metal bar is the large version, its weight is calculated as this number (a float) multiplied by the weight it would be if it were the normal (i.e. base game) metal bar size.  Set to 1 to have no effect, set to 1.5 to make the large metal bar have 50% more weight, etc.-->
+    </kWeightMultiplierForLargeMetals>
+  </Current_Tuning>
+</base>

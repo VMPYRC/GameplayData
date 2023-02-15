@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAbilityToLearnSkillGainModifier value="1.0">
+      <!--Multiplier applied to the skill gain 0.0f means normal skill gain, 1.0f means double, -1.0f means no skill gain-->
+    </kAbilityToLearnSkillGainModifier>
+    <kAbsorbingSunlightBatteryPowerMotivePerHour value="10">
+      <!--Range: Positive floats.  Description:  Extra BatteryPower motive add per hour for sims with Absorbing sunlight buff.-->
+    </kAbsorbingSunlightBatteryPowerMotivePerHour>
+    <kChanceToDestroyChipFromNPC value="0.5">
+      <!--Range: 0.0f - 1.0f. Description: Chance of losing a chip when removed from an non household robot.-->
+    </kChanceToDestroyChipFromNPC>
+    <kRelationshipHitForRemovingFromNPC value="30">
+      <!--Range: 0.0f - 100.0f. Description: How big should the hit for removing a chip from an NPC be on relationship.-->
+    </kRelationshipHitForRemovingFromNPC>
+  </Current_Tuning>
+</base>

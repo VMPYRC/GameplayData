@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDistressThrowRiderDelay value="15, 20">
+      <!--Range in sim minutes before a rider is thrown when the horse is in distress.-->
+    </kDistressThrowRiderDelay>
+    <kMoodThresholdToThrowRider value="-30">
+      <!--Mood threshold for the horse under which there's a chance the horse will throw the rider.-->
+    </kMoodThresholdToThrowRider>
+    <kChanceToThrowRiderWhileInBadMood value="0.2">
+      <!--Chance between 0-1 that a horse will throw the rider-->
+    </kChanceToThrowRiderWhileInBadMood>
+    <kBenefitSimCommoditiesToUpdate value="Fun, Social">
+      <!--List of rider commodities to update while riding a horse.-->
+    </kBenefitSimCommoditiesToUpdate>
+    <kBenefitSimCommoditiesToUpdateDeltas value="0.5, 0.5">
+      <!--List of values to update each commodity when the  rider's commodities get updated.  Should match the commodities listed in 'kSimCommoditiesToUpdate'.-->
+    </kBenefitSimCommoditiesToUpdateDeltas>
+    <kBenefitSimSkillsToUpdate value="Riding">
+      <!--List of sim skills to update while being ridden.-->
+    </kBenefitSimSkillsToUpdate>
+    <kBenefitSimSkillsToUpdateDeltas value="3">
+      <!--List of values to update each sim's skill.  Should match the skills listed in 'kSimSkillsToUpdate'.-->
+    </kBenefitSimSkillsToUpdateDeltas>
+    <kBenefitHorseCommoditiesToUpdate value="HorseExercise, Social">
+      <!--List of horse commodities to update while being ridden.-->
+    </kBenefitHorseCommoditiesToUpdate>
+    <kBenefitHorseCommoditiesToUpdateDeltas value="1, 2">
+      <!--List of values to update each commodity when the horse's commodities get updated.  Should match the commodities listed in 'kHorseCommoditiesToUpdate'.-->
+    </kBenefitHorseCommoditiesToUpdateDeltas>
+    <kBenefitHorseSkillsToUpdate value="Racing">
+      <!--List of horse commodities to update while being ridden.-->
+    </kBenefitHorseSkillsToUpdate>
+    <kBenefitHorseSkillsToUpdateDeltas value="0">
+      <!--List of values to update each horse's skill.  Should match the skills listed in 'kHorseSkillsToUpdate'.-->
+    </kBenefitHorseSkillsToUpdateDeltas>
+    <kBenefitLTRDelta value="0.25">
+      <!--LTR gain between rider and horse per benefit update.-->
+    </kBenefitLTRDelta>
+    <kBenefitTimeBetweenUpdates value="10">
+      <!--Time in sim minutes between updating relationship while sim is horseback.-->
+    </kBenefitTimeBetweenUpdates>
+    <kRidingCallbackTime value="2">
+      <!--Time in sim minutes between checking if a horse is galloping or not.-->
+    </kRidingCallbackTime>
+    <kSimRidingSkillGainWhileGalloping value="20">
+      <!--Points added to the rider's riding skill while the horse is galloping per callback.-->
+    </kSimRidingSkillGainWhileGalloping>
+    <kHorseRacingSkillGainWhileGalloping value="20">
+      <!--Points added to the horse's racing skill while the horse is galloping with a rider per callback.-->
+    </kHorseRacingSkillGainWhileGalloping>
+    <kHorseWalkStylesThatCountAsGalloping value="PetRun, PetGallopFaster, PetGallopFastest, UnicornRun, UnicornGallopFaster, UnicornGallopFastest">
+      <!--Points added to the rider's riding skill while the horse is galloping per callback.-->
+    </kHorseWalkStylesThatCountAsGalloping>
+    <kLuckyMountInterval value="30">
+      <!--Lucky Mount: Interval of time to check for a sim riding a horse getting 'feelin lucky' when riding a lucky mount-->
+    </kLuckyMountInterval>
+    <kLuckyMountChance value="50">
+      <!--Lucky Mount: Chance for a sim riding a horse getting 'feelin lucky' when riding a lucky mount-->
+    </kLuckyMountChance>
+    <kOrneryMoodThresholdToThrowRider value="25">
+      <!--Mood threshold for the horse under which there's a chance the horse will throw the rider.-->
+    </kOrneryMoodThresholdToThrowRider>
+    <kOrneryChanceToThrowRiderWhileInBadMood value="0.4">
+      <!--Chance between 0-1 that a horse will throw the rider-->
+    </kOrneryChanceToThrowRiderWhileInBadMood>
+  </Current_Tuning>
+</base>

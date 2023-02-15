@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBabyMadeChance value="20">
+      <!--Range: 0-100. Chance of Sim getting Pregnant on TryForBaby.-->
+    </kBabyMadeChance>
+    <kWooHooLTRAcceptRegardlessofMood value="80">
+      <!--Assuming the two Sims can be romantic, if the LTR is >= than this value this, the Sim will be in the Sim Picker for WooHoo.-->
+    </kWooHooLTRAcceptRegardlessofMood>
+    <kWooHooLTRAcceptIfInGoodMood value="60">
+      <!--Assuming the two Sims can be romantic, if the LTR is >= than this value this, the Sim will be in the Sim Picker for WooHoo if their mood is >= kWooHooMinMood.-->
+    </kWooHooLTRAcceptIfInGoodMood>
+    <kWooHooMinMood value="40">
+      <!--This is the mood requirement for kWooHooLTRAcceptIfInGoodMood.-->
+    </kWooHooMinMood>
+    <kPhotoBoothCapacity value="2">
+      <!--Range: Integer > 0. Description: How many sims can fit in the actor PhotoBooth.-->
+    </kPhotoBoothCapacity>
+    <kChanceWooHooPicture value="1">
+      <!--Chance of taking a picture when woohooing in PhotoBooth-->
+    </kChanceWooHooPicture>
+    <kPhotoStuckChance value="15">
+      <!--Range: 0-100. Chance of Photo getting stuck in the photobooth.-->
+    </kPhotoStuckChance>
+    <kNumberOfSillyPosesSolo value="19">
+      <!--Range:  0+  Description:  The number of solo silly adult poses for photobooth pictures-->
+    </kNumberOfSillyPosesSolo>
+    <kNumberOfRegularPosesSolo value="4">
+      <!--Range:  0+  Description:  The number of solo regular adult poses for photobooth pictures-->
+    </kNumberOfRegularPosesSolo>
+    <kNumberOfSillyPosesSoloChild value="14">
+      <!--Range:  0+  Description:  The number of solo silly poses for child photobooth pictures-->
+    </kNumberOfSillyPosesSoloChild>
+    <kNumberOfRegularPosesSoloChild value="8">
+      <!--Range:  0+  Description:  The number of solo regular poses for child photobooth pictures-->
+    </kNumberOfRegularPosesSoloChild>
+    <kNumberOfSillyA2APosesCouple value="8">
+      <!--Range:  0+  Description:  The number of silly Adult to Adult poses-->
+    </kNumberOfSillyA2APosesCouple>
+    <kNumberOfRomanticAdultPosesCouple value="8">
+      <!--Range:  0+  Description:  The number of romantic couple poses for photo pictures adult-->
+    </kNumberOfRomanticAdultPosesCouple>
+    <kNumberOfRegularA2CPosesCouple value="7">
+      <!--Range:  0+  Description:  The number of regular Adult-Child couple poses-->
+    </kNumberOfRegularA2CPosesCouple>
+    <kNumberOfRegularA2APosesCouple value="4">
+      <!--Range:  0+  Description:  The number of regular Adult-Adult couple poses-->
+    </kNumberOfRegularA2APosesCouple>
+    <kNumberOfSillyA2CPosesCouple value="9">
+      <!--Range:  0+  Description:  The number of silly child-adult couple poses-->
+    </kNumberOfSillyA2CPosesCouple>
+    <kNumberOfRegularC2CPosesCouple value="8">
+      <!--Range:  0+  Description:  The number of regular Child to child couple poses-->
+    </kNumberOfRegularC2CPosesCouple>
+    <kNumberOfSillyC2CPosesCouple value="7">
+      <!--Range:  0+  Description:  The number of silly Child to child couple poses-->
+    </kNumberOfSillyC2CPosesCouple>
+    <kLTRIncreaseOnPhoto value="3">
+      <!--Positive number that will be added to LTR on take photo with interactions-->
+    </kLTRIncreaseOnPhoto>
+    <kLTRIncreaseOnWoohoo value="5">
+      <!--Positive number that will be added to LTR on woohoo/makeout interactions-->
+    </kLTRIncreaseOnWoohoo>
+    <kTimeToTakePicture value="1">
+      <!--Time to take each picture in the photobooth.  Format: Sim Minutes-->
+    </kTimeToTakePicture>
+    <kLTRForWooHooAndRomantic value="40">
+      <!--LTR Gate for Take romantic photos and makeout interactions.-->
+    </kLTRForWooHooAndRomantic>
+    <kLTRForTakePhotoWith value="10">
+      <!--LTR Gate for Take photo with interactions.-->
+    </kLTRForTakePhotoWith>
+  </Current_Tuning>
+</base>

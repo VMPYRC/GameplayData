@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kOverseeTimeStart value="17">
+      <!--Range:  Sim time.  Description:  Starting time of day at which a Sim can oversee the competition production-->
+    </kOverseeTimeStart>
+    <kOverseeTimeEnd value="23">
+      <!--Range:  Sim time.  Description:  Ending time of day at which a Sim can oversee the competition production-->
+    </kOverseeTimeEnd>
+    <kOverSeeTime value="120">
+      <!--Range: Sim minutes.  Description:  How long does this interaction last?-->
+    </kOverSeeTime>
+    <kOverSeeRewardMin value="1000">
+      <!--Description: The minimum amount of simoleans for overseeing.-->
+    </kOverSeeRewardMin>
+    <kOverSeeRewardMax value="3000">
+      <!--Description: The maximum amount of simoleans for overseeing.-->
+    </kOverSeeRewardMax>
+  </Current_Tuning>
+</base>

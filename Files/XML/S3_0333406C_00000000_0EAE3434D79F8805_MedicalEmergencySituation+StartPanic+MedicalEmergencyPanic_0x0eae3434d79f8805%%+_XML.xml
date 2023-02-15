@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteRange value="2, 3">
+      <!--Route range (in tiles) that each Sim in the crowd will use when routing closer to the Victim when their distance apart exceeds the Tether distance.  Format: (MinDistance, MaxDistance).-->
+    </kRouteRange>
+    <kLookAtInterestingnessForVictim value="70">
+      <!--Range: 0 to 100.  Description: How interesting sims think the Victim Sim is to look at.-->
+    </kLookAtInterestingnessForVictim>
+    <kAnims value="a_react_shocked2_x, a_react_shocked_standing_x, a_react_watch_distressed_standing_x, a_trait_paranoid2_x, a_trait_coward3_x">
+      <!--Animations to use while watching the emergency-->
+    </kAnims>
+  </Current_Tuning>
+</base>

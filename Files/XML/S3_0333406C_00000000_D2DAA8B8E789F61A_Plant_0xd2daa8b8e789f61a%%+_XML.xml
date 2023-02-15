@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kQualityLevels value="0.068, 0.135, 0.202, 0.269, 0.336, 0.386, 0.452, 0.538, 0.650, 0.8, 1" />
+    <kGrowthPerformanceBase value="10" />
+    <kGrowthPerformanceWaterLevelLinear value="0.20" />
+    <kGrowthPerformanceWaterLevelQuadraticNegative value="0.01" />
+    <kGrowthPerformanceWaterLevelQuadraticPositive value="0" />
+    <kGrowthPerformancePenaltyWeeds value="0.5" />
+    <kGrowthPerformanceFertilizer value="1.1">
+      <!--Global 'knob' for ramping up/down the fertilizer value for each thing that can be fertilizer.  Set to 1.0 to have no effect.-->
+    </kGrowthPerformanceFertilizer>
+    <kRaritySkillRequirements value="0, 5, 7, 7">
+      <!--Gardening skill levels required to plant harvestables of varying rarities.  Format: (Common, Uncommon, Rare, Special).-->
+    </kRaritySkillRequirements>
+    <kWaterInteractionTuning>
+      <kInteractionSkillLevel value="0">
+        <!--The level at which the Sim unlocks this gardening interaction.-->
+      </kInteractionSkillLevel>
+      <kTimeMin value="5">
+        <!--The time a Sim of maximum skill will take to complete the gardening interaction.-->
+      </kTimeMin>
+      <kTimeMax value="20">
+        <!--The time a Sim of minimum skill will take to complete the gardening interaction.-->
+      </kTimeMax>
+      <kTimeBonusMinSkill value="0">
+        <!--The minimum skill a Sim must obtain to get bonuses on the interaction time.  Until the Sim has greater skill than this value, they will always take kTimeMax.-->
+      </kTimeBonusMinSkill>
+    </kWaterInteractionTuning>
+    <kWeedInteractionTuning>
+      <kInteractionSkillLevel value="2">
+        <!--The level at which the Sim unlocks this gardening interaction.-->
+      </kInteractionSkillLevel>
+      <kTimeMin value="2">
+        <!--The time a Sim of maximum skill will take to complete the gardening interaction.-->
+      </kTimeMin>
+      <kTimeMax value="20">
+        <!--The time a Sim of minimum skill will take to complete the gardening interaction.-->
+      </kTimeMax>
+      <kTimeBonusMinSkill value="2">
+        <!--The minimum skill a Sim must obtain to get bonuses on the interaction time.  Until the Sim has greater skill than this value, they will always take kTimeMax.-->
+      </kTimeBonusMinSkill>
+    </kWeedInteractionTuning>
+    <kSoilDryWaterLevel value="-50">
+      <!--Range: -100.0f to 100.0f.  The water level under which the soil is set to it's dry visual state.-->
+    </kSoilDryWaterLevel>
+    <kReviveSuccessChance value="70">
+      <!--Range: 0.0f to 100.0f.  The percent chance of success when using the Revive interaction.  If the interaction fails, the plant is permanently destroyed.-->
+    </kReviveSuccessChance>
+    <kGreenThumbTalkToPlantTime value="30">
+      <!--Range: Positive float values.  Description: The length of the time in Sim Minutes that Green Thumb trait Sims will talk to plants.-->
+    </kGreenThumbTalkToPlantTime>
+    <kGreenThumbPlantOffspringQualityBonus value="0.03">
+      <!--Range: Positive floats.  Description: The additional boost in the gaussian quality curve that Green Thumb trait Sims have when plants they planted create offspring.-->
+    </kGreenThumbPlantOffspringQualityBonus>
+    <kSoilWetWaterLevel value="50">
+      <!--Range: -100.0f to 100.0f.  The water level above which the soil is set to it's watered visual state.-->
+    </kSoilWetWaterLevel>
+    <kViewDistanceMin value="0.5">
+      <!--Range: Positive float values.  Description: The Sim routes to a radial range for the 'View Plant' interaction, this variable defines the MINIMUM distance of that range.-->
+    </kViewDistanceMin>
+    <kViewDistanceMax value="2">
+      <!--Range: Positive float values.  Description: The Sim routes to a radial range for the 'View Plant' interaction, this variable defines the MAXIMUM distance of that range.-->
+    </kViewDistanceMax>
+    <kRaritySkillDifficulties value="10, 10, 10, 10">
+      <!--Interactions on Plants (of varying rarities) will provide skill gain up to these Gardening skill levels.  Format: (Common, Uncommon, Rare, Special).-->
+    </kRaritySkillDifficulties>
+    <kWeedChanceIncrementWater value="0, 0.03, 0.05">
+      <!--This number is added to a plant's base weed chance.  Format: (Dry soil, Neutral soil, Wet soil).  Range: 0.0 to 1.0.-->
+    </kWeedChanceIncrementWater>
+    <kWeedChanceIncrementFertilizer value="0.02">
+      <!--This number is added to a plant's base weed chance if the plant is fertilized.  If the plant is not fertilized then this number does not take effect.-->
+    </kWeedChanceIncrementFertilizer>
+    <kMasterFarmerMaxWaterLevel value="175">
+      <!--Normal water level goes to 100, this would be more, thus last longer.-->
+    </kMasterFarmerMaxWaterLevel>
+    <kMasterFarmerBonusFertilizerDays value="2">
+      <!--Bonus days master farmer fertilizer lasts for.-->
+    </kMasterFarmerBonusFertilizerDays>
+    <kBotanicalBossMinPerformence value="-175">
+      <!--Performence which will kill the plant if your a botanical boss.  Normal sims kill at -100.-->
+    </kBotanicalBossMinPerformence>
+    <kNextGrowthStateChanceForAutoGrowLots value="0.7">
+      <!--Chance (between 0 and 1) that a plant on an NPC or Community Lot will progress (i.e. 'fake grow') to the next growth state at the update time each day.-->
+    </kNextGrowthStateChanceForAutoGrowLots>
+    <kDeadPlantBroadcastParams>
+      <PulseRadius value="3">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="True">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <PulseRepeatTime value="10">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="One">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="False">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="False">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="None, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kDeadPlantBroadcastParams>
+    <kFertilizeInteractionGardeningSkillLevelRequired value="3">
+      <!--Gardening skill level at which the 'Fertilize' interaction becomes available.-->
+    </kFertilizeInteractionGardeningSkillLevelRequired>
+    <kTrashUnitsLowPlants value="3, 6, 6, 7, 8, 9">
+      <!--Integer number of 'trash units' in the TrashPile that 'low' Plants turn into when disposed (by growth state of Plant).  Format: (Planted, Mycelium, Sprout, Growing, Mature, Harvest).  This affects the visual state (size) of the TrashPile if the Sim can't successfully place the trash bag in the trashcan & must place the trash bag/pile back on the ground.  See TrashPile tuning for the trash unit thresholds that correspond to the various sizes of TrashPiles.-->
+    </kTrashUnitsLowPlants>
+    <kTrashUnitsMediumPlants value="3, 6, 11, 12, 13, 14">
+      <!--Integer number of 'trash units' in the TrashPile that 'medium' Plants turn into when disposed (by growth state of Plant).  Format: (Planted, Mycelium, Sprout, Growing, Mature, Harvest).  This affects the visual state (size) of the TrashPile if the Sim can't successfully place the trash bag in the trashcan & must place the trash bag/pile back on the ground.  See TrashPile tuning for the trash unit thresholds that correspond to the various sizes of TrashPiles.-->
+    </kTrashUnitsMediumPlants>
+    <kTrashUnitsHighPlants value="3, 6, 16, 17, 18, 19">
+      <!--Integer number of 'trash units' in the TrashPile that 'high' Plants turn into when disposed (by growth state of Plant).  Format: (Planted, Mycelium, Sprout, Growing, Mature, Harvest).  This affects the visual state (size) of the TrashPile if the Sim can't successfully place the trash bag in the trashcan & must place the trash bag/pile back on the ground.  See TrashPile tuning for the trash unit thresholds that correspond to the various sizes of TrashPiles.-->
+    </kTrashUnitsHighPlants>
+    <kWeedChanceReductionForMasterPlanter value="0.2">
+      <!--Range:  0-1  Description:  Multiplier applied to weed growth chance if this was planted by a master planter.-->
+    </kWeedChanceReductionForMasterPlanter>
+    <kFertilizerQualityMultiplier value="0.6, 0.7, 0.8, 0.9, 1.0, 1.1, 1.2, 1.4, 1.6, 1.8, 2">
+      <!--Multiplier on fertilizer value based on fertilizer quality.-->
+    </kFertilizerQualityMultiplier>
+    <kFertilizerQualityAdditionalDays value="0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2">
+      <!--Additional number of fertilizer days based on fertilizer quality.-->
+    </kFertilizerQualityAdditionalDays>
+    <kDailyEvaluatePlantGrowthVarianceInSimMinutes value="15">
+      <!--Plants have their growth updated every morning at a certain time (e.g. 5:00 AM) plus a random number of Sim minutes between zero and this number. This is to spread out the performance hit of updating all the Plants in the world over a period of time (instead of updating all Plants on the same frame).-->
+    </kDailyEvaluatePlantGrowthVarianceInSimMinutes>
+    <kChanceZombieGetsNauseous value="0.2">
+      <!--Chance that Zombie gets the Nauseous buff on attacking plant. Range 0 - 1-->
+    </kChanceZombieGetsNauseous>
+    <kZombieKillsPlantMinutes value="60">
+      <!--Amount of time for zombie attacks to kill plant in Sim minutes-->
+    </kZombieKillsPlantMinutes>
+    <kMushroomCollectorMultiplier value="25">
+      <!--Range: 0-x  Description: multiplier to increase growth performance if we are a Mushroom Collector (collected all mushrooms)-->
+    </kMushroomCollectorMultiplier>
+    <kLeavesCoverageThreshold value="0.5">
+      <!--Harvestable plant trees switch to their leafless state when the global leaf coverage falls below this amount.-->
+    </kLeavesCoverageThreshold>
+    <kLeavesAutumnColorThreshold value="0.6">
+      <!--Harvestable plant trees switch to their fall color state when the autumn color amount goes above this amount.-->
+    </kLeavesAutumnColorThreshold>
+    <kDormantFrostThreshold value="0.5">
+      <!--Harvestable plant trees go dormant if the frost level exceeds this. Not that if there's snow on the ground, that counts as the ground being fully frosted.-->
+    </kDormantFrostThreshold>
+    <kRevivingRainFertilizerAmount value="40">
+      <!--Range: positive floats. GPE default = 40 (as taken from good fertilizer numbers).  When reviving rain occurs, all plants get fertilized with this fertilizer amount-->
+    </kRevivingRainFertilizerAmount>
+    <kRevivingRainFertilizerDays value="5">
+      <!--Range: positive ints. GPE default = 5 (number for a good fertilizer).  When reviving rain occurs, all plants get fertilized by this many days-->
+    </kRevivingRainFertilizerDays>
+    <kQualityLevelToChangeOnWatering value="1">
+      <!--Quality Level to change on watering the forbidden fruit tree-->
+    </kQualityLevelToChangeOnWatering>
+    <kQualityLevelToChangeOnWeeding value="1">
+      <!--Quality Level to change on weeding the forbidden fruit tree-->
+    </kQualityLevelToChangeOnWeeding>
+    <kQualityLevelToChangeOnDry value="2">
+      <!--Quality Level to change on forbidden fruit tree becoming dry-->
+    </kQualityLevelToChangeOnDry>
+    <kQualityLevelToChangeOnHavingWeed value="2">
+      <!--Quality Level to change on watering the forbidden fruit tree having weed-->
+    </kQualityLevelToChangeOnHavingWeed>
+    <kOptimumFertilizerDays value="6">
+      <!--Number of days Simbot optimum fertilizer lasts for.-->
+    </kOptimumFertilizerDays>
+    <kOptimumFertilizerValue value="50">
+      <!--How potent the Optimum Fertilized is-->
+    </kOptimumFertilizerValue>
+    <kOptimumFertilizeDuration value="3">
+      <!--How long it takes to perform optimum fertilization-->
+    </kOptimumFertilizeDuration>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kGreenThumbSkillGainModifier value="15">
+      <!--Range: 0.0f to Float.MaxValue.  The percent with which Sims with the Green Thumb trait have their skill gains boosted.  E.g., A value of 15.0f will mean that if a normal Sim gains 100 skill points in gardening then a Sim with the Green Thumb trait will gain 115 skill points in gardening.-->
+      <!--deprecated on: 1/17/2008 2:58:05 PM-->
+    </kGreenThumbSkillGainModifier>
+    <kGardeningSkillLevelForRevive value="5">
+      <!--Range: 1 (not zero!) to the max skill level (i.e. tune this in a 1-based scale so that the lowest skill level is 1).  The Gardening Skill level at which the 'Revive' interaction becomes available.-->
+      <!--deprecated on: 1/31/2008 12:45:22 PM-->
+    </kGardeningSkillLevelForRevive>
+  </Deprecated_Tuning>
+</base>

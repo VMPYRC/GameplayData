@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRepairableTuning>
+      <HoursUnbreakable value="48">
+        <!--How long until the object is allowed to check for breakage after being fixed or purchased.-->
+      </HoursUnbreakable>
+      <StartPercentChanceBreak value="4">
+        <!--Starting chance of object breaking when its used.-->
+      </StartPercentChanceBreak>
+      <PercentChanceBreakIncrease value="3">
+        <!--How much the chance of breakage increases each time the object is used (int, 1 to 100).-->
+      </PercentChanceBreakIncrease>
+      <PercentWhenReplaceAvailable value="35">
+        <!--What percent breakage chance the Replace interaction becomes available-->
+      </PercentWhenReplaceAvailable>
+      <RepairComplexity value="8">
+        <!--The level at which repair time reaches its minimum-->
+      </RepairComplexity>
+      <MinRepairTime value="25">
+        <!--Minimum amount of time in sim minutes that it takes to repair this object.  This time when skill level at or above RepairComplexity-->
+      </MinRepairTime>
+      <MaxRepairTime value="90">
+        <!--Maximum amount of time in sim minutes that it takes to repair this object.  Occurs at skill level 0.-->
+      </MaxRepairTime>
+      <RepairSkillGain value="2800">
+        <!--Rate of skill gain while repairing object in points per sim minute-->
+      </RepairSkillGain>
+      <UpgradeUnbreakable>
+        <UpgradeTime value="240">
+          <!--The amount of time it takes to do the upgrade in minutes-->
+        </UpgradeTime>
+        <SkillGainRate value="6000">
+          <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+        </SkillGainRate>
+        <BadFailureChance value="35">
+          <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+        </BadFailureChance>
+        <ShouldShockInPuddle value="True">
+          <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+        </ShouldShockInPuddle>
+      </UpgradeUnbreakable>
+      <MinChanceOfElectrocution value="10">
+        <!--Minimum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs when skill level > = RepairComplexity-->
+      </MinChanceOfElectrocution>
+      <MaxChanceOfElectrocution value="15">
+        <!--Maximum percent chance between 0 and 100 that the sim will get electrocuted when doing a repair.  Should only be set > 0 for electrical objects. Occurs at skill level 0.-->
+      </MaxChanceOfElectrocution>
+    </kRepairableTuning>
+    <kMinutesBetweenAdventureTNSMin value="15">
+      <!--Minimum amount of Sim minutes time between events.-->
+    </kMinutesBetweenAdventureTNSMin>
+    <kMinutesBetweenAdventureTNSMax value="45">
+      <!--Max amount of Sim minutes time between events.-->
+    </kMinutesBetweenAdventureTNSMax>
+    <kChanceTimeAlteringAdventure value="10">
+      <!--The percent chance when it is time for an adventure, it is one that will alter time.  Time can only be altered once per an interaction.-->
+    </kChanceTimeAlteringAdventure>
+    <kMaxAdventures value="4">
+      <!--How many adventure TNSs can be shown per an interaction.  This includes time changing TNSs.-->
+    </kMaxAdventures>
+    <kNumAdventureTNSPast value="20">
+      <!--Number of 'past' adventure TNSs.-->
+    </kNumAdventureTNSPast>
+    <kNumAdventureTNSFuture value="20">
+      <!--Number of 'future' adventure TNSs.-->
+    </kNumAdventureTNSFuture>
+    <kMoveFamilyInLTRLiking value="65">
+      <!--Whenever the past is altered and a new family is moved in, this will be the default LTR Liking between all members of the active household and the new family.-->
+    </kMoveFamilyInLTRLiking>
+    <kMoveFamilyInLTRLikingJitterMin value="-10">
+      <!--A random number betwen kMoveFamilyInLTRLikingJitterMin and kMoveFamilyInLTRLikingJitterMax will be added to kMoveFamilyInLTRLiking.-->
+    </kMoveFamilyInLTRLikingJitterMin>
+    <kMoveFamilyInLTRLikingJitterMax value="10">
+      <!--See kMoveFamilyInLTRLikingJitterMin description.-->
+    </kMoveFamilyInLTRLikingJitterMax>
+    <kNumChangingThePastTNSMoveInFamily value="3">
+      <!--Number of 'changing the past' TNSs when a new family moves into the neighborhood.-->
+    </kNumChangingThePastTNSMoveInFamily>
+    <kNumChangingThePastTNSChangeCareer value="3">
+      <!--Number of 'changing the past' TNSs when a Sim changes careers.-->
+    </kNumChangingThePastTNSChangeCareer>
+    <kNumChangingThePastTNSLoseGhost value="3">
+      <!--Number of 'changing the past' TNSs when a Sim switches from a playable ghost to a normal Sim.-->
+    </kNumChangingThePastTNSLoseGhost>
+    <kNumChangingThePastTNSLoseMummy value="3">
+      <!--Number of 'changing the past' TNSs when a Sim switches from a playable mummy to a normal Sim.-->
+    </kNumChangingThePastTNSLoseMummy>
+    <kNumChangingThePastTNSAddChild value="3">
+      <!--Number of 'changing the past' TNSs when a Sim adds a child to their household.-->
+    </kNumChangingThePastTNSAddChild>
+    <kCostMultiplierIfMasterInvention value="1.1">
+      <!--Cost multiplier to apply to Time machine's value if it is a 'Masterful' invention. < 1 will decrease value, 1 will do nothing and > 1 will increase value.-->
+    </kCostMultiplierIfMasterInvention>
+    <kPostTravelChanceForObject value="0.5">
+      <!--The chance a Sim will have an object added to their inventory when returning from time travel.  Valid Range 0.0 - 1.0-->
+    </kPostTravelChanceForObject>
+    <kPostTravelChanceObjectIsBook value="0.3">
+      <!--If the Sim is being given a random object, this is the chance the object will be a time travel book instead of an object defined in kRandomObjectsToFind.  Valid Range 0.0 - 1.0-->
+    </kPostTravelChanceObjectIsBook>
+    <kPostTravelChanceForBuff value="0.7">
+      <!--The chance a Sim will receive a random buff when returning from time travel.  Valid Range 0.0 - 1.0-->
+    </kPostTravelChanceForBuff>
+    <kPostTravelChanceBuffIsPositive value="0.65">
+      <!--If the Sim is receiving a buff, the chance the buff is positive.  Positive buffs are defined in kPostTravelPositiveBuffs, Negative in kPostTravelNegativeBuffs. Valid Range 0.0 - 1.0-->
+    </kPostTravelChanceBuffIsPositive>
+    <kPostTravelChanceForSimoleans value="0.35">
+      <!--The chance a Sim will receive a random amount of Simoleans when returning from time travel.  Valid Range 0.0 - 1.0-->
+    </kPostTravelChanceForSimoleans>
+    <kPostTravelPositiveBuffs value="GreatAdventure,LetOffSteam,AdrenalineRush,Fascinated,Celebrity,CheeredUp,DivineMeal,Inspired,Tranquil,Winner">
+      <!--The buffs you can get if you win.-->
+    </kPostTravelPositiveBuffs>
+    <kPostTravelNegativeBuffs value="Horrified, Scared, Disappointed, StuffTaken, Offended, Humiliated, Fear, Disgusted, Betrayed">
+      <!--The buffs you can get if you lose.-->
+    </kPostTravelNegativeBuffs>
+    <kPostTravelSimoleansMin value="50">
+      <!--If the random chance to find Simoleans is met, this is the minimum that will be added to the Sim's family funds.-->
+    </kPostTravelSimoleansMin>
+    <kPostTravelSimoleansMax value="2500">
+      <!--If the random chance to find Simoleans is met, this is the maximum that will be added to the Sim's family funds.-->
+    </kPostTravelSimoleansMax>
+    <kPostTravelChanceForOutfit value="0.1">
+      <!--The chance a Sim will exit the time machine in a 'time travel' outfit when returning from time travel.  Valid Range 0.0 - 1.0-->
+    </kPostTravelChanceForOutfit>
+    <kPostTravelSkinsFuture value="BodyCyberSuit1, BodyCyberSuit2, BodyCyberSuit3, BodyBioSuit1, BodyBioSuit2, BodyBioSuit3">
+      <!--Array of outfit names that may be given to a Sim when traveling in the future.  Age and genders will be applied programmatically.-->
+    </kPostTravelSkinsFuture>
+    <kPostTravelSkinsPast value="BodyCroMagnon1, BodyCroMagnon2, BodyCroMagnon3, BodyDarkAges1, BodyDarkAges2, BodyDarkAges3, BodyMedieval1, BodyMedieval2, BodyMedieval3">
+      <!--Array of outfit names that may be given to a Sim when traveling in the past.  Age and gender will be applied programmatically.-->
+    </kPostTravelSkinsPast>
+    <kNumTimeTravelBooks value="10">
+      <!--The number of time travel books defined in Books.xls.  Currently future and past books must have the same number.-->
+    </kNumTimeTravelBooks>
+    <kBabyMadeChance value="55">
+      <!--Range: 0-100. Chance of getting a new Sim when trying for baby.-->
+    </kBabyMadeChance>
+    <kTimeTravelBuffMoodPositive value="20">
+      <!--If the Sim has a positive trip, this is the mood value the 'Time Traveled' buff will provide.-->
+    </kTimeTravelBuffMoodPositive>
+    <kTimeTravelBuffMoodNegative value="-25">
+      <!--If the Sim has a negative trip, this is the mood value the 'Time Traveled' buff will provide.-->
+    </kTimeTravelBuffMoodNegative>
+    <kDaysUntilFutureChildArrives value="2">
+      <!--If the child was conceived in the future, this is how many days until the alarm fires and adds the child to the family-->
+    </kDaysUntilFutureChildArrives>
+    <kWooHooMinutesMin value="15">
+      <!--Minimum amount of Sim minutes WooHoo/Try For Baby will last.-->
+    </kWooHooMinutesMin>
+    <kWooHooMinutesMax value="45">
+      <!--Max amount of Sim minutes WooHoo/Try For Baby will last.-->
+    </kWooHooMinutesMax>
+    <kRequiredFairySkillLevelRepair value="3">
+      <!--Minimum fairy skill level requirement for the fairy repair interaction-->
+    </kRequiredFairySkillLevelRepair>
+  </Current_Tuning>
+</base>

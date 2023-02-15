@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kGeneralTuning>
+      <DelayBeforeArriving value="0">
+        <!--Number of hours to delay before arriving.-->
+      </DelayBeforeArriving>
+      <DelayBeforeLeaving value="0">
+        <!--Number of hours to delay before leaving after the service is finished.-->
+      </DelayBeforeLeaving>
+      <ExtraDelayBeforeLeavingAfterSocializing value="0">
+        <!--Number of hours to delay before leaving after the service is finished if the service Sim is socialized with.-->
+      </ExtraDelayBeforeLeavingAfterSocializing>
+    </kGeneralTuning>
+    <kShiftTime value="4">
+      <!--Number of Sim hours the time traveler will work before seeing if the party is dead - PAB-->
+    </kShiftTime>
+    <kSocialWaitTime value="5">
+      <!--Number of Sim mins the time traveler will wait before leaving after he is done socializing - PAB-->
+    </kSocialWaitTime>
+  </Current_Tuning>
+</base>

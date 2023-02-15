@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinRadiusToWatch value="3">
+      <!--[Watch] Minimum route radius for sim watching game-->
+    </kMinRadiusToWatch>
+    <kMaxRadiusToWatch value="5">
+      <!--[Watch] Maximum route radius for sim watching game-->
+    </kMaxRadiusToWatch>
+    <kConeAngleForWatch value="1.57">
+      <!--[Watch] Range in Radians. Cone angle allowed for sim watching game.-->
+    </kConeAngleForWatch>
+    <kTimeToWaitToEvict value="15">
+      <!--Time to wait to evict a lower priority Sim from this object, in Sim minutes-->
+    </kTimeToWaitToEvict>
+    <kTimeInIdle value="2">
+      <!--Range:  Positive Float  Description:  Number of minutes in idle before taking a swing-->
+    </kTimeInIdle>
+    <kMinYardsToBeCalledLongBallFlight value="100">
+      <!--Range:  Positive integer  Description:  number of yards minimum to be called a long ball flight-->
+    </kMinYardsToBeCalledLongBallFlight>
+    <kNumSwingsToTake value="10">
+      <!--Maximum number of swings to take in a single session-->
+    </kNumSwingsToTake>
+    <kMaxPracticeSwingsBeforeSwing value="2">
+      <!--Range: Positive Integer   Description: Number of practice swings at the start of the golfing session-->
+    </kMaxPracticeSwingsBeforeSwing>
+  </Current_Tuning>
+</base>

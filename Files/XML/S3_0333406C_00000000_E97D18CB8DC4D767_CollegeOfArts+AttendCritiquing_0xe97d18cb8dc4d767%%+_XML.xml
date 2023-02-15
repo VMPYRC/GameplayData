@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAttendCritiquingCost value="25">
+      <!--Range: Positive ints, Description: Cost to attend critique-->
+    </kAttendCritiquingCost>
+    <kLenghtOfTimeInRabbitHole value="60">
+      <!--Time in sim minutes that the sim will be in the Rabbit hole donating giggles-->
+    </kLenghtOfTimeInRabbitHole>
+    <kPaintingSkillGain value="1">
+      <!--Range: Positive float, Description: Painting skill point gain-->
+    </kPaintingSkillGain>
+    <kStreetArtSkillGain value="20">
+      <!--Range: Positive float, Description: Street Art skill point gain-->
+    </kStreetArtSkillGain>
+    <kChanceOfGettingBuff value="100">
+      <!--Range: 0.0f to 100.0, Description: percentage chance of recieving a buff-->
+    </kChanceOfGettingBuff>
+    <kBuffsThatMayBeAwarded value="ClinicallyCritiqued, BoundlessCreativeEnergy, Bored, CantStandArt">
+      <!--BuffNames[]  Description:  List of buffs that may be awarded-->
+    </kBuffsThatMayBeAwarded>
+  </Current_Tuning>
+</base>

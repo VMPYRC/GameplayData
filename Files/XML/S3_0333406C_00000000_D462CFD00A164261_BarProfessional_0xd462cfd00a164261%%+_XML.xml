@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCounterWithNoStoolMultiplier value="0.8">
+      <!--Range:  0+  Description:  The score multiplier for counters with no stools-->
+    </kCounterWithNoStoolMultiplier>
+    <kStoolParentedToBarMultiplier value="2">
+      <!--Range:  0+  Description:  The score multiplier for a stool parented to a bar-->
+    </kStoolParentedToBarMultiplier>
+    <kBarWithNoStoolMultiplier value="1">
+      <!--Range:  0+  Description:  The score multiplier for the bar itself-->
+    </kBarWithNoStoolMultiplier>
+    <kStoolMultiplierWhenSimWouldRatherStand value="0.1">
+      <!--Range:  0+  Description:  The score multiplier for stools when the Sim would rather stand-->
+    </kStoolMultiplierWhenSimWouldRatherStand>
+    <kOccupiedStandingSlotMultiplier value="0.05">
+      <!--Range:  0+  Description:  The multiplier for standing at a slot that is currently occupied-->
+    </kOccupiedStandingSlotMultiplier>
+    <kResortTuning>
+      <kShiftCosts value="25, 25, 50">
+        <!--cost for each shift.  Day, night, graveyard-->
+      </kShiftCosts>
+      <kShiftScore value="25, 25, 25">
+        <!--score for each shift.  Day, night, graveyard-->
+      </kShiftScore>
+      <kNoDayShiftBase value="Gameplay/Objects/Miscellaneous/ResortBar:NoDayShift">
+        <!--base review string for no day shift-->
+      </kNoDayShiftBase>
+      <kNoDayShiftCount value="10">
+        <!--number of no day shift strings-->
+      </kNoDayShiftCount>
+      <kNoNightShiftBase value="Gameplay/Objects/Miscellaneous/ResortBar:NoNightShift">
+        <!--base review string for no night shift-->
+      </kNoNightShiftBase>
+      <kNoNightShiftCount value="10">
+        <!--number of no night shift strings-->
+      </kNoNightShiftCount>
+      <kNoGraveyardShiftBase value="Gameplay/Objects/Miscellaneous/ResortBar:NoGraveyardShift">
+        <!--base review string for no graveyard shift-->
+      </kNoGraveyardShiftBase>
+      <kNoGraveyardShiftCount value="10">
+        <!--number of no graveyard shift strings-->
+      </kNoGraveyardShiftCount>
+    </kResortTuning>
+  </Current_Tuning>
+</base>

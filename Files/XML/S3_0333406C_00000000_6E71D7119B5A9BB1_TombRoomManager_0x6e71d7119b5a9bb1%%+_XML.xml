@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSecondsToFadeFoggedRoom value="1" />
+    <kMediumTombRoomSize value="75">
+      <!--This is the size of the room in 'quadrants' to be considered a medium room.-->
+    </kMediumTombRoomSize>
+    <kLargeTombRoomSize value="150">
+      <!--This is the size of the room in 'quadrants' to be considered a large room.-->
+    </kLargeTombRoomSize>
+    <kSmallRoomChance value="0.25">
+      <!--0-1 chance of playing the awe animation the first time entering a small room-->
+    </kSmallRoomChance>
+    <kMediumRoomChance value="0.5">
+      <!--0-1 chance of playing the awe animation the first time entering a medium room-->
+    </kMediumRoomChance>
+    <kLargeRoomChance value="1">
+      <!--0-1 chance of playing the awe animation the first time entering a large room-->
+    </kLargeRoomChance>
+  </Current_Tuning>
+</base>

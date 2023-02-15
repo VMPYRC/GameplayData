@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinimumMinutesToDisarmTrap value="12" />
+    <kMaximumMinutesToDisarmTrap value="25" />
+    <kMinutesToFindTrapDisarmable value="7">
+      <!--Range: Sim Minutes.  This the amount of time it takes a sim to find out a trap cannot be disarmed.-->
+    </kMinutesToFindTrapDisarmable>
+    <kChanceToFailDisarmingForHandinessLevel0 value="0.2" />
+    <kChanceToFailDisarmingForHandinessLevel10 value="0.01" />
+    <kSandsOfUnderstandingFailureChanceMultiplier value="0.5">
+      <!--Multiplier (float value) to lower failure chance when disarming trap when glowing from Sands of Understanding.  Set to 1 to have no effect, 0.75 to decrease chance of failure by 25%, etc.-->
+    </kSandsOfUnderstandingFailureChanceMultiplier>
+  </Current_Tuning>
+</base>

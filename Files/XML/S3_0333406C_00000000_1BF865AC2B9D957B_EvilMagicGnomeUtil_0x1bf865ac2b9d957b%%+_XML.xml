@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBaseChanceToGetEvilGnome value="0.2">
+      <!--The base chance to get an evil gnome instead of a regular magic gnome.  0.0 - 1.0-->
+    </kBaseChanceToGetEvilGnome>
+    <kAddedChanceForMeanSpiritedSims value="0.1">
+      <!--The added chance to get an evil gnome for mean-spirited sims.  0.0+  added to kBaseChanceToGetEvilGnome-->
+    </kAddedChanceForMeanSpiritedSims>
+    <kMeanSpiritedTraits value="MeanSpirited, Evil">
+      <!--The list of traits that will qualify a sim to get the kAddedChanceForMeanSpiritedSims. Modifier will only be added once, regardless of how many of these traits the sim has.-->
+    </kMeanSpiritedTraits>
+    <kAddedChanceForLowAverageLtrLiking value="0.1">
+      <!--The added chance to get an evil gnome for sims with an average LTR at or BELOW the kLowAverageLtrLikingThreshold.-->
+    </kAddedChanceForLowAverageLtrLiking>
+    <kLowAverageLtrLikingThreshold value="-20">
+      <!--The low average LTR with sims in order to get the kAddedChanceForLowAverageLtrLiking bonus.  -100.0 - 100.0-->
+    </kLowAverageLtrLikingThreshold>
+    <kAddedChanceForGoodFriendlySims value="-0.1">
+      <!--The added chance to get an evil gnome for good, friendly sims.  Added to kBaseChanceToGetEvilGnome (probably should be a negative number)-->
+    </kAddedChanceForGoodFriendlySims>
+    <kGoodFriendlyTraits value="Good, Friendly">
+      <!--The list of traits that will qualify a sim to get the kAddedChanceForGoodFriendlySims.  Modifier will only be added once, regardless of how many of the traits the sim has.-->
+    </kGoodFriendlyTraits>
+    <kAddedChanceForHighAverageLtrLiking value="-0.1">
+      <!--The added chance to get an evil gnome for sims with an average LTR at or ABOVE the kHighAverageLtrLikingThreshold.-->
+    </kAddedChanceForHighAverageLtrLiking>
+    <kHighAverageLtrLikingThreshold value="70">
+      <!--The high average LTR with sims in order to get the kAddedChanceForHighAverageLtrLiking bonus.  -100.0 - 100.0-->
+    </kHighAverageLtrLikingThreshold>
+    <kDailyChancePerEnemyToGetEvilGnomeInMail value="0.02">
+      <!--If a sim in the household has an enemy, this is the daily chance they will get an evil gnome in the mail, per enemy.  0.0 - 1.0-->
+    </kDailyChancePerEnemyToGetEvilGnomeInMail>
+  </Current_Tuning>
+</base>

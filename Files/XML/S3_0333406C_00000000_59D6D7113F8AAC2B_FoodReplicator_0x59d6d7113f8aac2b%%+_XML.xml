@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumReplicationSlots value="3">
+      <!--Max number of replication slots.-->
+    </kNumReplicationSlots>
+    <kNumReplicationsPerRecipe value="10">
+      <!--Num replications per recipe.-->
+    </kNumReplicationsPerRecipe>
+    <kUpgradeMultiplier value="2">
+      <!--Multiplier applied to kNumReplicationsPerRecipe when you upgrade the food replicator.-->
+    </kUpgradeMultiplier>
+    <kUpgradeImproveMemoryTuning>
+      <UpgradeTime value="400">
+        <!--The amount of time it takes to do the upgrade in minutes-->
+      </UpgradeTime>
+      <SkillGainRate value="8800">
+        <!--Skill points gained when for one upgrade.  We figure out your progress from 0-1 and multiply by this to give you skill points.-->
+      </SkillGainRate>
+      <BadFailureChance value="15">
+        <!--Range: 0 to 100 float, The chance IF a regular failure occurs, that it is a bad failure-->
+      </BadFailureChance>
+      <ShouldShockInPuddle value="True">
+        <!--Set to True if the object should shock the Sim if sim is standing in a puddle during upgrade.  False otherwise-->
+      </ShouldShockInPuddle>
+    </kUpgradeImproveMemoryTuning>
+    <kStoreLength value="3">
+      <!--Number of sim minutes the Store animation loop takes.-->
+    </kStoreLength>
+    <kReplicateLength value="1">
+      <!--Number of sim minutes the Replicate animation loop takes.-->
+    </kReplicateLength>
+    <kFadeTime value="5">
+      <!--Number of real-life seconds the container takes to fade in during Replicate.-->
+    </kFadeTime>
+  </Current_Tuning>
+</base>

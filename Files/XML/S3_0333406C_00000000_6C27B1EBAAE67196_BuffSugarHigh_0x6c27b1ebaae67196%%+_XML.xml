@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumPiecesForSugarHigh value="3">
+      <!--This buff will be hidden on the Sim after they eat the first piece of candy and will be revealed after they eat this many pieces.-->
+    </kNumPiecesForSugarHigh>
+    <kPreSugarHighEffectValue value="5">
+      <!--This buff doesn't turn into 'Sugar High' until a Sim eats kNumPiecesForSugarHigh of candy.  The buff will have this effect value until then.  Then it will use the value defined in kSugarHighEffectValue-->
+    </kPreSugarHighEffectValue>
+    <kNumPiecesForToothAche value="6">
+      <!--Once a Sim eats this many pieces of candy, Sugar High will be removed and Tooth Ache added.-->
+    </kNumPiecesForToothAche>
+    <kFatPercentageGainDuringSugarHigh value="0.15">
+      <!--Range: Fat percentage.  Description:  Fat percentage gain from eating candy while the Sim has the Sugar High buff..-->
+    </kFatPercentageGainDuringSugarHigh>
+    <kSugarHighEffectValue value="0">
+      <!--The effect value after the Sim eats kNumPiecesForSugarHigh pieces of candy.-->
+    </kSugarHighEffectValue>
+  </Current_Tuning>
+</base>

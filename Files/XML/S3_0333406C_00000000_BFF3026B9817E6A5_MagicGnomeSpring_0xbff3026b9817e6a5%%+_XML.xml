@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCheckForSpringGnomeTime value="6">
+      <!--The number of sim hours between tries to create a spring gnome 0.0+-->
+    </kCheckForSpringGnomeTime>
+    <kChanceForGnomeOnLotWithGarden value="0.02">
+      <!--The chance of a spring gnome spawning on a lot with gardens suring spring time.  0.0 - 1.0-->
+    </kChanceForGnomeOnLotWithGarden>
+    <kChanceForGnomeFromWoohoo value="0.05">
+      <!--The chance of a spring gnome spawning on a lot when two sims achieve woohoo.  0.0 - 1.0-->
+    </kChanceForGnomeFromWoohoo>
+    <kChanceForGnomeFromNewBaby value="0.05">
+      <!--The chance of a spring gnome spawning on a lot when two sims make/adopt a baby.  0.0 - 1.0-->
+    </kChanceForGnomeFromNewBaby>
+    <kChanceForGnomeFromEgghunt value="0.01">
+      <!--The chance of a spring gnome being found instead of an egg during egghunt.  0.0 - 1.0-->
+    </kChanceForGnomeFromEgghunt>
+    <kGnomeTuning>
+      <kIdlePoses value="magicGnomeBunnyHop,magicGnomeBunnyJump,magicGnomeBunnyRun,magicGnomeBunnySit">
+        <!--Idle poses - list of model names-->
+      </kIdlePoses>
+      <kSleepPoses value="magicGnomeBunnyLay">
+        <!--Sleep poses - list of model names-->
+      </kSleepPoses>
+      <kInterestedPoses value="magicGnomeBunnyRun,magicGnomeBunnyHop,magicGnomeBunnyJump">
+        <!--Interested poses - list of model names-->
+      </kInterestedPoses>
+      <kRelaxingPoses value="magicGnomeBunnySit">
+        <!--Relaxing poses - list of model names-->
+      </kRelaxingPoses>
+      <kExhaustedPoses value="magicGnomeBunnyLay">
+        <!--Exhausted poses - list of model names-->
+      </kExhaustedPoses>
+      <kNoKickPoses value="magicGnomeBunnyLay">
+        <!--Can't Kick Poses - list of model names of poses that can't be kicked/changed into when kicked-->
+      </kNoKickPoses>
+      <kWeightExpensive value="1">
+        <!--OBJECT DESIREABILITY: (Positive float) Weight to add if an object is expensive.-->
+      </kWeightExpensive>
+    </kGnomeTuning>
+    <kWeightHarvestables value="1.5">
+      <!--The weight of harvestables for attracting spring gnomes. 0.0+-->
+    </kWeightHarvestables>
+    <kWeightFestivalEggs value="2">
+      <!--The weight of festival eggs for attracting spring gnomes. 0.0+-->
+    </kWeightFestivalEggs>
+    <kWeightFlora value="2">
+      <!--The weight of flora for attracting spring gnomes. 0.0+-->
+    </kWeightFlora>
+  </Current_Tuning>
+</base>

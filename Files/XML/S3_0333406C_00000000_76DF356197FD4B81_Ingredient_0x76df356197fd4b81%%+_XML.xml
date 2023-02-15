@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLifeFruitEatenLifetimeExtensionDays value="1">
+      <!--Number of Sim days that a Sim's life is extended by for each Life Fruit they eat.-->
+    </kLifeFruitEatenLifetimeExtensionDays>
+    <kEatingCarrotMod value="1.25">
+      <!--modification to hunger when horse eating a carrot-->
+    </kEatingCarrotMod>
+    <kEatingCarrotScoringMod value="1.5">
+      <!--modification to scoring advertising for eatting a carrot for horses-->
+    </kEatingCarrotScoringMod>
+    <kAddedLifeFromGourmetFoodChance value="0.2">
+      <!--Range:  0.0 - 1.0  Description: Chance of pet getting aditional days added to their age from eating gourmet food.-->
+    </kAddedLifeFromGourmetFoodChance>
+    <kAddedLifeDaysFromGourmetFood value="2">
+      <!--Maximum number of aditional days pets get added to their age from eating gourmet food. Will give pet (%quality * maxDays) more days to their current age.-->
+    </kAddedLifeDaysFromGourmetFood>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

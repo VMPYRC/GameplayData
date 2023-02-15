@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinutesRemovedFromShortOutMinHandiness value="5">
+      <!--Number of minutes that will be removed from Frankenstein's Short Out buff every minute of repairing by a Sim who has handiness level 0.-->
+    </kMinutesRemovedFromShortOutMinHandiness>
+    <kMinutesRemovedFromShortOutMaxHandiness value="15">
+      <!--Number of minutes that will be removed from Frankenstein's Short Out buff every minute of repairing by a Sim who has handiness level 10.-->
+    </kMinutesRemovedFromShortOutMaxHandiness>
+    <kChanceofSuccess value="0.25, 0.99">
+      <!--Range: 0.0 - 1.0.  The chance of success when repairing SimBot.  Will be electrocuted otherwise.  Linearly interpolate between these values based on the handiness skill level.-->
+    </kChanceofSuccess>
+  </Current_Tuning>
+</base>

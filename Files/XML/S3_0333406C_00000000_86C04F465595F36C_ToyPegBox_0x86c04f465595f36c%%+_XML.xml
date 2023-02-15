@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <CircleRetryChance value="0.5">
+      <!--Chance the toddler will not give up on the circle peg after failing.-->
+    </CircleRetryChance>
+    <SkillChewChance value="0.25, 0.15, 0.05, 0">
+      <!--For each skill level, chance of toddler chewing on the peg.-->
+    </SkillChewChance>
+    <ChewRetryChance value="0.8">
+      <!--Chance the toddler will not give up on a peg after chewing on it.-->
+    </ChewRetryChance>
+    <SkillSuccessChance value=".25, .5, .75, 1">
+      <!--For each skill level, chance of toddler being successful.-->
+    </SkillSuccessChance>
+    <PlayWithSkillBoost value="1.5">
+      <!--Multiplier to skill gain rate when an adult is playing with the toddler.-->
+    </PlayWithSkillBoost>
+    <PlayWithRelationshipDeltaSTC value="50">
+      <!--Friendly STC, per Sim hour.-->
+    </PlayWithRelationshipDeltaSTC>
+    <PlayWithRelationshipDeltaLTR value="12">
+      <!--Long-term relationship gain per Sim hour.-->
+    </PlayWithRelationshipDeltaLTR>
+    <kPlayWithCommodityUpdate>
+      <mMultiplier value="1" />
+      <mLocked value="False" />
+      <mActualValue value="100" />
+      <mUpdateType value="ContinuousFlow" />
+      <mTimeDependsOnCommodityFilling value="False" />
+      <mUpdateEvenOnFailure value="True" />
+      <mUpdateAboveAndBelowZero value="Either" />
+      <CommodityIsMeantForReinforcement value="False" />
+    </kPlayWithCommodityUpdate>
+  </Current_Tuning>
+</base>

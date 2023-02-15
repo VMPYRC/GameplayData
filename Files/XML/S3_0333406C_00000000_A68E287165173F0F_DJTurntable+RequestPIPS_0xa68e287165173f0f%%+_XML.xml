@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLTRIncreaseOnSuccess value="5">
+      <!--Positive number that will be added to LTR for a request and a successful change genre-->
+    </kLTRIncreaseOnSuccess>
+    <kLTRDecreaseOnFailure value="-5">
+      <!--Negative number that will be subtracted to LTR for a request and failed change genre-->
+    </kLTRDecreaseOnFailure>
+  </Current_Tuning>
+</base>

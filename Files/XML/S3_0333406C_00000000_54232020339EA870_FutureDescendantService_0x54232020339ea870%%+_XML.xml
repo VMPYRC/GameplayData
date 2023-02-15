@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTraitsScoreToHouseholdSizeMapping value="-3000, -2000, -1000, -500, 0, 500, 1000, 2000, 3000">
+      <!--Range: Array of Integers  Description:  If HouseholdTraitScore is less than first element, then household size is zero.  If HouseholdTraitScore is greater than or equal first element and less than second element, then household size is one.  If HouseholdTraitScore is greater than or equal second element and less than third element, then household size is two.  Etc.-->
+    </kTraitsScoreToHouseholdSizeMapping>
+    <kPercentChanceOfSingleParentHousehold value="25">
+      <!--Chance of single parent household, in percent-->
+    </kPercentChanceOfSingleParentHousehold>
+    <kPercentChanceOfSameSexHousehold value="15">
+      <!--Chance of same sex household, in percent-->
+    </kPercentChanceOfSameSexHousehold>
+    <kPercentChanceOfElderlyHousehold value="25">
+      <!--Chance of elderly household if childless, in percent-->
+    </kPercentChanceOfElderlyHousehold>
+    <kHouseholdWorthLotThresholds value="150000, 200000, 300000, 400000">
+      <!--Range: Array 3 of Integers  Description:  The household value mappings that determine the lot a household lives at.-->
+    </kHouseholdWorthLotThresholds>
+    <kHouseholdWorthUiThresholds value="5000, 10000, 20000, 40000, 80000, 160000, 320000, 640000, 1280000, 2360000">
+      <!--Range: Array 10 of Integers  Description:  The household value mappings that determine the text string shown in the UI for household worth.-->
+    </kHouseholdWorthUiThresholds>
+    <kHouseholdWorthUiIndices value="2, 3, 5, 9">
+      <!--Range: Array 4 of Integers  Description:  Which indicesof (kHouseholdWorthUiThresholds) go into which category.. eg. 2, 3, 5, 9: <2 = ultrapoor, 3 = poor, 5 = average, 9 = rich -->
+    </kHouseholdWorthUiIndices>
+    <kUseActiveHouseholdHomeLotValue value="False">
+      <!--Should we use the home lot value in calculating decendant worth? -CMB-->
+    </kUseActiveHouseholdHomeLotValue>
+  </Current_Tuning>
+</base>

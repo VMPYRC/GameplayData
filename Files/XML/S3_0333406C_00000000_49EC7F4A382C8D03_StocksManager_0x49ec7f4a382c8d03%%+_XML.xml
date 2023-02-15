@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kStockPrivateTimeout value="100">
+      <!--Range: 100-1000  Description: How long until a stock goes private as a result of non-use (SimMinute x StockUpdateTime)-->
+    </kStockPrivateTimeout>
+    <kMovementDuration value="12">
+      <!--Range: 1-15  Description: How quickly (in Sim minutes) the larger stock moves happen-->
+    </kMovementDuration>
+    <kNoiseDuration value="1">
+      <!--Range: 1-5  Description: How quickly (in Sim minutes) the smaller stock noise moves happen-->
+    </kNoiseDuration>
+    <kStockUpdateTime value="10">
+      <!--Range: 1-20  Description: Number of sim minutes between each stock movement tick-->
+    </kStockUpdateTime>
+    <kOddsOfNewStock value="50">
+      <!--Range: 5-500  Description: The odds each loop tick that a new stock will be found when they select to research-->
+    </kOddsOfNewStock>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

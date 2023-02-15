@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxBottlesInRack value="15">
+      <!--Max bottles in this rack-->
+    </kMaxBottlesInRack>
+    <kBaseAppreciationModifier value="0.02">
+      <!--Bonus multiplier to appreciation when in this rack (added on to base multiplier)-->
+    </kBaseAppreciationModifier>
+    <kStateChangeHalf value="1">
+      <!--Number of bottles to put in the rack before it is considered half full-->
+    </kStateChangeHalf>
+    <kStateChangeFull value="10">
+      <!--Number of bottles to put in the rack before it is considered full-->
+    </kStateChangeFull>
+  </Current_Tuning>
+</base>

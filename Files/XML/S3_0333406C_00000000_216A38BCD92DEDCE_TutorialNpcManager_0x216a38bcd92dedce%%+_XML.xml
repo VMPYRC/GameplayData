@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTutorialNpcServiceTypes value="TutorialNpcFisherman, TutorialNpcBugCollector, TutorialNpcSeedCollector, TutorialNpcGemCollector" />
+    <kTutorialNpcSituationTuning>
+      <DelayBeforeArriving value="0">
+        <!--Number of hours to delay before arriving.-->
+      </DelayBeforeArriving>
+      <DelayBeforeLeaving value="0">
+        <!--Number of hours to delay before leaving after the service is finished.-->
+      </DelayBeforeLeaving>
+      <ExtraDelayBeforeLeavingAfterSocializing value="0.33">
+        <!--Number of hours to delay before leaving after the service is finished if the service Sim is socialized with.-->
+      </ExtraDelayBeforeLeavingAfterSocializing>
+    </kTutorialNpcSituationTuning>
+    <kNumberOfTutorialNpcsThatAppearAtATime value="0" />
+    <kNumberOfDaysEachTutorialNpcAppearsFor value="5" />
+    <kHourToMakeTutorialNpcsAppear value="9" />
+    <kHourToMakeTutorialNpcsDisappear value="21" />
+    <kDaysOfTheWeekToMakeTutorialNpcsAppear value="All" />
+    <kMapTagScore value="5000" />
+    <kMapTagFamiliarity value="0" />
+    <kMapTagAlwaysShow value="True" />
+    <kMapTagAlwaysShowTime value="1000" />
+    <kRandomRockGemMetalList value="Iron, SpaceRockSmall, Aqua" />
+  </Current_Tuning>
+</base>

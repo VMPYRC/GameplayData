@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeToScatterHayPileRound value="7">
+      <!--Float > 0. Sim minutes to scatter a round hay pile.-->
+    </kTimeToScatterHayPileRound>
+    <kTimeToScatterHayPileSquare value="2">
+      <!--Float > 0. Sim minutes to scatter a square hay pile.-->
+    </kTimeToScatterHayPileSquare>
+    <kTimeToScatterHayPileStacked value="5">
+      <!--Float > 0. Sim minutes to scatter a stacked hay pile.-->
+    </kTimeToScatterHayPileStacked>
+    <kScatterHayAutonomyDistance value="60">
+      <!--Int > 0. Autonomy will advertise Scatter Hay interaction if there are less kScatterHayAutonomyCount number of hay piles within this distance from the hay pile-->
+    </kScatterHayAutonomyDistance>
+    <kScatterHayAutonomyCount value="1">
+      <!--Int > 0. Autonomy will advertise Scatter Hay interaction if there are less than this number of hay piles within kScatterHayAutonomyDistance distance from the hay pile-->
+    </kScatterHayAutonomyCount>
+  </Current_Tuning>
+</base>

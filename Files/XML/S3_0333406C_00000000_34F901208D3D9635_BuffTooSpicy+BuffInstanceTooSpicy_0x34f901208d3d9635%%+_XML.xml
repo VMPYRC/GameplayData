@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinTimeForFx value="5">
+      <!--Range: Positive float - Description:  Min time to wait before fx are turned off.-->
+    </kMinTimeForFx>
+    <kMaxTimeForFx value="10">
+      <!--Range: Positive float - Description:  Max time to wait before fx are turned off.-->
+    </kMaxTimeForFx>
+    <kChanceOfBreathingFire value="16">
+      <!--Range: 0 - 100% - Description:  Percentage chance of breathing fire-->
+    </kChanceOfBreathingFire>
+    <kChanceOfStartingFire value="10">
+      <!--Range: 0 - 100% - Description:  Percentage chance of starting a fire from breath-->
+    </kChanceOfStartingFire>
+    <kDistanceToFire value="1">
+      <!--Range: 0 - x float - Description:  multiplier for distance in front of Sim that catches fire-->
+    </kDistanceToFire>
+  </Current_Tuning>
+</base>

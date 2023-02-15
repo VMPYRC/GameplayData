@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRouteRadiusToPickUp value="0.5">
+      <!--Distance away from the cane that the sim will route to in order to pick it up.-->
+    </kRouteRadiusToPickUp>
+    <kNPCUseCaneChance value="0.4">
+      <!--Tunable chance between 0 and 1 that an NPC elder sim will use a cane when a new game is created.-->
+    </kNPCUseCaneChance>
+    <kNPCSouthernGentlemanWalkStyleChance value="0.25">
+      <!--Tunable chance between 0 and 1 that an NPC elder sim will use the southern gentleman walk style (instead of the elder walk).-->
+    </kNPCSouthernGentlemanWalkStyleChance>
+    <kMinimumDistanceToUseCane value="0.5">
+      <!--Minimum distance (squared) of a route that a sim should pull out their cane.-->
+    </kMinimumDistanceToUseCane>
+  </Current_Tuning>
+</base>

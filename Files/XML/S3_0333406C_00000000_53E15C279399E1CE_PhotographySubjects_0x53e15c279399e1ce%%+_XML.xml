@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kScoreMultiplierNewSubject value="20">
+      <!--Multiplier applied to the score of subjects that have never been captured by the photographer before.-->
+    </kScoreMultiplierNewSubject>
+    <kScoreMultiplierNewToday value="5">
+      <!--Multiplier applied to the score of subjects that have not yet been captured by the photographer this day.-->
+    </kScoreMultiplierNewToday>
+    <kDifficultyWeightSubjectSkillPoints value="1">
+      <!--Weight of the subject's SkillPoints in determining the difficulty rating displayed in the skill journal for a subject.-->
+    </kDifficultyWeightSubjectSkillPoints>
+    <kDifficultyWeightSubjectValue value="0">
+      <!--Weight of the subject's Value in determining the difficulty rating displayed in the skill journal for a subject.-->
+    </kDifficultyWeightSubjectValue>
+  </Current_Tuning>
+</base>

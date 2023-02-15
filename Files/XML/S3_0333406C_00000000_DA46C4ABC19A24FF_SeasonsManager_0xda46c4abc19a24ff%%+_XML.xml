@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinSeasonDays value="3">
+      <!--Minimum length of enabled season-->
+    </kMinSeasonDays>
+    <kMaxSeasonDays value="28">
+      <!--Maximum length of enabled season-->
+    </kMaxSeasonDays>
+    <kGuaranteedMinDaysAfterSeasonLengthChange value="1">
+      <!--Minimum time a season will have upon user changing season length, to give time for gameplay to take care of end-of-season effects-->
+    </kGuaranteedMinDaysAfterSeasonLengthChange>
+    <kSeasonChangeHour value="23.99">
+      <!--Hour of day seasons will switch on-->
+    </kSeasonChangeHour>
+    <kDaysForSeasonTransition value="2">
+      <!--How many days it takes to transition from one season to another-->
+    </kDaysForSeasonTransition>
+    <kHoursUntilTutorial value="2">
+      <!--Hours after startup to show options tutorial-->
+    </kHoursUntilTutorial>
+    <kSummerSunriseAndSunsetOffsets value="0, 0">
+      <!--Summer Sunrise/Sunset hour time offsets.-->
+    </kSummerSunriseAndSunsetOffsets>
+    <kFallSunriseAndSunsetOffsets value="1, -1.25">
+      <!--Fall Sunrise/Sunset hour time offsets.-->
+    </kFallSunriseAndSunsetOffsets>
+    <kWinterSunriseAndSunsetOffsets value="2, -2.5">
+      <!--Winter Sunrise/Sunset hour time offsets.-->
+    </kWinterSunriseAndSunsetOffsets>
+    <kSpringSunriseAndSunsetOffsets value="1, -1.25">
+      <!--Spring Sunrise/Sunset hour time offsets.-->
+    </kSpringSunriseAndSunsetOffsets>
+    <kSeasonsLoggingFrequency value="30">
+      <!--Range: positive floats in sim minutes. Number of minutes between each weather/sim temperature logging.-->
+    </kSeasonsLoggingFrequency>
+    <kRainHailObjectAutonomyScoringMultiplier value="0.0">
+      <!--Range: 0.0f-Inf. Description: Multiplier applied to all object interaction autonomy scores when it's raining or hailing and the object is outside and not sheltered from precipitation.-->
+    </kRainHailObjectAutonomyScoringMultiplier>
+  </Current_Tuning>
+</base>

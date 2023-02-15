@@ -1,0 +1,838 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChallengeSetData>
+  <Name>Island Paradise (EP10)</Name>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>3075</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>262113193</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Complete scorching fire walk</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kSoleSurvivorAchievement</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3076</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/439d4229-2a8a-485e-b623-7d4ec6953bf1:Name</NameKey>
+    <Name>Sole Survivor</Name>
+    <SetName>Island Paradise (EP10)</SetName>
+    <ChallengeGuid>439d4229-2a8a-485e-b623-7d4ec6953bf1</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>3075</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/439d4229-2a8a-485e-b623-7d4ec6953bf1:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP10</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>DevOnlyUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_brnz_solesurvivor.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_incomplete_bronze.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP10</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>3141</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>255799469</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>5</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Throw Party on a Houseboat</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>PartyLotIsHouseboatLotFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kPartyBegan</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3142</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/48857179-90da-4a6c-8788-19185f8fceca:Name</NameKey>
+    <Name>Juice Cruise</Name>
+    <SetName>Island Paradise (EP10)</SetName>
+    <ChallengeGuid>48857179-90da-4a6c-8788-19185f8fceca</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>3141</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/48857179-90da-4a6c-8788-19185f8fceca:Description</DescriptionKey>
+    <ThemeKey>Social</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP10</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>DevOnlyUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_silv_juicecruise.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_incomplete_silver.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP10</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>3176</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>256050823</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Woohoo with $Occult</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Mermaid</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>IsTargetSubjectOccultFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kWooHooed</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>3177</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>261239019</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Give Birth to $Occult Baby</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Occult</SubjectType>
+        <EnumName>Mermaid</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>NewBabyIsOccult</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kHadBaby</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>3178</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/4cddfe34-033c-4c5d-93fd-b4f9789413ff:Name</NameKey>
+    <Name>Plenty of Fish in the Sea</Name>
+    <SetName>Island Paradise (EP10)</SetName>
+    <ChallengeGuid>4cddfe34-033c-4c5d-93fd-b4f9789413ff</ChallengeGuid>
+    <ExportVersion>2</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>(3176AndOP3177)</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/4cddfe34-033c-4c5d-93fd-b4f9789413ff:Description</DescriptionKey>
+    <ThemeKey>Occult</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <ThemeKey>EP10</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_plat_plentyoffish.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_incomplete_platinum.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP10</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>3207</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>255800666</CompletionConditionId>
+      <InputNumber>10</InputNumber>
+      <NecessaryCompletions>7</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have an $n Star Resort (exactly)</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ResortIsNStarsFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kResortRatingUpdated</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3208</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>256145919</CompletionConditionId>
+      <InputNumber>9</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have an $n Star Resort or Lower</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ResortIsNStarsOrLowerFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kResortRatingUpdated</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/5090d8df-eb63-4103-842f-979f93d81690:Name</NameKey>
+    <Name>High-Class Hotel</Name>
+    <SetName>Island Paradise (EP10)</SetName>
+    <ChallengeGuid>5090d8df-eb63-4103-842f-979f93d81690</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>3207</LogicString>
+    <FailureString>3208</FailureString>
+    <DescriptionKey>Gameplay/Challenges/5090d8df-eb63-4103-842f-979f93d81690:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <ThemeKey>EP10</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>DevOnlyUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_plat_highclasshotel.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_incomplete_platinum.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP10</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>3408</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>256145923</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>3</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Win a fight with a shark</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kWonFightWithShark</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3409</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/608f83b0-7430-43eb-b56a-2d6f0b1d2d69:Name</NameKey>
+    <Name>Shark Shmark</Name>
+    <SetName>Island Paradise (EP10)</SetName>
+    <ChallengeGuid>608f83b0-7430-43eb-b56a-2d6f0b1d2d69</ChallengeGuid>
+    <ExportVersion>2</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>3408</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/608f83b0-7430-43eb-b56a-2d6f0b1d2d69:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>EP10</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>DevOnlyUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_gold_sharkshmark.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_incomplete_gold.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP10</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>3612</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>604</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>5</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Succeed at $Interaction</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>Interaction</SubjectType>
+        <KeyValue>Sims3.Gameplay.Objects.Resort.ResortFrontDesk+AskToCheckIn+Definition</KeyValue>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SucceedAtInteractionFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kInteractionSuccess</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>3613</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/716151a1-fdba-4e0b-8c14-a642c06139db:Name</NameKey>
+    <Name>Lap of Luxury</Name>
+    <SetName>Island Paradise (EP10)</SetName>
+    <ChallengeGuid>716151a1-fdba-4e0b-8c14-a642c06139db</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Player</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>3612</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/716151a1-fdba-4e0b-8c14-a642c06139db:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP10</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>DevOnlyUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_brnz_lapofluxury.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_incomplete_bronze.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP10</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>3645</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>255796809</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>5</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Open an EP10 Treasure Chest</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kOpenEP10TreasureChest</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>3646</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/75be7645-2f0b-42b6-8d16-35a2bdea9bce:Name</NameKey>
+    <Name>Treasure Hunter</Name>
+    <SetName>Island Paradise (EP10)</SetName>
+    <ChallengeGuid>75be7645-2f0b-42b6-8d16-35a2bdea9bce</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>3645</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/75be7645-2f0b-42b6-8d16-35a2bdea9bce:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>EP10</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>DevOnlyUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_gold_treasurehunter.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_incomplete_gold.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP10</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>3687</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>344</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>5</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Buy a $Category</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>ObjectCategory</SubjectType>
+        <KeyValue>Boat</KeyValue>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName>BuyACategoryCheckFunction</CheckFunctionName>
+      <FeedbackFunctionName>ObjectMatchesCategoryFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kBoughtObject</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>3688</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/7b02fcbb-e91d-491f-8673-7948d788ef93:Name</NameKey>
+    <Name>We're Boat People Now</Name>
+    <SetName>Island Paradise (EP10)</SetName>
+    <ChallengeGuid>7b02fcbb-e91d-491f-8673-7948d788ef93</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Bronze</Difficulty>
+    <LogicString>3687</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/7b02fcbb-e91d-491f-8673-7948d788ef93:Description</DescriptionKey>
+    <ThemeKey>Object</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Bronze</ThemeKey>
+    <ThemeKey>EP10</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>DevOnlyUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_brnz_wereboatpplnow.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_incomplete_bronze.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP10</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>4026</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>255800666</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>7</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have an $n Star Resort (exactly)</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ResortIsNStarsFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kResortRatingUpdated</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>4027</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>255800039</CompletionConditionId>
+      <InputNumber>1</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Have an $n Star Resort or Higher</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>ResortIsNStarsOrHigherFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kResortRatingUpdated</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/9f4cbc66-3e0f-4d19-a547-53b97d3137a9:Name</NameKey>
+    <Name>Never Again</Name>
+    <SetName>Island Paradise (EP10)</SetName>
+    <ChallengeGuid>9f4cbc66-3e0f-4d19-a547-53b97d3137a9</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>4026</LogicString>
+    <FailureString>4027</FailureString>
+    <DescriptionKey>Gameplay/Challenges/9f4cbc66-3e0f-4d19-a547-53b97d3137a9:Description</DescriptionKey>
+    <ThemeKey>Career</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP10</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>DevOnlyUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_silv_neveragain.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_incomplete_silver.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP10</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>4290</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>255796857</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>10</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Collect a $SeashellType</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>SeashellType</SubjectType>
+        <EnumName>MessageInABottle</EnumName>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SeashellTypeMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kShellCollected</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>4291</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/b57538b5-dda8-4da5-b199-6238c0d06a13:Name</NameKey>
+    <Name>Who Keeps Sending These?</Name>
+    <SetName>Island Paradise (EP10)</SetName>
+    <ChallengeGuid>b57538b5-dda8-4da5-b199-6238c0d06a13</ChallengeGuid>
+    <ExportVersion>2</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Gold</Difficulty>
+    <LogicString>4290</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/b57538b5-dda8-4da5-b199-6238c0d06a13:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Gold</ThemeKey>
+    <ThemeKey>EP10</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>DevOnlyUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_gold_whokeepssendingthese.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_incomplete_gold.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP10</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>4419</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>256053485</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Move a single-sim household onto a private island</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>HermitCrabFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>true</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kMovedIntoLot</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>4420</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/bd2e3123-0780-4a1c-97bc-9146bd591d18:Name</NameKey>
+    <Name>Hermit Crab</Name>
+    <SetName>Island Paradise (EP10)</SetName>
+    <ChallengeGuid>bd2e3123-0780-4a1c-97bc-9146bd591d18</ChallengeGuid>
+    <ExportVersion>1</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>4419</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/bd2e3123-0780-4a1c-97bc-9146bd591d18:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP10</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>Uploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_silv_hermit.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_incomplete_silver.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP10</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>4584</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>255796857</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>25</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <StartFunctionName>ForcedMatchSeashellTypeIfNotBottle</StartFunctionName>
+      <DisplayName>Collect a $SeashellType</DisplayName>
+      <SubjectValuePair>
+        <SubjectType>SeashellType</SubjectType>
+      </SubjectValuePair>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName>SeashellTypeMatchesSubjectFeedbackFunction</FeedbackFunctionName>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kShellCollected</TriggerEvent>
+    </Circumstance>
+    <Circumstance>
+      <Id>4585</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/ce82f9b1-6092-4db5-9d6e-5c2b85e6c87c:Name</NameKey>
+    <Name>The World Is Your Oyster</Name>
+    <SetName>Island Paradise (EP10)</SetName>
+    <ChallengeGuid>ce82f9b1-6092-4db5-9d6e-5c2b85e6c87c</ChallengeGuid>
+    <ExportVersion>2</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Silver</Difficulty>
+    <LogicString>4584</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/ce82f9b1-6092-4db5-9d6e-5c2b85e6c87c:Description</DescriptionKey>
+    <ThemeKey>Skills</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Silver</ThemeKey>
+    <ThemeKey>EP10</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>DevOnlyUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_silv_worldisyouroyster.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_incomplete_silver.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP10</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+  <DynamicChallengeData>
+    <Circumstance>
+      <Id>4668</Id>
+      <IsFailureCondition>false</IsFailureCondition>
+      <CompletionConditionId>255796821</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>5</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <DisplayName>Find an Uncharted Island</DisplayName>
+      <CountFunctionName />
+      <CheckFunctionName />
+      <FeedbackFunctionName />
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+      <TriggerEvent>kDiscoveredUnchartedIsland</TriggerEvent>
+      <SubjectTypes>
+        <string>None</string>
+      </SubjectTypes>
+    </Circumstance>
+    <Circumstance>
+      <Id>4669</Id>
+      <IsFailureCondition>true</IsFailureCondition>
+      <CompletionConditionId>4294967295</CompletionConditionId>
+      <InputNumber>0</InputNumber>
+      <NecessaryCompletions>1</NecessaryCompletions>
+      <TargetType>None</TargetType>
+      <SpecialTargetId>0</SpecialTargetId>
+      <SatisfiableByThirdParty>false</SatisfiableByThirdParty>
+      <IsSocialPrimitive>false</IsSocialPrimitive>
+    </Circumstance>
+    <NameKey>Gameplay/Challenges/d0b3d1e1-f7fc-4bb1-b552-e3bd1b77d610:Name</NameKey>
+    <Name>Born Explorer</Name>
+    <SetName>Island Paradise (EP10)</SetName>
+    <ChallengeGuid>d0b3d1e1-f7fc-4bb1-b552-e3bd1b77d610</ChallengeGuid>
+    <ExportVersion>2</ExportVersion>
+    <ChallengeType>Sim</ChallengeType>
+    <Difficulty>Platinum</Difficulty>
+    <LogicString>4668</LogicString>
+    <FailureString />
+    <DescriptionKey>Gameplay/Challenges/d0b3d1e1-f7fc-4bb1-b552-e3bd1b77d610:Description</DescriptionKey>
+    <ThemeKey>TownLife</ThemeKey>
+    <ThemeKey>All</ThemeKey>
+    <ThemeKey>Platinum</ThemeKey>
+    <ThemeKey>EP10</ThemeKey>
+    <LocaleId>en_US</LocaleId>
+    <UploadState>DevOnlyUploaded</UploadState>
+    <Expires>false</Expires>
+    <StartDateTime>1753-01-01T00:00:00</StartDateTime>
+    <NonNewDate>1753-01-01T00:00:00</NonNewDate>
+    <EndDateTime>1753-01-01T00:00:00</EndDateTime>
+    <UsesLocalImages>true</UsesLocalImages>
+    <CompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_plat_bornexplorer.png</CompleteBadgeImage>
+    <IncompleteBadgeImage>X:\InGame\UI\EP10\SocialFeatures\ep10_badge_incomplete_platinum.png</IncompleteBadgeImage>
+    <UnlockCodeReward />
+    <CrossroadsPointsReward>0</CrossroadsPointsReward>
+    <RequiredProducts>EP10</RequiredProducts>
+    <Platforms>
+      <Platform>PC</Platform>
+    </Platforms>
+  </DynamicChallengeData>
+</ChallengeSetData>

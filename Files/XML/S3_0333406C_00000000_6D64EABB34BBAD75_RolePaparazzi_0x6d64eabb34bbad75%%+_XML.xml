@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kStayOnLotTime value="2">
+      <!--The number of Sim hours the paparazzi will stay on a lot.-->
+    </kStayOnLotTime>
+    <kCommunityLotCelebrityLevelModifier value="2">
+      <!--A modifier to the total star power of a community lot.-->
+    </kCommunityLotCelebrityLevelModifier>
+    <kRegularSimCelebrityLevel value="0.1">
+      <!--A sim with no celebrity level will be given this value on community lots.-->
+    </kRegularSimCelebrityLevel>
+    <kPaparazziExclusionChance value="80">
+      <!--[0-100] - chance that a paparazzi will not choose a lot that already has a paparazzi on it.-->
+    </kPaparazziExclusionChance>
+  </Current_Tuning>
+</base>

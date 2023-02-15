@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinScienceSkillLevel value="9">
+      <!--Range:  0 - 10  Description:  The level required in the Science Skill in order to use this interaction-->
+    </kMinScienceSkillLevel>
+    <kSuccessChance value="0.85">
+      <!--Range: 0 - 1  Description:  The chance that this interaction will be a success-->
+    </kSuccessChance>
+    <kEpicSuccessChance value="0.35">
+      <!--Range: 0 - 1  Description:  The chance that a success will become an epic success-->
+    </kEpicSuccessChance>
+    <kEpicFailureChance value="0.5">
+      <!--Range: 0 - 1  Description:  The chance that a failure will become an epic failure-->
+    </kEpicFailureChance>
+    <kLoopTimeInMinutes value="15">
+      <!--Description:  How long the interaction will continue looping before finishing up-->
+    </kLoopTimeInMinutes>
+    <kGoodCloneTraitNames value="Artistic, Attractive, Flirty, Good">
+      <!--Description:  A list of Good traits which will be used for clones created by a successful clone interaction-->
+    </kGoodCloneTraitNames>
+    <kBadCloneTraitNames value="Evil, CouchPotato, Coward, Childish">
+      <!--Description:  A list of Bad traits which will be used for clones created by a failed clone interaction-->
+    </kBadCloneTraitNames>
+  </Current_Tuning>
+</base>

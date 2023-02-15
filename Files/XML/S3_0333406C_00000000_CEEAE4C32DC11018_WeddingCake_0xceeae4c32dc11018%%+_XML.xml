@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNumSlices value="12">
+      <!--The number of slices in this cake. Positive int. Initial GPE value: 8.-->
+    </kNumSlices>
+    <kNumSlicesHalfGone value="5">
+      <!--The number of slices left when the cake looks half gone. Positive int. Initial GPE value: 5.-->
+    </kNumSlicesHalfGone>
+    <kTimeToWaitForOthers value="15">
+      <!--Sim minutes spent waiting for others to come over. Positive float. Initial GPE default: 20.0f-->
+    </kTimeToWaitForOthers>
+    <kParticipantRouteRange value="2, 6">
+      <!--Minimun, and maximun distance where the guest of the wedding should stand. Initial GPE default: 2f to 5f-->
+    </kParticipantRouteRange>
+    <kCakeTimeToNextFoodSpoilageStage value="48">
+      <!--The time for how long cake takes to spoil, in hours.-->
+    </kCakeTimeToNextFoodSpoilageStage>
+    <kNumFoodPointsForCake value="5">
+      <!--The number of food points given by cake. This will affect sims' interest in eating it. Positive int. Initial GPE value: 5. Keep low as the sim should not finish the cake before they can celebrate the wedding.-->
+    </kNumFoodPointsForCake>
+  </Current_Tuning>
+</base>

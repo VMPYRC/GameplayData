@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kEPUFullCharge value="100">
+      <!--Range: Float.  Description: Emotional Power Units needed to be at a full charge.-->
+    </kEPUFullCharge>
+    <kChargeCooldown value="0.5">
+      <!--Range: Float.  Description: Hours of cooldown needed before plant can be charged again.-->
+    </kChargeCooldown>
+    <kLostChargeTime value="8">
+      <!--Range: Float.  Description: Hours before the Crystal Plant starts to lose its charge.-->
+    </kLostChargeTime>
+    <kLostChargeEPU value="-10">
+      <!--Range: Negative Float.  Description: EPUs lost when Lost Charge Callback executes.-->
+    </kLostChargeEPU>
+    <kEPUFlowerCharge value="75">
+      <!--Range: Float.  Description: Emotional Power Units needed in order to charge flowers.-->
+    </kEPUFlowerCharge>
+  </Current_Tuning>
+</base>

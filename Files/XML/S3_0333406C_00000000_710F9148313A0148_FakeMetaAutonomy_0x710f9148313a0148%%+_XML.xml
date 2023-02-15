@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMaxNumAssignedSims value="1">
+      <!--Max num assigned NPCs at once running fake meta-autonomy-->
+    </kMaxNumAssignedSims>
+    <kStartTime value="9">
+      <!--Time in hours when fake meta-autonomy starts-->
+    </kStartTime>
+    <kEndTime value="18">
+      <!--Time in hours at which fake meta-autonomy ends-->
+    </kEndTime>
+    <kMinHangOutTime value="1.5">
+      <!--Min time (in hours) NPC sims will hang out at venues during FakeMetaAutonomy-->
+    </kMinHangOutTime>
+    <kMaxHangOutTime value="2.5">
+      <!--Max time (in hours) NPC sims will hang out at venues during FakeMetaAutonomy-->
+    </kMaxHangOutTime>
+    <kMaxPoolSize value="20">
+      <!--Maximum retired NPCs in the fake meta-autonomy pool-->
+    </kMaxPoolSize>
+    <kActiveRelationshipMultiplier value="10">
+      <!--Multiplier on relationships with active Sims when culling-->
+    </kActiveRelationshipMultiplier>
+    <kSignificantRelationshipBonus value="30">
+      <!--Bonus for significant relationship states-->
+    </kSignificantRelationshipBonus>
+    <kTargetPoolSize value="15">
+      <!--Total retired NPCs in the fake meta-autonomy pool after culling-->
+    </kTargetPoolSize>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kMaxNumNPCsInPool value="1">
+      <!--Max num NPCs at once in service-->
+      <!--deprecated on: 12/11/2007 4:32:57 PM-->
+    </kMaxNumNPCsInPool>
+    <kCost value="8">
+      <!--Cost of babysitter service-->
+      <!--deprecated on: 12/11/2007 4:32:58 PM-->
+    </kCost>
+    <kIsRecurrent value="False">
+      <!--Whether the service is recurrent (true) or one-off (false)-->
+      <!--deprecated on: 12/11/2007 4:32:58 PM-->
+    </kIsRecurrent>
+    <kServiceLength value="3">
+      <!--Length of time (in hours) that babysitter hangs around-->
+      <!--deprecated on: 12/11/2007 4:32:58 PM-->
+    </kServiceLength>
+  </Deprecated_Tuning>
+</base>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kColorRunTime value="5">
+      <!--Range:  0 - infinity  Description:  This tunable sets the amount of time that a color is going to be before changing if its in randomizing mode-->
+    </kColorRunTime>
+    <kLightIntensity value="0.3">
+      <!--Float: 0 - infinity  Description:  This tunable sets the intensity of the light when turned on. Adjust if too bright-->
+    </kLightIntensity>
+    <kDelayArray value="30, 60, 120, 180, 300">
+      <!--Range:  0 - 100  Description:  This tunable represents the delay possibilities for the set delay interaction-->
+    </kDelayArray>
+    <kLoopCount value="5">
+      <!--Range:  0 - 100  Description:  This tunable sets the # of loops before a delay occurs-->
+    </kLoopCount>
+    <kMinDelay value="0.2">
+      <!--Range: 0.2 - infinity Float: Min possible delay for clamping values in specific light delay dialog, capped at 0.2 by the engine-->
+    </kMinDelay>
+    <kMaxDelay value="60">
+      <!--Float: Max possible delay for clamping values in specific light delay dialog-->
+    </kMaxDelay>
+    <kDefaultDelay value="0.5">
+      <!--Float: Default possible delay for clamping values in specific strobe delay dialog-->
+    </kDefaultDelay>
+  </Current_Tuning>
+</base>

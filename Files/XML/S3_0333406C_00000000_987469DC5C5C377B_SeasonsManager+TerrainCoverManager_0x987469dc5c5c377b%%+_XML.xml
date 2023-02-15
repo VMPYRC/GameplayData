@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRainDryTime value="4">
+      <!--Float. When it's not raining, how long it takes fully wet terrain to dry.-->
+    </kRainDryTime>
+    <kWetLevelToShowRainFootprints value="10">
+      <!--Float. Ground wetness level above which sims start showing rain footstep effects when they walk.-->
+    </kWetLevelToShowRainFootprints>
+    <kSnowLevelCutOffs value="15, 35, 50">
+      <!--Float array [3]. Snow level values above which snow is considered Low, Medium, or High. Ex: mSnowLevel above kSnowLevelCutOffs[0] means snow Level is Low, above kSnowLevelCutOffs[1] means snow level is Medium, above kSnowLevelCutOffs[2] means snow level is High-->
+    </kSnowLevelCutOffs>
+    <kSnowAccumulationTime value="24, 12, 6">
+      <!--Float. Under {light, moderate, heavy} snow fall, time in hours it takes to go from no snow on ground to max snow level.-->
+    </kSnowAccumulationTime>
+    <kFrostAccumulationTimeWhenSnowing value="2, 1, 0.5">
+      <!--Float. Under {light, moderate, heavy} snow fall, time in hours it takes for the ground to fully frost over. Snow won't start accumulating on the ground until its fully frosted, though under typical conditions the world should already have some frost (due to the cold temperature), so it won't take this full time.-->
+    </kFrostAccumulationTimeWhenSnowing>
+    <kRainAccumulationTime value="12, 6, 3">
+      <!--Float. Under {light, moderate, heavy} rain fall, time in hours it takes to go from no water on ground to wetness.-->
+    </kRainAccumulationTime>
+    <kWetLevelToShowVehicleEffects value="10">
+      <!--Float. Ground wetness level above which vehicles start showing rain tire effects.-->
+    </kWetLevelToShowVehicleEffects>
+    <kSnowTrackDepthPerMeter value="0.002">
+      <!--Float. For each meter a vehicle uses the road, it contributes this much to road track depth (which maxes out a 100).-->
+    </kSnowTrackDepthPerMeter>
+    <kPondFreezeLevelFullyFrozen value="90">
+      <!--Float 0-100. When a pond's frozen level is above this number, the pond is considered fully frozen and allows sims to walk across it.-->
+    </kPondFreezeLevelFullyFrozen>
+    <kPondFreezeLevelTryingToMelt value="85">
+      <!--Float 0-100. When a pond's frozen level falls below this number, the pond is considered trying to melt and will start to kick sims off of it.-->
+    </kPondFreezeLevelTryingToMelt>
+    <kPondFreezeLevelLiquid value="30">
+      <!--Float 0-100. Below this number, the pond is considered liquid and all the old pond interactions (fish here, drink from pond, etc) will turn back on-->
+    </kPondFreezeLevelLiquid>
+    <kRainMeltingSnowAndFrostTime value="12, 6, 3">
+      <!--Float. Under {light, moderate, heavy} rain fall, time in hours it takes to go from full snow to fully melted. This is because shaders don't support terrain being both wet and frosted/snowy at the same time, so making rain melt frost/snow bypasses the issue.-->
+    </kRainMeltingSnowAndFrostTime>
+    <kSnowDryingWetGroundTime value="2, 1, 0.5">
+      <!--Float. Under {light, moderate, heavy} rain snow, time in hours it takes to go from full wet ground to dry. Shaders do not support showing wet and frost/snow at the same time, so this bypasses the issue.-->
+    </kSnowDryingWetGroundTime>
+    <kDisallowOutdoorPuddleWetThreshold value="25">
+      <!--Float 0-100. Above this number, outdoor puddles will not be allowed so they don't interfere with rain puddles.-->
+    </kDisallowOutdoorPuddleWetThreshold>
+    <kSnowFootprintCutoffs value="1, 35">
+      <!--Float array [3]. Snow level values above which snow footprints will use regular snow or deep snow. Ex: mSnowLevel above kSnowLevelCutOffs[0] means use regular snow footprints, above kSnowLevelCutOffs[1] means use deep snow footprints-->
+    </kSnowFootprintCutoffs>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSlowMoReactRadius value="10">
+      <!--Radius for max distance for sims to react to the lifeguard running in slow motion mode.  Float  GPE default 10.0f-->
+    </kSlowMoReactRadius>
+    <kSlowMoReactionTimeToCheck value="2">
+      <!--Time in ??? when the lifeguard route should check if sims should react to him running in slow motion.  Float  GPE default 10.0f which is approximately every 8 sim minutes-->
+    </kSlowMoReactionTimeToCheck>
+    <kSlowMoLevelRequired value="8">
+      <!--Lifeguard required level to allow slow motion run to be avaliable.  Float  GPE default 8-->
+    </kSlowMoLevelRequired>
+    <kSlowMoReactionTypes value="Cheer, Awe, Giggle">
+      <!--Possible reaction types for sims to react when lifeguard is running in slow motion-->
+    </kSlowMoReactionTypes>
+    <kCustomLevelForTowel value="5">
+      <!--Lifeguard required level unlock custom beach towel and umbrella.  Float  GPE default 5-->
+    </kCustomLevelForTowel>
+    <kNumRescuesToUnlockUnchartedIsland value="35">
+      <!--Number of rescues required by the Lifeguard in order to unlock The Cay To the City uncharted island. Integer.-->
+    </kNumRescuesToUnlockUnchartedIsland>
+    <kCustomLevelForM2M value="7">
+      <!--Lifeguard required level unlock Demonstrate Mouth to Mouth.  Float  GPE default 7-->
+    </kCustomLevelForM2M>
+    <kCustomLevelForLifeguardSwim value="6">
+      <!--Lifeguard required level unlock lifeguardswim.  Float  GPE default 5-->
+    </kCustomLevelForLifeguardSwim>
+    <kMaxDistanceToComplainSquared value="400">
+      <!--Square of the maximum distance a lifeguard can be for a panicing sim to complain-->
+    </kMaxDistanceToComplainSquared>
+    <kRescueOutfit3Level value="7">
+      <!--Level for outfit 3 GPE default 7-->
+    </kRescueOutfit3Level>
+    <kRescueOutfit2Level value="4">
+      <!--Level for outfit 2 GPE default 4-->
+    </kRescueOutfit2Level>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAutonomousWalkStyleWeights value="0.3, 0.25, 0.2, 0.15, 0.1">
+      <!--The relative probabilities that autonomy chooses the walk, fast walk, jog, fast jog, or run walk style when the destination is off-lot.  The style is clamped based on distance.  E.g., at mid-distance the code might randomly select between walk and fast walk.  At a very large distance the random roll encompasses all walk styles.-->
+    </kAutonomousWalkStyleWeights>
+    <kWalkStyleAdultDistanceThresholds value="10, 18, -1, 999999999">
+      <!--Description: The maximum distance in meters for Adults to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Walk, (2) FastWalk, (3) Fast Jog, (4) Run.  Note that only three values are specified; no value is specified for Run since it is used for any route farther than a Fast Jog.  The max distances can be debug drawn using the cheat command 'showwalkdist' (Black = Walk, Blue = FastWalk, Green = Fast Jog.-->
+    </kWalkStyleAdultDistanceThresholds>
+    <kWalkStyleChildDistanceThresholds value="16, -1, -1, 9999999999">
+      <!--Description: The maximum distance in meters for Children to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Walk, (2) FastWalk, (3) Fast Jog, (4) Run.  Note that only three values are specified; no value is specified for Run since it is used for any route farther than a Fast Jog.  The max distances can be debug drawn using the cheat command 'showwalkdist' (Black = Walk, Blue = FastWalk, Green = Fast Jog.-->
+    </kWalkStyleChildDistanceThresholds>
+    <kWalkStyleElderDistanceThresholds value="25, -1, -1, 999999999">
+      <!--Description: The maximum distance in meters for Elders to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Walk, (2) FastWalk, (3) Fast Jog, (4) Run.  Note that only three values are specified; no value is specified for Run since it is used for any route farther than a Fast Jog.  The max distances can be debug drawn using the cheat command 'showwalkdist' (Black = Walk, Blue = FastWalk, Green = Fast Jog.-->
+    </kWalkStyleElderDistanceThresholds>
+    <WalkStyleToddlerMinimumDistanceForWalkingRoute value="1">
+      <!--Description: The minimum distance in meters for Toddlers where they will consider using toddler walk if possible.-->
+    </WalkStyleToddlerMinimumDistanceForWalkingRoute>
+    <kWalkStylesThatCountAsWalking value="Walk, Pregnant, GhostWalk, DeathWalk, ElderWalk, MummyWalk, FrankenSimWalk, WerewolfWalk, ZombieWalk, FireFighterWalk, WalkOfShameWalk, StrideOfPrideWalk, ElderCaneWalk, SouthernGentleman, ImaginaryFriendsWalk, BackpackWalk, RobotBipedWalk, RobotHoverWalk">
+      <!--List of WalkStyles that are versions of walking. This is used by the Stroller to determine which routes can make use of a stroller if one is available.-->
+    </kWalkStylesThatCountAsWalking>
+    <kAutonomousPetWalkStyleWeights value="0.2, 0.3, 0.5">
+      <!--The relative probabilities that autonomy chooses the pet walk, pet trot, or pet run/gallop walk style.  The style is clamped based on distance.  E.g., at mid-distance the code might randomly select between walk and trot.  At a large distance the random roll encompasses all walk styles.-->
+    </kAutonomousPetWalkStyleWeights>
+    <kCatWalkStyleDistanceThresholds>
+      <ChildDistanceThresholds value="5, 6">
+        <!--Description: The maximum distance in meters for Child pets to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Pet Walk, (2) Pet Trot (Unavailable for child cats and dogs. This'll be clamped away later), (3) Pet Run/Gallop.  Note that only three values are specified; no value is specified for Pet Run since it is used for any route farther than a Trot.-->
+      </ChildDistanceThresholds>
+      <AdultDistanceThresholds value="7, 15">
+        <!--Description: The maximum distance in meters for Adult pets to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Pet Walk, (2) Pet Trot, (3) Pet Run/Gallop.  Note that only three values are specified; no value is specified for Pet Run since it is used for any route farther than a Trot.-->
+      </AdultDistanceThresholds>
+      <ElderDistanceThresholds value="15, 25">
+        <!--Description: The maximum distance in meters for Elder pets to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Pet Walk, (2) Pet Trot, (3) Pet Run/Gallop.  Note that only three values are specified; no value is specified for Pet Run since it is used for any route farther than a Trot.-->
+      </ElderDistanceThresholds>
+    </kCatWalkStyleDistanceThresholds>
+    <kLittleDogWalkStyleDistanceThresholds>
+      <ChildDistanceThresholds value="5, 6">
+        <!--Description: The maximum distance in meters for Child pets to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Pet Walk, (2) Pet Trot (Unavailable for child cats and dogs. This'll be clamped away later), (3) Pet Run/Gallop.  Note that only three values are specified; no value is specified for Pet Run since it is used for any route farther than a Trot.-->
+      </ChildDistanceThresholds>
+      <AdultDistanceThresholds value="7, 15">
+        <!--Description: The maximum distance in meters for Adult pets to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Pet Walk, (2) Pet Trot, (3) Pet Run/Gallop.  Note that only three values are specified; no value is specified for Pet Run since it is used for any route farther than a Trot.-->
+      </AdultDistanceThresholds>
+      <ElderDistanceThresholds value="15, 25">
+        <!--Description: The maximum distance in meters for Elder pets to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Pet Walk, (2) Pet Trot, (3) Pet Run/Gallop.  Note that only three values are specified; no value is specified for Pet Run since it is used for any route farther than a Trot.-->
+      </ElderDistanceThresholds>
+    </kLittleDogWalkStyleDistanceThresholds>
+    <kDogWalkStyleDistanceThresholds>
+      <ChildDistanceThresholds value="5, 6">
+        <!--Description: The maximum distance in meters for Child pets to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Pet Walk, (2) Pet Trot (Unavailable for child cats and dogs. This'll be clamped away later), (3) Pet Run/Gallop.  Note that only three values are specified; no value is specified for Pet Run since it is used for any route farther than a Trot.-->
+      </ChildDistanceThresholds>
+      <AdultDistanceThresholds value="15, 25">
+        <!--Description: The maximum distance in meters for Adult pets to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Pet Walk, (2) Pet Trot, (3) Pet Run/Gallop.  Note that only three values are specified; no value is specified for Pet Run since it is used for any route farther than a Trot.-->
+      </AdultDistanceThresholds>
+      <ElderDistanceThresholds value="25, 40">
+        <!--Description: The maximum distance in meters for Elder pets to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Pet Walk, (2) Pet Trot, (3) Pet Run/Gallop.  Note that only three values are specified; no value is specified for Pet Run since it is used for any route farther than a Trot.-->
+      </ElderDistanceThresholds>
+    </kDogWalkStyleDistanceThresholds>
+    <kHorseWalkStyleDistanceThresholds>
+      <ChildDistanceThresholds value="15, 25">
+        <!--Description: The maximum distance in meters for Child pets to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Pet Walk, (2) Pet Trot (Unavailable for child cats and dogs. This'll be clamped away later), (3) Pet Run/Gallop.  Note that only three values are specified; no value is specified for Pet Run since it is used for any route farther than a Trot.-->
+      </ChildDistanceThresholds>
+      <AdultDistanceThresholds value="25, 40">
+        <!--Description: The maximum distance in meters for Adult pets to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Pet Walk, (2) Pet Trot, (3) Pet Run/Gallop.  Note that only three values are specified; no value is specified for Pet Run since it is used for any route farther than a Trot.-->
+      </AdultDistanceThresholds>
+      <ElderDistanceThresholds value="40, 60">
+        <!--Description: The maximum distance in meters for Elder pets to which each individual basic walk style is used from slowest walk to fastest walk.  The walk styles are: (1) Pet Walk, (2) Pet Trot, (3) Pet Run/Gallop.  Note that only three values are specified; no value is specified for Pet Run since it is used for any route farther than a Trot.-->
+      </ElderDistanceThresholds>
+    </kHorseWalkStyleDistanceThresholds>
+  </Current_Tuning>
+</base>

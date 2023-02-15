@@ -1,0 +1,2535 @@
+<?xml version="1.0"?>
+<RabbitHoleTextAdventure>
+<VaultResearchSupernatural>
+  <TASId></TASId>
+  <TASType>RabbitHoleTextAdventureStage</TASType>
+  <MinDuration>5</MinDuration>
+  <MaxDuration>15</MaxDuration>
+  <NextTASId>-1</NextTASId>
+  <Parameter1></Parameter1>
+  <Parameter2></Parameter2>
+  <Parameter3></Parameter3>
+  <Parameter4></Parameter4>
+  <Parameter5></Parameter5>
+  <Parameter6></Parameter6>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>0</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>1</NextTASId>
+  <Parameter1>TNSStageSupernaturalHistoryIntro</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>1</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>2,114,226,254,282</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>2</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>GhostLoreChoiceStage1</Parameter1>
+  <Parameter2>GhostLoreChoicePainting1</Parameter2>
+  <Parameter3>3</Parameter3>
+  <Parameter4>GhostLoreChoiceCooking1</Parameter4>
+  <Parameter5>4</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>3</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Painting</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>5</Parameter3>
+  <Parameter4>6</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>4</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Cooking</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>7</Parameter3>
+  <Parameter4>8</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>5</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>9</NextTASId>
+  <Parameter1>GhostLorePaintingSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>6</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GhostLorePaintingFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>7</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>9</NextTASId>
+  <Parameter1>GhostLoreCookingSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>8</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GhostLoreCookingFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>9</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>GhostLoreChoiceStage2</Parameter1>
+  <Parameter2>GhostLoreChoicePainting2</Parameter2>
+  <Parameter3>10</Parameter3>
+  <Parameter4>GhostLoreChoiceCooking2</Parameter4>
+  <Parameter5>11</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>10</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Painting</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>12</Parameter3>
+  <Parameter4>13</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>11</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Cooking</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>14</Parameter3>
+  <Parameter4>15</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>12</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>23</NextTASId>
+  <Parameter1>GhostLorePaintingSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>13</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GhostLorePaintingFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>14</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>23</NextTASId>
+  <Parameter1>GhostLoreCookingSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>15</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GhostLoreCookingFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>16</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>GhostLoreChoiceStage3</Parameter1>
+  <Parameter2>GhostLoreChoicePainting3</Parameter2>
+  <Parameter3>17</Parameter3>
+  <Parameter4>GhostLoreChoiceCooking3</Parameter4>
+  <Parameter5>18</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>17</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Painting</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>19</Parameter3>
+  <Parameter4>20</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>18</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Cooking</Parameter1>
+  <Parameter3>21</Parameter3>
+  <Parameter4>22</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>19</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>23</NextTASId>
+  <Parameter1>GhostLorePaintingSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>20</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GhostLorePaintingFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>21</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>23</NextTASId>
+  <Parameter1>GhostLoreCookingSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>22</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GhostLoreCookingFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>23</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>24,26,28,310,336</Parameter1>
+  <Parameter2>10,10,10,10,10</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>24</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>25</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>RandomAlchemyPotion,1,CloneDronePotion;MelancholyPotion;ZombifiedPotion;PermaZombifiedPotion</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>25</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GhostLoreRewardPotion</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>26</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>27</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>MedatorInstance,magicGnomeHaunted:EP7</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>27</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GhostLoreRewardToy</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>28</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>29</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>Buff,WowGhost</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>29</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GhostLoreRewardMoodlet</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>30</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>GnomeLoreChoiceStage1</Parameter1>
+  <Parameter2>GnomeLoreChoicePainting1</Parameter2>
+  <Parameter3>31</Parameter3>
+  <Parameter4>GnomeLoreChoiceGardening1</Parameter4>
+  <Parameter5>32</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>31</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Painting</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>33</Parameter3>
+  <Parameter4>34</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>32</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Gardening</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>35</Parameter3>
+  <Parameter4>36</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>33</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>37</NextTASId>
+  <Parameter1>GnomeLorePaintingSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>34</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GnomeLorePaintingFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>35</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>37</NextTASId>
+  <Parameter1>GnomeLoreGardeningSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>36</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GnomeLoreGardeningFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>37</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>GnomeLoreChoiceStage2</Parameter1>
+  <Parameter2>GnomeLoreChoicePainting2</Parameter2>
+  <Parameter3>38</Parameter3>
+  <Parameter4>GnomeLoreChoiceGardening2</Parameter4>
+  <Parameter5>39</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>38</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Painting</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>40</Parameter3>
+  <Parameter4>41</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>39</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Gardening</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>42</Parameter3>
+  <Parameter4>43</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>40</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>51</NextTASId>
+  <Parameter1>GnomeLorePaintingSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>41</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GnomeLorePaintingFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>42</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>51</NextTASId>
+  <Parameter1>GnomeLoreGardeningSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>43</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GnomeLoreGardeningFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>44</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>GnomeLoreChoiceStage3</Parameter1>
+  <Parameter2>GnomeLoreChoicePainting3</Parameter2>
+  <Parameter3>45</Parameter3>
+  <Parameter4>GnomeLoreChoiceGardening3</Parameter4>
+  <Parameter5>46</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>45</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Painting</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>47</Parameter3>
+  <Parameter4>48</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>46</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Gardening</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>49</Parameter3>
+  <Parameter4>50</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>47</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>51</NextTASId>
+  <Parameter1>GnomeLorePaintingSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>48</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GnomeLorePaintingFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>49</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>51</NextTASId>
+  <Parameter1>GnomeLoreGardeningSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>50</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GnomeLoreGardeningFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>51</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>52,54,56,312,336</Parameter1>
+  <Parameter2>10,10,10,10,10</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>52</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>53</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>RandomAlchemyPotion,1,SleepPotion;PotentSleepPotion;MidasTouchPotion</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>53</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GnomeLoreRewardPotion</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>54</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>55</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>MedatorInstance,MagicGnome:BaseGame</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>55</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GnomeLoreRewardToy</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>56</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>57</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>Buff,Impressed</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>57</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GnomeLoreRewardMoodlet</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>58</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>MummyLoreChoiceStage1</Parameter1>
+  <Parameter2>MummyLoreChoiceLogic1</Parameter2>
+  <Parameter3>59</Parameter3>
+  <Parameter4>MummyLoreChoiceWriting1</Parameter4>
+  <Parameter5>60</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>59</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Logic</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>61</Parameter3>
+  <Parameter4>62</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>60</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Writing</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>63</Parameter3>
+  <Parameter4>64</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>61</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>65</NextTASId>
+  <Parameter1>MummyLoreLogicSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>62</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>MummyLoreLogicFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>63</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>65</NextTASId>
+  <Parameter1>MummyLoreWritingSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>64</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>MummyLoreWritingFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>65</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>MummyLoreChoiceStage2</Parameter1>
+  <Parameter2>MummyLoreChoiceLogic2</Parameter2>
+  <Parameter3>66</Parameter3>
+  <Parameter4>MummyLoreChoiceWriting2</Parameter4>
+  <Parameter5>67</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>66</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Logic</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>68</Parameter3>
+  <Parameter4>69</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>67</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Writing</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>70</Parameter3>
+  <Parameter4>71</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>68</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>79</NextTASId>
+  <Parameter1>MummyLoreLogicSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>69</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>MummyLoreLogicFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>70</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>79</NextTASId>
+  <Parameter1>MummyLoreWritingSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>71</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>MummyLoreWritingFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>72</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>MummyLoreChoiceStage3</Parameter1>
+  <Parameter2>GnomeLoreChoiceLogic3</Parameter2>
+  <Parameter3>73</Parameter3>
+  <Parameter4>MummyLoreChoiceWriting3</Parameter4>
+  <Parameter5>74</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>73</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Logic</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>75</Parameter3>
+  <Parameter4>76</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>74</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Writing</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>77</Parameter3>
+  <Parameter4>78</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>75</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>79</NextTASId>
+  <Parameter1>MummyLoreLogicSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>76</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>MummyLoreLogicFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>77</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>79</NextTASId>
+  <Parameter1>MummyLoreWritingSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>78</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>MummyLoreWritingFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>79</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>80,82,84,314,336</Parameter1>
+  <Parameter2>10,10,10,10,10</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>80</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>81</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>RandomAlchemyPotion,1,BottledMummyDustPotion</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>81</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>MummyLoreRewardPotion</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>82</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>83</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>MedatorInstance,teddyBearAntiqueMummy:EP7</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>83</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>MummyLoreRewardToy</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>84</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>85</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>Buff,WowMummy</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>85</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>MummyLoreRewardMoodlet</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>86</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>SimbotLoreChoiceStage1</Parameter1>
+  <Parameter2>SimbotLoreChoiceLogic1</Parameter2>
+  <Parameter3>87</Parameter3>
+  <Parameter4>SimbotLoreChoiceHandiness1</Parameter4>
+  <Parameter5>88</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>87</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Logic</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>89</Parameter3>
+  <Parameter4>90</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>88</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Handiness</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>91</Parameter3>
+  <Parameter4>92</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>89</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>93</NextTASId>
+  <Parameter1>SimbotLoreLogicSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>90</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>SimbotLoreLogicFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>91</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>93</NextTASId>
+  <Parameter1>SimbotLoreHandinessSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>92</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>SimbotLoreHandinessFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>93</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>SimbotLoreChoiceStage2</Parameter1>
+  <Parameter2>SimbotLoreChoiceLogic2</Parameter2>
+  <Parameter3>94</Parameter3>
+  <Parameter4>SimbotLoreChoiceHandiness2</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>94</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Logic</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>96</Parameter3>
+  <Parameter4>97</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>95</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Handiness</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>98</Parameter3>
+  <Parameter4>99</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>96</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>107</NextTASId>
+  <Parameter1>SimbotLoreLogicSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>97</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>SimbotLoreLogicFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>98</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>107</NextTASId>
+  <Parameter1>SimbotLoreHandinessSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>99</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>SimbotLoreHandinessFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>100</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>SimbotLoreChoiceStage3</Parameter1>
+  <Parameter2>SimbotLoreChoiceLogic3</Parameter2>
+  <Parameter3>73</Parameter3>
+  <Parameter4>SimbotLoreChoiceHandiness3</Parameter4>
+  <Parameter5>74</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>101</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Logic</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>103</Parameter3>
+  <Parameter4>104</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>102</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Handiness</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>105</Parameter3>
+  <Parameter4>106</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>103</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>107</NextTASId>
+  <Parameter1>SimbotLoreLogicSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>104</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>SimbotLoreLogicFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>105</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>107</NextTASId>
+  <Parameter1>SimbotLoreHandinessSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>106</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>SimbotLoreHandinessFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>107</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>108,110,112,316,336</Parameter1>
+  <Parameter2>10,10,10,10,10</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>108</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>109</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>RandomAlchemyPotion,1,CapturedNanobotsPotion</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>109</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>SimbotLoreRewardPotion</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>110</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>111</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>MedatorInstance,teddyBearAntiqueSimbot:EP7</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>111</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>SimbotLoreRewardToy</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>112</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>113</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>Buff,WowSimbot</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>113</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>SimbotLoreRewardMoodlet</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>114</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>VampireLoreChoiceStage1</Parameter1>
+  <Parameter2>VampireLoreChoiceLogic1</Parameter2>
+  <Parameter3>115</Parameter3>
+  <Parameter4>VampireLoreChoiceCharisma1</Parameter4>
+  <Parameter5>116</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>115</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Logic</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>117</Parameter3>
+  <Parameter4>118</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>116</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Charisma</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>119</Parameter3>
+  <Parameter4>120</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>117</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>121</NextTASId>
+  <Parameter1>VampireLoreLogicSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>118</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>VampireLoreLogicFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>119</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>121</NextTASId>
+  <Parameter1>VampireLoreCharismaSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>120</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>VampireLoreCharismaFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>121</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>VampireLoreChoiceStage2</Parameter1>
+  <Parameter2>VampireLoreChoiceLogic2</Parameter2>
+  <Parameter3>122</Parameter3>
+  <Parameter4>VampireLoreChoiceCharisma2</Parameter4>
+  <Parameter5>123</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>122</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Logic</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>124</Parameter3>
+  <Parameter4>125</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>123</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Charisma</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>126</Parameter3>
+  <Parameter4>127</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>124</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>135</NextTASId>
+  <Parameter1>VampireLoreLogicSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>125</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>VampireLoreLogicFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>126</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>135</NextTASId>
+  <Parameter1>VampireLoreCharismaSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>127</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>VampireLoreCharismaFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>128</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>VampireLoreChoiceStage3</Parameter1>
+  <Parameter2>VampireLoreChoiceLogic3</Parameter2>
+  <Parameter3>129</Parameter3>
+  <Parameter4>VampireLoreChoiceCharisma3</Parameter4>
+  <Parameter5>130</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>129</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Logic</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>131</Parameter3>
+  <Parameter4>132</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>130</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Charisma</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>133</Parameter3>
+  <Parameter4>134</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>131</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>135</NextTASId>
+  <Parameter1>VampireLoreLogicSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>132</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>VampireLoreLogicFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>133</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>135</NextTASId>
+  <Parameter1>VampireLoreCharismaSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>134</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>VampireLoreCharismaFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>135</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>136,138,140,318,336</Parameter1>
+  <Parameter2>10,10,10,10,10</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>136</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>137</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>RandomAlchemyPotion,1,BottledVampiresBitePotion</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>137</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>VampireLoreRewardPotion</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>138</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>139</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>MedatorInstance,teddyBearAntiqueVampire:EP7</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>139</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>VampireLoreRewardToy</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>140</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>141</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>Buff,WowVampire</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>141</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>VampireLoreRewardMoodlet</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>142</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>ImaginaryFriendLoreChoiceStage1</Parameter1>
+  <Parameter2>ImaginaryFriendLoreChoiceCooking1</Parameter2>
+  <Parameter3>143</Parameter3>
+  <Parameter4>ImaginaryFriendLoreChoiceCharisma1</Parameter4>
+  <Parameter5>144</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>143</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Cooking</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>145</Parameter3>
+  <Parameter4>146</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>144</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Charisma</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>147</Parameter3>
+  <Parameter4>148</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>145</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>149</NextTASId>
+  <Parameter1>ImaginaryFriendLoreCookingSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>146</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>ImaginaryFriendLoreCookingFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>147</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>149</NextTASId>
+  <Parameter1>ImaginaryFriendLoreCharismaSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>148</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>ImaginaryFriendLoreCharismaFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>149</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>ImaginaryFriendLoreChoiceStage2</Parameter1>
+  <Parameter2>ImaginaryFriendLoreChoiceCooking2</Parameter2>
+  <Parameter3>150</Parameter3>
+  <Parameter4>ImaginaryFriendLoreChoiceCharisma2</Parameter4>
+  <Parameter5>151</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>150</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Cooking</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>152</Parameter3>
+  <Parameter4>153</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>151</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Charisma</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>154</Parameter3>
+  <Parameter4>155</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>152</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>163</NextTASId>
+  <Parameter1>ImaginaryFriendLoreCookingSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>153</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>ImaginaryFriendLoreCookingFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>154</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>163</NextTASId>
+  <Parameter1>ImaginaryFriendLoreCharismaSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>155</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>ImaginaryFriendLoreCharismaFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>156</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>ImaginaryFriendLoreChoiceStage3</Parameter1>
+  <Parameter2>ImaginaryFriendLoreChoiceCooking3</Parameter2>
+  <Parameter3>157</Parameter3>
+  <Parameter4>ImaginaryFriendLoreChoiceCharisma3</Parameter4>
+  <Parameter5>158</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>157</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Cooking</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>159</Parameter3>
+  <Parameter4>160</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>158</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Charisma</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>161</Parameter3>
+  <Parameter4>162</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>159</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>163</NextTASId>
+  <Parameter1>ImaginaryFriendLoreCookingSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>160</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>ImaginaryFriendLoreCookingFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>161</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>163</NextTASId>
+  <Parameter1>ImaginaryFriendLoreCharismaSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>162</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>ImaginaryFriendLoreCharismaFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>163</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>164,166,168,320,336</Parameter1>
+  <Parameter2>10,10,10,10,10</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>164</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>165</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>RandomAlchemyPotion,1,AgeOfInstantPotion;BottledWaterOfYouthPotion;OriginOfTheTragicClown</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>165</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>ImaginaryFriendLoreRewardPotion</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>166</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>167</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>MedatorInstance,teddyBearAntiqueImaginaryFriend:EP7</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>167</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>ImaginaryFriendLoreRewardToy</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>168</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>169</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>Buff,WowImaginaryFriend</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>169</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>ImaginaryFriendLoreRewardMoodlet</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>170</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>UnicornLoreChoiceStage1</Parameter1>
+  <Parameter2>UnicornLoreChoiceGardening1</Parameter2>
+  <Parameter3>171</Parameter3>
+  <Parameter4>UnicornLoreChoiceCooking1</Parameter4>
+  <Parameter5>172</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>171</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Gardening</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>173</Parameter3>
+  <Parameter4>174</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>172</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Cooking</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>175</Parameter3>
+  <Parameter4>176</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>173</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>177</NextTASId>
+  <Parameter1>UnicornLoreGardeningSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>174</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>UnicornLoreGardeningFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>175</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>177</NextTASId>
+  <Parameter1>UnicornLoreCookingSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>176</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>UnicornLoreCookingFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>177</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>UnicornLoreChoiceStage2</Parameter1>
+  <Parameter2>UnicornLoreChoiceGardening2</Parameter2>
+  <Parameter3>178</Parameter3>
+  <Parameter4>UnicornLoreChoiceCooking2</Parameter4>
+  <Parameter5>179</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>178</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Gardening</Parameter1>
+  <Parameter2>180</Parameter2>
+  <Parameter3>181</Parameter3>
+  <Parameter4>97</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>179</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Cooking</Parameter1>
+  <Parameter2>182</Parameter2>
+  <Parameter3>183</Parameter3>
+  <Parameter4>99</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>180</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>191</NextTASId>
+  <Parameter1>UnicornLoreGardeningSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>181</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>UnicornLoreGardeningFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>182</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>191</NextTASId>
+  <Parameter1>UnicornLoreCookingSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>183</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>UnicornLoreCookingFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>184</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>UnicornLoreChoiceStage3</Parameter1>
+  <Parameter2>UnicornLoreChoiceGardening3</Parameter2>
+  <Parameter3>185</Parameter3>
+  <Parameter4>UnicornLoreChoiceCooking3</Parameter4>
+  <Parameter5>186</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>185</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Gardening</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>187</Parameter3>
+  <Parameter4>188</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>186</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Cooking</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>189</Parameter3>
+  <Parameter4>190</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>187</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>191</NextTASId>
+  <Parameter1>UnicornLoreGardeningSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>188</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>UnicornLoreGardeningFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>189</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>191</NextTASId>
+  <Parameter1>UnicornLoreCookingSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>190</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>UnicornLoreCookingFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>191</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>192,194,196,322,336</Parameter1>
+  <Parameter2>10,10,10,10,10</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>192</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>193</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>RandomAlchemyPotion,1,ProcreationPotion;TinyJarOfFriendshipPotion;WishEnhancingSerumPotion</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>193</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>UnicornLoreRewardPotion</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>194</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>195</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>MedatorInstance,ToyStuffedAnimalFreezerBunny:BaseGame</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>195</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>UnicornLoreRewardToy</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>196</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>197</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>Buff,WowUnicorn</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>197</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>UnicornLoreRewardMoodlet</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>198</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>GenieLoreChoiceStage1</Parameter1>
+  <Parameter2>GenieLoreChoiceCharisma1</Parameter2>
+  <Parameter3>199</Parameter3>
+  <Parameter4>GenieLoreChoiceCooking1</Parameter4>
+  <Parameter5>200</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>199</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Charisma</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>201</Parameter3>
+  <Parameter4>202</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>200</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Cooking</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>203</Parameter3>
+  <Parameter4>204</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>201</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>205</NextTASId>
+  <Parameter1>GenieLoreCharismaSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>202</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GenieLoreCharismaFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>203</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>205</NextTASId>
+  <Parameter1>GenieLoreCookingSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>204</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GenieLoreCookingFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>205</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>GenieLoreChoiceStage2</Parameter1>
+  <Parameter2>GenieLoreChoiceCharisma2</Parameter2>
+  <Parameter3>206</Parameter3>
+  <Parameter4>GenieLoreChoiceCooking2</Parameter4>
+  <Parameter5>207</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>206</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Charisma</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>208</Parameter3>
+  <Parameter4>209</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>207</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Cooking</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>210</Parameter3>
+  <Parameter4>211</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>208</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>219</NextTASId>
+  <Parameter1>GenieLoreCharismaSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>209</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GenieLoreCharismaFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>210</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>219</NextTASId>
+  <Parameter1>GenieLoreCookingSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>211</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GenieLoreCookingFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>212</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>GenieLoreChoiceStage3</Parameter1>
+  <Parameter2>GenieLoreChoiceCharisma3</Parameter2>
+  <Parameter3>213</Parameter3>
+  <Parameter4>GenieLoreChoiceCooking3</Parameter4>
+  <Parameter5>214</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>213</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Charisma</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>215</Parameter3>
+  <Parameter4>216</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>214</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Cooking</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>217</Parameter3>
+  <Parameter4>218</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>215</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>219</NextTASId>
+  <Parameter1>GenieLoreCharismaSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>216</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GenieLoreCharismaFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>217</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>219</NextTASId>
+  <Parameter1>GenieLoreCookingSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>218</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>GenieLoreCookingFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>219</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>220,222,224,324,336</Parameter1>
+  <Parameter2>10,10,10,10,10</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>220</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>221</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>RandomAlchemyPotion,1,GenieInABottlePotion</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>221</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GenieLoreRewardPotion</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>222</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>223</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>MedatorInstance,teddyBearAntiqueGenie:EP7</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>223</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GenieLoreRewardToy</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>224</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>225</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>Buff,WowGenie</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>225</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GenieLoreRewardMoodlet</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>226</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>WerewolfLoreChoiceStage1</Parameter1>
+  <Parameter2>WerewolfLoreChoiceAthletic1</Parameter2>
+  <Parameter3>227</Parameter3>
+  <Parameter4>WerewolfLoreChoiceFishing1</Parameter4>
+  <Parameter5>228</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>227</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Athletic</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>229</Parameter3>
+  <Parameter4>230</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>228</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Fishing</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>231</Parameter3>
+  <Parameter4>232</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>229</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>233</NextTASId>
+  <Parameter1>WerewolfLoreAthleticSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>230</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>WerewolfLoreAthleticFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>231</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>233</NextTASId>
+  <Parameter1>WerewolfLoreFishingSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>232</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>WerewolfLoreFishingFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>233</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>WerewolfLoreChoiceStage2</Parameter1>
+  <Parameter2>WerewolfLoreChoiceAthletic2</Parameter2>
+  <Parameter3>234</Parameter3>
+  <Parameter4>WerewolfLoreChoiceFishing2</Parameter4>
+  <Parameter5>235</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>234</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Athletic</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>236</Parameter3>
+  <Parameter4>237</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>235</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Fishing</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>238</Parameter3>
+  <Parameter4>239</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>236</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>247</NextTASId>
+  <Parameter1>WerewolfLoreAthleticSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>237</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>WerewolfLoreAthleticFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>238</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>247</NextTASId>
+  <Parameter1>WerewolfLoreFishingSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>239</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>WerewolfLoreFishingFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>240</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>WerewolfLoreChoiceStage3</Parameter1>
+  <Parameter2>WerewolfLoreChoiceAthletic3</Parameter2>
+  <Parameter3>241</Parameter3>
+  <Parameter4>WerewolfLoreChoiceFishing3</Parameter4>
+  <Parameter5>242</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>241</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Athletic</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>243</Parameter3>
+  <Parameter4>244</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>242</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Fishing</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>245</Parameter3>
+  <Parameter4>246</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>243</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>247</NextTASId>
+  <Parameter1>WerewolfLoreAthleticSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>244</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>WerewolfLoreAthleticFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>245</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>247</NextTASId>
+  <Parameter1>WerewolfLoreFishingSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>246</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>WerewolfLoreFishingFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>247</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>248,250,252,326,336</Parameter1>
+  <Parameter2>10,10,10,10,10</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>248</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>249</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>RandomAlchemyPotion,1,BottledCurseOfTheLycanPotion</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>249</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>WerewolfLoreRewardPotion</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>250</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>251</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>MedatorInstance,teddyBearAntiqueWereWolf:EP7</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>251</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>WerewolfLoreRewardToy</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>252</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>253</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>Buff,WowWerewolf</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>253</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>WerewolfLoreRewardMoodlet</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>254</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>WitchLoreChoiceStage1</Parameter1>
+  <Parameter2>WitchLoreChoiceAlchemy1</Parameter2>
+  <Parameter3>255</Parameter3>
+  <Parameter4>WitchLoreChoiceCollecting1</Parameter4>
+  <Parameter5>256</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>255</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Spellcraft</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>257</Parameter3>
+  <Parameter4>258</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>256</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Collecting</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>259</Parameter3>
+  <Parameter4>260</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>257</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>261</NextTASId>
+  <Parameter1>WitchLoreAlchemySuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>258</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>WitchLoreAlchemyFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>259</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>261</NextTASId>
+  <Parameter1>WitchLoreCollectingSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>260</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>WitchLoreCollectingFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>261</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>WitchLoreChoiceStage2</Parameter1>
+  <Parameter2>WitchLoreChoiceAlchemy2</Parameter2>
+  <Parameter3>262</Parameter3>
+  <Parameter4>WitchLoreChoiceCollecting2</Parameter4>
+  <Parameter5>263</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>262</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Spellcraft</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>264</Parameter3>
+  <Parameter4>265</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>263</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Collecting</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>266</Parameter3>
+  <Parameter4>267</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>264</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>275</NextTASId>
+  <Parameter1>WitchLoreAlchemySuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>265</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>WitchLoreAlchemyFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>266</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>275</NextTASId>
+  <Parameter1>WitchLoreCollectingSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>267</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>WitchLoreCollectingFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>268</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>WitchLoreChoiceStage3</Parameter1>
+  <Parameter2>WitchLoreChoiceAlchemy3</Parameter2>
+  <Parameter3>269</Parameter3>
+  <Parameter4>WitchLoreChoiceCollecting3</Parameter4>
+  <Parameter5>270</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>269</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Spellcraft</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>271</Parameter3>
+  <Parameter4>272</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>270</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Collecting</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>273</Parameter3>
+  <Parameter4>274</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>271</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>275</NextTASId>
+  <Parameter1>WitchLoreAlchemySuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>272</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>WitchLoreAlchemyFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>273</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>275</NextTASId>
+  <Parameter1>WitchLoreCollectingSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>274</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>WitchLoreCollectingFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>275</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>276,278,280,328,336</Parameter1>
+  <Parameter2>10,10,10,10,10</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>276</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>277</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>RandomAlchemyPotion,1,AddWitchOccultPotion</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>277</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>WitchLoreRewardPotion</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>278</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>279</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>MedatorInstance,teddyBearAntiqueWizard:EP7</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>279</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>WitchLoreRewardToy</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>280</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>281</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>Buff,WowWitch</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>281</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>WitchLoreRewardMoodlet</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>282</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>FairyLoreChoiceStage1</Parameter1>
+  <Parameter2>FairyLoreChoiceGardening1</Parameter2>
+  <Parameter3>283</Parameter3>
+  <Parameter4>FairyLoreChoiceDancing1</Parameter4>
+  <Parameter5>284</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>283</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Gardening</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>285</Parameter3>
+  <Parameter4>286</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>284</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Dancing</Parameter1>
+  <Parameter2>3</Parameter2>
+  <Parameter3>287</Parameter3>
+  <Parameter4>288</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>285</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>289</NextTASId>
+  <Parameter1>FairyLoreGardeningSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>286</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>FairyLoreGardeningFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>287</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>289</NextTASId>
+  <Parameter1>FairyLoreDancingSuccessTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>288</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>FairyLoreDancingFailTns1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>289</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>FairyLoreChoiceStage2</Parameter1>
+  <Parameter2>FairyLoreChoiceGardening2</Parameter2>
+  <Parameter3>290</Parameter3>
+  <Parameter4>FairyLoreChoiceDancing2</Parameter4>
+  <Parameter5>291</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>290</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Gardening</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>292</Parameter3>
+  <Parameter4>293</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>291</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Dancing</Parameter1>
+  <Parameter2>5</Parameter2>
+  <Parameter3>294</Parameter3>
+  <Parameter4>295</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>292</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>303</NextTASId>
+  <Parameter1>FairyLoreGardeningSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>293</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>FairyLoreGardeningFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>294</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>303</NextTASId>
+  <Parameter1>FairyLoreDancingSuccessTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>295</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>FairyLoreDancingFailTns2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>296</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>FairyLoreChoiceStage3</Parameter1>
+  <Parameter2>FairyLoreChoiceGardening3</Parameter2>
+  <Parameter3>297</Parameter3>
+  <Parameter4>FairyLoreChoiceDancing3</Parameter4>
+  <Parameter5>298</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>297</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Gardening</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>299</Parameter3>
+  <Parameter4>300</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>298</TASId>
+  <TASType>SkillTestStage</TASType>
+  <Parameter1>Dancing</Parameter1>
+  <Parameter2>7</Parameter2>
+  <Parameter3>301</Parameter3>
+  <Parameter4>302</Parameter4>
+  <Parameter5>95</Parameter5>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>299</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>303</NextTASId>
+  <Parameter1>FairyLoreGardeningSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>300</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>FairyLoreGardeningFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>301</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>303</NextTASId>
+  <Parameter1>FairyLoreDancingSuccessTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>302</TASId>
+  <TASType>TnsStage</TASType>
+  <NextTASId>340</NextTASId>
+  <Parameter1>FairyLoreDancingFailTns3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>303</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>304,306,308,330,336</Parameter1>
+  <Parameter2>10,10,10,10,10</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>304</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>305</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>RandomAlchemyPotion,1,BlessingOfTheFaePotion</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>305</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>FairyLoreRewardPotion</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>306</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>307</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>MedatorInstance,teddyBearAntiqueFairy:EP7</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>307</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>FairyLoreRewardToy</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>308</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>309</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>Buff,WowFairy</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>309</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>FairyLoreRewardMoodlet</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>310</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>311</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>BookGeneral,NonFiction,Ep7GhostLoreBook1</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>311</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GhostLoreRewardBook</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>312</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>313</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>BookGeneral,NonFiction,Ep7GnomeLoreBook1</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>313</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GnomeLoreRewardBook</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>314</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>315</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>BookGeneral,NonFiction,Ep7MummyLoreBook1</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>315</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>MummyLoreRewardBook</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>316</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>317</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>BookGeneral,NonFiction,Ep7SimbotLoreBook1</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>317</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>SimbotLoreRewardBook</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>318</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>319</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>BookGeneral,NonFiction,Ep7VampireLoreBook1</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>319</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>VampireLoreRewardBook</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>320</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>321</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>BookGeneral,NonFiction,Ep7ImaginaryFriendLoreBook1</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>321</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>ImaginaryFriendLoreRewardBook</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>322</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>323</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>BookGeneral,NonFiction,Ep7UnicornLoreBook1</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>323</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>UnicornLoreRewardBook</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>324</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>325</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>BookGeneral,NonFiction,Ep7GenieLoreBook1</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>325</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GenieRewardBook</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>326</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>327</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>BookGeneral,NonFiction,Ep7WerewolfLoreBook1</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>327</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>WerewolfLoreRewardBook</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>328</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>329</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>BookGeneral,NonFiction,Ep7WitchLoreBook1</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>329</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>WitchLoreRewardBook</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>330</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>331</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>BookGeneral,NonFiction,Ep7FairyLoreBook1</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>331</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>FairyLoreRewardBook</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>332</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>333</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>Buff,Terrified</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>333</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GenericLoreRewardMoodlet1</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>334</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>335</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>Buff,Lunacy</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>335</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GenericLoreRewardMoodlet2</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>336</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>337</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>Buff,Historian</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>337</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GenericLoreRewardMoodlet3</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>338</TASId>
+  <TASType>RewardStage</TASType>
+  <NextTASId>339</NextTASId>
+  <Parameter1>FromVaultOfAntiquity</Parameter1>
+  <Parameter2>Buff,MagicalRubbish</Parameter2>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>339</TASId>
+  <TASType>TnsStage</TASType>
+  <Parameter1>GenericLoreRewardMoodlet4</Parameter1>
+ </VaultResearchSupernatural>
+<VaultResearchSupernatural>
+  <TASId>340</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>332,334,338</Parameter1>
+  <Parameter2>10,10,10</Parameter2>
+ </VaultResearchSupernatural>
+<SearchForFairies>
+  <TASId></TASId>
+  <TASType>RabbitHoleTextAdventureStage</TASType>
+  <MinDuration>5</MinDuration>
+  <MaxDuration>15</MaxDuration>
+  <NextTASId>-1</NextTASId>
+  <Parameter1></Parameter1>
+  <Parameter2></Parameter2>
+  <Parameter3></Parameter3>
+  <Parameter4></Parameter4>
+  <Parameter5></Parameter5>
+  <Parameter6></Parameter6>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>0</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>1,2,3</Parameter1>
+  <Parameter2>100,100,100</Parameter2>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>1</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>LevelOneDialog1</Parameter1>
+  <Parameter2>LevelOneDialog1Option1</Parameter2>
+  <Parameter3>4</Parameter3>
+  <Parameter4>LevelOneDialog1Option2</Parameter4>
+  <Parameter5>4</Parameter5>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>2</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>LevelOneDialog2</Parameter1>
+  <Parameter2>LevelOneDialog2Option1</Parameter2>
+  <Parameter3>4</Parameter3>
+  <Parameter4>LevelOneDialog2Option2</Parameter4>
+  <Parameter5>4</Parameter5>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>3</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>LevelOneDialog3</Parameter1>
+  <Parameter2>LevelOneDialog3Option1</Parameter2>
+  <Parameter3>4</Parameter3>
+  <Parameter4>LevelOneDialog3Option2</Parameter4>
+  <Parameter5>4</Parameter5>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>4</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>5,6,7</Parameter1>
+  <Parameter2>100,100,100</Parameter2>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>5</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>LevelTwoDialog1</Parameter1>
+  <Parameter2>LevelTwoDialog1Option1</Parameter2>
+  <Parameter3>8</Parameter3>
+  <Parameter4>LevelTwoDialog1Option2</Parameter4>
+  <Parameter5>8</Parameter5>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>6</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>LevelTwoDialog2</Parameter1>
+  <Parameter2>LevelTwoDialog2Option1</Parameter2>
+  <Parameter3>8</Parameter3>
+  <Parameter4>LevelTwoDialog2Option2</Parameter4>
+  <Parameter5>8</Parameter5>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>7</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>LevelTwoDialog3</Parameter1>
+  <Parameter2>LevelTwoDialog3Option1</Parameter2>
+  <Parameter3>8</Parameter3>
+  <Parameter4>LevelTwoDialog3Option2</Parameter4>
+  <Parameter5>8</Parameter5>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>8</TASId>
+  <TASType>RandomNextStage</TASType>
+  <Parameter1>9,10,11</Parameter1>
+  <Parameter2>100,100,100</Parameter2>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>9</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>LevelThreeDialog1</Parameter1>
+  <Parameter2>LevelThreeDialog1Option1</Parameter2>
+  <Parameter3>12</Parameter3>
+  <Parameter4>LevelThreeDialog1Option2</Parameter4>
+  <Parameter5>12</Parameter5>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>10</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>LevelThreeDialog2</Parameter1>
+  <Parameter2>LevelThreeDialog2Option1</Parameter2>
+  <Parameter3>12</Parameter3>
+  <Parameter4>LevelThreeDialog2Option2</Parameter4>
+  <Parameter5>12</Parameter5>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>11</TASId>
+  <TASType>ChoiceStage</TASType>
+  <Parameter1>LevelThreeDialog3</Parameter1>
+  <Parameter2>LevelThreeDialog3Option1</Parameter2>
+  <Parameter3>12</Parameter3>
+  <Parameter4>LevelThreeDialog3Option2</Parameter4>
+  <Parameter5>12</Parameter5>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>12</TASId>
+  <TASType>RandomNextStage</TASType>
+  <MinDuration>1</MinDuration>
+  <MaxDuration>1</MaxDuration>
+  <Parameter1>13,14,16</Parameter1>
+  <Parameter2>35,60,100</Parameter2>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>13</TASId>
+  <TASType>RelationshipWithRandomSimOfOccultStage</TASType>
+  <MinDuration>1</MinDuration>
+  <MaxDuration>1</MaxDuration>
+  <NextTASId>-1</NextTASId>
+  <Parameter1>Fairy</Parameter1>
+  <Parameter2>50</Parameter2>
+  <Parameter3>FoundAFairyTNS</Parameter3>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>14</TASId>
+  <TASType>TnsStage</TASType>
+  <MinDuration>1</MinDuration>
+  <MaxDuration>1</MaxDuration>
+  <NextTASId>15</NextTASId>
+  <Parameter1>FoundFairyDustTNS</Parameter1>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>15</TASId>
+  <TASType>RewardStage</TASType>
+  <MinDuration>1</MinDuration>
+  <MaxDuration>1</MaxDuration>
+  <NextTASId>-1</NextTASId>
+  <Parameter1>FromArboretum</Parameter1>
+  <Parameter2>MedatorInstance,accessoryJarFairyDust:EP7,1,,False</Parameter2>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>16</TASId>
+  <TASType>TnsStage</TASType>
+  <MinDuration>1</MinDuration>
+  <MaxDuration>1</MaxDuration>
+  <NextTASId>17</NextTASId>
+  <Parameter1>FoundSeedsTNS</Parameter1>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>17</TASId>
+  <TASType>RandomNextStage</TASType>
+  <MinDuration>1</MinDuration>
+  <MaxDuration>1</MaxDuration>
+  <Parameter1>18,19</Parameter1>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>18</TASId>
+  <TASType>RewardStage</TASType>
+  <MinDuration>1</MinDuration>
+  <MaxDuration>1</MaxDuration>
+  <NextTASId>-1</NextTASId>
+  <Parameter1>FromArboretum</Parameter1>
+  <Parameter2>RandomPlantable,RandomRarity,RandomQuality,2,True</Parameter2>
+ </SearchForFairies>
+<SearchForFairies>
+  <TASId>19</TASId>
+  <TASType>RewardStage</TASType>
+  <MinDuration>1</MinDuration>
+  <MaxDuration>1</MaxDuration>
+  <NextTASId>-1</NextTASId>
+  <Parameter1>FromArboretum</Parameter1>
+  <Parameter2>RandomPlantable,Common,RandomQuality,3,True</Parameter2>
+ </SearchForFairies>
+</RabbitHoleTextAdventure>

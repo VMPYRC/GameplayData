@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPartyParams>
+      <PreparationTime value="2">
+        <!--How long the host will prepare before the party starts (in hours)-->
+      </PreparationTime>
+      <PercentageChanceOfBringingAFriend value="0">
+        <!--Percentage chance (0 to 100) of bringing a friend along to the party-->
+      </PercentageChanceOfBringingAFriend>
+      <MinPartyTime value="4">
+        <!--Min length of party (in hours): Sims will not leave until this many hours after they arrive (unless motive distress)-->
+      </MinPartyTime>
+      <ChanceOfBringingFood value="25">
+        <!--Percentage chance of bringing food-->
+      </ChanceOfBringingFood>
+      <HourAtWhichChildrenGoHome value="22">
+        <!--Time (in 24 hours) at which children (and their parents) will leave the party-->
+      </HourAtWhichChildrenGoHome>
+      <InitialDesireToSocialize value="70" />
+      <RatioOfMoodToLikingChangeWhenLeavingParty value="0.25">
+        <!--Ratio of mood -> liking update when leaving the party (0.1 means that mood of +90 is turned into +9 liking)-->
+      </RatioOfMoodToLikingChangeWhenLeavingParty>
+      <HoursBeforePartyToInvite value="1">
+        <!--How Many Hours before the Party Start the Host invites Guests to Start coming over-->
+      </HoursBeforePartyToInvite>
+      <MinutesPerLeavingCheck value="20">
+        <!--How Often the Party Checks if people should leave the party. Minutes-->
+      </MinutesPerLeavingCheck>
+      <RelToTimeMod value="0.05">
+        <!--This changes Rel to a scale of 0-200, multiplies it by this number, and adds you min party time to get how long you'll stay to start. Hours-->
+      </RelToTimeMod>
+      <MoodToTimeMod value="0.045">
+        <!--Each MinutesPerLeavingCheck you get an additional Your Mood * MoodToTimeMod Minutes to stay-->
+      </MoodToTimeMod>
+    </kPartyParams>
+    <kCallSuggestPartyGenderMultiplier value="0.05">
+      <!--Range:  0+  Description:  The weight multiplier applied to candidate callers of different gender-->
+    </kCallSuggestPartyGenderMultiplier>
+    <kNumberOfPeopleRequiredForDancer value="4">
+      <!--Range:  0+  Description:  The number of people necessary for a dancer to show up-->
+    </kNumberOfPeopleRequiredForDancer>
+    <kAmountOfTimeRequiredBeforeDancer value="60">
+      <!--Range:  0+  Description:  How long, in Sim minutes, before a dancer can show up-->
+    </kAmountOfTimeRequiredBeforeDancer>
+    <kAvailableOutfitCategories value="Formalwear">
+      <!--Range:  OutfitCategories[]  Description:  Outfit categories that are appropriate for bachelor parties-->
+    </kAvailableOutfitCategories>
+    <kSpecialOutfitLtrMinimum value="30">
+      <!--Range:  0+  Description:  The minimum LTR liking with the host to be able to switch into a special outfit-->
+    </kSpecialOutfitLtrMinimum>
+    <kSpecialOutfitChance value="0.8">
+      <!--Range:  0 - 1  Description:  The chance that a guest will switch into a special party uniform-->
+    </kSpecialOutfitChance>
+    <kSpecialOutfitCount value="12">
+      <!--Range:  0+  Description:  The number of available special outfits-->
+    </kSpecialOutfitCount>
+    <kNumberOfPeopleRequiredForExtraDancer value="10">
+      <!--Range:  0+  Description:  The number of people necessary for an exta dancer to show up-->
+    </kNumberOfPeopleRequiredForExtraDancer>
+    <kIncreasedEffectivenesses value="AcceptingOfRomance, Romance, AcceptingOfHumor, Humor">
+      <!--Range:  SocialEffectiveness[] Description:  Effectivenesses improved by bachelor parties-->
+    </kIncreasedEffectivenesses>
+    <kAllowedMusicTypes value="Electronica, HipHop, Latin, Pop">
+      <!--Range:  FavorityMusicType[]  Description:  Allowed stations Sims can autonomously listen to-->
+    </kAllowedMusicTypes>
+    <kChanceOfSpinningIntoUnderwearMin value="0">
+      <!--Range:  0 - 1  Description:  Chance of spinning into underwear after being sprayed at min mood level-->
+    </kChanceOfSpinningIntoUnderwearMin>
+    <kChanceOfSpinningIntoUnderwearMax value="0.15">
+      <!--Range:  0 - 1  Description:  Chance of spinning into underwear after being sprayed at max mood level-->
+    </kChanceOfSpinningIntoUnderwearMax>
+    <kUnderwearOutfitCount value="14">
+      <!--Range:  0+  Description:  The number of available underwear outfits-->
+    </kUnderwearOutfitCount>
+    <kMaximumAllowedJealousyLevel value="Medium">
+      <!--Range:  JealousyLevel  Description:  The maximum jealousy level below which Sims will not react negatively to cheating Sims-->
+    </kMaximumAllowedJealousyLevel>
+  </Current_Tuning>
+</base>

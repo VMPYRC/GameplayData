@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLogicSkillMultiplier value="1.00, 1.05, 1.07, 1.10, 1.15, 1.20, 1.23, 1.25, 1.30,1.35, 1.40">
+      <!--Multiplier per logic skill for converting money to Liking-->
+    </kLogicSkillMultiplier>
+    <kMoneyToLikingConversionFactor value="1.5">
+      <!--conversion factor for converting money to Liking-->
+    </kMoneyToLikingConversionFactor>
+    <kBribeAmounts value="10, 25, 50, 100">
+      <!--Available bribe amounts-->
+    </kBribeAmounts>
+    <kFrugalBribeAmountMultiplier value="0.9">
+      <!--Multiplier for how much money frugal sims offer in their bribes-->
+    </kFrugalBribeAmountMultiplier>
+    <kCharismaticBonusToBribe value="5">
+      <!--Charismatic sim bonus amount to bribe (added on to the money amount)-->
+    </kCharismaticBonusToBribe>
+  </Current_Tuning>
+</base>

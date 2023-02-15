@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSocialNetworkingSkillRequired value="1">
+      <!--The minimum level of Social Networking Skill required-->
+    </kSocialNetworkingSkillRequired>
+    <kMinFollowersRequired value="1">
+      <!--The minimum number of followers required-->
+    </kMinFollowersRequired>
+    <kMinMinsBeforeWeCanAskAgain value="480">
+      <!--The min timeout in sim minutes before we can use this interaction again-->
+    </kMinMinsBeforeWeCanAskAgain>
+    <kMaxMinsBeforeWeCanAskAgain value="480">
+      <!--The max timeout in sim minutes before we can use this interaction again-->
+    </kMaxMinsBeforeWeCanAskAgain>
+    <kIncreasedDonationChance value="15">
+      <!--The increased chance that the player will find donations in the mailbox the next time we check-->
+    </kIncreasedDonationChance>
+  </Current_Tuning>
+</base>

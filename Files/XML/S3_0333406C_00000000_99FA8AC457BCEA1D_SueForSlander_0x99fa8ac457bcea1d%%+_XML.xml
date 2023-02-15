@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSimMinutesInRabbitHole value="120, 180">
+      <!--Time in sim minutes that the sim will be in the rabbit hole.-->
+    </kSimMinutesInRabbitHole>
+    <kPositiveTraits value="Lucky, Charismatic, Xfactor">
+      <!--List of traits that increase the chances of winning a case.-->
+    </kPositiveTraits>
+    <kNegativeTraits value="Unlucky, Loser">
+      <!--List of traits that decrease the chances of winning a case.-->
+    </kNegativeTraits>
+    <kMinSettlementPayout value="200, 400, 1000, 1600, 4000, 6000">
+      <!--The min settlement payout per celebrity level if the sim wins the case.-->
+    </kMinSettlementPayout>
+    <kMaxSettlementPayout value="300, 700, 1500, 2200, 6000, 10000">
+      <!--The max settlement payout per celebrity level if the sim wins the case.-->
+    </kMaxSettlementPayout>
+    <kBaseSuccessChance value="65">
+      <!--The base chance the sim will win the case.-->
+    </kBaseSuccessChance>
+    <kPositiveModifier value="5">
+      <!--The kBaseSuccessChance will be modified by this value for each positive trait the sim has.-->
+    </kPositiveModifier>
+    <kNegativeModifier value="-5">
+      <!--The kBaseSuccessChance will be modified by this value for each negative trait the sim has.-->
+    </kNegativeModifier>
+    <kMinLegalFeesCost value="50, 100, 200, 500, 1000, 2000">
+      <!--The min legal costs per celebrity level.-->
+    </kMinLegalFeesCost>
+    <kMaxLegalFeesCost value="100, 200, 500, 800, 2000, 3000">
+      <!--The max legal costs per celebrity level.-->
+    </kMaxLegalFeesCost>
+    <kChanceRange value="50, 80">
+      <!--The absolute min and max chance after modifying the base chance.-->
+    </kChanceRange>
+  </Current_Tuning>
+</base>

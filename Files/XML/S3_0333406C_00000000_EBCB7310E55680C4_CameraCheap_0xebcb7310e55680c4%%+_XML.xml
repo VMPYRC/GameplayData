@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kCameraTuning>
+      <AdditionalCostToTakePhoto value="1">
+      </AdditionalCostToTakePhoto>
+      <MaximumSize value="Small">
+        <!--Maximum available photo size.  May be gated by skill.-->
+      </MaximumSize>
+      <MaximumZoom value="None">
+        <!--Maximum available zoom without ZoomUpgrade.-->
+      </MaximumZoom>
+      <MaximumZoomWithZoomUpgrade value="Minimum">
+        <!--Maximum available zoom with ZoomUpgrade.-->
+      </MaximumZoomWithZoomUpgrade>
+      <SkillGainMultiplier value="1">
+        <!--If non-zero, photos taken will contribute to skill and be sellable, a zero here makes a camera work like the base game cellphone camera.-->
+      </SkillGainMultiplier>
+      <ParisMarketDiscountFactor value="1.0">
+        <!--Proportion of normal price the camera should cost at the market stall (vs. a normal store).-->
+      </ParisMarketDiscountFactor>
+      <ShortcutPriority value="1">
+        <!--Priority for chosing this camera when player uses the Shift-C shortcut.  Ideally each camera should have a distinct value.-->
+      </ShortcutPriority>
+      <ValueMultiplier value="0.7">
+        <!--Photo value multiplier.-->
+      </ValueMultiplier>
+      <CameraQuality value="Cheap">
+        <!--Quality level of this camera.-->
+      </CameraQuality>
+      <MinimumSize value="Small">
+        <!--The minimum PhotographSize that this camera is capable of taking pictures using-->
+      </MinimumSize>
+    </kCameraTuning>
+  </Current_Tuning>
+</base>

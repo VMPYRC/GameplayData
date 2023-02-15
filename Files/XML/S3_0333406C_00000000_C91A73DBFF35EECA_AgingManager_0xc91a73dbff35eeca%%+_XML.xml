@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAgingEnabledByDefault value="True">
+      <!--Range: True or False.  Description: whether aging is enabled by default in new worlds.-->
+    </kAgingEnabledByDefault>
+    <kMinimumSimDaysPerAgingYear value="1">
+      <!--Range: positive decimal values greater than or equal to one.  Description: minimum number of Sim days that make up each year of aging.-->
+    </kMinimumSimDaysPerAgingYear>
+    <kDefaultSimDaysPerAgingYear value="7">
+      <!--Range: positive decimal values greater than or equal to kMinimumSimDaysPerAgingYear.  Description: default number of Sim days that make up each year of aging.-->
+    </kDefaultSimDaysPerAgingYear>
+    <kMaximumSimDaysPerAgingYear value="100">
+      <!--Range: positive decimal values greater than or equal to kDefaultSimDaysPerAgingYear.  Description: maximum number of Sim days that make up each year of aging.-->
+    </kMaximumSimDaysPerAgingYear>
+    <kAgingStageLengthBaby value=".428">
+      <!--Range: positive decimal values.  Description: number of aging years that a Sim is a baby.-->
+    </kAgingStageLengthBaby>
+    <kAgingStageLengthToddler value="1">
+      <!--Range: positive decimal values.  Description: number of aging years that a Sim is a toddler.-->
+    </kAgingStageLengthToddler>
+    <kAgingStageLengthChild value="1">
+      <!--Range: positive decimal values.  Description: number of aging years that a Sim is a child.-->
+    </kAgingStageLengthChild>
+    <kAgingStageLengthTeen value="2">
+      <!--Range: positive decimal values.  Description: number of aging years that a Sim is a teen.-->
+    </kAgingStageLengthTeen>
+    <kAgingStageLengthYoungAdult value="3">
+      <!--Range: positive decimal values.  Description: number of aging years that a Sim is a young adult.-->
+    </kAgingStageLengthYoungAdult>
+    <kAgingStageLengthAdult value="3">
+      <!--Range: positive decimal values.  Description: number of aging years that a Sim is a adult.-->
+    </kAgingStageLengthAdult>
+    <kAgingStageLengthElderMinimum value="2.428">
+      <!--Range: non-negative decimal values.  Description: minimum number of aging years that a Sim will survive as an elder. Can be zero.-->
+    </kAgingStageLengthElderMinimum>
+    <kPercentCasOffset value="28">
+      <!--Range: positive decimal percent values.  Description: the maximum percentage of an age range used to stagger Sims' ages.-->
+    </kPercentCasOffset>
+    <kDaysEarlyToShowBirthdayMessage value="2">
+      <!--Range: positive decimal values.  Description: how many days before a birthday the first warning is shown to the player.-->
+    </kDaysEarlyToShowBirthdayMessage>
+    <kHourToShowBirthdayMessage value="7">
+      <!--Range: positive decimal values less than 24.  Description: hour of day message about birthday should be shown to the player.-->
+    </kHourToShowBirthdayMessage>
+    <kHourToAgeWithoutCake value="10">
+      <!--Range: positive decimal values.  Description: how many hours before they would wake up a Sim will age transition even without cake.-->
+    </kHourToAgeWithoutCake>
+    <kLatestHourToAgeWithoutCake value="22">
+      <!--Range: positive decimal values less than 24.  Description: what hour of the day is the latest an age transition may occur, regardless of wakeup time.-->
+    </kLatestHourToAgeWithoutCake>
+    <kCheerForBirthdayMinDistanceToCheer value="1">
+      <!--Min radius around cake/aging sim for cheering the aging sim. Positive float. Initial GPE Default: 2.0f-->
+    </kCheerForBirthdayMinDistanceToCheer>
+    <kCheerForBirthdayMaxDistanceToCheer value="3">
+      <!--Max radius around cake/aging sim for cheering the aging sim. Positive float. Constraints: Greater than the min counterpart. Initial GPE Default: 3.5f-->
+    </kCheerForBirthdayMaxDistanceToCheer>
+    <kAgeUpCameraLerp>
+      <Time value="2">
+        <!--Time in seconds the camera movement should take.-->
+      </Time>
+      <Zoom value="10">
+        <!--Distance in meters from the target point the camera should float.-->
+      </Zoom>
+      <Pitch value="-45">
+        <!--Angle from the horizon the camera should point down from.  Negative values are the camera above the horizon, looking down.-->
+      </Pitch>
+      <Yaw value="-100">
+        <!--Angle about the target the camera should point from. Positive values are clockwise around the target (to the right-hand side) from the target's point of view.  Valid range: [-90, 90]-->
+      </Yaw>
+      <Swing value="True">
+        <!--Determines whether the camera should swing down to look at the ground if currently in look at sky mode.  Valid range: [0, 360)-->
+      </Swing>
+    </kAgeUpCameraLerp>
+    <kCheerForBirthdayBroadcasterParams>
+      <PulseRadius value="8">
+        <!--The effect range of the broadcaster in meters.-->
+      </PulseRadius>
+      <AffectBroadcasterRoomOnly value="False">
+        <!--Specifies whether or not the broadcaster effects object through walls that define an enclosed room boundary.-->
+      </AffectBroadcasterRoomOnly>
+      <PulseRepeatTime value="-1">
+        <!--A repeat time in sim minutes with which a Sim is pulsed with the OnEnter effects of the broadcaster as long as they reside within the broadcaster's range.  A value of -1 means the pulse never repeats.-->
+      </PulseRepeatTime>
+      <TimeToFullPulseExpansion value="0">
+        <!--The time in sim minutes over which the broadcaster range expands from 0 meters to the PulseRadius (the broadcaster range is instantaneously set to PulseRadius if zero minutes is specified).-->
+      </TimeToFullPulseExpansion>
+      <TimeDuration value="-1">
+        <!--DO NOT TUNE a value of -1 unless you speak with the GPE first.  A value of -1 means that the broadcaster pulses until manually deleted by the scripter.  Otherwise it is the lifetime in sim minutes after which the broadcaster is deleted.-->
+      </TimeDuration>
+      <InteractionProhibitsOverlay value="False">
+        <!--Setting InteractionProhibitsOverlay to true means that if the Sim chooses to use the interaction then the overlay is omitted.  I.e., either the interaction or the overlay is played but not both.-->
+      </InteractionProhibitsOverlay>
+      <AutonomyLevelToReact value="Three">
+        <!--The AutonomyLevel at which this reaction fires-->
+      </AutonomyLevelToReact>
+      <MaxSimsToProcessPerTick value="10">
+        <!--The max number of sims that PulseSims will consider in one tick (the more we do, the less efficient (but more responsive) the reaction will be)-->
+      </MaxSimsToProcessPerTick>
+      <ReactorLineOfSight value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims with line-of-sight to the broadcasting object.-->
+      </ReactorLineOfSight>
+      <ReactOnRepeatedEntry value="True">
+        <!--Whether or not the Sim will react anew to the broadcaster when exiting and re-entering the radius of the broadcaster. Do NOT tune to false if you have an ExitCallback or ExitInteraction.-->
+      </ReactOnRepeatedEntry>
+      <ReactToMultiplePulses value="True">
+        <!--If true, your sim will be pulsed every time the broadcaster pulses.  Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </ReactToMultiplePulses>
+      <SpeciesToEffect value="Human,Horse,Dog,LittleDog,Cat">
+        <!--List of species flags that this reaction broadcaster should broadcast to.  Valid entries are Human, Horse, Cat, Dog, LittleDog or a comma separated list of several of these.-->
+      </SpeciesToEffect>
+      <ReactorCouldSeeCheck value="False">
+        <!--Specifies whether or not the broadcaster only effects Sims which pass a "could-see" check to the broadcasting object (i.e., they are not in their frontal vision cone but there are no objects between the two actors so the reactor could hypothetically see if they turned around).-->
+      </ReactorCouldSeeCheck>
+      <MountedSimsDoNonMountedBehavior value="False">
+        <!--If true, mounted sims will attempt to do the normal non-mounted behavior for this broadcaster while mounted. If true, this will cause the sim to ignore all other mounted reaction specific params. Note: This may or may not work! Test thoroughly when setting this to true.-->
+      </MountedSimsDoNonMountedBehavior>
+      <MountedReactToMultiplePulses value="True">
+        <!--If true, your mounted sim will play the OnEnter MountedReactionType specified in MountedReactionTypes on every pulse. Set to false if you only want to be pulsed once per time entering the broadcaster.-->
+      </MountedReactToMultiplePulses>
+      <MountedReactionTypes value="Cheer, None">
+        <!--The MountedReactionType played by mounted horses and riders, instead of doing the normal behavior. If both enter and exit are set to none, mounted sims will not play a mounted reaction. What reaction to play when: [Entering the broadcaster (or initial pulse), exiting the broadcaster].-->
+      </MountedReactionTypes>
+    </kCheerForBirthdayBroadcasterParams>
+    <kCheerForBirthdayInteractionLength value="40">
+      <!--Range: positive decimal values. Description: Sim minutes spent cheering the aging sim. Initial GPE default: 25.0f-->
+    </kCheerForBirthdayInteractionLength>
+    <kAgeUpCameraLerpShowMessage value="True">
+      <!--Whether to show a message when the camera lerps to the Sim aging up.-->
+    </kAgeUpCameraLerpShowMessage>
+    <kAgeUpMinimumCheerTime value="10">
+      <!--Minimum number of minutes a Sim will cheer before aging up.  This lets Sims come over and watch, as well as gives the camera time to reach the Sim.-->
+    </kAgeUpMinimumCheerTime>
+    <kShortSimDaysPerAgingYear value="2">
+      <!--Range: positive decimal values greater than or equal to kMinimumSimDaysPerAgingYear.  Description: number of Sim days that make up each year of aging for a short lifespan.-->
+    </kShortSimDaysPerAgingYear>
+    <kMediumSimDaysPerAgingYear value="4">
+      <!--Range: positive decimal values greater than or equal to kMinimumSimDaysPerAgingYear.  Description: number of Sim days that make up each year of aging for a Medium lifespan.-->
+    </kMediumSimDaysPerAgingYear>
+    <kNormalSimDaysPerAgingYear value="7">
+      <!--Range: positive decimal values greater than or equal to kMinimumSimDaysPerAgingYear.  Description: number of Sim days that make up each year of aging for a Normal lifespan.-->
+    </kNormalSimDaysPerAgingYear>
+    <kLongSimDaysPerAgingYear value="15">
+      <!--Range: positive decimal values greater than or equal to kMinimumSimDaysPerAgingYear.  Description: number of Sim days that make up each year of aging for a Long lifespan.-->
+    </kLongSimDaysPerAgingYear>
+    <kEpicSimDaysPerAgingYear value="75">
+      <!--Range: positive decimal values greater than or equal to kMinimumSimDaysPerAgingYear.  Description: number of Sim days that make up each year of aging for a Epic lifespan.-->
+    </kEpicSimDaysPerAgingYear>
+    <kChancePerDayElderWillDieShort value="30">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Short.-->
+    </kChancePerDayElderWillDieShort>
+    <kChancePerDayElderWillDieMedium value="20">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Medium.-->
+    </kChancePerDayElderWillDieMedium>
+    <kChancePerDayElderWillDieNormal value="14">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Normal.-->
+    </kChancePerDayElderWillDieNormal>
+    <kChancePerDayElderWillDieLong value="6">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Long.-->
+    </kChancePerDayElderWillDieLong>
+    <kChancePerDayElderWillDieEpic value="3">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Epic.-->
+    </kChancePerDayElderWillDieEpic>
+    <kChanceMultiplierElderMarathonRunnerWillDie value="0.75">
+      <!--Range: positive decimal percent values.  Description: If an elder is a marathon runner, the chance of them dying will be multiplied by this value.-->
+    </kChanceMultiplierElderMarathonRunnerWillDie>
+    <kNPCGrantedSkills value="Charisma, Chess, Cooking, Dancing, Fishing, Foosball, Gardening, Guitar, Hacking, Handiness, Logic, Painting, VideoGame, Writing">
+      <!--Skills that NPCs can be given automatically when aging up.-->
+    </kNPCGrantedSkills>
+    <kTeenNewSkills value="1, 2, 0, 1">
+      <!--Teens learn this many new skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kTeenNewSkills>
+    <kTeenExistingSkills value="">
+      <!--Teens get these improvements to existing skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kTeenExistingSkills>
+    <kYoungAdultNewSkills value="1, 5">
+      <!--Young adults learn this many new skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kYoungAdultNewSkills>
+    <kYoungAdultExistingSkills value="1, 3, 0, 2">
+      <!--Young adults get these improvements to existing skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kYoungAdultExistingSkills>
+    <kAdultNewSkills value="0, 1">
+      <!--Adults learn this many new skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kAdultNewSkills>
+    <kAdultExistingSkills value="0, 3, 0, 2">
+      <!--Adults get these improvements to existing skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kAdultExistingSkills>
+    <kElderNewSkills value="">
+      <!--Elders learn this many new skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kElderNewSkills>
+    <kElderExistingSkills value="1, 2">
+      <!--Elders get these improvements to existing skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kElderExistingSkills>
+    <kOutfitBuilderWaitMinutes value="120">
+      <!--Integer number of sim minutes we wait for a sim's outfits to be built when aging up. If it fails, don't worry! They will try again later. If you change this, please test on a fast machine in a small world at speed 3.-->
+    </kOutfitBuilderWaitMinutes>
+    <kMummyLifeSpanMultiplier value="5">
+      <!--The multiplier applied to a mummy's remaining days for their current age.-->
+    </kMummyLifeSpanMultiplier>
+    <kChanceMultiplierElderFrankensteinWillDie value="0.05">
+      <!--Range: positive decimal percent values.  Description: If a Sim is a Frankenstein (who are always elders), the chance of them dying will be multiplied by this value.-->
+    </kChanceMultiplierElderFrankensteinWillDie>
+    <kVampireLifeSpanMultiplier value="5">
+      <!--The multiplier applied to a vampire's remaining days for their current age.-->
+    </kVampireLifeSpanMultiplier>
+    <kDaysEarlyToShowGraduationMessage value="4">
+      <!--Range: positive decimal values.  Description: how many days before a graduation the first warning is shown to the player.-->
+    </kDaysEarlyToShowGraduationMessage>
+    <kHourToShowGraduationMessage value="6.5">
+      <!--Range: positive decimal values less than 24.  Description: hour of day message about graduation should be shown to the player.-->
+    </kHourToShowGraduationMessage>
+    <kDaysBeforeGraduation value="1">
+      <!--number of days that need to pass after becoming young adult before graduation will occur-->
+    </kDaysBeforeGraduation>
+    <kDaysBeforeAgingToDelayGraduation value="2">
+      <!--Range: positive decimal values.  Description: number of days within a selectable sim aging that should result in a delay in graduation ceremony-->
+    </kDaysBeforeAgingToDelayGraduation>
+    <kAgingStageLengthPuppy value="1">
+      <!--Range: positive decimal values.  Description: number of aging years that a Dog is a puppy.-->
+    </kAgingStageLengthPuppy>
+    <kAgingStageLengthDogAdult value="3.571">
+      <!--Range: positive decimal values.  Description: number of aging years that a Dog is a Adult.-->
+    </kAgingStageLengthDogAdult>
+    <kAgingStageLengthDogElderMinimum value="2">
+      <!--Range: non-negative decimal values.  Description: minimum number of aging years that a Sim will survive as an elder. Can be zero.-->
+    </kAgingStageLengthDogElderMinimum>
+    <kChancePerDayDogElderWillDieShort value="30">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Short.-->
+    </kChancePerDayDogElderWillDieShort>
+    <kChancePerDayDogElderWillDieMedium value="20">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Medium.-->
+    </kChancePerDayDogElderWillDieMedium>
+    <kChancePerDayDogElderWillDieNormal value="14">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Normal.-->
+    </kChancePerDayDogElderWillDieNormal>
+    <kChancePerDayDogElderWillDieLong value="6">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Long.-->
+    </kChancePerDayDogElderWillDieLong>
+    <kChancePerDayDogElderWillDieEpic value="3">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Epic.-->
+    </kChancePerDayDogElderWillDieEpic>
+    <kAgingStageLengthKitten value="1">
+      <!--Range: positive decimal values.  Description: number of aging years that a Cat is a kitten.-->
+    </kAgingStageLengthKitten>
+    <kAgingStageLengthCatAdult value="4">
+      <!--Range: positive decimal values.  Description: number of aging years that a Cat is a Adult.-->
+    </kAgingStageLengthCatAdult>
+    <kAgingStageLengthCatElderMinimum value="2.428">
+      <!--Range: non-negative decimal values.  Description: minimum number of aging years that a Cat will survive as an elder. Can be zero.-->
+    </kAgingStageLengthCatElderMinimum>
+    <kChancePerDayCatElderWillDieShort value="30">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Short.-->
+    </kChancePerDayCatElderWillDieShort>
+    <kChancePerDayCatElderWillDieMedium value="20">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Medium.-->
+    </kChancePerDayCatElderWillDieMedium>
+    <kChancePerDayCatElderWillDieNormal value="14">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Normal.-->
+    </kChancePerDayCatElderWillDieNormal>
+    <kChancePerDayCatElderWillDieLong value="6">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Long.-->
+    </kChancePerDayCatElderWillDieLong>
+    <kChancePerDayCatElderWillDieEpic value="3">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Epic.-->
+    </kChancePerDayCatElderWillDieEpic>
+    <kAgingStageLengthFoal value="0.67">
+      <!--Range: positive decimal values.  Description: number of aging years that a Horse is a foal.-->
+    </kAgingStageLengthFoal>
+    <kAgingStageLengthHorseAdult value="5">
+      <!--Range: positive decimal values.  Description: number of aging years that a Horse is a Adult.-->
+    </kAgingStageLengthHorseAdult>
+    <kAgingStageLengthHorseElderMinimum value="2.428">
+      <!--Range: non-negative decimal values.  Description: minimum number of aging years that a Horse will survive as an elder. Can be zero.-->
+    </kAgingStageLengthHorseElderMinimum>
+    <kChancePerDayHorseElderWillDieShort value="30">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Short.-->
+    </kChancePerDayHorseElderWillDieShort>
+    <kChancePerDayHorseElderWillDieMedium value="20">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Medium.-->
+    </kChancePerDayHorseElderWillDieMedium>
+    <kChancePerDayHorseElderWillDieNormal value="14">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Normal.-->
+    </kChancePerDayHorseElderWillDieNormal>
+    <kChancePerDayHorseElderWillDieLong value="6">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Long.-->
+    </kChancePerDayHorseElderWillDieLong>
+    <kChancePerDayHorseElderWillDieEpic value="3">
+      <!--Range: positive decimal percent values.  Description: chance each day that an elder sim will die if Life Span option is Epic.-->
+    </kChancePerDayHorseElderWillDieEpic>
+    <kNPCDogGrantedSkills value="DogHunting,Trick">
+      <!--Skills that NPCs can be given automatically when aging up.-->
+    </kNPCDogGrantedSkills>
+    <kAdultDogNewSkills value="0,1">
+      <!--Teens learn this many new skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kAdultDogNewSkills>
+    <kAdultDogExistingSkills value="1,2">
+      <!--Teens get these improvements to existing skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kAdultDogExistingSkills>
+    <kElderDogNewSkills value="0,1">
+      <!--Teens learn this many new skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kElderDogNewSkills>
+    <kElderDogExistingSkills value="1,2">
+      <!--Teens get these improvements to existing skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kElderDogExistingSkills>
+    <kNPCCatGrantedSkills value="CatHunting">
+      <!--Skills that NPCs can be given automatically when aging up.-->
+    </kNPCCatGrantedSkills>
+    <kAdultCatNewSkills value="0,1">
+      <!--Teens learn this many new skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kAdultCatNewSkills>
+    <kAdultCatExistingSkills value="1,2">
+      <!--Teens get these improvements to existing skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kAdultCatExistingSkills>
+    <kElderCatNewSkills value="0,1">
+      <!--Teens learn this many new skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kElderCatNewSkills>
+    <kElderCatExistingSkills value="1,2">
+      <!--Teens get these improvements to existing skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kElderCatExistingSkills>
+    <kNPCHorseGrantedSkills value="Racing,Jumping">
+      <!--Skills that NPCs can be given automatically when aging up.-->
+    </kNPCHorseGrantedSkills>
+    <kAdultHorseNewSkills value="0,1">
+      <!--Teens learn this many new skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kAdultHorseNewSkills>
+    <kAdultHorseExistingSkills value="1,2">
+      <!--Teens get these improvements to existing skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kAdultHorseExistingSkills>
+    <kElderHorseNewSkills value="0,1">
+      <!--Teens learn this many new skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kElderHorseNewSkills>
+    <kElderHorseExistingSkills value="1,2">
+      <!--Teens get these improvements to existing skills when aging up.  Syntax is {min1, max1, min2, max2, ...}-->
+    </kElderHorseExistingSkills>
+    <kMoodThresholdAndWeightForNegativeAgeUp value="-50, 3">
+      <!--Range: float values [-100,100], positive floats. Description: First value: Mood threshold, Second value: weight that is added to the sum to consider if a negative trait is added.-->
+    </kMoodThresholdAndWeightForNegativeAgeUp>
+    <kEnergyThresholdAndWeightForNegativeAgeUp value="-80, 1">
+      <!--Range: positive floats. Description: First value: Motive threshold, Second value: weight that is added to the sum to consider if a negative trait is added.-->
+    </kEnergyThresholdAndWeightForNegativeAgeUp>
+    <kHungerThresholdAndWeightForNegativeAgeUp value="-60,2">
+      <!--Range: positive floats. Description: First value: Motive threshold, Second value: weight that is added to the sum to consider if a negative trait is added.-->
+    </kHungerThresholdAndWeightForNegativeAgeUp>
+    <kFunThresholdAndWeightForNegativeAgeUp value="-50,1">
+      <!--Range: positive floats. Description: First value: Motive threshold, Second value: weight that is added to the sum to consider if a negative trait is added.-->
+    </kFunThresholdAndWeightForNegativeAgeUp>
+    <kHorseExerciseThresholdAndWeightForNegativeAgeUp value="-80, 1">
+      <!--Range: positive floats. Description: First value: Motive threshold, Second value: weight that is added to the sum to consider if a negative trait is added.-->
+    </kHorseExerciseThresholdAndWeightForNegativeAgeUp>
+    <kSocialThresholdAndWeightForNegativeAgeUp value="-60, 2">
+      <!--Range: positive floats. Description: First value: Motive threshold, Second value: weight that is added to the sum to consider if a negative trait is added.-->
+    </kSocialThresholdAndWeightForNegativeAgeUp>
+    <kDestructionThresholdAndWeightForNegativeAgeUp value="-80, 1">
+      <!--Range: positive floats. Description: First value: Motive threshold, Second value: weight that is added to the sum to consider if a negative trait is added.-->
+    </kDestructionThresholdAndWeightForNegativeAgeUp>
+    <kScratchThresholdAndWeightForNegativeAgeUp value="-80, 1">
+      <!--Range: positive floats. Description: First value: Motive threshold, Second value: weight that is added to the sum to consider if a negative trait is added.-->
+    </kScratchThresholdAndWeightForNegativeAgeUp>
+    <kWeightedThresholdForNegativeTrait value="6">
+      <!--Range: positive float. Description: Value above which the sum of the weights for each motive below the tunable threshold will trigger adding a negative trait to the Cat/Dog on age up.-->
+    </kWeightedThresholdForNegativeTrait>
+    <kUnicornLifeSpanMultiplier value="3">
+      <!--The multiplier applied to a unicorn's remaining days for their current age.-->
+    </kUnicornLifeSpanMultiplier>
+    <kAnimalExpertLifeSpanMultiplier value="1.5">
+      <!--The multiplier applied to pets who live with a sim has Animal Expert trait-->
+    </kAnimalExpertLifeSpanMultiplier>
+    <kPetYoungAgainMinimumCheerTime value="2">
+      <!--Minimum number of minutes a pet will cheer before aging down (as a result of the Young Again Pet Potion).  This lets Sims come over and watch, as well as gives the camera time to reach the Sim.-->
+    </kPetYoungAgainMinimumCheerTime>
+    <kMinAgingDays value="2">
+      <!--Range: positive ints.  Description: Minimum number of days for each aging stage length. Used to be 1, is now 2.-->
+    </kMinAgingDays>
+    <kGenieLifeSpanMultiplier value="2">
+      <!--The multiplier applied to a genie's adult lifespan.-->
+    </kGenieLifeSpanMultiplier>
+    <kWishLongLifeMultiplier value="2">
+      <!--The multiplier applied to a sim that wished for long life.-->
+    </kWishLongLifeMultiplier>
+    <kWerewolfLifeSpanMultiplier value="1.5">
+      <!--The multiplier applied to a were wolves's adult lifespan.-->
+    </kWerewolfLifeSpanMultiplier>
+    <kFairyLifeSpanMultiplier value="5">
+      <!--The multiplier applied to a Fairy's adult lifespan.-->
+    </kFairyLifeSpanMultiplier>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+  </Deprecated_Tuning>
+</base>

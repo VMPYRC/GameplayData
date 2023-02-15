@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kDeepFryingDuration value="30">
+      <!--Duration time of the Deep fry interaction, this is the total time the deep fryer will take to cook, GPE default 60.0f-->
+    </kDeepFryingDuration>
+    <kFryerFireChance value="40">
+      <!--chance that object will catch fire if left unattended, GPE default 40.0f-->
+    </kFryerFireChance>
+    <kDeepFryer_IceCreamMaker_LHP_Bonus value="500">
+      <!--Deep Fryer/Ice CreamMaker combo Lifetime Happiness Points: 0.0 - ?  Description:  Lifetime Happiness Points given to household sims when both Deep Fryer and Ice Cream maker are placed on the same lot.-->
+    </kDeepFryer_IceCreamMaker_LHP_Bonus>
+    <kIndigestionChance value="25">
+      <!--Chance of getting indigestion: 0.0 - Up100.0  Description:  Percentage chance that sim will get indigestion from eating deep fried food.-->
+    </kIndigestionChance>
+    <kIndigestionChanceIncrement value="10">
+      <!--Chance of getting indigestion added percentage: 0.0 - 100.0  Description:  Amount added to the percentage chance that sim will get indigestion every time sim eats fried food.-->
+    </kIndigestionChanceIncrement>
+    <kFunIncrementForCooking value="10">
+      <!--Amount to add to cooking sim Fun motive after cooking: 0.0 - 100.0  Description:  Amount to add to cooking sim Fun motive after cooking.-->
+    </kFunIncrementForCooking>
+    <kCookingSkillIncrementForCooking value="10">
+      <!--Amount to add to cooking sim CookingSkill after cooking: 0.0 - 100.0  Description:  Amount to add to cooking sim CookingSkill after cooking.-->
+    </kCookingSkillIncrementForCooking>
+  </Current_Tuning>
+</base>

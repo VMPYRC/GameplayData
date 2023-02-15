@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceOfFireWhenShocked value="10">
+      <!--Chance a fire starts when an object shocks you.-->
+    </kChanceOfFireWhenShocked>
+    <kMaxFiresPerLot value="10">
+      <!--Maximum number of fires allowed to exist on this lot.-->
+    </kMaxFiresPerLot>
+    <kPercentOfObjectsCoveredByInsurance value="0.5">
+      <!--Percent of household objects payed for by fire insurance.-->
+    </kPercentOfObjectsCoveredByInsurance>
+    <kFireNotificationCameraLerp>
+      <Time value="2">
+        <!--Time in seconds the camera movement should take.-->
+      </Time>
+      <Zoom value="20">
+        <!--Distance in meters from the target point the camera should float.-->
+      </Zoom>
+      <Pitch value="-45">
+        <!--Angle from the horizon the camera should point down from.  Negative values are the camera above the horizon, looking down.-->
+      </Pitch>
+      <Yaw value="-100">
+        <!--Angle about the target the camera should point from. Positive values are clockwise around the target (to the right-hand side) from the target's point of view.  Valid range: [-90, 90]-->
+      </Yaw>
+      <Swing value="True">
+        <!--Determines whether the camera should swing down to look at the ground if currently in look at sky mode.  Valid range: [0, 360)-->
+      </Swing>
+    </kFireNotificationCameraLerp>
+    <kMinBabyPutDownDistance value="5">
+      <!--Range:  ???  Description:  Min distance a Sim goes to put a baby down on the lot away from a fire. Note: Sims prefer furthest distance.-->
+    </kMinBabyPutDownDistance>
+    <kMaxBabyPutDownDistance value="10">
+      <!--Range:  ???  Description:  Max distance a Sim goes to put a baby down on the lot away from a fire. Note: Sims prefer furthest distance.-->
+    </kMaxBabyPutDownDistance>
+    <kMaxNumRoofSmokes value="2">
+      <!--Max number of roof smoke VFX per Lot.-->
+    </kMaxNumRoofSmokes>
+    <kBurnTileTerrainRemovalTime value="60">
+      <!--Range:  0-?  Description:  Length in minutes before a burnt tile is removed on the terrain.-->
+    </kBurnTileTerrainRemovalTime>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

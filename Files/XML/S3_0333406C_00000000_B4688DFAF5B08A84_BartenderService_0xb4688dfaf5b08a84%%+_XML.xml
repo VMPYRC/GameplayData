@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinBartendingSkill value="4">
+      <!--Min Bartending Skil-->
+    </kMinBartendingSkill>
+    <kMaxBartendingSkill value="8">
+      <!--Max Handiness Skil-->
+    </kMaxBartendingSkill>
+    <kServiceTuning>
+      <kMaxNumNPCsInPool value="1">
+        <!--Max num NPCs at once in service-->
+      </kMaxNumNPCsInPool>
+      <kCost value="50">
+        <!--Cost of service-->
+      </kCost>
+      <kIsEmergencyService value="False">
+        <!--If true this service charges kCost only if falsely called, otherwise free.-->
+      </kIsEmergencyService>
+      <kIsRecurrent value="False">
+        <!--Whether the service is recurrent (true) or one-off (false).  Recurrent services are the only type which can be cancelled through the phone dialog.-->
+      </kIsRecurrent>
+      <kAlwaysTryToSendSameSim value="True">
+        <!--Whether or not the service always tries to send the same NPC to a specific household-->
+      </kAlwaysTryToSendSameSim>
+    </kServiceTuning>
+    <kDelayBeforeArriving value="0.25">
+      <!--Length of time (in hours) that bartender waits before routing to lot.-->
+    </kDelayBeforeArriving>
+    <kDelayBeforeLeaving value="0.15">
+      <!--Length of time (in hours) that bartender waits before leaving the lot, after his work is done.-->
+    </kDelayBeforeLeaving>
+    <kShiftTime value="6">
+      <!--Number of Sim hours the bartender will work before seeing if the party is dead.-->
+    </kShiftTime>
+    <kExtendedShiftTime value="1">
+      <!--Number of Sim hours the bartender will work after their shift time has expired, but guests are still on the lot.  This will repeat until all guests that aren't staying over leave.-->
+    </kExtendedShiftTime>
+    <kExtraWaitTimeAfterSocializing value="0.5">
+      <!--Extra time (in hours) to wait before leaving if the service NPC is socialized with-->
+    </kExtraWaitTimeAfterSocializing>
+    <kMaxNumBartendersPerLot value="4">
+      <!--Max number of bartender NPCs on a lot.-->
+    </kMaxNumBartendersPerLot>
+  </Current_Tuning>
+</base>

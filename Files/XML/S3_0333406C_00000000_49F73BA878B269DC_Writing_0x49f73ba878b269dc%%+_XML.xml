@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kLengthTrashyMin value="180">
+      <!--Min length of a Trashy novel.-->
+    </kLengthTrashyMin>
+    <kLengthTrashyMax value="200">
+      <!--Max length of a Trashy novel.-->
+    </kLengthTrashyMax>
+    <kLengthDramaMin value="260">
+      <!--Min length of a Drama novel.-->
+    </kLengthDramaMin>
+    <kLengthDramaMax value="350">
+      <!--Max length of a Drama novel.-->
+    </kLengthDramaMax>
+    <kLengthSciFiMin value="145">
+      <!--Min length of a SciFi novel.-->
+    </kLengthSciFiMin>
+    <kLengthSciFiMax value="155">
+      <!--Max length of a SciFi novel.-->
+    </kLengthSciFiMax>
+    <kLengthFantasyMin value="370">
+      <!--Min length of a Fantasy novel.-->
+    </kLengthFantasyMin>
+    <kLengthFantasyMax value="510">
+      <!--Max length of a Fantasy novel.-->
+    </kLengthFantasyMax>
+    <kLengthHumorMin value="320">
+      <!--Min length of a Humor novel.-->
+    </kLengthHumorMin>
+    <kLengthHumorMax value="370">
+      <!--Max length of a Humor novel.-->
+    </kLengthHumorMax>
+    <kLengthSatireMin value="320">
+      <!--Min length of a Satire novel.-->
+    </kLengthSatireMin>
+    <kLengthSatireMax value="380">
+      <!--Max length of a Satire novel.-->
+    </kLengthSatireMax>
+    <kLengthMysteryMin value="450">
+      <!--Min length of a Mystery novel.-->
+    </kLengthMysteryMin>
+    <kLengthMysteryMax value="570">
+      <!--Max length of a Mystery novel.-->
+    </kLengthMysteryMax>
+    <kLengthRomanceMin value="550">
+      <!--Min length of a Romance novel.-->
+    </kLengthRomanceMin>
+    <kLengthRomanceMax value="800">
+      <!--Max length of a Romance novel.-->
+    </kLengthRomanceMax>
+    <kLengthHistoricalMin value="400">
+      <!--Min length of a Historical novel.-->
+    </kLengthHistoricalMin>
+    <kLengthHistoricalMax value="610">
+      <!--Max length of a Historical novel.-->
+    </kLengthHistoricalMax>
+    <kLengthChildrensMin value="90">
+      <!--Min length of a Childrens book.-->
+    </kLengthChildrensMin>
+    <kLengthChildrensMax value="120">
+      <!--Max length of a Childrens book.-->
+    </kLengthChildrensMax>
+    <kLengthVaudevilleMin value="1100">
+      <!--Min length of a Vaudeville.-->
+    </kLengthVaudevilleMin>
+    <kLengthVaudevilleMax value="1400">
+      <!--Max length of a Vaudeville.-->
+    </kLengthVaudevilleMax>
+    <kLengthBiographyMin value="300">
+      <!--Min length of a Biography.-->
+    </kLengthBiographyMin>
+    <kLengthBiographyMax value="500">
+      <!--Max length of a Biography.-->
+    </kLengthBiographyMax>
+    <kLengthArticleMin value="72">
+      <!--Min length of an Article.-->
+    </kLengthArticleMin>
+    <kLengthArticleMax value="85">
+      <!--Max length of an Article.-->
+    </kLengthArticleMax>
+    <kLengthAutobiographyMin value="300">
+      <!--Min length of a an Autobiography.-->
+    </kLengthAutobiographyMin>
+    <kLengthAutobiographyMax value="500">
+      <!--Max length of an Autobiography.-->
+    </kLengthAutobiographyMax>
+    <kLengthMasterpieceMin value="1800">
+      <!--Min length of a Masterpiece.-->
+    </kLengthMasterpieceMin>
+    <kLengthMasterpieceMax value="2200">
+      <!--Max length of a Masterpiece.-->
+    </kLengthMasterpieceMax>
+    <kRateBasePPM value=".12">
+      <!--The base PPM a Sim will write with no other bonuses added.-->
+    </kRateBasePPM>
+    <kRateBookWormBonusPPM value=".03">
+      <!--If a Sim is a book worm, this is added to their total PPM.-->
+    </kRateBookWormBonusPPM>
+    <kRateMaxWritingSkillPPM value=".25">
+      <!--A Sim with max writing skill will have this amount added to their total PPM.-->
+    </kRateMaxWritingSkillPPM>
+    <kRateMaxBooksWritten value="20">
+      <!--The 'Books Written' bonus is cut off after the Sim has written this many books.-->
+    </kRateMaxBooksWritten>
+    <kRateMaxBooksWrittenPPM value="0">
+      <!--The amount added to the total PPM if the number of books a Sim has written is >= 'kMaxBooksWritten'.-->
+    </kRateMaxBooksWrittenPPM>
+    <kRateMaxBooksRead value="50">
+      <!--The 'Books Read' bonus is cut off after the Sim has read this many books.-->
+    </kRateMaxBooksRead>
+    <kRateMaxBooksReadPPM value="0.15">
+      <!--The amount added to the total PPM if the number of books a Sim has read is >= 'kMaxBooksRead'.-->
+    </kRateMaxBooksReadPPM>
+    <kQualityLevel1ChanceFlop value="0" />
+    <kQualityLevel1ChanceHit value="5" />
+    <kQualityLevel1ChanceBestSeller value="2" />
+    <kQualityLevel2ChanceFlop value="35" />
+    <kQualityLevel2ChanceHit value="5" />
+    <kQualityLevel2ChanceBestSeller value="5" />
+    <kQualityLevel3ChanceFlop value="20" />
+    <kQualityLevel3ChanceHit value="8" />
+    <kQualityLevel3ChanceBestSeller value="5" />
+    <kQualityLevel4ChanceFlop value="15" />
+    <kQualityLevel4ChanceHit value="10" />
+    <kQualityLevel4ChanceBestSeller value="5" />
+    <kQualityLevel5ChanceFlop value="10" />
+    <kQualityLevel5ChanceHit value="11" />
+    <kQualityLevel5ChanceBestSeller value="7" />
+    <kQualityLevel6ChanceFlop value="10" />
+    <kQualityLevel6ChanceHit value="11" />
+    <kQualityLevel6ChanceBestSeller value="7" />
+    <kQualityLevel7ChanceFlop value="8" />
+    <kQualityLevel7ChanceHit value="12" />
+    <kQualityLevel7ChanceBestSeller value="7" />
+    <kQualityLevel8ChanceFlop value="8" />
+    <kQualityLevel8ChanceHit value="12" />
+    <kQualityLevel8ChanceBestSeller value="7" />
+    <kQualityLevel9ChanceFlop value="5" />
+    <kQualityLevel9ChanceHit value="12" />
+    <kQualityLevel9ChanceBestSeller value="7" />
+    <kQualityLevel10ChanceFlop value="4" />
+    <kQualityLevel10ChanceHit value="15" />
+    <kQualityLevel10ChanceBestSeller value="10" />
+    <kQualityPercentChangePerHiddenSkillPoint value="1.5">
+      <!--Percent change per book written in a genre.  Added to to hit and best seller, subtracted from flop.-->
+    </kQualityPercentChangePerHiddenSkillPoint>
+    <kQualityMaxPercentChangeForHiddenSkill value="60">
+      <!--Max percent change from hidden skill.  100 means if you write enough you can guarantee a best seller.-->
+    </kQualityMaxPercentChangeForHiddenSkill>
+    <kRoyaltyTrashyMin value="73">
+      <!--Min Royalty of a Trashy novel.-->
+    </kRoyaltyTrashyMin>
+    <kRoyaltyTrashyMax value="85">
+      <!--Max Royalty of a Trashy novel.-->
+    </kRoyaltyTrashyMax>
+    <kRoyaltyDramaMin value="160">
+      <!--Min Royalty of a Drama novel.-->
+    </kRoyaltyDramaMin>
+    <kRoyaltyDramaMax value="183">
+      <!--Max Royalty of a Drama novel.-->
+    </kRoyaltyDramaMax>
+    <kRoyaltySciFiMin value="60">
+      <!--Min Royalty of a SciFi novel.-->
+    </kRoyaltySciFiMin>
+    <kRoyaltySciFiMax value="70">
+      <!--Max Royalty of a SciFi novel.-->
+    </kRoyaltySciFiMax>
+    <kRoyaltyFantasyMin value="300">
+      <!--Min Royalty of a Fantasy novel.-->
+    </kRoyaltyFantasyMin>
+    <kRoyaltyFantasyMax value="360">
+      <!--Max Royalty of a Fantasy novel.-->
+    </kRoyaltyFantasyMax>
+    <kRoyaltyHumorMin value="185">
+      <!--Min Royalty of a Humor novel.-->
+    </kRoyaltyHumorMin>
+    <kRoyaltyHumorMax value="255">
+      <!--Max Royalty of a Humor novel.-->
+    </kRoyaltyHumorMax>
+    <kRoyaltySatireMin value="350">
+      <!--Min Royalty of a Satire novel.-->
+    </kRoyaltySatireMin>
+    <kRoyaltySatireMax value="410">
+      <!--Max Royalty of a Satire novel.-->
+    </kRoyaltySatireMax>
+    <kRoyaltyMysteryMin value="325">
+      <!--Min Royalty of a Mystery novel.-->
+    </kRoyaltyMysteryMin>
+    <kRoyaltyMysteryMax value="340">
+      <!--Max Royalty of a Mystery novel.-->
+    </kRoyaltyMysteryMax>
+    <kRoyaltyRomanceMin value="600">
+      <!--Min Royalty of a Romance novel.-->
+    </kRoyaltyRomanceMin>
+    <kRoyaltyRomanceMax value="890">
+      <!--Max Royalty of a Romance novel.-->
+    </kRoyaltyRomanceMax>
+    <kRoyaltyHistoricalMin value="290">
+      <!--Min Royalty of a Historical novel.-->
+    </kRoyaltyHistoricalMin>
+    <kRoyaltyHistoricalMax value="360">
+      <!--Max Royalty of a Historical novel.-->
+    </kRoyaltyHistoricalMax>
+    <kRoyaltyChildrensMin value="75">
+      <!--Min Royalty of a Childrens book.-->
+    </kRoyaltyChildrensMin>
+    <kRoyaltyChildrensMax value="105">
+      <!--Max Royalty of a Childrens book.-->
+    </kRoyaltyChildrensMax>
+    <kRoyaltyVaudevilleMin value="1450">
+      <!--Min Royalty of a Vaudeville.-->
+    </kRoyaltyVaudevilleMin>
+    <kRoyaltyVaudevilleMax value="1770">
+      <!--Max Royalty of a Vaudeville.-->
+    </kRoyaltyVaudevilleMax>
+    <kRoyaltyBiographyMin value="150">
+      <!--Min Royalty of a Biography.-->
+    </kRoyaltyBiographyMin>
+    <kRoyaltyBiographyMax value="175">
+      <!--Max Royalty of a Biography.-->
+    </kRoyaltyBiographyMax>
+    <kRoyaltyArticleMin value="35">
+      <!--Min Royalty of an Article.-->
+    </kRoyaltyArticleMin>
+    <kRoyaltyArticleMax value="52">
+      <!--Max Royalty of an Article.-->
+    </kRoyaltyArticleMax>
+    <kRoyaltyAutobiographyMin value="150">
+      <!--Min Royalty of a an Autobiography.-->
+    </kRoyaltyAutobiographyMin>
+    <kRoyaltyAutobiographyMax value="175">
+      <!--Max Royalty of an Autobiography.-->
+    </kRoyaltyAutobiographyMax>
+    <kRoyaltyMasterpieceMin value="2750">
+      <!--Min Royalty of a Masterpiece.-->
+    </kRoyaltyMasterpieceMin>
+    <kRoyaltyMasterpieceMax value="3100">
+      <!--Max Royalty of a Masterpiece.-->
+    </kRoyaltyMasterpieceMax>
+    <kRoyaltyMaxWritingSkillMultiplier value="1">
+      <!--This number is multiplied to your base value when at max writing skill, half when halfway through the skill, etc.-->
+    </kRoyaltyMaxWritingSkillMultiplier>
+    <kRoayltyMultiplierChangePerHiddenSkillPoint value=".1">
+      <!--Hidden skill multiplier change per book written in a genre.-->
+    </kRoayltyMultiplierChangePerHiddenSkillPoint>
+    <kRoyaltyMaxPercentHiddenSkill value="2">
+      <!--The max value of the hidden skill multiplier.-->
+    </kRoyaltyMaxPercentHiddenSkill>
+    <kRoyaltyTraitMultiplier value="0.25">
+      <!--The multiplier used when a Sim has a certain trait/genre combo.  They may have more than one of these.-->
+    </kRoyaltyTraitMultiplier>
+    <kRoyaltyQualityMultiplierFlop value=".35">
+      <!--The final multiplier used if the writing is a flop.  A value < 1 will reduce the overall value.-->
+    </kRoyaltyQualityMultiplierFlop>
+    <kRoyaltyQualityMultiplierHit value="1.25">
+      <!--The final multiplier used if the writing is a hit.-->
+    </kRoyaltyQualityMultiplierHit>
+    <kRoyaltyQualityMultiplierBestSeller value="1.6">
+      <!--The final multiplier used if the writing is a best seller.-->
+    </kRoyaltyQualityMultiplierBestSeller>
+    <kRoyaltyLength value="6">
+      <!--Number of times royalties are paid.-->
+    </kRoyaltyLength>
+    <kRoyaltyPayHour value="12">
+      <!--The hour that the royalty alarm will trigger.-->
+    </kRoyaltyPayHour>
+    <kValueTrashyMin value="15">
+      <!--Min Value of a Trashy novel.-->
+    </kValueTrashyMin>
+    <kValueTrashyMax value="35">
+      <!--Max Value of a Trashy novel.-->
+    </kValueTrashyMax>
+    <kValueDramaMin value="30">
+      <!--Min Value of a Drama novel.-->
+    </kValueDramaMin>
+    <kValueDramaMax value="40">
+      <!--Max Value of a Drama novel.-->
+    </kValueDramaMax>
+    <kValueSciFiMin value="30">
+      <!--Min Value of a SciFi novel.-->
+    </kValueSciFiMin>
+    <kValueSciFiMax value="40">
+      <!--Max Value of a SciFi novel.-->
+    </kValueSciFiMax>
+    <kValueFantasyMin value="30">
+      <!--Min Value of a Fantasy novel.-->
+    </kValueFantasyMin>
+    <kValueFantasyMax value="40">
+      <!--Max Value of a Fantasy novel.-->
+    </kValueFantasyMax>
+    <kValueHumorMin value="40">
+      <!--Min Value of a Humor novel.-->
+    </kValueHumorMin>
+    <kValueHumorMax value="50">
+      <!--Max Value of a Humor novel.-->
+    </kValueHumorMax>
+    <kValueSatireMin value="40">
+      <!--Min Value of a Satire novel.-->
+    </kValueSatireMin>
+    <kValueSatireMax value="50">
+      <!--Max Value of a Satire novel.-->
+    </kValueSatireMax>
+    <kValueMysteryMin value="75">
+      <!--Min Value of a Mystery novel.-->
+    </kValueMysteryMin>
+    <kValueMysteryMax value="100">
+      <!--Max Value of a Mystery novel.-->
+    </kValueMysteryMax>
+    <kValueRomanceMin value="75">
+      <!--Min Value of a Romance novel.-->
+    </kValueRomanceMin>
+    <kValueRomanceMax value="100">
+      <!--Max Value of a Romance novel.-->
+    </kValueRomanceMax>
+    <kValueHistoricalMin value="65">
+      <!--Min Value of a Historical novel.-->
+    </kValueHistoricalMin>
+    <kValueHistoricalMax value="85">
+      <!--Max Value of a Historical novel.-->
+    </kValueHistoricalMax>
+    <kValueChildrensMin value="15">
+      <!--Min Value of a Childrens book.-->
+    </kValueChildrensMin>
+    <kValueChildrensMax value="35">
+      <!--Max Value of a Childrens book.-->
+    </kValueChildrensMax>
+    <kValueVaudevilleMin value="75">
+      <!--Min Value of a Vaudeville.-->
+    </kValueVaudevilleMin>
+    <kValueVaudevilleMax value="100">
+      <!--Max Value of a Vaudeville.-->
+    </kValueVaudevilleMax>
+    <kValueBiographyMin value="50">
+      <!--Min Value of a Biography.-->
+    </kValueBiographyMin>
+    <kValueBiographyMax value="75">
+      <!--Max Value of a Biography.-->
+    </kValueBiographyMax>
+    <kValueArticleMin value="5">
+      <!--Min Value of an Article.-->
+    </kValueArticleMin>
+    <kValueArticleMax value="10">
+      <!--Max Value of an Article.-->
+    </kValueArticleMax>
+    <kValueAutobiographyMin value="50">
+      <!--Min Value of a an Autobiography.-->
+    </kValueAutobiographyMin>
+    <kValueAutobiographyMax value="75">
+      <!--Max Value of an Autobiography.-->
+    </kValueAutobiographyMax>
+    <kValueMasterpieceMin value="500">
+      <!--Min Value of a Masterpiece.-->
+    </kValueMasterpieceMin>
+    <kValueMasterpieceMax value="750">
+      <!--Max Value of a Masterpiece.-->
+    </kValueMasterpieceMax>
+    <kValueQualityMultiplierFlop value="0.5">
+      <!--The final multiplier used if the writing is a flop.  A value < 1 will reduce the overall value.-->
+    </kValueQualityMultiplierFlop>
+    <kValueQualityMultiplierHit value="1.25">
+      <!--The final multiplier used if the writing is a hit.-->
+    </kValueQualityMultiplierHit>
+    <kValueQualityMultiplierBestSeller value="1.6">
+      <!--The final multiplier used if the writing is a best seller.-->
+    </kValueQualityMultiplierBestSeller>
+    <kDialogsPerGenre value="2">
+      <!--The number of 'finished' dialog strings per genre.-->
+    </kDialogsPerGenre>
+    <kDialogsPerQuality value="3">
+      <!--The number of flop/hit/best seller dialog strings.-->
+    </kDialogsPerQuality>
+    <kMoneyMadeForSpeedWriter value="30000">
+      <!--Total money earned from royalties to become a speed writer.-->
+    </kMoneyMadeForSpeedWriter>
+    <kNumWritingsofGenreForNovelist value="5">
+      <!--Number of novels written in a genre to become a '<Genre> Novelist'.-->
+    </kNumWritingsofGenreForNovelist>
+    <kRateSpeedWriterMultiplier value="1.4">
+      <!--The final PPM rate is multiplied by this if the Sim is a speed writer.-->
+    </kRateSpeedWriterMultiplier>
+    <kQualityNovelistHitBonus value="20">
+      <!--This number is added to the chance of a hit whenever a 'Novelist' of a genre is writing a book of that genre .-->
+    </kQualityNovelistHitBonus>
+    <kQualityProlificAuthorBestSellerBonus value="20">
+      <!--This number is added to the chance of a best seller whenever a 'Prolific Authoer' is writing a book.-->
+    </kQualityProlificAuthorBestSellerBonus>
+    <kNumWritingsForProlificAuthor value="20">
+      <!--Number of total writings for Prolific Author.-->
+    </kNumWritingsForProlificAuthor>
+    <kQualityNovelistBestSellerBonus value="5">
+      <!--This number is added to the chance of a best seller whenever a 'Novelist' of a genre is writing a book of that genre .-->
+    </kQualityNovelistBestSellerBonus>
+    <kQualityProlificAuthorHitBonus value="15">
+      <!--This number is added to the chance of a hit whenever a 'Prolific Authoer' is writing a book.-->
+    </kQualityProlificAuthorHitBonus>
+    <kLengthPoliticalMemoirMin value="300">
+      <!--Min length of a Political Memoir.-->
+    </kLengthPoliticalMemoirMin>
+    <kLengthPoliticalMemoirMax value="500">
+      <!--Max length of a Political Memoir.-->
+    </kLengthPoliticalMemoirMax>
+    <kLengthLifeStoryMin value="300">
+      <!--Min length of a Life Story.-->
+    </kLengthLifeStoryMin>
+    <kLengthLifeStoryMax value="500">
+      <!--Max length of a Life Story.-->
+    </kLengthLifeStoryMax>
+    <kRoyaltyPoliticalMemoirMin value="300">
+      <!--Min Royalty of a Political Memoir.-->
+    </kRoyaltyPoliticalMemoirMin>
+    <kRoyaltyPoliticalMemoirMax value="500">
+      <!--Max Royalty of a Political Memoir.-->
+    </kRoyaltyPoliticalMemoirMax>
+    <kRoyaltyLifeStoryMin value="300">
+      <!--Min Royalty of a Life Story.-->
+    </kRoyaltyLifeStoryMin>
+    <kRoyaltyLifeStoryMax value="500">
+      <!--Max Royalty of a Life Story.-->
+    </kRoyaltyLifeStoryMax>
+    <kValuePoliticalMemoirMin value="300">
+      <!--Min Value of a Political Memoir.-->
+    </kValuePoliticalMemoirMin>
+    <kValuePoliticalMemoirMax value="500">
+      <!--Max Value of a Political Memoir.-->
+    </kValuePoliticalMemoirMax>
+    <kValueLifeStoryMin value="300">
+      <!--Min Value of a Life Story.-->
+    </kValueLifeStoryMin>
+    <kValueLifeStoryMax value="500">
+      <!--Max Value of a Life Story.-->
+    </kValueLifeStoryMax>
+    <kQualityIncreaseHitJournalismBoss value="5">
+      <!--This number is added to the chance of a hit whenever a Sim receives an advice from the Journalism Boss.-->
+    </kQualityIncreaseHitJournalismBoss>
+    <kQualityIncreaseBestSellerJournalismBoss value="5">
+      <!--This number is added to the chance of a best seller whenever a Sim receives an advice from the Journalism Boss.-->
+    </kQualityIncreaseBestSellerJournalismBoss>
+    <kMinLevelForDrama value="3">
+      <!--Required writing skill level for Drama.-->
+    </kMinLevelForDrama>
+    <kMinLevelForSciFi value="1">
+      <!--Required writing skill level for SciFi.-->
+    </kMinLevelForSciFi>
+    <kNumSciFiWrittenForFantasy value="3">
+      <!--Number of SciFi novels written for Fantasy.-->
+    </kNumSciFiWrittenForFantasy>
+    <kMinLevelForHumor value="5">
+      <!--Required writing skill level for Humor.-->
+    </kMinLevelForHumor>
+    <kMinLevelForHumorGoodSenseOfHumor value="2">
+      <!--Required writing skill level for Humor if Sim has Good Sense of Humor trait.-->
+    </kMinLevelForHumorGoodSenseOfHumor>
+    <kNumHumorWrittenForSatire value="3">
+      <!--Number of Humor novels written for Satire.-->
+    </kNumHumorWrittenForSatire>
+    <kMinLevelForMystery value="8">
+      <!--Required writing skill level for Mystery.-->
+    </kMinLevelForMystery>
+    <kMinLevelForRomance value="10">
+      <!--Required writing skill level for Romance.-->
+    </kMinLevelForRomance>
+    <kMinLevelForRomanceHelplessRomantic value="5">
+      <!--Required writing skill level for Romance if Sim has Helpess Romantic trait.-->
+    </kMinLevelForRomanceHelplessRomantic>
+    <kMinLevelForHistory value="6">
+      <!--Required writing skill level for History.  Sim must also be an elder.-->
+    </kMinLevelForHistory>
+    <kMinLevelForChildrens value="3">
+      <!--Required writing skill level for Childrens.-->
+    </kMinLevelForChildrens>
+    <kMinLevelPaintingForChildrens value="4">
+      <!--Required painting skill level for Childrens.-->
+    </kMinLevelPaintingForChildrens>
+    <kNumEachGenreForVaudeville value="2">
+      <!--Number of books written in each Drama, SciFi, Humor, Mystery and Romance for Vaudeville.-->
+    </kNumEachGenreForVaudeville>
+    <kMinLevelJournalismForArticle value="3">
+      <!--Required Journalism level for Article.-->
+    </kMinLevelJournalismForArticle>
+    <kNumBiographiesWrittenForAutoBiography value="3">
+      <!--Number of Biographies written for Autobiography.-->
+    </kNumBiographiesWrittenForAutoBiography>
+    <kNumBooksWrittenForMasterpiece value="25">
+      <!--Number of total books written for Masterpiece.-->
+    </kNumBooksWrittenForMasterpiece>
+    <kQualityIncreaseHitOpportunityReward value="10">
+      <!--This number is added to the chance of a hit as an opportunity reward.-->
+    </kQualityIncreaseHitOpportunityReward>
+    <kQualityIncreaseBestSellerOpportunityReward value="10">
+      <!--This number is added to the chance of a best seller as an opportunity reward.-->
+    </kQualityIncreaseBestSellerOpportunityReward>
+    <kNoGlowWritingRateCap value=".25">
+      <!--PPM rates below this cap will have no glow.-->
+    </kNoGlowWritingRateCap>
+    <kWeakGlowWritingRateCap value=".4">
+      <!--PPM rates below this cap will have weak glow.-->
+    </kWeakGlowWritingRateCap>
+    <kLengthFictionMin value="80">
+      <!--Min length of a Fiction novel.-->
+    </kLengthFictionMin>
+    <kLengthFictionMax value="100">
+      <!--Max length of a Fiction novel.-->
+    </kLengthFictionMax>
+    <kLengthNonFictionMin value="80">
+      <!--Min length of a Non-Fiction novel.-->
+    </kLengthNonFictionMin>
+    <kLengthNonFictionMax value="100">
+      <!--Max length of a Non-Fiction novel.-->
+    </kLengthNonFictionMax>
+    <kMinLevelForTrashy value="2">
+      <!--Required writing skill level for Trashy.-->
+    </kMinLevelForTrashy>
+    <kRoyaltyFictionMin value="25">
+      <!--Min Royalty of a Fiction novel.-->
+    </kRoyaltyFictionMin>
+    <kRoyaltyFictionMax value="35">
+      <!--Max Royalty of a Fiction novel.-->
+    </kRoyaltyFictionMax>
+    <kRoyaltyNonFictionMin value="25">
+      <!--Min Royalty of a Non-Fiction novel.-->
+    </kRoyaltyNonFictionMin>
+    <kRoyaltyNonFictionMax value="35">
+      <!--Max Royalty of a Non-Fiction novel.-->
+    </kRoyaltyNonFictionMax>
+    <kValueFictionMin value="20">
+      <!--Min Value of a Ficitn novel.-->
+    </kValueFictionMin>
+    <kValueFictionMax value="35">
+      <!--Max Value of a Fiction novel.-->
+    </kValueFictionMax>
+    <kValueNonFictionMin value="20">
+      <!--Min Value of a Non-Fiction novel.-->
+    </kValueNonFictionMin>
+    <kValueNonFictionMax value="35">
+      <!--Max Value of a Non-Fiction novel.-->
+    </kValueNonFictionMax>
+    <kPartialWorkSubmitEveryXPercent value="20">
+      <!--Submit partial work every X percent.-->
+    </kPartialWorkSubmitEveryXPercent>
+    <kPartialWorkPageValue1 value=".5">
+      <!--Value per page for skill level 1 when submitting partial work.-->
+    </kPartialWorkPageValue1>
+    <kPartialWorkPageValue2 value=".5">
+      <!--Value per page for skill level 2 when submitting partial work.-->
+    </kPartialWorkPageValue2>
+    <kPartialWorkPageValue3 value=".5">
+      <!--Value per page for skill level 3 when submitting partial work.-->
+    </kPartialWorkPageValue3>
+    <kPartialWorkPageValue4 value=".5">
+      <!--Value per page for skill level 4 when submitting partial work.-->
+    </kPartialWorkPageValue4>
+    <kPartialWorkPageValue5 value=".5">
+      <!--Value per page for skill level 5 when submitting partial work.-->
+    </kPartialWorkPageValue5>
+    <kPartialWorkPageValue6 value=".5">
+      <!--Value per page for skill level 6 when submitting partial work.-->
+    </kPartialWorkPageValue6>
+    <kPartialWorkPageValue7 value=".5">
+      <!--Value per page for skill level 7 when submitting partial work.-->
+    </kPartialWorkPageValue7>
+    <kPartialWorkPageValue8 value="0.5">
+      <!--Value per page for skill level 8 when submitting partial work.-->
+    </kPartialWorkPageValue8>
+    <kPartialWorkPageValue9 value=".5">
+      <!--Value per page for skill level 9 when submitting partial work.-->
+    </kPartialWorkPageValue9>
+    <kPartialWorkPageValue10 value=".5">
+      <!--Value per page for skill level 10 when submitting partial work.-->
+    </kPartialWorkPageValue10>
+    <kMinLevelForSciFiComputerWhiz value="0">
+      <!--Required writing skill level for SciFi if the Sim is a Computer Whiz.-->
+    </kMinLevelForSciFiComputerWhiz>
+    <kRoyaltyRating1 value="100">
+      <!--A genre with an average royalty of X or less will have a Royalty Rating of 1.-->
+    </kRoyaltyRating1>
+    <kRoyaltyRating2 value="250">
+      <!--A genre with an average royalty of X or less will have a Royalty Rating of 2.-->
+    </kRoyaltyRating2>
+    <kRoyaltyRating3 value="500">
+      <!--A genre with an average royalty of X or less will have a Royalty Rating of 3.-->
+    </kRoyaltyRating3>
+    <kRoyaltyRating4 value="1999">
+      <!--A genre with an average royalty of X or less will have a Royalty Rating of 4.-->
+    </kRoyaltyRating4>
+    <kValuePoetryMin value="69">
+      <!--Min Value of a book of Poetry.-->
+    </kValuePoetryMin>
+    <kValuePoetryMax value="96">
+      <!--Max Value of a book of Poetry.-->
+    </kValuePoetryMax>
+    <kValueHorrorMin value="35">
+      <!--Min Value of a Horror Story.-->
+    </kValueHorrorMin>
+    <kValueHorrorMax value="45">
+      <!--Max Value of a Horror Story.-->
+    </kValueHorrorMax>
+    <kMinLevelForPoetry value="7">
+      <!--Required writing skill level for Poetry.-->
+    </kMinLevelForPoetry>
+    <kMinLevelForPoetryBrooding value="0">
+      <!--Required writing skill level for Poetry if the Sim has Brooding Trait.-->
+    </kMinLevelForPoetryBrooding>
+    <kMinLevelForHorror value="4">
+      <!--Required writing skill level for Horror.-->
+    </kMinLevelForHorror>
+    <kMinLevelForHorrorSupernaturalFan value="2">
+      <!--Required writing skill level for Horror if the Sim has SupernaturalFan Trait.-->
+    </kMinLevelForHorrorSupernaturalFan>
+    <kLengthPoetryMin value="200">
+      <!--Min length for a book of Poetry.-->
+    </kLengthPoetryMin>
+    <kLengthPoetryMax value="600">
+      <!--Max length for a book of Poetry.-->
+    </kLengthPoetryMax>
+    <kLengthHorrorMin value="350">
+      <!--Min length of a Horror.-->
+    </kLengthHorrorMin>
+    <kLengthHorrorMax value="450">
+      <!--Max length of a Horror.-->
+    </kLengthHorrorMax>
+    <kRoyaltyPoetryMin value="300">
+      <!--Min Royalty for a book of Poetry.-->
+    </kRoyaltyPoetryMin>
+    <kRoyaltyPoetryMax value="350">
+      <!--Max Royalty for a book of Poetry.-->
+    </kRoyaltyPoetryMax>
+    <kRoyaltyHorrorMin value="200">
+      <!--Min Royalty of a Horror.-->
+    </kRoyaltyHorrorMin>
+    <kRoyaltyHorrorMax value="300">
+      <!--Max Royalty of a Horror.-->
+    </kRoyaltyHorrorMax>
+    <kMinLevelForPoetryAvantGarde value="2">
+      <!--Required writing skill level for writing Poetry if the Sim has Avant Garde Trait.-->
+    </kMinLevelForPoetryAvantGarde>
+    <kMinLevelForSatireAvantGarde value="4">
+      <!--Required writing skill level for writing Satire if the Sim has Avant Garde Trait.-->
+    </kMinLevelForSatireAvantGarde>
+    <kLengthSportsMin value="100">
+      <!--Min length of a book of Sports.-->
+    </kLengthSportsMin>
+    <kLengthSportsMax value="150">
+      <!--Max length of a book of Sports.-->
+    </kLengthSportsMax>
+    <kRoyaltySportsMin value="150">
+      <!--Min Royalty of a book of Sports.-->
+    </kRoyaltySportsMin>
+    <kRoyaltySportsMax value="400">
+      <!--Max Royalty of a book of Sports.-->
+    </kRoyaltySportsMax>
+    <kValueSportsMin value="150">
+      <!--Min Value of a Sports Story.-->
+    </kValueSportsMin>
+    <kValueSportsMax value="400">
+      <!--Max Value of a Sports Story.-->
+    </kValueSportsMax>
+    <kMinCoachCareerLevelForSports value="3">
+      <!--Required level in the Sports Coach career to write a Sports book.-->
+    </kMinCoachCareerLevelForSports>
+    <kMinLevelForComicViaStreetArt value="1">
+      <!--Required level in the Street Art skill to write a Comic book.-->
+    </kMinLevelForComicViaStreetArt>
+    <kMinLevelForComicViaPainting value="1">
+      <!--Required level in the Painting skill to write a Comic book.-->
+    </kMinLevelForComicViaPainting>
+    <kLengthComicMin value="22">
+      <!--Min length of a comic book.-->
+    </kLengthComicMin>
+    <kLengthComicMax value="100">
+      <!--Max length of a comic book.-->
+    </kLengthComicMax>
+    <kRoyaltyComicMin value="48">
+      <!--Min Royalty of a comic book.-->
+    </kRoyaltyComicMin>
+    <kRoyaltyComicMax value="120">
+      <!--Max Royalty of a comic book.-->
+    </kRoyaltyComicMax>
+    <kMinLevelForComic value="1">
+      <!--Required level in the Writing skill to write a Comic book.-->
+    </kMinLevelForComic>
+    <kMinLevelForSports value="3">
+      <!--Required writing skill level for a Sports book.-->
+    </kMinLevelForSports>
+  </Current_Tuning>
+</base>

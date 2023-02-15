@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTuning>
+      <kEnvironmentPerValue value=".2" />
+      <kMaxEnvironment value="50" />
+      <kRouteDistance value="1" />
+      <kMinViewDistance value="1" />
+      <kMaxViewDistance value="3" />
+    </kTuning>
+    <kWeightMultiplierForLargeGems value="6">
+      <!--When a gem is the large version, its weight is calculated as this number (a float) multiplied by the weight it would be if it were the normal (i.e. base game) size.  Set to 1 to have no effect, set to 1.5 to make the gem have 50% more weight, etc.-->
+    </kWeightMultiplierForLargeGems>
+    <kScultpingSkillLevelNeededForEgg value="5">
+      <!--Range: 0 to 10.  Description: Skill level needed to cut a Sculptor's Egg-->
+    </kScultpingSkillLevelNeededForEgg>
+  </Current_Tuning>
+</base>

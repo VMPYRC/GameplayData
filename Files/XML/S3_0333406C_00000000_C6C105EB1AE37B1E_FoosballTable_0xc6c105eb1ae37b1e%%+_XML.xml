@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeUntilNextScoreMin value="5">
+      <!--Minimum number of sim minutes until next point is scored-->
+    </kTimeUntilNextScoreMin>
+    <kTimeUntilNextScoreMax value="10">
+      <!--Maximum number of sim minutes until next point is scored-->
+    </kTimeUntilNextScoreMax>
+    <kNumberOfPointsPerGame value="10">
+      <!--Number of points 1 team needs to get to win the game-->
+    </kNumberOfPointsPerGame>
+    <kBaseChanceOfScore value="0.5">
+      <!--Base chance of a team scoring a point. 0-1-->
+    </kBaseChanceOfScore>
+    <kTwoOnOneBonus value="0.1">
+      <!--Added chance bonus if a team has 2 players and the other team has 1.  0-1-->
+    </kTwoOnOneBonus>
+    <kBonusPerSkillLevelDifference value="0.05">
+      <!--Bonus multiplier for each foosball skill point difference if one team has higher foosball skill than the other. 0-1-->
+    </kBonusPerSkillLevelDifference>
+    <kChanceOfSoloPlayerSwitchingSpots value="0.3">
+      <!--Chance Of Player Playing Solo To Switch Spots 0-1-->
+    </kChanceOfSoloPlayerSwitchingSpots>
+    <kBonusPerFairyDifference value="0.11">
+      <!--Bonus multiplier for each fairy on team difference, if one team has more fairies than the other. 0-1-->
+    </kBonusPerFairyDifference>
+  </Current_Tuning>
+</base>

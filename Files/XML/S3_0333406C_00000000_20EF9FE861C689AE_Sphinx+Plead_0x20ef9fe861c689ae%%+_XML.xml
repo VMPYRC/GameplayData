@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kRequiredMeditationTime value="20">
+      <!--Range:  0+  Description:  The time, in Sim minutes, the Sim has to meditate for before he is enraptured-->
+    </kRequiredMeditationTime>
+    <kTimeToAddToMummysCurseBuff value="240">
+      <!--Range:  0+  Description:  The time, in Sim minutes, to add to the Mummy's Curse buff when the plead is successful-->
+    </kTimeToAddToMummysCurseBuff>
+    <kTimeToWaitToOpenDoor value="7">
+      <!--Range:  0+  Description:  The time to wait, in Sim minutes, to open the main door after the effects have played-->
+    </kTimeToWaitToOpenDoor>
+    <kWeatherOverride value="4">
+      <!--Range:  0+  Description:  The value that determines the weather conditions during the interaction-->
+    </kWeatherOverride>
+    <kWeatherOverrideTransitionTime value="2.5">
+      <!--Range:  0+  Description:  The time it takes for the weather to transiation back and forth the different states-->
+    </kWeatherOverrideTransitionTime>
+    <kWeatherOverrideTimeout value="15">
+      <!--Range:  0+  Description:  The time, in Sim minutes, after which the weather returns to its normal state-->
+    </kWeatherOverrideTimeout>
+  </Current_Tuning>
+</base>

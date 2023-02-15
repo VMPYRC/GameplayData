@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kMinDistanceFromPeepingSim value="1">
+      <!--Minimum distance between you and the ungreeted sim 'Looking into Window'. Positive float.-->
+    </kMinDistanceFromPeepingSim>
+    <kMaxDistanceFromPeepingSim value="1.5">
+      <!--Maximum distance between shooing sim and the ungreeted sim that is 'Looking into Window'. Positive float just above kMinDistanceFromPeepingSim-->
+    </kMaxDistanceFromPeepingSim>
+    <kMinConeDistanceBetweenSimAndWindow value="0.25">
+      <!--Minimum distance between a sim and the window with which he/she is interacting. Positive float.-->
+    </kMinConeDistanceBetweenSimAndWindow>
+    <kMaxConeDistanceBetweenSimAndWindow value="1.25">
+      <!--Maximum distance between a sim and the window with which he/she is interacting. Positive float. At least greater than its min counterpart.-->
+    </kMaxConeDistanceBetweenSimAndWindow>
+    <kConeAngleToViewWindow value="45">
+      <!--Angle of the cone in front of the window. Positive float between 0 and 180.-->
+    </kConeAngleToViewWindow>
+    <kLookAtPriorityToLookOutOfWindow value="30">
+      <!--Range: 0 to 100. Description: How important to look at a Window when performing the autonomous interaction 'Look out of window'-->
+    </kLookAtPriorityToLookOutOfWindow>
+    <kLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="0">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <DefaultInteractionLookAtThreshold value="45">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </kLookAtTuning>
+    <kSpreadFrequency value="45">
+      <!--Length in minutes before trying to spread to more windows-->
+    </kSpreadFrequency>
+    <kSmolderTime value="15">
+      <!--Length in minutes of smolder before real fire starts.-->
+    </kSmolderTime>
+    <kExtinguishTimeForSmolder value="5">
+      <!--Length in minutes of time before smoldering fire is extinguished.-->
+    </kExtinguishTimeForSmolder>
+    <kExtinguishTimeForFire value="15">
+      <!--Length in minutes of time before full fire is extinguished.-->
+    </kExtinguishTimeForFire>
+    <kMinExtinguishDistance value="3">
+      <!--Description:  Min Distance sim must be to extinguish a fire-->
+    </kMinExtinguishDistance>
+    <kMaxExtinguishDistance value="5">
+      <!--Description:  Max Distance sim must be to extinguish a fire-->
+    </kMaxExtinguishDistance>
+    <kConeAngle value="65">
+      <!--Range: degrees  Description:  Cone Angle Sim must be to extinguish a large fire-->
+    </kConeAngle>
+    <kMinTillExtinguish value="15">
+      <!--Description:  Minutes till Window Fire goes out after attempting to extinguish fire-->
+    </kMinTillExtinguish>
+    <kPlayHighAnimation value="2">
+      <!--Range:  float  Description:  Height to start high extinguish animations-->
+    </kPlayHighAnimation>
+    <kMinHeightForPawsOnWall value="0.65">
+      <!--Height at which pets will put paws on the wall when performing look out window.  Make sure this is high enough that pets do not put their paws on the window itself.-->
+    </kMinHeightForPawsOnWall>
+    <kMaxHeightForPawsOnWall value="1.15">
+      <!--Max height at which pets will put paws on the wall when performing look out window.  Make sure this is low enough that pets could plausibly look out the window.-->
+    </kMaxHeightForPawsOnWall>
+    <kMaxDepthForPawsOnWall value="0.5">
+      <!--Max distance that window comes out of the wall at which pets will put paws on the wall when performing look out window.  Make sure this is low enough to exclude being on the wrong side of window that comes out of the wall (like a bay window) such that the pet's head might clip with the window.-->
+    </kMaxDepthForPawsOnWall>
+    <kInteractionScoreMultiplierPawsOnWall value="1.0">
+      <!--Autonomy score multiplier for windows that are low enough for pets to put their paws on the wall.  This is to encourage them to choose these windows over the higher up windows.-->
+    </kInteractionScoreMultiplierPawsOnWall>
+    <kInteractionScoreMultiplierPawsOnWallNotAllowed value="0.5">
+      <!--Autonomy score multiplier for windows that are too high for pets to put their paws on the wall.  This is to discourage pets from choosing higher up windows.-->
+    </kInteractionScoreMultiplierPawsOnWallNotAllowed>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kChanceForParanoidSimToWanderAround value="0.75">
+      <!--This is the chance for a sim to be deciding another place to stand somewhere around the window. Positive float between 0 and 1.-->
+      <!--deprecated on: 4/18/2008 4:36:09 PM-->
+    </kChanceForParanoidSimToWanderAround>
+  </Deprecated_Tuning>
+</base>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kBeginnerSimScoreChances value="27, 35, 23, 10, 3, 1, 1">
+      <!--Description:  The chances that a sim with an Arcade skill of 0 would land a ball in each hole. The first index is a miss. The last index is 10,000 points.-->
+    </kBeginnerSimScoreChances>
+    <kProfessionalSimScoreChances value="1, 4, 5, 25, 30, 20, 6">
+      <!--Description:  The chances that a sim with an Arcade skill of 10 would land a ball in each hole. The first index is a miss. The last index is 10,000 points.-->
+    </kProfessionalSimScoreChances>
+    <kScoreIndicatorValues value="7500, 15000, 22500, 30000, 40000">
+      <!--Description:  These are the values at which the score indicator for the game will increase the number of lights that are lit up.-->
+    </kScoreIndicatorValues>
+    <kScoreForSuccess value="12000, 14000, 16000, 18000, 20000, 23000, 26000, 28000, 30000, 33000, 36000">
+      <!--Description:  These values indicate the score that a sim must meet (based on skill levels 0-10) in order to be "Successful" in the game.-->
+    </kScoreForSuccess>
+    <kTimeToWaitToEvict value="15">
+      <!--Time to wait to evict a lower priority Sim from this object, in Sim minutes-->
+    </kTimeToWaitToEvict>
+    <kMaxTimeToPlay value="120">
+      <!--After this amount of time a Sim will not begin a new game, in Sim minutes-->
+    </kMaxTimeToPlay>
+    <kNumTimesToThrowBalls value="10">
+      <!--Number of balls to play per interaction-->
+    </kNumTimesToThrowBalls>
+    <kCostToOperate value="10">
+      <!--Cost to play a game of kNumTimesToThrowBalls balls-->
+    </kCostToOperate>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kPercentReductionForActiveSpots value="0.33">
+      <!--(1+) Time reduction applied to the expected time it takes to catch a fish at the current spot.-->
+    </kPercentReductionForActiveSpots>
+    <kPercentVarianceOfCatchTime value="0.25">
+      <!--(0-1) The variance in time a spot may have.  If it takes 60 mins avg. and you put 25% it will take 45-75 to catch a fish.-->
+    </kPercentVarianceOfCatchTime>
+    <kUnknownChanceOfCatchToShowTns value="0.81">
+      <!--If your chance of catching no fish at this spawner is greater than this value a TNS will be shown.-->
+    </kUnknownChanceOfCatchToShowTns>
+    <kPercentTimeReductionAnglerCatchFish value="0.85">
+      <!--Range: 0-1, Percent of original time needed to catch a fish for an angler.-->
+    </kPercentTimeReductionAnglerCatchFish>
+    <kPercentTimeReductionFishermanCatchFish value="0.6">
+      <!--Range: 0-1, Percent of original time needed to catch a fish for a fisherman.-->
+    </kPercentTimeReductionFishermanCatchFish>
+    <kPercentLostBaitBelowSkillLevel value="0.15">
+      <!--Percent effectiveness lost for bait used below req level for a fish per level below the req. (0-1)-->
+    </kPercentLostBaitBelowSkillLevel>
+    <kMultiplierBaitGives value="12">
+      <!--Multiplier bait gives for chance of catching a fish.-->
+    </kMultiplierBaitGives>
+    <kNothingMultiplierWhenUsingBait value=".75">
+      <!--Range:  0 - 1  Description:  Multiplier to chance of nothing caught when fishing with bait.-->
+    </kNothingMultiplierWhenUsingBait>
+    <kCatchMultiplierWhenUsingBait value="1">
+      <!--Range:  0 - 1  Description:  Multiplier to chance of cathcing a fish who does not eat bait.-->
+    </kCatchMultiplierWhenUsingBait>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

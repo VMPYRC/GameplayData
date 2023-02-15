@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSkillLevelToAppreciate value="5">
+      <!--Skill level at which to start applying appreciation value-->
+    </kSkillLevelToAppreciate>
+    <kAppreciationMultiplierForDeadSims value="2">
+      <!--Multiplier applied to daily appreciation if the painter is Dead-->
+    </kAppreciationMultiplierForDeadSims>
+    <kBonusForPaintersDeath value="930">
+      <!--Number of Simoleons to add to painting value when the painter dies-->
+    </kBonusForPaintersDeath>
+    <kBonusMultiplierForPortraitPainting value="1.4">
+      <!--Multipler applied to overall value if the painting is a portrait.-->
+    </kBonusMultiplierForPortraitPainting>
+    <kBonusMultiplierForBrilliantPainting value="1.25">
+      <!--Multipler applied to overall value if the painting is Brilliant.-->
+    </kBonusMultiplierForBrilliantPainting>
+    <kBonusMultiplierForMasterpiecePainting value="1.5">
+      <!--Multipler applied to overall value if the painting is a Masterpiece.-->
+    </kBonusMultiplierForMasterpiecePainting>
+    <kMinDistanceToView value="2">
+      <!--Minimum Distance at which the Sim will watch the painting. Positive float.-->
+    </kMinDistanceToView>
+    <kMaxDistanceToView value="3">
+      <!--Maximum Distance at which the Sim will watch the painting. Positive float.-->
+    </kMaxDistanceToView>
+    <kLookAtTuning>
+      <SlotNameHashToLookAt value="">
+        <!--ID of slot to look at (leave string empty for default LookAt slot)-->
+      </SlotNameHashToLookAt>
+      <LookAtInterestingness value="10">
+        <!--Interestingness score (from 0 - 100) for looking at this type of object (this *must* be non-zero if you want the object to be added to the Room's LookAt list). (This can be overridden by the script's GetInterestingness function).-->
+      </LookAtInterestingness>
+      <DefaultInteractionLookAtThreshold value="-1">
+        <!--The default look-at threshold (-1 to ignore or a nonnegative number) for interactions on this object.  If set, a Sim will only look at other objects if that object's look-at score is above this limit.  45 (moving sims) and 145 (sims entering the room) are common values.-->
+      </DefaultInteractionLookAtThreshold>
+    </kLookAtTuning>
+  </Current_Tuning>
+</base>

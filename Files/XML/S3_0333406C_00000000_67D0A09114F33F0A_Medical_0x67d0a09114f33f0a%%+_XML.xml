@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceOfBeeperGoingOff value="0.4">
+      <!--This is the chance that at the end of the day a Sim will have a beeper go off before the next workday.  The square route of this is the chance that the Sim will even receive a beeper, and then again the chance that the beeper will go off.-->
+    </kChanceOfBeeperGoingOff>
+    <kChanceOfBeeperGoingOffAgain value="0.1">
+      <!--This is the chance the beeper goes off a second time after the first, and each time after that-->
+    </kChanceOfBeeperGoingOffAgain>
+    <kLevelGetBeeper value="4">
+      <!--The career level the Sim starts getting beeper events-->
+    </kLevelGetBeeper>
+    <kLevelLoseBeeper value="11">
+      <!--The career level the Sim stops getting beeper events again-->
+    </kLevelLoseBeeper>
+    <kBeeperDuration value="3">
+      <!--How long the Sim needs to work when beeped to go to work-->
+    </kBeeperDuration>
+    <kLevelToGiveMedicalAdvice value="4">
+      <!--Range: Positive integer.  Description:  Career level at which a Sim in the Medical career can 'Give Medical Advice'-->
+    </kLevelToGiveMedicalAdvice>
+    <kMoodEffectOfMedicalAdvice value="10">
+      <!--Range: Positive floats.  Description:  How much this advice contributes to the final mood contribution of the pregnant target Sim.-->
+    </kMoodEffectOfMedicalAdvice>
+    <kLevelToGiveGoodMedicalAdvice value="5">
+      <!--Range: Positive integer.  Description:  Career level at which a Sim in the Medical career can 'Give Good Medical Advice'-->
+    </kLevelToGiveGoodMedicalAdvice>
+    <kMoodEffectOfGoodMedicalAdvice value="16">
+      <!--Range: Positive floats.  Description:  How much this advice contributes to the final mood contribution of the pregnant target Sim.-->
+    </kMoodEffectOfGoodMedicalAdvice>
+    <kLevelToGiveGreatMedicalAdvice value="7">
+      <!--Range: Positive integer.  Description:  Career level at which a Sim in the Medical career can 'Give Great Medical Advice'-->
+    </kLevelToGiveGreatMedicalAdvice>
+    <kMoodEffectOfGreatMedicalAdvice value="22">
+      <!--Range: Positive floats.  Description:  How much this advice contributes to the final mood contribution of the pregnant target Sim.-->
+    </kMoodEffectOfGreatMedicalAdvice>
+    <kLevelToGiveAmazingMedicalAdvice value="9">
+      <!--Range: Positive integer.  Description:  Career level at which a Sim in the Medical career can 'Give Amazing Medical Advice'-->
+    </kLevelToGiveAmazingMedicalAdvice>
+    <kMoodEffectOfAmazingMedicalAdvice value="30">
+      <!--Range: Positive floats.  Description:  How much this advice contributes to the final mood contribution of the pregnant target Sim.-->
+    </kMoodEffectOfAmazingMedicalAdvice>
+    <kLevelToDetermineGenderOfBaby value="5">
+      <!--Range: Positive integer.  Description:  Career level at which a Sim in the Medical career can 'Determine Gender of Baby' on a Pregnant Sim. If you change this value, make sure to also change the 'Determine Gender of Baby' Opportunity if needed.-->
+    </kLevelToDetermineGenderOfBaby>
+    <kHoursBeforeWorkForValidBeeperEvent value="4">
+      <!--Range:  Sim hours.  Description:  Maximum number of hours before work where the beeper event will still be valid.  Ex:  If this is tuned to 5, we ignore beeper events that fire when it's less than 5 hours to the normal working hours.-->
+    </kHoursBeforeWorkForValidBeeperEvent>
+    <kChanceOfMedicalEmergency value="0.2">
+      <!--This is the chance that when entering a community lot that there will be a medical emergency-->
+    </kChanceOfMedicalEmergency>
+    <kMinimumDelayBeforeMedicalEmergency value="1">
+      <!--Minumum time (in hours) before medical emergency occurs-->
+    </kMinimumDelayBeforeMedicalEmergency>
+    <kMaximumDelayBeforeMedicalEmergency value="2">
+      <!--Maximum time (in hours)  before medical emergency occurs-->
+    </kMaximumDelayBeforeMedicalEmergency>
+    <kMinimumCareerLevelForEmergency value="2">
+      <!--Career level at which medical emergencies will start occuring-->
+    </kMinimumCareerLevelForEmergency>
+    <kMinLevelForFollowupByPhone value="3">
+      <!--Career level at which followups by phone become available-->
+    </kMinLevelForFollowupByPhone>
+    <kMinLevelForFollowupInPerson value="3">
+      <!--Career level at which followups in person become available-->
+    </kMinLevelForFollowupInPerson>
+    <kMinHoursBetweenFollowups value="20">
+      <!--hours between followups-->
+    </kMinHoursBetweenFollowups>
+    <kPerformanceForPhoneFollowup value="7">
+      <!--performance boost for phone followup-->
+    </kPerformanceForPhoneFollowup>
+    <kPerformanceForInPersonFollowup value="10">
+      <!--performance boost for house call-->
+    </kPerformanceForInPersonFollowup>
+    <kMinLevelForExperimentalDrugs value="4">
+      <!--Career level at which can give/try experimental drugs-->
+    </kMinLevelForExperimentalDrugs>
+    <kMinHoursBetweenExperimentalDrugs value="44">
+      <!--hours between followups-->
+    </kMinHoursBetweenExperimentalDrugs>
+    <kFollowUpOkChance value="0.2">
+      <!--chance of being ok during housecall-->
+    </kFollowUpOkChance>
+    <kWeightOfExperimentalEffects value="5, 10, 1, 3, 4, 4, 2">
+      <!--Weights of various results for giving experimental drugs- restore, cheers, love, shrug, barf, passout, flame-->
+    </kWeightOfExperimentalEffects>
+    <kLevelExperimentalDrugsAvailable value="4">
+      <!--Level that using and giving experimental drugs is available-->
+    </kLevelExperimentalDrugsAvailable>
+    <kFulfillMotivesRelationshipChange value="30">
+      <!--Relationship change from experimental drugs result fulfill motives-->
+    </kFulfillMotivesRelationshipChange>
+    <kCheerRelationshipChange value="10">
+      <!--Relationship change from experimental drugs result fulfill motives-->
+    </kCheerRelationshipChange>
+    <kThrowupRelationshipChange value="-5">
+      <!--Relationship change from experimental drugs result fulfill motives-->
+    </kThrowupRelationshipChange>
+    <kKnockOutRelationshipChange value="-5">
+      <!--Relationship change from experimental drugs result fulfill motives-->
+    </kKnockOutRelationshipChange>
+    <kOnFireRelationshipChange value="-20">
+      <!--Relationship change from experimental drugs result fulfill motives-->
+    </kOnFireRelationshipChange>
+    <kMinMoneyReceivedForExperimentalDrugs value="50">
+      <!--Min money awarded for testing experimental drugs-->
+    </kMinMoneyReceivedForExperimentalDrugs>
+    <kMaxMoneyReceivedForExperimentalDrugs value="150">
+      <!--Max money awarded for testing experimental drugs-->
+    </kMaxMoneyReceivedForExperimentalDrugs>
+    <kCareerPerformanceExperimentalDrugs value="15">
+      <!--Career Performance from giving experimental drugs-->
+    </kCareerPerformanceExperimentalDrugs>
+    <kExperimentalTimeToPassOut value="10">
+      <!--Time to pass out from taking experimental drugs-->
+    </kExperimentalTimeToPassOut>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kLevelGetMedJournal value="4">
+      <!--deprecated on: 8/16/2007 2:44:37 PM-->
+    </kLevelGetMedJournal>
+  </Deprecated_Tuning>
+</base>

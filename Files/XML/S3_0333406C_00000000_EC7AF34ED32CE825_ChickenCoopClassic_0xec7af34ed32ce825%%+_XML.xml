@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeToPlayWithChicks value="10">
+      <!--Time in sim hours to play with baby chicks.-->
+    </kTimeToPlayWithChicks>
+    <kEggsNumMin value="2">
+      <!--Number of eggs to give at minimum-->
+    </kEggsNumMin>
+    <kEggsNumMax value="6">
+      <!--Number of eggs to give at maximum-->
+    </kEggsNumMax>
+    <kEggsChanceGoldenEgg value="5">
+      <!--Chance of any egg being a golden egg-->
+    </kEggsChanceGoldenEgg>
+    <kEggsChanceRottenEgg value="5">
+      <!--Chance the egg is rotten-->
+    </kEggsChanceRottenEgg>
+    <kEggQualityWeights value="0, 0, 0, 1, 2, 4, 6, 8, 6, 4, 2">
+      <!--Weighted chance to get an egg of each quality: Horrifying, Putrid, Foul, Bad, Neutral, Nice, VeryNice, Great, Excellent, Outstanding, Perfect-->
+    </kEggQualityWeights>
+    <kArgueChance value="0">
+      <!--Chance that telling joke will result in arguing instead.-->
+    </kArgueChance>
+    <kEggsBonusChanceAfterChatting value="5">
+      <!--Bonus to chance of getting golden egg after chatting-->
+    </kEggsBonusChanceAfterChatting>
+    <kJokeChanceEnlightenmentBuff value="70">
+      <!--Chance that telling joke will give enlightenment buff.-->
+    </kJokeChanceEnlightenmentBuff>
+    <kFightOddsWinning value="60">
+      <!--Odds of winning a fight against the evil chicken-->
+    </kFightOddsWinning>
+    <kFightCooldownHours value="2">
+      <!--Hours between fights on a single chicken coop-->
+    </kFightCooldownHours>
+    <kJokeNumLabels value="11">
+      <!--Number of joke labels for the interaction-->
+    </kJokeNumLabels>
+    <kEggMorningSpawnHour value="5">
+      <!--Time to spawn morning eggs.-->
+    </kEggMorningSpawnHour>
+    <kEggEveningSpawnHour value="17">
+      <!--Time to spawn evening eggs.-->
+    </kEggEveningSpawnHour>
+    <kEggsSkippedCollectionsToGenerateChicks value="3">
+      <!--Number of times to skip collection before eggs hatch-->
+    </kEggsSkippedCollectionsToGenerateChicks>
+    <kHoursForChicksToGrowUp value="48">
+      <!--Hours for chicks to grow up.-->
+    </kHoursForChicksToGrowUp>
+    <kChickenFeedCost value="5">
+      <!--Cost of chicken food when feeding chickens-->
+    </kChickenFeedCost>
+    <kExoticEggHoursBeforeRotting value="12">
+      <!--Hours to sit in the inventory before exotic egg becomes putrid egg-->
+    </kExoticEggHoursBeforeRotting>
+    <kExoticEggHarvestFunBonus value="30">
+      <!--Fun bonus to give the sim when they randomly harvest a rare egg-->
+    </kExoticEggHarvestFunBonus>
+    <kRottenEggHygieneChange value="-30">
+      <!--Hygiene change to give the sim when they randomly harvest a rotten egg-->
+    </kRottenEggHygieneChange>
+  </Current_Tuning>
+</base>

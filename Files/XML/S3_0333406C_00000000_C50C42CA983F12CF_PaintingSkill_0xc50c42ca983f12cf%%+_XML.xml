@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kChanceBrilliant value="20">
+      <!--Range 0-100: Percent chance of painting a brilliant painting once at tunable level-->
+    </kChanceBrilliant>
+    <kChanceMasterpiece value="10">
+      <!--Range 0-100: Percent chance of painting a masterpiece painting once at tunable level.-->
+    </kChanceMasterpiece>
+    <kLevelCanMakeBrilliant value="6">
+      <!--Skill level at which sim starts having a chance to paint a brilliant painting-->
+    </kLevelCanMakeBrilliant>
+    <kLevelCanMakeMasterpiece value="9">
+      <!--Skill level at which sim starts having a chance to paint a masterpiece painting-->
+    </kLevelCanMakeMasterpiece>
+    <kNumPaintingsNeededForBrushmaster value="30">
+      <!--Number of paintings sim needs to paint to get Brushmaster achievement-->
+    </kNumPaintingsNeededForBrushmaster>
+    <kNumMasterpiecesNeededForMasterPainter value="5">
+      <!--Number of masterpiece paintings sim needs to paint to get Master Painter achievement-->
+    </kNumMasterpiecesNeededForMasterPainter>
+    <kChanceBrilliantForProficientPainter value="40">
+      <!--Range 0-100: Percent chance of painting a brilliant painting once at tunable level-->
+    </kChanceBrilliantForProficientPainter>
+    <kChanceMasterpieceForProficientPainter value="35">
+      <!--Range 0-100: Percent chance of painting a masterpiece painting once at tunable level.-->
+    </kChanceMasterpieceForProficientPainter>
+    <kNumBrilliantNeededForProficientPainter value="6">
+      <!--Number of brilliant paintings sim needs to paint to get Prolific Painter achievement-->
+    </kNumBrilliantNeededForProficientPainter>
+    <kPaintingStyleUnlockLevel value="6">
+      <!--The skill level at which extra painting styles become available via the kTraitsThatUnlock* tunables.-->
+    </kPaintingStyleUnlockLevel>
+    <kBuffsThatForceSomberPaintings value="Desolate, Disappointed, HeartBroken, LostAFriend, Mourning, Bored, Embarrassed, FeelingUnlucky, Humiliated, Lonely, RejectedProposal, Upset, BuzzCrashed" />
+    <kBuffsThatForceInsanePaintings value="" />
+    <kBuffsThatForceGeniusPaintings value="Buzzed, DivineMeal, Intrigued, HonorStudent, LearningQuickly, Tranquil" />
+    <kTraitsThatForceSomberPaintings value="CantStandArt, Grumpy" />
+    <kTraitsThatForceInsanePaintings value="OverEmotional, Insane, Neurotic, NeverNude" />
+    <kTraitsThatForceGeniusPaintings value="Genius" />
+    <kTraitsThatUnlockSomberPaintings value="Artistic, Grumpy, ArtisticAlgorithmsChip, AbilityToLearnChip" />
+    <kTraitsThatUnlockInsanePaintings value="Artistic, Insane, ArtisticAlgorithmsChip, AbilityToLearnChip" />
+    <kTraitsThatUnlockGeniusPaintings value="Artistic, Genius, ArtisticAlgorithmsChip, AbilityToLearnChip" />
+    <kSpecialPaintingStyleUnlockStyles value="PaintSomber">
+      <!--List of painting styles that are unlocked at particular levels regardless of a Sim's traits.-->
+    </kSpecialPaintingStyleUnlockStyles>
+    <kSpecialPaintingStyleUnlockLevels value="9">
+      <!--List of skill levels at which the kSpecialPaintingStyleUnlockStyles are unlocked.-->
+    </kSpecialPaintingStyleUnlockLevels>
+  </Current_Tuning>
+  <Deprecated_Tuning />
+</base>

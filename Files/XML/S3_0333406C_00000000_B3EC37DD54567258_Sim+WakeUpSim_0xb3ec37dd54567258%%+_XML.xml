@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kNormalPetWakeUpTimeRange value="6, 9">
+      <!--2 Floats in range 0 to 24.  The hours of the morning between which normal pets autonomously wake up sims.-->
+    </kNormalPetWakeUpTimeRange>
+    <kGeniusPetWakeUpTimeRange value="1.5, 0">
+      <!--2 Floats in range 0 to 24.  How many hours in advance of the sim's normal wake up time a genius pet will wake them up.  IMPORTANT! Put the larger number first.-->
+    </kGeniusPetWakeUpTimeRange>
+    <kCluelessPetWakeUpTimeRange value="11, 5">
+      <!--2 Floats in range 0 to 24.  The hours of the night between which clueless pets autonomously wake up sims.-->
+    </kCluelessPetWakeUpTimeRange>
+    <kRequiredLikingForAutonomousWakeUp value="40">
+      <!--Float in range -100 to 100.  The minimum LTR Liking between a sim and pet for the pet to autonomously wake the sim up.-->
+    </kRequiredLikingForAutonomousWakeUp>
+    <kRequiredEnergyForSimToWakeUp value="-60">
+      <!--Float in range 0 to 100.  The minimum energy the sim must have to be woken up at all.-->
+    </kRequiredEnergyForSimToWakeUp>
+    <kAmountOfEnergyUnderWhichSimWillShooPet value="40">
+      <!--Float in range 0 to 100.  If the sim has less than this much energy they will Shoo the pet after they wake up.-->
+    </kAmountOfEnergyUnderWhichSimWillShooPet>
+    <kPetWaitTimeInMinutes value="15">
+      <!--Positive float.  The number of sim minutes the pet waits after making noise to wake up the sim.-->
+    </kPetWaitTimeInMinutes>
+    <kAutonomyCooldownSimHours value="12">
+      <!--Positive float.  The cooldown between autonomous wake ups in sim hours.-->
+    </kAutonomyCooldownSimHours>
+  </Current_Tuning>
+</base>

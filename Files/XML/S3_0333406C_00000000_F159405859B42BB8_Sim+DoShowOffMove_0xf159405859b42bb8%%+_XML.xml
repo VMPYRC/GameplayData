@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kWeightingForHatesKidsTrait value="-40">
+      <!--Weighting for a sim that has this trait. Negative value equals percentage decrease in chance to react favorably. Note: All of these values are added together with the base chance of 50%-->
+    </kWeightingForHatesKidsTrait>
+    <kWeightingForGoodTrait value="20">
+      <!--Weighting for a sim that has this trait. Positive value equals percentage increase in chance to react favorably.-->
+    </kWeightingForGoodTrait>
+    <kWeightingForFamilyOrientedTrait value="30">
+      <!--Weighting for a sim that has this trait. Positive value equals percentage increase in chance to react favorably.-->
+    </kWeightingForFamilyOrientedTrait>
+    <kWeightingForMeanSpiritedTrait value="-10">
+      <!--Weighting for a sim that has this trait. Negative value equals percentage decrease in chance to react favorably.-->
+    </kWeightingForMeanSpiritedTrait>
+    <kWeightingForEvilTrait value="-20">
+      <!--Weighting for a sim that has this trait. Negative value equals percentage decrease in chance to react favorably.-->
+    </kWeightingForEvilTrait>
+    <kWeightingForDislikesChildrenTrait value="-40">
+      <!--Weighting for a sim that has this trait. Negative value equals percentage decrease in chance to react favorably.-->
+    </kWeightingForDislikesChildrenTrait>
+    <kWeightingBonusForParents value="50">
+      <!--Weighting for when the reacting sim is a parent. Positive value equals percentage increase in chance to react favorably.-->
+    </kWeightingBonusForParents>
+    <kWeightingBonusForSameHousehold value="45">
+      <!--Weighting for when the reacting sim is in the same household (but not a parent). Positive value equals percentage increase in chance to react favorably.-->
+    </kWeightingBonusForSameHousehold>
+  </Current_Tuning>
+</base>

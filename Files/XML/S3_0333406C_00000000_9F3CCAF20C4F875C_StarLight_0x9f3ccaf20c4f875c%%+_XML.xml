@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSimMinutesToLEDChange value="5">
+      <!--Range:  Sim minutes  Description:  Number of Sim minutes before the LED sequence changes-->
+    </kSimMinutesToLEDChange>
+    <kIntensityNormal value="1">
+      <!--The light dimmer value for Normal.-->
+    </kIntensityNormal>
+    <kSimMinutesToLEDColorChange value="5">
+      <!--Range:  Sim minutes  Description:  Number of Sim minutes before the LED color changes-->
+    </kSimMinutesToLEDColorChange>
+    <kSimMinutesToColorChange value="5">
+      <!--Range:  Sim minutes  Description:  Number of Sim minutes before the Star light color changes-->
+    </kSimMinutesToColorChange>
+  </Current_Tuning>
+</base>

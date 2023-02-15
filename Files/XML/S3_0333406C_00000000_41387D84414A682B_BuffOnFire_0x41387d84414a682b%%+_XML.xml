@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kTimeBetweenFireSpreadChecks value="120">
+      <!--Time in Sim seconds between fire spread checks-->
+    </kTimeBetweenFireSpreadChecks>
+    <kChanceSimSpreadsFire value="0">
+      <!--Chance Sim spreads fire.-->
+    </kChanceSimSpreadsFire>
+    <kSingedBuffTimeMultiplier value="0.5">
+      <!--Range:  Float below 1.0f.  Description:  Multiplier on the time for timeout of the 'On Fire' buff if the Sim gets it while already Singed.-->
+    </kSingedBuffTimeMultiplier>
+    <kMummyTimeoutLength value="45">
+      <!--On Fire timeout length in minutes for a mummy.-->
+    </kMummyTimeoutLength>
+  </Current_Tuning>
+  <Deprecated_Tuning>
+    <kBraveSimExtinguishTime value="20">
+      <!--Range: Positive floats.  Description:  Number of Sim minutes that a Brave Sim will put out fires before running to put self out.-->
+      <!--deprecated on: 3/31/2008 2:36:49 PM-->
+    </kBraveSimExtinguishTime>
+  </Deprecated_Tuning>
+</base>

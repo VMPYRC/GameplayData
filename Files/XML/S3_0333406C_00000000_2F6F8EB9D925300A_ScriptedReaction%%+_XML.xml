@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<ScriptedReaction>
+<ReactionList>
+  <ScriptedReaction></ScriptedReaction>
+  <Level>Low</Level>
+  <WitnessDistance>10</WitnessDistance>
+ </ReactionList>
+<ReactionList>
+  <ScriptedReaction>SmashDollhouse</ScriptedReaction>
+  <Level>Medium</Level>
+ </ReactionList>
+<PreReactionWitness>
+  <ScriptedReaction></ScriptedReaction>
+  <Trait>Unknown</Trait>
+  <Age></Age>
+  <ReactionTypes>None</ReactionTypes>
+  <ThoughtBalloon>Actor, Target</ThoughtBalloon>
+ </PreReactionWitness>
+<PreReactionWitness>
+  <ScriptedReaction>SmashDollhouse</ScriptedReaction>
+  <Age>C</Age>
+  <ReactionTypes>Cry</ReactionTypes>
+  <ThoughtBalloon>Actor, Target</ThoughtBalloon>
+ </PreReactionWitness>
+<PreReactionWitness>
+  <Trait>OverEmotional</Trait>
+  <ReactionTypes>Cry</ReactionTypes>
+  <ThoughtBalloon>Actor, Target</ThoughtBalloon>
+ </PreReactionWitness>
+<PreReactionWitness>
+  <Trait>Evil</Trait>
+  <ReactionTypes>EvilLaugh</ReactionTypes>
+  <ThoughtBalloon>Actor, Target</ThoughtBalloon>
+ </PreReactionWitness>
+<PreReactionWitness>
+  <Trait>FamilyOriented</Trait>
+  <ReactionTypes>Angry</ReactionTypes>
+  <ThoughtBalloon>Actor, Target</ThoughtBalloon>
+ </PreReactionWitness>
+<PreReactionWitness>
+  <ReactionTypes>Shocked</ReactionTypes>
+  <ThoughtBalloon>Actor, Target</ThoughtBalloon>
+ </PreReactionWitness>
+<PostReactionActor>
+  <ScriptedReaction></ScriptedReaction>
+  <Trait>Unknown</Trait>
+  <Age></Age>
+  <ReactionTypes>None</ReactionTypes>
+  <ThoughtBalloon></ThoughtBalloon>
+ </PostReactionActor>
+<PostReactionActor>
+  <ScriptedReaction>SmashDollhouse</ScriptedReaction>
+  <Trait>Evil</Trait>
+  <ReactionTypes>EvilLaugh</ReactionTypes>
+ </PostReactionActor>
+<PostReactionActor>
+  <Trait>Good, FamilyOriented</Trait>
+  <ReactionTypes>Cry</ReactionTypes>
+ </PostReactionActor>
+<PostReactionWitness>
+  <ScriptedReaction></ScriptedReaction>
+  <Trait>Unknown</Trait>
+  <Age></Age>
+  <SocialWithActor></SocialWithActor>
+  <InteractionOnTarget></InteractionOnTarget>
+ </PostReactionWitness>
+<PostReactionWitness>
+  <ScriptedReaction>SmashDollhouse</ScriptedReaction>
+  <Age>C</Age>
+  <SocialWithActor>Insult</SocialWithActor>
+ </PostReactionWitness>
+<PostReactionWitness>
+  <Trait>FamilyOriented</Trait>
+  <SocialWithActor>Slap</SocialWithActor>
+ </PostReactionWitness>
+<PostReactionWitness>
+  <Trait>Evil</Trait>
+  <SocialWithActor>Praise</SocialWithActor>
+ </PostReactionWitness>
+<PostReactionWitness>
+  <Trait>Neat</Trait>
+  <InteractionOnTarget>Sims3.Gameplay.Objects.Toys.DollHouse+DisposeDollHouse+Definition,Sims3GameplayObjects</InteractionOnTarget>
+ </PostReactionWitness>
+</ScriptedReaction>

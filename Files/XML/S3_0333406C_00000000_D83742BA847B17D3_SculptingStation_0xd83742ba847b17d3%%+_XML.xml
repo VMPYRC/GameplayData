@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kSculptingTimePerStage value="20">
+      <!--Length of time to go between the different sculpture states (just started -> half gone -> mostly gone -> entirely gone)-->
+    </kSculptingTimePerStage>
+    <kSculptingGemMetalsOnFail value="FluoritePalmstone, Woohooium, Diamond, Emerald, Ruby, Tanzanite, Aqua, Smoky, Pink, Yellow, Rainbow, Crazy, Iron, Silver, Gold, Palladium, Plutonium, Alabaster, Turquoise, Jade, Lazuli, Citrine, Amethyst, Opal, Soulpeace, Geode, Septarian, Quartz, Tiberium, Mercury, Platinum, Copper, Mummitomium, Titanium, Iridium, Supernovium, Compendium">
+      <!--RockGemMetal types that are available (matches with the weight tunable)-->
+    </kSculptingGemMetalsOnFail>
+    <kSculptingGemMetalsOnFailWeights value="20, 20, 1, 3, 3, 3, 5, 5, 0.3, 4, 3, 2, 1, 2, 3, 0.3, 0.1, 1, 1, 1, 1, 1, 1, 0.4, 0.01, 1, 1, 1, 0.1, .4, 1, 1, 0.02, 0.3, 0.3, 0.1, 0.1">
+      <!--Weight for the specific metal/gem type to occur- pairs with kSculptingGemMetalsOnFail-->
+    </kSculptingGemMetalsOnFailWeights>
+    <kStoneGemMetalFailureChance value="0.4">
+      <!--Range:  0 - 1  Description:  Stone Chance of creating a gem or metal on fail-->
+    </kStoneGemMetalFailureChance>
+    <kStoneNothingFailureChance value="0.1">
+      <!--Range:  0 - 1  Description:  Stone Chance of getting nothing on fail-->
+    </kStoneNothingFailureChance>
+    <kStoneImmedSuccessChance value="0.1">
+      <!--Range:  0 - 1  Description:  Stone Chance of immediately getting the sculpture-->
+    </kStoneImmedSuccessChance>
+    <kIceNothingFailureChance value="0.1">
+      <!--Range:  0 - 1  Description:  Ice Chance of getting nothing on fail-->
+    </kIceNothingFailureChance>
+    <kIceImmedSuccessChance value="0.1">
+      <!--Range:  0 - 1  Description:  Ice Chance of immediately getting the sculpture-->
+    </kIceImmedSuccessChance>
+    <kTopiaryFailChance value="0.1">
+      <!--Range:  0 - 1  Description:  Topiary Chance of fail-->
+    </kTopiaryFailChance>
+    <kBlowtorchChanceOfFail value="0.1">
+      <!--Range:  0 - 1  Description:  Blowtorch Chance of fail-->
+    </kBlowtorchChanceOfFail>
+    <kSimChanceFailGoblin value="0.1">
+      <!--Range:  0 - 1  Description:  Sim sculpture chance of goblin-->
+    </kSimChanceFailGoblin>
+    <kSimChanceFailLowLOD value="0.0">
+      <!--Range:  0 - 1  Description:  Sim sculpture chance of force Low LOD-->
+    </kSimChanceFailLowLOD>
+    <kChanceLickIce value="0.1">
+      <!--Chance of liking ice when starting an ice sculpture-->
+    </kChanceLickIce>
+    <kChanceToTurnSculpture value="15">
+      <!--Chance for sim to turn sculpture every 10 sim minutes-->
+    </kChanceToTurnSculpture>
+    <kLTRDeltaForSculptingSim value="6">
+      <!--Range:  -100 - 100  Description:  The LTR and STC change when a sim sculpts another sim  - positive when successful, negative when failed-->
+    </kLTRDeltaForSculptingSim>
+    <kSTCDeltaForSculptingSim value="50">
+      <!--Range:  -100 - 100  Description:  The STC change when a sim sculpts another sim - positive when successful, negative when failed-->
+    </kSTCDeltaForSculptingSim>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kAgeThresholdJustNow value="0.02">
+      <!--Range:  0+  Description:  The maximum, in Sim days, for a memory age to be Just Now-->
+    </kAgeThresholdJustNow>
+    <kGroupingTimeSpan value="3">
+      <!--Range:  0+  Description:  The time span, in Sim minutes, that defines grouping for memories with priorities-->
+    </kGroupingTimeSpan>
+    <kTotalMemoriesTrophySilver value="50">
+      <!--Range:  0+  Description:  Number of total memories necessary to get the silver trophy-->
+    </kTotalMemoriesTrophySilver>
+    <kTotalMemoriesTrophyGold value="100">
+      <!--Range:  0+  Description:  Number of total memories necesssary to get the gold trophy-->
+    </kTotalMemoriesTrophyGold>
+    <kUniqueMemoriesTrophySilver value="35">
+      <!--Range:  0+  Description:  Number of unique memories necessary to get the silver trophy-->
+    </kUniqueMemoriesTrophySilver>
+    <kUniqueMemoriesTrophyGold value="75">
+      <!--Range:  0+  Description:  Number of unique memories necessary to get the gold trophy-->
+    </kUniqueMemoriesTrophyGold>
+    <kNumberOfMemoriesNecessaryForSharingTutorialette value="5">
+      <!--Range:  0+  Description:  The amount of memories necessary to trigger the Sharing lesson-->
+    </kNumberOfMemoriesNecessaryForSharingTutorialette>
+    <kMaximumNumberOfMemories value="300">
+      <!--Range:  0+  Description:  The maximum number of memories, including custom memories, per Sim-->
+    </kMaximumNumberOfMemories>
+    <kGracePeriodBeforeDeletion value="14">
+      <!--Range:  0+  Description:  The grace period, in Sim days, between death and losing memories for Sims-->
+    </kGracePeriodBeforeDeletion>
+  </Current_Tuning>
+</base>
